@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="knowledge\hiteffects.txt" original="knowledge\hiteffects.txt">
+    <unit id="::ElectroBoltChain" name="::ElectroBoltChain">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">1</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>There's a {0}% chance that original target is stunned for 1 turn, after which the electrical bolt jumps up to {1} times, each time dealing damage equal to {2}% of damage dealt to the previous target. It can hit the same target multiple times, but needs at least two targets to jump between.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ElectroBoltChainChance" name="::ElectroBoltChainChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>{0} chance to trigger the chain effect. When this happens there's a {1}% chance that the original target is stunned for 1 turn, after which the electrical bolt jumps up to {2} times, each time dealing damage equal to {3}% of damage dealt to the previous target. It can hit the same target multiple, but needs at least two targets to jump between.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::RustingAcidSplash" name="::RustingAcidSplash">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">3</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Applies Rusting debuff which reduces durability of all mechanical items in target's posession by {0} per stack each turn for {1}. Stacks {2} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

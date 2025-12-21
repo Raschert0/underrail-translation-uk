@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="dialogs\interfacing\dc-pp_powerconsole.txt" original="dialogs\interfacing\dc-pp_powerconsole.txt">
+    <unit id="=&gt;q1" name="=&gt;q1">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Arke Power Station Power Management Console
+
+Biocorp Dis Electronics
+
+Power station rated capacity: 300 MW
+Warning! Estimated turbine efficiency is extremely low! (&lt;10%)
+Turbine maintenance or replacement is necessary!
+Warning! Total electric supply capacity is extremely low! (&lt;5%)
+
+Current estimated capacity: &lt;10 MW::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q2" name="=&gt;q2">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q3" name="=&gt;q3">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Current power expenditure (%):
+
+Research Complex: $(context.loc_dc_labPower)%
+Tithonus Lab: 0%
+Mutagen Tanks A: $(context.loc_dc_mutagenPower)%
+Mutagen Tanks B: 0%
+Arke Power Station: $(context.loc_dc_arkePower)%
+Warehouse Block 1: 0%
+Warehouse Block 2: $(context.loc_dc_warehousePower)%
+BCAF - Detachment Hollow Earth: 0%
+Talos Outpost: $(context.loc_dc_facelessPower)%
+Caerus Residential Block: $(context.loc_dc_residentialPower)%
+Tartarus Maximum Security Prison: $(context.loc_dc_prisonPower)%
+South Elevator: 0%
+
+Current power available for allocation: $(context.loc_dc_TotalPower)%::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a4" name="=&gt;a4">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Power plant management::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q5" name="=&gt;q5">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Gas turbine 1 status: on
+Gas turbine 2 status: on
+
+Warning! Turbine maintenance or replacement is necessary!
+
+Steam turbine status: on
+Heat recovery steam generator (HRSG) status: on
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q6" name="=&gt;q6">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">12</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::HRSG supplementary burners: on
+
+Mode of operation: combined cycle (Manual config)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a7" name="=&gt;a7">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">14</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Back::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q8" name="=&gt;q8">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">16</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::HRSG supplementary burners: off
+
+Mode of operation: combined cycle (Auto config)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a9" name="=&gt;a9">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">18</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::[Electronics] Manually configure the combined-cycle system::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q10" name="=&gt;q10">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">20</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Optimizing gas turbine air-fuel mixture... Done.
+
+Engaging and configuring HRSG supplementary burners... Done.
+
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q11" name="=&gt;q11">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">22</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Verifying steam turbine status... Done.
+
+Optimizing supercondenser operation... Done.
+
+Manual configuration successful. Total net power gain: 51%::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q12" name="=&gt;q12">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">24</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Warning! Steam pressure reaching unacceptable levels!
+
+Reverting to default settings... 
+Disengaging HRSG supplementary burners... 
+Optimizing air-fuel mixture...
+
+Procedure completed! (52 errors logged)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a13" name="=&gt;a13">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">26</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Deallocate power from Arke security systems and assembly lines::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q14" name="=&gt;q14">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">28</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::This procedure will disable all security systems, including AMA lines, surveillance systems and turret defenses.
+
+Are you sure you want to proceed?::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a15" name="=&gt;a15">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">30</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Yes::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q16" name="=&gt;q16">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">32</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Disabling security systems...
+
+Turbine chamber security - security disabled!
+Office section - security disabled!
+Automated manufacturing and assembly - security disabled!
+IRIS Core - Error: Remote access is denied!
+
+Procedure completed with 1 error(s)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a17" name="=&gt;a17">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">34</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::No::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q18" name="=&gt;q18">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">36</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Procedure canceled::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a19" name="=&gt;a19">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">38</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Allocate power to Warehouse Block 2 (-5%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q20" name="=&gt;q20">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">40</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Power allocated successfully!::
+
+&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a21" name="=&gt;a21">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">42</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Deallocate power from Warehouse Block 2 (+5%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q22" name="=&gt;q22">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">44</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Power deallocated successfully!::
+
+&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a23" name="=&gt;a23">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">46</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Allocate power to Hollow Earth main research complex (-60%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a24" name="=&gt;a24">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">48</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Deallocate power from Hollow Earth main research complex (+60%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a25" name="=&gt;a25">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">50</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Allocate power to Mutagen Tanks A (-30%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a26" name="=&gt;a26">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">52</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Deallocate power from Mutagen Tanks A (+30%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a27" name="=&gt;a27">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">54</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Allocate power to Mutagen Tanks B *(Node 3 offline)*::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a28" name="=&gt;a28">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">56</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Allocate power to Caerus Residential Block (-40%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q29" name="=&gt;q29">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">58</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Power allocated successfully!::
+&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a30" name="=&gt;a30">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">60</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Deallocate power from Caerus Residential Block (+40%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a31" name="=&gt;a31">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">62</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Allocate power to Tartarus Maximum Security Prison *(Nodes 8 and 11 offline)*::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a32" name="=&gt;a32">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">64</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Allocate power to South Elevator *(Node 19 offline)*::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a33" name="=&gt;a33">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">66</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Allocate power to Talos Outpost *(Node 2 offline)*::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a34" name="=&gt;a34">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">68</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Exit::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

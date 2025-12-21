@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="knowledge\zonesecurity.txt" original="knowledge\zonesecurity.txt">
+    <unit id="::Uncontrolled" name="::Uncontrolled">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">1</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>- Setting traps or planting explosives near other characters might provoke them
+- Setting traps or planting explosives out of sight cannot be traced to you</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PartiallyControlled" name="::PartiallyControlled">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>- Setting traps or planting explosives near other characters might provoke them
+- If members of certain factions take damage from your traps or explosives they will automatically track it back to you and will turn hostile</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Controlled" name="::Controlled">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">3</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>- Setting traps or planting explosives near other characters might provoke them
+- If members of certain factions take damage from your traps or explosives they will automatically track it back to you and will turn hostile
+- If members of certain factions discover traps or explosives planted by you they will automatically track it back to you and will turn hostile</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CameraFootage" name="::CameraFootage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If you are spotted by the cameras in this zone, you might later trigger hostilities from certain factions if the footage is not promptly erased.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LeaveNoWitnesses" name="::LeaveNoWitnesses">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">5</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If you trigger hostilities with characters in this zone and leave the zone before disposing of the witnesses, the hostilities may propagate to the entire faction and even allied factions.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SavingDisabled" name="::SavingDisabled">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You cannot save the game while in this zone.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

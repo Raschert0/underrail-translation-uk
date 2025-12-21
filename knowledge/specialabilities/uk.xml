@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="knowledge\specialabilities.txt" original="knowledge\specialabilities.txt">
+    <unit id="::Stealth" name="::Stealth">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">1</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You enter stealth mode which allows you to hide from others, but reduces your movement speed by {0}%.
+
+To successfully hide from someone, you need to keep out of their sight for a while. Once you are hidden from someone, they will need to pass a perception check to detect you.
+
+Entering the stealth mode in combat will immediately drain all your remaining action and movement points. While in combat your movement points are reduced to {1} and you can receive no extra movement points from any source.
+
+Most hostile actions will immediately remove you from stealth.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Pickpocket" name="::Pickpocket">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You attempt to steal an item from the target's pockets.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Lock" name="::Lock">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">3</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Locks a mechanical or electronic lock providing you have the right key.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Stealth-backup" name="::Stealth-backup">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Once you are hidden from someone, they will need to pass a perception check to detect you.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Sprint" name="::Sprint">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">5</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases movement points by {0} for {1}. Does not work in stealth.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ImprovedSprint" name="::ImprovedSprint">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases movement points by {0} and action points by {1} for {2}. Does not work in stealth.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Sprint-RT" name="::Sprint-RT">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">7</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases movement speed by {0}% for {1} seconds.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LocusOfControl" name="::LocusOfControl">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Activate this ability to remove and gain immunity to stun, fear, incapacitation, and mind control for {0}.
+
+While this effect is active you can invoke any thought control psi ability as an area of effect ability, but that will end the effect.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Premeditation-Old" name="::Premeditation-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">9</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated this ability will make your next psi ability cost no psi points and have its range increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Premeditation" name="::Premeditation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated this ability will reduce the psi cost of your next psi ability by {0}%, its action point cost by {1}% and increase its range by {2}. The range is not increased for channeled abilities.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicMania" name="::PsionicMania">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">11</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated makes your next offensive psi ability an automatic critical hit. Activating this ability will also remove up to {0}% of your maximum health, but cannot kill you.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpecialTactics" name="::SpecialTactics">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">12</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated this ability will remove the action point cost of your next special bolt attack. Can only be activated while out of combat.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Yell" name="::Yell">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">13</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You issue an intimidating shout in an attempt to reduce combat readiness of surrounding enemies and remove them from stealth. All affected enemies have their combat skills reduced by {0} for {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::YellMonstrous" name="::YellMonstrous">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">14</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Additionally, all affected enemies have {0}% chance to be overwhelmed with fear and run in panic for {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::UncannyDodge" name="::UncannyDodge">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">15</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated this ability will cause you to dodge the next {0} regular or special melee attack targeted against you.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EvasiveManeuvers" name="::EvasiveManeuvers">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">16</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Converts all remaining movement points into evasion at {0}% conversion rate for {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::QuickTinkering" name="::QuickTinkering">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">17</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated will allow you to arm your next trap instantly, even in combat in which case it will cost {0} action points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LastStand-Old" name="::LastStand-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">18</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated will provide your character with additional {0} health immediately and reduce damage taken from all sources by {1}% for {2}. After this effect expires, the character will lose this extra health but this event cannot kill them.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LastStand" name="::LastStand">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">19</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated this ability will temporarily reset your health to your maximum for {0}. After the effect expires, your health will be reduced to 1.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AcidSpray" name="::AcidSpray">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">20</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Hurls {0} acid blobs at the target dealing {1} damage per blob and leaving acid pools on the ground.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AcidSpray_Rusting" name="::AcidSpray_Rusting">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">21</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Hurls {0} blobs of rusting acid at the target dealing {1} damage and applying one Rusting debuff per blob, and leaving acid pools on the ground.
+
+Rusting debuff reduces durability of all mechanical items in target's posession by {2} per stack each turn for {3}. Stacks {4} times.
+
+Rusting acid damage is increased by {5}% against vehicles and machines.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AcidBlobAttack" name="::AcidBlobAttack">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">22</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Spit a large acid blob at the target, dealing {0} damage and entangling them in acid for {1} if it lands. While entangled in acid, the victim suffers additional {2} acid damage per turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AcidBlobAttack_Rusting" name="::AcidBlobAttack_Rusting">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">23</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Spit a large blob of rusting acid at the target, dealing {0} damage, entangling them in rusting acid for {1}, and applying Rusting debuff if it lands. While entangled in acid, the victim suffers additional {2} acid damage and receives additional {3} stacks of Rusting debuff per turn.
+
+Rusting debuff reduces durability of all mechanical items in target's posession by {4} per stack each turn for {5}. Stacks {6} times. 
+
+Rusting acid damage is increased by {7}% against vehicles and machines.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Blitz" name="::Blitz">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">24</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You instantly convert all your movement points to action points, gaining 1 action point for each {0} movement points, up to maximum of {1} action points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EscapeBonds" name="::EscapeBonds">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">25</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Instantly remove all immobilization effects.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Hemopsychosis" name="::Hemopsychosis">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">26</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated will make all your psi abilities cost health instead of psi until the end of the turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootDreadnoughtRocket" name="::ShootDreadnoughtRocket">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">27</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Shoot 30mm dreadnought rocket at the targeted location dealing {0} and {1} damage to everything in {2} tile radius.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootHarp1Rocket" name="::ShootHarp1Rocket">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">28</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Shoot Harp-1 rocket at the targeted location dealing {0} and {1} damage to everything in {2} tile radius.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::VehicleTurbo" name="::VehicleTurbo">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">29</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Instantly consumes {0} vehicle energy and increases the movement speed and movement points of the vehicle by {1}% and energy consumption by {2}% for {3}. The bonuses only work if vehicle is not overencumbered.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ChangeTrigger" name="::ChangeTrigger">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">30</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Put your finger on the other trigger of the double-barreled shotgun in preparation to shoot the other shell first.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Fend" name="::Fend">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">31</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Instantly grants you Spear Guard status effect that can block {0}% more damage than normal (with current spear and skill {1}).</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ThrowSpear" name="::ThrowSpear">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">32</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Throws the spear at the target, dealing {0}%, plus additional {1}% per unit of range, of normal weapon damage. The precision of this attack is dependent on throwing skill.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootLeviatorPlasmaCannon" name="::ShootLeviatorPlasmaCannon">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">33</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Fire one of the plasma cannons, dealing {0} and {1} damage to the target. Consumes {2} vehicle energy.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootDevastatorFusionCannon" name="::ShootDevastatorFusionCannon">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">34</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Fire the fusion cannon, dealing {0} and {1} damage to everything in {2} tile radius. Consumes {3} vehicle energy.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootGlowJetskiLaserGun" name="::ShootGlowJetskiLaserGun">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">35</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Rapidly fires {0} shots from the twin laser guns, dealing {1} per shot. Consumes {2} vehicle energy.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ElectroshockAura" name="::ElectroshockAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">36</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated it will drain {0} energy from the armor and hit adjacent characters for {1} damage at the end of every turn at the cost of additional {2} energy per character. This will occur at the start of the wearer's turn instead of at the end. Additionally, whenever the wearer is attacked by a melee attack, the attacker will be hit by the same electrical damage at the same energy cost. Whenever this aura deals electrical damage, there's {3}% chance the target will be stunned for {4}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MetallineEnergization" name="::MetallineEnergization">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">37</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated it will drain {1} energy each turn in order to reduce the wearer's overall armor penalty by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EnergyShieldEmpowerment" name="::EnergyShieldEmpowerment">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">38</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated it will drain {1} energy each turn in order to increase all energy shielding values by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootLemurianSpear" name="::ShootLemurianSpear">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">39</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Fire the spear's inbuilt plasma cannon, dealing {0} and {1} damage to the target. Consumes {2} energy.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootLemurianSpear_HT" name="::ShootLemurianSpear_HT">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">40</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Fire the spear's inbuilt plasma cannon, dealing {0} and {1} damage to the target. Consumes {2} energy. You are able to apply your special knowledge of high-tech weaponry here to increase its damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootPlasmaFlare" name="::ShootPlasmaFlare">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">41</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Shoot a plasma flare that burns everything along its path for {0} and {1} damage. Consumes {2} energy.
+
+When it lands, it immediately reveals all nearby stealthed targets, and then lights up the area for {3} seconds.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootPlasmaFlare_HT" name="::ShootPlasmaFlare_HT">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">42</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Shoot a plasma flare that burns everything along its path for {0} and {1} damage. Consumes {2} energy. You are able to apply your special knowledge of high-tech weaponry here to increase its damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TowJetSki" name="::TowJetSki">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">43</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Tow another jet ski or naval vehicle.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StopTowingJetSki" name="::StopTowingJetSki">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">44</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Stop towing what you're currently towing.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EmpoweredInvocation" name="::EmpoweredInvocation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">45</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated increases the {0} skill by {1}% until the end of the turn, but drains away all the remaining psi points afterwards.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PickUpThrownSpear" name="::PickUpThrownSpear">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">46</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Picks up the closest thrown spear from the ground.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Hypnotize" name="::Hypnotize">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">47</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Attempts to incapacitate a humanoid target for {0}. Chance to succeed depends on the invoker's persuasion and the target's resolve. Uses {1} energy.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Vanish" name="::Vanish">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">48</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Immediately enter stealth, disappearing from everyone's sight, and convert all remaining action points into movement points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::WirelessChargingAura" name="::WirelessChargingAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">49</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated it will transfer up to {0} energy at {1}% efficiency from the source item to all other equipped items that require recharging, splitting the energy equally among them.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HelmetLanternAura" name="::HelmetLanternAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">50</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated it will immediately drain {0} energy and additional {1} every turn to provide light up to {2} tiles in front of the wearer.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExoskeletonDrillAttack" name="::ExoskeletonDrillAttack">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">51</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You attempt to use the mounted drill to hit the target {0} times for {1} damage. Can only be activated when the suit's power is on. Costs {2} energy.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::IndustrialExoskeletonAura" name="::IndustrialExoskeletonAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">52</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases strength by {0} and movement points by {1}, and negates the movement speed and agility penalties of the armor. When activated it will immediately drain {2} energy and additional {3} energy every turn, as well as additional {4} energy for every tile of movement.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootingSpree" name="::ShootingSpree">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">53</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated it will cause your next sniper rifle attack to refund 100% of its action point cost if it kills the target. This will expire at the end of the turn if unused.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootingSpree2" name="::ShootingSpree2">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">54</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated it will cause your next two sniper rifle attacks to refund 100% of their action point cost if they kill their respective targets. This will expire at the end of the turn if unused.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BulletTime" name="::BulletTime">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">55</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When activated, reduces action point cost of firing firearm pistols by {0}% until the end of the turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EnergySiphon" name="::EnergySiphon">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">56</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Perform a melee touch attack that drains {0}-{1} energy from the target's equipped gear, using {2}% of that energy to recharge attacker's equipped gear, and dealing damage equal to {3}% of energy drained as unresistable electrical damage. When performed against a machine, it will instead deal {4} damage which cannot be resisted, converting {5}% of that damage to energy used to recharge attacker's equipped gear. Costs {6} energy.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CatLaser" name="::CatLaser">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">57</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Provoke the cat to shoot a laser beam towards a target dealing {0} damage at the cost of {1} energy.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CombatExoskeletonAura" name="::CombatExoskeletonAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">58</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases strength by {0} and movement points by {1}, and negates the movement speed and agility penalties of the armor. When activated it will immediately drain {2} energy and additional {3} energy every turn, as well as additional {4} energy for every tile of movement.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TechnomedicExoskeletonRecharge" name="::TechnomedicExoskeletonRecharge">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">59</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Uses {0} or more energy to recharge the target's electronic gear at {1} efficiency, splitting the energy equally among them.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TechnomedicExoskeletonRegenerativeInjection" name="::TechnomedicExoskeletonRegenerativeInjection">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">60</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Injects a living target with a special regenerative mixture that heals it for {0} each turn and reduces mechanical and heat damage taken by {1}. Lasts {2}. Costs {3} energy and requires a special ampule of Parafibrotic Regeneration Catalyst.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

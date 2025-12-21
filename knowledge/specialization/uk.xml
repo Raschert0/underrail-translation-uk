@@ -1,0 +1,2177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="knowledge\specialization.txt" original="knowledge\specialization.txt">
+    <unit id="::GeneralInfo" name="::GeneralInfo">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">1</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You can further improve the effects of your feats by spending specialization points.
+
+The benefits of specialization are always listed in regards to the original effects of the related feat.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SprintSpeed" name="::SprintSpeed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the movement points bonus granted by Sprint by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AimedShotCritDamage" name="::AimedShotCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">3</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the critical damage bonus when using Aimed Shot by {0}% (additive to regular critical damage bonus) for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AmbushCritChance" name="::AmbushCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the critical chance bonus from Ambush by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ArmorSloping" name="::ArmorSloping">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">5</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces armor penalty by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Ballistics" name="::Ballistics">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the bonus mechanical threshold by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlitzCooldown" name="::BlitzCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">7</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlitzMaxAp" name="::BlitzMaxAp">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the maximum action points that can be gained by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BoneBreakerDamage" name="::BoneBreakerDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">9</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases bonus damage from broken ribs by additional {0}% per stack for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BowyerCritDamage" name="::BowyerCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases bonus critical damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BurglarSpeed" name="::BurglarSpeed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">11</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces the time it takes to pick and hack locks by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BurglarStealth" name="::BurglarStealth">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">12</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the stealth bonus by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CerebralTraumaDamage" name="::CerebralTraumaDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">13</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the base damage of Neural Overload by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CerebralTraumaPsiBurn" name="::CerebralTraumaPsiBurn">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">14</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the amount of psi points reduction by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CheapShotsIncapacitationChance" name="::CheapShotsIncapacitationChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">15</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the chance to incapacitate the target by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CheapShotsCritDamage" name="::CheapShotsCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">16</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases critical damage bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Clothier" name="::Clothier">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">17</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the effective quality by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ComboDamage" name="::ComboDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">18</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the bonus damage by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ComboStunChance" name="::ComboStunChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">19</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the chance to stun the target by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CommandoApGain" name="::CommandoApGain">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">20</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Killing an opponent using assault rifle or SMG burst attack will also grant you {0} action points for each specialization point. This, also, can only happen once per turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ConcentratedFireDamage" name="::ConcentratedFireDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">21</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases damage bonus of concentrated fire by {0}% per stack for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ConcussiveShotsDazeChance" name="::ConcussiveShotsDazeChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">22</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the chance to daze by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Conditioning" name="::Conditioning">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">23</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces damage taken by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HighTechnicalitiesDamage" name="::HighTechnicalitiesDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">24</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases bonus damage by {0}% for each point of intelligence above {1} per specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CookedShotDamage" name="::CookedShotDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">25</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage of Cooked Shot by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CookedShotApCostReduction" name="::CookedShotApCostReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">26</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the action point cost modifier of the Cooked Shot by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CorporealProjectionDamage" name="::CorporealProjectionDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">27</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases all telekinetic damage by {0}% for each point of strength above {1} per specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CripplingStrikeDamage" name="::CripplingStrikeDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">28</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the damage modifier by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CriticalPowerCritDamage" name="::CriticalPowerCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">29</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the critical damage gain by {0}% for each specialization point (per stated condition).</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CryogenicInductionThreshold" name="::CryogenicInductionThreshold">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">30</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the shattering threshold by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CutthroatDamage" name="::CutthroatDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">31</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the extra bleeding damage from the attack by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CutthroatCooldown" name="::CutthroatCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">32</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootingSpreeCooldown" name="::ShootingSpreeCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">33</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootingSpreeShots" name="::ShootingSpreeShots">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">34</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the number of refunded shots by one.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DeadlySnaresCritDamage" name="::DeadlySnaresCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">35</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Critical hits caused by Deadly Snares have their critical damage bonus further increased by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DeflectionDodge" name="::DeflectionDodge">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">36</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the dodge bonus originating from melee skill by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DirtyKickDamage" name="::DirtyKickDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">37</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DisassembleQuality" name="::DisassembleQuality">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">38</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the percentage of original quality of disassembled components by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DoctorHealingBonus" name="::DoctorHealingBonus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">39</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the healing bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ElementalBoltsDamage" name="::ElementalBoltsDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">40</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the damage bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EscapeBondsMpGain" name="::EscapeBondsMpGain">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">41</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Succeeding in escaping bonds will now also grant you {0} movement points for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EvasiveManeuversConversion" name="::EvasiveManeuversConversion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">42</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You gain additional {0} evasion per movement point for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EviscerateDamage" name="::EviscerateDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">43</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the bonus damage per bleeding wound by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExecuteDamage" name="::ExecuteDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">44</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the damage modifier by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExecuteCooldown" name="::ExecuteCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">45</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExpertiseMaxBonus" name="::ExpertiseMaxBonus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">46</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the maximum damage bonus by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExposeWeaknessDuration" name="::ExposeWeaknessDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">47</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the duration by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExposeWeaknessResistReduction" name="::ExposeWeaknessResistReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">48</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the amount of mechanical resistance and threshold reduction by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FancyFootworkMovementPoints" name="::FancyFootworkMovementPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">49</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the maximum amount of movement points you can receive per attack by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FastMetabolismHealing" name="::FastMetabolismHealing">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">50</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases all healing by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FastMetabolismPsi" name="::FastMetabolismPsi">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">51</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psi boosters restore additional {0} psi points for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FatalThrowHealthThreshold" name="::FatalThrowHealthThreshold">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">52</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Raises the health threshold for triggering Fatal Throw by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FatalThrowActionPoints" name="::FatalThrowActionPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">53</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the amount of action points restored by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ForceUserDamage" name="::ForceUserDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">54</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Telekinetic punch damage is increased by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ForceUserForcefieldHealth" name="::ForceUserForcefieldHealth">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">55</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Forcefield health bonus is increased by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GuardBlockChance" name="::GuardBlockChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">56</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the block chance by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GuardBlockAmount" name="::GuardBlockAmount">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">57</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the amount blocked by additional {0} for each point in strength per specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GunNutDamage" name="::GunNutDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">58</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the upper damage range by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GunslingerInitiative" name="::GunslingerInitiative">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">59</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the initiative bonus by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeavyPunchCritDamage" name="::HeavyPunchCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">60</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases critical damage bonus of Heavy Punch by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeavyPunchDamage" name="::HeavyPunchDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">61</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeavyPunchActionPoints" name="::HeavyPunchActionPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">62</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the action point cost modifier by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeavyweightCritDamage" name="::HeavyweightCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">63</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Provides additional {0}% critical damage bonus for each percent of total armor penalty per specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HitAndRunMaxMp" name="::HitAndRunMaxMp">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">64</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the limit of movement point reset by {0} for each specialization point. The character will still have to have sufficient maximum movement points to make use of this raised limit.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HypertoxicityDamage" name="::HypertoxicityDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">65</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases poison damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HypothermiaMaxStacks" name="::HypothermiaMaxStacks">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">66</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the maximum number of Hypothermia stacks by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::InterloperMovement" name="::InterloperMovement">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">67</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Each point of specialization further reduces the movement speed penalty in stealth by {0}% and allows you to retain up to {1} more movement points in combat while stealthed.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::JuggernautHealth" name="::JuggernautHealth">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">68</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases health bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneecapShotDamage-Old" name="::KneecapShotDamage-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">69</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Each point of specialization increases the base bleeding damage percentage by {0}% and bleeding damage percentage per point in perception by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneecapShotDamage" name="::KneecapShotDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">70</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Bleeding damage percentage increased by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneecapShotCooldown" name="::KneecapShotCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">71</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LastStandCooldown" name="::LastStandCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">72</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LastStandDuration" name="::LastStandDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">73</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases duration by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LocusOfControlCooldown" name="::LocusOfControlCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">74</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LocusOfControlDuration" name="::LocusOfControlDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">75</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases duration by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MadChemistOnHit" name="::MadChemistOnHit">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">76</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the strength of on-hit effects of chemical pistols by {0}%  for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MeditationPsiPoints" name="::MeditationPsiPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">77</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases maximum psi points by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NeuralOverclockingCritDamage" name="::NeuralOverclockingCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">78</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases critical damage bonus of all psi abilities by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NeurologyPsiPoints" name="::NeurologyPsiPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">79</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases maximum psi points by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NimbleDodgeAndEvasion" name="::NimbleDodgeAndEvasion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">80</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the dodge and evasion bonus by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NinjaLooterSpeed" name="::NinjaLooterSpeed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">81</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces pickpocketing time by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NinjaLooterSuspicion" name="::NinjaLooterSuspicion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">82</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces suspicion raised by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::OpportunistDisabledTarget" name="::OpportunistDisabledTarget">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">83</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases damage against rooted, stunned and incapacitated targets by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::OpportunistSlowedTarget" name="::OpportunistSlowedTarget">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">84</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases damage against slowed targets by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PackrathoundCarryCapacity" name="::PackrathoundCarryCapacity">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">85</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases carry capacity by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BeastOfBurdenCarryCapacity" name="::BeastOfBurdenCarryCapacity">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">86</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases carry capacity by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ParanoiaDetectionBonus" name="::ParanoiaDetectionBonus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">87</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases detection by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ParanoiaCritChanceReduction" name="::ParanoiaCritChanceReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">88</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces the chance to get critically hit by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ParanoiaDamage" name="::ParanoiaDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">89</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increasess weapon and unarmed damage against stealthed targets by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ParanoiaInitiative" name="::ParanoiaInitiative">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">90</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases initiative by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PinningChance" name="::PinningChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">91</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases pinning chance by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PointShotApCost" name="::PointShotApCost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">92</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the action point cost by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PowerManagementCapacity" name="::PowerManagementCapacity">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">93</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases energy capacity by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PracticalPhysicistCritDamage" name="::PracticalPhysicistCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">94</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases bonus critical damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PremeditationPsiCostReduction" name="::PremeditationPsiCostReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">95</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces the psi cost by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PremeditationCooldown" name="::PremeditationCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">96</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicManiaHealthCostReduction" name="::PsionicManiaHealthCostReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">97</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the health cost by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicManiaCooldown" name="::PsionicManiaCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">98</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::QuickTinkeringCooldown" name="::QuickTinkeringCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">99</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::QuickTinkeringAp" name="::QuickTinkeringAp">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">100</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces action point cost of setting traps while quick tinkering by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychosisPsiCostReduction" name="::PsychosisPsiCostReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">101</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the psi point cost modifier by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychosisCritChance" name="::PsychosisCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">102</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases critical chance bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychostaticElectricityCritChance" name="::PsychostaticElectricityCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">103</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the target's chance to get critically hit by {0}% per stack for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychostaticElectricityDuration" name="::PsychostaticElectricityDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">104</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the duration by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PummelDamage" name="::PummelDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">105</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage modifier by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PummelActionPoints" name="::PummelActionPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">106</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the action point cost by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PyromaniacDamage" name="::PyromaniacDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">107</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the burning damage by additional {0}% of the original damage for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::QuickPocketsApCost" name="::QuickPocketsApCost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">108</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces the action point cost by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::RapidFireApCost" name="::RapidFireApCost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">109</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the action point cost modifier by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::RecklessnessCritChance" name="::RecklessnessCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">110</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Each specialization point further increases your chance to critically hit with all weapons by {0}%, but also further increases your chance to get critically hit by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::RipperCritDamage" name="::RipperCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">111</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the critical damage bonus modifier by {0}% per the specified percentage of missing health for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Salesman" name="::Salesman">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">112</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the amount of goods merchants will buy from you by {0}% per mercantile skill for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SharpshooterCritDamage" name="::SharpshooterCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">113</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases critical damage bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Skinner" name="::Skinner">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">114</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the effective quality by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SnipeDamage" name="::SnipeDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">115</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Each specialization point further increases the additional damage per point in stealth skill by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpecialTacticsCooldown" name="::SpecialTacticsCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">116</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SteadfastAimCritChance" name="::SteadfastAimCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">117</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases critical hit chance per action point by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Stoicism" name="::Stoicism">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">118</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage reduction percentage per stated missing health by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SuperSlamDamage" name="::SuperSlamDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">119</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the amount of health added to the damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SuppressiveFireHitChanceRed" name="::SuppressiveFireHitChanceRed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">120</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces target's ranged chance to hit by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SuppressiveFireActionPoints" name="::SuppressiveFireActionPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">121</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces target's action points by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SuppressiveFireMovementPoints" name="::SuppressiveFireMovementPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">122</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces target's movement points by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SurvivalInstinctsHealthThreshold" name="::SurvivalInstinctsHealthThreshold">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">123</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the health threshold by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SurvivalInstinctsCritChance" name="::SurvivalInstinctsCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">124</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the chance to critically hit by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TasteForBloodDamage" name="::TasteForBloodDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">125</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the melee damage bonus per stack by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TelekineticUndulationDazeChance" name="::TelekineticUndulationDazeChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">126</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the chance to daze the target by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ThermodynamicityActionPoints" name="::ThermodynamicityActionPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">127</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces action point cost by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ThreePointerCritChance" name="::ThreePointerCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">128</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Each specialization point further increases critical chance by {0}% per stated amount of skill points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Tranquility" name="::Tranquility">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">129</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces the action point cost by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TrapExpertSpeed" name="::TrapExpertSpeed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">130</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces time required to arm and disarm traps by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TrapExpertDetection" name="::TrapExpertDetection">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">131</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the detection difficulty of the traps you set by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::UncannyDodge" name="::UncannyDodge">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">132</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the amount of skill points required for additional dodge by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::VileWeaponryDamage" name="::VileWeaponryDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">133</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the damage taken from all sources by {0}% per stack for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::VileWeaponryHealingReduction" name="::VileWeaponryHealingReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">134</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces healing effects by {0}% per stack for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::WeaponsmithCritChance" name="::WeaponsmithCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">135</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases critical hit chance by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::WrestlingApplyChance" name="::WrestlingApplyChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">136</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the chance to apply the debuff by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::YellReduction" name="::YellReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">137</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the skill reduction percentage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlindsidingDamage" name="::BlindsidingDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">138</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BrutalityFearChance" name="::BrutalityFearChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">139</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the chance to instill fear by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ContinuumRippleJumpChance" name="::ContinuumRippleJumpChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">140</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the chance to reapply by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HemopsychosisHealthCost" name="::HemopsychosisHealthCost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">141</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the health cost of psi abilities by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HemopsychosisCooldown" name="::HemopsychosisCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">142</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychotemporalAccelerationActionPoints" name="::PsychotemporalAccelerationActionPoints">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">143</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases action point modification by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShieldArmBlockChance" name="::ShieldArmBlockChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">144</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the block chance by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShieldArmBlockAmount" name="::ShieldArmBlockAmount">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">145</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the amount blocked by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Strafe" name="::Strafe">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">146</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces move and shoot penalty by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TriggerHappy" name="::TriggerHappy">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">147</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases initiative by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FullAutoDamage" name="::FullAutoDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">148</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage of burst attack by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LightningPunchesThreshold" name="::LightningPunchesThreshold">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">149</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the armor penalty threshold by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MarksmanPrecision" name="::MarksmanPrecision">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">150</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases chance to hit with crossbows by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SnoopingPerception" name="::SnoopingPerception">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">151</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases perception for specified purpose by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpecOpsFlashbangCooldown" name="::SpecOpsFlashbangCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">152</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces cooldown of flashbangs and similar tactical grenades by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SplitSpareDamage" name="::SplitSpareDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">153</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When throwing knives at two targets, damage of both knives is increased by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SureStepBearTrap" name="::SureStepBearTrap">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">154</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Gives you {0}% chance per specialization point to dodge any bear trap.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ThickSkull" name="::ThickSkull">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">155</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases fortitude by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FutureOrientationAp" name="::FutureOrientationAp">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">156</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Lessens the action point increase by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FendBlockAmount" name="::FendBlockAmount">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">157</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the bonus amount of damage blocked by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FendApCost" name="::FendApCost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">158</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the action point cost by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpearGuardian" name="::SpearGuardian">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">159</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the block chance bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ImpaleCritDamage" name="::ImpaleCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">160</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the critical damage bonus of Impale by {0}% (additive to regular critical damage bonus) for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpearThrowDamage" name="::SpearThrowDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">161</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage multiplier by additional {0}% per unit of range for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpearThrowApCost" name="::SpearThrowApCost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">162</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces action point cost by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpearThrowRange" name="::SpearThrowRange">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">163</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases range by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FlurryCooldown" name="::FlurryCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">164</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FlurryApCost" name="::FlurryApCost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">165</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the action point cost by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::OnslaughtDamage" name="::OnslaughtDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">166</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage bonus per stack by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DecapitateThreshold" name="::DecapitateThreshold">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">167</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the decapitation threshold by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DecapitateDamage" name="::DecapitateDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">168</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::RiposteCritChance" name="::RiposteCritChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">169</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases critical chance of Riposte by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LeadingShot" name="::LeadingShot">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">170</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Additively increases the amount of evasion ignored by additional {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FullAutoShotgunDamage" name="::FullAutoShotgunDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">171</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage of shotgun burst attack by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BarrelStareDamage" name="::BarrelStareDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">172</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the damage bonus by {0}% (additive) for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PerfectScattering" name="::PerfectScattering">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">173</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the maximum bonus damage by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FragmentedChaosCritDamage" name="::FragmentedChaosCritDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">174</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases total critical damage bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PelletMayhemDamage" name="::PelletMayhemDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">175</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases critical chance bonus per target by {0}% for each specialization point. </source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ParryChance" name="::ParryChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">176</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases chance to block by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ParryBlockAmount" name="::ParryBlockAmount">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">177</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases amount blocked by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Versatility" name="::Versatility">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">178</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the percentage of the skill value used by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ImprovedUnarmedCombatDamage" name="::ImprovedUnarmedCombatDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">179</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ImprovedUnarmedCombatDazeChance" name="::ImprovedUnarmedCombatDazeChance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">180</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the chance to daze the target by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShieldBashDamage" name="::ShieldBashDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">181</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage percentage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShieldBashCooldown" name="::ShieldBashCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">182</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShieldBashApCost" name="::ShieldBashApCost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">183</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces action point cost by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BoardingUp" name="::BoardingUp">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">184</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the block amount by additional {0}% per stack for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SweepDamage" name="::SweepDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">185</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage modifier by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SweepCooldown" name="::SweepCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">186</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SweepDuration" name="::SweepDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">187</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the duration of the off-balanced effect by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::IronGrip" name="::IronGrip">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">188</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the damage penalty by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SixthShellDamage" name="::SixthShellDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">189</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the progressive bonus damage per stack by {0}% and the final bonus damage by {1}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychoNeuralOptimization" name="::PsychoNeuralOptimization">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">190</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces the psi cost by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExpandedPsiCapacitance" name="::ExpandedPsiCapacitance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">191</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psi reserves bonus further increased by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GunFu" name="::GunFu">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">192</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the percentage of the skill value used by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BulletTime" name="::BulletTime">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">193</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces action point cost by {0}% (additive) for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::RemoteSurgeon" name="::RemoteSurgeon">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">194</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the unresisted damage modifier by {0}% (additive) for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CryogenicInductionBarrierHealth" name="::CryogenicInductionBarrierHealth">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">195</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cryogenic Barrier health bonus is increased by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MagDumpLmg" name="::MagDumpLmg">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">196</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the amount of extra burst rounds for LMGs by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MagDumpMinigun" name="::MagDumpMinigun">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">197</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the amount of extra rounds you get for each wind up stack when bursting with a minigun by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeavyMetalDamageBonus" name="::HeavyMetalDamageBonus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">198</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the amount of armor penalty converted to bonus damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeavyMetalDamageReduction" name="::HeavyMetalDamageReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">199</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further reduces the mechanical damage taken by {0}% for each point of weapon's strength requirement per specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BulletTranceDuration" name="::BulletTranceDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">200</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases duration by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BulletTranceDamage" name="::BulletTranceDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">201</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the damage bonus per stack by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BulletTranceMaxStacks" name="::BulletTranceMaxStacks">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">202</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the number of stacks by one for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PracticedParabola" name="::PracticedParabola">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">203</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the precision bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TrickyTrajectoryDamageBonus" name="::TrickyTrajectoryDamageBonus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">204</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases damage bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TrickyTrajectoryEvasionIgnore" name="::TrickyTrajectoryEvasionIgnore">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">205</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases amount of ignored evasion by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DemolitionManDamageBonus" name="::DemolitionManDamageBonus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">206</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases damage bonus by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DemolitionManDuration" name="::DemolitionManDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">207</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases duration by {0} turn for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DemolitionManMaxStacks" name="::DemolitionManMaxStacks">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">208</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the number of stacks by one for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GunnersHighDuration" name="::GunnersHighDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">209</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases duration by one turn for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GunnersHighThreshold" name="::GunnersHighThreshold">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">210</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Raises the health threshold for by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GunnersHighMaxStacks" name="::GunnersHighMaxStacks">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">211</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the maximum number of stacks by one for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShellShockDuration" name="::ShellShockDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">212</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the duration by one turn for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShellShockMaxStacks" name="::ShellShockMaxStacks">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">213</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the maximum number of stacks by one for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShellShockSkillReduction" name="::ShellShockSkillReduction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">214</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases skill reduction by {0} per stack for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SapDamage" name="::SapDamage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">215</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Further increases the bonus damage by {0}% for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SapCooldown" name="::SapCooldown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">216</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces cooldown by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SapDuration" name="::SapDuration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">217</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases maximum duration of the incapacitation by {0} for each specialization point.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

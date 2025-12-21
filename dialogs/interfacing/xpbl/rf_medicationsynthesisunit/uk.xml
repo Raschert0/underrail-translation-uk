@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="dialogs\interfacing\xpbl\rf_medicationsynthesisunit.txt" original="dialogs\interfacing\xpbl\rf_medicationsynthesisunit.txt">
+    <unit id="=&gt;q1" name="=&gt;q1">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::LEMCO L-MSU-P4 - Medication Synthesis Unit
+
+This unit is a working prototype and as such might exhibit errors during operation. Contact us at nexus.medtech.medsynth for problem reporting and suggestions. 
+
+Please select the item you want to synthesize. The percentage of total MedSynth chemical content required for synthesis is displayed next to each item.
+
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q2" name="=&gt;q2">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q3" name="=&gt;q3">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::MSCC gauge level: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q4" name="=&gt;q4">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>:: - Please replace the MedSynth chemical canister.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q5" name="=&gt;q5">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a6" name="=&gt;a6">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">12</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize antidote (-5%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q7" name="=&gt;q7">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">14</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Preparing container... Done.
+
+Synthesizing...
+ 
+Synthesis successful. Please collect your item from the deposit tray.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a8" name="=&gt;a8">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">16</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize health hypo (-5%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a9" name="=&gt;a9">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">18</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize advanced health hypo (-10%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a10" name="=&gt;a10">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">20</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize morphine shot (-10%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a11" name="=&gt;a11">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">22</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize adrenaline shot (-10%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a12" name="=&gt;a12">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">24</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize psi booster (-5%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a13" name="=&gt;a13">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">26</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize desaturated psionic inhalant (-5%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a14" name="=&gt;a14">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">28</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize irongut (-15%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a15" name="=&gt;a15">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">30</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize coagulation shot (-15%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a16" name="=&gt;a16">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">32</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Other medication::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q17" name="=&gt;q17">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">34</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesis of these types of medication is currently disabled. Check work log for more information.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a18" name="=&gt;a18">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">36</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::[Hacking] Enable synthesis of more medication types::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q19" name="=&gt;q19">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">38</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Please wait...::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q20" name="=&gt;q20">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">40</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q21" name="=&gt;q21">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">42</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Warning: Synthesis of these types of medication hasn't been fully tested and could result in malsynthesized substances or even complete synthesis failures!
+
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q22" name="=&gt;q22">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">44</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::MSCC gauge level: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q23" name="=&gt;q23">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">46</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>:: - Please replace the canister.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q24" name="=&gt;q24">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">48</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a25" name="=&gt;a25">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">50</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize focus stim (-15%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q26" name="=&gt;q26">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">52</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Preparing container... Done.
+
+Synthesizing...
+
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q27" name="=&gt;q27">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">54</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q28" name="=&gt;q28">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">56</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesis unsuccessful!
+
+Disposing of waste product...
+
+Waste disposal successful.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q29" name="=&gt;q29">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">58</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesis data has been logged for evaluation.
+
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q30" name="=&gt;q30">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">60</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q31" name="=&gt;q31">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">62</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesis successful. Please collect your item from the deposit tray.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a32" name="=&gt;a32">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">64</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize super health hypo (-15%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q33" name="=&gt;q33">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">66</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Preparing container... Done.
+
+Synthesizing...
+
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q34" name="=&gt;q34">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">68</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q35" name="=&gt;q35">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">70</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a36" name="=&gt;a36">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">72</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize supersoldier drug (-25%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q37" name="=&gt;q37">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">74</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Preparing container... Done.
+
+Synthesizing...
+
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q38" name="=&gt;q38">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">76</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q39" name="=&gt;q39">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">78</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a40" name="=&gt;a40">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">80</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize psi reinvigorator (-30%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q41" name="=&gt;q41">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">82</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Preparing container... Done.
+
+Synthesizing...
+
+::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q42" name="=&gt;q42">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">84</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q43" name="=&gt;q43">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">86</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a44" name="=&gt;a44">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">88</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Back::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q45" name="=&gt;q45">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">90</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Unknown error! 
+
+Rebooting...::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a46" name="=&gt;a46">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">92</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize focus stim (-15%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a47" name="=&gt;a47">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">94</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize super health hypo (-15%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a48" name="=&gt;a48">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">96</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize supersoldier drug (-25%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a49" name="=&gt;a49">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">98</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Synthesize psi reinvigorator (-30%)::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a50" name="=&gt;a50">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">100</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Exit::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

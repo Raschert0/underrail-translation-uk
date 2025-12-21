@@ -1,0 +1,2915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="knowledge\statuseffects.txt" original="knowledge\statuseffects.txt">
+    <unit id="::Sprint" name="::Sprint">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">1</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points increased by {0} when not in stealth.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Charging" name="::Charging">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points increased by {0}. This character will deal {1}% bonus damage if their charge attack lands.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ChargingWithStun" name="::ChargingWithStun">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">3</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points increased by {0}. This character will deal {1}% bonus damage and stun the target if their charge attack lands.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Sprint-RT" name="::Sprint-RT">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement speed increased by {0}% when not in stealth.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Frozen" name="::Frozen">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">5</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Frozen solid. Cannot perform any action, but any direct damage will cancel the effect.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Chilled" name="::Chilled">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points reduced by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Chilled-SlowImmune" name="::Chilled-SlowImmune">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">7</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is immune to slow.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Chilled-RT" name="::Chilled-RT">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement speed decreased by {0}%</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AcidicEntanglement" name="::AcidicEntanglement">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">9</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Character is caught in a sticky acidic blob which prevents them from moving and deals {0} acid damage every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CorrosiveAcidicEntanglement" name="::CorrosiveAcidicEntanglement">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Character is caught in a sticky acidic blob which prevents them from moving and deals {0} acid damage every turn and applies {1} stacks of corrosion.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::RustingAcidicEntanglement" name="::RustingAcidicEntanglement">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">11</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Character is caught in a sticky acidic blob which prevents them from moving and deals {0} acid damage every turn and applies {1} stacks of rusting.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StealthMode" name="::StealthMode">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">12</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The character is currently in stealth mode which allows them to hide from others, but reduces their movement speed by {0}%.
+
+While in combat their movement points are reduced to {1} and they can receive no extra movement points from any source.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShadowTricks" name="::ShadowTricks">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">13</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>{1}% displacement.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsiBoost" name="::PsiBoost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">14</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Restores {0} psi each turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsiBoost-Old" name="::PsiBoost-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">15</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psi regeneration increased by {0}% plus {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Adrenaline" name="::Adrenaline">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">16</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action points increased by {0}, dodge and evasion by {1}%, and strength by {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Adrenaline-Old" name="::Adrenaline-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">17</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement speed increased by {0}%, time between attacks decreased by {1}%, and dodge and evasion increased by {2}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::VitalitySurge" name="::VitalitySurge">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">18</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action points increased by {0}, dodge and evasion by {1}%, and strength by {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::VitalityDrain" name="::VitalityDrain">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">19</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Loses {0} health per turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Fatigue" name="::Fatigue">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">20</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action points decreased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Fatigue-Old" name="::Fatigue-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">21</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement speed decreased by {0}% and time between attacks increased by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicWithdrawal" name="::PsionicWithdrawal">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">22</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Drains {0} psi every turn. Intelligence, Will and Perception are decreased by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicWithdrawal-Old" name="::PsionicWithdrawal-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">23</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All bonuses to psi regeneration are nullified and psi regeneration is decreased by {0}%. Intelligence, Wisdom and Will are decreased by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Stunned" name="::Stunned">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">24</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cannot move or perform any actions.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Incapacitated" name="::Incapacitated">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">25</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cannot move or perform any actions, but any damage taken will remove the effect.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CerebralTrauma-Old" name="::CerebralTrauma-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">26</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Intelligence decreased by {0} and psi regeneration rate decreased by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CerebralTrauma-OldAsWell" name="::CerebralTrauma-OldAsWell">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">27</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Intelligence decreased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CerebralTrauma" name="::CerebralTrauma">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">28</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All psi point gains reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MentalSubversion" name="::MentalSubversion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">29</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Resolve reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneeWound1" name="::KneeWound1">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">30</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The character suffers {0} bleeding damage every turn and gains no movement points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneeWound2" name="::KneeWound2">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">31</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character gains no movement points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneeWound1-SlowImmune" name="::KneeWound1-SlowImmune">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">32</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The character suffers {0} bleeding damage every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneeWound2-SlowImmune" name="::KneeWound2-SlowImmune">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">33</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is immune to slow.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneeWound1-Old" name="::KneeWound1-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">34</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The character suffers {0} bleeding damage every second and movement speed is reduced by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::KneeWound2-Old" name="::KneeWound2-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">35</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement speed reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Hypothermia" name="::Hypothermia">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">36</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Constitution decreased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NetEntanglement" name="::NetEntanglement">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">37</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cannot move.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StoneBolasEntanglement" name="::StoneBolasEntanglement">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">38</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cannot move.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Webbed" name="::Webbed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">39</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cannot move.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::thermodynamicity_heat-Old" name="::thermodynamicity_heat-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">40</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cost of the next heat based psi ability reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::thermodynamicity_cold-Old" name="::thermodynamicity_cold-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">41</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cost of the next cold based psi ability reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::thermodynamicity_heat" name="::thermodynamicity_heat">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">42</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action point cost of the next heat based psi ability reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::thermodynamicity_cold" name="::thermodynamicity_cold">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">43</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action point cost of the next cold based psi ability reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PackHunting-Old" name="::PackHunting-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">44</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This creature is a pack hunter. Its damage is increased against targets that are surrounded by more of its pack. Damage against the current target is increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PackHunting" name="::PackHunting">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">45</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This creature is a pack hunter. Its damage and attack skill are increased against targets that are surrounded by more of its pack. Damage against the current target is increased by {0}% and attack skill is increased by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BleedingWound" name="::BleedingWound">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">46</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Bleeding for {0} damage every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ContaminatedWound" name="::ContaminatedWound">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">47</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Suffers {0} bio damage every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Fear" name="::Fear">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">48</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Overwhelming fear prevents this character from acting rationally.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Rage" name="::Rage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">49</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is raging and may attack anyone.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Aphobia" name="::Aphobia">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">50</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Short term immunity to all fear effects.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SecondWind" name="::SecondWind">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">51</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Short term immunity to stun effects.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SafeMode" name="::SafeMode">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">52</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Short term immunity to all disabling effects.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Burning" name="::Burning">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">53</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is burning for {0} damage each turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BurningWithFear" name="::BurningWithFear">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">54</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is burning for {0} damage each turn, while running around in panic.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Poison" name="::Poison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">55</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is afflicted by {0}, suffering {1} bio damage every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CaveEarPoison" name="::CaveEarPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">56</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is afflicted by cave ear poison. All biological damage received increased by {0}% and perception reduced by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CrawlerPoison" name="::CrawlerPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">57</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is afflicted by crawler poison, suffering {0} bio damage every turn. If the poison is not removed before it expires it will stun the victim for up to {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpiritPoison" name="::SpiritPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">58</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is afflicted by spirit poison, suffering {0} bio damage every turn and having its resolve reduced by {1}%. If the poison is not removed before it expires it will summon a psionic doppelganger of the victim if it's human.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShortCircuited" name="::ShortCircuited">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">59</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This machine is temporarily disabled and cannot perform any functions.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PersonalCloaking" name="::PersonalCloaking">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">60</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Stealth increased by {0} and evasion increased by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Nightvision" name="::Nightvision">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">61</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You can see in the dark.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LocusOfControl" name="::LocusOfControl">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">62</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Immune to stun, fear, incapacitation, and mind control.
+
+Next thought control psi ability the character invokes will have an area of effect, but will end the effect.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Premeditation" name="::Premeditation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">63</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Character's next psi ability will cost {0}% less psi points, {1}% less action points and will have its range increased by {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicMania" name="::PsionicMania">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">64</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Character's next offensive psi ability will be an automatic critical hit.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::psionicSynergy" name="::psionicSynergy">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">65</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Proximity of other psionically active Azuridae beetles increases this creature's psi skill levels by {0} and also allows it to invoke more powerful psi abilities.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpecialTactics" name="::SpecialTactics">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">66</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Character's next special bolt attack will cost no action points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_rathoundBarbeque" name="::Food_rathoundBarbeque">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">67</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by 1.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_burrowerBurger" name="::Food_burrowerBurger">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">68</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Constitution increased by 1.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_caveHopperSteak" name="::Food_caveHopperSteak">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">69</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Agility increased by 1.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_eelSandwich" name="::Food_eelSandwich">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">70</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Dexterity increased by 1.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_mushroomBrew" name="::Food_mushroomBrew">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">71</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by 1 and all mechanical damage taken reduced by 10%. Perception and dexterity reduced by 2. All psionic skills reduced by 20 and psi regeneration reduced by 30.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_coffee" name="::Food_coffee">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">72</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points increased by 5 and psi cost of all psi abilities reduced by 10%, but psi regeneration also reduced by 3.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_baconCheeseSandwich" name="::Food_baconCheeseSandwich">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">73</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Maximum health increased by 20.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_cannedFish" name="::Food_cannedFish">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">74</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cold damage taken reduced by 15%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_cannedMeat" name="::Food_cannedMeat">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">75</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Mechanical damage taken reduced by 5%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_cannedMushrooms" name="::Food_cannedMushrooms">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">76</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Bio damage taken reduced by 15%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_cannedStew" name="::Food_cannedStew">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">77</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Heat damage taken reduced by 8%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_cookedBurrowerEgg" name="::Food_cookedBurrowerEgg">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">78</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Poison damage taken reduced by 35%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_coreChips" name="::Food_coreChips">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">79</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Weapon critical hit chance increased by 2%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_hardcoreChips" name="::Food_hardcoreChips">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">80</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Weapon critical hit chance increased by 5%, but chance to get critically hit by weapons increased by 2%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_friedSiphonerTongue" name="::Food_friedSiphonerTongue">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">81</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Healing effectiveness increased by 15%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_mushroomSalad" name="::Food_mushroomSalad">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">82</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Perception increased by 1.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_pentapusBarbecue" name="::Food_pentapusBarbecue">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">83</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Carry capacity increased by 25.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_pickledMindshrooms" name="::Food_pickledMindshrooms">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">84</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psionic critical damage bonus increased by 40%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_psiBeetleBrainSoup" name="::Food_psiBeetleBrainSoup">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">85</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psi ability psi cost decreased by 15%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_rootSoda" name="::Food_rootSoda">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">86</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Initiative increased by 5.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_stuffedBat" name="::Food_stuffedBat">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">87</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Detection increased by 15%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_underPie" name="::Food_underPie">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">88</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All skills increased by 3.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_cannedCzernina" name="::Food_cannedCzernina">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">89</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Heat damage taken reduced by 15%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_crabSandwich" name="::Food_crabSandwich">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">90</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Global mechanical threshold increased by 15%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_kzozel" name="::Food_kzozel">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">91</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Dodge increased by 50 and all mechanical damage taken reduced by 10%. Perception reduced by 2. All psionic skills reduced by 20 and psi regeneration reduced by 30.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_kzozelYantar" name="::Food_kzozelYantar">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">92</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Dodge increased by 70 and all mechanical damage taken reduced by 15%. Perception reduced by 3. All psionic skills reduced by 40 and psi regeneration reduced by 30.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_mutieStew" name="::Food_mutieStew">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">93</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Acid damage taken reduced by 35%, but health reduced by 20 and healing effectiveness decreased by 35%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_SeaSerpentFillet" name="::Food_SeaSerpentFillet">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">94</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Poison damage taken reduced by 20% and evasion increased by 30.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_butterySteamedClams" name="::Food_butterySteamedClams">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">95</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Maximum health points increased by 40.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_bisonMilk" name="::Food_bisonMilk">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">96</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by 1 and critical damage bonus of melee weapons and unarmed attacks increased by 25%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_mysteryCandy" name="::Food_mysteryCandy">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">97</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Critical chance with weapon, unarmed, and psi attacks increased by 5%, but will reduced by 1 and resolve reduced by 100.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_iceOfSpades" name="::Food_iceOfSpades">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">98</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Metathermics increased by 20 but movement points reduced by 10.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_allIn" name="::Food_allIn">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">99</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All base abilities increased by 3. Chance to get critically hit with weapons, unarmed attacks and psi abilities increased by 100% (additively).</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_boolean" name="::Food_boolean">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">100</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All base abilities decreased by 3. All psionic skills reduced by 20 and psi regeneration reduced by 30.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_stalagDrop" name="::Food_stalagDrop">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">101</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by 1 and all mechanical damage taken reduced by 10%. Perception and dexterity reduced by 1. All psionic skills reduced by 10 and psi regeneration reduced by 15.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_caveTear" name="::Food_caveTear">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">102</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by 2 and all mechanical damage taken reduced by 20%. Perception and dexterity reduced by 3. All psionic skills reduced by 30 and psi regeneration reduced by 40.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_cleanDeal" name="::Food_cleanDeal">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">103</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Thought control increased by 20, but perception reduced by 1 and resolve reduced by 30.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_sleightOfTheNight" name="::Food_sleightOfTheNight">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">104</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Pickpocketing increased by 15.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_slampipe" name="::Food_slampipe">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">105</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by 1 and character does 15% bonus damage with blunt melee weapons, fist weapons and unarmed attacks. Agility reduced by 1. </source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_outwork" name="::Food_outwork">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">106</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Carry capacity increased by 30.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_jetdrag" name="::Food_jetdrag">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">107</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Stability on jet skis increased by 10%, but action points reduced by 5.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_laylow" name="::Food_laylow">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">108</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Evasion increased by 15% and stealth increased by 20. Also all bio damage received reduced by 10%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_mindshroomMartini" name="::Food_mindshroomMartini">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">109</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Maximum psi points increased by 10.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_whiteDude" name="::Food_whiteDude">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">110</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Agility increased by 3, persuasion increased by 15, but dexterity and perception reduced by 2 and psi point regeneration reduced by 30.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_slackjaw" name="::Food_slackjaw">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">111</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength and constitution increased by 1 and intimidation increased by 15, but intelligence reduced by 3 and will reduced by 1.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_absence" name="::Food_absence">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">112</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Detection increased by 23.3%, chance to get crit with weapons, unarmed attacks and psi abilities reduced by 16.6%. To balance the transcendental scales this character has 16.6% increased critical chance with psi abilities and 33.3% increased psi cost. They can also fInAl1y PerC3ive the rE4lity as It TRUEly isŝş...</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_bloodyOligarch" name="::Food_bloodyOligarch">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">113</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Health increased by 30, but reslove reduced by the same amount. Its disgusting taste will linger in your mouth for hours.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_scrapperac" name="::Food_scrapperac">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">114</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character does 15% bonus damage with melee weapons and unarmed attacks and also has a small chance to daze the target, themselves, or both on each such attack.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Food_jonSpecial" name="::Food_jonSpecial">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">115</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All skills increased by 5.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StrangeFeeling" name="::StrangeFeeling">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">116</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You feel the darkness clasp around you and an ominous presence in the back of your mind.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicApparition" name="::PsionicApparition">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">117</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Immune to all physical attacks.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::OffBalance" name="::OffBalance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">118</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Dodge and evasion reduced to zero.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::IceRemnant" name="::IceRemnant">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">119</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cold apparition. Immune to all damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Intimidated" name="::Intimidated">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">120</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All offensive skills reduced by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CreepingDread" name="::CreepingDread">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">121</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You feel a deep primordial fear creeping in the back of your head. All offensive, defensive and psionic skills reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SporeInfection" name="::SporeInfection">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">122</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You're getting dizzy. Health reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EyeOfTchort" name="::EyeOfTchort">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">123</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The eye of Tchort is upon you, nearly paralyzing you with fear. All offensive, defensive and psionic skills reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Crippled" name="::Crippled">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">124</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength decreased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Tackled" name="::Tackled">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">125</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points decreased by {0}, action points decreased by {1} and chance to hit with all ranged weapons decreased by {2}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MorphineHypo" name="::MorphineHypo">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">126</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All damage taken reduced by {0}%. After the effect expires the character will take damage equal to {1}% of their missing health.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Nervosomnifer" name="::Nervosomnifer">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">127</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All damage taken reduced by {0}%. After the effect expires the character will take damage equal to {1}% of their missing health.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Anticoagulation" name="::Anticoagulation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">128</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Prolongs all bleeding effects and increases effectiveness of blood draining attacks by {0}%. Also, all healing effects are reduced by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AnticoagulationItemEffect_Cap" name="::AnticoagulationItemEffect_Cap">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">129</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Applies anticoagulant to a suitable melee weapon that prolongs all bleeding effects and increases effectiveness of blood draining attacks by {0}% for {2}. Also, all healing effects are reduced by {1}%. Stacks {3} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AnticoagulationItemEffect_Applied" name="::AnticoagulationItemEffect_Applied">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">130</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If the attack penetrates the armor, anticoagulant is applied that prolongs all bleeding effects and increases effectiveness of blood draining attacks by {0}% for {2}. Also, all healing effects are reduced by {1}%. Stacks {3} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BrokenRib" name="::BrokenRib">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">131</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The character takes additional {0}% mechanical damage from all sources.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::UncannyDodge-Old" name="::UncannyDodge-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">132</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character will dodge the next regular or special melee attack.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::UncannyDodge" name="::UncannyDodge">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">133</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character will dodge a regular or special melee attack for each stack of this effect.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::UncannyEvasion" name="::UncannyEvasion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">134</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character will evade a regular or special ranged weapon attack for each stack of this effect.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EvasiveManeuvers" name="::EvasiveManeuvers">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">135</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Evasion increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MentalBreakdown" name="::MentalBreakdown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">136</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is incapacitated and suffering {0}% reduced resolve. If a detrimental thought control psi ability is invoked against them it will have double the effect, but will end the mental breakdown.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Trapped" name="::Trapped">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">137</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is rooted in place by a trap.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Compass" name="::Compass">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">138</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character can tell which way north is.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Infusion_Reflexes" name="::Infusion_Reflexes">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">139</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Dodge and evasion increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Infusion_Strength" name="::Infusion_Strength">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">140</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Infusion_Speed" name="::Infusion_Speed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">141</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Infusion_Focus" name="::Infusion_Focus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">142</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All psionic skills increased by {0}</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::InfectedWound" name="::InfectedWound">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">143</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All damage taken increased by {0}%. Healing effectiveness reduced by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExposedWeakness" name="::ExposedWeakness">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">144</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Mechanical damage resistance and threshold reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlastedArmor" name="::BlastedArmor">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">145</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Mechanical and heat damage resistance and threshold reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Suppressed" name="::Suppressed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">146</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Ranged chance to hit reduced by {0}%, action points reduced by {1} and movement points reduced by {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::QuickTinkering" name="::QuickTinkering">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">147</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character will arm the next trap instantly, even in combat in which case it will cost {0} action points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TasteForBlood" name="::TasteForBlood">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">148</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Melee damage increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TasteForBlood2-Old" name="::TasteForBlood2-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">149</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Melee damage increased by {0}% and action point cost for using melee weapons reduced by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Combo" name="::Combo">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">150</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If you land three consecutive damage dealing unarmed or fist weapon attacks against a single target in a single turn, the third attack will deal {0}% bonus damage and stun the target for {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LastStand" name="::LastStand">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">151</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>After this effect exipres the character's health will be reduced to 1.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ThermodynamicDestabilization" name="::ThermodynamicDestabilization">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">152</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If this target is destroyed it will explode, dealing {0} and {1} damage to the surrounding characters.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Irongut" name="::Irongut">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">153</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All biological damage taken reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicTrance" name="::PsionicTrance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">154</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Critical damage bonus of psi abilities increased by {0}%, but psi cost increased by {1}% as well.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PainSuppression" name="::PainSuppression">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">155</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All damage taken reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FocusBoost" name="::FocusBoost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">156</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Critical chance with weapons, unarmed combat and psionics increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::AgilityBoost" name="::AgilityBoost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">157</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Dodge and evasion increased by {0}%. Movement points increased by {1} while not in stealth.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HerculeanMight" name="::HerculeanMight">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">158</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength, dexterity, agility, and constitution increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HerculeanWithdrawal" name="::HerculeanWithdrawal">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">159</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You feel ill. Strength, dexterity, agility, and constitution decreased by {0}. Action points reduced by {0}. Movement points reduced by {2} and movement speed reduced by {3}%. Taking {1} damage every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ZombieMutating" name="::ZombieMutating">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">160</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is undergoing horrific mutations.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DreadnoughtPiloting" name="::DreadnoughtPiloting">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">161</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You are piloting a dreadnought.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::JetskiPiloting" name="::JetskiPiloting">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">162</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You are piloting a jet ski.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Dazed" name="::Dazed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">163</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action points reduced by {0} and movement points reduced by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Inhibited" name="::Inhibited">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">164</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cannot invoke psi abilities or regenerate psi points naturally.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ConcentratedFire" name="::ConcentratedFire">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">165</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Receives {0}% extra damage from burst attacks.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GunRush" name="::GunRush">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">166</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your next assault rifle or SMG burst attack will cost no action points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Immobilized" name="::Immobilized">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">167</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cannot move.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Charged" name="::Charged">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">168</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Next electrical psionic attack will deal additional {0} electrical damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Contaminated" name="::Contaminated">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">169</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All damage taken increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::WorkbenchSkillBonus" name="::WorkbenchSkillBonus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">170</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>{0} increased by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PseudoSpatialProjection" name="::PseudoSpatialProjection">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">171</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Unarmed and weapon attacks have a chance to miss this character, instead removing one of the psionic projections.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlurredVision" name="::BlurredVision">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">172</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Perception reduced by {0} and detection by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NeurovisualDisruption" name="::NeurovisualDisruption">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">173</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Cannot detect stealthed characters.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DisruptiveField" name="::DisruptiveField">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">174</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Chance to hit with ranged and thrown weapon reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExothermicAura" name="::ExothermicAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">175</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You are immune to heat damage and generate flames around you and in your wake (except on the last turn).</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CryoShield" name="::CryoShield">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">176</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Each time the character suffers a melee attack, there's a {0}% chance that one of the shards will block {1} of mechanical damage and be destroyed in the process.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Bullhead" name="::Bullhead">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">177</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Immune to stun, daze, and incapacitation.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Regeneration" name="::Regeneration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">178</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Regenerates {0} health each turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsiRegeneration" name="::PsiRegeneration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">179</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Regenerates {0} psi each turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SupersoldierDrug" name="::SupersoldierDrug">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">180</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength, dexterity, agility, constitution, and perception increased by {0}. All combat skills increased by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShieldRecharging" name="::ShieldRecharging">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">181</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Regains {0} shield each turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Corroded" name="::Corroded">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">182</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All damage resistances and thresholds reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlackDragonPoison" name="::BlackDragonPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">183</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Affected by poison which prevents psi ability invocation and psi points regeneration.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychostaticElectricity" name="::PsychostaticElectricity">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">184</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Chance to get critically hit from weapon and unarmed attacks and psi abilities increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SecondSight" name="::SecondSight">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">185</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Perception increased by {0} and the character is granted the gift of second sight.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Hemopsychosis" name="::Hemopsychosis">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">186</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your psi abilities cost health instead of psi points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HemopsychosisReduced" name="::HemopsychosisReduced">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">187</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your psi abilities cost health instead of psi points, but their cost is reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Blindsiding" name="::Blindsiding">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">188</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Unarmed and weapon damage increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TemporalDistorsion" name="::TemporalDistorsion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">189</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>When this effect expires, it will deal {0} and {1} damage to the target. This damage ignores shield and {2}% of damage resistance and threshold.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EntropicRecurrence" name="::EntropicRecurrence">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">190</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The character suffers {0} damage every turn. This damage ignores shields and resistances.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychotemporalDilation" name="::PsychotemporalDilation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">191</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action points reduced by {0} and movement points reduced by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychotemporalContraction" name="::PsychotemporalContraction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">192</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action points increased by {0} and movement points increased by {1}. After the effect ends, there's a {2}% chance of it reversing into a psychotemporal dilation of varying power.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TemporaryRewind" name="::TemporaryRewind">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">193</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>After this effect ends, the character will take {0} damage. This damage ignores shields and resistances.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Precognition" name="::Precognition">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">194</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Chance to dodge and evade attacks increased by {0}% (additively). Drains {1} psi points every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Stasis" name="::Stasis">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">195</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Immune to all damage and most disabling effects, but cannot act. The character's status effects do not progress, but the cooldowns do.
+
+Stasis will break if it absorbs {0} more damage, otherwise it will expire at the beginning of the last turn of duration instead of at the end.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlindingPoison" name="::BlindingPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">196</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is afflicted by blinding poison, suffering {0} bio damage every turn. Their perception is also decreased by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicAcceleration" name="::PsionicAcceleration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">197</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psi regeneration increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlackOilSlow" name="::BlackOilSlow">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">198</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement speed reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::WebSlow" name="::WebSlow">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">199</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement speed reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeavyIntoxication" name="::HeavyIntoxication">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">200</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This is what happens when you get wasted with Dude. All your base attributes have been reduced by {0}. Cheers!</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SoreHands" name="::SoreHands">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">201</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your hands are sore. Your dexterity has been reduced by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::IntelligenceBoost" name="::IntelligenceBoost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">202</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Intelligence increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::InitiativeBoost" name="::InitiativeBoost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">203</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Initiative increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ThirdEye" name="::ThirdEye">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">204</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Detection increased by {0}%. Perception increased by {1} for the purpose of detecting hidden passages and other secrets.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpearGuard" name="::SpearGuard">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">205</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Has a {0}% chance to block up to {1} mechanical damage when holding a spear.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShatteredWill" name="::ShatteredWill">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">206</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your drive to continue on is rapidly deteriorating. All base abilities reduced by {0}, all skills reduced by {1}, movement and action points reduced by {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CarvedUp" name="::CarvedUp">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">207</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action points reduced by {0} and the chance to get critically hit by weapon and unarmed attacks increased by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ChemicalDestabilization" name="::ChemicalDestabilization">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">208</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The character takes additional {0}% {1} damage from all sources.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ChemicalDestabilizationProvider" name="::ChemicalDestabilizationProvider">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">209</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your successful chemical pistol attacks increase the amount of damage taken from the pistol's damage type by {0}% from all sources for {1}. Stacks {2} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LeperPoison" name="::LeperPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">210</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is afflicted by leper poison, suffering {0} bio damage every turn and receiving {1}% more mechanical damage from all sources.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Submerged" name="::Submerged">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">211</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is submerged in water. Evasion is increased by {0}, dodge increased by {1} and all damage resistances are increased by {2}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeartbreakPoison" name="::HeartbreakPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">212</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is afflicted by heartbreak poison, suffering {0} bio damage every turn. If the poison is not removed, it will deal additional {1} bio damage on expiration.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Rusting" name="::Rusting">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">213</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces durability of all mechanical items in your posession by {0} each turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::VehicleTurbo" name="::VehicleTurbo">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">214</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Vehicle movement speed and movement points increased by {0}%, but energy consumption increased by {1}%. The bonuses only work if vehicle is not overencumbered.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Flurry" name="::Flurry">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">215</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces action point cost of Flurry by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Onslaught" name="::Onslaught">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">216</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases damage done by swords by {0}%. Will be removed if an attack misses or does no damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Riposte" name="::Riposte">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">217</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character can perform a free sword attack.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PositiveVoidAffliction" name="::PositiveVoidAffliction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">218</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Positively affected by the outcome of the previous battle. </source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NegativeVoidAffliction" name="::NegativeVoidAffliction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">219</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Negatively affected by the outcome of the previous battle.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PlayerVoidApparition" name="::PlayerVoidApparition">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">220</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your mind is detached from your body, and out here it's also your only tool available.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PelletMayhem" name="::PelletMayhem">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">221</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your next shotgun attack will have the critical hit chance increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ElectroshockAura" name="::ElectroshockAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">222</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Drains {0} energy from the armor and hits adjacent characters for {1} damage at the end of every turn at the cost of {2} energy per character.
+
+Additionally, whenever this character is attacked by a melee attack, the attacker will be hit by the same electrical damage at the same energy cost.
+
+Whenever this aura deals electrical damage, there's {3}% chance the target will be stunned for {4}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MetallineEnergization" name="::MetallineEnergization">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">223</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Drains {0} energy from the armor, but reduces the character's overall armor penalty by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EnergyShieldEmpowerment" name="::EnergyShieldEmpowerment">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">224</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Draing {0} energy from the armor, but increases all energy shielding values by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::WirelessChargingAura" name="::WirelessChargingAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">225</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Transfers up to {0} energy at {1}% efficiency from the source item to all other equipped items that require recharging, splitting the energy equally among them.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::RestlessSpirits" name="::RestlessSpirits">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">226</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Dexterity and perception reduced by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DarkPresence" name="::DarkPresence">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">227</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>There is something unwholesome lingering in the back of your mind. Will reduced by {0} and resolve reduced by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StriderParasiticInfestation_Base" name="::StriderParasiticInfestation_Base">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">228</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character has been infested!</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StriderParasiticInfestation_Phase1" name="::StriderParasiticInfestation_Phase1">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">229</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>They take {4} bio damage per turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StriderParasiticInfestation_Phase2" name="::StriderParasiticInfestation_Phase2">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">230</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Healing reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StriderParasiticInfestation_Phase3" name="::StriderParasiticInfestation_Phase3">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">231</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psi regeneration reduced by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StriderParasiticInfestation_Phase4" name="::StriderParasiticInfestation_Phase4">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">232</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points reduced by {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::StriderParasiticInfestation_Phase5" name="::StriderParasiticInfestation_Phase5">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">233</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Action points reduced by {3}. The infested wound hurts abominably.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SwampTrance" name="::SwampTrance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">234</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character has perception increased by {0} and regenerates {1} health points each turn. Also makes the character glow.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Polarized" name="::Polarized">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">235</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Energy damage resistance and threshold reduced by {0}% and electrical ones reduced by {1}%. Chance to get critically hit by weapons increased by {2}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Hyperallergenic" name="::Hyperallergenic">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">236</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Consuming any type of medicine will inflict {0} unavoidable bio damage to this character and daze them for {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HyperallergenicItemEffect_Cap" name="::HyperallergenicItemEffect_Cap">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">237</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Applies hyperallergenic to a suitable melee weapon that will inflict up to {0} unavoidable bio damage to the victim and daze them for {1} if they consume any type of medicine while under its effect. Lasts {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HyperallergenicItemEffect_Applied" name="::HyperallergenicItemEffect_Applied">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">238</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If the attack penetrates the armor, hyperallergenic is applied and it will inflict up to {0} unavoidable bio damage to the victim and daze them for {1} if they consume any type of medicine while under its effect. Lasts {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BattleTrance" name="::BattleTrance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">239</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>All offensive and psionic skills increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Smoking" name="::Smoking">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">240</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases psi regeneration by {0}, but reduces constitution by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CerebralAcidization" name="::CerebralAcidization">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">241</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This creature suffers {0} acid damage every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::VoidRot" name="::VoidRot">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">242</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character suffers {0} energy damage every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ImprovedSprint" name="::ImprovedSprint">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">243</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Movement points increased by {0} and action points increased by {1} when not in stealth.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EmpoweredInvocation" name="::EmpoweredInvocation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">244</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>{0} skill increased by {1}%. When this effect expires, the character will lose all psi points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BoardedUp" name="::BoardedUp">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">245</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases the amount blocked by a riot shield by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShellCount" name="::ShellCount">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">246</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Next shotgun shot will deal {0}% bonus damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ScrambledCortex" name="::ScrambledCortex">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">247</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This machine is confused and may attack anyone or retreat at random.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Chemhaze" name="::Chemhaze">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">248</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Chance to hit with ranged weapons reduced by {0}% and chance to hit with melee weapons and unarmed attacks reduced by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HelmetLanternAura" name="::HelmetLanternAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">249</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Drains {0} energy every turn and provides light up to {1} tiles in front of the wearer</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ElectricTorchAura" name="::ElectricTorchAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">250</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Drains {0} energy every turn and provides light in radius of {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::IndustrialExoskeletonAura" name="::IndustrialExoskeletonAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">251</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by {0} and movement points increased by {1}. Movement speed penalty of the armor negated. Drains {2} energy every turn, as well as additional {3} energy for every tile of movement.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CombatExoskeletonAura" name="::CombatExoskeletonAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">252</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Strength increased by {0} and movement points increased by {1}. Movement speed penalty of the armor negated. Drains {2} energy every turn, as well as additional {3} energy for every tile of movement.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShootingSpree" name="::ShootingSpree">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">253</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Your next sniper rifle attack will refund 100% of the action point cost if it kills the target.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PlayerMutantFireClaw" name="::PlayerMutantFireClaw">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">254</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Flames engulf your left claw, causing it to deal additional 10-15 heat damage with each melee attack.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PlayerMutantFrostClaw" name="::PlayerMutantFrostClaw">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">255</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Dipping your right claw into a liquid nitrogen freezer has encased it in solid ice, causing it do deal additional 20-35 cold damage with each melee attack, chilling the target in process.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PlayerMutantRustingAcidInfusion" name="::PlayerMutantRustingAcidInfusion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">256</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Consuming a mysterious concoction has altered your acidic glands, causing your Acid Spray to inflict rusting acid upon use.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BulletTime" name="::BulletTime">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">257</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces action point cost of firing firearm pistols by {0}%. Cannot reduce the action point cost below the hard minimum.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CutsceneDamageResistance" name="::CutsceneDamageResistance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">258</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You shouldn't be seeing this. Look at something else.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Campfire" name="::Campfire">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">259</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The fire warms you up and relaxes you. Movement points are increased by {0}, movement speed by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FrigidEnvironment" name="::FrigidEnvironment">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">260</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>It's freezing in here. Your cold resistance and threshold is reduced by {0}%, and all cold damage taken is increased by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychokineticChainLink" name="::PsychokineticChainLink">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">261</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is linked into a psychokinetic chain so {0}% of all direct mechanical and electrical damage taken will be transferred to the next link in the chain, up to maximum of {1} damage per single transfer.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TelekineticGrounding" name="::TelekineticGrounding">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">262</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is immobilized for now by telekinetic force, but may manage to break free.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychosomaticPredator" name="::PsychosomaticPredator">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">263</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is on the hunt for a specific prey, dealing bonus damage to them with weapon and unarmed attacks. The same damage is reduced by overall {0}% against other targets.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychosomaticPrey" name="::PsychosomaticPrey">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">264</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character is being hunted and will receive {0}% bonus damage from its hunter's weapon and unarmed attacks. This damage is doubled if the attack is melee, and again doubled while this character is frightened.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsionicTransceiver" name="::PsionicTransceiver">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">265</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psionic skills increased by {0} due to presence of other psionics.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::FreezingMemories" name="::FreezingMemories">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">266</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Will increased by {2}. All cold damage taken reduced by {0}% and all mechanical damage taken reduced by {1}%. The character is immune to any further chilling or freezing effects.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Motion" name="::Motion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">267</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This cat is in motion, which means that intelligence and perception are reduced by {0}, while maximum psi points are increased by {1} and psi regeneration is increased by {2}. Also, resolve is reduced by {3}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MotionWithdrawal" name="::MotionWithdrawal">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">268</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This cat is suffering from severe motion deficiency, which means that intelligence and perception are reduced by {0}, maximum psi points are reduced by {1} and psi regeneration is reduced by {2}. Also, resolve is reduced by {3}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MindFog" name="::MindFog">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">269</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Intelligence reduced by {0} and psi cost increased by {1}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ToxicGasHealingForEnergyMicrofeat" name="::ToxicGasHealingForEnergyMicrofeat">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">270</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Restores {0}-{1} health each turn while standing inside a toxic gas cloud at the cost of up to {2} energy. The healing amount depends on the thickness of the cloud and the energy cost depends on the healing amount. Cannot heal above {3}% of the maximum health. Does not work while frozen or chilled.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeadTrap" name="::HeadTrap">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">271</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Suffering {0} damage every turn. Perception reduced by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ScanCallOverload" name="::ScanCallOverload">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">272</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Scan time increased by {0}%, which makes the camera slower to find and report intruders.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SweepingMomentum" name="::SweepingMomentum">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">273</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Sweep attack deals {0}% bonus damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BurstWindUp" name="::BurstWindUp">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">274</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Burst attack with this weapon will fire {0} extra round{1} while costing {2} less action point{3}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BulletTrance" name="::BulletTrance">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">275</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character does {0}% bonus damage when using heavy guns.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DemolitionRage" name="::DemolitionRage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">276</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This character does {0}% bonus damage when using grenade and rocket launchers.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::GunnersHigh" name="::GunnersHigh">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">277</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Heals {0} health per turn, but cannot heal above {1}% of maximum health.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::JumpstarterBoost" name="::JumpstarterBoost">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">278</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Grants {0} extra burst rounds to {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ColdLaserInterception" name="::ColdLaserInterception">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">279</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This tactical support bot is equipped with an active area protection system that intercepts and rapidly cools grenades, effectively neutralizing them.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DesignatorLaser" name="::DesignatorLaser">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">280</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This tactical support bot is equipped with a computerized laser designator that feeds its allies targetting information, thereby improving their precision and effectiveness.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LaserDesignatedTarget" name="::LaserDesignatedTarget">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">281</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Chance to get critically hit with weapons increased by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SensorimotorTransference" name="::SensorimotorTransference">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">282</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Combatant's performance is influenced by external sources. All offensive skills increased by {0}, action point cost of all weapon attacks reduced by {1} and all damage taken reduced by {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SensorimotorTransferenceDisruption" name="::SensorimotorTransferenceDisruption">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">283</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces the number of Sensorimotor Command stacks by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SensorimotorAmplifier" name="::SensorimotorAmplifier">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">284</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reinforces and contributes to received sensorimotor information.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::WildPsionicInnervation" name="::WildPsionicInnervation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">285</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Skill level increased by {0}, critical chance increased by {1} and critical damage by {2}, while psi point cost is reduced by {3} for {4} psi abilities. All other non-boosted psi school have their psi point cost increased by {5}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ParafibroticRegeneration" name="::ParafibroticRegeneration">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">286</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Heals {0} health per turn and mechanical and heat damage taken reduced by {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Demoralized" name="::Demoralized">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">287</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Offensive skills reduced by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShellShocked" name="::ShellShocked">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">288</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Offensive and defensive skills reduced by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MutationSickness" name="::MutationSickness">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">289</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You feel nauseated, and your entire body aches. Your health has been temporarily reduced by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MutationVigor" name="::MutationVigor">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">290</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You feel strangely revitalized. Your health has been temporarily increased by {0}%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

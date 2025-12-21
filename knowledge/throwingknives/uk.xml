@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="knowledge\throwingknives.txt" original="knowledge\throwingknives.txt">
+    <unit id="::Regular" name="::Regular">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">1</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Throw the knife dealing {0} damage if it hits the target. This damage incurs {2}% of target's mechanical resistance and threshold, but the damage that passes armor is increased by {3}% against living targets. Damage and precision scale with the throwing skill. When throwing a knife while in melee range of an enemy, you suffer {1}% hit chance penalty.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BurrowerPoison" name="::BurrowerPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If target takes damage it is also afflicted with burrower poison that deals {0} damage each turn for up to {1}. Stacks {2} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CaveEarPoison" name="::CaveEarPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">3</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If target takes damage it is also afflicted with cave ear poison that increases all biological damage taken by {0}% and reduces perception by {1}. Lasts up to {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CrawlerPoison" name="::CrawlerPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If target takes damage it is also afflicted with crawler poison that deals {0} damage each turn for {1}. If the poison is not removed before it expires it will stun the victim for {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlackDragonPoison" name="::BlackDragonPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">5</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If target takes damage it is also afflicted with black dragon poison which causes psionic inhibition, preventing the victim from invoking psi abilities or regenerating psi points. Lasts {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpiritPoison" name="::SpiritPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If target takes damage it is also afflicted with spirit poison that deals {0} damage per turn each turn for {1} and reduces resolve by {2}%. If the poison is not removed before it expires it will summon a psionic doppelganger of the victim if it's humanoid.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BlindingPoison" name="::BlindingPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">7</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If target takes damage it is also afflicted with blinding poison that deals {0} damage each turn for up to {1} and reduces perception by {2}. Stacks {3} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LeperPoison" name="::LeperPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If target takes damage it is also afflicted with leper poison that deals {0} damage each turn for up to {1} and increases all mechanical damage taken by {2}%. Stacks {3} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::HeartbreakPoison" name="::HeartbreakPoison">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">9</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>If target takes damage it is also afflicted with heartbreak poison that deals {0} damage each turn for up to {1}. Stacks {2} times. If this poison is allowed the expire naturally it will then deal a great amount of damage which increases ever more rapidly with each stack.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ShockShuriken" name="::ShockShuriken">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Throw the shuriken dealing {0} damage (incurring {3}% of target's mechanical resistance and threshold) and {1} damage if it hits the target. If any electrical damage is dealt, there's a {4}% chance to stun or short-circuit the target for one turn. When throwing while in melee range of an enemy, you suffer {2}% hit chance penalty.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

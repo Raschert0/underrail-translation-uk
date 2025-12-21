@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="knowledge\psi.txt" original="knowledge\psi.txt">
+    <unit id="::Cryokinesis" name="::Cryokinesis">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">1</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Materializes an ice shard and shoots it towards the target, dealing {0}-{1} cold and {2}-{3} mechanical damage, and applying Chill debuff which decreases target's movement points by {4} for {5} turns. Stacks {6} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Cryokinesis-RT" name="::Cryokinesis-RT">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Materializes an ice shard and shoots it towards the target, dealing {0}-{1} cold and {2}-{3} mechanical damage, and applying Chill debuff which decreases target's movement speed by 10% for {4} seconds. Stacks {5} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Cryostasis" name="::Cryostasis">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">3</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Suspends the target in cryostasis for {0} turns plus an additional turn per Chill effect currently on the target. Any damage will undo cryostasis.
+
+The effect can be lessened or mitigated through cold resistance.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Cryostasis-RT" name="::Cryostasis-RT">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Suspends the target in cryostasis for {0} seconds plus additional {1} seconds per Chill effect currently on the target. Any damage will undo cryostasis.
+
+The effect can be lessened or mitigated through cold resistance.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TelekineticPunch" name="::TelekineticPunch">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">5</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Telekinetical force strikes the target, dealing {0}-{1} mechanical damage and stunning it for {2} unless it passes a fortitude check. The stun only affects organic targets.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TelekineticPunch-RT" name="::TelekineticPunch-RT">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Telekinetical force strikes the target, dealing {0}-{1} mechanical damage and stunning it for {2} seconds unless it passes resolve check. The stun affects only organic targets.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Pyrokinesis" name="::Pyrokinesis">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">7</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Creates a ball of superheated gas and hurls it to the designated area. Everyone caught in the blast take {0}-{1} heat damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PyrokinesisPyromaniac" name="::PyrokinesisPyromaniac">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>There's a {0}% chance for each target to catch on fire, suffering {1}% of the original damage dealt again over {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NeuralOverload" name="::NeuralOverload">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">9</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Short circuits the central nervous system of a living target dealing {0}-{1} electrical damage. Damage is increased by {2}% for every target's point of intelligence above {3}.
+
+This damage cannot be shielded and bypasses standard electrical resistance, but can be lowered by the target's resolve.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NeuralOverloadIntimidation" name="::NeuralOverloadIntimidation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Also intimidates the target, reducing their offensive skills by {0} for {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NeuralOverloadCerebralAcidization" name="::NeuralOverloadCerebralAcidization">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">11</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Deals another {0}% of the original damage over {1} as unresistable acid damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Forcefield-Old" name="::Forcefield-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">12</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Places an impenetrable force field on the designated unoccupied location for {0} turns.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Forcefield" name="::Forcefield">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">13</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Places a force field on the designated unoccupied location and all unoccupied tiles adjecent to it that has {0} health. It has 100% resistance to bio and cold, {1} to mechanical, and {2} to everything else. Lasts until destroyed or up to {3} turns.
+
+Destroying one segment of the force field will break all of it.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Frighten" name="::Frighten">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">14</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Projects terrifying images into the target's mind in an attempt to cause it to panic for up to {0} turns.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ForceEmission-Old" name="::ForceEmission-Old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">15</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>While this ability is active, your unarmed attacks deal additional {0} damage and have the range of {1}, but at the cost of {2} psi points per attack.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ForceEmission" name="::ForceEmission">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">16</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>While this ability is active, your unarmed and fist weapon attacks deal additional {0} damage, but at the cost of {1} psi points per attack.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PyrokineticStream" name="::PyrokineticStream">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">17</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Creates a stream of fire towards the targeted location, damaging everything in its path for {0}-{1} heat damage every tick. The stream hits the targets {2} times plus an additional time for every {3} spare action points and {4} spare psi points remaining after the initial invocation.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PyrokineticStreamPyromaniac" name="::PyrokineticStreamPyromaniac">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">18</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Every time a target is damaged there's a {0}% chance it will catch on fire, suffering {1}% of the original damage dealt again over {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Electrokinesis" name="::Electrokinesis">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">19</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Projects an electrical bolt that deals {0}-{1} electrical damage to the primary target and stuns it for {2} before jumping to a nearby target (unless fully resisted). It can jump up to {3} times, but the damage decreases by {4}% of the original amount with each jump. It can strike the same target multiple times, but it needs at least two targets to jump between. Only the primary target is stunned.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MentalBreakdown" name="::MentalBreakdown">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">20</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Incapacitates the target for up to {0} and reduces its resolve by {1}%. If a detrimental thought control psi ability is invoked against the target during this period it will have double the effect, but will end the mental breakdown.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Bilocation" name="::Bilocation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">21</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Creates a doppelganger of a human target bent on their destruction. The doppelganger is immune to all physical attacks and deals {0}-{1} mental damage that bypasses all shields and resistances. Lasts for {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TelekineticProxy" name="::TelekineticProxy">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">22</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Moves the telekinetic proxy from its current location to the specified location, dealing {0} damage to everything in its path. If the proxy is not present, is too far away, or doesn't have a clear straight line path to the destination, a new one will be spawned.
+
+Telekinetic proxy will mimic your damaging telekinetic psi abilities and effects if the target is within its radius. The proxy lasts {1}, but the timer refreshes with each move or mimic.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ThermodynamicDestabilization" name="::ThermodynamicDestabilization">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">23</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Afflicts the target with thermodynamical destabilization for {0}. If the target is destroyed during this period it explodes, dealing heat and mechanical damage to surrounding characters that (in total) equals {1}% of the target's health at the point in which it was afflicted.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ThermodynamicDestabilizationPyromaniac" name="::ThermodynamicDestabilizationPyromaniac">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">24</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>For each target caught in the explosion there's a {0}% chance to catch on fire, suffering {1}% of the original damage dealt again over {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Enrage" name="::Enrage">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">25</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Enrages a living target for up to {0} which causes it to turn hostile to everything.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsiCognitiveInterruption" name="::PsiCognitiveInterruption">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">26</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Burns up {0}-{1} of target's psi points, dealing damage equal to {2}% of psi burned. This damage cannot be shielded and bypasses standard resistance, but can be lowered by the target's resolve.
+
+It also applies psionic inhibition to the target for up to {3}, preventing it from invoking psi abilities or regenerating psi points.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PseudoSpatialProjection" name="::PseudoSpatialProjection">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">27</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>In the minds of your enemies you project {0} additional copies of yourself in your immediate vicinity that last up to {1}. Each time you are attacked by a weapon or unarmed attack, there's a chance (depending on attacker's resolve) that the attack will hit a copy instead, removing it from play. 
+
+Machines and true-sighted attackers are not affected.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::NeurovisualDisruption" name="::NeurovisualDisruption">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">28</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You disappear from the sight of the target, removing its ability to detect for {0} and immediately entering stealth. Target also has its perception reduced by {1} and detection by {2}% for {3}.
+
+Invoking this ability immediately drains all your remaining action and movement points. Does not work on machines or true-sighted creatures. Can only be invoked in combat.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ElectrokineticImprint" name="::ElectrokineticImprint">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">29</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Generates an electrokinetic imprint at the target location that deals {0} damage to the first character that steps on it and stuns it for {1}. If you try to place the imprint on top of a trap, it will backfire. You can only have one imprint active at a time.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Implosion" name="::Implosion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">30</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Deals mechanical damage equal to {0}% of target's current health. This attack bypasses damage thresholds and shields, but cannot critically hit.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::DisruptiveField" name="::DisruptiveField">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">31</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Creates a disruptive field around the target that reduces their chance to hit with ranged and thrown weapons by {0}% for {1}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CryokineticOrb" name="::CryokineticOrb">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">32</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>You launch a large frozen orb which shatters on impact, sending ice shards flying in all directions. Each shard deals {0} and {1} damage and chills the target. 
+
+Chilled characters have their movement points decreased by {2} for {3}. This effect stacks {4} times.
+
+Due to shards fanning out, targets closer to the place of impact may be hit by multiple shards, while those farther away might not be hit at all.
+
+Each shard has {5}% chance to inflict a bleeding wound that does additional {6}% of the original mechanical damage done over {7}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ExothermicAura" name="::ExothermicAura">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">33</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Makes you immune to heat damage and generates flames around you and in your wake. Lasts {0}, but the flames won't be generated on the last turn.
+
+Creatures standing in the fire suffer heat damage equal to {1}%-{2}% of their maximal health (up to maximum of {3}-{4}), plus additional {5}-{6}, depending on the intensity of fire at that spot, while creatures moving through the fire suffer one third of that damage per tile.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CryoShield" name="::CryoShield">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">34</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Creates {0} frozen shards around the invoker. Each time the character suffers a melee attack, there's a {1}% chance that one of the shards will block {2} of mechanical damage and be destroyed in the process. Lasts {3} or until all shards are destroyed.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TemporalDistorsion-old" name="::TemporalDistorsion-old">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">35</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Places a debuff on the target that lasts {0} and deals {1} and {2} damage when it expires. In the case the target is already affected by temporal distortion, its duration will be increased by {3} and damage by {4}% and the newly applied temporal distortion will have the same duration and damage bonus. Damage dealt by this ability ignores shield and {5}% of damage resistance and threshold. This ability cannot critically hit.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TemporalDistorsion" name="::TemporalDistorsion">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">36</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Places a debuff on the target that lasts {0} and deals {1} and {2} damage when it expires. In the case the target is already affected by temporal distortion, its damage will be increased by {3}% and the newly applied temporal distortion will have the same duration and damage bonus. Damage dealt by this ability ignores shield and {4}% of damage resistance and threshold. This ability cannot critically hit.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EntropicRecurrence" name="::EntropicRecurrence">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">37</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Repeats {0}% of the last unit of damage taken by the target over {1}. This damage ignores shields and resistances. In cases when the original damage was very slight, the recurrence may actually empower it.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychotemporalDilation" name="::PsychotemporalDilation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">38</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces target's action points by {0} and movement points by {1}. Lasts {2}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychotemporalContraction" name="::PsychotemporalContraction">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">39</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Increases target's action points by {0} and movement points by {1}. Lasts {2}. After the effect ends, there's a {3}% chance of it reversing into a psychotemporal dilation of varying power.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::LimitedTemporalIncrement" name="::LimitedTemporalIncrement">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">40</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces all remaining cooldowns by {0}.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TemporaryRewind" name="::TemporaryRewind">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">41</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reverses the last damage done to the target, up to maximum of {0} health points. After three turns this health is lost and this may cause the target to die.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Precognition" name="::Precognition">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">42</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>While this ability is active, your chance to dodge and evade attacks is increased by {0}% (additively). Drains {1} psi points every turn.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Stasis" name="::Stasis">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">43</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Places the target in stasis for {0}, making it immune to all damage and most disabling effects, but also preventing it from acting. While in stasis, the target's status effects will not progress (except the stasis one), but the cooldowns will. Stasis will collapse after absorbing {1} damage.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychokineticChain" name="::PsychokineticChain">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">44</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Links up to {0} enemies into psychokinetic chain which transfers {1}% of all direct mechanical and electrical damage down the chain to the next link as mechanical damage that bypasses energy shields. Maximum total damage transferred from link to link is {2}. The chain lasts {3} or until broken.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::TelekineticGrounding" name="::TelekineticGrounding">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">45</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Immobilizes the target for up to {0}. This ability cannot be resisted, but the victim has a chance to free itself at the end of every turn. This chance starts out small but increases steadily as the telekinetic chains weaken over time. Also, the higher your strength, the easier it is to free yourself.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PlasmaBeam" name="::PlasmaBeam">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">46</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Projects a beam of superheated plasma that intensifies towards its maximum range. It reaches maximum power 2/3 of the way there, where it can deal {0} and {1} damage to anyone in its trajectory.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::PsychosomaticPredation" name="::PsychosomaticPredation">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">47</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Creates a predatory focus in the invoker against a living enemy, granting {0}% bonus damage to the predator's weapon and unarmed attacks, but reduces the damage of these attacks against everyone else by {1}%. The damage bonus is double if the attack is melee, and again doubled if performed against a frightened enemy. Lasts up to {2}, as long as the predator and prey stay relatively near each other.
+
+If the predator kills the target with a direct attack, they will regain {3} psi and reset the cooldown.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MotorCognitiveTransference" name="::MotorCognitiveTransference">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">48</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Reduces each of the target's offensive skills base values by up to {0}% (capped at {1}) and then transfers half of this amount to invoker's base skill value or changes the invoker's base skill value to up to {2}% of that of the target (capped at {3}), whichever will yield the higher effective skill. Lasts up to {4}. Only works on humanoids.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::CryogenicBarrier" name="::CryogenicBarrier">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">49</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Causes shards of ice to be formed from the water taken from the primary target tile that deal {0} and {1} damage to all characters on those tiles. If the tile is traversable and empty, an ice barrier will be left behind that has {2} health and lasts {3} or until destroyed. 
+
+The barrier has 100% resistance to bio, cold and electrical damage, and {7} to mechanical damage.
+
+Targets that suffer cold damage will also become chilled. Chilled characters have their movement points decreased by {4} for {5}. This effect stacks {6} times.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="knowledge\vehiclestattooltips.txt" original="knowledge\vehiclestattooltips.txt">
+    <unit id="::Durability" name="::Durability">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">1</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Shows current and maximum durability points of the vehicle. When the current durability points reach zero, the vehicle is destroyed and the driver dies. Many vehicle parts, items in the trunk and the driver itself are likely to be completely destroyed when this happens.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Energy" name="::Energy">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Shows current stored energy and the maximum battery capacity. When the vehicle runs out of energy it will engage the auxiliary power and move extremely slowly.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EnginePower" name="::EnginePower">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">3</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Engine power determines how fast the vehicle will move under certain weight. The number represents the maximum total weight (including the vehicle parts, items in the trunk and the driver) the vehicle can take on and move at the nominal speed for the vehicle type.
+
+Having excess or deficit of power will modify the vehicle speed accordingly. </source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Consumption" name="::Consumption">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Some engines are more efficient than others. The number represents the effective engine power when it comes to determining the energy consumption.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::EnergyPerTile" name="::EnergyPerTile">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">5</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The amount of energy the vehicle consumes when it moves the distance of one kilometer. Some engines are more efficient than others.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Weight" name="::Weight">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Vehicle weight is the total weight of the vehicle chasis plus the vehicle parts installed. Total weight is vehicle weight plus the weight of items stored in the trunk, plus the weight of the driver if they are currently mounting the vehicle.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::BaseSpeed" name="::BaseSpeed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">7</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This is the base speed for the vehicle type (e.g. standing jetski). This speed is further modified by engine power, loaded weight and the chassis aero/hydo-dynamicity.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::SpeedModifier" name="::SpeedModifier">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This is the speed modifier of the current vehicle chassis. Some models are more aero/hydro-dynamic than others.
+
+Positive speed modifiers are only applied if the vehicle is not out of energy and is not carrying more weight than it can normaly support with its engine.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::UnmannedSpeed" name="::UnmannedSpeed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">9</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This is the current theoretical unmanned vehicle speed and evasion modifier (which is dependent of the vehicle's speed and maneuverability).</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MannedSpeed" name="::MannedSpeed">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>This is the current actual vehicle speed and evasion modifier (which is dependent of the vehicle's speed and maneuverability).</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Stability" name="::Stability">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">11</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Stability indicates how stable and easy to do combat from the vehicle is, influencing both ranged and melee (though to a lesser degree), as well as throwing, precision. Precision of melee attacks is further modified by the vehicle's maneuverability, and precision of short range melee weapons (knives and fist weapons), as well as unarmed attacks, is further reduced by additional 10%.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::MeleeDamageBonus" name="::MeleeDamageBonus">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">12</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Bonus to melee damage when attacking from this vehicle due to vehicle speed.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::Cover" name="::Cover">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">13</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The chance that the incoming attack will hit the vehicle instead of the driver.
+
+In case of an area of effect attack it represents the amount of damage that the vehicle will bear in driver's stead.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ResistanceDescription" name="::ResistanceDescription">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">14</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The armor either absorbs the amount indicated by the percentage OR the flat number, whichever will result in more damage being absorbed. The unabsorbed amount reduces the vehicles durability.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ResistanceMechanical" name="::ResistanceMechanical">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">15</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The amount of mechanical damage the vehicle's armor can absorb.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ResistanceHeat" name="::ResistanceHeat">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">16</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The amount of heat damage the vehicle's armor can absorb.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ResistanceCold" name="::ResistanceCold">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">17</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The amount of cold damage the vehicle's armor can absorb.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ResistanceElectricity" name="::ResistanceElectricity">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">18</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The amount of electrical damage the vehicle's armor can absorb.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ResistanceAcid" name="::ResistanceAcid">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">19</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The amount of acid damage the vehicle's armor can absorb.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ResistanceEnergy" name="::ResistanceEnergy">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">20</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The amount of energy damage the vehicle's armor can absorb.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="::ResistanceBio" name="::ResistanceBio">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">21</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>The amount of bio damage the vehicle's armor can absorb.</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>

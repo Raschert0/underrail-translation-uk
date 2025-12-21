@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
+  <file id="dialogs\interfacing\xpbl\dun_cvw_hr_leaflet.txt" original="dialogs\interfacing\xpbl\dun_cvw_hr_leaflet.txt">
+    <unit id="=&gt;q1" name="=&gt;q1">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">2</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Welcome to *Hopperdrome*, the place for all your hopper racing needs!
+
+*Third South Underrail Hop-off - final day events*:
+        - Pentapus Tom's scrap juggling act
+        - Brew drinking contest
+        - *Hop-off Final - 10-lap race*
+        - Musical program: The Traveling Septaphonists, Metal Fatigue, 10011001
+*Hoppers*:
+        $(interfacing_xpbl_hopperRacing_hopper1info)
+        ------------------------------------------------------------------
+        $(interfacing_xpbl_hopperRacing_hopper2info)
+        ------------------------------------------------------------------
+        $(interfacing_xpbl_hopperRacing_hopper3info)
+        ------------------------------------------------------------------
+        $(interfacing_xpbl_hopperRacing_hopper4info)
+        ------------------------------------------------------------------
+*Wager types*:
+        On the nose - back the hopper to finish first only
+        At the tail - back the hopper to finish second only
+        Slow show - back the hopper to finish third only
+        In the coins - back the hopper to finish either first or second; first place means full payment, second place is reduced payment::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a2" name="=&gt;a2">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">4</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Flip the leaflet.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;q3" name="=&gt;q3">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">6</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::*How does fixed-odds betting work*: Here at the Hopperdrome we use decimal odds. This type of odds takes into account that the bettor must first part with their part of the stake to make a bet. Therefore, the decimal odds of an outcome are equivalent to one plus the decimal value of the fractional odds.
+Example: Betting at 1.01 odds means that for every 100 charons the bettor earns one charon, or 1% of the wager.
+
+Below is a list of odds for each racing hopper, ordered by wager types (on the nose, at the tail, slow show and in the coins, respectively).
+
+-------------------------------------------------
+$(interfacing_xpbl_hopperRacing_hopper1quotas)
+-------------------------------------------------
+$(interfacing_xpbl_hopperRacing_hopper2quotas)
+-------------------------------------------------
+$(interfacing_xpbl_hopperRacing_hopper3quotas)
+-------------------------------------------------
+$(interfacing_xpbl_hopperRacing_hopper4quotas)
+-------------------------------------------------::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a4" name="=&gt;a4">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">8</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Flip the leaflet.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+    <unit id="=&gt;a5" name="=&gt;a5">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">10</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>::Put it away.::&lt;end&gt;</source>
+        <target state="new" />
+      </segment>
+    </unit>
+  </file>
+</xliff>
