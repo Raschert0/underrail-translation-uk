@@ -1,26 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\cc_zamanconsole2.txt" original="dialogs\interfacing\cc_zamanconsole2.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::APB console - Biocorp Core Electronics
-Firmware version - 1.23
-Searching for newer version...
-
-Error 35: No Connection
-Skipping update::&lt;end&gt;</source>
-        <target state="final">::APB console - Biocorp Core Electronics
-Firmware version - 1.23
-Searching for newer version...
-
-Error 35: No Connection
-Skipping update::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -36,16 +16,6 @@ Skipping update::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -56,16 +26,6 @@ Skipping update::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Activate electroshock defence system::&lt;end&gt;</source>
-        <target state="final">::Activate electroshock defence system::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -74,22 +34,6 @@ Skipping update::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Activate electroshock defence system::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Activating...
-
-Activation failed
-Unknown error::&lt;end&gt;</source>
-        <target state="final">::Activating...
-
-Activation failed
-Unknown error::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -105,16 +49,6 @@ Unknown error::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a5_original" name="=&gt;a5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -125,16 +59,6 @@ Unknown error::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Activate Main Gate release::&lt;end&gt;</source>
-        <target state="final">::Activate Main Gate release::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -143,22 +67,6 @@ Unknown error::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Activate Main Gate release::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Activating Main Gate release...
-
-Operation successful
-::&lt;end&gt;</source>
-        <target state="final">::Activating Main Gate release...
-
-Operation successful
-::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -174,16 +82,6 @@ Operation successful
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -194,16 +92,6 @@ Operation successful
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a9_original" name="=&gt;a9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Exit::&lt;end&gt;</source>
-        <target state="final">::Exit::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -212,16 +100,6 @@ Operation successful
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Exit::&lt;end&gt;</source>
-        <target state="final">::Exit::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">

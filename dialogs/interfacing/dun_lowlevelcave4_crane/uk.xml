@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\dun_lowlevelcave4_crane.txt" original="dialogs\interfacing\dun_lowlevelcave4_crane.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The crane is fully operational. It can be used for some heavy lifting.::&lt;end&gt;</source>
-        <target state="final">::The crane is fully operational. It can be used for some heavy lifting.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -19,16 +9,6 @@
       <segment state="translated">
         <source>::The crane is fully operational. It can be used for some heavy lifting.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -41,16 +21,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Descend into the cave using the chain.::&lt;end&gt;</source>
-        <target state="final">::Descend into the cave using the chain.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -59,16 +29,6 @@
       <segment state="translated">
         <source>::Descend into the cave using the chain.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Climb up the chain.::&lt;end&gt;</source>
-        <target state="final">::Climb up the chain.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -81,16 +41,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a5_original" name="=&gt;a5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Leave.::&lt;end&gt;</source>
-        <target state="final">::Leave.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -99,20 +49,6 @@
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Before you lies an abandoned crane with a visibly torn chain. Other than that, the crane itself seems to be in decent shape.  ::
-
-&lt;end&gt;</source>
-        <target state="final">::Before you lies an abandoned crane with a visibly torn chain. Other than that, the crane itself seems to be in decent shape.  ::
-
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -127,16 +63,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Tools and spare parts used for the crane's maintenance are sitting nearby.::&lt;end&gt;</source>
-        <target state="final">::Tools and spare parts used for the crane's maintenance are sitting nearby.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -147,16 +73,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Mechanics] Attempt to repair the chain.::&lt;end&gt;</source>
-        <target state="final">::[Mechanics] Attempt to repair the chain.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -165,20 +81,6 @@
       <segment state="translated">
         <source>::[Mechanics] Attempt to repair the chain.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Browsing the available toolkit, you quickly pick out a spare chain and an advanced soldering tool.::
-
-&lt;end&gt;</source>
-        <target state="final">::Browsing the available toolkit, you quickly pick out a spare chain and an advanced soldering tool.::
-
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -193,16 +95,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Applying your knowledge in mechanics, using the soldering tool, you manage to sucessfully repair the chain. Although not ideal, the new chain you've created, according to your estimation, should be able to easily handle your own weight. ::&lt;end&gt;</source>
-        <target state="final">::Applying your knowledge in mechanics, using the soldering tool, you manage to sucessfully repair the chain. Although not ideal, the new chain you've created, according to your estimation, should be able to easily handle your own weight. ::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -213,16 +105,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Despite giving your best effort to repair the chain, you were unable to do so.::&lt;end&gt;</source>
-        <target state="final">::Despite giving your best effort to repair the chain, you were unable to do so.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -231,20 +113,6 @@
       <segment state="translated">
         <source>::Despite giving your best effort to repair the chain, you were unable to do so.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The crane's chain is visibly damaged, hence making it unusable.::
-
-&lt;end&gt;</source>
-        <target state="final">::The crane's chain is visibly damaged, hence making it unusable.::
-
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">

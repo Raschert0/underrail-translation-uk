@@ -1,20 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\lu_b29_freedronebomber.txt" original="dialogs\characters\lu_b29_freedronebomber.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Frightened but determined the man confronts you.::
-
-Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do this, but it's the only way now... I can't let the Protectorate win! The Free Drones will fight on!&lt;end&gt;</source>
-        <target state="final">::Frightened but determined the man confronts you.::
-
-Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do this, but it's the only way now... I can't let the Protectorate win! The Free Drones will fight on!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -27,16 +13,6 @@ Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -45,16 +21,6 @@ Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do 
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why are you doing this? Are you this willing to blow yourself up only to deprive the Protectorate of some supplies?&lt;end&gt;</source>
-        <target state="final">Why are you doing this? Are you this willing to blow yourself up only to deprive the Protectorate of some supplies?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -67,16 +33,6 @@ Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm a Free Drone, that's who I am! And I am eager to give my life to make *sure* those Protectorate cans are driven out of this world. They have a powerful army, they have their mighty Dreadnoughts, but we have the courage and the will to resist them... and their devious manipulations.&lt;end&gt;</source>
-        <target state="final">I'm a Free Drone, that's who I am! And I am eager to give my life to make *sure* those Protectorate cans are driven out of this world. They have a powerful army, they have their mighty Dreadnoughts, but we have the courage and the will to resist them... and their devious manipulations.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -85,16 +41,6 @@ Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do 
       <segment state="translated">
         <source>I'm a Free Drone, that's who I am! And I am eager to give my life to make *sure* those Protectorate cans are driven out of this world. They have a powerful army, they have their mighty Dreadnoughts, but we have the courage and the will to resist them... and their devious manipulations.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Something I see you couldn't.&lt;end&gt;</source>
-        <target state="final">Something I see you couldn't.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -107,16 +53,6 @@ Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Intimidate]:: You are not dying today. Either defuse the bomb and walk a free man, or I'll make sure I drag you far away from the blast and into the hands of men who will gladly make the rest of your life nothing but pure, unadulterated agony.&lt;end&gt;</source>
-        <target state="final">::[Intimidate]:: You are not dying today. Either defuse the bomb and walk a free man, or I'll make sure I drag you far away from the blast and into the hands of men who will gladly make the rest of your life nothing but pure, unadulterated agony.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -127,16 +63,6 @@ Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Your message seems to him as clear as his previous determination to die in a blaze of glory, forcing him to reconsider it. He kneels next to the bomb and defuses it within a few seconds. The ticking stops, but not the beating of his heart.:: &lt;end&gt;</source>
-        <target state="final">::Your message seems to him as clear as his previous determination to die in a blaze of glory, forcing him to reconsider it. He kneels next to the bomb and defuses it within a few seconds. The ticking stops, but not the beating of his heart.:: &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -145,20 +71,6 @@ Damn you, $(#man/woman)! You... you killed all my friends! I never wanted to do 
       <segment state="translated">
         <source>::Your message seems to him as clear as his previous determination to die in a blaze of glory, forcing him to reconsider it. He kneels next to the bomb and defuses it within a few seconds. The ticking stops, but not the beating of his heart.:: &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::As he faces you once again, he points to the now-useless object.::
-
-There. You won!&lt;end&gt;</source>
-        <target state="final">::As he faces you once again, he points to the now-useless object.::
-
-There. You won!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -173,16 +85,6 @@ There. You won!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a9_original" name="=&gt;a9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And you get to fight another day. Scram, or you'll end up like the rest of your friends.&lt;end&gt;</source>
-        <target state="final">And you get to fight another day. Scram, or you'll end up like the rest of your friends.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -191,16 +93,6 @@ There. You won!&lt;end&gt;</source>
       <segment state="translated">
         <source>And you get to fight another day. Scram, or you'll end up like the rest of your friends.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And you have lost. ::Attack!::&lt;end&gt;</source>
-        <target state="final">And you have lost. ::Attack!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -213,16 +105,6 @@ There. You won!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then so be it! I will endure everything the Protectorate can throw at me.&lt;end&gt;</source>
-        <target state="final">Then so be it! I will endure everything the Protectorate can throw at me.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -231,16 +113,6 @@ There. You won!&lt;end&gt;</source>
       <segment state="translated">
         <source>Then so be it! I will endure everything the Protectorate can throw at me.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a12_original" name="=&gt;a12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Stop wasting my time. Move aside!&lt;end&gt;</source>
-        <target state="final">Stop wasting my time. Move aside!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -253,16 +125,6 @@ There. You won!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q13_original" name="=&gt;q13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Make me! Death to Protectorate!&lt;end&gt;</source>
-        <target state="final">Make me! Death to Protectorate!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -271,16 +133,6 @@ There. You won!&lt;end&gt;</source>
       <segment state="translated">
         <source>Make me! Death to Protectorate!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a14_original" name="=&gt;a14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Fight!::&lt;end&gt;</source>
-        <target state="final">::Fight!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">

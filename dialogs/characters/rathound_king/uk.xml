@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\rathound_king.txt" original="dialogs\characters\rathound_king.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::A familiar silhouette towers over you once again. This encounter with the Rathound King greatly reminds you of the first time you met him, for all the previous elements are still present: the king, the throne, the palace, the servants. Yet, the image has been watered down by the flow of events that had occurred. The king bears scars all over his body as well as over - how it appeared then - his granite-solid pride; the throne is an improvised shadow of its former self; the palace, nothing but a grimy, cold cave that stinks of downfall. The servants have been the least affected by the unfortunate relocation, still maintaining the same impression of loyal guards sitting by their king's side.::&lt;end&gt;</source>
-        <target state="final">::A familiar silhouette towers over you once again. This encounter with the Rathound King greatly reminds you of the first time you met him, for all the previous elements are still present: the king, the throne, the palace, the servants. Yet, the image has been watered down by the flow of events that had occurred. The king bears scars all over his body as well as over - how it appeared then - his granite-solid pride; the throne is an improvised shadow of its former self; the palace, nothing but a grimy, cold cave that stinks of downfall. The servants have been the least affected by the unfortunate relocation, still maintaining the same impression of loyal guards sitting by their king's side.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -19,20 +9,6 @@
       <segment state="translated">
         <source>::A familiar silhouette towers over you once again. This encounter with the Rathound King greatly reminds you of the first time you met him, for all the previous elements are still present: the king, the throne, the palace, the servants. Yet, the image has been watered down by the flow of events that had occurred. The king bears scars all over his body as well as over - how it appeared then - his granite-solid pride; the throne is an improvised shadow of its former self; the palace, nothing but a grimy, cold cave that stinks of downfall. The servants have been the least affected by the unfortunate relocation, still maintaining the same impression of loyal guards sitting by their king's side.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Speaking of the king, you can almost feel his big hands strangling you through an ocular proxy - a glare full of contempt by which he begins communicating his silent monologue. Everything he had to go through was your fault - of course - so for that he must demonstrate what happens when the mighty Rathound King gets disrespected, and he will feel no displeasure in executing it in the most violent manner known to him.
-
-His monologue then ends, and the battle begins.::&lt;end&gt;</source>
-        <target state="final">::Speaking of the king, you can almost feel his big hands strangling you through an ocular proxy - a glare full of contempt by which he begins communicating his silent monologue. Everything he had to go through was your fault - of course - so for that he must demonstrate what happens when the mighty Rathound King gets disrespected, and he will feel no displeasure in executing it in the most violent manner known to him.
-
-His monologue then ends, and the battle begins.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -47,16 +23,6 @@ His monologue then ends, and the battle begins.::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Fight!::&lt;end&gt;</source>
-        <target state="final">::Fight!::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -65,16 +31,6 @@ His monologue then ends, and the battle begins.::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>HA! You truly amaze me, $(context.player.Name): You captured Sarine!&lt;end&gt;</source>
-        <target state="final">HA! You truly amaze me, $(context.player.Name): You captured Sarine!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -87,16 +43,6 @@ His monologue then ends, and the battle begins.::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He looks at her with pride.:: Welcome to my lair, woman. You--&lt;end&gt;</source>
-        <target state="final">::He looks at her with pride.:: Welcome to my lair, woman. You--&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -105,20 +51,6 @@ His monologue then ends, and the battle begins.::&lt;end&gt;</source>
       <segment state="translated">
         <source>::He looks at her with pride.:: Welcome to my lair, woman. You--&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You ugly, *repulsive*, *pathetic* excuse for a human being! I'll rip your heart out if you even think about touchin' me with your filthy fingers! 
-
-ARGH! ::She kicks her cell's door with all her might but to no effect.::&lt;end&gt;</source>
-        <target state="final">You ugly, *repulsive*, *pathetic* excuse for a human being! I'll rip your heart out if you even think about touchin' me with your filthy fingers! 
-
-ARGH! ::She kicks her cell's door with all her might but to no effect.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -133,16 +65,6 @@ ARGH! ::She kicks her cell's door with all her might but to no effect.::&lt;end&
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You will *learn* to love it here, woman, and you will stay in that very cell until you come to your senses. Your beloved Beck is without you, and I hope he dies from sorrow like a spineless worm that he is. The Sud family lineage will end - while mine will flourish, just as it should be!&lt;end&gt;</source>
-        <target state="final">You will *learn* to love it here, woman, and you will stay in that very cell until you come to your senses. Your beloved Beck is without you, and I hope he dies from sorrow like a spineless worm that he is. The Sud family lineage will end - while mine will flourish, just as it should be!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -151,20 +73,6 @@ ARGH! ::She kicks her cell's door with all her might but to no effect.::&lt;end&
       <segment state="translated">
         <source>You will *learn* to love it here, woman, and you will stay in that very cell until you come to your senses. Your beloved Beck is without you, and I hope he dies from sorrow like a spineless worm that he is. The Sud family lineage will end - while mine will flourish, just as it should be!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The Rathound King turns to you with a pleased grin on his face.:: As for you, you've done me a great service. You deserve this. ::He hands you a curious suit of leather armor.:: 
-
-Welcome to the pack!&lt;end&gt;</source>
-        <target state="final">::The Rathound King turns to you with a pleased grin on his face.:: As for you, you've done me a great service. You deserve this. ::He hands you a curious suit of leather armor.:: 
-
-Welcome to the pack!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -179,16 +87,6 @@ Welcome to the pack!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a9_original" name="=&gt;a9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::End Dialog::&lt;end&gt;</source>
-        <target state="final">::End Dialog::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -197,20 +95,6 @@ Welcome to the pack!&lt;end&gt;</source>
       <segment state="translated">
         <source>::End Dialog::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(context.player.Name), thank you. First you bring me the woman I desired, then you - unknowingly, but still - bring me the son of my worst enemy to be butchered like a weakly sack of bones that he is. The fool! HA!
-
-What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</source>
-        <target state="final">$(context.player.Name), thank you. First you bring me the woman I desired, then you - unknowingly, but still - bring me the son of my worst enemy to be butchered like a weakly sack of bones that he is. The fool! HA!
-
-What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -225,16 +109,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -243,16 +117,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a12_original" name="=&gt;a12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How did you become the Rathound King?&lt;end&gt;</source>
-        <target state="final">How did you become the Rathound King?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -265,16 +129,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q13_original" name="=&gt;q13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Become? I've always been the Rathound King, for it is in my blood. These rathounds here are my brothers and sisters - my pack. Make no mistake, I may be their king and my will may be above theirs, but our respect is mutual and our bond is strong. We hunt together, we eat together, and we kill all those who dare disturb us - together.&lt;end&gt;</source>
-        <target state="final">Become? I've always been the Rathound King, for it is in my blood. These rathounds here are my brothers and sisters - my pack. Make no mistake, I may be their king and my will may be above theirs, but our respect is mutual and our bond is strong. We hunt together, we eat together, and we kill all those who dare disturb us - together.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -283,16 +137,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>Become? I've always been the Rathound King, for it is in my blood. These rathounds here are my brothers and sisters - my pack. Make no mistake, I may be their king and my will may be above theirs, but our respect is mutual and our bond is strong. We hunt together, we eat together, and we kill all those who dare disturb us - together.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a14_original" name="=&gt;a14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And who might that be?&lt;end&gt;</source>
-        <target state="final">And who might that be?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -305,16 +149,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q15_original" name="=&gt;q15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Evil men and women of Camp Hathor, of course! They despise us, want us gone from this world. Those people have no respect for me, my rathounds, my land. They call themselves hunters, but I spit on that - they're nothing but weaklings! Coal diggers who think they have it all figured out. I'll kill every single one of them who dares enter my land. ::He grins.:: My traps have already taken many of their lives, and every death pleases me.&lt;end&gt;</source>
-        <target state="final">Evil men and women of Camp Hathor, of course! They despise us, want us gone from this world. Those people have no respect for me, my rathounds, my land. They call themselves hunters, but I spit on that - they're nothing but weaklings! Coal diggers who think they have it all figured out. I'll kill every single one of them who dares enter my land. ::He grins.:: My traps have already taken many of their lives, and every death pleases me.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -323,16 +157,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>Evil men and women of Camp Hathor, of course! They despise us, want us gone from this world. Those people have no respect for me, my rathounds, my land. They call themselves hunters, but I spit on that - they're nothing but weaklings! Coal diggers who think they have it all figured out. I'll kill every single one of them who dares enter my land. ::He grins.:: My traps have already taken many of their lives, and every death pleases me.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -345,16 +169,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Camp Hathor?&lt;end&gt;</source>
-        <target state="final">Camp Hathor?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -363,16 +177,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>Camp Hathor?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's a small camp of miners-turned-hunters, and it is north of my lair. They are many, and they have weapons, but they are weaklings, both in body and in mind.&lt;end&gt;</source>
-        <target state="final">It's a small camp of miners-turned-hunters, and it is north of my lair. They are many, and they have weapons, but they are weaklings, both in body and in mind.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -385,16 +189,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q19_original" name="=&gt;q19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He spits on the floor beside him.:: Weaklings, I say.&lt;end&gt;</source>
-        <target state="final">::He spits on the floor beside him.:: Weaklings, I say.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -403,16 +197,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>::He spits on the floor beside him.:: Weaklings, I say.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a20_original" name="=&gt;a20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You sound as if they've been causing you a lot of issues.&lt;end&gt;</source>
-        <target state="final">You sound as if they've been causing you a lot of issues.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -425,16 +209,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q21_original" name="=&gt;q21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do I? Maybe because they have. I only wanted to be left alone and live with my pack on *our* land. But, those of Camp Hathor just wouldn't leave me be. Especially one man, their former leader - Gideon. ::The name is snarled rather than spoken normally, and a deep, angular frown appears on his forehead like a crack on a smooth rock.:: That coward, that pathetic excuse for a man. &lt;end&gt;</source>
-        <target state="final">Do I? Maybe because they have. I only wanted to be left alone and live with my pack on *our* land. But, those of Camp Hathor just wouldn't leave me be. Especially one man, their former leader - Gideon. ::The name is snarled rather than spoken normally, and a deep, angular frown appears on his forehead like a crack on a smooth rock.:: That coward, that pathetic excuse for a man. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -443,16 +217,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>Do I? Maybe because they have. I only wanted to be left alone and live with my pack on *our* land. But, those of Camp Hathor just wouldn't leave me be. Especially one man, their former leader - Gideon. ::The name is snarled rather than spoken normally, and a deep, angular frown appears on his forehead like a crack on a smooth rock.:: That coward, that pathetic excuse for a man. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He claimed I was trespassing their hunting grounds and stealing their game, while it belonged to me long before they stopped digging coal and decided to turn to hunting. My rathounds - my "dirty" rathounds - were vermin to him, insisting they were attacking and hurting the people of Camp Hathor. FOOL!&lt;end&gt;</source>
-        <target state="final">He claimed I was trespassing their hunting grounds and stealing their game, while it belonged to me long before they stopped digging coal and decided to turn to hunting. My rathounds - my "dirty" rathounds - were vermin to him, insisting they were attacking and hurting the people of Camp Hathor. FOOL!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -465,16 +229,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q23_original" name="=&gt;q23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But, that fool is now dead. Not by these hands, sadly. What is even sadder is that his successor is acting in his footsteps. Still, I'm more clever and I am more strong. They'll never defeat the Rathound King!&lt;end&gt;</source>
-        <target state="final">But, that fool is now dead. Not by these hands, sadly. What is even sadder is that his successor is acting in his footsteps. Still, I'm more clever and I am more strong. They'll never defeat the Rathound King!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -483,16 +237,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>But, that fool is now dead. Not by these hands, sadly. What is even sadder is that his successor is acting in his footsteps. Still, I'm more clever and I am more strong. They'll never defeat the Rathound King!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a24_original" name="=&gt;a24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why would you want to kill innocent people?&lt;end&gt;</source>
-        <target state="final">Why would you want to kill innocent people?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -505,16 +249,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q25_original" name="=&gt;q25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Innocent, you say? They are scum. I only wanted to be left alone and live with my pack on *our* land. But, those of Camp Hathor just wouldn't leave me be. Especially one man, their former leader - Gideon. ::The name is snarled rather than spoken normally, and a deep, angular frown appears on his forehead like a crack on a smooth rock.:: That coward, that pathetic excuse for a man.&lt;end&gt;</source>
-        <target state="final">Innocent, you say? They are scum. I only wanted to be left alone and live with my pack on *our* land. But, those of Camp Hathor just wouldn't leave me be. Especially one man, their former leader - Gideon. ::The name is snarled rather than spoken normally, and a deep, angular frown appears on his forehead like a crack on a smooth rock.:: That coward, that pathetic excuse for a man.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -523,16 +257,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>Innocent, you say? They are scum. I only wanted to be left alone and live with my pack on *our* land. But, those of Camp Hathor just wouldn't leave me be. Especially one man, their former leader - Gideon. ::The name is snarled rather than spoken normally, and a deep, angular frown appears on his forehead like a crack on a smooth rock.:: That coward, that pathetic excuse for a man.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a26_original" name="=&gt;a26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Who dares disturb you, Rathound King?&lt;end&gt;</source>
-        <target state="final">Who dares disturb you, Rathound King?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -545,16 +269,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a27_original" name="=&gt;a27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>About Camp Hathor...&lt;end&gt;</source>
-        <target state="final">About Camp Hathor...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -563,16 +277,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>About Camp Hathor...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, what is it?&lt;end&gt;</source>
-        <target state="final">Yes, what is it?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -585,16 +289,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They agreed to your terms.&lt;end&gt;</source>
-        <target state="final">They agreed to your terms.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -603,16 +297,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>They agreed to your terms.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q30_original" name="=&gt;q30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That sounds good, but with Sarine's kidnapping, the truce is impossible now. Things turned out differently than I had originally anticipated.&lt;end&gt;</source>
-        <target state="final">That sounds good, but with Sarine's kidnapping, the truce is impossible now. Things turned out differently than I had originally anticipated.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -625,16 +309,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q31_original" name="=&gt;q31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The negotiations are now meaningless, and a man must adapt to the new situation.&lt;end&gt;</source>
-        <target state="final">The negotiations are now meaningless, and a man must adapt to the new situation.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -643,16 +317,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>The negotiations are now meaningless, and a man must adapt to the new situation.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q32_original" name="=&gt;q32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Good, but I'm still keeping my eyes open. ::He stops to look at you for a second.:: You've done well. I don't know why you did all this, but I respect it nonetheless. And I thank you. I don't have any money to give you, but I can give you this instead. ::He hands you a curious suit of leather armor.:: Welcome to the Pack.&lt;end&gt;</source>
-        <target state="final">Good, but I'm still keeping my eyes open. ::He stops to look at you for a second.:: You've done well. I don't know why you did all this, but I respect it nonetheless. And I thank you. I don't have any money to give you, but I can give you this instead. ::He hands you a curious suit of leather armor.:: Welcome to the Pack.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -665,16 +329,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And as far as Sarine is concerned... forget about everything. Things have changed.&lt;end&gt;</source>
-        <target state="final">And as far as Sarine is concerned... forget about everything. Things have changed.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -683,16 +337,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>And as far as Sarine is concerned... forget about everything. Things have changed.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q34_original" name="=&gt;q34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Now, is there anything else?&lt;end&gt;</source>
-        <target state="final">Now, is there anything else?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -705,16 +349,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a35_original" name="=&gt;a35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Have you tried making a truce with Camp Hathor?&lt;end&gt;</source>
-        <target state="final">Have you tried making a truce with Camp Hathor?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -723,16 +357,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>Have you tried making a truce with Camp Hathor?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q36_original" name="=&gt;q36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Truce? After taking Sarine? ::He laughs.:: It's impossible. Besides, those weaklings have no honor anyway. They proved that to me a long, long time ago.&lt;end&gt;</source>
-        <target state="final">Truce? After taking Sarine? ::He laughs.:: It's impossible. Besides, those weaklings have no honor anyway. They proved that to me a long, long time ago.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -745,16 +369,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q37_original" name="=&gt;q37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Truce... HA!&lt;end&gt;</source>
-        <target state="final">Truce... HA!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -763,16 +377,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>Truce... HA!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q38_original" name="=&gt;q38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Don't be a fool. There's no way I'll negotiate with those honorless weaklings. I am not putting myself in the position of a stunned crawler prey, just waiting for a final stab to end my life. They showed their true face to me a long, long time ago.&lt;end&gt;</source>
-        <target state="final">Don't be a fool. There's no way I'll negotiate with those honorless weaklings. I am not putting myself in the position of a stunned crawler prey, just waiting for a final stab to end my life. They showed their true face to me a long, long time ago.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -785,16 +389,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a39_original" name="=&gt;a39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Persuade]:: What if I can help? You know, act like a mediator. As you said, Gideon is dead, and the new leader could perhaps listen to what you have to say. You can't say it won't work until you've tried it.&lt;end&gt;</source>
-        <target state="final">::[Persuade]:: What if I can help? You know, act like a mediator. As you said, Gideon is dead, and the new leader could perhaps listen to what you have to say. You can't say it won't work until you've tried it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -803,16 +397,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>::[Persuade]:: What if I can help? You know, act like a mediator. As you said, Gideon is dead, and the new leader could perhaps listen to what you have to say. You can't say it won't work until you've tried it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q40_original" name="=&gt;q40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He pauses to think, and you can almost hear his mind's gears turning inside his head. After a bit of thought, a smile surfaces on his face and he gives you an answer you were waiting for.:: What you say is true. Perhaps... perhaps Gideon's successor is someone who can be reasoned with. Hmmm... I accept your proposal. *You* will negotiate with Camp Hathor in my name, as you suggested.&lt;end&gt;</source>
-        <target state="final">::He pauses to think, and you can almost hear his mind's gears turning inside his head. After a bit of thought, a smile surfaces on his face and he gives you an answer you were waiting for.:: What you say is true. Perhaps... perhaps Gideon's successor is someone who can be reasoned with. Hmmm... I accept your proposal. *You* will negotiate with Camp Hathor in my name, as you suggested.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -825,16 +409,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q41_original" name="=&gt;q41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>My demands are simple: I want them to leave me alone. There will be no trespassing on my land, and that includes these caves to the south of Camp Hathor, and the south part of hunting grounds across the river. I don't want to see them there. If they can agree on that, then I won't kill their hunters on sight anymore, I will remove my traps near their land and won't disturb them in any way. Tell them they have the word of a king.&lt;end&gt;</source>
-        <target state="final">My demands are simple: I want them to leave me alone. There will be no trespassing on my land, and that includes these caves to the south of Camp Hathor, and the south part of hunting grounds across the river. I don't want to see them there. If they can agree on that, then I won't kill their hunters on sight anymore, I will remove my traps near their land and won't disturb them in any way. Tell them they have the word of a king.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -843,16 +417,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>My demands are simple: I want them to leave me alone. There will be no trespassing on my land, and that includes these caves to the south of Camp Hathor, and the south part of hunting grounds across the river. I don't want to see them there. If they can agree on that, then I won't kill their hunters on sight anymore, I will remove my traps near their land and won't disturb them in any way. Tell them they have the word of a king.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a42_original" name="=&gt;a42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Very well, I'll go talk to Edgar, their current leader.&lt;end&gt;</source>
-        <target state="final">Very well, I'll go talk to Edgar, their current leader.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -865,16 +429,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q43_original" name="=&gt;q43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Just know this: I'm not letting my guard down for a second. If I sense any trickery, any trickery at all - you will all die. Even if an agreement is made, I will still keep my eyes wide open. I'd be a fool otherwise.&lt;end&gt;</source>
-        <target state="final">Just know this: I'm not letting my guard down for a second. If I sense any trickery, any trickery at all - you will all die. Even if an agreement is made, I will still keep my eyes wide open. I'd be a fool otherwise.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -883,24 +437,6 @@ What a glorious day to be... the Rathound King. ::He laughs.::&lt;end&gt;</sourc
       <segment state="translated">
         <source>Just know this: I'm not letting my guard down for a second. If I sense any trickery, any trickery at all - you will all die. Even if an agreement is made, I will still keep my eyes wide open. I'd be a fool otherwise.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q44_original" name="=&gt;q44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>One more thing, before you leave: Check the north wall, right in front of my lair. You'll find a hidden passage that will allow you to avoid all my traps. 
-
-Did you really think I walk through the labyrinth every time I want to go out? Ha!
-
-Now go, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">One more thing, before you leave: Check the north wall, right in front of my lair. You'll find a hidden passage that will allow you to avoid all my traps. 
-
-Did you really think I walk through the labyrinth every time I want to go out? Ha!
-
-Now go, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -917,16 +453,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a45_original" name="=&gt;a45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Understood. I'll see you later.&lt;end&gt;</source>
-        <target state="final">Understood. I'll see you later.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -935,16 +461,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Understood. I'll see you later.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a46_original" name="=&gt;a46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Nod and leave.::&lt;end&gt;</source>
-        <target state="final">::Nod and leave.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -957,16 +473,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a47_original" name="=&gt;a47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Very well, I'll go talk to their leader.&lt;end&gt;</source>
-        <target state="final">Very well, I'll go talk to their leader.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -975,16 +481,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Very well, I'll go talk to their leader.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a48_original" name="=&gt;a48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Got it. I'll see what I can do.&lt;end&gt;</source>
-        <target state="final">Got it. I'll see what I can do.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -997,16 +493,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q49_original" name="=&gt;q49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He stops to think about what you've said. It doesn't last long, however, and he precedes his reply with a head shake.:: No. They are not to be trusted and that is my final word. I will not talk about *them* and this foolish idea of truce anymore.&lt;end&gt;</source>
-        <target state="final">::He stops to think about what you've said. It doesn't last long, however, and he precedes his reply with a head shake.:: No. They are not to be trusted and that is my final word. I will not talk about *them* and this foolish idea of truce anymore.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1015,16 +501,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>::He stops to think about what you've said. It doesn't last long, however, and he precedes his reply with a head shake.:: No. They are not to be trusted and that is my final word. I will not talk about *them* and this foolish idea of truce anymore.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a50_original" name="=&gt;a50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I suppose you are right. Let's talk about something else.&lt;end&gt;</source>
-        <target state="final">I suppose you are right. Let's talk about something else.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -1037,16 +513,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q51_original" name="=&gt;q51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What is it?&lt;end&gt;</source>
-        <target state="final">What is it?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1055,16 +521,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>What is it?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a52_original" name="=&gt;a52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Nothing, I'd like to talk about something else.&lt;end&gt;</source>
-        <target state="final">Nothing, I'd like to talk about something else.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -1077,16 +533,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q53_original" name="=&gt;q53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>About what?&lt;end&gt;</source>
-        <target state="final">About what?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1095,16 +541,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>About what?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a54_original" name="=&gt;a54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Any luck with Sarine?&lt;end&gt;</source>
-        <target state="final">Any luck with Sarine?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -1117,16 +553,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q55_original" name="=&gt;q55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>She still spits at me, throws food I give her, curses with language more poisonous than a crawler stinger and still threatens to rip my arm off and beat me to death with it. ::He laughs.:: She has energy, and she is stubborn. She will need more time than I had anticipated, but in the end, she will realize that there is no point in resisting and will accept her position.&lt;end&gt;</source>
-        <target state="final">She still spits at me, throws food I give her, curses with language more poisonous than a crawler stinger and still threatens to rip my arm off and beat me to death with it. ::He laughs.:: She has energy, and she is stubborn. She will need more time than I had anticipated, but in the end, she will realize that there is no point in resisting and will accept her position.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1135,16 +561,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>She still spits at me, throws food I give her, curses with language more poisonous than a crawler stinger and still threatens to rip my arm off and beat me to death with it. ::He laughs.:: She has energy, and she is stubborn. She will need more time than I had anticipated, but in the end, she will realize that there is no point in resisting and will accept her position.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q56_original" name="=&gt;q56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Unless she wants to rot in that cell. It's her choice.&lt;end&gt;</source>
-        <target state="final">Unless she wants to rot in that cell. It's her choice.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -1157,16 +573,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a57_original" name="=&gt;a57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do you have a real name?&lt;end&gt;</source>
-        <target state="final">Do you have a real name?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1175,16 +581,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Do you have a real name?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q58_original" name="=&gt;q58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>A real name? This is my real name. I am the Rathound King. Always have been, always will be. Even if I had a "normal" name like... John or Jack, or whatever, it would mean nothing, for my rathounds don't talk and I personally don't care what other humans call me. I rarely even talk to other humans, and when I do it's usually right before I take their life. HA!&lt;end&gt;</source>
-        <target state="final">A real name? This is my real name. I am the Rathound King. Always have been, always will be. Even if I had a "normal" name like... John or Jack, or whatever, it would mean nothing, for my rathounds don't talk and I personally don't care what other humans call me. I rarely even talk to other humans, and when I do it's usually right before I take their life. HA!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -1197,16 +593,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q59_original" name="=&gt;q59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Remember that.&lt;end&gt;</source>
-        <target state="final">Remember that.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1215,16 +601,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Remember that.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q60_original" name="=&gt;q60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The Rathound King yawns.:: You know what? You bore me. So much talk, yet so little has been said. I want you to leave now. You've had the privilege of talking to the Rathound King himself, but now's the time for my hospitality to end. Out of my lair!&lt;end&gt;</source>
-        <target state="final">::The Rathound King yawns.:: You know what? You bore me. So much talk, yet so little has been said. I want you to leave now. You've had the privilege of talking to the Rathound King himself, but now's the time for my hospitality to end. Out of my lair!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -1237,16 +613,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a61_original" name="=&gt;a61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Wait, wait, I had more questions.&lt;end&gt;</source>
-        <target state="final">Wait, wait, I had more questions.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1255,16 +621,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Wait, wait, I had more questions.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q62_original" name="=&gt;q62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Enough! You've had your chance. Do not anger me, weakling. If you don't obey my will - you *will* be punished.&lt;end&gt;</source>
-        <target state="final">Enough! You've had your chance. Do not anger me, weakling. If you don't obey my will - you *will* be punished.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -1277,16 +633,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a63_original" name="=&gt;a63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'd like to see you try. ::Fight!::&lt;end&gt;</source>
-        <target state="final">I'd like to see you try. ::Fight!::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a63" name="=&gt;a63">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1295,16 +641,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I'd like to see you try. ::Fight!::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a64_original" name="=&gt;a64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>If you say so, Rathound King. Goodbye.&lt;end&gt;</source>
-        <target state="final">If you say so, Rathound King. Goodbye.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -1317,16 +653,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q65_original" name="=&gt;q65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So, don't ask me stupid questions anymore.&lt;end&gt;</source>
-        <target state="final">So, don't ask me stupid questions anymore.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1335,16 +661,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>So, don't ask me stupid questions anymore.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a66_original" name="=&gt;a66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Is there a Rathound queen?&lt;end&gt;</source>
-        <target state="final">Is there a Rathound queen?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
@@ -1357,16 +673,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q67_original" name="=&gt;q67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No, there is not. No woman I've ever met was worthy of being my queen. ::He makes a short pause, but quickly proceeds.:: Well, except for one. There is a young woman in Camp Hathor called Sarine. She's the only one worthy of mention in that wretched place. She is stronger than most men, cunning, ferocious, beautiful. She would make a perfect woman to bear my children!&lt;end&gt;</source>
-        <target state="final">No, there is not. No woman I've ever met was worthy of being my queen. ::He makes a short pause, but quickly proceeds.:: Well, except for one. There is a young woman in Camp Hathor called Sarine. She's the only one worthy of mention in that wretched place. She is stronger than most men, cunning, ferocious, beautiful. She would make a perfect woman to bear my children!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q67" name="=&gt;q67">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1375,16 +681,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>No, there is not. No woman I've ever met was worthy of being my queen. ::He makes a short pause, but quickly proceeds.:: Well, except for one. There is a young woman in Camp Hathor called Sarine. She's the only one worthy of mention in that wretched place. She is stronger than most men, cunning, ferocious, beautiful. She would make a perfect woman to bear my children!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q68_original" name="=&gt;q68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But, I'm done with Camp Hathor, so I have no interest in her anymore.&lt;end&gt;</source>
-        <target state="final">But, I'm done with Camp Hathor, so I have no interest in her anymore.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -1397,16 +693,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q69_original" name="=&gt;q69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He grins.::&lt;end&gt;</source>
-        <target state="final">::He grins.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1415,16 +701,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>::He grins.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a70_original" name="=&gt;a70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I've met this Sarine. Saw her together with some guy called Beck, and the two seemed... close.&lt;end&gt;</source>
-        <target state="final">I've met this Sarine. Saw her together with some guy called Beck, and the two seemed... close.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a70" name="=&gt;a70">
@@ -1437,16 +713,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q71_original" name="=&gt;q71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What!? Beck? Beck Sud? Son of Gideon Sud?&lt;end&gt;</source>
-        <target state="final">What!? Beck? Beck Sud? Son of Gideon Sud?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1455,16 +721,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>What!? Beck? Beck Sud? Son of Gideon Sud?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a72_original" name="=&gt;a72_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yeah, that's the guy.&lt;end&gt;</source>
-        <target state="final">Yeah, that's the guy.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a72" name="=&gt;a72">
@@ -1477,16 +733,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q73_original" name="=&gt;q73_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">145</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So, she is his woman. Of all men, she had to sleep with the son of my worst enemy. Oh, I would love to see his face contort in horror if Sarine was to become my woman. HA!&lt;end&gt;</source>
-        <target state="final">So, she is his woman. Of all men, she had to sleep with the son of my worst enemy. Oh, I would love to see his face contort in horror if Sarine was to become my woman. HA!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q73" name="=&gt;q73">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1495,16 +741,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>So, she is his woman. Of all men, she had to sleep with the son of my worst enemy. Oh, I would love to see his face contort in horror if Sarine was to become my woman. HA!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a74_original" name="=&gt;a74_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">147</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>If you want her so bad, I could help you get her. In fact, I could bring her to you.&lt;end&gt;</source>
-        <target state="final">If you want her so bad, I could help you get her. In fact, I could bring her to you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a74" name="=&gt;a74">
@@ -1517,16 +753,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q75_original" name="=&gt;q75_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">149</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Really now? And why would you want to do that? Bringing her here would certainly be against her will, and that alone makes the task difficult, considering the things I just told you about her.&lt;end&gt;</source>
-        <target state="final">Really now? And why would you want to do that? Bringing her here would certainly be against her will, and that alone makes the task difficult, considering the things I just told you about her.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1535,16 +761,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Really now? And why would you want to do that? Bringing her here would certainly be against her will, and that alone makes the task difficult, considering the things I just told you about her.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a76_original" name="=&gt;a76_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">151</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It sounds fun.&lt;end&gt;</source>
-        <target state="final">It sounds fun.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a76" name="=&gt;a76">
@@ -1557,16 +773,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q77_original" name="=&gt;q77_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">153</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You find pleasure in kidnapping women? Hmmm... &lt;end&gt;</source>
-        <target state="final">You find pleasure in kidnapping women? Hmmm... &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q77" name="=&gt;q77">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1575,20 +781,6 @@ Now go, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>You find pleasure in kidnapping women? Hmmm... &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q78_original" name="=&gt;q78_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">155</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He stops to think.:: I'm intrigued by your proposal, $(context.player.Name). I had already observed this woman prove her worth before, and I am certain that she is fit enough to be my queen. Whether she agrees with it or not right now is not my concern. Bring her to me, and you will be rewarded. 
-
-After that, she will learn to love me and accept me as her king. She must. But first you must bring her here.&lt;end&gt;</source>
-        <target state="final">::He stops to think.:: I'm intrigued by your proposal, $(context.player.Name). I had already observed this woman prove her worth before, and I am certain that she is fit enough to be my queen. Whether she agrees with it or not right now is not my concern. Bring her to me, and you will be rewarded. 
-
-After that, she will learn to love me and accept me as her king. She must. But first you must bring her here.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -1603,16 +795,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a79_original" name="=&gt;a79_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">157</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We've got ourselves a deal, Rathound King. I'll be back with her.&lt;end&gt;</source>
-        <target state="final">We've got ourselves a deal, Rathound King. I'll be back with her.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a79" name="=&gt;a79">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1621,16 +803,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>We've got ourselves a deal, Rathound King. I'll be back with her.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q80_original" name="=&gt;q80_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">159</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Good, I'll be waiting. Before you leave, I think now's a good time to tell you about the hidden passage that allows you to avoid all my traps. Ha! Did you really think I walk through the labyrinth every time I want to go out? ::He laughs.:: It's right in front of my lair. Check the north wall, you'll find it there. Now go, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Good, I'll be waiting. Before you leave, I think now's a good time to tell you about the hidden passage that allows you to avoid all my traps. Ha! Did you really think I walk through the labyrinth every time I want to go out? ::He laughs.:: It's right in front of my lair. Check the north wall, you'll find it there. Now go, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q80" name="=&gt;q80">
@@ -1643,16 +815,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q81_original" name="=&gt;q81_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">161</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q81" name="=&gt;q81">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1661,16 +823,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a82_original" name="=&gt;a82_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">163</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Actually, I've changed my mind. This is too much for me to handle.&lt;end&gt;</source>
-        <target state="final">Actually, I've changed my mind. This is too much for me to handle.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a82" name="=&gt;a82">
@@ -1683,16 +835,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q83_original" name="=&gt;q83_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">165</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Bah, make up your mind! A man who lacks determination is a weaklings, no matter how strong he is. Remember that.&lt;end&gt;</source>
-        <target state="final">Bah, make up your mind! A man who lacks determination is a weaklings, no matter how strong he is. Remember that.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q83" name="=&gt;q83">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1701,16 +843,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>Bah, make up your mind! A man who lacks determination is a weaklings, no matter how strong he is. Remember that.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a84_original" name="=&gt;a84_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">167</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have a problem with Camp Hathor, just like you. A low blow such as this would please both of us, it seems.&lt;end&gt;</source>
-        <target state="final">I have a problem with Camp Hathor, just like you. A low blow such as this would please both of us, it seems.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a84" name="=&gt;a84">
@@ -1723,16 +855,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q85_original" name="=&gt;q85_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">169</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah, I see. And I am not surprised. &lt;end&gt;</source>
-        <target state="final">Ah, I see. And I am not surprised. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q85" name="=&gt;q85">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1741,16 +863,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>Ah, I see. And I am not surprised. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a86_original" name="=&gt;a86_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">171</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>For a reward, of course. I'm guessing a powerful king such as yourself has some interesting things to offer.&lt;end&gt;</source>
-        <target state="final">For a reward, of course. I'm guessing a powerful king such as yourself has some interesting things to offer.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a86" name="=&gt;a86">
@@ -1763,16 +875,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q87_original" name="=&gt;q87_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">173</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>HA! Now you make sense. &lt;end&gt;</source>
-        <target state="final">HA! Now you make sense. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1781,16 +883,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>HA! Now you make sense. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a88_original" name="=&gt;a88_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">175</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That sounds a bit disturbing. How about we change the subject?&lt;end&gt;</source>
-        <target state="final">That sounds a bit disturbing. How about we change the subject?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
@@ -1803,16 +895,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q89_original" name="=&gt;q89_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">177</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Disturbing? It might sound disturbing to you, but to me that would mean the perfect revenge. ::He grins.::&lt;end&gt;</source>
-        <target state="final">Disturbing? It might sound disturbing to you, but to me that would mean the perfect revenge. ::He grins.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1821,16 +903,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>Disturbing? It might sound disturbing to you, but to me that would mean the perfect revenge. ::He grins.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a90_original" name="=&gt;a90_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">179</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Don't know his last name, but I suppose a place like Camp Hathor doesn't have a lot of Beck's.&lt;end&gt;</source>
-        <target state="final">Don't know his last name, but I suppose a place like Camp Hathor doesn't have a lot of Beck's.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a90" name="=&gt;a90">
@@ -1843,16 +915,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q91_original" name="=&gt;q91_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">181</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It must be him. &lt;end&gt;</source>
-        <target state="final">It must be him. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1861,16 +923,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>It must be him. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a92_original" name="=&gt;a92_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">183</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Perhaps she would. How much do you really desire this woman?&lt;end&gt;</source>
-        <target state="final">Perhaps she would. How much do you really desire this woman?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
@@ -1883,16 +935,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q93_original" name="=&gt;q93_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">185</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What exactly do you mean?&lt;end&gt;</source>
-        <target state="final">What exactly do you mean?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1901,16 +943,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>What exactly do you mean?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a94_original" name="=&gt;a94_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">187</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Maybe I can bring her to you. Every king needs a queen.&lt;end&gt;</source>
-        <target state="final">Maybe I can bring her to you. Every king needs a queen.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a94" name="=&gt;a94">
@@ -1923,16 +955,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a95_original" name="=&gt;a95_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">189</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Never mind. Let me ask you something else.&lt;end&gt;</source>
-        <target state="final">Never mind. Let me ask you something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a95" name="=&gt;a95">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1941,16 +963,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>Never mind. Let me ask you something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q96_original" name="=&gt;q96_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">191</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ask.&lt;end&gt;</source>
-        <target state="final">Ask.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q96" name="=&gt;q96">
@@ -1963,16 +975,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a97_original" name="=&gt;a97_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">193</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yeah, bummer. I wanted to ask you something else.&lt;end&gt;</source>
-        <target state="final">Yeah, bummer. I wanted to ask you something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a97" name="=&gt;a97">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1981,16 +983,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>Yeah, bummer. I wanted to ask you something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a98_original" name="=&gt;a98_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">195</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What's with all the traps around the lair?&lt;end&gt;</source>
-        <target state="final">What's with all the traps around the lair?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a98" name="=&gt;a98">
@@ -2003,16 +995,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q99_original" name="=&gt;q99_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">197</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The traps are there to prevent intruders from getting into my lair. Many wander into these caves, but not many are cunning enough to survive. I've also built a labyrinth below, to make things even more difficult. So far, no one has been able to avoid the traps and navigate the labyrinth. No one but you. &lt;end&gt;</source>
-        <target state="final">The traps are there to prevent intruders from getting into my lair. Many wander into these caves, but not many are cunning enough to survive. I've also built a labyrinth below, to make things even more difficult. So far, no one has been able to avoid the traps and navigate the labyrinth. No one but you. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q99" name="=&gt;q99">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2021,16 +1003,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>The traps are there to prevent intruders from getting into my lair. Many wander into these caves, but not many are cunning enough to survive. I've also built a labyrinth below, to make things even more difficult. So far, no one has been able to avoid the traps and navigate the labyrinth. No one but you. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q100_original" name="=&gt;q100_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">199</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Which is quite admirable, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Which is quite admirable, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q100" name="=&gt;q100">
@@ -2043,16 +1015,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q101_original" name="=&gt;q101_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">201</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Any more boring questions?&lt;end&gt;</source>
-        <target state="final">Any more boring questions?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2061,16 +1023,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>Any more boring questions?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a102_original" name="=&gt;a102_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">203</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Can you teach me anything about traps?&lt;end&gt;</source>
-        <target state="final">Can you teach me anything about traps?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a102" name="=&gt;a102">
@@ -2083,16 +1035,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q103_original" name="=&gt;q103_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">205</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm sorry, but I can't do that. The only person I'd ever teach my trapping skills is my heir.&lt;end&gt;</source>
-        <target state="final">I'm sorry, but I can't do that. The only person I'd ever teach my trapping skills is my heir.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2101,16 +1043,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>I'm sorry, but I can't do that. The only person I'd ever teach my trapping skills is my heir.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q104_original" name="=&gt;q104_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">207</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I expect of you to understand.&lt;end&gt;</source>
-        <target state="final">I expect of you to understand.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q104" name="=&gt;q104">
@@ -2123,16 +1055,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q105_original" name="=&gt;q105_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">209</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have no intention of doing anything like that. The only person I'd ever teach my trapping skills is my heir.&lt;end&gt;</source>
-        <target state="final">I have no intention of doing anything like that. The only person I'd ever teach my trapping skills is my heir.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q105" name="=&gt;q105">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2141,16 +1063,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>I have no intention of doing anything like that. The only person I'd ever teach my trapping skills is my heir.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q106_original" name="=&gt;q106_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">211</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>HA! Teach me, $(#he/she) says...&lt;end&gt;</source>
-        <target state="final">HA! Teach me, $(#he/she) says...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q106" name="=&gt;q106">
@@ -2163,16 +1075,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a107_original" name="=&gt;a107_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">213</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do you have anything to trade?&lt;end&gt;</source>
-        <target state="final">Do you have anything to trade?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a107" name="=&gt;a107">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2181,16 +1083,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>Do you have anything to trade?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q108_original" name="=&gt;q108_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">215</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am not interested in a trade.&lt;end&gt;</source>
-        <target state="final">I am not interested in a trade.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q108" name="=&gt;q108">
@@ -2203,16 +1095,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q109_original" name="=&gt;q109_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">217</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have everything I need right here in my lair.&lt;end&gt;</source>
-        <target state="final">I have everything I need right here in my lair.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q109" name="=&gt;q109">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2221,16 +1103,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>I have everything I need right here in my lair.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q110_original" name="=&gt;q110_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">219</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Trade? No.&lt;end&gt;</source>
-        <target state="final">Trade? No.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q110" name="=&gt;q110">
@@ -2243,16 +1115,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a111_original" name="=&gt;a111_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">221</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Wanna hear a joke?&lt;end&gt;</source>
-        <target state="final">Wanna hear a joke?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a111" name="=&gt;a111">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2261,16 +1123,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>Wanna hear a joke?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q112_original" name="=&gt;q112_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">223</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why not? Amuse me.&lt;end&gt;</source>
-        <target state="final">Why not? Amuse me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q112" name="=&gt;q112">
@@ -2283,16 +1135,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a113_original" name="=&gt;a113_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">225</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>A rathound walks into a bar... and the barkeeper shoots it! You see, no one likes rathounds - that's why it's funny. ::Laugh.:: Get it?&lt;end&gt;</source>
-        <target state="final">A rathound walks into a bar... and the barkeeper shoots it! You see, no one likes rathounds - that's why it's funny. ::Laugh.:: Get it?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a113" name="=&gt;a113">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2301,16 +1143,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>A rathound walks into a bar... and the barkeeper shoots it! You see, no one likes rathounds - that's why it's funny. ::Laugh.:: Get it?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q114_original" name="=&gt;q114_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">227</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The Rathound King stares at you, eyes confounded. For some reason you have a feeling that the joke didn't land as well as you had hoped. Maybe he didn't like it? Maybe he didn't understand it? It's a mystery that might never be solved. Whatever the reason, there are more pressing matters you need to focus on right now, like the fact that the Rathound King is drawing his weapon, and you need to...::&lt;end&gt;</source>
-        <target state="final">::The Rathound King stares at you, eyes confounded. For some reason you have a feeling that the joke didn't land as well as you had hoped. Maybe he didn't like it? Maybe he didn't understand it? It's a mystery that might never be solved. Whatever the reason, there are more pressing matters you need to focus on right now, like the fact that the Rathound King is drawing his weapon, and you need to...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q114" name="=&gt;q114">
@@ -2323,16 +1155,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a115_original" name="=&gt;a115_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">229</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Fight!::&lt;end&gt;</source>
-        <target state="final">::Fight!::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a115" name="=&gt;a115">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2341,16 +1163,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a116_original" name="=&gt;a116_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">231</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What does a cell about to undergo mitosis say to an interested geneticist? "I hope I have your divided attention!"&lt;end&gt;</source>
-        <target state="final">What does a cell about to undergo mitosis say to an interested geneticist? "I hope I have your divided attention!"&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a116" name="=&gt;a116">
@@ -2363,16 +1175,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q117_original" name="=&gt;q117_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">233</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The Rathound King scratches his head in confusion.:: Metasis? Geneticisist? I don't understand any of that. Bah! I want to be amused, not bore me with things I don't understand.&lt;end&gt;</source>
-        <target state="final">::The Rathound King scratches his head in confusion.:: Metasis? Geneticisist? I don't understand any of that. Bah! I want to be amused, not bore me with things I don't understand.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q117" name="=&gt;q117">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2381,16 +1183,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>::The Rathound King scratches his head in confusion.:: Metasis? Geneticisist? I don't understand any of that. Bah! I want to be amused, not bore me with things I don't understand.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q118_original" name="=&gt;q118_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">235</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So you better tell me a good joke and stop wasting my time.&lt;end&gt;</source>
-        <target state="final">So you better tell me a good joke and stop wasting my time.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q118" name="=&gt;q118">
@@ -2403,16 +1195,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a119_original" name="=&gt;a119_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">237</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How about we discuss something else?&lt;end&gt;</source>
-        <target state="final">How about we discuss something else?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a119" name="=&gt;a119">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2421,16 +1203,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>How about we discuss something else?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q120_original" name="=&gt;q120_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">239</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He yawns.:: Why not.&lt;end&gt;</source>
-        <target state="final">::He yawns.:: Why not.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
@@ -2443,16 +1215,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a121_original" name="=&gt;a121_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">241</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I've changed my mind. It's a stupid joke anyway.&lt;end&gt;</source>
-        <target state="final">I've changed my mind. It's a stupid joke anyway.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a121" name="=&gt;a121">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2461,16 +1223,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>I've changed my mind. It's a stupid joke anyway.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q122_original" name="=&gt;q122_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">243</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hm. If you say so.&lt;end&gt;</source>
-        <target state="final">Hm. If you say so.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q122" name="=&gt;q122">
@@ -2483,16 +1235,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a123_original" name="=&gt;a123_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">245</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll leave you for now. Farewell.&lt;end&gt;</source>
-        <target state="final">I'll leave you for now. Farewell.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a123" name="=&gt;a123">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2501,16 +1243,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>I'll leave you for now. Farewell.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q124_original" name="=&gt;q124_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">247</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::You find yourself face-to-face with a towering, muscular man. In fact, describing him simply as muscular is a great understatement, because this man has the physique of someone chiseled out of a giant block of granite. One of the two rathounds by his sides - the gray-furred goliath which stares at you with its hollow eyes - might as well have come from the same block, judging by its powerful, bone-chilling appearance. There is another rathound present beside the two guard hounds, yet its purpose is a different one: Its glossy hide is proudly being worn by this king of the rathounds, a title which he uses to introduce himself once he addresses you with his cavernous voice.::&lt;end&gt;</source>
-        <target state="final">::You find yourself face-to-face with a towering, muscular man. In fact, describing him simply as muscular is a great understatement, because this man has the physique of someone chiseled out of a giant block of granite. One of the two rathounds by his sides - the gray-furred goliath which stares at you with its hollow eyes - might as well have come from the same block, judging by its powerful, bone-chilling appearance. There is another rathound present beside the two guard hounds, yet its purpose is a different one: Its glossy hide is proudly being worn by this king of the rathounds, a title which he uses to introduce himself once he addresses you with his cavernous voice.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q124" name="=&gt;q124">
@@ -2523,16 +1255,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q125_original" name="=&gt;q125_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">249</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Who dares disturb the Rathound King? Tell me your name, or I'll have my rathounds tear you apart. Speak!&lt;end&gt;</source>
-        <target state="final">Who dares disturb the Rathound King? Tell me your name, or I'll have my rathounds tear you apart. Speak!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q125" name="=&gt;q125">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2543,16 +1265,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a126_original" name="=&gt;a126_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">251</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">It's $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a126" name="=&gt;a126">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2561,20 +1273,6 @@ After that, she will learn to love me and accept me as her king. She must. But f
       <segment state="translated">
         <source>It's $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q127_original" name="=&gt;q127_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">253</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, $(context.player.Name), the only reason you're still standing is because you are the first one who managed to avoid all my well-placed traps and make it here with all limbs intact. I respect that. Only the most cunning can reach my lair, while the bodies of weaklings sate my rathounds' hunger. ::He grins.::
-
-Tell me, why are you here?&lt;end&gt;</source>
-        <target state="final">Well, $(context.player.Name), the only reason you're still standing is because you are the first one who managed to avoid all my well-placed traps and make it here with all limbs intact. I respect that. Only the most cunning can reach my lair, while the bodies of weaklings sate my rathounds' hunger. ::He grins.::
-
-Tell me, why are you here?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q127" name="=&gt;q127">
@@ -2589,16 +1287,6 @@ Tell me, why are you here?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a128_original" name="=&gt;a128_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">255</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I was just exploring these caves, nothing else.&lt;end&gt;</source>
-        <target state="final">I was just exploring these caves, nothing else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a128" name="=&gt;a128">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2607,20 +1295,6 @@ Tell me, why are you here?&lt;end&gt;</source>
       <segment state="translated">
         <source>I was just exploring these caves, nothing else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q129_original" name="=&gt;q129_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">257</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ha! Just exploring? If you say so. I find your visit quite amusing, so I will allow you to stay. But, know that if you disrespect me or my rathounds, you will be punished.
-
-Now, my amusing guest - let us speak! ::He laughs.::&lt;end&gt;</source>
-        <target state="final">Ha! Just exploring? If you say so. I find your visit quite amusing, so I will allow you to stay. But, know that if you disrespect me or my rathounds, you will be punished.
-
-Now, my amusing guest - let us speak! ::He laughs.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q129" name="=&gt;q129">
@@ -2635,16 +1309,6 @@ Now, my amusing guest - let us speak! ::He laughs.::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a130_original" name="=&gt;a130_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">259</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>To take your head, you stinking savage! ::Attack!::&lt;end&gt;</source>
-        <target state="final">To take your head, you stinking savage! ::Attack!::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a130" name="=&gt;a130">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2653,16 +1317,6 @@ Now, my amusing guest - let us speak! ::He laughs.::&lt;end&gt;</source>
       <segment state="translated">
         <source>To take your head, you stinking savage! ::Attack!::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q131_original" name="=&gt;q131_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">261</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Not if I take yours first, weakling! ::He lets out a terrifying roar as he attacks you.::&lt;end&gt;</source>
-        <target state="final">Not if I take yours first, weakling! ::He lets out a terrifying roar as he attacks you.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q131" name="=&gt;q131">
@@ -2675,16 +1329,6 @@ Now, my amusing guest - let us speak! ::He laughs.::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a132_original" name="=&gt;a132_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">263</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Fight!::&lt;end&gt;</source>
-        <target state="final">::Fight!::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a132" name="=&gt;a132">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2695,16 +1339,6 @@ Now, my amusing guest - let us speak! ::He laughs.::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a133_original" name="=&gt;a133_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">265</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>My name is $(context.player.Name). I bow down to you, Rathound King. ::Bow down.::&lt;end&gt;</source>
-        <target state="final">My name is $(context.player.Name). I bow down to you, Rathound King. ::Bow down.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a133" name="=&gt;a133">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2713,20 +1347,6 @@ Now, my amusing guest - let us speak! ::He laughs.::&lt;end&gt;</source>
       <segment state="translated">
         <source>My name is $(context.player.Name). I bow down to you, Rathound King. ::Bow down.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q134_original" name="=&gt;q134_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">267</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>HA! You bow down to me? ::He bursts out laughing.:: This is all very amusing. A $(#man/woman) manages to avoid all my well-placed traps, strolls right into my lair and bows down to ME? I've never seen anything like this before. HA!
- 
-So, $(context.player.Name), why are you here? Why come to my lair?&lt;end&gt;</source>
-        <target state="final">HA! You bow down to me? ::He bursts out laughing.:: This is all very amusing. A $(#man/woman) manages to avoid all my well-placed traps, strolls right into my lair and bows down to ME? I've never seen anything like this before. HA!
- 
-So, $(context.player.Name), why are you here? Why come to my lair?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q134" name="=&gt;q134">
@@ -2741,16 +1361,6 @@ So, $(context.player.Name), why are you here? Why come to my lair?&lt;end&gt;</s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a135_original" name="=&gt;a135_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">269</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Intimidate]:: I am $(context.player.Name). I go where I please, and if you think you can scare me with these two puppies, you've got another think coming.&lt;end&gt;</source>
-        <target state="final">::[Intimidate]:: I am $(context.player.Name). I go where I please, and if you think you can scare me with these two puppies, you've got another think coming.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a135" name="=&gt;a135">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2759,20 +1369,6 @@ So, $(context.player.Name), why are you here? Why come to my lair?&lt;end&gt;</s
       <segment state="translated">
         <source>::[Intimidate]:: I am $(context.player.Name). I go where I please, and if you think you can scare me with these two puppies, you've got another think coming.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q136_original" name="=&gt;q136_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">271</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>HA! That was pitiful. ::The Rathound King unleashes an almost deafening, blood-curdling roar that makes the red-fured rathound bow down its head in submission, while the old, gray one by his side starts howling in unison.:: THIS is how you drive fear into a man's heart; THIS is how to make enemies turn to mere hoppers, ready to be butchered. Your weakly voice is no more fierce than a pup squealing for his mommy's milk. Still, you have avoided my traps and managed to reach my lair, which is something only the most cunning can do. I respect that, and is the reason why your bones are not being gnawed by my rathounds. Yet.
-
-Why are you here?&lt;end&gt;</source>
-        <target state="final">HA! That was pitiful. ::The Rathound King unleashes an almost deafening, blood-curdling roar that makes the red-fured rathound bow down its head in submission, while the old, gray one by his side starts howling in unison.:: THIS is how you drive fear into a man's heart; THIS is how to make enemies turn to mere hoppers, ready to be butchered. Your weakly voice is no more fierce than a pup squealing for his mommy's milk. Still, you have avoided my traps and managed to reach my lair, which is something only the most cunning can do. I respect that, and is the reason why your bones are not being gnawed by my rathounds. Yet.
-
-Why are you here?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q136" name="=&gt;q136">
@@ -2787,16 +1383,6 @@ Why are you here?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a137_original" name="=&gt;a137_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">273</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am $(context.player.Name), and that's going to be the last name you'll ever hear. Time to hang that deluded head of yours on a wall. ::Fight.::&lt;end&gt;</source>
-        <target state="final">I am $(context.player.Name), and that's going to be the last name you'll ever hear. Time to hang that deluded head of yours on a wall. ::Fight.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a137" name="=&gt;a137">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2805,16 +1391,6 @@ Why are you here?&lt;end&gt;</source>
       <segment state="translated">
         <source>I am $(context.player.Name), and that's going to be the last name you'll ever hear. Time to hang that deluded head of yours on a wall. ::Fight.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q138_original" name="=&gt;q138_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">275</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How foolish of you to challenge my patience. Die!&lt;end&gt;</source>
-        <target state="final">How foolish of you to challenge my patience. Die!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q138" name="=&gt;q138">
@@ -2827,16 +1403,6 @@ Why are you here?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q139_original" name="=&gt;q139_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">277</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>This is your final warning: Leave or feel my wrath!&lt;end&gt;</source>
-        <target state="final">This is your final warning: Leave or feel my wrath!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q139" name="=&gt;q139">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2845,16 +1411,6 @@ Why are you here?&lt;end&gt;</source>
       <segment state="translated">
         <source>This is your final warning: Leave or feel my wrath!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q140_original" name="=&gt;q140_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">279</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah! It is good to see you again, $(context.player.Name). Know that you are always welcome to the lair.&lt;end&gt;</source>
-        <target state="final">Ah! It is good to see you again, $(context.player.Name). Know that you are always welcome to the lair.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q140" name="=&gt;q140">

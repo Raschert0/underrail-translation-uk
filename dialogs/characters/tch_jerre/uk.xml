@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\tch_jerre.txt" original="dialogs\characters\tch_jerre.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The Faceless are here! Save yourself, $(#brother/sister)!&lt;end&gt;</source>
-        <target state="final">The Faceless are here! Save yourself, $(#brother/sister)!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -19,20 +9,6 @@
       <segment state="translated">
         <source>The Faceless are here! Save yourself, $(#brother/sister)!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::An unexpectedly tiny and shy voice comes out of this lofty man. While he is loud enough for you to hear him, you can't shake off the feeling that the sound of a humble fly gliding into the room would overpower his voice. Fortunately, nothing similar happens during his introduction.::
-
-Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine and the Institute's protophysician. You must be $(context.player.Name). Usually our fellow Tchortists refer to me as IM, to which I have no objection. Now, how may I help you?&lt;end&gt;</source>
-        <target state="final">::An unexpectedly tiny and shy voice comes out of this lofty man. While he is loud enough for you to hear him, you can't shake off the feeling that the sound of a humble fly gliding into the room would overpower his voice. Fortunately, nothing similar happens during his introduction.::
-
-Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine and the Institute's protophysician. You must be $(context.player.Name). Usually our fellow Tchortists refer to me as IM, to which I have no objection. Now, how may I help you?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -47,16 +23,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -65,16 +31,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Where can I purchase some medication?&lt;end&gt;</source>
-        <target state="final">Where can I purchase some medication?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -87,16 +43,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I can help you with that, $(#brother/sister). I'll show you what I have...&lt;end&gt;</source>
-        <target state="final">I can help you with that, $(#brother/sister). I'll show you what I have...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -105,16 +51,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>I can help you with that, $(#brother/sister). I'll show you what I have...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Barter.::&lt;end&gt;</source>
-        <target state="final">::Barter.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -127,16 +63,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a7_original" name="=&gt;a7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I would like to purchase medication.&lt;end&gt;</source>
-        <target state="final">I would like to purchase medication.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -145,16 +71,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>I would like to purchase medication.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Right away. This is what I have at the moment...&lt;end&gt;</source>
-        <target state="final">Right away. This is what I have at the moment...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -167,16 +83,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a9_original" name="=&gt;a9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Can you check my wounds?&lt;end&gt;</source>
-        <target state="final">Can you check my wounds?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -185,16 +91,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>Can you check my wounds?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Of course, that is the reason I'm here. Medical examination and treatment costs twenty charons.&lt;end&gt;</source>
-        <target state="final">Of course, that is the reason I'm here. Medical examination and treatment costs twenty charons.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -207,16 +103,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a11_original" name="=&gt;a11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Here you go. ::Give him 20 stygian coins.::&lt;end&gt;</source>
-        <target state="final">Here you go. ::Give him 20 stygian coins.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -225,16 +111,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>Here you go. ::Give him 20 stygian coins.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Alright, $(#brother/sister), let me see what is causing you pain...&lt;end&gt;</source>
-        <target state="final">Alright, $(#brother/sister), let me see what is causing you pain...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -247,16 +123,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a13_original" name="=&gt;a13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Let him treat you.::&lt;end&gt;</source>
-        <target state="final">::Let him treat you.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -265,16 +131,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>::Let him treat you.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a14_original" name="=&gt;a14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Erm, I suddenly feel a lot better.&lt;end&gt;</source>
-        <target state="final">Erm, I suddenly feel a lot better.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -287,16 +143,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q15_original" name="=&gt;q15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is good news, $(#brother/sister). Was there anything else you needed of me?&lt;end&gt;</source>
-        <target state="final">That is good news, $(#brother/sister). Was there anything else you needed of me?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -305,16 +151,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>That is good news, $(#brother/sister). Was there anything else you needed of me?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Of course. That would be twenty charons.&lt;end&gt;</source>
-        <target state="final">Of course. That would be twenty charons.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -327,16 +163,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What do you think of the Faceless?&lt;end&gt;</source>
-        <target state="final">What do you think of the Faceless?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -345,16 +171,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>What do you think of the Faceless?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Foul, corrupted beings. Ugh, I sympathize with Core City residents who have to endure being close to such disgusting creatures. Tchort help them.&lt;end&gt;</source>
-        <target state="final">Foul, corrupted beings. Ugh, I sympathize with Core City residents who have to endure being close to such disgusting creatures. Tchort help them.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -367,16 +183,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q19_original" name="=&gt;q19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>In the end, the augmented monstrosities will die out eventually, while all completely natural beings, like us, will live on - for it is the superior design. Proven.&lt;end&gt;</source>
-        <target state="final">In the end, the augmented monstrosities will die out eventually, while all completely natural beings, like us, will live on - for it is the superior design. Proven.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -385,16 +191,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>In the end, the augmented monstrosities will die out eventually, while all completely natural beings, like us, will live on - for it is the superior design. Proven.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a20_original" name="=&gt;a20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How and why did you join Institute of Tchort?&lt;end&gt;</source>
-        <target state="final">How and why did you join Institute of Tchort?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -407,16 +203,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q21_original" name="=&gt;q21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah, it is a long story...&lt;end&gt;</source>
-        <target state="final">Ah, it is a long story...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -425,16 +211,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>Ah, it is a long story...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a22_original" name="=&gt;a22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Go on, I have the time.&lt;end&gt;</source>
-        <target state="final">Go on, I have the time.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -447,16 +223,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q23_original" name="=&gt;q23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I become a Tchortist about seven years ago - either in year ninety-two or ninety-three, one of the two - and it was all due to a single fortunate event of me meeting with a former colleague of mine who had just returned from South Underrail where he was on some, well, private business of his. Oh yes, I forgot to mention that I am from the North Underrail, and the meeting also took place there. In Dis, to be precise. &lt;end&gt;</source>
-        <target state="final">I become a Tchortist about seven years ago - either in year ninety-two or ninety-three, one of the two - and it was all due to a single fortunate event of me meeting with a former colleague of mine who had just returned from South Underrail where he was on some, well, private business of his. Oh yes, I forgot to mention that I am from the North Underrail, and the meeting also took place there. In Dis, to be precise. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -467,16 +233,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q24_original" name="=&gt;q24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Thomas Harding, the man I spoke with, informed me how dreadful the living conditions were in the south; of persistent and ever growing bandit menace, poverty, as well as the rise of violent sports in Core City. Naturally, the bottom line is that the south is a place of decadence and should be avoided at all costs.&lt;end&gt;</source>
-        <target state="final">Thomas Harding, the man I spoke with, informed me how dreadful the living conditions were in the south; of persistent and ever growing bandit menace, poverty, as well as the rise of violent sports in Core City. Naturally, the bottom line is that the south is a place of decadence and should be avoided at all costs.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -485,20 +241,6 @@ Tchort is evolution. My name is Jerre Franz and I am an Investigator of Medicine
       <segment state="translated">
         <source>Thomas Harding, the man I spoke with, informed me how dreadful the living conditions were in the south; of persistent and ever growing bandit menace, poverty, as well as the rise of violent sports in Core City. Naturally, the bottom line is that the south is a place of decadence and should be avoided at all costs.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q25_original" name="=&gt;q25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Except... there was one thing he mentioned in a positive light - the Institute of Tchort. He had the, in his words, pleasure to speak to several Tchortists during his stay here, in Upper Underrail - and in fact, one of those Tchortists was none other than Minister Percival himself! Well, Assistant Minister back then.
-
-Tom was impressed by what he learned, about the body of knowledge the Tchortists possess and their intentions of changing - evolving the human future. He also told me about the duality of Tchort: one side is the physical side, the being itself; the other is knowledge obtained through scientific methods. The only way possible, really...&lt;end&gt;</source>
-        <target state="final">Except... there was one thing he mentioned in a positive light - the Institute of Tchort. He had the, in his words, pleasure to speak to several Tchortists during his stay here, in Upper Underrail - and in fact, one of those Tchortists was none other than Minister Percival himself! Well, Assistant Minister back then.
-
-Tom was impressed by what he learned, about the body of knowledge the Tchortists possess and their intentions of changing - evolving the human future. He also told me about the duality of Tchort: one side is the physical side, the being itself; the other is knowledge obtained through scientific methods. The only way possible, really...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -513,16 +255,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q26_original" name="=&gt;q26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah, I still remember Tom's words, explanations and praises of the Institute of Tchort; the first time he told me about Tchort itself and, especially due to his fantastic way with words, it floored me. Magnificent Tchort, I was astonished!&lt;end&gt;</source>
-        <target state="final">Ah, I still remember Tom's words, explanations and praises of the Institute of Tchort; the first time he told me about Tchort itself and, especially due to his fantastic way with words, it floored me. Magnificent Tchort, I was astonished!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -531,16 +263,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
       <segment state="translated">
         <source>Ah, I still remember Tom's words, explanations and praises of the Institute of Tchort; the first time he told me about Tchort itself and, especially due to his fantastic way with words, it floored me. Magnificent Tchort, I was astonished!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q27_original" name="=&gt;q27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Of course, all that sparked my imagination and I decided I *had* to come to South Underrail. So I did. I still remember seeing the rassophores at the entrance; all glorious in their beautiful robes... Sure, it was unusual but once you understand the purpose of such appearance it all makes sense, perfect sense.&lt;end&gt;</source>
-        <target state="final">Of course, all that sparked my imagination and I decided I *had* to come to South Underrail. So I did. I still remember seeing the rassophores at the entrance; all glorious in their beautiful robes... Sure, it was unusual but once you understand the purpose of such appearance it all makes sense, perfect sense.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -553,16 +275,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You know what happened next, $(#brother/sister). I became a proud Tchortist, and still am - to this day. Tchort is evolution.&lt;end&gt;</source>
-        <target state="final">You know what happened next, $(#brother/sister). I became a proud Tchortist, and still am - to this day. Tchort is evolution.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -571,16 +283,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
       <segment state="translated">
         <source>You know what happened next, $(#brother/sister). I became a proud Tchortist, and still am - to this day. Tchort is evolution.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Thomas seemed very impressed with Tchortism. Where is he now? Did he also join the Institute?&lt;end&gt;</source>
-        <target state="final">Thomas seemed very impressed with Tchortism. Where is he now? Did he also join the Institute?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -593,16 +295,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q30_original" name="=&gt;q30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Jerre Franz's face turns sour.:: Tom was unfortunately mortally wounded soon after we spoke. Free Drones bombing attack. Many were killed by those corrupted, inbred, dystrophic... ugh...&lt;end&gt;</source>
-        <target state="final">::Jerre Franz's face turns sour.:: Tom was unfortunately mortally wounded soon after we spoke. Free Drones bombing attack. Many were killed by those corrupted, inbred, dystrophic... ugh...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -611,16 +303,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
       <segment state="translated">
         <source>::Jerre Franz's face turns sour.:: Tom was unfortunately mortally wounded soon after we spoke. Free Drones bombing attack. Many were killed by those corrupted, inbred, dystrophic... ugh...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q31_original" name="=&gt;q31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He sighs.:: Had he lived a bit longer, I'm sure he would have joined me here. I'm positive.&lt;end&gt;</source>
-        <target state="final">::He sighs.:: Had he lived a bit longer, I'm sure he would have joined me here. I'm positive.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -633,16 +315,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a32_original" name="=&gt;a32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Interesting story... Let me ask you something else.&lt;end&gt;</source>
-        <target state="final">Interesting story... Let me ask you something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -651,16 +323,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
       <segment state="translated">
         <source>Interesting story... Let me ask you something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(#Brother/Sister)?&lt;end&gt;</source>
-        <target state="final">$(#Brother/Sister)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -673,16 +335,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a34_original" name="=&gt;a34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then perhaps you better tell it some other time. I had other questions anyway.&lt;end&gt;</source>
-        <target state="final">Then perhaps you better tell it some other time. I had other questions anyway.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -691,16 +343,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
       <segment state="translated">
         <source>Then perhaps you better tell it some other time. I had other questions anyway.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q35_original" name="=&gt;q35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Feel free to ask.&lt;end&gt;</source>
-        <target state="final">Feel free to ask.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -713,16 +355,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a36_original" name="=&gt;a36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guide you, Jerre Franz.&lt;end&gt;</source>
-        <target state="final">Tchort guide you, Jerre Franz.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -731,16 +363,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
       <segment state="translated">
         <source>Tchort guide you, Jerre Franz.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q37_original" name="=&gt;q37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guide you too, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">Tchort guide you too, $(#brother/sister).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -753,16 +375,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a38_original" name="=&gt;a38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have to leave now. Goodbye.&lt;end&gt;</source>
-        <target state="final">I have to leave now. Goodbye.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -771,16 +383,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
       <segment state="translated">
         <source>I have to leave now. Goodbye.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q39_original" name="=&gt;q39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guide you.&lt;end&gt;</source>
-        <target state="final">Tchort guide you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -793,16 +395,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q40_original" name="=&gt;q40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Magnificent Tchort, what's with all this shaking?&lt;end&gt;</source>
-        <target state="final">Magnificent Tchort, what's with all this shaking?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -811,16 +403,6 @@ Tom was impressed by what he learned, about the body of knowledge the Tchortists
       <segment state="translated">
         <source>Magnificent Tchort, what's with all this shaking?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q41_original" name="=&gt;q41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Need assistance, $(#brother/sister)?&lt;end&gt;</source>
-        <target state="final">Need assistance, $(#brother/sister)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">

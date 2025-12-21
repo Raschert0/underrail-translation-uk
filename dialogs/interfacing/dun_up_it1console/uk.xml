@@ -1,28 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\dun_up_it1console.txt" original="dialogs\interfacing\dun_up_it1console.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::BCE-HX - B_...-^rp C Eletrncccz_
-Firmware version: 0.997::
-
-::Time since last manual decompression: 4444---
-
-Stabilization systems offline, full automatic maintenance disabled. Applied most recent stable flow configuration. Missing all sensor data.
-::&lt;end&gt;</source>
-        <target state="final">::BCE-HX - B_...-^rp C Eletrncccz_
-Firmware version: 0.997::
-
-::Time since last manual decompression: 4444---
-
-Stabilization systems offline, full automatic maintenance disabled. Applied most recent stable flow configuration. Missing all sensor data.
-::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -39,16 +17,6 @@ Stabilization systems offline, full automatic maintenance disabled. Applied most
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -59,16 +27,6 @@ Stabilization systems offline, full automatic maintenance disabled. Applied most
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Cooling system diagnostics::&lt;end&gt;</source>
-        <target state="final">::Cooling system diagnostics::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -77,24 +35,6 @@ Stabilization systems offline, full automatic maintenance disabled. Applied most
       <segment state="translated">
         <source>::Cooling system diagnostics::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Processing data...
-
-Please wait...
-
-A loading bar is displayed, but it's not filling up at all. Red exclamation point is flashing at the end of the bar.::&lt;end&gt;</source>
-        <target state="final">::Processing data...
-
-Please wait...
-
-A loading bar is displayed, but it's not filling up at all. Red exclamation point is flashing at the end of the bar.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -111,20 +51,6 @@ A loading bar is displayed, but it's not filling up at all. Red exclamation poin
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Sensors offline. 
-
-Most recent readings: All levels critical, insufficient core pressure, divert power immediately. Engage asynchronous pressure stabilization.::&lt;end&gt;</source>
-        <target state="final">::Sensors offline. 
-
-Most recent readings: All levels critical, insufficient core pressure, divert power immediately. Engage asynchronous pressure stabilization.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -137,16 +63,6 @@ Most recent readings: All levels critical, insufficient core pressure, divert po
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Power display/management::&lt;end&gt;</source>
-        <target state="final">::Power display/management::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -155,16 +71,6 @@ Most recent readings: All levels critical, insufficient core pressure, divert po
       <segment state="translated">
         <source>::Power display/management::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a7_original" name="=&gt;a7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Pressure-flow control::&lt;end&gt;</source>
-        <target state="final">::Pressure-flow control::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -177,16 +83,6 @@ Most recent readings: All levels critical, insufficient core pressure, divert po
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Acess to H__ towwr::&lt;end&gt;</source>
-        <target state="final">::Acess to H__ towwr::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -195,20 +91,6 @@ Most recent readings: All levels critical, insufficient core pressure, divert po
       <segment state="translated">
         <source>::Acess to H__ towwr::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::It takes a while for the program to respond. Whenever you would try to hover over another option, the display doesn't respond.  
-
-Suddenly the screen goes blank, periodically flashing previously seen information. Three desultory beeping sounds play out, followed up by a distant, loud mechanical noise of a huge engine starting up. You can hear the gears turning, as the walls start to shake. The image on the monitor is restored.::&lt;end&gt;</source>
-        <target state="final">::It takes a while for the program to respond. Whenever you would try to hover over another option, the display doesn't respond.  
-
-Suddenly the screen goes blank, periodically flashing previously seen information. Three desultory beeping sounds play out, followed up by a distant, loud mechanical noise of a huge engine starting up. You can hear the gears turning, as the walls start to shake. The image on the monitor is restored.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -223,20 +105,6 @@ Suddenly the screen goes blank, periodically flashing previously seen informatio
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Access granted.
-
-Be advised, cold depressurization commencing. ::&lt;end&gt;</source>
-        <target state="final">::Access granted.
-
-Be advised, cold depressurization commencing. ::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -247,16 +115,6 @@ Be advised, cold depressurization commencing. ::&lt;end&gt;</target>
 
 Be advised, cold depressurization commencing. ::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a11_original" name="=&gt;a11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Leave.::&lt;end&gt;</source>
-        <target state="final">::Leave.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">

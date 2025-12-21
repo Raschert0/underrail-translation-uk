@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\tch_hanna.txt" original="dialogs\characters\tch_hanna.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Adapt and overcome!&lt;end&gt;</source>
-        <target state="final">Adapt and overcome!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -21,16 +11,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(context.player.Name), Mediant Samuel wishes to see you. He is in his office with Efreitor Denzil.&lt;end&gt;</source>
-        <target state="final">$(context.player.Name), Mediant Samuel wishes to see you. He is in his office with Efreitor Denzil.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -39,20 +19,6 @@
       <segment state="translated">
         <source>$(context.player.Name), Mediant Samuel wishes to see you. He is in his office with Efreitor Denzil.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::This young woman welcomes you by putting her hand on her chest and follows with a verbal greeting. Her bright and high-pitched voice sounds pleasant and matches her petiteness perfectly. On the other hand, the full combat uniform that she is wearing - complete with a mask she never removes, a characteristic you noticed in all rassophores throughout the Institute; creates a different, if conflicting visual image.::
-
-Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort. You're $(context.player.Name), if I'm not mistaken?&lt;end&gt;</source>
-        <target state="final">::This young woman welcomes you by putting her hand on her chest and follows with a verbal greeting. Her bright and high-pitched voice sounds pleasant and matches her petiteness perfectly. On the other hand, the full combat uniform that she is wearing - complete with a mask she never removes, a characteristic you noticed in all rassophores throughout the Institute; creates a different, if conflicting visual image.::
-
-Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort. You're $(context.player.Name), if I'm not mistaken?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -67,16 +33,6 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Evolution is Tchort. Yes, I am $(#him/her). Pleasure to meet you.&lt;end&gt;</source>
-        <target state="final">Evolution is Tchort. Yes, I am $(#him/her). Pleasure to meet you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -85,16 +41,6 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
       <segment state="translated">
         <source>Evolution is Tchort. Yes, I am $(#him/her). Pleasure to meet you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Pleasure to meet you too, $(context.player.Name). Under Mediant Samuel's direct orders, you are allowed access to Preservation's armory, despite the fact that you are not a rassophore... yet.&lt;end&gt;</source>
-        <target state="final">Pleasure to meet you too, $(context.player.Name). Under Mediant Samuel's direct orders, you are allowed access to Preservation's armory, despite the fact that you are not a rassophore... yet.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -107,16 +53,6 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Of course, armory access is not free, so prepare some charons before making a purchase.&lt;end&gt;</source>
-        <target state="final">Of course, armory access is not free, so prepare some charons before making a purchase.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -125,16 +61,6 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
       <segment state="translated">
         <source>Of course, armory access is not free, so prepare some charons before making a purchase.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -147,16 +73,6 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Eidein told me to see you about my uniform.&lt;end&gt;</source>
-        <target state="final">Eidein told me to see you about my uniform.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -165,20 +81,6 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
       <segment state="translated">
         <source>Eidein told me to see you about my uniform.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She signals the other rassophore, and he leaves the the room.::
-
-We keep the new vathosphores... downstairs. &lt;end&gt;</source>
-        <target state="final">::She signals the other rassophore, and he leaves the the room.::
-
-We keep the new vathosphores... downstairs. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -193,20 +95,6 @@ We keep the new vathosphores... downstairs. &lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::While the rassophore is away, she grabs a rassophore armor from one of the lockers.::
-
-This is your standard issue armored robe. You will be wearing this when on duty as a rassophore.&lt;end&gt;</source>
-        <target state="final">::While the rassophore is away, she grabs a rassophore armor from one of the lockers.::
-
-This is your standard issue armored robe. You will be wearing this when on duty as a rassophore.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -217,24 +105,6 @@ This is your standard issue armored robe. You will be wearing this when on duty 
 
 This is your standard issue armored robe. You will be wearing this when on duty as a rassophore.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Some ten minutes later, the rassophore returns with a bulky-looking green robe and an unusual backpack-like device.::
-
-Now this - this is the new vathosphore armored robe. Lucky you. Take good care of it - you don't want to get it dirty or damaged before the ceremony. Eidein has allowed you to take it this early only for you to get comfortable wearing it. 
-
-No one wants novitiates tipping over during one of their most apex hours. Totally not. ::She chuckles.::&lt;end&gt;</source>
-        <target state="final">::Some ten minutes later, the rassophore returns with a bulky-looking green robe and an unusual backpack-like device.::
-
-Now this - this is the new vathosphore armored robe. Lucky you. Take good care of it - you don't want to get it dirty or damaged before the ceremony. Eidein has allowed you to take it this early only for you to get comfortable wearing it. 
-
-No one wants novitiates tipping over during one of their most apex hours. Totally not. ::She chuckles.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -251,16 +121,6 @@ No one wants novitiates tipping over during one of their most apex hours. Totall
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Therefore, mind that ecopack; it's heavy. And don't fiddle with it too much.&lt;end&gt;</source>
-        <target state="final">Therefore, mind that ecopack; it's heavy. And don't fiddle with it too much.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -271,16 +131,6 @@ No one wants novitiates tipping over during one of their most apex hours. Totall
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a13_original" name="=&gt;a13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ecopack?&lt;end&gt;</source>
-        <target state="final">Ecopack?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -289,20 +139,6 @@ No one wants novitiates tipping over during one of their most apex hours. Totall
       <segment state="translated">
         <source>Ecopack?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That device on the back. It houses, and let me quote the manual: "...an ecosystem of thermosynthetic microorganisms living off the wearer's captured heat. These microorganisms are capable of producing breathable air enriched with compounds beneficial to the wearer's general health and combat performance."
-
-I think I got that right.&lt;end&gt;</source>
-        <target state="final">That device on the back. It houses, and let me quote the manual: "...an ecosystem of thermosynthetic microorganisms living off the wearer's captured heat. These microorganisms are capable of producing breathable air enriched with compounds beneficial to the wearer's general health and combat performance."
-
-I think I got that right.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -317,16 +153,6 @@ I think I got that right.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Interesting. What else can you tell me about the armor?&lt;end&gt;</source>
-        <target state="final">Interesting. What else can you tell me about the armor?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -335,20 +161,6 @@ I think I got that right.&lt;end&gt;</source>
       <segment state="translated">
         <source>Interesting. What else can you tell me about the armor?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, it's a new series of armored robes, designed jointly by both Preservation and Investigation experts. The ecopack and the added hazardous protection make it suitable for extreme environments. A few of you lucky ones will get to show it off during the ceremony, but whether you get to keep it afterwards... that I ain't got a clue.
-
-So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Well, it's a new series of armored robes, designed jointly by both Preservation and Investigation experts. The ecopack and the added hazardous protection make it suitable for extreme environments. A few of you lucky ones will get to show it off during the ceremony, but whether you get to keep it afterwards... that I ain't got a clue.
-
-So keep it nice and clean, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -363,16 +175,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Understood. Now, I better go and get changed.&lt;end&gt;</source>
-        <target state="final">Understood. Now, I better go and get changed.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -381,16 +183,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Understood. Now, I better go and get changed.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She waves at you.:: Tchort guide you.&lt;end&gt;</source>
-        <target state="final">::She waves at you.:: Tchort guide you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -403,16 +195,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a19_original" name="=&gt;a19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'd like to see what you have in the armory. ::Barter.::&lt;end&gt;</source>
-        <target state="final">I'd like to see what you have in the armory. ::Barter.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -421,16 +203,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I'd like to see what you have in the armory. ::Barter.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a20_original" name="=&gt;a20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Mercantile]:: Excuse me, Efreitor, but would you mind showing me the... rest of the equipment? The things you don't show to just about any novitiate. Price is not an issue - I've got the coin to spend.&lt;end&gt;</source>
-        <target state="final">::[Mercantile]:: Excuse me, Efreitor, but would you mind showing me the... rest of the equipment? The things you don't show to just about any novitiate. Price is not an issue - I've got the coin to spend.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -443,16 +215,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q21_original" name="=&gt;q21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>If that is the case... then let me show you what we got, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">If that is the case... then let me show you what we got, $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -461,16 +223,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>If that is the case... then let me show you what we got, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a22_original" name="=&gt;a22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Barter.::&lt;end&gt;</source>
-        <target state="final">::Barter.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -483,16 +235,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q23_original" name="=&gt;q23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sorry, but I cannot grant you access to the rest of the armory inventory, $(context.player.Name). It's... Never mind. I cannot.&lt;end&gt;</source>
-        <target state="final">Sorry, but I cannot grant you access to the rest of the armory inventory, $(context.player.Name). It's... Never mind. I cannot.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -501,16 +243,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Sorry, but I cannot grant you access to the rest of the armory inventory, $(context.player.Name). It's... Never mind. I cannot.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a24_original" name="=&gt;a24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How and why did you join Institute of Tchort?&lt;end&gt;</source>
-        <target state="final">How and why did you join Institute of Tchort?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -523,16 +255,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q25_original" name="=&gt;q25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Institute-born here. ::She laughs.:: That means I've been exposed to Tchortism all my life and I am glad for it. I was lucky; outsiders who come here as novitiates always talk how difficult life on the outside is. Poverty, disease, bandits... wars even. While we do have our own problems here, namely with the Faceless and - as of late - Lunatics, the quality of life in the Institute is unmatched by anything in South Underrail.&lt;end&gt;</source>
-        <target state="final">Institute-born here. ::She laughs.:: That means I've been exposed to Tchortism all my life and I am glad for it. I was lucky; outsiders who come here as novitiates always talk how difficult life on the outside is. Poverty, disease, bandits... wars even. While we do have our own problems here, namely with the Faceless and - as of late - Lunatics, the quality of life in the Institute is unmatched by anything in South Underrail.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -541,16 +263,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Institute-born here. ::She laughs.:: That means I've been exposed to Tchortism all my life and I am glad for it. I was lucky; outsiders who come here as novitiates always talk how difficult life on the outside is. Poverty, disease, bandits... wars even. While we do have our own problems here, namely with the Faceless and - as of late - Lunatics, the quality of life in the Institute is unmatched by anything in South Underrail.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q26_original" name="=&gt;q26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>All in all, the Institute is totally apex! ::She laughs.::&lt;end&gt;</source>
-        <target state="final">All in all, the Institute is totally apex! ::She laughs.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -563,16 +275,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a27_original" name="=&gt;a27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Have you ever been outside?&lt;end&gt;</source>
-        <target state="final">Have you ever been outside?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -581,16 +283,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Have you ever been outside?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Other than a few Upper Underrail patrols when I was a rassophore trainee, I've never went too far from the Institute. I saw nothing of interest during that time anyway, totally nothing, so I did not really feel the need to see what lies beyond. I'm sure it's just more of the same.&lt;end&gt;</source>
-        <target state="final">Other than a few Upper Underrail patrols when I was a rassophore trainee, I've never went too far from the Institute. I saw nothing of interest during that time anyway, totally nothing, so I did not really feel the need to see what lies beyond. I'm sure it's just more of the same.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -603,16 +295,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q29_original" name="=&gt;q29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I've got everything I need right here. I have friends, family... and this totally apex armory. And I suppose I have a purpose: Tchortism is something you dedicate your life to, something that fulfills you. All in all, I have everything here.&lt;end&gt;</source>
-        <target state="final">I've got everything I need right here. I have friends, family... and this totally apex armory. And I suppose I have a purpose: Tchortism is something you dedicate your life to, something that fulfills you. All in all, I have everything here.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -621,16 +303,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I've got everything I need right here. I have friends, family... and this totally apex armory. And I suppose I have a purpose: Tchortism is something you dedicate your life to, something that fulfills you. All in all, I have everything here.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a30_original" name="=&gt;a30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Glad to hear that. Allow me to ask you something else.&lt;end&gt;</source>
-        <target state="final">Glad to hear that. Allow me to ask you something else.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -643,16 +315,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q31_original" name="=&gt;q31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sure, $(context.player.Name). I'm listening...&lt;end&gt;</source>
-        <target state="final">Sure, $(context.player.Name). I'm listening...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -661,16 +323,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Sure, $(context.player.Name). I'm listening...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a32_original" name="=&gt;a32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am looking for a rassophore called Nevil. Have you seen him recently?&lt;end&gt;</source>
-        <target state="final">I am looking for a rassophore called Nevil. Have you seen him recently?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -683,16 +335,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>As I have already reported to Mediant Samuel, I haven't seen Rassophore Nevil today. The last time we spoke was two days ago when he came to the armory with a request for ammunition for his rifle, but that was all. He got what he needed and walked away.&lt;end&gt;</source>
-        <target state="final">As I have already reported to Mediant Samuel, I haven't seen Rassophore Nevil today. The last time we spoke was two days ago when he came to the armory with a request for ammunition for his rifle, but that was all. He got what he needed and walked away.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -701,16 +343,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>As I have already reported to Mediant Samuel, I haven't seen Rassophore Nevil today. The last time we spoke was two days ago when he came to the armory with a request for ammunition for his rifle, but that was all. He got what he needed and walked away.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q34_original" name="=&gt;q34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He is not a talkative man anyway, so that is how our interaction usually goes. Totally.&lt;end&gt;</source>
-        <target state="final">He is not a talkative man anyway, so that is how our interaction usually goes. Totally.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -723,16 +355,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a35_original" name="=&gt;a35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about Mediant Samuel?&lt;end&gt;</source>
-        <target state="final">What can you tell me about Mediant Samuel?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -741,16 +363,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>What can you tell me about Mediant Samuel?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q36_original" name="=&gt;q36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>His Notability is a dedicated Tchortist and a good man, and it is an honor and a privilege to be a rassophore under his command. He can be strict - but he is always just.&lt;end&gt;</source>
-        <target state="final">His Notability is a dedicated Tchortist and a good man, and it is an honor and a privilege to be a rassophore under his command. He can be strict - but he is always just.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -763,16 +375,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a37_original" name="=&gt;a37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Is he in charge of all forces or...&lt;end&gt;</source>
-        <target state="final">Is he in charge of all forces or...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -781,16 +383,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Is he in charge of all forces or...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q38_original" name="=&gt;q38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No, $(context.player.Name) - that would be His Excellency, Harmost Stavros. Mediant, as a rank, is someone who relays harmost's commands to efreitors and rassophores; the middle link in the command chain, so to speak. But since His Excellency is in Deep Caverns at the moment, he left Mediant Samuel in command of the Institute forces up here.&lt;end&gt;</source>
-        <target state="final">No, $(context.player.Name) - that would be His Excellency, Harmost Stavros. Mediant, as a rank, is someone who relays harmost's commands to efreitors and rassophores; the middle link in the command chain, so to speak. But since His Excellency is in Deep Caverns at the moment, he left Mediant Samuel in command of the Institute forces up here.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -803,16 +395,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q39_original" name="=&gt;q39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So in a way he *is* in command, but only temporarily.&lt;end&gt;</source>
-        <target state="final">So in a way he *is* in command, but only temporarily.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -821,16 +403,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>So in a way he *is* in command, but only temporarily.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a40_original" name="=&gt;a40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Interesting... I had something else I wanted to ask you.&lt;end&gt;</source>
-        <target state="final">Interesting... I had something else I wanted to ask you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -843,16 +415,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a41_original" name="=&gt;a41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What does a cell about to undergo mitosis say to an interested investigator? "I hope I have your divided attention!"&lt;end&gt;</source>
-        <target state="final">What does a cell about to undergo mitosis say to an interested investigator? "I hope I have your divided attention!"&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -863,16 +425,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q42_original" name="=&gt;q42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::At first, the joke is met with a giggle. However, a moment later Hanna bursts into full-blown laughter. She lowers her head and soon enough you don't even hear her anymore but only see her shaking.::&lt;end&gt;</source>
-        <target state="final">::At first, the joke is met with a giggle. However, a moment later Hanna bursts into full-blown laughter. She lowers her head and soon enough you don't even hear her anymore but only see her shaking.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -881,20 +433,6 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>::At first, the joke is met with a giggle. However, a moment later Hanna bursts into full-blown laughter. She lowers her head and soon enough you don't even hear her anymore but only see her shaking.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q43_original" name="=&gt;q43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She returns to you eventually.::
-
-That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;</source>
-        <target state="final">::She returns to you eventually.::
-
-That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -909,16 +447,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a44_original" name="=&gt;a44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Glad you like it.&lt;end&gt;</source>
-        <target state="final">Glad you like it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -927,16 +455,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       <segment state="translated">
         <source>Glad you like it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q45_original" name="=&gt;q45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She nods a few times, still laughing.::&lt;end&gt;</source>
-        <target state="final">::She nods a few times, still laughing.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -949,16 +467,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a46_original" name="=&gt;a46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>There was something else I wanted to talk about.&lt;end&gt;</source>
-        <target state="final">There was something else I wanted to talk about.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -967,16 +475,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       <segment state="translated">
         <source>There was something else I wanted to talk about.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a47_original" name="=&gt;a47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll leave you to it.&lt;end&gt;</source>
-        <target state="final">I'll leave you to it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -989,16 +487,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q48_original" name="=&gt;q48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She nods a few times, still laughing.::&lt;end&gt;</source>
-        <target state="final">::She nods a few times, still laughing.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1007,16 +495,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       <segment state="translated">
         <source>::She nods a few times, still laughing.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a49_original" name="=&gt;a49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guide you, sister.&lt;end&gt;</source>
-        <target state="final">Tchort guide you, sister.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -1029,16 +507,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q50_original" name="=&gt;q50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I wouldn't have it any other way, $(context.player.Name). You too.&lt;end&gt;</source>
-        <target state="final">I wouldn't have it any other way, $(context.player.Name). You too.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1047,16 +515,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       <segment state="translated">
         <source>I wouldn't have it any other way, $(context.player.Name). You too.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a51_original" name="=&gt;a51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>See ya later, Hanna.&lt;end&gt;</source>
-        <target state="final">See ya later, Hanna.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -1069,16 +527,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a52_original" name="=&gt;a52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is correct. How did you know?&lt;end&gt;</source>
-        <target state="final">That is correct. How did you know?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1087,16 +535,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       <segment state="translated">
         <source>That is correct. How did you know?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q53_original" name="=&gt;q53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>News spreads fast; the Institute is not a very big place. A place of big ideas - perhaps, but not a physically big place. Also, your totally apex retrieval of the figurine stolen by those... devolved Lunatics is a something that really caught everyone's attention.&lt;end&gt;</source>
-        <target state="final">News spreads fast; the Institute is not a very big place. A place of big ideas - perhaps, but not a physically big place. Also, your totally apex retrieval of the figurine stolen by those... devolved Lunatics is a something that really caught everyone's attention.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -1109,16 +547,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q54_original" name="=&gt;q54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Now, under Mediant Samuel's direct orders, you are allowed access to Preservation's armory, despite the fact that you are not a rassophore... yet.&lt;end&gt;</source>
-        <target state="final">Now, under Mediant Samuel's direct orders, you are allowed access to Preservation's armory, despite the fact that you are not a rassophore... yet.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1127,16 +555,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       <segment state="translated">
         <source>Now, under Mediant Samuel's direct orders, you are allowed access to Preservation's armory, despite the fact that you are not a rassophore... yet.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a55_original" name="=&gt;a55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am, and I'm looking to get acquire weapons if possible. Mediant Samuel told me that you can help me with that.&lt;end&gt;</source>
-        <target state="final">I am, and I'm looking to get acquire weapons if possible. Mediant Samuel told me that you can help me with that.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -1149,16 +567,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q56_original" name="=&gt;q56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She nods.:: That is correct. Even though you are not a rassophore yet, $(context.player.Name), you will be granted access to Preservation's armory - as instructed by the mediant himself.&lt;end&gt;</source>
-        <target state="final">::She nods.:: That is correct. Even though you are not a rassophore yet, $(context.player.Name), you will be granted access to Preservation's armory - as instructed by the mediant himself.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1167,20 +575,6 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       <segment state="translated">
         <source>::She nods.:: That is correct. Even though you are not a rassophore yet, $(context.player.Name), you will be granted access to Preservation's armory - as instructed by the mediant himself.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q57_original" name="=&gt;q57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hey, $(context.player.Name). If you heard any loud banging on your way here, those were the weights falling off the weight rack in the gym. The armory is perfectly safe. 
-
-Still... don't stand near the cabinets.&lt;end&gt;</source>
-        <target state="final">Hey, $(context.player.Name). If you heard any loud banging on your way here, those were the weights falling off the weight rack in the gym. The armory is perfectly safe. 
-
-Still... don't stand near the cabinets.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -1195,16 +589,6 @@ Still... don't stand near the cabinets.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q58_original" name="=&gt;q58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(context.player.Name), you totally have to see the new equipment we've just received.&lt;end&gt;</source>
-        <target state="final">$(context.player.Name), you totally have to see the new equipment we've just received.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1213,16 +597,6 @@ Still... don't stand near the cabinets.&lt;end&gt;</source>
       <segment state="translated">
         <source>$(context.player.Name), you totally have to see the new equipment we've just received.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a59_original" name="=&gt;a59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>In a moment, I had some questions first.&lt;end&gt;</source>
-        <target state="final">In a moment, I had some questions first.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -1235,16 +609,6 @@ Still... don't stand near the cabinets.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q60_original" name="=&gt;q60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes?&lt;end&gt;</source>
-        <target state="final">Yes?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1253,16 +617,6 @@ Still... don't stand near the cabinets.&lt;end&gt;</source>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q61_original" name="=&gt;q61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hey, $(context.player.Name). What culling tools do you need now?&lt;end&gt;</source>
-        <target state="final">Hey, $(context.player.Name). What culling tools do you need now?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">

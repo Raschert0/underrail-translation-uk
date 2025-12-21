@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\sgs_lora.txt" original="dialogs\characters\sgs_lora.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The woman lies on the bed with her eyes firmly closed. Her face is dotted with reddish scars and blisters, as if spattered with a boiling or corrosive liquid which distorted her face into a grotesque visage. Her eyes begin to open: The left eyelid lifts quickly, allowing the brown iris to focus on you; the other one lags, twitching as it slowly rises to reveal a swirled mass that used to be an eye. A light on the small device grafted onto her neck flashes green as a metallic voice speaks to you while carefully being molded by her lips.::&lt;end&gt;</source>
-        <target state="final">::The woman lies on the bed with her eyes firmly closed. Her face is dotted with reddish scars and blisters, as if spattered with a boiling or corrosive liquid which distorted her face into a grotesque visage. Her eyes begin to open: The left eyelid lifts quickly, allowing the brown iris to focus on you; the other one lags, twitching as it slowly rises to reveal a swirled mass that used to be an eye. A light on the small device grafted onto her neck flashes green as a metallic voice speaks to you while carefully being molded by her lips.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -19,16 +9,6 @@
       <segment state="translated">
         <source>::The woman lies on the bed with her eyes firmly closed. Her face is dotted with reddish scars and blisters, as if spattered with a boiling or corrosive liquid which distorted her face into a grotesque visage. Her eyes begin to open: The left eyelid lifts quickly, allowing the brown iris to focus on you; the other one lags, twitching as it slowly rises to reveal a swirled mass that used to be an eye. A light on the small device grafted onto her neck flashes green as a metallic voice speaks to you while carefully being molded by her lips.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What... is happening?&lt;end&gt;</source>
-        <target state="final">What... is happening?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -41,16 +21,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Lora, can you hear me?&lt;end&gt;</source>
-        <target state="final">Lora, can you hear me?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -59,16 +29,6 @@
       <segment state="translated">
         <source>Lora, can you hear me?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes. Who... are you?&lt;end&gt;</source>
-        <target state="final">Yes. Who... are you?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -81,16 +41,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a5_original" name="=&gt;a5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I come from South Gate Station. I arrived there after you had left, so we hadn't had the chance to meet. I'm $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">I come from South Gate Station. I arrived there after you had left, so we hadn't had the chance to meet. I'm $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -99,20 +49,6 @@
       <segment state="translated">
         <source>I come from South Gate Station. I arrived there after you had left, so we hadn't had the chance to meet. I'm $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She is silent as her eye inspects you, sluggishly moving down and up again. A quick tremble of her lips could have been an attempt at a smile, but the motion never proceeds farther than that.::
-
-Terry, my husband?&lt;end&gt;</source>
-        <target state="final">::She is silent as her eye inspects you, sluggishly moving down and up again. A quick tremble of her lips could have been an attempt at a smile, but the motion never proceeds farther than that.::
-
-Terry, my husband?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -127,16 +63,6 @@ Terry, my husband?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a7_original" name="=&gt;a7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He is alive and is waiting for you in South Gate Station.&lt;end&gt;</source>
-        <target state="final">He is alive and is waiting for you in South Gate Station.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -145,16 +71,6 @@ Terry, my husband?&lt;end&gt;</source>
       <segment state="translated">
         <source>He is alive and is waiting for you in South Gate Station.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He was shot before my eyes.&lt;end&gt;</source>
-        <target state="final">He was shot before my eyes.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -167,16 +83,6 @@ Terry, my husband?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a9_original" name="=&gt;a9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So were you before his. Yet you are alive.&lt;end&gt;</source>
-        <target state="final">So were you before his. Yet you are alive.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -185,20 +91,6 @@ Terry, my husband?&lt;end&gt;</source>
       <segment state="translated">
         <source>So were you before his. Yet you are alive.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The smile finally appears, distorted and made with great effort, but it's there.::
-
-Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;</source>
-        <target state="final">::The smile finally appears, distorted and made with great effort, but it's there.::
-
-Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -213,16 +105,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -231,16 +113,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a12_original" name="=&gt;a12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tell me what happened to you.&lt;end&gt;</source>
-        <target state="final">Tell me what happened to you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -253,16 +125,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q13_original" name="=&gt;q13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Okay. I'll start from the beginning...&lt;end&gt;</source>
-        <target state="final">Okay. I'll start from the beginning...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -271,16 +133,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>Okay. I'll start from the beginning...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Some time before the earthquake we were... Terry and I were sent to Core City. We perform trading for the SGS, and we were tasked with obtaining several things from the local merchants, as well as to meet one... man in the residential area so he could give us a package.&lt;end&gt;</source>
-        <target state="final">Some time before the earthquake we were... Terry and I were sent to Core City. We perform trading for the SGS, and we were tasked with obtaining several things from the local merchants, as well as to meet one... man in the residential area so he could give us a package.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -293,16 +145,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Interesting. Who was this man?&lt;end&gt;</source>
-        <target state="final">Interesting. Who was this man?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -311,16 +153,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>Interesting. Who was this man?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He had... he had some electrical equipment. Tanner never went into much details, only that the package was fragile; these devices were sensitive, I believe he said, so we were to take good care of the package. The man's name was James Steiner. James Steiner. That is all I know about him.&lt;end&gt;</source>
-        <target state="final">He had... he had some electrical equipment. Tanner never went into much details, only that the package was fragile; these devices were sensitive, I believe he said, so we were to take good care of the package. The man's name was James Steiner. James Steiner. That is all I know about him.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -333,16 +165,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You mentioned Tanner telling you about the package. He ordered it?&lt;end&gt;</source>
-        <target state="final">You mentioned Tanner telling you about the package. He ordered it?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -351,16 +173,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>You mentioned Tanner telling you about the package. He ordered it?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We usually get the lists from Vera, but she wasn't around at the time so Tanner... Tanner was the one who talked to us.&lt;end&gt;</source>
-        <target state="final">We usually get the lists from Vera, but she wasn't around at the time so Tanner... Tanner was the one who talked to us.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -373,16 +185,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a19_original" name="=&gt;a19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I see. So you went to this man, this James Steiner guy and then what?&lt;end&gt;</source>
-        <target state="final">I see. So you went to this man, this James Steiner guy and then what?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -391,16 +193,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>I see. So you went to this man, this James Steiner guy and then what?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q20_original" name="=&gt;q20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We met him near his home, close to the fence overlooking a part of Drop Zone; I remember seeing fire and smoke rising from one of the shacks down there. But that's... that's not important. The man had to leave for work or something, I can't remember, so he gave us the package and left us quickly.&lt;end&gt;</source>
-        <target state="final">We met him near his home, close to the fence overlooking a part of Drop Zone; I remember seeing fire and smoke rising from one of the shacks down there. But that's... that's not important. The man had to leave for work or something, I can't remember, so he gave us the package and left us quickly.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -413,16 +205,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a21_original" name="=&gt;a21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What did he look like?&lt;end&gt;</source>
-        <target state="final">What did he look like?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -431,16 +213,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>What did he look like?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She pauses briefly.:: Light-skinned. Black-haired. Average height. Brown eyes. I really can't tell you much more. There is nothing striking about him. He behaved nothing out of the... ordinary.&lt;end&gt;</source>
-        <target state="final">::She pauses briefly.:: Light-skinned. Black-haired. Average height. Brown eyes. I really can't tell you much more. There is nothing striking about him. He behaved nothing out of the... ordinary.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -453,16 +225,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a23_original" name="=&gt;a23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Right. You got the package and then...?&lt;end&gt;</source>
-        <target state="final">Right. You got the package and then...?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -471,16 +233,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>Right. You got the package and then...?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q24_original" name="=&gt;q24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We went through our list and acquired everything we needed - except for a pair of power supply units Harold needed. TriEnergy... something. Can't remember now, but it's irrelevant.&lt;end&gt;</source>
-        <target state="final">We went through our list and acquired everything we needed - except for a pair of power supply units Harold needed. TriEnergy... something. Can't remember now, but it's irrelevant.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -493,16 +245,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q25_original" name="=&gt;q25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We contacted Tanner and told him that we got almost everything, except for those power units. He told us it wasn't as urgent as we had thought and to return to SGS. So, we went down to the station - and that's when the earthquake hit. Underrail Express stopped all the trains until they surveyed the situation, and we couldn't get the signal to call Tanner again. Ask him what to do next.&lt;end&gt;</source>
-        <target state="final">We contacted Tanner and told him that we got almost everything, except for those power units. He told us it wasn't as urgent as we had thought and to return to SGS. So, we went down to the station - and that's when the earthquake hit. Underrail Express stopped all the trains until they surveyed the situation, and we couldn't get the signal to call Tanner again. Ask him what to do next.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -511,16 +253,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>We contacted Tanner and told him that we got almost everything, except for those power units. He told us it wasn't as urgent as we had thought and to return to SGS. So, we went down to the station - and that's when the earthquake hit. Underrail Express stopped all the trains until they surveyed the situation, and we couldn't get the signal to call Tanner again. Ask him what to do next.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q26_original" name="=&gt;q26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So we waited... tried to find those power units, but we were out of luck. We went to Hardcore City Bar and waited. Waited... waited. Until we heard the trains were going again.&lt;end&gt;</source>
-        <target state="final">So we waited... tried to find those power units, but we were out of luck. We went to Hardcore City Bar and waited. Waited... waited. Until we heard the trains were going again.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -533,16 +265,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a27_original" name="=&gt;a27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I spoke to the train operator whom you asked if he was going to Rail Crossing. He told me what happened next.&lt;end&gt;</source>
-        <target state="final">I spoke to the train operator whom you asked if he was going to Rail Crossing. He told me what happened next.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -551,16 +273,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>I spoke to the train operator whom you asked if he was going to Rail Crossing. He told me what happened next.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You... did? Yes - the tattooed man. No train could go to SGS because of the cave-in. So, Terry suggested we go to Rail Crossing: We would be closer to SGS when the tracks eventually get cleared, and we could see if Buzzer - he has a big shop there - if Buzzer, uh, if he had the power supplies. For Harold.&lt;end&gt;</source>
-        <target state="final">You... did? Yes - the tattooed man. No train could go to SGS because of the cave-in. So, Terry suggested we go to Rail Crossing: We would be closer to SGS when the tracks eventually get cleared, and we could see if Buzzer - he has a big shop there - if Buzzer, uh, if he had the power supplies. For Harold.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -573,16 +285,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But you never made it to Buzzer.&lt;end&gt;</source>
-        <target state="final">But you never made it to Buzzer.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -591,16 +293,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>But you never made it to Buzzer.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q30_original" name="=&gt;q30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No. &lt;end&gt;</source>
-        <target state="final">No. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -613,16 +305,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q31_original" name="=&gt;q31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She releases a metallic sigh before continuing.:: We were attacked at the Rail Crossing station.&lt;end&gt;</source>
-        <target state="final">::She releases a metallic sigh before continuing.:: We were attacked at the Rail Crossing station.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -631,16 +313,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>::She releases a metallic sigh before continuing.:: We were attacked at the Rail Crossing station.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a32_original" name="=&gt;a32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>By Cornell and the Acid Hunters.&lt;end&gt;</source>
-        <target state="final">By Cornell and the Acid Hunters.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -653,16 +325,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Acid... Hunters? I don't understand.&lt;end&gt;</source>
-        <target state="final">Acid... Hunters? I don't understand.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -671,16 +333,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>Acid... Hunters? I don't understand.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a34_original" name="=&gt;a34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I tracked the animals down. The man, Cornell, confessed everything.&lt;end&gt;</source>
-        <target state="final">I tracked the animals down. The man, Cornell, confessed everything.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -693,16 +345,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q35_original" name="=&gt;q35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You... found them?&lt;end&gt;</source>
-        <target state="final">You... found them?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -713,16 +355,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a36_original" name="=&gt;a36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I killed him, Lora. I killed all of them.&lt;end&gt;</source>
-        <target state="final">I killed him, Lora. I killed all of them.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -731,20 +363,6 @@ Ha... I like you already. Now I have a good reason to... get better.&lt;end&gt;<
       <segment state="translated">
         <source>I killed him, Lora. I killed all of them.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q37_original" name="=&gt;q37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Your words landed just as they should, you feel. Her stare reveals the rage, the fury - the wish for the worst possible fate to stomp on the Acid Hunters and turn them into a smudge on the ground. Revenge - that's the name of her hunger and you've just sated it. The tension that was building up just before you fed her the information has now vanished.::
-
-Good. Good. They deserve it. I hope it was... painful. Painful.&lt;end&gt;</source>
-        <target state="final">::Your words landed just as they should, you feel. Her stare reveals the rage, the fury - the wish for the worst possible fate to stomp on the Acid Hunters and turn them into a smudge on the ground. Revenge - that's the name of her hunger and you've just sated it. The tension that was building up just before you fed her the information has now vanished.::
-
-Good. Good. They deserve it. I hope it was... painful. Painful.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -759,20 +377,6 @@ Good. Good. They deserve it. I hope it was... painful. Painful.&lt;end&gt;</sour
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q38_original" name="=&gt;q38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She relaxes, then continues.::
-
-You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end&gt;</source>
-        <target state="final">::She relaxes, then continues.::
-
-You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -785,16 +389,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q39_original" name="=&gt;q39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We had noticed them a couple of times... times in Core City. They must've followed us. To rob us. ::She pauses yet again.:: It... They threatened us with chemical weapons. They didn't even give us a chance to do anything. One of them, he hit Terry in the face and knocked him to the floor; I got a kick in the stomach. I had no air in my lungs and... as I was struggling one of them dragged me by the hair until I managed to get on my feet. It all happened... within a second.&lt;end&gt;</source>
-        <target state="final">We had noticed them a couple of times... times in Core City. They must've followed us. To rob us. ::She pauses yet again.:: It... They threatened us with chemical weapons. They didn't even give us a chance to do anything. One of them, he hit Terry in the face and knocked him to the floor; I got a kick in the stomach. I had no air in my lungs and... as I was struggling one of them dragged me by the hair until I managed to get on my feet. It all happened... within a second.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -803,16 +397,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
       <segment state="translated">
         <source>We had noticed them a couple of times... times in Core City. They must've followed us. To rob us. ::She pauses yet again.:: It... They threatened us with chemical weapons. They didn't even give us a chance to do anything. One of them, he hit Terry in the face and knocked him to the floor; I got a kick in the stomach. I had no air in my lungs and... as I was struggling one of them dragged me by the hair until I managed to get on my feet. It all happened... within a second.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q40_original" name="=&gt;q40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They forced us into a cave; they had a camp there. Tied us. Took all our things. Took the package. Opened the package.&lt;end&gt;</source>
-        <target state="final">They forced us into a cave; they had a camp there. Tied us. Took all our things. Took the package. Opened the package.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -825,16 +409,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a41_original" name="=&gt;a41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And found the Cube.&lt;end&gt;</source>
-        <target state="final">And found the Cube.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -843,16 +417,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
       <segment state="translated">
         <source>And found the Cube.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q42_original" name="=&gt;q42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She smiles.:: You know nearly everything already. Allow me to complete the picture with the last few details...&lt;end&gt;</source>
-        <target state="final">::She smiles.:: You know nearly everything already. Allow me to complete the picture with the last few details...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -865,16 +429,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q43_original" name="=&gt;q43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It was an object no one of us had ever seen. It was fascinating and frightening at the same time. We allowed this remarkable thing to steal our attentions. The strange shape, the markings. It was out of this world.&lt;end&gt;</source>
-        <target state="final">It was an object no one of us had ever seen. It was fascinating and frightening at the same time. We allowed this remarkable thing to steal our attentions. The strange shape, the markings. It was out of this world.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -883,16 +437,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
       <segment state="translated">
         <source>It was an object no one of us had ever seen. It was fascinating and frightening at the same time. We allowed this remarkable thing to steal our attentions. The strange shape, the markings. It was out of this world.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q44_original" name="=&gt;q44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then he closed the metal box. He... His face is now clear to me, but I don't want to describe it. Nor what happened next. The only thing you should know is that I woke up as they were dragging me away from Terry and into their... machine. Then I woke up here.&lt;end&gt;</source>
-        <target state="final">Then he closed the metal box. He... His face is now clear to me, but I don't want to describe it. Nor what happened next. The only thing you should know is that I woke up as they were dragging me away from Terry and into their... machine. Then I woke up here.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -905,16 +449,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q45_original" name="=&gt;q45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>If Terry truly is alive, as you say, then I don't understand why they didn't take him too. But, what I do understand is that they hadn't found me by pure accident. They wanted this... Cube.&lt;end&gt;</source>
-        <target state="final">If Terry truly is alive, as you say, then I don't understand why they didn't take him too. But, what I do understand is that they hadn't found me by pure accident. They wanted this... Cube.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -923,16 +457,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
       <segment state="translated">
         <source>If Terry truly is alive, as you say, then I don't understand why they didn't take him too. But, what I do understand is that they hadn't found me by pure accident. They wanted this... Cube.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q46_original" name="=&gt;q46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Maybe the earthquake was their deed too. I don't know. I could never speak to them. They just took care of me. ::She points to the machines next to her. There are numerous pipes and tubes that go into her arms and abdomen, and indeed it appears that what she's telling you is true.:: I would be dead without this.&lt;end&gt;</source>
-        <target state="final">Maybe the earthquake was their deed too. I don't know. I could never speak to them. They just took care of me. ::She points to the machines next to her. There are numerous pipes and tubes that go into her arms and abdomen, and indeed it appears that what she's telling you is true.:: I would be dead without this.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -945,16 +469,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a47_original" name="=&gt;a47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The only one who is to blame for this is Tanner. It's all his fault! Do you have any idea as to why he'd do this?&lt;end&gt;</source>
-        <target state="final">The only one who is to blame for this is Tanner. It's all his fault! Do you have any idea as to why he'd do this?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -963,20 +477,6 @@ You haven't heard all of it yet, $(context.player.Name). I will continue.&lt;end
       <segment state="translated">
         <source>The only one who is to blame for this is Tanner. It's all his fault! Do you have any idea as to why he'd do this?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q48_original" name="=&gt;q48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I don't know why he lied to us. If I knew I wouldn't have been here, I guess. There was always... a sense of mystique about him, but he was far from being the only one who made you wonder is he really the person he says he is.
-
-I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
-        <target state="final">I don't know why he lied to us. If I knew I wouldn't have been here, I guess. There was always... a sense of mystique about him, but he was far from being the only one who made you wonder is he really the person he says he is.
-
-I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -991,16 +491,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a49_original" name="=&gt;a49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I will get you out of here, I promise. But first, tell me this: Do you know why Tanner lied to you about the contents of the package?&lt;end&gt;</source>
-        <target state="final">I will get you out of here, I promise. But first, tell me this: Do you know why Tanner lied to you about the contents of the package?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1009,16 +499,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
       <segment state="translated">
         <source>I will get you out of here, I promise. But first, tell me this: Do you know why Tanner lied to you about the contents of the package?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a50_original" name="=&gt;a50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I won't jump to conclusions regarding Tanner. He too needs to be given a chance to share his side of the story.&lt;end&gt;</source>
-        <target state="final">I won't jump to conclusions regarding Tanner. He too needs to be given a chance to share his side of the story.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -1031,16 +511,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q51_original" name="=&gt;q51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They left him because he was dead. Terry. They had no use for him. And me... they hadn't found me by accident. They wanted this... Cube. And I was the one who had it.&lt;end&gt;</source>
-        <target state="final">They left him because he was dead. Terry. They had no use for him. And me... they hadn't found me by accident. They wanted this... Cube. And I was the one who had it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1049,16 +519,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
       <segment state="translated">
         <source>They left him because he was dead. Terry. They had no use for him. And me... they hadn't found me by accident. They wanted this... Cube. And I was the one who had it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q52_original" name="=&gt;q52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She smiles.:: You know so many things already. So here are the final details to the picture...&lt;end&gt;</source>
-        <target state="final">::She smiles.:: You know so many things already. So here are the final details to the picture...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -1071,16 +531,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q53_original" name="=&gt;q53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You know about it? Yes... inside was this *Cube*...&lt;end&gt;</source>
-        <target state="final">You know about it? Yes... inside was this *Cube*...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1089,16 +539,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
       <segment state="translated">
         <source>You know about it? Yes... inside was this *Cube*...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a54_original" name="=&gt;a54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They managed to get away, sadly, but I squeezed that confession out of Cornell before they did.&lt;end&gt;</source>
-        <target state="final">They managed to get away, sadly, but I squeezed that confession out of Cornell before they did.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -1111,16 +551,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q55_original" name="=&gt;q55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Your response came as an disappointment to her as mirrored in her eye; there was a spark inside just as you were about to speak, but your words extinguished it completely. She evades your stare for a second or two before continuing the story.::&lt;end&gt;</source>
-        <target state="final">::Your response came as an disappointment to her as mirrored in her eye; there was a spark inside just as you were about to speak, but your words extinguished it completely. She evades your stare for a second or two before continuing the story.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1131,16 +561,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a56_original" name="=&gt;a56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes. I let him walk away.&lt;end&gt;</source>
-        <target state="final">Yes. I let him walk away.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1149,22 +569,6 @@ I can't speak anymore. I'm tired. I'm so tired.&lt;end&gt;</source>
       <segment state="translated">
         <source>Yes. I let him walk away.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q57_original" name="=&gt;q57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Your words made something snap inside her, creating a painful ripple across her face, squeezing every muscle until it gets red to the point of you feeling that all the scars and blisters are going to burst. As cold as her metallic voice already was, her reply felt even colder.::
-
-I won't ask for your reasons... for why you let them go. But I hate you. I hate... you. ::Her eye tears up.:: They should not walk free, no. You knew what they did - and you let them go. I am defenseless and broken... and at your mercy. But I hate you for the error that... you have made.
-&lt;end&gt;</source>
-        <target state="final">::Your words made something snap inside her, creating a painful ripple across her face, squeezing every muscle until it gets red to the point of you feeling that all the scars and blisters are going to burst. As cold as her metallic voice already was, her reply felt even colder.::
-
-I won't ask for your reasons... for why you let them go. But I hate you. I hate... you. ::Her eye tears up.:: They should not walk free, no. You knew what they did - and you let them go. I am defenseless and broken... and at your mercy. But I hate you for the error that... you have made.
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -1180,16 +584,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q58_original" name="=&gt;q58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You will now hear the details.&lt;end&gt;</source>
-        <target state="final">You will now hear the details.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1198,16 +592,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>You will now hear the details.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a59_original" name="=&gt;a59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I've found clues which lead me to believe that they were the ones who attacked you.&lt;end&gt;</source>
-        <target state="final">I've found clues which lead me to believe that they were the ones who attacked you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -1220,16 +604,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q60_original" name="=&gt;q60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Did you find this Cornell? His gang?&lt;end&gt;</source>
-        <target state="final">Did you find this Cornell? His gang?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1238,16 +612,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>Did you find this Cornell? His gang?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a61_original" name="=&gt;a61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No.&lt;end&gt;</source>
-        <target state="final">No.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -1260,16 +624,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a62_original" name="=&gt;a62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Who attacked you?&lt;end&gt;</source>
-        <target state="final">Who attacked you?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1278,16 +632,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>Who attacked you?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q63_original" name="=&gt;q63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It was a gang of three. Two men and a woman. I can't remember the details of their faces; it was all blurry. But they were ugly, that I can remember. Ugly as pigs.&lt;end&gt;</source>
-        <target state="final">It was a gang of three. Two men and a woman. I can't remember the details of their faces; it was all blurry. But they were ugly, that I can remember. Ugly as pigs.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -1300,16 +644,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a64_original" name="=&gt;a64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But none of those were able to get to SGS.&lt;end&gt;</source>
-        <target state="final">But none of those were able to get to SGS.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1318,16 +652,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>But none of those were able to get to SGS.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q65_original" name="=&gt;q65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes. &lt;end&gt;</source>
-        <target state="final">Yes. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -1340,16 +664,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q66_original" name="=&gt;q66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Because of the cave-in. So, Terry suggested we go to Rail Crossing: We would be closer to SGS when the tracks eventually get cleared, and we could see if Buzzer - he has a big shop there - if Buzzer, uh, if he had the power supplies. For Harold.&lt;end&gt;</source>
-        <target state="final">Because of the cave-in. So, Terry suggested we go to Rail Crossing: We would be closer to SGS when the tracks eventually get cleared, and we could see if Buzzer - he has a big shop there - if Buzzer, uh, if he had the power supplies. For Harold.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1358,16 +672,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>Because of the cave-in. So, Terry suggested we go to Rail Crossing: We would be closer to SGS when the tracks eventually get cleared, and we could see if Buzzer - he has a big shop there - if Buzzer, uh, if he had the power supplies. For Harold.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a67_original" name="=&gt;a67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What happened after?&lt;end&gt;</source>
-        <target state="final">What happened after?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -1380,16 +684,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a68_original" name="=&gt;a68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You never made it to Buzzer?&lt;end&gt;</source>
-        <target state="final">You never made it to Buzzer?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a68" name="=&gt;a68">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1398,16 +692,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>You never made it to Buzzer?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a69_original" name="=&gt;a69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then what happened?&lt;end&gt;</source>
-        <target state="final">Then what happened?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -1420,16 +704,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q70_original" name="=&gt;q70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No trains could take us to SGS. &lt;end&gt;</source>
-        <target state="final">No trains could take us to SGS. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1438,16 +712,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>No trains could take us to SGS. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a71_original" name="=&gt;a71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tanner? I thought Vera sent you to Core City.&lt;end&gt;</source>
-        <target state="final">Tanner? I thought Vera sent you to Core City.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a71" name="=&gt;a71">
@@ -1460,16 +724,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q72_original" name="=&gt;q72_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Usually it is Vera, but she wasn't around at the time so Tanner... Tanner gave us the list of the things we needed.&lt;end&gt;</source>
-        <target state="final">Usually it is Vera, but she wasn't around at the time so Tanner... Tanner gave us the list of the things we needed.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1478,16 +732,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>Usually it is Vera, but she wasn't around at the time so Tanner... Tanner gave us the list of the things we needed.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a73_original" name="=&gt;a73_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">145</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You're coming with me. Time to take you back to South Gate Station.&lt;end&gt;</source>
-        <target state="final">You're coming with me. Time to take you back to South Gate Station.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a73" name="=&gt;a73">
@@ -1500,16 +744,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q74_original" name="=&gt;q74_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">147</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Wait. I am hooked to this machine. Look. ::She points to the machine next to her. There are numerous wires and tubes that go into her arms and abdomen.:: They keep me alive. I don't think I can make it far without it. &lt;end&gt;</source>
-        <target state="final">Wait. I am hooked to this machine. Look. ::She points to the machine next to her. There are numerous wires and tubes that go into her arms and abdomen.:: They keep me alive. I don't think I can make it far without it. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q74" name="=&gt;q74">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1518,16 +752,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>Wait. I am hooked to this machine. Look. ::She points to the machine next to her. There are numerous wires and tubes that go into her arms and abdomen.:: They keep me alive. I don't think I can make it far without it. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q75_original" name="=&gt;q75_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">149</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -1540,16 +764,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a76_original" name="=&gt;a76_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">151</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We can't bring that with us. You're just going to have to be strong. Come on, I'll help you up.&lt;end&gt;</source>
-        <target state="final">We can't bring that with us. You're just going to have to be strong. Come on, I'll help you up.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a76" name="=&gt;a76">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1558,16 +772,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>We can't bring that with us. You're just going to have to be strong. Come on, I'll help you up.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q77_original" name="=&gt;q77_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">153</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Where will you take me?&lt;end&gt;</source>
-        <target state="final">Where will you take me?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q77" name="=&gt;q77">
@@ -1580,16 +784,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a78_original" name="=&gt;a78_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">155</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I know of an elevator will get us out of Deep Caverns. I'll take you straight to SGS.&lt;end&gt;</source>
-        <target state="final">I know of an elevator will get us out of Deep Caverns. I'll take you straight to SGS.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a78" name="=&gt;a78">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1598,20 +792,6 @@ I won't ask for your reasons... for why you let them go. But I hate you. I hate.
       <segment state="translated">
         <source>I know of an elevator will get us out of Deep Caverns. I'll take you straight to SGS.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q79_original" name="=&gt;q79_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">157</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::After some hesitation, she speaks. Her troubled stare still persists.:: 
-
-I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">::After some hesitation, she speaks. Her troubled stare still persists.:: 
-
-I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q79" name="=&gt;q79">
@@ -1626,16 +806,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a80_original" name="=&gt;a80_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">159</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Help Lora get up and take her away.::&lt;end&gt;</source>
-        <target state="final">::Help Lora get up and take her away.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a80" name="=&gt;a80">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1644,16 +814,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
       <segment state="translated">
         <source>::Help Lora get up and take her away.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a81_original" name="=&gt;a81_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">161</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Anywhere but here. Let's go.&lt;end&gt;</source>
-        <target state="final">Anywhere but here. Let's go.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a81" name="=&gt;a81">
@@ -1666,16 +826,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a82_original" name="=&gt;a82_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">163</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>There is a man called Leo who lives nearby. I'll take you to him.&lt;end&gt;</source>
-        <target state="final">There is a man called Leo who lives nearby. I'll take you to him.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a82" name="=&gt;a82">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1684,16 +834,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
       <segment state="translated">
         <source>There is a man called Leo who lives nearby. I'll take you to him.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a83_original" name="=&gt;a83_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">165</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Biology] You inspect the machine.:: I see no way for me to safely take you away from here. I'm going to need someone else's help. &lt;end&gt;</source>
-        <target state="final">::[Biology] You inspect the machine.:: I see no way for me to safely take you away from here. I'm going to need someone else's help. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a83" name="=&gt;a83">
@@ -1706,16 +846,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a84_original" name="=&gt;a84_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">167</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Damn it! I don't want to move you until I figure something out.&lt;end&gt;</source>
-        <target state="final">Damn it! I don't want to move you until I figure something out.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a84" name="=&gt;a84">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1724,16 +854,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
       <segment state="translated">
         <source>Damn it! I don't want to move you until I figure something out.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q85_original" name="=&gt;q85_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">169</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>My life is in your hands, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">My life is in your hands, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q85" name="=&gt;q85">
@@ -1746,16 +866,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a86_original" name="=&gt;a86_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">171</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have to leave now, but I will return quickly.&lt;end&gt;</source>
-        <target state="final">I have to leave now, but I will return quickly.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a86" name="=&gt;a86">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1764,16 +874,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
       <segment state="translated">
         <source>I have to leave now, but I will return quickly.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q87_original" name="=&gt;q87_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">173</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I want to go home.&lt;end&gt;</source>
-        <target state="final">I want to go home.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
@@ -1786,16 +886,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a88_original" name="=&gt;a88_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">175</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You will. Just be patient some more.&lt;end&gt;</source>
-        <target state="final">You will. Just be patient some more.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1804,16 +894,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
       <segment state="translated">
         <source>You will. Just be patient some more.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q89_original" name="=&gt;q89_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">177</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No. Don't leave me here alone. I'm... please, I'm scared.&lt;end&gt;</source>
-        <target state="final">No. Don't leave me here alone. I'm... please, I'm scared.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -1826,16 +906,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a90_original" name="=&gt;a90_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">179</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then you're coming with me.&lt;end&gt;</source>
-        <target state="final">Then you're coming with me.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a90" name="=&gt;a90">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1844,16 +914,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
       <segment state="translated">
         <source>Then you're coming with me.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a91_original" name="=&gt;a91_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">181</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I won't be far. Trust me - nothing is going to happen to you.&lt;end&gt;</source>
-        <target state="final">I won't be far. Trust me - nothing is going to happen to you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a91" name="=&gt;a91">
@@ -1866,16 +926,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a92_original" name="=&gt;a92_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">183</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I don't know anything about him, I'm afraid.&lt;end&gt;</source>
-        <target state="final">I don't know anything about him, I'm afraid.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1884,20 +934,6 @@ I am ready. I have full faith in you, $(context.player.Name).&lt;end&gt;</source
       <segment state="translated">
         <source>I don't know anything about him, I'm afraid.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q93_original" name="=&gt;q93_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">185</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The healthy eye sheds a tear, but her expression remains unchanged.::
-
-He is dead. I know it. I've seen it. But I had to ask... still.&lt;end&gt;</source>
-        <target state="final">::The healthy eye sheds a tear, but her expression remains unchanged.::
-
-He is dead. I know it. I've seen it. But I had to ask... still.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -1912,16 +948,6 @@ He is dead. I know it. I've seen it. But I had to ask... still.&lt;end&gt;</sour
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a94_original" name="=&gt;a94_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">187</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He didn't make it.&lt;end&gt;</source>
-        <target state="final">He didn't make it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a94" name="=&gt;a94">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1930,20 +956,6 @@ He is dead. I know it. I've seen it. But I had to ask... still.&lt;end&gt;</sour
       <segment state="translated">
         <source>He didn't make it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q95_original" name="=&gt;q95_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">189</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The healthy eye sheds a tear, but her expression remains unchanged.::
-
-I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
-        <target state="final">::The healthy eye sheds a tear, but her expression remains unchanged.::
-
-I know. I saw it all. But I had to ask... still.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q95" name="=&gt;q95">
@@ -1958,16 +970,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a96_original" name="=&gt;a96_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">191</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Can you hear me?&lt;end&gt;</source>
-        <target state="final">Can you hear me?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a96" name="=&gt;a96">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1976,16 +978,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
       <segment state="translated">
         <source>Can you hear me?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q97_original" name="=&gt;q97_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">193</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes...&lt;end&gt;</source>
-        <target state="final">Yes...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q97" name="=&gt;q97">
@@ -1998,16 +990,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a98_original" name="=&gt;a98_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">195</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tell me your name.&lt;end&gt;</source>
-        <target state="final">Tell me your name.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a98" name="=&gt;a98">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2016,16 +998,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
       <segment state="translated">
         <source>Tell me your name.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q99_original" name="=&gt;q99_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">197</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's... Lora... Baker. South Gate... Station.&lt;end&gt;</source>
-        <target state="final">It's... Lora... Baker. South Gate... Station.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q99" name="=&gt;q99">
@@ -2038,16 +1010,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q100_original" name="=&gt;q100_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">199</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The woman lies on the bed with her eyes wide open: The left one, brown-colored, is clear and focused on you, the other a swirled lifeless mass. Her face is dotted with reddish scars and blisters, as if spattered with a boiling or corrosive liquid which distorted her face into a grotesque visage. A light on the small device grafted onto her neck flashes green as a metallic voice speaks to you while being carefully molded by her lips.::&lt;end&gt;</source>
-        <target state="final">::The woman lies on the bed with her eyes wide open: The left one, brown-colored, is clear and focused on you, the other a swirled lifeless mass. Her face is dotted with reddish scars and blisters, as if spattered with a boiling or corrosive liquid which distorted her face into a grotesque visage. A light on the small device grafted onto her neck flashes green as a metallic voice speaks to you while being carefully molded by her lips.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q100" name="=&gt;q100">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2056,16 +1018,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
       <segment state="translated">
         <source>::The woman lies on the bed with her eyes wide open: The left one, brown-colored, is clear and focused on you, the other a swirled lifeless mass. Her face is dotted with reddish scars and blisters, as if spattered with a boiling or corrosive liquid which distorted her face into a grotesque visage. A light on the small device grafted onto her neck flashes green as a metallic voice speaks to you while being carefully molded by her lips.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q101_original" name="=&gt;q101_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">201</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What is... happening? Why did you... attack them?&lt;end&gt;</source>
-        <target state="final">What is... happening? Why did you... attack them?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
@@ -2078,16 +1030,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a102_original" name="=&gt;a102_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">203</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>To return you to South Gate Station, Lora, that's why.&lt;end&gt;</source>
-        <target state="final">To return you to South Gate Station, Lora, that's why.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a102" name="=&gt;a102">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2096,16 +1038,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
       <segment state="translated">
         <source>To return you to South Gate Station, Lora, that's why.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q103_original" name="=&gt;q103_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">205</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But they... saved me.&lt;end&gt;</source>
-        <target state="final">But they... saved me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
@@ -2118,16 +1050,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q104_original" name="=&gt;q104_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">207</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q104" name="=&gt;q104">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2136,16 +1058,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a105_original" name="=&gt;a105_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">209</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That I didn't know.&lt;end&gt;</source>
-        <target state="final">That I didn't know.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a105" name="=&gt;a105">
@@ -2158,16 +1070,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q106_original" name="=&gt;q106_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">211</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Her stare drops for a moment, then returns to you. However, she says nothing.::&lt;end&gt;</source>
-        <target state="final">::Her stare drops for a moment, then returns to you. However, she says nothing.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q106" name="=&gt;q106">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2176,16 +1078,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
       <segment state="translated">
         <source>::Her stare drops for a moment, then returns to you. However, she says nothing.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q107_original" name="=&gt;q107_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">213</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q107" name="=&gt;q107">
@@ -2198,16 +1090,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a108_original" name="=&gt;a108_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">215</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Who are you?&lt;end&gt;</source>
-        <target state="final">Who are you?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a108" name="=&gt;a108">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2216,16 +1098,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
       <segment state="translated">
         <source>Who are you?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q109_original" name="=&gt;q109_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">217</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's... Lora... Baker. South Gate... Station.&lt;end&gt;</source>
-        <target state="final">It's... Lora... Baker. South Gate... Station.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q109" name="=&gt;q109">
@@ -2238,16 +1110,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a110_original" name="=&gt;a110_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">219</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I come from South Gate Station. I arrived there after you had left, so we haven't had the chance to meet. I'm $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">I come from South Gate Station. I arrived there after you had left, so we haven't had the chance to meet. I'm $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a110" name="=&gt;a110">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2256,20 +1118,6 @@ I know. I saw it all. But I had to ask... still.&lt;end&gt;</source>
       <segment state="translated">
         <source>I come from South Gate Station. I arrived there after you had left, so we haven't had the chance to meet. I'm $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q111_original" name="=&gt;q111_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">221</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She is silent as her eye inspects you, sluggishly moving down and up again. A quick tremble of her lips could have been an attempt at a smile, but the motion never proceeds farther than that.::
-
-Terry, my husband?&lt;end&gt;</source>
-        <target state="final">::She is silent as her eye inspects you, sluggishly moving down and up again. A quick tremble of her lips could have been an attempt at a smile, but the motion never proceeds farther than that.::
-
-Terry, my husband?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q111" name="=&gt;q111">
@@ -2284,16 +1132,6 @@ Terry, my husband?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a112_original" name="=&gt;a112_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">223</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He is alive and is waiting for you in South Gate Station.&lt;end&gt;</source>
-        <target state="final">He is alive and is waiting for you in South Gate Station.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a112" name="=&gt;a112">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2302,20 +1140,6 @@ Terry, my husband?&lt;end&gt;</source>
       <segment state="translated">
         <source>He is alive and is waiting for you in South Gate Station.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q113_original" name="=&gt;q113_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">225</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The smile finally appears, distorted and made with great effort, but it's there.::
-
-Terry... I though it was all over. Now, even if I die I'll know that... he made it.&lt;end&gt;</source>
-        <target state="final">::The smile finally appears, distorted and made with great effort, but it's there.::
-
-Terry... I though it was all over. Now, even if I die I'll know that... he made it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -2330,16 +1154,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q114_original" name="=&gt;q114_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">227</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q114" name="=&gt;q114">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2348,16 +1162,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a115_original" name="=&gt;a115_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">229</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Lora, I come from South Gate Station. I arrived there after you had left, so we haven't had the chance to meet. I'm $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Lora, I come from South Gate Station. I arrived there after you had left, so we haven't had the chance to meet. I'm $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a115" name="=&gt;a115">
@@ -2370,16 +1174,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a116_original" name="=&gt;a116_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">231</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I know. But if you knew what they'd do to you next, you'd wish they had left you for dead.&lt;end&gt;</source>
-        <target state="final">I know. But if you knew what they'd do to you next, you'd wish they had left you for dead.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a116" name="=&gt;a116">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2388,16 +1182,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
       <segment state="translated">
         <source>I know. But if you knew what they'd do to you next, you'd wish they had left you for dead.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a117_original" name="=&gt;a117_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">233</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Forget about them, now it's me who's saving you. &lt;end&gt;</source>
-        <target state="final">Forget about them, now it's me who's saving you. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a117" name="=&gt;a117">
@@ -2410,16 +1194,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a118_original" name="=&gt;a118_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">235</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I don't care. We are done talking about the Faceless.&lt;end&gt;</source>
-        <target state="final">I don't care. We are done talking about the Faceless.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a118" name="=&gt;a118">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2428,16 +1202,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
       <segment state="translated">
         <source>I don't care. We are done talking about the Faceless.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a119_original" name="=&gt;a119_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">237</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>To release their prisoners, and that includes you.&lt;end&gt;</source>
-        <target state="final">To release their prisoners, and that includes you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a119" name="=&gt;a119">
@@ -2450,16 +1214,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q120_original" name="=&gt;q120_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">239</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Prisoners? They... saved me.&lt;end&gt;</source>
-        <target state="final">Prisoners? They... saved me.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2468,16 +1222,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
       <segment state="translated">
         <source>Prisoners? They... saved me.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a121_original" name="=&gt;a121_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">241</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Because they deserved it. Did they do this to you?&lt;end&gt;</source>
-        <target state="final">Because they deserved it. Did they do this to you?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a121" name="=&gt;a121">
@@ -2490,16 +1234,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q122_original" name="=&gt;q122_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">243</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They... saved me.&lt;end&gt;</source>
-        <target state="final">They... saved me.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q122" name="=&gt;q122">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2508,16 +1242,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
       <segment state="translated">
         <source>They... saved me.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a123_original" name="=&gt;a123_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">245</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It had to be done. I got nothing else to say.&lt;end&gt;</source>
-        <target state="final">It had to be done. I got nothing else to say.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a123" name="=&gt;a123">
@@ -2530,16 +1254,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q124_original" name="=&gt;q124_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">247</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I want to leave this place. Take me home.&lt;end&gt;</source>
-        <target state="final">I want to leave this place. Take me home.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q124" name="=&gt;q124">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2548,16 +1262,6 @@ Terry... I though it was all over. Now, even if I die I'll know that... he made 
       <segment state="translated">
         <source>I want to leave this place. Take me home.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q125_original" name="=&gt;q125_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">249</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(context.player.Name)?&lt;end&gt;</source>
-        <target state="final">$(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q125" name="=&gt;q125">

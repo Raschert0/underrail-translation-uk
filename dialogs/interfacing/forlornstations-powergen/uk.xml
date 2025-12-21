@@ -1,18 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\forlornstations-powergen.txt" original="dialogs\interfacing\forlornstations-powergen.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Status: On::
-&lt;end&gt;</source>
-        <target state="final">::Status: On::
-&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -22,18 +10,6 @@
         <source>::Status: On::
 &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Flux controller: Biocorp-Seddar FC-11z::
-&lt;end&gt;</source>
-        <target state="final">::Flux controller: Biocorp-Seddar FC-11z::
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -47,16 +23,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -65,16 +31,6 @@
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Insert flux controller.::&lt;end&gt;</source>
-        <target state="final">::Insert flux controller.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -87,16 +43,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Flux controller inserted successfully.::&lt;end&gt;</source>
-        <target state="final">::Flux controller inserted successfully.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -105,16 +51,6 @@
       <segment state="translated">
         <source>::Flux controller inserted successfully.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Turn on.::&lt;end&gt;</source>
-        <target state="final">::Turn on.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -127,16 +63,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Power generator is operational.::&lt;end&gt;</source>
-        <target state="final">::Power generator is operational.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -145,16 +71,6 @@
       <segment state="translated">
         <source>::Power generator is operational.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Leave.::&lt;end&gt;</source>
-        <target state="final">::Leave.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -167,18 +83,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Flux controller: Missing::
-&lt;end&gt;</source>
-        <target state="final">::Flux controller: Missing::
-&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -188,18 +92,6 @@
         <source>::Flux controller: Missing::
 &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Status: Off::
-&lt;end&gt;</source>
-        <target state="final">::Status: Off::
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">

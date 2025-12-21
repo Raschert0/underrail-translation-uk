@@ -1,20 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\wa_twitch.txt" original="dialogs\characters\wa_twitch.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The pale skinny man turns to you and instantly unleashes a torrent of words. The words are expelled with such speed that you find keeping track of what he's saying a great difficulty. His rapid, twitchy motions and the constant need to alternate between looking at you and the numerous monitors in front of him is both intriguing as well as uncanny.::
-
-Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet you, I'm Twitch. I said, it's good to meet you, I'm Twitch!&lt;end&gt;</source>
-        <target state="final">::The pale skinny man turns to you and instantly unleashes a torrent of words. The words are expelled with such speed that you find keeping track of what he's saying a great difficulty. His rapid, twitchy motions and the constant need to alternate between looking at you and the numerous monitors in front of him is both intriguing as well as uncanny.::
-
-Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet you, I'm Twitch. I said, it's good to meet you, I'm Twitch!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -27,16 +13,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -45,16 +21,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why are you doing that strange thing?&lt;end&gt;</source>
-        <target state="final">Why are you doing that strange thing?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -67,16 +33,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Doing what? ::He looks at a monitor.:: Oh, wait; let me zoom that in; more; more; Shame. The resolution is far too low to discern anything. I can't... ::He looks at you.:: Doing what, heh, doing what?&lt;end&gt;</source>
-        <target state="final">Doing what? ::He looks at a monitor.:: Oh, wait; let me zoom that in; more; more; Shame. The resolution is far too low to discern anything. I can't... ::He looks at you.:: Doing what, heh, doing what?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -85,16 +41,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       <segment state="translated">
         <source>Doing what? ::He looks at a monitor.:: Oh, wait; let me zoom that in; more; more; Shame. The resolution is far too low to discern anything. I can't... ::He looks at you.:: Doing what, heh, doing what?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a5_original" name="=&gt;a5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The multitasking. It's creeping me out, man. Can't you focus on one thing at a time?&lt;end&gt;</source>
-        <target state="final">The multitasking. It's creeping me out, man. Can't you focus on one thing at a time?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -107,16 +53,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He turns toward you.:: If I focus on one thing, then I'm missing something else. I need to be on a constant lookout in order to register and process everything that is happening. Simply by focusing all my attention to you, $(context.player.Name), I've already missed several important events.&lt;end&gt;</source>
-        <target state="final">::He turns toward you.:: If I focus on one thing, then I'm missing something else. I need to be on a constant lookout in order to register and process everything that is happening. Simply by focusing all my attention to you, $(context.player.Name), I've already missed several important events.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -125,16 +61,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       <segment state="translated">
         <source>::He turns toward you.:: If I focus on one thing, then I'm missing something else. I need to be on a constant lookout in order to register and process everything that is happening. Simply by focusing all my attention to you, $(context.player.Name), I've already missed several important events.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He looks at the monitors again.:: My way is the optimal way!&lt;end&gt;</source>
-        <target state="final">::He looks at the monitors again.:: My way is the optimal way!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -147,16 +73,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Never mind. Let's talk about something else.&lt;end&gt;</source>
-        <target state="final">Never mind. Let's talk about something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -165,16 +81,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       <segment state="translated">
         <source>Never mind. Let's talk about something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Just be quick about it, things are happening and I don't know if I'll be able to... :: He focuses on one of the monitors.::&lt;end&gt;</source>
-        <target state="final">Just be quick about it, things are happening and I don't know if I'll be able to... :: He focuses on one of the monitors.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -187,16 +93,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What do you do around here?&lt;end&gt;</source>
-        <target state="final">What do you do around here?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -205,16 +101,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       <segment state="translated">
         <source>What do you do around here?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Scrutinize, study, analyze and then extrapolate, conclude, calculate. ::He focuses on something on one of the monitors.:: Seventeen, I should write that down. Yes, the technology allows me to be a nearly omnipresent observer. I perceive what only few can so if you ever need some surveillance help, I'm your man.&lt;end&gt;</source>
-        <target state="final">Scrutinize, study, analyze and then extrapolate, conclude, calculate. ::He focuses on something on one of the monitors.:: Seventeen, I should write that down. Yes, the technology allows me to be a nearly omnipresent observer. I perceive what only few can so if you ever need some surveillance help, I'm your man.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -227,16 +113,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>By the way, you look like you've gained a few pounds. ::He looks at a monitor.:: Just an observation.&lt;end&gt;</source>
-        <target state="final">By the way, you look like you've gained a few pounds. ::He looks at a monitor.:: Just an observation.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -245,16 +121,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       <segment state="translated">
         <source>By the way, you look like you've gained a few pounds. ::He looks at a monitor.:: Just an observation.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q13_original" name="=&gt;q13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>By the way, is that a bald patch on your head? Maybe it's just the lighting. ::He looks at the monitor.::&lt;end&gt;</source>
-        <target state="final">By the way, is that a bald patch on your head? Maybe it's just the lighting. ::He looks at the monitor.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -267,16 +133,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a14_original" name="=&gt;a14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I might need some surveillance help. &lt;end&gt;</source>
-        <target state="final">I might need some surveillance help. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -285,16 +141,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       <segment state="translated">
         <source>I might need some surveillance help. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q15_original" name="=&gt;q15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hey, whatever you need. ::He looks at the monitor.::&lt;end&gt;</source>
-        <target state="final">Hey, whatever you need. ::He looks at the monitor.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -307,16 +153,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -327,16 +163,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I need some surveillance equipment to spy on the Talloski family in Core City.&lt;end&gt;</source>
-        <target state="final">I need some surveillance equipment to spy on the Talloski family in Core City.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -345,20 +171,6 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       <segment state="translated">
         <source>I need some surveillance equipment to spy on the Talloski family in Core City.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Please wait... ::He hastily types something on the keyboard, then turns around to you. You feel like you have his full attention, as strange as it may be.::
-
-I have just the right thing for you. As a matter of fact, I believe you're already familiar with the piece of equipment I'm about to present to you.&lt;end&gt;</source>
-        <target state="final">Please wait... ::He hastily types something on the keyboard, then turns around to you. You feel like you have his full attention, as strange as it may be.::
-
-I have just the right thing for you. As a matter of fact, I believe you're already familiar with the piece of equipment I'm about to present to you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -373,16 +185,6 @@ I have just the right thing for you. As a matter of fact, I believe you're alrea
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q19_original" name="=&gt;q19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Twitch releases a loud whistle. Almost instantly, you hear the sound of something skittering across the metal floor, something tiny. You have heard this sound before, you remember. A burrower spawn reveals itself and comes toward Twitch, proceeding to climb his leg with quick motions of its tiny legs, going all the way up to his shiny bald head, on top of which it finally rests.::&lt;end&gt;</source>
-        <target state="final">::Twitch releases a loud whistle. Almost instantly, you hear the sound of something skittering across the metal floor, something tiny. You have heard this sound before, you remember. A burrower spawn reveals itself and comes toward Twitch, proceeding to climb his leg with quick motions of its tiny legs, going all the way up to his shiny bald head, on top of which it finally rests.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -393,16 +195,6 @@ I have just the right thing for you. As a matter of fact, I believe you're alrea
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a20_original" name="=&gt;a20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Oh, that ugly thing again.&lt;end&gt;</source>
-        <target state="final">Oh, that ugly thing again.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -411,20 +203,6 @@ I have just the right thing for you. As a matter of fact, I believe you're alrea
       <segment state="translated">
         <source>Oh, that ugly thing again.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q21_original" name="=&gt;q21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Beauty is in the eye of the beholder. Whether you like it or not - the spawn is yours to command. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
-
-Once the spawn is in place, return to me. I'll keep a close eye on every bit of information it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</source>
-        <target state="final">Beauty is in the eye of the beholder. Whether you like it or not - the spawn is yours to command. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
-
-Once the spawn is in place, return to me. I'll keep a close eye on every bit of information it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -439,16 +217,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The creature climbs down onto his left shoulder. He brings his mouth close to it, just like Abram did before, almost like speaking to it, but no sounds come from either of the two strange creatures. Twitch then extends his arm toward you and touches your shoulder, allowing the little one to walk across to you. Again, it finds home in a comfortable pocket in which it finally comes to a still.::&lt;end&gt;</source>
-        <target state="final">::The creature climbs down onto his left shoulder. He brings his mouth close to it, just like Abram did before, almost like speaking to it, but no sounds come from either of the two strange creatures. Twitch then extends his arm toward you and touches your shoulder, allowing the little one to walk across to you. Again, it finds home in a comfortable pocket in which it finally comes to a still.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -457,16 +225,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       <segment state="translated">
         <source>::The creature climbs down onto his left shoulder. He brings his mouth close to it, just like Abram did before, almost like speaking to it, but no sounds come from either of the two strange creatures. Twitch then extends his arm toward you and touches your shoulder, allowing the little one to walk across to you. Again, it finds home in a comfortable pocket in which it finally comes to a still.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a23_original" name="=&gt;a23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yay, I love when creepy things crawl all over me.&lt;end&gt;</source>
-        <target state="final">Yay, I love when creepy things crawl all over me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -479,16 +237,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q24_original" name="=&gt;q24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You should be used to it by now. Take care of it, and see you later. I have to return to my monitors; I've probably missed so much inf-- ::He turns around, instantly gluing his eyes one of the monitors.::&lt;end&gt;</source>
-        <target state="final">You should be used to it by now. Take care of it, and see you later. I have to return to my monitors; I've probably missed so much inf-- ::He turns around, instantly gluing his eyes one of the monitors.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -497,16 +245,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       <segment state="translated">
         <source>You should be used to it by now. Take care of it, and see you later. I have to return to my monitors; I've probably missed so much inf-- ::He turns around, instantly gluing his eyes one of the monitors.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a25_original" name="=&gt;a25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Thanks Twitch, I'll be on my way now. See you later.&lt;end&gt;</source>
-        <target state="final">Thanks Twitch, I'll be on my way now. See you later.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -519,16 +257,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q26_original" name="=&gt;q26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Take care of it, and see you later. I have to return to my monitors; I've probably missed so much inf-- ::He turns around, instantly gluing his eyes one of the monitors.::&lt;end&gt;</source>
-        <target state="final">Take care of it, and see you later. I have to return to my monitors; I've probably missed so much inf-- ::He turns around, instantly gluing his eyes one of the monitors.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -539,16 +267,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a27_original" name="=&gt;a27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Don't you have something a bit more traditional? Eh?&lt;end&gt;</source>
-        <target state="final">Don't you have something a bit more traditional? Eh?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -557,20 +275,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       <segment state="translated">
         <source>Don't you have something a bit more traditional? Eh?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Twitch laughs.:: I would be ashamed of myself if I'd have given you anything but the best we have to offer. Trust me, this bad boy is more than fitting for the task at hand. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
-
-Once the spawn is in place, return to me. I'll keep a close eye on everything it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</source>
-        <target state="final">::Twitch laughs.:: I would be ashamed of myself if I'd have given you anything but the best we have to offer. Trust me, this bad boy is more than fitting for the task at hand. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
-
-Once the spawn is in place, return to me. I'll keep a close eye on everything it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -585,16 +289,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah, we meet again, my insectoid companion.&lt;end&gt;</source>
-        <target state="final">Ah, we meet again, my insectoid companion.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -603,20 +297,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>Ah, we meet again, my insectoid companion.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q30_original" name="=&gt;q30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(context.player.Name), you are already familiar with this little bad boy. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
-
-Once the spawn is in place, return to me. I'll keep a close eye on everything it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</source>
-        <target state="final">$(context.player.Name), you are already familiar with this little bad boy. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
-
-Once the spawn is in place, return to me. I'll keep a close eye on everything it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -631,16 +311,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a31_original" name="=&gt;a31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Nothing at the moment. I suppose I could ask you something else.&lt;end&gt;</source>
-        <target state="final">Nothing at the moment. I suppose I could ask you something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -649,16 +319,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>Nothing at the moment. I suppose I could ask you something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q32_original" name="=&gt;q32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ask...&lt;end&gt;</source>
-        <target state="final">Ask...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -671,16 +331,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a33_original" name="=&gt;a33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'd like to return the spawn. I never got the chance to use it.&lt;end&gt;</source>
-        <target state="final">I'd like to return the spawn. I never got the chance to use it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -689,16 +339,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>I'd like to return the spawn. I never got the chance to use it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q34_original" name="=&gt;q34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Twitch stops what he was doing and focuses on the matter at hand. You let the spawn cross over to him, after which they again perform the "silent speaking" ritual. Finally, after their communication is over, the spawn climbs down and skitters away into darkness.::&lt;end&gt;</source>
-        <target state="final">::Twitch stops what he was doing and focuses on the matter at hand. You let the spawn cross over to him, after which they again perform the "silent speaking" ritual. Finally, after their communication is over, the spawn climbs down and skitters away into darkness.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -711,16 +351,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q35_original" name="=&gt;q35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He's a good boy, isn't he?  Hmmm? I said, isn't he?::He returns to one of his monitors.::&lt;end&gt;</source>
-        <target state="final">He's a good boy, isn't he?  Hmmm? I said, isn't he?::He returns to one of his monitors.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -729,16 +359,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>He's a good boy, isn't he?  Hmmm? I said, isn't he?::He returns to one of his monitors.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a36_original" name="=&gt;a36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I released the spawn.&lt;end&gt;</source>
-        <target state="final">I released the spawn.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -751,16 +371,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q37_original" name="=&gt;q37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That sounded so... ominous. Release the spawn! ::Before you even get a chance to process what he said, he repeats it, as if expecting you to have answered it already.:: I said, release the spawn! Anyway, I am aware you released it, because I already had some information sent by it.&lt;end&gt;</source>
-        <target state="final">That sounded so... ominous. Release the spawn! ::Before you even get a chance to process what he said, he repeats it, as if expecting you to have answered it already.:: I said, release the spawn! Anyway, I am aware you released it, because I already had some information sent by it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -769,16 +379,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>That sounded so... ominous. Release the spawn! ::Before you even get a chance to process what he said, he repeats it, as if expecting you to have answered it already.:: I said, release the spawn! Anyway, I am aware you released it, because I already had some information sent by it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a38_original" name="=&gt;a38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Got something interesting?&lt;end&gt;</source>
-        <target state="final">Got something interesting?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -791,16 +391,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q39_original" name="=&gt;q39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, so fa-- ::He focuses on one of the monitors for a brief moment.:: --r, the only thing of any interest was a discussion between a man referred to as Vlatko and his son, Maxim. It appears that their big-screen... ::He quickly glances at another monitor.:: big-screen monitor broke.&lt;end&gt;</source>
-        <target state="final">Well, so fa-- ::He focuses on one of the monitors for a brief moment.:: --r, the only thing of any interest was a discussion between a man referred to as Vlatko and his son, Maxim. It appears that their big-screen... ::He quickly glances at another monitor.:: big-screen monitor broke.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -809,16 +399,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>Well, so fa-- ::He focuses on one of the monitors for a brief moment.:: --r, the only thing of any interest was a discussion between a man referred to as Vlatko and his son, Maxim. It appears that their big-screen... ::He quickly glances at another monitor.:: big-screen monitor broke.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q40_original" name="=&gt;q40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>This prevents them from watching ArenaNow. They seem pretty... ::He focuses on one of the monitors.:: pretty distressed by this.&lt;end&gt;</source>
-        <target state="final">This prevents them from watching ArenaNow. They seem pretty... ::He focuses on one of the monitors.:: pretty distressed by this.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -831,16 +411,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a41_original" name="=&gt;a41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I see... Okay, call me if anything new happens. I'll see what I can do with this information.&lt;end&gt;</source>
-        <target state="final">I see... Okay, call me if anything new happens. I'll see what I can do with this information.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -849,16 +419,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>I see... Okay, call me if anything new happens. I'll see what I can do with this information.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q42_original" name="=&gt;q42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I will. ::He returns to one of his monitors.::&lt;end&gt;</source>
-        <target state="final">I will. ::He returns to one of his monitors.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -871,16 +431,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a43_original" name="=&gt;a43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Just tell me already.&lt;end&gt;</source>
-        <target state="final">Just tell me already.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -889,16 +439,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>Just tell me already.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q44_original" name="=&gt;q44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Someone's impa-- ::He focuses on one of the monitors for a split second.:: --tient. Anyway, the only thing of interest so far was a discussion between a man referred to as Vlatko and his son, Maxim. It appears that their big-screen... ::He quickly glances at another monitor.:: big-screen monitor broke.&lt;end&gt;</source>
-        <target state="final">Someone's impa-- ::He focuses on one of the monitors for a split second.:: --tient. Anyway, the only thing of interest so far was a discussion between a man referred to as Vlatko and his son, Maxim. It appears that their big-screen... ::He quickly glances at another monitor.:: big-screen monitor broke.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -911,16 +451,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a45_original" name="=&gt;a45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How and why did you join Oculus?&lt;end&gt;</source>
-        <target state="final">How and why did you join Oculus?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -929,16 +459,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>How and why did you join Oculus?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q46_original" name="=&gt;q46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I was skilled enough to be... ::He looks at a monitor.:: What is he doing? Get out of there! ::He returns to you.:: I was skilled enough to be invited to meet Azif. Just like you, I started doing small-time jobs in Core City for people who later turned out to be... ::He looks at a monitor.:: Oculites? There?&lt;end&gt;</source>
-        <target state="final">I was skilled enough to be... ::He looks at a monitor.:: What is he doing? Get out of there! ::He returns to you.:: I was skilled enough to be invited to meet Azif. Just like you, I started doing small-time jobs in Core City for people who later turned out to be... ::He looks at a monitor.:: Oculites? There?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -951,16 +471,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q47_original" name="=&gt;q47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Anyway, I needed the money for my addiction. Those were hard times. I'm off the stuff now. Hmmm? I said, I'm off the stuff now... ::He looks at a monitor.::&lt;end&gt;</source>
-        <target state="final">Anyway, I needed the money for my addiction. Those were hard times. I'm off the stuff now. Hmmm? I said, I'm off the stuff now... ::He looks at a monitor.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -971,16 +481,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a48_original" name="=&gt;a48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Motion?&lt;end&gt;</source>
-        <target state="final">Motion?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -989,20 +489,6 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       <segment state="translated">
         <source>Motion?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q49_original" name="=&gt;q49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He laughs.:: No, Motion is weak, insignificant compared to what I did, $(context.player.Name). Hmmm? Yes, weak compared to what I did!
-
-It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntlet?&lt;end&gt;</source>
-        <target state="final">::He laughs.:: No, Motion is weak, insignificant compared to what I did, $(context.player.Name). Hmmm? Yes, weak compared to what I did!
-
-It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntlet?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -1017,16 +503,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q50_original" name="=&gt;q50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Anyway, I was approached and told I had done well, that I had incredible perception and that Azif would like to talk to me. So, I casually strolled through the caves and that's... ::He looks at a monitor.:: That's huge...&lt;end&gt;</source>
-        <target state="final">Anyway, I was approached and told I had done well, that I had incredible perception and that Azif would like to talk to me. So, I casually strolled through the caves and that's... ::He looks at a monitor.:: That's huge...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1035,16 +511,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>Anyway, I was approached and told I had done well, that I had incredible perception and that Azif would like to talk to me. So, I casually strolled through the caves and that's... ::He looks at a monitor.:: That's huge...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a51_original" name="=&gt;a51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Let him continue.::&lt;end&gt;</source>
-        <target state="final">::Let him continue.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -1057,16 +523,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a52_original" name="=&gt;a52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about Oculus?&lt;end&gt;</source>
-        <target state="final">What can you tell me about Oculus?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1075,16 +531,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>What can you tell me about Oculus?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q53_original" name="=&gt;q53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's a high tech pyramid, built by... ::He focuses on a monitor.:: Free Drones? ::He turns back to you.:: I wasn't talking to you, sorry. Built by Godmen; that's how we call the mysterious beings we know nothing about.&lt;end&gt;</source>
-        <target state="final">It's a high tech pyramid, built by... ::He focuses on a monitor.:: Free Drones? ::He turns back to you.:: I wasn't talking to you, sorry. Built by Godmen; that's how we call the mysterious beings we know nothing about.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -1097,16 +543,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q54_original" name="=&gt;q54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It - the Oculus - is incredibly advanced; it is more sophisticated than anything even the most powerful people in Underrail possess. I adore some of the toys I have available here. I'm talking about surveillance tech, of course. Nothing in existence beats Oculus' arsenal of high-tech gadgetry. ::He laughs for a split second then abruptly stops.::&lt;end&gt;</source>
-        <target state="final">It - the Oculus - is incredibly advanced; it is more sophisticated than anything even the most powerful people in Underrail possess. I adore some of the toys I have available here. I'm talking about surveillance tech, of course. Nothing in existence beats Oculus' arsenal of high-tech gadgetry. ::He laughs for a split second then abruptly stops.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1115,16 +551,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>It - the Oculus - is incredibly advanced; it is more sophisticated than anything even the most powerful people in Underrail possess. I adore some of the toys I have available here. I'm talking about surveillance tech, of course. Nothing in existence beats Oculus' arsenal of high-tech gadgetry. ::He laughs for a split second then abruptly stops.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a55_original" name="=&gt;a55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Who is that six-fingered cyborg?&lt;end&gt;</source>
-        <target state="final">Who is that six-fingered cyborg?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -1137,16 +563,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q56_original" name="=&gt;q56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>A client. Do not talk to him; he doesn't want to be talked to. Hmm? I said do not talk to him.&lt;end&gt;</source>
-        <target state="final">A client. Do not talk to him; he doesn't want to be talked to. Hmm? I said do not talk to him.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1155,16 +571,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>A client. Do not talk to him; he doesn't want to be talked to. Hmm? I said do not talk to him.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q57_original" name="=&gt;q57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He leans toward one of the monitors.:: Interesting, he was alive a few minutes ago...&lt;end&gt;</source>
-        <target state="final">::He leans toward one of the monitors.:: Interesting, he was alive a few minutes ago...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -1177,16 +583,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a58_original" name="=&gt;a58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about those robed oculites? &lt;end&gt;</source>
-        <target state="final">What can you tell me about those robed oculites? &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1195,16 +591,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>What can you tell me about those robed oculites? &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q59_original" name="=&gt;q59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He answers you while still watching one of the monitors.:: Colloquially known as Whisperers, the deadly psi-warriors belonging to a clan called Khazum Morakht guard Oculus vigilantly. All Khazum Morakht members are highly intelligent individuals who join the clan at a young age and receive training in all major psi disciplines. Only upon mastering all of those can they swear an oath before being allowed to perform their duty.&lt;end&gt;</source>
-        <target state="final">::He answers you while still watching one of the monitors.:: Colloquially known as Whisperers, the deadly psi-warriors belonging to a clan called Khazum Morakht guard Oculus vigilantly. All Khazum Morakht members are highly intelligent individuals who join the clan at a young age and receive training in all major psi disciplines. Only upon mastering all of those can they swear an oath before being allowed to perform their duty.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -1217,16 +603,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q60_original" name="=&gt;q60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Once they swear to protect someone or something they will do so until death. Most often, it's the death of their opponents - rare are the cases where the members of Khazum Morakht were killed on duty. There is a common misconception that they are mute, while in fact they are not; it is by their free will that they chose not to speak in order to-- ::He stops abruptly.::&lt;end&gt;</source>
-        <target state="final">Once they swear to protect someone or something they will do so until death. Most often, it's the death of their opponents - rare are the cases where the members of Khazum Morakht were killed on duty. There is a common misconception that they are mute, while in fact they are not; it is by their free will that they chose not to speak in order to-- ::He stops abruptly.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1235,16 +611,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>Once they swear to protect someone or something they will do so until death. Most often, it's the death of their opponents - rare are the cases where the members of Khazum Morakht were killed on duty. There is a common misconception that they are mute, while in fact they are not; it is by their free will that they chose not to speak in order to-- ::He stops abruptly.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q61_original" name="=&gt;q61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is all I can tell you at the moment. Hmmm? Hmmm? I said, that's all for now. ::He focuses on one of the monitors.::&lt;end&gt;</source>
-        <target state="final">That is all I can tell you at the moment. Hmmm? Hmmm? I said, that's all for now. ::He focuses on one of the monitors.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -1257,16 +623,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a62_original" name="=&gt;a62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Can you watch the Arena on one of these monitors?&lt;end&gt;</source>
-        <target state="final">Can you watch the Arena on one of these monitors?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1275,16 +631,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>Can you watch the Arena on one of these monitors?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q63_original" name="=&gt;q63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Twitch glances at you, then returns to his monitors.:: Of course I can, $(context.player.Name). I lived in Core City before I came here; I was so addicted to watching... ::Turns at a different monitor.:: to watching the Arena. A bloodthirsty maniac! Yeah, that's what I was...&lt;end&gt;</source>
-        <target state="final">::Twitch glances at you, then returns to his monitors.:: Of course I can, $(context.player.Name). I lived in Core City before I came here; I was so addicted to watching... ::Turns at a different monitor.:: to watching the Arena. A bloodthirsty maniac! Yeah, that's what I was...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -1297,16 +643,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q64_original" name="=&gt;q64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Let me play it on that monitor. ::One press of a button later.:: There, now we... Oh, joy - it is Mark the Impaler! How typical of him: He's impaling a man.&lt;end&gt;</source>
-        <target state="final">Let me play it on that monitor. ::One press of a button later.:: There, now we... Oh, joy - it is Mark the Impaler! How typical of him: He's impaling a man.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1315,18 +651,6 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>Let me play it on that monitor. ::One press of a button later.:: There, now we... Oh, joy - it is Mark the Impaler! How typical of him: He's impaling a man.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q65_original" name="=&gt;q65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>
-Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He focuses on one of his monitors.::&lt;end&gt;</source>
-        <target state="final">
-Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He focuses on one of his monitors.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -1340,18 +664,6 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q66_original" name="=&gt;q66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>
-::He focuses on one of his monitors.::&lt;end&gt;</source>
-        <target state="final">
-::He focuses on one of his monitors.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1361,16 +673,6 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
         <source>
 ::He focuses on one of his monitors.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a67_original" name="=&gt;a67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Can I ask you about some of the other oculites?&lt;end&gt;</source>
-        <target state="final">Can I ask you about some of the other oculites?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -1383,16 +685,6 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q68_original" name="=&gt;q68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He begins turning his head toward you, stopping midway, eyes still stuck to the monitor.:: No. If you wish to know more about someone, ask them yourself.&lt;end&gt;</source>
-        <target state="final">::He begins turning his head toward you, stopping midway, eyes still stuck to the monitor.:: No. If you wish to know more about someone, ask them yourself.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1401,16 +693,6 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
       <segment state="translated">
         <source>::He begins turning his head toward you, stopping midway, eyes still stuck to the monitor.:: No. If you wish to know more about someone, ask them yourself.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q69_original" name="=&gt;q69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::His head returns to its original position.::&lt;end&gt;</source>
-        <target state="final">::His head returns to its original position.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
@@ -1423,16 +705,6 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a70_original" name="=&gt;a70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Goodbye, Twitch.&lt;end&gt;</source>
-        <target state="final">Goodbye, Twitch.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a70" name="=&gt;a70">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1441,16 +713,6 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
       <segment state="translated">
         <source>Goodbye, Twitch.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q71_original" name="=&gt;q71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Looks at you.:: Good to... ::Then at a monitor, then you again.:: see you again... ::Then at a monitor, then you again.:: $(context.player.Name)!&lt;end&gt;</source>
-        <target state="final">::Looks at you.:: Good to... ::Then at a monitor, then you again.:: see you again... ::Then at a monitor, then you again.:: $(context.player.Name)!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">

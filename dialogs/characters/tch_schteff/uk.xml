@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\tch_schteff.txt" original="dialogs\characters\tch_schteff.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Magnificent Tchort!&lt;end&gt;</source>
-        <target state="final">Magnificent Tchort!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -21,16 +11,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm sorry, I don't have the time to talk now; something is happening!&lt;end&gt;</source>
-        <target state="final">I'm sorry, I don't have the time to talk now; something is happening!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -39,20 +19,6 @@
       <segment state="translated">
         <source>I'm sorry, I don't have the time to talk now; something is happening!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The investigator seems to have just finished typing something on his keyboard when you walked in; the final keystroke coincides with you coming to a halt before him. He lifts his head and observes you through his glasses and instantly notices one detail - that there is a smudge on them. Naturally, he removes the glasses, picks up a handkerchief from his drawer and begins wiping the lenses clean. As he is doing so, the conversation begins.::
-
-Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must be here either to appreciate the light show produced by our resonant transformer, or to do some scientific investigation. Either is acceptable.&lt;end&gt;</source>
-        <target state="final">::The investigator seems to have just finished typing something on his keyboard when you walked in; the final keystroke coincides with you coming to a halt before him. He lifts his head and observes you through his glasses and instantly notices one detail - that there is a smudge on them. Naturally, he removes the glasses, picks up a handkerchief from his drawer and begins wiping the lenses clean. As he is doing so, the conversation begins.::
-
-Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must be here either to appreciate the light show produced by our resonant transformer, or to do some scientific investigation. Either is acceptable.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -67,16 +33,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He smiles.:: I am Principal Investigator Schteff, but please - just call me Schteff. You are...?&lt;end&gt;</source>
-        <target state="final">::He smiles.:: I am Principal Investigator Schteff, but please - just call me Schteff. You are...?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -85,16 +41,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
       <segment state="translated">
         <source>::He smiles.:: I am Principal Investigator Schteff, but please - just call me Schteff. You are...?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a5_original" name="=&gt;a5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Evolution is Tchort, brother. I am $(context.player.Name) and I had a few questions for you.&lt;end&gt;</source>
-        <target state="final">Evolution is Tchort, brother. I am $(context.player.Name) and I had a few questions for you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -107,16 +53,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have no objections to that, $(context.player.Name); ask whatever questions you had.&lt;end&gt;</source>
-        <target state="final">I have no objections to that, $(context.player.Name); ask whatever questions you had.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -125,16 +61,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
       <segment state="translated">
         <source>I have no objections to that, $(context.player.Name); ask whatever questions you had.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -147,16 +73,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have deployed the device.&lt;end&gt;</source>
-        <target state="final">I have deployed the device.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -165,16 +81,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
       <segment state="translated">
         <source>I have deployed the device.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I know - I'm getting some readings! Were there any problems with the authorities?&lt;end&gt;</source>
-        <target state="final">I know - I'm getting some readings! Were there any problems with the authorities?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -187,16 +93,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No problems at all.&lt;end&gt;</source>
-        <target state="final">No problems at all.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -205,16 +101,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
       <segment state="translated">
         <source>No problems at all.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am very pleased to hear it; I guess luck is starting to be on our side again, $(context.player.Name). Smooth execution - that's what I like to hear.&lt;end&gt;</source>
-        <target state="final">I am very pleased to hear it; I guess luck is starting to be on our side again, $(context.player.Name). Smooth execution - that's what I like to hear.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -227,16 +113,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Now, the reception we're getting is not *as* smooth as I had hoped for, but we'll work on it, see if we can tune it a bit. We'll analyze the readings and then we'll know the results.&lt;end&gt;</source>
-        <target state="final">Now, the reception we're getting is not *as* smooth as I had hoped for, but we'll work on it, see if we can tune it a bit. We'll analyze the readings and then we'll know the results.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -245,16 +121,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
       <segment state="translated">
         <source>Now, the reception we're getting is not *as* smooth as I had hoped for, but we'll work on it, see if we can tune it a bit. We'll analyze the readings and then we'll know the results.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q13_original" name="=&gt;q13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Here's five hundred for you. ::He hands you 500 stygian coins.::&lt;end&gt;</source>
-        <target state="final">Here's five hundred for you. ::He hands you 500 stygian coins.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -267,16 +133,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -285,16 +141,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What's up next?&lt;end&gt;</source>
-        <target state="final">What's up next?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -307,16 +153,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm afraid that is all for now - unless you have some experience in particle physics. ::He laughs.:: Don't answer that!&lt;end&gt;</source>
-        <target state="final">I'm afraid that is all for now - unless you have some experience in particle physics. ::He laughs.:: Don't answer that!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -325,20 +161,6 @@ Tchort is evolution. I haven't seen you before, $(#brother/sister), and you must
       <segment state="translated">
         <source>I'm afraid that is all for now - unless you have some experience in particle physics. ::He laughs.:: Don't answer that!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q17_original" name="=&gt;q17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>With your help we now have more than enough data to study and plan our next moves. Also - lot of paperwork for the next symposium. And also - we are fresh out of emitters. And also... thank you very much, $(context.player.Name)! Your efforts were apex to say the least.
-
-Is there anything else you needed?&lt;end&gt;</source>
-        <target state="final">With your help we now have more than enough data to study and plan our next moves. Also - lot of paperwork for the next symposium. And also - we are fresh out of emitters. And also... thank you very much, $(context.player.Name)! Your efforts were apex to say the least.
-
-Is there anything else you needed?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -353,16 +175,6 @@ Is there anything else you needed?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a18_original" name="=&gt;a18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Any more work for me? Take another emitter even farther?&lt;end&gt;</source>
-        <target state="final">Any more work for me? Take another emitter even farther?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -371,16 +183,6 @@ Is there anything else you needed?&lt;end&gt;</source>
       <segment state="translated">
         <source>Any more work for me? Take another emitter even farther?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a19_original" name="=&gt;a19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well...&lt;end&gt;</source>
-        <target state="final">Well...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -393,16 +195,6 @@ Is there anything else you needed?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q20_original" name="=&gt;q20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well what?&lt;end&gt;</source>
-        <target state="final">Well what?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -411,16 +203,6 @@ Is there anything else you needed?&lt;end&gt;</source>
       <segment state="translated">
         <source>Well what?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a21_original" name="=&gt;a21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Actually, it was nothing... nothing worth mentioning.&lt;end&gt;</source>
-        <target state="final">Actually, it was nothing... nothing worth mentioning.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -433,16 +215,6 @@ Is there anything else you needed?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>If you say so. Let me tell you: I am glad everything went as smooth as possible this time around.&lt;end&gt;</source>
-        <target state="final">If you say so. Let me tell you: I am glad everything went as smooth as possible this time around.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -451,16 +223,6 @@ Is there anything else you needed?&lt;end&gt;</source>
       <segment state="translated">
         <source>If you say so. Let me tell you: I am glad everything went as smooth as possible this time around.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a23_original" name="=&gt;a23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I managed to run into a group of bandits.&lt;end&gt;</source>
-        <target state="final">I managed to run into a group of bandits.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -473,16 +235,6 @@ Is there anything else you needed?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q24_original" name="=&gt;q24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Bandits? At the station? Tell me... what happened?&lt;end&gt;</source>
-        <target state="final">Bandits? At the station? Tell me... what happened?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -491,16 +243,6 @@ Is there anything else you needed?&lt;end&gt;</source>
       <segment state="translated">
         <source>Bandits? At the station? Tell me... what happened?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a25_original" name="=&gt;a25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, I just dominated them and went about my business.&lt;end&gt;</source>
-        <target state="final">Well, I just dominated them and went about my business.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -513,16 +255,6 @@ Is there anything else you needed?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q26_original" name="=&gt;q26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He gives you a surprised look.:: Magnificent Tchort! Just when you think everything would go as planned, something like this has to come up! Luckily you have experience in dealing with similar situations, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">::He gives you a surprised look.:: Magnificent Tchort! Just when you think everything would go as planned, something like this has to come up! Luckily you have experience in dealing with similar situations, $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -531,16 +263,6 @@ Is there anything else you needed?&lt;end&gt;</source>
       <segment state="translated">
         <source>::He gives you a surprised look.:: Magnificent Tchort! Just when you think everything would go as planned, something like this has to come up! Luckily you have experience in dealing with similar situations, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q27_original" name="=&gt;q27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And - that you were successful in deploying the T-ray emitter.&lt;end&gt;</source>
-        <target state="final">And - that you were successful in deploying the T-ray emitter.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -553,16 +275,6 @@ Is there anything else you needed?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a28_original" name="=&gt;a28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They were a tough bunch, but I convinced them to leave me alone.&lt;end&gt;</source>
-        <target state="final">They were a tough bunch, but I convinced them to leave me alone.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -571,16 +283,6 @@ Is there anything else you needed?&lt;end&gt;</source>
       <segment state="translated">
         <source>They were a tough bunch, but I convinced them to leave me alone.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They robbed me.&lt;end&gt;</source>
-        <target state="final">They robbed me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -593,16 +295,6 @@ Is there anything else you needed?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q30_original" name="=&gt;q30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Robbed you? Magnificent Tchort!&lt;end&gt;</source>
-        <target state="final">Robbed you? Magnificent Tchort!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -611,16 +303,6 @@ Is there anything else you needed?&lt;end&gt;</source>
       <segment state="translated">
         <source>Robbed you? Magnificent Tchort!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a31_original" name="=&gt;a31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sadly, yes... It was so humiliating...&lt;end&gt;</source>
-        <target state="final">Sadly, yes... It was so humiliating...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -633,16 +315,6 @@ Is there anything else you needed?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q32_original" name="=&gt;q32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Magnificent Tchort! Just when you think everything would go as planned, something horrible has to come up! I am very sorry about what happened, but I hope the reward for the job will cover your loss, $(context.player.Name)... plus I'll put some extra charons out of my own pocket.&lt;end&gt;</source>
-        <target state="final">Magnificent Tchort! Just when you think everything would go as planned, something horrible has to come up! I am very sorry about what happened, but I hope the reward for the job will cover your loss, $(context.player.Name)... plus I'll put some extra charons out of my own pocket.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -651,20 +323,6 @@ Is there anything else you needed?&lt;end&gt;</source>
       <segment state="translated">
         <source>Magnificent Tchort! Just when you think everything would go as planned, something horrible has to come up! I am very sorry about what happened, but I hope the reward for the job will cover your loss, $(context.player.Name)... plus I'll put some extra charons out of my own pocket.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Here, he gives you 200 stygian coins.:: That is almost everything I have.
-
-Well now, despite your terrible misfortune - the emitter was successfully deployed.&lt;end&gt;</source>
-        <target state="final">::Here, he gives you 200 stygian coins.:: That is almost everything I have.
-
-Well now, despite your terrible misfortune - the emitter was successfully deployed.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -679,16 +337,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a34_original" name="=&gt;a34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, and I expect a compensation!&lt;end&gt;</source>
-        <target state="final">Yes, and I expect a compensation!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -697,16 +345,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
       <segment state="translated">
         <source>Yes, and I expect a compensation!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q35_original" name="=&gt;q35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Magnificent Tchort! I am very sorry about what happened, but I hope the reward for the job will cover your loss, $(context.player.Name) - and I'll add something out of my own pocket, since I our budget tends to be limited lately and... it was my fault you got robbed.&lt;end&gt;</source>
-        <target state="final">Magnificent Tchort! I am very sorry about what happened, but I hope the reward for the job will cover your loss, $(context.player.Name) - and I'll add something out of my own pocket, since I our budget tends to be limited lately and... it was my fault you got robbed.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -719,16 +357,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a36_original" name="=&gt;a36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Deploying the emitter at Core City station seems simple enough, but will the Oligarchs agree to this?&lt;end&gt;</source>
-        <target state="final">Deploying the emitter at Core City station seems simple enough, but will the Oligarchs agree to this?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -737,16 +365,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
       <segment state="translated">
         <source>Deploying the emitter at Core City station seems simple enough, but will the Oligarchs agree to this?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q37_original" name="=&gt;q37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Very unlikely - that's why we're not going to tell them. ::He laughs.:: Find a quiet, isolated spot somewhere at or near the station and conceal the device there. Even if someone finds it later it would have done its job by then.&lt;end&gt;</source>
-        <target state="final">Very unlikely - that's why we're not going to tell them. ::He laughs.:: Find a quiet, isolated spot somewhere at or near the station and conceal the device there. Even if someone finds it later it would have done its job by then.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -759,16 +377,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q38_original" name="=&gt;q38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I haven't been to Core City in ten years; I can't help you much there. I'm sure you'll find a suitable place on your own.&lt;end&gt;</source>
-        <target state="final">I haven't been to Core City in ten years; I can't help you much there. I'm sure you'll find a suitable place on your own.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -777,16 +385,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
       <segment state="translated">
         <source>I haven't been to Core City in ten years; I can't help you much there. I'm sure you'll find a suitable place on your own.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a39_original" name="=&gt;a39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Will I be able to use that comm device you gave me?&lt;end&gt;</source>
-        <target state="final">Will I be able to use that comm device you gave me?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -799,16 +397,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q40_original" name="=&gt;q40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I doubt it, $(context.player.Name); these comms are made for short ranges - but bring it along just in case. ::He shrugs.:: Who knows, maybe it will work. I mean, I could procure a long distance comm, but it would be pointless - you already know what you're supposed to do, and it's not like you're going to, say, Drop Zone or some other grave place.&lt;end&gt;</source>
-        <target state="final">I doubt it, $(context.player.Name); these comms are made for short ranges - but bring it along just in case. ::He shrugs.:: Who knows, maybe it will work. I mean, I could procure a long distance comm, but it would be pointless - you already know what you're supposed to do, and it's not like you're going to, say, Drop Zone or some other grave place.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -819,16 +407,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a41_original" name="=&gt;a41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am ready to go.&lt;end&gt;</source>
-        <target state="final">I am ready to go.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -837,20 +415,6 @@ Well now, despite your terrible misfortune - the emitter was successfully deploy
       <segment state="translated">
         <source>I am ready to go.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q42_original" name="=&gt;q42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Apex! Here's another emitter. ::He gives you a T-ray emitter.:: Remember: Do not put it in a metal container or where it's going to be closely surrounded with anything made of metal - it will deaden the signal.
-
-Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">Apex! Here's another emitter. ::He gives you a T-ray emitter.:: Remember: Do not put it in a metal container or where it's going to be closely surrounded with anything made of metal - it will deaden the signal.
-
-Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -865,16 +429,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a43_original" name="=&gt;a43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll be back soon. Goodbye.&lt;end&gt;</source>
-        <target state="final">I'll be back soon. Goodbye.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -883,16 +437,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
       <segment state="translated">
         <source>I'll be back soon. Goodbye.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a44_original" name="=&gt;a44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guide you too, Principal Investigator. I'll be back shortly.&lt;end&gt;</source>
-        <target state="final">Tchort guide you too, Principal Investigator. I'll be back shortly.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -905,16 +449,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a45_original" name="=&gt;a45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You mentioned wanting to do another T-ray emitter test.&lt;end&gt;</source>
-        <target state="final">You mentioned wanting to do another T-ray emitter test.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -923,16 +457,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
       <segment state="translated">
         <source>You mentioned wanting to do another T-ray emitter test.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q46_original" name="=&gt;q46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What? You are not mad at me for endangering your life, despite the fact I promised it was going to be a safer test?&lt;end&gt;</source>
-        <target state="final">What? You are not mad at me for endangering your life, despite the fact I promised it was going to be a safer test?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -945,16 +469,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a47_original" name="=&gt;a47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, you couldn't have known about them. Besides, since the test was a success why stop now?&lt;end&gt;</source>
-        <target state="final">Well, you couldn't have known about them. Besides, since the test was a success why stop now?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -963,16 +477,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
       <segment state="translated">
         <source>Well, you couldn't have known about them. Besides, since the test was a success why stop now?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q48_original" name="=&gt;q48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Very well then - I'm glad we're on the same page here. I really am, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Very well then - I'm glad we're on the same page here. I really am, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -985,16 +489,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q49_original" name="=&gt;q49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The previous test - despite its great results - was done in the relative proximity to the receiver. All fine and dandy - but why not try a long range test? Here I have an emitter which had been boosted and tuned to send data over long distances with much greater fidelity. The operational, or detection range of the emitter will be the same - but the data it collects can now be sent over larger distances. That is the idea, at least.&lt;end&gt;</source>
-        <target state="final">The previous test - despite its great results - was done in the relative proximity to the receiver. All fine and dandy - but why not try a long range test? Here I have an emitter which had been boosted and tuned to send data over long distances with much greater fidelity. The operational, or detection range of the emitter will be the same - but the data it collects can now be sent over larger distances. That is the idea, at least.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1003,16 +497,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
       <segment state="translated">
         <source>The previous test - despite its great results - was done in the relative proximity to the receiver. All fine and dandy - but why not try a long range test? Here I have an emitter which had been boosted and tuned to send data over long distances with much greater fidelity. The operational, or detection range of the emitter will be the same - but the data it collects can now be sent over larger distances. That is the idea, at least.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q50_original" name="=&gt;q50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Since sending any signal through thick layers of... whatever - rock, dirt, concrete - is a difficult thing to accomplish, we'll have to find a place that is relatively far yet has no major obstructions in between. That place is - Core City station in Upper Underrail. The long tunnels will allow for the signal to travel without much difficulty, and the population density there is perfect for testing the emitter.&lt;end&gt;</source>
-        <target state="final">Since sending any signal through thick layers of... whatever - rock, dirt, concrete - is a difficult thing to accomplish, we'll have to find a place that is relatively far yet has no major obstructions in between. That place is - Core City station in Upper Underrail. The long tunnels will allow for the signal to travel without much difficulty, and the population density there is perfect for testing the emitter.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -1025,16 +509,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a51_original" name="=&gt;a51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I guess science makes it worth the risk.&lt;end&gt;</source>
-        <target state="final">I guess science makes it worth the risk.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1043,16 +517,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
       <segment state="translated">
         <source>I guess science makes it worth the risk.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q52_original" name="=&gt;q52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes! I was indeed encouraged with the test we did and figured - why not take it a step further?&lt;end&gt;</source>
-        <target state="final">Yes! I was indeed encouraged with the test we did and figured - why not take it a step further?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -1065,16 +529,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a53_original" name="=&gt;a53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>T-ray emitter has been deployed.&lt;end&gt;</source>
-        <target state="final">T-ray emitter has been deployed.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1083,16 +537,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
       <segment state="translated">
         <source>T-ray emitter has been deployed.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q54_original" name="=&gt;q54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, I am getting some good reading right now; the emitter runs without a hitch! ::He smiles.:: Still, it's detecting quite a substantial number of living entities in the surrounding area - and they seem quite large in size if the readings are right! Where did you end up deploying it?&lt;end&gt;</source>
-        <target state="final">Yes, I am getting some good reading right now; the emitter runs without a hitch! ::He smiles.:: Still, it's detecting quite a substantial number of living entities in the surrounding area - and they seem quite large in size if the readings are right! Where did you end up deploying it?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -1105,16 +549,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a55_original" name="=&gt;a55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It was some abandoned janitor's room. Maybe there are some rathound over there.&lt;end&gt;</source>
-        <target state="final">It was some abandoned janitor's room. Maybe there are some rathound over there.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1123,16 +557,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
       <segment state="translated">
         <source>It was some abandoned janitor's room. Maybe there are some rathound over there.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q56_original" name="=&gt;q56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>This seems a lot bigger than rathounds, at least bigger than the one's I've ever seen. Are you sure there wasn't anything weird there?&lt;end&gt;</source>
-        <target state="final">This seems a lot bigger than rathounds, at least bigger than the one's I've ever seen. Are you sure there wasn't anything weird there?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -1145,16 +569,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a57_original" name="=&gt;a57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why are you worrying so much? Relax, I'm back safe and the job is done.&lt;end&gt;</source>
-        <target state="final">Why are you worrying so much? Relax, I'm back safe and the job is done.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1165,16 +579,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q58_original" name="=&gt;q58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>If you say so, $(#brother/sister). In that case, the experiment was a complete and utter success!&lt;end&gt;</source>
-        <target state="final">If you say so, $(#brother/sister). In that case, the experiment was a complete and utter success!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1183,20 +587,6 @@ Well now, see you soon and Tchort guide you, $(#brother/sister).&lt;end&gt;</sou
       <segment state="translated">
         <source>If you say so, $(#brother/sister). In that case, the experiment was a complete and utter success!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q59_original" name="=&gt;q59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We are getting some truly excellent data here and everything works exactly as it should. I'm so going to brag about this at the next symposium! ::He laughs.:: Joking aside, now's the time to honor my part of the deal. ::He hands you 450 stygian coins.:: Well done, $(context.player.Name)!
-
-You know, I was thinking of doing another test...&lt;end&gt;</source>
-        <target state="final">We are getting some truly excellent data here and everything works exactly as it should. I'm so going to brag about this at the next symposium! ::He laughs.:: Joking aside, now's the time to honor my part of the deal. ::He hands you 450 stygian coins.:: Well done, $(context.player.Name)!
-
-You know, I was thinking of doing another test...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -1211,16 +601,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q60_original" name="=&gt;q60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1229,16 +609,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a61_original" name="=&gt;a61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Nope.&lt;end&gt;</source>
-        <target state="final">Nope.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -1251,16 +621,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a62_original" name="=&gt;a62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It looked like a toxic disposal plant. While it was full of mutants, it was nothing I couldn't handle.&lt;end&gt;</source>
-        <target state="final">It looked like a toxic disposal plant. While it was full of mutants, it was nothing I couldn't handle.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1269,16 +629,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>It looked like a toxic disposal plant. While it was full of mutants, it was nothing I couldn't handle.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q63_original" name="=&gt;q63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Toxic disposal? Mutants? Magnificent Tchort, it's like this research is cursed somehow! I am truly sorry. I wished to avoid situations like this and, while I didn't *completely* rule out a possibility of something getting in your way, I certainly didn't expect mutants! By the Tchort!&lt;end&gt;</source>
-        <target state="final">Toxic disposal? Mutants? Magnificent Tchort, it's like this research is cursed somehow! I am truly sorry. I wished to avoid situations like this and, while I didn't *completely* rule out a possibility of something getting in your way, I certainly didn't expect mutants! By the Tchort!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -1291,16 +641,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a64_original" name="=&gt;a64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Don't worry Schteff - it's nothing I couldn't handle; I already told you that. Besides, there was only a few of them in my way.&lt;end&gt;</source>
-        <target state="final">Don't worry Schteff - it's nothing I couldn't handle; I already told you that. Besides, there was only a few of them in my way.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1309,16 +649,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>Don't worry Schteff - it's nothing I couldn't handle; I already told you that. Besides, there was only a few of them in my way.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a65_original" name="=&gt;a65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Luckily I was capable enough, but those things can be a real pain. And there were lots of them.&lt;end&gt;</source>
-        <target state="final">Luckily I was capable enough, but those things can be a real pain. And there were lots of them.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a65" name="=&gt;a65">
@@ -1331,16 +661,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q66_original" name="=&gt;q66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am really sorry; I might have over-relied on reports from Preservation. I'm just glad you're alive, $(#brother/sister). Well now, as for the test itself, it was a complete and utter success, I'm happy to say.&lt;end&gt;</source>
-        <target state="final">I am really sorry; I might have over-relied on reports from Preservation. I'm just glad you're alive, $(#brother/sister). Well now, as for the test itself, it was a complete and utter success, I'm happy to say.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1349,16 +669,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>I am really sorry; I might have over-relied on reports from Preservation. I'm just glad you're alive, $(#brother/sister). Well now, as for the test itself, it was a complete and utter success, I'm happy to say.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a67_original" name="=&gt;a67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You really have a talent to send people to the most dangerous stinkin' places. I had to go to a mutant-infested area so that you can have a good bloody signal!&lt;end&gt;</source>
-        <target state="final">You really have a talent to send people to the most dangerous stinkin' places. I had to go to a mutant-infested area so that you can have a good bloody signal!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -1371,16 +681,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q68_original" name="=&gt;q68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Mutants? I didn't know there was any mutants there! Magnificent Tchort, what the hell is wrong with me and this project - it's like a curse or something! ::He grabs his head.:: &lt;end&gt;</source>
-        <target state="final">Mutants? I didn't know there was any mutants there! Magnificent Tchort, what the hell is wrong with me and this project - it's like a curse or something! ::He grabs his head.:: &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1389,16 +689,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>Mutants? I didn't know there was any mutants there! Magnificent Tchort, what the hell is wrong with me and this project - it's like a curse or something! ::He grabs his head.:: &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a69_original" name="=&gt;a69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Luckily I'm alive, but damn it man - you really know where to send your assistants.&lt;end&gt;</source>
-        <target state="final">Luckily I'm alive, but damn it man - you really know where to send your assistants.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -1411,16 +701,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q70_original" name="=&gt;q70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I didn't know anything about it! I was told by Mediant Samuel that his rassophores scanned the station and that it was safe, at least the section closest to us. You know what? I'll toss in a few more coins - two hundred extra - for the trouble you had to go through. Okay?&lt;end&gt;</source>
-        <target state="final">I didn't know anything about it! I was told by Mediant Samuel that his rassophores scanned the station and that it was safe, at least the section closest to us. You know what? I'll toss in a few more coins - two hundred extra - for the trouble you had to go through. Okay?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1431,16 +711,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q71_original" name="=&gt;q71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>By the Tchort - it's like triploidy. But at least dealing with the, erm, mutants was not in vain, $(#brother/sister) - the experiment was a complete and utter success!&lt;end&gt;</source>
-        <target state="final">By the Tchort - it's like triploidy. But at least dealing with the, erm, mutants was not in vain, $(#brother/sister) - the experiment was a complete and utter success!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1449,20 +719,6 @@ You know, I was thinking of doing another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>By the Tchort - it's like triploidy. But at least dealing with the, erm, mutants was not in vain, $(#brother/sister) - the experiment was a complete and utter success!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q72_original" name="=&gt;q72_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We are getting some truly excellent data here and everything works as it should. I'm so going to brag about this at the next symposium! ::He laughs.:: Joking aside, now's the time to honor my part of the deal. ::He hands you 650 stygian coins.::
-
-Now to find someone else to help me with another test...&lt;end&gt;</source>
-        <target state="final">We are getting some truly excellent data here and everything works as it should. I'm so going to brag about this at the next symposium! ::He laughs.:: Joking aside, now's the time to honor my part of the deal. ::He hands you 650 stygian coins.::
-
-Now to find someone else to help me with another test...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -1477,16 +733,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a73_original" name="=&gt;a73_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">145</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yeah, yeah. I expect an almost-killed-by-mutated-freaks bonus.&lt;end&gt;</source>
-        <target state="final">Yeah, yeah. I expect an almost-killed-by-mutated-freaks bonus.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a73" name="=&gt;a73">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1495,16 +741,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>Yeah, yeah. I expect an almost-killed-by-mutated-freaks bonus.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q74_original" name="=&gt;q74_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">147</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, yes - you'll get it; two hundred extra, okay? But I swear I didn't know anything about the mutants! I was told by Mediant Samuel personally that his rassophores scanned the station and that it was safe, at least the section closest to us.&lt;end&gt;</source>
-        <target state="final">Yes, yes - you'll get it; two hundred extra, okay? But I swear I didn't know anything about the mutants! I was told by Mediant Samuel personally that his rassophores scanned the station and that it was safe, at least the section closest to us.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q74" name="=&gt;q74">
@@ -1517,16 +753,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a75_original" name="=&gt;a75_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">149</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So is there any more work around here?&lt;end&gt;</source>
-        <target state="final">So is there any more work around here?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a75" name="=&gt;a75">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1535,16 +761,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>So is there any more work around here?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q76_original" name="=&gt;q76_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">151</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He seems surprised by your question.:: Despite the fact I send people to their deaths, you ask me if I have work for you?&lt;end&gt;</source>
-        <target state="final">::He seems surprised by your question.:: Despite the fact I send people to their deaths, you ask me if I have work for you?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q76" name="=&gt;q76">
@@ -1557,16 +773,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a77_original" name="=&gt;a77_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">153</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes.&lt;end&gt;</source>
-        <target state="final">Yes.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1575,16 +781,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>Yes.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q78_original" name="=&gt;q78_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">155</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>A very simple and straightforward answer...&lt;end&gt;</source>
-        <target state="final">A very simple and straightforward answer...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -1597,16 +793,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q79_original" name="=&gt;q79_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">157</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Okay, hear me out: Since the first test failed - obviously - it means we still don't have foreign environment test data. Therefore, we need to finally deploy one successfully. Well now, despite the fact that you seem to have taken care of yourself just fine in the West Wing, that area is off our list.&lt;end&gt;</source>
-        <target state="final">Okay, hear me out: Since the first test failed - obviously - it means we still don't have foreign environment test data. Therefore, we need to finally deploy one successfully. Well now, despite the fact that you seem to have taken care of yourself just fine in the West Wing, that area is off our list.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q79" name="=&gt;q79">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1615,16 +801,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>Okay, hear me out: Since the first test failed - obviously - it means we still don't have foreign environment test data. Therefore, we need to finally deploy one successfully. Well now, despite the fact that you seem to have taken care of yourself just fine in the West Wing, that area is off our list.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q80_original" name="=&gt;q80_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">159</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Completely off! But, there is another area nearby that is almost ideal for our experiment. The recent earthquake has created a passage into Harpocrates Station, which was a second entrance to the Institute many, many years ago, but was closed off. Rassophores already scanned the area and it seemed safe; and that's how we need this test to be performed - safe!&lt;end&gt;</source>
-        <target state="final">Completely off! But, there is another area nearby that is almost ideal for our experiment. The recent earthquake has created a passage into Harpocrates Station, which was a second entrance to the Institute many, many years ago, but was closed off. Rassophores already scanned the area and it seemed safe; and that's how we need this test to be performed - safe!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q80" name="=&gt;q80">
@@ -1637,16 +813,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q81_original" name="=&gt;q81_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">161</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>There. What you need to do is this: I give you a T-ray emitter and a comm device, you go to Harpocrates - just tell the guards I sent you and they'll let you through - and contact me over the comm device. The emitter has a tracker and we'll find the best place to deploy it based on the signal strength. You do that, return, no one dies - all apex!&lt;end&gt;</source>
-        <target state="final">There. What you need to do is this: I give you a T-ray emitter and a comm device, you go to Harpocrates - just tell the guards I sent you and they'll let you through - and contact me over the comm device. The emitter has a tracker and we'll find the best place to deploy it based on the signal strength. You do that, return, no one dies - all apex!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q81" name="=&gt;q81">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1655,16 +821,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>There. What you need to do is this: I give you a T-ray emitter and a comm device, you go to Harpocrates - just tell the guards I sent you and they'll let you through - and contact me over the comm device. The emitter has a tracker and we'll find the best place to deploy it based on the signal strength. You do that, return, no one dies - all apex!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q82_original" name="=&gt;q82_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">163</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Once you return, you get your charons and the department gets data. Phew... all in one go. What do you say to all this?&lt;end&gt;</source>
-        <target state="final">Once you return, you get your charons and the department gets data. Phew... all in one go. What do you say to all this?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q82" name="=&gt;q82">
@@ -1677,16 +833,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a83_original" name="=&gt;a83_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">165</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I guess I love science that much.&lt;end&gt;</source>
-        <target state="final">I guess I love science that much.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a83" name="=&gt;a83">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1695,16 +841,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>I guess I love science that much.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q84_original" name="=&gt;q84_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">167</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Don't we all. ::He laughs.::&lt;end&gt;</source>
-        <target state="final">Don't we all. ::He laughs.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q84" name="=&gt;q84">
@@ -1717,16 +853,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a85_original" name="=&gt;a85_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">169</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I need money.&lt;end&gt;</source>
-        <target state="final">I need money.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a85" name="=&gt;a85">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1735,16 +861,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>I need money.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q86_original" name="=&gt;q86_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">171</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>There is no shortage of that, $(context.player.Name), that's for sure. Well now, I suppose as long as you are willing...&lt;end&gt;</source>
-        <target state="final">There is no shortage of that, $(context.player.Name), that's for sure. Well now, I suppose as long as you are willing...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
@@ -1757,16 +873,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a87_original" name="=&gt;a87_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">173</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am ready to deploy this T-ray emitter thing.&lt;end&gt;</source>
-        <target state="final">I am ready to deploy this T-ray emitter thing.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a87" name="=&gt;a87">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1775,16 +881,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>I am ready to deploy this T-ray emitter thing.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q88_original" name="=&gt;q88_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">175</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Apex... Okay, as I already mentioned earlier, this T-ray emitter will have a tracking device; it was very unfortunate that the one Rassophore Pavel had was devoid of it, or else things...&lt;end&gt;</source>
-        <target state="final">Apex... Okay, as I already mentioned earlier, this T-ray emitter will have a tracking device; it was very unfortunate that the one Rassophore Pavel had was devoid of it, or else things...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q88" name="=&gt;q88">
@@ -1797,16 +893,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q89_original" name="=&gt;q89_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">177</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source> I'm sorry, I'm getting sidetracked here. Let's go through the process one more time: Here is the emitter, ::He gives you the T-ray emitter.:: and here is the comm device. ::He hands you a communication device.::&lt;end&gt;</source>
-        <target state="final"> I'm sorry, I'm getting sidetracked here. Let's go through the process one more time: Here is the emitter, ::He gives you the T-ray emitter.:: and here is the comm device. ::He hands you a communication device.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1815,16 +901,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source> I'm sorry, I'm getting sidetracked here. Let's go through the process one more time: Here is the emitter, ::He gives you the T-ray emitter.:: and here is the comm device. ::He hands you a communication device.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q90_original" name="=&gt;q90_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">179</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Go down the stairs past Eidein's Library and talk to the guards at the first junction; you can't miss it. Again, the area is mostly deserted but I recommend you still keep your eyes open.&lt;end&gt;</source>
-        <target state="final">Go down the stairs past Eidein's Library and talk to the guards at the first junction; you can't miss it. Again, the area is mostly deserted but I recommend you still keep your eyes open.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
@@ -1837,16 +913,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a91_original" name="=&gt;a91_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">181</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>On my way, brother. Tchort guide you.&lt;end&gt;</source>
-        <target state="final">On my way, brother. Tchort guide you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a91" name="=&gt;a91">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1855,16 +921,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>On my way, brother. Tchort guide you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q92_original" name="=&gt;q92_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">183</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Apex. I'll now go and prepare the receiver. Tchort guide you.&lt;end&gt;</source>
-        <target state="final">Apex. I'll now go and prepare the receiver. Tchort guide you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q92" name="=&gt;q92">
@@ -1877,16 +933,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a93_original" name="=&gt;a93_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">185</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I got it all. Talk to ya soon.&lt;end&gt;</source>
-        <target state="final">I got it all. Talk to ya soon.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a93" name="=&gt;a93">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1897,16 +943,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a94_original" name="=&gt;a94_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">187</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I was wondering if you had any work I could help you with?&lt;end&gt;</source>
-        <target state="final">I was wondering if you had any work I could help you with?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a94" name="=&gt;a94">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1915,20 +951,6 @@ Now to find someone else to help me with another test...&lt;end&gt;</source>
       <segment state="translated">
         <source>I was wondering if you had any work I could help you with?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q95_original" name="=&gt;q95_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">189</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::His face suddenly turns grim.:: 
-
-Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">::His face suddenly turns grim.:: 
-
-Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q95" name="=&gt;q95">
@@ -1943,16 +965,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a96_original" name="=&gt;a96_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">191</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How so?&lt;end&gt;</source>
-        <target state="final">How so?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a96" name="=&gt;a96">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1961,16 +973,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>How so?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q97_original" name="=&gt;q97_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">193</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I mentioned it was interesting because of a young rassophore who, um, came to me with those *exact* same words you just spoke. I mean, he was interested in what we do here and... wished to help.&lt;end&gt;</source>
-        <target state="final">I mentioned it was interesting because of a young rassophore who, um, came to me with those *exact* same words you just spoke. I mean, he was interested in what we do here and... wished to help.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q97" name="=&gt;q97">
@@ -1983,16 +985,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a98_original" name="=&gt;a98_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">195</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Please continue...&lt;end&gt;</source>
-        <target state="final">Please continue...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a98" name="=&gt;a98">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2001,16 +993,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Please continue...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q99_original" name="=&gt;q99_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">197</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>His name is Pavel. At the time of his arrival the department was testing a terahertz, or T-ray, emitter that would allow us to perform through-wall imaging. I hope you are able to understand how useful such a technology could be to us all. Just imag-- um, better leave the long talk for later and return to Rassophore Pavel.&lt;end&gt;</source>
-        <target state="final">His name is Pavel. At the time of his arrival the department was testing a terahertz, or T-ray, emitter that would allow us to perform through-wall imaging. I hope you are able to understand how useful such a technology could be to us all. Just imag-- um, better leave the long talk for later and return to Rassophore Pavel.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q99" name="=&gt;q99">
@@ -2023,16 +1005,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q100_original" name="=&gt;q100_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">199</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He was a man who clearly missed his call - a member of the Preservation Forces who had more interest in scientific investigation than anything else. He would often drop by our lab and was, no doubt about it, genuinely interested in all the wonders of physics. Some two days ago he dropped by the lab and found out the full possibilities of through-wall imaging, which made him even more interested and excited.&lt;end&gt;</source>
-        <target state="final">He was a man who clearly missed his call - a member of the Preservation Forces who had more interest in scientific investigation than anything else. He would often drop by our lab and was, no doubt about it, genuinely interested in all the wonders of physics. Some two days ago he dropped by the lab and found out the full possibilities of through-wall imaging, which made him even more interested and excited.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q100" name="=&gt;q100">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2041,16 +1013,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>He was a man who clearly missed his call - a member of the Preservation Forces who had more interest in scientific investigation than anything else. He would often drop by our lab and was, no doubt about it, genuinely interested in all the wonders of physics. Some two days ago he dropped by the lab and found out the full possibilities of through-wall imaging, which made him even more interested and excited.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q101_original" name="=&gt;q101_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">201</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I told him about needing to somehow test the emitter in a very active environment, and since the West Wing had been reopened he personally volunteered to go there and plant the device. I thought it was too dangerous and, well now, asked him how was he going to do it without Mediant Samuel finding out, but he convinced me he had a plan and everything was going to be... apex. Well, I guess I sent him to his doom, for he hasn't returned still, and I regret ever accepting that risk in the first place.&lt;end&gt;</source>
-        <target state="final">I told him about needing to somehow test the emitter in a very active environment, and since the West Wing had been reopened he personally volunteered to go there and plant the device. I thought it was too dangerous and, well now, asked him how was he going to do it without Mediant Samuel finding out, but he convinced me he had a plan and everything was going to be... apex. Well, I guess I sent him to his doom, for he hasn't returned still, and I regret ever accepting that risk in the first place.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
@@ -2063,16 +1025,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a102_original" name="=&gt;a102_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">203</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am sad to say that I already found him dead in the West Wing.&lt;end&gt;</source>
-        <target state="final">I am sad to say that I already found him dead in the West Wing.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a102" name="=&gt;a102">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2081,20 +1033,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I am sad to say that I already found him dead in the West Wing.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q103_original" name="=&gt;q103_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">205</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Your expression conveyed him the message long before your words. He lowered his gaze into the floor after you told him about Pavel's death.::
-
-::He sighs.:: Despite the fact that chances of him still being alive were so slim, the confirmation that he is dead... hits hard.&lt;end&gt;</source>
-        <target state="final">::Your expression conveyed him the message long before your words. He lowered his gaze into the floor after you told him about Pavel's death.::
-
-::He sighs.:: Despite the fact that chances of him still being alive were so slim, the confirmation that he is dead... hits hard.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
@@ -2109,16 +1047,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q104_original" name="=&gt;q104_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">207</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am responsible for Pavel's death... as well as the opening of the West Wing... ::He sighs.:: I have made some terrible mistakes that could have been completely avoided if I just... if I just wasn't so quick to make decisions, or allowed myself to be convinced so easily...&lt;end&gt;</source>
-        <target state="final">I am responsible for Pavel's death... as well as the opening of the West Wing... ::He sighs.:: I have made some terrible mistakes that could have been completely avoided if I just... if I just wasn't so quick to make decisions, or allowed myself to be convinced so easily...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q104" name="=&gt;q104">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2127,16 +1055,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I am responsible for Pavel's death... as well as the opening of the West Wing... ::He sighs.:: I have made some terrible mistakes that could have been completely avoided if I just... if I just wasn't so quick to make decisions, or allowed myself to be convinced so easily...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a105_original" name="=&gt;a105_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">209</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's not your fault. Pavel was too confident for his own good and overestimated his abilities, and you believed him. It happens.&lt;end&gt;</source>
-        <target state="final">It's not your fault. Pavel was too confident for his own good and overestimated his abilities, and you believed him. It happens.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a105" name="=&gt;a105">
@@ -2149,16 +1067,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q106_original" name="=&gt;q106_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">211</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I suppose it is true. Just to understand each other - I am in no way willing to sacrifice lives just to make the tech work, I just... I thought he was going to be in and out quickly and... It's useless... What's done is done.&lt;end&gt;</source>
-        <target state="final">I suppose it is true. Just to understand each other - I am in no way willing to sacrifice lives just to make the tech work, I just... I thought he was going to be in and out quickly and... It's useless... What's done is done.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q106" name="=&gt;q106">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2167,16 +1075,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I suppose it is true. Just to understand each other - I am in no way willing to sacrifice lives just to make the tech work, I just... I thought he was going to be in and out quickly and... It's useless... What's done is done.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q107_original" name="=&gt;q107_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">213</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well now, did you at least manage to find the T-ray emitter he was carrying?&lt;end&gt;</source>
-        <target state="final">Well now, did you at least manage to find the T-ray emitter he was carrying?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q107" name="=&gt;q107">
@@ -2189,16 +1087,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a108_original" name="=&gt;a108_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">215</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It was not on his body or anywhere near it.&lt;end&gt;</source>
-        <target state="final">It was not on his body or anywhere near it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a108" name="=&gt;a108">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2207,16 +1095,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>It was not on his body or anywhere near it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q109_original" name="=&gt;q109_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">217</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then we will forget about it; it's not worth retrieving. Also, this is for you. ::He hands you 400 stygian coins.:: You exposed yourself to great danger, so here's something to compensate for it.&lt;end&gt;</source>
-        <target state="final">Then we will forget about it; it's not worth retrieving. Also, this is for you. ::He hands you 400 stygian coins.:: You exposed yourself to great danger, so here's something to compensate for it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q109" name="=&gt;q109">
@@ -2229,16 +1107,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a110_original" name="=&gt;a110_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">219</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have nothing to say to that...&lt;end&gt;</source>
-        <target state="final">I have nothing to say to that...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a110" name="=&gt;a110">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2247,16 +1115,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I have nothing to say to that...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q111_original" name="=&gt;q111_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">221</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I... I too better stop here then. Magnificent Tchort... Well now, did you at least find anything on him? The emitter?&lt;end&gt;</source>
-        <target state="final">I... I too better stop here then. Magnificent Tchort... Well now, did you at least find anything on him? The emitter?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q111" name="=&gt;q111">
@@ -2269,16 +1127,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a112_original" name="=&gt;a112_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">223</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Pavel was your responsibility. You shouldn't have allowed him to go there no matter how self-assured he was.&lt;end&gt;</source>
-        <target state="final">Pavel was your responsibility. You shouldn't have allowed him to go there no matter how self-assured he was.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a112" name="=&gt;a112">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2287,16 +1135,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Pavel was your responsibility. You shouldn't have allowed him to go there no matter how self-assured he was.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q113_original" name="=&gt;q113_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">225</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He pauses for a moment before continuing.:: You are right. Magnificent Tchort, you are right. I... ::He sighs.:: I better stop right here... I'll live with it for the rest of my life anyway.&lt;end&gt;</source>
-        <target state="final">::He pauses for a moment before continuing.:: You are right. Magnificent Tchort, you are right. I... ::He sighs.:: I better stop right here... I'll live with it for the rest of my life anyway.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -2309,16 +1147,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a114_original" name="=&gt;a114_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">227</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I will go look for him if you'd like me to.&lt;end&gt;</source>
-        <target state="final">I will go look for him if you'd like me to.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a114" name="=&gt;a114">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2327,16 +1155,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I will go look for him if you'd like me to.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q115_original" name="=&gt;q115_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">229</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No, no - I am not sending anyone else there. I made that awful mistake the first time, Eidein pardon me. He, he just insisted so much - he really wished for the technology to work, so much in fact he was willing to risk his life. I don't want to risk yours or anyone else's!&lt;end&gt;</source>
-        <target state="final">No, no - I am not sending anyone else there. I made that awful mistake the first time, Eidein pardon me. He, he just insisted so much - he really wished for the technology to work, so much in fact he was willing to risk his life. I don't want to risk yours or anyone else's!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q115" name="=&gt;q115">
@@ -2349,16 +1167,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a116_original" name="=&gt;a116_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">231</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am not a rookie, Schteff; I can handle myself quite well. If Pavel is alive, then he is probably hurt and unable to return on his own.&lt;end&gt;</source>
-        <target state="final">I am not a rookie, Schteff; I can handle myself quite well. If Pavel is alive, then he is probably hurt and unable to return on his own.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a116" name="=&gt;a116">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2367,16 +1175,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I am not a rookie, Schteff; I can handle myself quite well. If Pavel is alive, then he is probably hurt and unable to return on his own.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q117_original" name="=&gt;q117_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">233</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>By the Tchort... this is all so messed up. ::He sighs.:: Go then... go to the West Wing. Should you find him - bring him back, if there is anything to bring back. The emitter is not important, but returning it wouldn't be frowned upon. Tchort guide you, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">By the Tchort... this is all so messed up. ::He sighs.:: Go then... go to the West Wing. Should you find him - bring him back, if there is anything to bring back. The emitter is not important, but returning it wouldn't be frowned upon. Tchort guide you, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q117" name="=&gt;q117">
@@ -2389,16 +1187,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q118_original" name="=&gt;q118_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">235</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q118" name="=&gt;q118">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2407,16 +1195,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a119_original" name="=&gt;a119_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">237</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am on the way, brother. Tchort guide you.&lt;end&gt;</source>
-        <target state="final">I am on the way, brother. Tchort guide you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a119" name="=&gt;a119">
@@ -2429,16 +1207,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a120_original" name="=&gt;a120_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">239</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>See you later, Schteff.&lt;end&gt;</source>
-        <target state="final">See you later, Schteff.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a120" name="=&gt;a120">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2447,16 +1215,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>See you later, Schteff.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a121_original" name="=&gt;a121_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">241</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, if you insist. Can you tell me more about T-rays though?&lt;end&gt;</source>
-        <target state="final">Well, if you insist. Can you tell me more about T-rays though?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a121" name="=&gt;a121">
@@ -2469,16 +1227,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q122_original" name="=&gt;q122_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">243</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He sighs.:: Certainly...&lt;end&gt;</source>
-        <target state="final">::He sighs.:: Certainly...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q122" name="=&gt;q122">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2487,16 +1235,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>::He sighs.:: Certainly...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q123_original" name="=&gt;q123_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">245</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hmmm... how about I start with the problem first then move on to T-ray technology, which is the solution to the problem. Our whole lives we live surrounded by walls: rock, brick, metal - take a pick! Open space is non-existent pretty much and... well, visibility is therefore very limited. What if we could "see" through these walls? Huh? Let's move on to that...&lt;end&gt;</source>
-        <target state="final">Hmmm... how about I start with the problem first then move on to T-ray technology, which is the solution to the problem. Our whole lives we live surrounded by walls: rock, brick, metal - take a pick! Open space is non-existent pretty much and... well, visibility is therefore very limited. What if we could "see" through these walls? Huh? Let's move on to that...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q123" name="=&gt;q123">
@@ -2509,16 +1247,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q124_original" name="=&gt;q124_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">247</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>To be able to acquire a certain image of what is behind an obstacle, you first need to send some particle through or around it. Since going around is not an option most of the time - through it'll have to be, $(#brother/sister)! You can use high energy ionizing radiation, but that'll probably give you cancer or outright kill you; it depends. But if the energy is too low, then you are not penetrating the obstacle. The best type of radiation, according to our tests is the terahertz radiation. It lies between the microwave and infrared band, with frequencies, well, measured in several terahertz.&lt;end&gt;</source>
-        <target state="final">To be able to acquire a certain image of what is behind an obstacle, you first need to send some particle through or around it. Since going around is not an option most of the time - through it'll have to be, $(#brother/sister)! You can use high energy ionizing radiation, but that'll probably give you cancer or outright kill you; it depends. But if the energy is too low, then you are not penetrating the obstacle. The best type of radiation, according to our tests is the terahertz radiation. It lies between the microwave and infrared band, with frequencies, well, measured in several terahertz.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q124" name="=&gt;q124">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2527,16 +1255,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>To be able to acquire a certain image of what is behind an obstacle, you first need to send some particle through or around it. Since going around is not an option most of the time - through it'll have to be, $(#brother/sister)! You can use high energy ionizing radiation, but that'll probably give you cancer or outright kill you; it depends. But if the energy is too low, then you are not penetrating the obstacle. The best type of radiation, according to our tests is the terahertz radiation. It lies between the microwave and infrared band, with frequencies, well, measured in several terahertz.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q125_original" name="=&gt;q125_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">249</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It is convenient for one other reason: We have managed to fine tune the waves to pass through solid non-living objects but be reflected back when it hits living tissue, creating a three-dimensional map of all living entities in the operational vicinity of the emitter device.&lt;end&gt;</source>
-        <target state="final">It is convenient for one other reason: We have managed to fine tune the waves to pass through solid non-living objects but be reflected back when it hits living tissue, creating a three-dimensional map of all living entities in the operational vicinity of the emitter device.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q125" name="=&gt;q125">
@@ -2549,16 +1267,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a126_original" name="=&gt;a126_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">251</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is amazing! But it can only detect living things, right?&lt;end&gt;</source>
-        <target state="final">That is amazing! But it can only detect living things, right?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a126" name="=&gt;a126">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2567,16 +1275,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>That is amazing! But it can only detect living things, right?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q127_original" name="=&gt;q127_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">253</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Currently yes, but even that is a leap forward from what we had before - zilch! ::He laughs.:: I mean, it would be pointless to explain what you can do with it; you are a smart enough $(#man/woman), so I'll let your imagination do the work.&lt;end&gt;</source>
-        <target state="final">Currently yes, but even that is a leap forward from what we had before - zilch! ::He laughs.:: I mean, it would be pointless to explain what you can do with it; you are a smart enough $(#man/woman), so I'll let your imagination do the work.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q127" name="=&gt;q127">
@@ -2589,16 +1287,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q128_original" name="=&gt;q128_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">255</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And if you ever decide to become an investigator - imagination will be your most powerful ally! Eidein pardon me, but sometimes it is even more important than knowledge. Remember that, eh?&lt;end&gt;</source>
-        <target state="final">And if you ever decide to become an investigator - imagination will be your most powerful ally! Eidein pardon me, but sometimes it is even more important than knowledge. Remember that, eh?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q128" name="=&gt;q128">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2607,16 +1295,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>And if you ever decide to become an investigator - imagination will be your most powerful ally! Eidein pardon me, but sometimes it is even more important than knowledge. Remember that, eh?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a129_original" name="=&gt;a129_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">257</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Wow, that sounds really good, but I wanted to change the subject.&lt;end&gt;</source>
-        <target state="final">Wow, that sounds really good, but I wanted to change the subject.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a129" name="=&gt;a129">
@@ -2629,16 +1307,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q130_original" name="=&gt;q130_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">259</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Erm... okay. Ask, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">Erm... okay. Ask, $(#brother/sister).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q130" name="=&gt;q130">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2647,16 +1315,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Erm... okay. Ask, $(#brother/sister).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a131_original" name="=&gt;a131_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">261</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You have a good point, brother. Instead, let's talk about something else.&lt;end&gt;</source>
-        <target state="final">You have a good point, brother. Instead, let's talk about something else.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a131" name="=&gt;a131">
@@ -2669,16 +1327,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q132_original" name="=&gt;q132_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">263</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Speak, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">Speak, $(#brother/sister).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q132" name="=&gt;q132">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2687,16 +1335,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Speak, $(#brother/sister).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a133_original" name="=&gt;a133_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">265</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is a very sad story. But the whole idea about through-wall imaging is quite interesting. Can you tell me more about these emitters?&lt;end&gt;</source>
-        <target state="final">That is a very sad story. But the whole idea about through-wall imaging is quite interesting. Can you tell me more about these emitters?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a133" name="=&gt;a133">
@@ -2709,16 +1347,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a134_original" name="=&gt;a134_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">267</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He thought he could do anything, poor man. I had other things to ask you...&lt;end&gt;</source>
-        <target state="final">He thought he could do anything, poor man. I had other things to ask you...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a134" name="=&gt;a134">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2727,16 +1355,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>He thought he could do anything, poor man. I had other things to ask you...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a135_original" name="=&gt;a135_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">269</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm all ears, brother.&lt;end&gt;</source>
-        <target state="final">I'm all ears, brother.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a135" name="=&gt;a135">
@@ -2749,16 +1367,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a136_original" name="=&gt;a136_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">271</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Doesn't sound that way to me.&lt;end&gt;</source>
-        <target state="final">Doesn't sound that way to me.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a136" name="=&gt;a136">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2767,16 +1375,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Doesn't sound that way to me.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q137_original" name="=&gt;q137_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">273</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No, what I meant was: &lt;end&gt;</source>
-        <target state="final">No, what I meant was: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q137" name="=&gt;q137">
@@ -2789,16 +1387,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a138_original" name="=&gt;a138_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">275</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Oh no, did I say something offensive? I am new to Tchortism, please forgive me!&lt;end&gt;</source>
-        <target state="final">Oh no, did I say something offensive? I am new to Tchortism, please forgive me!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a138" name="=&gt;a138">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2807,16 +1395,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Oh no, did I say something offensive? I am new to Tchortism, please forgive me!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q139_original" name="=&gt;q139_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">277</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Don't be silly, $(context.player.Name), you haven't offended anyone. &lt;end&gt;</source>
-        <target state="final">Don't be silly, $(context.player.Name), you haven't offended anyone. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q139" name="=&gt;q139">
@@ -2829,16 +1407,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a140_original" name="=&gt;a140_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">279</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about these tremors?&lt;end&gt;</source>
-        <target state="final">What can you tell me about these tremors?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a140" name="=&gt;a140">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2847,16 +1415,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>What can you tell me about these tremors?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q141_original" name="=&gt;q141_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">281</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We have a seismograph set up here in the lab and we monitor it very carefully. First of all, these tremors came out of nowhere: There was no previous indication that an earthquake was about to happen. And second - we still do not know why it is happening.&lt;end&gt;</source>
-        <target state="final">We have a seismograph set up here in the lab and we monitor it very carefully. First of all, these tremors came out of nowhere: There was no previous indication that an earthquake was about to happen. And second - we still do not know why it is happening.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q141" name="=&gt;q141">
@@ -2869,16 +1427,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a142_original" name="=&gt;a142_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">283</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do you maybe know the direction they are coming from?&lt;end&gt;</source>
-        <target state="final">Do you maybe know the direction they are coming from?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a142" name="=&gt;a142">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2887,16 +1435,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Do you maybe know the direction they are coming from?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q143_original" name="=&gt;q143_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">285</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well now, the readings - if they are correct, and they should be - imply that it is coming from the west. I obviously can't pinpoint it specifically, $(#brother/sister). Why do you ask?&lt;end&gt;</source>
-        <target state="final">Well now, the readings - if they are correct, and they should be - imply that it is coming from the west. I obviously can't pinpoint it specifically, $(#brother/sister). Why do you ask?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q143" name="=&gt;q143">
@@ -2909,16 +1447,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a144_original" name="=&gt;a144_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">287</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No reason. Let me ask you something else now.&lt;end&gt;</source>
-        <target state="final">No reason. Let me ask you something else now.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a144" name="=&gt;a144">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2927,16 +1455,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>No reason. Let me ask you something else now.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q145_original" name="=&gt;q145_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">289</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>By all means, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">By all means, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q145" name="=&gt;q145">
@@ -2949,16 +1467,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a146_original" name="=&gt;a146_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">291</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Interesting... I'll be right back. Tchort guide you.&lt;end&gt;</source>
-        <target state="final">Interesting... I'll be right back. Tchort guide you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a146" name="=&gt;a146">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2967,16 +1475,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Interesting... I'll be right back. Tchort guide you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q147_original" name="=&gt;q147_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">293</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guide you too, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">Tchort guide you too, $(#brother/sister).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q147" name="=&gt;q147">
@@ -2989,16 +1487,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a148_original" name="=&gt;a148_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">295</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hmmm... I need to go, see you later, Schteff.&lt;end&gt;</source>
-        <target state="final">Hmmm... I need to go, see you later, Schteff.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a148" name="=&gt;a148">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3007,16 +1495,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Hmmm... I need to go, see you later, Schteff.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q149_original" name="=&gt;q149_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">297</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guide you, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Tchort guide you, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q149" name="=&gt;q149">
@@ -3029,16 +1507,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a150_original" name="=&gt;a150_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">299</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hmmm... I'd like to ask you something else.&lt;end&gt;</source>
-        <target state="final">Hmmm... I'd like to ask you something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a150" name="=&gt;a150">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3047,16 +1515,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Hmmm... I'd like to ask you something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a151_original" name="=&gt;a151_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">301</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What am I supposed to do with the T-ray emitter again?&lt;end&gt;</source>
-        <target state="final">What am I supposed to do with the T-ray emitter again?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a151" name="=&gt;a151">
@@ -3069,16 +1527,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q152_original" name="=&gt;q152_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">303</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's simple: I gave you a T-ray emitter and a comm device; you now need to go to Harpocrates Station - take the stairs next to Eidein's Library - and once you get there, contact me over the comm device. The emitter has a tracker on it so that we can find the best place to deploy it based on the signal strength.&lt;end&gt;</source>
-        <target state="final">It's simple: I gave you a T-ray emitter and a comm device; you now need to go to Harpocrates Station - take the stairs next to Eidein's Library - and once you get there, contact me over the comm device. The emitter has a tracker on it so that we can find the best place to deploy it based on the signal strength.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q152" name="=&gt;q152">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3087,16 +1535,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>It's simple: I gave you a T-ray emitter and a comm device; you now need to go to Harpocrates Station - take the stairs next to Eidein's Library - and once you get there, contact me over the comm device. The emitter has a tracker on it so that we can find the best place to deploy it based on the signal strength.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q153_original" name="=&gt;q153_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">305</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's very simple... well, it should be. Now go; I'll be in the office waiting for your call.&lt;end&gt;</source>
-        <target state="final">It's very simple... well, it should be. Now go; I'll be in the office waiting for your call.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q153" name="=&gt;q153">
@@ -3109,16 +1547,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a154_original" name="=&gt;a154_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">307</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What do I need to do at the Core City station again?&lt;end&gt;</source>
-        <target state="final">What do I need to do at the Core City station again?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a154" name="=&gt;a154">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3127,16 +1555,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>What do I need to do at the Core City station again?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q155_original" name="=&gt;q155_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">309</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's simple: Take that T-ray emitter I gave you to Core City Upper Underrail station and try to plant it in a safe and secluded location. After you are done, return to me.&lt;end&gt;</source>
-        <target state="final">It's simple: Take that T-ray emitter I gave you to Core City Upper Underrail station and try to plant it in a safe and secluded location. After you are done, return to me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q155" name="=&gt;q155">
@@ -3149,16 +1567,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q156_original" name="=&gt;q156_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">311</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well now, you better get going. I can't wait to see what becomes of this test.&lt;end&gt;</source>
-        <target state="final">Well now, you better get going. I can't wait to see what becomes of this test.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q156" name="=&gt;q156">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3167,16 +1575,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Well now, you better get going. I can't wait to see what becomes of this test.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a157_original" name="=&gt;a157_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">313</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I will go look for Rassophore Pavel if you want me to.&lt;end&gt;</source>
-        <target state="final">I will go look for Rassophore Pavel if you want me to.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a157" name="=&gt;a157">
@@ -3189,16 +1587,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a158_original" name="=&gt;a158_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">315</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I found Pavel, but he was dead long before I got to him.&lt;end&gt;</source>
-        <target state="final">I found Pavel, but he was dead long before I got to him.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a158" name="=&gt;a158">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3207,16 +1595,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I found Pavel, but he was dead long before I got to him.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a159_original" name="=&gt;a159_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">317</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tell me more about T-ray technology you are developing?&lt;end&gt;</source>
-        <target state="final">Tell me more about T-ray technology you are developing?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a159" name="=&gt;a159">
@@ -3229,16 +1607,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a160_original" name="=&gt;a160_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">319</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about this department?&lt;end&gt;</source>
-        <target state="final">What can you tell me about this department?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a160" name="=&gt;a160">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3247,16 +1615,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>What can you tell me about this department?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q161_original" name="=&gt;q161_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">321</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well now, this is the Department of Physics and that is exactly what we do here - physics. ::He laughs.:: We have our little lab here and our own personal particle accelerator even and we are pretty much have our hands free to do whatever we desire. We perform tests, experiments and make new discoveries in an attempt to further aid this institution and its goals.&lt;end&gt;</source>
-        <target state="final">Well now, this is the Department of Physics and that is exactly what we do here - physics. ::He laughs.:: We have our little lab here and our own personal particle accelerator even and we are pretty much have our hands free to do whatever we desire. We perform tests, experiments and make new discoveries in an attempt to further aid this institution and its goals.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q161" name="=&gt;q161">
@@ -3269,16 +1627,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a162_original" name="=&gt;a162_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">323</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sounds like a lot of fun.&lt;end&gt;</source>
-        <target state="final">Sounds like a lot of fun.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a162" name="=&gt;a162">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3287,16 +1635,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Sounds like a lot of fun.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q163_original" name="=&gt;q163_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">325</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Oh, physics is fun - apex, and don't let anyone try to convince you otherwise. I suppose the only downside is that we sometimes tend to be underappreciated, I feel. You know, by the other departments; like, physicists play with their own toys, blah blah blah... Eidein pardon me for saying that, but it can get on my nerves sometimes.&lt;end&gt;</source>
-        <target state="final">Oh, physics is fun - apex, and don't let anyone try to convince you otherwise. I suppose the only downside is that we sometimes tend to be underappreciated, I feel. You know, by the other departments; like, physicists play with their own toys, blah blah blah... Eidein pardon me for saying that, but it can get on my nerves sometimes.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q163" name="=&gt;q163">
@@ -3309,16 +1647,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q164_original" name="=&gt;q164_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">327</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But when we *do* show them something apex then their jaws instantly crack the floor. ::He smiles.::&lt;end&gt;</source>
-        <target state="final">But when we *do* show them something apex then their jaws instantly crack the floor. ::He smiles.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q164" name="=&gt;q164">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3327,16 +1655,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>But when we *do* show them something apex then their jaws instantly crack the floor. ::He smiles.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a165_original" name="=&gt;a165_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">329</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That's interesting, but I would like to ask you something else.&lt;end&gt;</source>
-        <target state="final">That's interesting, but I would like to ask you something else.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a165" name="=&gt;a165">
@@ -3349,16 +1667,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q166_original" name="=&gt;q166_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">331</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am all ears, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">I am all ears, $(#brother/sister).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q166" name="=&gt;q166">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3367,16 +1675,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I am all ears, $(#brother/sister).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a167_original" name="=&gt;a167_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">333</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why did you join the Institute of Tchort?&lt;end&gt;</source>
-        <target state="final">Why did you join the Institute of Tchort?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a167" name="=&gt;a167">
@@ -3389,16 +1687,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q168_original" name="=&gt;q168_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">335</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That was a long time ago... ::He laughs.:: I... I am going to give you a simple answer here; there is no need to go into a lot of details. Here's a single sentence:&lt;end&gt;</source>
-        <target state="final">That was a long time ago... ::He laughs.:: I... I am going to give you a simple answer here; there is no need to go into a lot of details. Here's a single sentence:&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q168" name="=&gt;q168">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3407,16 +1695,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>That was a long time ago... ::He laughs.:: I... I am going to give you a simple answer here; there is no need to go into a lot of details. Here's a single sentence:&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q169_original" name="=&gt;q169_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">337</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I always had imagination, and here I could make it a reality. That's all there is to it, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">I always had imagination, and here I could make it a reality. That's all there is to it, $(#brother/sister).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q169" name="=&gt;q169">
@@ -3429,16 +1707,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a170_original" name="=&gt;a170_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">339</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am interested in purchasing some tech stuff, if you've got any available.&lt;end&gt;</source>
-        <target state="final">I am interested in purchasing some tech stuff, if you've got any available.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a170" name="=&gt;a170">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3447,16 +1715,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I am interested in purchasing some tech stuff, if you've got any available.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q171_original" name="=&gt;q171_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">341</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>An unusual request - but one I can respond to positively. Talk to Investigator Kiro and tell him I gave you permission. The selection should be satisfying, I'm sure.&lt;end&gt;</source>
-        <target state="final">An unusual request - but one I can respond to positively. Talk to Investigator Kiro and tell him I gave you permission. The selection should be satisfying, I'm sure.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q171" name="=&gt;q171">
@@ -3469,16 +1727,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a172_original" name="=&gt;a172_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">343</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Where can I find him?&lt;end&gt;</source>
-        <target state="final">Where can I find him?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a172" name="=&gt;a172">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3487,16 +1735,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Where can I find him?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q173_original" name="=&gt;q173_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">345</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He is over by the particle accelerator, probably doing some calculations. He's a brilliant mathematician so I *allow* him to do all the difficult math for me. ::He laughs.:: &lt;end&gt;</source>
-        <target state="final">He is over by the particle accelerator, probably doing some calculations. He's a brilliant mathematician so I *allow* him to do all the difficult math for me. ::He laughs.:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q173" name="=&gt;q173">
@@ -3509,16 +1747,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a174_original" name="=&gt;a174_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">347</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Thank you. I had other questions though.&lt;end&gt;</source>
-        <target state="final">Thank you. I had other questions though.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a174" name="=&gt;a174">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3527,16 +1755,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Thank you. I had other questions though.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q175_original" name="=&gt;q175_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">349</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Okay...&lt;end&gt;</source>
-        <target state="final">Okay...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q175" name="=&gt;q175">
@@ -3549,16 +1767,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a176_original" name="=&gt;a176_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">351</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What does a cell about to undergo mitosis say to an interested investigator? "I hope I have your divided attention!"&lt;end&gt;</source>
-        <target state="final">What does a cell about to undergo mitosis say to an interested investigator? "I hope I have your divided attention!"&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a176" name="=&gt;a176">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3567,16 +1775,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>What does a cell about to undergo mitosis say to an interested investigator? "I hope I have your divided attention!"&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q177_original" name="=&gt;q177_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">353</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He laughs at the joke.:: That is apex! Very good, very good. Did you come up with that?&lt;end&gt;</source>
-        <target state="final">::He laughs at the joke.:: That is apex! Very good, very good. Did you come up with that?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q177" name="=&gt;q177">
@@ -3589,16 +1787,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a178_original" name="=&gt;a178_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">355</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes. Everyone says I'm a really funny $(#guy/girl).&lt;end&gt;</source>
-        <target state="final">Yes. Everyone says I'm a really funny $(#guy/girl).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a178" name="=&gt;a178">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3607,20 +1795,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Yes. Everyone says I'm a really funny $(#guy/girl).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q179_original" name="=&gt;q179_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">357</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And you are. That was brilliant. 
-
-&lt;end&gt;</source>
-        <target state="final">And you are. That was brilliant. 
-
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q179" name="=&gt;q179">
@@ -3635,16 +1809,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q180_original" name="=&gt;q180_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">359</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You know, I should probably suggest to Praepostor Amelia that she takes a postulant's sense of humor into great consideration when making the selection. Never enough funny people here at the Institute!&lt;end&gt;</source>
-        <target state="final">You know, I should probably suggest to Praepostor Amelia that she takes a postulant's sense of humor into great consideration when making the selection. Never enough funny people here at the Institute!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q180" name="=&gt;q180">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3655,16 +1819,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a181_original" name="=&gt;a181_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">361</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I heard it from an investigator over at the genetics lab.&lt;end&gt;</source>
-        <target state="final">I heard it from an investigator over at the genetics lab.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a181" name="=&gt;a181">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3673,20 +1827,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I heard it from an investigator over at the genetics lab.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q182_original" name="=&gt;q182_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">363</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That was brilliant either way. It's the *way* you tell a joke that matters the most. 
-
-&lt;end&gt;</source>
-        <target state="final">That was brilliant either way. It's the *way* you tell a joke that matters the most. 
-
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q182" name="=&gt;q182">
@@ -3701,16 +1841,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a183_original" name="=&gt;a183_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">365</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I heard it somewhere a long time ago.&lt;end&gt;</source>
-        <target state="final">I heard it somewhere a long time ago.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a183" name="=&gt;a183">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3719,16 +1849,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I heard it somewhere a long time ago.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a184_original" name="=&gt;a184_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">367</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guide you, brother.&lt;end&gt;</source>
-        <target state="final">Tchort guide you, brother.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a184" name="=&gt;a184">
@@ -3741,16 +1861,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a185_original" name="=&gt;a185_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">369</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have to go now. See you later, Schteff.&lt;end&gt;</source>
-        <target state="final">I have to go now. See you later, Schteff.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a185" name="=&gt;a185">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3759,16 +1869,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>I have to go now. See you later, Schteff.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a186_original" name="=&gt;a186_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">371</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am $(context.player.Name), but please - just call me $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">I am $(context.player.Name), but please - just call me $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a186" name="=&gt;a186">
@@ -3781,16 +1881,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q187_original" name="=&gt;q187_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">373</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He laughs.:: I will, I will... $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">::He laughs.:: I will, I will... $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q187" name="=&gt;q187">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3799,16 +1889,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>::He laughs.:: I will, I will... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q188_original" name="=&gt;q188_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">375</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Now, I assume you wished to talk to me about something?&lt;end&gt;</source>
-        <target state="final">Now, I assume you wished to talk to me about something?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q188" name="=&gt;q188">
@@ -3821,16 +1901,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a189_original" name="=&gt;a189_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">377</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>My name is $(context.player.Name), and I must confess that the light show was indeed pleasing to my eyes.&lt;end&gt;</source>
-        <target state="final">My name is $(context.player.Name), and I must confess that the light show was indeed pleasing to my eyes.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a189" name="=&gt;a189">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3839,16 +1909,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>My name is $(context.player.Name), and I must confess that the light show was indeed pleasing to my eyes.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q190_original" name="=&gt;q190_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">379</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He laughs.::: You are not the only one, $(context.player.Name); I'm sure you have caught our beloved Minister Unas appreciating the coils - sometimes from really unsafe distances. ::He laughs.:: Hmmm, I should warn him about that - again.&lt;end&gt;</source>
-        <target state="final">::He laughs.::: You are not the only one, $(context.player.Name); I'm sure you have caught our beloved Minister Unas appreciating the coils - sometimes from really unsafe distances. ::He laughs.:: Hmmm, I should warn him about that - again.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q190" name="=&gt;q190">
@@ -3861,16 +1921,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q191_original" name="=&gt;q191_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">381</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Are you here to ask about the tremors? Because everyone swarmed here after the ground started shaking, like it was something we are causing. Reminds me of the particle accelerator black hole panic from a few years ago. Magnificent Tchort...&lt;end&gt;</source>
-        <target state="final">Are you here to ask about the tremors? Because everyone swarmed here after the ground started shaking, like it was something we are causing. Reminds me of the particle accelerator black hole panic from a few years ago. Magnificent Tchort...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q191" name="=&gt;q191">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3879,16 +1929,6 @@ Um, interesting choice of words... $(context.player.Name).&lt;end&gt;</source>
       <segment state="translated">
         <source>Are you here to ask about the tremors? Because everyone swarmed here after the ground started shaking, like it was something we are causing. Reminds me of the particle accelerator black hole panic from a few years ago. Magnificent Tchort...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q192_original" name="=&gt;q192_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">383</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Need something, $(#brother/sister)?&lt;end&gt;</source>
-        <target state="final">Need something, $(#brother/sister)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q192" name="=&gt;q192">

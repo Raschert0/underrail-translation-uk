@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\pb_oliver.txt" original="dialogs\characters\pb_oliver.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I think you made the wrong choice, $(context.player.Name), but if that's what you wish... Best of life in the future.&lt;end&gt;</source>
-        <target state="final">I think you made the wrong choice, $(context.player.Name), but if that's what you wish... Best of life in the future.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -19,24 +9,6 @@
       <segment state="translated">
         <source>I think you made the wrong choice, $(context.player.Name), but if that's what you wish... Best of life in the future.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::You find the consul infuriated, muttering something to himself.::
-
-Corporal! Did you see that insolence!? Those rude... those... those... I'm at a loss for words. I was thrown out of my office like a dog. What surprises me the most is that the colonel did *nothing* to prevent it!
-
-::He sighs.:: I need a cup of mushroom tea to calm me down. Dear me...&lt;end&gt;</source>
-        <target state="final">::You find the consul infuriated, muttering something to himself.::
-
-Corporal! Did you see that insolence!? Those rude... those... those... I'm at a loss for words. I was thrown out of my office like a dog. What surprises me the most is that the colonel did *nothing* to prevent it!
-
-::He sighs.:: I need a cup of mushroom tea to calm me down. Dear me...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -53,16 +25,6 @@ Corporal! Did you see that insolence!? Those rude... those... those... I'm at a 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -71,16 +33,6 @@ Corporal! Did you see that insolence!? Those rude... those... those... I'm at a 
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You mentioned you wanted to discuss something with me.&lt;end&gt;</source>
-        <target state="final">You mentioned you wanted to discuss something with me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -93,16 +45,6 @@ Corporal! Did you see that insolence!? Those rude... those... those... I'm at a 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Indeed I have, Corporal. The situation I'm about to explain to you is not something that occurs often; in all honesty, this is the first time it has happened. At least as far as I'm aware. Perhaps that is the reason the colonel asked for my opinion on this.&lt;end&gt;</source>
-        <target state="final">Indeed I have, Corporal. The situation I'm about to explain to you is not something that occurs often; in all honesty, this is the first time it has happened. At least as far as I'm aware. Perhaps that is the reason the colonel asked for my opinion on this.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -113,16 +55,6 @@ Corporal! Did you see that insolence!? Those rude... those... those... I'm at a 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Can you tell me what happened?&lt;end&gt;</source>
-        <target state="final">Can you tell me what happened?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -131,20 +63,6 @@ Corporal! Did you see that insolence!? Those rude... those... those... I'm at a 
       <segment state="translated">
         <source>Can you tell me what happened?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, I can. ::He takes a deep breath.:: We have a problem with several Protectorate soldiers that have... gone renegade. It happened before you arrived, not too long ago. A squad under the command of SFC Timothy Holloway had simply left Fort Apogee. No one ever said anything, nothing happened that could suggest why they'd leave. Nothing, nothing at all.
-
-They simply... left.&lt;end&gt;</source>
-        <target state="final">Yes, I can. ::He takes a deep breath.:: We have a problem with several Protectorate soldiers that have... gone renegade. It happened before you arrived, not too long ago. A squad under the command of SFC Timothy Holloway had simply left Fort Apogee. No one ever said anything, nothing happened that could suggest why they'd leave. Nothing, nothing at all.
-
-They simply... left.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -159,16 +77,6 @@ They simply... left.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>SFC?&lt;end&gt;</source>
-        <target state="final">SFC?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -177,16 +85,6 @@ They simply... left.&lt;end&gt;</source>
       <segment state="translated">
         <source>SFC?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sergeant First Class. Please, Corporal.&lt;end&gt;</source>
-        <target state="final">Sergeant First Class. Please, Corporal.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -199,16 +97,6 @@ They simply... left.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do you know where they are now?&lt;end&gt;</source>
-        <target state="final">Do you know where they are now?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -217,16 +105,6 @@ They simply... left.&lt;end&gt;</source>
       <segment state="translated">
         <source>Do you know where they are now?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They've entrenched themselves, or so I've been told, in one of the stations. It's um... oh, for crying out loud... ::He takes a moment to think.:: Yes - Dolos Center, that's it. It's all the way to the west, past Core City station.&lt;end&gt;</source>
-        <target state="final">They've entrenched themselves, or so I've been told, in one of the stations. It's um... oh, for crying out loud... ::He takes a moment to think.:: Yes - Dolos Center, that's it. It's all the way to the west, past Core City station.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -239,16 +117,6 @@ They simply... left.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a12_original" name="=&gt;a12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So, what do you want me to do?&lt;end&gt;</source>
-        <target state="final">So, what do you want me to do?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -257,16 +125,6 @@ They simply... left.&lt;end&gt;</source>
       <segment state="translated">
         <source>So, what do you want me to do?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q13_original" name="=&gt;q13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, Corporal, I want you to go find them and negotiate their return. The offense is quite serious, and the colonel was ready to take drastic measures. I convinced him to allow me to send someone to attempt a more diplomatic approach first.&lt;end&gt;</source>
-        <target state="final">Well, Corporal, I want you to go find them and negotiate their return. The offense is quite serious, and the colonel was ready to take drastic measures. I convinced him to allow me to send someone to attempt a more diplomatic approach first.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -279,16 +137,6 @@ They simply... left.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You're an outsider, dear Corporal, or you were when the sergeant's squad went renegade, so it is my belief that they should feel less threatened by you - if you play your cards right. You were in no way connected to any of the recent goings-on in Fort Apogee, you couldn't have been, so the more neutral they perceive you to be, the better.&lt;end&gt;</source>
-        <target state="final">You're an outsider, dear Corporal, or you were when the sergeant's squad went renegade, so it is my belief that they should feel less threatened by you - if you play your cards right. You were in no way connected to any of the recent goings-on in Fort Apogee, you couldn't have been, so the more neutral they perceive you to be, the better.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -299,16 +147,6 @@ They simply... left.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What will happen to them if I convince them to come back?&lt;end&gt;</source>
-        <target state="final">What will happen to them if I convince them to come back?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -317,20 +155,6 @@ They simply... left.&lt;end&gt;</source>
       <segment state="translated">
         <source>What will happen to them if I convince them to come back?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>As I've said before, what they did is a serious offense. Court-martial most certainly awaits them, and the usual penalty for desertion is, well, death. However, if they surrender peacefully - "return" might be a better word - if they return peacefully, then perhaps their punishment won't be as severe, considering that SFC Holloway has an outstanding record.
-
-Everything is up to Colonel Cathcart, in the end.&lt;end&gt;</source>
-        <target state="final">As I've said before, what they did is a serious offense. Court-martial most certainly awaits them, and the usual penalty for desertion is, well, death. However, if they surrender peacefully - "return" might be a better word - if they return peacefully, then perhaps their punishment won't be as severe, considering that SFC Holloway has an outstanding record.
-
-Everything is up to Colonel Cathcart, in the end.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -345,16 +169,6 @@ Everything is up to Colonel Cathcart, in the end.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q17_original" name="=&gt;q17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So, what do you say to all this?&lt;end&gt;</source>
-        <target state="final">So, what do you say to all this?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -365,16 +179,6 @@ Everything is up to Colonel Cathcart, in the end.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a18_original" name="=&gt;a18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll do it.&lt;end&gt;</source>
-        <target state="final">I'll do it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -383,20 +187,6 @@ Everything is up to Colonel Cathcart, in the end.&lt;end&gt;</source>
       <segment state="translated">
         <source>I'll do it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q19_original" name="=&gt;q19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(#Bravo/Brava), just $(#bravo/brava)! I've told you everything I know, dear Corporal. If you need more information, the colonel is your best bet.
-
-Good luck on your mission.&lt;end&gt;</source>
-        <target state="final">$(#Bravo/Brava), just $(#bravo/brava)! I've told you everything I know, dear Corporal. If you need more information, the colonel is your best bet.
-
-Good luck on your mission.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -411,16 +201,6 @@ Good luck on your mission.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q20_original" name="=&gt;q20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -429,16 +209,6 @@ Good luck on your mission.&lt;end&gt;</source>
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a21_original" name="=&gt;a21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll have to think about it.&lt;end&gt;</source>
-        <target state="final">I'll have to think about it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -451,16 +221,6 @@ Good luck on your mission.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Let me know of your decision as soon as possible. We don't have much time.&lt;end&gt;</source>
-        <target state="final">Let me know of your decision as soon as possible. We don't have much time.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -469,16 +229,6 @@ Good luck on your mission.&lt;end&gt;</source>
       <segment state="translated">
         <source>Let me know of your decision as soon as possible. We don't have much time.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a23_original" name="=&gt;a23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What if things turn ugly?&lt;end&gt;</source>
-        <target state="final">What if things turn ugly?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -491,16 +241,6 @@ Good luck on your mission.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q24_original" name="=&gt;q24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then... then you have no other choice.&lt;end&gt;</source>
-        <target state="final">Then... then you have no other choice.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -509,16 +249,6 @@ Good luck on your mission.&lt;end&gt;</source>
       <segment state="translated">
         <source>Then... then you have no other choice.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a25_original" name="=&gt;a25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So, I'm guessing you want me to talk to them. Right?&lt;end&gt;</source>
-        <target state="final">So, I'm guessing you want me to talk to them. Right?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -531,16 +261,6 @@ Good luck on your mission.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q26_original" name="=&gt;q26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(#Bravo/Brava), Corporal, $(#bravo/brava). That is exactly what I want you to do. Find them and negotiate their return. The offense is quite serious, and the colonel was ready to take drastic measures. I convinced him to allow me to send someone to attempt a more diplomatic approach first.&lt;end&gt;</source>
-        <target state="final">$(#Bravo/Brava), Corporal, $(#bravo/brava). That is exactly what I want you to do. Find them and negotiate their return. The offense is quite serious, and the colonel was ready to take drastic measures. I convinced him to allow me to send someone to attempt a more diplomatic approach first.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -549,16 +269,6 @@ Good luck on your mission.&lt;end&gt;</source>
       <segment state="translated">
         <source>$(#Bravo/Brava), Corporal, $(#bravo/brava). That is exactly what I want you to do. Find them and negotiate their return. The offense is quite serious, and the colonel was ready to take drastic measures. I convinced him to allow me to send someone to attempt a more diplomatic approach first.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a27_original" name="=&gt;a27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do you want them dead? I can make them dead! Bloody traitors!&lt;end&gt;</source>
-        <target state="final">Do you want them dead? I can make them dead! Bloody traitors!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -571,16 +281,6 @@ Good luck on your mission.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He seems astonished by your answer.:: No! No, no, no! I don't want you to murder them, what is wrong with you, Corporal?&lt;end&gt;</source>
-        <target state="final">::He seems astonished by your answer.:: No! No, no, no! I don't want you to murder them, what is wrong with you, Corporal?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -589,16 +289,6 @@ Good luck on your mission.&lt;end&gt;</source>
       <segment state="translated">
         <source>::He seems astonished by your answer.:: No! No, no, no! I don't want you to murder them, what is wrong with you, Corporal?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q29_original" name="=&gt;q29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I want you to go find them and negotiate their return. The offense is quite serious, and the colonel was ready to take drastic measures. I convinced him to allow me to send someone to attempt a more diplomatic approach first.&lt;end&gt;</source>
-        <target state="final">I want you to go find them and negotiate their return. The offense is quite serious, and the colonel was ready to take drastic measures. I convinced him to allow me to send someone to attempt a more diplomatic approach first.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -611,16 +301,6 @@ Good luck on your mission.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a30_original" name="=&gt;a30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The Invictus can kill if you need him to kill.&lt;end&gt;</source>
-        <target state="final">The Invictus can kill if you need him to kill.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -629,16 +309,6 @@ Good luck on your mission.&lt;end&gt;</source>
       <segment state="translated">
         <source>The Invictus can kill if you need him to kill.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a31_original" name="=&gt;a31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I decided to negotiate with the renegade squad.&lt;end&gt;</source>
-        <target state="final">I decided to negotiate with the renegade squad.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -651,16 +321,6 @@ Good luck on your mission.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a32_original" name="=&gt;a32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>About those renegade soldiers...&lt;end&gt;</source>
-        <target state="final">About those renegade soldiers...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -669,16 +329,6 @@ Good luck on your mission.&lt;end&gt;</source>
       <segment state="translated">
         <source>About those renegade soldiers...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(#Bravo/Brava), Corporal, $(#bravo/brava)! The soldiers have just returned back to Fort Apogee and surrendered all their weapons and equipment. They are in custody now, but after speaking with Colonel Cathcart, I was pleasantly surprised by what he told me. I am extremely pleased with your work!&lt;end&gt;</source>
-        <target state="final">$(#Bravo/Brava), Corporal, $(#bravo/brava)! The soldiers have just returned back to Fort Apogee and surrendered all their weapons and equipment. They are in custody now, but after speaking with Colonel Cathcart, I was pleasantly surprised by what he told me. I am extremely pleased with your work!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -691,16 +341,6 @@ Good luck on your mission.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a34_original" name="=&gt;a34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What will happen to SFC and his men?&lt;end&gt;</source>
-        <target state="final">What will happen to SFC and his men?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -709,20 +349,6 @@ Good luck on your mission.&lt;end&gt;</source>
       <segment state="translated">
         <source>What will happen to SFC and his men?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q35_original" name="=&gt;q35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They are in custody at the moment, and will be court-martialed. Regardless, you convinced the colonel to initiate a separate investigation based on SFC's claims, so that will play a huge factor during the process.
-
-The sergeant and his men surrendered peacefully and... I have a good feeling about this.&lt;end&gt;</source>
-        <target state="final">They are in custody at the moment, and will be court-martialed. Regardless, you convinced the colonel to initiate a separate investigation based on SFC's claims, so that will play a huge factor during the process.
-
-The sergeant and his men surrendered peacefully and... I have a good feeling about this.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -737,16 +363,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q36_original" name="=&gt;q36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Again, $(#bravo/brava), Corporal. One other thing: Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</source>
-        <target state="final">Again, $(#bravo/brava), Corporal. One other thing: Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -755,16 +371,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
       <segment state="translated">
         <source>Again, $(#bravo/brava), Corporal. One other thing: Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q37_original" name="=&gt;q37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -777,16 +383,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q38_original" name="=&gt;q38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(#Bravo/Brava), Corporal, $(#bravo/brava)! The soldiers have just returned back to Fort Apogee and surrendered all their weapons and equipment. They are in custody at the moment.&lt;end&gt;</source>
-        <target state="final">$(#Bravo/Brava), Corporal, $(#bravo/brava)! The soldiers have just returned back to Fort Apogee and surrendered all their weapons and equipment. They are in custody at the moment.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -795,16 +391,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
       <segment state="translated">
         <source>$(#Bravo/Brava), Corporal, $(#bravo/brava)! The soldiers have just returned back to Fort Apogee and surrendered all their weapons and equipment. They are in custody at the moment.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a39_original" name="=&gt;a39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What will happen to SFC and his men?&lt;end&gt;</source>
-        <target state="final">What will happen to SFC and his men?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -817,16 +403,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q40_original" name="=&gt;q40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, dear Corporal, they will be court-martialed for desertion. Punishment will be severe, but I can assure you there will be no death sentence. It's all based on my conversation with Colonel Cathcart.&lt;end&gt;</source>
-        <target state="final">Well, dear Corporal, they will be court-martialed for desertion. Punishment will be severe, but I can assure you there will be no death sentence. It's all based on my conversation with Colonel Cathcart.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -835,16 +411,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
       <segment state="translated">
         <source>Well, dear Corporal, they will be court-martialed for desertion. Punishment will be severe, but I can assure you there will be no death sentence. It's all based on my conversation with Colonel Cathcart.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q41_original" name="=&gt;q41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I can't really give you anything more; we'll just have to wait for the trial. I'm just glad no blood was spilled. Killing your own fellow soldiers, whatever the reason for their desertion is, feels wrong from my point of view. Very much so indeed.&lt;end&gt;</source>
-        <target state="final">I can't really give you anything more; we'll just have to wait for the trial. I'm just glad no blood was spilled. Killing your own fellow soldiers, whatever the reason for their desertion is, feels wrong from my point of view. Very much so indeed.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -857,16 +423,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q42_original" name="=&gt;q42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, the task was successfully accomplished, Corporal. Bravo. One other thing: Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</source>
-        <target state="final">Well, the task was successfully accomplished, Corporal. Bravo. One other thing: Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -875,16 +431,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
       <segment state="translated">
         <source>Well, the task was successfully accomplished, Corporal. Bravo. One other thing: Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q43_original" name="=&gt;q43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>An interesting turn of events, Corporal: The renegade soldiers have returned without SFC Holloway! They surrendered their weapons and equipment and are currently held in custody.&lt;end&gt;</source>
-        <target state="final">An interesting turn of events, Corporal: The renegade soldiers have returned without SFC Holloway! They surrendered their weapons and equipment and are currently held in custody.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -897,16 +443,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q44_original" name="=&gt;q44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I received no explanation for this. Did *you* have anything to do with it?&lt;end&gt;</source>
-        <target state="final">I received no explanation for this. Did *you* have anything to do with it?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -915,16 +451,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
       <segment state="translated">
         <source>I received no explanation for this. Did *you* have anything to do with it?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a45_original" name="=&gt;a45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, I assassinated SFC Holloway. Without their leader, I was hoping that the men would perhaps decide to surrender.&lt;end&gt;</source>
-        <target state="final">Yes, I assassinated SFC Holloway. Without their leader, I was hoping that the men would perhaps decide to surrender.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -937,16 +463,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q46_original" name="=&gt;q46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You... you did what? But... why?&lt;end&gt;</source>
-        <target state="final">You... you did what? But... why?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -955,16 +471,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
       <segment state="translated">
         <source>You... you did what? But... why?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q47_original" name="=&gt;q47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::It takes a few seconds before the consul gets his bearings.:: I dislike your methods, Corporal. I asked of you to negotiate with those men, not go on an assassination mission. You might think that you've sacrificed one to save the rest, but in reality, SFC and his previous *impeccable* record could've played a large part in mitigating their sentence! Now... you might not have saved them from death at all.&lt;end&gt;</source>
-        <target state="final">::It takes a few seconds before the consul gets his bearings.:: I dislike your methods, Corporal. I asked of you to negotiate with those men, not go on an assassination mission. You might think that you've sacrificed one to save the rest, but in reality, SFC and his previous *impeccable* record could've played a large part in mitigating their sentence! Now... you might not have saved them from death at all.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -977,16 +483,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q48_original" name="=&gt;q48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Just think about what you've done, Corporal. Just... think about it.&lt;end&gt;</source>
-        <target state="final">Just think about what you've done, Corporal. Just... think about it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -997,16 +493,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a49_original" name="=&gt;a49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No, I too have no idea what is going on.&lt;end&gt;</source>
-        <target state="final">No, I too have no idea what is going on.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1015,20 +501,6 @@ The sergeant and his men surrendered peacefully and... I have a good feeling abo
       <segment state="translated">
         <source>No, I too have no idea what is going on.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q50_original" name="=&gt;q50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Peculiar, Corporal, very peculiar, but I'm sure we will soon receive an explanation. I don't know what to tell you, I guess the negotiations are off.
-
-I'll keep a close eye on the trail, once it starts. &lt;end&gt;</source>
-        <target state="final">Peculiar, Corporal, very peculiar, but I'm sure we will soon receive an explanation. I don't know what to tell you, I guess the negotiations are off.
-
-I'll keep a close eye on the trail, once it starts. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -1043,16 +515,6 @@ I'll keep a close eye on the trail, once it starts. &lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q51_original" name="=&gt;q51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah, yes, Corporal. What of them?&lt;end&gt;</source>
-        <target state="final">Ah, yes, Corporal. What of them?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1061,16 +523,6 @@ I'll keep a close eye on the trail, once it starts. &lt;end&gt;</source>
       <segment state="translated">
         <source>Ah, yes, Corporal. What of them?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a52_original" name="=&gt;a52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I spoke with the sergeant, but I don't think I'll be able to convince him to return peacefully. I guess I'll be leaving this for the Protectorate to deal with.&lt;end&gt;</source>
-        <target state="final">I spoke with the sergeant, but I don't think I'll be able to convince him to return peacefully. I guess I'll be leaving this for the Protectorate to deal with.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -1083,16 +535,6 @@ I'll keep a close eye on the trail, once it starts. &lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q53_original" name="=&gt;q53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What did SFC Holloway tell you?&lt;end&gt;</source>
-        <target state="final">What did SFC Holloway tell you?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1103,16 +545,6 @@ I'll keep a close eye on the trail, once it starts. &lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a54_original" name="=&gt;a54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Tell Holloway's story.::&lt;end&gt;</source>
-        <target state="final">::Tell Holloway's story.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1121,20 +553,6 @@ I'll keep a close eye on the trail, once it starts. &lt;end&gt;</source>
       <segment state="translated">
         <source>::Tell Holloway's story.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q55_original" name="=&gt;q55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The consul attentively listens as you retell him the sergeant's story word by word. His face reacts to every following sentence, and you notice - what you believe to be - understanding in his eyes. After you are done, he quickly exclaims.::
-
-I will speak to Colonel Cathcart about this as soon as possible! Leave this to us now - you've done enough already.&lt;end&gt;</source>
-        <target state="final">::The consul attentively listens as you retell him the sergeant's story word by word. His face reacts to every following sentence, and you notice - what you believe to be - understanding in his eyes. After you are done, he quickly exclaims.::
-
-I will speak to Colonel Cathcart about this as soon as possible! Leave this to us now - you've done enough already.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -1149,16 +567,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q56_original" name="=&gt;q56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That would be all for now, dear Corporal. I'll notify you as soon as something new happens. And... Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</source>
-        <target state="final">That would be all for now, dear Corporal. I'll notify you as soon as something new happens. And... Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1167,16 +575,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
       <segment state="translated">
         <source>That would be all for now, dear Corporal. I'll notify you as soon as something new happens. And... Staff Sergeant Fraser *might* have something for you. Do go and pay him a visit.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a57_original" name="=&gt;a57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Not much, really. I still don't know his motives.&lt;end&gt;</source>
-        <target state="final">Not much, really. I still don't know his motives.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -1189,16 +587,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q58_original" name="=&gt;q58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He nods a few times with a somewhat worried look on his face.:: Well, in that case, dear Corporal, you leave me no option but to inform the colonel of your findings. What happens next is up to him and, well, SFC Holloway; I only wish it doesn't end violently.&lt;end&gt;</source>
-        <target state="final">::He nods a few times with a somewhat worried look on his face.:: Well, in that case, dear Corporal, you leave me no option but to inform the colonel of your findings. What happens next is up to him and, well, SFC Holloway; I only wish it doesn't end violently.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1207,16 +595,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
       <segment state="translated">
         <source>::He nods a few times with a somewhat worried look on his face.:: Well, in that case, dear Corporal, you leave me no option but to inform the colonel of your findings. What happens next is up to him and, well, SFC Holloway; I only wish it doesn't end violently.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q59_original" name="=&gt;q59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That would be all for now, dear Corporal. I'll notify you as soon as something new happens.&lt;end&gt;</source>
-        <target state="final">That would be all for now, dear Corporal. I'll notify you as soon as something new happens.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -1229,16 +607,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a60_original" name="=&gt;a60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He was extremely uncooperative, and I was unable to learn anything of use, nor was I able to make any progress with that bloody-minded idiot.&lt;end&gt;</source>
-        <target state="final">He was extremely uncooperative, and I was unable to learn anything of use, nor was I able to make any progress with that bloody-minded idiot.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1247,16 +615,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
       <segment state="translated">
         <source>He was extremely uncooperative, and I was unable to learn anything of use, nor was I able to make any progress with that bloody-minded idiot.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a61_original" name="=&gt;a61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I had to neutralize everyone.&lt;end&gt;</source>
-        <target state="final">I had to neutralize everyone.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -1269,16 +627,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q62_original" name="=&gt;q62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Consul seems saddened by your words.:: So, they are all dead. Ah, Corporal... I am greatly displeased by this, but know that I don't blame you for anything. You did what was necessary. I sincerely hope so.&lt;end&gt;</source>
-        <target state="final">::Consul seems saddened by your words.:: So, they are all dead. Ah, Corporal... I am greatly displeased by this, but know that I don't blame you for anything. You did what was necessary. I sincerely hope so.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1287,16 +635,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
       <segment state="translated">
         <source>::Consul seems saddened by your words.:: So, they are all dead. Ah, Corporal... I am greatly displeased by this, but know that I don't blame you for anything. You did what was necessary. I sincerely hope so.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q63_original" name="=&gt;q63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Consider your mission completed. That would be all, Corporal.&lt;end&gt;</source>
-        <target state="final">Consider your mission completed. That would be all, Corporal.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -1309,16 +647,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a64_original" name="=&gt;a64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Nothing. I'll come back later.&lt;end&gt;</source>
-        <target state="final">Nothing. I'll come back later.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1327,16 +655,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
       <segment state="translated">
         <source>Nothing. I'll come back later.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q65_original" name="=&gt;q65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Have any other subjects you wish to discuss?&lt;end&gt;</source>
-        <target state="final">Have any other subjects you wish to discuss?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -1349,16 +667,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a66_original" name="=&gt;a66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do you know anything about a former Black Eel member named Kaya? She was supposed to reach out to you, and I'm just wondering if she managed to do so.&lt;end&gt;</source>
-        <target state="final">Do you know anything about a former Black Eel member named Kaya? She was supposed to reach out to you, and I'm just wondering if she managed to do so.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1367,20 +675,6 @@ I will speak to Colonel Cathcart about this as soon as possible! Leave this to u
       <segment state="translated">
         <source>Do you know anything about a former Black Eel member named Kaya? She was supposed to reach out to you, and I'm just wondering if she managed to do so.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q67_original" name="=&gt;q67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Kaya...? Yes, yes - the informant.
-
-You see, Corporal, due to her current - how shall I say - *status*, the information I can give you is rather limited. Rest assured, however, that she is perfectly well and that we've arranged for her, under Protectorate authorization, to be moved to a safe location for the time being.&lt;end&gt;</source>
-        <target state="final">Kaya...? Yes, yes - the informant.
-
-You see, Corporal, due to her current - how shall I say - *status*, the information I can give you is rather limited. Rest assured, however, that she is perfectly well and that we've arranged for her, under Protectorate authorization, to be moved to a safe location for the time being.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q67" name="=&gt;q67">
@@ -1395,16 +689,6 @@ You see, Corporal, due to her current - how shall I say - *status*, the informat
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q68_original" name="=&gt;q68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Afterwards... Well, that is entirely up to Protectorate; she is now outside United Stations jurisdiction.&lt;end&gt;</source>
-        <target state="final">Afterwards... Well, that is entirely up to Protectorate; she is now outside United Stations jurisdiction.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1413,16 +697,6 @@ You see, Corporal, due to her current - how shall I say - *status*, the informat
       <segment state="translated">
         <source>Afterwards... Well, that is entirely up to Protectorate; she is now outside United Stations jurisdiction.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a69_original" name="=&gt;a69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about Fort Apogee?&lt;end&gt;</source>
-        <target state="final">What can you tell me about Fort Apogee?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -1435,16 +709,6 @@ You see, Corporal, due to her current - how shall I say - *status*, the informat
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q70_original" name="=&gt;q70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>While many associate Fort Apogee with the Protectorate military might, one must not forget that the United Stations consulate is located here. All North Underrail citizens, or, generally citizens from any station that is a member of the union, are always reminded that they can seek refuge here in case of emergency.&lt;end&gt;</source>
-        <target state="final">While many associate Fort Apogee with the Protectorate military might, one must not forget that the United Stations consulate is located here. All North Underrail citizens, or, generally citizens from any station that is a member of the union, are always reminded that they can seek refuge here in case of emergency.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1455,16 +719,6 @@ You see, Corporal, due to her current - how shall I say - *status*, the informat
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q71_original" name="=&gt;q71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's been five years since the base was built and, while we still haven't integrated any of the South Underrail stations, we've made enormous progress.&lt;end&gt;</source>
-        <target state="final">It's been five years since the base was built and, while we still haven't integrated any of the South Underrail stations, we've made enormous progress.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1473,20 +727,6 @@ You see, Corporal, due to her current - how shall I say - *status*, the informat
       <segment state="translated">
         <source>It's been five years since the base was built and, while we still haven't integrated any of the South Underrail stations, we've made enormous progress.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q72_original" name="=&gt;q72_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>For example, take a look at Junkyard: We have an embassy there, and as you know, Junkyard is one of the most hostile places in the South.
-
-Slowly but surely, we'll bring prosperity to this region. I truly believe it.&lt;end&gt;</source>
-        <target state="final">For example, take a look at Junkyard: We have an embassy there, and as you know, Junkyard is one of the most hostile places in the South.
-
-Slowly but surely, we'll bring prosperity to this region. I truly believe it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -1501,16 +741,6 @@ Slowly but surely, we'll bring prosperity to this region. I truly believe it.&lt
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a73_original" name="=&gt;a73_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">145</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about Colonel Cathcart?&lt;end&gt;</source>
-        <target state="final">What can you tell me about Colonel Cathcart?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a73" name="=&gt;a73">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1519,16 +749,6 @@ Slowly but surely, we'll bring prosperity to this region. I truly believe it.&lt
       <segment state="translated">
         <source>What can you tell me about Colonel Cathcart?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q74_original" name="=&gt;q74_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">147</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Colonel Cathcart is the base commander of Fort Apogee. He is an incredibly competent individual, and I feel, and I really mean it, that I'm quite fortunate to be working with him. You see, the United Stations and Protectorate work closely on accomplishing our common goals. United Stations are concerned with diplomacy and integrations, Protectorate - with enforcing law and order. Therefore, it is essential that the two understand each other well.&lt;end&gt;</source>
-        <target state="final">Colonel Cathcart is the base commander of Fort Apogee. He is an incredibly competent individual, and I feel, and I really mean it, that I'm quite fortunate to be working with him. You see, the United Stations and Protectorate work closely on accomplishing our common goals. United Stations are concerned with diplomacy and integrations, Protectorate - with enforcing law and order. Therefore, it is essential that the two understand each other well.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q74" name="=&gt;q74">
@@ -1541,16 +761,6 @@ Slowly but surely, we'll bring prosperity to this region. I truly believe it.&lt
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q75_original" name="=&gt;q75_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">149</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>With that said... Colonel Cathcart can be a bit adamant when it comes to certain things, especially when it comes to the age old diplomatic versus combat approaches, but fortunately our disagreements were few and far between. And naturally, such things are bound to happen from time to time.&lt;end&gt;</source>
-        <target state="final">With that said... Colonel Cathcart can be a bit adamant when it comes to certain things, especially when it comes to the age old diplomatic versus combat approaches, but fortunately our disagreements were few and far between. And naturally, such things are bound to happen from time to time.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1559,16 +769,6 @@ Slowly but surely, we'll bring prosperity to this region. I truly believe it.&lt
       <segment state="translated">
         <source>With that said... Colonel Cathcart can be a bit adamant when it comes to certain things, especially when it comes to the age old diplomatic versus combat approaches, but fortunately our disagreements were few and far between. And naturally, such things are bound to happen from time to time.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q76_original" name="=&gt;q76_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">151</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>All in all, as far as I'm concerned, Fort Apogee has the best commander it could possibly have.&lt;end&gt;</source>
-        <target state="final">All in all, as far as I'm concerned, Fort Apogee has the best commander it could possibly have.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q76" name="=&gt;q76">
@@ -1581,16 +781,6 @@ Slowly but surely, we'll bring prosperity to this region. I truly believe it.&lt
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a77_original" name="=&gt;a77_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">153</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about CAU?&lt;end&gt;</source>
-        <target state="final">What can you tell me about CAU?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1599,20 +789,6 @@ Slowly but surely, we'll bring prosperity to this region. I truly believe it.&lt
       <segment state="translated">
         <source>What can you tell me about CAU?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q78_original" name="=&gt;q78_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">155</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Consul's face turns red the moment you mention CAU.:: Those dreadful, despicable... rrghh... I just can't believe how uncivil, audacious... impudent they are. Marching right into my office like that, pushing me out like I'm a nobody! I am the consul, damn it!
-
-However, that is the least of their sins, dear Corporal, mark my words.&lt;end&gt;</source>
-        <target state="final">::Consul's face turns red the moment you mention CAU.:: Those dreadful, despicable... rrghh... I just can't believe how uncivil, audacious... impudent they are. Marching right into my office like that, pushing me out like I'm a nobody! I am the consul, damn it!
-
-However, that is the least of their sins, dear Corporal, mark my words.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -1627,16 +803,6 @@ However, that is the least of their sins, dear Corporal, mark my words.&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q79_original" name="=&gt;q79_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">157</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Just talking about them makes my blood boil.&lt;end&gt;</source>
-        <target state="final">Just talking about them makes my blood boil.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q79" name="=&gt;q79">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1645,16 +811,6 @@ However, that is the least of their sins, dear Corporal, mark my words.&lt;end&g
       <segment state="translated">
         <source>Just talking about them makes my blood boil.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a80_original" name="=&gt;a80_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">159</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Goodbye.&lt;end&gt;</source>
-        <target state="final">Goodbye.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a80" name="=&gt;a80">
@@ -1667,16 +823,6 @@ However, that is the least of their sins, dear Corporal, mark my words.&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q81_original" name="=&gt;q81_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">161</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Colonel Cathcart is waiting for you, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Colonel Cathcart is waiting for you, $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q81" name="=&gt;q81">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1685,20 +831,6 @@ However, that is the least of their sins, dear Corporal, mark my words.&lt;end&g
       <segment state="translated">
         <source>Colonel Cathcart is waiting for you, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q82_original" name="=&gt;q82_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">163</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The consul is looking at his mobile computer as you step into his office. He says something into it before placing it aside and rising to greet you. Even though certain facial features give away his age, which you suspect is around forty-fifty years, his athletic physique and energetic handshake projects an image of someone much younger than that. He shakes your hand, smiles with a white smile almost identical to the one you saw on Ambassador Athanas, and speaks.::
-
-Welcome to the United Stations consulate, $(context.player.Name). It is a pleasure to have you here.&lt;end&gt;</source>
-        <target state="final">::The consul is looking at his mobile computer as you step into his office. He says something into it before placing it aside and rising to greet you. Even though certain facial features give away his age, which you suspect is around forty-fifty years, his athletic physique and energetic handshake projects an image of someone much younger than that. He shakes your hand, smiles with a white smile almost identical to the one you saw on Ambassador Athanas, and speaks.::
-
-Welcome to the United Stations consulate, $(context.player.Name). It is a pleasure to have you here.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q82" name="=&gt;q82">
@@ -1713,16 +845,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a83_original" name="=&gt;a83_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">165</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It is a pleasure to meet you too, Consul Oliver.&lt;end&gt;</source>
-        <target state="final">It is a pleasure to meet you too, Consul Oliver.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a83" name="=&gt;a83">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1731,16 +853,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>It is a pleasure to meet you too, Consul Oliver.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q84_original" name="=&gt;q84_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">167</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So, it is mutual. ::He laughs.:: Make yourself comfortable, $(context.player.Name). It must have been a long journey, from Junkyard to here...&lt;end&gt;</source>
-        <target state="final">So, it is mutual. ::He laughs.:: Make yourself comfortable, $(context.player.Name). It must have been a long journey, from Junkyard to here...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q84" name="=&gt;q84">
@@ -1753,16 +865,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a85_original" name="=&gt;a85_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">169</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Fort Apogee is most certainly not in the neighborhood, I can tell you that. &lt;end&gt;</source>
-        <target state="final">Fort Apogee is most certainly not in the neighborhood, I can tell you that. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a85" name="=&gt;a85">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1771,16 +873,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>Fort Apogee is most certainly not in the neighborhood, I can tell you that. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q86_original" name="=&gt;q86_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">171</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You are right, $(context.player.Name). It is not. We are separated from the lower region by Core City, and... you know what the situation is like there, I'm certain.&lt;end&gt;</source>
-        <target state="final">You are right, $(context.player.Name). It is not. We are separated from the lower region by Core City, and... you know what the situation is like there, I'm certain.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
@@ -1793,16 +885,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q87_original" name="=&gt;q87_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">173</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Shall we get down to business? The ambassador informed me that he told you about why you're here, or, better yet, what you will be doing here if you chose to join the Protectorate. Since you've made such a long journey here I have no doubts you'll soon become one of us, so to speak. However, you'll decide that upon discussing it with the colonel.&lt;end&gt;</source>
-        <target state="final">Shall we get down to business? The ambassador informed me that he told you about why you're here, or, better yet, what you will be doing here if you chose to join the Protectorate. Since you've made such a long journey here I have no doubts you'll soon become one of us, so to speak. However, you'll decide that upon discussing it with the colonel.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1811,16 +893,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>Shall we get down to business? The ambassador informed me that he told you about why you're here, or, better yet, what you will be doing here if you chose to join the Protectorate. Since you've made such a long journey here I have no doubts you'll soon become one of us, so to speak. However, you'll decide that upon discussing it with the colonel.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q88_original" name="=&gt;q88_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">175</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Now, do you have any additional questions before we move onto the next phase? Did you understand everything so far?&lt;end&gt;</source>
-        <target state="final">Now, do you have any additional questions before we move onto the next phase? Did you understand everything so far?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q88" name="=&gt;q88">
@@ -1833,16 +905,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a89_original" name="=&gt;a89_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">177</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The ambassador told me I will be performing important tasks for the Protectorate. Can you tell me more about that?&lt;end&gt;</source>
-        <target state="final">The ambassador told me I will be performing important tasks for the Protectorate. Can you tell me more about that?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a89" name="=&gt;a89">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1851,16 +913,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>The ambassador told me I will be performing important tasks for the Protectorate. Can you tell me more about that?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q90_original" name="=&gt;q90_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">179</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That question is more suited for the colonel. Excuse me, Colonel Cathcart - who will quite soon become your superior officer. Still, know that everything you do will be for the ultimate betterment of the region. Most military operations here relate to fighting bandits, or the dreadful Free Drones, again, all for the betterment of the citizenry and the region.&lt;end&gt;</source>
-        <target state="final">That question is more suited for the colonel. Excuse me, Colonel Cathcart - who will quite soon become your superior officer. Still, know that everything you do will be for the ultimate betterment of the region. Most military operations here relate to fighting bandits, or the dreadful Free Drones, again, all for the betterment of the citizenry and the region.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
@@ -1873,16 +925,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q91_original" name="=&gt;q91_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">181</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You will, as I was told, be tasked with performing things of greater importance.&lt;end&gt;</source>
-        <target state="final">You will, as I was told, be tasked with performing things of greater importance.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1891,16 +933,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>You will, as I was told, be tasked with performing things of greater importance.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a92_original" name="=&gt;a92_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">183</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why did Ambassador Athanas send me to you, and not directly to the commanding officer of Fort Apogee?&lt;end&gt;</source>
-        <target state="final">Why did Ambassador Athanas send me to you, and not directly to the commanding officer of Fort Apogee?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
@@ -1913,16 +945,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q93_original" name="=&gt;q93_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">185</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The reason for that is simple, $(context.player.Name): You will have a dual purpose here, let's call it like that. On one side, you are a member of South Gate Station, our trading partner, and hopefully one day, a full member. We already cooperate with Miss Vera Hale, but on a limited scale. With you here, we are building a closer diplomatic connection with SGS, and that is why it's desirable for the two of us to get to know each other well.&lt;end&gt;</source>
-        <target state="final">The reason for that is simple, $(context.player.Name): You will have a dual purpose here, let's call it like that. On one side, you are a member of South Gate Station, our trading partner, and hopefully one day, a full member. We already cooperate with Miss Vera Hale, but on a limited scale. With you here, we are building a closer diplomatic connection with SGS, and that is why it's desirable for the two of us to get to know each other well.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1931,16 +953,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>The reason for that is simple, $(context.player.Name): You will have a dual purpose here, let's call it like that. On one side, you are a member of South Gate Station, our trading partner, and hopefully one day, a full member. We already cooperate with Miss Vera Hale, but on a limited scale. With you here, we are building a closer diplomatic connection with SGS, and that is why it's desirable for the two of us to get to know each other well.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q94_original" name="=&gt;q94_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">187</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Also, we're taking a slight detour when it comes to you becoming a member of the armed forces. This is usually not the way the willing join Underrail Protectorate ranks, am I right? Don't worry, we've already convinced the colonel, and I'm sure he'll see your qualities quickly. Which brings us to the other part of that, ehm, dual purpose I was telling you about...&lt;end&gt;</source>
-        <target state="final">Also, we're taking a slight detour when it comes to you becoming a member of the armed forces. This is usually not the way the willing join Underrail Protectorate ranks, am I right? Don't worry, we've already convinced the colonel, and I'm sure he'll see your qualities quickly. Which brings us to the other part of that, ehm, dual purpose I was telling you about...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q94" name="=&gt;q94">
@@ -1953,16 +965,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q95_original" name="=&gt;q95_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">189</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But I better leave that part to the good colonel to explain. He's certainly better suited for it than I am.&lt;end&gt;</source>
-        <target state="final">But I better leave that part to the good colonel to explain. He's certainly better suited for it than I am.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q95" name="=&gt;q95">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1971,16 +973,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>But I better leave that part to the good colonel to explain. He's certainly better suited for it than I am.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a96_original" name="=&gt;a96_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">191</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Who is in charge of Fort Apogee?&lt;end&gt;</source>
-        <target state="final">Who is in charge of Fort Apogee?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a96" name="=&gt;a96">
@@ -1993,16 +985,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q97_original" name="=&gt;q97_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">193</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Colonel Frederick Cathcart. He's been in charge since Fort Apogee's deployment.&lt;end&gt;</source>
-        <target state="final">Colonel Frederick Cathcart. He's been in charge since Fort Apogee's deployment.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q97" name="=&gt;q97">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2011,16 +993,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>Colonel Frederick Cathcart. He's been in charge since Fort Apogee's deployment.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q98_original" name="=&gt;q98_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">195</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You will meet him soon enough.&lt;end&gt;</source>
-        <target state="final">You will meet him soon enough.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q98" name="=&gt;q98">
@@ -2033,16 +1005,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a99_original" name="=&gt;a99_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">197</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm good, we can move on.&lt;end&gt;</source>
-        <target state="final">I'm good, we can move on.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a99" name="=&gt;a99">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2051,16 +1013,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>I'm good, we can move on.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q100_original" name="=&gt;q100_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">199</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Excellent! That's important. Everything should be clear. Now we can proceed.&lt;end&gt;</source>
-        <target state="final">Excellent! That's important. Everything should be clear. Now we can proceed.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q100" name="=&gt;q100">
@@ -2073,16 +1025,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q101_original" name="=&gt;q101_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">201</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The next step should be meeting the colonel. Now, I've already talked to him, about the train, Free Drones, the political situation, et cetera. Just so you know that he's familiar with the details.&lt;end&gt;</source>
-        <target state="final">The next step should be meeting the colonel. Now, I've already talked to him, about the train, Free Drones, the political situation, et cetera. Just so you know that he's familiar with the details.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2091,16 +1033,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>The next step should be meeting the colonel. Now, I've already talked to him, about the train, Free Drones, the political situation, et cetera. Just so you know that he's familiar with the details.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q102_original" name="=&gt;q102_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">203</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You should see him now; his office is right next to mine. After you're done with him, please come see me once you have the time. I have something I wish to discuss with you.&lt;end&gt;</source>
-        <target state="final">You should see him now; his office is right next to mine. After you're done with him, please come see me once you have the time. I have something I wish to discuss with you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q102" name="=&gt;q102">
@@ -2113,16 +1045,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q103_original" name="=&gt;q103_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">205</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is that, $(context.player.Name). Talk to the colonel and... we will see each other later. Au revoir.&lt;end&gt;</source>
-        <target state="final">That is that, $(context.player.Name). Talk to the colonel and... we will see each other later. Au revoir.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2131,16 +1053,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>That is that, $(context.player.Name). Talk to the colonel and... we will see each other later. Au revoir.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a104_original" name="=&gt;a104_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">207</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have no problems moving around the Underrail. I found this place quickly.&lt;end&gt;</source>
-        <target state="final">I have no problems moving around the Underrail. I found this place quickly.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a104" name="=&gt;a104">
@@ -2153,16 +1065,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q105_original" name="=&gt;q105_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">209</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>$(#Bravo/Brava)! $(#Bravo/Brava), $(context.player.Name). I like your spirit.&lt;end&gt;</source>
-        <target state="final">$(#Bravo/Brava)! $(#Bravo/Brava), $(context.player.Name). I like your spirit.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q105" name="=&gt;q105">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2171,16 +1073,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>$(#Bravo/Brava)! $(#Bravo/Brava), $(context.player.Name). I like your spirit.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a106_original" name="=&gt;a106_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">211</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Pleasure to see me? I don't think I deserve such praise.&lt;end&gt;</source>
-        <target state="final">Pleasure to see me? I don't think I deserve such praise.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a106" name="=&gt;a106">
@@ -2193,16 +1085,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q107_original" name="=&gt;q107_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">213</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Now, now, don't say that, $(context.player.Name). You do deserve it. Ambassador Athanas explained everything to me already, regarding the missing train and how you... hmm, how should I say... how you were a critical part of the investigation.&lt;end&gt;</source>
-        <target state="final">Now, now, don't say that, $(context.player.Name). You do deserve it. Ambassador Athanas explained everything to me already, regarding the missing train and how you... hmm, how should I say... how you were a critical part of the investigation.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q107" name="=&gt;q107">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2211,16 +1093,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>Now, now, don't say that, $(context.player.Name). You do deserve it. Ambassador Athanas explained everything to me already, regarding the missing train and how you... hmm, how should I say... how you were a critical part of the investigation.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q108_original" name="=&gt;q108_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">215</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But, all in due time. First, make yourself comfortable, $(context.player.Name). It must have been a long journey, from Junkyard to here...&lt;end&gt;</source>
-        <target state="final">But, all in due time. First, make yourself comfortable, $(context.player.Name). It must have been a long journey, from Junkyard to here...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q108" name="=&gt;q108">
@@ -2233,16 +1105,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a109_original" name="=&gt;a109_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">217</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Neat.&lt;end&gt;</source>
-        <target state="final">Neat.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a109" name="=&gt;a109">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2251,16 +1113,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>Neat.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q110_original" name="=&gt;q110_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">219</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Consul pauses for a second before continuing.:: Well, make yourself comfortable, dear $(context.player.Name). It must have been a long journey, from Junkyard to here...&lt;end&gt;</source>
-        <target state="final">::Consul pauses for a second before continuing.:: Well, make yourself comfortable, dear $(context.player.Name). It must have been a long journey, from Junkyard to here...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q110" name="=&gt;q110">
@@ -2273,16 +1125,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q111_original" name="=&gt;q111_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">221</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah, Corporal, glad you are here. I have some news which you will find interesting...&lt;end&gt;</source>
-        <target state="final">Ah, Corporal, glad you are here. I have some news which you will find interesting...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q111" name="=&gt;q111">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2291,16 +1133,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>Ah, Corporal, glad you are here. I have some news which you will find interesting...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q112_original" name="=&gt;q112_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">223</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>After you and I spoke, I went to see the Colonel and told him everything we had talked about. He dispatched armed soldiers toward Dolos Center, and... fortunately, SFC Holloway and his men decided to put down their weapons and surrender peacefully. They are currently being held in custody, awaiting court-martial.&lt;end&gt;</source>
-        <target state="final">After you and I spoke, I went to see the Colonel and told him everything we had talked about. He dispatched armed soldiers toward Dolos Center, and... fortunately, SFC Holloway and his men decided to put down their weapons and surrender peacefully. They are currently being held in custody, awaiting court-martial.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q112" name="=&gt;q112">
@@ -2313,16 +1145,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q113_original" name="=&gt;q113_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">225</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Even though I explained him the SFC's reasons, which you had relayed to me, I'm afraid I wasn't able to ease the situation, at least judging by his response. Desertion is desertion, he said, and it deserves severe punishment. He didn't mention death penalty, thankfully, and I will do my best that he doesn't. It's not over yet.&lt;end&gt;</source>
-        <target state="final">Even though I explained him the SFC's reasons, which you had relayed to me, I'm afraid I wasn't able to ease the situation, at least judging by his response. Desertion is desertion, he said, and it deserves severe punishment. He didn't mention death penalty, thankfully, and I will do my best that he doesn't. It's not over yet.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2331,20 +1153,6 @@ Welcome to the United Stations consulate, $(context.player.Name). It is a pleasu
       <segment state="translated">
         <source>Even though I explained him the SFC's reasons, which you had relayed to me, I'm afraid I wasn't able to ease the situation, at least judging by his response. Desertion is desertion, he said, and it deserves severe punishment. He didn't mention death penalty, thankfully, and I will do my best that he doesn't. It's not over yet.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q114_original" name="=&gt;q114_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">227</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>All we can do now is wait. Again, thank you for your help, Corporal.
-
-What did you want to discuss with me, now?&lt;end&gt;</source>
-        <target state="final">All we can do now is wait. Again, thank you for your help, Corporal.
-
-What did you want to discuss with me, now?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q114" name="=&gt;q114">
@@ -2359,16 +1167,6 @@ What did you want to discuss with me, now?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q115_original" name="=&gt;q115_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">229</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Still, no matter what I told the colonel, I'm afraid I wasn't able to ease the situation, at least judging by his response. Desertion is desertion, he said, and it deserves severe punishment. He didn't mention death penalty, thankfully, and I will do my best that he doesn't. It's not over yet.&lt;end&gt;</source>
-        <target state="final">Still, no matter what I told the colonel, I'm afraid I wasn't able to ease the situation, at least judging by his response. Desertion is desertion, he said, and it deserves severe punishment. He didn't mention death penalty, thankfully, and I will do my best that he doesn't. It's not over yet.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q115" name="=&gt;q115">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2377,16 +1175,6 @@ What did you want to discuss with me, now?&lt;end&gt;</source>
       <segment state="translated">
         <source>Still, no matter what I told the colonel, I'm afraid I wasn't able to ease the situation, at least judging by his response. Desertion is desertion, he said, and it deserves severe punishment. He didn't mention death penalty, thankfully, and I will do my best that he doesn't. It's not over yet.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q116_original" name="=&gt;q116_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">231</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah, Corporal, come on in. What can I do for you?&lt;end&gt;</source>
-        <target state="final">Ah, Corporal, come on in. What can I do for you?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q116" name="=&gt;q116">

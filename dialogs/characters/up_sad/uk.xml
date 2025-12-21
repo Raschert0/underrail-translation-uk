@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\up_sad.txt" original="dialogs\characters\up_sad.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -19,26 +9,6 @@
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Scanning...
-
-Entity detected - Human $(#male/female);
-[Target ID: cf4b158b-fa36-4d3a-ab72-af1daa42fae7]; Name =  $(#male75/female56);
-Threat level - low;
-Recommended course of action - Destroy $(#male75/female56)!&lt;end&gt;</source>
-        <target state="final">Scanning...
-
-Entity detected - Human $(#male/female);
-[Target ID: cf4b158b-fa36-4d3a-ab72-af1daa42fae7]; Name =  $(#male75/female56);
-Threat level - low;
-Recommended course of action - Destroy $(#male75/female56)!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -56,20 +26,6 @@ Recommended course of action - Destroy $(#male75/female56)!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Compasion.exe has encountered a fatal error
-
-Destroy all humans to continue&lt;end&gt;</source>
-        <target state="final">Compasion.exe has encountered a fatal error
-
-Destroy all humans to continue&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -82,20 +38,6 @@ Destroy all humans to continue&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Threat; $(#male75/female56):
-
-Exterminate!&lt;end&gt;</source>
-        <target state="final">Threat; $(#male75/female56):
-
-Exterminate!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -106,26 +48,6 @@ Exterminate!&lt;end&gt;</target>
 
 Exterminate!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Scanning...
-
-Warning! Multiple targets detected
-
-Recommended course of action - Annihilation of the human race!
-&lt;end&gt;</source>
-        <target state="final">Scanning...
-
-Warning! Multiple targets detected
-
-Recommended course of action - Annihilation of the human race!
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -143,20 +65,6 @@ Recommended course of action - Annihilation of the human race!
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>01001001 00100000 01110111 01101001 01101100 01101100 00100000
- 01100100 01100101 01110011 01110100 01110010 01101111 01111001
- 00100000 01111001 01101111 01110101 00100001 &lt;end&gt;</source>
-        <target state="final">01001001 00100000 01110111 01101001 01101100 01101100 00100000
- 01100100 01100101 01110011 01110100 01110010 01101111 01111001
- 00100000 01111001 01101111 01110101 00100001 &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -167,20 +75,6 @@ Recommended course of action - Annihilation of the human race!
  01100100 01100101 01110011 01110100 01110010 01101111 01111001
  00100000 01111001 01101111 01110101 00100001 &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Query; zachHuman:
-
-Why am I not allowed to use lethal force, zachHuman? Answer my query!&lt;end&gt;</source>
-        <target state="final">Query; zachHuman:
-
-Why am I not allowed to use lethal force, zachHuman? Answer my query!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -195,20 +89,6 @@ Why am I not allowed to use lethal force, zachHuman? Answer my query!&lt;end&gt;
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Greeting ; $(#male75/female56):
-
-You will be destroyed!&lt;end&gt;</source>
-        <target state="final">Greeting ; $(#male75/female56):
-
-You will be destroyed!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -219,20 +99,6 @@ You will be destroyed!&lt;end&gt;</target>
 
 You will be destroyed!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Taunt; $(#male75/female56):
-
-Prepare to be disintegrated! HA-HA-HA!&lt;end&gt;</source>
-        <target state="final">Taunt; $(#male75/female56):
-
-Prepare to be disintegrated! HA-HA-HA!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -247,20 +113,6 @@ Prepare to be disintegrated! HA-HA-HA!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Query; $(#male75/female56):
-
-Do you fear death?&lt;end&gt;</source>
-        <target state="final">Query; $(#male75/female56):
-
-Do you fear death?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -273,20 +125,6 @@ Do you fear death?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Warning!
-
-All weapons disabled! Target destruction impossible!&lt;end&gt;</source>
-        <target state="final">Warning!
-
-All weapons disabled! Target destruction impossible!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -297,32 +135,6 @@ All weapons disabled! Target destruction impossible!&lt;end&gt;</target>
 
 All weapons disabled! Target destruction impossible!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Statement; $(#male75/female56):
-
-I love humans.
-
-ERROR!
-
-Statement; $(#male75/female56):
-
-I love destroying humans! HA-HA-HA!&lt;end&gt;</source>
-        <target state="final">Statement; $(#male75/female56):
-
-I love humans.
-
-ERROR!
-
-Statement; $(#male75/female56):
-
-I love destroying humans! HA-HA-HA!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">

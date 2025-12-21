@@ -1,20 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\rc_herve.txt" original="dialogs\characters\rc_herve.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Captain Herve welcomes you into his office with a smile.::
-
-Good to see you again, $(context.player.Name). What brings you back to Rail Crossing?&lt;end&gt;</source>
-        <target state="final">::Captain Herve welcomes you into his office with a smile.::
-
-Good to see you again, $(context.player.Name). What brings you back to Rail Crossing?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -27,16 +13,6 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -45,16 +21,6 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I wanted to talk to you about a certain debt I have at the bar here.&lt;end&gt;</source>
-        <target state="final">I wanted to talk to you about a certain debt I have at the bar here.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -67,16 +33,6 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, I've already heard about it. So what's the problem? Why do you refuse to pay?&lt;end&gt;</source>
-        <target state="final">Yes, I've already heard about it. So what's the problem? Why do you refuse to pay?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -85,16 +41,6 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       <segment state="translated">
         <source>Yes, I've already heard about it. So what's the problem? Why do you refuse to pay?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a5_original" name="=&gt;a5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have no money at the moment.&lt;end&gt;</source>
-        <target state="final">I have no money at the moment.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -107,16 +53,6 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah. So that's the core of the issue. &lt;end&gt;</source>
-        <target state="final">Ah. So that's the core of the issue. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -125,16 +61,6 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       <segment state="translated">
         <source>Ah. So that's the core of the issue. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Listen, South Gate Station and Rail Crossing have established pretty good relations over the years. Should we allow petty issues like this to divide us?&lt;end&gt;</source>
-        <target state="final">Listen, South Gate Station and Rail Crossing have established pretty good relations over the years. Should we allow petty issues like this to divide us?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -147,16 +73,6 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You've already helped this station so much, which is something I and this whole station are very grateful for. I will personally pay for your debt, $(context.player.Name). Let's forget this... incident ever happened. Very good.&lt;end&gt;</source>
-        <target state="final">You've already helped this station so much, which is something I and this whole station are very grateful for. I will personally pay for your debt, $(context.player.Name). Let's forget this... incident ever happened. Very good.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -165,20 +81,6 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       <segment state="translated">
         <source>You've already helped this station so much, which is something I and this whole station are very grateful for. I will personally pay for your debt, $(context.player.Name). Let's forget this... incident ever happened. Very good.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I cannot arrest you or force you to pay your debt off since I fear that might affect our two stations' relations. However, you are being denied service throughout the station - most of it, at least - from what I hear, so it is entirely up to you how you want to proceed. I will not interfere.
-
-Think about it.&lt;end&gt;</source>
-        <target state="final">I cannot arrest you or force you to pay your debt off since I fear that might affect our two stations' relations. However, you are being denied service throughout the station - most of it, at least - from what I hear, so it is entirely up to you how you want to proceed. I will not interfere.
-
-Think about it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -193,16 +95,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I already left the money on the counter, but someone else took it when the barkeeper wasn't looking.&lt;end&gt;</source>
-        <target state="final">I already left the money on the counter, but someone else took it when the barkeeper wasn't looking.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -211,16 +103,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>I already left the money on the counter, but someone else took it when the barkeeper wasn't looking.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a11_original" name="=&gt;a11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The drink and the service were absolutely awful.&lt;end&gt;</source>
-        <target state="final">The drink and the service were absolutely awful.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -233,16 +115,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I find that hard to believe. &lt;end&gt;</source>
-        <target state="final">I find that hard to believe. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -251,16 +123,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>I find that hard to believe. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a13_original" name="=&gt;a13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Dude was supposed to pay for it.&lt;end&gt;</source>
-        <target state="final">Dude was supposed to pay for it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -273,16 +135,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But he is no longer in Rail Crossing, correct? &lt;end&gt;</source>
-        <target state="final">But he is no longer in Rail Crossing, correct? &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -291,16 +143,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>But he is no longer in Rail Crossing, correct? &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I see the supplies have finally arrived.&lt;end&gt;</source>
-        <target state="final">I see the supplies have finally arrived.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -313,16 +155,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes! And not a moment too soon. I've been receiving more and more reports of Ironhead activity near Rail Crossing. It even seems that several different clans are converging on this location. These Ironheads, they are like packs of rathounds: They've sensed blood in the air and are moving in for the kill.&lt;end&gt;</source>
-        <target state="final">Yes! And not a moment too soon. I've been receiving more and more reports of Ironhead activity near Rail Crossing. It even seems that several different clans are converging on this location. These Ironheads, they are like packs of rathounds: They've sensed blood in the air and are moving in for the kill.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -331,16 +163,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>Yes! And not a moment too soon. I've been receiving more and more reports of Ironhead activity near Rail Crossing. It even seems that several different clans are converging on this location. These Ironheads, they are like packs of rathounds: They've sensed blood in the air and are moving in for the kill.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q17_original" name="=&gt;q17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We are still short on men, but at least we have some serious firepower in our hands. I hope that will be enough.&lt;end&gt;</source>
-        <target state="final">We are still short on men, but at least we have some serious firepower in our hands. I hope that will be enough.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -353,16 +175,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a18_original" name="=&gt;a18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I talked to Major Clifton again about the supplies.&lt;end&gt;</source>
-        <target state="final">I talked to Major Clifton again about the supplies.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -371,16 +183,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>I talked to Major Clifton again about the supplies.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q19_original" name="=&gt;q19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, what did he say?&lt;end&gt;</source>
-        <target state="final">Yes, what did he say?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -393,16 +195,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a20_original" name="=&gt;a20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>He said the supplies will be here in no more than two weeks.&lt;end&gt;</source>
-        <target state="final">He said the supplies will be here in no more than two weeks.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -411,16 +203,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>He said the supplies will be here in no more than two weeks.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q21_original" name="=&gt;q21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Two weeks? That is not good news...&lt;end&gt;</source>
-        <target state="final">Two weeks? That is not good news...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -433,16 +215,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a22_original" name="=&gt;a22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is, unless someone intercepts the train again.&lt;end&gt;</source>
-        <target state="final">That is, unless someone intercepts the train again.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -451,16 +223,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>That is, unless someone intercepts the train again.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q23_original" name="=&gt;q23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Please, things are already difficult enough. However, thank you for the information. Two weeks, while long, is better than nothing.&lt;end&gt;</source>
-        <target state="final">Please, things are already difficult enough. However, thank you for the information. Two weeks, while long, is better than nothing.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -473,16 +235,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a24_original" name="=&gt;a24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>There was nothing I could do.&lt;end&gt;</source>
-        <target state="final">There was nothing I could do.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -491,16 +243,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>There was nothing I could do.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q25_original" name="=&gt;q25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I understand. Thank you for your help. Two weeks, while long, is better than nothing.&lt;end&gt;</source>
-        <target state="final">I understand. Thank you for your help. Two weeks, while long, is better than nothing.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -513,16 +255,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a26_original" name="=&gt;a26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I found out what happened to the missing train.&lt;end&gt;</source>
-        <target state="final">I found out what happened to the missing train.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -531,16 +263,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>I found out what happened to the missing train.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q27_original" name="=&gt;q27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You did? Great! Tell me everything.&lt;end&gt;</source>
-        <target state="final">You did? Great! Tell me everything.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -553,16 +275,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a28_original" name="=&gt;a28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It was hijacked by a small group of armed bandits.&lt;end&gt;</source>
-        <target state="final">It was hijacked by a small group of armed bandits.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -571,16 +283,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>It was hijacked by a small group of armed bandits.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q29_original" name="=&gt;q29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I was afraid of that. But where is it now, and what about the cargo?&lt;end&gt;</source>
-        <target state="final">I was afraid of that. But where is it now, and what about the cargo?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -593,16 +295,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a30_original" name="=&gt;a30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I took care of the hijackers. It's south of Rail Crossing; there is a turn west into a cave and to what appears to be some warehouse. The supplies look mostly untouched.&lt;end&gt;</source>
-        <target state="final">I took care of the hijackers. It's south of Rail Crossing; there is a turn west into a cave and to what appears to be some warehouse. The supplies look mostly untouched.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -611,16 +303,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>I took care of the hijackers. It's south of Rail Crossing; there is a turn west into a cave and to what appears to be some warehouse. The supplies look mostly untouched.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q31_original" name="=&gt;q31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Great! In that case, contact the Protectorate again and have them take care of it. It's best that way. Don't think the Protectorate would appreciate us taking the train without their knowledge&lt;end&gt;</source>
-        <target state="final">Great! In that case, contact the Protectorate again and have them take care of it. It's best that way. Don't think the Protectorate would appreciate us taking the train without their knowledge&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -633,16 +315,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q32_original" name="=&gt;q32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Get back to me when you're done.&lt;end&gt;</source>
-        <target state="final">Get back to me when you're done.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -651,16 +323,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>Get back to me when you're done.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Excellent, but I don't think the Protectorate would appreciate us taking the train without their knowledge. Go to South Railroad Outpost and talk to them about getting their train and then sending the supplies to me.&lt;end&gt;</source>
-        <target state="final">Excellent, but I don't think the Protectorate would appreciate us taking the train without their knowledge. Go to South Railroad Outpost and talk to them about getting their train and then sending the supplies to me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -673,16 +335,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q34_original" name="=&gt;q34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Get back to me when you're done.&lt;end&gt;</source>
-        <target state="final">Get back to me when you're done.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -691,16 +343,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>Get back to me when you're done.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a35_original" name="=&gt;a35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's gone. I tried to fight the hijackers, but one of them used a bomb to destroy the train and its cargo. It was located just south of Rail Crossing.&lt;end&gt;</source>
-        <target state="final">It's gone. I tried to fight the hijackers, but one of them used a bomb to destroy the train and its cargo. It was located just south of Rail Crossing.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -713,16 +355,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q36_original" name="=&gt;q36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What? WHAT? Damn it! This is unbelievable. Why did you have to do it all alone? Why didn't you contact us or the Protectorate?&lt;end&gt;</source>
-        <target state="final">What? WHAT? Damn it! This is unbelievable. Why did you have to do it all alone? Why didn't you contact us or the Protectorate?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -731,16 +363,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>What? WHAT? Damn it! This is unbelievable. Why did you have to do it all alone? Why didn't you contact us or the Protectorate?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a37_original" name="=&gt;a37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I had no choice at the moment. I couldn't tell them to wait while I get reinforcements.&lt;end&gt;</source>
-        <target state="final">I had no choice at the moment. I couldn't tell them to wait while I get reinforcements.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -753,16 +375,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q38_original" name="=&gt;q38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The captain lowers his head.:: It doesn't matter now. Please, leave me alone. You've done enough.&lt;end&gt;</source>
-        <target state="final">::The captain lowers his head.:: It doesn't matter now. Please, leave me alone. You've done enough.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -771,16 +383,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>::The captain lowers his head.:: It doesn't matter now. Please, leave me alone. You've done enough.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q39_original" name="=&gt;q39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -793,16 +395,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a40_original" name="=&gt;a40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's how I do things. Alone.&lt;end&gt;</source>
-        <target state="final">It's how I do things. Alone.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -811,16 +403,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>It's how I do things. Alone.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q41_original" name="=&gt;q41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The captain lowers his head.:: Well, that worked out beautifully. Just leave me alone, you've done enough.&lt;end&gt;</source>
-        <target state="final">::The captain lowers his head.:: Well, that worked out beautifully. Just leave me alone, you've done enough.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -833,16 +415,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a42_original" name="=&gt;a42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I informed Major Clifton at South Railroad Outpost. The Protectorate went there to deal with the hijackers and reaquire the train. They said they'll send you the supplies soon.&lt;end&gt;</source>
-        <target state="final">I informed Major Clifton at South Railroad Outpost. The Protectorate went there to deal with the hijackers and reaquire the train. They said they'll send you the supplies soon.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -851,16 +423,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>I informed Major Clifton at South Railroad Outpost. The Protectorate went there to deal with the hijackers and reaquire the train. They said they'll send you the supplies soon.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q43_original" name="=&gt;q43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Excellent! ::For the first time, a smile finally appears on the captain's face.:: I'm just glad all this is coming to an end. You've done it again, $(context.player.Name). You are one incredibly capable individual. Thank you very much! I promised a reward, and here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
-        <target state="final">Excellent! ::For the first time, a smile finally appears on the captain's face.:: I'm just glad all this is coming to an end. You've done it again, $(context.player.Name). You are one incredibly capable individual. Thank you very much! I promised a reward, and here it is. ::He gives you 400 charons.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -873,16 +435,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q44_original" name="=&gt;q44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -893,16 +445,6 @@ Think about it.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q45_original" name="=&gt;q45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Oh, did the major tell you anything about when the supplies will arrive?&lt;end&gt;</source>
-        <target state="final">Oh, did the major tell you anything about when the supplies will arrive?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -911,20 +453,6 @@ Think about it.&lt;end&gt;</source>
       <segment state="translated">
         <source>Oh, did the major tell you anything about when the supplies will arrive?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q46_original" name="=&gt;q46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The smile lasts for while, but a worm of doubt soon makes it slowly go away. Worry surfaces on his face, and just as you were about to leave, he stops you.::
-
-Wait. I have one more favor to ask of you...&lt;end&gt;</source>
-        <target state="final">::The smile lasts for while, but a worm of doubt soon makes it slowly go away. Worry surfaces on his face, and just as you were about to leave, he stops you.::
-
-Wait. I have one more favor to ask of you...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -939,16 +467,6 @@ Wait. I have one more favor to ask of you...&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a47_original" name="=&gt;a47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Go ahead.&lt;end&gt;</source>
-        <target state="final">Go ahead.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -957,20 +475,6 @@ Wait. I have one more favor to ask of you...&lt;end&gt;</source>
       <segment state="translated">
         <source>Go ahead.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q48_original" name="=&gt;q48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>This whole situation with the train... it's dragging on. While I do know that the train has been located, I'm left in the dark again. Rail Crossing is vulnerable. You understand. I need to know when the train will be arriving, and it doesn't appear to me like they've revealed that information to you.
-
-Would it be a problem for you to go back and... ask them about it? Perhaps, if possible, somehow... "speed up" the process? If possible.&lt;end&gt;</source>
-        <target state="final">This whole situation with the train... it's dragging on. While I do know that the train has been located, I'm left in the dark again. Rail Crossing is vulnerable. You understand. I need to know when the train will be arriving, and it doesn't appear to me like they've revealed that information to you.
-
-Would it be a problem for you to go back and... ask them about it? Perhaps, if possible, somehow... "speed up" the process? If possible.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -985,16 +489,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a49_original" name="=&gt;a49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I could ask Major Clifton about it. Maybe they've already recovered the train.&lt;end&gt;</source>
-        <target state="final">I could ask Major Clifton about it. Maybe they've already recovered the train.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1003,16 +497,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>I could ask Major Clifton about it. Maybe they've already recovered the train.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q50_original" name="=&gt;q50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I would be grateful. Thank you so much.&lt;end&gt;</source>
-        <target state="final">I would be grateful. Thank you so much.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -1025,16 +509,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a51_original" name="=&gt;a51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll see what I can do.&lt;end&gt;</source>
-        <target state="final">I'll see what I can do.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1043,16 +517,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>I'll see what I can do.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q52_original" name="=&gt;q52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Thank you, I'll be waiting.&lt;end&gt;</source>
-        <target state="final">Thank you, I'll be waiting.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -1065,16 +529,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a53_original" name="=&gt;a53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You think highly of me, perhaps too much. I don't think I can "speed up" anything.&lt;end&gt;</source>
-        <target state="final">You think highly of me, perhaps too much. I don't think I can "speed up" anything.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1083,16 +537,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>You think highly of me, perhaps too much. I don't think I can "speed up" anything.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q54_original" name="=&gt;q54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I understand. Even one simple information would suffice.&lt;end&gt;</source>
-        <target state="final">I understand. Even one simple information would suffice.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -1105,16 +549,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a55_original" name="=&gt;a55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's south of Rail Crossing; there is a turn west into a cave and to what appears to be some warehouse. I came here for reinforcements.&lt;end&gt;</source>
-        <target state="final">It's south of Rail Crossing; there is a turn west into a cave and to what appears to be some warehouse. I came here for reinforcements.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1123,16 +557,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>It's south of Rail Crossing; there is a turn west into a cave and to what appears to be some warehouse. I came here for reinforcements.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q56_original" name="=&gt;q56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Great, go to South Railroad Outpost about that. If they said it's their investigation, then they should deal with the hijackers. And they are far better equipped for it anyway.&lt;end&gt;</source>
-        <target state="final">Great, go to South Railroad Outpost about that. If they said it's their investigation, then they should deal with the hijackers. And they are far better equipped for it anyway.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -1145,16 +569,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q57_original" name="=&gt;q57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We don't have the men to deal with the hijackers, but I'm sure the Protectorate wouldn't mind giving us a hand. It's their train after all. Go to South Railroad Outpost and tell them what you told me. They are far better equipped for dealing with the hijackers anyway.&lt;end&gt;</source>
-        <target state="final">We don't have the men to deal with the hijackers, but I'm sure the Protectorate wouldn't mind giving us a hand. It's their train after all. Go to South Railroad Outpost and tell them what you told me. They are far better equipped for dealing with the hijackers anyway.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1163,16 +577,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>We don't have the men to deal with the hijackers, but I'm sure the Protectorate wouldn't mind giving us a hand. It's their train after all. Go to South Railroad Outpost and tell them what you told me. They are far better equipped for dealing with the hijackers anyway.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a58_original" name="=&gt;a58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The Free Drones hijacked the train.&lt;end&gt;</source>
-        <target state="final">The Free Drones hijacked the train.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -1185,16 +589,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q59_original" name="=&gt;q59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Free Drones? Are you sure?&lt;end&gt;</source>
-        <target state="final">Free Drones? Are you sure?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1203,16 +597,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>Free Drones? Are you sure?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a60_original" name="=&gt;a60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes. I think all this was an act against Protectorate, rather than against Rail Crossing.&lt;end&gt;</source>
-        <target state="final">Yes. I think all this was an act against Protectorate, rather than against Rail Crossing.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -1225,16 +609,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q61_original" name="=&gt;q61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Indeed, it makes perfect sense. I don't know much about them, but I know they're all about fighting the Protectorate. They came from the North several years ago, just after Protectorate started building Fort Apogee in Upper Underrail.&lt;end&gt;</source>
-        <target state="final">Indeed, it makes perfect sense. I don't know much about them, but I know they're all about fighting the Protectorate. They came from the North several years ago, just after Protectorate started building Fort Apogee in Upper Underrail.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1243,16 +617,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>Indeed, it makes perfect sense. I don't know much about them, but I know they're all about fighting the Protectorate. They came from the North several years ago, just after Protectorate started building Fort Apogee in Upper Underrail.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q62_original" name="=&gt;q62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>All that aside, where is the train now, and what about the cargo?&lt;end&gt;</source>
-        <target state="final">All that aside, where is the train now, and what about the cargo?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -1265,16 +629,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a63_original" name="=&gt;a63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm sure, but I don't know their exact motives.&lt;end&gt;</source>
-        <target state="final">I'm sure, but I don't know their exact motives.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a63" name="=&gt;a63">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1283,16 +637,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>I'm sure, but I don't know their exact motives.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q64_original" name="=&gt;q64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I don't know much about the Free Drones, but what I know is they're all about fighting the Protectorate. They came from the North several years ago, just after Protectorate started building Fort Apogee in Upper Underrail.&lt;end&gt;</source>
-        <target state="final">I don't know much about the Free Drones, but what I know is they're all about fighting the Protectorate. They came from the North several years ago, just after Protectorate started building Fort Apogee in Upper Underrail.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
@@ -1305,16 +649,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a65_original" name="=&gt;a65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Even though the Faceless are gone, you seem troubled. Are there any other problems?&lt;end&gt;</source>
-        <target state="final">Even though the Faceless are gone, you seem troubled. Are there any other problems?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a65" name="=&gt;a65">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1323,16 +657,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>Even though the Faceless are gone, you seem troubled. Are there any other problems?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q66_original" name="=&gt;q66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am relieved, believe me, more than it shows. But so many troubles befell Rail Crossing recently, and that is the reason why I'm not exactly jumping with joy. We basically trade one misfortune for another.&lt;end&gt;</source>
-        <target state="final">I am relieved, believe me, more than it shows. But so many troubles befell Rail Crossing recently, and that is the reason why I'm not exactly jumping with joy. We basically trade one misfortune for another.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -1345,16 +669,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a67_original" name="=&gt;a67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Is it something I can help you with? You know you can trust me.&lt;end&gt;</source>
-        <target state="final">Is it something I can help you with? You know you can trust me.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1363,16 +677,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>Is it something I can help you with? You know you can trust me.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q68_original" name="=&gt;q68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Trust is not the issue, it's just... Alright, I'll explain.&lt;end&gt;</source>
-        <target state="final">Trust is not the issue, it's just... Alright, I'll explain.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -1385,16 +689,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q69_original" name="=&gt;q69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Recently we've had problems with an increasing number of attacks on Rail Crossing. Mostly by bandits, but hell, when you add the Faceless to that, the pressure becomes overwhelming. Regardless, even without these recent events the attacks have become more and more vicious and difficult to repel. So... I... made a deal with the Protectorate some time ago, according to which they were to deliver us military supplies.&lt;end&gt;</source>
-        <target state="final">Recently we've had problems with an increasing number of attacks on Rail Crossing. Mostly by bandits, but hell, when you add the Faceless to that, the pressure becomes overwhelming. Regardless, even without these recent events the attacks have become more and more vicious and difficult to repel. So... I... made a deal with the Protectorate some time ago, according to which they were to deliver us military supplies.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1403,16 +697,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>Recently we've had problems with an increasing number of attacks on Rail Crossing. Mostly by bandits, but hell, when you add the Faceless to that, the pressure becomes overwhelming. Regardless, even without these recent events the attacks have become more and more vicious and difficult to repel. So... I... made a deal with the Protectorate some time ago, according to which they were to deliver us military supplies.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q70_original" name="=&gt;q70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Look, I don't know how you feel about the Protectorate, but what I did I did out of necessity. Rail Crossing is a small station - easy pickings - and we need a way to protect ourselves. To do that, we need weapons, ammo, medical supplies.... everything, pretty much. And those things you can't go around and pick like, like mushrooms.&lt;end&gt;</source>
-        <target state="final">Look, I don't know how you feel about the Protectorate, but what I did I did out of necessity. Rail Crossing is a small station - easy pickings - and we need a way to protect ourselves. To do that, we need weapons, ammo, medical supplies.... everything, pretty much. And those things you can't go around and pick like, like mushrooms.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -1425,16 +709,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q71_original" name="=&gt;q71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1445,16 +719,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a72_original" name="=&gt;a72_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tell me more about this delivery.&lt;end&gt;</source>
-        <target state="final">Tell me more about this delivery.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a72" name="=&gt;a72">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1463,20 +727,6 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       <segment state="translated">
         <source>Tell me more about this delivery.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q73_original" name="=&gt;q73_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">145</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The only thing I had been told was that a train loaded with supplies was due to arrive several days ago. As far as I know, the train was to set off from South Railroad Outpost, which is a small Protectorate base south of here. The train never arrived, and I've received no word from the Protectorate regarding the whole situation since. 
-
-I do not know what is happening: Maybe it never departed, maybe something happened along the way, maybe... I just don't know.&lt;end&gt;</source>
-        <target state="final">The only thing I had been told was that a train loaded with supplies was due to arrive several days ago. As far as I know, the train was to set off from South Railroad Outpost, which is a small Protectorate base south of here. The train never arrived, and I've received no word from the Protectorate regarding the whole situation since. 
-
-I do not know what is happening: Maybe it never departed, maybe something happened along the way, maybe... I just don't know.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q73" name="=&gt;q73">
@@ -1491,16 +741,6 @@ I do not know what is happening: Maybe it never departed, maybe something happen
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a74_original" name="=&gt;a74_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">147</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I will help you. We'll find out what happened.&lt;end&gt;</source>
-        <target state="final">I will help you. We'll find out what happened.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a74" name="=&gt;a74">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1509,20 +749,6 @@ I do not know what is happening: Maybe it never departed, maybe something happen
       <segment state="translated">
         <source>I will help you. We'll find out what happened.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q75_original" name="=&gt;q75_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">149</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Great, great! Thank you! You will be rewarded for your assistance, I promise, just find out what happened to that train. Okay, so the best way to reach South Railroad Outpost is by following the tracks south, which is exactly the route the train had to take to reach us. Return to me if you learn anything important, and please, be quick - lives are at stake.
-
-I'll be here, in the office. Take care.&lt;end&gt;</source>
-        <target state="final">Great, great! Thank you! You will be rewarded for your assistance, I promise, just find out what happened to that train. Okay, so the best way to reach South Railroad Outpost is by following the tracks south, which is exactly the route the train had to take to reach us. Return to me if you learn anything important, and please, be quick - lives are at stake.
-
-I'll be here, in the office. Take care.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -1537,16 +763,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q76_original" name="=&gt;q76_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">151</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q76" name="=&gt;q76">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1555,16 +771,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a77_original" name="=&gt;a77_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">153</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll pass.&lt;end&gt;</source>
-        <target state="final">I'll pass.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
@@ -1577,16 +783,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q78_original" name="=&gt;q78_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">155</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Very well. I... understand. This is not your fight, after all.&lt;end&gt;</source>
-        <target state="final">Very well. I... understand. This is not your fight, after all.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1595,16 +791,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Very well. I... understand. This is not your fight, after all.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a79_original" name="=&gt;a79_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">157</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They didn't just give you all that for free, did they?&lt;end&gt;</source>
-        <target state="final">They didn't just give you all that for free, did they?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a79" name="=&gt;a79">
@@ -1617,16 +803,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q80_original" name="=&gt;q80_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">159</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Nothing is free in this world.&lt;end&gt;</source>
-        <target state="final">Nothing is free in this world.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q80" name="=&gt;q80">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1635,16 +811,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Nothing is free in this world.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q81_original" name="=&gt;q81_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">161</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We made a deal. Let's leave it at that.&lt;end&gt;</source>
-        <target state="final">We made a deal. Let's leave it at that.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q81" name="=&gt;q81">
@@ -1657,16 +823,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a82_original" name="=&gt;a82_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">163</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then I wish you the best of luck. Let's talk about something else.&lt;end&gt;</source>
-        <target state="final">Then I wish you the best of luck. Let's talk about something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a82" name="=&gt;a82">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1675,16 +831,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Then I wish you the best of luck. Let's talk about something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q83_original" name="=&gt;q83_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">165</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What do you need?&lt;end&gt;</source>
-        <target state="final">What do you need?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q83" name="=&gt;q83">
@@ -1697,16 +843,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a84_original" name="=&gt;a84_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">167</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Even though the Faceless are gone, you seem troubled. Are there any other problems?&lt;end&gt;</source>
-        <target state="final">Even though the Faceless are gone, you seem troubled. Are there any other problems?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a84" name="=&gt;a84">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1715,16 +851,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Even though the Faceless are gone, you seem troubled. Are there any other problems?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a85_original" name="=&gt;a85_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">169</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I've informed the Protectorate of the missing train's location. They'll take care of it and will send you the supplies as soon as possible.&lt;end&gt;</source>
-        <target state="final">I've informed the Protectorate of the missing train's location. They'll take care of it and will send you the supplies as soon as possible.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a85" name="=&gt;a85">
@@ -1737,16 +863,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q86_original" name="=&gt;q86_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">171</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Excellent! ::For the first time, a smile finally appears on the captain's face.:: I'm just glad all this is coming to an end. You've done it again, $(context.player.Name). You are one incredibly capable individual. Thank you very much! I promised a reward, and here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
-        <target state="final">Excellent! ::For the first time, a smile finally appears on the captain's face.:: I'm just glad all this is coming to an end. You've done it again, $(context.player.Name). You are one incredibly capable individual. Thank you very much! I promised a reward, and here it is. ::He gives you 400 charons.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1755,16 +871,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Excellent! ::For the first time, a smile finally appears on the captain's face.:: I'm just glad all this is coming to an end. You've done it again, $(context.player.Name). You are one incredibly capable individual. Thank you very much! I promised a reward, and here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q87_original" name="=&gt;q87_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">173</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You found it? Wow, you've been busy... What happened to it?&lt;end&gt;</source>
-        <target state="final">You found it? Wow, you've been busy... What happened to it?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
@@ -1777,16 +883,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a88_original" name="=&gt;a88_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">175</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The train was hijacked by some gang.&lt;end&gt;</source>
-        <target state="final">The train was hijacked by some gang.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1795,16 +891,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>The train was hijacked by some gang.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q89_original" name="=&gt;q89_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">177</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I was afraid of that, but I'm relieved the train has been found. I'm just glad all this is coming to an end. You've done it again $(context.player.Name), you seem to be an incredibly capable individual. Thank you very much! I promised a reward, so here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
-        <target state="final">I was afraid of that, but I'm relieved the train has been found. I'm just glad all this is coming to an end. You've done it again $(context.player.Name), you seem to be an incredibly capable individual. Thank you very much! I promised a reward, so here it is. ::He gives you 400 charons.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -1817,16 +903,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a90_original" name="=&gt;a90_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">179</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The Free Drones hijacked the train.&lt;end&gt;</source>
-        <target state="final">The Free Drones hijacked the train.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a90" name="=&gt;a90">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1835,16 +911,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>The Free Drones hijacked the train.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q91_original" name="=&gt;q91_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">181</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Free Drones? Are you sure?&lt;end&gt;</source>
-        <target state="final">Free Drones? Are you sure?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
@@ -1857,16 +923,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a92_original" name="=&gt;a92_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">183</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They are fighting against the Protectorate, claiming that they're oppressors.&lt;end&gt;</source>
-        <target state="final">They are fighting against the Protectorate, claiming that they're oppressors.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1875,16 +931,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>They are fighting against the Protectorate, claiming that they're oppressors.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q93_original" name="=&gt;q93_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">185</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Indeed, it makes perfect sense. The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</source>
-        <target state="final">Indeed, it makes perfect sense. The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -1897,16 +943,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q94_original" name="=&gt;q94_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">187</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>All in all, I'm relieved the train has been found. You've done it again $(context.player.Name), you seem to be an incredibly capable individual. Thank you very much! I promised a reward, so here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
-        <target state="final">All in all, I'm relieved the train has been found. You've done it again $(context.player.Name), you seem to be an incredibly capable individual. Thank you very much! I promised a reward, so here it is. ::He gives you 400 charons.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q94" name="=&gt;q94">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1915,16 +951,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>All in all, I'm relieved the train has been found. You've done it again $(context.player.Name), you seem to be an incredibly capable individual. Thank you very much! I promised a reward, so here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a95_original" name="=&gt;a95_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">189</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm sure, but I don't know their exact motives.&lt;end&gt;</source>
-        <target state="final">I'm sure, but I don't know their exact motives.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a95" name="=&gt;a95">
@@ -1937,16 +963,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q96_original" name="=&gt;q96_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">191</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</source>
-        <target state="final">The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q96" name="=&gt;q96">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1955,16 +971,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a97_original" name="=&gt;a97_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">193</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I've informed the Protectorate of the missing train's location. Their soldiers have managed to recover it and it's on its way back to the outpost.&lt;end&gt;</source>
-        <target state="final">I've informed the Protectorate of the missing train's location. Their soldiers have managed to recover it and it's on its way back to the outpost.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a97" name="=&gt;a97">
@@ -1977,16 +983,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a98_original" name="=&gt;a98_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">195</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I've talked to Major Clifton in South Railroad Outpost.&lt;end&gt;</source>
-        <target state="final">I've talked to Major Clifton in South Railroad Outpost.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a98" name="=&gt;a98">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1995,16 +991,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>I've talked to Major Clifton in South Railroad Outpost.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q99_original" name="=&gt;q99_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">197</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Great, what did he say?&lt;end&gt;</source>
-        <target state="final">Great, what did he say?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q99" name="=&gt;q99">
@@ -2017,16 +1003,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a100_original" name="=&gt;a100_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">199</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The train left the outpost as planned, but they aren't sure what happened to it.&lt;end&gt;</source>
-        <target state="final">The train left the outpost as planned, but they aren't sure what happened to it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a100" name="=&gt;a100">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2035,16 +1011,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>The train left the outpost as planned, but they aren't sure what happened to it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q101_original" name="=&gt;q101_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">201</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It is what I feared. Someone must've intercepted the train. We need to keep searching. Who knows how long it'll take for the Protectorate to get to the bottom of this.&lt;end&gt;</source>
-        <target state="final">It is what I feared. Someone must've intercepted the train. We need to keep searching. Who knows how long it'll take for the Protectorate to get to the bottom of this.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
@@ -2057,16 +1023,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a102_original" name="=&gt;a102_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">203</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What if they're lying? Maybe they are trying to trick you somehow.&lt;end&gt;</source>
-        <target state="final">What if they're lying? Maybe they are trying to trick you somehow.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a102" name="=&gt;a102">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2075,16 +1031,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>What if they're lying? Maybe they are trying to trick you somehow.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q103_original" name="=&gt;q103_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">205</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I do not think so. ::He pauses.:: But even if it is true, there is nothing we can do about it other than try to find out what happened to the train. And hope, basically.&lt;end&gt;</source>
-        <target state="final">I do not think so. ::He pauses.:: But even if it is true, there is nothing we can do about it other than try to find out what happened to the train. And hope, basically.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
@@ -2097,16 +1043,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a104_original" name="=&gt;a104_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">207</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm on the case.&lt;end&gt;</source>
-        <target state="final">I'm on the case.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a104" name="=&gt;a104">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2115,16 +1051,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>I'm on the case.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q105_original" name="=&gt;q105_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">209</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I knew I could count on you. Good luck.&lt;end&gt;</source>
-        <target state="final">I knew I could count on you. Good luck.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q105" name="=&gt;q105">
@@ -2137,16 +1063,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a106_original" name="=&gt;a106_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">211</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yeah, the train left the outpost all right, but they lost track of it. They also impolitely told me to wait until they deal with it, and after that, they'll inform you about what happens next. Eventually...&lt;end&gt;</source>
-        <target state="final">Yeah, the train left the outpost all right, but they lost track of it. They also impolitely told me to wait until they deal with it, and after that, they'll inform you about what happens next. Eventually...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a106" name="=&gt;a106">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2155,16 +1071,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Yeah, the train left the outpost all right, but they lost track of it. They also impolitely told me to wait until they deal with it, and after that, they'll inform you about what happens next. Eventually...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q107_original" name="=&gt;q107_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">213</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sounds like some jack-in-office of an officer. Someone must've intercepted the train. We need to keep searching. Who knows how long it'll take for the Protectorate to get to the bottom of this.&lt;end&gt;</source>
-        <target state="final">Sounds like some jack-in-office of an officer. Someone must've intercepted the train. We need to keep searching. Who knows how long it'll take for the Protectorate to get to the bottom of this.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q107" name="=&gt;q107">
@@ -2177,16 +1083,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a108_original" name="=&gt;a108_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">215</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Lie]:: I tried everything, but the train is impossible to find. I am stopping the search.&lt;end&gt;</source>
-        <target state="final">::[Lie]:: I tried everything, but the train is impossible to find. I am stopping the search.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a108" name="=&gt;a108">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2195,16 +1091,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>::[Lie]:: I tried everything, but the train is impossible to find. I am stopping the search.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q109_original" name="=&gt;q109_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">217</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hold on, hold on. I think we still have a chance, maybe there are some clues that can point us in the right direct... ion. ::Herve stops speaking and simply stares at you with disappointment..:: I see... You've already made up your mind. :: He sighs.:: I can't force you to do this if you don't want to. I'm... I'm sorry it turned out this way.&lt;end&gt;</source>
-        <target state="final">Hold on, hold on. I think we still have a chance, maybe there are some clues that can point us in the right direct... ion. ::Herve stops speaking and simply stares at you with disappointment..:: I see... You've already made up your mind. :: He sighs.:: I can't force you to do this if you don't want to. I'm... I'm sorry it turned out this way.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q109" name="=&gt;q109">
@@ -2217,16 +1103,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q110_original" name="=&gt;q110_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">219</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>See you around... $(context.player.Name). Take care.&lt;end&gt;</source>
-        <target state="final">See you around... $(context.player.Name). Take care.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q110" name="=&gt;q110">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2235,16 +1111,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>See you around... $(context.player.Name). Take care.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a111_original" name="=&gt;a111_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">221</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I've decided to help you with the missing train.&lt;end&gt;</source>
-        <target state="final">I've decided to help you with the missing train.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a111" name="=&gt;a111">
@@ -2257,16 +1123,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a112_original" name="=&gt;a112_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">223</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do you know anything about the Free Drones?&lt;end&gt;</source>
-        <target state="final">Do you know anything about the Free Drones?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a112" name="=&gt;a112">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2275,16 +1131,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Do you know anything about the Free Drones?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q113_original" name="=&gt;q113_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">225</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</source>
-        <target state="final">The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -2297,16 +1143,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q114_original" name="=&gt;q114_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">227</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is all I know.&lt;end&gt;</source>
-        <target state="final">That is all I know.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q114" name="=&gt;q114">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2315,16 +1151,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>That is all I know.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a115_original" name="=&gt;a115_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">229</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about South Railroad Outpost?&lt;end&gt;</source>
-        <target state="final">What can you tell me about South Railroad Outpost?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a115" name="=&gt;a115">
@@ -2337,16 +1163,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q116_original" name="=&gt;q116_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">231</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Not much, really. All I know is that it's a Protectorate outpost, has a railroad access and is pretty well guarded.&lt;end&gt;</source>
-        <target state="final">Not much, really. All I know is that it's a Protectorate outpost, has a railroad access and is pretty well guarded.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q116" name="=&gt;q116">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2355,16 +1171,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Not much, really. All I know is that it's a Protectorate outpost, has a railroad access and is pretty well guarded.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q117_original" name="=&gt;q117_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">233</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That's all I know.&lt;end&gt;</source>
-        <target state="final">That's all I know.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q117" name="=&gt;q117">
@@ -2377,16 +1183,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a118_original" name="=&gt;a118_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">235</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why is this a bad day to visit?&lt;end&gt;</source>
-        <target state="final">Why is this a bad day to visit?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a118" name="=&gt;a118">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2395,16 +1191,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Why is this a bad day to visit?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q119_original" name="=&gt;q119_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">237</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You must have heard the reports of Faceless invading the Core City by now, right? Well, we got our own problems with the Faceless here.&lt;end&gt;</source>
-        <target state="final">You must have heard the reports of Faceless invading the Core City by now, right? Well, we got our own problems with the Faceless here.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q119" name="=&gt;q119">
@@ -2417,16 +1203,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q120_original" name="=&gt;q120_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">239</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They busted in with one of their tunnelers down the track south and occupied Buzzer's shop. We tried to blitz them back before they'd set up but that ended badly. They killed three of my men and badly wounded one.&lt;end&gt;</source>
-        <target state="final">They busted in with one of their tunnelers down the track south and occupied Buzzer's shop. We tried to blitz them back before they'd set up but that ended badly. They killed three of my men and badly wounded one.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2435,16 +1211,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>They busted in with one of their tunnelers down the track south and occupied Buzzer's shop. We tried to blitz them back before they'd set up but that ended badly. They killed three of my men and badly wounded one.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a121_original" name="=&gt;a121_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">241</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why do you think they occupied Buzzer's shop?&lt;end&gt;</source>
-        <target state="final">Why do you think they occupied Buzzer's shop?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a121" name="=&gt;a121">
@@ -2457,16 +1223,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q122_original" name="=&gt;q122_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">243</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I can't say for sure. Maybe they want something from him or his shop. Buzzer's known to trade in strange electronics - maybe he got hold of something they want.&lt;end&gt;</source>
-        <target state="final">I can't say for sure. Maybe they want something from him or his shop. Buzzer's known to trade in strange electronics - maybe he got hold of something they want.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q122" name="=&gt;q122">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2475,16 +1231,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>I can't say for sure. Maybe they want something from him or his shop. Buzzer's known to trade in strange electronics - maybe he got hold of something they want.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q123_original" name="=&gt;q123_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">245</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Or maybe they actually planned to tunnel out somewhere else in the station and just improvised once they realized they missed their target.&lt;end&gt;</source>
-        <target state="final">Or maybe they actually planned to tunnel out somewhere else in the station and just improvised once they realized they missed their target.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q123" name="=&gt;q123">
@@ -2497,16 +1243,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a124_original" name="=&gt;a124_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">247</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What are you going to do about the Faceless?&lt;end&gt;</source>
-        <target state="final">What are you going to do about the Faceless?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a124" name="=&gt;a124">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2515,16 +1251,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>What are you going to do about the Faceless?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q125_original" name="=&gt;q125_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">249</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>There's not much we can do at this point. We barely have enough men to fight them off if they come at us now. If we rush them again and suffer more losses, we're done. We'd have to evacuate the station.&lt;end&gt;</source>
-        <target state="final">There's not much we can do at this point. We barely have enough men to fight them off if they come at us now. If we rush them again and suffer more losses, we're done. We'd have to evacuate the station.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q125" name="=&gt;q125">
@@ -2537,16 +1263,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a126_original" name="=&gt;a126_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">251</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Maybe I could help you with your Faceless situation.&lt;end&gt;</source>
-        <target state="final">Maybe I could help you with your Faceless situation.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a126" name="=&gt;a126">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2555,16 +1271,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Maybe I could help you with your Faceless situation.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q127_original" name="=&gt;q127_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">253</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He looks at you curiously.:: That would almost certainly mean you risking your neck for us. Why would you want to do this?&lt;end&gt;</source>
-        <target state="final">::He looks at you curiously.:: That would almost certainly mean you risking your neck for us. Why would you want to do this?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q127" name="=&gt;q127">
@@ -2577,16 +1283,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q128_original" name="=&gt;q128_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">255</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q128" name="=&gt;q128">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2595,16 +1291,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a129_original" name="=&gt;a129_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">257</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm from SGS actually. Tanner sent me to lend you a hand.&lt;end&gt;</source>
-        <target state="final">I'm from SGS actually. Tanner sent me to lend you a hand.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a129" name="=&gt;a129">
@@ -2617,16 +1303,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q130_original" name="=&gt;q130_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">259</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Ah, I did put out a distress call to SGS. Are you the only one they could spare? I guess you people have your own problems.&lt;end&gt;</source>
-        <target state="final">Ah, I did put out a distress call to SGS. Are you the only one they could spare? I guess you people have your own problems.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q130" name="=&gt;q130">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2635,16 +1311,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Ah, I did put out a distress call to SGS. Are you the only one they could spare? I guess you people have your own problems.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q131_original" name="=&gt;q131_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">261</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>As I said. Storming the shop is not an option anymore, so you'll have to figure out something else.&lt;end&gt;</source>
-        <target state="final">As I said. Storming the shop is not an option anymore, so you'll have to figure out something else.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q131" name="=&gt;q131">
@@ -2657,16 +1323,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a132_original" name="=&gt;a132_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">263</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We humans should stand together against this Faceless offensive. If your station falls today, my station could be next.&lt;end&gt;</source>
-        <target state="final">We humans should stand together against this Faceless offensive. If your station falls today, my station could be next.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a132" name="=&gt;a132">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2675,16 +1331,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>We humans should stand together against this Faceless offensive. If your station falls today, my station could be next.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q133_original" name="=&gt;q133_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">265</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He gives you a suspicious look.:: I guess that makes sense.&lt;end&gt;</source>
-        <target state="final">::He gives you a suspicious look.:: I guess that makes sense.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q133" name="=&gt;q133">
@@ -2697,16 +1343,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a134_original" name="=&gt;a134_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">267</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'd expect to be paid, of course.&lt;end&gt;</source>
-        <target state="final">I'd expect to be paid, of course.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a134" name="=&gt;a134">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2715,16 +1351,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>I'd expect to be paid, of course.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q135_original" name="=&gt;q135_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">269</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That I can understand. If you can somehow make the Faceless leave or take them all out I'll pay you three hundred charons. If you can get Buzzer out of there alive, assuming he still is, I'll throw in extra one hundred charons. Sound good?&lt;end&gt;</source>
-        <target state="final">That I can understand. If you can somehow make the Faceless leave or take them all out I'll pay you three hundred charons. If you can get Buzzer out of there alive, assuming he still is, I'll throw in extra one hundred charons. Sound good?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q135" name="=&gt;q135">
@@ -2737,16 +1363,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q136_original" name="=&gt;q136_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">271</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q136" name="=&gt;q136">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2755,16 +1371,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a137_original" name="=&gt;a137_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">273</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Agreed.&lt;end&gt;</source>
-        <target state="final">Agreed.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a137" name="=&gt;a137">
@@ -2777,16 +1383,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q138_original" name="=&gt;q138_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">275</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We have a deal then.&lt;end&gt;</source>
-        <target state="final">We have a deal then.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q138" name="=&gt;q138">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2795,16 +1391,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>We have a deal then.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a139_original" name="=&gt;a139_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">277</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Mercantile]:: You'll have to do better than that, chief. I'm risking my neck here. I'll get you rid of those freaks for 400 charons and for additional I'll get your homeboy Buzzer for additional two hundred charons.&lt;end&gt;</source>
-        <target state="final">::[Mercantile]:: You'll have to do better than that, chief. I'm risking my neck here. I'll get you rid of those freaks for 400 charons and for additional I'll get your homeboy Buzzer for additional two hundred charons.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a139" name="=&gt;a139">
@@ -2817,16 +1403,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q140_original" name="=&gt;q140_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">279</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hmm... fair enough. Chances are you'll just get killed and I won't have to pay you anything anyway.&lt;end&gt;</source>
-        <target state="final">Hmm... fair enough. Chances are you'll just get killed and I won't have to pay you anything anyway.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q140" name="=&gt;q140">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2835,16 +1411,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Hmm... fair enough. Chances are you'll just get killed and I won't have to pay you anything anyway.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q141_original" name="=&gt;q141_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">281</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Forget it, $(#boy/girl). It's three hundred and one hundred. Take it or leave it.&lt;end&gt;</source>
-        <target state="final">Forget it, $(#boy/girl). It's three hundred and one hundred. Take it or leave it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q141" name="=&gt;q141">
@@ -2857,16 +1423,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a142_original" name="=&gt;a142_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">283</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll take it.&lt;end&gt;</source>
-        <target state="final">I'll take it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a142" name="=&gt;a142">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2875,16 +1431,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>I'll take it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a143_original" name="=&gt;a143_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">285</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll think about it.&lt;end&gt;</source>
-        <target state="final">I'll think about it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a143" name="=&gt;a143">
@@ -2897,16 +1443,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q144_original" name="=&gt;q144_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">287</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You do that.&lt;end&gt;</source>
-        <target state="final">You do that.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q144" name="=&gt;q144">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2915,16 +1451,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>You do that.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a145_original" name="=&gt;a145_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">289</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'll think about it.&lt;end&gt;</source>
-        <target state="final">I'll think about it.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a145" name="=&gt;a145">
@@ -2937,16 +1463,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a146_original" name="=&gt;a146_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">291</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Never mind, sounds like a bad idea.&lt;end&gt;</source>
-        <target state="final">Never mind, sounds like a bad idea.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a146" name="=&gt;a146">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2955,16 +1471,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Never mind, sounds like a bad idea.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a147_original" name="=&gt;a147_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">293</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So let's talk about how I can help you with your Faceless situation again...&lt;end&gt;</source>
-        <target state="final">So let's talk about how I can help you with your Faceless situation again...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a147" name="=&gt;a147">
@@ -2977,16 +1483,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q148_original" name="=&gt;q148_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">295</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Let me lay down my offer again: You get three hundred charons if you get rid of the Faceless one way or the other, plus a bonus of one hundred charons if you get Buzzer out alive.&lt;end&gt;</source>
-        <target state="final">Let me lay down my offer again: You get three hundred charons if you get rid of the Faceless one way or the other, plus a bonus of one hundred charons if you get Buzzer out alive.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q148" name="=&gt;q148">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2995,16 +1491,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Let me lay down my offer again: You get three hundred charons if you get rid of the Faceless one way or the other, plus a bonus of one hundred charons if you get Buzzer out alive.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q149_original" name="=&gt;q149_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">297</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm just wondering why you're interested in helping us so much...&lt;end&gt;</source>
-        <target state="final">I'm just wondering why you're interested in helping us so much...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q149" name="=&gt;q149">
@@ -3017,16 +1503,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a150_original" name="=&gt;a150_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">299</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Where is Buzzer's shop exactly?&lt;end&gt;</source>
-        <target state="final">Where is Buzzer's shop exactly?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a150" name="=&gt;a150">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3035,16 +1511,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>Where is Buzzer's shop exactly?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q151_original" name="=&gt;q151_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">301</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's just to the south. It's guarded by a Faceless and there are plasma walkers patrolling. And further down south is the train depot.&lt;end&gt;</source>
-        <target state="final">It's just to the south. It's guarded by a Faceless and there are plasma walkers patrolling. And further down south is the train depot.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q151" name="=&gt;q151">
@@ -3057,16 +1523,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a152_original" name="=&gt;a152_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">303</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How many Faceless are there?&lt;end&gt;</source>
-        <target state="final">How many Faceless are there?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a152" name="=&gt;a152">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3077,16 +1533,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q153_original" name="=&gt;q153_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">305</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>When we tried to storm the shop I saw three of them, but there could be more inside.&lt;end&gt;</source>
-        <target state="final">When we tried to storm the shop I saw three of them, but there could be more inside.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q153" name="=&gt;q153">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3095,20 +1541,6 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       <segment state="translated">
         <source>When we tried to storm the shop I saw three of them, but there could be more inside.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q154_original" name="=&gt;q154_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">307</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Also, they had at least two plasma walkers patrolling the depot so be careful if you go snooping around there. 
-
-Myles has some ideas how to disable those when we discussed a possibility of a second attack. You should ask him about what he had in mind. He lives on the north side of the station.&lt;end&gt;</source>
-        <target state="final">Also, they had at least two plasma walkers patrolling the depot so be careful if you go snooping around there. 
-
-Myles has some ideas how to disable those when we discussed a possibility of a second attack. You should ask him about what he had in mind. He lives on the north side of the station.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q154" name="=&gt;q154">
@@ -3123,16 +1555,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a155_original" name="=&gt;a155_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">309</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Is there another way to get into Buzzer's shop?&lt;end&gt;</source>
-        <target state="final">Is there another way to get into Buzzer's shop?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a155" name="=&gt;a155">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3141,16 +1563,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>Is there another way to get into Buzzer's shop?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q156_original" name="=&gt;q156_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">311</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Maybe through the tunnel, but I don't know what state it's in, no one's been using it for a long time. You can access it through the trap door on the south end of the depot. The key is in my locker over there.&lt;end&gt;</source>
-        <target state="final">Maybe through the tunnel, but I don't know what state it's in, no one's been using it for a long time. You can access it through the trap door on the south end of the depot. The key is in my locker over there.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q156" name="=&gt;q156">
@@ -3163,16 +1575,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a157_original" name="=&gt;a157_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">313</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I got rid of the Faceless for you.&lt;end&gt;</source>
-        <target state="final">I got rid of the Faceless for you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a157" name="=&gt;a157">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3181,16 +1583,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>I got rid of the Faceless for you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q158_original" name="=&gt;q158_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">315</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yeah, I saw some of them retreating. I don't know what you did, but well done. &lt;end&gt;</source>
-        <target state="final">Yeah, I saw some of them retreating. I don't know what you did, but well done. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q158" name="=&gt;q158">
@@ -3203,16 +1595,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q159_original" name="=&gt;q159_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">317</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You did us a great favor and we won't forget this.&lt;end&gt;</source>
-        <target state="final">You did us a great favor and we won't forget this.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q159" name="=&gt;q159">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3221,16 +1603,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>You did us a great favor and we won't forget this.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q160_original" name="=&gt;q160_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">319</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It's unfortunate that you couldn't save Buzzer, though. He will be missed.&lt;end&gt;</source>
-        <target state="final">It's unfortunate that you couldn't save Buzzer, though. He will be missed.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q160" name="=&gt;q160">
@@ -3243,16 +1615,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a161_original" name="=&gt;a161_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">321</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Wish I could have. Rest in peace, Buzzer.&lt;end&gt;</source>
-        <target state="final">Wish I could have. Rest in peace, Buzzer.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a161" name="=&gt;a161">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3261,16 +1623,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>Wish I could have. Rest in peace, Buzzer.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q162_original" name="=&gt;q162_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">323</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>May he rest in peace...&lt;end&gt;</source>
-        <target state="final">May he rest in peace...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q162" name="=&gt;q162">
@@ -3283,16 +1635,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q163_original" name="=&gt;q163_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">325</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You didn't save Buzzer, though, so no bonus money for you.&lt;end&gt;</source>
-        <target state="final">You didn't save Buzzer, though, so no bonus money for you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q163" name="=&gt;q163">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3301,16 +1643,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>You didn't save Buzzer, though, so no bonus money for you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q164_original" name="=&gt;q164_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">327</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And since you saved Buzzer in the process, here's your bonus as well - two hundred charons.&lt;end&gt;</source>
-        <target state="final">And since you saved Buzzer in the process, here's your bonus as well - two hundred charons.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q164" name="=&gt;q164">
@@ -3323,16 +1655,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a165_original" name="=&gt;a165_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">329</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Pleasure doing business with you.&lt;end&gt;</source>
-        <target state="final">Pleasure doing business with you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a165" name="=&gt;a165">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3341,16 +1663,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>Pleasure doing business with you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q166_original" name="=&gt;q166_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">331</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Indeed...&lt;end&gt;</source>
-        <target state="final">Indeed...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q166" name="=&gt;q166">
@@ -3363,16 +1675,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q167_original" name="=&gt;q167_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">333</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>And since you saved Buzzer in the process, here's your bonus as well - one hundred charons.&lt;end&gt;</source>
-        <target state="final">And since you saved Buzzer in the process, here's your bonus as well - one hundred charons.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q167" name="=&gt;q167">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3381,16 +1683,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>And since you saved Buzzer in the process, here's your bonus as well - one hundred charons.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q168_original" name="=&gt;q168_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">335</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Here's the four hundred charons I promised you. &lt;end&gt;</source>
-        <target state="final">Here's the four hundred charons I promised you. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q168" name="=&gt;q168">
@@ -3403,16 +1695,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q169_original" name="=&gt;q169_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">337</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Here's the three hundred charons I promised you. &lt;end&gt;</source>
-        <target state="final">Here's the three hundred charons I promised you. &lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q169" name="=&gt;q169">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3421,16 +1703,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>Here's the three hundred charons I promised you. &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a170_original" name="=&gt;a170_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">339</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm looking for Terry and Lora Baker, merchants from SGS. Have you seen them recently?&lt;end&gt;</source>
-        <target state="final">I'm looking for Terry and Lora Baker, merchants from SGS. Have you seen them recently?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a170" name="=&gt;a170">
@@ -3443,16 +1715,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q171_original" name="=&gt;q171_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">341</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They come here regularly to trade, usually with Buzzer, but I haven't seen them recently, no.&lt;end&gt;</source>
-        <target state="final">They come here regularly to trade, usually with Buzzer, but I haven't seen them recently, no.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q171" name="=&gt;q171">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3461,16 +1723,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>They come here regularly to trade, usually with Buzzer, but I haven't seen them recently, no.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a172_original" name="=&gt;a172_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">343</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Buzzer died before I had the chance to talk to him about the Faceless attack, leaving me with some unanswered questions.&lt;end&gt;</source>
-        <target state="final">Buzzer died before I had the chance to talk to him about the Faceless attack, leaving me with some unanswered questions.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a172" name="=&gt;a172">
@@ -3483,16 +1735,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q173_original" name="=&gt;q173_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">345</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I already told you all I know. Did you search the shop or learn something from the Faceless themselves?&lt;end&gt;</source>
-        <target state="final">I already told you all I know. Did you search the shop or learn something from the Faceless themselves?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q173" name="=&gt;q173">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3501,16 +1743,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>I already told you all I know. Did you search the shop or learn something from the Faceless themselves?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q174_original" name="=&gt;q174_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">347</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q174" name="=&gt;q174">
@@ -3523,16 +1755,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a175_original" name="=&gt;a175_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">349</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They are looking for some item; I don't know what the item is, but it doesn't take a genius to figure out it means a lot to them. As you've said yourself, maybe someone brought something to his store. Did anyone unusual come to his store recently?&lt;end&gt;</source>
-        <target state="final">They are looking for some item; I don't know what the item is, but it doesn't take a genius to figure out it means a lot to them. As you've said yourself, maybe someone brought something to his store. Did anyone unusual come to his store recently?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a175" name="=&gt;a175">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3541,16 +1763,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>They are looking for some item; I don't know what the item is, but it doesn't take a genius to figure out it means a lot to them. As you've said yourself, maybe someone brought something to his store. Did anyone unusual come to his store recently?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q176_original" name="=&gt;q176_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">351</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He shrugs.:: Plenty, actually. But I don't keep track of who visits Buzzer. You could still ask around the station. Maybe you'll find some clue. My mind is preoccupied with other things now, however, so you're on your own in this.&lt;end&gt;</source>
-        <target state="final">::He shrugs.:: Plenty, actually. But I don't keep track of who visits Buzzer. You could still ask around the station. Maybe you'll find some clue. My mind is preoccupied with other things now, however, so you're on your own in this.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q176" name="=&gt;q176">
@@ -3563,16 +1775,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a177_original" name="=&gt;a177_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">353</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Can I ask you a few more questions before I leave?&lt;end&gt;</source>
-        <target state="final">Can I ask you a few more questions before I leave?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a177" name="=&gt;a177">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3581,16 +1783,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>Can I ask you a few more questions before I leave?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q178_original" name="=&gt;q178_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">355</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Go ahead.&lt;end&gt;</source>
-        <target state="final">Go ahead.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q178" name="=&gt;q178">
@@ -3603,16 +1795,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a179_original" name="=&gt;a179_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">357</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I understand. I'm going to go and ask around a bit.&lt;end&gt;</source>
-        <target state="final">I understand. I'm going to go and ask around a bit.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a179" name="=&gt;a179">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3621,16 +1803,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>I understand. I'm going to go and ask around a bit.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a180_original" name="=&gt;a180_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">359</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Intelligence]:: I did not find anything unusual, but whatever the Faceless are looking for, it is no longer there. My guess is that all poor Buzzer was guilty of is letting the wrong people into his shop, drawing the Faceless toward him.&lt;end&gt;</source>
-        <target state="final">::[Intelligence]:: I did not find anything unusual, but whatever the Faceless are looking for, it is no longer there. My guess is that all poor Buzzer was guilty of is letting the wrong people into his shop, drawing the Faceless toward him.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a180" name="=&gt;a180">
@@ -3643,16 +1815,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q181_original" name="=&gt;q181_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">361</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How can you be so sure?&lt;end&gt;</source>
-        <target state="final">How can you be so sure?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q181" name="=&gt;q181">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3661,16 +1823,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>How can you be so sure?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a182_original" name="=&gt;a182_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">363</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am not, but you said something yourself - he deals in strange electronics. I think the most plausible explanation is that someone brought this device to his store; it likely didn't exchange hands, as the Faceless would've found it by now.&lt;end&gt;</source>
-        <target state="final">I am not, but you said something yourself - he deals in strange electronics. I think the most plausible explanation is that someone brought this device to his store; it likely didn't exchange hands, as the Faceless would've found it by now.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a182" name="=&gt;a182">
@@ -3683,16 +1835,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q183_original" name="=&gt;q183_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">365</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You could ask around, but Buzzer had a lot of customers, and a lot of them were weird folks. ::He shrugs.:: My mind is preoccupied with other things now, however, so you're on your own in this.&lt;end&gt;</source>
-        <target state="final">You could ask around, but Buzzer had a lot of customers, and a lot of them were weird folks. ::He shrugs.:: My mind is preoccupied with other things now, however, so you're on your own in this.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q183" name="=&gt;q183">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3701,16 +1843,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>You could ask around, but Buzzer had a lot of customers, and a lot of them were weird folks. ::He shrugs.:: My mind is preoccupied with other things now, however, so you're on your own in this.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a184_original" name="=&gt;a184_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">367</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Nothing useful, unfortunately.&lt;end&gt;</source>
-        <target state="final">Nothing useful, unfortunately.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a184" name="=&gt;a184">
@@ -3723,16 +1855,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q185_original" name="=&gt;q185_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">369</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He shrugs.:: Sorry, my mind is preoccupied with other things now, so I can't help you much, but it seems to me like the only thing you've got left is to ask around the station. Lots of weird folks come to Buzzer's shop, so perhaps someone saw something you could find useful.&lt;end&gt;</source>
-        <target state="final">::He shrugs.:: Sorry, my mind is preoccupied with other things now, so I can't help you much, but it seems to me like the only thing you've got left is to ask around the station. Lots of weird folks come to Buzzer's shop, so perhaps someone saw something you could find useful.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q185" name="=&gt;q185">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3741,16 +1863,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>::He shrugs.:: Sorry, my mind is preoccupied with other things now, so I can't help you much, but it seems to me like the only thing you've got left is to ask around the station. Lots of weird folks come to Buzzer's shop, so perhaps someone saw something you could find useful.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q186_original" name="=&gt;q186_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">371</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Buzzer was known to trade in strange electronics - maybe he got hold of something they wanted. Did you search the shop or learn something from the Faceless themselves?&lt;end&gt;</source>
-        <target state="final">Buzzer was known to trade in strange electronics - maybe he got hold of something they wanted. Did you search the shop or learn something from the Faceless themselves?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q186" name="=&gt;q186">
@@ -3763,16 +1875,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a187_original" name="=&gt;a187_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">373</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Catch you later.&lt;end&gt;</source>
-        <target state="final">Catch you later.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a187" name="=&gt;a187">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3781,16 +1883,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>Catch you later.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q188_original" name="=&gt;q188_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">375</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Please, not now...&lt;end&gt;</source>
-        <target state="final">Please, not now...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q188" name="=&gt;q188">
@@ -3803,16 +1895,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q189_original" name="=&gt;q189_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">377</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The Faceless have retreated. I don't know if you had anything to do with it, but if you did, thank you!&lt;end&gt;</source>
-        <target state="final">The Faceless have retreated. I don't know if you had anything to do with it, but if you did, thank you!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q189" name="=&gt;q189">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3821,16 +1903,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>The Faceless have retreated. I don't know if you had anything to do with it, but if you did, thank you!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q190_original" name="=&gt;q190_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">379</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hello, traveller. I am Herve, captain of the militia and the de facto mayor of this station. It is very fortunate that you didn't arrive during the Faceless attack. Things were quite violent.&lt;end&gt;</source>
-        <target state="final">Hello, traveller. I am Herve, captain of the militia and the de facto mayor of this station. It is very fortunate that you didn't arrive during the Faceless attack. Things were quite violent.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q190" name="=&gt;q190">
@@ -3843,16 +1915,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q191_original" name="=&gt;q191_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">381</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I saw you exiting Buzzer's shop and suddenly the Faceless are retreating. I don't know what you did, but thank you.&lt;end&gt;</source>
-        <target state="final">I saw you exiting Buzzer's shop and suddenly the Faceless are retreating. I don't know what you did, but thank you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q191" name="=&gt;q191">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3861,16 +1923,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>I saw you exiting Buzzer's shop and suddenly the Faceless are retreating. I don't know what you did, but thank you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q192_original" name="=&gt;q192_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">383</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q192" name="=&gt;q192">
@@ -3883,16 +1935,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q193_original" name="=&gt;q193_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">385</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Name's Herve, by the way. I'm the captain of the milita and the de facto mayor of this station.&lt;end&gt;</source>
-        <target state="final">Name's Herve, by the way. I'm the captain of the milita and the de facto mayor of this station.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q193" name="=&gt;q193">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3901,16 +1943,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>Name's Herve, by the way. I'm the captain of the milita and the de facto mayor of this station.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q194_original" name="=&gt;q194_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">387</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hello, traveller. I am Herve, captain of the militia and the de facto mayor of this station.&lt;end&gt;</source>
-        <target state="final">Hello, traveller. I am Herve, captain of the militia and the de facto mayor of this station.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q194" name="=&gt;q194">
@@ -3923,16 +1955,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q195_original" name="=&gt;q195_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">389</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We are usually a friendly and welcoming community, but you've chosen a bad day to pay us a visit.&lt;end&gt;</source>
-        <target state="final">We are usually a friendly and welcoming community, but you've chosen a bad day to pay us a visit.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q195" name="=&gt;q195">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3943,16 +1965,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q196_original" name="=&gt;q196_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">391</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Good to see you again, $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Good to see you again, $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q196" name="=&gt;q196">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3961,16 +1973,6 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       <segment state="translated">
         <source>Good to see you again, $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q197_original" name="=&gt;q197_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">393</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes?&lt;end&gt;</source>
-        <target state="final">Yes?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q197" name="=&gt;q197">

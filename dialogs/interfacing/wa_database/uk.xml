@@ -1,20 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\wa_database.txt" original="dialogs\interfacing\wa_database.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Oculus Database
-
-Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="final">::Oculus Database
-
-Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -27,16 +13,6 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a2_original" name="=&gt;a2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Browse personal files::&lt;end&gt;</source>
-        <target state="final">::Browse personal files::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -45,20 +21,6 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Browse personal files::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Personal Files
-
-Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="final">::Personal Files
-
-Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -73,16 +35,6 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Hadrian Tanner::&lt;end&gt;</source>
-        <target state="final">::Hadrian Tanner::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -91,38 +43,6 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Hadrian Tanner::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Hadrian Tanner
-Position: Councilor
-Current residence: South Gate Station
-Alignment: South Gate Station
-
-Hadrian Tanner is one of the leaders of SGS. He is widely considered to be the most influential man in the station, though it seems he takes effort to downplay this.
-
-SGS steadily rose to power since Hadrian joined it.
-
-There is no record of Hadrian Tanner prior to him joining SGS and all attempts to trace back his history have failed so far.
-
-It is suspected that Hadrian Tanner is actually just an alias.::&lt;end&gt;</source>
-        <target state="final">::Full name: Hadrian Tanner
-Position: Councilor
-Current residence: South Gate Station
-Alignment: South Gate Station
-
-Hadrian Tanner is one of the leaders of SGS. He is widely considered to be the most influential man in the station, though it seems he takes effort to downplay this.
-
-SGS steadily rose to power since Hadrian joined it.
-
-There is no record of Hadrian Tanner prior to him joining SGS and all attempts to trace back his history have failed so far.
-
-It is suspected that Hadrian Tanner is actually just an alias.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -146,16 +66,6 @@ It is suspected that Hadrian Tanner is actually just an alias.::&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -166,16 +76,6 @@ It is suspected that Hadrian Tanner is actually just an alias.::&lt;end&gt;</sou
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a7_original" name="=&gt;a7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Vera Hale::&lt;end&gt;</source>
-        <target state="final">::Vera Hale::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -184,34 +84,6 @@ It is suspected that Hadrian Tanner is actually just an alias.::&lt;end&gt;</sou
       <segment state="translated">
         <source>::Vera Hale::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Vera Hale
-Position: Councilor
-Current residence: South Gate Station
-Alignment: South Gate Station
-
-- Vera Hale is one of the leaders of SGS. She is known for her support of Protectorate and United Stations idea.
-
-- Vera migrated from North Underrail where she worked as a deputy to the minister of trade of United Stations. She was dismissed from this position for unknown reasons.
-
-- Vera is credited as being pivotal negotiator in many trade agreements with neighboring communities, such as Junkyard, Camp Hathor and Protectorate (Junkyard Embassy and SRO). These trade agreements are hailed as a significant factor of SGS prosperity.::&lt;end&gt;</source>
-        <target state="final">::Full name: Vera Hale
-Position: Councilor
-Current residence: South Gate Station
-Alignment: South Gate Station
-
-- Vera Hale is one of the leaders of SGS. She is known for her support of Protectorate and United Stations idea.
-
-- Vera migrated from North Underrail where she worked as a deputy to the minister of trade of United Stations. She was dismissed from this position for unknown reasons.
-
-- Vera is credited as being pivotal negotiator in many trade agreements with neighboring communities, such as Junkyard, Camp Hathor and Protectorate (Junkyard Embassy and SRO). These trade agreements are hailed as a significant factor of SGS prosperity.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -233,16 +105,6 @@ Alignment: South Gate Station
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a9_original" name="=&gt;a9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Yevgeni 'Gorsky' Zolnerowich::&lt;end&gt;</source>
-        <target state="final">::Yevgeni 'Gorsky' Zolnerowich::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -251,44 +113,6 @@ Alignment: South Gate Station
       <segment state="translated">
         <source>::Yevgeni 'Gorsky' Zolnerowich::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q10_original" name="=&gt;q10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Yevgeni Zolnerowich
-Aliases: Gorsky
-Position: Chief of Security
-Current residence: South Gate Station
-Alignment: South Gate Station
-
-- Yevgeni is almost exclusively known by his alias Gorsky. The origin or the meaning of this alias is unknown.
-
-- He was a member of a number of gangs in times before the revolution in Core City. Shortly after the revolution he left Core City and eventually ended up in South Gate Station.
-
-- Gorsky is well known on the streets of Core City and in other Lower Underrail communities of the South as an audacious fighter who rarely backs down.
-
-- It is suspected that Gorsky was trained as a professional soldier in his youth, but it is uncertain where he would have gotten this training since all attempts to link him to Biocorp Security Forces returned negative results.
-
-- Gorsky still maintains contact with a number of minor factions of Core City, most notably the Zone Rats.::&lt;end&gt;</source>
-        <target state="final">::Full name: Yevgeni Zolnerowich
-Aliases: Gorsky
-Position: Chief of Security
-Current residence: South Gate Station
-Alignment: South Gate Station
-
-- Yevgeni is almost exclusively known by his alias Gorsky. The origin or the meaning of this alias is unknown.
-
-- He was a member of a number of gangs in times before the revolution in Core City. Shortly after the revolution he left Core City and eventually ended up in South Gate Station.
-
-- Gorsky is well known on the streets of Core City and in other Lower Underrail communities of the South as an audacious fighter who rarely backs down.
-
-- It is suspected that Gorsky was trained as a professional soldier in his youth, but it is uncertain where he would have gotten this training since all attempts to link him to Biocorp Security Forces returned negative results.
-
-- Gorsky still maintains contact with a number of minor factions of Core City, most notably the Zone Rats.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -315,16 +139,6 @@ Alignment: South Gate Station
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a11_original" name="=&gt;a11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Silas::&lt;end&gt;</source>
-        <target state="final">::Silas::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -333,32 +147,6 @@ Alignment: South Gate Station
       <segment state="translated">
         <source>::Silas::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Silas
-Alias: Dockmaster, Silas
-Position: Gang Leader
-Current residence: Junkyard
-Alignment: Black Eels (Junkyard)
-
-- Silas is the leader of Black Eels, a Junkyard gang that controls its docks, the Chancer's Bay as well as The Rig, a platform between Junkyard and Core City.
-
-- It is unknown whether Silas is an alias or his real name.::&lt;end&gt;</source>
-        <target state="final">::Full name: Silas
-Alias: Dockmaster, Silas
-Position: Gang Leader
-Current residence: Junkyard
-Alignment: Black Eels (Junkyard)
-
-- Silas is the leader of Black Eels, a Junkyard gang that controls its docks, the Chancer's Bay as well as The Rig, a platform between Junkyard and Core City.
-
-- It is unknown whether Silas is an alias or his real name.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -379,16 +167,6 @@ Alignment: Black Eels (Junkyard)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a13_original" name="=&gt;a13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Edward Wheeler::&lt;end&gt;</source>
-        <target state="final">::Edward Wheeler::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -397,28 +175,6 @@ Alignment: Black Eels (Junkyard)
       <segment state="translated">
         <source>::Edward Wheeler::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Edward Wheeler
-Alias: Eddy
-Position: Gang Leader
-Current residence: Junkyard
-Alignment: Scrappers (Junkyard)
-
-- Eddy is the leader of Scrappers, a Junkyard gang that controls the access to Depot A, also known as Old Junkyard, the biggest scavenger's playground.::&lt;end&gt;</source>
-        <target state="final">::Full name: Edward Wheeler
-Alias: Eddy
-Position: Gang Leader
-Current residence: Junkyard
-Alignment: Scrappers (Junkyard)
-
-- Eddy is the leader of Scrappers, a Junkyard gang that controls the access to Depot A, also known as Old Junkyard, the biggest scavenger's playground.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -437,16 +193,6 @@ Alignment: Scrappers (Junkyard)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Herve Fontaine::&lt;end&gt;</source>
-        <target state="final">::Herve Fontaine::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -455,26 +201,6 @@ Alignment: Scrappers (Junkyard)
       <segment state="translated">
         <source>::Herve Fontaine::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Herve Fontaine
-Position: Militia Captain
-Current residence: Rail Crossing
-Alignment: Rail Crossing
-
-- Herve is the captain of Rail Crossing militia and an unofficial acting mayor.::&lt;end&gt;</source>
-        <target state="final">::Full name: Herve Fontaine
-Position: Militia Captain
-Current residence: Rail Crossing
-Alignment: Rail Crossing
-
-- Herve is the captain of Rail Crossing militia and an unofficial acting mayor.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -492,16 +218,6 @@ Alignment: Rail Crossing
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Edgar Garnham::&lt;end&gt;</source>
-        <target state="final">::Edgar Garnham::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -510,30 +226,6 @@ Alignment: Rail Crossing
       <segment state="translated">
         <source>::Edgar Garnham::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Edgar Garnham
-Position: Leader
-Current residence: Camp Hathor
-Alignment: Camp Hathor
-
-- Edgar Garnham is the leader of Camp Hathor.
-
-- He is known as one of the most skillful hunters of South Underrail.::&lt;end&gt;</source>
-        <target state="final">::Full name: Edgar Garnham
-Position: Leader
-Current residence: Camp Hathor
-Alignment: Camp Hathor
-
-- Edgar Garnham is the leader of Camp Hathor.
-
-- He is known as one of the most skillful hunters of South Underrail.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -553,16 +245,6 @@ Alignment: Camp Hathor
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a19_original" name="=&gt;a19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Martin Marshall::&lt;end&gt;</source>
-        <target state="final">::Martin Marshall::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -571,26 +253,6 @@ Alignment: Camp Hathor
       <segment state="translated">
         <source>::Martin Marshall::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q20_original" name="=&gt;q20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Martin Marshall
-Position: Mayor
-Current residence: Foundry
-Alignment: Foundry
-
-- Martin is the current elected mayor of Foundry.::&lt;end&gt;</source>
-        <target state="final">::Full name: Martin Marshall
-Position: Mayor
-Current residence: Foundry
-Alignment: Foundry
-
-- Martin is the current elected mayor of Foundry.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -608,16 +270,6 @@ Alignment: Foundry
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a21_original" name="=&gt;a21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Dalton Banner::&lt;end&gt;</source>
-        <target state="final">::Dalton Banner::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -626,28 +278,6 @@ Alignment: Foundry
       <segment state="translated">
         <source>::Dalton Banner::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Dalton Banner
-Alias: Chief
-Position: Chief of Guard
-Current residence: Foundry
-Alignment: Foundry
-
-- Dalton is the current elected chief of Foundry Guard.::&lt;end&gt;</source>
-        <target state="final">::Full name: Dalton Banner
-Alias: Chief
-Position: Chief of Guard
-Current residence: Foundry
-Alignment: Foundry
-
-- Dalton is the current elected chief of Foundry Guard.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -666,16 +296,6 @@ Alignment: Foundry
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a23_original" name="=&gt;a23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Rupert Simmons::&lt;end&gt;</source>
-        <target state="final">::Rupert Simmons::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -684,30 +304,6 @@ Alignment: Foundry
       <segment state="translated">
         <source>::Rupert Simmons::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q24_original" name="=&gt;q24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Rupert Simmons
-Position: CEO
-Current residence: Core City
-Alignment: Coretech (Core City)
-
-- Rupert was one of the high ranking Biocorp technocrats before joining Core City rebellion. Today he is one of the three ruling Oligarchs.
-
-- Rupert and his company - Coretech, play a key part in the infrastructural maintenance of the Arena, as well as the Gauntlet, the latter being solely their creation.::&lt;end&gt;</source>
-        <target state="final">::Full name: Rupert Simmons
-Position: CEO
-Current residence: Core City
-Alignment: Coretech (Core City)
-
-- Rupert was one of the high ranking Biocorp technocrats before joining Core City rebellion. Today he is one of the three ruling Oligarchs.
-
-- Rupert and his company - Coretech, play a key part in the infrastructural maintenance of the Arena, as well as the Gauntlet, the latter being solely their creation.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -727,16 +323,6 @@ Alignment: Coretech (Core City)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a25_original" name="=&gt;a25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Gunnar Edstrom::&lt;end&gt;</source>
-        <target state="final">::Gunnar Edstrom::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -745,38 +331,6 @@ Alignment: Coretech (Core City)
       <segment state="translated">
         <source>::Gunnar Edstrom::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q26_original" name="=&gt;q26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Gunnar Edstrom
-Position: Owner
-Current residence: Core City
-Alignment: JKK (Core City)
-
-- Gunnar is a renowned trader.
-
-- Gunnar moved to Core City quite a number of years after the rebellion and managed to work himself and his company into the ruling Oligarchy by playing a mediator between the two major conflicting factions (Coretech and Praetorian Security).
-
-- Gunnar, his family and his associates came from somewhere in the East Underrail, but the exact location is unknown as are his previous business undertakings. There are rumors, though, that at one point, prior to his arrival to Core City, he was involved in slave trade.
-
-- Gunnar's company broadcasts ArenaNow and Gauntlet channels and also supplies some of the more exotic challenges.::&lt;end&gt;</source>
-        <target state="final">::Full name: Gunnar Edstrom
-Position: Owner
-Current residence: Core City
-Alignment: JKK (Core City)
-
-- Gunnar is a renowned trader.
-
-- Gunnar moved to Core City quite a number of years after the rebellion and managed to work himself and his company into the ruling Oligarchy by playing a mediator between the two major conflicting factions (Coretech and Praetorian Security).
-
-- Gunnar, his family and his associates came from somewhere in the East Underrail, but the exact location is unknown as are his previous business undertakings. There are rumors, though, that at one point, prior to his arrival to Core City, he was involved in slave trade.
-
-- Gunnar's company broadcasts ArenaNow and Gauntlet channels and also supplies some of the more exotic challenges.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -800,16 +354,6 @@ Alignment: JKK (Core City)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a27_original" name="=&gt;a27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Archibald Knight::&lt;end&gt;</source>
-        <target state="final">::Archibald Knight::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -818,34 +362,6 @@ Alignment: JKK (Core City)
       <segment state="translated">
         <source>::Archibald Knight::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Archibald Knight
-Position: Chief
-Current residence: Core City
-Alignment: Praetorian Security (Core City)
-
-- Archibald was once the second-in-command of the Core City Security Forces. After Protectorate invaded Biocorp in the North, Archibald led a successful revolt against Biocorp in Core City.
-
-- He's one of the three Oligarchs ruling Core City and commands the largest armed force in the city.
-
-- He is the majority owner of the Arena.::&lt;end&gt;</source>
-        <target state="final">::Full name: Archibald Knight
-Position: Chief
-Current residence: Core City
-Alignment: Praetorian Security (Core City)
-
-- Archibald was once the second-in-command of the Core City Security Forces. After Protectorate invaded Biocorp in the North, Archibald led a successful revolt against Biocorp in Core City.
-
-- He's one of the three Oligarchs ruling Core City and commands the largest armed force in the city.
-
-- He is the majority owner of the Arena.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -867,16 +383,6 @@ Alignment: Praetorian Security (Core City)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Wit Nosek::&lt;end&gt;</source>
-        <target state="final">::Wit Nosek::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -885,34 +391,6 @@ Alignment: Praetorian Security (Core City)
       <segment state="translated">
         <source>::Wit Nosek::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q30_original" name="=&gt;q30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Wit Nosek
-Profession: Geneticist
-Alignment: Old Biocorp, Old Biocorp Renegade
-Involved in: Phenotype Dynamics (Biocorp), Project Arima (Biocorp), Project Ark (Biocorp), other various Biocorp projects
-
-- Wit was a Second Circle Scientist, meaning that most of his personal and professional info was classified, resulting in very limited information we have on him today.
-
-- Wit was dismissed from Arima by an unknown member of the First Circle. He spent several years on minor projects before being reassigned to Project Ark.
-
-- Following the "Hollow Earth Incident," Wit defected from Biocorp and from that point in time his movements remain largely unknown. It is likely, though, that, assuming he's still alive and scientifically active, he would choose Core City as his residence where he would be out of reach of Biocorp and Protectorate while still having access to some scientific equipment.::&lt;end&gt;</source>
-        <target state="final">::Full name: Wit Nosek
-Profession: Geneticist
-Alignment: Old Biocorp, Old Biocorp Renegade
-Involved in: Phenotype Dynamics (Biocorp), Project Arima (Biocorp), Project Ark (Biocorp), other various Biocorp projects
-
-- Wit was a Second Circle Scientist, meaning that most of his personal and professional info was classified, resulting in very limited information we have on him today.
-
-- Wit was dismissed from Arima by an unknown member of the First Circle. He spent several years on minor projects before being reassigned to Project Ark.
-
-- Following the "Hollow Earth Incident," Wit defected from Biocorp and from that point in time his movements remain largely unknown. It is likely, though, that, assuming he's still alive and scientifically active, he would choose Core City as his residence where he would be out of reach of Biocorp and Protectorate while still having access to some scientific equipment.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -934,16 +412,6 @@ Involved in: Phenotype Dynamics (Biocorp), Project Arima (Biocorp), Project Ark 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a31_original" name="=&gt;a31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Anton Matveev::&lt;end&gt;</source>
-        <target state="final">::Anton Matveev::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -952,36 +420,6 @@ Involved in: Phenotype Dynamics (Biocorp), Project Arima (Biocorp), Project Ark 
       <segment state="translated">
         <source>::Anton Matveev::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q32_original" name="=&gt;q32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Anton Matveev
-Aliases: Wight
-Position: Apex Technocrat
-Alignment: Old Biocorp
-Involved in: Project Ascendance, Phenotype Dynamics, various projects related to transgenics, psimorphism, and transhumanism
-
-- In addition to often being accused of running unconsented human experiments, Anton was infamous in the Old Biocorp for hideous self-experimentation.
-
-- Anton was also rumored to be a powerful thought controller.
-
-- Along with a number of other high ranking technocrats, Anton was removed from power sometime during the chaos that ensued after the Hollow Earth incident, but was never apprehended.::&lt;end&gt;</source>
-        <target state="final">::Full name: Anton Matveev
-Aliases: Wight
-Position: Apex Technocrat
-Alignment: Old Biocorp
-Involved in: Project Ascendance, Phenotype Dynamics, various projects related to transgenics, psimorphism, and transhumanism
-
-- In addition to often being accused of running unconsented human experiments, Anton was infamous in the Old Biocorp for hideous self-experimentation.
-
-- Anton was also rumored to be a powerful thought controller.
-
-- Along with a number of other high ranking technocrats, Anton was removed from power sometime during the chaos that ensued after the Hollow Earth incident, but was never apprehended.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -1004,16 +442,6 @@ Involved in: Project Ascendance, Phenotype Dynamics, various projects related to
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a33_original" name="=&gt;a33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Kirill 'Vovin' Gavrilyuk::&lt;end&gt;</source>
-        <target state="final">::Kirill 'Vovin' Gavrilyuk::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1022,40 +450,6 @@ Involved in: Project Ascendance, Phenotype Dynamics, various projects related to
       <segment state="translated">
         <source>::Kirill 'Vovin' Gavrilyuk::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q34_original" name="=&gt;q34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Kirill Gavrilyuk
-Aliases: Vovin
-Position: Apex Technocrat
-Alignment: Old Biocorp
-Involved in: Project Ascendance, various projects related to transgenics, psimorphism, and transhumanism
-
-- Kirill was known as "Vovin" (dragon) in the inner circles of Old Biocorp, possibly due to his psionic abilities.
-
-- According to some records, of all Apex Technocrats, Kirill held the most power and many projects that took place in years leading to the Biocorp fallout were undertaken on his command.
-
-- Along with number of other high ranking technocrats, Kirill was removed from power sometime during the chaos that ensued after the Hollow Earth incident, but was never apprehended.
-
-- Several high-profile customers have offered considerable amounts of money in exchange for learning Kirill's location.::&lt;end&gt;</source>
-        <target state="final">::Full name: Kirill Gavrilyuk
-Aliases: Vovin
-Position: Apex Technocrat
-Alignment: Old Biocorp
-Involved in: Project Ascendance, various projects related to transgenics, psimorphism, and transhumanism
-
-- Kirill was known as "Vovin" (dragon) in the inner circles of Old Biocorp, possibly due to his psionic abilities.
-
-- According to some records, of all Apex Technocrats, Kirill held the most power and many projects that took place in years leading to the Biocorp fallout were undertaken on his command.
-
-- Along with number of other high ranking technocrats, Kirill was removed from power sometime during the chaos that ensued after the Hollow Earth incident, but was never apprehended.
-
-- Several high-profile customers have offered considerable amounts of money in exchange for learning Kirill's location.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -1080,16 +474,6 @@ Involved in: Project Ascendance, various projects related to transgenics, psimor
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a35_original" name="=&gt;a35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::More::&lt;end&gt;</source>
-        <target state="final">::More::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1098,20 +482,6 @@ Involved in: Project Ascendance, various projects related to transgenics, psimor
       <segment state="translated">
         <source>::More::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q36_original" name="=&gt;q36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Personal Files
-
-Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="final">::Personal Files
-
-Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -1126,16 +496,6 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a37_original" name="=&gt;a37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Frederick Cathcart::&lt;end&gt;</source>
-        <target state="final">::Frederick Cathcart::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1144,38 +504,6 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Frederick Cathcart::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q38_original" name="=&gt;q38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Frederick Cathcart
-Position: Commanding officer of Underrail Protectorate forces in South Underrail
-Rank: Colonel
-Age: 54
-Current residence: Fort Apogee, Upper Underrail
-Alignment: Underrail Protectorate
-
-- Colonel Cathcart arrived to South Underrail five years ago as the commander of the South Underrail Expeditionary Brigade but would soon receive command of all Protectorate troops in the region, with Fort Apogee being their primary base of operations. He has been the only commanding officer of Fort Apogee as yet.
-
-- Not much is known about his history prior to the fall of the Reformed Biocorp. Some sources state that he was a soldier or a junior officer among Protectorate ranks during the takeover, others that he wasn't taking part in combat at all. Only a few years after these events took place does his name officially appear, preceded by the rank of lieutenant.
-
-- He has been married twice, and both of these ended in divorce.::&lt;end&gt;</source>
-        <target state="final">::Full name: Frederick Cathcart
-Position: Commanding officer of Underrail Protectorate forces in South Underrail
-Rank: Colonel
-Age: 54
-Current residence: Fort Apogee, Upper Underrail
-Alignment: Underrail Protectorate
-
-- Colonel Cathcart arrived to South Underrail five years ago as the commander of the South Underrail Expeditionary Brigade but would soon receive command of all Protectorate troops in the region, with Fort Apogee being their primary base of operations. He has been the only commanding officer of Fort Apogee as yet.
-
-- Not much is known about his history prior to the fall of the Reformed Biocorp. Some sources state that he was a soldier or a junior officer among Protectorate ranks during the takeover, others that he wasn't taking part in combat at all. Only a few years after these events took place does his name officially appear, preceded by the rank of lieutenant.
-
-- He has been married twice, and both of these ended in divorce.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -1199,16 +527,6 @@ Alignment: Underrail Protectorate
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a39_original" name="=&gt;a39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1219,16 +537,6 @@ Alignment: Underrail Protectorate
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a40_original" name="=&gt;a40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Kerry Oliver::&lt;end&gt;</source>
-        <target state="final">::Kerry Oliver::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1237,36 +545,6 @@ Alignment: Underrail Protectorate
       <segment state="translated">
         <source>::Kerry Oliver::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q41_original" name="=&gt;q41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Kerry Oliver
-Position: Consul
-Age: 42
-Current residence: Fort Apogee, Upper Underrail
-Alignment: United Stations, Underrail Protectorate
-
-- Kerry Oliver is the officially appointed consul of the Fort Apogee Consulate, Upper Underrail and has been on that position for five years. He was nominated for this position by the United Stations then-Minister of Foreign Affairs Nick Thompson, his former professor of political science at the University of Dis (pre-Protectorate Biocorp).
-
-- While he has expressed his concern with some of the Protectorate activities in South Underrail (as several intercepted correspondences with his colleagues from United Stations suggest), and mostly during his first year in office, he never took any further action in that regard, and has officially stayed out of military affairs.
-
-- He is married to Linda Oliver with whom he has two children: son Magnus (allegedly named after an old world chess grandmaster) and daughter Aida (named after the old world musical theater play of the same name).::&lt;end&gt;</source>
-        <target state="final">::Full name: Kerry Oliver
-Position: Consul
-Age: 42
-Current residence: Fort Apogee, Upper Underrail
-Alignment: United Stations, Underrail Protectorate
-
-- Kerry Oliver is the officially appointed consul of the Fort Apogee Consulate, Upper Underrail and has been on that position for five years. He was nominated for this position by the United Stations then-Minister of Foreign Affairs Nick Thompson, his former professor of political science at the University of Dis (pre-Protectorate Biocorp).
-
-- While he has expressed his concern with some of the Protectorate activities in South Underrail (as several intercepted correspondences with his colleagues from United Stations suggest), and mostly during his first year in office, he never took any further action in that regard, and has officially stayed out of military affairs.
-
-- He is married to Linda Oliver with whom he has two children: son Magnus (allegedly named after an old world chess grandmaster) and daughter Aida (named after the old world musical theater play of the same name).::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -1289,16 +567,6 @@ Alignment: United Stations, Underrail Protectorate
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a42_original" name="=&gt;a42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Alvin Bate::&lt;end&gt;</source>
-        <target state="final">::Alvin Bate::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1307,32 +575,6 @@ Alignment: United Stations, Underrail Protectorate
       <segment state="translated">
         <source>::Alvin Bate::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q43_original" name="=&gt;q43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Alvin Bate
-Position: Free Drones South Underrail cell leader
-Place of birth: North Underrail, location unknown
-Age: Between 30 and 40
-Current residence: Free Drones under-passage base
-
-- Alvin Bate is one of the leaders of the Free Drones primary cell in South Underrail, alongside Corben Trenton and (formerly) Marcella Green
-
-- Little information on his life before joining the Free Drones exists. He is presumed to have arrived to South Underrail with the first Free Drones, and that he is one of the original founders of this region's primary cell. His only known family member is his alleged daughter Milla Bate, currently located in Dis, North Underrail.::&lt;end&gt;</source>
-        <target state="final">::Full name: Alvin Bate
-Position: Free Drones South Underrail cell leader
-Place of birth: North Underrail, location unknown
-Age: Between 30 and 40
-Current residence: Free Drones under-passage base
-
-- Alvin Bate is one of the leaders of the Free Drones primary cell in South Underrail, alongside Corben Trenton and (formerly) Marcella Green
-
-- Little information on his life before joining the Free Drones exists. He is presumed to have arrived to South Underrail with the first Free Drones, and that he is one of the original founders of this region's primary cell. His only known family member is his alleged daughter Milla Bate, currently located in Dis, North Underrail.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -1353,16 +595,6 @@ Current residence: Free Drones under-passage base
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a44_original" name="=&gt;a44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Corben Trenton::&lt;end&gt;</source>
-        <target state="final">::Corben Trenton::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1371,30 +603,6 @@ Current residence: Free Drones under-passage base
       <segment state="translated">
         <source>::Corben Trenton::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q45_original" name="=&gt;q45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Corben Trenton
-Position: Free Drones South Underrail cell leader
-Place of birth: North Underrail, location unknown
-Age: Between 35 and 40
-Current residence: Free Drones under-passage base
-
-- Corben Trenton is one of the leaders of the Free Drones primary cell in South Underrail, alongside Alvin Bate and (formerly) Marcella Green
-- Little information on his life before joining the Free Drones exists. He is presumed to have arrived to South Underrail with the first Free Drones, and that he is one of the original founders of this region's primary cell.::&lt;end&gt;</source>
-        <target state="final">::Full name: Corben Trenton
-Position: Free Drones South Underrail cell leader
-Place of birth: North Underrail, location unknown
-Age: Between 35 and 40
-Current residence: Free Drones under-passage base
-
-- Corben Trenton is one of the leaders of the Free Drones primary cell in South Underrail, alongside Alvin Bate and (formerly) Marcella Green
-- Little information on his life before joining the Free Drones exists. He is presumed to have arrived to South Underrail with the first Free Drones, and that he is one of the original founders of this region's primary cell.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -1414,16 +622,6 @@ Current residence: Free Drones under-passage base
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a46_original" name="=&gt;a46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Marcella Green::&lt;end&gt;</source>
-        <target state="final">::Marcella Green::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1432,42 +630,6 @@ Current residence: Free Drones under-passage base
       <segment state="translated">
         <source>::Marcella Green::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q47_original" name="=&gt;q47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Marcella Green
-Position: Free Drones South Underrail cell leader (until disappearance)
-Place of birth: South Underrail, location unknown
-Age: Between 25 and 35
-Current residence: Unknown
-Last known residence: Free Drones under-passage base
-
-- Marcella Green was one of the three leaders of the Free Drones primary cell in South Underrail, alongside Corben Trenton and Alvin Bate, until her sudden disappearance.
-
-- Little information on her life before joining the Free Drones exists. She has no known family members in or outside of the movement, and neither her place of birth nor previous residences are known.
-
-- She went missing approximately two months ago, and her current whereabouts are unknown. While there is no intel confirming or denying any assassination or apprehension attempts were made by Underrail Protectorate or otherwise, or that she has abandoned the movement for any reason, the first is the most likely of the scenarios considering the current political climate. However, no bodies matching her description have been recovered as yet.
-
-- As of recently, a strange woman has been noticed visiting the Hanging Rat. Her visits are frequent, yet she never orders anything, and neither does she ever communicate with anyone. All she does is sit at a table and observe. This paragraph exists in this file only due to a single account mentioning her holding a "circle-A pendant" in her hand.::&lt;end&gt;</source>
-        <target state="final">::Full name: Marcella Green
-Position: Free Drones South Underrail cell leader (until disappearance)
-Place of birth: South Underrail, location unknown
-Age: Between 25 and 35
-Current residence: Unknown
-Last known residence: Free Drones under-passage base
-
-- Marcella Green was one of the three leaders of the Free Drones primary cell in South Underrail, alongside Corben Trenton and Alvin Bate, until her sudden disappearance.
-
-- Little information on her life before joining the Free Drones exists. She has no known family members in or outside of the movement, and neither her place of birth nor previous residences are known.
-
-- She went missing approximately two months ago, and her current whereabouts are unknown. While there is no intel confirming or denying any assassination or apprehension attempts were made by Underrail Protectorate or otherwise, or that she has abandoned the movement for any reason, the first is the most likely of the scenarios considering the current political climate. However, no bodies matching her description have been recovered as yet.
-
-- As of recently, a strange woman has been noticed visiting the Hanging Rat. Her visits are frequent, yet she never orders anything, and neither does she ever communicate with anyone. All she does is sit at a table and observe. This paragraph exists in this file only due to a single account mentioning her holding a "circle-A pendant" in her hand.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -1493,16 +655,6 @@ Last known residence: Free Drones under-passage base
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a48_original" name="=&gt;a48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Eidein::&lt;end&gt;</source>
-        <target state="final">::Eidein::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1511,34 +663,6 @@ Last known residence: Free Drones under-passage base
       <segment state="translated">
         <source>::Eidein::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q49_original" name="=&gt;q49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Aiden Travers
-Aliases: Eidein
-Position: Leader of the Institute of Tchort
-Place of birth: Unknown
-Age: Unknown; purported to be over 100 years
-Current residence: Institute of Tchort, Upper Underrail
-
-- No information on Eidein's life before the foundation of the Institute of Tchort exists outside of Tchortist sources. According to these, Eidein was a Biocorp scientist who - about a century ago - first discovered and interacted with Tchort, a primordial creature and the subject of Tchortist worship. How exactly he founded the Institute and the way in which he manages it is poorly understood, but what is certain is that he has maintained a secretive, isolationist policy for most of the Institute's existence.
-
-- Eidein's longevity is claimed to be due to the application of research done on Tchort; since the Tchortists do not share their research data with the outside world, this claim cannot be verified in any way. It is of course possible that Eidein has been more than one person since the Institute's foundation, since his actual appearance has never been made known. Furthermore, this poses the questions of whether Eidein has remained cybernetically unenhanced - as well as whether Eidein is actually human at all.::&lt;end&gt;</source>
-        <target state="final">::Full name: Aiden Travers
-Aliases: Eidein
-Position: Leader of the Institute of Tchort
-Place of birth: Unknown
-Age: Unknown; purported to be over 100 years
-Current residence: Institute of Tchort, Upper Underrail
-
-- No information on Eidein's life before the foundation of the Institute of Tchort exists outside of Tchortist sources. According to these, Eidein was a Biocorp scientist who - about a century ago - first discovered and interacted with Tchort, a primordial creature and the subject of Tchortist worship. How exactly he founded the Institute and the way in which he manages it is poorly understood, but what is certain is that he has maintained a secretive, isolationist policy for most of the Institute's existence.
-
-- Eidein's longevity is claimed to be due to the application of research done on Tchort; since the Tchortists do not share their research data with the outside world, this claim cannot be verified in any way. It is of course possible that Eidein has been more than one person since the Institute's foundation, since his actual appearance has never been made known. Furthermore, this poses the questions of whether Eidein has remained cybernetically unenhanced - as well as whether Eidein is actually human at all.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -1560,16 +684,6 @@ Current residence: Institute of Tchort, Upper Underrail
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a50_original" name="=&gt;a50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Hank Wardell::&lt;end&gt;</source>
-        <target state="final">::Hank Wardell::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1578,16 +692,6 @@ Current residence: Institute of Tchort, Upper Underrail
       <segment state="translated">
         <source>::Hank Wardell::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q51_original" name="=&gt;q51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::*[Unavailable]*::&lt;end&gt;</source>
-        <target state="final">::*[Unavailable]*::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -1600,16 +704,6 @@ Current residence: Institute of Tchort, Upper Underrail
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a52_original" name="=&gt;a52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Mit Draper::&lt;end&gt;</source>
-        <target state="final">::Mit Draper::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1618,36 +712,6 @@ Current residence: Institute of Tchort, Upper Underrail
       <segment state="translated">
         <source>::Mit Draper::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q53_original" name="=&gt;q53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Mit Draper
-Aliases: Scalp, Gridfix(er), Transfixer, Phreak
-Place of birth: Unknown
-Age: Exact age unknown, but purported to be in his sixties
-Current residence: South Underrail, exact location unknown (although several of his hideouts in Upper Underrail were discovered, they are currently vacant)
-
-- Little is known of his origins other than he is suspected to have been working at the Biocorp Cybernetics Center in Dis until its take-over, exact position unknown but suspected to be software security-related; one incomplete record suggests that he had been a wanted delinquent, and that his skills are what managed to earn him such respected employment.
-
-- In recent years he's been involved in numerous and often illegal activities across South Underrail. These include software and hardware hacking, forgery; manufacture, modification and trading of various security-breaching and -manipulating devices, and similar. Reliable reports indicate that these activities have caused him problems with numerous organizations, groups and individuals, some of them being his former clients.
-
-- Confirmed to have managed to exploit various functionalities of the out-of-commission metro emergency system, which he's accessing through numerous emergency phones by means currently unknown. It is not yet clear to what extent the emergency system can be used, but what is known so far is that it can at least provide access to certain utility sites, and by extension equipment and systems.::&lt;end&gt;</source>
-        <target state="final">::Full name: Mit Draper
-Aliases: Scalp, Gridfix(er), Transfixer, Phreak
-Place of birth: Unknown
-Age: Exact age unknown, but purported to be in his sixties
-Current residence: South Underrail, exact location unknown (although several of his hideouts in Upper Underrail were discovered, they are currently vacant)
-
-- Little is known of his origins other than he is suspected to have been working at the Biocorp Cybernetics Center in Dis until its take-over, exact position unknown but suspected to be software security-related; one incomplete record suggests that he had been a wanted delinquent, and that his skills are what managed to earn him such respected employment.
-
-- In recent years he's been involved in numerous and often illegal activities across South Underrail. These include software and hardware hacking, forgery; manufacture, modification and trading of various security-breaching and -manipulating devices, and similar. Reliable reports indicate that these activities have caused him problems with numerous organizations, groups and individuals, some of them being his former clients.
-
-- Confirmed to have managed to exploit various functionalities of the out-of-commission metro emergency system, which he's accessing through numerous emergency phones by means currently unknown. It is not yet clear to what extent the emergency system can be used, but what is known so far is that it can at least provide access to certain utility sites, and by extension equipment and systems.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -1670,16 +734,6 @@ Current residence: South Underrail, exact location unknown (although several of 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a54_original" name="=&gt;a54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Norman Hack::&lt;end&gt;</source>
-        <target state="final">::Norman Hack::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1688,36 +742,6 @@ Current residence: South Underrail, exact location unknown (although several of 
       <segment state="translated">
         <source>::Norman Hack::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q55_original" name="=&gt;q55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Norman Hack
-Place of birth: North Underrail, location unknown
-Current residence: Core City
-Profession: Linguist
-Involved in: Creation of Advatongue
-
-- Professor Norman Hack, currently residing in Core City, is the creator of Advatongue, a language so far only in use by Hack himself and several other individuals, all of them his students.
-
-- Hack relocated from North Underrail to South Underrail to - as gathered intel suggests - further develop and teach Advatongue to several students. It is suggested that he experienced certain issues in North Underrail which forced him to relocate.
-
-- There is no evidence that Hack has aligned himself with any of the major factions in South Underrail, at least not currently. Still, it is important to take note of the language itself, as it has the potential of being used as a code language.::&lt;end&gt;</source>
-        <target state="final">::Full name: Norman Hack
-Place of birth: North Underrail, location unknown
-Current residence: Core City
-Profession: Linguist
-Involved in: Creation of Advatongue
-
-- Professor Norman Hack, currently residing in Core City, is the creator of Advatongue, a language so far only in use by Hack himself and several other individuals, all of them his students.
-
-- Hack relocated from North Underrail to South Underrail to - as gathered intel suggests - further develop and teach Advatongue to several students. It is suggested that he experienced certain issues in North Underrail which forced him to relocate.
-
-- There is no evidence that Hack has aligned himself with any of the major factions in South Underrail, at least not currently. Still, it is important to take note of the language itself, as it has the potential of being used as a code language.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -1740,16 +764,6 @@ Involved in: Creation of Advatongue
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a56_original" name="=&gt;a56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Kevin Grey::&lt;end&gt;</source>
-        <target state="final">::Kevin Grey::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1758,26 +772,6 @@ Involved in: Creation of Advatongue
       <segment state="translated">
         <source>::Kevin Grey::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q57_original" name="=&gt;q57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Kevin Grey
-Position: Foundry Guard Overseer
-Current residence: Foundry
-Alignment: Foundry
-
-- Known to be involved in illegal arms trade, most of which takes place in Foundry itself and - according to multiple reports - also includes Foundry Guard's own equipment.::&lt;end&gt;</source>
-        <target state="final">::Full name: Kevin Grey
-Position: Foundry Guard Overseer
-Current residence: Foundry
-Alignment: Foundry
-
-- Known to be involved in illegal arms trade, most of which takes place in Foundry itself and - according to multiple reports - also includes Foundry Guard's own equipment.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -1795,16 +789,6 @@ Alignment: Foundry
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a58_original" name="=&gt;a58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Edward Oldfield::&lt;end&gt;</source>
-        <target state="final">::Edward Oldfield::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1813,42 +797,6 @@ Alignment: Foundry
       <segment state="translated">
         <source>::Edward Oldfield::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q59_original" name="=&gt;q59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Edward Oldfield
-Aliases: None
-Position: Professor of Supercorporation History at the University of Dis
-Place of birth: Dis, North Underrail
-Age: 52
-Current residence: Dis, North Underrail
-
-- Son of David and Amelia Oldfield, Reformed Biocorp researchers.
-
-- Earned his doctorate degree at the Faculty of History, University of Dis, with a dissertation titled "Socio-political Context of the Biocorp Reformation Period," after which he started lecturing Biocorp History at the University of Dis.
-
-- During a two-year hiatus following the dissolution of Reformed Biocorp, he focuses his work on the history of other supercorporations, primarily New Frontier Technologies (NFT). After the hiatus he resumes lecturing at the renamed Department of History on the subject of Supercorporation History, which he continued lecturing to this day.
-
-- He is currently leading an expedition to the Black Sea, most likely related to his research on NFT.::&lt;end&gt;</source>
-        <target state="final">::Full name: Edward Oldfield
-Aliases: None
-Position: Professor of Supercorporation History at the University of Dis
-Place of birth: Dis, North Underrail
-Age: 52
-Current residence: Dis, North Underrail
-
-- Son of David and Amelia Oldfield, Reformed Biocorp researchers.
-
-- Earned his doctorate degree at the Faculty of History, University of Dis, with a dissertation titled "Socio-political Context of the Biocorp Reformation Period," after which he started lecturing Biocorp History at the University of Dis.
-
-- During a two-year hiatus following the dissolution of Reformed Biocorp, he focuses his work on the history of other supercorporations, primarily New Frontier Technologies (NFT). After the hiatus he resumes lecturing at the renamed Department of History on the subject of Supercorporation History, which he continued lecturing to this day.
-
-- He is currently leading an expedition to the Black Sea, most likely related to his research on NFT.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -1874,16 +822,6 @@ Current residence: Dis, North Underrail
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a60_original" name="=&gt;a60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Cadmus Grim::&lt;end&gt;</source>
-        <target state="final">::Cadmus Grim::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1892,40 +830,6 @@ Current residence: Dis, North Underrail
       <segment state="translated">
         <source>::Cadmus Grim::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q61_original" name="=&gt;q61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Cadmus Grim
-Aliases: Captain Grim
-Position: Captain of the Grim Jetters
-Place of birth: Unknown
-Age: Unknown
-Current residence: Black Sea (Hell's Gut)
-Alignment: Grim Jetters
-
-- He is the founder and the current leader of the Grim Jetters pirate group.
-
-- Little is known about Captain Grim. He and the Grim Jetters first gained notoriety by successfully raiding well-defended United Station convoys through highly advanced naval tactics. After the Grim Jetters absorbed the smaller pirate groups and grew in size in the following years, Grim has pretty much completely retired from raiding. It is presumed he now commands all his subordinates from the Grim Jetters' hideout in the Black Sea.
-
-- One source claims Cadmus arrived from North Underrail, but the claim has never been verified.::&lt;end&gt;</source>
-        <target state="final">::Full name: Cadmus Grim
-Aliases: Captain Grim
-Position: Captain of the Grim Jetters
-Place of birth: Unknown
-Age: Unknown
-Current residence: Black Sea (Hell's Gut)
-Alignment: Grim Jetters
-
-- He is the founder and the current leader of the Grim Jetters pirate group.
-
-- Little is known about Captain Grim. He and the Grim Jetters first gained notoriety by successfully raiding well-defended United Station convoys through highly advanced naval tactics. After the Grim Jetters absorbed the smaller pirate groups and grew in size in the following years, Grim has pretty much completely retired from raiding. It is presumed he now commands all his subordinates from the Grim Jetters' hideout in the Black Sea.
-
-- One source claims Cadmus arrived from North Underrail, but the claim has never been verified.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -1950,16 +854,6 @@ Alignment: Grim Jetters
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a62_original" name="=&gt;a62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Richard Briggs::&lt;end&gt;</source>
-        <target state="final">::Richard Briggs::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1968,48 +862,6 @@ Alignment: Grim Jetters
       <segment state="translated">
         <source>::Richard Briggs::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q63_original" name="=&gt;q63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Richard Briggs
-Aliases: None
-Position: Chief of Aegis Incorporated
-Place of birth: Unknown
-Age: 45
-Current residence: Dis, North Underrail
-Alignment: Underrail Protectorate, Aegis Incorporated
-
-- He is one of the founders of Aegis Incorporated, a security company from North Underrail
-
-- Fought with Underrail Protectorate against Biocorp Armed Forces during the takeover of Dis. An exploding 30mm round completely destroyed his left arm and caused him severe nerve damage from which he recovered for several years. The arm has since been replaced with a cybernetic prosthesis.
-
-- After his recuperation he co-founded Aegis Incorporated with Francis White, a notable businessman from North Underrail, and appointed himself Chief of Security.
-
-- He is married to Jane Briggs, with whom he does not have any children.
-
-- He is currently in South Underrail, as Aegis Incorporated has been hired to protect an expedition to the Black Sea which is led by Professor Edward Oldfield from the University of Dis.::&lt;end&gt;</source>
-        <target state="final">::Full name: Richard Briggs
-Aliases: None
-Position: Chief of Aegis Incorporated
-Place of birth: Unknown
-Age: 45
-Current residence: Dis, North Underrail
-Alignment: Underrail Protectorate, Aegis Incorporated
-
-- He is one of the founders of Aegis Incorporated, a security company from North Underrail
-
-- Fought with Underrail Protectorate against Biocorp Armed Forces during the takeover of Dis. An exploding 30mm round completely destroyed his left arm and caused him severe nerve damage from which he recovered for several years. The arm has since been replaced with a cybernetic prosthesis.
-
-- After his recuperation he co-founded Aegis Incorporated with Francis White, a notable businessman from North Underrail, and appointed himself Chief of Security.
-
-- He is married to Jane Briggs, with whom he does not have any children.
-
-- He is currently in South Underrail, as Aegis Incorporated has been hired to protect an expedition to the Black Sea which is led by Professor Edward Oldfield from the University of Dis.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -2038,16 +890,6 @@ Alignment: Underrail Protectorate, Aegis Incorporated
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a64_original" name="=&gt;a64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Francis White::&lt;end&gt;</source>
-        <target state="final">::Francis White::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2056,42 +898,6 @@ Alignment: Underrail Protectorate, Aegis Incorporated
       <segment state="translated">
         <source>::Francis White::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q65_original" name="=&gt;q65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Full name: Francis White
-Aliases: Big Frank
-Position: Owner of numerous companies
-Place of birth: North Underrail, exact location unknown
-Age: 59
-Current residence: Dis, North Underrail
-
-- He is a successful businessman from North Underrail and the owner of numerous but mostly small businesses, the largest one being Aegis Incorporated, a security company from North Underrail, of which he is a co-founder and a co-owner.
-
-- He was born into a poor family and lived most of his life on the rails, traveling from one place to the other. He worked various jobs over the years until he finally started his own electronics store in Hexagon. His business proved lucrative, allowing him to gradually acquire other small businesses and properties. Even though he has never achieved the status of a business magnate, he is nonetheless considered to be one of the most successful businessmen in North Underrail and a true example of a rags-to-riches success story.
-
-- He has seven children with Sheila Bagani, former personal assistant and now wife.
-
-- Contrary to his nickname, he is of rather thin build, or as Kenneth Cramer, a Dis Today journalist, described it - "rather ghoulish."::&lt;end&gt;</source>
-        <target state="final">::Full name: Francis White
-Aliases: Big Frank
-Position: Owner of numerous companies
-Place of birth: North Underrail, exact location unknown
-Age: 59
-Current residence: Dis, North Underrail
-
-- He is a successful businessman from North Underrail and the owner of numerous but mostly small businesses, the largest one being Aegis Incorporated, a security company from North Underrail, of which he is a co-founder and a co-owner.
-
-- He was born into a poor family and lived most of his life on the rails, traveling from one place to the other. He worked various jobs over the years until he finally started his own electronics store in Hexagon. His business proved lucrative, allowing him to gradually acquire other small businesses and properties. Even though he has never achieved the status of a business magnate, he is nonetheless considered to be one of the most successful businessmen in North Underrail and a true example of a rags-to-riches success story.
-
-- He has seven children with Sheila Bagani, former personal assistant and now wife.
-
-- Contrary to his nickname, he is of rather thin build, or as Kenneth Cramer, a Dis Today journalist, described it - "rather ghoulish."::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -2117,16 +923,6 @@ Current residence: Dis, North Underrail
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a66_original" name="=&gt;a66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2135,16 +931,6 @@ Current residence: Dis, North Underrail
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a67_original" name="=&gt;a67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Exit::&lt;end&gt;</source>
-        <target state="final">::Exit::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -2157,16 +943,6 @@ Current residence: Dis, North Underrail
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a68_original" name="=&gt;a68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a68" name="=&gt;a68">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2177,16 +953,6 @@ Current residence: Dis, North Underrail
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a69_original" name="=&gt;a69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Browse project files::&lt;end&gt;</source>
-        <target state="final">::Browse project files::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2195,20 +961,6 @@ Current residence: Dis, North Underrail
       <segment state="translated">
         <source>::Browse project files::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q70_original" name="=&gt;q70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Project Files
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="final">::Project Files
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -2223,16 +975,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a71_original" name="=&gt;a71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Project Ark (Biocorp)::&lt;end&gt;</source>
-        <target state="final">::Project Ark (Biocorp)::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a71" name="=&gt;a71">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2241,26 +983,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Project Ark (Biocorp)::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q72_original" name="=&gt;q72_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Project name: (The) Ark
-Organization: Old Biocorp
-Participants: Olexiy Macar (geneticist), Wit Nosek (geneticist), Njord Abbott (chemist)
-Locations: Panacea Lab (Upper Underrail)
-
-Little is known about this project aside from that it most certainly dealt with human life longevity research.::&lt;end&gt;</source>
-        <target state="final">::Project name: (The) Ark
-Organization: Old Biocorp
-Participants: Olexiy Macar (geneticist), Wit Nosek (geneticist), Njord Abbott (chemist)
-Locations: Panacea Lab (Upper Underrail)
-
-Little is known about this project aside from that it most certainly dealt with human life longevity research.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -2278,16 +1000,6 @@ Little is known about this project aside from that it most certainly dealt with 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a73_original" name="=&gt;a73_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">145</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a73" name="=&gt;a73">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2298,16 +1010,6 @@ Little is known about this project aside from that it most certainly dealt with 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a74_original" name="=&gt;a74_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">147</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Project Arima (Biocorp)::&lt;end&gt;</source>
-        <target state="final">::Project Arima (Biocorp)::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a74" name="=&gt;a74">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2316,26 +1018,6 @@ Little is known about this project aside from that it most certainly dealt with 
       <segment state="translated">
         <source>::Project Arima (Biocorp)::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q75_original" name="=&gt;q75_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">149</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Project name: Arima
-Organization: Old Biocorp
-Known participants: Wit Nosek (geneticist), Njord Abbott (chemist)
-Locations: Unknown
-
-- Purpose unknown.::&lt;end&gt;</source>
-        <target state="final">::Project name: Arima
-Organization: Old Biocorp
-Known participants: Wit Nosek (geneticist), Njord Abbott (chemist)
-Locations: Unknown
-
-- Purpose unknown.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -2353,16 +1035,6 @@ Locations: Unknown
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a76_original" name="=&gt;a76_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">151</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a76" name="=&gt;a76">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2373,16 +1045,6 @@ Locations: Unknown
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a77_original" name="=&gt;a77_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">153</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Phenotype Dynamics (Biocorp)::&lt;end&gt;</source>
-        <target state="final">::Phenotype Dynamics (Biocorp)::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2391,26 +1053,6 @@ Locations: Unknown
       <segment state="translated">
         <source>::Phenotype Dynamics (Biocorp)::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q78_original" name="=&gt;q78_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">155</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Project name: Phenotype Dynamics
-Organization: Old Biocorp
-Known participants: Wit Nosek (geneticist)
-Locations: Unknown
-
-- What is known is that this project dealt with using mutagens to dynamically change phenotypes of a living being in its mature state. It is also known that much of the controversy that surrounded the "Hollow Earth incident" is related to this project.::&lt;end&gt;</source>
-        <target state="final">::Project name: Phenotype Dynamics
-Organization: Old Biocorp
-Known participants: Wit Nosek (geneticist)
-Locations: Unknown
-
-- What is known is that this project dealt with using mutagens to dynamically change phenotypes of a living being in its mature state. It is also known that much of the controversy that surrounded the "Hollow Earth incident" is related to this project.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -2428,16 +1070,6 @@ Locations: Unknown
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a79_original" name="=&gt;a79_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">157</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a79" name="=&gt;a79">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2448,16 +1080,6 @@ Locations: Unknown
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a80_original" name="=&gt;a80_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">159</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Browse Biocorp files::&lt;end&gt;</source>
-        <target state="final">::Browse Biocorp files::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a80" name="=&gt;a80">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2466,20 +1088,6 @@ Locations: Unknown
       <segment state="translated">
         <source>::Browse Biocorp files::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q81_original" name="=&gt;q81_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">161</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Biocorp files
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="final">::Biocorp files
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q81" name="=&gt;q81">
@@ -2494,16 +1102,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a82_original" name="=&gt;a82_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">163</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Old Biocorp::&lt;end&gt;</source>
-        <target state="final">::Old Biocorp::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a82" name="=&gt;a82">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2512,20 +1110,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Old Biocorp::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q83_original" name="=&gt;q83_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">165</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::When we talk about the "Old Biocorp" we are talking about the ancient organization that created and ruled Underrail for centuries. They've built, maintained and policed the entire Underrail which was, at the time, a unified place where their people lived and worked.
-
-Biocorp was governed by three tiers of technocrats. It is unknown whether these were elected or otherwise appointed and how long their mandates lasted. What is known, however, is that the top tier technocrats were known as "Apex Technocrats" and that they held significant executive power.::&lt;end&gt;</source>
-        <target state="final">::When we talk about the "Old Biocorp" we are talking about the ancient organization that created and ruled Underrail for centuries. They've built, maintained and policed the entire Underrail which was, at the time, a unified place where their people lived and worked.
-
-Biocorp was governed by three tiers of technocrats. It is unknown whether these were elected or otherwise appointed and how long their mandates lasted. What is known, however, is that the top tier technocrats were known as "Apex Technocrats" and that they held significant executive power.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q83" name="=&gt;q83">
@@ -2540,16 +1124,6 @@ Biocorp was governed by three tiers of technocrats. It is unknown whether these 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q84_original" name="=&gt;q84_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">167</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Biocorp ran numerous research and infrastructure projects in constant effort to improve Underrail, while at the same time pursuing increasingly isolationist attitude towards the outside world. The dangers of the world were deemed too great and the final goals was to make Underrail an environment that is completely self-sustained.::&lt;end&gt;</source>
-        <target state="final">::Biocorp ran numerous research and infrastructure projects in constant effort to improve Underrail, while at the same time pursuing increasingly isolationist attitude towards the outside world. The dangers of the world were deemed too great and the final goals was to make Underrail an environment that is completely self-sustained.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q84" name="=&gt;q84">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2558,20 +1132,6 @@ Biocorp was governed by three tiers of technocrats. It is unknown whether these 
       <segment state="translated">
         <source>::Biocorp ran numerous research and infrastructure projects in constant effort to improve Underrail, while at the same time pursuing increasingly isolationist attitude towards the outside world. The dangers of the world were deemed too great and the final goals was to make Underrail an environment that is completely self-sustained.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q85_original" name="=&gt;q85_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">169</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Somewhere between a hundred fifty to two hundred years ago a revolt within the organization was sparked by what is known as "Hollow Earth incident". The details of why and how this revolt came to be are lacking, but it's likely to be, at least partially, brought about by the fact that Underrail could no longer support the large population that inhabited it. Questions of immoral experimentation and corruption were also raised, but to what degree these played the part in causing the revolution is unknown.
-
-The Apex Technocrats were displaced from power, though most of them were not apprehended.::&lt;end&gt;</source>
-        <target state="final">::Somewhere between a hundred fifty to two hundred years ago a revolt within the organization was sparked by what is known as "Hollow Earth incident". The details of why and how this revolt came to be are lacking, but it's likely to be, at least partially, brought about by the fact that Underrail could no longer support the large population that inhabited it. Questions of immoral experimentation and corruption were also raised, but to what degree these played the part in causing the revolution is unknown.
-
-The Apex Technocrats were displaced from power, though most of them were not apprehended.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q85" name="=&gt;q85">
@@ -2586,16 +1146,6 @@ The Apex Technocrats were displaced from power, though most of them were not app
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q86_original" name="=&gt;q86_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">171</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Civil wars erupted all over Underrail and Biocorp dissolved into many small factions. Many technocrats, and scientists and engineers in general died in the following years. Biocorp was no more.::&lt;end&gt;</source>
-        <target state="final">::Civil wars erupted all over Underrail and Biocorp dissolved into many small factions. Many technocrats, and scientists and engineers in general died in the following years. Biocorp was no more.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2604,16 +1154,6 @@ The Apex Technocrats were displaced from power, though most of them were not app
       <segment state="translated">
         <source>::Civil wars erupted all over Underrail and Biocorp dissolved into many small factions. Many technocrats, and scientists and engineers in general died in the following years. Biocorp was no more.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a87_original" name="=&gt;a87_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">173</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a87" name="=&gt;a87">
@@ -2626,16 +1166,6 @@ The Apex Technocrats were displaced from power, though most of them were not app
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a88_original" name="=&gt;a88_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">175</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Reformed Biocorp::&lt;end&gt;</source>
-        <target state="final">::Reformed Biocorp::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2644,24 +1174,6 @@ The Apex Technocrats were displaced from power, though most of them were not app
       <segment state="translated">
         <source>::Reformed Biocorp::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q89_original" name="=&gt;q89_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">177</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Almost a hundred years have passed since Biocorp dissolved. Underrail is a chaotic and dangerous place now. Bandits roam the railways in between heavily entrenched sovereign station-states.
-
-A group of scientists and engineers decided to resurrect the venerable Biocorp organization. They restored the old places of power - Core, Hexagon and Dis.
-
-The new Biocorp was also ruled by a council of technocrats residing in Dis. The order was kept by highly trained Biocorp Security Forces.::&lt;end&gt;</source>
-        <target state="final">::Almost a hundred years have passed since Biocorp dissolved. Underrail is a chaotic and dangerous place now. Bandits roam the railways in between heavily entrenched sovereign station-states.
-
-A group of scientists and engineers decided to resurrect the venerable Biocorp organization. They restored the old places of power - Core, Hexagon and Dis.
-
-The new Biocorp was also ruled by a council of technocrats residing in Dis. The order was kept by highly trained Biocorp Security Forces.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -2678,20 +1190,6 @@ The new Biocorp was also ruled by a council of technocrats residing in Dis. The 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q90_original" name="=&gt;q90_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">179</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::This period of Biocorp history is known as "New Biocorp," "Reformed Biocorp," or "Second Biocorp." It lasted a lot shorter than the Old Biocorp, however. 
-
-Following the Protectorate's takeover of Dis, the capital of Biocorp, the elements of discontent in the Core City's hierarchy used the opportunity to stage a revolt. This revolt was led by second-in-command of the Core City Security Forces - Archibald Knight, who was later joined in this fight by Rupert Simmons, one of the higher ranking Biocorp technocrats.::&lt;end&gt;</source>
-        <target state="final">::This period of Biocorp history is known as "New Biocorp," "Reformed Biocorp," or "Second Biocorp." It lasted a lot shorter than the Old Biocorp, however. 
-
-Following the Protectorate's takeover of Dis, the capital of Biocorp, the elements of discontent in the Core City's hierarchy used the opportunity to stage a revolt. This revolt was led by second-in-command of the Core City Security Forces - Archibald Knight, who was later joined in this fight by Rupert Simmons, one of the higher ranking Biocorp technocrats.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2702,20 +1200,6 @@ Following the Protectorate's takeover of Dis, the capital of Biocorp, the elemen
 
 Following the Protectorate's takeover of Dis, the capital of Biocorp, the elements of discontent in the Core City's hierarchy used the opportunity to stage a revolt. This revolt was led by second-in-command of the Core City Security Forces - Archibald Knight, who was later joined in this fight by Rupert Simmons, one of the higher ranking Biocorp technocrats.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q91_original" name="=&gt;q91_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">181</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Though Protectorate likes to claim that Biocorp's power structure was adapted and integrated into United Stations, everyone within the organization agrees that all the power players of the Reformed Biocorp were either killed or incarcerated or they fled.
-
-This ended the second incarnation of Biocorp.::&lt;end&gt;</source>
-        <target state="final">::Though Protectorate likes to claim that Biocorp's power structure was adapted and integrated into United Stations, everyone within the organization agrees that all the power players of the Reformed Biocorp were either killed or incarcerated or they fled.
-
-This ended the second incarnation of Biocorp.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
@@ -2730,16 +1214,6 @@ This ended the second incarnation of Biocorp.::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a92_original" name="=&gt;a92_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">183</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Protectorate Biocorp::&lt;end&gt;</source>
-        <target state="final">::Protectorate Biocorp::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2748,28 +1222,6 @@ This ended the second incarnation of Biocorp.::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Protectorate Biocorp::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q93_original" name="=&gt;q93_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">185</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Today what remains of Second Biocorp is completely under Protectorate's rule. Most of it is concentrated in the city of Dis, which is the capital of United Stations.
-
-Hexagon, though largely self-governed, is also a part of United Stations.
-
-Core City is an independent city mostly focused on violent sport entertainment and trade, though a local organization by the name of Coretech did inherit some of the Biocorp facilities and projects.
-
-The technocrats are all gone and the organization is ruled by United Stations Minister of Science who, of course, is directly appointed by Protectorate High Commander.::&lt;end&gt;</source>
-        <target state="final">::Today what remains of Second Biocorp is completely under Protectorate's rule. Most of it is concentrated in the city of Dis, which is the capital of United Stations.
-
-Hexagon, though largely self-governed, is also a part of United Stations.
-
-Core City is an independent city mostly focused on violent sport entertainment and trade, though a local organization by the name of Coretech did inherit some of the Biocorp facilities and projects.
-
-The technocrats are all gone and the organization is ruled by United Stations Minister of Science who, of course, is directly appointed by Protectorate High Commander.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -2788,16 +1240,6 @@ The technocrats are all gone and the organization is ruled by United Stations Mi
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a94_original" name="=&gt;a94_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">187</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a94" name="=&gt;a94">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2808,16 +1250,6 @@ The technocrats are all gone and the organization is ruled by United Stations Mi
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a95_original" name="=&gt;a95_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">189</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Browse anomalies::&lt;end&gt;</source>
-        <target state="final">::Browse anomalies::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a95" name="=&gt;a95">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2826,20 +1258,6 @@ The technocrats are all gone and the organization is ruled by United Stations Mi
       <segment state="translated">
         <source>::Browse anomalies::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q96_original" name="=&gt;q96_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">191</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Anomalies
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="final">::Anomalies
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q96" name="=&gt;q96">
@@ -2854,16 +1272,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a97_original" name="=&gt;a97_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">193</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Siphoner man::&lt;end&gt;</source>
-        <target state="final">::Siphoner man::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a97" name="=&gt;a97">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2872,30 +1280,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Siphoner man::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q98_original" name="=&gt;q98_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">195</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Anomaly name: Siphoner man
-Anomaly type: Undiscovered species (potential hybrid)
-
-- Recently acquired information mentions the existence of a "siphoner man." Several sources vaguely describe it as a bipedal, humanoid creature, highly intelligent and according to one source even being capable of using language.
-
-- So far, no proof of its existence is available, but the increasing number of such claims, while from unreliable sources, should not be ignored or treated as a hoax until more information can be acquired.
-
--No further information is available.::&lt;end&gt;</source>
-        <target state="final">::Anomaly name: Siphoner man
-Anomaly type: Undiscovered species (potential hybrid)
-
-- Recently acquired information mentions the existence of a "siphoner man." Several sources vaguely describe it as a bipedal, humanoid creature, highly intelligent and according to one source even being capable of using language.
-
-- So far, no proof of its existence is available, but the increasing number of such claims, while from unreliable sources, should not be ignored or treated as a hoax until more information can be acquired.
-
--No further information is available.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q98" name="=&gt;q98">
@@ -2915,16 +1299,6 @@ Anomaly type: Undiscovered species (potential hybrid)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a99_original" name="=&gt;a99_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">197</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a99" name="=&gt;a99">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2933,16 +1307,6 @@ Anomaly type: Undiscovered species (potential hybrid)
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a100_original" name="=&gt;a100_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">199</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a100" name="=&gt;a100">
@@ -2955,16 +1319,6 @@ Anomaly type: Undiscovered species (potential hybrid)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a101_original" name="=&gt;a101_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">201</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Use key card::&lt;end&gt;</source>
-        <target state="final">::Use key card::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a101" name="=&gt;a101">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -2973,20 +1327,6 @@ Anomaly type: Undiscovered species (potential hybrid)
       <segment state="translated">
         <source>::Use key card::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q102_original" name="=&gt;q102_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">203</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Access Level Control
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="final">::Access Level Control
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q102" name="=&gt;q102">
@@ -3001,18 +1341,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q103_original" name="=&gt;q103_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">205</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>
-::Maximum access level reached.::&lt;end&gt;</source>
-        <target state="final">
-::Maximum access level reached.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3022,16 +1350,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <source>
 ::Maximum access level reached.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q104_original" name="=&gt;q104_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">207</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q104" name="=&gt;q104">
@@ -3044,16 +1362,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a105_original" name="=&gt;a105_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">209</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Use the key card to increase access to level 1::&lt;end&gt;</source>
-        <target state="final">::Use the key card to increase access to level 1::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a105" name="=&gt;a105">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3062,16 +1370,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Use the key card to increase access to level 1::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q106_original" name="=&gt;q106_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">211</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Success.::&lt;end&gt;</source>
-        <target state="final">::Success.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q106" name="=&gt;q106">
@@ -3084,16 +1382,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a107_original" name="=&gt;a107_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">213</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Use the key card to increase access to level 2::&lt;end&gt;</source>
-        <target state="final">::Use the key card to increase access to level 2::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a107" name="=&gt;a107">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3102,16 +1390,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Use the key card to increase access to level 2::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a108_original" name="=&gt;a108_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">215</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Use the key card to increase access to level 3::&lt;end&gt;</source>
-        <target state="final">::Use the key card to increase access to level 3::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a108" name="=&gt;a108">
@@ -3124,16 +1402,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a109_original" name="=&gt;a109_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">217</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a109" name="=&gt;a109">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3144,16 +1412,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a110_original" name="=&gt;a110_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">219</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Hack::&lt;end&gt;</source>
-        <target state="final">::Hack::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a110" name="=&gt;a110">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3162,20 +1420,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Hack::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q111_original" name="=&gt;q111_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">221</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Access Level Control
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="final">::Access Level Control
-
-Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q111" name="=&gt;q111">
@@ -3190,18 +1434,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q112_original" name="=&gt;q112_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">223</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>
-::Maximum access level reached.::&lt;end&gt;</source>
-        <target state="final">
-::Maximum access level reached.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q112" name="=&gt;q112">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3211,16 +1443,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <source>
 ::Maximum access level reached.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q113_original" name="=&gt;q113_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">225</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -3233,16 +1455,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a114_original" name="=&gt;a114_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">227</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Hack to increase access to level 1 (50)::&lt;end&gt;</source>
-        <target state="final">::Hack to increase access to level 1 (50)::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a114" name="=&gt;a114">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3251,16 +1463,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Hack to increase access to level 1 (50)::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q115_original" name="=&gt;q115_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">229</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Success.::&lt;end&gt;</source>
-        <target state="final">::Success.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q115" name="=&gt;q115">
@@ -3273,16 +1475,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q116_original" name="=&gt;q116_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">231</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Failure.::&lt;end&gt;</source>
-        <target state="final">::Failure.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q116" name="=&gt;q116">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3291,16 +1483,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Failure.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a117_original" name="=&gt;a117_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">233</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Hack to increase access to level 2 (80)::&lt;end&gt;</source>
-        <target state="final">::Hack to increase access to level 2 (80)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a117" name="=&gt;a117">
@@ -3313,16 +1495,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q118_original" name="=&gt;q118_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">235</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Success.::&lt;end&gt;</source>
-        <target state="final">::Success.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q118" name="=&gt;q118">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3331,16 +1503,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Success.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a119_original" name="=&gt;a119_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">237</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Hack to increase access to level 3 (110)::&lt;end&gt;</source>
-        <target state="final">::Hack to increase access to level 3 (110)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a119" name="=&gt;a119">
@@ -3353,16 +1515,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q120_original" name="=&gt;q120_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">239</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Success.::&lt;end&gt;</source>
-        <target state="final">::Success.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3373,16 +1525,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a121_original" name="=&gt;a121_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">241</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a121" name="=&gt;a121">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -3391,16 +1533,6 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a122_original" name="=&gt;a122_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">243</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Exit::&lt;end&gt;</source>
-        <target state="final">::Exit::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a122" name="=&gt;a122">

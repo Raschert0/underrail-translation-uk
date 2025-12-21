@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\xpbl\testcipher.txt" original="dialogs\interfacing\xpbl\testcipher.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Welcome, $(context.player.Name)::&lt;end&gt;</source>
-        <target state="final">::Welcome, $(context.player.Name)::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -21,16 +11,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a2_original" name="=&gt;a2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Encrypt the text.::&lt;end&gt;</source>
-        <target state="final">::Encrypt the text.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -39,38 +19,6 @@
       <segment state="translated">
         <source>::Encrypt the text.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Unencrypted text:
-
-$(context.global_xpbl_unencryptedText)
-
-Encrypted text:
-
-$(context.global_xpbl_encryptedText)
-
-Key:
-
-$(context.global_xpbl_encryptionKey)
-::&lt;end&gt;</source>
-        <target state="final">::Unencrypted text:
-
-$(context.global_xpbl_unencryptedText)
-
-Encrypted text:
-
-$(context.global_xpbl_encryptedText)
-
-Key:
-
-$(context.global_xpbl_encryptionKey)
-::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -94,16 +42,6 @@ $(context.global_xpbl_encryptionKey)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Type password::&lt;end&gt;</source>
-        <target state="final">::Type password::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -112,16 +50,6 @@ $(context.global_xpbl_encryptionKey)
       <segment state="translated">
         <source>::Type password::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Password: $(context.xpbl_loc_rf_lockerPassword)::&lt;end&gt;</source>
-        <target state="final">::Password: $(context.xpbl_loc_rf_lockerPassword)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -134,16 +62,6 @@ $(context.global_xpbl_encryptionKey)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>1&lt;end&gt;</source>
-        <target state="final">1&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -152,16 +70,6 @@ $(context.global_xpbl_encryptionKey)
       <segment state="translated">
         <source>1&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a7_original" name="=&gt;a7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>2&lt;end&gt;</source>
-        <target state="final">2&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -174,16 +82,6 @@ $(context.global_xpbl_encryptionKey)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>3&lt;end&gt;</source>
-        <target state="final">3&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -192,16 +90,6 @@ $(context.global_xpbl_encryptionKey)
       <segment state="translated">
         <source>3&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a9_original" name="=&gt;a9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>4&lt;end&gt;</source>
-        <target state="final">4&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -214,16 +102,6 @@ $(context.global_xpbl_encryptionKey)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>5&lt;end&gt;</source>
-        <target state="final">5&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -232,16 +110,6 @@ $(context.global_xpbl_encryptionKey)
       <segment state="translated">
         <source>5&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a11_original" name="=&gt;a11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>6&lt;end&gt;</source>
-        <target state="final">6&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -254,16 +122,6 @@ $(context.global_xpbl_encryptionKey)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a12_original" name="=&gt;a12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>7&lt;end&gt;</source>
-        <target state="final">7&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -272,16 +130,6 @@ $(context.global_xpbl_encryptionKey)
       <segment state="translated">
         <source>7&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a13_original" name="=&gt;a13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>8&lt;end&gt;</source>
-        <target state="final">8&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -294,16 +142,6 @@ $(context.global_xpbl_encryptionKey)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a14_original" name="=&gt;a14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>9&lt;end&gt;</source>
-        <target state="final">9&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -312,16 +150,6 @@ $(context.global_xpbl_encryptionKey)
       <segment state="translated">
         <source>9&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>0&lt;end&gt;</source>
-        <target state="final">0&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -334,16 +162,6 @@ $(context.global_xpbl_encryptionKey)
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a16_original" name="=&gt;a16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Clear::&lt;end&gt;</source>
-        <target state="final">::Clear::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -352,16 +170,6 @@ $(context.global_xpbl_encryptionKey)
       <segment state="translated">
         <source>::Clear::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Main::&lt;end&gt;</source>
-        <target state="final">::Main::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">

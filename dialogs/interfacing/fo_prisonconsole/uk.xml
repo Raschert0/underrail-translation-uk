@@ -1,22 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\fo_prisonconsole.txt" original="dialogs\interfacing\fo_prisonconsole.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Warning - all auto-turrets are offline!
-
-Please select one of the following options:
-::&lt;end&gt;</source>
-        <target state="final">::Warning - all auto-turrets are offline!
-
-Please select one of the following options:
-::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -30,16 +14,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -48,16 +22,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Toggle inner checkpoint gate::&lt;end&gt;</source>
-        <target state="final">::Toggle inner checkpoint gate::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -70,16 +34,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q4_original" name="=&gt;q4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Select one of the following options: ::&lt;end&gt;</source>
-        <target state="final">::Select one of the following options: ::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -88,16 +42,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::Select one of the following options: ::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a5_original" name="=&gt;a5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Toggle outer checkpoint gate::&lt;end&gt;</source>
-        <target state="final">::Toggle outer checkpoint gate::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -110,16 +54,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Check Auto-turret status::&lt;end&gt;</source>
-        <target state="final">::Check Auto-turret status::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -128,16 +62,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::Check Auto-turret status::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Warning: Unresponsive auto-turrets detected! Please contact FMR service as soon as possible.::&lt;end&gt;</source>
-        <target state="final">::Warning: Unresponsive auto-turrets detected! Please contact FMR service as soon as possible.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -150,16 +74,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::All auto-turrets are currently offline::&lt;end&gt;</source>
-        <target state="final">::All auto-turrets are currently offline::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -168,16 +82,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::All auto-turrets are currently offline::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::All auto-turrets are currently online::&lt;end&gt;</source>
-        <target state="final">::All auto-turrets are currently online::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -190,16 +94,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Hacking] Disable auto-turrets::&lt;end&gt;</source>
-        <target state="final">::[Hacking] Disable auto-turrets::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -208,16 +102,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::[Hacking] Disable auto-turrets::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Auto-turrets successfuly disabled::&lt;end&gt;</source>
-        <target state="final">::Auto-turrets successfuly disabled::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -230,16 +114,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Error: Access denied::&lt;end&gt;</source>
-        <target state="final">::Error: Access denied::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -248,16 +122,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::Error: Access denied::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a13_original" name="=&gt;a13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Hacking] Disable surveillance video recording::&lt;end&gt;</source>
-        <target state="final">::[Hacking] Disable surveillance video recording::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -270,16 +134,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::You successfully disable the recording function of the video surveillance system. Moreover, you make it so that the security monitors are still displaying the recording icon, as to maintain the impression that everything is working as intended.::&lt;end&gt;</source>
-        <target state="final">::You successfully disable the recording function of the video surveillance system. Moreover, you make it so that the security monitors are still displaying the recording icon, as to maintain the impression that everything is working as intended.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -288,16 +142,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::You successfully disable the recording function of the video surveillance system. Moreover, you make it so that the security monitors are still displaying the recording icon, as to maintain the impression that everything is working as intended.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Review stored camera recordings::&lt;end&gt;</source>
-        <target state="final">::Review stored camera recordings::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -310,16 +154,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Upon reviewing the recordings, you discover that your illegal activities have been caught on camera.::&lt;end&gt;</source>
-        <target state="final">::Upon reviewing the recordings, you discover that your illegal activities have been caught on camera.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -328,16 +162,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::Upon reviewing the recordings, you discover that your illegal activities have been caught on camera.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Hacking] Erase all recordings containing you in them::&lt;end&gt;</source>
-        <target state="final">::[Hacking] Erase all recordings containing you in them::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -350,16 +174,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Recordings erased successfully::&lt;end&gt;</source>
-        <target state="final">::Recordings erased successfully::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -368,16 +182,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::Recordings erased successfully::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a19_original" name="=&gt;a19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Back::&lt;end&gt;</source>
-        <target state="final">::Back::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -390,16 +194,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q20_original" name="=&gt;q20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::You review the recordings, and it appears that none of the cameras caught you doing anything illegal.::&lt;end&gt;</source>
-        <target state="final">::You review the recordings, and it appears that none of the cameras caught you doing anything illegal.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -410,16 +204,6 @@ Please select one of the following options:
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a21_original" name="=&gt;a21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Exit::&lt;end&gt;</source>
-        <target state="final">::Exit::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -428,22 +212,6 @@ Please select one of the following options:
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::All security systems are online
-
-Please select one of the following options:
-::&lt;end&gt;</source>
-        <target state="final">::All security systems are online
-
-Please select one of the following options:
-::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">

@@ -1,18 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\hro_powergen.txt" original="dialogs\interfacing\hro_powergen.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Status: Off::
-&lt;end&gt;</source>
-        <target state="final">::Status: Off::
-&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -22,16 +10,6 @@
         <source>::Status: Off::
 &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -44,16 +22,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Turn on.::&lt;end&gt;</source>
-        <target state="final">::Turn on.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -62,16 +30,6 @@
       <segment state="translated">
         <source>::Turn on.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Turn off.::&lt;end&gt;</source>
-        <target state="final">::Turn off.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -84,16 +42,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a5_original" name="=&gt;a5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Leave.::&lt;end&gt;</source>
-        <target state="final">::Leave.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -102,18 +50,6 @@
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Status: On::
-&lt;end&gt;</source>
-        <target state="final">::Status: On::
-&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -125,16 +61,6 @@
         <source>::Status: On::
 &lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Electrical circuit damage detected. Shutdown recommended.::&lt;end&gt;</source>
-        <target state="final">::Electrical circuit damage detected. Shutdown recommended.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">

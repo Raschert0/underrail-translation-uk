@@ -1,20 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\wa_constantine.txt" original="dialogs\characters\wa_constantine.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::As you approach Constantine you hear an unfamiliar cracking sound coming from outside, lasting but an instant. While certainly not deafening, it is loud enough to startle you. One moment later, another sound is heard - that of a dead body tumbling down the outside wall, after which everything becomes quiet again. Constantine simply laughs at the whole event.::
-
-Take that!&lt;end&gt;</source>
-        <target state="final">::As you approach Constantine you hear an unfamiliar cracking sound coming from outside, lasting but an instant. While certainly not deafening, it is loud enough to startle you. One moment later, another sound is heard - that of a dead body tumbling down the outside wall, after which everything becomes quiet again. Constantine simply laughs at the whole event.::
-
-Take that!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -27,16 +13,6 @@ Take that!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -45,16 +21,6 @@ Take that!&lt;end&gt;</source>
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a3_original" name="=&gt;a3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Show me what you have in store. ::Barter::&lt;end&gt;</source>
-        <target state="final">Show me what you have in store. ::Barter::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -67,16 +33,6 @@ Take that!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::[Mercantile]:: Say... how about you show me the really good stuff, huh? Just because I'm relatively new here doesn't mean I'm poor.&lt;end&gt;</source>
-        <target state="final">::[Mercantile]:: Say... how about you show me the really good stuff, huh? Just because I'm relatively new here doesn't mean I'm poor.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -85,16 +41,6 @@ Take that!&lt;end&gt;</source>
       <segment state="translated">
         <source>::[Mercantile]:: Say... how about you show me the really good stuff, huh? Just because I'm relatively new here doesn't mean I'm poor.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What makes you think I have the "good stuff"?&lt;end&gt;</source>
-        <target state="final">What makes you think I have the "good stuff"?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -107,16 +53,6 @@ Take that!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a6_original" name="=&gt;a6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Being observant is a requirement here if I'm not mistaken.&lt;end&gt;</source>
-        <target state="final">Being observant is a requirement here if I'm not mistaken.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -125,16 +61,6 @@ Take that!&lt;end&gt;</source>
       <segment state="translated">
         <source>Being observant is a requirement here if I'm not mistaken.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q7_original" name="=&gt;q7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Observant, you say... ::He pauses.:: Well, that you most certainly are, $(context.player.Name). Take a look at this.&lt;end&gt;</source>
-        <target state="final">Observant, you say... ::He pauses.:: Well, that you most certainly are, $(context.player.Name). Take a look at this.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -147,16 +73,6 @@ Take that!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a8_original" name="=&gt;a8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Barter.::&lt;end&gt;</source>
-        <target state="final">::Barter.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -165,16 +81,6 @@ Take that!&lt;end&gt;</source>
       <segment state="translated">
         <source>::Barter.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No, it doesn't. But it doesn't mean you're rich either. In any case, I've got nothing else for you.&lt;end&gt;</source>
-        <target state="final">No, it doesn't. But it doesn't mean you're rich either. In any case, I've got nothing else for you.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -187,16 +93,6 @@ Take that!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How and why did you join Oculus?&lt;end&gt;</source>
-        <target state="final">How and why did you join Oculus?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -207,16 +103,6 @@ Take that!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q11_original" name="=&gt;q11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, we all go through a similar phase. You do small jobs, then, if they like you, they give you bigger jobs, those that require more of your skills. You've been through it all, you know it.&lt;end&gt;</source>
-        <target state="final">Well, we all go through a similar phase. You do small jobs, then, if they like you, they give you bigger jobs, those that require more of your skills. You've been through it all, you know it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -225,20 +111,6 @@ Take that!&lt;end&gt;</source>
       <segment state="translated">
         <source>Well, we all go through a similar phase. You do small jobs, then, if they like you, they give you bigger jobs, those that require more of your skills. You've been through it all, you know it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>As to *why* I joined...
-
-::He raises his voice.:: So that I could stand around all day in this cramped bloody, freaking bloody pyramid bottom 2x2 platform... Arrrgh!&lt;end&gt;</source>
-        <target state="final">As to *why* I joined...
-
-::He raises his voice.:: So that I could stand around all day in this cramped bloody, freaking bloody pyramid bottom 2x2 platform... Arrrgh!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -253,20 +125,6 @@ Take that!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q13_original" name="=&gt;q13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Clears throat.:: I apologize. Um... It was a pursuit of... work. Work brings money, money can be used to buy food and equipment. So, now I'm here. Selling... equipment...
-
-For money!&lt;end&gt;</source>
-        <target state="final">::Clears throat.:: I apologize. Um... It was a pursuit of... work. Work brings money, money can be used to buy food and equipment. So, now I'm here. Selling... equipment...
-
-For money!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -279,16 +137,6 @@ For money!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a14_original" name="=&gt;a14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>So, how does it feel working in the lowest level of Oculus? Isn't it a bit... cramped in here?&lt;end&gt;</source>
-        <target state="final">So, how does it feel working in the lowest level of Oculus? Isn't it a bit... cramped in here?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -297,16 +145,6 @@ For money!&lt;end&gt;</source>
       <segment state="translated">
         <source>So, how does it feel working in the lowest level of Oculus? Isn't it a bit... cramped in here?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q15_original" name="=&gt;q15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Of course it's cramped, do you really think I haven't noticed!? I can't even move a foot without bumping into something! All these bloody boxes, I wish I could just kick them all into the abyss! Arggh!&lt;end&gt;</source>
-        <target state="final">Of course it's cramped, do you really think I haven't noticed!? I can't even move a foot without bumping into something! All these bloody boxes, I wish I could just kick them all into the abyss! Arggh!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -319,16 +157,6 @@ For money!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Clears throat.:: I apologize, you shouldn't have witnessed that. I agree, the area is a bit... hmm, lacking in terms of space, and in addition, being in the lowest part of Oculus, I... hear things trying to get in.&lt;end&gt;</source>
-        <target state="final">::Clears throat.:: I apologize, you shouldn't have witnessed that. I agree, the area is a bit... hmm, lacking in terms of space, and in addition, being in the lowest part of Oculus, I... hear things trying to get in.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -337,16 +165,6 @@ For money!&lt;end&gt;</source>
       <segment state="translated">
         <source>::Clears throat.:: I apologize, you shouldn't have witnessed that. I agree, the area is a bit... hmm, lacking in terms of space, and in addition, being in the lowest part of Oculus, I... hear things trying to get in.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What things?&lt;end&gt;</source>
-        <target state="final">What things?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -359,16 +177,6 @@ For money!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Well, crawlers, for instance, I can hear them climbing the walls. A faint sound at the bottom of the Oculus slowly comes closer... and becomes louder. Then it stops... You forget about the creature, but it's still there, maybe it can hear there's something inside, something alive... something that can be... consumed.&lt;end&gt;</source>
-        <target state="final">Well, crawlers, for instance, I can hear them climbing the walls. A faint sound at the bottom of the Oculus slowly comes closer... and becomes louder. Then it stops... You forget about the creature, but it's still there, maybe it can hear there's something inside, something alive... something that can be... consumed.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -377,16 +185,6 @@ For money!&lt;end&gt;</source>
       <segment state="translated">
         <source>Well, crawlers, for instance, I can hear them climbing the walls. A faint sound at the bottom of the Oculus slowly comes closer... and becomes louder. Then it stops... You forget about the creature, but it's still there, maybe it can hear there's something inside, something alive... something that can be... consumed.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q19_original" name="=&gt;q19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But then the EDS fries the bugs! ::He laughs.:: They scream as their smoking carcasses fall into the darkness! I hate them, I hate them so much, as well as those bloody Lunatics!&lt;end&gt;</source>
-        <target state="final">But then the EDS fries the bugs! ::He laughs.:: They scream as their smoking carcasses fall into the darkness! I hate them, I hate them so much, as well as those bloody Lunatics!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -399,16 +197,6 @@ For money!&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a20_original" name="=&gt;a20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>If you hear strange things, then maybe it's time to lay off the brew.&lt;end&gt;</source>
-        <target state="final">If you hear strange things, then maybe it's time to lay off the brew.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -417,20 +205,6 @@ For money!&lt;end&gt;</source>
       <segment state="translated">
         <source>If you hear strange things, then maybe it's time to lay off the brew.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q21_original" name="=&gt;q21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The moment he hears you uttering those words, his jaw clenches and the face slowly turns red. His piercing stare feels like you've been exposed to high-frequency radiation that's tearing through your tissue. He quickly calms down, slowly exhales and regains his natural color.::
-
-Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
-        <target state="final">::The moment he hears you uttering those words, his jaw clenches and the face slowly turns red. His piercing stare feels like you've been exposed to high-frequency radiation that's tearing through your tissue. He quickly calms down, slowly exhales and regains his natural color.::
-
-Khm, I hope you were joking... I don't drink.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -445,16 +219,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I was talking about crawlers, not something I imagined, as you... *jokingly* implied. I can hear them climbing the walls. A faint sound at the bottom of the Oculus slowly comes closer... and becomes louder. Then it stops... You forget about the creature, but it's still there, maybe it can hear there's something inside, something alive... something that can be... consumed.&lt;end&gt;</source>
-        <target state="final">I was talking about crawlers, not something I imagined, as you... *jokingly* implied. I can hear them climbing the walls. A faint sound at the bottom of the Oculus slowly comes closer... and becomes louder. Then it stops... You forget about the creature, but it's still there, maybe it can hear there's something inside, something alive... something that can be... consumed.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -463,16 +227,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
       <segment state="translated">
         <source>I was talking about crawlers, not something I imagined, as you... *jokingly* implied. I can hear them climbing the walls. A faint sound at the bottom of the Oculus slowly comes closer... and becomes louder. Then it stops... You forget about the creature, but it's still there, maybe it can hear there's something inside, something alive... something that can be... consumed.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a23_original" name="=&gt;a23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What is EDS?&lt;end&gt;</source>
-        <target state="final">What is EDS?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -485,16 +239,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q24_original" name="=&gt;q24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Electric Defense System. Not the official name, though, the original one is only known to... to whomever built Oculus.&lt;end&gt;</source>
-        <target state="final">Electric Defense System. Not the official name, though, the original one is only known to... to whomever built Oculus.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -503,16 +247,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
       <segment state="translated">
         <source>Electric Defense System. Not the official name, though, the original one is only known to... to whomever built Oculus.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q25_original" name="=&gt;q25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I have no idea how it works, but in essence, it sends a surge of electricity through anything it deems dangerous, frying it. And it's smart, the system knows what should and what shouldn't be killed. It can be, well, distracting at times... hearing burning Lunatics scream and tumble into the abyss. But again, it also brings a smile to my face.&lt;end&gt;</source>
-        <target state="final">I have no idea how it works, but in essence, it sends a surge of electricity through anything it deems dangerous, frying it. And it's smart, the system knows what should and what shouldn't be killed. It can be, well, distracting at times... hearing burning Lunatics scream and tumble into the abyss. But again, it also brings a smile to my face.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -525,16 +259,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q26_original" name="=&gt;q26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>'Cause I hate those bastards!&lt;end&gt;</source>
-        <target state="final">'Cause I hate those bastards!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -543,16 +267,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
       <segment state="translated">
         <source>'Cause I hate those bastards!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a27_original" name="=&gt;a27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You mentioned Lunatics, who are they?&lt;end&gt;</source>
-        <target state="final">You mentioned Lunatics, who are they?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -565,16 +279,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You don't know who Lunatics are? Stick around and you might find out. Well, you'll hear them trying to climb the Oculus, for they reside very close to the bottom of it. Unlike crawlers, Lunatics always come in groups.&lt;end&gt;</source>
-        <target state="final">You don't know who Lunatics are? Stick around and you might find out. Well, you'll hear them trying to climb the Oculus, for they reside very close to the bottom of it. Unlike crawlers, Lunatics always come in groups.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -583,16 +287,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
       <segment state="translated">
         <source>You don't know who Lunatics are? Stick around and you might find out. Well, you'll hear them trying to climb the Oculus, for they reside very close to the bottom of it. Unlike crawlers, Lunatics always come in groups.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do they bother you often?&lt;end&gt;</source>
-        <target state="final">Do they bother you often?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -605,16 +299,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q30_original" name="=&gt;q30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Do they? Do they? They bloody do! It's like I was cursed by this, this orb of annoyance that flies around my head and causes all sorts of, of infuriating things to happen!&lt;end&gt;</source>
-        <target state="final">Do they? Do they? They bloody do! It's like I was cursed by this, this orb of annoyance that flies around my head and causes all sorts of, of infuriating things to happen!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -623,20 +307,6 @@ Khm, I hope you were joking... I don't drink.&lt;end&gt;</source>
       <segment state="translated">
         <source>Do they? Do they? They bloody do! It's like I was cursed by this, this orb of annoyance that flies around my head and causes all sorts of, of infuriating things to happen!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q31_original" name="=&gt;q31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>"WHAAAAAAAAAAAA! We'll get inside, even though there is a pile of burned corpses below the Oculus." 
-
-They just... have to give it another go! And another, and another...&lt;end&gt;</source>
-        <target state="final">"WHAAAAAAAAAAAA! We'll get inside, even though there is a pile of burned corpses below the Oculus." 
-
-They just... have to give it another go! And another, and another...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -651,16 +321,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q32_original" name="=&gt;q32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Khm... I apologize. These things really bother me sometimes and I might... overreact at times.&lt;end&gt;</source>
-        <target state="final">Khm... I apologize. These things really bother me sometimes and I might... overreact at times.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -669,16 +329,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Khm... I apologize. These things really bother me sometimes and I might... overreact at times.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a33_original" name="=&gt;a33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You still didn't tell me who these Lunatics actually are.&lt;end&gt;</source>
-        <target state="final">You still didn't tell me who these Lunatics actually are.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -691,16 +341,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q34_original" name="=&gt;q34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Lunatics are... hmmm, think of Ironheads and Lurkers. A bandit gang that is similar in size, but composing mostly of psionics. Powerful psionics, while we're at it, but the trade-off is that they are insane and unpredictable.&lt;end&gt;</source>
-        <target state="final">Lunatics are... hmmm, think of Ironheads and Lurkers. A bandit gang that is similar in size, but composing mostly of psionics. Powerful psionics, while we're at it, but the trade-off is that they are insane and unpredictable.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -709,16 +349,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Lunatics are... hmmm, think of Ironheads and Lurkers. A bandit gang that is similar in size, but composing mostly of psionics. Powerful psionics, while we're at it, but the trade-off is that they are insane and unpredictable.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q35_original" name="=&gt;q35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is why the morons try to jump all over the bloody Oculus and disturb us! What a bunch of thick-headed cretins! Arrrgh!&lt;end&gt;</source>
-        <target state="final">That is why the morons try to jump all over the bloody Oculus and disturb us! What a bunch of thick-headed cretins! Arrrgh!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -731,16 +361,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a36_original" name="=&gt;a36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Let's discuss something else.&lt;end&gt;</source>
-        <target state="final">Let's discuss something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -749,16 +369,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Let's discuss something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q37_original" name="=&gt;q37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sure, but discuss what?&lt;end&gt;</source>
-        <target state="final">Sure, but discuss what?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -771,16 +381,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a38_original" name="=&gt;a38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Did they ever make it in?&lt;end&gt;</source>
-        <target state="final">Did they ever make it in?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -789,16 +389,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Did they ever make it in?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q39_original" name="=&gt;q39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Never. The EDS is there to prevent any unwanted entity from entering the Oculus. Lunatics are unwanted, therefore, they end up as ashes scattered all over the cave floor.&lt;end&gt;</source>
-        <target state="final">Never. The EDS is there to prevent any unwanted entity from entering the Oculus. Lunatics are unwanted, therefore, they end up as ashes scattered all over the cave floor.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -811,16 +401,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q40_original" name="=&gt;q40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Personally, I've grown sick of those bloody idiots. It warms my heart to hear them die.&lt;end&gt;</source>
-        <target state="final">Personally, I've grown sick of those bloody idiots. It warms my heart to hear them die.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -829,16 +409,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Personally, I've grown sick of those bloody idiots. It warms my heart to hear them die.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a41_original" name="=&gt;a41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about Oculus?&lt;end&gt;</source>
-        <target state="final">What can you tell me about Oculus?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -851,16 +421,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q42_original" name="=&gt;q42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Oculus? You came down here to ask me that? You expect me... ME to answer your stupid questions!? "What can you tell me about Oculus?" Go ask Azif, he brought you here anyway...&lt;end&gt;</source>
-        <target state="final">Oculus? You came down here to ask me that? You expect me... ME to answer your stupid questions!? "What can you tell me about Oculus?" Go ask Azif, he brought you here anyway...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -869,16 +429,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Oculus? You came down here to ask me that? You expect me... ME to answer your stupid questions!? "What can you tell me about Oculus?" Go ask Azif, he brought you here anyway...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q43_original" name="=&gt;q43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He takes a deep breath.:: I'm sorry, I guess I am a bit nervous.&lt;end&gt;</source>
-        <target state="final">::He takes a deep breath.:: I'm sorry, I guess I am a bit nervous.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -891,16 +441,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a44_original" name="=&gt;a44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Who is that six-fingered cyborg?&lt;end&gt;</source>
-        <target state="final">Who is that six-fingered cyborg?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -909,16 +449,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Who is that six-fingered cyborg?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q45_original" name="=&gt;q45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Six? That's what we call him. Six. Because of his fingers. Six. That's how many there are. Um, yes...&lt;end&gt;</source>
-        <target state="final">Six? That's what we call him. Six. Because of his fingers. Six. That's how many there are. Um, yes...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -931,16 +461,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q46_original" name="=&gt;q46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>In any case, the cyborg is not the most... approachable type, so to say, so keep that in mind if you see him around here again. No one knows where he comes from or what he's truly capable of; we only know he's a client and that's all we need to.&lt;end&gt;</source>
-        <target state="final">In any case, the cyborg is not the most... approachable type, so to say, so keep that in mind if you see him around here again. No one knows where he comes from or what he's truly capable of; we only know he's a client and that's all we need to.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -949,16 +469,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>In any case, the cyborg is not the most... approachable type, so to say, so keep that in mind if you see him around here again. No one knows where he comes from or what he's truly capable of; we only know he's a client and that's all we need to.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q47_original" name="=&gt;q47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Still, you might try asking Azif about him, but I wouldn't put my charons on getting an answer.&lt;end&gt;</source>
-        <target state="final">Still, you might try asking Azif about him, but I wouldn't put my charons on getting an answer.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -971,16 +481,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q48_original" name="=&gt;q48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>In any case, I suggest you do not bother the cyborg, no matter how intriguing he might appear. He's not the most... approachable type, so to say. No one knows where he comes from or what he's truly capable of; we only know he's a client and that's all we need to.&lt;end&gt;</source>
-        <target state="final">In any case, I suggest you do not bother the cyborg, no matter how intriguing he might appear. He's not the most... approachable type, so to say. No one knows where he comes from or what he's truly capable of; we only know he's a client and that's all we need to.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -989,16 +489,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>In any case, I suggest you do not bother the cyborg, no matter how intriguing he might appear. He's not the most... approachable type, so to say. No one knows where he comes from or what he's truly capable of; we only know he's a client and that's all we need to.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a49_original" name="=&gt;a49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Can I ask you something about the people in the Oculus?&lt;end&gt;</source>
-        <target state="final">Can I ask you something about the people in the Oculus?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -1011,16 +501,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q50_original" name="=&gt;q50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Whom do you want to know about, $(context.player.Name)?&lt;end&gt;</source>
-        <target state="final">Whom do you want to know about, $(context.player.Name)?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1029,16 +509,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Whom do you want to know about, $(context.player.Name)?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a51_original" name="=&gt;a51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Abram.&lt;end&gt;</source>
-        <target state="final">Abram.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -1051,16 +521,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q52_original" name="=&gt;q52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why him? Why did you ask about him first? It could've been any-bloody-else but you had to ask about him! What the hell is wrong with you!? Huh?&lt;end&gt;</source>
-        <target state="final">Why him? Why did you ask about him first? It could've been any-bloody-else but you had to ask about him! What the hell is wrong with you!? Huh?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1069,16 +529,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Why him? Why did you ask about him first? It could've been any-bloody-else but you had to ask about him! What the hell is wrong with you!? Huh?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q53_original" name="=&gt;q53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>This is so damn tiring, always him! It's always bloody him!&lt;end&gt;</source>
-        <target state="final">This is so damn tiring, always him! It's always bloody him!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -1091,16 +541,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q54_original" name="=&gt;q54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He calms down.:: I apologize for this. I really do. Um... can we not discuss other people in the future? Thank you, um, thank you.&lt;end&gt;</source>
-        <target state="final">::He calms down.:: I apologize for this. I really do. Um... can we not discuss other people in the future? Thank you, um, thank you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1109,16 +549,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>::He calms down.:: I apologize for this. I really do. Um... can we not discuss other people in the future? Thank you, um, thank you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a55_original" name="=&gt;a55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Jack Quicksilver.&lt;end&gt;</source>
-        <target state="final">Jack Quicksilver.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -1131,16 +561,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a56_original" name="=&gt;a56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Azif.&lt;end&gt;</source>
-        <target state="final">Azif.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1149,16 +569,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Azif.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a57_original" name="=&gt;a57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Twitch.&lt;end&gt;</source>
-        <target state="final">Twitch.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -1171,16 +581,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a58_original" name="=&gt;a58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Phyllis.&lt;end&gt;</source>
-        <target state="final">Phyllis.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1189,16 +589,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Phyllis.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q59_original" name="=&gt;q59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Why her? Why did you ask about her first? It could've been any-bloody-else but you had to ask about her! What the hell is wrong with you!? Huh?&lt;end&gt;</source>
-        <target state="final">Why her? Why did you ask about her first? It could've been any-bloody-else but you had to ask about her! What the hell is wrong with you!? Huh?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -1211,16 +601,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q60_original" name="=&gt;q60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>This is so damn tiring, always her! It's always bloody her!&lt;end&gt;</source>
-        <target state="final">This is so damn tiring, always her! It's always bloody her!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1229,16 +609,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>This is so damn tiring, always her! It's always bloody her!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a61_original" name="=&gt;a61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Actually, no one. I had other questions.&lt;end&gt;</source>
-        <target state="final">Actually, no one. I had other questions.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -1251,16 +621,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q62_original" name="=&gt;q62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Not a problem. I'm not going anywhere.&lt;end&gt;</source>
-        <target state="final">Not a problem. I'm not going anywhere.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1269,16 +629,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Not a problem. I'm not going anywhere.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a63_original" name="=&gt;a63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about those robed oculites? &lt;end&gt;</source>
-        <target state="final">What can you tell me about those robed oculites? &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a63" name="=&gt;a63">
@@ -1291,16 +641,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q64_original" name="=&gt;q64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>We call them Whisperers. They are quite an interesting breed, I must say. They all belong to a single clan of psi-warriors, who call themselves Khazum Morakht. A very rough sounding word, I know. But believe me, it fits them well.&lt;end&gt;</source>
-        <target state="final">We call them Whisperers. They are quite an interesting breed, I must say. They all belong to a single clan of psi-warriors, who call themselves Khazum Morakht. A very rough sounding word, I know. But believe me, it fits them well.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1309,16 +649,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>We call them Whisperers. They are quite an interesting breed, I must say. They all belong to a single clan of psi-warriors, who call themselves Khazum Morakht. A very rough sounding word, I know. But believe me, it fits them well.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q65_original" name="=&gt;q65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>They were here long before I arrived. I think they are all from North Underrail. You will find them throughtout Oculus, standing still, observing what happens around them, assessing everyone and everything. You can't initiate a conversation with them, trust me, I've tried... Especially with that one in the corner of this platform. ::Mutters something to himself.::&lt;end&gt;</source>
-        <target state="final">They were here long before I arrived. I think they are all from North Underrail. You will find them throughtout Oculus, standing still, observing what happens around them, assessing everyone and everything. You can't initiate a conversation with them, trust me, I've tried... Especially with that one in the corner of this platform. ::Mutters something to himself.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -1331,16 +661,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a66_original" name="=&gt;a66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Catch you later.&lt;end&gt;</source>
-        <target state="final">Catch you later.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1349,20 +669,6 @@ They just... have to give it another go! And another, and another...&lt;end&gt;<
       <segment state="translated">
         <source>Catch you later.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q67_original" name="=&gt;q67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::You come up to a tall man with a mildly irritated look on his face. Despite that, his tone of voice is generally welcoming and doesn't imply that your presence bothers him.::
-
-And who do my eyes see? A newcomer. Welcome, $(context.player.Name), to a place that doesn't exist... to most people. I'm Constantine, the Oculus quartermaster.&lt;end&gt;</source>
-        <target state="final">::You come up to a tall man with a mildly irritated look on his face. Despite that, his tone of voice is generally welcoming and doesn't imply that your presence bothers him.::
-
-And who do my eyes see? A newcomer. Welcome, $(context.player.Name), to a place that doesn't exist... to most people. I'm Constantine, the Oculus quartermaster.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q67" name="=&gt;q67">
@@ -1377,16 +683,6 @@ And who do my eyes see? A newcomer. Welcome, $(context.player.Name), to a place 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q68_original" name="=&gt;q68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hey, I've got some new gear for you.&lt;end&gt;</source>
-        <target state="final">Hey, I've got some new gear for you.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1395,16 +691,6 @@ And who do my eyes see? A newcomer. Welcome, $(context.player.Name), to a place 
       <segment state="translated">
         <source>Hey, I've got some new gear for you.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a69_original" name="=&gt;a69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Show it to me. ::Barter.::&lt;end&gt;</source>
-        <target state="final">Show it to me. ::Barter.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -1417,16 +703,6 @@ And who do my eyes see? A newcomer. Welcome, $(context.player.Name), to a place 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a70_original" name="=&gt;a70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Good. But let me ask you something first.&lt;end&gt;</source>
-        <target state="final">Good. But let me ask you something first.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a70" name="=&gt;a70">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1437,16 +713,6 @@ And who do my eyes see? A newcomer. Welcome, $(context.player.Name), to a place 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q71_original" name="=&gt;q71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm listening.&lt;end&gt;</source>
-        <target state="final">I'm listening.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1455,16 +721,6 @@ And who do my eyes see? A newcomer. Welcome, $(context.player.Name), to a place 
       <segment state="translated">
         <source>I'm listening.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q72_original" name="=&gt;q72_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What do you need, $(context.player.Name)?&lt;end&gt;</source>
-        <target state="final">What do you need, $(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">

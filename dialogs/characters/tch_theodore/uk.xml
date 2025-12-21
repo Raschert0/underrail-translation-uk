@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\tch_theodore.txt" original="dialogs\characters\tch_theodore.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>The Faceless are here!&lt;end&gt;</source>
-        <target state="final">The Faceless are here!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -21,16 +11,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Magnificent Tchort! What are you doing here, $(#brother/sister)? The kitchen is for staff ONLY!&lt;end&gt;</source>
-        <target state="final">Magnificent Tchort! What are you doing here, $(#brother/sister)? The kitchen is for staff ONLY!&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -39,20 +19,6 @@
       <segment state="translated">
         <source>Magnificent Tchort! What are you doing here, $(#brother/sister)? The kitchen is for staff ONLY!&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The man behind the counter strikes you as being calm, friendly and radiates a positive attitude. Appearance-wise, young and handsome are the words that describe him most accurate, while his confident posture is also difficult to ignore. He greets you with a familiar Tchortist salute.::
-
-Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo by... by almost everyone. ::He smiles.:: How may I help you?&lt;end&gt;</source>
-        <target state="final">::The man behind the counter strikes you as being calm, friendly and radiates a positive attitude. Appearance-wise, young and handsome are the words that describe him most accurate, while his confident posture is also difficult to ignore. He greets you with a familiar Tchortist salute.::
-
-Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo by... by almost everyone. ::He smiles.:: How may I help you?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -67,16 +33,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Evolution is Tchort, brother. I'm $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Evolution is Tchort, brother. I'm $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -85,16 +41,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>Evolution is Tchort, brother. I'm $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Welcome to the Institute of Tchort, $(#brother/sister). Our institution is very different from those on the outside I'm sure, but you'll get used to it, don't worry.&lt;end&gt;</source>
-        <target state="final">Welcome to the Institute of Tchort, $(#brother/sister). Our institution is very different from those on the outside I'm sure, but you'll get used to it, don't worry.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -107,16 +53,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -125,16 +61,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a7_original" name="=&gt;a7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Show me what you got. I'm starving!&lt;end&gt;</source>
-        <target state="final">Show me what you got. I'm starving!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -147,16 +73,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Today's we have...&lt;end&gt;</source>
-        <target state="final">Today's we have...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -165,16 +81,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>Today's we have...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a9_original" name="=&gt;a9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Barter.::&lt;end&gt;</source>
-        <target state="final">::Barter.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -187,16 +93,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Show me what you got. I'm starving! ::Barter.::&lt;end&gt;</source>
-        <target state="final">Show me what you got. I'm starving! ::Barter.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -205,16 +101,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>Show me what you got. I'm starving! ::Barter.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a11_original" name="=&gt;a11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>How and why did you join Institute of Tchort?&lt;end&gt;</source>
-        <target state="final">How and why did you join Institute of Tchort?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -227,16 +113,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am institute-born, $(#brother/sister). It wasn't my decision to become a Tchortist, but with all the things I heard about the outside world, I'm better off. Life here is better without a doubt, and here people care about each other, care about progress - evolution, rather than just about their own hide, so to speak.&lt;end&gt;</source>
-        <target state="final">I am institute-born, $(#brother/sister). It wasn't my decision to become a Tchortist, but with all the things I heard about the outside world, I'm better off. Life here is better without a doubt, and here people care about each other, care about progress - evolution, rather than just about their own hide, so to speak.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -245,16 +121,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>I am institute-born, $(#brother/sister). It wasn't my decision to become a Tchortist, but with all the things I heard about the outside world, I'm better off. Life here is better without a doubt, and here people care about each other, care about progress - evolution, rather than just about their own hide, so to speak.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a13_original" name="=&gt;a13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Wait, you never left this building?&lt;end&gt;</source>
-        <target state="final">Wait, you never left this building?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -267,16 +133,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No. Again, from what I heard in the past... I'm better off being here.&lt;end&gt;</source>
-        <target state="final">No. Again, from what I heard in the past... I'm better off being here.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -285,16 +141,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>No. Again, from what I heard in the past... I'm better off being here.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Maybe I can share a few stories about the outside world. It's rough alright, but not everything is so grim. There is much beauty outside of the Institute.&lt;end&gt;</source>
-        <target state="final">Maybe I can share a few stories about the outside world. It's rough alright, but not everything is so grim. There is much beauty outside of the Institute.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -307,16 +153,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Maybe some other time, $(#brother/sister); now's not the time. Anything else you needed? And please, let's make it quick, refectory is always a busy place.&lt;end&gt;</source>
-        <target state="final">Maybe some other time, $(#brother/sister); now's not the time. Anything else you needed? And please, let's make it quick, refectory is always a busy place.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -325,16 +161,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>Maybe some other time, $(#brother/sister); now's not the time. Anything else you needed? And please, let's make it quick, refectory is always a busy place.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Interesting... I had other questions though.&lt;end&gt;</source>
-        <target state="final">Interesting... I had other questions though.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -347,16 +173,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q18_original" name="=&gt;q18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, what?&lt;end&gt;</source>
-        <target state="final">Yes, what?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -365,16 +181,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>Yes, what?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a19_original" name="=&gt;a19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about the Faceless?&lt;end&gt;</source>
-        <target state="final">What can you tell me about the Faceless?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -387,16 +193,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q20_original" name="=&gt;q20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Keep the Faceless out of the refectory please, people are trying to eat here.&lt;end&gt;</source>
-        <target state="final">Keep the Faceless out of the refectory please, people are trying to eat here.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -405,16 +201,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>Keep the Faceless out of the refectory please, people are trying to eat here.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q21_original" name="=&gt;q21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Magnificent Tchort! Stop mentioning those... those vomit-inducing freaks here - we are trying to eat!&lt;end&gt;</source>
-        <target state="final">Magnificent Tchort! Stop mentioning those... those vomit-inducing freaks here - we are trying to eat!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -427,16 +213,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q22_original" name="=&gt;q22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That's what I was talking about...&lt;end&gt;</source>
-        <target state="final">That's what I was talking about...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -445,16 +221,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>That's what I was talking about...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a23_original" name="=&gt;a23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>What can you tell me about the West Wing?&lt;end&gt;</source>
-        <target state="final">What can you tell me about the West Wing?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -467,16 +233,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q24_original" name="=&gt;q24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It is dangerous, do not go there.&lt;end&gt;</source>
-        <target state="final">It is dangerous, do not go there.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -485,16 +241,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>It is dangerous, do not go there.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q25_original" name="=&gt;q25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>It is that simple, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">It is that simple, $(#brother/sister).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -507,16 +253,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a26_original" name="=&gt;a26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But what is so dangerous about it?&lt;end&gt;</source>
-        <target state="final">But what is so dangerous about it?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -527,16 +263,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q27_original" name="=&gt;q27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am sorry but I can't explain it now, $(#brother/sister) - this is neither the time nor the place for that. This is where people eat and I have got my hands a bit busy at the moment.&lt;end&gt;</source>
-        <target state="final">I am sorry but I can't explain it now, $(#brother/sister) - this is neither the time nor the place for that. This is where people eat and I have got my hands a bit busy at the moment.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -545,20 +271,6 @@ Tchort is evolution, $(#brother/sister). My name is Theodore, often called Theo 
       <segment state="translated">
         <source>I am sorry but I can't explain it now, $(#brother/sister) - this is neither the time nor the place for that. This is where people eat and I have got my hands a bit busy at the moment.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q28_original" name="=&gt;q28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Just trust me... it is dangerous; there is a reason no one goes there.
-
-Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
-        <target state="final">Just trust me... it is dangerous; there is a reason no one goes there.
-
-Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -573,16 +285,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Understood. Let me ask you something else.&lt;end&gt;</source>
-        <target state="final">Understood. Let me ask you something else.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -591,16 +293,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Understood. Let me ask you something else.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a30_original" name="=&gt;a30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hey, do you want to hear a joke?&lt;end&gt;</source>
-        <target state="final">Hey, do you want to hear a joke?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -613,16 +305,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q31_original" name="=&gt;q31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Is it the one about a cell undergoing mitosis?&lt;end&gt;</source>
-        <target state="final">Is it the one about a cell undergoing mitosis?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -631,16 +313,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Is it the one about a cell undergoing mitosis?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a32_original" name="=&gt;a32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No, it's about a rathound that walks into a bar - and the barkeeper shoots the filthy thing!&lt;end&gt;</source>
-        <target state="final">No, it's about a rathound that walks into a bar - and the barkeeper shoots the filthy thing!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -653,16 +325,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He laughs.:: 'Cause everyone hates rathounds! Yes, I like that one.&lt;end&gt;</source>
-        <target state="final">::He laughs.:: 'Cause everyone hates rathounds! Yes, I like that one.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -671,16 +333,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>::He laughs.:: 'Cause everyone hates rathounds! Yes, I like that one.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q34_original" name="=&gt;q34_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">67</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Apex joke, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">Apex joke, $(#brother/sister).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -693,16 +345,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a35_original" name="=&gt;a35_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">69</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Erm, yes it is...&lt;end&gt;</source>
-        <target state="final">Erm, yes it is...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -711,16 +353,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Erm, yes it is...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q36_original" name="=&gt;q36_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">71</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sorry, $(#brother/sister), already heard that one. One of the genetics investigators already told it to me.&lt;end&gt;</source>
-        <target state="final">Sorry, $(#brother/sister), already heard that one. One of the genetics investigators already told it to me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -733,16 +365,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q37_original" name="=&gt;q37_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">73</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Need anything else?&lt;end&gt;</source>
-        <target state="final">Need anything else?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -751,16 +373,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Need anything else?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a38_original" name="=&gt;a38_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">75</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I would like to ask you some questions about Tchortism.&lt;end&gt;</source>
-        <target state="final">I would like to ask you some questions about Tchortism.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -773,16 +385,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q39_original" name="=&gt;q39_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">77</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm sorry, but I'm working at the moment, and a discussion about Tchortism would take too long.&lt;end&gt;</source>
-        <target state="final">I'm sorry, but I'm working at the moment, and a discussion about Tchortism would take too long.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -791,16 +393,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>I'm sorry, but I'm working at the moment, and a discussion about Tchortism would take too long.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q40_original" name="=&gt;q40_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">79</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Seek Praepostor Amelia, or visit Eidein's Library. Oh, and read the Original Report if you haven't already.&lt;end&gt;</source>
-        <target state="final">Seek Praepostor Amelia, or visit Eidein's Library. Oh, and read the Original Report if you haven't already.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -813,16 +405,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a41_original" name="=&gt;a41_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">81</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hi, I'd like one cute Theo for takeout. Hot if possible.&lt;end&gt;</source>
-        <target state="final">Hi, I'd like one cute Theo for takeout. Hot if possible.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -831,16 +413,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Hi, I'd like one cute Theo for takeout. Hot if possible.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q42_original" name="=&gt;q42_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">83</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Sorry, we are not serving Theo today. Are you perhaps interested in something else?&lt;end&gt;</source>
-        <target state="final">Sorry, we are not serving Theo today. Are you perhaps interested in something else?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -853,16 +425,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q43_original" name="=&gt;q43_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">85</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hopper stew is hot too, sister.&lt;end&gt;</source>
-        <target state="final">Hopper stew is hot too, sister.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -871,16 +433,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Hopper stew is hot too, sister.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a44_original" name="=&gt;a44_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">87</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hi, I wanted to ask you something really important, but was stunned by how handsome you are. Now I can't remember.&lt;end&gt;</source>
-        <target state="final">Hi, I wanted to ask you something really important, but was stunned by how handsome you are. Now I can't remember.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -893,16 +445,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q45_original" name="=&gt;q45_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">89</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That happens pretty often actually, so don't worry about it.&lt;end&gt;</source>
-        <target state="final">That happens pretty often actually, so don't worry about it.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -911,16 +453,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>That happens pretty often actually, so don't worry about it.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q46_original" name="=&gt;q46_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">91</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>While you're trying to remember, maybe grab something to eat, sister?&lt;end&gt;</source>
-        <target state="final">While you're trying to remember, maybe grab something to eat, sister?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -933,16 +465,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a47_original" name="=&gt;a47_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">93</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Wave and wink at him seductively.::&lt;end&gt;</source>
-        <target state="final">::Wave and wink at him seductively.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -951,16 +473,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>::Wave and wink at him seductively.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q48_original" name="=&gt;q48_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">95</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He waves back and leans forward slightly, as if he is going to wink. However, he stops, eyes wide open. Then, he shrugs his shoulders.::&lt;end&gt;</source>
-        <target state="final">::He waves back and leans forward slightly, as if he is going to wink. However, he stops, eyes wide open. Then, he shrugs his shoulders.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -973,16 +485,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q49_original" name="=&gt;q49_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">97</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Oh no, I guess we are out of winks. How about hopper stew?&lt;end&gt;</source>
-        <target state="final">Oh no, I guess we are out of winks. How about hopper stew?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -991,16 +493,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Oh no, I guess we are out of winks. How about hopper stew?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a50_original" name="=&gt;a50_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">99</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm new to the Institute of Tchort. Could you give me directions to your room?&lt;end&gt;</source>
-        <target state="final">I'm new to the Institute of Tchort. Could you give me directions to your room?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -1013,16 +505,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q51_original" name="=&gt;q51_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">101</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Certainly, exit the refectory, up the stairs, then take four left turns, down the stairs and then turn right.&lt;end&gt;</source>
-        <target state="final">Certainly, exit the refectory, up the stairs, then take four left turns, down the stairs and then turn right.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1031,16 +513,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Certainly, exit the refectory, up the stairs, then take four left turns, down the stairs and then turn right.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q52_original" name="=&gt;q52_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">103</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>See you soon, sister!&lt;end&gt;</source>
-        <target state="final">See you soon, sister!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -1053,16 +525,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a53_original" name="=&gt;a53_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">105</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>My lips hurt! Will you kiss them and make the pain go away?&lt;end&gt;</source>
-        <target state="final">My lips hurt! Will you kiss them and make the pain go away?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1071,16 +533,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>My lips hurt! Will you kiss them and make the pain go away?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q54_original" name="=&gt;q54_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">107</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You know, sister, maybe I can help you with that...&lt;end&gt;</source>
-        <target state="final">You know, sister, maybe I can help you with that...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -1093,16 +545,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a55_original" name="=&gt;a55_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">109</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Oh?&lt;end&gt;</source>
-        <target state="final">Oh?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1111,16 +553,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Oh?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q56_original" name="=&gt;q56_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">111</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Or, I better leave it to the professional. Jerre-Franz's medical office is right past the sleeping quarters; he'll give you something for the pain. Trust me, he is the best.&lt;end&gt;</source>
-        <target state="final">Or, I better leave it to the professional. Jerre-Franz's medical office is right past the sleeping quarters; he'll give you something for the pain. Trust me, he is the best.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -1133,16 +565,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a57_original" name="=&gt;a57_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">113</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I give up...&lt;end&gt;</source>
-        <target state="final">I give up...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1151,16 +573,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>I give up...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q58_original" name="=&gt;q58_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">115</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hungry?&lt;end&gt;</source>
-        <target state="final">Hungry?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -1173,16 +585,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a59_original" name="=&gt;a59_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">117</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Leave without saying anything.::&lt;end&gt;</source>
-        <target state="final">::Leave without saying anything.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1191,16 +593,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>::Leave without saying anything.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a60_original" name="=&gt;a60_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">119</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Really?&lt;end&gt;</source>
-        <target state="final">Really?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -1213,16 +605,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a61_original" name="=&gt;a61_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">121</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Pout your lips.::&lt;end&gt;</source>
-        <target state="final">::Pout your lips.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1231,16 +613,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>::Pout your lips.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a62_original" name="=&gt;a62_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">123</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>See you next time, Theo.&lt;end&gt;</source>
-        <target state="final">See you next time, Theo.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -1253,16 +625,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q63_original" name="=&gt;q63_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">125</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort guides, $(#brother/sister).&lt;end&gt;</source>
-        <target state="final">Tchort guides, $(#brother/sister).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1271,16 +633,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Tchort guides, $(#brother/sister).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a64_original" name="=&gt;a64_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">127</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm $(context.player.Name) and I'm very, very hungry.&lt;end&gt;</source>
-        <target state="final">I'm $(context.player.Name) and I'm very, very hungry.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -1293,16 +645,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q65_original" name="=&gt;q65_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">129</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::He laughs.:: Don't worry, $(#brother/sister), we'll fill that belly of yours in just a moment. What'll it be?&lt;end&gt;</source>
-        <target state="final">::He laughs.:: Don't worry, $(#brother/sister), we'll fill that belly of yours in just a moment. What'll it be?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1311,16 +653,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>::He laughs.:: Don't worry, $(#brother/sister), we'll fill that belly of yours in just a moment. What'll it be?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a66_original" name="=&gt;a66_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hi, Theo. I'm $(#brother/sister) $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Hi, Theo. I'm $(#brother/sister) $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
@@ -1333,16 +665,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a67_original" name="=&gt;a67_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Tchort is handsome... I mean you're evolution... You're handsome! That's the one! And I'm $(context.player.Name).&lt;end&gt;</source>
-        <target state="final">Tchort is handsome... I mean you're evolution... You're handsome! That's the one! And I'm $(context.player.Name).&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1351,16 +673,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Tchort is handsome... I mean you're evolution... You're handsome! That's the one! And I'm $(context.player.Name).&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q68_original" name="=&gt;q68_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Uhm... While I should thank you for the compliment, our greeting is not something that should be twisted in such a manner. Please, make sure you always say the phrase in its proper form.&lt;end&gt;</source>
-        <target state="final">Uhm... While I should thank you for the compliment, our greeting is not something that should be twisted in such a manner. Please, make sure you always say the phrase in its proper form.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -1373,16 +685,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a69_original" name="=&gt;a69_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I understand. Still, you're handsome.&lt;end&gt;</source>
-        <target state="final">I understand. Still, you're handsome.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1391,16 +693,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>I understand. Still, you're handsome.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q70_original" name="=&gt;q70_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That I am. ::Smiles:: What'll it be, $(context.player.Name)?&lt;end&gt;</source>
-        <target state="final">That I am. ::Smiles:: What'll it be, $(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -1413,16 +705,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a71_original" name="=&gt;a71_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I'm very sorry. Won't happen again.&lt;end&gt;</source>
-        <target state="final">I'm very sorry. Won't happen again.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a71" name="=&gt;a71">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1433,16 +715,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q72_original" name="=&gt;q72_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Apology accepted. Now, what'll it be, $(context.player.Name)?&lt;end&gt;</source>
-        <target state="final">Apology accepted. Now, what'll it be, $(context.player.Name)?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -1451,16 +723,6 @@ Now, $(#brother/sister), are you ordering something or not?&lt;end&gt;</source>
       <segment state="translated">
         <source>Apology accepted. Now, what'll it be, $(context.player.Name)?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q73_original" name="=&gt;q73_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">145</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Hungry again, $(#brother/sister)?&lt;end&gt;</source>
-        <target state="final">Hungry again, $(#brother/sister)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q73" name="=&gt;q73">

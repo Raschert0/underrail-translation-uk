@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\pr_branwen.txt" original="dialogs\characters\pr_branwen.txt">
-    <unit id="=&gt;q1_original" name="=&gt;q1_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">1</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She ignores you.::&lt;end&gt;</source>
-        <target state="final">::She ignores you.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q1" name="=&gt;q1">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -19,16 +9,6 @@
       <segment state="translated">
         <source>::She ignores you.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q2_original" name="=&gt;q2_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">3</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::The tall female officer turns to you. She instantly strikes you as an overly masculine woman in her appearance, as her wide shoulders and angular lines testify, but demeanor as well. As a consequence of these observations, you cannot escape the feeling that she must've shattered a significant number of male egos in the past. Even her steely gaze seems to radiate a certain dominating quality that pierces through self-confidence like a falling stalactite through an unwary spelunker's head, completely destroying it.:: &lt;end&gt;</source>
-        <target state="final">::The tall female officer turns to you. She instantly strikes you as an overly masculine woman in her appearance, as her wide shoulders and angular lines testify, but demeanor as well. As a consequence of these observations, you cannot escape the feeling that she must've shattered a significant number of male egos in the past. Even her steely gaze seems to radiate a certain dominating quality that pierces through self-confidence like a falling stalactite through an unwary spelunker's head, completely destroying it.:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -41,16 +21,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q3_original" name="=&gt;q3_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">5</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -61,16 +31,6 @@
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a4_original" name="=&gt;a4_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">7</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Salute her.:: Corporal $(context.player.Name) reporting in.&lt;end&gt;</source>
-        <target state="final">::Salute her.:: Corporal $(context.player.Name) reporting in.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -79,20 +39,6 @@
       <segment state="translated">
         <source>::Salute her.:: Corporal $(context.player.Name) reporting in.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q5_original" name="=&gt;q5_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">9</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She salutes back and replies in a direct, unyielding and very official tone of voice.::
-
-At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&gt;</source>
-        <target state="final">::She salutes back and replies in a direct, unyielding and very official tone of voice.::
-
-At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -107,16 +53,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q6_original" name="=&gt;q6_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">11</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>&lt;end&gt;</source>
-        <target state="final">&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -125,16 +61,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a7_original" name="=&gt;a7_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">13</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Any changes, ma'am?&lt;end&gt;</source>
-        <target state="final">Any changes, ma'am?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -147,16 +73,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q8_original" name="=&gt;q8_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">15</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Nothing, Corporal. Inform Colonel Cathcart that he will be receive his report as soon as something worthy of reporting happens.&lt;end&gt;</source>
-        <target state="final">Nothing, Corporal. Inform Colonel Cathcart that he will be receive his report as soon as something worthy of reporting happens.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -165,16 +81,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>Nothing, Corporal. Inform Colonel Cathcart that he will be receive his report as soon as something worthy of reporting happens.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q9_original" name="=&gt;q9_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">17</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>That is all I have for you now. Send my regards to Colonel Cathcart. You are dismissed.&lt;end&gt;</source>
-        <target state="final">That is all I have for you now. Send my regards to Colonel Cathcart. You are dismissed.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -187,16 +93,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a10_original" name="=&gt;a10_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">19</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, ma'am, I will. ::Salute and leave.::&lt;end&gt;</source>
-        <target state="final">Yes, ma'am, I will. ::Salute and leave.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -205,16 +101,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>Yes, ma'am, I will. ::Salute and leave.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a11_original" name="=&gt;a11_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">21</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I am here to check on the development of the current situation, ma'am.&lt;end&gt;</source>
-        <target state="final">I am here to check on the development of the current situation, ma'am.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -227,16 +113,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q12_original" name="=&gt;q12_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">23</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Were you sent by Colonel Cathcart?&lt;end&gt;</source>
-        <target state="final">Were you sent by Colonel Cathcart?&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -245,16 +121,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>Were you sent by Colonel Cathcart?&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a13_original" name="=&gt;a13_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">25</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, he personally sent me here.&lt;end&gt;</source>
-        <target state="final">Yes, he personally sent me here.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -267,16 +133,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q14_original" name="=&gt;q14_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">27</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Then it appears he trusts you more than the report I sent only recently. In any case, the situation remains unchanged; there are still no signs of Tchortists, nor of what exactly is happening within the Institute. Gunfire and shouting could be heard on few occasions, but nothing else. The Faceless presence has yet to be confirmed.&lt;end&gt;</source>
-        <target state="final">Then it appears he trusts you more than the report I sent only recently. In any case, the situation remains unchanged; there are still no signs of Tchortists, nor of what exactly is happening within the Institute. Gunfire and shouting could be heard on few occasions, but nothing else. The Faceless presence has yet to be confirmed.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -285,16 +141,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>Then it appears he trusts you more than the report I sent only recently. In any case, the situation remains unchanged; there are still no signs of Tchortists, nor of what exactly is happening within the Institute. Gunfire and shouting could be heard on few occasions, but nothing else. The Faceless presence has yet to be confirmed.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a15_original" name="=&gt;a15_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">29</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No, no one sent me.&lt;end&gt;</source>
-        <target state="final">No, no one sent me.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -307,16 +153,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;q16_original" name="=&gt;q16_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">31</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Her gaze grows in intensity.:: Then I am under no obligation to report anything to you, Corporal. Shouldn't you be attending to some other duties instead of inquiring about matters that don't concern you? I will speak to your superiors as soon as I return to Fort Apogee. Now get out of my sight, Corporal. You are dismissed.&lt;end&gt;</source>
-        <target state="final">::Her gaze grows in intensity.:: Then I am under no obligation to report anything to you, Corporal. Shouldn't you be attending to some other duties instead of inquiring about matters that don't concern you? I will speak to your superiors as soon as I return to Fort Apogee. Now get out of my sight, Corporal. You are dismissed.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -325,16 +161,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>::Her gaze grows in intensity.:: Then I am under no obligation to report anything to you, Corporal. Shouldn't you be attending to some other duties instead of inquiring about matters that don't concern you? I will speak to your superiors as soon as I return to Fort Apogee. Now get out of my sight, Corporal. You are dismissed.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a17_original" name="=&gt;a17_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">33</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Yes, ma'am. ::Salute and leave.::&lt;end&gt;</source>
-        <target state="final">Yes, ma'am. ::Salute and leave.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -347,16 +173,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a18_original" name="=&gt;a18_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">35</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Leave.::&lt;end&gt;</source>
-        <target state="final">::Leave.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -365,16 +181,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a19_original" name="=&gt;a19_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">37</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Salute and leave.::&lt;end&gt;</source>
-        <target state="final">::Salute and leave.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -387,16 +193,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a20_original" name="=&gt;a20_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">39</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Leave.::&lt;end&gt;</source>
-        <target state="final">::Leave.::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -405,16 +201,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q21_original" name="=&gt;q21_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">41</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>You have no business here, citizen. I suggest you leave this area or I will be forced to order you removed.&lt;end&gt;</source>
-        <target state="final">You have no business here, citizen. I suggest you leave this area or I will be forced to order you removed.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -427,16 +213,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a22_original" name="=&gt;a22_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">43</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I had some questions about what is happening here.&lt;end&gt;</source>
-        <target state="final">I had some questions about what is happening here.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -445,16 +221,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>I had some questions about what is happening here.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q23_original" name="=&gt;q23_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">45</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Her piercing gaze conveys the message far better than the words that follow.:: Need I repeat myself, citizen?&lt;end&gt;</source>
-        <target state="final">::Her piercing gaze conveys the message far better than the words that follow.:: Need I repeat myself, citizen?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -467,16 +233,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a24_original" name="=&gt;a24_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">47</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>But I *really* need to know what is going on here.&lt;end&gt;</source>
-        <target state="final">But I *really* need to know what is going on here.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -485,24 +241,6 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       <segment state="translated">
         <source>But I *really* need to know what is going on here.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q25_original" name="=&gt;q25_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">49</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She interrupts you mid sentence.:: 
-
-Not a word more. *Leave.*
-
-::She turns her back to you.::&lt;end&gt;</source>
-        <target state="final">::She interrupts you mid sentence.:: 
-
-Not a word more. *Leave.*
-
-::She turns her back to you.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -519,16 +257,6 @@ Not a word more. *Leave.*
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a26_original" name="=&gt;a26_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">51</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>No one speaks to me like that, you stupid woman...&lt;end&gt;</source>
-        <target state="final">No one speaks to me like that, you stupid woman...&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -537,16 +265,6 @@ Not a word more. *Leave.*
       <segment state="translated">
         <source>No one speaks to me like that, you stupid woman...&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q27_original" name="=&gt;q27_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">53</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::She slowly turns back, her expression unchanged; but her eyes tell a different story: The gaze of steel is melting, dissipating as it turns into white heat. A single motion she makes is enough for all Protectorate soldiers to turn to you with hostile intent.::&lt;end&gt;</source>
-        <target state="final">::She slowly turns back, her expression unchanged; but her eyes tell a different story: The gaze of steel is melting, dissipating as it turns into white heat. A single motion she makes is enough for all Protectorate soldiers to turn to you with hostile intent.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -559,16 +277,6 @@ Not a word more. *Leave.*
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a28_original" name="=&gt;a28_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">55</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Fight!::&lt;end&gt;</source>
-        <target state="final">::Fight!::&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -577,16 +285,6 @@ Not a word more. *Leave.*
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a29_original" name="=&gt;a29_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">57</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>::Leave without saying anything.::&lt;end&gt;</source>
-        <target state="final">::Leave without saying anything.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -599,16 +297,6 @@ Not a word more. *Leave.*
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a30_original" name="=&gt;a30_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">59</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I guess not... I better go.&lt;end&gt;</source>
-        <target state="final">I guess not... I better go.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -617,16 +305,6 @@ Not a word more. *Leave.*
       <segment state="translated">
         <source>I guess not... I better go.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;a31_original" name="=&gt;a31_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">61</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>My business is your death, Protectorate swine! ::Attack!::&lt;end&gt;</source>
-        <target state="final">My business is your death, Protectorate swine! ::Attack!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -639,16 +317,6 @@ Not a word more. *Leave.*
         <target state="new" />
       </segment>
     </unit>
-    <unit id="=&gt;a32_original" name="=&gt;a32_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">63</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>I won't bother you anymore. Goodbye.&lt;end&gt;</source>
-        <target state="final">I won't bother you anymore. Goodbye.&lt;end&gt;</target>
-      </segment>
-    </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
@@ -657,16 +325,6 @@ Not a word more. *Leave.*
       <segment state="translated">
         <source>I won't bother you anymore. Goodbye.&lt;end&gt;</source>
         <target state="new" />
-      </segment>
-    </unit>
-    <unit id="=&gt;q33_original" name="=&gt;q33_original">
-      <mda:metadata>
-        <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">65</mda:meta>
-      </mda:metadata>
-      <segment state="reviewed">
-        <source>Corporal.&lt;end&gt;</source>
-        <target state="final">Corporal.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
