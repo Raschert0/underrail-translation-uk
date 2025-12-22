@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Restores {0} shield to the target over {1} seconds, using up {2} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} щита цілі протягом {1} секунд, використовуючи {2} енергії.</target>
       </segment>
     </unit>
     <unit id="::DogCrate" name="::DogCrate">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Attempt to capture the target inside the crate. This will only work on certain small non-hostile creatures.</source>
-        <target state="new" />
+        <target state="needs-translation">Спроба захопити ціль всередині ящика. Це працюватиме лише з певними дрібними не ворожими істотами.</target>
       </segment>
     </unit>
     <unit id="::ThrowingNet" name="::ThrowingNet">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the net at the target in an attempt to immobilize it for up to {0} (depending on the target's strength).</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте сіть на ціль, щоб спробувати знерухомити її на строк до {0} (залежно від сили цілі).</target>
       </segment>
     </unit>
     <unit id="::StoneBolas" name="::StoneBolas">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the stone bolas at the target in an attempt to deal {0} damage and immobilize them for up to {1} (depending on the target's strength). If damage is dealt the target's ribs are broken which causes them to receive additional {2}% mechanical damage from all sources. This effect lasts {3} and stacks up to {4} times. Only works on targets that actually have ribs.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте кам'яні бола на ціль, щоб завдати {0} шкоди та знерухомити її на строк до {1} (залежно від сили цілі). Якщо завдано шкоди, ребра цілі зламані, що призводить до отримання додаткових {2}% механічної шкоди від усіх джерел. Цей ефект триває {3} і складається до {4} разів. Працює лише на цілях, які насправді мають ребра.</target>
       </segment>
     </unit>
     <unit id="::BarbedThrowingNet" name="::BarbedThrowingNet">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the net at the target in an attempt to deal {0} damage and additional {1}% of the initial damage as bleeding wound. The target might also get entangled and immobilized for up to {2} (depending on the target's strength).</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте сіть на ціль, щоб завдати {0} шкоди та додаткові {1}% початкової шкоди у вигляді кровотечі. Ціль також може заплутатися та знерухомитися на строк до {2} (залежно від її сили).</target>
       </segment>
     </unit>
     <unit id="::ThrowingNet-Old" name="::ThrowingNet-Old">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the net at the target in an attempt to immobilize it for up to {0} seconds (depending on the target's strength). Effective only against target's with low strength.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте сіть на ціль, щоб знерухомити її на строк до {0} секунд (залежно від сили цілі). Ефективно лише проти цілей з низькою силою.</target>
       </segment>
     </unit>
     <unit id="::FishingRod" name="::FishingRod">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Mount a fishing rod and start fishing.</source>
-        <target state="new" />
+        <target state="needs-translation">Встановіть вудку та почніть рибалити.</target>
       </segment>
     </unit>
     <unit id="::FishingRodMountingFailed" name="::FishingRodMountingFailed">
@@ -78,7 +78,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Fishing rods can only be mounted on spots adjacent water and with enough space.</source>
-        <target state="new" />
+        <target state="needs-translation">Вудки можна встановлювати лише на місцях, прилеглих до води, з достатнім простором.</target>
       </segment>
     </unit>
     <unit id="::PersonalCloaking" name="::PersonalCloaking">
@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>While turned on, this device increases the user's stealth by {0} and evasion by {1}. Turning on the device costs {2} energy and it consumes additional {3} energy every {4} seconds.</source>
-        <target state="new" />
+        <target state="needs-translation">В увімкненому стані цей пристрій збільшує скритність користувача на {0} та ухилення на {1}. Увімкнення пристрою коштує {2} енергії та споживає додаткові {3} енергії кожні {4} секунди.</target>
       </segment>
     </unit>
     <unit id="::CloakingDevice" name="::CloakingDevice">
@@ -98,7 +98,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>A visible light deflection field generator, commonly known as stealth generator or cloaking device.</source>
-        <target state="new" />
+        <target state="needs-translation">Видимий генератор відхилення світла, зазвичай відомий як генератор скритності або пристрій маскування.</target>
       </segment>
     </unit>
     <unit id="::ThrowFlare" name="::ThrowFlare">
@@ -108,7 +108,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Lights up an area for {0} seconds and immediately reveals any stealthed targets when it lands.</source>
-        <target state="new" />
+        <target state="needs-translation">Освітлює область протягом {0} секунд і негайно виявляє будь-які цілі в режимі скритності, коли приземляється.</target>
       </segment>
     </unit>
     <unit id="::Nightvision" name="::Nightvision">
@@ -118,7 +118,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Allows you to see in the dark. Turning on the device costs {0} energy and it consumes additional {1} energy every {2} seconds.</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволяє бачити в темряві. Увімкнення пристрою коштує {0} енергії та споживає додаткові {1} енергії кожні {2} секунди.</target>
       </segment>
     </unit>
     <unit id="::Compass" name="::Compass">
@@ -128,7 +128,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>The red needle points to the north.</source>
-        <target state="new" />
+        <target state="needs-translation">Червона стрілка вказує на північ.</target>
       </segment>
     </unit>
     <unit id="::Taser" name="::Taser">
@@ -138,7 +138,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Deal {0} damage and stun the target for {1}. Works on both living targets and machines. Costs {2} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Завдає {0} шкоди та оглушує ціль на {1}. Працює як на живих цілях, так і на машинах. Коштує {2} енергії.</target>
       </segment>
     </unit>
     <unit id="::SpyUnderDoor" name="::SpyUnderDoor">
@@ -148,7 +148,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Spy on the situation on the other side of the door.</source>
-        <target state="new" />
+        <target state="needs-translation">Вигляньте на ситуацію за дверима.</target>
       </segment>
     </unit>
     <unit id="::SpyUnderDoorNightvision" name="::SpyUnderDoorNightvision">
@@ -158,7 +158,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Spy on the situation on the other side of the door. Consumes {0} energy to provide night vision.</source>
-        <target state="new" />
+        <target state="needs-translation">Вигляньте на ситуацію за дверима. Споживає {0} енергії для забезпечення нічного бачення.</target>
       </segment>
     </unit>
     <unit id="::PsiBeetleBrainPsi" name="::PsiBeetleBrainPsi">
@@ -168,7 +168,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Invoke a random psi ability on yourself or another. Consumes {0} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Активуйте випадкову психічну здатність на собі або іншому. Споживає {0} енергії.</target>
       </segment>
     </unit>
     <unit id="::RefuelFireplace" name="::RefuelFireplace">
@@ -178,7 +178,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Refuel a fireplace.</source>
-        <target state="new" />
+        <target state="needs-translation">Додайте паливо в камін.</target>
       </segment>
     </unit>
     <unit id="::EtherealTorchAttack" name="::EtherealTorchAttack">
@@ -188,7 +188,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Launches a ball of light at the designated area. Everyone caught in the blast takes {0} damage. This attack bypasses {1}% of target's damage resistance and threshold. Precision is dependent on the invoker's will and level.</source>
-        <target state="new" />
+        <target state="needs-translation">Запускає кулю світла в призначену область. Всі, хто потрапить у вибух, отримають {0} шкоди. Ця атака обходить {1}% стійкості та порогу шкоди цілі. Точність залежить від волі та рівня заклинателя.</target>
       </segment>
     </unit>
     <unit id="::Vanish" name="::Vanish">
@@ -198,7 +198,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Immediately enter stealth, disappearing from everyone's sight, and convert all remaining action points into movement points.</source>
-        <target state="new" />
+        <target state="needs-translation">Негайно перейдіть у режим скритності, зникнувши з поля зору всіх, і перетворіть усі залишки очок дії на очки руху.</target>
       </segment>
     </unit>
     <unit id="::ScrambleCortex" name="::ScrambleCortex">
@@ -208,7 +208,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Attempt to scramble the AI cortex of a robot, causing it to turn hostile towards all and attack a random target for up to {1}. It will also occasionally retreat from the target in confusion. Chance to succeed in scrambling is dependent on the user's hacking skill. For the purpose of scrambling the hacking skill is increased by {0} points due to the quality of this device. Costs {2} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Спробуйте перевантажити AI-кортекс робота, змусивши його стати ворожим до всіх і атакувати випадкову ціль до {1}. Він також час від часу відступатиме від цілі в розгубленому стані. Ймовірність успіху залежить від навичок злому користувача. Для перевантаження навички злому збільшуються на {0} балів завдяки якості цього пристрою. Коштує {2} енергії.</target>
       </segment>
     </unit>
     <unit id="::ElectricTorchAura" name="::ElectricTorchAura">
@@ -218,7 +218,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>When activated it will immediately drain {0} energy and additional {1} every turn to provide light in radius of {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">В увімкненому стані він негайно витратить {0} енергії та додаткові {1} щоразу, щоб забезпечити освітлення в радіусі {2}.</target>
       </segment>
     </unit>
     <unit id="::RegularThrowAcidVial" name="::RegularThrowAcidVial">
@@ -228,7 +228,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the vial at the target, bypassing its energy shield and dealing {0} damage if it lands.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте флакон на ціль, обходячи її енергетичний щит і завдаючи {0} шкоди, якщо він влучить.</target>
       </segment>
     </unit>
     <unit id="::ThrowCorrosiveAcidVial" name="::ThrowCorrosiveAcidVial">
@@ -238,7 +238,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the vial at the target, bypassing its energy shield and dealing {0} damage if it lands, and also applying {1} stacks of Corroded debuff which reduces all damage resistances and thresholds by {2}% per stack for {3}. Stacks {4} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте флакон на ціль, обходячи її енергетичний щит і завдаючи {0} шкоди, якщо він влучить, а також застосувавши {1} стеків дебафу Corroded, який зменшує всю стійкість до шкоди та поріг на {2}% за стек протягом {3}. Складається до {4} разів.</target>
       </segment>
     </unit>
     <unit id="::ThrowRustingAcidVial" name="::ThrowRustingAcidVial">
@@ -248,7 +248,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the vial at the target, bypassing its energy shield and dealing {0} damage if it lands, and also applying {1} stacks of Rusting debuff which reduces durability of all mechanical items in target's possession by {2} per stack each turn for {3}. Stacks {4} times. Acid damage is increased by {5}% against vehicles and machines.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте флакон на ціль, обходячи її енергетичний щит і завдаючи {0} шкоди, якщо він влучить, а також застосувавши {1} стеків дебафу Rusting, який зменшує довговічність усіх механічних предметів у володінні цілі на {2} за стек щоразу протягом {3}. Складається до {4} разів. Шкода кислотою збільшується на {5}% проти транспортних засобів і машин.</target>
       </segment>
     </unit>
     <unit id="::UseSuicideBomberBelt" name="::UseSuicideBomberBelt">
@@ -258,7 +258,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Instantly activate one of each grenade in your belt.</source>
-        <target state="new" />
+        <target state="needs-translation">Негайно активуйте всі гранати у вашому поясі.</target>
       </segment>
     </unit>
     <unit id="::Exsurge" name="::Exsurge">
@@ -268,7 +268,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Instantly removes incapacitation and mental breakdown effects from the user. Can be activated when under these effects as well, but being chilled or frozen will disable this ability.</source>
-        <target state="new" />
+        <target state="needs-translation">Негайно зніміть ефекти знерухомлення та психічного зриву з користувача. Можна активувати, перебуваючи під цими ефектами, але охолодження або заморожування вимкне цю здатність.</target>
       </segment>
     </unit>
     <unit id="::HeadTrapAttack" name="::HeadTrapAttack">
@@ -278,7 +278,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Perform a melee touch attack that places a sadistic head trap onto a humanoid target which will deal {0} damage over {1} which ignores damage resistance, reduce their perception by {2} and panic the victim for up to {3}. The head trap can later be found in their possession.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте ближній бій, який розмістить садистичну пастку для голови на гуманоїдній цілі, яка завдасть {0} шкоди протягом {1}, ігноруючи стійкість до шкоди, зменшить їхню увагу на {2} і запанікує жертву до {3}. Пастку для голови пізніше можна знайти у їхньому володінні.</target>
       </segment>
     </unit>
     <unit id="::RemoteScanCallOverload" name="::RemoteScanCallOverload">
@@ -288,7 +288,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Remotely overload the camera's scanning AI, increasing the effective scanning time by {0}% (increases with hacking skill), which makes the camera slower to find and report intruders.</source>
-        <target state="new" />
+        <target state="needs-translation">Віддалено перевантажте AI-сканер камери, збільшивши ефективний час сканування на {0}% (збільшується з навичками злому), що робить камеру повільнішою у виявленні та повідомленні про зловмисників.</target>
       </segment>
     </unit>
     <unit id="::JumpstarterBoost" name="::JumpstarterBoost">
@@ -298,7 +298,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Grants {0} extra burst rounds to this weapon for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Надає {0} додаткових черг цьому зброї на {1}.</target>
       </segment>
     </unit>
     <unit id="::WildPsionicInnervation" name="::WildPsionicInnervation">
@@ -308,7 +308,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Increases skill by {0}, critical chance by {1} and critical damage bonus by {2}, while reducing psi point cost by {3} for either Psychokinesis or Metathermics randomly. All other non-boosted psi school have their psi point cost increased by {4}. Lasts {5} turns. Consumes {6} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує навичку на {0}, шанс критичного удару на {1} і бонус критичної шкоди на {2}, одночасно зменшуючи вартість психічних очок на {3} для психокінезу або мететермії випадковим чином. Усі інші непідсилені психічні школи збільшують вартість психічних очок на {4}. Триває {5} ходів. Споживає {6} енергії.</target>
       </segment>
     </unit>
   </file>
