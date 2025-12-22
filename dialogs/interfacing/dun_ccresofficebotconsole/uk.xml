@@ -10,7 +10,9 @@
         <source>::Before you is a quite unusual console. Its display only shows a field for current sequence and for the inputs. The console consists of only four buttons labeled: L, S, submit sequence and clear. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перед тобою досить незвичайна консоль. Її дисплей показує лише поле для поточної послідовності та вхідних даних. Консоль складається лише з чотирьох кнопок з позначеннями: L, S, подати послідовність і очистити.::&lt;end&gt;
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -22,7 +24,9 @@
         <source>::You assume that L would stand for something long or large, and S would stand for short or small.::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ти припускаєш, що L означатиме щось довге або велике, а S - коротке або мале.::&lt;end&gt;
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -32,7 +36,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -42,7 +46,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Current sequence: $(context.loc_dun_ccResOffice_currentSequence)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поточна послідовність: $(context.loc_dun_ccResOffice_currentSequence)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -52,7 +56,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Press L button.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Натисніть кнопку L.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -62,7 +66,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Press S button.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Натисніть кнопку S.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -72,7 +76,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Submit sequence.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Подати послідовність.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -82,7 +86,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Mismatched sequence, please try again.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Неправильна послідовність, спробуйте ще раз.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -94,7 +98,9 @@
         <source>::Letters L and S, may stand you for something that is long or large, and short or small, respectively.::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Літери L і S можуть означати щось довге або велике, і коротке або мале відповідно.::&lt;end&gt;
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -106,7 +112,9 @@
         <source>::Sequence matched, granting access to main storage room.::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Послідовність збігається, надається доступ до головного складського приміщення.::&lt;end&gt;
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -116,7 +124,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Come back in two weeks and/or contact the console administrator for further use.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поверніться через два тижні та/або зверніться до адміністратора консолі для подальшого використання.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -126,7 +134,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -136,7 +144,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Clear.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Все чисто.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -146,7 +154,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -28,7 +28,27 @@
         At the tail - back the hopper to finish second only
         Slow show - back the hopper to finish third only
         In the coins - back the hopper to finish either first or second; first place means full payment, second place is reduced payment::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо до *Хопердрому*, місця для всіх ваших потреб у перегонах на хоперах!
+
+*Третій Південний Андеррейл Хоп-офф - події останнього дня*:
+        - Жонглювання мотлохом від Пентапуса Тома
+        - Конкурс з пиття пива
+        - *Фінал Хоп-офф - гонка на 10 кіл*
+        - Музична програма: The Traveling Septaphonists, Metal Fatigue, 10011001
+*Хопери*:
+        $(interfacing_xpbl_hopperRacing_hopper1info)
+        ------------------------------------------------------------------
+        $(interfacing_xpbl_hopperRacing_hopper2info)
+        ------------------------------------------------------------------
+        $(interfacing_xpbl_hopperRacing_hopper3info)
+        ------------------------------------------------------------------
+        $(interfacing_xpbl_hopperRacing_hopper4info)
+        ------------------------------------------------------------------
+*Типи ставок*:
+        На носі - підтримайте хопера лише для фінішу першим
+        У хвості - підтримайте хопера лише для фінішу другим
+        Повільне шоу - підтримайте хопера лише для фінішу третім
+        В монетах - підтримайте хопера для фінішу першим або другим; перше місце означає повну виплату, друге місце - зменшену виплату::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -38,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Flip the leaflet.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перегорніть листівку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -61,7 +81,20 @@ $(interfacing_xpbl_hopperRacing_hopper3quotas)
 -------------------------------------------------
 $(interfacing_xpbl_hopperRacing_hopper4quotas)
 -------------------------------------------------::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::*Як працюють ставки з фіксованим коефіцієнтом*: Тут, у Хопердромі, ми використовуємо десяткові коефіцієнти. Цей тип коефіцієнтів враховує, що гравець спочатку повинен розлучитися зі своєю частиною ставки, щоб зробити ставку. Тому десяткові коефіцієнти результату еквівалентні одиниці плюс десяткове значення дробових коефіцієнтів.
+Приклад: Ставка з коефіцієнтом 1.01 означає, що за кожні 100 харонів гравець заробляє один харон, або 1% від ставки.
+
+Нижче наведено список коефіцієнтів для кожного хопера, впорядкований за типами ставок (на носі, у хвості, повільне шоу та в монетах, відповідно).
+
+-------------------------------------------------
+$(interfacing_xpbl_hopperRacing_hopper1quotas)
+-------------------------------------------------
+$(interfacing_xpbl_hopperRacing_hopper2quotas)
+-------------------------------------------------
+$(interfacing_xpbl_hopperRacing_hopper3quotas)
+-------------------------------------------------
+$(interfacing_xpbl_hopperRacing_hopper4quotas)
+-------------------------------------------------::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -71,7 +104,7 @@ $(interfacing_xpbl_hopperRacing_hopper4quotas)
       </mda:metadata>
       <segment state="translated">
         <source>::Flip the leaflet.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перегорнути листівку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -81,7 +114,7 @@ $(interfacing_xpbl_hopperRacing_hopper4quotas)
       </mda:metadata>
       <segment state="translated">
         <source>::Put it away.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Прибирає це.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

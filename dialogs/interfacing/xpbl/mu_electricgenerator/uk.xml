@@ -12,7 +12,11 @@
 Hydrothermal generator output: &lt;2MW
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO LPSU-I4-LC387
+
+Вихід гідротермального генератора: &lt;2MW
+
+:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -26,7 +30,11 @@ Hydrothermal generator output: &lt;2MW
                 Unit 2 - Off
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід потужності підстанції:
+                Блок 1 - Увімк. (1 МВт)
+                Блок 2 - Вимк.
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -38,7 +46,9 @@ Hydrothermal generator output: &lt;2MW
         <source>::Total output: 1.5 MW
 
 Power routing protocol: Auto::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Загальний вихід: 1.5 МВт
+
+Протокол маршрутизації живлення: Автоматичний::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -48,7 +58,7 @@ Power routing protocol: Auto::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -58,7 +68,7 @@ Power routing protocol: Auto::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Electronics] Attempt to boost this unit's power output.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Електроніка] Спробуйте збільшити потужність цього блоку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -68,7 +78,7 @@ Power routing protocol: Auto::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::You see a single panel at the front of the unit you can open, as the outer casing is made of actual stone and cannot possibly be handled by a single person. You open the panel and inspect what is inside.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви бачите єдину панель спереду блоку, яку можна відкрити, оскільки зовнішня оболонка зроблена зі справжнього каменю і не може бути оброблена однією людиною. Ви відкриваєте панель і оглядаєте те, що всередині.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -80,7 +90,9 @@ Power routing protocol: Auto::&lt;end&gt;</source>
         <source>::There is no way for you to reach the generator core, as that would require the casing to be removed, but despite that you soon figure out a way to get more power out of this unit - by cannibalizing the unit next to it for replacement parts. You turn the power off so that you may work safely; the lights turn dim, but even in semi-darkness you are able to accomplish your task. 
 
 You immediately feel the extra power after turning the unit back on.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Немає способу дістатися до ядра генератора, оскільки для цього потрібно зняти корпус, але, незважаючи на це, ви незабаром знаходите спосіб отримати більше енергії від цього блоку - шляхом канiбалiзацiї сусіднього блоку для запчастин. Ви вимикаєте живлення, щоб безпечно працювати; світло тьмяніє, але навіть у напівтемряві ви можете виконати завдання.
+
+Ви відразу відчуваєте додаткову потужність після ввімкнення блоку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -90,7 +102,7 @@ You immediately feel the extra power after turning the unit back on.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::There is not much you can do here, unfortunately, for what you see before you is a puzzle far too complex for you to solve and far too dangerous to even try. You close the front panel and wipe the grime off your hands.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::На жаль, тут ви мало що можете зробити, оскільки перед вами головоломка, яка занадто складна для вас, і занадто небезпечна, щоб навіть спробувати її вирішити. Ви закриваєте передню панель і витираєте бруд з рук.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -100,7 +112,7 @@ You immediately feel the extra power after turning the unit back on.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Leave::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Покинути::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -114,7 +126,11 @@ You immediately feel the extra power after turning the unit back on.::&lt;end&gt
                  Unit 2 - Off
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід потужності підстанції:
+                 Блок 1 - Увімк. (320 кВт пікова потужність)
+                 Блок 2 - Вимк.
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -126,7 +142,9 @@ You immediately feel the extra power after turning the unit back on.::&lt;end&gt
         <source>::Total output: &lt;1MW
 
 Power routing protocol: Auto::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Загальний вихід: &lt;1 МВт
+
+Протокол маршрутизації живлення: Автоматичний::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

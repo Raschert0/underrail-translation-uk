@@ -14,7 +14,13 @@ This unit is a working prototype and as such might exhibit errors during operati
 Please select the item you want to synthesize. The percentage of total MedSynth chemical content required for synthesis is displayed next to each item.
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO L-MSU-P4 – Блок синтезу ліків
+
+Цей блок є робочим прототипом і, як такий, може демонструвати помилки під час роботи. Звертайтеся до nexus.medtech.medsynth для повідомлення про проблеми та пропозиції.
+
+Будь ласка, виберіть предмет, який ви хочете синтезувати. Відсоток загального вмісту хімічних речовин MedSynth, необхідного для синтезу, відображається поруч із кожним предметом.
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -24,7 +30,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -34,7 +40,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>::MSCC gauge level: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рівень датчика MSCC: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -44,7 +50,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>:: - Please replace the MedSynth chemical canister.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">:: - Будь ласка, замініть хімічний контейнер MedSynth.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -54,7 +60,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -64,7 +70,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize antidote (-5%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати антидот (-5%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -78,7 +84,9 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
 Synthesizing...
  
 Synthesis successful. Please collect your item from the deposit tray.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Готуємо контейнер... Готово.
+
+Синтез успішний. Будь ласка, заберіть свій предмет з лотка для відкладень.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -88,7 +96,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize health hypo (-5%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати гіпо з ліками (-5%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -98,7 +106,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize advanced health hypo (-10%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати покращений гіпо з ліками (-10%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -108,7 +116,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize morphine shot (-10%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати ін'єкцію морфіну (-10%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -118,7 +126,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize adrenaline shot (-10%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати ін'єкцію адреналіну (-10%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -128,7 +136,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize psi booster (-5%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати психічний бустер (-5%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -138,7 +146,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize desaturated psionic inhalant (-5%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати десатурований психічний інгалятор (-5%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -148,7 +156,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize irongut (-15%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати залізоживіт (-15%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -158,7 +166,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize coagulation shot (-15%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати ін'єкцію коагуляції (-15%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -168,7 +176,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Other medication::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Інші ліки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -178,7 +186,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesis of these types of medication is currently disabled. Check work log for more information.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтез цих типів ліків наразі вимкнено. Перевірте журнал роботи для отримання додаткової інформації.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -188,7 +196,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Enable synthesis of more medication types::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злом] Увімкнути синтез більшої кількості типів ліків::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -198,7 +206,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Please wait...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, зачекайте...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -208,7 +216,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -220,7 +228,9 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <source>::Warning: Synthesis of these types of medication hasn't been fully tested and could result in malsynthesized substances or even complete synthesis failures!
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага: Синтез цих типів ліків не був повністю протестований і може призвести до неправильно синтезованих речовин або навіть до повної невдачі синтезу!
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -230,7 +240,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::MSCC gauge level: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рівень заряду контейнера МСУ: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge) %::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -240,7 +250,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>:: - Please replace the canister.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">:: - Будь ласка, замініть контейнер.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -250,7 +260,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -260,7 +270,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize focus stim (-15%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати стимулятор концентрації (-15%):: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -274,7 +284,11 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
 Synthesizing...
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підготовка контейнера... Готово.
+
+Синтезування...
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -284,7 +298,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -298,7 +312,11 @@ Synthesizing...
 Disposing of waste product...
 
 Waste disposal successful.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтез невдалий!
+
+Утилізація відходів...
+
+Утилізація відходів успішна.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -310,7 +328,9 @@ Waste disposal successful.::&lt;end&gt;</source>
         <source>::Synthesis data has been logged for evaluation.
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дані синтезу збережено для оцінки.
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -320,7 +340,7 @@ Waste disposal successful.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -330,7 +350,7 @@ Waste disposal successful.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesis successful. Please collect your item from the deposit tray.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтез успішний. Будь ласка, заберіть предмет з лотка для видачі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -340,7 +360,7 @@ Waste disposal successful.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize super health hypo (-15%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати супер-гіпо для здоров'я (-15%):: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -354,7 +374,11 @@ Waste disposal successful.::&lt;end&gt;</source>
 Synthesizing...
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підготовка контейнера... Готово.
+
+Синтезування...
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -364,7 +388,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -374,7 +398,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -384,7 +408,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize supersoldier drug (-25%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати наркотик суперсолдата (-25%):: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -398,7 +422,11 @@ Synthesizing...
 Synthesizing...
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підготовка контейнера... Готово.
+
+Синтезування...
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -408,7 +436,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -418,7 +446,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -428,7 +456,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize psi reinvigorator (-30%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати відновлювач пси-енергії (-30%):: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -442,7 +470,11 @@ Synthesizing...
 Synthesizing...
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підготовка контейнера... Готово.
+
+Синтезування...
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -452,7 +484,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -462,7 +494,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -472,7 +504,7 @@ Synthesizing...
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -484,7 +516,9 @@ Synthesizing...
         <source>::Unknown error! 
 
 Rebooting...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Невідома помилка!
+
+Перезавантаження...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -494,7 +528,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize focus stim (-15%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати стимулятор концентрації (-15%):: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -504,7 +538,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize super health hypo (-15%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати супер-гіпо для здоров'я (-15%):: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -514,7 +548,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize supersoldier drug (-25%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати наркотик суперсолдата (-25%):: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -524,7 +558,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize psi reinvigorator (-30%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати відновлювач пси-енергії (-30%):: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -534,7 +568,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вийти::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

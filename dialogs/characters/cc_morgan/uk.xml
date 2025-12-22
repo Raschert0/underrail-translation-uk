@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye, $(#Mister/Miss) $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення, $(#Mister/Miss) $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Well, here we are. This is the entrance hallway, which you have already seen as evidenced by your earlier comment...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну от і все. Це вхідний хол, який ви вже бачили, судячи з вашого попереднього коментаря...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Indeed, but I'm more interested in you explaining the existence of this large pile of debris which implies that the rest of my residence is in similar condition.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дійсно, але мене більше цікавить ваше пояснення існування цієї великої купи уламків, що свідчить про те, що решта моєї оселі в подібному стані.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Do not be concerned with it - it will be taken care of on city's expense. Please, allow me to explain the whole situation to you before you jump to conclusions...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не хвилюйтеся з цього приводу - місто про це подбає. Будь ласка, дозвольте мені пояснити вам всю ситуацію, перш ніж ви робитимете висновки...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Structurally speaking, the building is in excellent condition; what you see here is only the product of an unfortunate accident caused by the previous owner, Mister Hank Wardell, an aging Northerner with too much time on his hands.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Структурно будівля в чудовому стані; те, що ви бачите тут, є лише наслідком нещасного випадку, спричиненого попереднім власником, містером Генком Уорделлом, літнім північником, якому було занадто багато вільного часу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>What did he do, make explosives?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що він зробив, виготовляв вибухівку?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +80,9 @@
         <source>You can say that; at least, he *was* successful in creating an explosion powerful enough to demolish the whole residence - if you can call that a success. Mister Wardell had a laboratory set up inside and apparently had an interest in, ehm, experimenting with highly volatile substances for reasons unknown to anyone but him. The results were his premature death, of course, and the severe damaging of the building, as you can see. 
 
 Now, considering that he had lived alone and had no known heirs, this building became city property after his unfortunate demise. Now it is being handed over to you, $(#Mister/Miss) $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можна сказати так; принаймні, йому *вдалося* створити вибух, достатньо потужний, щоб зруйнувати всю оселю - якщо ви вважаєте це успіхом. Містер Уорделл мав лабораторію всередині і, очевидно, цікавився, е-е, експериментами з високолетючими речовинами з причин, невідомих нікому, крім нього. Результатом стала його передчасна смерть, звісно, і серйозне пошкодження будівлі, як ви бачите.
+
+Тепер, враховуючи, що він жив сам і не мав відомих спадкоємців, ця будівля стала власністю міста після його нещасної смерті. Тепер вона передається вам, $(#Mister/Miss) $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Now we move to the part that interests you the most, I presume: The renovation of the ground floor will be paid for by the city; you just need to visit Core City Housing Company office so that we can take care of that for you; the floor above and the floor below, however, will have to be funded from your own pocket, I'm afraid. Still, considering that you were gifted a very spacious residence in the most prestigious part of Core City, I believe the deal is indeed fair!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер перейдемо до частини, яка вас найбільше цікавить, я припускаю: місто оплатить ремонт першого поверху; вам просто потрібно відвідати офіс Core City Housing Company, щоб ми могли подбати про це для вас; поверх вище та поверх нижче, однак, доведеться фінансувати з власної кишені, боюся. Все ж, враховуючи, що вам подарували простору оселю в найпрестижнішому районі Core City, я вважаю, що угода справді справедлива!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Interesting. Anyway, what can you tell me about the house layout before handing me my keys?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цікаво. У будь-якому випадку, що ви можете мені розповісти про планування будинку, перш ніж вручати мені ключі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -110,7 +112,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Yes, well, the house, as I already mentioned, has three floors: The ground floor is where the living room, kitchen, dining room as well as several other small rooms are located; the second floor has the main bedroom, gym, work room and a lovely balcony overlooking the entrance to the house.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, ну, будинок, як я вже згадував, має три поверхи: на першому поверсі розташовані вітальня, кухня, їдальня, а також кілька інших невеликих кімнат; на другому поверсі - головна спальня, спортзал, робоча кімната та чудовий балкон з видом на вхід до будинку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>And finally, the basement level provides several rooms which can be arranged to your liking. Perhaps making a workshop if you are the... crafty type, if I am to express myself in that manner. Just please, do not demolish the house like your predecessor did.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І, нарешті, підвальний поверх надає кілька кімнат, які можна облаштувати на ваш розсуд. Можливо, зробити майстерню, якщо ви людина... творча, якщо я можу так висловитися. Просто, будь ласка, не руйнуйте будинок, як це зробив ваш попередник.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -130,7 +132,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>I see. Can I have the keys now?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. Чи можу я отримати ключі зараз?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -140,7 +142,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>But of course. Here is your key. ::He hands you the residence key.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно. Ось ваш ключ. ::Він вручає вам ключ від оселі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>There is nothing else for me to say but - goodbye!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Більше мені нічого не залишається сказати, крім - до побачення!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -170,7 +172,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>::End Dialog.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кінець діалогу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -180,7 +182,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Do you have any further questions before we depart?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У вас є ще якісь запитання, перш ніж ми розійдемося?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -190,7 +192,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -200,7 +202,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Where can I find Core City Housing Corporation?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де я можу знайти Core City Housing Corporation?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -210,7 +212,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Our office is conveniently located just across the street from here; it is very difficult to miss. You've probably seen the furniture section from outside, that is the building. Now, our company offers numerous housing-related services you'll need in order to revert your residence back to its full glory.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наш офіс зручно розташований прямо через дорогу звідси; його дуже важко пропустити. Ви, ймовірно, бачили меблевий відділ ззовні, це та будівля. Тепер наша компанія пропонує численні житлові послуги, які вам знадобляться, щоб повернути вашій оселі колишню славу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -220,7 +222,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Is that all the questions you had, $(#Mister/Miss) $(context.player.Name)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все запитання, які у вас були, $(#Mister/Miss) $(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -230,7 +232,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the neighborhood?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про район?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -240,7 +242,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Your residence is situated in Core City's major residential district, and therefore one can expect much higher living conditions than anywhere else: low crime rates, availability and proximity of goods and services providers, high level sanitation... need I go on. The bottom line is - you have nothing to worry about.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша оселя розташована в головному житловому районі Core City, і тому можна очікувати набагато кращих умов проживання, ніж будь-де інше: низький рівень злочинності, доступність і близькість постачальників товарів і послуг, високий рівень санітарії... чи потрібно мені продовжувати. Підсумок такий - вам нема про що турбуватися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -250,7 +252,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Of course, with the Faceless at our doorstep, nothing is certain anymore. But thankfully our brave defenders will keep us safe from that menace.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, з Безликими біля наших воріт нічого не є певним. Але, на щастя, наші хоробрі захисники захистять нас від цієї загрози.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -260,7 +262,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Still, recently there have been a few minor reports of, ehm, zoners disturbing public order. I suppose the stand-off with the Faceless allowed for such things to happen. So keep that in mind, but don't concern yourself with it too much.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все ж, останнім часом надходить кілька незначних повідомлень про, е-е, зонерів, які порушують громадський порядок. Я припускаю, що протистояння з Безликими дозволило це статися. Тому майте це на увазі, але не надто переймайтеся цим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -270,7 +272,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>What else can you tell me about the previous owner, other than he demolished the whole place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ще ви можете мені розповісти про попереднього власника, окрім того, що він зруйнував все?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -280,7 +282,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>I'm afraid I can't reveal any more of his personal details.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Боюся, я не можу розкрити жодних подробиць його особистого життя.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -290,7 +292,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Any other questions?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи є ще якісь питання?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -300,7 +302,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>Why won't the city pay for the whole renovation?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому місто не оплатить весь ремонт?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -310,7 +312,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>While I, unfortunately, don't have an answer to that question, I feel the need to remind you of one thing: You have been given this residence completely free; you suffered no expenses for the property, nor the documentation, nor anything else, and while it is true that it is... mmm, not in the best condition at the moment, it is one of the largest and most prestigious residences in the district, which is also one of the most desirable living location not just in Core City - but in whole South Underrail.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, я не маю відповіді на це питання, але я відчуваю потребу нагадати вам про одне: вам було надано цю оселю абсолютно безкоштовно; ви не несли жодних витрат на нерухомість, ані на документацію, ані на щось інше, і хоча це правда, що вона... м-м, не в найкращому стані на даний момент, це одна з найбільших і найпрестижніших осель у районі, який також є одним з найбільш бажаних місць для проживання не тільки в Core City - але й у всьому South Underrail.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -320,7 +322,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>I'm sure there were good reasons for the partial renovation. Now, did you have any other questions for me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я впевнений, що були вагомі причини для часткового ремонту. Тепер, чи є у вас ще якісь запитання до мене?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -330,7 +332,7 @@ Now, considering that he had lived alone and had no known heirs, this building b
       </mda:metadata>
       <segment state="translated">
         <source>I have no more questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене більше немає питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -342,7 +344,9 @@ Now, considering that he had lived alone and had no known heirs, this building b
         <source>Ah, well in that case, I bid you farewell, $(#Mister/Miss) $(context.player.Name). Trust me, after a bit of tiding up, your residence will look as good as new. And don't forget - Core City Housing Corporation's office is just across the street. 
 
 Enjoy your new home.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах, ну тоді я прощаюся з вами, $(#Mister/Miss) $(context.player.Name). Довіртеся мені, після невеликого прибирання ваша оселя виглядатиме як нова. І не забудьте - офіс Core City Housing Corporation знаходиться прямо через дорогу.
+
+Насолоджуйтесь своїм новим домом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -352,7 +356,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I knew there was some catch! Just gimme the damn keys and get out of my house.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я знав, що тут є якийсь підвох! Просто дайте мені ключі і вийдіть з мого будинку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -362,7 +366,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He frowns.:: I've never seen such ungratefulness. Here is your key, $(#Mister/Miss) $(context.player.Name). ::He hands you the residence key.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він насуплюється.:: Я ніколи не бачив такої невдячності. Ось ваш ключ, $(#Mister/Miss) $(context.player.Name). ::Він вручає вам ключ від оселі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -372,7 +376,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Care to explain the debris blocking the entrance?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поясніть, що за уламки блокують вхід?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -382,7 +386,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What the bloody hell...?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що до біса...?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -392,7 +396,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Please, while I do understand the reasoning behind your frustration, I must firmly ask you to calm down and watch your tone. It is not how it seems, so let's not jump to conclusions here. Allow me to explain everything to you now...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, хоча я розумію причини вашого розчарування, я мушу настійно попросити вас заспокоїтися і стежити за тоном. Все не так, як здається, тому не робіть поспішних висновків. Дозвольте мені зараз все вам пояснити...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -402,7 +406,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Stop being such a smartass and tell me why does my house look like it was used as an explosive test site!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Перестаньте бути таким розумником і скажіть мені, чому мій будинок виглядає так, ніби його використовували як полігон для випробувань вибухівки!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -412,7 +416,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well, here we are now. First off, this is the entrance hallway...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну от і все. По-перше, це вхідний хол...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -422,7 +426,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What is the meaning of this!? Why is my house in ruins?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що це означає!? Чому мій будинок в руїнах?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -432,7 +436,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You expect me to live in this dump? I can't even get past the stinking rubble and see the rest of the house. I want answers - NOW!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви очікуєте, що я житиму в цій руїні? Я навіть не можу пройти через смердючі уламки і побачити решту будинку. Мені потрібні відповіді - ЗАРАЗ!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -442,7 +446,7 @@ Enjoy your new home.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Follow me, please.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Слідуйте за мною, будь ласка.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -454,7 +458,9 @@ Enjoy your new home.&lt;end&gt;</source>
         <source>::Well-dressed and clean shaved, this elegant-looking man switches the suitcase he's carrying from his right to his left hand and moves to shake yours, doing so with a firm grip.::
 
 $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My name is Samuel Morgan, and I work for the Core City Housing Corporation as a real estate agent. As you were already informed, I am here to introduce you to your new residence, present you with the keys and answer any questions you might have.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Одягнений з голочки та чисто поголений, цей елегантний чоловік перекладає валізу, яку він несе, з правої руки в ліву і простягає руку для рукостискання, роблячи це впевненим рухом.::
+
+$(#Mister/Miss) $(context.player.Name), я радий, що ви нарешті прибули. Мене звати Самуель Морган, і я працюю в Core City Housing Corporation як агент з нерухомості. Як вам вже повідомляли, я тут, щоб познайомити вас з вашою новою оселею, вручити вам ключі та відповісти на будь-які ваші запитання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -464,7 +470,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>I can't wait to see it, Mister Morgan.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не можу дочекатися, щоб побачити її, містере Морган.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -474,7 +480,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>Yes, your enthusiasm is perfectly understandable, and in that case, I suggest we go inside and continue the conversation there. Follow me, $(#Mister/Miss) $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, ваш ентузіазм цілком зрозумілий, і в такому випадку я пропоную нам зайти всередину і продовжити розмову там. Слідуйте за мною, $(#Mister/Miss) $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -484,7 +490,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -494,7 +500,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>I'm right behind you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я одразу за вами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -504,7 +510,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>I gotta do something first. I'll be back quickly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені спочатку потрібно щось зробити. Я швидко повернуся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -514,7 +520,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>Now? But... Alright, I'll wait here, but please do hurry up.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зараз? Але... Гаразд, я почекаю тут, але, будь ласка, покваптеся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -524,7 +530,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>Can we skip the chatter and move on to business?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можемо ми пропустити балачки і перейти до справи?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -534,7 +540,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>Um, yes, I see you are in a bit of a rush. Follow me, I will lead you inside.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ем, так, я бачу, що ви трохи поспішаєте. Слідуйте за мною, я проведу вас всередину.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -544,7 +550,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>Whoa, please tell me that this large building is my new house!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вау, будь ласка, скажіть мені, що ця велика будівля - мій новий дім!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -554,7 +560,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>Why, yes it is! Living in such an enormous space is quite a privilege, I must admit. Since I am certain that you cannot wait to see it from the inside, I suggest we move inside and continue the conversation there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, це так! Жити в такому величезному просторі - справжня привілей, мушу визнати. Оскільки я впевнений, що ви не можете дочекатися, щоб побачити його зсередини, я пропоную нам зайти всередину і продовжити розмову там.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -564,7 +570,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>I already took a peek to see what's inside.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вже зазирнув, щоб подивитися, що всередині.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -574,7 +580,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>You... did? But how on earth did you manage to do that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти... зробив? Але як на землі тобі це вдалося?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -584,7 +590,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>A master never reveals his secrets.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Майстер ніколи не розкриває своїх секретів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -594,7 +600,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>::Your answer seems to confuse him even more.:: I don't know what to say to that... I think it would be wisest if we were to go inside and continue the conversation there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Твоя відповідь ще більше збиває його з пантелику.:: Я не знаю, що на це сказати... Я думаю, було б мудріше, якби ми зайшли всередину і продовжили розмову там.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -604,7 +610,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>I'm a clever $(#man/gal).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я кмітливий $(#чоловік/дівчина).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -614,7 +620,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>Are you ready to see your new home, $(#Mister/Miss) $(context.player.Name)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви готові побачити свій новий дім, $(#Мister/Міс) $(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -624,7 +630,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>Just one more thing. Be patient.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Лише одне ще. Будь терплячим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -634,7 +640,7 @@ $(#Mister/Miss) $(context.player.Name), I'm glad you have finally arrived. My na
       </mda:metadata>
       <segment state="translated">
         <source>::He says nothing, but a grumpy stare conveys his thoughts well enough.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він нічого не каже, але похмурий погляд добре передає його думки.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

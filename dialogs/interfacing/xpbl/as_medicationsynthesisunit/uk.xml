@@ -12,7 +12,11 @@
 Please select the item you want to synthesize. The percentage of total MedSynth chemical content required for synthesis is displayed next to each item.
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO L-MSU - Блок синтезу ліків
+
+Будь ласка, виберіть предмет, який ви хочете синтезувати. Відсоток загального вмісту хімічних речовин MedSynth, необхідного для синтезу, відображається поруч із кожним предметом.
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -22,7 +26,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;кінець&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -32,7 +36,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>::MSCC gauge level: $(context.loc_xpbl_as_medicationSynthesisCanisterCharge)%::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рівень датчика MSCC: $(context.loc_xpbl_as_medicationSynthesisCanisterCharge)%::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -42,7 +46,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>:: - Please replace the MedSynth chemical canister.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">:: - Будь ласка, замініть хімічний балон MedSynth.::кінець</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -52,7 +56,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;кінець&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -62,7 +66,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize advanced health hypo (-10%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати шприц з покращеним здоров'ям (-10%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -76,7 +80,11 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
 Synthesizing...
  
 Synthesis successful. Please collect your item from the deposit tray.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підготовка контейнера... Готово.
+
+Синтез...
+ 
+Синтез успішний. Будь ласка, заберіть свій предмет з лотка для відкладень.::кінець</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -86,7 +94,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize morphine shot (-10%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати шприц з морфіном (-10%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -96,7 +104,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Synthesize adrenaline shot (-10%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезувати адреналіновий укол (-10%)::кінець</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
