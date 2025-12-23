@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>These points can only be used for movement.</source>
-        <target state="new" />
+        <target state="needs-translation">Ці очки можна використовувати лише для пересування.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="::ActionPoints" name="::ActionPoints">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>These points can be used for performing actions or for movement if there are no movement points left. You can carry over up to {0} unspent action points to the next turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Ці очки можна використовувати для виконання дій або для пересування, якщо не залишилося очок пересування. Ви можете перенести до {0} невикористаних очок дії на наступний хід.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="::Innervate" name="::Innervate">
@@ -30,7 +30,9 @@
         <source>Applies the changes made to the psi ability selection. This will instantly drain all of your psi points and reserves.
 
 This can only be done out of combat.</source>
-        <target state="new" />
+        <target state="needs-translation">Застосовує зміни, внесені до вибору психічних здібностей. Це миттєво вичерпає всі ваші психічні очки та резерви.
+
+Це можна зробити лише поза боєм.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

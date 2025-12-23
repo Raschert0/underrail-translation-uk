@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прощавай, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>Corporal, I was informed by Captain Mareth that the mission was a complete success; I'm glad you're alive, soldier. That's what I like to see - a survivor. Also, the CAU will be leaving soon, if they haven't gone already. ::He leans closer.:: Good riddance!
 
 As for you, you deserve some R&amp;R. Payment for both missions done under Captain Mareth's command is waiting for you, plus a... small bonus. You know where to collect it, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Корпорале, я був повідомлений капітаном Марет, що місія завершилася повним успіхом; я радий, що ви живі, солдате. Це те, що я люблю бачити - вижилого. Також, CAU скоро покине нас, якщо вони ще не пішли. ::Він нахиляється ближче.:: І слава Богу!
+
+Що стосується вас, ви заслуговуєте на відпочинок. Оплата за обидві місії, виконані під командуванням капітана Марет, чекає на вас, плюс... невелика премія. Ви знаєте, де її забрати, корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ As for you, you deserve some R&amp;R. Payment for both missions done under Capta
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ As for you, you deserve some R&amp;R. Payment for both missions done under Capta
       </mda:metadata>
       <segment state="translated">
         <source>I've returned from Hephaestus Research, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я повернувся з дослідницької лабораторії Гефест, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ As for you, you deserve some R&amp;R. Payment for both missions done under Capta
       </mda:metadata>
       <segment state="translated">
         <source>I can see that, Corporal, and I see you've done excellent work. The missing crew just preceded you, or at least what is left of it, sadly. They are now being examined by our medical staff and will most certainly need a lot of rest to recuperate from the hell they've gone through.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачу, корпорале, і бачу, що ви проробили чудову роботу. Зниклий екіпаж щойно прибув перед вами, або, принаймні, те, що від нього залишилося, на жаль. Зараз їх оглядає наш медичний персонал, і їм, безумовно, знадобиться багато відпочинку, щоб відновитися після пекла, яке вони пережили.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ As for you, you deserve some R&amp;R. Payment for both missions done under Capta
       </mda:metadata>
       <segment state="translated">
         <source>Mission accomplished, Corporal. The staff sergeant will have your payment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Місія виконана, корпорале. Штаб-сержант видасть вам оплату.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ As for you, you deserve some R&amp;R. Payment for both missions done under Capta
       </mda:metadata>
       <segment state="translated">
         <source>That is all for now, Corporal. There are certain matters I need to discuss with Consul Oliver.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все на даний момент, корпорале. Є певні питання, які мені потрібно обговорити з консулом Олівером.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ As for you, you deserve some R&amp;R. Payment for both missions done under Capta
       </mda:metadata>
       <segment state="translated">
         <source>Colonel, I don't see why the corporal shouldn't be present in our conversation. $(#He'll/She'll) learn of the issue at hand very soon anyway.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Полковнику, я не бачу причин, чому корпорал не повинен бути присутнім на нашій розмові. $(#Він/Вона) все одно скоро дізнається про суть питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -92,7 +94,9 @@ As for you, you deserve some R&amp;R. Payment for both missions done under Capta
         <source>::Colonel Cathcart delays his answer, merely glancing at you at first. However, you don't wait long for his response.::
 
 I don't see why not. Corporal, listen up: A major issue has come up while you were in Hephaestus Research.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник Кетхарт затримує свою відповідь, спочатку лише побіжно кидаючи на вас погляд. Однак ви не чекаєте довго на його відповідь.::
+
+Я не бачу причин. Корпорале, слухайте уважно: під час вашого перебування в дослідницькій лабораторії Гефест виникла серйозна проблема.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -102,7 +106,7 @@ I don't see why not. Corporal, listen up: A major issue has come up while you we
       </mda:metadata>
       <segment state="translated">
         <source>What happened, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що сталося, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -112,7 +116,7 @@ I don't see why not. Corporal, listen up: A major issue has come up while you we
       </mda:metadata>
       <segment state="translated">
         <source>We lost Epione Lab to the Free Drones.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми втратили лабораторію Епіон до рук Вільних Дронів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -122,7 +126,7 @@ I don't see why not. Corporal, listen up: A major issue has come up while you we
       </mda:metadata>
       <segment state="translated">
         <source>A group of Drone saboteurs were able to destroy the support pillars of the facility, making the construction unstable and... it collapsed, killing everyone in it. Even the saboteurs themselves.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Групі диверсантів-дронів вдалося зруйнувати опорні колони споруди, що зробило конструкцію нестабільною і... вона обвалилася, вбивши всіх, хто був всередині. Навіть самих диверсантів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -132,7 +136,7 @@ I don't see why not. Corporal, listen up: A major issue has come up while you we
       </mda:metadata>
       <segment state="translated">
         <source>Our loss is so great, I can't even begin to explain it to you, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наша втрата настільки велика, що я навіть не можу пояснити її вам, корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -142,7 +146,7 @@ I don't see why not. Corporal, listen up: A major issue has come up while you we
       </mda:metadata>
       <segment state="translated">
         <source>Maybe it's the right time to explain the purpose of Epione Lab to the corporal. Don't you agree?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, зараз час пояснити корпоралу мету лабораторії Епіон. Чи не згодні ви?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -152,7 +156,7 @@ I don't see why not. Corporal, listen up: A major issue has come up while you we
       </mda:metadata>
       <segment state="translated">
         <source>::You notice Colonel is not pleased by Consul Oliver's words. It's apparent that the tension rises between the two.:: Please, Consul, I don't need you to tell me if and when I should discuss *confidential* military subjects with *my* subordinates. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви помічаєте, що полковник не задоволений словами консула Олівера. Очевидно, що напруга між ними зростає.:: Будь ласка, консуле, мені не потрібно, щоб ви мені говорили, коли і про які *конфіденційні* військові питання обговорювати з *моїми* підлеглими. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -162,7 +166,7 @@ I don't see why not. Corporal, listen up: A major issue has come up while you we
       </mda:metadata>
       <segment state="translated">
         <source>::The Consul remains silent.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Консул залишається мовчазним.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -175,7 +179,10 @@ I don't see why not. Corporal, listen up: A major issue has come up while you we
 
 You've seen the facility itself, when you were reporting to the late Captain Blackwall. What you've seen is only the top level of the facility. There are several more levels, floors, going down all the way to Lower Underrail.
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так... ::Він повертається до вас.:: Що ж, корпорале, слухайте уважно. Лабораторія Епіон мала використовуватися як спосіб швидкого переміщення сил Протекторату з Верхнього в Нижній Андеррейл. Дозвольте мені пояснити:
+
+Ви бачили саму споруду, коли звітували покійному капітану Блекволлу. Те, що ви бачили, - це лише верхній рівень споруди. Є ще кілька рівнів, поверхів, що йдуть вниз до Нижнього Андеррейлу.
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -185,7 +192,7 @@ You've seen the facility itself, when you were reporting to the late Captain Bla
       </mda:metadata>
       <segment state="translated">
         <source>So, since the Underrail Protectorate became tired of being at the mercy of Core City, we decided to repair and expand the facility's elevator shaft to take us straight down. We would have had our own way to Lower Underrail, Corporal. Reinforcing SRO would've been much more effective, and we would have had the opportunity to make some more progress in Lower Underrail.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, оскільки Протекторат Андеррейлу втомився бути на милості Центрального Міста, ми вирішили відремонтувати та розширити шахту ліфта, щоб спуститися прямо вниз. Ми б мали свій власний шлях до Нижнього Андеррейлу, корпорале. Підкріплення СРО було б набагато ефективнішим, і ми б мали можливість досягти більшого прогресу в Нижньому Андеррейлі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -199,7 +206,11 @@ You've seen the facility itself, when you were reporting to the late Captain Bla
 ::He turns to Colonel Cathcart.::
 
 The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наші дипломатичні місії також були б набагато легшими, не забуваймо про це. Але, на жаль, корпорале, все втрачено зараз.
+
+::Він повертається до полковника Кетхарта.::
+
+Дрони перехитрили нас усіх. Проте я здивований, що Червона Змія не попередила нас про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -209,7 +220,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>Red Snake?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Червона Змія?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -219,7 +230,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>Red Snake is the pseudonym for our informant, Corporal. He's one of the Free Drones who had so far leaked important information concerning their activities, and was considered reliable. Although, he's been silent for some time. He could've been compromised; we are still unsure.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Червона Змія - це псевдонім нашого інформатора, корпорале. Він один з Вільних Дронів, який досі передавав важливу інформацію щодо їх діяльності, і вважався надійним. Хоча він мовчав вже деякий час. Його могли скомпрометувати; ми все ще не впевнені.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -229,7 +240,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>So, you had an informant all along?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, у вас був інформатор весь час?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -239,7 +250,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>That is correct, we even know where those bandits are holed up, Corporal. We--&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це правильно, ми навіть знаємо, де ховаються ці бандити, корпорале. Ми--&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -249,7 +260,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>::The Colonel's speech gets interrupted by the sound of echoing footsteps, coming from the hallway leading to the office. At first it seems like one person is stomping towards you, but then your ear discerns several pairs of boots which are walking in unison, further amplifying the sound. The ominous marching grows louder and louder, closer and closer...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Промову полковника перериває звук відлуння кроків, що лунає з коридору, що веде до кабінету. Спочатку здається, що до вас йде одна людина, але потім ваш слух розрізняє кілька пар чобіт, які йдуть в унісон, ще більше підсилюючи звук. Зловесний марш стає все голоснішим і голоснішим, ближче і ближче...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -259,7 +270,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>::Turn around and see who is coming.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Оберніться і подивіться, хто йде.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -269,7 +280,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>Who are we talking about?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Про кого ми говоримо?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -279,7 +290,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>Did the Faceless attack, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи напали Безликі, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -289,7 +300,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>No, Corporal. We detected no Faceless activity in Upper Underrail. ::He pauses.:: We lost Epione Lab to Free Drones.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, корпорале. Ми не виявили жодної діяльності Безликих у Верхньому Андеррейлі. ::Він робить паузу.:: Ми втратили лабораторію Епіон до рук Вільних Дронів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -299,7 +310,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>Did the Free Drones attack, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи напали Вільні Дрони, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -309,7 +320,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>I'm afraid so, and not just attack, Corporal - they managed to completely destroy Epione Lab.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Боюся, що так, і не просто напали, корпорале - їм вдалося повністю знищити лабораторію Епіон.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -319,7 +330,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>I see you have, Corporal. Did you find the missing crew?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачу, ви знайшли, корпорале. Чи знайшли ви зниклий екіпаж?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -329,7 +340,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>I found no one alive, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я нікого не знайшов живим, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -339,7 +350,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>Then the operation was a complete and utter failure. In every possible sense of the word.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді операція була повною і абсолютною невдачею. В кожному можливому сенсі цього слова.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -349,7 +360,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>I'm sorry, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -359,7 +370,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>It's not your fault, Corporal. You did what was asked of you, that's what's important. Let me worry about the rest.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це не ваша вина, корпорале. Ви зробили те, що вас просили, це важливо. Дозвольте мені турбуватися про решту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -369,7 +380,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>The staff sergeant will have your payment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Штаб-сержант видасть вам оплату.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -379,7 +390,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>That is not my fault, sir!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це не моя вина, сер!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -389,7 +400,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>Of course it isn't, Corporal, I don't see why you feel the need to defend yourself. You did what was asked of you, that's what's important. Let me worry about the rest.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, це не ваша вина, корпорале, я не розумію, чому вам потрібно захищати себе. Ви зробили те, що вас просили, це важливо. Дозвольте мені турбуватися про решту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -399,7 +410,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>They were killed by burrowers, sir, I'm afraid.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Їх вбили бурові черв'яки, боюся, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -409,7 +420,7 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
       </mda:metadata>
       <segment state="translated">
         <source>I finished the task Captain Blackwall gave me, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я виконав завдання, яке дав мені капітан Блеквол, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -421,7 +432,9 @@ The Drones outplayed us all. Yet, I'm surprised Red Snake didn't warn us about t
         <source>That's what I like to hear, Corporal. Captain Blackwall contacted me already, so I know all about the current situation. I was worried the Faceless were sneaking up on us, but Free Drones, they are a bit easier to deal with. You did good, Corporal, very good.
 
 Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це те, що я люблю чути, корпорале. Капітан Блеквол вже зв'язався зі мною, тому я знаю про поточну ситуацію. Я хвилювався, що Безликі підкрадаються до нас, але Вільні Дрони, з ними трохи легше впоратися. Ви добре попрацювали, корпорале, дуже добре.
+
+Ваша перша оплата чекає на вас. Зверніться до штаб-сержанта Фрейзера з цього приводу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -431,7 +444,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>What happens now, sir? The Free Drones were obviously spying on Epione Lab.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що буде далі, сер? Вільні Дрони очевидно шпигували за лабораторією Епіон.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -441,7 +454,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>Let me worry about that, Corporal. We will call a meeting and discuss the Free Drones situation.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дозвольте мені турбуватися про це, корпорале. Ми скличемо зустріч і обговоримо ситуацію з Вільними Дронами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -451,7 +464,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>Anyway, I have another mission for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До речі, у мене є ще одне завдання для вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -461,7 +474,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -471,7 +484,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>You're welcome, Corporal. Spend the money well.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, корпорале. Витратьте гроші з розумом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -481,7 +494,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>I'm ready to start my first briefing, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я готовий розпочати свій перший брифінг, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -491,7 +504,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>::He smiles.:: That's what I like to hear, Corporal. Listen up...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він посміхається.:: Це те, що я люблю чути, корпорале. Слухайте уважно...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -501,7 +514,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>For your first mission, I'm sending you to Epione Lab, currently under Protectorate control. It's here in Upper Underrail, to the west of Fort Apogee.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Для вашої першої місії я відправляю вас до лабораторії Епіон, яка зараз під контролем Протекторату. Вона тут, у Верхньому Андеррейлі, на захід від форту Апогей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -511,7 +524,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>Epione Lab?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Лабораторія Епіон?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -521,7 +534,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>A relic from the times of Biocorp, Corporal, abandoned a long time ago. What you need to know is that it's now under Protectorate control, and is a strategic location of extreme importance.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Реліквія часів Biocorp, корпорале, покинута давно. Те, що вам потрібно знати, це те, що зараз вона під контролем Протекторату, і є стратегічно важливим місцем.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -531,7 +544,7 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
       </mda:metadata>
       <segment state="translated">
         <source>So, I was contacted by Captain Blackwall, the commanding officer there, and he informed me his patrols reported several strange sightings in the vicinity of Epione Lab.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, зі мною зв'язався капітан Блеквол, командувач там, і він повідомив мені, що його патрулі помітили кілька дивних явищ поблизу лабораторії Епіон.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">

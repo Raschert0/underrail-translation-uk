@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Get outta here, $(#bro/sis)!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Геть звідси, $(#bro/sis)!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Psycho is on the loose!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Психо на волі!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Listen $(#bro/sis), we can't talk right now. Rista is mad, and if he sees you and me talking... Just leave.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Слухай $(#bro/sis), ми зараз не можемо розмовляти. Ріста розлючена, і якщо вона побачить, що ми з тобою розмовляємо... Просто йди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +40,9 @@
         <source>::The man you just approached seems casual and relaxed. His suit is covered with dirt, blood and some green slime, and you notice what appear to be large strands of hair stuck in it. He extends his right hand to shake yours but withdraws it in the last moment after noticing that their cleanliness matches that of his suit.::
 
 Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Чоловік, до якого ти підійшов, здається спокійним і розслабленим. Його костюм забруднений брудом, кров’ю та якоюсь зеленою слизом, і ти помічаєш, що в ньому застрягли великі пасма волосся. Він простягає праву руку, щоб потиснути твою, але відсмикує її в останній момент, помітивши, що їхня чистота відповідає чистоті його костюма.::
+
+Гей, $(#bro/sis). Чи можу я тобі чимось допомогти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort is evolution, brother. I am $(context.player.Name) and I would like to ask you a few questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт - це еволюція, брате. Я $(context.player.Name) і хотів би задати тобі кілька питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Evolution is Tchort. I am Vuk. Well, since I'm on a break I suppose I could answer a few questions. Go ahead, $(#bro/sis). Ask.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Еволюція - це Тчорт. Я Вук. Ну, оскільки я на перерві, гадаю, я міг би відповісти на кілька питань. Давай, $(#bro/sis). Запитуй.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Biology]:: You have plenty of interesting creatures here. Do you have any exotic samples I could use in my research?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Біологія]:: У тебе тут багато цікавих істот. Чи є у тебе якісь екзотичні зразки, які я міг би використати у своїх дослідженнях?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Exotic? Like... from the Deep Caverns?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Екзотичні? Ти маєш на увазі... з Глибоких Печер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Preferably.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Бажано.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -110,7 +112,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He shrugs.:: Sure. All in the name of Investigation, right?  &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він знизує плечима.:: Звісно. Все заради дослідження, так?  &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Let me just get the squishies, $(#bro/sis).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дай мені просто слизьких, $(#bro/sis).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -130,7 +132,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бартер.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -140,7 +142,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why not.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому б і ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -150,7 +152,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Nod.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кивок.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -160,7 +162,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am interested in a trade.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я зацікавлений у торгівлі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -170,7 +172,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I talked to Principal Investigator Rista and he told me we can trade.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я поговорив з головним дослідником Рістою, і він сказав, що ми можемо торгувати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -180,7 +182,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>If he says it's okay - it's okay! Let me just change my gloves, $(#bro/sis), and I'll show you what I've got.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо він так каже - то так і є! Дай мені просто змінити рукавички, $(#bro/sis), і я покажу тобі, що в мене є.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -190,7 +192,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What do you do around here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти тут робиш?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -200,7 +202,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well, $(#bro/sis), I'm one of the biologists working in this department. As you can see from my general appearance this is a very, very dirty job. To give an example, this green stuff I'm covered with actually came from one of the coil spiders we have in the holding pens. I was in its enclosure and then it approached and suddenly regurgitated *this* stuff all over me. I have yet to figure out why.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, $(#bro/sis), я один з біологів, який працює в цьому відділі. Як бачиш з мого загального вигляду, це дуже, дуже брудна робота. Наприклад, ця зелена речовина, якою я вкритий, насправді виділяється одним із котунових павуків, яких ми тримаємо в загонах. Я був у його вольєрі, і раптом він підійшов і виплюнув *це* все на мене. Я досі не знаю, чому.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -210,7 +212,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Biology]:: Female spiders have a tendency to regurgitate fluids to starved individuals; maybe it's seeing you as one of her own kin.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Біологія]:: Самки павуків схильні випльовувати рідину голодуючим особинам; можливо, він бачить у тобі одного зі своїх родичів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -220,7 +222,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Listen, I am-- ::He pauses for a second.:: You know what, $(#bro/sis)... you might have a good point there. Magnificent Tchort, yes! The pacification procedure we performed on these creatures could have caused them to view us in ways we haven't really expected. Hmmm, perhaps in her mind I'm one of her young or a distressed unit.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Слухай, я-- ::Він робить паузу на секунду.:: Знаєш що, $(#bro/sis)... ти можеш бути правий. Величний Тчорт, так! Процедура заспокоєння, яку ми проводили над цими істотами, могла змусити їх бачити нас у спосіб, якого ми не очікували. Хмм, можливо, в його розумі я один з його молодих або змученої особини.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -230,7 +232,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Glad to be of help.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Радий допомогти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -240,7 +242,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It is the benefit of the outside view, $(#bro/sis). We who work on something can sometimes get so focused on it that it narrows our vision. We fail to see other things. Good work! &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це перевага зовнішнього погляду, $(#bro/sis). Ми, які працюємо над чимось, іноді можемо так зосередитися на цьому, що це звужує наш зір. Ми не бачимо інших речей. Молодець!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -250,7 +252,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am not in the mood to talk about regurgitation. Can we discuss something else?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не в настрої говорити про випльовування. Чи можемо ми обговорити щось інше?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -260,7 +262,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is serious stuff I'm talking about, $(#bro/sis). You have to get used to these sort of things if you wish to work in the department.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це серйозна справа, $(#bro/sis). Ти повинен звикнути до таких речей, якщо хочеш працювати у відділі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -270,7 +272,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I wanted to ask you if you know anything about some odd creatures that are plaguing Foundry at the moment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів запитати тебе, чи знаєш ти щось про дивних істот, які зараз докучають Foundry.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -280,7 +282,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What are the creatures in questions?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Які істоти маються на увазі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -290,7 +292,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They're quadrupedal creatures, highly aggressive, most easily recognized by shells made of rock with metallic blades protruding from their backs. Ever seen anything like that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони чотириногі істоти, надзвичайно агресивні, їх найлегше впізнати за панцирами з каменю з металевими лезами, що виступають з їхніх спин. Ти коли-небудь бачив щось подібне?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -300,7 +302,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That is odd, as you say. Can't help you, I'm afraid. I have no experience with anything resembling that description.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це дивно, як ти кажеш. Боюся, я не можу тобі допомогти. У мене немає досвіду з чимось, що відповідає цьому опису.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -310,7 +312,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>If I bring you a sample or a live specimen, will you take a look at it for me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо я принесу тобі зразок або живу особину, ти подивишся на неї для мене?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -320,7 +322,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I... not without PI Rista's permission I can't. You should go to him, and if he says yes - then I'd be good to help you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я... не без дозволу головного дослідника Рісти я не можу. Ти повинен піти до нього, і якщо він скаже так - тоді я був би радий допомогти тобі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -330,7 +332,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>He already said no.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він уже відмовився.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -340,7 +342,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Vuk simply shrugs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вук просто знизує плечима.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -350,7 +352,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's that then... There was something else...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось і все тоді... Було ще щось...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -360,7 +362,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, $(#bro/sis)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, $(#bro/sis)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -370,7 +372,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Got it. See you later, Vuk. Gotta run.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зрозумів. Побачимося пізніше, Вук. Треба бігти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -380,7 +382,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Ditto, $(#bro/sis).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тобі теж саме, $(#bro/sis).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -390,7 +392,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well, Tchort guide you, Vuk.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, нехай Тчорт і тебе веде, Вук.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -400,7 +402,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нехай Тчорт і тебе веде.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -410,7 +412,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Where can I find him?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де я можу його знайти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -420,7 +422,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>His office is over there. ::He points at the double doors.:: That's his office - enter at your own risk. Tchort guide you. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Його кабінет там. ::Він показує на подвійні двері.:: Це його кабінет – заходьте на власний ризик. Нехай Тчорт і тебе веде.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -430,7 +432,7 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>At my own risk? Why?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На власний ризик? Чому?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -442,7 +444,8 @@ Hey, $(#bro/sis). Is there something I can help you with?&lt;end&gt;</source>
         <source>::He simply chuckles but gives you no further explanation.::
 
 Anything else?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він просто хихикає, але не дає тобі жодних подальших пояснень.::
+Щось ще?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -452,7 +455,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Okay... See ya.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре... Побачимося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -462,7 +465,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They look like larvae, with weird heads shaped like small drills.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони виглядають як личинки, з дивними головами у формі маленьких свердлів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -472,7 +475,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How come these creatures you have here aren't aggressive?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як так вийшло, що ці істоти, яких ти тут тримаєш, не агресивні?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -482,7 +485,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's all due to the pacification procedures we have performed on them. Only the dangerous ones like burrowers and coil spiders. They usually don't tolerate human presence and show it, um, by trying to tear you to pieces.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все через процедури пасифікації, які ми проводили над ними. Тільки над небезпечними, такими як копачі та павуки-завитки. Зазвичай вони не терплять людської присутності та показують це, гм, намагаючись розірвати вас на шматки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -492,7 +495,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Pacification? How do you do that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Пацифікація? Як ви це робите?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -502,7 +505,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>As you probably suspect already, we have found a way to make the creatures non-aggressive to other species. Unfortunately, I can't tell you the details on how we do it. Well, at least I don't know if I'm allowed to so I better not... Seek Rista, our PI; he's in charge of the project and can tell you more.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ти, напевно, вже здогадуєшся, ми знайшли спосіб зробити істот неагресивними до інших видів. На жаль, я не можу розповісти тобі подробиці, як ми це робимо. Ну, принаймні я не знаю, чи мені дозволено, тому краще не буду... Звернися до Рісти, нашого головного дослідника; він відповідає за цей проєкт і може розповісти тобі більше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -512,7 +515,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He shrugs.:: Sorry, $(#bro/sis).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він знизує плечима.:: Вибачте, $(#bro/sis).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -522,7 +525,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That sounds great! But I had other questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це чудово! Але в мене були інші питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -532,7 +535,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yeah?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -542,7 +545,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Since you work with animals - do you have any spare organs or other parts that I can acquire?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Оскільки ти працюєш з тваринами - чи є у тебе запасні органи або інші частини, які я можу придбати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -552,7 +555,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am in charge of that, but you'll get nothing for free if that's what you're implying. On the other hand, I could sell you some but... um... You know what, go talk to Principal Investigator Rista and see if you can get his permission. If he says "yes" then come back to me. I'll wait here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я відповідаю за це, але ти нічого не отримаєш безкоштовно, якщо маєш на увазі саме це. З іншого боку, я міг би продати тобі, але... е-е... Ти знаєш, піди поговори з головним дослідником Рістою і подивись, чи отримаєш його дозвіл. Якщо він скаже "так", то повернись до мене. Я тут почекаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -562,7 +565,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I already talked to him and he told me it's okay.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вже з ним говорив, і він сказав, що все гаразд.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -572,7 +575,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Right, I'll go talk to him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре, я піду поговорити з ним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -582,7 +585,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you and good luck.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нехай Тчорт тебе веде і удачі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -592,7 +595,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Good luck? Why?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Удачі? Навіщо?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -602,7 +605,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He chuckles but says nothing otherwise.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він хихикає, але більше нічого не каже.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -612,7 +615,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you too.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нехай Тчорт і тебе веде.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -622,7 +625,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll be back soon.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я повернуся незабаром.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a63" name="=&gt;a63">
@@ -632,7 +635,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about this pacification procedure performed on animals?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про цю процедуру пасифікації, яку проводять на тваринах?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -642,7 +645,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can you tell me who's in charge here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви сказати мені, хто тут головний?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -652,7 +655,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Ah. AH! You seek Principal Investigator Rista, right? His office is over there. ::He points at the double doors.:: That's his office - enter at your own risk. Tchort guide you. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах. АХ! Ти шукаєш головного дослідника Рісту, вірно? Його офіс там. ::Він показує на подвійні двері.:: Це його офіс - заходь на свій страх і ризик. Нехай Тчорт тебе веде. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
@@ -662,7 +665,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you, brother.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нехай Тчорт і тебе веде, брате.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -672,7 +675,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>See you later, Vuk.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимося пізніше, Вук.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a68" name="=&gt;a68">
@@ -682,7 +685,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hi, I'm $(context.player.Name) and I had questions if I'm not bothering you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, я $(context.player.Name) і в мене є кілька запитань, якщо я вас не турбую.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
@@ -692,7 +695,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not at all; I'm taking a short break now so a chat is fine by me. I am Vuk, by the way, pleasure to meet you. What was it you wished to ask, $(#bro/sis)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зовсім ні; я роблю невелику перерву зараз, тому поспілкуватися буде чудово. До речі, я Вук, дуже приємно познайомитися. Що ти хотів запитати, $(#bro/sis)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a70" name="=&gt;a70">
@@ -702,7 +705,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>'Ey. I'm $(context.player.Name). Mind answering a few questions?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей. Я $(context.player.Name). Не могли б ви відповісти на кілька запитань?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -712,7 +715,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Good work there, $(#bro/sis). Psycho is one big... psycho! ::He laughs.:: Once it gets mad it gets so scary it could even frighten Tchort! Um...forget I said that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хороша робота, $(#bro/sis). Психо – справжній... психо! ::Він сміється.:: Коли він злиться, він стає настільки страшним, що може навіть налякати Тчорта! Ем... забудь, що я казав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -722,7 +725,7 @@ Anything else?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hey, good to see you $(context.player.Name). How can I help you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей, радий тебе бачити $(context.player.Name). Чим можу допомогти?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

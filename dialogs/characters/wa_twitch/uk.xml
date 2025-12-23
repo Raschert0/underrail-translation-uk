@@ -10,7 +10,9 @@
         <source>::The pale skinny man turns to you and instantly unleashes a torrent of words. The words are expelled with such speed that you find keeping track of what he's saying a great difficulty. His rapid, twitchy motions and the constant need to alternate between looking at you and the numerous monitors in front of him is both intriguing as well as uncanny.::
 
 Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet you, I'm Twitch. I said, it's good to meet you, I'm Twitch!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Блідий худий чоловік повертається до тебе і миттєво випускає потік слів. Слова виливаються з такою швидкістю, що тобі важко відстежувати те, що він говорить. Його швидкі, нервові рухи та постійна потреба перемикатися між поглядом на тебе та численними моніторамими перед ним одночасно інтригують і лякають.::
+
+Гей; гей; гей, ти мусиш бути $(context.player.Name)? Гм? Гм? Радий зустрічі, я Твіч. Я сказав, радий зустрічі, я Твіч!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>Why are you doing that strange thing?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ти робиш цю дивну річ?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>Doing what? ::He looks at a monitor.:: Oh, wait; let me zoom that in; more; more; Shame. The resolution is far too low to discern anything. I can't... ::He looks at you.:: Doing what, heh, doing what?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що я роблю? ::Він дивиться на монітор.:: О, зачекай; дай мені збільшити; більше; більше; Шкода. Роздільна здатність занадто низька, щоб щось розрізнити. Я не можу... ::Він дивиться на тебе.:: Що я роблю, ге, що я роблю?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>The multitasking. It's creeping me out, man. Can't you focus on one thing at a time?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Багатозадачність. Це мене лякає, чоловіче. Ти не можеш зосередитися на одній речі за раз?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>::He turns toward you.:: If I focus on one thing, then I'm missing something else. I need to be on a constant lookout in order to register and process everything that is happening. Simply by focusing all my attention to you, $(context.player.Name), I've already missed several important events.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він повертається до тебе.:: Якщо я зосереджуюсь на одній речі, то пропускаю щось інше. Мені потрібно бути в постійному пошуку, щоб реєструвати та обробляти все, що відбувається. Просто зосередивши всю свою увагу на тобі, $(context.player.Name), я вже пропустив кілька важливих подій.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>::He looks at the monitors again.:: My way is the optimal way!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дивиться на монітори знову.:: Мій шлях - оптимальний шлях!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>Never mind. Let's talk about something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Неважливо. Поговоримо про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>Just be quick about it, things are happening and I don't know if I'll be able to... :: He focuses on one of the monitors.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь швидким, щось відбувається, і я не знаю, чи зможу... :: Він зосереджується на одному з моніторів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>What do you do around here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти тут робиш?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -110,7 +112,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>Scrutinize, study, analyze and then extrapolate, conclude, calculate. ::He focuses on something on one of the monitors.:: Seventeen, I should write that down. Yes, the technology allows me to be a nearly omnipresent observer. I perceive what only few can so if you ever need some surveillance help, I'm your man.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вивчаю, досліджую, аналізую, а потім екстраполюю, роблю висновки, обчислюю. ::Він зосереджується на чомусь на одному з моніторів.:: Сімнадцять, я повинен це записати. Так, технологія дозволяє мені бути майже всевидючим спостерігачем. Я сприймаю те, що можуть лише деякі, тому якщо тобі колись знадобиться допомога з спостереження, я твій чоловік.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>By the way, you look like you've gained a few pounds. ::He looks at a monitor.:: Just an observation.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До речі, ти, здається, набрав кілька кілограмів. ::Він дивиться на монітор.:: Просто спостереження.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -130,7 +132,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>By the way, is that a bald patch on your head? Maybe it's just the lighting. ::He looks at the monitor.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До речі, у тебе лисина на голові? Можливо, це просто освітлення. ::Він дивиться на монітор.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -140,7 +142,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>I might need some surveillance help. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені може знадобитися допомога з спостереження.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>Hey, whatever you need. ::He looks at the monitor.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей, що завгодно. ::Він дивиться на монітор.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -170,7 +172,7 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
       </mda:metadata>
       <segment state="translated">
         <source>I need some surveillance equipment to spy on the Talloski family in Core City.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібне обладнання для спостереження, щоб шпигувати за сім'єю Таллоскі в Центральному місті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -182,7 +184,9 @@ Hey; hey; hey; you must be $(context.player.Name)? Hmmm? Hmmm? It's good to meet
         <source>Please wait... ::He hastily types something on the keyboard, then turns around to you. You feel like you have his full attention, as strange as it may be.::
 
 I have just the right thing for you. As a matter of fact, I believe you're already familiar with the piece of equipment I'm about to present to you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, зачекайте... ::Він похапцем щось друкує на клавіатурі, потім повертається до тебе. Ти відчуваєш, що маєш його повну увагу, якою б дивною вона не була.::
+
+У мене є саме те, що тобі потрібно. Насправді, я вважаю, що ти вже знайомий з обладнанням, яке я збираюся тобі представити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -192,7 +196,7 @@ I have just the right thing for you. As a matter of fact, I believe you're alrea
       </mda:metadata>
       <segment state="translated">
         <source>::Twitch releases a loud whistle. Almost instantly, you hear the sound of something skittering across the metal floor, something tiny. You have heard this sound before, you remember. A burrower spawn reveals itself and comes toward Twitch, proceeding to climb his leg with quick motions of its tiny legs, going all the way up to his shiny bald head, on top of which it finally rests.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Твіч видає гучний свист. Майже миттєво ти чуєш звук чогось, що шкребеться по металевій підлозі, чогось крихітного. Ти чув цей звук раніше, пам'ятаєш. Істота-буравчик виявляє себе і наближається до Твіча, просуваючись вгору по його нозі швидкими рухами своїх крихітних лапок, піднімаючись аж до його блискучої лисини, на вершині якої вона нарешті зупиняється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -202,7 +206,7 @@ I have just the right thing for you. As a matter of fact, I believe you're alrea
       </mda:metadata>
       <segment state="translated">
         <source>Oh, that ugly thing again.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, ця бридка штука знову.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -214,7 +218,9 @@ I have just the right thing for you. As a matter of fact, I believe you're alrea
         <source>Beauty is in the eye of the beholder. Whether you like it or not - the spawn is yours to command. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
 
 Once the spawn is in place, return to me. I'll keep a close eye on every bit of information it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Краса в очах того, хто дивиться. Незалежно від того, чи тобі це подобається, чи ні - істота твоя, щоб нею командувати. Як і раніше, ти повинен випустити її у вентиляційну шахту за своїм вибором; вона там залишиться і... виконає свою роботу.
+
+Коли істота буде на місці, повернись до мене. Я буду уважно стежити за кожним бітом інформації, який вона надсилатиме. Гм, я сказав, я буду уважно стежити за всім, що вона надсилатиме.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -224,7 +230,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       </mda:metadata>
       <segment state="translated">
         <source>::The creature climbs down onto his left shoulder. He brings his mouth close to it, just like Abram did before, almost like speaking to it, but no sounds come from either of the two strange creatures. Twitch then extends his arm toward you and touches your shoulder, allowing the little one to walk across to you. Again, it finds home in a comfortable pocket in which it finally comes to a still.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Істота спускається на його ліве плече. Він підносить рот до неї, як робив Абрам раніше, майже ніби розмовляє з нею, але жодного звуку не виходить ні від однієї з цих двох дивних істот. Потім Твіч простягає руку до тебе і торкається твого плеча, дозволяючи маляті перебратися до тебе. Знову воно знаходить затишну кишеню, в якій нарешті заспокоюється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -234,7 +240,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       </mda:metadata>
       <segment state="translated">
         <source>Yay, I love when creepy things crawl all over me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ура, я люблю, коли на мене повзають бридкі речі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -244,7 +250,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       </mda:metadata>
       <segment state="translated">
         <source>You should be used to it by now. Take care of it, and see you later. I have to return to my monitors; I've probably missed so much inf-- ::He turns around, instantly gluing his eyes one of the monitors.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти вже повинен звикнути до цього. Подбай про неї, і до зустрічі. Я повинен повернутися до своїх моніторів; я, ймовірно, пропустив так багато інф-- ::Він повертається, миттєво приклеюючи очі до одного з моніторів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -254,7 +260,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       </mda:metadata>
       <segment state="translated">
         <source>Thanks Twitch, I'll be on my way now. See you later.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, Твіче, я зараз піду. До зустрічі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -264,7 +270,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       </mda:metadata>
       <segment state="translated">
         <source>Take care of it, and see you later. I have to return to my monitors; I've probably missed so much inf-- ::He turns around, instantly gluing his eyes one of the monitors.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Подбай про неї, і до зустрічі. Я повинен повернутися до своїх моніторів; я, ймовірно, пропустив так багато інф-- ::Він повертається, миттєво приклеюючи очі до одного з моніторів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -274,7 +280,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
       </mda:metadata>
       <segment state="translated">
         <source>Don't you have something a bit more traditional? Eh?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У тебе немає чогось більш традиційного? Ех?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -286,7 +292,9 @@ Once the spawn is in place, return to me. I'll keep a close eye on every bit of 
         <source>::Twitch laughs.:: I would be ashamed of myself if I'd have given you anything but the best we have to offer. Trust me, this bad boy is more than fitting for the task at hand. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
 
 Once the spawn is in place, return to me. I'll keep a close eye on everything it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Твіч сміється.:: Я б соромився себе, якби дав тобі щось інше, крім найкращого, що ми маємо. Довіртеся мені, цей хлопчик більше ніж підходить для поставленого завдання. Як і раніше, ти повинен випустити його у вентиляційну шахту за своїм вибором; він там залишиться і... виконає свою роботу.
+
+Коли істота буде на місці, повернись до мене. Я буду уважно стежити за всім, що вона надсилатиме. Гм, я сказав, я буду уважно стежити за всім, що вона надсилатиме.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -296,7 +304,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Ah, we meet again, my insectoid companion.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах, ми знову зустрілися, мій комахоподібний супутнику.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -308,7 +316,9 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <source>$(context.player.Name), you are already familiar with this little bad boy. As before, you are to release it in a ventilation shaft of your choosing; it will stay there and... do its job.
 
 Once the spawn is in place, return to me. I'll keep a close eye on everything it sends back. Hmmm, I said, I'll keep a close eye on everything it sends back.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name), ти вже знайомий з цим маленьким хлопчиком. Як і раніше, ти повинен випустити його у вентиляційну шахту за своїм вибором; він там залишиться і... виконає свою роботу.
+
+Коли істота буде на місці, повернись до мене. Я буду уважно стежити за всім, що вона надсилатиме. Гм, я сказав, я буду уважно стежити за всім, що вона надсилатиме.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -318,7 +328,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Nothing at the moment. I suppose I could ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наразі нічого. Гадаю, я міг би запитати тебе про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -328,7 +338,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Ask...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Запитуй...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -338,7 +348,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>I'd like to return the spawn. I never got the chance to use it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би повернути істоту. Я так і не отримав можливості її використати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -348,7 +358,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>::Twitch stops what he was doing and focuses on the matter at hand. You let the spawn cross over to him, after which they again perform the "silent speaking" ritual. Finally, after their communication is over, the spawn climbs down and skitters away into darkness.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Твіч зупиняє те, чим займався, і зосереджується на суті справи. Ви дозволяєте дитинчаті перебратися до нього, після чого вони знову виконують ритуал "мовного мовчання". Нарешті, після завершення їхнього спілкування, дитинча спускається і зникає в темряві.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -358,7 +368,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>He's a good boy, isn't he?  Hmmm? I said, isn't he?::He returns to one of his monitors.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він хороший хлопчик, чи не так? Хмм? Я сказав, чи не так?::Він повертається до одного зі своїх моніторів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -368,7 +378,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>I released the spawn.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я випустив дитинча.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -378,7 +388,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>That sounded so... ominous. Release the spawn! ::Before you even get a chance to process what he said, he repeats it, as if expecting you to have answered it already.:: I said, release the spawn! Anyway, I am aware you released it, because I already had some information sent by it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це звучало так... зловісно. Випустити дитинча! ::Перш ніж ви встигаєте обміркувати його слова, він повторює їх, ніби очікував на вашу відповідь.:: Я сказав, випустити дитинча! В будь-якому випадку, я знаю, що ви його випустили, тому що вже отримав певну інформацію від нього.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -388,7 +398,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Got something interesting?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щось цікаве?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -398,7 +408,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Well, so fa-- ::He focuses on one of the monitors for a brief moment.:: --r, the only thing of any interest was a discussion between a man referred to as Vlatko and his son, Maxim. It appears that their big-screen... ::He quickly glances at another monitor.:: big-screen monitor broke.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, поки що -- ::Він на мить зосереджується на одному з моніторів.:: -- поки що єдиним, що викликало інтерес, була розмова між чоловіком, якого звали Влатко, та його сином Максимом. Здається, їхній великий екран... ::Він швидко кидає погляд на інший монітор.:: великий екран зламався.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -408,7 +418,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>This prevents them from watching ArenaNow. They seem pretty... ::He focuses on one of the monitors.:: pretty distressed by this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це заважає їм дивитися ArenaNow. Вони здаються досить... ::Він зосереджується на одному з моніторів.:: досить засмученими через це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -418,7 +428,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>I see... Okay, call me if anything new happens. I'll see what I can do with this information.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розумію... Добре, подзвоніть мені, якщо щось нове трапиться. Я подивлюся, що я можу зробити з цією інформацією.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -428,7 +438,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>I will. ::He returns to one of his monitors.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подзвоню. ::Він повертається до одного зі своїх моніторів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -438,7 +448,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Just tell me already.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто скажи мені вже.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -448,7 +458,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Someone's impa-- ::He focuses on one of the monitors for a split second.:: --tient. Anyway, the only thing of interest so far was a discussion between a man referred to as Vlatko and his son, Maxim. It appears that their big-screen... ::He quickly glances at another monitor.:: big-screen monitor broke.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хтось нетерпля-- ::Він зосереджується на одному з моніторів на мить.:: --плячий. В будь-якому випадку, єдиним, що викликало інтерес, була розмова між чоловіком, якого звали Влатко, та його сином Максимом. Здається, їхній великий екран... ::Він швидко кидає погляд на інший монітор.:: великий екран зламався.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -458,7 +468,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>How and why did you join Oculus?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як і чому ти приєднався до Oculus?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -468,7 +478,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>I was skilled enough to be... ::He looks at a monitor.:: What is he doing? Get out of there! ::He returns to you.:: I was skilled enough to be invited to meet Azif. Just like you, I started doing small-time jobs in Core City for people who later turned out to be... ::He looks at a monitor.:: Oculites? There?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я був достатньо вмілим, щоб... ::Він дивиться на монітор.:: Що він робить? Геть звідти! ::Він повертається до вас.:: Я був достатньо вмілим, щоб отримати запрошення зустрітися з Азіфом. Як і ви, я почав виконувати дрібні завдання в Core City для людей, які згодом виявилися... ::Він дивиться на монітор.:: Окулітами? Там?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -478,7 +488,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Anyway, I needed the money for my addiction. Those were hard times. I'm off the stuff now. Hmmm? I said, I'm off the stuff now... ::He looks at a monitor.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">В будь-якому випадку, мені потрібні були гроші на мою залежність. Це були важкі часи. Я кинув це зараз. Хмм? Я сказав, я кинув це зараз... ::Він дивиться на монітор.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -488,7 +498,7 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
       </mda:metadata>
       <segment state="translated">
         <source>Motion?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Рух?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -500,7 +510,9 @@ Once the spawn is in place, return to me. I'll keep a close eye on everything it
         <source>::He laughs.:: No, Motion is weak, insignificant compared to what I did, $(context.player.Name). Hmmm? Yes, weak compared to what I did!
 
 It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntlet?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він сміється.:: Ні, Motion слабкий, незначний порівняно з тим, що я зробив, $(context.player.Name). Хмм? Так, слабкий порівняно з тим, що я зробив!
+
+Це називається SSDMT-7; не питайте мене про... ::Він дивиться на монітор.:: Рукавицю?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -510,7 +522,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>Anyway, I was approached and told I had done well, that I had incredible perception and that Azif would like to talk to me. So, I casually strolled through the caves and that's... ::He looks at a monitor.:: That's huge...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">В будь-якому випадку, до мене підійшли і сказали, що я добре попрацював, що маю неймовірне сприйняття і що Азіф хотів би зі мною поговорити. Тож я недбало прогулявся печерами, і це... ::Він дивиться на монітор.:: Це величезно...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -520,7 +532,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>::Let him continue.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дозвольте йому продовжувати.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -530,7 +542,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Oculus?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про Oculus?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -540,7 +552,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>It's a high tech pyramid, built by... ::He focuses on a monitor.:: Free Drones? ::He turns back to you.:: I wasn't talking to you, sorry. Built by Godmen; that's how we call the mysterious beings we know nothing about.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це високотехнологічна піраміда, побудована... ::Він зосереджується на моніторі.:: Вільними Дронами? ::Він повертається до вас.:: Я не з вами говорив, вибачте. Побудована Богами; так ми називаємо таємничих істот, про яких нічого не знаємо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -550,7 +562,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>It - the Oculus - is incredibly advanced; it is more sophisticated than anything even the most powerful people in Underrail possess. I adore some of the toys I have available here. I'm talking about surveillance tech, of course. Nothing in existence beats Oculus' arsenal of high-tech gadgetry. ::He laughs for a split second then abruptly stops.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він - Oculus - неймовірно просунутий; він більш витончений, ніж будь-що, навіть у найвпливовіших людей в Underrail. Я обожнюю деякі іграшки, які маю тут. Я говорю про технології спостереження, звісно. Ніщо в світі не може зрівнятися з арсеналом високотехнологічних гаджетів Oculus. ::Він сміється на мить, а потім різко зупиняється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -560,7 +572,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>Who is that six-fingered cyborg?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто цей шестипалий кіборг?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -570,7 +582,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>A client. Do not talk to him; he doesn't want to be talked to. Hmm? I said do not talk to him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Клієнт. Не розмовляйте з ним; він не хоче, щоб з ним розмовляли. Хмм? Я сказав, не розмовляйте з ним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -580,7 +592,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>::He leans toward one of the monitors.:: Interesting, he was alive a few minutes ago...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він нахиляється до одного з моніторів.:: Цікаво, він був живий кілька хвилин тому...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -590,7 +602,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about those robed oculites? &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про цих окулітів у балахонах?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -600,7 +612,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>::He answers you while still watching one of the monitors.:: Colloquially known as Whisperers, the deadly psi-warriors belonging to a clan called Khazum Morakht guard Oculus vigilantly. All Khazum Morakht members are highly intelligent individuals who join the clan at a young age and receive training in all major psi disciplines. Only upon mastering all of those can they swear an oath before being allowed to perform their duty.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він відповідає вам, все ще дивлячись на один з моніторів.:: У народі відомі як Шептуни, смертоносні пси-воїни, що належать до клану під назвою Khazum Morakht, пильно охороняють Oculus. Всі члени Khazum Morakht є високоінтелектуальними особистостями, які приєднуються до клану в молодому віці та проходять навчання в усіх основних психічних дисциплінах. Лише після оволодіння всіма ними вони можуть скласти присягу, перш ніж їм буде дозволено виконувати свій обов'язок.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -610,7 +622,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>Once they swear to protect someone or something they will do so until death. Most often, it's the death of their opponents - rare are the cases where the members of Khazum Morakht were killed on duty. There is a common misconception that they are mute, while in fact they are not; it is by their free will that they chose not to speak in order to-- ::He stops abruptly.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Коли вони присягають захищати когось або щось, вони будуть робити це до смерті. Найчастіше це смерть їхніх опонентів - рідко трапляється, щоб членів Khazum Morakht було вбито під час виконання обов'язку. Існує поширена помилка, що вони німі, тоді як насправді це не так; це за їхньою власною волею вони вирішили не говорити, щоб-- ::Він різко зупиняється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -620,7 +632,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>That is all I can tell you at the moment. Hmmm? Hmmm? I said, that's all for now. ::He focuses on one of the monitors.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все, що я можу вам сказати на даний момент. Хмм? Хмм? Я сказав, це все наразі. ::Він зосереджується на одному з моніторів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -630,7 +642,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>Can you watch the Arena on one of these monitors?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можеш ти дивитися Arena на одному з цих моніторів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -640,7 +652,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>::Twitch glances at you, then returns to his monitors.:: Of course I can, $(context.player.Name). I lived in Core City before I came here; I was so addicted to watching... ::Turns at a different monitor.:: to watching the Arena. A bloodthirsty maniac! Yeah, that's what I was...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Твіч кидає на вас погляд, а потім повертається до своїх моніторів.:: Звичайно, я можу, $(context.player.Name). Я жив у Core City, перш ніж прийти сюди; я був так залежний від перегляду... ::Повертається до іншого монітора.:: перегляду Arena. Кровожерливий маньяк! Так, таким я був...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
@@ -650,7 +662,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       </mda:metadata>
       <segment state="translated">
         <source>Let me play it on that monitor. ::One press of a button later.:: There, now we... Oh, joy - it is Mark the Impaler! How typical of him: He's impaling a man.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дайте мені подивитися на тому моніторі. ::Після натискання однієї кнопки.:: Ось, тепер ми... О, радість - це Марк Роздирач! Як типово для нього: Він роздирає людину.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -661,7 +673,7 @@ It's called SSDMT-7; don't ask me about the... ::He looks at a monitor.:: Gauntl
       <segment state="translated">
         <source>
 Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He focuses on one of his monitors.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Перш ніж запитаєте, так, я бачив ваш бій з Carnifex: Ви домінували. ::Він зосереджується на одному зі своїх моніторів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -672,7 +684,7 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
       <segment state="translated">
         <source>
 ::He focuses on one of his monitors.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він зосереджується на одному зі своїх моніторів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -682,7 +694,7 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
       </mda:metadata>
       <segment state="translated">
         <source>Can I ask you about some of the other oculites?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можу я запитати вас про деяких інших окулітів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -692,7 +704,7 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
       </mda:metadata>
       <segment state="translated">
         <source>::He begins turning his head toward you, stopping midway, eyes still stuck to the monitor.:: No. If you wish to know more about someone, ask them yourself.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він починає повертати голову до вас, зупиняючись посередині, очі все ще прикуті до монітора.:: Ні. Якщо ви хочете дізнатися більше про когось, запитайте їх самих.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
@@ -702,7 +714,7 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
       </mda:metadata>
       <segment state="translated">
         <source>::His head returns to its original position.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Його голова повертається у вихідне положення.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a70" name="=&gt;a70">
@@ -712,7 +724,7 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye, Twitch.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення, Твіч.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -722,7 +734,7 @@ Before you ask, yes, I've seen your fight with Carnifex: You dominated. ::He foc
       </mda:metadata>
       <segment state="translated">
         <source>::Looks at you.:: Good to... ::Then at a monitor, then you again.:: see you again... ::Then at a monitor, then you again.:: $(context.player.Name)!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дивиться на вас.:: Радий... ::Потім на монітор, потім знову на вас.:: побачити вас знову... ::Потім на монітор, потім знову на вас.:: $(context.player.Name)!&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

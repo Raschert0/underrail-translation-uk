@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::LEMCO LC387 - ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO LC387 - ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::Welcome, P. Bridges
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, P. Bridges
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Dispatcher Terminal - ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Dispatcher Terminal - ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -42,7 +44,9 @@
         <source>::Arch Island Keep
 
 Unable to connect to LIN. Only local data is available.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Arch Island Keep
+
+Неможливо підключитися до LIN. Доступні лише локальні дані.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -52,7 +56,7 @@ Unable to connect to LIN. Only local data is available.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -62,7 +66,7 @@ Unable to connect to LIN. Only local data is available.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::View dispatcher logs::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Переглянути журнали диспетчера::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -74,7 +78,9 @@ Unable to connect to LIN. Only local data is available.::&lt;end&gt;</source>
         <source>::No connection. Only local and most recent logs available.
 
 Dispatcher logs:::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Немає з'єднання. Доступні лише локальні та найновіші журнали.
+
+Журнали диспетчера:::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -84,7 +90,7 @@ Dispatcher logs:::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Arch Island Keep - LE 16.10.122::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Arch Island Keep - LE 16.10.122::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -106,7 +112,19 @@ Time: 18:31. From: Keep (E6). To: Crimson (H7). Unit: P-010. Cargo Id: PASS3.
 Time: 20:34. From: Quarry (L5). To: Keep (E6). Unit: HT-001. Cargo Id: 7773910.
 Time: 21:32. From: Citadel (G1). To: Keep (E6). Unit: P-011. Cargo Id: PASS1.
 Time: 22:42. From: Keep (E6). To: BSBRF (K11). Unit: P-011. Cargo Id: PASS1.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LE 16.10.122:
+
+Час: 12:34. З: Nexus (K7). До: Keep (E6). Одиниця: T-033. Ідентифікатор вантажу: 8901733.
+Час: 13:00. З: Keep (E6). До: West Depot (B7). Одиниця: T-033. Ідентифікатор вантажу: None.
+Час: 13:44. З: Nexus (K7). До: Keep (E6). Одиниця: T-015. Ідентифікатор вантажу: 9980182.
+Час: 13:50. З: West Depot (B7). До: Keep (E6). Одиниця: HT-001. Ідентифікатор вантажу: 0287899.
+Час: 14:30. З: Keep (E6). До: Quarry (L5). Одиниця: HT-001. Ідентифікатор вантажу: None.
+Час: 14:34. З: Keep (E6). До: Nexus (K7). Одиниця: T-015. Ідентифікатор вантажу: 1903561.
+Час: 18:22. З: Crimson (H7). До: Keep (E6). Одиниця: P-010. Ідентифікатор вантажу: PASS3.
+Час: 18:31. З: Keep (E6). До: Crimson (H7). Одиниця: P-010. Ідентифікатор вантажу: PASS3.
+Час: 20:34. З: Quarry (L5). До: Keep (E6). Одиниця: HT-001. Ідентифікатор вантажу: 7773910.
+Час: 21:32. З: Citadel (G1). До: Keep (E6). Одиниця: P-011. Ідентифікатор вантажу: PASS1.
+Час: 22:42. З: Keep (E6). До: BSBRF (K11). Одиниця: P-011. Ідентифікатор вантажу: PASS1.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -116,7 +134,7 @@ Time: 22:42. From: Keep (E6). To: BSBRF (K11). Unit: P-011. Cargo Id: PASS1.::&l
       </mda:metadata>
       <segment state="translated">
         <source>::Import coordinates to your NCD::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імпортувати координати до вашого NCD::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -136,7 +154,17 @@ Viridescent Quarry - L4
 
 Imported successfully.
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імпорт координат...
+
+West Storage Depot - B7
+Arch Island Keep - E6
+Crimson Meadow Horticulture Center - H7
+Nexus of Technology - K7
+Blistering Shores Research Facility - L12
+Viridescent Quarry - L4
+
+Імпорт виконано успішно.
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -146,7 +174,7 @@ Imported successfully.
       </mda:metadata>
       <segment state="translated">
         <source>::Obtain Course docking coordinates for listed locations::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Отримати координати курсу для перелічених місць розташування::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -156,7 +184,7 @@ Imported successfully.
       </mda:metadata>
       <segment state="translated">
         <source>::No coordinates available.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Координати недоступні.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -166,7 +194,7 @@ Imported successfully.
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -176,7 +204,7 @@ Imported successfully.
       </mda:metadata>
       <segment state="translated">
         <source>::Crimson Meadow Horticulture Center - LE 15.10.122::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Crimson Meadow Horticulture Center - LE 15.10.122::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -201,7 +229,22 @@ Time: 19:24. From: Crimson (H7). To: Nexus (K7). P-023. Cargo Id: PASS2.
 Time: 21:21. From: BSBRF (K11). To: Crimson (H7). Unit: T-011. Cargo Id: 2018706.
 Time: 22:19. From: Crimson (H7). To: BSBRF (K11). Unit: T-011. Cargo Id: None.
 Time: 23:23. From: Citadel (G1). To: Crimson (H7). Unit: P-009. Cargo Id: PASS3.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LE 15.10.122:
+
+Час: 10:28. З: Quarry (L5). До: Crimson (H7). Одиниця T-021. Ідентифікатор вантажу: 2911326.
+Час: 11:12. З: Crimson (H7). До: Citadel (G1).Одиниця T-021. Ідентифікатор вантажу: None.
+Час: 11:51. З: Crimson (H7). До: Health (I1). P-009. Ідентифікатор вантажу: PASS3.
+Час: 13:22. З: Keep (E6). До: Crimson (H7). HT-004. Ідентифікатор вантажу: 9187332.
+Час: 14:35. З: JSHQ (F12). До: Crimson (H7). P-001. Ідентифікатор вантажу: PASS1.
+Час: 15:09. З: Crimson (H7). До: West Depot (B7). HT-004. Ідентифікатор вантажу: 1787920.
+Час: 17:31. З: Crimson (H7). До: JSHQ (F12). P-001. Ідентифікатор вантажу: PASS1.
+Час: 17:38. З: LEMCO (K3). До: Crimson (H7). HT-002. Ідентифікатор вантажу: 0029321.
+Час: 17:54. З: Nexus (K7). До: Crimson (H7). P-023. Ідентифікатор вантажу: PASS2.
+Час: 18:03. З: Crimson (H7). До: LEMCO (K3). HT-002. Ідентифікатор вантажу: None.
+Час: 19:24. З: Crimson (H7). До: Nexus (K7). P-023. Ідентифікатор вантажу: PASS2.
+Час: 21:21. З: BSBRF (K11). До: Crimson (H7). Одиниця: T-011. Ідентифікатор вантажу: 2018706.
+Час: 22:19. З: Crimson (H7). До: BSBRF (K11). Одиниця: T-011. Ідентифікатор вантажу: None.
+Час: 23:23. З: Citadel (G1). До: Crimson (H7). Одиниця: P-009. Ідентифікатор вантажу: PASS3.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -211,7 +254,7 @@ Time: 23:23. From: Citadel (G1). To: Crimson (H7). Unit: P-009. Cargo Id: PASS3.
       </mda:metadata>
       <segment state="translated">
         <source>::Import coordinates to your NCD::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імпортувати координати до вашого NCD::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -234,7 +277,20 @@ Blistering Shores Research Facility - L12
 
 Importing successful.
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імпорт координат...
+
+Viridescent Quarry - L4
+Crimson Meadow Horticulture Center - H7
+Lemurian Health Center - I1
+Citadel of Life - G1
+Arch Island Keep - E6
+Joint Security Headquarters - F12
+Lemurian Manufacturing Complex - K3
+Nexus of Technology - K7
+Blistering Shores Research Facility - L12
+
+Імпорт виконано успішно.
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -244,7 +300,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Obtain Course docking coordinates for listed locations::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Отримати координати курсу для перелічених місць розташування::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -254,7 +310,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Obtaining coordinates...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Отримання координат...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -269,7 +325,12 @@ Abyssal Station Zero Elevators - 020 476 118 263 2115
 Nexus of Technology - Error (Unable to obtain coordinates)
 Blistering Shores Research Facility - N/A
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Joint Security Headquarters - N/A
+Arch Island Keep - Помилка (Не вдалося отримати координати)
+Abyssal Station Zero Elevators - 020 476 118 263 2115
+Nexus of Technology - Помилка (Не вдалося отримати координати)
+Blistering Shores Research Facility - N/A
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">

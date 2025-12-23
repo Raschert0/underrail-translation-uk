@@ -10,7 +10,9 @@
         <source>::The man clears his throat before speaking.::
 
 Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you need assistance?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Чоловік прокашлюється, перш ніж заговорити.::
+
+Доброго дня, $(#сер/пані). Я Охоронець Кевін Грей з Фундаментової Варти. Вам потрібна допомога?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>You know... I'm interested in obtaining some weapons and ammo. Could you by any chance... help with any of that, hmm?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Знаєте... я зацікавлений в отриманні зброї та боєприпасів. Чи могли б ви якимось чином... допомогти з цим, гм?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>I... don't know what you're talking about. Perhaps you should see one of the local merchants regarding... that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я... не знаю, про що ви говорите. Можливо, вам варто звернутися до одного з місцевих торговців щодо... цього.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: Shame, I suppose I'll have to spend my money elsewhere. That will be difficult. 'Cause I have lots of it. Yeah.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торгівля]:: Шкода, мабуть, доведеться витратити свої гроші деінде. Це буде складно. Бо в мене їх багато. Так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Alright, alright. You heard correctly, I can get you military grade weapons and ammunition - but just so we're clear: Not a single word about this to anyone. Understand? Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, гаразд. Ви правильно почули, я можу дістати вам військову зброю та боєприпаси - але щоб все було зрозуміло: ні слова про це нікому. Зрозуміло? Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Show me what you've got. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Покажіть, що у вас є. ::Торгуватися.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Can't help you with that, I'm terribly sorry. Is there something else you wanted to ask me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не можу вам з цим допомогти, мені дуже шкода. Чи є ще щось, про що ви хотіли мене запитати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -90,7 +92,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: Oh, you *do* know what I'm talking about. I've been told you're the one to talk to if I need weapons. I can keep quiet, I promise.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконати]:: О, ви *знаєте*, про що я говорю. Мені сказали, що до вас потрібно звертатися, якщо мені потрібна зброя. Я можу зберігати мовчання, обіцяю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +102,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Alright, alright. You heard correctly, I can get you military grade weapons and ammunition - but just so we're clear: Not a single word about this to anyone. Understand? Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, гаразд. Ви правильно почули, я можу дістати вам військову зброю та боєприпаси - але щоб все було зрозуміло: ні слова про це нікому. Зрозуміло? Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -110,7 +112,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>I think you're talking to the wrong person. I can't help you, I'm terribly sorry.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гадаю, ви звертаєтеся не до тієї людини. Я не можу вам допомогти, мені дуже шкода.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -120,7 +122,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Oh well. In that case, I'd like to ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну добре. В такому випадку я хотів би запитати вас про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -130,7 +132,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Like what?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Про що?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -140,7 +142,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: I'm a serious buyer, Kevin, and I think you haven't realized that just yet. Why I say that? Well, I still haven't really seen any of the really high-grade stuff someone such as yourself should be offering.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торгівля]:: Я серйозний покупець, Кевіне, і я думаю, що ви ще не усвідомили цього. Чому я так кажу? Ну, я ще не бачив справді висококласних речей, які хтось такий, як ви, повинен пропонувати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Well... A serious buyer should have some serious coin on $(#him/her). Alright, alright. I'll show you the rest of my inventory. But you know the drill: You keep quiet about this and we're golden. Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну... Серйозний покупець повинен мати серйозні гроші $(#з собою). Гаразд, гаразд. Я покажу вам решту своїх товарів. Але ви знаєте правила: ви мовчите про це, і все буде добре. Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -170,7 +172,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Alright. Check this out.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре. Перевірте це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -180,7 +182,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Торгуватися.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -190,7 +192,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>What you see is what you get. I've got nothing else to show you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що бачиш, те й отримуєш. Більше нічого показати не можу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -200,7 +202,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Where do you get all these weapons, if I may ask?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звідки ви берете всю цю зброю, якщо можна запитати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -210,7 +212,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>That is none of your business.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це не твоя справа.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -220,7 +222,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>I'll pretend you never asked me this question.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я прикинуся, що ти ніколи не питав мене про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -230,7 +232,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>What does an overseer do?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що робить охоронець?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -240,7 +242,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Oversees the Foundry guards. I think it's pretty self-explanatory.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наглядає за Фундаментовою вартою. Думаю, все зрозуміло.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -250,7 +252,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Any more questions?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ще якісь питання?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -260,7 +262,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Do you remember anyone coming to you with any strange items? Anything really striking?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи пам’ятаєш ти, щоб хтось приходив до тебе з якимись дивними речами? Щось справді вражаюче?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -270,7 +272,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Really striking? That's very vague. No... I don't remember anything like that. Sorry, it's not like I have a lot of people coming here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Справді вражаюче? Це дуже розпливчасто. Ні... Я нічого такого не пам'ятаю. Вибачте, до мене не так багато людей приходить.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -280,7 +282,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Maybe you should ask around; news of unusual things spread pretty fast throughout Foundry, as is the case with any station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, варто розпитати; новини про незвичайні речі поширюються дуже швидко по Foundry, як і на будь-якій станції.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -290,7 +292,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Foundry?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про Foundry?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -300,7 +302,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Foundry is undeniably the safest station in South Underrail. It is utterly unbreachable and, let me tell you straight away, it's rivaling even Underrail Protectorate's Fort Apogee. All that due to a strong position and the indisputable valor of the Foundry Guard, who exist to serve and protect all within the station walls. If you find yourself in any trouble, or need help otherwise, simply find one of the guards and they will gladly assist you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Foundry безсумнівно найбезпечніша станція в South Underrail. Вона абсолютно неприступна і, дозвольте мені відразу сказати, конкурує навіть з Fort Apogee Underrail Protectorate. Все завдяки вигідному розташуванню та незаперечній відвазі Foundry Guard, які існують, щоб служити та захищати всіх у межах станції. Якщо ви потрапите в біду, або потребуватимете допомоги, просто знайдіть одного з охоронців, і вони охоче вам допоможуть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -310,7 +312,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Although, maybe you can take care of yourself just fine.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хоча, можливо, ви цілком здатні подбати про себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -320,7 +322,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>One word of warning, though: Don't go near the mine. Also, if you need water, Claude can help you with that; avoid other sources. You'll hear him before you see him, don't worry.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Одне попередження, проте: не наближайтеся до шахти. Також, якщо вам потрібна вода, Claude може вам з цим допомогти; уникайте інших джерел. Ви почуєте його раніше, ніж побачите, не хвилюйтеся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -330,7 +332,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>That's all you need to know for now. Take care.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все, що вам потрібно знати на даний момент. Бережіть себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -340,7 +342,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>How do you feel now that the mine has been reopened?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви почуваєтеся зараз, коли шахту знову відкрито?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -350,7 +352,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>You came here to hear me congratulate you on a job well done? To thank you for helping us take care of the Beast? Listen, $(context.player.Name), the Foundry Guard can handle its own problems; there was never a need for an outsider to interfere. Remember that. You just came along for the ride.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви прийшли сюди, щоб я привітав вас з добре виконаною роботою? Щоб подякував за допомогу в боротьбі з Beast? Слухайте, $(context.player.Name), Foundry Guard може самостійно вирішувати свої проблеми; ніколи не було потреби в втручанні ззовні. Пам'ятайте це. Ви просто приєдналися до процесу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -360,7 +362,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>On the other hand - you have guts, I can give you that. But don't let it go to your head, understand?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">З іншого боку - у вас є сміливість, це я можу визнати. Але не дозволяйте цьому затьмарити вам розум, зрозуміло?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -370,7 +372,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Do you know anything about the mine creatures?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви щось знаєте про істот з шахти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -380,7 +382,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Ah... you learned about that quickly. Well, few people have seen those things in person. What happened was, some miners tunneled into a cavern and ran into these odd rocky creatures. Those things were incredibly aggressive and the mining operation had to be halted, rightfully so. Some miners were - sadly - killed, and because of that we're on high alert right now. We even suspect that the creatures are somehow... uh... never mind.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах... ви швидко дізналися про це. Ну, мало хто бачив цих істот на власні очі. Сталося так, що деякі шахтарі прокопали тунель у печеру і натрапили на цих дивних кам'яних істот. Вони були неймовірно агресивними, і видобуток довелося зупинити, цілком справедливо. Деякі шахтарі були - на жаль - вбиті, і тому зараз ми в стані підвищеної готовності. Ми навіть підозрюємо, що істоти якимось чином... гм... нічого.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -390,7 +392,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>The officials are currently discussing the situation and planning the next move. We'll see what they'll come up with. In the mean time, you take care and keep away from the mine. Understand?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Посадовці зараз обговорюють ситуацію та планують наступний крок. Подивимося, що вони придумають. А поки що, бережіть себе і тримайтеся подалі від шахти. Зрозуміло?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -400,7 +402,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Why didn't someone already arrest that derailed robed dude?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ніхто ще не заарештував того збожеволілого вдягненого в робу?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -410,7 +412,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>You mean the Tchort guy? I'd rather shoot him, but that would be against the law. As for not arresting him, I suppose someone higher up the chain grew fond of the guy, I don't know. Besides, he never caused any major disturbance, he's only annoying the marbles out of everyone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви маєте на увазі Tchort? Я б краще його застрелив, але це було б протизаконно. Що стосується того, чому його не заарештували, то, мабуть, хтось вище по службі полюбив цього хлопця, я не знаю. Крім того, він ніколи не влаштовував серйозних заворушень, він просто дратує всіх.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -420,7 +422,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>And he never gets tired! Unbelievable...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І він ніколи не втомлюється! Неймовірно...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -430,7 +432,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>I have to go. See you later.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені треба йти. Побачимося пізніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -440,7 +442,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Hey - just in time. Check out the new stuff I just got.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей - якраз вчасно. Подивіться на нові речі, які я щойно дістав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -450,7 +452,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Maybe later. I came here for other reasons.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, пізніше. Я прийшов сюди з інших причин.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -460,7 +462,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>What other reasons?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Які ще причини?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -470,7 +472,7 @@ Good day, $(#sir/ma'am). I'm Overseer Kevin Grey of the Foundry Guard. Do you ne
       </mda:metadata>
       <segment state="translated">
         <source>Need something?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вам щось потрібно?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

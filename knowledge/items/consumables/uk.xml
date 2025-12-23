@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Immediately restores {0} psi.</source>
-        <target state="new" />
+        <target state="needs-translation">Негайно відновлює {0} пси.</target>
       </segment>
     </unit>
     <unit id="::PsiBooster2" name="::PsiBooster2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Immediately restores {0} psi points from the reserves. If the reserves lack enough points, those missing points are generated at {1}% efficency.</source>
-        <target state="new" />
+        <target state="needs-translation">Негайно відновлює {0} пси з резервів. Якщо в резервах недостатньо очок, відсутні очки генеруються з ефективністю {1}%.</target>
       </segment>
     </unit>
     <unit id="::AdrenalineShot" name="::AdrenalineShot">
@@ -29,7 +29,8 @@
       <segment state="translated">
         <source>Increases action points by {0}, dodge and evasion by {1}% and strength by {2} for {3}, temporarily removing any fatigue.
 After the effect expires, the consumer will be worn out.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує кількість очок дії на {0}, ухилення та уникнення на {1}% і силу на {2} протягом {3}, тимчасово знімаючи будь-яку втому.
+Після закінчення дії споживач буде виснажений.</target>
       </segment>
     </unit>
     <unit id="::AdrenalineShot-Old" name="::AdrenalineShot-Old">
@@ -40,7 +41,8 @@ After the effect expires, the consumer will be worn out.</source>
       <segment state="translated">
         <source>Increases movement speed by {0}%, decreases time between attacks by {1}%, and increases dodge and evasion by {2}% for {3} seconds, temporarily removing any fatigue.
 After the effect expires, the consumer will be worn out.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує швидкість пересування на {0}%, зменшує час між атаками на {1}%, і збільшує ухилення та уникнення на {2}% протягом {3} секунд, тимчасово знімаючи будь-яку втому.
+Після закінчення дії споживач буде виснажений.</target>
       </segment>
     </unit>
     <unit id="::MindDart" name="::MindDart">
@@ -52,7 +54,9 @@ After the effect expires, the consumer will be worn out.</source>
         <source>Immediately restores {0} psi and additional {1} psi each turn for {2}. Stacks up {3} times. 
 
 Causes psionic withdrawal effect when it expires. Intensity of this effect depends on the number of stacks as well as if the user was already under its effect before new consumation.</source>
-        <target state="new" />
+        <target state="needs-translation">Негайно відновлює {0} пси та додаткові {1} пси кожного ходу протягом {2}. Накопичується до {3} разів.
+
+Викликає ефект психічної абстиненції після закінчення дії. Інтенсивність цього ефекту залежить від кількості накопичень, а також від того, чи користувач вже перебував під його впливом до нового споживання.</target>
       </segment>
     </unit>
     <unit id="::MindDart-Old" name="::MindDart-Old">
@@ -64,7 +68,9 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
         <source>Increases psi regeneration by {0}% plus {1} for {2} seconds. Stacks up {3} times. 
 
 Causes psionic withdrawal effect when it expires. Intensity of this effect depends on the number of stacks as well as if the user was already under its effect before new consumation.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує регенерацію пси на {0}% плюс {1} протягом {2} секунд. Накопичується до {3} разів.
+
+Викликає ефект психічної абстиненції після закінчення дії. Інтенсивність цього ефекту залежить від кількості накопичень, а також від того, чи користувач вже перебував під його впливом до нового споживання.</target>
       </segment>
     </unit>
     <unit id="::RestoreItemEnergy" name="::RestoreItemEnergy">
@@ -74,7 +80,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Recharges an item with {0} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Перезаряджає предмет на {0} енергії.</target>
       </segment>
     </unit>
     <unit id="::RestoreWeaponEnergy" name="::RestoreWeaponEnergy">
@@ -84,7 +90,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Recharges the current energy-based weapon with {0} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Перезаряджає поточну зброю, що працює на енергії, на {0} енергії.</target>
       </segment>
     </unit>
     <unit id="::RestoreObjectEnergy" name="::RestoreObjectEnergy">
@@ -94,7 +100,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Recharges a large energy storage object with {0} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Перезаряджає великий об'єкт зберігання енергії на {0} енергії.</target>
       </segment>
     </unit>
     <unit id="::Antidote" name="::Antidote">
@@ -104,7 +110,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Removes up to {0} stacks of poison.</source>
-        <target state="new" />
+        <target state="needs-translation">Видаляє до {0} накопичень отрути.</target>
       </segment>
     </unit>
     <unit id="::Bandage" name="::Bandage">
@@ -114,7 +120,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Restores {0} health points over {1} seconds. Health must be over {2}% in order for bandages to be effective.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} пунктів здоров'я протягом {1} секунд. Здоров'я має бути більше {2}%, щоб бинти були ефективними.</target>
       </segment>
     </unit>
     <unit id="::MorphineHypo" name="::MorphineHypo">
@@ -124,7 +130,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Reduces damage taken from all sources by {0}% for {1}. After the effect expires the character takes damage equal to {2}% of their missing health.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує отриманий з усіх джерел урон на {0}% протягом {1}. Після закінчення дії персонаж отримує урон, рівний {2}% від його відсутнього здоров'я.</target>
       </segment>
     </unit>
     <unit id="::Nervosomnifer" name="::Nervosomnifer">
@@ -134,7 +140,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Reduces damage taken from all sources by {0}% for {1}. After the effect expires the character takes damage equal to {2}% of their missing health.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує отриманий з усіх джерел урон на {0}% протягом {1}. Після закінчення дії персонаж отримує урон, рівний {2}% від його відсутнього здоров'я.</target>
       </segment>
     </unit>
     <unit id="::Irongut" name="::Irongut">
@@ -144,7 +150,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Reduces all biological damage taken by {0}% for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує весь біологічний урон, що отримується, на {0}% протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::Trance" name="::Trance">
@@ -154,7 +160,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases critical damage bonus of psi abilities by {0}% and psi cost by {1}% for {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує бонус критичного урону від пси-здатностей на {0}% і вартість пси на {1}% протягом {2}.</target>
       </segment>
     </unit>
     <unit id="::Aegis" name="::Aegis">
@@ -164,7 +170,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Reduces all damage taken by {0}% for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує весь отриманий урон на {0}% протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::FocusStim" name="::FocusStim">
@@ -174,7 +180,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases critical chance with weapons, unarmed combat and psionics by {0}% for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує шанс критичного удару зброєю, рукопашним боєм і псионікою на {0}% протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::JumpingBean" name="::JumpingBean">
@@ -184,7 +190,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases dodge and evasion by {0}%. Also increases movement points by {1} while not in stealth. Lasts {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує ухилення та уникнення на {0}%. Також збільшує кількість очок пересування на {1} під час перебування не в режимі скритності. Триває {2}.</target>
       </segment>
     </unit>
     <unit id="::Hercules" name="::Hercules">
@@ -194,7 +200,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases strength, dexterity, agility, and constitution by {0} for {1}... but at what cost?</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує силу, спритність, вправність і витривалість на {0} протягом {1}... але якою ціною?</target>
       </segment>
     </unit>
     <unit id="::Bullhead" name="::Bullhead">
@@ -204,7 +210,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Grants stun, daze, and incapacitation immunity for {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Надає імунітет до оглушення, приголомшення та знерухомлення протягом {0}.</target>
       </segment>
     </unit>
     <unit id="::PsiReinvigorator" name="::PsiReinvigorator">
@@ -214,7 +220,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Removes psionic inhibition.</source>
-        <target state="new" />
+        <target state="needs-translation">Видаляє психічну пригніченість.</target>
       </segment>
     </unit>
     <unit id="::RegenerativeMixture" name="::RegenerativeMixture">
@@ -224,7 +230,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Regenerates {0} health each turn for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Регенерує {0} здоров'я кожного ходу протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::SupersoldierDrug" name="::SupersoldierDrug">
@@ -234,7 +240,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases strength, dexterity, agility, constitution, and perception by {0} and all combat skills by {1}% for {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує силу, спритність, вправність, витривалість і сприйняття на {0} і всі бойові навички на {1}% протягом {2}.</target>
       </segment>
     </unit>
     <unit id="::TheJuice" name="::TheJuice">
@@ -244,7 +250,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases perception by {0} and grants the character the gift of second sight.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує сприйняття на {0} і дарує персонажу дар прозорливості.</target>
       </segment>
     </unit>
     <unit id="::PsionicAccelerator" name="::PsionicAccelerator">
@@ -254,7 +260,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases psi regeneration by {0}% for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує регенерацію пси на {0}% протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::Hypercerebrix" name="::Hypercerebrix">
@@ -264,7 +270,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases intelligence by {0} for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує інтелект на {0} протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::CoagulationShot" name="::CoagulationShot">
@@ -274,7 +280,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Removes up to {0} bleeding wounds.</source>
-        <target state="new" />
+        <target state="needs-translation">Видаляє до {0} кровотечних ран.</target>
       </segment>
     </unit>
     <unit id="::Twitch" name="::Twitch">
@@ -284,7 +290,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases initiative by {0} for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує ініціативу на {0} протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::ThirdEye" name="::ThirdEye">
@@ -294,7 +300,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases detection by {0}% and perception by {1} for the purpose of detecting hidden passages and other secrets for {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує виявлення на {0}% і сприйняття на {1} з метою виявлення прихованих проходів та інших секретів протягом {2}.</target>
       </segment>
     </unit>
     <unit id="::HealingSalve" name="::HealingSalve">
@@ -306,7 +312,9 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
         <source>Instantly restores {0} health points and then additional {1} health points each turn for {2}.
 
 Unfortunately, it also slightly blurs the vision and numbs the fingers, reducing perception and dexterity by {3} for {4}.</source>
-        <target state="new" />
+        <target state="needs-translation">Миттєво відновлює {0} пунктів здоров'я, а потім додаткові {1} пунктів здоров'я кожного ходу протягом {2}.
+
+На жаль, це також трохи розмиває зір і оніміє пальці, зменшуючи сприйняття і спритність на {3} протягом {4}.</target>
       </segment>
     </unit>
     <unit id="::SpiritPotion" name="::SpiritPotion">
@@ -318,7 +326,9 @@ Unfortunately, it also slightly blurs the vision and numbs the fingers, reducing
         <source>Instantly restores {0} psi points and then additional {1} psi points each turn for {2}.
 
 Unfortunately, it also puts an unwholesome burden on the mind, reducing will by {3} and resolve by {4}% for {5}.</source>
-        <target state="new" />
+        <target state="needs-translation">Миттєво відновлює {0} пси-очок, а потім додаткові {1} пси-очок кожного ходу протягом {2}.
+
+На жаль, це також накладає нездорову ношу на розум, зменшуючи волю на {3} і рішучість на {4}% протягом {5}.</target>
       </segment>
     </unit>
     <unit id="::VitalityPowder" name="::VitalityPowder">
@@ -329,7 +339,8 @@ Unfortunately, it also puts an unwholesome burden on the mind, reducing will by 
       <segment state="translated">
         <source>Increases action points by {0}, dodge and evasion by {1}% and strength by {2} for {3}, temporarily removing any fatigue.
 After the effect expires, the consumer will be worn out and also lose {4} health each turn for {5}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує кількість очок дії на {0}, ухилення та уникнення на {1}% і силу на {2} протягом {3}, тимчасово знімаючи будь-яку втому.
+Після закінчення дії споживач буде виснажений і також втрачатиме {4} здоров'я кожного ходу протягом {5}.</target>
       </segment>
     </unit>
     <unit id="::BioluminousSwampHoney" name="::BioluminousSwampHoney">
@@ -339,7 +350,7 @@ After the effect expires, the consumer will be worn out and also lose {4} health
       </mda:metadata>
       <segment state="translated">
         <source>Increases perception by {0} and regenerates {1} health points each turn for {2}. Also makes the consumer glow.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує сприйняття на {0} і регенерує {1} пунктів здоров'я кожного ходу протягом {2}. Також змушує споживача світитися.</target>
       </segment>
     </unit>
     <unit id="::Cigar" name="::Cigar">
@@ -349,7 +360,7 @@ After the effect expires, the consumer will be worn out and also lose {4} health
       </mda:metadata>
       <segment state="translated">
         <source>Increases psi regeneration by {0}, but reduces constitution by {1} for {2} minutes. Requires a lighter.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує регенерацію пси на {0}, але зменшує витривалість на {1} протягом {2} хвилин. Потрібен запальничка.</target>
       </segment>
     </unit>
     <unit id="::PsionicInhalant" name="::PsionicInhalant">
@@ -359,7 +370,7 @@ After the effect expires, the consumer will be worn out and also lose {4} health
       </mda:metadata>
       <segment state="translated">
         <source>Restores {0} reserve psi points and {1} psi points over {2} seconds.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} резервних пси-очок і {1} пси-очок протягом {2} секунд.</target>
       </segment>
     </unit>
     <unit id="::PsiReconstructivePill" name="::PsiReconstructivePill">
@@ -369,7 +380,7 @@ After the effect expires, the consumer will be worn out and also lose {4} health
       </mda:metadata>
       <segment state="translated">
         <source>Permanently removes the {0} feat, making you depend on your intelligence base ability for the number of psi slots.</source>
-        <target state="new" />
+        <target state="needs-translation">Назавжди видаляє талант {0}, змушуючи вас покладатися на базову здатність інтелекту для кількості пси-слотів.</target>
       </segment>
     </unit>
     <unit id="::StatBooster" name="::StatBooster">
@@ -379,7 +390,7 @@ After the effect expires, the consumer will be worn out and also lose {4} health
       </mda:metadata>
       <segment state="translated">
         <source>Permanently increases {0} by 1.</source>
-        <target state="new" />
+        <target state="needs-translation">Назавжди збільшує {0} на 1.</target>
       </segment>
     </unit>
   </file>

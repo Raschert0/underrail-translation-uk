@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::Loud noise wakes you up. You quickly regain consciousness and stand on your feet as you realize you've been just dragged in, what seems to be an improvised prisoner section.::
 
 Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can't hold it in anymore ::He grabs his crotch.:: I *umpf*, I gotta take a leak.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Гучний шум розбуджує вас. Ви швидко оговтуєтеся і встаєте на ноги, коли розумієте, що вас просто затягнули, здається, в імпровізований сектор для ув'язнених.::
+
+Грег, підніми те, що ми знайшли на $(#ньому/ній) і поверни це туди. Аргх, я більше не можу стримуватися ::Він хапається за промежину.:: Я *уф*, мені потрібно попісяти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can
       </mda:metadata>
       <segment state="translated">
         <source>Uhhh, okay man. I hate going back there in the dark. ::He looks down on his partner. You notice he has some of your stuff on him. Something is off about him though, as it seems he's struggling to carry your equipment.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Емм, добре, друже. Я ненавиджу повертатися туди в темряві. ::Він дивиться вниз на свого партнера. Ви помічаєте, що у нього є деякі ваші речі. Щось з ним не так, оскільки здається, що йому важко нести ваше спорядження.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can
       </mda:metadata>
       <segment state="translated">
         <source>Get me out of here!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Випустіть мене звідси!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can
       </mda:metadata>
       <segment state="translated">
         <source>Huh... Ummm, you just wait for your turn. ::He then gestures throat-slicing with his left hand while making a sinister grin on his face.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хм... Емм, просто чекай своєї черги. ::Він потім жестикулює перерізанням горла лівою рукою, роблячи зловісну посмішку на обличчі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -60,7 +62,7 @@ Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can
       </mda:metadata>
       <segment state="translated">
         <source>::Punch fence.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ударити парканом.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can
       </mda:metadata>
       <segment state="translated">
         <source>::Stay silent.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залишатися мовчазним.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can
       </mda:metadata>
       <segment state="translated">
         <source>Who the hell are you people?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто ви, люди?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can
       </mda:metadata>
       <segment state="translated">
         <source>Hey, food! Keep it down or I'll eat you raw! ::They both turn around and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей, їжа! Замовкни, інакше я з'їм тебе сирим! ::Вони обидва повертаються і йдуть.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -102,7 +104,9 @@ Greg, pick up what we've found on $(#him/her) and get it back there. Argh, I can
         <source>::In the blink of an eye, a long knife is facing you. Despite the low illumination of the cave where you stand, a tiny light glances off of the polished blade, obstructing your vision. You struggle to get a clear picture of your ambusher as he blends really well with the enviroment.::
 
 Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towards you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мгновение ока, и длинный нож направлен на вас. Несмотря на слабое освещение пещеры, крошечный блик света отражается от отполированного клинка, заслоняя вам обзор. Вы пытаетесь разглядеть нападавшего, который отлично маскируется в окружающей среде.::
+
+Руки за спину, или я вам их отрежу! :: Он медленно надвигается клинком.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -112,7 +116,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>Okay, okay you got me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ладно, ладно, ты меня поймал.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -122,7 +126,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>::He doesn't waste any time. With lightning speed he dashes next to you. As if he was trained to do this, simultaneously during his approach, he pulls out a crowbar and with it, knocks your head with great precission. The blow hits you in the perfect spot, knocking you out in the process.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Он не теряет времени. С молниеносной скоростью он бросается к вам. Кажется, он тренировался этому, одновременно с приближением он достает монтировку и с невероятной точностью ударяет вас по голове. Удар приходится точно в цель, лишая вас сознания.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -132,7 +136,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>::Continue.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Продолжайте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -142,7 +146,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>::Put your hands behind your back.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Положите руки за спину.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -152,7 +156,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>Damn it! ::Put your hands behind your back.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Черт возьми! ::Положите руки за спину.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -162,7 +166,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>You're not getting me alive! ::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вы меня живым не возьмете! ::Драться!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -172,7 +176,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>You are not getting away with this!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вы не уйдете от этого!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -182,7 +186,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Драться!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -202,7 +206,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>::You can see the keychain with a single key on his right hip. Looking at his eyes you realize he is not really paying attention to you, as if he cannot see you. Observing him further, you realize that he is actually cross-eyed. At this point, it's hard to tell if he has any idea what's going on behind the bars where you are. The fence before you has several large gaps in it::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вы видите брелок с одним ключом на его правом бедре. Глядя в его глаза, вы понимаете, что он не обращает на вас внимания, словно не видит вас. Наблюдая за ним, вы замечаете, что он косоглаз. В данный момент трудно сказать, понимает ли он вообще, что происходит за решеткой, где вы находитесь. Перед вами забор с несколькими большими проемами.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -212,7 +216,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>::[Dexterity] Attempt to snatch the key.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Ловкость] Попытайтесь выхватить ключ.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -222,7 +226,7 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
       </mda:metadata>
       <segment state="translated">
         <source>::You push your hand through the broken fence in front of him. ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вы протягиваете руку через сломанный забор перед ним.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -234,7 +238,9 @@ Hands behind your back or I'll chop 'em off! :: He slowly inches the blade towar
         <source>::With great precission you snatch the key from his keychain, making minimal noise.::
 
 Huh? ::Without looking, he tries to feel out the location of his keychain. The way he is looking in your direction, you realize he's not aware of your pressence. :: Did I drop it again? :: He starts looking at the floor around himself, finding nothing. ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::С невероятной точностью вы выхватываете ключ из его брелока, почти не издав шума.::
+
+Что? ::Не оборачиваясь, он пытается нащупать место, где был брелок. Судя по тому, куда он смотрит, он не осознает вашего присутствия.:: Я его снова уронил? :: Он начинает искать на полу вокруг себя, но ничего не находит.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -244,7 +250,7 @@ Huh? ::Without looking, he tries to feel out the location of his keychain. The w
       </mda:metadata>
       <segment state="translated">
         <source>::Stay quiet.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Сохраняйте тишину.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -256,7 +262,9 @@ Huh? ::Without looking, he tries to feel out the location of his keychain. The w
         <source>::You grab onto a key but you struggle to pull it off. The noise and the pulling you made, grab his attention and he pushes your hand away from him. ::
 
 You will pay for that!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вы хватаетесь за ключ, но с трудом вытаскиваете его. Шум и ваши усилия привлекают его внимание, и он отталкивает вашу руку.::
+
+За это ты заплатишь!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -266,7 +274,7 @@ You will pay for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Драться!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -276,7 +284,7 @@ You will pay for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Melee] and [Strength] Try to punch him.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Рукопашный бой] и [Сила] Попытайтесь ударить его.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -286,7 +294,7 @@ You will pay for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Carefully you position yourself to punch him into the guts. ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вы осторожно занимаете позицию, чтобы ударить его в живот.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -296,7 +304,7 @@ You will pay for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::With all strength you can muster, you swing your hand and your fists slightly catches the fence, casuing your attack to land on his liver. He drops down on his knees, reeling in pain. You don't waste a second as you wind up for another punch. This time your fist flies clean through the opening in fence. As your hand connects with his face, you can feel the bones crumbling beneath your fist, as the blood ruptures like a fountain. His head bounces back from the impact as it slams the boxes in behind. The strike was a perfect one, killing him on the spot. :: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Собрав все силы, вы замахиваетесь, и ваш кулак слегка задевает забор, из-за чего ваш удар приходится по печени. Он падает на колени, корчась от боли. Вы не теряете ни секунды и замахиваетесь для еще одного удара. На этот раз ваш кулак пролетает сквозь отверстие в заборе. Когда ваша рука касается его лица, вы чувствуете, как ломаются кости, а кровь брызжет фонтаном. Его голова отскакивает от удара, ударяясь о ящики сзади. Удар был идеальным, он умирает на месте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -306,7 +314,7 @@ You will pay for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Grab the key and push him aside.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Возьмите ключ и оттолкните его в сторону.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -318,7 +326,9 @@ You will pay for that!&lt;end&gt;</source>
         <source>::You focus really hard to launch the attack aimed at his crotch. Mid air, your hand catches the fence and it causes sharp pain to you. Your hand bends slightly, making your punch miss the mark, as it lands on his left thigh. Shocked, you quickly pull back your hand as he raises his weapon.::
 
 Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вы изо всех сил стараетесь нанести удар в пах. В воздухе ваша рука задевает забор, причиняя вам острую боль. Ваша рука немного сгибается, из-за чего удар промахивается и попадает в его левое бедро. В шоке вы быстро отдергиваете руку, когда он поднимает свое оружие.::
+
+Ах! Что за черт!? Я заставлю тебя страдать за это!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -328,7 +338,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Драться!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -338,7 +348,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Stab him with the shiv.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ударьте его шилом.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -350,7 +360,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
         <source>::You kick the fence close to the ground, causing some noise. He reacts to it by slightly lowering his head, trying to see what was the cause. In a blink of an eye, you uncover your shiv and stab him precisely into his neck. From the initial shock, he raises his head back up, expanding the would in process as you hold firm to the shiv. At last, you move the shiv to the other side, slicing a huge chunk of his throat. A huge gush of blood starts pouring out as he starts to collapse.::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вы пинаете забор возле земли, создавая шум. Он реагирует, слегка опустив голову, пытаясь понять, что произошло. В мгновение ока вы достаете шило и точно вонзаете его в шею. От первоначального шока он поднимает голову, расширяя рану, когда вы крепко держите шило. Наконец, вы перемещаете шило на другую сторону, перерезая огромный кусок его горла. Из раны начинает вытекать огромный поток крови, и он начинает падать.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -360,7 +370,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Stay silent.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Сохраняйте тишину.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -370,7 +380,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -380,7 +390,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Huh?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Что?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -390,7 +400,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Who's there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Кто здесь?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -400,7 +410,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Soon ::licks lips::, we'll be feasting on one of you next.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Скоро ::облизывая губы::, мы полакомимся одним из вас следующим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -410,7 +420,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Lowers his head.:: What are you on about in there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Опускает голову.:: Что ты там бормочешь?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -420,7 +430,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -430,7 +440,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -440,7 +450,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Soon I'll think of something else to do with them.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Скоро я придумаю, что еще с ними делать.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -450,7 +460,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I might just leave them to their own demise.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Может, просто оставлю их на произвол судьбы.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -460,7 +470,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They deserved it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Они этого заслужили.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -470,7 +480,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -480,7 +490,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>A terrible mistake, that's what I am.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ужасная ошибка, вот кто я.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -490,7 +500,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I lost it all.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я все потерял.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -500,7 +510,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The buildup of hatred. I acted relentlessly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Накопление ненависти. Я действовал безжалостно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -510,7 +520,7 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I feel so bad.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мне так жаль.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -522,7 +532,9 @@ Gah! What the hell!? I will make you suffer for that!&lt;end&gt;</source>
         <source>::As you approach this man, he doesn't notice you as he is totally focused on preparing his food. Observing him for a few moments, you figure out that he's mixing some smelly ingredients, culminating in a weird looking green meal. Once he finished with his new batch, he turns his head and adresses you.::
 
 Huh? ::He stops for a moment to look at you. Clearly he did not expect any company.:: What are you doing here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Когда вы приближаетесь к этому человеку, он не замечает вас, так как полностью сосредоточен на приготовлении еды. Наблюдая за ним несколько минут, вы понимаете, что он смешивает какие-то вонючие ингредиенты, в результате чего получается странное зеленое блюдо. Закончив с новой партией, он поворачивает голову и обращается к вам.::
+
+Что? ::Он замирает на мгновение, чтобы посмотреть на вас. Очевидно, он не ожидал компании.:: Что ты здесь делаешь?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -532,7 +544,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>What is this place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Что это за место?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -542,7 +554,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>It's none of your matter. Leave this place ::He points to the exit:: if you have nothing else to discuss.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тебе не нужно это знать. Уходи отсюда ::Он указывает на выход::, если тебе больше нечего сказать.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -552,7 +564,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>I come here in peace, alright? Please, tell me what's going on.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я пришел сюда с миром, хорошо? Пожалуйста, расскажите мне, что происходит.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -562,7 +574,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>And why would I do that? The place is finally in *order*. ::He tilts his head up slightly and looks down on you. As he observes you, a tear in his right eye forms up. He struggles to keep his cool, and you clearly see his confident stance is starting to crumble. He seems to be reflecting on the current situation he's in.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">И почему я должен это делать? Здесь наконец-то *порядок*. ::Он слегка наклоняет голову и смотрит на вас свысока. Наблюдая за вами, вы видите, как в его правом глазу появляется слеза. Он изо всех сил пытается сохранить самообладание, и вы видите, что его уверенная поза начинает рушиться. Кажется, он размышляет о своей нынешней ситуации.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -572,7 +584,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>All I see here is trouble. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все, что я здесь вижу, - это неприятности.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -582,7 +594,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>They're trouble no more! For the longest time, they used to live here and indulge in worst kind of business. Monsters is what they are! ::Furiously, he wipes the tear off his face. He then proceeds to calm himself down as he takes a deep breath.:: They smuggled in here all sorts of things. Their greed clouded their minds, shun away anyone who didn't admire their ways. All they would babble about was money. I was an outcast to them. The line was crossed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Они больше не представляют опасности! Долгое время они жили здесь и занимались всякой грязью. Монстры, не иначе! ::С яростью он вытирает слезу с лица. Затем он успокаивается, глубоко вздохнув.:: Они ввозили сюда всякую всячину. Их жадность затуманила разум, отталкивала всех, кто не разделял их взгляды. Они только и говорили, что о деньгах. Я был изгоем для них. Граница была перейдена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -592,7 +604,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Are you responsible for the state they are in now?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вы несете ответственность за их нынешнее состояние?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -602,7 +614,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Action and reaction. They got what they've deserved. I took it upon myself to keep them "alive". I'm sure you'd do the same. ::He shakes his head in disbelief.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Действие и противодействие. Они получили то, что заслужили. Я взял на себя ответственность за то, чтобы держать их "в живых". Уверен, вы бы поступили так же. ::Он качает головой в недоумении.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -612,7 +624,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Are you using the contaminated waste to poison their meals?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вы используете загрязненные отходы, чтобы отравить их еду?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -622,7 +634,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Isn't it obvious by now? ::He shakes his head.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Разве это не очевидно? ::Он качает головой.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -632,7 +644,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>This is not who you are.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Это не то, кем ты являешься.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -642,7 +654,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::Hearing your words makes him turn his head to the food he was making. He looks at it with disgust.:: I was in charge of making all of our food. It's the least I could do for them. You haven't seen them when they are "awake." Sanity? They are the definition of the opposite. Wealth was their one and only rationale for everything they did. I took it upon myself to cleanse their thoughts of rot they have accumulated. I don't take this situation lightly. ::He sighs.:: Despite all what they did to me, I...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Услышав ваши слова, он поворачивает голову к еде, которую готовил. Он смотрит на нее с отвращением.:: Я отвечал за приготовление всей нашей еды. Это самое малое, что я мог для них сделать. Вы не видели их, когда они "просыпаются". Здравомыслие? Они - само его отрицание. Богатство было единственным их оправданием для всего, что они делали. Я взял на себя ответственность за то, чтобы очистить их мысли от гнили, которую они накопили. Я отношусь к этой ситуации серьезно. ::Он вздыхает.:: Несмотря на все, что они мне сделали, я...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -652,7 +664,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>This has to stop and you know it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Это должно прекратиться, и ты это знаешь.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -662,7 +674,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>But what do I do now? ::He is suddenly frustrated.:: I know I've made a mistake. I see that I have started to become just like them. Damn, why did it have to be this way?:: He stops and starts looking at his subjects.:: I uhh, I suppose I shall stop. There has to be another way I can change things. They will never forgive me for what I did. Still, I have to be better than this. My actions were reprehensible. ::He points to the exit.:: Leave me now. I need to prepare for what is to come.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що мені тепер робити? ::Раптом він розчаровується.:: Я знаю, що зробив помилку. Я бачу, що починаю ставати таким, як вони. Чорт, чому все мало так скластися?:: Він зупиняється і починає оглядати своїх підданих.:: Гм, гадаю, я повинен зупинитися. Має бути інший спосіб змінити ситуацію. Вони ніколи не пробачать мені те, що я зробив. Але я повинен бути кращим за це. Мої дії були обурливими. ::Він показує на вихід.:: Залиште мене зараз. Мені потрібно підготуватися до того, що настане.</target>
       </segment>
     </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
@@ -672,7 +684,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>You did the right thing. I'm sure you will figure the rest out.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти зробив правильно. Я впевнений, ти розберешся з рештою.</target>
       </segment>
     </unit>
     <unit id="=&gt;q67" name="=&gt;q67">
@@ -682,7 +694,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Hmph. Easier said than done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хмф. Легко сказати.</target>
       </segment>
     </unit>
     <unit id="=&gt;a68" name="=&gt;a68">
@@ -692,7 +704,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Good luck.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Удачі.</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -702,7 +714,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште.::</target>
       </segment>
     </unit>
     <unit id="=&gt;a70" name="=&gt;a70">
@@ -712,7 +724,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>You should probably leave this place before they sober up.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вам, мабуть, варто покинути це місце, поки вони не протверезіють.</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -722,7 +734,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>I'll think about that. ::He slowly raises his hand, which points you to the exit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подумаю про це. ::Він повільно піднімає руку, яка вказує вам на вихід.::</target>
       </segment>
     </unit>
     <unit id="=&gt;a72" name="=&gt;a72">
@@ -732,7 +744,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::Nod and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кивніть і йдіть.::</target>
       </segment>
     </unit>
     <unit id="=&gt;a73" name="=&gt;a73">
@@ -742,7 +754,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Come to think of it, I don't want to have anything with this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо чесно, я не хочу мати нічого спільного з цим.</target>
       </segment>
     </unit>
     <unit id="=&gt;q74" name="=&gt;q74">
@@ -752,7 +764,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Yeah. Well, I wish I could say so. Now leave me to my work.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. Ну, хотів би я могти сказати те саме. Тепер залиште мене працювати.</target>
       </segment>
     </unit>
     <unit id="=&gt;a75" name="=&gt;a75">
@@ -762,7 +774,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Okay.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд.</target>
       </segment>
     </unit>
     <unit id="=&gt;a76" name="=&gt;a76">
@@ -772,7 +784,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште.::</target>
       </segment>
     </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
@@ -782,7 +794,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Don't you feel bad for those people?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хіба вам не шкода цих людей?</target>
       </segment>
     </unit>
     <unit id="=&gt;a78" name="=&gt;a78">
@@ -792,7 +804,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>You are derailed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тебе збито з пантелику.</target>
       </segment>
     </unit>
     <unit id="=&gt;q79" name="=&gt;q79">
@@ -802,7 +814,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>That's what they told me. ::He clenches his fists.:: I... won't stand this. ::His body starts to shake. Furiously he stomps the floor.:: Death to the foul!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це мені сказали. ::Він стискає кулаки.:: Я... не дозволю цього. ::Його тіло починає тремтіти. Він люто тупотить ногами по підлозі.:: Смерть нечисті!</target>
       </segment>
     </unit>
     <unit id="=&gt;a80" name="=&gt;a80">
@@ -812,7 +824,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бійся!::</target>
       </segment>
     </unit>
     <unit id="=&gt;a81" name="=&gt;a81">
@@ -822,7 +834,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuation]:: You speak of clarity of mind yet you live with this burden here. How can you have clear thoughts while people around you suffer? You wanted them to stop mistreating you and this is how you repay them?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконання]:: Ви говорите про ясність розуму, але живете з цим тягарем тут. Як ви можете мати ясні думки, коли навколо вас страждають люди? Ви хотіли, щоб вони перестали зловживати вами, і ось як ви їм платите?</target>
       </segment>
     </unit>
     <unit id="=&gt;q82" name="=&gt;q82">
@@ -832,7 +844,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::He sighs. After that, it takes him several moments to formulate his thoughts.:: You are right. The contaminated waste we've been using to grow food here seem to have some hallucinogenic effect when consumed in larger, concentrated doses. I figured this out once I tried using it to make my pain go away. However, the effect wasn't as strong enough on me as I had hoped for.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він зітхає. Після цього йому потрібно кілька хвилин, щоб сформулювати свої думки.:: Ви маєте рацію. Забруднені відходи, які ми використовуємо для вирощування їжі тут, здається, мають галюциногенний ефект при споживанні у більших, концентрованих дозах. Я зрозумів це, коли спробував використати їх, щоб позбутися болю. Однак ефект на мене виявився не таким сильним, як я сподівався.</target>
       </segment>
     </unit>
     <unit id="=&gt;a83" name="=&gt;a83">
@@ -842,7 +854,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Hmm, I'll get to the bottom of this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хм, я розберуся з цим.</target>
       </segment>
     </unit>
     <unit id="=&gt;a84" name="=&gt;a84">
@@ -852,7 +864,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Order? Anything but that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Порядок? Все, тільки не це.</target>
       </segment>
     </unit>
     <unit id="=&gt;a85" name="=&gt;a85">
@@ -862,7 +874,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::Try to back out.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Спробуйте відступити.::</target>
       </segment>
     </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
@@ -872,7 +884,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::He gauges you with his eyes for a moment.:: I'm not pleased with your pressence here. Go back where you came from.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він оцінює вас поглядом на мить.:: Я не задоволений вашою присутністю тут. Поверніться звідки прийшли.</target>
       </segment>
     </unit>
     <unit id="=&gt;a87" name="=&gt;a87">
@@ -882,7 +894,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>::Ignore him.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Проігноруйте його.::</target>
       </segment>
     </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
@@ -892,7 +904,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Oh yeah? I'll show you where I came from, fool! ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, так? Я покажу тобі, звідки ти прийшов, дурню! ::Атакуй!::</target>
       </segment>
     </unit>
     <unit id="=&gt;a89" name="=&gt;a89">
@@ -902,7 +914,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>What is going on with these people outside?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що відбувається з цими людьми зовні?</target>
       </segment>
     </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
@@ -912,7 +924,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>What is it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що таке?</target>
       </segment>
     </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
@@ -922,7 +934,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
@@ -932,7 +944,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Nevermind.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Неважливо.</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -942,7 +954,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q94" name="=&gt;q94">
@@ -952,7 +964,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Back off.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відступи.</target>
       </segment>
     </unit>
     <unit id="=&gt;q95" name="=&gt;q95">
@@ -962,7 +974,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>Leave me to my work.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Залиш мене працювати.</target>
       </segment>
     </unit>
     <unit id="=&gt;q96" name="=&gt;q96">
@@ -972,7 +984,7 @@ Huh? ::He stops for a moment to look at you. Clearly he did not expect any compa
       </mda:metadata>
       <segment state="translated">
         <source>You're not welcome here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тут тебе не чекають.</target>
       </segment>
     </unit>
   </file>
