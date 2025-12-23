@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +30,9 @@
         <source>::The soldier stands at attention and salutes you.::
 
 Welcome to Epione Lab, $(#sir/ma'am).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Солдат стоїть струнко і вітає вас.::
+
+Ласкаво просимо до лабораторії Epione, $(#сер/пані).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Welcome to Epione Lab, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Welcome to Epione Lab, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Epione Lab, private?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про лабораторію Epione, рядовий?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -62,7 +64,9 @@ Welcome to Epione Lab, $(#sir/ma'am).&lt;end&gt;</source>
         <source>Well, $(#sir/ma'am), Epione Lab used to be nothing but an abandoned Biocorp facility - one of many in Upper Underrail. The Underrail Protectorate troops moved in recently and occupied the area. It is well secured, and the proximity to Fort Apogee has so far been a successful deterrent against any bandit or Free Drones attacks.
 
 That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, $(#сер/пані), Лабораторія Епіон колись була просто покинутою спорудою Biocorp - однією з багатьох у Верхній Підземці. Війська Підземного Протекторату нещодавно передислокувалися та зайняли цю територію. Вона добре охороняється, і близькість до Форту Апогей досі була успішним стримуючим фактором проти нападів бандитів або Вільних Дронів.
+
+Це все, що я можу вам сказати, $(#сер/пані).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -72,7 +76,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why do we have troops stationed here, private? What is so important about this facility?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ми маємо тут війська, рядовий? Що такого важливого в цьому об'єкті?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -82,7 +86,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm sorry $(#sir/ma'am), but that information is classified.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, $(#сер/пані), але ця інформація є секретною.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -92,7 +96,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: You were informed that I was arriving here, right? Do you think I would be allowed entry here, to see everything that is happening if that sort of information were classified to me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконати]:: Вам повідомили, що я прибуваю сюди, чи не так? Ви гадаєте, мені дозволили б увійти сюди, щоб побачити все, що відбувається, якби ця інформація була від мене прихована?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -102,7 +106,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Um... I suppose you are right, $(#sir/ma'am)...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гм... гадаю, ви маєте рацію, $(#сер/пані)...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -112,7 +116,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So what is the problem?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, в чому проблема?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -122,7 +126,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Okay, $(#sir/ma'am), I will answer: Epione Lab is currently undergoing a process of restoration so that it may used as an exclusively Protectorate-controlled connection to Lower Underrail, allowing us to completely bypass Core City, which has been a limiting factor ever since we first arrived here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, $(#сер/пані), я відповім: Лабораторія Епіон зараз проходить процес відновлення, щоб її можна було використовувати як виключно контрольований Протекторатом зв'язок з Нижньою Підземкою, дозволяючи нам повністю обійти Центральне Місто, яке було обмежуючим фактором з моменту нашого прибуття сюди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -132,7 +136,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>But, what does this facility possess that would allow us to do so?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але, що саме є в цьому об'єкті, що дозволить нам це зробити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -142,7 +146,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The whole facility stretches across multiple floors all the way down to Lower Underrail, and houses a large elevator that could be used to quickly move troops and equipment between Upper and Lower Underrail. The lower levels of Epione Lab are still in ruins, and are inaccessible for the time being, but we are making good progress, $(#sir/ma'am).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Увесь об'єкт простягається на кілька поверхів аж до Нижнього Андеррейлу і містить великий ліфт, який можна використовувати для швидкого переміщення військ та обладнання між Верхнім та Нижнім Андеррейлом. Нижні рівні лабораторії Epione все ще в руїнах і поки що недоступні, але ми досягаємо хороших успіхів, $(#сер/пані).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -152,7 +156,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Wait, so, the only way to move personnel and equipment between Lower and Upper Underrail so far was through Core City?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекайте, то єдиний спосіб переміщення особового складу та обладнання між Нижньою та Верхньою Підземкою досі був через Центральне Місто?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -162,7 +166,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Unfortunately, that is correct, $(#sir/ma'am). There are no other ways to move between the two, and no matter how unfavorable for us it was the only option available.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, це так, $(#сер/пані). Немає інших способів переміщення між двома секціями, і незалежно від того, наскільки це було несприятливо для нас, це був єдиний доступний варіант.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -172,7 +176,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, private. I want to ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, рядовий. Я хочу запитати вас про дещо інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -182,7 +186,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, $(#sir/ma'am)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, $(#сер/пані)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -192,7 +196,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am sorry, $(#sir/ma'am), but I'm sure you'd have been given all important information during the briefing. I cannot reveal anything more than what I have already told you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, $(#сер/пані), але я впевнений, що вам надали всю важливу інформацію під час брифінгу. Я не можу розкрити нічого більшого, ніж те, що я вже вам сказав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -202,7 +206,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Fair enough. I had other questions for you, private.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд. У мене були інші питання до вас, рядовий.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -212,7 +216,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>$(#Sir/Ma'am)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(#Сер/Пані)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -222,7 +226,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Let me ask you something else then, private.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дозвольте мені запитати вас про щось інше, рядовий.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -232,7 +236,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>$(#Sir/Ma'am)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(#Сер/Пані)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -242,7 +246,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I would like to speak to Captain Blackwall. Where can I find him?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би поговорити з капітаном Блекволом. Де я можу його знайти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -252,7 +256,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Captain Blackwall is located on the level below this one, $(#sir/ma'am). Go straight, take the double doors to the left, then down the stairs.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Капітан Блекволл знаходиться на поверсі нижче цього, $(#сер/пані). Йдіть прямо, пройдіть крізь подвійні двері ліворуч, а потім вниз по сходах.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -262,7 +266,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>He can often be found near the elevator in the northern section of the building; there is a Dreadnought there clearing the rubble, so you can simply follow the sound of drilling.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він часто буває біля ліфта в північній частині будівлі; там є Дредноут, який розчищає завали, тож ви можете просто йти за звуком буріння.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -272,7 +276,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, soldier. I will go find him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, солдате. Я піду пошукаю його.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -282,7 +286,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>$(#Sir/Ma'am)! ::Salutes.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(#Сер/Пані)! ::Салютує.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -292,7 +296,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Return the salute and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Віддати честь і піти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -302,7 +306,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Just walk away.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Просто йдіть геть.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -312,7 +316,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>As you were, private.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як було, рядовий.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -322,7 +326,7 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::The soldier salutes you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Солдат вітає вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -334,7 +338,9 @@ That's really all I can tell you, $(#sir/ma'am).&lt;end&gt;</source>
         <source>::The soldier stops you.::
 
 This is a restricted area, citizen. I'm going to have to order you to leave immediately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Солдат зупиняє вас.::
+
+Це закрита територія, громадянине. Я змушений наказати вам негайно покинути її.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -344,7 +350,7 @@ This is a restricted area, citizen. I'm going to have to order you to leave imme
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -354,7 +360,7 @@ This is a restricted area, citizen. I'm going to have to order you to leave imme
       </mda:metadata>
       <segment state="translated">
         <source>I um... was sent here from the high command to inspect this... facility... thing...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я гм... був відправлений сюди з вищого командування для перевірки цієї... споруди... речі...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -366,7 +372,9 @@ This is a restricted area, citizen. I'm going to have to order you to leave imme
         <source>::The guard points his weapon at you, looking you straight in the eyes.:: 
 
 How would you like to inspect this?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вартовий наводить на вас зброю, дивлячись прямо в очі.:: 
+
+Як би ви хотіли це оглянути?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -376,7 +384,7 @@ How would you like to inspect this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can't stop me, Protectorate scum! ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви не зможете мене зупинити, поплічнику Протекторату! ::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -386,7 +394,7 @@ How would you like to inspect this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Got the message! I'm off.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зрозумів повідомлення! Я йду.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -396,7 +404,7 @@ How would you like to inspect this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What is this place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що це за місце?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -406,7 +414,7 @@ How would you like to inspect this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's none of your business. Leave the area now or I will be compelled to use force. Am I clear?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це не твоя справа. Залиш цю територію зараз, інакше я буду змушений застосувати силу. Зрозуміло?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -416,7 +424,7 @@ How would you like to inspect this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I understand, goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію, до побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -426,7 +434,7 @@ How would you like to inspect this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I though I've made myself clear when I instructed you to leave the area.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вважав, що чітко пояснив, коли наказав вам покинути територію.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

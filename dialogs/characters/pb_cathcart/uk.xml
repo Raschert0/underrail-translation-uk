@@ -556,7 +556,9 @@ Your first pay is waiting for you. See Staff Sergeant Fraser about that.&lt;end&
         <source>You are to report to the captain and assist him with this little problem. Once you are finished with him, report back to me.
 
 Am I clear so far?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тобі слід доповісти капітану та допомогти йому з цією маленькою проблемою. Як тільки ти з ним закінчиш, повернись до мене.
+
+Все зрозуміло поки що?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -566,7 +568,7 @@ Am I clear so far?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, sir. Loud and clear, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, сер. Чітко і зрозуміло, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -576,7 +578,7 @@ Am I clear so far?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Good... That's what I like to hear. Anything else you want to know before you head there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре... Це те, що мені подобається чути. Чи хочеш щось ще дізнатися, перш ніж туди йти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -586,7 +588,7 @@ Am I clear so far?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Just tell me what needs to be done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто скажи мені, що потрібно зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -596,7 +598,7 @@ Am I clear so far?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's what I like to hear, straight to the point! Listen up. Captain Blackwall, the commanding officer of Epione Lab requested assistance with a minor problem he was having. His patrols reported several strange sightings near the defensive perimeter.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось це мені подобається, прямо в точку! Слухай уважно. Капітан Блекволл, командувач лабораторії Epione, попросив допомоги з незначною проблемою. Його патрулі повідомили про кілька дивних спостережень біля оборонного периметру.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -606,7 +608,7 @@ Am I clear so far?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm ready to start my second mission, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я готовий розпочати свою другу місію, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -618,7 +620,9 @@ Am I clear so far?&lt;end&gt;</source>
         <source>Excellent, Corporal. Quite excellent.
 
 Before we begin, there's something I feel I need to tell you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово, Корпорале. Дуже чудово.
+
+Перш ніж ми почнемо, є дещо, що я відчуваю, що повинен тобі сказати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -628,7 +632,7 @@ Before we begin, there's something I feel I need to tell you.&lt;end&gt;</source
       </mda:metadata>
       <segment state="translated">
         <source>Sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -638,7 +642,7 @@ Before we begin, there's something I feel I need to tell you.&lt;end&gt;</source
       </mda:metadata>
       <segment state="translated">
         <source>You see, Corporal, when you first came here, I was overwhelmed, bombarded by both the ambassador and the consul. They told me of this Southgater - $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Бачиш, Корпорале, коли ти вперше прийшов сюди, я був приголомшений, завалений як послом, так і консулом. Вони розповіли мені про цього Саутгейтера - $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -648,7 +652,7 @@ Before we begin, there's something I feel I need to tell you.&lt;end&gt;</source
       </mda:metadata>
       <segment state="translated">
         <source>What was so important about that Southgater?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що було такого важливого в цьому Саутгейтері?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -660,7 +664,9 @@ Before we begin, there's something I feel I need to tell you.&lt;end&gt;</source
         <source>Well, Corporal, I was told this Southgater could prove to be an excellent ally. $(#He/She) has shown interest *and* dedication, and an acceptance of our agenda. That's what I've been told, at least. 
 
 I was told of your bravery, everything about that missing train; it all sounded too good to be true.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, Корпорале, мені сказали, що цей Саутгейтер може виявитися чудовим союзником. $(#Він/Вона) проявив інтерес *і* відданість, а також прийняття нашої програми. Принаймні, мені так сказали. 
+
+Мені розповіли про твою хоробрість, все про той зниклий потяг; все це звучало надто добре, щоб бути правдою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
@@ -672,7 +678,9 @@ I was told of your bravery, everything about that missing train; it all sounded 
         <source>It all sounded like hogwash to me, Corporal. I thought I was, in reality, gonna get a diplomatic pansy. Some "talker" from SGS whose only job would be to "play nice" all the time so that the ambassador and the consul can be happy. "Everything can be done diplomatically," they'd say.
 
 I don't need any more of that here, Corporal... I've got enough of it already. If it was all up to them, we'd be overrun by bandits by now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все це звучало як нісенітниця для мене, Корпорале. Я думав, що насправді отримаю дипломатичного тюхтія. Якогось "розмовника" з SGS, чия єдина робота полягатиме в тому, щоб постійно "грати по-доброму", щоб посол і консул були щасливі. "Все можна вирішити дипломатично", - вони б казали.
+
+Мені не потрібно більше цього тут, Корпорале... у мене і так цього достатньо. Якби все залежало від них, нас би вже заполонили бандити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -682,7 +690,7 @@ I don't need any more of that here, Corporal... I've got enough of it already. I
       </mda:metadata>
       <segment state="translated">
         <source>But... I may have misjudged you. You are a soldier, and that's the only thing I want from you. We live in a world, Corporal, where when you have a bullet flying towards you at a thousand meters per second, you want someone to dodge it and fire back, not talk to it while it's mid-air.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але... я, можливо, помилково тебе оцінив. Ти солдат, і це єдине, що я хочу від тебе. Ми живемо у світі, Корпорале, де коли в тебе летить куля на тисячу метрів за секунду, ти хочеш, щоб хтось ухилився від неї і відкрив вогонь у відповідь, а не розмовляв з нею, поки вона в польоті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -694,7 +702,9 @@ I don't need any more of that here, Corporal... I've got enough of it already. I
         <source>::He clears throat.:: Now, let's get back to the problem at hand. Listen up. 
 
 I need you to go to Lower Underrail for this one, Corporal. We lost contact with an expedition that was dispatched to Hephaestus Research Facility.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він прокашлюється.:: Тепер повернемося до проблеми. Слухай уважно. 
+
+Мені потрібно, щоб ти поїхав до Нижнього Андеррейлу для цієї справи, Корпорале. Ми втратили контакт з експедицією, яку відправили до дослідницького комплексу Гефест.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -704,7 +714,7 @@ I need you to go to Lower Underrail for this one, Corporal. We lost contact with
       </mda:metadata>
       <segment state="translated">
         <source>I've never heard of such place, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я ніколи не чув про таке місце, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -714,7 +724,7 @@ I need you to go to Lower Underrail for this one, Corporal. We lost contact with
       </mda:metadata>
       <segment state="translated">
         <source>I can forgive you for not knowing about all these abandoned Biocorp facilites; I know very little, too, to be honest. Biocorp has been around for a few hundred years, and they've left us with innumerable abandoned sites. This one, though, when I was told about it, and what was done there, I realized it was worth checking, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я можу пробачити тобі незнання про всі ці покинуті об'єкти Biocorp; я сам знаю дуже мало, чесно кажучи. Biocorp існує вже кілька сотень років, і вони залишили нам незліченну кількість покинутих об'єктів. Цей, однак, коли мені про нього розповіли, і що там робили, я зрозумів, що варто його перевірити, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -724,7 +734,7 @@ I need you to go to Lower Underrail for this one, Corporal. We lost contact with
       </mda:metadata>
       <segment state="translated">
         <source>Care to elaborate, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи не могли б ви роз'яснити, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -734,7 +744,7 @@ I need you to go to Lower Underrail for this one, Corporal. We lost contact with
       </mda:metadata>
       <segment state="translated">
         <source>Hephaestus Research was a large and advanced research center dedicated purely to robotics. To elaborate, as you say - they developed robots intended for different roles. Military, industrial, medical... I was told significant progress was made there, but it was all forgotten when Biocorp fell apart. If we could get some of that tech, Corporal, it could prove to become a significant advantage. Maybe we could stand toe to toe with the Faceless. Imagine that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дослідницький центр Гефест був великим і передовим дослідницьким центром, повністю присвяченим робототехніці. Щоб роз'яснити, як ви кажете, - вони розробляли роботів для різних ролей. Військові, промислові, медичні... Мені сказали, що там був досягнутий значний прогрес, але все було забуто, коли Biocorp розпався. Якщо ми зможемо отримати ці технології, Корпорале, це може стати значною перевагою. Можливо, ми зможемо стояти пліч-о-пліч з Безликими. Уяви собі це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -746,7 +756,9 @@ I need you to go to Lower Underrail for this one, Corporal. We lost contact with
         <source>So I decided to send an expedition to locate this facility and see if they could dig out something useful. A group of ten men, and one Dreadnought to clear the path and serve as protection. The earthquake happened and - we lost contact. It was to be expected, and there was no need to immediately intervene, since they had supplies to last them some time. 
 
 The time is up, and we still haven't received any word from them.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тож я вирішив відправити експедицію, щоб знайти цей об'єкт і подивитися, чи зможуть вони викопати щось корисне. Група з десяти чоловік і один Дредноут, щоб розчистити шлях і служити захистом. Відбувся землетрус, і ми втратили зв'язок. Це було очікувано, і не було потреби негайно втручатися, оскільки у них були запаси, щоб протриматися певний час. 
+
+Час минув, і ми все ще не отримали жодних новин від них.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -756,7 +768,7 @@ The time is up, and we still haven't received any word from them.&lt;end&gt;</so
       </mda:metadata>
       <segment state="translated">
         <source>Your mission is to go there and locate the missing crew.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Твоя місія - піти туди і знайти зниклу команду.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a73" name="=&gt;a73">
@@ -766,7 +778,7 @@ The time is up, and we still haven't received any word from them.&lt;end&gt;</so
       </mda:metadata>
       <segment state="translated">
         <source>Just tell me how to get there, sir, and I'm on my way.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто скажіть мені, як туди дістатися, сер, і я вирушаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q74" name="=&gt;q74">
@@ -778,7 +790,9 @@ The time is up, and we still haven't received any word from them.&lt;end&gt;</so
         <source>It is a bit difficult to explain, Corporal, but I'll do my best: According to the last few messages we received from the expedition, they entered the cave system north of the now abandoned GMS. They dug a path south and found the entrance to the facility after just a day or two of digging. Therefore, it must've been close to the cave entrance.
 
 That is all the usable information regarding its location I can give you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це трохи складно пояснити, Корпорале, але я зроблю все можливе: Згідно з останніми повідомленнями, які ми отримали від експедиції, вони увійшли в печерну систему на північ від тепер покинутого GMS. Вони викопали шлях на південь і знайшли вхід до об'єкта лише через день-два копання. Тому він повинен був бути близько до входу в печеру.
+
+Це вся корисна інформація щодо його місцезнаходження, яку я можу вам надати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -788,7 +802,7 @@ That is all the usable information regarding its location I can give you.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>If everything is clear, I wish you good luck, Corporal. I sincerely hope those men are still alive down there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо все зрозуміло, я бажаю вам удачі, Корпорале. Я щиро сподіваюся, що ті люди ще живі там.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a76" name="=&gt;a76">
@@ -798,7 +812,7 @@ That is all the usable information regarding its location I can give you.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>If they are, I promise I'll return them safe and sound, sir. ::Salute and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо вони живі, я обіцяю повернути їх у безпеці та цілості, сер. ::Салют і йти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q77" name="=&gt;q77">
@@ -808,7 +822,7 @@ That is all the usable information regarding its location I can give you.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>::He salutes back.:: Good luck, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він салютує у відповідь.:: Удачі, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a78" name="=&gt;a78">
@@ -818,7 +832,7 @@ That is all the usable information regarding its location I can give you.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>All is clear, sir! ::Salute and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все зрозуміло, сер! ::Салют і йти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a79" name="=&gt;a79">
@@ -828,7 +842,7 @@ That is all the usable information regarding its location I can give you.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>Hephaestus Research?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дослідницький центр Гефест?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a80" name="=&gt;a80">
@@ -838,7 +852,7 @@ That is all the usable information regarding its location I can give you.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>Wait, that's me!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекайте, це я!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q81" name="=&gt;q81">
@@ -848,7 +862,7 @@ That is all the usable information regarding its location I can give you.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>::Colonel watches you for a brief moment before continuing.:: Judging by the name, I'd say it is you, Corporal. ::He chuckles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник на мить дивиться на тебе, перш ніж продовжити.:: Судячи з імені, я думаю, що це ти, Корпорале. ::Він хихикає.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a82" name="=&gt;a82">
@@ -858,7 +872,7 @@ That is all the usable information regarding its location I can give you.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>You're promoting me, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви мене підвищуєте, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q83" name="=&gt;q83">
@@ -870,7 +884,9 @@ That is all the usable information regarding its location I can give you.&lt;end
         <source>Not yet, Corporal, not yet. Getting a promotion is not that easy. 
 
 No, that's not what I wanted to say.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поки ні, Корпорале, поки ні. Отримати підвищення не так просто.
+
+Ні, я не це мав на увазі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a84" name="=&gt;a84">
@@ -880,7 +896,7 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I get to pilot one of those Dreadnoughts, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я зможу керувати одним із цих Дредноутів, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q85" name="=&gt;q85">
@@ -892,7 +908,9 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
         <source>Don't get your hopes up, Corporal. Only trained pilots can use Dreads effectively.
 
 No, that's not what I wanted to say.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не надійся на це, Корпорале. Лише навчені пілоти можуть ефективно використовувати Дреди.
+
+Ні, я не це мав на увазі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a86" name="=&gt;a86">
@@ -902,7 +920,7 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sir, have you ever heard of the Acorn, a.k.a ACoNR?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сер, ви коли-небудь чули про Acorn, а.к.а ACoNR?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
@@ -912,7 +930,7 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No, Corporal, I do not.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, Корпорале, я не чув.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q88" name="=&gt;q88">
@@ -922,7 +940,7 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a89" name="=&gt;a89">
@@ -932,7 +950,7 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I don't know much about it myself, but from my understanding it's a highly valuable piece of technology that could serve our cause greatly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я сам багато про це не знаю, але наскільки я розумію, це високоцінна технологія, яка може значно допомогти нашій справі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
@@ -942,7 +960,7 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What are you implying? Is this some kind of military technology we could use?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви маєте на увазі? Це якась військова технологія, яку ми можемо використати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a91" name="=&gt;a91">
@@ -952,7 +970,7 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Could be, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q92" name="=&gt;q92">
@@ -964,7 +982,9 @@ No, that's not what I wanted to say.&lt;end&gt;</source>
         <source>Mhm. That is definitely an important matter. I need to check this.
 
 Wait.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мгм. Це, безумовно, важливе питання. Мені потрібно це перевірити.
+
+Зачекай.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -982,7 +1002,15 @@ Travis? Yes, I'll wait...
 Travis? Yes, I need information on Acorn - A-C-o-N-R. Alfa-Charlie-Oscar-November-Romeo. It's urgent, yes. Send everything you can find to my computer. Corporal $(context.player.Name) knows more about it than me and I don't like that. 
 
 Mhm. ::He puts the phone down.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він бере слухавку. Він дивиться на тебе, але говорить з кимось іншим.::
+
+Тревіс? Так, я почекаю...
+
+::Через хвилину.::
+
+Тревіс? Так, мені потрібна інформація про Acorn - A-C-o-N-R. Альфа-Чарлі-Оскар-Новер-Ромео. Це терміново, так. Надішліть все, що можете знайти, на мій комп'ютер. Корпорал $(context.player.Name) знає про це більше, ніж я, і мені це не подобається. 
+
+Мгм. ::Він кладе слухавку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q94" name="=&gt;q94">
@@ -992,7 +1020,7 @@ Mhm. ::He puts the phone down.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Now, while we wait: What's the status of this technology? Is it something we can acquire? Do you know where it is?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер, поки ми чекаємо: Який статус цієї технології? Чи можемо ми її отримати? Ви знаєте, де вона знаходиться?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a95" name="=&gt;a95">
@@ -1002,7 +1030,7 @@ Mhm. ::He puts the phone down.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes. Right here. ::Show him the Acorn.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. Прямо тут. ::Показує йому Acorn.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q96" name="=&gt;q96">
@@ -1012,7 +1040,7 @@ Mhm. ::He puts the phone down.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He takes a curious look at the container, lingering on its unusual symbol. ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він бере з цікавістю контейнер, затримуючи погляд на його незвичайному символі. ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q97" name="=&gt;q97">
@@ -1022,7 +1050,7 @@ Mhm. ::He puts the phone down.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q98" name="=&gt;q98">
@@ -1034,7 +1062,7 @@ Mhm. ::He puts the phone down.::&lt;end&gt;</source>
         <source>
 
 It's just like in the picture.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він точно як на малюнку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a99" name="=&gt;a99">
@@ -1044,7 +1072,7 @@ It's just like in the picture.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I reckon the captain has produced the information you needed, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я думаю, капітан надав інформацію, яка вам була потрібна, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q100" name="=&gt;q100">
@@ -1058,7 +1086,11 @@ It's just like in the picture.&lt;end&gt;</source>
 Yes, yes... This is it alright.  
 
 Apparently this file is from the time of Biocorp; must've come from the Central Archive.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він відповідає вам, все ще примружуючись на екрані.::
+
+Так, так... Це воно.  
+
+Здається, цей файл з часів Biocorp; мабуть, він надійшов з Центрального Архіву.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
@@ -1072,7 +1104,11 @@ Apparently this file is from the time of Biocorp; must've come from the Central 
 Quote: "Each ACoNR unit is thus of immeasurable value and must be kept under highest security. The coded signal needed for its activation is available only to a small number of select people." 
 
 The rest is irrelevant. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У ньому йдеться про те, що як технологія, так і блоки ACoNR були вироблені суперкорпорацією New Frontier Technology, час виробництва не вказано. Немає інформації про те, як працює сама технологія, але кілька речень у цьому файлі свідчать про те, що вона є невід’ємною частиною реалізації *високотехнологічних мегапроектів* різного роду.
+
+Цитата: "Кожен блок ACoNR є таким чином безцінним і повинен зберігатися під найвищим рівнем безпеки. Кодований сигнал, необхідний для його активації, доступний лише невеликій кількості обраних людей."
+
+Решта не має значення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q102" name="=&gt;q102">
@@ -1082,7 +1118,7 @@ The rest is irrelevant. &lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
@@ -1092,7 +1128,7 @@ The rest is irrelevant. &lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q104" name="=&gt;q104">
@@ -1102,7 +1138,7 @@ The rest is irrelevant. &lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There is a picture here. ::He rotates the monitor toward you: It indeed displays a picture of the Acorn, shot through reinforced glass of a technology vault of some kind.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тут є фотографія. ::Він повертає монітор до вас: на ньому дійсно зображено фотографію Жолудя, зняту через армоване скло технологічного сховища.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q105" name="=&gt;q105">
@@ -1114,7 +1150,9 @@ The rest is irrelevant. &lt;end&gt;</source>
         <source>This is all classified information, Corporal, but there you have it: It seems you aren't chasing an elusive hopper after all.
 
 I have to admit, my interest in this thing is growing the more I hear and read about it, but we mustn't let ourselves get carried away. Focus on your duties - and keep me informed as soon as you obtain any new information on the Acorn.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це вся класифікована інформація, Корпорале, але ось що я маю: здається, ви не женетесь за невловимим стрибуном.
+
+Мушу визнати, мій інтерес до цієї речі зростає з кожним словом, яке я чую та читаю про неї, але ми не повинні захоплюватися. Зосередьтеся на своїх обов’язках – і повідомляйте мені, як тільки отримаєте будь-яку нову інформацію про Жолудь.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q106" name="=&gt;q106">
@@ -1124,7 +1162,7 @@ I have to admit, my interest in this thing is growing the more I hear and read a
       </mda:metadata>
       <segment state="translated">
         <source>Well done, Corporal, well done. Now to have it put in a safe place. ::He reaches for his phone.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Молодець, Корпорале, молодець. Тепер потрібно покласти його в безпечне місце. ::Він тягнеться до свого телефону.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a107" name="=&gt;a107">
@@ -1134,7 +1172,7 @@ I have to admit, my interest in this thing is growing the more I hear and read a
       </mda:metadata>
       <segment state="translated">
         <source>Here you go, sir. ::Give him the Acorn.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось, сер. ::Дає йому Жолудь.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q108" name="=&gt;q108">
@@ -1148,7 +1186,11 @@ I have to admit, my interest in this thing is growing the more I hear and read a
 ::You hear a voice on the other end.:: Lieutenant? I need to speak to Captain Cassidy.
 
 Alright, I'll wait...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, так, покладіть його сюди. ::Він вказує поруч зі своїм столом.::
+
+::Ви чуєте голос на іншому кінці.:: Лейтенанте? Мені потрібно поговорити з капітаном Кассіді.
+
+Гаразд, я почекаю...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q109" name="=&gt;q109">
@@ -1160,7 +1202,9 @@ Alright, I'll wait...&lt;end&gt;</source>
         <source>::He lowers the phone and looks at you.::
 
 Hm. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він опускає телефон і дивиться на вас.::
+
+Хм. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q110" name="=&gt;q110">
@@ -1170,7 +1214,7 @@ Hm. &lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Haven't changed your mind about mushroom tea, Corporal? Want a cup?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не передумали щодо грибного чаю, Корпорале? Хочете чашку?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a111" name="=&gt;a111">
@@ -1180,7 +1224,7 @@ Hm. &lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What the hell. I'll take one, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що за чортівня. Візьму один, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q112" name="=&gt;q112">
@@ -1192,7 +1236,9 @@ Hm. &lt;end&gt;</source>
         <source>::He presses a button on his phone.::
 
 Miss Trey, two cups of tea, please.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він натискає кнопку на своєму телефоні.::
+
+Міс Трей, дві чашки чаю, будь ласка.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -1202,7 +1248,7 @@ Miss Trey, two cups of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::After taking a sip of hot mushroom tea, the colonel continues.:: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Після того, як зробив ковток гарячого чаю з грибами, полковник продовжує.:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q114" name="=&gt;q114">
@@ -1214,7 +1260,7 @@ Miss Trey, two cups of tea, please.&lt;end&gt;</source>
         <source>Very good, very good. Before we proceed, let's take care of something first. 
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже добре, дуже добре. Перш ніж ми продовжимо, давайте спочатку розберемося з чимось. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q115" name="=&gt;q115">
@@ -1224,7 +1270,7 @@ Miss Trey, two cups of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He picks up the phone.:: Staff Sergeant? Yes, this is Colonel Cathcart. Send a sum of &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він бере телефон.:: Штаб-сержанте? Так, це полковник Кетхарт. Надішліть суму &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q116" name="=&gt;q116">
@@ -1234,7 +1280,7 @@ Miss Trey, two cups of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>thirty-six hundred dollars &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">три тисячі шістсот доларів &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q117" name="=&gt;q117">
@@ -1246,7 +1292,9 @@ Miss Trey, two cups of tea, please.&lt;end&gt;</source>
         <source>to my office. Yes, you heard me correctly. Yes. I'm waiting. ::He puts the phone down.::
 
 There. That's been taken care of.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">до мого кабінету. Так, ви правильно почули. Так. Я чекаю. ::Він кладе телефон.::
+
+Ось. Це владнано.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q118" name="=&gt;q118">
@@ -1256,7 +1304,7 @@ There. That's been taken care of.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Now that the blockade has been cleared, the Acorn is going North with the first wartrains. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер, коли блокаду ліквідовано, Жолудь відправлять на північ з першими військовими поїздами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q119" name="=&gt;q119">
@@ -1266,7 +1314,7 @@ There. That's been taken care of.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>In the meantime, I'll have this locked away and under guard.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тим часом я замкну його та поставлю під охорону.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
@@ -1278,7 +1326,9 @@ There. That's been taken care of.&lt;end&gt;</source>
         <source>::A soldier arrives with your money. The colonel points to you, and the soldier hands it over, salutes and leaves.::
 
 You know, Corporal, since we've touched on the supercorporations of old, I remembered a conversation I've had with General Korn a few years ago at a cocktail. We had a conversation about Security Agency, another supercorporation that was dedicated to developing and manufacturing military technology and equipment. Apparently their warbots were the best out there and would make the Protectorate look like common metro bandits.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Приходить солдат з вашими грошима. Полковник вказує на вас, і солдат передає їх, вітається і йде.::
+
+Знаєте, Корпорале, оскільки ми зачепили тему суперкорпорацій минулого, я згадав розмову з генералом Корном кілька років тому на коктейлі. Ми говорили про Агентство Безпеки, іншу суперкорпорацію, яка займалася розробкою та виробництвом військової техніки та обладнання. Очевидно, їхні бойові роботи були найкращими з усіх і змусили б Протекторат виглядати як звичайні метро-бандити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q121" name="=&gt;q121">
@@ -1290,7 +1340,9 @@ You know, Corporal, since we've touched on the supercorporations of old, I remem
         <source>They deployed humanoid warbots, multi-legged all-terrain walkers, aircraft ranging from miniature recon drones to massive structure carriers, as well as vessels of inconceivable size and armament... And all of it was completely autonomic - an army of emotionless warbots obeying every command - and self-replicating, according to the general's words.
 
 ::He looks at the Acorn, then at you again, then chuckles.:: Seems unreal, doesn't it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони розгорнули гуманоїдних бойових роботів, багатоногих всюдихідних машин, літальні апарати, починаючи від мініатюрних розвідувальних дронів і закінчуючи масивними носіями конструкцій, а також кораблі неймовірних розмірів і озброєння... І все це було повністю автономним - армія бездушних бойових роботів, що виконує кожну команду - і самовідтворювальною, за словами генерала.
+
+::Він дивиться на Жолудь, потім знову на вас, потім сміється.:: Здається нереальним, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q122" name="=&gt;q122">
@@ -1302,7 +1354,9 @@ You know, Corporal, since we've touched on the supercorporations of old, I remem
         <source>::He finishes his tea and puts the cup away.::
 
 That's enough chit-chat, Corporal. Return to your duties. But if all goes well - you can expect a promotion.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він закінчує свій чай і ставить чашку геть.::
+
+Досить балачок, Корпорале. Поверніться до своїх обов’язків. Але якщо все піде добре – ви можете розраховувати на підвищення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q123" name="=&gt;q123">
@@ -1312,7 +1366,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>As soon the blockade is cleared I'm going to request a wartrain to carry this to North Underrail. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щойно блокаду буде знято, я подам запит на військовий поїзд, щоб перевезти це до Північного Андеррейлу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q124" name="=&gt;q124">
@@ -1322,7 +1376,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>three thousand dollars &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">три тисячі доларів &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q125" name="=&gt;q125">
@@ -1332,7 +1386,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>twenty-four hundred &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">двадцять чотири сотні &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q126" name="=&gt;q126">
@@ -1342,7 +1396,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>eighteen hundred &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">тисяча вісімсот &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q127" name="=&gt;q127">
@@ -1352,7 +1406,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>twelve hundred &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">тисяча двісті &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q128" name="=&gt;q128">
@@ -1362,7 +1416,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>Your efforts wouldn't have gone unrewarded in any case, Corporal. Besides, you obtained the Acorn without relying on Protectorate resources. You must've had some expenses.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ваші зусилля в будь-якому випадку не залишилися б без винагороди, Корпорале. Крім того, ви отримали Жолудь, не покладаючись на ресурси Протекторату. У вас, мабуть, були якісь витрати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q129" name="=&gt;q129">
@@ -1372,7 +1426,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a130" name="=&gt;a130">
@@ -1382,7 +1436,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: Thirty-six hundred dollars should cover it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торговець]:: Три тисячі шістсот доларів повинно вистачити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q131" name="=&gt;q131">
@@ -1392,7 +1446,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q132" name="=&gt;q132">
@@ -1404,7 +1458,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
         <source>::He sips some tea, then nods.:: Let's take care of it straight away then, shall we. 
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він робить ковток чаю, потім киває.:: Тоді давайте розберемося з цим одразу, гаразд. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q133" name="=&gt;q133">
@@ -1414,7 +1468,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>::He shakes his head.:: It's too much, Corporal, too much.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він хитає головою.:: Забагато, Корпорале, забагато.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a134" name="=&gt;a134">
@@ -1424,7 +1478,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: Three thousand dollars should cover it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торговець]:: Три тисячі доларів повинно вистачити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q135" name="=&gt;q135">
@@ -1434,7 +1488,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a136" name="=&gt;a136">
@@ -1444,7 +1498,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: Twenty-four hundred dollars should cover it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торговельна]:: Двадцять чотири сотні доларів повинно вистачити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q137" name="=&gt;q137">
@@ -1454,7 +1508,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a138" name="=&gt;a138">
@@ -1464,7 +1518,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: Eighteen hundred dollars should cover it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торговельна]:: Вісімнадцять сотень доларів повинно вистачити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q139" name="=&gt;q139">
@@ -1474,7 +1528,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a140" name="=&gt;a140">
@@ -1484,7 +1538,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>A humble sum of twelve hundred dollars should cover everything, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Скромна сума в тисячу двісті доларів повинна покрити все, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a141" name="=&gt;a141">
@@ -1494,7 +1548,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>You understand, sir. In that case, I won't try to influence my payment. ::Give him the Acorn.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви розумієте, сер. У такому випадку я не буду намагатися вплинути на мою оплату. ::Віддайте йому Жолудь.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a142" name="=&gt;a142">
@@ -1504,7 +1558,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>I'll have one, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я візьму одну, сер. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a143" name="=&gt;a143">
@@ -1514,7 +1568,7 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
       </mda:metadata>
       <segment state="translated">
         <source>No, I haven't, sir. I'll pass.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, сер. Я відмовлюся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q144" name="=&gt;q144">
@@ -1526,7 +1580,9 @@ That's enough chit-chat, Corporal. Return to your duties. But if all goes well -
         <source>::He presses a button on his phone.::
 
 Miss Trey, one cup of tea, please.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він натискає кнопку на своєму телефоні.::
+
+Міс Трей, будь ласка, одну чашку чаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a145" name="=&gt;a145">
@@ -1536,7 +1592,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Still not a fan, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все ще не фанат, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q146" name="=&gt;q146">
@@ -1546,7 +1602,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Would you like some mushroom tea, Corporal?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи бажаєте ви чаю з грибами, Корпорале?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a147" name="=&gt;a147">
@@ -1556,7 +1612,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, Colonel, thank you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, полковнику, дякую.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a148" name="=&gt;a148">
@@ -1566,7 +1622,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll gladly have another one, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я радий допомогти знову, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a149" name="=&gt;a149">
@@ -1576,7 +1632,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I refused the last time... Okay.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я відмовився минулого разу… Гаразд.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a150" name="=&gt;a150">
@@ -1586,7 +1642,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a151" name="=&gt;a151">
@@ -1596,7 +1652,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It took a lot of effort for me to get this. I'd prefer if I got paid first.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені довелося докласти багато зусиль, щоб отримати це. Я б віддав перевагу, якби мені заплатили спочатку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q152" name="=&gt;q152">
@@ -1606,7 +1662,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He looks at the Acorn.:: Well done, Corporal, well done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дивиться на Жолудь.:: Молодець, Корпорале, молодець.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a153" name="=&gt;a153">
@@ -1616,7 +1672,7 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There you have it, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось і все, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q154" name="=&gt;q154">
@@ -1628,7 +1684,9 @@ Miss Trey, one cup of tea, please.&lt;end&gt;</source>
         <source>::At the same time something catches the colonel's eye, and he squints at his monitor.::
 
 Wait a moment. It's from the captain.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Водночас щось привертає увагу полковника, і він примружується, дивлячись на свій монітор.::
+
+Зачекайте хвилинку. Це від капітана.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q155" name="=&gt;q155">
@@ -1638,7 +1696,7 @@ Wait a moment. It's from the captain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He clicks a few times, and his eyes start moving back and forth between the screen and the Acorn.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він кілька разів клацає, і його очі починають переміщатися вперед-назад між екраном і Жолудем.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a156" name="=&gt;a156">
@@ -1648,7 +1706,7 @@ Wait a moment. It's from the captain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not yet, but I'm working on obtaining it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поки ні, але я працюю над тим, щоб її отримати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q157" name="=&gt;q157">
@@ -1658,7 +1716,7 @@ Wait a moment. It's from the captain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Don't let it detract you from your other duties, Corporal. In the meantime, &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не дозволяйте цьому відволікати вас від інших обов’язків, Корпорале. Тим часом, &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q158" name="=&gt;q158">
@@ -1670,7 +1728,9 @@ Wait a moment. It's from the captain.&lt;end&gt;</source>
         <source>I'll wait for some verified information from Captain Travis. Then we'll discuss this further.
 
 If you do learn anything new, report to me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я почекаю підтвердженої інформації від капітана Тревіса. Тоді ми обговоримо це далі.
+
+Якщо ви дізнаєтеся щось нове, повідомте мені.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a159" name="=&gt;a159">
@@ -1680,7 +1740,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No. I just heard about it and wondered if you knew something that could help me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні. Я просто чув про це і цікавився, чи знаєте ви щось, що могло б мені допомогти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a160" name="=&gt;a160">
@@ -1690,7 +1750,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>All I know is that it's somehow connected to some high-tech machines capable of traversing great distances, even reaching the Surface. It could serve our cause greatly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все, що я знаю, це те, що це якимось чином пов’язано з високотехнологічними машинами, здатними долати великі відстані, навіть досягати Поверхні. Це може значно допомогти нашій справі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q161" name="=&gt;q161">
@@ -1700,7 +1760,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He pauses, staring at you.:: How confident are you in the accuracy of this information?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він робить паузу, дивлячись на вас.:: Наскільки ви впевнені в точності цієї інформації?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a162" name="=&gt;a162">
@@ -1710,7 +1770,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have no reasons to doubt what I just told you, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене немає причин сумніватися в тому, що я щойно вам сказав, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a163" name="=&gt;a163">
@@ -1720,7 +1780,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Plenty. I have good sources.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Достатньо. У мене є хороші джерела.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a164" name="=&gt;a164">
@@ -1730,7 +1790,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It seems to be a device capable of manufacturing highly advanced things, like objects and machinery. It could serve our cause greatly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Здається, це пристрій, здатний виготовляти високорозвинені речі, такі як об’єкти та машини. Це може значно допомогти нашій справі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a165" name="=&gt;a165">
@@ -1740,7 +1800,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's a device capable of utilizing materials from its surroundings in order to construct complex objects and machinery. It could serve our cause greatly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це пристрій, здатний використовувати матеріали з навколишнього середовища для створення складних об’єктів і машин. Це може значно допомогти нашій справі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a166" name="=&gt;a166">
@@ -1750,7 +1810,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's a supercomputer capable of controlling nanobots that can use materials from their surroundings to construct complex objects and machinery. It could serve our cause greatly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це суперкомп'ютер, здатний контролювати наноботів, які можуть використовувати матеріали з навколишнього середовища для створення складних об'єктів і механізмів. Він міг би значно допомогти нашій справі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a167" name="=&gt;a167">
@@ -1760,7 +1820,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Never mind. There was something else I wanted to ask you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Неважливо. Я хотів запитати тебе про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q168" name="=&gt;q168">
@@ -1770,7 +1830,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Speed it up, Corporal. I haven't got the time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прискортеся, Корпорале. У мене немає часу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a169" name="=&gt;a169">
@@ -1780,7 +1840,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>About the Acorn again...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щодо Жолудя знову...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q170" name="=&gt;q170">
@@ -1790,7 +1850,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Spill it already, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Викладай вже, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a171" name="=&gt;a171">
@@ -1800,7 +1860,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Any information on the Acorn, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Яка інформація у вас є про "Жолудь", сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q172" name="=&gt;q172">
@@ -1810,7 +1870,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, Corporal. Captain Travis has sent me a single file on the Acorn. It's from the time of Biocorp; must've come from the Central Archive.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, Корпорале. Капітан Тревіс надіслав мені один файл про "Жолудь". Він з часів Biocorp; мабуть, з Центрального Архіву.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a173" name="=&gt;a173">
@@ -1820,7 +1880,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have the Acorn, sir. ::Show him the Acorn.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є "Жолудь", сер. ::Покажіть йому "Жолудь".::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a174" name="=&gt;a174">
@@ -1830,7 +1890,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How do I get to Epione Lab?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як мені дістатися до лабораторії Epione?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q175" name="=&gt;q175">
@@ -1840,7 +1900,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There are two ways to get there, starting from Fort Apogee. If you head north, turn south at the first intersection; if you head south, turn north at the first intersection.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Є два способи дістатися туди, починаючи з Форту Апогей. Якщо ви поїдете на північ, поверніть на південь на першому перехресті; якщо ви поїдете на південь, поверніть на північ на першому перехресті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q176" name="=&gt;q176">
@@ -1850,7 +1910,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You know you're on the right track if you follow the blue metro line. It will lead you to the train station that takes you to Epione Lab.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви будете на правильному шляху, якщо підете блакитною лінією метро. Вона приведе вас до станції поїздів, яка відвезе вас до лабораторії Epione.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a177" name="=&gt;a177">
@@ -1860,7 +1920,7 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>About the renegade soldiers, sir...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щодо солдатів-відступників, сер...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q178" name="=&gt;q178">
@@ -1872,7 +1932,9 @@ If you do learn anything new, report to me.&lt;end&gt;</source>
         <source>So, the consul told you about those deserters. They are a disgrace, Corporal, a true disgrace to everything we stand for.
 
 What is it you wanted to ask?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, консул розповів вам про цих дезертирів. Вони ганьба, Корпорале, справжня ганьба для всього, за що ми стоїмо.
+
+Що ви хотіли запитати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q179" name="=&gt;q179">
@@ -1882,7 +1944,7 @@ What is it you wanted to ask?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a180" name="=&gt;a180">
@@ -1892,7 +1954,7 @@ What is it you wanted to ask?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Do you know why they deserted, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви знаєте, чому вони покинули службу, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q181" name="=&gt;q181">
@@ -1902,7 +1964,7 @@ What is it you wanted to ask?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I don't know the exact reason, Corporal. Although, I was told by some of the officers that Holloway started acting strangely. That he was becoming more unstable; he even threatened one of them, as I was told once.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знаю точної причини, Корпорале. Хоча, мені деякі офіцери сказали, що Голлоуей почав поводитися дивно. Що він ставав все більш нестабільним; він навіть погрожував одному з них, як мені розповіли.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a182" name="=&gt;a182">
@@ -1912,7 +1974,7 @@ What is it you wanted to ask?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Did they come back from a mission before they left Fort Apogee, or did something happen in the base, perhaps?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони повернулися з місії перед тим, як покинути Форт Апогей, чи щось сталося на базі, можливо?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q183" name="=&gt;q183">
@@ -1924,7 +1986,9 @@ What is it you wanted to ask?&lt;end&gt;</source>
         <source>::The Colonel hesitates for a second.:: All the mission details that the sergeant's squad was a part of are classified; therefore I can't comment on them.
 
 Next question.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник вагається на секунду.:: Усі деталі місій, в яких брала участь команда сержанта, є засекреченими; тому я не можу їх коментувати.
+
+Наступне питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a184" name="=&gt;a184">
@@ -1934,7 +1998,7 @@ Next question.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Let me ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дозвольте мені запитати вас про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q185" name="=&gt;q185">
@@ -1944,7 +2008,7 @@ Next question.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm listening, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я слухаю, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a186" name="=&gt;a186">
@@ -1954,7 +2018,7 @@ Next question.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why didn't you send troops to apprehend them, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ви не відправили війська, щоб заарештувати їх, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q187" name="=&gt;q187">
@@ -1964,7 +2028,7 @@ Next question.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Corporal, the penalty for desertion is death. Has been, and always will be, hopefully. If this were anything else, I'd have sent troops to apprehend the deserters without delay and court-martial them. If they couldn't be apprehended, well, they would be executed. Pure and simple.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Корпорале, покарання за дезертирство – смерть. Завжди було, і, сподіваюся, завжди буде. Якби це було щось інше, я б негайно відправив війська, щоб заарештувати дезертирів і віддати їх під військовий трибунал. Якщо їх неможливо було б заарештувати, ну, їх би стратили. Просто і ясно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q188" name="=&gt;q188">
@@ -1976,7 +2040,9 @@ Next question.&lt;end&gt;</source>
         <source>But... Tim Holloway is a decorated veteran who has served his duty with excellent dedication and results, so I'm willing to be... ::He struggles to find the right word.:: a bit more tolerant. *If,* and only if they surrender immediately!
 
 If they refuse, Corporal, it will be interpreted as a sign of aggression and they will have to be dealt accordingly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але... Тім Голлоуей – відзначений ветеран, який віддано служив і досягав чудових результатів, тому я готовий бути... ::Він намагається знайти правильне слово.:: трохи більш толерантним. *Якщо,* і тільки якщо вони негайно здадуться!
+
+Якщо вони відмовляться, Корпорале, це буде розцінено як ознака агресії, і з ними доведеться розібратися відповідно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a189" name="=&gt;a189">
@@ -1986,7 +2052,7 @@ If they refuse, Corporal, it will be interpreted as a sign of aggression and the
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about SFC Holloway?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про СФК Голлоуея?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q190" name="=&gt;q190">
@@ -1998,7 +2064,9 @@ If they refuse, Corporal, it will be interpreted as a sign of aggression and the
         <source>Tim is a decorated veteran. He and his men are some of the best in the force. They've been through a lot of dangerous missions, some pure hell, and have shown dedication, bravery and honor. 
 
 Yet, they deserted the Protectorate, and did so in a critical period.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тім – відзначений ветеран. Він і його люди – одні з найкращих у війську. Вони пройшли багато небезпечних місій, деякі – справжнє пекло, і показали відданість, мужність і честь.
+
+Проте вони покинули службу в Протектораті, і зробили це в критичний період.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q191" name="=&gt;q191">
@@ -2010,7 +2078,9 @@ Yet, they deserted the Protectorate, and did so in a critical period.&lt;end&gt;
         <source>Some officers told me he was starting to lose it, but... I don't know. The only reason we're trying to negotiate this is because of his squad's previous record, nothing else.
 
 Punishment awaits them, that is certain, but if they show reason, it might mitigate their sentence. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Деякі офіцери сказали мені, що він починав втрачати глузд, але... Я не знаю. Єдина причина, чому ми намагаємося домовитися, це попередні заслуги його загону, нічого іншого.
+
+Їм загрожує покарання, це напевно, але якщо вони проявлять розуміння, це може пом’якшити їхній вирок. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a192" name="=&gt;a192">
@@ -2020,7 +2090,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>What should I do if the negotiations fail?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що мені робити, якщо переговори проваляться?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q193" name="=&gt;q193">
@@ -2030,7 +2100,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>If you find yourself in a difficult situation, Corporal, then by all means you're allowed to defend yourself.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви опинитеся у скрутній ситуації, Корпорале, то, будь ласка, ви маєте право захищати себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q194" name="=&gt;q194">
@@ -2040,7 +2110,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>Otherwise... just report back to Consul. We'll do the rest.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">В іншому випадку... просто поверніться до Консула. Ми зробимо все інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a195" name="=&gt;a195">
@@ -2050,7 +2120,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>What would happen to the rest of the squad if SFC Holloway was somehow removed?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що станеться з рештою загону, якщо СФК Голлоуея якимось чином буде усунено?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q196" name="=&gt;q196">
@@ -2060,7 +2130,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>Removed? Well, Corporal, I don't know what would happen. Those men are loyal to him, but I think they could perhaps be easier to convince to surrender in that case.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Усунено? Ну, Корпорале, я не знаю, що станеться. Ті люди вірні йому, але я думаю, що їх, можливо, буде легше переконати здатися в такому випадку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q197" name="=&gt;q197">
@@ -2070,7 +2140,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>Or, they could decide to go out in a blaze of glory. One can never be sure.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Або вони можуть вирішити піти з бою. Ніколи не можна бути впевненим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a198" name="=&gt;a198">
@@ -2080,7 +2150,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>I have other questions about the renegade soldiers, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є інші питання щодо солдатів-відступників, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q199" name="=&gt;q199">
@@ -2090,7 +2160,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a200" name="=&gt;a200">
@@ -2100,7 +2170,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>I talked to Holloway, and he explained to me why they left.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я поговорив з Голлоуеєм, і він пояснив мені, чому вони пішли.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q201" name="=&gt;q201">
@@ -2110,7 +2180,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>You did? What did he say?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти говорив з ним? Що він сказав?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a202" name="=&gt;a202">
@@ -2120,7 +2190,7 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
       </mda:metadata>
       <segment state="translated">
         <source>::Tell Holloway's story.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Розкажіть історію Голлоуея.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q203" name="=&gt;q203">
@@ -2132,7 +2202,9 @@ Punishment awaits them, that is certain, but if they show reason, it might mitig
         <source>::Colonel carefully listens to you as you slowly tell him verbatim what Holloway had told you. After you finish, you see that the colonel is silently pondering the situation, but his face tells you nothing more than that. Then, he speaks.::
 
 So, that's his story. I must admit I was surprised at some of the things you just told me, Corporal. I don't remember ordering any innocent civilians to be killed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник уважно слухає, поки ви повільно переказуєте йому те, що вам розповів Голлоуей. Після того, як ви закінчите, ви бачите, що полковник мовчки розмірковує над ситуацією, але його обличчя не виражає нічого, крім цього. Потім він говорить.::
+
+Отже, це його історія. Мушу визнати, що я був здивований деякими речами, які ви щойно мені розповіли, Корпорале. Я не пам’ятаю, щоб я віддавав наказ вбивати невинних цивільних.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q204" name="=&gt;q204">
@@ -2142,7 +2214,7 @@ So, that's his story. I must admit I was surprised at some of the things you jus
       </mda:metadata>
       <segment state="translated">
         <source>Yet, horrible things happen in combat. It's hell out there, and perhaps there is some merit to what he says. But, don't forget that he is a deserter, Corporal. A cornered one. Can he really be trusted?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Проте, жахливі речі трапляються в бою. Там пекло, і, можливо, в тому, що він говорить, є певна правда. Але не забувайте, що він дезертир, Корпорале. Загнаний у кут. Чи можна йому дійсно довіряти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a205" name="=&gt;a205">
@@ -2152,7 +2224,7 @@ So, that's his story. I must admit I was surprised at some of the things you jus
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: All Holloway and his men want is to be left alone. He never wanted to betray Protectorate, yet Protectorate betrayed him; he couldn't fight the system any more.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконати]:: Голлоуей і його люди хочуть лише, щоб їх залишили в спокої. Він ніколи не хотів зрадити Протекторат, але Протекторат зрадив його; він більше не міг боротися з системою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q206" name="=&gt;q206">
@@ -2164,7 +2236,9 @@ So, that's his story. I must admit I was surprised at some of the things you jus
         <source>::Colonel wanted to interrupt you at a certain point but decided against it. He listens to what you have to say and, after some thinking, he responds.:: 
 
 Listen up, Corporal. ::He sighs.:: Tell Tim and his men to surrender, give up their weapons and equipment and return to Fort Apogee. I will look into all the things he told you, and we will perform a thorough investigation. They have my word.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник хотів перервати вас у певний момент, але передумав. Він слухає, що ви говорите, і, трохи подумавши, відповідає.::
+
+Слухайте, Корпорале. ::Він зітхає.:: Скажіть Тіму та його людям здатися, віддати зброю та спорядження та повернутися до Форту Апогей. Я розберуся з усім, що він вам розповів, і ми проведемо ретельне розслідування. Вони мають моє слово.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q207" name="=&gt;q207">
@@ -2176,7 +2250,9 @@ Listen up, Corporal. ::He sighs.:: Tell Tim and his men to surrender, give up th
         <source>This won't save them from court-martial, though, but if what he said is true, then we will take that into consideration.
 
 That's the best I can give you, Corporal. Now go.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це не врятує їх від військового трибуналу, але якщо те, що він сказав, правда, то ми це врахуємо.
+
+Це найкраще, що я можу вам дати, Корпорале. Тепер ідіть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a208" name="=&gt;a208">
@@ -2186,7 +2262,7 @@ That's the best I can give you, Corporal. Now go.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sir. ::Salute and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, сер. ::Салютуйте та йдіть.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q209" name="=&gt;q209">
@@ -2196,7 +2272,7 @@ That's the best I can give you, Corporal. Now go.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So he deserted? You tell him to surrender, or else...!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, він дезертирував? Ви кажете йому здатися, інакше...!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q210" name="=&gt;q210">
@@ -2206,7 +2282,7 @@ That's the best I can give you, Corporal. Now go.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Get moving, Corporal: My patience is at an end.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Рухайся, Корпорале: моє терпіння на межі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a211" name="=&gt;a211">
@@ -2216,7 +2292,7 @@ That's the best I can give you, Corporal. Now go.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've no more questions, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене більше немає питань, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q212" name="=&gt;q212">
@@ -2228,7 +2304,9 @@ That's the best I can give you, Corporal. Now go.&lt;end&gt;</source>
         <source>Good... good. Then you are on your way to meet the deserters, Corporal.
 
 Good luck.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре... добре. Тоді ви вирушаєте на зустріч з дезертирами, Корпорале.
+
+Удачі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a213" name="=&gt;a213">
@@ -2238,7 +2316,7 @@ Good luck.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Fort Apogee?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Форт Апогей?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q214" name="=&gt;q214">
@@ -2248,7 +2326,7 @@ Good luck.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Corporal, as you can witness for yourself, Fort Apogee is the main Protectorate base in South Underrail. It's been five years since Protectorate first arrived to the South, and we plan to stay here until law and order is brought to this... hell. It is hell, Corporal, you know it yourself. There were many obstacles in our way; some are still present, but Fort Apogee still stands.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Корпорале, як ви можете самі переконатися, Форт Апогей є головною базою Протекторату в Південному Андеррейлі. Минуло п’ять років з того часу, як Протекторат вперше прибув на південь, і ми плануємо залишатися тут, поки тут не буде встановлено закон і порядок. Це пекло, Корпорале, ви самі це знаєте. На нашому шляху було багато перешкод; деякі все ще присутні, але Форт Апогей все ще стоїть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q215" name="=&gt;q215">
@@ -2260,7 +2338,9 @@ Good luck.&lt;end&gt;</source>
         <source>True, we are being resisted by anarchists, bandits and the like, but those are easy to deal with most of the time, due to our military superiority. Logistics... that is a bigger issue, but the bad public opinion of the Protectorate is perhaps the largest obstacle we have to overcome, unfortunately.
 
 Fort Apogee should be the symbol of law, order, protection - not tyranny and oppression, as anarchists constantly claim. And it is something we are working hard on, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Правда, ми стикаємося з опором анархістів, бандитів тощо, але з ними зазвичай легко впоратися завдяки нашій військовій перевазі. Логістика... це більша проблема, але погана громадська думка про Протекторат, мабуть, найбільша перешкода, яку нам доводиться долати, на жаль.
+
+Форт Апогей має бути символом закону, порядку, захисту – а не тиранії та гноблення, як постійно стверджують анархісти. І ми наполегливо над цим працюємо, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q216" name="=&gt;q216">
@@ -2270,7 +2350,7 @@ Fort Apogee should be the symbol of law, order, protection - not tyranny and opp
       </mda:metadata>
       <segment state="translated">
         <source>You are a part of the Protectorate now, Corporal. Never forget why we're here and what we fight for.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви тепер частина Протекторату, Корпорале. Ніколи не забувайте, чому ми тут і за що ми боремося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a217" name="=&gt;a217">
@@ -2280,7 +2360,7 @@ Fort Apogee should be the symbol of law, order, protection - not tyranny and opp
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Consul Oliver?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Консула Олівера?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q218" name="=&gt;q218">
@@ -2290,7 +2370,7 @@ Fort Apogee should be the symbol of law, order, protection - not tyranny and opp
       </mda:metadata>
       <segment state="translated">
         <source>Consul Oliver is a man of diplomacy, which is desirable, considering he *is* the consul. ::He chuckles.:: I have great respect for him and can rely on him. I must add that I am not someone who firmly believes that all issues can be resolved through superior firepower.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Консул Олівер – людина дипломатії, що бажано, враховуючи, що він *є* консулом. ::Він сміється.:: Я дуже поважаю його і можу на нього покластися. Мушу додати, що я не з тих, хто вірить, що всі проблеми можна вирішити за допомогою вогневої потужності.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q219" name="=&gt;q219">
@@ -2300,7 +2380,7 @@ Fort Apogee should be the symbol of law, order, protection - not tyranny and opp
       </mda:metadata>
       <segment state="translated">
         <source>But, there are many occasions where exactly that is the case, and that is the reason Protectorate exists in the first place. When all hell breaks loose, it is our duty to deal with it and enforce order. Consul Oliver, unfortunately, often fails to realize that and comes to my office, proposing certain "diplomatic" alternatives, ones I know can't be applied in that particular case. Impossible, Corporal, sometimes it's just impossible.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але є багато випадків, коли саме так і є, і саме тому Протекторат існує в першу чергу. Коли все йде шкереберть, наш обов'язок – розібратися з цим і встановити порядок. Консул Олівер, на жаль, часто не розуміє цього і приходить до мого офісу, пропонуючи певні "дипломатичні" альтернативи, які, я знаю, неможливо застосувати в цьому конкретному випадку. Неможливо, Корпорале, іноді це просто неможливо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q220" name="=&gt;q220">
@@ -2310,7 +2390,7 @@ Fort Apogee should be the symbol of law, order, protection - not tyranny and opp
       </mda:metadata>
       <segment state="translated">
         <source>Luckily, in those situations, I make the final decisions, no matter how difficult they sometimes are.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На щастя, у таких ситуаціях я приймаю остаточні рішення, незалежно від того, наскільки вони іноді складні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a221" name="=&gt;a221">
@@ -2320,7 +2400,7 @@ Fort Apogee should be the symbol of law, order, protection - not tyranny and opp
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about CAU?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про CAU?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q222" name="=&gt;q222">
@@ -2330,7 +2410,7 @@ Fort Apogee should be the symbol of law, order, protection - not tyranny and opp
       </mda:metadata>
       <segment state="translated">
         <source>::He frowns before replying.:: The Chemical Assault Unit is a special task force that is usually dispatched on difficult missions. While they mostly operate in the North... they were dispatched here after the attack on Epione Lab, as you can see for yourself. To tell you the truth, Corporal, the existence of such a unit is... ::He makes a long pause.:: Let's say we could do without them, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він нахмурюється перед відповіддю.:: Підрозділ хімічного нападу – це спеціальний загін, який зазвичай відправляється на складні місії. Хоча вони в основному діють на Півночі... їх відправили сюди після нападу на лабораторію Епіоне, як ви можете переконатися самі. Щоб сказати правду, Корпорале, існування такого підрозділу є... ::Він робить довгу паузу.:: Скажімо, ми могли б обійтися без них, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q223" name="=&gt;q223">
@@ -2342,7 +2422,9 @@ Fort Apogee should be the symbol of law, order, protection - not tyranny and opp
         <source>While their efficiency was never in question, for they are indeed highly trained individuals... it's their methods that are extreme. Too extreme, as far as I'm concerned, and give the Protectorate a bad name. 
 
 But, often we have to deal with certain things whether we like it or not, so CAU is here to stay.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хоча їх ефективність ніколи не викликала сумнівів, адже це справді висококваліфіковані особи... їхні методи є екстремальними. Занадто екстремальними, на мою думку, і це псує репутацію Протекторату.
+
+Але часто нам доводиться мати справу з певними речами, незалежно від того, чи подобається нам це чи ні, тому CAU залишається з нами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q224" name="=&gt;q224">
@@ -2352,7 +2434,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>That is all I have to say, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все, що я маю сказати, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a225" name="=&gt;a225">
@@ -2362,7 +2444,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>Who is this Red Snake you mentioned?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто цей Червона Змія, про якого ви згадали?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q226" name="=&gt;q226">
@@ -2372,7 +2454,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>Red Snake is a Free Drone who had decided to aid the Protectorate in our fight against the anarchists. I suspect he saw their real face and decided to double-cross them and become a Protectorate spy. His information were always incredibly accurate and reliable, and proved crucial in exposing multiple Free Drones hideouts. He warned us about their operations so that we could act in time, and generally leaked information regarding important figures within the anarchist movement.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Червона Змія - Вільний Дрон, який вирішив допомогти Протекторату в нашій боротьбі проти анархістів. Я підозрюю, що він побачив їхнє справжнє обличчя і вирішив перекинутися на наш бік і стати шпигуном Протекторату. Його інформація завжди була неймовірно точною та надійною, і виявилася вирішальною у викритті численних схованок Вільних Дронів. Він попереджав нас про їхні операції, щоб ми могли вчасно діяти, і взагалі витікав інформацію щодо важливих фігур в анархістському русі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a227" name="=&gt;a227">
@@ -2382,7 +2464,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: Pardon me, sir, but I somehow doubt that he simply "realized" he had been working for the bad guys and decided to switch sides. I think I've earned enough respect by now to know more about the matter.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконати]:: Вибачте, сер, але я якось сумніваюся, що він просто "усвідомив", що працював на поганих хлопців і вирішив перейти на інший бік. Я думаю, що заробив достатньо поваги, щоб знати більше про цю справу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q228" name="=&gt;q228">
@@ -2392,7 +2474,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>::Colonel Cathcart pauses for a few moments before replying.:: You are absolutely right, Corporal, I haven't told you everything. I suppose I could, though... but it would be best if this were to stay between you and me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник Кетхарт робить паузу на кілька моментів, перш ніж відповісти.:: Ви абсолютно праві, Корпорале, я не розповів вам всього. Я міг би, звісно... але було б краще, якби це залишилося між вами та мною.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q229" name="=&gt;q229">
@@ -2402,7 +2484,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>Red Snake is not just some common anarchist - he is one of the high-ranking members of the Free Drones, and shares command over the South Underrail "cell," as they refer to it. You understand that bringing a man like that to the other side is no simple feat, but some "persuasion" had proven enough for him to betray his comrades.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Червона Змія – це не просто звичайний анархіст – він один із високопоставлених членів Вільних Дронів і розділяє командування над південною "клітиною" Підземного Шляху, як вони це називають. Ви розумієте, що перетягнути таку людину на свій бік – це не просте завдання, але певна "переконання" виявилася достатньою для того, щоб він зрадив своїх товаришів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a230" name="=&gt;a230">
@@ -2412,7 +2494,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>Persuasion?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Переконання?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q231" name="=&gt;q231">
@@ -2422,7 +2504,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>::After a second of hesitation, he continues.:: Free Drones are a kind of people who either completely sever ties to their families when they become anarchists, or they bring their whole families with them. Red Snake, real name Alvin Bate, did neither. Our intelligence agency learned of a teenage girl who was suspected of being contacted by one of the Free Drones. It turned out she was Bate's daughter, and he soon fell into a trap we had set up for him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Після секунди вагань він продовжує.:: Вільні Дрони – це люди, які або повністю розривають зв’язки зі своїми сім’ями, коли стають анархістами, або беруть з собою цілі сім’ї. Червона Змія, справжнє ім'я Елвін Бейт, не зробив ні того, ні іншого. Наша розвідувальна агенція дізналася про підлітка, який підозрювався в контакті з одним із Вільних Дронів. Виявилося, що це дочка Бейта, і незабаром він потрапив у пастку, яку ми для нього підготували.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a232" name="=&gt;a232">
@@ -2432,7 +2514,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>So you gave him an ultimatum.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, ви висунули йому ультиматум.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q233" name="=&gt;q233">
@@ -2442,7 +2524,7 @@ But, often we have to deal with certain things whether we like it or not, so CAU
       </mda:metadata>
       <segment state="translated">
         <source>Yes. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q234" name="=&gt;q234">
@@ -2454,7 +2536,9 @@ But, often we have to deal with certain things whether we like it or not, so CAU
         <source>You have to understand that these things have to be done from time to time. But, the girl is completely safe; we are simply using the Free Drones' twisted perception of the Protectorate to our advantage: They consider us to be tyrannical and inhumane, so we play that role by placing a knife under that girl's throat and make our demands. But the knife is dull, Corporal. It is dull. 
 
 We are not who they think we are.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви повинні розуміти, що ці речі іноді потрібно робити. Але дівчина в повній безпеці; ми просто використовуємо викривлене уявлення Вільних Дронів про Протекторат на нашу користь: вони вважають нас тиранічними та нелюдськими, тому ми граємо цю роль, підкладаючи ніж під горло цієї дівчини та висуваючи наші вимоги. Але ніж тупий, Корпорале. Він тупий.
+
+Ми не ті, за кого вони нас вважають.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q235" name="=&gt;q235">
@@ -2464,7 +2548,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>But, it is all irrelevant now, Corporal. All irrelevant.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але зараз все неважливо, Корпорале. Все неважливо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a236" name="=&gt;a236">
@@ -2474,7 +2558,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why did he stop sending information, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому він перестав надсилати інформацію, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q237" name="=&gt;q237">
@@ -2484,7 +2568,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We... are not sure. We received no warning that Epione Lab would come under attack, let alone that the results would be so disastrous for us. I suspect that he had been compromised somehow and possibly executed by the anarchists.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми... не впевнені. Ми не отримали попередження про те, що на лабораторію Epione Lab буде здійснено напад, не кажучи вже про те, що наслідки будуть такими катастрофічними для нас. Я підозрюю, що його було скомпрометовано і, можливо, страчено анархістами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q238" name="=&gt;q238">
@@ -2494,7 +2578,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Whatever the reason, it doesn't really matter anymore.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якою б не була причина, це вже не має значення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a239" name="=&gt;a239">
@@ -2504,7 +2588,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I had other questions for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене були інші питання до вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q240" name="=&gt;q240">
@@ -2514,7 +2598,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Feel free, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a241" name="=&gt;a241">
@@ -2524,7 +2608,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Excellent! That is some fine work by them; gathering such information must've been extremely difficult.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово! Це чудова робота з їхнього боку; збір такої інформації, мабуть, був надзвичайно складним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q242" name="=&gt;q242">
@@ -2534,7 +2618,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I can only imagine myself. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я можу лише уявити собі. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q243" name="=&gt;q243">
@@ -2544,7 +2628,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You will know what I decide you should know, Corporal. Now stop asking me about Red Snake's motives.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви дізнаєтеся, що я вирішу, що вам знати, Корпорале. Тепер припиніть питати мене про мотиви Червоної Змії.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a244" name="=&gt;a244">
@@ -2554,7 +2638,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Interesting, sir. But I have other questions I'd like to ask.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цікаво, сер. Але у мене є інші питання, які я хотів би задати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q245" name="=&gt;q245">
@@ -2566,7 +2650,9 @@ We are not who they think we are.&lt;end&gt;</source>
         <source>Yes?
 
 ::Says the man behind the table with a heavy, booming voice. He is an older gentleman of high rank, as his general appearance suggests. You notice him squinting at you, and you observe his eyes working hard to keep you in focus and the image clear. His eyesight must not be as precise as it once probably was. Still, other than that, he seems to be in good shape for a man of his age.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?
+
+::Каже чоловік за столом важким, гучним голосом. Він літній джентльмен високого рангу, про що свідчить його загальний вигляд. Ви помічаєте, як він примружується на вас, і спостерігаєте, як його очі напружено працюють, щоб тримати вас у фокусі та зображення чітким. Його зір, мабуть, вже не такий точний, як колись. Тим не менш, окрім цього, він здається в хорошій формі для свого віку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q246" name="=&gt;q246">
@@ -2576,7 +2662,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a247" name="=&gt;a247">
@@ -2586,7 +2672,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm looking for Consul Oliver.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я шукаю Консула Олівера.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q248" name="=&gt;q248">
@@ -2596,7 +2682,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Then you entered the wrong office... without even knocking. Consul Oliver's office is the one next to mine.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді ви зайшли не в той кабінет... навіть не постукавши. Офіс консула Олівера знаходиться поруч із моїм.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a249" name="=&gt;a249">
@@ -2606,7 +2692,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll knock next time, I promise.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я наступного разу постукаю, обіцяю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q250" name="=&gt;q250">
@@ -2616,7 +2702,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have no doubt you will. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не сумніваюся, що ви це зробите.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q251" name="=&gt;q251">
@@ -2626,7 +2712,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>After you're finished with the consul - come see me. I'll be in the office.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Після того, як ви закінчите з консулом, завітайте до мене. Я буду в офісі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a252" name="=&gt;a252">
@@ -2636,7 +2722,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, and sorry for disturbing you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, і вибачте за турботи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a253" name="=&gt;a253">
@@ -2646,7 +2732,7 @@ We are not who they think we are.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I talked to Consul Oliver and he told me to see you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я поговорив з Консулом Олівером, і він сказав мені звернутися до вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q254" name="=&gt;q254">
@@ -2658,7 +2744,9 @@ We are not who they think we are.&lt;end&gt;</source>
         <source>So, that part is done. Good, very good. And now, allow me to properly introduce myself: I am Colonel Frederick Cathcart, base commander of Fort Apogee, the headquarters of Underrail Protectorate military operations in South Underrail. Your name is known to me already, $(context.player.Name). I have heard a lot about you so far, and I've yet to confirm if all that is indeed true.
 
 Hmmm... care for a cup of mushroom tea?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, з цим покінчено. Добре, дуже добре. А тепер дозвольте мені належним чином представитися: я полковник Фредерік Кетхарт, командир бази Форт Апогей, штаб-квартири військових операцій Протекторату Підземного Залізничного Сполучення в Південному Підземному Залізничному Сполученні. Ваше ім'я мені вже відоме, $(context.player.Name). Я багато про вас чув досі, і мені ще належить підтвердити, чи все це справді правда.
+
+Хммм... бажаєте чашку грибного чаю?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a255" name="=&gt;a255">
@@ -2668,7 +2756,7 @@ Hmmm... care for a cup of mushroom tea?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, I would like a cup of tea. Thank you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, я б хотів чашку чаю. Дякую.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q256" name="=&gt;q256">
@@ -2678,7 +2766,7 @@ Hmmm... care for a cup of mushroom tea?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's what I like to hear. $(context.player.Name). ::He lifts the phone from the base and presses a few buttons.:: Miss Trey, would you be so kind to order two cups of mushroom tea for me and my guest? Excellent... in my office, right. Good. ::He hangs up.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це те, що мені подобається чути. $(context.player.Name). ::Він піднімає телефонну трубку з бази та натискає кілька кнопок.:: Міс Трей, чи не будете ви настільки ласкаві, щоб замовити для мене та мого гостя дві чашки грибного чаю? Чудово... у моєму кабінеті, так. Добре. ::Він кладе трубку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q257" name="=&gt;q257">
@@ -2690,7 +2778,9 @@ Hmmm... care for a cup of mushroom tea?&lt;end&gt;</source>
         <source>::He leans back into his chair.:: Aaah, now we wait. Where were we? Yes...
 
 From what I understand, you want to join the Protectorate forces? Why is that, $(context.player.Name)? What is your take on this hell we live in? Out of all these... different organizations you could choose from... why Underrail Protectorate?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він відкидається на спинку крісла.:: Ааа, тепер чекаємо. Де ми зупинилися? Так...
+
+Наскільки я розумію, ви хочете приєднатися до сил Протекторату? Чому, $(context.player.Name)? Яке ваше ставлення до цього пекла, в якому ми живемо? З усіх цих... різних організацій, які ви могли б вибрати... чому саме Підземний Протекторат?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a258" name="=&gt;a258">
@@ -2700,7 +2790,7 @@ From what I understand, you want to join the Protectorate forces? Why is that, $
       </mda:metadata>
       <segment state="translated">
         <source>I see the Protectorate as the future of Underrail. I believe unifying the stations under a single rule is the proper way to make Underrail safe and prosperous.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачу Протекторат як майбутнє Підземного Шляху. Я вірю, що об'єднання станцій під єдиним правлінням – це правильний спосіб зробити Підземний Шлях безпечним і процвітаючим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q259" name="=&gt;q259">
@@ -2712,7 +2802,9 @@ From what I understand, you want to join the Protectorate forces? Why is that, $
         <source>Correct. What you said is true, $(context.player.Name). Just, let me tell you one thing, because I have a feeling that there could be some misunderstanding.
 
 It is true, we want the world to be unified, safe and... as you put it, prosperous. But, if you have any dreams of it being done in a completely diplomatic way, you are wrong. The reason Protectorate exists is so that those who can not be reasoned with can be stopped from undoing what we're building here. Like those Free Drones. They are anarchists. Do you know what anarchism is?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Правильно. Те, що ви сказали, правда, $(context.player.Name). Але дозвольте мені сказати вам одну річ, бо я відчуваю, що може виникнути певне непорозуміння.
+
+Це правда, ми хочемо, щоб світ був єдиним, безпечним і... як ви кажете, процвітаючим. Але якщо ви мрієте про те, що це буде зроблено повністю дипломатичним шляхом, ви помиляєтеся. Причина існування Протекторату полягає в тому, щоб зупинити тих, з ким неможливо домовитися, від руйнування того, що ми тут будуємо. Як ті Вільні Дрони. Вони анархісти. Ви знаєте, що таке анархізм?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q260" name="=&gt;q260">
@@ -2724,7 +2816,9 @@ It is true, we want the world to be unified, safe and... as you put it, prospero
         <source>Chaos, complete chaos. You can't negotiate with that. So, in that very extreme case, we need to act appropriately.
 
 We are not savages, we don't abuse our power. But when diplomacy can't be applied, force must be.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хаос, повний хаос. З цим неможливо домовлятися. Тому, в такому крайньому випадку, нам потрібно діяти відповідно.
+
+Ми не варвари, ми не зловживаємо своєю владою. Але коли дипломатія неможлива, необхідно застосувати силу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q261" name="=&gt;q261">
@@ -2734,7 +2828,7 @@ We are not savages, we don't abuse our power. But when diplomacy can't be applie
       </mda:metadata>
       <segment state="translated">
         <source>::The woman you saw out front enters the office.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Жінка, яку ви бачили спереду, заходить в офіс.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q262" name="=&gt;q262">
@@ -2746,7 +2840,9 @@ We are not savages, we don't abuse our power. But when diplomacy can't be applie
         <source>::Colonel smiles.:: Miss Trey, how lovely. One is for $(#Mister/Miss) $(context.player.Name) and one for me. Thank you.
 
 ::She puts the cups down and leaves the office.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник посміхається.:: Міс Трей, як приємно. Один для $(#Містера/Міс) $(context.player.Name) і один для мене. Дякую.
+
+::Вона ставить чашки і залишає офіс.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q263" name="=&gt;q263">
@@ -2758,7 +2854,9 @@ We are not savages, we don't abuse our power. But when diplomacy can't be applie
         <source>Well, now that the tea is here, how about I explain to you your duties here and all the other necessities. ::He takes a sip.:: Ooh, good, good. Nice and hot.
 
 So, listen up...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, тепер, коли чай тут, дозвольте мені пояснити вам ваші обов'язки тут і все інше необхідне. ::Він робить ковток.:: Ох, добре, добре. Приємно тепло.
+
+Тож слухайте уважно...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q264" name="=&gt;q264">
@@ -2770,7 +2868,9 @@ So, listen up...&lt;end&gt;</source>
         <source>$(context.player.Name), you will, should you chose so, become a member of the Underrail Protectorate. You will not be a part of any existing force. Your role will be a bit more specialized. I will be your commanding officer, and you will answer directly to me and me only. My word is the law here, remember that.
 
 So, does that sound acceptable to you? Will you join the Protectorate?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name), ви, якщо захочете, станете членом Підземного Протекторату. Ви не будете частиною жодної існуючої сили. Ваша роль буде трохи більш спеціалізованою. Я буду вашим командувачем, і ви будете відповідати безпосередньо мені і тільки мені. Моє слово тут – закон, пам'ятайте це.
+
+Тож, чи звучить це прийнятно для вас? Чи приєднаєтесь ви до Протекторату?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a265" name="=&gt;a265">
@@ -2780,7 +2880,7 @@ So, does that sound acceptable to you? Will you join the Protectorate?&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>It is acceptable. I'm ready to join the Protectorate.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це прийнятно. Я готовий приєднатися до Протекторату.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q266" name="=&gt;q266">
@@ -2794,7 +2894,11 @@ So, does that sound acceptable to you? Will you join the Protectorate?&lt;end&gt
 You will refer to me as "sir," and, according to proper military etiquette, a junior officer always salutes $(#his/her) superior first. I suggest you familiarize yourself with proper military etiquette, because from now on, I will accept no excuses.
 
 Am I clear so far?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже добре, дуже добре!
+
+Ви будете звертатися до мене "сер", і, згідно з належним військовим етикетом, молодший офіцер завжди першим вітає свого начальника. Я раджу вам ознайомитися з належним військовим етикетом, тому що з цього моменту я не прийму жодних вибачень.
+
+Чи все зрозуміло на даний момент?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a267" name="=&gt;a267">
@@ -2804,7 +2908,7 @@ Am I clear so far?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q268" name="=&gt;q268">
@@ -2814,7 +2918,7 @@ Am I clear so far?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's what I like to hear. For your assistance in the recovery of the captured train, and for dedication to Protectorate, you are promoted to the rank of corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось що мені подобається чути. За вашу допомогу у відновленні захопленого потяга та за відданість Протекторату, вас підвищують до звання капрала.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q269" name="=&gt;q269">
@@ -2826,7 +2930,9 @@ Am I clear so far?&lt;end&gt;</source>
         <source>And with that, you are allowed nearly full access to Fort Apogee, its food service, armory, mechanical shop, sleeping and training quarters and so forth. While we're at it, you are advised to see Staff Sergeant Fraser when you have the time. He is in charge of your payment, and you can purchase equipment from him at any time.
 
 Do note that you will need United Stations dollars to purchase anything in Fort Apogee. Staff Sergeant can also help you with that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І з цим вам надається майже повний доступ до Форту Апогей, його харчування, зброярні, механічної майстерні, спальних та навчальних приміщень і так далі. До речі, вам рекомендується звернутися до штаб-сержанта Фрейзера, коли у вас буде час. Він відповідає за вашу оплату, і ви можете придбати обладнання у нього в будь-який час.
+
+Зверніть увагу, що вам знадобляться долари Об'єднаних Станцій, щоб щось придбати у Форті Апогей. Штаб-сержант також може вам з цим допомогти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a270" name="=&gt;a270">
@@ -2836,7 +2942,7 @@ Do note that you will need United Stations dollars to purchase anything in Fort 
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, sir. Is that all, sir?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, сер. Це все, сер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q271" name="=&gt;q271">
@@ -2848,7 +2954,9 @@ Do note that you will need United Stations dollars to purchase anything in Fort 
         <source>Thank me by showing your dedication to Protectorate and the United Stations. We're far from over, Corporal.
 
 It just so happens that I have a mission for you. Let's see what you're made of, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Подякуйте мені, продемонструвавши свою відданість Протекторату та Об'єднаним Станціям. Ми ще далекі від завершення, капрале.
+
+Випадково, у мене є для вас завдання. Подивимось, на що ви здатні, капрале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a272" name="=&gt;a272">
@@ -2858,7 +2966,7 @@ It just so happens that I have a mission for you. Let's see what you're made of,
       </mda:metadata>
       <segment state="translated">
         <source>Yes.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q273" name="=&gt;q273">
@@ -2870,7 +2978,9 @@ It just so happens that I have a mission for you. Let's see what you're made of,
         <source>Sir. Yes, sir. Remember what I told you. I will not repeat it again.
 
 Anyway, for your assistance in the recovery of the captured train, and for dedication to Protectorate, you are promoted to the rank of corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сер. Так, сер. Пам'ятайте те, що я вам сказав. Я не повторюватиму це знову.
+
+В будь-якому випадку, за вашу допомогу у відновленні захопленого потяга та за відданість Протекторату, вас підвищують до звання капрала.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a274" name="=&gt;a274">
@@ -2880,7 +2990,7 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
       </mda:metadata>
       <segment state="translated">
         <source>Kind of...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дещо...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q275" name="=&gt;q275">
@@ -2892,7 +3002,9 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
         <source>Sir. Kind of, sir. Remember what I told you. I will not repeat it again.
 
 Anyway, for your assistance in the recovery of the captured train, and for dedication to Protectorate, you are promoted to the rank of corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сер. Дещо, сер. Пам'ятайте те, що я вам сказав. Я не повторюватиму це знову.
+
+В будь-якому випадку, за вашу допомогу у відновленні захопленого потяга та за відданість Протекторату, вас підвищують до звання капрала.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a276" name="=&gt;a276">
@@ -2902,7 +3014,7 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
       </mda:metadata>
       <segment state="translated">
         <source>Hell yeah! It sounds perfect!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чорт забирай! Звучить ідеально!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a277" name="=&gt;a277">
@@ -2912,7 +3024,7 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
       </mda:metadata>
       <segment state="translated">
         <source>Sorry Colonel, but this isn't how I imagined all this. I'm going to have to decline.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, полковнику, але я не уявляв собі все це саме так. Я мушу відмовитися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q278" name="=&gt;q278">
@@ -2922,7 +3034,7 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
       </mda:metadata>
       <segment state="translated">
         <source>That's fair enough. Well then, you've made your choice, $(context.player.Name). I guess you came all the way here for nothing. I believe we are done then. Goodbye, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це справедливо. Що ж, тоді ви зробили свій вибір, $(context.player.Name). Гадаю, ви приїхали сюди даремно. Вважаю, що на цьому все. До побачення, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q279" name="=&gt;q279">
@@ -2932,7 +3044,7 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
       </mda:metadata>
       <segment state="translated">
         <source>One thing - once you leave Fort Apogee, you will not be allowed to return here, remember that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Одне – як тільки ви покинете Форт Апогей, вам не дозволять повернутися сюди, пам'ятайте це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a280" name="=&gt;a280">
@@ -2942,7 +3054,7 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye, Colonel.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення, полковнику.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a281" name="=&gt;a281">
@@ -2952,7 +3064,7 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
       </mda:metadata>
       <segment state="translated">
         <source>I'll keep that in mind.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я це запам'ятаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q282" name="=&gt;q282">
@@ -2964,7 +3076,9 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
         <source>::Colonel smiles.:: Miss Trey, how lovely. The cup of tea is for me. Thank you.
 
 ::She puts the cups down and leaves the office.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник посміхається.:: Міс Трей, як приємно. Чашка чаю для мене. Дякую.
+
+::Вона ставить чашки і залишає офіс.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a283" name="=&gt;a283">
@@ -2974,7 +3088,7 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
       </mda:metadata>
       <segment state="translated">
         <source>I wanted to help South Underrail by fighting raiders, bandits... and of course, those filthy Free Drones.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів допомогти Південному Підземлю, борючись з рейдерами, бандитами... і, звичайно, з тими брудними Вільними Дронами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q284" name="=&gt;q284">
@@ -2986,7 +3100,9 @@ Anyway, for your assistance in the recovery of the captured train, and for dedic
         <source>::The Colonel raises his left eyebrow.::
 
 In that case, you won't be bored here. Very good. Straight to the point, that's what I like to hear. While our beloved ambassador, consul as well, believe that we can sort everything out by diplomacy, you know that that's not true. How do you negotiate with raiders... or, Free Drones? Faceless? Perhaps even they can be reasoned with, but Free Drones? They are anarchists. Do you know what anarchism is?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник піднімає ліву брову.::
+
+У такому разі вам тут не буде нудно. Дуже добре. Прямолінійно, це мені подобається. Хоча наші улюблені посли, консули, а також майор Кліфтон вважають, що ми можемо все вирішити дипломатією, ви знаєте, що це неправда. Як домовитися з рейдерами... або, Вільними Дронами? Безликими? Можливо, навіть з ними можна домовитися, але з Вільними Дронами? Вони анархісти. Ви знаєте, що таке анархізм?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a285" name="=&gt;a285">
@@ -2996,7 +3112,7 @@ In that case, you won't be bored here. Very good. Straight to the point, that's 
       </mda:metadata>
       <segment state="translated">
         <source>Protectorate is the largest and most powerful faction in Underrail. It can offer me safety, a steady job and respect.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Протекторат – найбільша і найпотужніша фракція в Підземному Світі. Він може запропонувати мені безпеку, стабільну роботу та повагу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q286" name="=&gt;q286">
@@ -3006,7 +3122,7 @@ In that case, you won't be bored here. Very good. Straight to the point, that's 
       </mda:metadata>
       <segment state="translated">
         <source>I like your response. Honest, straightforward. You could have easily been more "diplomatic" and told me how, say, you wanted to see the stations united, help us create a better future, protect the people, any of that. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені подобає ваша відповідь. Чесна, прямолінійна. Ви могли б легко бути більш "дипломатичним" і сказати мені, як, скажімо, ви хочете бачити об'єднані станції, допомогти нам створити краще майбутнє, захистити людей, будь-що з цього. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q287" name="=&gt;q287">
@@ -3016,7 +3132,7 @@ In that case, you won't be bored here. Very good. Straight to the point, that's 
       </mda:metadata>
       <segment state="translated">
         <source>I have no illusions that most Southerners join our ranks for economic reason, personal and family security and other benefits, but as long as they're willing to accept discipline, integration and above all - duty, then they are all welcome.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не маю ілюзій, що більшість південян приєднуються до наших лав з економічних причин, особистої та сімейної безпеки та інших вигод, але поки вони готові приймати дисципліну, інтеграцію і, перш за все, – обов'язок, то вони всі вітаються.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a288" name="=&gt;a288">
@@ -3026,7 +3142,7 @@ In that case, you won't be bored here. Very good. Straight to the point, that's 
       </mda:metadata>
       <segment state="translated">
         <source>As long as the coin's good, I'm up for anything. And the Protectorate seems to be one of the wealthiest factions around.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поки монети добрі, я готовий на все. І Протекторат, здається, одна з найбагатших фракцій.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q289" name="=&gt;q289">
@@ -3036,7 +3152,7 @@ In that case, you won't be bored here. Very good. Straight to the point, that's 
       </mda:metadata>
       <segment state="translated">
         <source>Honest and straightforward, I have to say. You could have told me anything at all, any one of the stock responses regarding creating a better future and all of that. Yet you chose that very response. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чесно і прямолінійно, мушу сказати. Ви могли б сказати мені будь-що, будь-яку з типових відповідей щодо створення кращого майбутнього і всього іншого. Проте ви обрали саме цю відповідь. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a290" name="=&gt;a290">
@@ -3046,7 +3162,7 @@ In that case, you won't be bored here. Very good. Straight to the point, that's 
       </mda:metadata>
       <segment state="translated">
         <source>I had no other place to go to.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене не було іншого місця, куди піти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q291" name="=&gt;q291">
@@ -3058,7 +3174,9 @@ In that case, you won't be bored here. Very good. Straight to the point, that's 
         <source>::The colonel raises his left eyebrow.::
 
 The only way I can interpret that is... well, that things in SGS aren't the best. At least not for you. Still, I value your honesty, but the way you expressed it... it signals weakness. Like you're running away from something. Here in Underrail Protectorate, we face anything that gets tossed our way, and it's more than just Free Drones and common banditry.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полковник піднімає ліву брову.::
+
+Єдине, як я можу це інтерпретувати, це... ну, що справи в SGS не найкращі. Принаймні не для вас. Все ж, я ціную вашу чесність, але те, як ви це висловили... це сигналізує про слабкість. Ніби ви тікаєте від чогось. Тут, в Підземному Протектораті, ми стикаємося з усім, що нам кидають, і це більше, ніж просто Вільні Дрони та звичайні бандити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q292" name="=&gt;q292">
@@ -3068,7 +3186,7 @@ The only way I can interpret that is... well, that things in SGS aren't the best
       </mda:metadata>
       <segment state="translated">
         <source>But, I was assured by both the ambassador and the consul, even Major Clifton, that you have no lack of courage, that you show great potential. We'll see. We will see.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але, мене запевнили і послом, і консулом, навіть майором Кліфтоном, що вам не бракує мужності, що ви демонструєте великий потенціал. Подивимось. Подивимось.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a293" name="=&gt;a293">
@@ -3078,7 +3196,7 @@ The only way I can interpret that is... well, that things in SGS aren't the best
       </mda:metadata>
       <segment state="translated">
         <source>No, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q294" name="=&gt;q294">
@@ -3088,7 +3206,7 @@ The only way I can interpret that is... well, that things in SGS aren't the best
       </mda:metadata>
       <segment state="translated">
         <source>As you will. I'll have one. ::He lifts the phone from the base and presses a single button.:: Miss Trey, would you be so kind to order one cup of mushroom tea for me? Excellent... in my office, right. Good. ::He hangs up.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як накажете. Я візьму один. ::Він піднімає телефонну трубку і натискає одну кнопку.:: Міс Трей, чи не будете ви настільки ласкаві замовити мені одну чашку грибного чаю? Чудово... в моєму офісі, правильно. Добре. ::Він кладе трубку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a295" name="=&gt;a295">
@@ -3098,7 +3216,7 @@ The only way I can interpret that is... well, that things in SGS aren't the best
       </mda:metadata>
       <segment state="translated">
         <source>::Make a disgusted face.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зробіть роздратований вираз обличчя.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q296" name="=&gt;q296">
@@ -3110,7 +3228,9 @@ The only way I can interpret that is... well, that things in SGS aren't the best
         <source>Not a fan, I see. What do you drink if not mushroom tea? 
 
 Well, I'll have a cup. ::He lifts the phone from the base and presses a few buttons.:: Miss Trey, would you be so kind to order one cup of mushroom tea for me? Excellent... in my office, right. Good. ::He hangs up.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не фанат, бачу. Що ви п'єте, якщо не грибний чай? 
+
+Ну, я вип'ю чашку. ::Він піднімає телефонну трубку і натискає кілька кнопок.:: Міс Трей, чи не будете ви настільки ласкаві замовити мені одну чашку грибного чаю? Чудово... в моєму офісі, правильно. Добре. ::Він кладе трубку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a297" name="=&gt;a297">
@@ -3120,7 +3240,7 @@ Well, I'll have a cup. ::He lifts the phone from the base and presses a few butt
       </mda:metadata>
       <segment state="translated">
         <source>Sorry, wrong office.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, не той офіс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q298" name="=&gt;q298">
@@ -3130,7 +3250,7 @@ Well, I'll have a cup. ::He lifts the phone from the base and presses a few butt
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q299" name="=&gt;q299">
@@ -3140,7 +3260,7 @@ Well, I'll have a cup. ::He lifts the phone from the base and presses a few butt
       </mda:metadata>
       <segment state="translated">
         <source>At ease, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Стій спокійно, капрале.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

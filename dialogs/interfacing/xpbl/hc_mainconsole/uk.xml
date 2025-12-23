@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::LEMCO LC387 - ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO LC387 - ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -22,7 +22,11 @@
 ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, П. Бріджес
+
+::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -45,7 +49,20 @@ Nursery 3 status:
    Temperature: 39.1° (avg.)
    Humidity: 57.4% (avg.)
    Illumination: 17 lx (avg.)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус розплідника 1: 
+   Температура: 43.6° (середня)
+   Вологість: дані датчика недоступні!
+   Освітленість: 24 лк (середня)
+
+Статус розплідника 2: 
+   Температура: 32.3° (середня)
+   Вологість: 52.7% (середня)
+   Освітленість: дані датчика недоступні!
+   
+Статус розплідника 3: 
+   Температура: 39.1° (середня)
+   Вологість: 57.4% (середня)
+   Освітленість: 17 лк (середня)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -58,7 +75,10 @@ Nursery 3 status:
 Fertilization: Auto (fertilizer mixture canisters need replacement!)
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Полив: Автоматичний (дані датчика недоступні!)
+Підживлення: Автоматичне (необхідна заміна картриджів з добривами!)
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -68,7 +88,7 @@ Fertilization: Auto (fertilizer mixture canisters need replacement!)
       </mda:metadata>
       <segment state="translated">
         <source>::Ventilation: Manual (on for all nurseries)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вентиляція: Ручна (увімкнена для всіх розплідників)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -78,7 +98,7 @@ Fertilization: Auto (fertilizer mixture canisters need replacement!)
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -88,7 +108,7 @@ Fertilization: Auto (fertilizer mixture canisters need replacement!)
       </mda:metadata>
       <segment state="translated">
         <source>::Ventilation system management::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування системою вентиляції::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -102,7 +122,11 @@ Fertilization: Auto (fertilizer mixture canisters need replacement!)
 Nursery 1 ventilation unit: On
 Nursery 2 ventilation unit: On
 Nursery 3 ventilation unit: On::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування вентиляцією: Ручне
+
+Вентиляційний блок розплідника 1: Увімкнено
+Вентиляційний блок розплідника 2: Увімкнено
+Вентиляційний блок розплідника 3: Увімкнено::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -112,7 +136,7 @@ Nursery 3 ventilation unit: On::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -126,7 +150,11 @@ Nursery 3 ventilation unit: On::&lt;end&gt;</source>
 Nursery 1 ventilation unit: Off
 Nursery 2 ventilation unit: Off
 Nursery 3 ventilation unit: Off::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування вентиляцією: Ручне
+
+Вентиляційний блок розплідника 1: Вимкнено
+Вентиляційний блок розплідника 2: Вимкнено
+Вентиляційний блок розплідника 3: Вимкнено::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -136,7 +164,7 @@ Nursery 3 ventilation unit: Off::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Turn on ventilation units::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути вентиляційні блоки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -146,7 +174,7 @@ Nursery 3 ventilation unit: Off::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -160,7 +188,11 @@ Nursery 3 ventilation unit: Off::&lt;end&gt;</source>
 Turning on ventilation unit for Nursery 1... Success.
 Turning on ventilation unit for Nursery 2... Success.
 Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнення вентиляційних блоків...
+
+Увімкнення вентиляційного блоку для розплідника 1... Успішно.
+Увімкнення вентиляційного блоку для розплідника 2... Успішно.
+Увімкнення вентиляційного блоку для розплідника 3... Успішно.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -170,7 +202,7 @@ Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::You do not have permission to perform this action. Minimum clearance level required is C-3.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::У вас немає дозволу на виконання цієї дії. Мінімальний рівень допуску: C-3.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -180,7 +212,7 @@ Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Turn on ventilation units.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Увімкнути вентиляційні блоки.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -190,7 +222,7 @@ Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -202,7 +234,9 @@ Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
         <source>::Unknown error! Logging...
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Невідома помилка! Запис у журнал...
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -212,7 +246,7 @@ Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -222,7 +256,7 @@ Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Main::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Головне::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -232,7 +266,7 @@ Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Irrigation system management::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування системою поливу::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -244,7 +278,9 @@ Turning on ventilation unit for Nursery 3... Success.::&lt;end&gt;</source>
         <source>::Irrigation control: Auto
 
 Sensor data unavailable! Please contact HTS.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування поливом: Автоматичне
+
+Дані датчика недоступні! Зверніться до HTS.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -254,7 +290,7 @@ Sensor data unavailable! Please contact HTS.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Fertilization system management::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування системою підживлення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -276,7 +312,19 @@ Fertilizer canisters (ASO12) - All empty. Please replace.
 Fertilizer canisters (DT3) - All empty. Please replace.
 
 Fertilizer canisters (DT4) - All empty. Please replace.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Внесення добрив: Автоматичне
+
+Картриджі з добривами (CH9) - Всі порожні. Замініть, будь ласка.
+
+Картриджі з добривами (CH9-S) - Всі порожні. Замініть, будь ласка.
+
+Картриджі з добривами (NAH5) - Всі порожні. Замініть, будь ласка.
+
+Картриджі з добривами (ASO12) - Всі порожні. Замініть, будь ласка.
+
+Картриджі з добривами (DT3) - Всі порожні. Замініть, будь ласка.
+
+Картриджі з добривами (DT4) - Всі порожні. Замініть, будь ласка.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -286,7 +334,7 @@ Fertilizer canisters (DT4) - All empty. Please replace.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Pesticide administration system management::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування системою пестицидів::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -298,7 +346,9 @@ Fertilizer canisters (DT4) - All empty. Please replace.::&lt;end&gt;</source>
         <source>::Pesticide administration: Disabled
 
 Note: Automated pesticide administration disabled until further notice. All UHI-X-400 pesticide canisters (active and passive) have been moved to Cryostorage Block 1.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Внесення пестицидів: Вимкнено
+
+Увага: Автоматичне внесення пестицидів вимкнено до подальшого розпорядження. Всі картриджі з пестицидами UHI-X-400 (активні та пасивні) переміщено до блоку кріоконсервації 1.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -308,7 +358,7 @@ Note: Automated pesticide administration disabled until further notice. All UHI-
       </mda:metadata>
       <segment state="translated">
         <source>::Summon available strongman::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Викликати доступного кремезного чоловіка::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -318,7 +368,7 @@ Note: Automated pesticide administration disabled until further notice. All UHI-
       </mda:metadata>
       <segment state="translated">
         <source>::No available strongmen detected. Your request has been placed in a queue.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не виявлено доступних кремезних чоловіків. Ваш запит поставлено в чергу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -328,7 +378,7 @@ Note: Automated pesticide administration disabled until further notice. All UHI-
       </mda:metadata>
       <segment state="translated">
         <source>::Summon available handmaiden::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Викликати доступну служницю::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -338,7 +388,7 @@ Note: Automated pesticide administration disabled until further notice. All UHI-
       </mda:metadata>
       <segment state="translated">
         <source>::No available handmaidens detected. Your request has been placed in a queue.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не виявлено доступних служниць. Ваш запит поставлено в чергу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -348,7 +398,7 @@ Note: Automated pesticide administration disabled until further notice. All UHI-
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -358,7 +408,7 @@ Note: Automated pesticide administration disabled until further notice. All UHI-
       </mda:metadata>
       <segment state="translated">
         <source>::Ventilation: Manual (off for all nurseries)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вентиляція: Ручна (вимкнена для всіх розплідників)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -370,7 +420,9 @@ Note: Automated pesticide administration disabled until further notice. All UHI-
         <source>::Welcome, guest::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, гостю::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

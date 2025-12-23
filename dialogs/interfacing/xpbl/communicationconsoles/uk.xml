@@ -340,7 +340,7 @@ Blistering Shores Research Facility - N/A
       </mda:metadata>
       <segment state="translated">
         <source>::Import coordinates to NCD::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імпортувати координати в НКД::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -350,7 +350,7 @@ Blistering Shores Research Facility - N/A
       </mda:metadata>
       <segment state="translated">
         <source>::Course coordinates imported successfully.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Координати курсу успішно імпортовано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -360,7 +360,7 @@ Blistering Shores Research Facility - N/A
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -384,7 +384,21 @@ Time: 09:47. From:  Nexus (K7). To: JSHQ (F12). Unit: P-010. Cargo Id: PASS1.
 Time: 10:22. From:  LEMCO (K3). To: JSHQ (F12). Unit: P-020. Cargo Id: PASS1.
 Time: 10:24. From:  LEMCO (K3). To: JSHQ (F12). Unit: P-006. Cargo Id: PASS2.
 Time: 10:33. From:  BSBRF (K11). To: JSHQ (F12). Unit: T-017. Cargo Id: 6608310.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LE 17.10.122:
+
+Час: 09:02. З: JSHQ (F12). До: Keep (E6). Підрозділ: ST-004. Ідентифікатор вантажу: SEC1.
+Час: 09:02. З: JSHQ (F12). До: Keep (E6). Підрозділ: HT-002. Ідентифікатор вантажу: 2298148.
+Час: 09:04. З: JSHQ (F12). До: Keep (E6). Підрозділ: ST-001. Ідентифікатор вантажу: SEC1.
+Час: 09:07. З: JSHQ (F12). До: Keep (E6). Підрозділ: ST-003. Ідентифікатор вантажу: SEC1.
+Час: 09:07. З: JSHQ (F12). До: Keep (E6). Підрозділ: ST-005. Ідентифікатор вантажу: SEC1.
+Час: 09:08. З: JSHQ (F12). До: Keep (E6). Підрозділ: SC-010. Ідентифікатор вантажу: SEC1.
+Час: 09:09. З: JSHQ (F12). До: Keep (E6). Підрозділ: SC-004. Ідентифікатор вантажу: SEC1.
+Час: 09:11. З: JSHQ (F12). До: Keep (E6). Підрозділ: SC-007. Ідентифікатор вантажу: SEC1.
+Час: 09:22. З: JSHQ (F12). До: AbyssE (L2). Підрозділ: SP-001. Ідентифікатор вантажу: ACoNR.
+Час: 09:47. З: Nexus (K7). До: JSHQ (F12). Підрозділ: P-010. Ідентифікатор вантажу: PASS1.
+Час: 10:22. З: LEMCO (K3). До: JSHQ (F12). Підрозділ: P-020. Ідентифікатор вантажу: PASS1.
+Час: 10:24. З: LEMCO (K3). До: JSHQ (F12). Підрозділ: P-006. Ідентифікатор вантажу: PASS2.
+Час: 10:33. З: BSBRF (K11). До: JSHQ (F12). Підрозділ: T-017. Ідентифікатор вантажу: 6608310.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -394,7 +408,7 @@ Time: 10:33. From:  BSBRF (K11). To: JSHQ (F12). Unit: T-017. Cargo Id: 6608310.
       </mda:metadata>
       <segment state="translated">
         <source>::Import coordinates to your NCD::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імпортуйте координати до вашого НКД::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -414,7 +428,17 @@ Blistering Shores Research Facility - L12
 
 Importing successful.
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імпортування координат...
+
+Штаб-квартира Об'єднаної Охорони - F12
+Крепость Острова Арки - E6
+Ліфти станції Абсальної Нуль - L2
+Нексус Технологій - K7
+Виробничий Комплекс Лемурії - K3
+Дослідницький Об'єкт Смарагдових Берегів - L12
+
+Імпортування успішне.
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -424,7 +448,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Obtain Course docking coordinates for listed locations::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Отримати координати док-станції курсу для перелічених локацій::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -434,7 +458,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Write the coordinates down manually::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Запишіть координати вручну::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -444,7 +468,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::You write down the Course docking coordinates.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви записуєте координати док-станції Курсу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -454,7 +478,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -464,7 +488,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Unknown error.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Невідома помилка.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -474,7 +498,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Joint Security Headquarters - LE 17.10.122::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Штаб Об'єднаної Охорони - ЛЕ 17.10.122::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -484,7 +508,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Back.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -494,7 +518,7 @@ Importing successful.
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -506,7 +530,9 @@ Importing successful.
         <source>::Crimson Meadow Horticulture Center
 
 Unable to connect to LIN. Only local data is available.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ботанічний центр "Багряний Луг"
+
+Не вдалося підключитися до LIN. Доступні лише локальні дані.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -518,7 +544,9 @@ Unable to connect to LIN. Only local data is available.::&lt;end&gt;</source>
         <source>::Joint Security Headquarters
 
 Unable to connect to LIN. Only local data is available.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Штаб Об'єднаної Охорони
+
+Не вдалося підключитися до LIN. Доступні лише локальні дані.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -530,7 +558,9 @@ Unable to connect to LIN. Only local data is available.::&lt;end&gt;</source>
         <source>::Welcome, guest
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, гостю
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

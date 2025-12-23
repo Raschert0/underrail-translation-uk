@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Did you speak with Chief Briggs?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви розмовляли з начальником Бріггсом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::The guard stops you. You notice a badge on his chest - an orange and black shield, the colors being vertically divided at the center. At the bottom it reads: "Aegis."::
 
 Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Варта зупиняє вас. Ви помічаєте значок на його грудях - помаранчевий і чорний щит, кольори вертикально розділені по центру. Внизу написано: "Aegis".::
+
+Обмежена зона, $(#сер/пані). Повідомте про мету вашого візиту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I guess I am looking for work after all.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гадаю, я все ж таки шукаю роботу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Good. Do you have any combat experience?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре. Чи маєте ви бойовий досвід?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hell yeah. These hands keep getting covered in blood and I can't seem to find a way to get them clean.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чорт забирай. Ці руки постійно забруднюються кров’ю, і я не можу знайти способу їх помити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::The guard nods.:: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Варта киває.:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We are Aegis Incorporated, a security company from North Underrail. We've been hired to protect scientific personnel during an important expedition to the Black Sea.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми – корпорація «Егіда», охоронна компанія з Північного Андеррейлу. Нас найняли для захисту наукових співробітників під час важливої експедиції до Чорного моря.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -102,7 +104,9 @@ Restricted area, $(#sir/ma'am). State your business.&lt;end&gt;</source>
         <source>We need highly skilled and competent individuals with sufficient combat experience. Background in personal protection, station security or similar is highly desirable but not strictly necessary. If you are capable of effectively operating alone or as part of a small, specialized team, that will greatly improve your chances of being hired. I think it is needless to say that this line of work entails great danger, but in turn know that the monetary compensation we offer will be quite appropriate.
 
 How does all of this sound to you? Do you think you meet these requirements?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нам потрібні висококваліфіковані та компетентні особи з достатнім бойовим досвідом. Досвід роботи в особистій охороні, забезпеченні безпеки станцій або подібних сферах є дуже бажаним, але не обов’язковим. Якщо ви здатні ефективно діяти самостійно або як частина невеликої, спеціалізованої команди, це значно підвищить ваші шанси на працевлаштування. Вважаю, що не потрібно говорити, що ця робота пов’язана з великою небезпекою, але, у свою чергу, знайте, що грошова компенсація, яку ми пропонуємо, буде цілком відповідною.
+
+Як вам все це звучить? Чи вважаєте ви, що відповідаєте цим вимогам?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -112,7 +116,7 @@ How does all of this sound to you? Do you think you meet these requirements?&lt;
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -122,7 +126,7 @@ How does all of this sound to you? Do you think you meet these requirements?&lt;
       </mda:metadata>
       <segment state="translated">
         <source>I've spent my life staring down danger until it dragged itself away into the hole it crawled out of. So yeah, I'm your $(#guy/girl).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я все життя дивився небезпеці в очі, поки вона сама не відповзала назад у діру, з якої вилізла. Тож так, я ваш $(#чоловік/жінка).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -136,7 +140,11 @@ How does all of this sound to you? Do you think you meet these requirements?&lt;
 Do *not* wander around the dock. 
 
 If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре. Проходьте вниз по цьому пандусу і поговорить з начальником Бріггсом.
+
+Не блукайте по доках.
+
+Якщо ви будете заважати чужій роботі, вас негайно виженуть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -146,7 +154,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>How will I recognize him?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як я його впізнаю?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -158,7 +166,9 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
         <source>Easily. 
 
 ::He steps aside.:: You may proceed, $(#sir/ma'am).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Легко. 
+
+::Він відступає вбік.:: Можете проходити, $(#сер/пані).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -168,7 +178,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Understood. I'll go speak with him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зрозуміло. Я піду поговорити з ним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -178,7 +188,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>::He nods.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -188,7 +198,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Thanks.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -198,7 +208,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>::Nod and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кивніть і йдіть.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -208,7 +218,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>::He nods as well.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він також киває.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -218,7 +228,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Yes. Where do I apply?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. Куди мені звертатися?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -228,7 +238,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>::Shrug your shoulders.:: I suppose. Who do I see next?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зітхайте плечима.:: Гаразд, мабуть. До кого мені наступного?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -238,7 +248,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>I was told you are also looking for laborers and technicians.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені сказали, що ви також шукаєте робітників і техніків.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -248,7 +258,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>We were, but we've filled our quota in the meantime. Right now we are only looking for security personnel.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми були, але тим часом заповнили нашу квоту. Зараз ми шукаємо лише персонал служби безпеки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -258,7 +268,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>So, do you think you meet the requirements?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тож, як ви гадаєте, чи відповідаєте ви вимогам?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -268,7 +278,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Speaking of which, again, do you have any combat experience?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До речі, знову ж таки, чи є у вас бойовий досвід?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -278,7 +288,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Actually, I don't know much about the Black Sea, so it's not quite needless to say that it is dangerous. What is out there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насправді, я мало що знаю про Чорне море, тому зайве казати, що воно небезпечне. Що там є?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -288,7 +298,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Mostly pirates and wildlife, as well as other hostile and potentially hostile inhabitants. We have to be ready for anything we might encounter there. That is why we need the best candidates we can find.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Здебільшого пірати та дика природа, а також інші ворожі та потенційно ворожі мешканці. Ми повинні бути готові до будь-чого, з чим можемо зіткнутися там. Саме тому нам потрібні найкращі кандидати, яких ми можемо знайти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -298,7 +308,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>How much money is "quite appropriate"?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Скільки грошей вважається "досить пристойною" сумою?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -308,7 +318,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>I am not at liberty to say that either.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я також не можу цього сказати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -318,7 +328,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>I am not at liberty to say that to you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не маю права вам цього говорити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -328,7 +338,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>What are you looking for there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви шукаєте там?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -338,7 +348,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Nah, this isn't for me. Thank you for your time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, це не для мене. Дякую за ваш час.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -348,7 +358,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>::He nods.:: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -368,7 +378,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Yes. I've done a lot of fighting.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. Я багато бився.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -378,7 +388,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>I've seen my fair share of combat, yes.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачив чимало боїв, так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -388,7 +398,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Killing is my business... and business is good.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вбивство – це моя робота... і робота йде добре.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -398,7 +408,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>Yeah, of course I do. I wouldn't be here otherwise.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, звичайно. Інакше я б тут не був.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -408,7 +418,7 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
       </mda:metadata>
       <segment state="translated">
         <source>What's going on here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що тут відбувається?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -420,7 +430,9 @@ If you interfere with anyone's work, you will be promptly removed.&lt;end&gt;</s
         <source>::The guard briefly inspects you.::
 
 Are you looking for work?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вартовий швидко оглядає вас.::
+
+Ви шукаєте роботу?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -430,7 +442,7 @@ Are you looking for work?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Always.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Завжди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -440,7 +452,7 @@ Are you looking for work?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -450,7 +462,7 @@ Are you looking for work?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sure.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -460,7 +472,7 @@ Are you looking for work?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not really.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не зовсім.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -470,7 +482,7 @@ Are you looking for work?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I was told you are going on an expedition to the Black Sea and needed some extra hands.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені сказали, що ви збираєтеся в експедицію до Чорного моря і вам потрібні додаткові руки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -492,7 +504,7 @@ You heard right. Do you have any combat experience?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I heard there was some work to be had here, but I didn't catch what it's about, really.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я чув, що тут є робота, але я не зрозумів, про що йдеться, насправді.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -502,7 +514,7 @@ You heard right. Do you have any combat experience?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Just passing by.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто проходив повз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -512,7 +524,7 @@ You heard right. Do you have any combat experience?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You're back.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти повернувся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -532,7 +544,7 @@ You heard right. Do you have any combat experience?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Actually, I want to join the expedition. I think I can handle anything the Black Sea can throw at me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насправді, я хочу приєднатися до експедиції. Я думаю, я можу впоратися з усім, що Чорне море може кинути мені на голову.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
@@ -542,7 +554,7 @@ You heard right. Do you have any combat experience?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I gotta go.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені треба йти.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>
