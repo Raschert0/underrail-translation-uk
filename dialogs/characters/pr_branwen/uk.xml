@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::She ignores you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона ігнорує тебе.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::The tall female officer turns to you. She instantly strikes you as an overly masculine woman in her appearance, as her wide shoulders and angular lines testify, but demeanor as well. As a consequence of these observations, you cannot escape the feeling that she must've shattered a significant number of male egos in the past. Even her steely gaze seems to radiate a certain dominating quality that pierces through self-confidence like a falling stalactite through an unwary spelunker's head, completely destroying it.:: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Висока жінка-офіцер повертається до тебе. Вона миттєво справляє враження надмірно маскулінної жінки за зовнішнім виглядом, оскільки її широкі плечі та гострі лінії свідчать про це, але й манера поведінки також. Як наслідок цих спостережень, ти не можеш позбутися відчуття, що вона, мабуть, розбила значну кількість чоловічих его в минулому. Навіть її сталевий погляд здається випромінювати певну домінуючу якість, яка пронизує впевненість, як сталактит, що падає, крізь голову необережного спелеолога, повністю руйнуючи її.:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Salute her.:: Corporal $(context.player.Name) reporting in.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Привітай її.:: Рядовий $(context.player.Name) докладає.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +50,9 @@
         <source>::She salutes back and replies in a direct, unyielding and very official tone of voice.::
 
 At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона відповідає тобі салютом і прямим, непохитним і дуже офіційним тоном голосу.::
+
+Стій спокійно, рядовий. Я лейтенант Бранвен. Яка твоя справа тут?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>Any changes, ma'am?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи є якісь зміни, пані?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>Nothing, Corporal. Inform Colonel Cathcart that he will be receive his report as soon as something worthy of reporting happens.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нічого, рядовий. Повідом полковнику Картрайту, що він отримає свій звіт, як тільки станеться щось варте повідомлення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>That is all I have for you now. Send my regards to Colonel Cathcart. You are dismissed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все, що я маю для тебе зараз. Передай полковнику Картрайту мої вітання. Ти звільнений.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>Yes, ma'am, I will. ::Salute and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, пані, я передам. ::Салютуй і йди.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>I am here to check on the development of the current situation, ma'am.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я тут, щоб перевірити розвиток поточної ситуації, пані.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>Were you sent by Colonel Cathcart?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тебе відправив полковник Картрайт?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -130,7 +132,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>Yes, he personally sent me here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, він особисто мене сюди відправив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -140,7 +142,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>Then it appears he trusts you more than the report I sent only recently. In any case, the situation remains unchanged; there are still no signs of Tchortists, nor of what exactly is happening within the Institute. Gunfire and shouting could be heard on few occasions, but nothing else. The Faceless presence has yet to be confirmed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді, здається, він більше довіряє тобі, ніж звіту, який я надіслала зовсім недавно. У будь-якому випадку, ситуація залишається незмінною; досі немає жодних ознак Тчортистів, а також того, що саме відбувається в Інституті. Кілька разів було чути постріли та крики, але нічого більше. Присутність Безликих поки що не підтверджено.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -150,7 +152,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>No, no one sent me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, мене ніхто не посилав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Her gaze grows in intensity.:: Then I am under no obligation to report anything to you, Corporal. Shouldn't you be attending to some other duties instead of inquiring about matters that don't concern you? I will speak to your superiors as soon as I return to Fort Apogee. Now get out of my sight, Corporal. You are dismissed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Її погляд стає більш інтенсивним.:: Тоді я не зобов'язана нічого тобі повідомляти, рядовий. Чи не повинен ти займатися якимись іншими обов'язками замість того, щоб розпитувати про справи, які тебе не стосуються? Я повідомлю твоїм начальникам, як тільки повернуся до Форту Апогей. Тепер зникни з моїх очей, рядовий. Ти звільнений.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -170,7 +172,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>Yes, ma'am. ::Salute and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, пані. ::Салютуй і йди.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -180,7 +182,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиш це місце.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -190,7 +192,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Salute and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Салютуй і йди.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -200,7 +202,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиш це місце.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -210,7 +212,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>You have no business here, citizen. I suggest you leave this area or I will be forced to order you removed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тобі нема чого тут робити, громадянине. Я раджу тобі покинути цю територію, інакше я змушена буду наказати тебе вивести.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -220,7 +222,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>I had some questions about what is happening here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене було кілька запитань щодо того, що тут відбувається.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -230,7 +232,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Her piercing gaze conveys the message far better than the words that follow.:: Need I repeat myself, citizen?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Його пронизливий погляд передає повідомлення набагато краще, ніж слова, що йдуть за ним.:: Чи потрібно мені повторюватись, громадянине?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -240,7 +242,7 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>But I *really* need to know what is going on here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але мені *дійсно* потрібно знати, що тут відбувається.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -254,7 +256,11 @@ At ease, Corporal. I am Lieutenant Branwen. What is your business here?&lt;end&g
 Not a word more. *Leave.*
 
 ::She turns her back to you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона перебиває вас посеред речення.:: 
+
+Жодного слова більше. *Залиште* мене.
+
+::Вона відвертається від вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -264,7 +270,7 @@ Not a word more. *Leave.*
       </mda:metadata>
       <segment state="translated">
         <source>No one speaks to me like that, you stupid woman...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ніхто не розмовляє зі мною так, ти, дурна жінко...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -274,7 +280,7 @@ Not a word more. *Leave.*
       </mda:metadata>
       <segment state="translated">
         <source>::She slowly turns back, her expression unchanged; but her eyes tell a different story: The gaze of steel is melting, dissipating as it turns into white heat. A single motion she makes is enough for all Protectorate soldiers to turn to you with hostile intent.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона повільно повертається, її вираз обличчя не змінюється; але її очі розповідають іншу історію: погляд сталі тане, розсіюючись, перетворюючись на білий жар. Одному її руху достатньо, щоб усі солдати Protectorate повернулися до вас з ворожими намірами.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -284,7 +290,7 @@ Not a word more. *Leave.*
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бій!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -294,7 +300,7 @@ Not a word more. *Leave.*
       </mda:metadata>
       <segment state="translated">
         <source>::Leave without saying anything.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште, не говорячи нічого.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -304,7 +310,7 @@ Not a word more. *Leave.*
       </mda:metadata>
       <segment state="translated">
         <source>I guess not... I better go.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гадаю, ні... Мені краще йти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -314,7 +320,7 @@ Not a word more. *Leave.*
       </mda:metadata>
       <segment state="translated">
         <source>My business is your death, Protectorate swine! ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мій бізнес – це ваша смерть, свині Протекторату! ::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -324,7 +330,7 @@ Not a word more. *Leave.*
       </mda:metadata>
       <segment state="translated">
         <source>I won't bother you anymore. Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я більше не буду вас турбувати. До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -334,7 +340,7 @@ Not a word more. *Leave.*
       </mda:metadata>
       <segment state="translated">
         <source>Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Корпорал.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

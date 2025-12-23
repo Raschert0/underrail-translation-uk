@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Attacks the target with the currently equipped weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Атакує ціль поточною зброєю.</target>
       </segment>
     </unit>
     <unit id="::AttackGround" name="::AttackGround">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Fire at the targeted spot on the ground with the currently equipped weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляйте в цільову точку на землі поточною зброєю.</target>
       </segment>
     </unit>
     <unit id="::AutoAttack-old" name="::AutoAttack-old">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Starts automatically attacking the target with the currently equipped weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Автоматично починає атакувати ціль поточною зброєю.</target>
       </segment>
     </unit>
     <unit id="::AimedShot" name="::AimedShot">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>An aimed attack with any single-target ranged weapon that guarantees a critical hit.</source>
-        <target state="new" />
+        <target state="needs-translation">Прицільна атака будь-якою зброєю дальнього бою на одну ціль, яка гарантує критичний удар.</target>
       </segment>
     </unit>
     <unit id="::Snipe" name="::Snipe">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>A special attack with a crossbow or sniper rifle that deals {0}% damage (scales with stealth skill). Can only be used in stealth. This attack cannot critically hit.</source>
-        <target state="new" />
+        <target state="needs-translation">Спеціальна атака з арбалетом або снайперською гвинтівкою, яка завдає {0}% шкоди (масштабується з навичкою скритності). Може використовуватися лише в режимі скритності. Ця атака не може бути критичною.</target>
       </segment>
     </unit>
     <unit id="::KCS" name="::KCS">
@@ -60,7 +60,8 @@
         <source>Deals normal weapon damage and inflicts a bleeding wound that deals additional {0}% damage (scales with perception) over {1} and removes all movement points from the target (target can still move using action points).
 
 Can only be performed with a pistol, crossbow or SMG.</source>
-        <target state="new" />
+        <target state="needs-translation">Завдає звичайної шкоди зброєю та завдає кровоточивої рани, яка завдає додаткові {0}% шкоди (масштабується зі сприйняттям) протягом {1} та позбавляє ціль усіх очок руху (ціль все ще може рухатися, використовуючи очки дії).
+Може виконуватися лише з пістолетом, арбалетом або ПП.</target>
       </segment>
     </unit>
     <unit id="::KCS-XPBL" name="::KCS-XPBL">
@@ -72,7 +73,9 @@ Can only be performed with a pistol, crossbow or SMG.</source>
         <source>Deals normal weapon damage and inflicts a bleeding wound that deals additional {0}% damage (scales with perception) over {1} and removes all movement points from the target (target can still move using action points).
 
 Can only be performed with a pistol, crossbow, SMG or shotgun.</source>
-        <target state="new" />
+        <target state="needs-translation">Завдає звичайної шкоди зброєю та завдає кровотечу, яка завдає додаткові {0}% шкоди (масштабується з уважністю) протягом {1} та видаляє всі очки руху з цілі (ціль все ще може рухатися, використовуючи очки дії).
+
+Можна використовувати лише з пістолетом, арбалетом, ПП або дробовиком.</target>
       </segment>
     </unit>
     <unit id="::KCS-Old" name="::KCS-Old">
@@ -84,7 +87,9 @@ Can only be performed with a pistol, crossbow, SMG or shotgun.</source>
         <source>Deals normal weapon damage and inflicts a bleeding wound that deals additional {0}% damage over {1} seconds and reduces target's speed by up to {2}%.
 
 Can only be performed with a pistol, crossbow or SMG. Only works on living targets (that have knees).</source>
-        <target state="new" />
+        <target state="needs-translation">Завдає звичайної шкоди зброєю та завдає кровотечу, яка завдає додаткові {0}% шкоди протягом {1} секунд і знижує швидкість цілі до {2}%.
+
+Можна використовувати лише з пістолетом, арбалетом або ПП. Працює лише на живих цілях (тих, що мають коліна).</target>
       </segment>
     </unit>
     <unit id="::Burst-old" name="::Burst-old">
@@ -94,7 +99,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Rapidly fires five bullets at reduced precision. This attack also has chance to miss the primary target and hit other characters in the line of fire instead. This chance increases with range.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидко випускає п’ять куль зі зниженою точністю. Ця атака також має шанс промахнутися по основній цілі та вразити інших персонажів на лінії вогню. Цей шанс збільшується з відстанню.</target>
       </segment>
     </unit>
     <unit id="::Burst" name="::Burst">
@@ -104,7 +109,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Rapidly fires {0} bullets with reduced precision. This attack also has a chance to miss the primary target, possibly hitting other characters in the line of fire instead. This chance increases with range. This is an unconditional special attack.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидко стріляє {0} кулями зі зниженою точністю. Ця атака також має шанс промахнутися по основній цілі, можливо, вразивши інших персонажів на лінії вогню. Цей шанс збільшується з відстанню. Це безумовна спеціальна атака.</target>
       </segment>
     </unit>
     <unit id="::ShotgunBurst" name="::ShotgunBurst">
@@ -114,7 +119,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Rapidly fires {0} shells with reduced precision. This is an unconditional special attack.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидко випускає {0} снарядів зі зниженою точністю. Це безумовна спеціальна атака.</target>
       </segment>
     </unit>
     <unit id="::PistolBurst" name="::PistolBurst">
@@ -124,7 +129,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Rapidly fires {0} bullets with reduced precision. This is an unconditional special attack.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидко випускає {0} куль зі зниженою точністю. Це безумовна спеціальна атака.</target>
       </segment>
     </unit>
     <unit id="::RapidFire" name="::RapidFire">
@@ -134,7 +139,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Rapidly fires {0} bullets with reduced precision.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидко випускає {0} куль зі зниженою точністю.</target>
       </segment>
     </unit>
     <unit id="::BurrowerPoisonItemEffect_Applied" name="::BurrowerPoisonItemEffect_Applied">
@@ -144,7 +149,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, burrower poison is applied that deals {0} damage every turn for up to {1} turns. Stacks {2} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, наноситься отрута копача, яка завдає {0} одиниць шкоди щоразу протягом до {1} ходів. Накопичується {2} разів.</target>
       </segment>
     </unit>
     <unit id="::BurrowerPoisonItemEffect_Cap" name="::BurrowerPoisonItemEffect_Cap">
@@ -154,7 +159,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Applies {0} of burrower poison to a suitable melee weapon that deals {1} damage every turn for up to {2} turns. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить {0} отрути копача на відповідну зброю ближнього бою, яка завдає {1} одиниць шкоди щоразу протягом до {2} ходів. Накопичується {3} разів.</target>
       </segment>
     </unit>
     <unit id="::ShootPoisonBolt" name="::ShootPoisonBolt">
@@ -164,7 +169,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with {0} that deals {1} damage every turn for up to {2} turns.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалета, завдаючи звичайної шкоди стрілою та заражаючи ціль {0}, яка завдає {1} одиниць шкоди щоразу протягом до {2} ходів.</target>
       </segment>
     </unit>
     <unit id="::ShootPoisonBoltStackable" name="::ShootPoisonBoltStackable">
@@ -174,7 +179,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with {0} that deals {1} damage every turn for up to {2} turns. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду стрілою та заражаючи ціль отрутою {0}, яка завдає {1} одиниць шкоди щоразу протягом {2} ходів. Накопичується {3} рази.</target>
       </segment>
     </unit>
     <unit id="::CaveEarPoisonItemEffect_Applied" name="::CaveEarPoisonItemEffect_Applied">
@@ -184,7 +189,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, cave ear poison is applied which increases all biological damage taken by {0}% and reduces perception by {1} for up to {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, застосовується отрута печерного вуха, яка збільшує всю отриману біологічну шкоду на {0}% та зменшує сприйняття на {1} до {2}.</target>
       </segment>
     </unit>
     <unit id="::CaveEarPoisonItemEffect_Cap" name="::CaveEarPoisonItemEffect_Cap">
@@ -194,7 +199,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Applies {0} of cave ear poison to a suitable melee weapon which increases all biological damage taken by {1}% and reduces perception by {2} for up to {3}.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить {0} отрути печерного вуха на відповідну зброю ближнього бою, що збільшує всю отриману біологічну шкоду на {1}% та зменшує сприйняття на {2} до {3}.</target>
       </segment>
     </unit>
     <unit id="::ShootCaveEarPoisonBolt" name="::ShootCaveEarPoisonBolt">
@@ -204,7 +209,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with poison that increases all biological damage taken by {0}% and reduces perception by {1}. Lasts up to {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду стрілою та заражаючи ціль отрутою, яка збільшує всю отриману біологічну шкоду на {0}% та зменшує сприйняття на {1}. Триває до {2}.</target>
       </segment>
     </unit>
     <unit id="::SpiritPoisonItemEffect_Applied" name="::SpiritPoisonItemEffect_Applied">
@@ -214,7 +219,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, spirit poison is applied which deals {0} damage per turn for {1} and reduces resolve by {2}%. If the poison is not removed before it expires it will summon a psionic doppelganger of the victim if it's humanoid.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, застосовується отрута духу, яка завдає {0} одиниць шкоди за хід протягом {1} та зменшує волю на {2}%. Якщо отруту не видалити до закінчення її дії, вона призове психічного двійника жертви, якщо вона гуманоїдна.</target>
       </segment>
     </unit>
     <unit id="::SpiritPoisonItemEffect_Cap" name="::SpiritPoisonItemEffect_Cap">
@@ -224,7 +229,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Applies {0} of spirit poison to a suitable melee weapon which deals {1} damage per turn for {2} and reduces resolve by {3}%. If the poison is not removed before it expires it will summon a psionic doppelganger of the victim if it's humanoid.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить {0} отрути духу на відповідну зброю ближнього бою, яка завдає {1} одиниць шкоди за хід протягом {2} та знижує рішучість на {3}%. Якщо отруту не видалено до закінчення її дії, вона призове псионічного двійника жертви, якщо вона гуманоїдна.</target>
       </segment>
     </unit>
     <unit id="::ShootSpiritPoisonBolt" name="::ShootSpiritPoisonBolt">
@@ -234,7 +239,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with poison that deals {0} damage per turn each turn for {1} and reduces resolve by {2}%. If the poison is not removed before it expires it will summon a psionic doppelganger of the victim if it's humanoid.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду стрілою та заражаючи ціль отрутою, яка завдає {0} одиниць шкоди за хід протягом {1} та зменшує волю на {2}%. Якщо отруту не видалити до закінчення її дії, вона призове психічного двійника жертви, якщо вона гуманоїдна.</target>
       </segment>
     </unit>
     <unit id="::BlackDragonPoisonItemEffect_Applied" name="::BlackDragonPoisonItemEffect_Applied">
@@ -244,7 +249,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, black dragon poison is applied which causes psionic inhibition, preventing the victim from invoking psi abilities and regenerating psi points for {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, застосовується отрута чорного дракона, яка викликає психічну інгібіцію, не дозволяючи жертві використовувати психічні здібності та відновлювати психічні бали протягом {0}.</target>
       </segment>
     </unit>
     <unit id="::BlackDragonPoisonItemEffect_Cap" name="::BlackDragonPoisonItemEffect_Cap">
@@ -254,7 +259,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Applies {0} of black dragon poison to a suitable melee weapon which causes psionic inhibition, preventing the victim from invoking psi abilities and regenerating psi points for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить {0} отрути чорного дракона на відповідну зброю ближнього бою, яка викликає псионічний пригнічення, запобігаючи жертві викликати пси-здатності та відновлювати пси-очки протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::ShootBlackDragonPoisonBolt" name="::ShootBlackDragonPoisonBolt">
@@ -264,7 +269,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with poison that causes psionic inhibition, which prevents the victim from invoking psi abilities and regenerating psi points. Lasts {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду стрілою та заражаючи ціль отрутою, яка викликає психічну інгібіцію, що не дозволяє жертві використовувати психічні здібності та відновлювати психічні бали. Триває {0}.</target>
       </segment>
     </unit>
     <unit id="::BlindingPoisonItemEffect_Applied" name="::BlindingPoisonItemEffect_Applied">
@@ -274,7 +279,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, blinding poison is applied which deals {0} damage per turn for up to {1} and reduces perception by {2}. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, застосовується засліплююча отрута, яка завдає {0} одиниць шкоди за хід протягом {1} та зменшує сприйняття на {2}. Накопичується {3} рази.</target>
       </segment>
     </unit>
     <unit id="::BlindingPoisonItemEffect_Cap" name="::BlindingPoisonItemEffect_Cap">
@@ -284,7 +289,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Applies {0} of blinding poison to a suitable melee weapon which deals {1} damage per turn for up to {2} and reduces perception by {3}. Stacks {4} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить {0} засліплюючої отрути на відповідну зброю ближнього бою, яка завдає {1} одиниць шкоди за хід протягом до {2} та знижує увагу на {3}. Накопичується {4} разів.</target>
       </segment>
     </unit>
     <unit id="::ShootBlindingPoisonBolt" name="::ShootBlindingPoisonBolt">
@@ -294,7 +299,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with poison that deals {0} damage per turn each turn for up to {1} and reduces perception by {2}. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду стрілою та заражаючи ціль отрутою, яка завдає {0} одиниць шкоди за хід протягом {1} та зменшує сприйняття на {2}. Накопичується {3} рази.</target>
       </segment>
     </unit>
     <unit id="::LeperPoisonItemEffect_Applied" name="::LeperPoisonItemEffect_Applied">
@@ -304,7 +309,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, leper poison is applied which deals {0} damage per turn for up to {1} and increases all mechanical damage taken by {2}%. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, застосовується отрута прокаженого, яка завдає {0} одиниць шкоди за хід протягом {1} та збільшує всю отриману механічну шкоду на {2}%. Накопичується {3} рази.</target>
       </segment>
     </unit>
     <unit id="::LeperPoisonItemEffect_Cap" name="::LeperPoisonItemEffect_Cap">
@@ -314,7 +319,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Applies {0} of leper poison to a suitable melee weapon which deals {1} damage per turn for up to {2} and increases all mechanical damage taken by {3}%. Stacks {4} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить {0} отрути прокаженого на відповідну зброю ближнього бою, яка завдає {1} одиниць шкоди за хід протягом до {2} та збільшує всю механічну шкоду, яку отримує ціль, на {3}%. Накопичується {4} разів.</target>
       </segment>
     </unit>
     <unit id="::ShootLeperPoisonBolt" name="::ShootLeperPoisonBolt">
@@ -324,7 +329,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with poison that deals {0} damage per turn each turn for up to {1} and increases all mechanical damage taken by {2}%. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалета, завдаючи звичайної шкоди стрілою та заражаючи ціль отрутою, яка завдає {0} одиниць шкоди за хід протягом до {1} та збільшує всю механічну шкоду, яку отримує ціль, на {2}%. Накопичується {3} разів.</target>
       </segment>
     </unit>
     <unit id="::HeartbreakPoisonItemEffect_Applied" name="::HeartbreakPoisonItemEffect_Applied">
@@ -334,7 +339,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, heartbreak poison is applied which deals {0} damage per turn for {1}. Stacks {2} times. If this poison is allowed the expire naturally it will then deal a great amount of damage which increases ever more rapidly with each stack.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, застосовується отрута розбитого серця, яка завдає {0} одиниць шкоди за хід протягом {1}. Накопичується {2} рази. Якщо цю отруту дозволити закінчитися природним шляхом, вона завдасть великої кількості шкоди, яка з кожним накопиченням буде збільшуватися все швидше.</target>
       </segment>
     </unit>
     <unit id="::HeartbreakPoisonItemEffect_Cap" name="::HeartbreakPoisonItemEffect_Cap">
@@ -344,7 +349,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Applies {0} of heartbreak poison to a suitable melee weapon which deals {1} damage per turn for {2}. Stacks {3} times. If this poison is allowed the expire naturally it will then deal a great amount of damage which increases ever more rapidly with each stack.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить {0} отрути розбитого серця на відповідну зброю ближнього бою, яка завдає {1} одиниць шкоди за хід протягом {2}. Накопичується {3} рази. Якщо цю отруту дозволити закінчитися природним шляхом, вона завдасть великої кількості шкоди, яка з кожним накопиченням буде збільшуватися все швидше.</target>
       </segment>
     </unit>
     <unit id="::ShootHeartbreakPoisonBolt" name="::ShootHeartbreakPoisonBolt">
@@ -354,7 +359,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with poison that deals {0} damage per turn each turn for {1}. Stacks {2} times. If this poison is allowed the expire naturally it will then deal a great amount of damage which increases ever more rapidly with each stack.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду стрілою та заражаючи ціль отрутою, яка завдає {0} одиниць шкоди за хід протягом {1} ходів. Накладається {2} рази. Якщо цю отруту не буде знято, вона зрештою завдасть великої кількості шкоди, яка з кожним накладенням буде зростати все швидше.</target>
       </segment>
     </unit>
     <unit id="::CrawlerPoisonItemEffect_Applied" name="::CrawlerPoisonItemEffect_Applied">
@@ -364,7 +369,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, crawler poison is applied which deals {0} damage per turn for {1}. If the poison is not removed before it expires it will stun the victim for {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, застосовується отрута повзуна, яка завдає {0} одиниць шкоди за хід протягом {1} ходів. Якщо отруту не буде знято до її закінчення, жертва буде приголомшена на {2} ходів.</target>
       </segment>
     </unit>
     <unit id="::CrawlerPoisonItemEffect_Cap" name="::CrawlerPoisonItemEffect_Cap">
@@ -374,7 +379,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Applies {0} of crawler poison to a suitable melee weapon that deals {1} damage every turn for {2}. If the poison is not removed before it expires it will stun the victim for {3}.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить {0} отрути повзуна на відповідну зброю ближнього бою, яка завдає {1} одиниць шкоди щохвилини протягом {2} ходів. Якщо отруту не буде знято до її закінчення, жертва буде приголомшена на {3} ходів.</target>
       </segment>
     </unit>
     <unit id="::ShootCrawlerPoisonBolt" name="::ShootCrawlerPoisonBolt">
@@ -384,7 +389,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal bolt damage and afflicting the target with poison that deals {0} damage per turn each turn for {1}. If the poison is not removed before it expires it will stun the victim for {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду стрілою та заражаючи ціль отрутою, яка завдає {0} одиниць шкоди за хід протягом {1} ходів. Якщо отруту не буде знято до її закінчення, жертва буде приголомшена на {2} ходів.</target>
       </segment>
     </unit>
     <unit id="::ShootTranquilizingBolt" name="::ShootTranquilizingBolt">
@@ -394,7 +399,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing {0}% bolt damage and attempts to incapacitate the target for up to {1} turns.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи {0}% шкоди стрілою та намагається вивести ціль з ладу на термін до {1} ходів.</target>
       </segment>
     </unit>
     <unit id="::ShootPutrefyingBolt" name="::ShootPutrefyingBolt">
@@ -404,7 +409,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots an experimental putrefying bolt that should slowly decompose target's muscles.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє експериментальною стрілою гниття, яка повинна повільно розкладати м'язи цілі.</target>
       </segment>
     </unit>
     <unit id="::ShootShockBolt" name="::ShootShockBolt">
@@ -414,7 +419,7 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt striking the target for normal bolt damage plus {0} damage. Unless the target completely resists the damage, it is stunned for {1} and the electricity jumps to all adjacent targets dealing {2} damage. Works on both organic and mechanical targets.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою, вражаючи ціль звичайною шкодою стрілою плюс {0} одиниць шкоди. Якщо ціль не повністю протистоїть шкоді, вона буде приголомшена на {1} ходів, і електрика перестрибне на всі сусідні цілі, завдаючи {2} одиниць шкоди. Працює як на органічних, так і на механічних цілях.</target>
       </segment>
     </unit>
     <unit id="::ShootIncendiaryBolt" name="::ShootIncendiaryBolt">
@@ -426,7 +431,9 @@ Can only be performed with a pistol, crossbow or SMG. Only works on living targe
         <source>Shoots this bolt from a crossbow burning everything along its path to the target for {0} damage. If the target is hit it takes normal bolt damage plus {1} damage and has {2}% chance to be set on fire taking the total heat damage suffered again over the course of {3}.
 
 Setting living targets on fire will put them in state of extreme panic.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, підпалюючи все на своєму шляху до цілі, завдаючи {0} одиниць шкоди. Якщо ціль уражена, вона отримує звичайну шкоду стрілою плюс {1} одиниць шкоди та має {2}% шанс загорітися, отримуючи загальну теплову шкоду, накопичену протягом {3} ходів.
+
+Підпалювання живих цілей призведе до стану крайньої паніки.</target>
       </segment>
     </unit>
     <unit id="::ShootAcidBolt" name="::ShootAcidBolt">
@@ -436,7 +443,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow striking the target for normal bolt damage plus {0} damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, вражаючи ціль звичайною шкодою стрілою плюс {0} одиниць шкоди.</target>
       </segment>
     </unit>
     <unit id="::ShootCorrosiveAcidBolt" name="::ShootCorrosiveAcidBolt">
@@ -446,7 +453,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow striking the target for normal bolt damage plus {0} damage and applies Corroded debuff which reduces all damage resistances and thresholds by {1}% for {2}. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, вражаючи ціль звичайною шкодою стрілою плюс {0} одиниць шкоди та застосовує дебафф "З'їдений корозією", який зменшує всі показники опору до шкоди та порогові значення на {1}% протягом {2} ходів. Накладається {3} рази.</target>
       </segment>
     </unit>
     <unit id="::ShootRustingAcidBolt" name="::ShootRustingAcidBolt">
@@ -456,7 +463,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow striking the target for normal bolt damage plus {0} damage and applies Rusting debuff which reduces durability of all mechanical items in target's posession by {1} per stack each turn for {2}. Stacks {3} times. Acid damage is increased by {4}% against vehicles and machines.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, вражаючи ціль звичайною шкодою стрілою плюс {0} одиниць шкоди та застосовує дебафф "Іржавіння", який зменшує міцність усіх механічних предметів у володінні цілі на {1} за кожне накладення щохвилини протягом {2} ходів. Накладається {3} рази. Шкода кислотою збільшується на {4}% проти транспортних засобів і машин.</target>
       </segment>
     </unit>
     <unit id="::ShootSerratedBolt" name="::ShootSerratedBolt">
@@ -466,7 +473,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal weapon damage. If the target is a living creature it inflicts a bleeding wound that deals {0}% of original damage over {1}. This bolt is weaker against armored targets, incurring an additional {2}% target's mechanical damage threshold.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду зброєю. Якщо ціль є живою істотою, вона завдає кровотечі, яка завдає {0}% початкової шкоди протягом {1} ходів. Ця стріла слабша проти броньованих цілей, що призводить до додаткового {2}% порогу механічної шкоди цілі.</target>
       </segment>
     </unit>
     <unit id="::ShootBroadheadBolt" name="::ShootBroadheadBolt">
@@ -476,7 +483,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow dealing normal weapon damage. If the target is a living creature it inflicts a bleeding wound that deals {0}% of original damage over {1}. This bolt is weaker against armored targets, incurring an additional {2}% target's mechanical damage threshold.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою з арбалету, завдаючи звичайну шкоду зброєю. Якщо ціль є живою істотою, вона завдає кровотечі, яка завдає {0}% початкової шкоди протягом {1} ходів. Ця стріла слабша проти броньованих цілей, що призводить до додаткового {2}% порогу механічної шкоди цілі.</target>
       </segment>
     </unit>
     <unit id="::ShootVoidBolt" name="::ShootVoidBolt">
@@ -486,7 +493,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shoots this bolt from a crossbow striking the target for normal bolt damage plus {0} damage and applies {2} stacks of Void Rot debuff which deals {1} energy damage per stack. Stacks {2} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріляє цією стрілою, вражаючи ціль звичайною шкодою стрілою плюс {0} одиниць шкоди та застосовує {2} накладень дебаффу "Гниль Пустоти", який завдає {1} одиниць енергетичної шкоди за кожне накладення. Накладається {2} рази.</target>
       </segment>
     </unit>
     <unit id="::Execute" name="::Execute">
@@ -496,7 +503,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Special close range attack with the pistol that deals {0}% weapon damage against stunned and incapacitated targets.</source>
-        <target state="new" />
+        <target state="needs-translation">Спеціальна атака з близької відстані пістолетом, яка завдає {0}% шкоди зброєю проти приголомшених і знерухомлених цілей.</target>
       </segment>
     </unit>
     <unit id="::CutThroat" name="::CutThroat">
@@ -508,7 +515,9 @@ Setting living targets on fire will put them in state of extreme panic.</source>
         <source>Perform a powerful knife stealth attack from behind the target that bypasses all resistances and shields, applies a bleeding wound that deals extra {0}% damage over {1} and stuns the target for the same duration.
 
 You must either be hidden from your target through stealth or the target needs to be incapacitated. Only works on humanoids.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує потужну стелс-атаку ножем з-за спини цілі, яка обходить усі опори та щити, завдає кровотечу, яка завдає додаткові {0}% шкоди протягом {1} ходів, і приголомшує ціль на той самий час.
+
+Ви повинні бути приховані від своєї цілі за допомогою стелсу або ціль повинна бути знерухомлена. Працює лише на гуманоїдах.</target>
       </segment>
     </unit>
     <unit id="::Sap" name="::Sap">
@@ -520,7 +529,9 @@ You must either be hidden from your target through stealth or the target needs t
         <source>Perform a special crowbar attack from behind the target that bypasses all resistances and shields and incapacitates the target for up to {0}.
 
 You must either be hidden from your target through stealth or the target needs to be incapacitated. Only works on humanoids.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку ломом з-за спини цілі, яка обходить усі опори та щити та виводить ціль з ладу на термін до {0} ходів.
+
+Ви повинні бути приховані від своєї цілі за допомогою стелсу або ціль повинна бути знерухомлена. Працює лише на гуманоїдах.</target>
       </segment>
     </unit>
     <unit id="::ChuckAttack" name="::ChuckAttack">
@@ -530,7 +541,7 @@ You must either be hidden from your target through stealth or the target needs t
       </mda:metadata>
       <segment state="translated">
         <source>You perform a powerful roundhouse kick that deals {0}% unarmed weapon damage and has a chance of breaking target's ribs (humans only), reducing their action points by {1} for {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви виконуєте потужний круговий удар ногою, який завдає {0}% шкоди зброєю без зброї та має шанс зламати ребра цілі (лише для людей), зменшуючи їхні очки дії на {1} протягом {2} ходів.</target>
       </segment>
     </unit>
     <unit id="::Pummel" name="::Pummel">
@@ -542,7 +553,9 @@ You must either be hidden from your target through stealth or the target needs t
         <source>Perform a special attack with a sledgehammer that deals {0}% weapon damage and does not ignore damage threshold, but puts living targets off balance for {1} if it lands.
 
 Off-balanced characters have their dodge and evasion reduced to zero.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку кувалдою, яка завдає {0}% шкоди зброєю та не ігнорує поріг шкоди, але виводить живих цілей з рівноваги на {1} хід, якщо вона влучить.
+
+Цілі, які втратили рівновагу, мають нульове ухилення та ухилення.</target>
       </segment>
     </unit>
     <unit id="::DirtyKick-Old" name="::DirtyKick-Old">
@@ -552,7 +565,7 @@ Off-balanced characters have their dodge and evasion reduced to zero.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You perform a special unarmed attack that deals normal damage and stuns living targets for {0}. If the target is human male, it's stunned for {1} instead.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви виконуєте спеціальну атаку беззбройною, яка завдає звичайної шкоди та приголомшує живих цілей на {0} ходів. Якщо ціль є чоловіком-людиною, вона буде приголомшена на {1} хід замість цього.</target>
       </segment>
     </unit>
     <unit id="::DirtyKick" name="::DirtyKick">
@@ -564,7 +577,9 @@ Off-balanced characters have their dodge and evasion reduced to zero.</source>
         <source>Perform a special unarmed attack that deals {0} damage and stuns living targets for {1}. If the target is humanoid male, it's stunned for {2} instead.
 
 This attack can be performed regardless of the currently equipped weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку беззбройною, яка завдає {0} одиниць шкоди та приголомшує живих цілей на {1} хід. Якщо ціль є чоловіком-гуманоїдом, вона буде приголомшена на {2} хід замість цього.
+
+Цю атаку можна виконати незалежно від поточної зброї.</target>
       </segment>
     </unit>
     <unit id="::ShieldBash" name="::ShieldBash">
@@ -574,7 +589,7 @@ This attack can be performed regardless of the currently equipped weapon.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack with your riot shield that deals {0} damage if it lands as well as dazes the target for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку своїм щитом, яка завдає {0} одиниць шкоди, якщо вона влучить, а також приголомшує ціль на {1} хід.</target>
       </segment>
     </unit>
     <unit id="::CripplingStrike" name="::CripplingStrike">
@@ -586,7 +601,9 @@ This attack can be performed regardless of the currently equipped weapon.</sourc
         <source>Perform an unarmed, fist weapon or knife attack that deals {0}% damage and reduces the target's strength by {1} if it penetrates armor. Lasts {2}. Stacks {3} times.
 
 Only works on living targets.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує беззбройну, кулакову або ножову атаку, яка завдає {0}% шкоди та зменшує силу цілі на {1}, якщо вона пробиває броню. Триває {2} ходів. Накладається {3} рази.
+
+Працює лише на живих цілях.</target>
       </segment>
     </unit>
     <unit id="::HeavyPunch" name="::HeavyPunch">
@@ -596,7 +613,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform an unconditional unarmed attack that deals {0}% damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує безумовну беззбройну атаку, яка завдає {0}% шкоди.</target>
       </segment>
     </unit>
     <unit id="::ExposeWeakness" name="::ExposeWeakness">
@@ -606,7 +623,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special melee attack that deals normal damage and reduces target's mechanical resistance and threshold by {0}% if it lands for {1}. The effect is halved for non-living targets.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку ближнього бою, яка завдає звичайної шкоди та зменшує механічний опір і поріг цілі на {0}% на {1} хід, якщо вона влучить. Ефект зменшується вдвічі для неживих цілей.</target>
       </segment>
     </unit>
     <unit id="::Eviscerate" name="::Eviscerate">
@@ -616,7 +633,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special knife attack that removes all bleeding wounds from the target and deals {0}% bonus damage for each bleeding wound removed. </source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну ножову атаку, яка видаляє всі кровотечі з цілі та завдає {0}% бонусного урону за кожну видалену кровотечу.</target>
       </segment>
     </unit>
     <unit id="::PointShot" name="::PointShot">
@@ -626,7 +643,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform a quick pistol, SMG or assault rifle attack that costs {0}% of the standard action point cost but has reduced precision.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує швидку атаку пістолетом, кулеметом або штурмовою гвинтівкою, яка коштує {0}% від стандартної вартості очок дії, але має знижену точність.</target>
       </segment>
     </unit>
     <unit id="::SuperSlam" name="::SuperSlam">
@@ -636,7 +653,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform a sledgehammer attack that does normal damage plus additional {0} mechanical damage ({1}% of your maximum health).</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує атаку кувалдою, яка завдає звичайної шкоди плюс додаткові {0} одиниць механічної шкоди ({1}% від вашого максимального здоров'я).</target>
       </segment>
     </unit>
     <unit id="::CookedShot" name="::CookedShot">
@@ -646,7 +663,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack with chemical blob pistols that launches a big blob at the targeted location, dealing normal weapon damage to everything in a small radius.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку хімічними пістолетами, яка запускає велику бульбашку в цільове місце, завдаючи звичайної шкоди зброєю всьому в невеликому радіусі.</target>
       </segment>
     </unit>
     <unit id="::CookedShotBonusDamage" name="::CookedShotBonusDamage">
@@ -656,7 +673,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack with chemical blob pistols that launches a big blob at the targeted location, dealing {0}% normal weapon damage to everything in a small radius.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку хімічними пістолетами, яка запускає велику бульбашку в цільове місце, завдаючи {0}% звичайної шкоди зброєю всьому в невеликому радіусі.</target>
       </segment>
     </unit>
     <unit id="::DoubleShot" name="::DoubleShot">
@@ -666,7 +683,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform an unconditional special attack that shoots both shells at the target at once.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує безумовну спеціальну атаку, яка стріляє обома снарядами в ціль одночасно.</target>
       </segment>
     </unit>
     <unit id="::Impale" name="::Impale">
@@ -676,7 +693,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack with a spear that automatically critically hits if it lands.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку списом, яка автоматично завдає критичного удару, якщо вона влучить.</target>
       </segment>
     </unit>
     <unit id="::Flurry" name="::Flurry">
@@ -688,7 +705,9 @@ Only works on living targets.</source>
         <source>Launches {0} consecutive attacks with a sword. Each attack reduces the action point cost of further Flurry activations by {1} action points (this stacks {2} times) until the end of next turn. 
 
 If any of the attacks misses or deals no damage, the flurry will stop and be put on cooldown for {3} and the cost reduction will be removed.</source>
-        <target state="new" />
+        <target state="needs-translation">Запускає {0} послідовних атак мечем. Кожна атака зменшує вартість очок дії для подальших активацій "Блискавки" на {1} очко дії (це накладається {2} рази) до кінця наступного ходу.
+
+Якщо будь-яка з атак промахнеться або не завдасть шкоди, "Блискавка" зупиниться та перейде на перезарядку на {3} ходи, і зменшення вартості буде скасовано.</target>
       </segment>
     </unit>
     <unit id="::Flurry-Old" name="::Flurry-Old">
@@ -700,7 +719,9 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
         <source>Launches {0} consecutive attacks with a sword with reduced precision. Each attack reduces the action point cost of further Flurry activations by {1} action points (this stacks {2} times) until the end of next turn. 
 
 If any of the attacks misses or deals no damage, the flurry will stop and be put on cooldown for {3} and the cost reduction will be removed.</source>
-        <target state="new" />
+        <target state="needs-translation">Запускає {0} послідовних атак мечем зі зниженою точністю. Кожна атака зменшує вартість очок дії для подальших активацій "Блискавки" на {1} очко дії (це накладається {2} рази) до кінця наступного ходу.
+
+Якщо будь-яка з атак промахнеться або не завдасть шкоди, "Блискавка" зупиниться та перейде на перезарядку на {3} ходи, і зменшення вартості буде скасовано.</target>
       </segment>
     </unit>
     <unit id="::Decapitate" name="::Decapitate">
@@ -710,7 +731,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special sword attack that deals {0}% of normal weapon damage and can instantly kill a living target if it deals more than {1}% of its remaining health (providing the target has an exposed head).</source>
-        <target state="new" />
+        <target state="needs-translation">Виконує спеціальну атаку мечем, яка завдає {0}% звичайної шкоди зброєю та може миттєво вбити живу ціль, якщо вона завдає більше {1}% її поточного здоров’я (за умови, що у цілі відкрита голова).</target>
       </segment>
     </unit>
     <unit id="::DecapitateCritModIncreased" name="::DecapitateCritModIncreased">
@@ -720,7 +741,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Chance to critically hit with this attack increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс критичного удару цією атакою збільшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::DecapitateCritModDecreased" name="::DecapitateCritModDecreased">
@@ -730,7 +751,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Chance to critically hit with this attack reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ймовірність критичного удару цією атакою зменшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::Riposte" name="::Riposte">
@@ -740,7 +761,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special sword attack with increased chance to hit that deals normal weapon damage and costs no action points. Only becomes available after any amount damage is blocked while holding a sword.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку мечем, зі збільшеною ймовірністю влучання, яка завдає звичайної шкоди зброєю та не коштує балів дії. Стає доступною лише після блокування будь-якої кількості шкоди, тримаючи меч.</target>
       </segment>
     </unit>
     <unit id="::RiposteWithCrit" name="::RiposteWithCrit">
@@ -750,7 +771,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special sword attack with increased chance to hit that deals normal weapon damage, has its critical chance to hit increased by {0}% and costs no action points. Only becomes available after any amount damage is blocked while holding a sword.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку мечем, зі збільшеною ймовірністю влучання, яка завдає звичайної шкоди зброєю, збільшує ймовірність критичного удару на {0}% і не коштує балів дії. Стає доступною лише після блокування будь-якої кількості шкоди, тримаючи меч.</target>
       </segment>
     </unit>
     <unit id="::SoundGunAmplifiedWave" name="::SoundGunAmplifiedWave">
@@ -760,7 +781,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform an unconditional special attack that deals {0}% more damage to the primary target, but only half the normal passing damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте безумовну спеціальну атаку, яка завдає на {0}% більше шкоди основній цілі, але лише половину звичайної шкоди по прохідних цілях.</target>
       </segment>
     </unit>
     <unit id="::SoundGunDisruptiveWave" name="::SoundGunDisruptiveWave">
@@ -770,7 +791,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform an unconditional special attack that deals {0}% less damage to both the primary and pass-through targets, but dazes them for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте безумовну спеціальну атаку, яка завдає на {0}% менше шкоди як основній, так і прохідним цілям, але приголомшує їх на {1}.</target>
       </segment>
     </unit>
     <unit id="::SoundGunResonatingWave" name="::SoundGunResonatingWave">
@@ -780,7 +801,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform an unconditional special attack that deals double normal damage to the passing targets, but only half of the normal primary target damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте безумовну спеціальну атаку, яка завдає подвійну звичайну шкоду прохідним цілям, але лише половину звичайної шкоди основній цілі.</target>
       </segment>
     </unit>
     <unit id="::Sweep" name="::Sweep">
@@ -790,7 +811,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special spear attack that deals {0}% of normal weapon damage to all enemies adjecent to you and puts living targets off balance for {1} if they are hit.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку списом, яка завдає {0}% звичайної шкоди зброї всім ворогам, що знаходяться поруч з вами, і виводить живих цілей з рівноваги на {1}, якщо їх вражено.</target>
       </segment>
     </unit>
     <unit id="::Sweep_generic" name="::Sweep_generic">
@@ -800,7 +821,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special melee attack that deals {0}% of normal weapon damage to all enemies adjecent to you and puts living targets off balance for {1} if they are hit.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку в ближньому бою, яка завдає {0}% звичайної шкоди зброї всім ворогам, що знаходяться поруч з вами, і виводить живих цілей з рівноваги на {1}, якщо їх вражено.</target>
       </segment>
     </unit>
     <unit id="::PiercingShot" name="::PiercingShot">
@@ -810,7 +831,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack that also attempts to deal normal weapon damage to the targets it passes through.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку, яка також намагається завдати звичайної шкоди зброї цілям, крізь які вона проходить.</target>
       </segment>
     </unit>
     <unit id="::Cleave" name="::Cleave">
@@ -820,7 +841,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special melee attack that deals {0}% of normal weapon damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку в ближньому бою, яка завдає {0}% звичайної шкоди зброї.</target>
       </segment>
     </unit>
     <unit id="::QuickDraw" name="::QuickDraw">
@@ -830,7 +851,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack that deals normal damage. The action point cost of this attack is reduced by {0}% for each point of initiative.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку, яка завдає звичайної шкоди. Вартість балів дії цієї атаки зменшується на {0}% за кожен пункт ініціативи.</target>
       </segment>
     </unit>
     <unit id="::Chainsaw" name="::Chainsaw">
@@ -840,7 +861,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack with the Chainsword that inflicts {0}% of weapon damage up to {1} times, each time consuming {2} energy and {3} action points. Ignores {4}% of target's mechanical resistance and threshold.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку Ланцюговим мечем, яка завдає {0}% шкоди зброї до {1} разів, кожен раз споживаючи {2} енергії та {3} балів дії. Ігнорує {4}% механічного опору та порогу цілі.</target>
       </segment>
     </unit>
     <unit id="::StunningPulse" name="::StunningPulse">
@@ -850,7 +871,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack that costs {0} energy and only does {1}% of the normal weapon damage, but stuns living targets for 1 turn if it deals any damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку, яка коштує {0} енергії та завдає лише {1}% звичайної шкоди зброї, але оглушує живих цілей на 1 хід, якщо вона завдає будь-якої шкоди.</target>
       </segment>
     </unit>
     <unit id="::SoldierExoskeletonWristbladeStab" name="::SoldierExoskeletonWristbladeStab">
@@ -860,7 +881,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack with the built-in wristblade that deals {0} mechanical damage (scales with Melee skill and Strength) and has {1} chance to inflict bleeding wound that deals {2} of the intial damage over {3} turns. Consumes {3} energy.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку вбудованим зап'ястним лезом, яка завдає {0} механічної шкоди (масштабується з навичкою ближнього бою та силою) та має {1} шанс завдати кровоточивої рани, яка завдає {2} початкової шкоди протягом {3} ходів. Споживає {3} енергії.</target>
       </segment>
     </unit>
     <unit id="::Branding" name="::Branding">
@@ -870,7 +891,7 @@ If any of the attacks misses or deals no damage, the flurry will stop and be put
       </mda:metadata>
       <segment state="translated">
         <source>Perform a special attack that is harder to land, but deals {0} damage to the target and brands humanoid targets, demoralizing them and reducing their combat skills by {1} for {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Виконайте спеціальну атаку, яку важче завдати, але завдає {0} шкоди цілі та клеймує гуманоїдних цілей, деморалізуючи їх і зменшуючи їхні бойові навички на {1} протягом {2}.</target>
       </segment>
     </unit>
   </file>

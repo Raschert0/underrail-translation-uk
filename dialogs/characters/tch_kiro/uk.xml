@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>We are not surviving this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми не виживемо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::This thin man seems uninterested in you at first glance, as his facial expression doesn't change at all when he notices you trying to start a conversation - and his body language doesn't differ. What you also find peculiar is the fact that he almost never breaks eye contact, but maintains it during the whole conversation. Luckily, he blinks in regular intervals, or else the mechanical stare would seem even more awkward. Also, it comes as no surprise that his tone of voice is as flat as his excitement for the conversation he is engaged in.::
 
 Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Цей худий чоловік здається незацікавленим у вас з першого погляду, оскільки вираз його обличчя взагалі не змінюється, коли він помічає, що ви намагаєтеся зав'язати розмову - і його мова тіла не відрізняється. Також дивним є те, що він майже ніколи не відводить погляд, а підтримує його протягом усієї розмови. На щастя, він моргає через регулярні проміжки часу, інакше механічний погляд здавався б ще більш незручним. Також не дивно, що тон його голосу такий же плаский, як і його захоплення розмовою, в якій він бере участь.::
+
+Тчорт – це еволюція. Я слідчий Кіро. Хто ти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Evolution is Tchort, brother. I am $(context.player.Name) and I wanted to ask you a few questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Еволюція – це Тчорт, брате. Я $(context.player.Name) і хотів би задати вам кілька питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No problem at all, $(#brother/sister). What is on your mind?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Жодних проблем, $(#брате/сестро). Що у вас на думці?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -60,7 +62,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Mechanics]:: Do you happen to have any spare super steel sheets that aren't going to be used in the particle accelerator? I might need them for... constructing certain things.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Механіка]:: У вас випадково є запасні листи суперсталі, які не будуть використані в прискорювачі частинок? Вони можуть знадобитися мені для... будівництва певних речей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Super steel components for the particle accelerator are costly and take time to manufacture to our apex standards. Since the production is limited and demand great, I cannot spare a single one of those, $(#brother/sister).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Компоненти суперсталі для прискорювача частинок коштують дорого і вимагають часу для виготовлення відповідно до наших найвищих стандартів. Оскільки виробництво обмежене, а попит великий, я не можу віддати жодного з них, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -82,7 +84,9 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</source>
         <source>However, sheets are sometimes replaced after a certain number of particular experiments. They degrade in quality and are no longer suitable for testing. We either recycle them or repurpose them.
 
 These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Однак листи іноді замінюють після певної кількості конкретних експериментів. Вони погіршуються в якості і більше не придатні для тестування. Ми або переробляємо їх, або перепризначаємо.
+
+Ці я можу вам віддати. Якщо бажаєте, можете подивитися на них.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -92,7 +96,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Торгівля.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -102,7 +106,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Principal Investigator Schteff told me I could purchase high-tech stuff from you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Старший слідчий Штефф сказав мені, що я можу купити у вас високотехнологічні речі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -112,7 +116,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Of course, $(#brother/sister). Please wait a moment and I will show you what is available.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, $(#брате/сестро). Будь ласка, зачекайте хвилинку, і я покажу вам, що є в наявності.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -122,7 +126,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I would like to purchase something.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би щось придбати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -132,7 +136,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am in need of some high-tech gadgetry and components. I guess this would be the right place to ask...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібні деякі високотехнологічні гаджети та компоненти. Гадаю, це правильне місце, щоб запитати...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -142,7 +146,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There are components and devices that I may be able to offer you for purchase, but I must have PI Schteff's permission before I can actually do so. You can go ask him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є компоненти та пристрої, які я можу запропонувати вам для продажу, але мені потрібен дозвіл PI Штеффа, перш ніж я зможу це зробити. Ви можете піти запитати його.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -152,7 +156,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Okay, just tell me where can I find him?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де я можу його знайти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -162,7 +166,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>His office is the one with double doors, just by the resonant transformer. Hard to miss it, $(#brother/sister).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Його офіс – той, що з подвійними дверима, прямо біля резонансного трансформатора. Його важко пропустити, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -172,7 +176,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll ask him that, but I had other questions first.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я запитаю його про це, але спочатку в мене були інші питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -182,7 +186,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Of course, $(#brother/sister).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -192,7 +196,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll go ask him then. Will be right back.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я піду запитаю його тоді. Зараз повернуся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -202,7 +206,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can you tell me who's in charge here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви сказати мені, хто тут головний?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -212,7 +216,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That would be Principal Investigator Schteff; he runs the Department of Physics. He should be in his office in case you need him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це був би головний дослідник Штефф; він керує відділом фізики. Він має бути у своєму кабінеті, якщо він вам потрібен.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -222,7 +226,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Anything else on your mind, $(#brother/sister)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ще щось у вас на думці, $(#брате/сестро)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -232,7 +236,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What's that machine you're working on?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Над чим ви працюєте?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -242,7 +246,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is our particle accelerator.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це наш прискорювач частинок.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -252,7 +256,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Electronics]:: What accelerates the particles? Electromagnetic fields?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Електроніка]:: Що прискорює частинки? Електромагнітні поля?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -262,7 +266,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Precisely, $(#brother/sister). &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Саме так, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -272,7 +276,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What you see before you is only one part of the machine - the rest is a five-hundred-meter-long circular *track* looping through the Institute building. This allows us to propel particles around until they reach sufficient speed, and then we steer them, guide them - like Tchort guides us - with superconducting magnets.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Те, що ви бачите перед собою, – це лише одна частина машини – решта – це п’ятисотметрова кругова *траса*, що проходить через будівлю Інституту. Це дозволяє нам розганяти частинки, поки вони не досягнуть достатньої швидкості, а потім ми направляємо їх, ведемо їх – як Тчорт веде нас – за допомогою надпровідних магнітів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -282,7 +286,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The particles form beams, and then we can collide them or aim them at fixed targets.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Частинки утворюють пучки, а потім ми можемо зіштовхувати їх або направляти на фіксовані цілі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -292,7 +296,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>By Tchort!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчортом клянусь!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -302,7 +306,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Apex, is it not?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Apex, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -312,7 +316,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What do you learn from all of this?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви дізнаєтеся з усього цього?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -324,7 +328,9 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
         <source>We can study how the particles react during collision, what kind of radiation gets released - we can observe the effects it has on materials and tissue. It can be used for many things. Currently we use it to simulate Surface radiation, or what we hypothesize it could be like. 
 
 Or, we will be using it after the replacement super steel sheets are installed inside the track.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми можемо вивчати, як частинки реагують під час зіткнення, який вид випромінювання виділяється – ми можемо спостерігати за його впливом на матеріали та тканини. Це можна використовувати для багатьох речей. Зараз ми використовуємо це для моделювання радіації поверхні, або як ми припускаємо, що вона може бути.
+
+Або, ми будемо використовувати це після встановлення нових суперсталевих листів всередині траси.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -334,7 +340,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>We are fortunate to have inherited it from the original engineers of this building. We can maintain it - but constructing one today would be nigh impossible.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нам пощастило успадкувати його від оригінальних інженерів цієї будівлі. Ми можемо підтримувати його в робочому стані - але побудувати такий сьогодні було б майже неможливо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -344,7 +350,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>What do you use it for?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Для чого ви це використовуєте?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -354,7 +360,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>Experiments, $(#brother/sister). &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Експерименти, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -364,7 +370,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>What's that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що це?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -374,7 +380,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт нехай веде тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -384,7 +390,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you, $(#brother/sister).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт нехай веде тебе, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -394,7 +400,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye, Kiro.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення, Кіро.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -404,7 +410,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>Hello, my name is $(context.player.Name) and I was wondering if you could answer a few questions for me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Здрастуйте, мене звати $(context.player.Name) і я хотів би задати вам кілька питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -414,7 +420,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>I do have the time, $(#brother/sister). What is on your mind?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є час, $(#брате/сестро). Що у вас на думці?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -424,7 +430,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>Hey there, Kiro. $(context.player.Name) is the name I go by, and I had a couple of questions if I that's okay with you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, Кіро. Мене звати $(context.player.Name), і в мене було кілька питань, якщо це вас не турбує.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -434,7 +440,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>These constant tremors are really distracting.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ці постійні тремтіння дуже відволікають.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -444,7 +450,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
       </mda:metadata>
       <segment state="translated">
         <source>What is on your mind, $(#brother/sister)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що у тебе на думці, $(#брате/сестро)?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>You are no longer welcome here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вас більше не вітають тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::A tall, imposing figure dressed in black stands before you, calmly waiting for you to step into the room. While the man seems fairly at-ease, you sense that behind his illuminating stare there is a mind more alert than it might appear, a mind that is capable of swiftly and accurately reacting to even a slightest sign of disturbance or danger. When he eventually does open his mouth to speak he effortlessly manages to fill the small room with his platinum-heavy, ringing voice.::
 
 We have been waiting for you. I am Everard - for the time being - and I would like to welcome you to Foundry.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Висока, вражаюча фігура в чорному стоїть перед вами, спокійно чекаючи, поки ви зайдете в кімнату. Хоча чоловік здається досить спокійним, ви відчуваєте, що за його проникливим поглядом ховається розум більш пильний, ніж може здатися, розум, здатний швидко та точно реагувати на найменший прояв тривоги чи небезпеки. Коли він нарешті відкриває рот, щоб заговорити, він без зусиль наповнює маленьку кімнату своїм платиново-важким, дзвінким голосом.::
+
+Ми чекали на вас. Я Еверард – поки що – і я хотів би вітати вас у Фундаменті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>It's a bit chaotic here at the moment, but that should not interfere with our plans. Right?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тут трохи хаотично зараз, але це не повинно завадити нашим планам. Чи правильно?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Jack told me to talk to you about an assignment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Джек сказав мені поговорити з вами про завдання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I reckon he did. We have a very important situation, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я думаю, він так і зробив. У нас дуже важлива ситуація, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>One of our own is imprisoned right here in Foundry; he allowed himself to get caught during a certain act and ended up behind bars. He is being held in Foundry prison, awaiting trial.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Один з наших ув'язнений прямо тут, у Фундаменті; він дозволив себе спіймати під час певної дії і опинився за ґратами. Його тримають у в'язниці Фундаменту, чекаючи на суд.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>What exactly happened?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що саме сталося?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>*Todor Sallywatch* was tasked with following a traveling merchant named Bolivar Daud and was to keep an eye on him. After certain events were to take place, Todor was instructed to assassinate him. Which he did.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">*Тодор Селівотч* був поставлений завданням стежити за мандрівним торговцем на ім'я Болівар Дауд і мав слідкувати за ним. Після певних подій Тодору було наказано вбити його. Що він і зробив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +102,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>But, his exfiltration was less than desirable. He was seen and allowed himself to be apprehended. The real issue here is that Todor is one of us, therefore, he knows everything we know. Right, $(context.player.Name)? And if the Foundry Guard was to find out what he knows... it would be very, *very* bad for us.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але його евакуація була не зовсім вдалою. Його помітили і дозволили себе заарештувати. Справжня проблема в тому, що Тодор один з нас, тому він знає все, що знаємо ми. Правильно, $(context.player.Name)? І якщо Фундаментальна Варта дізнається, що він знає... це буде дуже, *дуже* погано для нас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>You want me to get him out, got it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви хочете, щоб я витягнув його, зрозуміло.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Yes, get him out if possible. ::He slightly leans forward and then continues.:: If not, well...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, витягніть його, якщо це можливо. ::Він трохи нахиляється вперед і продовжує.:: Якщо ні, ну...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -130,7 +132,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Oh, one more thing before I let you on your mission: We have had a lucky break that bought us some time. Foundry has a single judge that handled *all* cases, and he... just recently died of food poisoning. How fortunate is that, right? With his death, Todor's case is on hold for now, giving us time to act. Or should I say, giving *you* time to act.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, ще одна річ, перш ніж я дозволю вам вирушити на завдання: Нам пощастило, що ми отримали трохи часу. У Фундаменті є єдиний суддя, який розглядав *всі* справи, і він... нещодавно помер від харчового отруєння. Як вдало, чи не так? З його смертю справа Тодора призупинена на даний момент, даючи нам час діяти. Або, скажімо, даючи *вам* час діяти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -140,7 +142,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>You may leave now. If you have any questions, I am always here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете йти зараз. Якщо у вас є якісь питання, я завжди тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -150,7 +152,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>What if I can't get him out of there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що, якщо я не зможу витягнути його звідти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>::He smiles.:: Well, then wish him a happy birthday.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він посміхається.:: Ну, тоді побажайте йому щасливого дня народження.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -170,7 +172,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Wait - he is an assassin!?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекайте – він вбивця!?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -180,7 +182,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>He is an imprisoned assassin; there is a difference. But, you don't think you care about that detail - you care about the moral aspect. If so, then I have a simple, yet crucial advice: If you want to make progress with us, you will have to think differently, $(context.player.Name); you will have to adapt. Right?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він ув'язнений вбивця; є різниця. Але, я думаю, вас це не хвилює. Вас турбує моральний аспект. Якщо так, то у мене є проста, але важлива порада: якщо ви хочете досягти успіху з нами, вам доведеться мислити інакше, $(context.player.Name); вам доведеться адаптуватися. Правильно?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -190,7 +192,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I understand. Anyway, you want me to get him out?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. У будь-якому випадку, ви хочете, щоб я витягнув його?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -200,7 +202,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Right. All in all, what if I can't get him out of there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Правильно. В цілому, що, якщо я не зможу витягнути його звідти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -210,7 +212,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I can't do this. I'm sorry, but I decline this job.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не можу цього зробити. Мені шкода, але я відхиляю це завдання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -220,7 +222,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Disapointing. ::He turns his back toward you and falls silent.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розчаровує. ::Він відвертається від вас і замовкає.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -230,7 +232,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>What a moron.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Який дурень.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -240,7 +242,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Harsh words, but he was careless indeed. Let us continue, shall we?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Жорсткі слова, але він справді був недбалим. Давайте продовжимо, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -250,7 +252,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>About Todor Sallywatch...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щодо Тодора Селівотча...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -260,7 +262,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -270,7 +272,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -280,7 +282,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I managed to get him out of the prison.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені вдалося витягнути його з в'язниці.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -290,7 +292,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>You killed everyone inside the prison; I don't think you even realize what you have done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви вбили всіх у в'язниці; я не думаю, що ви навіть усвідомлюєте, що ви зробили.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -300,7 +302,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>You broke Todor out, though. I suppose you have done what was asked of you, technically. Return to Jack; your work here is done, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви витягли Тодора, хоч і так. Повертайтеся до Джека; ваша робота тут закінчена, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -310,7 +312,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -320,7 +322,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>::He smiles.:: Yes, you have done well. Where is Todor now?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він посміхається.:: Так, ви добре попрацювали. Де зараз Тодор?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -330,7 +332,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>He said he's headed to Zeta and that you'll know what that means.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він сказав, що прямує до Зети і що ви знаєте, що це означає.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -340,7 +342,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I do. Was Todor discreet about our business in Foundry? You know what I am talking about.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я знаю. Чи був Тодор обережним щодо наших справ у Фундаменті? Ви знаєте, про що я говорю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -350,7 +352,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>He didn't say anything, I'm sure of it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він нічого не говорив, я впевнений.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -360,7 +362,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>::He smiles.:: Good, I am very glad to hear that. You can return to Jack now; your work here is done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він посміхається.:: Добре, я дуже радий це почути. Ви можете повернутися до Джека зараз; ваша робота тут закінчена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -370,7 +372,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>He snitched you out. You better be careful.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він зрадив вас. Вам краще бути обережним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -380,7 +382,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I see. I am disappointed, but in the end I expected it. I will discuss this with him personally when we meet again. And you, $(context.player.Name) - you have done well. You can return to Jack now; your work here is done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачу. Я розчарований, але в кінці кінців я цього очікував. Я обговорю це з ним особисто, коли ми знову зустрінемося. А ви, $(context.player.Name) – ви добре попрацювали. Ви можете повернутися до Джека зараз; ваша робота тут закінчена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -390,7 +392,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I don't know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -400,7 +402,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>That was not the answer I was hoping for, $(context.player.Name). But I got it none the less and I will have to be careful from now on. Otherwise, you have done well. You can return to Jack now; your work here is done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це не та відповідь, на яку я сподівався, $(context.player.Name). Але я її отримав і тепер мені доведеться бути обережним. В іншому випадку, ви добре попрацювали. Ви можете повернутися до Джека зараз; ваша робота тут закінчена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -410,7 +412,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Todor has been silenced.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тодора було припинено мовлення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -420,7 +422,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>So, it had to be done. Tell me: Was Todor discreet about our business in Foundry? You know what I mean.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, це потрібно було зробити. Скажи мені: чи був Тодор обережним щодо наших справ у Foundry? Ти знаєш, що я маю на увазі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -430,7 +432,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>He didn't say anything. I'm sure of it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він нічого не говорив. Я впевнений у цьому.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -440,7 +442,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>That is a valuable information. But still, we're safer this way. You've done well. You can return to Jack now. Your work here is done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це цінна інформація. Але все одно, нам так безпечніше. Ти добре попрацював. Тепер можеш повернутися до Джека. Твоя робота тут закінчена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -450,7 +452,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>He snitched you out. You better be careful. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він зрадив тебе. Будь обережним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -460,7 +462,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>Right, we will. That is a valuable information and I thank you for it. You've done well. You can return to Jack now. Your work here is done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, будемо. Це цінна інформація, і я дякую тобі за неї. Ти добре попрацював. Тепер можеш повернутися до Джека. Твоя робота тут закінчена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -470,7 +472,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I don't know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -480,7 +482,7 @@ We have been waiting for you. I am Everard - for the time being - and I would li
       </mda:metadata>
       <segment state="translated">
         <source>I managed to get Todor released from prison.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені вдалося визволити Тодора з в'язниці.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -492,7 +494,9 @@ We have been waiting for you. I am Everard - for the time being - and I would li
         <source>Excellent, I am pleased to hear that. You did good work! Todor will be out of Foundry for a while; I'm guessing he has already headed to a safer location.
 
 Still, I have to ask you something. Tell me: Was Todor discreet about our business in Foundry? You know what I mean.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово, я радий це чути. Ти проробив хорошу роботу! Тодор на деякий час покине Foundry; я припускаю, що він вже попрямував до безпечнішого місця.
+
+Проте, я маю тебе про щось запитати. Скажи мені: чи був Тодор обережним щодо наших справ у Foundry? Ти знаєш, що я маю на увазі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -502,7 +506,7 @@ Still, I have to ask you something. Tell me: Was Todor discreet about our busine
       </mda:metadata>
       <segment state="translated">
         <source>Why was the merchant killed?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому було вбито торговця?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -512,7 +516,7 @@ Still, I have to ask you something. Tell me: Was Todor discreet about our busine
       </mda:metadata>
       <segment state="translated">
         <source>Because someone wanted him dead. Simple, right?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тому що хтось хотів його мертвого. Просто, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -522,7 +526,7 @@ Still, I have to ask you something. Tell me: Was Todor discreet about our busine
       </mda:metadata>
       <segment state="translated">
         <source>Revealing who was behind it is impossible. That is something *you* are not allowed to know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розкрити, хто за цим стоїть, неможливо. Це те, що *ти* не маєш знати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
@@ -532,7 +536,7 @@ Still, I have to ask you something. Tell me: Was Todor discreet about our busine
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Foundry prison?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про в'язницю Foundry?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -544,7 +548,9 @@ Still, I have to ask you something. Tell me: Was Todor discreet about our busine
         <source>Well, it is a high security area, I can tell you that. You will find the main entrance south of here, down a set of stairs; that is the only entrance, but might not be the only exit.
 
 The area has patrolling guards armed to the teeth, cameras, turrets and a set of two heavy metal splitgates separate the entry area from the cell block. Mark my words - the security is tight, and there is very little room for error.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, це високоохоронювана зона, можу тобі сказати. Головний вхід знаходиться на південь відсюда, вниз по сходах; це єдиний вхід, але може бути не єдиний вихід.
+
+На території патрулюють озброєні до зубів охоронці, камери, турелі та набір з двох важких металевих шлюзів відокремлює вхідну зону від камерного блоку. Запам'ятай мої слова - охорона сувора, і дуже мало місця для помилок.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -556,7 +562,9 @@ The area has patrolling guards armed to the teeth, cameras, turrets and a set of
         <source>Also, as far as I know, everything is being recorded by the cameras and, in case of emergency, reinforcements are able to arrive within a few minutes.
 
 It is a truly problematic place, isn't it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Також, наскільки мені відомо, все записується камерами і, в разі надзвичайної ситуації, підкріплення може прибути протягом кількох хвилин.
+
+Це справді проблемне місце, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -566,7 +574,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So, with the judge dead, who decides Todor's fate?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, з мертвим суддею, хто вирішує долю Тодора?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -576,7 +584,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well, Foundry doesn't want to be like everyone else, in a sense that they disprove of serving quick "justice,"  as is common throughout South Underrail. They have their own justice system and they stick to it firmly, right? They will probably appoint a new judge before dealing with Todor.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, Foundry не хоче бути як усі інші, в тому сенсі, що вони не схвалюють швидке "правосуддя", як це поширено в South Underrail. У них є власна система правосуддя, і вони дотримуються її непохитно, чи не так? Вони, ймовірно, призначать нового суддю, перш ніж мати справу з Тодором.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -586,7 +594,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>But, for now, he is in the hands of the prison warden.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але наразі він у руках начальника в'язниці.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -596,7 +604,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Let me ask you something else...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволь мені запитати тебе про щось інше...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -606,7 +614,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Go ahead.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Продовжуй.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -616,7 +624,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Foundry?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про Foundry?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -626,7 +634,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There is much one can tell about Foundry, but very little that is difficult to figure out one's own. Just look around you, and look carefully.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Про Foundry можна розповісти багато, але мало що важко з'ясувати самостійно. Просто подивись навколо, і подивись уважно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -636,7 +644,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Jack would never send me a person unaware of the world around $(#him/her), right? ::He smiles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Джек ніколи не посилає мене людину, яка не знає про світ навколо $(#неї/нього), правильно? ::Він посміхається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -646,7 +654,7 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What do you mean by chaos in Foundry?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти маєш на увазі під хаосом у Foundry?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -658,7 +666,9 @@ It is a truly problematic place, isn't it?&lt;end&gt;</source>
         <source>You haven't noticed anything? Hmm, you need to keep your eyes and ears open, $(#buddy/missy). 
 
 The miners ran into strange creatures during excavation. All mining operations have been halted and will remain halted until the situation gets resolved.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти нічого не помітив? Хм, тобі потрібно тримати очі та вуха відкритими, $(#приятелю/красуне). 
+
+Шахтарі натрапили на дивні істоти під час розкопок. Усі гірничі операції були призупинені і залишаться призупиненими, поки ситуація не буде вирішена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -668,7 +678,7 @@ The miners ran into strange creatures during excavation. All mining operations h
       </mda:metadata>
       <segment state="translated">
         <source>Closed mine hurts a mining community, right? And the creatures seem stubborn - hard to expunge. So the big heads are nervous. We'll just keep on watching and see how things develop.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Закрита шахта ранить гірничу громаду, чи не так? І істоти здаються впертими - важко їх викорінити. Тож великі шишки нервуються. Ми просто будемо спостерігати і подивимося, як розвиватимуться події.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -678,7 +688,7 @@ The miners ran into strange creatures during excavation. All mining operations h
       </mda:metadata>
       <segment state="translated">
         <source>What are you guys doing here on this roof?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви робите тут на даху?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -688,7 +698,7 @@ The miners ran into strange creatures during excavation. All mining operations h
       </mda:metadata>
       <segment state="translated">
         <source>Chillin'.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розслабляємось.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
@@ -698,7 +708,7 @@ The miners ran into strange creatures during excavation. All mining operations h
       </mda:metadata>
       <segment state="translated">
         <source>::He laughs.:: I am joking, of course. As you can see, we have a more than satisfying position here, above everyone else. We can observe them and do our work pretty much without interference, right? What is that work exactly? Some other time on that... ::He smiles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він сміється.:: Я жартую, звісно. Як бачиш, у нас тут більш ніж задовільна позиція, над усіма іншими. Ми можемо спостерігати за ними і виконувати свою роботу практично без перешкод, чи не так? Що це за робота, власне? Іншим разом про це... ::Він посміхається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a70" name="=&gt;a70">
@@ -708,7 +718,7 @@ The miners ran into strange creatures during excavation. All mining operations h
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye Everard.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення, Еверарде.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -718,7 +728,7 @@ The miners ran into strange creatures during excavation. All mining operations h
       </mda:metadata>
       <segment state="translated">
         <source>Take care and keep your eyes open.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Бережи себе і будь уважним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -730,7 +740,9 @@ The miners ran into strange creatures during excavation. All mining operations h
         <source>We have been watching you take care of this mess here in Foundry. ::He slowly claps.::
 
 Well done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми спостерігали за тим, як ти розбираєшся з цим безладом у Foundry. ::Він повільно плескає в долоні.::
+
+Молодець.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q73" name="=&gt;q73">
@@ -740,7 +752,7 @@ Well done.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

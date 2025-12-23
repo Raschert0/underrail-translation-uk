@@ -10,7 +10,9 @@
         <source>::The barkeeper pulls out a large, clean mug upon noticing you approach and puts it on the counter. A moment later, he moves his head aside and releases a few abrasive-sounding coughs, taking an extra second or two to recover. Then, after wiping his eyes, he speaks to you with a voice equally pleasant as was his coughing.::
 
 What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, light, rocky and pansy; that one's for girly men and northerners. ::He laughs and coughs at the same time.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бармен дістає велику, чисту кружку, помічаючи ваш підхід, і ставить її на стійку. Через мить він відводить голову вбік і видає кілька грубих, хрипких кашлів, витрачаючи на відновлення ще секунду-дві. Потім, витерши очі, він звертається до вас голосом, таким же приємним, як і його кашель.::
+
+Що будете пити, $(#друже/подруго)? У нас є кілька міцних напоїв: темний, світлий, скелястий і панський; цей для маменькиних синочків і північан. ::Він сміється і кашляє одночасно.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Let me see what you've got. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дайте мені подивитися, що у вас є. ::Торгуйте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about this place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про це місце?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Foundry is a mining station and the largest exporter of raw ores and all that is metal. ::He laughs, coughing.:: The pollution is a bit of an issue, as you can hear, but that's the price we agreed to pay for the riches as well as the safety the Foundry Guard has been ensuring us.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Foundry - це гірнича станція та найбільший експортер сирої руди та всього, що пов’язано з металом. ::Він сміється, кашляючи.:: Забруднення є певною проблемою, як ви можете почути, але це ціна, яку ми погодилися заплатити за багатство, а також за безпеку, яку нам забезпечає Foundry Guard.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>::He chuckles, coughing.:: Speaking of the foul air, even though *I* don't ever go near the mines, my coughing makes me sound like I've spent fifty years drilling with my mouth wide open.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він хихикає, кашляючи.:: До речі про задушливе повітря, хоча *я* ніколи не наближаюся до шахт, мій кашель змушує мене звучати так, ніби я провів п’ятдесят років, копаючи з широко відкритим ротом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>What's the deal with these creatures from the mine?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У чому справа з цими істотами з шахти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Well, you see... recently the miners opened a passage into a new cavern. ::He coughs.:: The cavern was full of strange creatures that had a shell made of pure, hard rock - yeah, that's what I was told. And they have these... ::He extends his arms above and behind his head and spreads his fingers.:: these huge metal spikes on their backs.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, бачите... нещодавно шахтарі відкрили прохід до нової печери. ::Він кашляє.:: Печера була повна дивних істот, які мали панцир з чистого, твердого каменю - так мені сказали. І у них є ці... ::Він простягає руки над головою і за голову, розводячи пальці.:: ці величезні металеві шипи на спині.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Consequently, the mining operation was halted because the creatures were very aggressive, so the mine is closed for the time being.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідно, видобуток було припинено, оскільки істоти були дуже агресивними, тому шахта тимчасово закрита.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +102,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Some guardsmen were killed even, and what's even worse, I was told a couple of those rockies slipped in the residential area somehow, since a couple of folks have gone missing. ::He coughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Навіть кількох вартових було вбито, і що ще гірше, мені сказали, що кілька тих скельних створінь якимось чином проникли в житлову зону, оскільки кілька людей зникли. ::Він кашляє.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Who's the derailed preacher that's talking about the world's end and stuff?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто цей збожеволілий проповідник, який говорить про кінець світу і таке інше?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Oh, just ignore the raving lunatic. Not Lunatic, but lunatic, thankfully. He came to Foundry some time ago, and that's all he does. He might be annoying, but he hasn't hurt anyone. At least, so far.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, просто ігноруйте цього божевільного. Не божевільного, а божевільного, на щастя. Він прийшов до Foundry деякий час тому, і все, що він робить, це те саме. Він може бути надокучливим, але нікому не зашкодив. Принаймні, поки що.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -130,7 +132,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Just ignore him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто ігноруй його.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -140,7 +142,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the slums?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про нетрі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>::He coughs.:: Slums, yeah. Well, if you enjoy being swarmed by smelly, bone-thin, repulsive - and incredibly hungry people, then be my guest and pay them a visit. I mean, it's not like they'll eat you alive. ::He gives you an awkwardly long look, which gets interrupted by coughing.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він кашляє.:: Нетрі, так. Ну, якщо тобі подобається, коли тебе оточують смердючі, кістляві, огидні – і неймовірно голодні люди, то ласкаво прошу і відвідай їх. Я маю на увазі, вони не з’їдять тебе заживо. ::Він кидає на тебе незручно довгий погляд, який переривається кашлем.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Was it dark brew you said you wanted, $(#pal/gal)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це темне пиво ти хотів, $(#pal/gal)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -170,7 +172,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>How do you feel now that the mine has been reopened?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви почуваєтеся зараз, коли шахту знову відкрито?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -180,7 +182,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Golden. ::He coughs, laughing.:: We're alive. Interestingly, people spent more money on alcohol while the mine was closed. Partially because they spent more time here, but also 'cause they were worried about the future.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Золото. ::Він кашляє, сміючись.:: Ми живі. Цікаво, що люди витрачали більше грошей на алкоголь, коли шахта була закрита. Частково тому, що вони проводили більше часу тут, але також тому, що вони хвилювалися за майбутнє.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -190,7 +192,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>So, the mine being operational again kinda hurts my business, now that I think about it. ::He trails off a bit, but coughing snaps him out of it.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, відновлення роботи шахти якось зашкодило моєму бізнесу, тепер, коли я про це думаю. ::Він трохи замовкає, але кашель змушує його оговтатися.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -200,7 +202,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Do you remember anyone coming to you with any strange items? I cannot describe the item, but it's something you would definitely remember.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти пам’ятаєш, щоб хтось приходив до тебе з якимись дивними речами? Я не можу описати цю річ, але ти точно б її запам’ятав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -210,7 +212,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Hmmm... I'm not exactly sure if this is relevant, but... ::He coughs.:: some strange people did come to my bar, I don't know... recently. We get all sort of people in here, but those folks somehow stood out from all the typical trash. You could tell they were up to no good: It's the little signs, the way they look at people, behave, speak. You dig. And one of them had this metal box he was clinging onto like he kept his brain inside. ::He coughs.:: Brains or not, there was something important in that box.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хммм... Я не зовсім впевнений, чи це має значення, але... ::Він кашляє.:: кілька дивних людей дійсно приходили до мого бару, я не знаю... нещодавно. До нас заходить всяка всяка публіка, але ці люди якимось чином виділялися з-поміж усього типового сміття. Ти міг зрозуміти, що вони задумали щось недобре: це дрібниці, те, як вони дивляться на людей, поводяться, говорять. Розумієш. І один з них тримав цю металеву коробку, ніби там зберігав свій мозок. ::Він кашляє.:: Мозки чи ні, в цій коробці було щось важливе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -220,7 +222,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Do you know who they were?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти знаєш, хто вони були?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -230,7 +232,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>I don't really know, but what really surprised me was the fact that Hugo, one of the locals and a frequent customer, knew those people. Yeah. Yeah. And the group became pretty relaxed when Hugo showed up. They had a couple of drinks together, laughed - you dig - seemed like they really knew each other for a long time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я справді не знаю, але мене найбільше здивувало те, що Гюго, один з місцевих і постійний відвідувач, знав цих людей. Так. Так. І група заспокоїлася, коли з’явився Гюго. Вони випили по кілька напоїв, посміялися – розумієш – здавалося, що вони знають один одного дуже давно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -240,7 +242,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>They even left the bar together - again, laughing and all that. ::He coughs.:: Now, Hugo's a good man. He's made a few mistakes in his life, we all do, but he's a good man. So why he'd be hanging out with such lowlifes is beyond me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони навіть разом покинули бар – знову, сміючись і все таке. ::Він кашляє.:: Тепер, Гюго – хороша людина. Він зробив кілька помилок у житті, ми всі робимо, але він хороша людина. Тому, чому він тусується з такими покидьками, я не розумію.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -250,7 +252,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Where can I find this Hugo?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де я можу знайти цього Г’юґо?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -260,7 +262,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>He lives in the residential area, right near slums entrance. Small house, first one to the right as soon as you enter the area. ::He coughs.:: If you miss it for some reason, just make sure you don't go into the slums themselves. Just avoid that tunnel, you dig?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він живе в житловому районі, прямо біля входу в нетрі. Невеликий будинок, перший праворуч, як тільки ви увійдете в район. ::Він кашляє.:: Якщо ви з якоїсь причини пропустите його, просто переконайтеся, що ви не підете в самі нетрі. Просто уникайте цього тунелю, розумієте?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -270,7 +272,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Do you know where they left afterwards?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви знаєте, куди вони пішли після цього?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -280,7 +282,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Nope, sorry. But what really surprised me was the fact that Hugo, one of the locals and a frequent customer, knew those people. Yeah. Yeah. And the group became pretty relaxed when Hugo showed up. They had a couple of drinks together, laughed - you dig - seemed like they really knew each other for a long time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, вибач. Але мене найбільше здивувало те, що Гюго, один з місцевих і постійний відвідувач, знав цих людей. Так. Так. І група заспокоїлася, коли з’явився Гюго. Вони випили по кілька напоїв, посміялися – розумієш – здавалося, що вони знають один одного дуже давно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -290,7 +292,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>I'm looking for merchants. Can you point me to any stores?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я шукаю торговців. Чи можете ви вказати мені якісь магазини?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -300,7 +302,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Sure, sure. Ehm... ::He points across from the bar.:: There's Bryan's store there, and Bobby's up by the north wall. In between you got Doc Stevenson and his wife Estelle if you need some medical aid.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, звичайно. Ем... ::Він показує навпроти бару.:: Там магазин Браяна, а вище, біля північної стіни, магазин Боббі. Між ними Доктор Стівенсон і його дружина Естель, якщо вам потрібна медична допомога.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -310,7 +312,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Now, Leonie, you went past her store at the entrance, yeah? Yeah. Okay, to the west, in the residential area you got West's electronics store and Messer's butchery.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер, Леоні, ви пройшли повз її магазин біля входу, так? Так. Добре, на захід, в житловому районі, у вас є магазин електроніки Веста та м’ясна крамниця Мессера.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -320,7 +322,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Who's in charge of this place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто тут головний?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -330,7 +332,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>::He coughs.:: That would be Marshall, Martin Marshall.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він кашляє.:: Це був Маршалл, Мартін Маршалл.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -340,7 +342,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Where can I find him?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де я можу його знайти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -350,7 +352,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>::He points to the western exit.:: Go there, that's the residential area, and go all the way to its north-western corner. You'll also find Chief Banner there most of the time, he's the... the... ::He sneezes.:: Darn it! ::He wipes his nose with a handkerchief.:: Anyhow, he's the chief of the Foundry Guard, $(#pal/gal), so if you need 'im, that's where you'll find 'im.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він вказує на західний вихід.:: Йдіть туди, це житловий район, і пройдіть аж до його північно-західного кута. Там ви також знайдете Головного Прапора майже завжди, він є... є... ::Чхає.:: Чорт забирай! ::Витирає ніс хустинкою.:: У будь-якому випадку, він є начальником Фундаментальної Варти, $(#pal/gal), тож якщо він вам потрібен, ви знайдете його там.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -360,7 +362,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Heard any good rumors?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чули якісь добрі чутки?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -370,7 +372,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -380,7 +382,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>The folks around here have been turning more and more temperamental as of late. Some blame the foul air, others the water. Whatever the case, get a respirator and drink only brew - that'll do ya good. ::He laughs, coughing.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Місцеві останнім часом стають все більш запальчивими. Дехто звинувачує брудне повітря, інші – воду. Як би там не було, візьміть респіратор і пийте тільки пиво – це вам піде на користь. ::Сміється, кашляючи.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -390,7 +392,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Nicolas and Olivia had another fight, I heard. From my house I mean. Damn, $(#pal/gal), it was like the ceiling was breaking and roaring. ::He coughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ніколас і Олівія знову посварилися, я чув. З мого будинку, розумієте. Чорт забирай, $(#pal/gal), було таке враження, ніби стеля ламається і реве. ::Кашляє.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -400,7 +402,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>::He coughs violently, needing a few moments to recuperate.:: Sorry, what was the question?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кашляє так сильно, що йому потрібно кілька хвилин, щоб відновитися.:: Вибачте, яке було питання?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -410,7 +412,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Ironheads engaged another Foundry Guard patrol just east of here. ::He coughs.:: They won't dare strike us here, barrenheads. ::He laughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Залізні голови вступили в бій з патрулем Фундаментальної Варти трохи на схід відсюда. ::Кашляє.:: Вони не наважуються напасти на нас тут, лисі. ::Сміється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -420,7 +422,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>I just heard Balor has been killed. Eat that, Ironheads!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я щойно почув, що Балора вбили. Хай почують Залізні голови!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -430,7 +432,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>The mine was closed 'cause the miners dug into some cavern and released some creatures. Apparently, the Foundry Guard's been having some trouble clearing them out. ::He coughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Шахту закрили, тому що шахтарі викопали печеру і випустили якихось істот. Очевидно, Фундаментальна Варта має проблеми з їх знищенням. ::Кашляє.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -440,7 +442,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Chief Ingram's wife, Evelyn has been murdering people in her husband's bunker for who knows how long now. Bloody hell...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дружина Головного Інграма, Евелін, вбиває людей у бункері свого чоловіка вже хтозна скільки часу. Божевілля...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -450,7 +452,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>Something nasty happened at the prison, as it's under lock-down. Maybe someone was stupid enough to try to squeeze out. ::He coughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У в'язниці щось сталося, зараз там локдаун. Можливо, хтось був достатньо дурним, щоб спробувати втекти. ::Кашляє.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -460,7 +462,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>The Faceless are gone from Core City, and the blockade has been lifted. Yeah!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Безликих більше немає в Центральному Місті, і блокаду знято. Так!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -470,7 +472,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>I'll be going now. See ya.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я йду. Побачимося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -480,7 +482,7 @@ What are you having, $(#pal/gal)? We got a couple of strong brews here: dark, li
       </mda:metadata>
       <segment state="translated">
         <source>You look like you need a good brew to lubricate your dry, friable throat. ::He laughs, coughing.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви виглядаєте так, ніби вам потрібне хороше пиво, щоб змастити ваше сухе, крихке горло. ::Сміється, кашляючи.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -10,7 +10,9 @@
         <source>::Stored ore: $(context.loc_fo5_storedOre)
 Loaded ore: $(context.loc_fo5_loadedOre)
 Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зберігає руду: $(context.loc_fo5_storedOre)
+Завантажена руда: $(context.loc_fo5_loadedOre)
+Конвеєр: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -21,7 +23,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       <segment state="translated">
         <source>
 ::Super steel melting program loaded. Controls overriden.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Завантажена програма переплавки суперсталі. Контроль перехоплено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -42,7 +44,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -52,7 +54,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Recall the cart.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поверніть візок.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -72,7 +74,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Cargo scanning successful. No invalid objects detected.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Сканування вантажу успішне. Не виявлено неприпустимих об'єктів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -82,7 +84,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Proceed with unloading.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Продовжуйте розвантаження.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -102,7 +104,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Turn the conveyor belt on.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкніть конвеєр.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -112,7 +114,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Turn the conveyor belt off.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкніть конвеєр.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -143,7 +145,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Drain the tank.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Злийте бак.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -153,7 +155,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave it be.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште як є.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -164,7 +166,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
       <segment state="translated">
         <source>
 ::Tank full.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бак повний.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

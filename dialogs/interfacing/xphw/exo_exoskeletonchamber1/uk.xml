@@ -10,7 +10,9 @@
         <source>::Security Agency ESA-25M3
 
 Please step on the marked spot and face the assembler to start the procedure.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Агенція безпеки ESA-25M3
+
+Будь ласка, станьте на позначену ділянку і поверніться до складальника, щоб почати процедуру.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -20,7 +22,7 @@ Please step on the marked spot and face the assembler to start the procedure.::&
       </mda:metadata>
       <segment state="translated">
         <source>::Face the machine.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поверніться до машини.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -32,7 +34,7 @@ Please step on the marked spot and face the assembler to start the procedure.::&
         <source>::Performing initial scan...
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виконується початкове сканування...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -44,7 +46,9 @@ Please step on the marked spot and face the assembler to start the procedure.::&
         <source>::Warning: unrecognized user or body template. All exoskeleton suits are fitted to specific body types and cannot be assembled without creating a template first.
 
 Would you like to create a new template now?::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага: нерозпізнаний користувач або шаблон тіла. Всі екзоскелети підігнані під конкретні типи тіла і не можуть бути зібрані без створення шаблону спочатку.
+
+Ви хочете створити новий шаблон зараз?::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -54,7 +58,7 @@ Would you like to create a new template now?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Add new template::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Додати новий шаблон::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -68,7 +72,11 @@ Would you like to create a new template now?::&lt;end&gt;</source>
 Performing a full body scan... Completed.
 Collecting biometric data... Completed.
 Scanning for CC marker... Completed - marker not found.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, залишайтеся нерухомими протягом усієї процедури, поки вам не буде дано іншу команду.
+
+Виконується сканування всього тіла... Завершено.
+Збір біометричних даних... Завершено.
+Сканування на наявність CC-маркера... Завершено - маркер не знайдено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -78,7 +86,7 @@ Scanning for CC marker... Completed - marker not found.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Please ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -88,7 +96,7 @@ Scanning for CC marker... Completed - marker not found.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::turn your head to your left.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::поверніть голову ліворуч.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -98,7 +106,7 @@ Scanning for CC marker... Completed - marker not found.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Look left.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Подивіться ліворуч.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -108,7 +116,7 @@ Scanning for CC marker... Completed - marker not found.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Please ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -118,7 +126,7 @@ Scanning for CC marker... Completed - marker not found.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::turn your head to your right.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поверніть голову праворуч.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -128,7 +136,7 @@ Scanning for CC marker... Completed - marker not found.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Look right.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Подивіться праворуч.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -140,7 +148,9 @@ Scanning for CC marker... Completed - marker not found.::&lt;end&gt;</source>
         <source>::You may face forward.
 
 Please raise your arms above your head and remain still.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Можете дивитися вперед.
+
+Будь ласка, підніміть руки над головою і залишайтеся нерухомими.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -150,7 +160,7 @@ Please raise your arms above your head and remain still.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -160,7 +170,7 @@ Please raise your arms above your head and remain still.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Raise your arms.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підніміть руки.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -172,7 +182,9 @@ Please raise your arms above your head and remain still.::&lt;end&gt;</source>
         <source>::You may lower your arms.
 
 Please crouch.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви можете опустити руки.
+
+Будь ласка, присядьте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -182,7 +194,7 @@ Please crouch.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -192,7 +204,7 @@ Please crouch.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Crouch.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Присісти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -207,7 +219,12 @@ Performing final calculations... Completed.
 Creating template and registering user... Completed.
 
 New template added: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Можете встати.
+
+Виконуються остаточні розрахунки... Завершено.
+Створення шаблону та реєстрація користувача... Завершено.
+
+Додано новий шаблон: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -217,7 +234,7 @@ New template added: ::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -227,7 +244,7 @@ New template added: ::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::EST0257M::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::EST0257M::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -237,7 +254,7 @@ New template added: ::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -249,7 +266,9 @@ New template added: ::&lt;end&gt;</source>
         <source>::No exoskeleton suits available at the moment. 
 
 Please load components into the assembler before proceeding.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Наразі немає доступних екзоскелетних костюмів.
+
+Будь ласка, завантажте компоненти в складальник перед продовженням.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -259,7 +278,7 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -269,7 +288,7 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Exoskeleton suit already registered to this body template.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Екзоскелетний костюм вже зареєстровано для цього шаблону тіла.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -279,7 +298,7 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::[Debug] Unregister suit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Debug] Скасувати реєстрацію костюма.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -289,7 +308,7 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Unregistering suit... Completed.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Деактивація костюма... Завершено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -299,7 +318,7 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Please select which exoskeleton suit you want to register to this body template. A single user can be issued only one suit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, виберіть, який екзоскелетний костюм ви хочете зареєструвати для цього шаблону тіла. Користувачеві може бути видано лише один костюм.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -309,7 +328,7 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -319,7 +338,7 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Combat Exoskeleton::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бойовий екзоскелет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -331,7 +350,7 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
         <source>::Suit registered successfully. 
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Костюм успішно зареєстровано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -343,7 +362,9 @@ Please load components into the assembler before proceeding.::&lt;end&gt;</sourc
         <source>::CC marker not found or recognized. A skulljack cannot be installed without it, and the suit will not be able to monitor and regulate neurocognitive processes.
 
 Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Маркер CC не знайдено або не розпізнано. Шоломовий роз'єм не може бути встановлений без нього, і костюм не зможе контролювати та регулювати нейрокогнітивні процеси.
+
+Ви хочете продовжити збірку костюма незалежно від цього?::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -353,7 +374,7 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Assemble exoskeleton::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зібрати екзоскелет::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -363,7 +384,7 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Technomedic Exoskeleton::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Екзоскелет Техномедика::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -373,7 +394,7 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Intercessor Exoskeleton::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Екзоскелет Перехожого::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -383,7 +404,7 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Psychophract Exoskeleton::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Екзоскелет Психофракта::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -393,7 +414,7 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Unregister current exoskeleton suit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Скасувати поточний екзоскелетний костюм.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -403,7 +424,7 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -413,7 +434,7 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -423,7 +444,7 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -435,7 +456,9 @@ Would you like to proceed with suit assembly regardless?::&lt;end&gt;</source>
         <source>::Error: Unauthorized access attempt detected!
 
 Logging...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка: виявлено спробу несанкціонованого доступу!
+
+Ведеться логування...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -445,7 +468,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::EST0257F::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::EST0257F::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -455,7 +478,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Jump.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Стрибок.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -465,7 +488,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Please do not deviate from the instuctions: crouch.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, не відхиляйтесь від інструкцій: присісти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -475,7 +498,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Bend over.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Нахилися.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -485,7 +508,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Abort procedure.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Припинити процедуру.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -495,7 +518,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Raise your left arm only.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підніміть тільки ліву руку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -505,7 +528,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Please raise both your arms above your head.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, підніміть обидві руки над головою.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -515,7 +538,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Raise your right arm only.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підніміть тільки праву руку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -525,7 +548,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Wave with both your arms as wide as you can.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Махайте обома руками якомога ширше.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -535,7 +558,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Please keep your arms still.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, тримайте руки нерухомо.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -545,7 +568,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Look left.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Подивись ліворуч.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -555,7 +578,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Please do not deviate from the instuctions: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, не відхиляйтесь від інструкцій: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -565,7 +588,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Look right.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поверніть голову праворуч.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -575,7 +598,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Please do not deviate from the instructions: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, не відхиляйтеся від інструкцій: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -585,7 +608,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Template detected: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виявлено шаблон: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -595,7 +618,7 @@ Logging...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиш.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

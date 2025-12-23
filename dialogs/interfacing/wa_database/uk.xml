@@ -10,7 +10,9 @@
         <source>::Oculus Database
 
 Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::База даних Окулуса
+
+Поточний рівень доступу: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -20,7 +22,7 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Browse personal files::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Переглянути особисті файли::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -32,7 +34,9 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <source>::Personal Files
 
 Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Особисті файли
+
+Поточний рівень доступу: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -42,7 +46,7 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Hadrian Tanner::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Hadrian Tanner::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -63,7 +67,18 @@ SGS steadily rose to power since Hadrian joined it.
 There is no record of Hadrian Tanner prior to him joining SGS and all attempts to trace back his history have failed so far.
 
 It is suspected that Hadrian Tanner is actually just an alias.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Hadrian Tanner
+Посада: Радник
+Поточне місце проживання: Станція Південні Ворота
+Приналежність: Станція Південні Ворота
+
+Hadrian Tanner є одним з лідерів SGS. Його широко вважають найвпливовішою людиною на станції, хоча здається, що він намагається применшити це.
+
+SGS стабільно нарощував владу з моменту приєднання до нього Hadrian.
+
+Немає жодних записів про Hadrian Tanner до його приєднання до SGS, і всі спроби відстежити його історію поки що не вдалися.
+
+Є підозра, що Hadrian Tanner насправді є лише псевдонімом.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -73,7 +88,7 @@ It is suspected that Hadrian Tanner is actually just an alias.::&lt;end&gt;</sou
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -83,7 +98,7 @@ It is suspected that Hadrian Tanner is actually just an alias.::&lt;end&gt;</sou
       </mda:metadata>
       <segment state="translated">
         <source>::Vera Hale::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Vera Hale::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -102,7 +117,16 @@ Alignment: South Gate Station
 - Vera migrated from North Underrail where she worked as a deputy to the minister of trade of United Stations. She was dismissed from this position for unknown reasons.
 
 - Vera is credited as being pivotal negotiator in many trade agreements with neighboring communities, such as Junkyard, Camp Hathor and Protectorate (Junkyard Embassy and SRO). These trade agreements are hailed as a significant factor of SGS prosperity.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Vera Hale
+Посада: Радник
+Поточне місце проживання: Станція Південні Ворота
+Приналежність: Станція Південні Ворота
+
+- Vera Hale є одним з лідерів SGS. Вона відома своєю підтримкою Протекторату та ідеї Об'єднаних Станцій.
+
+- Vera мігрувала з Північного Андеррейлу, де працювала заступником міністра торгівлі Об'єднаних Станцій. Її було звільнено з цієї посади з невідомих причин.
+
+- Vera визнана ключовим переговірником у багатьох торговельних угодах із сусідніми громадами, такими як Звалище, Табір Хатор і Протекторат (Посольство Звалища та SRO). Ці торговельні угоди вважаються значним фактором процвітання SGS.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -112,7 +136,7 @@ Alignment: South Gate Station
       </mda:metadata>
       <segment state="translated">
         <source>::Yevgeni 'Gorsky' Zolnerowich::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Yevgeni 'Gorsky' Zolnerowich::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -136,7 +160,21 @@ Alignment: South Gate Station
 - It is suspected that Gorsky was trained as a professional soldier in his youth, but it is uncertain where he would have gotten this training since all attempts to link him to Biocorp Security Forces returned negative results.
 
 - Gorsky still maintains contact with a number of minor factions of Core City, most notably the Zone Rats.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Yevgeni Zolnerowich
+Псевдоніми: Gorsky
+Посада: Начальник служби безпеки
+Поточне місце проживання: Станція Південні Ворота
+Приналежність: Станція Південні Ворота
+
+- Yevgeni майже виключно відомий під своїм псевдонімом Gorsky. Походження або значення цього псевдоніма невідоме.
+
+- Він був членом кількох банд у часи до революції в Core City. Незабаром після революції він покинув Core City і зрештою опинився на станції Південні Ворота.
+
+- Gorsky добре відомий на вулицях Core City та в інших громадах Нижнього Андеррейлу на півдні як зухвалий боєць, який рідко відступає.
+
+- Є підозра, що Gorsky був навчений як професійний солдат у молодості, але невідомо, де він міг отримати цю підготовку, оскільки всі спроби пов'язати його з силами безпеки Biocorp дали негативні результати.
+
+- Gorsky все ще підтримує зв'язок з кількома дрібними угрупованнями Core City, особливо з Zone Rats.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -146,7 +184,7 @@ Alignment: South Gate Station
       </mda:metadata>
       <segment state="translated">
         <source>::Silas::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Silas::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -164,7 +202,15 @@ Alignment: Black Eels (Junkyard)
 - Silas is the leader of Black Eels, a Junkyard gang that controls its docks, the Chancer's Bay as well as The Rig, a platform between Junkyard and Core City.
 
 - It is unknown whether Silas is an alias or his real name.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Silas
+Псевдонім: Dockmaster, Silas
+Посада: Лідер банди
+Поточне місце проживання: Звалище
+Приналежність: Black Eels (Звалище)
+
+- Silas є лідером Black Eels, банди Звалища, яка контролює його доки, затоку Chancer's Bay, а також The Rig, платформу між Звалищем і Core City.
+
+- Невідомо, чи Silas є псевдонімом або його справжнім ім'ям.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -174,7 +220,7 @@ Alignment: Black Eels (Junkyard)
       </mda:metadata>
       <segment state="translated">
         <source>::Edward Wheeler::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Edward Wheeler::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -190,7 +236,13 @@ Current residence: Junkyard
 Alignment: Scrappers (Junkyard)
 
 - Eddy is the leader of Scrappers, a Junkyard gang that controls the access to Depot A, also known as Old Junkyard, the biggest scavenger's playground.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Edward Wheeler
+Псевдонім: Eddy
+Посада: Лідер банди
+Поточне місце проживання: Звалище
+Приналежність: Scrappers (Звалище)
+
+- Eddy є лідером Scrappers, банди Звалища, яка контролює доступ до Depot A, також відомого як Старе Звалище, найбільшого майданчика для шукачів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -200,7 +252,7 @@ Alignment: Scrappers (Junkyard)
       </mda:metadata>
       <segment state="translated">
         <source>::Herve Fontaine::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Herve Fontaine::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -215,7 +267,12 @@ Current residence: Rail Crossing
 Alignment: Rail Crossing
 
 - Herve is the captain of Rail Crossing militia and an unofficial acting mayor.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Herve Fontaine
+Посада: Капітан міліції
+Поточне місце проживання: Rail Crossing
+Приналежність: Rail Crossing
+
+- Herve є капітаном міліції Rail Crossing і неофіційним виконуючим обов'язки мера.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -225,7 +282,7 @@ Alignment: Rail Crossing
       </mda:metadata>
       <segment state="translated">
         <source>::Edgar Garnham::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Edgar Garnham::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -242,7 +299,14 @@ Alignment: Camp Hathor
 - Edgar Garnham is the leader of Camp Hathor.
 
 - He is known as one of the most skillful hunters of South Underrail.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Edgar Garnham
+Посада: Лідер
+Поточне місце проживання: Camp Hathor
+Приналежність: Camp Hathor
+
+- Edgar Garnham є лідером Camp Hathor.
+
+- Він відомий як один з найвміліших мисливців Південного Андеррейлу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -252,7 +316,7 @@ Alignment: Camp Hathor
       </mda:metadata>
       <segment state="translated">
         <source>::Martin Marshall::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Martin Marshall::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -267,7 +331,12 @@ Current residence: Foundry
 Alignment: Foundry
 
 - Martin is the current elected mayor of Foundry.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Martin Marshall
+Посада: Мер
+Поточне місце проживання: Foundry
+Приналежність: Foundry
+
+- Martin є поточним обраним мером Foundry.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -277,7 +346,7 @@ Alignment: Foundry
       </mda:metadata>
       <segment state="translated">
         <source>::Dalton Banner::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Dalton Banner::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -293,7 +362,13 @@ Current residence: Foundry
 Alignment: Foundry
 
 - Dalton is the current elected chief of Foundry Guard.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Dalton Banner
+Псевдонім: Chief
+Посада: Начальник охорони
+Поточне місце проживання: Foundry
+Приналежність: Foundry
+
+- Dalton є поточним обраним начальником охорони Foundry.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -303,7 +378,7 @@ Alignment: Foundry
       </mda:metadata>
       <segment state="translated">
         <source>::Rupert Simmons::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Rupert Simmons::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -320,7 +395,14 @@ Alignment: Coretech (Core City)
 - Rupert was one of the high ranking Biocorp technocrats before joining Core City rebellion. Today he is one of the three ruling Oligarchs.
 
 - Rupert and his company - Coretech, play a key part in the infrastructural maintenance of the Arena, as well as the Gauntlet, the latter being solely their creation.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Rupert Simmons
+Посада: Генеральний директор
+Поточне місце проживання: Core City
+Приналежність: Coretech (Core City)
+
+- Rupert був одним з високопоставлених технократів Biocorp, перш ніж приєднатися до повстання Core City. Сьогодні він є одним з трьох правлячих олігархів.
+
+- Rupert і його компанія - Coretech, відіграють ключову роль в інфраструктурному обслуговуванні Arena, а також Gauntlet, останній з яких є виключно їхнім творінням.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -330,7 +412,7 @@ Alignment: Coretech (Core City)
       </mda:metadata>
       <segment state="translated">
         <source>::Gunnar Edstrom::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Gunnar Edstrom::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -351,7 +433,18 @@ Alignment: JKK (Core City)
 - Gunnar, his family and his associates came from somewhere in the East Underrail, but the exact location is unknown as are his previous business undertakings. There are rumors, though, that at one point, prior to his arrival to Core City, he was involved in slave trade.
 
 - Gunnar's company broadcasts ArenaNow and Gauntlet channels and also supplies some of the more exotic challenges.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Gunnar Edstrom
+Посада: Власник
+Поточне місце проживання: Core City
+Приналежність: JKK (Core City)
+
+- Gunnar є відомим торговцем.
+
+- Gunnar переїхав до Core City через деякий час після повстання і зумів прокласти собі шлях і шлях своєї компанії до правлячої олігархії, виступаючи посередником між двома основними конфліктуючими фракціями (Coretech і Praetorian Security).
+
+- Gunnar, його сім'я та його соратники прийшли з якогось місця в Східному Андеррейлі, але точне місцезнаходження невідоме, як і його попередні бізнесові починання. Ходять чутки, однак, що в якийсь момент, до його прибуття в Core City, він був причетний до работоргівлі.
+
+- Компанія Gunnar транслює канали ArenaNow і Gauntlet, а також постачає деякі з більш екзотичних викликів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -361,7 +454,7 @@ Alignment: JKK (Core City)
       </mda:metadata>
       <segment state="translated">
         <source>::Archibald Knight::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Archibald Knight::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -380,7 +473,16 @@ Alignment: Praetorian Security (Core City)
 - He's one of the three Oligarchs ruling Core City and commands the largest armed force in the city.
 
 - He is the majority owner of the Arena.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Archibald Knight
+Посада: Головний
+Поточне місце проживання: Core City
+Приналежність: Praetorian Security (Core City)
+
+- Archibald колись був другим за командуванням сил безпеки Core City. Після вторгнення Протекторату в Biocorp на півночі, Archibald очолив успішне повстання проти Biocorp в Core City.
+
+- Він один з трьох олігархів, які правлять Core City, і командує найбільшою збройною силою в місті.
+
+- Він є мажоритарним власником Arena.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -390,7 +492,7 @@ Alignment: Praetorian Security (Core City)
       </mda:metadata>
       <segment state="translated">
         <source>::Wit Nosek::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Wit Nosek::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -409,7 +511,16 @@ Involved in: Phenotype Dynamics (Biocorp), Project Arima (Biocorp), Project Ark 
 - Wit was dismissed from Arima by an unknown member of the First Circle. He spent several years on minor projects before being reassigned to Project Ark.
 
 - Following the "Hollow Earth Incident," Wit defected from Biocorp and from that point in time his movements remain largely unknown. It is likely, though, that, assuming he's still alive and scientifically active, he would choose Core City as his residence where he would be out of reach of Biocorp and Protectorate while still having access to some scientific equipment.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Wit Nosek
+Професія: Генетик
+Приналежність: Old Biocorp, Old Biocorp Renegade
+Брав участь у: Phenotype Dynamics (Biocorp), Project Arima (Biocorp), Project Ark (Biocorp), інші різноманітні проекти Biocorp
+
+- Wit був вченим Другого кола, що означає, що більшість його особистої та професійної інформації була класифікована, в результаті чого ми маємо дуже обмежену інформацію про нього сьогодні.
+
+- Wit був звільнений з Arima невідомим членом Першого кола. Він провів кілька років над незначними проектами, перш ніж його знову призначили до Project Ark.
+
+- Після "Інциденту з порожнистою Землею" Wit відступив від Biocorp і з того часу його пересування залишаються в основному невідомими. Ймовірно, однак, якщо він все ще живий і активно займається наукою, він вибере Core City як місце проживання, де він буде поза досяжністю Biocorp і Протекторату, маючи при цьому доступ до певного наукового обладнання.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -419,7 +530,7 @@ Involved in: Phenotype Dynamics (Biocorp), Project Arima (Biocorp), Project Ark 
       </mda:metadata>
       <segment state="translated">
         <source>::Anton Matveev::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Anton Matveev::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -439,7 +550,17 @@ Involved in: Project Ascendance, Phenotype Dynamics, various projects related to
 - Anton was also rumored to be a powerful thought controller.
 
 - Along with a number of other high ranking technocrats, Anton was removed from power sometime during the chaos that ensued after the Hollow Earth incident, but was never apprehended.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Антон Матвєєв
+Прізвиська: Wight
+Посада: Головний Технократ
+Приналежність: Стара Біокорпорація
+Брав участь у: Проєкті «Піднесення», Динаміці Фенотипів, різноманітних проєктах, пов'язаних з трансгенікою, псіхоморфізмом та трансгуманізмом
+
+- Окрім частого звинувачення у проведенні несанкціонованих людських експериментів, Антон був сумно відомий у Старій Біокорпорації через жахливі самоексперименти.
+
+- Ходили чутки, що Антон також був могутнім контролером думок.
+
+- Разом з низкою інших високопоставлених технократів, Антона було усунуто з посади десь під час хаосу, що настала після інциденту з «Порожньою Землею», але його ніколи не заарештували.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -449,7 +570,7 @@ Involved in: Project Ascendance, Phenotype Dynamics, various projects related to
       </mda:metadata>
       <segment state="translated">
         <source>::Kirill 'Vovin' Gavrilyuk::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кирило 'Вовін' Гаврилюк::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -471,7 +592,19 @@ Involved in: Project Ascendance, various projects related to transgenics, psimor
 - Along with number of other high ranking technocrats, Kirill was removed from power sometime during the chaos that ensued after the Hollow Earth incident, but was never apprehended.
 
 - Several high-profile customers have offered considerable amounts of money in exchange for learning Kirill's location.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Кирило Гаврилюк
+Прізвиська: Вовін
+Посада: Головний Технократ
+Приналежність: Стара Біокорпорація
+Брав участь у: Проєкті «Піднесення», різноманітних проєктах, пов'язаних з трансгенікою, псіхоморфізмом та трансгуманізмом
+
+- Кирило був відомий як «Вовін» (дракон) у внутрішніх колах Старої Біокорпорації, можливо, через його псіонічні здібності.
+
+- Згідно з деякими записами, серед усіх Головних Технократів, Кирило мав найбільшу владу, і багато проєктів, що відбувалися в роки, що передували краху Біокорпорації, були розпочаті за його наказом.
+
+- Разом з низкою інших високопоставлених технократів, Кирило було усунуто з посади десь під час хаосу, що настала після інциденту з «Порожньою Землею», але його ніколи не заарештували.
+
+- Кілька впливових клієнтів пропонували значні суми грошей в обмін на інформацію про місцезнаходження Кирила.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -481,7 +614,7 @@ Involved in: Project Ascendance, various projects related to transgenics, psimor
       </mda:metadata>
       <segment state="translated">
         <source>::More::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Більше::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -493,7 +626,9 @@ Involved in: Project Ascendance, various projects related to transgenics, psimor
         <source>::Personal Files
 
 Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Особисті Файли
+
+Поточний рівень доступу: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -503,7 +638,7 @@ Current access level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Frederick Cathcart::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Фредерік Кетхарт::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -524,7 +659,18 @@ Alignment: Underrail Protectorate
 - Not much is known about his history prior to the fall of the Reformed Biocorp. Some sources state that he was a soldier or a junior officer among Protectorate ranks during the takeover, others that he wasn't taking part in combat at all. Only a few years after these events took place does his name officially appear, preceded by the rank of lieutenant.
 
 - He has been married twice, and both of these ended in divorce.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Фредерік Кетхарт
+Посада: Командувач силами Підземного Протекторату в Південному Підземному світі
+Звання: Полковник
+Вік: 54
+Поточне місце проживання: Форт Апогей, Верхній Підземний світ
+Приналежність: Підземний Протекторат
+
+- Полковник Кетхарт прибув до Південного Підземного світу п'ять років тому як командир Південно-Підземної експедиційної бригади, але незабаром отримав командування всіма військами Протекторату в регіоні, а Форт Апогей став їхньою основною базою операцій. Він поки що є єдиним командувачем Форту Апогей.
+
+- Мало що відомо про його історію до падіння Реформованої Біокорпорації. Деякі джерела стверджують, що він був солдатом або молодшим офіцером у лавах Протекторату під час захоплення, інші, що він взагалі не брав участі в бойових діях. Лише через кілька років після цих подій його ім'я офіційно з'являється, передуючи звання лейтенанта.
+
+- Він був одружений двічі, і обидва ці шлюби закінчилися розлученням.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -534,7 +680,7 @@ Alignment: Underrail Protectorate
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -544,7 +690,7 @@ Alignment: Underrail Protectorate
       </mda:metadata>
       <segment state="translated">
         <source>::Kerry Oliver::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керрі Олівер::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -564,7 +710,17 @@ Alignment: United Stations, Underrail Protectorate
 - While he has expressed his concern with some of the Protectorate activities in South Underrail (as several intercepted correspondences with his colleagues from United Stations suggest), and mostly during his first year in office, he never took any further action in that regard, and has officially stayed out of military affairs.
 
 - He is married to Linda Oliver with whom he has two children: son Magnus (allegedly named after an old world chess grandmaster) and daughter Aida (named after the old world musical theater play of the same name).::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Керрі Олівер
+Посада: Консул
+Вік: 42
+Поточне місце проживання: Форт Апогей, Верхній Підземний світ
+Приналежність: Об'єднані Станції, Підземний Протекторат
+
+- Керрі Олівер є офіційно призначеним консулом Консульства Форту Апогей, Верхній Підземний світ, і перебуває на цій посаді вже п'ять років. Його було номіновано на цю посаду тодішнім міністром закордонних справ Об'єднаних Штатів Ніком Томпсоном, його колишнім професором політології в Університеті Діс (Біокорпорація до Протекторату).
+
+- Хоча він висловлював свою стурбованість деякими діями Протекторату в Південному Підземному світі (як свідчать кілька перехоплених кореспонденцій з його колегами з Об'єднаних Штатів), і здебільшого протягом першого року перебування на посаді, він не вжив жодних подальших дій у цьому відношенні та офіційно не втручався у військові справи.
+
+- Він одружений з Ліндою Олівер, з якою має двох дітей: сина Магнуса (якого, як стверджують, назвали на честь стародавнього шахового гросмейстера) і доньку Аїду (названу на честь стародавньої театральної вистави).::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -574,7 +730,7 @@ Alignment: United Stations, Underrail Protectorate
       </mda:metadata>
       <segment state="translated">
         <source>::Alvin Bate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Алвін Бейт::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -592,7 +748,15 @@ Current residence: Free Drones under-passage base
 - Alvin Bate is one of the leaders of the Free Drones primary cell in South Underrail, alongside Corben Trenton and (formerly) Marcella Green
 
 - Little information on his life before joining the Free Drones exists. He is presumed to have arrived to South Underrail with the first Free Drones, and that he is one of the original founders of this region's primary cell. His only known family member is his alleged daughter Milla Bate, currently located in Dis, North Underrail.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Алвін Бейт
+Посада: Лідер клітини «Вільні Дрони» Південного Підземного світу
+Місце народження: Північний Підземний світ, місце невідоме
+Вік: Від 30 до 40 років
+Поточне місце проживання: База «Вільних Дронів» підземним ходом
+
+- Алвін Бейт є одним із лідерів основної клітини «Вільних Дронів» у Південному Підземному світі, разом з Корбеном Трентоном та (колишнім) Марчеллою Грін.
+
+- Мало інформації про його життя до приєднання до «Вільних Дронів». Вважається, що він прибув до Південного Підземного світу з першими «Вільними Дронами», і що він є одним із засновників основної клітини цього регіону. Його єдиним відомим членом сім'ї є його ймовірна дочка Мілла Бейт, яка зараз знаходиться в Дісі, Північному Підземному світі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -602,7 +766,7 @@ Current residence: Free Drones under-passage base
       </mda:metadata>
       <segment state="translated">
         <source>::Corben Trenton::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Корбен Трентон::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -619,7 +783,14 @@ Current residence: Free Drones under-passage base
 
 - Corben Trenton is one of the leaders of the Free Drones primary cell in South Underrail, alongside Alvin Bate and (formerly) Marcella Green
 - Little information on his life before joining the Free Drones exists. He is presumed to have arrived to South Underrail with the first Free Drones, and that he is one of the original founders of this region's primary cell.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Корбен Трентон
+Посада: Лідер клітини «Вільні Дрони» Південного Підземного світу
+Місце народження: Північний Підземний світ, місце невідоме
+Вік: Від 35 до 40 років
+Поточне місце проживання: База «Вільних Дронів» підземним ходом
+
+- Корбен Трентон є одним із лідерів основної клітини «Вільних Дронів» у Південному Підземному світі, разом з Алвіном Бейтом та (колишнім) Марчеллою Грін.
+- Мало інформації про його життя до приєднання до «Вільних Дронів». Вважається, що він прибув до Південного Підземного світу з першими «Вільними Дронами», і що він є одним із засновників основної клітини цього регіону.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -629,7 +800,7 @@ Current residence: Free Drones under-passage base
       </mda:metadata>
       <segment state="translated">
         <source>::Marcella Green::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Марчелла Грін::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -652,7 +823,20 @@ Last known residence: Free Drones under-passage base
 - She went missing approximately two months ago, and her current whereabouts are unknown. While there is no intel confirming or denying any assassination or apprehension attempts were made by Underrail Protectorate or otherwise, or that she has abandoned the movement for any reason, the first is the most likely of the scenarios considering the current political climate. However, no bodies matching her description have been recovered as yet.
 
 - As of recently, a strange woman has been noticed visiting the Hanging Rat. Her visits are frequent, yet she never orders anything, and neither does she ever communicate with anyone. All she does is sit at a table and observe. This paragraph exists in this file only due to a single account mentioning her holding a "circle-A pendant" in her hand.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Марчелла Грін
+Посада: Лідер клітини «Вільні Дрони» Південного Підземного світу (до зникнення)
+Місце народження: Південний Підземний світ, місце невідоме
+Вік: Від 25 до 35 років
+Поточне місце проживання: Невідомо
+Останнє відоме місце проживання: База «Вільних Дронів» підземним ходом
+
+- Марчелла Грін була однією з трьох лідерів основної клітини «Вільних Дронів» у Південному Підземному світі, разом з Корбеном Трентоном та Алвіном Бейтом, до її раптового зникнення.
+
+- Мало інформації про її життя до приєднання до «Вільних Дронів». У неї немає відомих членів сім'ї в русі чи за його межами, і ні її місце народження, ні попередні місця проживання невідомі.
+
+- Вона зникла приблизно два місяці тому, і її поточне місцезнаходження невідоме. Хоча немає даних, що підтверджують або спростовують спроби вбивства чи затримання з боку Підземного Протекторату чи іншими, або що вона покинула рух з будь-якої причини, перше є найбільш вірогідним сценарієм, враховуючи поточну політичну ситуацію. Однак тіл, що відповідають її опису, поки що не знайдено.
+
+- Останнім часом у «Висячій Щурі» помітили дивну жінку. Вона часто відвідує заклад, але нічого не замовляє і ні з ким не спілкується. Вона просто сидить за столом і спостерігає. Цей абзац існує в цьому файлі лише через один звіт, в якому згадується, що вона тримала в руці кулон з символом «А».::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -662,7 +846,7 @@ Last known residence: Free Drones under-passage base
       </mda:metadata>
       <segment state="translated">
         <source>::Eidein::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ейдеін::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -681,7 +865,16 @@ Current residence: Institute of Tchort, Upper Underrail
 - No information on Eidein's life before the foundation of the Institute of Tchort exists outside of Tchortist sources. According to these, Eidein was a Biocorp scientist who - about a century ago - first discovered and interacted with Tchort, a primordial creature and the subject of Tchortist worship. How exactly he founded the Institute and the way in which he manages it is poorly understood, but what is certain is that he has maintained a secretive, isolationist policy for most of the Institute's existence.
 
 - Eidein's longevity is claimed to be due to the application of research done on Tchort; since the Tchortists do not share their research data with the outside world, this claim cannot be verified in any way. It is of course possible that Eidein has been more than one person since the Institute's foundation, since his actual appearance has never been made known. Furthermore, this poses the questions of whether Eidein has remained cybernetically unenhanced - as well as whether Eidein is actually human at all.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Ейден Траверс
+Прізвиська: Ейдейн
+Посада: Лідер Інституту Тчорта
+Місце народження: Невідомо
+Вік: Невідомо; за переказами, понад 100 років
+Поточне місце проживання: Інститут Тчорта, Верхній Андеррейл
+
+- Немає інформації про життя Ейдейна до заснування Інституту Тчорта за межами тчортистських джерел. Згідно з ними, Ейдейн був науковцем Biocorp, який приблизно століття тому вперше відкрив і взаємодіяв з Тчортом, первісною істотою та об'єктом поклоніння тчортистів. Точно, як він заснував Інститут і яким чином ним керує, невідомо, але певно одне: він підтримував секретну, ізоляціоністську політику протягом більшості існування Інституту.
+
+- Тривалість життя Ейдейна, як стверджується, пов'язана із застосуванням досліджень, проведених на Тчорті; оскільки тчортисти не діляться своїми дослідницькими даними з зовнішнім світом, це твердження неможливо перевірити жодним чином. Звичайно, можливо, що Ейдейн був більше ніж однією людиною з моменту заснування Інституту, оскільки його справжній вигляд ніколи не був відомий. Крім того, це ставить питання про те, чи залишався Ейдейн некібернетично вдосконаленим, а також чи є Ейдейн взагалі людиною.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -691,7 +884,7 @@ Current residence: Institute of Tchort, Upper Underrail
       </mda:metadata>
       <segment state="translated">
         <source>::Hank Wardell::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ганк Варделл::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -701,7 +894,7 @@ Current residence: Institute of Tchort, Upper Underrail
       </mda:metadata>
       <segment state="translated">
         <source>::*[Unavailable]*::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::*[Недоступно]*::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -711,7 +904,7 @@ Current residence: Institute of Tchort, Upper Underrail
       </mda:metadata>
       <segment state="translated">
         <source>::Mit Draper::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Міт Дрейпер::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -731,7 +924,17 @@ Current residence: South Underrail, exact location unknown (although several of 
 - In recent years he's been involved in numerous and often illegal activities across South Underrail. These include software and hardware hacking, forgery; manufacture, modification and trading of various security-breaching and -manipulating devices, and similar. Reliable reports indicate that these activities have caused him problems with numerous organizations, groups and individuals, some of them being his former clients.
 
 - Confirmed to have managed to exploit various functionalities of the out-of-commission metro emergency system, which he's accessing through numerous emergency phones by means currently unknown. It is not yet clear to what extent the emergency system can be used, but what is known so far is that it can at least provide access to certain utility sites, and by extension equipment and systems.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Міт Дрейпер
+Прізвиська: Скальп, Грідфіксер, Трансфіксер, Фрік
+Місце народження: Невідомо
+Вік: Точний вік невідомий, але за переказами, близько шістдесяти років
+Поточне місце проживання: Південний Андеррейл, точне місцезнаходження невідоме (хоча кілька його сховищ у Верхньому Андеррейлі були виявлені, наразі вони порожні)
+
+- Мало що відомо про його походження, окрім підозр, що він працював у Biocorp Cybernetics Center у Дісі до його захоплення, точна посада невідома, але підозрюється, що вона була пов'язана з безпекою програмного забезпечення; один незавершений запис свідчить, що він був розшукуваним делінквентом, і що його навички дозволили йому отримати таку шановану роботу.
+
+- Останніми роками він брав участь у численних і часто незаконних діях у Південному Андеррейлі. До них належать хакінг програмного та апаратного забезпечення, підробка; виготовлення, модифікація та торгівля різними пристроями, що порушують та маніпулюють безпекою, та подібне. Надійні повідомлення вказують на те, що ці дії спричинили йому проблеми з численними організаціями, групами та окремими особами, деякі з яких були його колишніми клієнтами.
+
+- Підтверджено, що він зумів використати різні функціональні можливості непрацюючої системи надзвичайних ситуацій метро, до якої він отримує доступ через численні телефони екстреної допомоги засобами, які наразі невідомі. Поки неясно, наскільки можна використовувати систему надзвичайних ситуацій, але відомо, що вона принаймні може забезпечити доступ до певних комунальних об'єктів, а отже, до обладнання та систем.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -741,7 +944,7 @@ Current residence: South Underrail, exact location unknown (although several of 
       </mda:metadata>
       <segment state="translated">
         <source>::Norman Hack::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Норман Хак::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -761,7 +964,17 @@ Involved in: Creation of Advatongue
 - Hack relocated from North Underrail to South Underrail to - as gathered intel suggests - further develop and teach Advatongue to several students. It is suggested that he experienced certain issues in North Underrail which forced him to relocate.
 
 - There is no evidence that Hack has aligned himself with any of the major factions in South Underrail, at least not currently. Still, it is important to take note of the language itself, as it has the potential of being used as a code language.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Норман Хак
+Місце народження: Північний Андеррейл, місцезнаходження невідоме
+Поточне місце проживання: Центральне місто
+Професія: Лінгвіст
+Залучений до: Створення Advatongue
+
+- Професор Норман Хак, який зараз проживає в Центральному місті, є творцем Advatongue, мови, якою наразі користується лише сам Хак і кілька інших осіб, усі вони його студенти.
+
+- Хак переїхав з Північного Андеррейлу до Південного Андеррейлу, щоб, згідно з отриманою розвідінформацією, далі розвивати та викладати Advatongue кільком студентам. Є припущення, що він зіткнувся з певними проблемами в Північному Андеррейлі, які змусили його переїхати.
+
+- Немає доказів того, що Хак приєднався до будь-якої з основних фракцій у Південному Андеррейлі, принаймні на даний момент. Тим не менш, важливо враховувати саму мову, оскільки вона може бути використана як кодова мова.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -771,7 +984,7 @@ Involved in: Creation of Advatongue
       </mda:metadata>
       <segment state="translated">
         <source>::Kevin Grey::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кевін Грей::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -786,7 +999,12 @@ Current residence: Foundry
 Alignment: Foundry
 
 - Known to be involved in illegal arms trade, most of which takes place in Foundry itself and - according to multiple reports - also includes Foundry Guard's own equipment.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Кевін Грей
+Посада: Наглядач охорони Foundry
+Поточне місце проживання: Foundry
+Приналежність: Foundry
+
+- Відомо, що він причетний до незаконної торгівлі зброєю, більшість з якої відбувається в Foundry і, згідно з численними повідомленнями, також включає обладнання самої охорони Foundry.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -796,7 +1014,7 @@ Alignment: Foundry
       </mda:metadata>
       <segment state="translated">
         <source>::Edward Oldfield::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Едвард Олдфілд::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -819,7 +1037,20 @@ Current residence: Dis, North Underrail
 - During a two-year hiatus following the dissolution of Reformed Biocorp, he focuses his work on the history of other supercorporations, primarily New Frontier Technologies (NFT). After the hiatus he resumes lecturing at the renamed Department of History on the subject of Supercorporation History, which he continued lecturing to this day.
 
 - He is currently leading an expedition to the Black Sea, most likely related to his research on NFT.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Едвард Олдфілд
+Прізвиська: Немає
+Посада: Професор історії суперкорпорацій в Університеті Дісу
+Місце народження: Діс, Північний Андеррейл
+Вік: 52
+Поточне місце проживання: Діс, Північний Андеррейл
+
+- Син Девіда та Амелії Олдфілд, колишніх дослідників Biocorp.
+
+- Здобув ступінь доктора філософії на факультеті історії Університету Дісу з дисертацією під назвою "Соціо-політичний контекст періоду реформації Biocorp", після чого почав викладати історію Biocorp в Університеті Дісу.
+
+- Під час дворічної перерви після розпуску Reformed Biocorp він зосередив свою роботу на історії інших суперкорпорацій, в першу чергу New Frontier Technologies (NFT). Після перерви він відновив викладання в перейменованому Департаменті історії з предмету історії суперкорпорацій, який він продовжує викладати до сьогодні.
+
+- Наразі він очолює експедицію до Чорного моря, ймовірно пов'язану з його дослідженнями NFT.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -829,7 +1060,7 @@ Current residence: Dis, North Underrail
       </mda:metadata>
       <segment state="translated">
         <source>::Cadmus Grim::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кадмус Грім::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -851,7 +1082,19 @@ Alignment: Grim Jetters
 - Little is known about Captain Grim. He and the Grim Jetters first gained notoriety by successfully raiding well-defended United Station convoys through highly advanced naval tactics. After the Grim Jetters absorbed the smaller pirate groups and grew in size in the following years, Grim has pretty much completely retired from raiding. It is presumed he now commands all his subordinates from the Grim Jetters' hideout in the Black Sea.
 
 - One source claims Cadmus arrived from North Underrail, but the claim has never been verified.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Кадмус Грім
+Прізвиська: Капітан Грім
+Посада: Капітан Grim Jetters
+Місце народження: Невідомо
+Вік: Невідомо
+Поточне місце проживання: Чорне море (Пекло)
+Приналежність: Grim Jetters
+
+- Він є засновником і поточним лідером піратської групи Grim Jetters.
+
+- Мало що відомо про капітана Гріма. Він і Grim Jetters вперше здобули популярність, успішно здійснивши набіг на добре захищені конвої United Station за допомогою високорозвиненої морської тактики. Після того, як Grim Jetters поглинули менші піратські групи та збільшилися в розмірах протягом наступних років, Грім практично повністю припинив набіги. Вважається, що тепер він командує всіма своїми підлеглими зі сховку Grim Jetters у Чорному морі.
+
+- Одне джерело стверджує, що Кадмус прибув з Північного Андеррейлу, але це твердження ніколи не було підтверджено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -861,7 +1104,7 @@ Alignment: Grim Jetters
       </mda:metadata>
       <segment state="translated">
         <source>::Richard Briggs::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Річард Бріггс::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -887,7 +1130,23 @@ Alignment: Underrail Protectorate, Aegis Incorporated
 - He is married to Jane Briggs, with whom he does not have any children.
 
 - He is currently in South Underrail, as Aegis Incorporated has been hired to protect an expedition to the Black Sea which is led by Professor Edward Oldfield from the University of Dis.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Річард Бріггс
+Прізвиська: Немає
+Посада: Головний Aegis Incorporated
+Місце народження: Невідомо
+Вік: 45
+Поточне місце проживання: Діс, Північний Андеррейл
+Приналежність: Underrail Protectorate, Aegis Incorporated
+
+- Він є одним із засновників Aegis Incorporated, охоронної компанії з Північного Андеррейлу
+
+- Брав участь у боротьбі з Збройними силами Biocorp на боці Underrail Protectorate під час захоплення Дісу. Вибух 30-мм снаряда повністю зруйнував його ліву руку та спричинив серйозні пошкодження нервів, від яких він відновлювався протягом кількох років. Руку згодом замінили кібернетичним протезом.
+
+- Після одужання він спільно заснував Aegis Incorporated з Френсісом Вайтом, відомим бізнесменом з Північного Андеррейлу, і призначив себе начальником служби безпеки.
+
+- Він одружений з Джейн Бріггс, з якою у нього немає дітей.
+
+- Наразі він перебуває в Південному Андеррейлі, оскільки Aegis Incorporated було найнято для охорони експедиції до Чорного моря, яку очолює професор Едвард Олдфілд з Університету Дісу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -897,7 +1156,7 @@ Alignment: Underrail Protectorate, Aegis Incorporated
       </mda:metadata>
       <segment state="translated">
         <source>::Francis White::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Френсіс Вайт::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -920,7 +1179,20 @@ Current residence: Dis, North Underrail
 - He has seven children with Sheila Bagani, former personal assistant and now wife.
 
 - Contrary to his nickname, he is of rather thin build, or as Kenneth Cramer, a Dis Today journalist, described it - "rather ghoulish."::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повне ім'я: Френсіс Вайт
+Прізвиська: Біг Френк
+Посада: Власник численних компаній
+Місце народження: Північний Андеррейл, точне місце невідоме
+Вік: 59
+Поточне місце проживання: Діс, Північний Андеррейл
+
+- Він успішний бізнесмен з Північного Андеррейлу та власник численних, але здебільшого малих підприємств, найбільшим з яких є Aegis Incorporated, охоронна компанія з Північного Андеррейлу, співзасновником та співвласником якої він є.
+
+- Він народився в бідній сім'ї і більшу частину свого життя провів на рейках, подорожуючи з одного місця в інше. Він виконував різноманітну роботу протягом багатьох років, поки нарешті не відкрив власний магазин електроніки в Гексагоні. Його бізнес виявився прибутковим, що дозволило йому поступово придбати інші малі підприємства та нерухомість. Хоча він ніколи не досяг статусу бізнес-магната, його все одно вважають одним з найуспішніших бізнесменів Північного Андеррейлу та справжнім прикладом історії успіху з нуля.
+
+- Він має семеро дітей від Шейли Багані, колишньої особистої помічниці, а тепер дружини.
+
+- Навпаки його прізвиська, він має досить худорляву статуру, або, як описав Кеннет Крамер, журналіст "Dis Today", - "досить моторошний".::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
@@ -930,7 +1202,7 @@ Current residence: Dis, North Underrail
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -940,7 +1212,7 @@ Current residence: Dis, North Underrail
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a68" name="=&gt;a68">
@@ -950,7 +1222,7 @@ Current residence: Dis, North Underrail
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -960,7 +1232,7 @@ Current residence: Dis, North Underrail
       </mda:metadata>
       <segment state="translated">
         <source>::Browse project files::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Переглянути файли проєкту::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -972,7 +1244,9 @@ Current residence: Dis, North Underrail
         <source>::Project Files
 
 Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Файли проєкту
+
+Поточний рівень: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a71" name="=&gt;a71">
@@ -982,7 +1256,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Project Ark (Biocorp)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Проєкт "Ковчег" (Biocorp)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -997,7 +1271,12 @@ Participants: Olexiy Macar (geneticist), Wit Nosek (geneticist), Njord Abbott (c
 Locations: Panacea Lab (Upper Underrail)
 
 Little is known about this project aside from that it most certainly dealt with human life longevity research.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назва проєкту: (Ковчег)
+Організація: Стара Biocorp
+Учасники: Олексій Макар (генетик), Віт Носек (генетик), Ньорд Абботт (хімік)
+Місця розташування: Лабораторія "Панацея" (Верхній Андеррейл)
+
+Мало що відомо про цей проєкт, окрім того, що він, безумовно, стосувався досліджень довголіття людини.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a73" name="=&gt;a73">
@@ -1007,7 +1286,7 @@ Little is known about this project aside from that it most certainly dealt with 
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a74" name="=&gt;a74">
@@ -1017,7 +1296,7 @@ Little is known about this project aside from that it most certainly dealt with 
       </mda:metadata>
       <segment state="translated">
         <source>::Project Arima (Biocorp)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Проєкт "Аріма" (Biocorp)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -1032,7 +1311,12 @@ Known participants: Wit Nosek (geneticist), Njord Abbott (chemist)
 Locations: Unknown
 
 - Purpose unknown.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назва проєкту: Аріма
+Організація: Стара Biocorp
+Відомі учасники: Віт Носек (генетик), Ньорд Абботт (хімік)
+Місця розташування: Невідомі
+
+- Мета невідома.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a76" name="=&gt;a76">
@@ -1042,7 +1326,7 @@ Locations: Unknown
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
@@ -1052,7 +1336,7 @@ Locations: Unknown
       </mda:metadata>
       <segment state="translated">
         <source>::Phenotype Dynamics (Biocorp)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Динаміка фенотипу (Biocorp)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -1067,7 +1351,12 @@ Known participants: Wit Nosek (geneticist)
 Locations: Unknown
 
 - What is known is that this project dealt with using mutagens to dynamically change phenotypes of a living being in its mature state. It is also known that much of the controversy that surrounded the "Hollow Earth incident" is related to this project.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назва проєкту: Динаміка фенотипу
+Організація: Стара Biocorp
+Відомі учасники: Віт Носек (генетик)
+Місця розташування: Невідомі
+
+- Відомо, що цей проєкт стосувався використання мутагенів для динамічної зміни фенотипів живої істоти у зрілому стані. Також відомо, що значна частина суперечок навколо "інциденту з порожньою землею" пов'язана з цим проєктом.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a79" name="=&gt;a79">
@@ -1077,7 +1366,7 @@ Locations: Unknown
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a80" name="=&gt;a80">
@@ -1087,7 +1376,7 @@ Locations: Unknown
       </mda:metadata>
       <segment state="translated">
         <source>::Browse Biocorp files::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Переглянути файли Biocorp::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q81" name="=&gt;q81">
@@ -1099,7 +1388,9 @@ Locations: Unknown
         <source>::Biocorp files
 
 Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Файли Biocorp
+
+Поточний рівень: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a82" name="=&gt;a82">
@@ -1109,7 +1400,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Old Biocorp::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Стара Biocorp::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q83" name="=&gt;q83">
@@ -1121,7 +1412,9 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <source>::When we talk about the "Old Biocorp" we are talking about the ancient organization that created and ruled Underrail for centuries. They've built, maintained and policed the entire Underrail which was, at the time, a unified place where their people lived and worked.
 
 Biocorp was governed by three tiers of technocrats. It is unknown whether these were elected or otherwise appointed and how long their mandates lasted. What is known, however, is that the top tier technocrats were known as "Apex Technocrats" and that they held significant executive power.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Коли ми говоримо про "Стару Biocorp", ми говоримо про стародавню організацію, яка створила та правила Андеррейлом протягом століть. Вони будували, підтримували та поліціювали весь Андеррейл, який на той час був єдиним місцем, де жили та працювали їхні люди.
+
+Biocorp управлялася трьома рівнями технократів. Невідомо, чи їх обирали чи призначали іншим способом і як довго тривали їхні повноваження. Відомо, однак, що технократів вищого рівня називали "Верховними технократами", і вони мали значну виконавчу владу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q84" name="=&gt;q84">
@@ -1131,7 +1424,7 @@ Biocorp was governed by three tiers of technocrats. It is unknown whether these 
       </mda:metadata>
       <segment state="translated">
         <source>::Biocorp ran numerous research and infrastructure projects in constant effort to improve Underrail, while at the same time pursuing increasingly isolationist attitude towards the outside world. The dangers of the world were deemed too great and the final goals was to make Underrail an environment that is completely self-sustained.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Biocorp проводила численні дослідницькі та інфраструктурні проєкти в постійних зусиллях покращити Андеррейл, водночас дотримуючись все більш ізоляціоністського ставлення до зовнішнього світу. Небезпеки світу вважалися надто великими, і кінцевою метою було зробити Андеррейл середовищем, яке є повністю самодостатнім.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q85" name="=&gt;q85">
@@ -1143,7 +1436,9 @@ Biocorp was governed by three tiers of technocrats. It is unknown whether these 
         <source>::Somewhere between a hundred fifty to two hundred years ago a revolt within the organization was sparked by what is known as "Hollow Earth incident". The details of why and how this revolt came to be are lacking, but it's likely to be, at least partially, brought about by the fact that Underrail could no longer support the large population that inhabited it. Questions of immoral experimentation and corruption were also raised, but to what degree these played the part in causing the revolution is unknown.
 
 The Apex Technocrats were displaced from power, though most of them were not apprehended.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Десь між ста п'ятдесятьма та двомастами роками тому всередині організації спалахнув заколот, спричинений тим, що відомо як "інцидент з порожньою землею". Деталі того, чому і як цей заколот стався, відсутні, але, ймовірно, це було, принаймні частково, спричинено тим фактом, що Андеррейл більше не міг підтримувати велику кількість населення, яке на ньому проживало. Також були підняті питання про аморальні експерименти та корупцію, але в якій мірі вони зіграли роль у спричиненні революції, невідомо.
+
+Верховних технократів було усунуто від влади, хоча більшість з них не були затримані.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
@@ -1153,7 +1448,7 @@ The Apex Technocrats were displaced from power, though most of them were not app
       </mda:metadata>
       <segment state="translated">
         <source>::Civil wars erupted all over Underrail and Biocorp dissolved into many small factions. Many technocrats, and scientists and engineers in general died in the following years. Biocorp was no more.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::По всім Андеррейлу спалахнули громадянські війни, і Biocorp розпалася на багато малих фракцій. Багато технократів, а також вчені та інженери в цілому загинули в наступні роки. Biocorp більше не існувало.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a87" name="=&gt;a87">
@@ -1163,7 +1458,7 @@ The Apex Technocrats were displaced from power, though most of them were not app
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
@@ -1173,7 +1468,7 @@ The Apex Technocrats were displaced from power, though most of them were not app
       </mda:metadata>
       <segment state="translated">
         <source>::Reformed Biocorp::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відновлена Biocorp::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -1187,7 +1482,11 @@ The Apex Technocrats were displaced from power, though most of them were not app
 A group of scientists and engineers decided to resurrect the venerable Biocorp organization. They restored the old places of power - Core, Hexagon and Dis.
 
 The new Biocorp was also ruled by a council of technocrats residing in Dis. The order was kept by highly trained Biocorp Security Forces.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Минуло майже сто років з моменту розпаду Biocorp. Зараз Андеррейл - хаотичне та небезпечне місце. Бандити бродять по залізницях між сильно укріпленими суверенними станціями-державами.
+
+Група вчених та інженерів вирішила відродити шановну організацію Biocorp. Вони відновили старі осередки влади - Ядро, Гексагон і Діс.
+
+Новою Biocorp також керувала рада технократів, яка проживала в Дісі. Порядок підтримувався висококваліфікованими силами безпеки Biocorp.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
@@ -1199,7 +1498,9 @@ The new Biocorp was also ruled by a council of technocrats residing in Dis. The 
         <source>::This period of Biocorp history is known as "New Biocorp," "Reformed Biocorp," or "Second Biocorp." It lasted a lot shorter than the Old Biocorp, however. 
 
 Following the Protectorate's takeover of Dis, the capital of Biocorp, the elements of discontent in the Core City's hierarchy used the opportunity to stage a revolt. This revolt was led by second-in-command of the Core City Security Forces - Archibald Knight, who was later joined in this fight by Rupert Simmons, one of the higher ranking Biocorp technocrats.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Цей період історії Biocorp відомий як "Нова Biocorp", "Відновлена Biocorp" або "Друга Biocorp". Однак він тривав значно менше, ніж Стара Biocorp.
+
+Після захоплення Діса, столиці Biocorp, Протекторатом, елементи невдоволення в ієрархії Ядерного міста скористалися можливістю, щоб влаштувати заколот. Цим заколотом керував другий за командуванням сил безпеки Ядерного міста - Арчібальд Найт, до якого пізніше приєднався Руперт Сіммонс, один з вищих технократів Biocorp.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
@@ -1211,7 +1512,9 @@ Following the Protectorate's takeover of Dis, the capital of Biocorp, the elemen
         <source>::Though Protectorate likes to claim that Biocorp's power structure was adapted and integrated into United Stations, everyone within the organization agrees that all the power players of the Reformed Biocorp were either killed or incarcerated or they fled.
 
 This ended the second incarnation of Biocorp.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Хоча Протекторат любить стверджувати, що структура влади Biocorp була адаптована та інтегрована в Об'єднані станції, всі в організації погоджуються, що всі ключові фігури Відновленої Biocorp були або вбиті, або ув'язнені, або втекли.
+
+Це поклало край другому втіленню Biocorp.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
@@ -1221,7 +1524,7 @@ This ended the second incarnation of Biocorp.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Protectorate Biocorp::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Biocorp Протекторату::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -1237,7 +1540,13 @@ Hexagon, though largely self-governed, is also a part of United Stations.
 Core City is an independent city mostly focused on violent sport entertainment and trade, though a local organization by the name of Coretech did inherit some of the Biocorp facilities and projects.
 
 The technocrats are all gone and the organization is ruled by United Stations Minister of Science who, of course, is directly appointed by Protectorate High Commander.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Сьогодні те, що залишилося від Другої Biocorp, повністю перебуває під контролем Протекторату. Більшість з цього зосереджена в місті Діс, яке є столицею Об'єднаних станцій.
+
+Гексагон, хоча й значною мірою самоуправний, також є частиною Об'єднаних станцій.
+
+Ядерне місто - незалежне місто, яке в основному зосереджене на насильницьких спортивних розвагах і торгівлі, хоча місцева організація під назвою Coretech успадкувала деякі з об'єктів і проєктів Biocorp.
+
+Технократів більше немає, і організацією керує міністр науки Об'єднаних станцій, який, звичайно, безпосередньо призначений Верховним командувачем Протекторату.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a94" name="=&gt;a94">
@@ -1247,7 +1556,7 @@ The technocrats are all gone and the organization is ruled by United Stations Mi
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a95" name="=&gt;a95">
@@ -1257,7 +1566,7 @@ The technocrats are all gone and the organization is ruled by United Stations Mi
       </mda:metadata>
       <segment state="translated">
         <source>::Browse anomalies::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Переглянути аномалії::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q96" name="=&gt;q96">
@@ -1269,7 +1578,9 @@ The technocrats are all gone and the organization is ruled by United Stations Mi
         <source>::Anomalies
 
 Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Аномалії
+
+Поточний рівень: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a97" name="=&gt;a97">
@@ -1279,7 +1590,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Siphoner man::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Людина-сифон::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q98" name="=&gt;q98">
@@ -1296,7 +1607,14 @@ Anomaly type: Undiscovered species (potential hybrid)
 - So far, no proof of its existence is available, but the increasing number of such claims, while from unreliable sources, should not be ignored or treated as a hoax until more information can be acquired.
 
 -No further information is available.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назва аномалії: Людина-сифон
+Тип аномалії: Невиявлений вид (потенційний гібрид)
+
+- Нещодавно отримана інформація згадує існування "людини-сифона". Кілька джерел розпливчасто описують її як двоногу, людиноподібну істоту, надзвичайно розумну і, за одним джерелом, навіть здатну використовувати мову.
+
+- Наразі немає жодних доказів її існування, але зростаюча кількість таких тверджень, хоча й з ненадійних джерел, не повинна бути проігнорована або розглядатися як містифікація, поки не буде отримано більше інформації.
+
+-Більше інформації немає.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a99" name="=&gt;a99">
@@ -1306,7 +1624,7 @@ Anomaly type: Undiscovered species (potential hybrid)
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a100" name="=&gt;a100">
@@ -1316,7 +1634,7 @@ Anomaly type: Undiscovered species (potential hybrid)
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a101" name="=&gt;a101">
@@ -1326,7 +1644,7 @@ Anomaly type: Undiscovered species (potential hybrid)
       </mda:metadata>
       <segment state="translated">
         <source>::Use key card::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використати картку-ключ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q102" name="=&gt;q102">
@@ -1338,7 +1656,9 @@ Anomaly type: Undiscovered species (potential hybrid)
         <source>::Access Level Control
 
 Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Контроль рівня доступу
+
+Поточний рівень: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
@@ -1349,7 +1669,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>
 ::Maximum access level reached.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Досягнуто максимального рівня доступу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q104" name="=&gt;q104">
@@ -1359,7 +1679,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a105" name="=&gt;a105">
@@ -1369,7 +1689,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Use the key card to increase access to level 1::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використайте картку-ключ, щоб підвищити доступ до рівня 1.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q106" name="=&gt;q106">
@@ -1379,7 +1699,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Success.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Успішно.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a107" name="=&gt;a107">
@@ -1389,7 +1709,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Use the key card to increase access to level 2::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використайте картку-ключ, щоб підвищити доступ до рівня 2.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a108" name="=&gt;a108">
@@ -1399,7 +1719,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Use the key card to increase access to level 3::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використайте картку-ключ, щоб підвищити доступ до рівня 3.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a109" name="=&gt;a109">
@@ -1409,7 +1729,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a110" name="=&gt;a110">
@@ -1419,7 +1739,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Hack::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зламати::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q111" name="=&gt;q111">
@@ -1431,7 +1751,9 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
         <source>::Access Level Control
 
 Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Контроль рівня доступу
+
+Поточний рівень: $(context.loc_wa_accessLevel)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q112" name="=&gt;q112">
@@ -1442,7 +1764,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       <segment state="translated">
         <source>
 ::Maximum access level reached.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Досягнуто максимального рівня доступу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -1452,7 +1774,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a114" name="=&gt;a114">
@@ -1462,7 +1784,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Hack to increase access to level 1 (50)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зламати, щоб підвищити доступ до рівня 1 (50)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q115" name="=&gt;q115">
@@ -1472,7 +1794,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Success.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Успішно.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q116" name="=&gt;q116">
@@ -1482,7 +1804,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Failure.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Невдача.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a117" name="=&gt;a117">
@@ -1492,7 +1814,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Hack to increase access to level 2 (80)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зламати, щоб підвищити доступ до рівня 2 (80)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q118" name="=&gt;q118">
@@ -1502,7 +1824,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Success.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Успішно.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a119" name="=&gt;a119">
@@ -1512,7 +1834,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Hack to increase access to level 3 (110)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зламати, щоб підвищити доступ до рівня 3 (110)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
@@ -1522,7 +1844,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Success.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Успішно.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a121" name="=&gt;a121">
@@ -1532,7 +1854,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a122" name="=&gt;a122">
@@ -1542,7 +1864,7 @@ Current level: $(context.loc_wa_accessLevel)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вийти::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

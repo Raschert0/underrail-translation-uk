@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Tchort is evolution!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт – це еволюція!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Just follow sister Therese, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто йдіть за сестрою Терезою, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +30,9 @@
         <source>::The guard motions you to hold still, then speaks to you in a firm voice.::
 
 Halt, $(#brother/sister), you have entered a restricted area. I will have to ask you to leave.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Охоронець жестом просить вас стояти нерухомо, а потім звертається до вас твердим голосом.::
+
+Стійте, $(#брате/сестро), ви увійшли в обмежену зону. Я повинен попросити вас покинути це місце.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>Tchort is evolution.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт – це еволюція.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>Evolution is Tchort, $(#brother/sister). Now please leave this area. Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Еволюція – це Тчорт, $(#брате/сестро). Тепер, будь ласка, покиньте це місце. Тчорт веде вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>What is this area?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що це за місце?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>Didn't you hear what I said, $(#brother/sister)? Leave this area.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви не чули, що я сказав, $(#брате/сестро)? Покиньте це місце.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -90,7 +92,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>Mediant Samuel sent me here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені відправив сюди Медіант Самуїл.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +102,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>No he didn't, $(#brother/sister), or else we would have known it. Now please leave.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, $(#брате/сестро), інакше ми б знали про це. Тепер, будь ласка, покиньте це місце.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>My bad, I was looking for the toilet. Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, я шукав туалет. До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт веде вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -130,7 +132,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>I'm so sorry, I'm new here; it won't happen again. Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я дуже вибачаюсь, я тут новенький, цього більше не повториться. Тчорт веде вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -140,7 +142,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>Leave. Now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Залиште це місце. Зараз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>You have been warned, $(#brother/sister).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вас попередили, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -170,7 +172,7 @@ Halt, $(#brother/sister), you have entered a restricted area. I will have to ask
       </mda:metadata>
       <segment state="translated">
         <source>$(#Brother/Sister)!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(#Брате/Сестро)!&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

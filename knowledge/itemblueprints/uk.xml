@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Leather Armor</source>
-        <target state="new" />
+        <target state="needs-translation">Шкіряна броня</target>
       </segment>
     </unit>
     <unit id="::LeatherArmor" name="::LeatherArmor">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Though they offer only light protection against mechanical attacks, leather armors often have other benefits based on the type of skin used in their crafting.</source>
-        <target state="new" />
+        <target state="needs-translation">Хоча вони пропонують лише легкий захист від механічних атак, шкіряні броні часто мають інші переваги, залежно від типу шкіри, використаної при їх виготовленні.</target>
       </segment>
     </unit>
     <unit id="::PsiBooster_Name" name="::PsiBooster_Name">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Psi Booster</source>
-        <target state="new" />
+        <target state="needs-translation">Психо-бустер</target>
       </segment>
     </unit>
     <unit id="::PsiBooster" name="::PsiBooster">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This concoction contains moderate levels of psycho-catalytic substances that enhance psionic regeneration with no known side effects. It requires the extract from Lacesso Gigantus mushroom, commonly known as 'Mindshroom'.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей напій містить помірний рівень психокаталітичних речовин, які покращують психічну регенерацію без відомих побічних ефектів. Він потребує екстракту з гриба Лацессо Гігантус, зазвичай відомого як "Гриб Розуму".</target>
       </segment>
     </unit>
     <unit id="::PsiInhalant_Name" name="::PsiInhalant_Name">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Psi Inhalant</source>
-        <target state="new" />
+        <target state="needs-translation">Психо-інгалятор</target>
       </segment>
     </unit>
     <unit id="::PsiInhalant" name="::PsiInhalant">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>A disposable psi inhalant is the safest and most common way of replenishing psi reserves. It requires unsaturated psionic catalyst, pure oxygen and some sort of a filter.</source>
-        <target state="new" />
+        <target state="needs-translation">Одноразовий психо-інгалятор - це найбезпечніший і найпоширеніший спосіб поповнення психічних резервів. Він потребує ненасиченого психічного каталізатора, чистого кисню та певного фільтра.</target>
       </segment>
     </unit>
     <unit id="::MindDarts_Name" name="::MindDarts_Name">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Mind Darts</source>
-        <target state="new" />
+        <target state="needs-translation">Психо-дротики</target>
       </segment>
     </unit>
     <unit id="::MindDarts" name="::MindDarts">
@@ -78,7 +78,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>'Mind Dart' is a variation of psi booster with addition of toxic and hallucinogenic substances extracted from the Red Dream mushroom. This mixture is highly dangerous to the consumer and should be taken in multiple smaller doses (if at all). It provides an instant surge of psionic activity as well as increases psi regeneration greatly for a short period of time, but is inevitably followed by a long period of psionic withdrawal.</source>
-        <target state="new" />
+        <target state="needs-translation">"Психо-дротик" - це варіант психо-бустера з додаванням токсичних і галюциногенних речовин, витягнутих з Червоного Гриба Мрій. Ця суміш надзвичайно небезпечна для споживача і повинна прийматися в кількох менших дозах (якщо взагалі). Вона забезпечує миттєвий сплеск психічної активності, а також значно збільшує психічну регенерацію протягом короткого періоду часу, але неминуче супроводжується тривалим періодом психічної абстиненції.</target>
       </segment>
     </unit>
     <unit id="::ShieldRecharger_Name" name="::ShieldRecharger_Name">
@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Shield Recharger</source>
-        <target state="new" />
+        <target state="needs-translation">Зарядний пристрій для щита</target>
       </segment>
     </unit>
     <unit id="::ShieldRecharger" name="::ShieldRecharger">
@@ -102,7 +102,11 @@
 Shield recharger is a portable device that can emit these waves. It consists of two major parts: its own energy core and electromagnetic emitter.
 
 This device also supports modulation.</source>
-        <target state="new" />
+        <target state="needs-translation">Під час активації емітерів щита неможливо перезарядити їхні батареї, відбираючи енергію з їхнього енергетичного ядра, але їх можна перезарядити безпосередньо за допомогою достатньої кількості електромагнітних хвиль.
+
+Пристрій для перезарядки щита – це портативний пристрій, який може випромінювати ці хвилі. Він складається з двох основних частин: власного енергетичного ядра та електромагнітного випромінювача.
+
+Цей пристрій також підтримує модуляцію.</target>
       </segment>
     </unit>
     <unit id="::tntc_Name" name="::tntc_Name">
@@ -112,7 +116,7 @@ This device also supports modulation.</source>
       </mda:metadata>
       <segment state="translated">
         <source>T.N.T Charge</source>
-        <target state="new" />
+        <target state="needs-translation">Т.Н.Т Заряд</target>
       </segment>
     </unit>
     <unit id="::tntc" name="::tntc">
@@ -124,7 +128,9 @@ This device also supports modulation.</source>
         <source>Timer triggered TNT charges are often used to clear up passages and bust open sealed doors of abandoned (or not so abandoned) stations to make way for scavengers.
 
 It is easy to build and relatively inexpensive compared to its more powerful C-4 counterpart.</source>
-        <target state="new" />
+        <target state="needs-translation">Тік-так бомби з ТНТ часто використовуються для розчищення проходів і вибивання запечатаних дверей покинутих (або не зовсім покинутих) станцій, щоб звільнити шлях для шукачів.
+
+Їх легко виготовити та вони відносно недорогі порівняно з їх більш потужним аналогом C-4.</target>
       </segment>
     </unit>
     <unit id="::gr_Name" name="::gr_Name">
@@ -134,7 +140,7 @@ It is easy to build and relatively inexpensive compared to its more powerful C-4
       </mda:metadata>
       <segment state="translated">
         <source>Hand Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Ручна граната</target>
       </segment>
     </unit>
     <unit id="::gr" name="::gr">
@@ -150,7 +156,13 @@ It is easy to build and relatively inexpensive compared to its more powerful C-4
 - High-explosive grenade which is primarily used against heavily armored targets.
 
 The type of the grenade created is dictated by its case, while its power depends on the combination of explosive fillings used.</source>
-        <target state="new" />
+        <target state="needs-translation">Існує два типи звичайних ручних гранат:
+
+- Осколкова граната, яка використовується як зброя проти піхоти
+
+- Граната з високим вибуховим зарядом, яка в основному використовується проти важкоброньованих цілей.
+
+Тип гранати, що створюється, визначається її корпусом, а її потужність залежить від комбінації використаних вибухових речовин.</target>
       </segment>
     </unit>
     <unit id="::xbow_Name" name="::xbow_Name">
@@ -160,7 +172,7 @@ The type of the grenade created is dictated by its case, while its power depends
       </mda:metadata>
       <segment state="translated">
         <source>Crossbow</source>
-        <target state="new" />
+        <target state="needs-translation">Арбалет</target>
       </segment>
     </unit>
     <unit id="::xbow" name="::xbow">
@@ -170,7 +182,7 @@ The type of the grenade created is dictated by its case, while its power depends
       </mda:metadata>
       <segment state="translated">
         <source>Although not as devastating as firearms or energy weapons, crossbow is still a dangerous device. The bolts it fires can be rigged with explosives or coated with poison, but are otherwise generally less efficient against heavily armored targets. On the other hand, since bolts fly at a relatively low speed they penetrate energy shields more easily.</source>
-        <target state="new" />
+        <target state="needs-translation">Хоча арбалет і не такий руйнівний, як вогнепальна або енергетична зброя, він все ще є небезпечним пристроєм. Стріли, які він випускає, можуть бути оснащені вибухівкою або покриті отрутою, але в іншому випадку вони, як правило, менш ефективні проти важкоброньованих цілей. З іншого боку, оскільки стріли летять відносно повільно, вони легше проникають крізь енергетичні щити.</target>
       </segment>
     </unit>
     <unit id="::pistol_Name" name="::pistol_Name">
@@ -180,7 +192,7 @@ The type of the grenade created is dictated by its case, while its power depends
       </mda:metadata>
       <segment state="translated">
         <source>Pistol</source>
-        <target state="new" />
+        <target state="needs-translation">Пістолет</target>
       </segment>
     </unit>
     <unit id="::pistol" name="::pistol">
@@ -192,7 +204,9 @@ The type of the grenade created is dictated by its case, while its power depends
         <source>Pistols can be created from frame and barrel parts. The type and quality of the frame will determine the pistol's overall damage potential, while the barrel will dictate the payload. Not all frame types support all barrel types, however.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Пістолети можна створити з деталей рами та ствола. Тип і якість рами визначать загальний потенціал ушкоджень пістолета, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів.
+
+Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::sniper_Name" name="::sniper_Name">
@@ -202,7 +216,7 @@ A number of optional components can also be added to further enhance the weapon.
       </mda:metadata>
       <segment state="translated">
         <source>Sniper Rifle</source>
-        <target state="new" />
+        <target state="needs-translation">Снайперська гвинтівка</target>
       </segment>
     </unit>
     <unit id="::sniper" name="::sniper">
@@ -214,7 +228,9 @@ A number of optional components can also be added to further enhance the weapon.
         <source>Sniper rifles can be created from frame, barrel and scope parts. The type and quality of the frame will determine the rifle's overall damage potential, while the barrel will dictate the payload. Scope will influence the rifle's precision, critical hit chance and other qualities.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Снайперські гвинтівки можна створити з деталей рами, ствола та прицілу. Тип і якість рами визначать загальний потенціал ушкоджень гвинтівки, а ствол визначить боєзаряд. Приціл вплине на точність гвинтівки, шанс критичного удару та інші якості.
+
+Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::tacticalVest_Name" name="::tacticalVest_Name">
@@ -224,7 +240,7 @@ A number of optional components can also be added to further enhance the weapon.
       </mda:metadata>
       <segment state="translated">
         <source>Tactical Vest</source>
-        <target state="new" />
+        <target state="needs-translation">Тактичний жилет</target>
       </segment>
     </unit>
     <unit id="::tacticalVest" name="::tacticalVest">
@@ -236,7 +252,9 @@ A number of optional components can also be added to further enhance the weapon.
         <source>Tactical vest is a type of ballistic vest intended to be used as personal armor when engaging in firearm combat. 
 
 It consists of ballistic panel placed inside a carrier vest and optionally reinforced with heavy metal or ceramic plates.</source>
-        <target state="new" />
+        <target state="needs-translation">Тактичний жилет – це тип бронежилета, призначений для використання як особиста броня під час ведення вогнепальної стрільби.
+
+Він складається з балістичної панелі, розміщеної всередині жилета-носія, і опціонально посилений важкими металевими або керамічними пластинами.</target>
       </segment>
     </unit>
     <unit id="::riotGear_Name" name="::riotGear_Name">
@@ -246,7 +264,7 @@ It consists of ballistic panel placed inside a carrier vest and optionally reinf
       </mda:metadata>
       <segment state="translated">
         <source>Riot Gear</source>
-        <target state="new" />
+        <target state="needs-translation">Екіпірування для придушення заворушень</target>
       </segment>
     </unit>
     <unit id="::riotGear" name="::riotGear">
@@ -258,7 +276,9 @@ It consists of ballistic panel placed inside a carrier vest and optionally reinf
         <source>Riot armor is a special type of tactical armor that is efficient against both firearms and melee attacks.
 
 It consists of ballistic panel placed inside a carrier vest. It may also include a shield for added protection against melee attacks and/or a coat.</source>
-        <target state="new" />
+        <target state="needs-translation">Броня для придушення заворушень – це спеціальний тип тактичної броні, який ефективний як проти вогнепальної зброї, так і проти рукопашного бою.
+
+Він складається з балістичної панелі, розміщеної всередині жилета-носія. Він також може включати щит для додаткового захисту від рукопашного бою та/або плащ.</target>
       </segment>
     </unit>
     <unit id="::MetalArmor_Name" name="::MetalArmor_Name">
@@ -268,7 +288,7 @@ It consists of ballistic panel placed inside a carrier vest. It may also include
       </mda:metadata>
       <segment state="translated">
         <source>Metal Armor</source>
-        <target state="new" />
+        <target state="needs-translation">Металева броня</target>
       </segment>
     </unit>
     <unit id="::MetalArmor" name="::MetalArmor">
@@ -280,7 +300,9 @@ It consists of ballistic panel placed inside a carrier vest. It may also include
         <source>Metal armors provide excellent protection against mechanical attacks of all kinds and good protection against high energy attacks.
 
 With right enhancements they can also be used offensively in melee combat.</source>
-        <target state="new" />
+        <target state="needs-translation">Металева броня забезпечує чудовий захист від механічних атак будь-якого роду та хороший захист від високоенергетичних атак.
+
+З відповідними покращеннями її також можна використовувати в рукопашному бою.</target>
       </segment>
     </unit>
     <unit id="::smg_Name" name="::smg_Name">
@@ -290,7 +312,7 @@ With right enhancements they can also be used offensively in melee combat.</sour
       </mda:metadata>
       <segment state="translated">
         <source>SMG</source>
-        <target state="new" />
+        <target state="needs-translation">Пістолет-кулемет</target>
       </segment>
     </unit>
     <unit id="::smg" name="::smg">
@@ -304,7 +326,11 @@ With right enhancements they can also be used offensively in melee combat.</sour
 It can be created from frame and barrel parts. The type and quality of the frame will determine the weapon's overall damage potential, while the barrel will dictate the payload. Not all frame types support all barrel types, however.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Пістолет-кулемет, іноді званий пістолетом самооборони (PDW), – це компактна автоматична зброя.
+
+Його можна створити з деталей рами та ствола. Тип і якість рами визначать загальний потенціал ушкоджень зброї, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів.
+
+Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::sledgehammer_Name" name="::sledgehammer_Name">
@@ -314,7 +340,7 @@ A number of optional components can also be added to further enhance the weapon.
       </mda:metadata>
       <segment state="translated">
         <source>Sledgehammer</source>
-        <target state="new" />
+        <target state="needs-translation">Кувалда</target>
       </segment>
     </unit>
     <unit id="::sledgehammer" name="::sledgehammer">
@@ -328,7 +354,11 @@ A number of optional components can also be added to further enhance the weapon.
 A powerful sledgehammer strike can send damaging mechanical waves even through the thickest of armors.
 
 It can even carry some manner of power module for when the cold steel isn't enough.</source>
-        <target state="new" />
+        <target state="needs-translation">Кувалда може бути потужною зброєю ближнього бою в руках сильного воїна.
+
+Потужний удар кувалдою може послати руйнівні механічні хвилі навіть крізь найтовстішу броню.
+
+Вона навіть може нести якийсь вид силового модуля для випадків, коли холодної сталі недостатньо.</target>
       </segment>
     </unit>
     <unit id="::combatKnife_Name" name="::combatKnife_Name">
@@ -338,7 +368,7 @@ It can even carry some manner of power module for when the cold steel isn't enou
       </mda:metadata>
       <segment state="translated">
         <source>Combat Knife</source>
-        <target state="new" />
+        <target state="needs-translation">Бойовий ніж</target>
       </segment>
     </unit>
     <unit id="::combatKnife" name="::combatKnife">
@@ -350,7 +380,9 @@ It can even carry some manner of power module for when the cold steel isn't enou
         <source>Combat knives can be crafted out of any metal and come in number of different shapes depending on the mold used.
 
 They are quick and deadly close quarters weapons against unarmored or unsuspecting targets.</source>
-        <target state="new" />
+        <target state="needs-translation">Бойові ножі можна виготовити з будь-якого металу і вони бувають різних форм залежно від використаної форми.
+
+Вони швидкі та смертоносні зброї ближнього бою проти неброньованих або неочікуваних цілей.</target>
       </segment>
     </unit>
     <unit id="::assaultRifle_Name" name="::assaultRifle_Name">
@@ -360,7 +392,7 @@ They are quick and deadly close quarters weapons against unarmored or unsuspecti
       </mda:metadata>
       <segment state="translated">
         <source>Assault Rifle</source>
-        <target state="new" />
+        <target state="needs-translation">Штурмова гвинтівка</target>
       </segment>
     </unit>
     <unit id="::assaultRifle" name="::assaultRifle">
@@ -374,7 +406,11 @@ They are quick and deadly close quarters weapons against unarmored or unsuspecti
 It can be created from frame and barrel parts. The type and quality of the frame will determine the weapon's overall damage potential, while the barrel will dictate the payload. Not all frame types support all barrel types, however.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Штурмова гвинтівка – це легка автоматична гвинтівка, призначена для мобільного індивідуального використання.
+
+Її можна створити з деталей рами та ствола. Тип і якість рами визначать загальний потенціал ушкоджень зброї, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів.
+
+Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::energyPistol_Name" name="::energyPistol_Name">
@@ -384,7 +420,7 @@ A number of optional components can also be added to further enhance the weapon.
       </mda:metadata>
       <segment state="translated">
         <source>Energy Pistol</source>
-        <target state="new" />
+        <target state="needs-translation">Енергетичний пістолет</target>
       </segment>
     </unit>
     <unit id="::energyPistol" name="::energyPistol">
@@ -396,7 +432,9 @@ A number of optional components can also be added to further enhance the weapon.
         <source>Energy weapons are generally less devastating than firearms, but they are more precise and can easily pierce most armor types.
 
 Energy pistol can be constructed from an energy projector, such as laser emitter or plasma discharger, and energy core. The quality of the former affects the output power, while the latter determines battery capacity.</source>
-        <target state="new" />
+        <target state="needs-translation">Енергетична зброя, як правило, менш руйнівна, ніж вогнепальна зброя, але вона більш точна і може легко пробивати більшість типів броні.
+
+Енергетичний пістолет можна сконструювати з енергетичного проектора, такого як лазерний випромінювач або плазмовий розрядник, і енергетичного ядра. Якість першого впливає на вихідну потужність, а останнє визначає ємність батареї.</target>
       </segment>
     </unit>
     <unit id="::chemicalPistol_Name" name="::chemicalPistol_Name">
@@ -406,7 +444,7 @@ Energy pistol can be constructed from an energy projector, such as laser emitter
       </mda:metadata>
       <segment state="translated">
         <source>Chemical Pistol</source>
-        <target state="new" />
+        <target state="needs-translation">Хімічний пістолет</target>
       </segment>
     </unit>
     <unit id="::chemicalPistol" name="::chemicalPistol">
@@ -418,7 +456,9 @@ Energy pistol can be constructed from an energy projector, such as laser emitter
         <source>Chemical pistol can be crafted by mounting a chemical collector and a dispenser onto a special pistol frame. 
 
 Type of collector will determine the substance the pistol can fire, while dispenser will determine in what form the substance is fired.</source>
-        <target state="new" />
+        <target state="needs-translation">Хімічний пістолет можна виготовити, встановивши хімічний колектор і дозатор на спеціальну раму пістолета.
+
+Тип колектора визначатиме речовину, яку пістолет може вистрілити, а дозатор визначатиме, в якій формі речовина вистрілюється.</target>
       </segment>
     </unit>
     <unit id="::extractToxin_Name" name="::extractToxin_Name">
@@ -428,7 +468,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>Extract Humour</source>
-        <target state="new" />
+        <target state="needs-translation">Витягування гумору</target>
       </segment>
     </unit>
     <unit id="::extractToxin" name="::extractToxin">
@@ -438,7 +478,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>A number of bodily fluids, such as blood, toxins, and acid, can extracted be from organs of various creatures.</source>
-        <target state="new" />
+        <target state="needs-translation">Різні рідини організму, такі як кров, токсини та кислота, можна витягувати з органів різних істот.</target>
       </segment>
     </unit>
     <unit id="::processPlant_Name" name="::processPlant_Name">
@@ -448,7 +488,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>Process Plant or Fungus</source>
-        <target state="new" />
+        <target state="needs-translation">Обробка рослин або грибів</target>
       </segment>
     </unit>
     <unit id="::processPlant" name="::processPlant">
@@ -458,7 +498,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>Various useful chemicals can be extracted from plants and mushrooms.</source>
-        <target state="new" />
+        <target state="needs-translation">Різні корисні хімічні речовини можна витягувати з рослин і грибів.</target>
       </segment>
     </unit>
     <unit id="::chemicalBolt_Name" name="::chemicalBolt_Name">
@@ -468,7 +508,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>Chemical Bolt</source>
-        <target state="new" />
+        <target state="needs-translation">Хімічна стріла</target>
       </segment>
     </unit>
     <unit id="::chemicalBolt" name="::chemicalBolt">
@@ -478,7 +518,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>Crossbow bolts can carry various substances that they inject upon impact, such as poisons and tranquilizers.</source>
-        <target state="new" />
+        <target state="needs-translation">Стріли для арбалета можуть нести різні речовини, які вони вводять при ударі, такі як отрути та транквілізатори.</target>
       </segment>
     </unit>
     <unit id="::mechanicalBolt_Name" name="::mechanicalBolt_Name">
@@ -488,7 +528,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>Serrated Bolt</source>
-        <target state="new" />
+        <target state="needs-translation">Стріла з серрейторною кромкою</target>
       </segment>
     </unit>
     <unit id="::mechanicalBolt" name="::mechanicalBolt">
@@ -498,7 +538,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>You can create serrated bolts by adding serrated blades to the bolt's head.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити стріли з серрейторною кромкою, додавши серрейторні леза до головки стріли.</target>
       </segment>
     </unit>
     <unit id="::broadheadBolt_Name" name="::broadheadBolt_Name">
@@ -508,7 +548,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>Broadhead Bolt</source>
-        <target state="new" />
+        <target state="needs-translation">Стріла з широкою головкою</target>
       </segment>
     </unit>
     <unit id="::broadheadBolt" name="::broadheadBolt">
@@ -518,7 +558,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>You can create broadhead bolts if you have appropriate bolt tip.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити стріли з широкою головкою, якщо у вас є відповідний наконечник стріли.</target>
       </segment>
     </unit>
     <unit id="::shockBolt_Name" name="::shockBolt_Name">
@@ -528,7 +568,7 @@ Type of collector will determine the substance the pistol can fire, while dispen
       </mda:metadata>
       <segment state="translated">
         <source>Shock Bolt</source>
-        <target state="new" />
+        <target state="needs-translation">Електрошокова стріла</target>
       </segment>
     </unit>
     <unit id="::shockBolt" name="::shockBolt">
@@ -540,7 +580,9 @@ Type of collector will determine the substance the pistol can fire, while dispen
         <source>A shock bolt is created by attaching a number of micro electroshock dischargers to a regular bolt. The number of dischargers determines the power of the shock bolt, but also the crafting difficulty. 
 
 A sufficiently powerful energy battery is required to charge up the bolt.</source>
-        <target state="new" />
+        <target state="needs-translation">Електрошокова стріла створюється шляхом прикріплення ряду мікроелектрошокових розрядників до звичайної стріли. Кількість розрядників визначає потужність електрошокової стріли, але також і складність виготовлення.
+
+Для зарядки стріли потрібна достатньо потужна енергетична батарея.</target>
       </segment>
     </unit>
     <unit id="::incendiaryBolt_Name" name="::incendiaryBolt_Name">
@@ -550,7 +592,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Incendiary Bolt</source>
-        <target state="new" />
+        <target state="needs-translation">Запальна стріла</target>
       </segment>
     </unit>
     <unit id="::incendiaryBolt" name="::incendiaryBolt">
@@ -560,7 +602,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>An incendiary bolt is created by attaching a vial of any highly incendiary substance to the tip of a regular bolt.</source>
-        <target state="new" />
+        <target state="needs-translation">Запальна стріла створюється шляхом прикріплення флакона з будь-якою легкозаймистою речовиною до кінчика звичайної стріли.</target>
       </segment>
     </unit>
     <unit id="::empGrenade_Name" name="::empGrenade_Name">
@@ -570,7 +612,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>EMP Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Електромагнітна граната</target>
       </segment>
     </unit>
     <unit id="::empGrenade" name="::empGrenade">
@@ -580,7 +622,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>EMP grenades are created by combining electromagnetic dischargers with any high energy battery (such as plasma or fusion cell) inside a thin grenade case.</source>
-        <target state="new" />
+        <target state="needs-translation">Електромагнітні гранати створюються шляхом комбінування електромагнітних розрядників з будь-якою високоенергетичною батареєю (такою як плазмова або термоядерна комірка) всередині тонкого корпусу гранати.</target>
       </segment>
     </unit>
     <unit id="::cloakingDevice_Name" name="::cloakingDevice_Name">
@@ -590,7 +632,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Cloaking Device</source>
-        <target state="new" />
+        <target state="needs-translation">Пристрій маскування</target>
       </segment>
     </unit>
     <unit id="::cloakingDevice" name="::cloakingDevice">
@@ -600,7 +642,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>A visible light deflection field generator, commonly known as stealth generator or cloaking device, is created by attaching electromagnetic deflector to a high energy core. The quality of the former determines the cloaking potential. Finally, electromagnetic field stabilizer is added to improve efficiency.</source>
-        <target state="new" />
+        <target state="needs-translation">Генератор поля відхилення видимого світла, зазвичай відомий як генератор невидимості або пристрій маскування, створюється шляхом прикріплення електромагнітного дефлектора до високоенергетичного ядра. Якість першого визначає потенціал маскування. Нарешті, електромагнітний стабілізатор поля додається для підвищення ефективності.</target>
       </segment>
     </unit>
     <unit id="::MetalHelmet_Name" name="::MetalHelmet_Name">
@@ -610,7 +652,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Metal Helmet</source>
-        <target state="new" />
+        <target state="needs-translation">Металевий шолом</target>
       </segment>
     </unit>
     <unit id="::MetalHelmet" name="::MetalHelmet">
@@ -620,7 +662,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Metal helmets provide decent protection against mechanical and energy attacks and also reduce the chance for the wearer to be critically hit.</source>
-        <target state="new" />
+        <target state="needs-translation">Металеві шоломи забезпечують пристойний захист від механічних і енергетичних атак, а також зменшують ймовірність того, що власник отримає критичний удар.</target>
       </segment>
     </unit>
     <unit id="::Goggles_Name" name="::Goggles_Name">
@@ -630,7 +672,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Goggles</source>
-        <target state="new" />
+        <target state="needs-translation">Окуляри</target>
       </segment>
     </unit>
     <unit id="::Goggles" name="::Goggles">
@@ -640,7 +682,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Goggles have two main components: the pair of lenses that provide various advantages (sometimes coupled with disadvantages) to the wearer at all times; and an optional vision processing module that also requires a power core to be installed in order to work.</source>
-        <target state="new" />
+        <target state="needs-translation">Окуляри мають дві основні складові: пара лінз, які забезпечують різні переваги (іноді в поєднанні з недоліками) власнику в будь-який час; і опціональний модуль обробки зображення, який також потребує встановлення енергетичного ядра для роботи.</target>
       </segment>
     </unit>
     <unit id="::Boots_Name" name="::Boots_Name">
@@ -650,7 +692,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Boots</source>
-        <target state="new" />
+        <target state="needs-translation">Чоботи</target>
       </segment>
     </unit>
     <unit id="::Boots" name="::Boots">
@@ -660,7 +702,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Boots can be made out of leather or metal and padded with a number of different materials.</source>
-        <target state="new" />
+        <target state="needs-translation">Чоботи можна виготовити зі шкіри або металу та набити різними матеріалами.</target>
       </segment>
     </unit>
     <unit id="::Greaves_Name" name="::Greaves_Name">
@@ -670,7 +712,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Greaves</source>
-        <target state="new" />
+        <target state="needs-translation">Поножі</target>
       </segment>
     </unit>
     <unit id="::Greaves" name="::Greaves">
@@ -680,7 +722,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Greaves can be made out of metal and padded with a number of different materials.</source>
-        <target state="new" />
+        <target state="needs-translation">Поножі можна виготовити з металу та набити різними матеріалами.</target>
       </segment>
     </unit>
     <unit id="::mine_Name" name="::mine_Name">
@@ -690,7 +732,7 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
       </mda:metadata>
       <segment state="translated">
         <source>Mine</source>
-        <target state="new" />
+        <target state="needs-translation">Міна</target>
       </segment>
     </unit>
     <unit id="::mine" name="::mine">
@@ -706,7 +748,13 @@ A sufficiently powerful energy battery is required to charge up the bolt.</sourc
 - High-explosive mine which is primarily used against heavily armored targets.
 
 The type of the land mine created is dictated by its case, while its power depends on the combination of explosive fillings used.</source>
-        <target state="new" />
+        <target state="needs-translation">Існують два типи звичайних вибухових мін:
+
+- Осколкова міна, яка використовується як протипіхотна зброя
+
+- Міна з високим вмістом вибухової речовини, яка в основному використовується проти важкоброньованих цілей.
+
+Тип міни, що створюється, визначається її корпусом, а її потужність залежить від комбінації використаних вибухових речовин.</target>
       </segment>
     </unit>
     <unit id="::empMine_Name" name="::empMine_Name">
@@ -716,7 +764,7 @@ The type of the land mine created is dictated by its case, while its power depen
       </mda:metadata>
       <segment state="translated">
         <source>EMP Mine</source>
-        <target state="new" />
+        <target state="needs-translation">ЕМП Міна</target>
       </segment>
     </unit>
     <unit id="::empMine" name="::empMine">
@@ -726,7 +774,7 @@ The type of the land mine created is dictated by its case, while its power depen
       </mda:metadata>
       <segment state="translated">
         <source>An EMP mine can be created by combining electromagnetic dischargers with any high energy battery (such as plasma or fusion cell) inside a special EMP mine case.</source>
-        <target state="new" />
+        <target state="needs-translation">ЕМП міну можна створити, комбінуючи електромагнітні розрядники з будь-яким високоенергетичним акумулятором (наприклад, плазмовою або термоядерною батареєю) всередині спеціального корпусу ЕМП міни.</target>
       </segment>
     </unit>
     <unit id="::chemicalAmmo_Name" name="::chemicalAmmo_Name">
@@ -736,7 +784,7 @@ The type of the land mine created is dictated by its case, while its power depen
       </mda:metadata>
       <segment state="translated">
         <source>Chemical Ammo</source>
-        <target state="new" />
+        <target state="needs-translation">Хімічні Боєприпаси</target>
       </segment>
     </unit>
     <unit id="::chemicalAmmo" name="::chemicalAmmo">
@@ -746,7 +794,7 @@ The type of the land mine created is dictated by its case, while its power depen
       </mda:metadata>
       <segment state="translated">
         <source>Ammunition for chemical weapons can be created by mixing the targeted chemical with bonding agent and storing it inside a vial that can later be loaded into a weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Боєприпаси для хімічної зброї можна створити, змішавши цільовий хімікат зі сполучним агентом і зберігаючи його у флаконі, який пізніше можна завантажити у зброю.</target>
       </segment>
     </unit>
     <unit id="::chemicalBlobTrap_Name" name="::chemicalBlobTrap_Name">
@@ -756,7 +804,7 @@ The type of the land mine created is dictated by its case, while its power depen
       </mda:metadata>
       <segment state="translated">
         <source>Chemical Blob Trap</source>
-        <target state="new" />
+        <target state="needs-translation">Хімічна Пастка-Блоб</target>
       </segment>
     </unit>
     <unit id="::chemicalBlobTrap" name="::chemicalBlobTrap">
@@ -770,7 +818,11 @@ The type of the land mine created is dictated by its case, while its power depen
 They are created by combining blob dispenser, special chemical trap case and the desired substance mixed with a bonding agent.
 
 Different substances have different side effects, while the quality of the blob dispenser determines the overall lethality of the trap.</source>
-        <target state="new" />
+        <target state="needs-translation">Хімічні пастки-блоби можуть заплутати своїх жертв у смертельній багнюці, утвореній з різних речовин.
+
+Вони створюються шляхом комбінування диспенсера блобів, спеціального корпусу хімічної пастки та бажаної речовини, змішаної зі сполучним агентом.
+
+Різні речовини мають різні побічні ефекти, а якість диспенсера блобів визначає загальну смертельність пастки.</target>
       </segment>
     </unit>
     <unit id="::healthHypo_Name" name="::healthHypo_Name">
@@ -780,7 +832,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Health Hypo</source>
-        <target state="new" />
+        <target state="needs-translation">Гіпо Здоров'я</target>
       </segment>
     </unit>
     <unit id="::healthHypo" name="::healthHypo">
@@ -790,7 +842,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Health hypo can be created by mixing healthy animal blood with insectoid saliva and preserving the mixture with anticoagulant.</source>
-        <target state="new" />
+        <target state="needs-translation">Гіпо здоров'я можна створити, змішавши здорову тваринну кров зі слиною комах і зберігаючи суміш антикоагулянтом.</target>
       </segment>
     </unit>
     <unit id="::advancedHealthHypo_Name" name="::advancedHealthHypo_Name">
@@ -800,7 +852,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Advanced Health Hypo</source>
-        <target state="new" />
+        <target state="needs-translation">Удосконалений Гіпо Здоров'я</target>
       </segment>
     </unit>
     <unit id="::advancedHealthHypo" name="::advancedHealthHypo">
@@ -810,7 +862,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Advanced health hypo can be created by mixing healthy animal blood with gel electrolyte and taurine.</source>
-        <target state="new" />
+        <target state="needs-translation">Удосконалений гіпо здоров'я можна створити, змішавши здорову тваринну кров з гелевим електролітом і таурином.</target>
       </segment>
     </unit>
     <unit id="::adrenalineShot_Name" name="::adrenalineShot_Name">
@@ -820,7 +872,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Adrenaline Shot</source>
-        <target state="new" />
+        <target state="needs-translation">Адреналіновий Укол</target>
       </segment>
     </unit>
     <unit id="::adrenalineShot" name="::adrenalineShot">
@@ -830,7 +882,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Adrenaline shot can easily be created by a skilled biologist from raw adrenaline.</source>
-        <target state="new" />
+        <target state="needs-translation">Адреналіновий укол може легко створити досвідчений біолог з сирого адреналіну.</target>
       </segment>
     </unit>
     <unit id="::morphineShot_Name" name="::morphineShot_Name">
@@ -840,7 +892,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Morphine Shot</source>
-        <target state="new" />
+        <target state="needs-translation">Морфіновий Укол</target>
       </segment>
     </unit>
     <unit id="::morphineShot" name="::morphineShot">
@@ -850,7 +902,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Morphine shot can easily be created by a skilled biologist from raw morphine.</source>
-        <target state="new" />
+        <target state="needs-translation">Морфіновий укол може легко створити досвідчений біолог з сирого морфіну.</target>
       </segment>
     </unit>
     <unit id="::nervosomnifer_Name" name="::nervosomnifer_Name">
@@ -860,7 +912,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Nervosomnifer</source>
-        <target state="new" />
+        <target state="needs-translation">Нервосомніфер</target>
       </segment>
     </unit>
     <unit id="::nervosomnifer" name="::nervosomnifer">
@@ -870,7 +922,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Nervosomnifer is an experimental pain reducing drug that requires rare exotic ingredients.</source>
-        <target state="new" />
+        <target state="needs-translation">Нервосомніфер - це експериментальний знеболюючий препарат, для якого потрібні рідкісні екзотичні інгредієнти.</target>
       </segment>
     </unit>
     <unit id="::caltrops_Name" name="::caltrops_Name">
@@ -880,7 +932,7 @@ Different substances have different side effects, while the quality of the blob 
       </mda:metadata>
       <segment state="translated">
         <source>Caltrops</source>
-        <target state="new" />
+        <target state="needs-translation">Рогатки</target>
       </segment>
     </unit>
     <unit id="::caltrops" name="::caltrops">
@@ -892,7 +944,9 @@ Different substances have different side effects, while the quality of the blob 
         <source>Caltrops can be crafted out of any metal. The quality of the metal does not influence the end product.
 
 Optionally the caltrops can be tipped with poison.</source>
-        <target state="new" />
+        <target state="needs-translation">Рогатки можна виготовити з будь-якого металу. Якість металу не впливає на кінцевий продукт.
+
+За бажанням рогатки можна обробити отрутою.</target>
       </segment>
     </unit>
     <unit id="::bearTrap_Name" name="::bearTrap_Name">
@@ -902,7 +956,7 @@ Optionally the caltrops can be tipped with poison.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Bear Trap</source>
-        <target state="new" />
+        <target state="needs-translation">Ведмежа Пастка</target>
       </segment>
     </unit>
     <unit id="::bearTrap" name="::bearTrap">
@@ -914,7 +968,9 @@ Optionally the caltrops can be tipped with poison.</source>
         <source>A simple mechanical trap designed to wound and ensnare the victim.
 
 Optionally, the metal jaws of a bear trap can be tipped with poison in order to inflict even more harm to the unsuspecting victim.</source>
-        <target state="new" />
+        <target state="needs-translation">Проста механічна пастка, призначена для поранення та захоплення жертви.
+
+За бажанням, металеві щелепи ведмежої пастки можна обробити отрутою, щоб завдати ще більшої шкоди необачній жертві.</target>
       </segment>
     </unit>
     <unit id="::repairKit_Name" name="::repairKit_Name">
@@ -924,7 +980,7 @@ Optionally, the metal jaws of a bear trap can be tipped with poison in order to 
       </mda:metadata>
       <segment state="translated">
         <source>Repair Kit</source>
-        <target state="new" />
+        <target state="needs-translation">Ремкомплект</target>
       </segment>
     </unit>
     <unit id="::repairKit" name="::repairKit">
@@ -936,7 +992,9 @@ Optionally, the metal jaws of a bear trap can be tipped with poison in order to 
         <source>You can create repair kits from pieces of scrap. The type of scrap you use (metal, electronic, fabric) will determine the type of repair kit. Using additional scraps during construction will allow you to create more advanced repair kits.
 
 You cannot mix different types of scrap.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити ремкомплекти з шматків металобрухту. Тип металобрухту, який ви використовуєте (метал, електроніка, тканина), визначить тип ремкомплекту. Використання додаткового металобрухту під час конструкції дозволить вам створити більш просунуті ремкомплекти.
+
+Ви не можете змішувати різні типи металобрухту.</target>
       </segment>
     </unit>
     <unit id="::vehicleRepairKit_Name" name="::vehicleRepairKit_Name">
@@ -946,7 +1004,7 @@ You cannot mix different types of scrap.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Vehicle Repair Kit</source>
-        <target state="new" />
+        <target state="needs-translation">Ремкомплект для Транспорту</target>
       </segment>
     </unit>
     <unit id="::vehicleRepairKit" name="::vehicleRepairKit">
@@ -956,7 +1014,7 @@ You cannot mix different types of scrap.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create vehicle repair kit from pieces of mechanical and electronic scrap, providing you are skilled enough.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити ремкомплект для транспорту з шматків механічного та електронного металобрухту, за умови, що ви достатньо вмілі.</target>
       </segment>
     </unit>
     <unit id="::recycleItem_Name" name="::recycleItem_Name">
@@ -966,7 +1024,7 @@ You cannot mix different types of scrap.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Recycle Item</source>
-        <target state="new" />
+        <target state="needs-translation">Переробка Предмета</target>
       </segment>
     </unit>
     <unit id="::recycleItem" name="::recycleItem">
@@ -978,7 +1036,9 @@ You cannot mix different types of scrap.</source>
         <source>You can recycle repairable items to gain scraps that you can later use in crafting. 
 
 The type of scrap gained depends on the item's durability type and the amount depends on the item's current durability.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете переробляти предмети, які можна відремонтувати, щоб отримати металобрухт, який ви пізніше зможете використовувати в ремеслі.
+
+Тип отриманого металобрухту залежить від типу міцності предмета, а кількість залежить від поточної міцності предмета.</target>
       </segment>
     </unit>
     <unit id="::psionicHeadband_Name" name="::psionicHeadband_Name">
@@ -988,7 +1048,7 @@ The type of scrap gained depends on the item's durability type and the amount de
       </mda:metadata>
       <segment state="translated">
         <source>Psionic Headband</source>
-        <target state="new" />
+        <target state="needs-translation">Псіонічна Пов'язка</target>
       </segment>
     </unit>
     <unit id="::psionicHeadband" name="::psionicHeadband">
@@ -1002,7 +1062,11 @@ The type of scrap gained depends on the item's durability type and the amount de
 The basic psionic headband consists of the frame and a modulator. The latter determines which areas of psionic potential (psi schools) the headband focuses on.
 
 Headband can also sport various enhancements.</source>
-        <target state="new" />
+        <target state="needs-translation">Псіонічна пов'язка підсилює, а іноді й пригнічує, різні аспекти псіонічного викликання, залежно від деталей, використаних при її створенні.
+
+Базова псіонічна пов'язка складається з рами та модулятора. Останній визначає, на які області псіонічного потенціалу (псі-школи) зосереджена пов'язка.
+
+Пов'язка також може мати різні покращення.</target>
       </segment>
     </unit>
     <unit id="::combatGloves_Name" name="::combatGloves_Name">
@@ -1012,7 +1076,7 @@ Headband can also sport various enhancements.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Combat Gloves</source>
-        <target state="new" />
+        <target state="needs-translation">Бойові Рукавиці</target>
       </segment>
     </unit>
     <unit id="::combatGloves" name="::combatGloves">
@@ -1024,7 +1088,9 @@ Headband can also sport various enhancements.</source>
         <source>Combat gloves can be created from leather or metal. They can be reinforced with additional metal plating or sport enhancements such as spikes and blades.
 
 They can even carry some manner of power module for that extra punch.</source>
-        <target state="new" />
+        <target state="needs-translation">Бойові рукавиці можна створити зі шкіри або металу. Їх можна посилити додатковим металевим покриттям або оснастити покращеннями, такими як шипи та леза.
+
+Вони навіть можуть нести якийсь вид енергетичного модуля для додаткового удару.</target>
       </segment>
     </unit>
     <unit id="::energyShieldEmitter_Name" name="::energyShieldEmitter_Name">
@@ -1034,7 +1100,7 @@ They can even carry some manner of power module for that extra punch.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Energy Shield Emitter</source>
-        <target state="new" />
+        <target state="needs-translation">Випромінювач Енергетичного Щита</target>
       </segment>
     </unit>
     <unit id="::energyShieldEmitter" name="::energyShieldEmitter">
@@ -1050,7 +1116,13 @@ They can be crafted from a base, one or two modulators, energy core and optional
 The type modulator will determine how the absorbing capabilities are spread across the impact speed spectrum, though all shields generally perform better against higher impact speeds (high speed ballistic projectiles, energy weapons, explosions).
 
 Quality of the energy core will determine the capacity of the shield.</source>
-        <target state="new" />
+        <target state="needs-translation">Випромінювачі енергетичного щита використовуються для поглинання всієї або частини шкоди, спрямованої на користувача, шляхом витрати електричної енергії. Кількість поглиненої шкоди варіюється залежно від якості використаних компонентів і швидкості удару атаки.
+
+Їх можна створити з основи, одного або двох модуляторів, енергетичного ядра та додаткового покращення.
+
+Тип модулятора визначатиме, як розподіляються можливості поглинання по спектру швидкості удару, хоча всі щити, як правило, краще працюють проти вищих швидкостей удару (високошвидкісні балістичні снаряди, енергетична зброя, вибухи).
+
+Якість енергетичного ядра визначатиме ємність щита.</target>
       </segment>
     </unit>
     <unit id="::Balaclava_Name" name="::Balaclava_Name">
@@ -1060,7 +1132,7 @@ Quality of the energy core will determine the capacity of the shield.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Balaclava</source>
-        <target state="new" />
+        <target state="needs-translation">Балаклава</target>
       </segment>
     </unit>
     <unit id="::Balaclava" name="::Balaclava">
@@ -1072,7 +1144,9 @@ Quality of the energy core will determine the capacity of the shield.</source>
         <source>A balaclava is a form of cloth headwear that covers the whole head, exposing only part of the face.
 
 It can be created out of any type of cloth.</source>
-        <target state="new" />
+        <target state="needs-translation">Балаклава - це вид головного убору з тканини, який покриває всю голову, відкриваючи лише частину обличчя.
+
+Її можна створити з будь-якого типу тканини.</target>
       </segment>
     </unit>
     <unit id="::TabiBoots_Name" name="::TabiBoots_Name">
@@ -1082,7 +1156,7 @@ It can be created out of any type of cloth.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tabi Boots</source>
-        <target state="new" />
+        <target state="needs-translation">Табі</target>
       </segment>
     </unit>
     <unit id="::TabiBoots" name="::TabiBoots">
@@ -1094,7 +1168,9 @@ It can be created out of any type of cloth.</source>
         <source>Tabi Boots are light form of footwear that offer little to no mechanical protection from attacks, but allow for agile movement.
 
 They can be crafted from either cloth or leather.</source>
-        <target state="new" />
+        <target state="needs-translation">Табі - це легка форма взуття, яка пропонує мало або взагалі не пропонує механічного захисту від атак, але дозволяє рухатися спритно.
+
+Їх можна виготовити з тканини або шкіри.</target>
       </segment>
     </unit>
     <unit id="::Taser_Name" name="::Taser_Name">
@@ -1104,7 +1180,7 @@ They can be crafted from either cloth or leather.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Taser</source>
-        <target state="new" />
+        <target state="needs-translation">Електрошокер</target>
       </segment>
     </unit>
     <unit id="::Taser" name="::Taser">
@@ -1116,7 +1192,9 @@ They can be crafted from either cloth or leather.</source>
         <source>Taser can be used to harm and stun living creatures and machines.
 
 It can be crafted from an electroshock generator and an energy core.</source>
-        <target state="new" />
+        <target state="needs-translation">Електрошокер можна використовувати для завдання шкоди та приголомшення живих істот і машин.
+
+Його можна створити з електрошокового генератора та енергетичного ядра.</target>
       </segment>
     </unit>
     <unit id="::throwingKnives_Name" name="::throwingKnives_Name">
@@ -1126,7 +1204,7 @@ It can be crafted from an electroshock generator and an energy core.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Throwing Knives</source>
-        <target state="new" />
+        <target state="needs-translation">Метальні Ножі</target>
       </segment>
     </unit>
     <unit id="::throwingKnives" name="::throwingKnives">
@@ -1138,7 +1216,9 @@ It can be crafted from an electroshock generator and an energy core.</source>
         <source>Throwing knives can be crafted out of any metal. The quality of the metal does not influence the end product.
 
 Optionally throwing knives can be tipped with poison.</source>
-        <target state="new" />
+        <target state="needs-translation">Метальні ножі можна виготовити з будь-якого металу. Якість металу не впливає на кінцевий продукт.
+
+За бажанням метальні ножі можна обробити отрутою.</target>
       </segment>
     </unit>
     <unit id="::shockShurikens_Name" name="::shockShurikens_Name">
@@ -1148,7 +1228,7 @@ Optionally throwing knives can be tipped with poison.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shock Shurikens</source>
-        <target state="new" />
+        <target state="needs-translation">Шокові Сюрікени</target>
       </segment>
     </unit>
     <unit id="::shockShurikens" name="::shockShurikens">
@@ -1160,7 +1240,9 @@ Optionally throwing knives can be tipped with poison.</source>
         <source>Shock shurikens can be crafted out of any metal and a number of micro electroshock dischargers.
 
 Any battery can be used to charge up the shurikens.</source>
-        <target state="new" />
+        <target state="needs-translation">Шокові сюрікени можна виготовити з будь-якого металу та кількох мікроелектрошокових розрядників.
+
+Будь-який акумулятор можна використовувати для зарядки сюрікенів.</target>
       </segment>
     </unit>
     <unit id="::irongut_Name" name="::irongut_Name">
@@ -1170,7 +1252,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Irongut</source>
-        <target state="new" />
+        <target state="needs-translation">Іронгут</target>
       </segment>
     </unit>
     <unit id="::irongut" name="::irongut">
@@ -1180,7 +1262,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Irongut protects you from biological hazards. It can be created from taurine and gizzard enzymes.</source>
-        <target state="new" />
+        <target state="needs-translation">Іронгут захищає вас від біологічних небезпек. Його можна створити з таурину та ферментів з м’язового шлунка.</target>
       </segment>
     </unit>
     <unit id="::trance_Name" name="::trance_Name">
@@ -1190,7 +1272,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Trance</source>
-        <target state="new" />
+        <target state="needs-translation">Транс</target>
       </segment>
     </unit>
     <unit id="::trance" name="::trance">
@@ -1200,7 +1282,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Trance used to be a popular drug among psi users, but fell out of use due to rarity of its ingredients. You can bring it back though if you manage to extract black vitreous and mix it with psi catalyst.</source>
-        <target state="new" />
+        <target state="needs-translation">Транс колись був популярним наркотиком серед псі-користувачів, але вийшов з ужитку через рідкість своїх інгредієнтів. Ви можете повернути його назад, якщо зможете витягти чорне склоподібне тіло і змішати його з псі-каталізатором.</target>
       </segment>
     </unit>
     <unit id="::aegis_Name" name="::aegis_Name">
@@ -1210,7 +1292,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Aegis</source>
-        <target state="new" />
+        <target state="needs-translation">Егіда</target>
       </segment>
     </unit>
     <unit id="::aegis" name="::aegis">
@@ -1220,7 +1302,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Aegis is a combat drug developed by the Biocorp for the Protectorate army. It can be created by combining morphine, adrenaline, and gizzard enzymes.</source>
-        <target state="new" />
+        <target state="needs-translation">Егіда - це бойовий наркотик, розроблений Biocorp для армії Protectorate. Його можна створити, комбінуючи морфін, адреналін і ферменти з м’язового шлунка.</target>
       </segment>
     </unit>
     <unit id="::focusStim_Name" name="::focusStim_Name">
@@ -1230,7 +1312,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Focus Stim</source>
-        <target state="new" />
+        <target state="needs-translation">Стимулятор Фокусу</target>
       </segment>
     </unit>
     <unit id="::focusStim" name="::focusStim">
@@ -1240,7 +1322,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Focus stim is a combat drug that can be created by mixing adrenaline, taurine, and fresh blood.</source>
-        <target state="new" />
+        <target state="needs-translation">Стимулятор фокусу - це бойовий наркотик, який можна створити, змішавши адреналін, таурин і свіжу кров.</target>
       </segment>
     </unit>
     <unit id="::jumpingBean_Name" name="::jumpingBean_Name">
@@ -1250,7 +1332,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Jumping Bean</source>
-        <target state="new" />
+        <target state="needs-translation">Стрибунець</target>
       </segment>
     </unit>
     <unit id="::jumpingBean" name="::jumpingBean">
@@ -1260,7 +1342,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Agility booster pill, popularly known as "Jumping Bean", can be created by mixing organic gel electrolyte with insectoid saliva. May cause hiccups.</source>
-        <target state="new" />
+        <target state="needs-translation">Пігулка для підвищення спритності, популярно відома як "Стрибунець", може бути створена шляхом змішування органічного гелевого електроліту зі слиною комах. Може викликати гикавку.</target>
       </segment>
     </unit>
     <unit id="::incendiaryGrenade_Name" name="::incendiaryGrenade_Name">
@@ -1270,7 +1352,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Incendiary Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Запальна Граната</target>
       </segment>
     </unit>
     <unit id="::incendiaryGrenade" name="::incendiaryGrenade">
@@ -1280,7 +1362,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>A makeshift incendiary grenade can be crafted from an empty bottle, a rag and any kind of incendiary substance.</source>
-        <target state="new" />
+        <target state="needs-translation">Імпровізовану запальну гранату можна виготовити з порожньої пляшки, ганчірки та будь-якої запальної речовини.</target>
       </segment>
     </unit>
     <unit id="::gasGrenade_Name" name="::gasGrenade_Name">
@@ -1290,7 +1372,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Gas Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Газова Граната</target>
       </segment>
     </unit>
     <unit id="::gasGrenade" name="::gasGrenade">
@@ -1300,7 +1382,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create a gas grenade by combining a substance with a starter mixture inside a thin grenade case.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити газову гранату, комбінуючи речовину зі стартовою сумішшю всередині тонкого гранатного корпусу.</target>
       </segment>
     </unit>
     <unit id="::shockBullets_Name" name="::shockBullets_Name">
@@ -1310,7 +1392,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shock Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Бронебійні Кулі</target>
       </segment>
     </unit>
     <unit id="::shockBullets" name="::shockBullets">
@@ -1320,7 +1402,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create 5mm shock bullets using bullet cases, any metal plate, and a number of micro electroshock dischargers.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити 5-міліметрові бронебійні кулі, використовуючи гільзи, будь-яку металеву пластину та кілька мікроелектрошокових розрядників.</target>
       </segment>
     </unit>
     <unit id="::incendiaryBullets_Name" name="::incendiaryBullets_Name">
@@ -1330,7 +1412,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Incendiary Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Запальні Кулі</target>
       </segment>
     </unit>
     <unit id="::incendiaryBullets" name="::incendiaryBullets">
@@ -1340,7 +1422,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create 8.6mm incendiary bullets using bullet cases, any metal plate, and a high level incendiary substance.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити 8,6-міліметрові запальні кулі, використовуючи гільзи, будь-яку металеву пластину та запальну речовину високого рівня.</target>
       </segment>
     </unit>
     <unit id="::microShrapnelBullets_Name" name="::microShrapnelBullets_Name">
@@ -1350,7 +1432,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Micro-Shrapnel Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Мікро-Осколкові Кулі</target>
       </segment>
     </unit>
     <unit id="::microShrapnelBullets" name="::microShrapnelBullets">
@@ -1360,7 +1442,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create 7.62mm micro-shrapnel bullets using bullet cases, any metal plate, and large quantities of metal scraps.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити 7,62-міліметрові мікро-осколкові кулі, використовуючи гільзи, будь-яку металеву пластину та велику кількість металобрухту.</target>
       </segment>
     </unit>
     <unit id="::acidBullets_Name" name="::acidBullets_Name">
@@ -1370,7 +1452,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Acid Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Кислотні Кулі</target>
       </segment>
     </unit>
     <unit id="::acidBullets" name="::acidBullets">
@@ -1380,7 +1462,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create 9mm acid bullets using bullet cases, any metal plate, and a vial of regular acid.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити 9-міліметрові кислотні кулі, використовуючи гільзи, будь-яку металеву пластину та флакон звичайною кислотою.</target>
       </segment>
     </unit>
     <unit id="::explosiveBullets_Name" name="::explosiveBullets_Name">
@@ -1390,7 +1472,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Explosive Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Вибухові Кулі</target>
       </segment>
     </unit>
     <unit id="::explosiveBullets" name="::explosiveBullets">
@@ -1400,7 +1482,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create .44 explosive bullets using bullet cases, any metal plate, and a certain amount of hexogen.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити кулі .44 з вибухівкою, використовуючи гільзи, будь-яку металеву пластину та певну кількість гексогену.</target>
       </segment>
     </unit>
     <unit id="::contaminatedBullets_Name" name="::contaminatedBullets_Name">
@@ -1410,7 +1492,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Contaminated Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Заражені Кулі</target>
       </segment>
     </unit>
     <unit id="::contaminatedBullets" name="::contaminatedBullets">
@@ -1420,7 +1502,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create 12.7mm contaminated bullets using bullet cases, any metal plate, and a canister of toxic sludge.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити кулі 12,7 мм із зараженими кулями, використовуючи гільзи, будь-яку металеву пластину та каністру з токсичною багнюкою.</target>
       </segment>
     </unit>
     <unit id="::disassembleItem_Name" name="::disassembleItem_Name">
@@ -1430,7 +1512,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Disassemble Item</source>
-        <target state="new" />
+        <target state="needs-translation">Розбір Предмета</target>
       </segment>
     </unit>
     <unit id="::disassembleItem" name="::disassembleItem">
@@ -1440,7 +1522,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Enables you to disassemble items that are marked as disassemble-able, obtaining the components from which it was constructed but with reduced quality.</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволяє розбирати предмети, позначені як такі, що підлягають розбиранню, отримуючи компоненти, з яких вони були створені, але зі зниженою якістю.</target>
       </segment>
     </unit>
     <unit id="::infusedLeather_Name" name="::infusedLeather_Name">
@@ -1450,7 +1532,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Infused Leather</source>
-        <target state="new" />
+        <target state="needs-translation">Просочена шкіра</target>
       </segment>
     </unit>
     <unit id="::infusedLeather" name="::infusedLeather">
@@ -1460,7 +1542,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Infusing leather with fiber can enhance its properties.</source>
-        <target state="new" />
+        <target state="needs-translation">Просочення шкіри волокном може покращити її властивості.</target>
       </segment>
     </unit>
     <unit id="::flashbang_Name" name="::flashbang_Name">
@@ -1470,7 +1552,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Flashbang</source>
-        <target state="new" />
+        <target state="needs-translation">Осліплююча граната</target>
       </segment>
     </unit>
     <unit id="::flashbang" name="::flashbang">
@@ -1480,7 +1562,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create a flashbang grenade by filling a thin grenade case with magnesium powder.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити осліплюючу гранату, наповнивши тонкий корпус гранати порошком магнію.</target>
       </segment>
     </unit>
     <unit id="::bullhead_Name" name="::bullhead_Name">
@@ -1490,7 +1572,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Bullhead</source>
-        <target state="new" />
+        <target state="needs-translation">Бичача голова</target>
       </segment>
     </unit>
     <unit id="::bullhead" name="::bullhead">
@@ -1500,7 +1582,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Bullhead pill is a preventive medicament that stabilizes neural pathways and improves concentration, allowing you to handle physical and psychological stress better. It can be created by combining morphine, nidamental gel, and gizzard enzymes.</source>
-        <target state="new" />
+        <target state="needs-translation">Пігулка "Бичача голова" – це профілактичний медикамент, який стабілізує нервові шляхи та покращує концентрацію, дозволяючи вам краще справлятися з фізичним та психологічним стресом. Її можна створити, комбінуючи морфін, нідаментальний гель та ферменти закрутка.</target>
       </segment>
     </unit>
     <unit id="::superHealthHypo_Name" name="::superHealthHypo_Name">
@@ -1510,7 +1592,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Super Health Hypo</source>
-        <target state="new" />
+        <target state="needs-translation">Супер Зцілююча ампула</target>
       </segment>
     </unit>
     <unit id="::superHealthHypo" name="::superHealthHypo">
@@ -1520,7 +1602,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Super health hypo can be created by mixing healthy animal blood, fusing enzyme, gyromitrin and, curiously, crawler poison.</source>
-        <target state="new" />
+        <target state="needs-translation">Супер зцілюючу ампулу можна створити, змішавши здорову тваринну кров, фермент злиття, гіромітрин і, що цікаво, отруту повзуна.</target>
       </segment>
     </unit>
     <unit id="::regenerativeMixture_Name" name="::regenerativeMixture_Name">
@@ -1530,7 +1612,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Regenerative Mixture</source>
-        <target state="new" />
+        <target state="needs-translation">Регенеративна суміш</target>
       </segment>
     </unit>
     <unit id="::regenerativeMixture" name="::regenerativeMixture">
@@ -1540,7 +1622,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create a highly potent regenerative by mixing correct amounts of biofusive scoby, animal blood, and macrophage fluid. A clean blastema should then be soaked in this mixture before consuming the liquid.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити високопотужну регенеративну суміш, змішавши правильні кількості біофузивного скобі, тваринної крові та рідини макрофагів. Чиста бластема повинна бути змочена в цій суміші перед вживанням рідини.</target>
       </segment>
     </unit>
     <unit id="::PsiReinvigorator_Name" name="::PsiReinvigorator_Name">
@@ -1550,7 +1632,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Psi Reinvigorator</source>
-        <target state="new" />
+        <target state="needs-translation">Психоревіталізатор</target>
       </segment>
     </unit>
     <unit id="::PsiReinvigorator" name="::PsiReinvigorator">
@@ -1560,7 +1642,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This pill should only be consumed to combat psi inhibiting conditions and disorders. It can be created by combining unsaturated psionic catalyst with adrenaline and statolith.</source>
-        <target state="new" />
+        <target state="needs-translation">Цю пігулку слід вживати лише для боротьби з психічними інгібуючими станами та розладами. Її можна створити, комбінуючи ненасичений псионічний каталізатор з адреналіном та статолітом.</target>
       </segment>
     </unit>
     <unit id="::supersoldierDrug_Name" name="::supersoldierDrug_Name">
@@ -1570,7 +1652,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Supersoldier Drug</source>
-        <target state="new" />
+        <target state="needs-translation">Препарат "Суперсолдат"</target>
       </segment>
     </unit>
     <unit id="::supersoldierDrug" name="::supersoldierDrug">
@@ -1580,7 +1662,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>According to this blueprint you can create some sort of a "Supersoldier Drug" by combining the right amounts of muscarine, adrenaline, kynurenic acid, and prednisone solution. Considering the nature of these substances, this could be dangerous...</source>
-        <target state="new" />
+        <target state="needs-translation">Згідно з цією схемою, ви можете створити щось на зразок препарату "Суперсолдат", комбінуючи правильні кількості мускарину, адреналіну, кінуренічної кислоти та розчину преднізолону. Враховуючи природу цих речовин, це може бути небезпечно...</target>
       </segment>
     </unit>
     <unit id="::theJuice_Name" name="::theJuice_Name">
@@ -1590,7 +1672,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>The Juice</source>
-        <target state="new" />
+        <target state="needs-translation">Сік</target>
       </segment>
     </unit>
     <unit id="::theJuice" name="::theJuice">
@@ -1602,7 +1684,9 @@ Any battery can be used to charge up the shurikens.</source>
         <source>According to Dude and this blueprint, you should be able to concoct the mythical serum known only as "The Juice".
 
 You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyromitrin.</source>
-        <target state="new" />
+        <target state="needs-translation">Згідно з Дудом та цією схемою, ви повинні мати можливість створити міфічну сироватку, відому лише як "Сік".
+
+Вам знадобиться деякий грибний настій, ненасичений псионічний каталізатор, морфін та гіромітрин.</target>
       </segment>
     </unit>
     <unit id="::stingballGrenade_Name" name="::stingballGrenade_Name">
@@ -1612,7 +1696,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Stingball Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Гранати з шипами</target>
       </segment>
     </unit>
     <unit id="::stingballGrenade" name="::stingballGrenade">
@@ -1622,7 +1706,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>You can create a stingball grenade by filling a thin grenade case with hard rubber balls and adding some starter mixture.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити гранату з шипами, наповнивши тонкий корпус гранати твердими гумовими кульками та додавши трохи стартової суміші.</target>
       </segment>
     </unit>
     <unit id="::spyingEndoscope_Name" name="::spyingEndoscope_Name">
@@ -1632,7 +1716,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Spying Endoscope</source>
-        <target state="new" />
+        <target state="needs-translation">Шпигунський ендоскоп</target>
       </segment>
     </unit>
     <unit id="::spyingEndoscope" name="::spyingEndoscope">
@@ -1642,7 +1726,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>You can create a spying endoscope by combining adaptive lens, optical fiber and endoscope eyepiece.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити шпигунський ендоскоп, комбінуючи адаптивну лінзу, оптичне волокно та окуляр ендоскопа.</target>
       </segment>
     </unit>
     <unit id="::bullets_Name" name="::bullets_Name">
@@ -1652,7 +1736,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Кулі</target>
       </segment>
     </unit>
     <unit id="::bullets" name="::bullets">
@@ -1662,7 +1746,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>This blueprint describes how to reload a standard bullet of any caliber.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця схема описує, як перезарядити стандартну кулю будь-якого калібру.</target>
       </segment>
     </unit>
     <unit id="::w2cBullets_Name" name="::w2cBullets_Name">
@@ -1672,7 +1756,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>W2C Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Кулі W2C</target>
       </segment>
     </unit>
     <unit id="::w2cBullets" name="::w2cBullets">
@@ -1682,7 +1766,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>This blueprint describes how to reload a tungsten carbide armor piercing bullet of any caliber.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця схема описує, як перезарядити бронебійну кулю з карбіду вольфраму будь-якого калібру.</target>
       </segment>
     </unit>
     <unit id="::jhpBullets_Name" name="::jhpBullets_Name">
@@ -1692,7 +1776,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>JHP Bullets</source>
-        <target state="new" />
+        <target state="needs-translation">Кулі JHP</target>
       </segment>
     </unit>
     <unit id="::jhpBullets" name="::jhpBullets">
@@ -1702,7 +1786,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>This blueprint describes how to reload a jacketed hollow point bullet of any caliber.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця схема описує, як перезарядити кулю з оболонкою та порожнистою точкою будь-якого калібру.</target>
       </segment>
     </unit>
     <unit id="::plasmaGrenade_Name" name="::plasmaGrenade_Name">
@@ -1712,7 +1796,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Plasma Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Плазмова граната</target>
       </segment>
     </unit>
     <unit id="::plasmaGrenade" name="::plasmaGrenade">
@@ -1722,7 +1806,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Plasma grenades are created by combining plasma micro-dischargers with any high energy battery (such as plasma or fusion cell) inside a thin grenade case.</source>
-        <target state="new" />
+        <target state="needs-translation">Плазмові гранати створюються шляхом комбінування плазмових мікророзрядників з будь-яким високоенергетичним акумулятором (наприклад, плазмовою або термоядерною батареєю) всередині тонкого корпусу гранати.</target>
       </segment>
     </unit>
     <unit id="::plasmaMine_Name" name="::plasmaMine_Name">
@@ -1732,7 +1816,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Plasma Mine</source>
-        <target state="new" />
+        <target state="needs-translation">Плазмова міна</target>
       </segment>
     </unit>
     <unit id="::plasmaMine" name="::plasmaMine">
@@ -1742,7 +1826,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Plasma mines are created by combining plasma micro-dischargers with a pair of any high energy battery (such as plasma or fusion cell) inside a special plasma mine case.</source>
-        <target state="new" />
+        <target state="needs-translation">Плазмові міни створюються шляхом комбінування плазмових мікророзрядників з парою будь-яких високоенергетичних акумуляторів (наприклад, плазмовою або термоядерною батареєю) всередині спеціального корпусу плазмової міни.</target>
       </segment>
     </unit>
     <unit id="::psionicAccelerator_Name" name="::psionicAccelerator_Name">
@@ -1752,7 +1836,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Psionic Accelerator</source>
-        <target state="new" />
+        <target state="needs-translation">Псионічний прискорювач</target>
       </segment>
     </unit>
     <unit id="::psionicAccelerator" name="::psionicAccelerator">
@@ -1762,7 +1846,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>You can create Psionic Accelerator by combining unsaturated psionic catalyst, gyromitrin and psi-somatic agent.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити псионічний прискорювач, комбінуючи ненасичений псионічний каталізатор, гіромітрин та психічний агент.</target>
       </segment>
     </unit>
     <unit id="::hypercerebrix_Name" name="::hypercerebrix_Name">
@@ -1772,7 +1856,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Hypercerebrix</source>
-        <target state="new" />
+        <target state="needs-translation">Гіперцеребрикс</target>
       </segment>
     </unit>
     <unit id="::hypercerebrix" name="::hypercerebrix">
@@ -1782,7 +1866,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>You can create Hypercerebrix pill by combining cave ear poison, gyromitrin and phototannin.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити пігулку "Гіперцеребрикс", комбінуючи отруту печерного вуха, гіромітрин та фототанін.</target>
       </segment>
     </unit>
     <unit id="::coagulationShot_Name" name="::coagulationShot_Name">
@@ -1792,7 +1876,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Coagulation Shot</source>
-        <target state="new" />
+        <target state="needs-translation">Коагуляційний укол</target>
       </segment>
     </unit>
     <unit id="::coagulationShot" name="::coagulationShot">
@@ -1802,7 +1886,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>You can create a coagulation shot by combining blood, some type of organic gel electrolyte and black collagen.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити коагуляційний укол, комбінуючи кров, деякий тип органічного гелевого електроліту та чорний колаген.</target>
       </segment>
     </unit>
     <unit id="::twitch_Name" name="::twitch_Name">
@@ -1812,7 +1896,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Twitch</source>
-        <target state="new" />
+        <target state="needs-translation">Твіч</target>
       </segment>
     </unit>
     <unit id="::twitch" name="::twitch">
@@ -1822,7 +1906,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>You can create reflex boosting concoction, popularly known as Twitch, by combining adrenaline, dexytol and retrolytic enzyme.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити суміш, що підвищує рефлекси, популярно відому як "Твіч", комбінуючи адреналін, дексітол та ретролітичний фермент.</target>
       </segment>
     </unit>
     <unit id="::thirdEye_Name" name="::thirdEye_Name">
@@ -1832,7 +1916,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Third Eye</source>
-        <target state="new" />
+        <target state="needs-translation">Третє око</target>
       </segment>
     </unit>
     <unit id="::thirdEye" name="::thirdEye">
@@ -1842,7 +1926,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>You can create the so-called "Third Eye" pill by combining salivinine, black vitreous and lophimidrine.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити так звану пігулку "Третє око", комбінуючи салівінін, чорне склясте тіло та лофемідрин.</target>
       </segment>
     </unit>
     <unit id="::spear_Name" name="::spear_Name">
@@ -1852,7 +1936,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>Spear</source>
-        <target state="new" />
+        <target state="needs-translation">Спис</target>
       </segment>
     </unit>
     <unit id="::spear" name="::spear">
@@ -1866,7 +1950,11 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
 Precise spear strikes can bypass some of the living target's defense.
 
 It can even carry some manner of power module for when the cold steel isn't enough.</source>
-        <target state="new" />
+        <target state="needs-translation">Спис – це примітивна, але універсальна зброя, яку можна використовувати як для нападу, так і для захисту.
+
+Точні удари списом можуть обійти деякий захист живої цілі.
+
+Навіть може нести якийсь силовий модуль для тих випадків, коли холодної сталі недостатньо.</target>
       </segment>
     </unit>
     <unit id="::machete_Name" name="::machete_Name">
@@ -1876,7 +1964,7 @@ It can even carry some manner of power module for when the cold steel isn't enou
       </mda:metadata>
       <segment state="translated">
         <source>Machetes</source>
-        <target state="new" />
+        <target state="needs-translation">Мачете</target>
       </segment>
     </unit>
     <unit id="::machete" name="::machete">
@@ -1888,7 +1976,9 @@ It can even carry some manner of power module for when the cold steel isn't enou
         <source>Machetes can be crafted out of any metal and come in number of two variants depending on the mold used.
 
 It's a deadly close quarters weapon that can deliver devastating wounds if used correctly, especially against an unarmored target.</source>
-        <target state="new" />
+        <target state="needs-translation">Мачете можна виготовити з будь-якого металу і воно доступне в двох варіантах, залежно від використаної форми.
+
+Це смертоносна зброя ближнього бою, яка може завдати нищівних ран при правильному використанні, особливо проти неброньованої цілі.</target>
       </segment>
     </unit>
     <unit id="::shotgunShells_Name" name="::shotgunShells_Name">
@@ -1898,7 +1988,7 @@ It's a deadly close quarters weapon that can deliver devastating wounds if used 
       </mda:metadata>
       <segment state="translated">
         <source>Shotgun Shells</source>
-        <target state="new" />
+        <target state="needs-translation">Дробові набої</target>
       </segment>
     </unit>
     <unit id="::shotgunShells" name="::shotgunShells">
@@ -1908,7 +1998,7 @@ It's a deadly close quarters weapon that can deliver devastating wounds if used 
       </mda:metadata>
       <segment state="translated">
         <source>This blueprint describes how to reload a shotgun shell with pellets of various sizes.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця схема описує, як перезарядити дробовий набій з дробом різних розмірів.</target>
       </segment>
     </unit>
     <unit id="::shotgun_Name" name="::shotgun_Name">
@@ -1918,7 +2008,7 @@ It's a deadly close quarters weapon that can deliver devastating wounds if used 
       </mda:metadata>
       <segment state="translated">
         <source>Shotgun</source>
-        <target state="new" />
+        <target state="needs-translation">Дробовик</target>
       </segment>
     </unit>
     <unit id="::shotgun" name="::shotgun">
@@ -1930,7 +2020,9 @@ It's a deadly close quarters weapon that can deliver devastating wounds if used 
         <source>Shotguns can be created from frame and barrel parts. The type and quality of the frame will determine the shotgun's overall damage potential, while the barrel will dictate the spread and will also modify damage.
 
 An optional component can also be added to further enhance the weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Дробовики можна створити з деталей рами та ствола. Тип і якість рами визначать загальний потенціал ушкоджень дробовика, а ствол визначить розсіювання і також модифікує ушкодження.
+
+Також можна додати додатковий компонент для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::throwingNet_Name" name="::throwingNet_Name">
@@ -1940,7 +2032,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Throwing Net</source>
-        <target state="new" />
+        <target state="needs-translation">Метальна сітка</target>
       </segment>
     </unit>
     <unit id="::throwingNet" name="::throwingNet">
@@ -1950,7 +2042,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create throwing nets from fabric scraps.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити метальні сітки з клаптів тканини.</target>
       </segment>
     </unit>
     <unit id="::thinGrenadeCase_Name" name="::thinGrenadeCase_Name">
@@ -1960,7 +2052,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Thin Grenade Case</source>
-        <target state="new" />
+        <target state="needs-translation">Тонкий корпус гранати</target>
       </segment>
     </unit>
     <unit id="::thinGrenadeCase" name="::thinGrenadeCase">
@@ -1970,7 +2062,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create thin grenade cases (that are used in making certain grenades) from any type of metal plate.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити тонкі корпуси гранат (які використовуються при виготовленні певних гранат) з будь-якого типу металевої пластини.</target>
       </segment>
     </unit>
     <unit id="::fragGrenadeCase_Name" name="::fragGrenadeCase_Name">
@@ -1980,7 +2072,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Frag Grenade Case</source>
-        <target state="new" />
+        <target state="needs-translation">Корпус гранати з осколками</target>
       </segment>
     </unit>
     <unit id="::fragGrenadeCase" name="::fragGrenadeCase">
@@ -1990,7 +2082,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create frag grenade cases from any type of metal plate.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити корпуси гранат з осколками з будь-якого типу металевої пластини.</target>
       </segment>
     </unit>
     <unit id="::thinMineCase_Name" name="::thinMineCase_Name">
@@ -2000,7 +2092,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Thin Mine Case</source>
-        <target state="new" />
+        <target state="needs-translation">Тонкий корпус міни</target>
       </segment>
     </unit>
     <unit id="::thinMineCase" name="::thinMineCase">
@@ -2010,7 +2102,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create thin mine cases (that are used in making certain mines) from any type of metal plate.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити тонкі корпуси мін (які використовуються при виготовленні певних мін) з будь-якого типу металевої пластини.</target>
       </segment>
     </unit>
     <unit id="::fragMineCase_Name" name="::fragMineCase_Name">
@@ -2020,7 +2112,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Frag Mine Case</source>
-        <target state="new" />
+        <target state="needs-translation">Корпус міни з осколками</target>
       </segment>
     </unit>
     <unit id="::fragMineCase" name="::fragMineCase">
@@ -2030,7 +2122,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create frag mine cases from any type of metal plate.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити корпуси мін з осколками з будь-якого типу металевої пластини.</target>
       </segment>
     </unit>
     <unit id="::lockpicks_Name" name="::lockpicks_Name">
@@ -2040,7 +2132,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Lockpicks</source>
-        <target state="new" />
+        <target state="needs-translation">Відмички</target>
       </segment>
     </unit>
     <unit id="::lockpicks" name="::lockpicks">
@@ -2050,7 +2142,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>You can create a set mechanical lockpicks from any type of metal plate. The quality of the plate will determine the lockpick quality. You'll also be able to create extra lockpicks when using metal of very best quality.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити набір механічних відмичок з будь-якого типу металевої пластини. Якість пластини визначить якість відмичок. Ви також зможете створити додаткові відмички, використовуючи метал найкращої якості.</target>
       </segment>
     </unit>
     <unit id="::shiv_Name" name="::shiv_Name">
@@ -2060,7 +2152,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Shiv</source>
-        <target state="new" />
+        <target state="needs-translation">Шило</target>
       </segment>
     </unit>
     <unit id="::shiv" name="::shiv">
@@ -2070,7 +2162,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>With enough skill and effort you might be able to craft an actual shiv from a metal spike by adding a dirty rag to it.</source>
-        <target state="new" />
+        <target state="needs-translation">За достатніх навичок та зусиль ви можете виготовити справжнє шило з металевого шипа, додавши до нього брудну ганчірку.</target>
       </segment>
     </unit>
     <unit id="::motion_Name" name="::motion_Name">
@@ -2080,7 +2172,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Motion</source>
-        <target state="new" />
+        <target state="needs-translation">Рух</target>
       </segment>
     </unit>
     <unit id="::motion" name="::motion">
@@ -2090,7 +2182,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This strange unconventional blueprint instructs you how to concoct the notorious Motion drug by combining psionic catalyst, gyromitrin, and psychodelic spores inside an inhalant container.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця дивна нетрадиційна схема інструктує вас, як створити ганебний наркотик "Рух", комбінуючи псионічний каталізатор, гіромітрин та психоделічні спори всередині інгаляційного контейнера.</target>
       </segment>
     </unit>
     <unit id="::grenadeLauncher_Name" name="::grenadeLauncher_Name">
@@ -2100,7 +2192,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Grenade Launcher</source>
-        <target state="new" />
+        <target state="needs-translation">Гранатомет</target>
       </segment>
     </unit>
     <unit id="::grenadeLauncher" name="::grenadeLauncher">
@@ -2116,7 +2208,13 @@ It can be created from frame and barrel parts. The caliber of the grenades is de
 Grenade launcher will also require either a box magazine (25mm frames) or revolver-style magazine (40mm frames). Heavier magazines will make the weapon require more strength from the user.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Гранатомети можуть стріляти спеціальними гранатами, які завдають шкоди всім цілям у радіусі вибуху. Сам радіус залежить від типу використаної гранати.
+
+Його можна створити з деталей рами та ствола. Калібр гранат визначається рамою та стволом і може бути 25 мм або 40 мм.
+
+Гранатомет також потребуватиме або коробчастого магазину (для рам 25 мм) або револьверного магазину (для рам 40 мм). Більші магазини змусять зброю вимагати більше сили від користувача.
+
+Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::rocketLauncher_Name" name="::rocketLauncher_Name">
@@ -2126,7 +2224,7 @@ A number of optional components can also be added to further enhance the weapon.
       </mda:metadata>
       <segment state="translated">
         <source>Rocket Launcher</source>
-        <target state="new" />
+        <target state="needs-translation">Ракетна установка</target>
       </segment>
     </unit>
     <unit id="::rocketLauncher" name="::rocketLauncher">
@@ -2138,7 +2236,9 @@ A number of optional components can also be added to further enhance the weapon.
         <source>Rocket launchers are powerful heavy weapons that shoot special rockets that damage all targets in the blast radius. The radius itself, the power of the blast, as well as secondary effects, vary depending on the rocket used.
 
 A number of optional components can be added to further enhance the rocket launcher.</source>
-        <target state="new" />
+        <target state="needs-translation">Ракетні установки – це потужна важка зброя, яка стріляє спеціальними ракетами, які завдають шкоди всім цілям у радіусі вибуху. Радіус, сила вибуху, а також вторинні ефекти варіюються залежно від використаної ракети.
+
+До ракетної установки можна додати ряд додаткових компонентів для подальшого покращення.</target>
       </segment>
     </unit>
     <unit id="::highExplosiveLauncherGrenade_Name" name="::highExplosiveLauncherGrenade_Name">
@@ -2148,7 +2248,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>High-explosive Launcher Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Високовибухова граната для ракетної установки</target>
       </segment>
     </unit>
     <unit id="::highExplosiveLauncherGrenade" name="::highExplosiveLauncherGrenade">
@@ -2158,7 +2258,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create high explosive launcher grenades using appropriate grenade cases (25mm or 40mm), hexogen, and TNT.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створювати гранати з кумулятивними головками, використовуючи відповідні гільзи гранат (25 мм або 40 мм), гексоген та тротил.</target>
       </segment>
     </unit>
     <unit id="::fragLauncherGrenade_Name" name="::fragLauncherGrenade_Name">
@@ -2168,7 +2268,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>Frag Launcher Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Гранати з уламковою головкою</target>
       </segment>
     </unit>
     <unit id="::fragLauncherGrenade" name="::fragLauncherGrenade">
@@ -2178,7 +2278,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create fragmentation launcher grenades using appropriate grenade cases (25mm or 40mm), TNT, and metal scraps.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створювати уламкові гранати з кумулятивними головками, використовуючи відповідні гільзи гранат (25 мм або 40 мм), тротил та металобрухт.</target>
       </segment>
     </unit>
     <unit id="::thermobaricLauncherGrenade_Name" name="::thermobaricLauncherGrenade_Name">
@@ -2188,7 +2288,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>Thermobaric Launcher Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Гранати з термобаричною головкою</target>
       </segment>
     </unit>
     <unit id="::thermobaricLauncherGrenade" name="::thermobaricLauncherGrenade">
@@ -2198,7 +2298,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create the feared thermobaric launcher grenades using 40mm grenade cases, hexogen, and magnesium.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створювати жахливі термобаричні гранати з кумулятивними головками, використовуючи гільзи гранат 40 мм, гексоген та магній.</target>
       </segment>
     </unit>
     <unit id="::clusterLauncherGrenade_Name" name="::clusterLauncherGrenade_Name">
@@ -2208,7 +2308,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>Cluster Launcher Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Гранати з касетною головкою</target>
       </segment>
     </unit>
     <unit id="::clusterLauncherGrenade" name="::clusterLauncherGrenade">
@@ -2218,7 +2318,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create cluster launcher grenades using 40mm grenade cases, TNT, metal plates, and starter mixture.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створювати касетні гранати з кумулятивними головками, використовуючи гільзи гранат 40 мм, тротил, металеві пластини та запалювальну суміш.</target>
       </segment>
     </unit>
     <unit id="::concussiveLauncherGrenade_Name" name="::concussiveLauncherGrenade_Name">
@@ -2228,7 +2328,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>Concussive Launcher Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Гранати з оглушливою головкою</target>
       </segment>
     </unit>
     <unit id="::concussiveLauncherGrenade" name="::concussiveLauncherGrenade">
@@ -2238,7 +2338,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create concussive launcher grenades using 25mm grenade cases, TNT, magnesium, and small oxygen tanks.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створювати оглушливі гранати з кумулятивними головками, використовуючи гільзи гранат 25 мм, тротил, магній та невеликі кисневі балони.</target>
       </segment>
     </unit>
     <unit id="::incendiaryLauncherGrenade_Name" name="::incendiaryLauncherGrenade_Name">
@@ -2248,7 +2348,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>Incendiary Launcher Grenade</source>
-        <target state="new" />
+        <target state="needs-translation">Запальні гранати з кумулятивними головками</target>
       </segment>
     </unit>
     <unit id="::incendiaryLauncherGrenade" name="::incendiaryLauncherGrenade">
@@ -2258,7 +2358,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create incendiary launcher grenades using 25mm grenade cases, TNT, and napalm C.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створювати запальні гранати з кумулятивними головками, використовуючи гільзи гранат 25 мм, тротил та напалм C.</target>
       </segment>
     </unit>
     <unit id="::rocket_84_highExplosive_Name" name="::rocket_84_highExplosive_Name">
@@ -2268,7 +2368,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>84mm High-explosive Rocket</source>
-        <target state="new" />
+        <target state="needs-translation">84-мм кумулятивна ракета</target>
       </segment>
     </unit>
     <unit id="::rocket_84_highExplosive" name="::rocket_84_highExplosive">
@@ -2278,7 +2378,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create a high-explosive rocket by fashioning it from steel and filling it with an appropriate amount of TNT and hexogen, along with rocket propellant.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити кумулятивну ракету, виготовивши її зі сталі та заповнивши відповідною кількістю тротилу та гексогену, а також ракетним паливом.</target>
       </segment>
     </unit>
     <unit id="::rocket_84_kinetic_Name" name="::rocket_84_kinetic_Name">
@@ -2288,7 +2388,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>84mm Kinetic Energy Penetrator Rocket</source>
-        <target state="new" />
+        <target state="needs-translation">84-мм ракета з кінетичним ураженням</target>
       </segment>
     </unit>
     <unit id="::rocket_84_kinetic" name="::rocket_84_kinetic">
@@ -2298,7 +2398,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create a special kinetic rocket by fashioning it from tungsten steel and filling it with enough rocket propellant to carry it.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити спеціальну кінетичну ракету, виготовивши її з вольфрамової сталі та заповнивши достатньою кількістю ракетного палива, щоб її нести.</target>
       </segment>
     </unit>
     <unit id="::rocket_84_caveShaker_Name" name="::rocket_84_caveShaker_Name">
@@ -2308,7 +2408,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>84mm Cave Shaker Rocket</source>
-        <target state="new" />
+        <target state="needs-translation">84-мм ракета "Руйнівник печер"</target>
       </segment>
     </unit>
     <unit id="::rocket_84_caveShaker" name="::rocket_84_caveShaker">
@@ -2318,7 +2418,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create the mighty cave-shaker rocket by fashioning it from steel and filling it with a plentiful amount of TNT and hexogen, alongside rocket propellant.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити потужну ракету "Руйнівник печер", виготовивши її зі сталі та заповнивши великою кількістю тротилу та гексогену, а також ракетним паливом.</target>
       </segment>
     </unit>
     <unit id="::rocket_84_whitePhosphorus_Name" name="::rocket_84_whitePhosphorus_Name">
@@ -2328,7 +2428,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>84mm White Phosphorus Rocket</source>
-        <target state="new" />
+        <target state="needs-translation">84-мм ракета з білим фосфором</target>
       </segment>
     </unit>
     <unit id="::rocket_84_whitePhosphorus" name="::rocket_84_whitePhosphorus">
@@ -2338,7 +2438,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create the infamous white phosphorus rocket by fashioning it from steel and filling it with the said chemical. Of course, a certain amount of TNT is required to be added in order to spread the payload. Rocket propellant is also required for obvious reasons.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити ганебну ракету з білим фосфором, виготовивши її зі сталі та заповнивши цією хімічною речовиною. Звичайно, для розповсюдження бойової частини потрібно додати певну кількість тротилу. Ракетне паливо також потрібне з очевидних причин.</target>
       </segment>
     </unit>
     <unit id="::rocket_66_incendiary_Name" name="::rocket_66_incendiary_Name">
@@ -2348,7 +2448,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>66mm Incendiary Rocket</source>
-        <target state="new" />
+        <target state="needs-translation">66-мм запальна ракета</target>
       </segment>
     </unit>
     <unit id="::rocket_66_incendiary" name="::rocket_66_incendiary">
@@ -2358,7 +2458,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create a special 66mm incendiary rocket by fashioning it from steel and filling it with napalm C. Of course, a certain amount of TNT is required to be added in order to spread the payload. Rocket propellant is also required for obvious reasons.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити спеціальну 66-мм запальну ракету, виготовивши її зі сталі та заповнивши напалмом C. Звичайно, для розповсюдження бойової частини потрібно додати певну кількість тротилу. Ракетне паливо також потрібне з очевидних причин.</target>
       </segment>
     </unit>
     <unit id="::rocket_40_tandemCharge_Name" name="::rocket_40_tandemCharge_Name">
@@ -2368,7 +2468,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>40mm Tandem-charge Rocket</source>
-        <target state="new" />
+        <target state="needs-translation">40-мм ракета з тандемною бойовою частиною</target>
       </segment>
     </unit>
     <unit id="::rocket_40_tandemCharge" name="::rocket_40_tandemCharge">
@@ -2378,7 +2478,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>You can create a special 40mm high-explosive tandem-charge rocket by fashioning it from steel and filling it with an appropriate amount of TNT and hexogen, along with rocket propellant. You'll also need some mechanism to trigger the secondary fuse. Crossbow bolt triggers are commonly are used for this purpose as they are cheap and plentiful.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити спеціальну 40-мм кумулятивну ракету з тандемною бойовою частиною, виготовивши її зі сталі та заповнивши відповідною кількістю тротилу та гексогену, а також ракетним паливом. Вам також знадобиться механізм для спрацювання вторинного детонатора. Детонатори від арбалетних стріл зазвичай використовуються для цієї мети, оскільки вони дешеві та доступні.</target>
       </segment>
     </unit>
     <unit id="::lightMachineGun_Name" name="::lightMachineGun_Name">
@@ -2388,7 +2488,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>Light Machine Gun</source>
-        <target state="new" />
+        <target state="needs-translation">Легкий кулемет</target>
       </segment>
     </unit>
     <unit id="::lightMachineGun" name="::lightMachineGun">
@@ -2404,7 +2504,13 @@ It can be created from frame and barrel parts. The caliber is determined by the 
 LMG will also require either a box magazine or ammo belt. Heavier magazines will make the weapon require more strength from the user.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Легкий кулемет (ЛКМ) – це потужна автоматична зброя великого калібру з високою скорострільністю, але також з більшим розсіюванням куль та нижчою точністю на великих відстанях.
+
+Його можна створити з деталей рами та ствола. Калібр визначається стволом і може бути або 9 мм, або .44.
+
+Для ЛКМ також знадобиться або коробчастий магазин, або стрічка для боєприпасів. Більші магазини змусять користувача докладати більше зусиль.
+
+До зброї також можна додати ряд додаткових компонентів для подальшого покращення.</target>
       </segment>
     </unit>
     <unit id="::minigun_Name" name="::minigun_Name">
@@ -2414,7 +2520,7 @@ A number of optional components can also be added to further enhance the weapon.
       </mda:metadata>
       <segment state="translated">
         <source>Minigun</source>
-        <target state="new" />
+        <target state="needs-translation">Кулемет Гатлінга</target>
       </segment>
     </unit>
     <unit id="::minigun" name="::minigun">
@@ -2434,7 +2540,17 @@ The type of motor used will determine the dynamics of the weapon's barrel rotati
 It will also require an ammo belt. Heavier ammo belts will make the weapon require more strength from the user. A secondary ammo belt can be attached as an extension, but the additional weight can potentially make the weapon even harder to wield.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Кулемет Гатлінга – це потужна автоматична зброя великого калібру з неймовірною скорострільністю, коли він досягає повної швидкості обертання. Однак це відбувається за рахунок великого розсіювання куль та нижчої точності на великих відстанях.
+
+Для його належної роботи потрібна велика сила.
+
+Його можна створити з деталей рами, ствола та двигуна. Калібр визначається стволом і може бути або .44, або 12,7 мм.
+
+Тип використовуваного двигуна визначатиме динаміку обертання ствола зброї, а отже, і швидкість стрільби.
+
+Він також потребуватиме стрічки для боєприпасів. Більші стрічки для боєприпасів змусять користувача докладати більше зусиль. Додаткову стрічку для боєприпасів можна прикріпити як подовження, але додаткова вага потенційно може ускладнити поводження зі зброєю.
+
+До зброї також можна додати ряд додаткових компонентів для подальшого покращення.</target>
       </segment>
     </unit>
     <unit id="::parafibroticRegenerationCatalyst_Name" name="::parafibroticRegenerationCatalyst_Name">
@@ -2444,7 +2560,7 @@ A number of optional components can also be added to further enhance the weapon.
       </mda:metadata>
       <segment state="translated">
         <source>Parafibrotic Regeneration Catalyst</source>
-        <target state="new" />
+        <target state="needs-translation">Каталізатор парафібротичної регенерації</target>
       </segment>
     </unit>
     <unit id="::parafibroticRegenerationCatalyst" name="::parafibroticRegenerationCatalyst">
@@ -2454,7 +2570,7 @@ A number of optional components can also be added to further enhance the weapon.
       </mda:metadata>
       <segment state="translated">
         <source>You can create ampules of special regenerative concoction known as Parafibrotic Regeneration Catalyst, which can be used with the Technomedic exoskeleton suit. All you need is ampules, blood, organic gel electrolyte, morphine, and macrophage fluid.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете створити ампули спеціального регенеративного зілля, відомого як Каталізатор парафібротичної регенерації, який можна використовувати з екзоскелетом Техномедика. Вам знадобляться ампули, кров, органічний гель-електроліт, морфін та рідина макрофагів.</target>
       </segment>
     </unit>
   </file>

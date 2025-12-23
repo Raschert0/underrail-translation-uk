@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::LEMCO LC387 - ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO LC387 - ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::Welcome, P. Bridges::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, П. Бріджес::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Please select one of the following options: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, виберіть один з наступних варіантів: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Surveillance system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система спостереження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -52,7 +54,9 @@
         <source>::Surveillance system is online.
 
 Number of active security cameras in Nexus of Technology: $(context.loc_xpbl_rf_numberOfSecCamerasActive)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система спостереження онлайн.
+
+Кількість активних камер спостереження в Нексусі Технологій: $(context.loc_xpbl_rf_numberOfSecCamerasActive)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -62,7 +66,7 @@ Number of active security cameras in Nexus of Technology: $(context.loc_xpbl_rf_
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Disable the surveillance system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Вимкнути систему спостереження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -86,7 +90,21 @@ Level 9... Done.
 Logging... Done.
 
 Surveillance system disabled successfully..::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відключення системи спостереження...
+
+Рівень 0... Готово.
+Рівень 1... Готово.
+Рівень 2... Готово.
+Рівень 3... Готово.
+Рівень 4... Готово.
+Рівень 5... Готово.
+Рівень 6... Готово.
+Рівень 7... Готово.
+Рівень 8... Готово.
+Рівень 9... Готово.
+Логування... Готово.
+
+Систему спостереження успішно вимкнено..::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -96,7 +114,7 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Surveillance system is offline.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система спостереження офлайн.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -106,7 +124,7 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -116,7 +134,7 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Unknown error::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Невідома помилка::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -126,7 +144,7 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle north section gate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перемкнути ворота північної секції::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -136,7 +154,7 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle south section gate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перемкнути ворота південної секції::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -146,7 +164,7 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle south section gate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перемкнути ворота південної секції::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -158,7 +176,9 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
         <source>::Warning: Gate locked.
 
 You do not have permission to open this gate. Please contact a security supervisor for more details.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага: Ворота заблоковані.
+
+У вас немає дозволу відкривати ці ворота. Зверніться до керівника служби безпеки для отримання додаткової інформації.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -168,7 +188,7 @@ You do not have permission to open this gate. Please contact a security supervis
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Unlock the gate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Розблокувати ворота::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -180,7 +200,9 @@ You do not have permission to open this gate. Please contact a security supervis
         <source>::Security technology level south section gate is now unlocked.
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рівень технології безпеки воріт південної секції тепер розблоковано.
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -190,7 +212,7 @@ You do not have permission to open this gate. Please contact a security supervis
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -200,7 +222,7 @@ You do not have permission to open this gate. Please contact a security supervis
       </mda:metadata>
       <segment state="translated">
         <source>::Contact active security supervisor::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зв'язатися з активним керівником служби безпеки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -212,7 +234,9 @@ You do not have permission to open this gate. Please contact a security supervis
         <source>::No active security supervisors detected. There may be temporary communication problems preventing this. 
 
 Please try again later.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активних керівників служби безпеки не виявлено. Можуть бути тимчасові проблеми зі зв'язком, що перешкоджають цьому. 
+
+Будь ласка, спробуйте ще раз пізніше.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -222,7 +246,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Summon available Servants::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Призвати доступних Слуг::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -232,7 +256,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вийти::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -244,7 +268,9 @@ Please try again later.::&lt;end&gt;</source>
         <source>::Welcome, guest::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, гостю::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -10,7 +10,9 @@
         <source>::LEMCO Deep Sea Explorer
 
 Welcome, ERROR::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO Глибоководний дослідник
+
+Ласкаво просимо, ПОМИЛКА::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Welcome, ERROR::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Welcome, ERROR::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Main controls::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Основні елементи керування::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -42,7 +44,9 @@ Welcome, ERROR::&lt;end&gt;</source>
         <source>::Engine status: On
 Primary thrusters: 0 operational (2 total)
 Secondary thrusters: 5 operational (12 total)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус двигуна: Увімкнено
+Основні двигуни: 0 робочих (загалом 2)
+Додаткові двигуни: 5 робочих (загалом 12)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -52,7 +56,7 @@ Secondary thrusters: 5 operational (12 total)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -64,7 +68,9 @@ Secondary thrusters: 5 operational (12 total)::&lt;end&gt;</source>
         <source>::
 
 Diving to Abyssal Station Zero...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::
+
+Занурення до Абсальної станції нуль...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -74,7 +80,7 @@ Diving to Abyssal Station Zero...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -84,7 +90,7 @@ Diving to Abyssal Station Zero...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Debug] Dive::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Налагодження] Занурення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -94,7 +100,7 @@ Diving to Abyssal Station Zero...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Debug] Surface::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Налагодження] Підйом::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -104,7 +110,7 @@ Diving to Abyssal Station Zero...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Manual controls::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ручне керування::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -114,7 +120,7 @@ Diving to Abyssal Station Zero...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Dive::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Занурення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -126,7 +132,9 @@ Diving to Abyssal Station Zero...::&lt;end&gt;</source>
         <source>::Manual piloting disabled.
 
 Limited automatic piloting available through Course docking navigation system. See Navigation menu for more information.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ручне керування вимкнено.
+
+Доступне обмежене автоматичне керування через систему навігації док-станції. Див. меню Навігація для отримання додаткової інформації.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -136,7 +144,7 @@ Limited automatic piloting available through Course docking navigation system. S
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -153,7 +161,14 @@ Unable to dock at Abyssal Station Zero (CC: 020 476 118 263 2115) from this loca
 Calculating closest starting location... Done.
 
 Move vessel to coordinates L2 before trying again.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перевірка координат... Готово.
+Перевірка працездатності двигунів... Не вдалося.
+
+Неможливо пристикуватися до Абсальної станції нуль (CC: 020 476 118 263 2115) з цього місця.
+
+Обчислення найближчого початкового місця розташування... Готово.
+
+Перемістіть судно до координат L2, перш ніж спробувати знову.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -163,7 +178,7 @@ Move vessel to coordinates L2 before trying again.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Destination reached: Abyssal Station Zero (CC: 020 476 118 263 2115)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Прибуття до місця призначення: Абсальна станція нуль (CC: 020 476 118 263 2115)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -179,7 +194,13 @@ Obtaining gyrocompass information... Done.
 Plotting course... Done.
 
 Vessel is ready to dive to Abyssal Station Zero (CC: 020 476 118 263 2115)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перевірка координат... Готово.
+Перевірка працездатності двигунів... Успішно.
+Відправка сигналу підводним апаратам... 0 апаратів відповіли.
+Отримання інформації гірокомпаса... Готово.
+Прокладання курсу... Готово.
+
+Судно готове до занурення до Абсальної станції нуль (CC: 020 476 118 263 2115)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -189,7 +210,7 @@ Vessel is ready to dive to Abyssal Station Zero (CC: 020 476 118 263 2115)::&lt;
       </mda:metadata>
       <segment state="translated">
         <source>::Dive::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Занурення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -199,7 +220,7 @@ Vessel is ready to dive to Abyssal Station Zero (CC: 020 476 118 263 2115)::&lt;
       </mda:metadata>
       <segment state="translated">
         <source>::Surface::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підйом::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -209,7 +230,7 @@ Vessel is ready to dive to Abyssal Station Zero (CC: 020 476 118 263 2115)::&lt;
       </mda:metadata>
       <segment state="translated">
         <source>::Vessel is fully surfaced.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Судно повністю підняте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -225,7 +246,13 @@ Obtaining gyrocompass information... Done.
 Plotting course... Done.
 
 Vessel is ready to surface.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перевірка координат... Готово.
+Перевірка працездатності двигунів... Успішно.
+Відправка сигналу підводним апаратам... 2 апарати відповіли.
+Отримання інформації гірокомпаса... Готово.
+Прокладання курсу... Готово.
+
+Судно готове до підйому.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -235,7 +262,7 @@ Vessel is ready to surface.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Surface::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підйом::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -245,7 +272,7 @@ Vessel is ready to surface.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Navigation::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Навігація::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -255,7 +282,7 @@ Vessel is ready to surface.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Navigation::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Навігація::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -265,7 +292,7 @@ Vessel is ready to surface.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Course::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Курс::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -279,7 +306,11 @@ Vessel is ready to surface.::&lt;end&gt;</source>
 Automatic piloting mode: On
 
 Please input surface or submarine pen docking coordinates of your choosing. Coordinates can be obtained remotely through LIN or entered manually.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система курсу (Версія: 1.43.225)
+
+Автоматичний режим керування: Увімкнено
+
+Введіть координати док-станції поверхні або підводного човна на ваш вибір. Координати можна отримати дистанційно через LIN або ввести вручну.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -289,7 +320,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Set docking coordinates: Abyssal Station Zero (CC: 020 476 118 263 2115)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Встановити координати док-станції: Абсальна станція нуль (CC: 020 476 118 263 2115)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -299,7 +330,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Abyssal Station Zero (CC: 020 476 118 263 2115) docking coordinates set successfully.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Координати док-станції Абсальної станції нуль (CC: 020 476 118 263 2115) встановлено успішно.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -309,7 +340,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Connect to LIN::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підключитися до LIN::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -319,7 +350,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -329,7 +360,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Sonar::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Сонар::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -339,7 +370,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Sonar status: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус сонара: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -349,7 +380,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::On::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -359,7 +390,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Off::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнути::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -369,7 +400,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -379,7 +410,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::View screen::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Екран перегляду::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -389,7 +420,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -399,7 +430,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Radar::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Радар::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -409,7 +440,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -419,7 +450,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -429,7 +460,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::LEMCO Deep Sea Explorer::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO Глибоководний дослідник::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -439,7 +470,7 @@ Please input surface or submarine pen docking coordinates of your choosing. Coor
       </mda:metadata>
       <segment state="translated">
         <source>::Thruster status::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус двигунів::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -464,7 +495,22 @@ Secondary:
       Pitch 2: On
       Yaw 1: Off
       Yaw 2: On::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Основне: 
+      Сплеск 1: Вимк.
+      Сплеск 2: Вимк.
+Вторинне:
+      Сплеск 1 aux: Вимк.
+      Сплеск 2 aux: Увімк.
+      Хвиля 1: Вимк.
+      Хвиля 2: Увімк.
+      Підйом 1: Увімк.
+      Підйом 2: Вимк.
+      Перекат 1: Вимк.
+      Перекат 2: Вимк.
+      Тангаж 1: Вимк.
+      Тангаж 2: Увімк.
+      Рискання 1: Вимк.
+      Рискання 2: Увімк.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -474,7 +520,7 @@ Secondary:
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -484,7 +530,7 @@ Secondary:
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -496,7 +542,9 @@ Secondary:
         <source>::
 
 Surfacing...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::
+
+Спуск...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -510,7 +558,11 @@ Surfacing...::&lt;end&gt;</source>
 Warning: Primary thrusters out of order! Manual piloting disabled.
 
 Limited automatic piloting available through Course docking navigation system. See Navigation menu for more information.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::
+
+Увага: Основні двигуни не в порядку! Ручне керування вимкнено.
+
+Доступне обмежене автоматичне керування через систему навігації стикування курсу. Див. меню навігації для отримання додаткової інформації.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -520,7 +572,7 @@ Limited automatic piloting available through Course docking navigation system. S
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -530,7 +582,7 @@ Limited automatic piloting available through Course docking navigation system. S
       </mda:metadata>
       <segment state="translated">
         <source>::Navigation::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Навігація::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -540,7 +592,7 @@ Limited automatic piloting available through Course docking navigation system. S
       </mda:metadata>
       <segment state="translated">
         <source>::Life support::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Життєзабезпечення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -561,7 +613,18 @@ Lox supply: 0%
 Average temperature: 17°C
 
 Warning: Liquid oxygen supply is empty. Please refill Lox canisters at first available opportunity.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Життєзабезпечення
+
+Система очищення повітря: Увімкнено
+Система очищення води: Вимкнено
+Опалення: Увімкнено
+
+Вміст O2 за об'ємом: 20.87%
+Вміст CO2 за об'ємом: 0.34%
+Запас Lox: 0%
+Середня температура: 17°C
+
+Увага: Запас рідкого кисню порожній. Будь ласка, поповніть балони Lox при першій можливості.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -571,7 +634,7 @@ Warning: Liquid oxygen supply is empty. Please refill Lox canisters at first ava
       </mda:metadata>
       <segment state="translated">
         <source>::Air purification::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очищення повітря::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -581,7 +644,7 @@ Warning: Liquid oxygen supply is empty. Please refill Lox canisters at first ava
       </mda:metadata>
       <segment state="translated">
         <source>::Water purification::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очищення води::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
@@ -591,7 +654,7 @@ Warning: Liquid oxygen supply is empty. Please refill Lox canisters at first ava
       </mda:metadata>
       <segment state="translated">
         <source>::Heating::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Опалення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -601,7 +664,7 @@ Warning: Liquid oxygen supply is empty. Please refill Lox canisters at first ava
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -611,7 +674,7 @@ Warning: Liquid oxygen supply is empty. Please refill Lox canisters at first ava
       </mda:metadata>
       <segment state="translated">
         <source>::Arm controls::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування маніпулятором::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -621,7 +684,7 @@ Warning: Liquid oxygen supply is empty. Please refill Lox canisters at first ava
       </mda:metadata>
       <segment state="translated">
         <source>::Permeation sampler controls::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Елементи керування пробозабірником::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -631,7 +694,7 @@ Warning: Liquid oxygen supply is empty. Please refill Lox canisters at first ava
       </mda:metadata>
       <segment state="translated">
         <source>::Specifications::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Характеристики::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -658,7 +721,24 @@ Radar: L-R13-S SHF (3-10GHz) active phased array
 Sonar: L-SUS3 integrated system
 Depth sensor: LSDS-4
 Course docking navigation system version: 1.43.225::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Тип: Глибоководний дослідник
+Клас: Pterygotus
+VID: DSE-004
+Глибина проектування: 4000м
+Випробувальна глибина: 2700м
+Рушійна установка: Електричний двигун Battery-powered SubPrime L-SPR-K6 (6Kw)
+Водотоннажність: 12 тонн
+Основні двигуни: 2 кільцеві двигуни L-SMT-23
+Додаткові двигуни: 12 кільцевих двигунів L-SMT-11
+Максимальна швидкість: 10 км/год
+Максимальна витривалість: 48 годин
+Очищення повітря: Інтегрована система L-IAPS-7
+Очищення води: Інтегрована система L-WPS-3
+Маніпулятор: 2 LMA-19CS
+Радар: L-R13-S SHF (3-10GHz) активна фазова решітка
+Сонар: Інтегрована система L-SUS3
+Датчик глибини: LSDS-4
+Версія системи навігації курсового стикування: 1.43.225::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -668,7 +748,7 @@ Course docking navigation system version: 1.43.225::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

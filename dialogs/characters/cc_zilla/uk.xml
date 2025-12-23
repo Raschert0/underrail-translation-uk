@@ -10,7 +10,9 @@
         <source>::The young woman greets you with a broad smile, revealing an incisor gap as well as the fact that most of her lower jaw teeth are notably crooked, as if someone took a handful of differently colored teeth and then just pressed them into her gums until they stuck. Still, there is no doubt that this imperfect smile has a charming and unique quality. A greeting soon follows.::
 
 Ah, good day to you, $(#mister/madam). I'm Zilla, and you must be hungry!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Молода жінка вітає вас широкою посмішкою, відкриваючи щілину між передніми зубами, а також той факт, що більшість її нижніх зубів помітно криві, ніби хтось взяв жменю різнокольорових зубів, а потім просто втиснув їх у її ясна, поки вони не прилипли. Тим не менш, немає сумніву, що ця недосконала посмішка має чарівний і унікальний шарм. Незабаром слідує привітання.::
+
+Ах, доброго дня вам, $(#mister/madam). Я Зілла, і ви, мабуть, голодні!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Ah, good day to you, $(#mister/madam). I'm Zilla, and you must be hungry!&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Ah, good day to you, $(#mister/madam). I'm Zilla, and you must be hungry!&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>I *am* hungry. Let me see what you have. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я *дуже* голодний. Дозвольте мені подивитися, що у вас є. ::Торгуватися.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ Ah, good day to you, $(#mister/madam). I'm Zilla, and you must be hungry!&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>I'm hungry. Let me see what you have. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я голодний. Дозвольте мені подивитися, що у вас є. ::Торгуватися.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Ah, good day to you, $(#mister/madam). I'm Zilla, and you must be hungry!&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>Know anything about the buff black guy by the elevators?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи знаєте ви щось про кремезного чорношкірого хлопця біля ліфтів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -62,7 +64,9 @@ Ah, good day to you, $(#mister/madam). I'm Zilla, and you must be hungry!&lt;end
         <source>::She looks over, standing on her tiptoes to see just a bit better.::
 
 Oh, that's Wilkos, Nimble's conductor.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона озирається, стаючи на носочки, щоб краще роздивитися.::
+
+О, це Вілкос, диригент Німбла.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -72,7 +76,7 @@ Oh, that's Wilkos, Nimble's conductor.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Nimble]:: I'm nimble.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Німбл]:: Я Німбл.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -82,7 +86,7 @@ Oh, that's Wilkos, Nimble's conductor.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Uh... I'm sure you are. But no, I'm talking about &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гм... Я впевнений, що ти так думаєш. Але ні, я говорю про &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -92,7 +96,7 @@ Oh, that's Wilkos, Nimble's conductor.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Nimble, the Underrail Express train operator. Well, former. He retired some time ago.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Спритний, оператор поїзда "Експрес Підземного Шляху". Ну, колишній. Він вийшов на пенсію деякий час тому.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -104,7 +108,9 @@ Oh, that's Wilkos, Nimble's conductor.&lt;end&gt;</source>
         <source>He bought his own railcar, from what I heard, so maybe him and Wilkos are looking for a crew.
 
 But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він купив власний залізничний вагон, наскільки я чув, тож, можливо, він і Вілкос шукають команду.
+
+Але не цитуйте мене ніде. Я просто власник торгової лавки з їжею.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -114,7 +120,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Interesting. Know where I could find him?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цікаво. Знаєш, де я можу його знайти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -124,7 +130,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Beats me. Haven't seen any non-Underrail Express trains in this part of Upper Underrail.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не знаю. Не бачив жодного поїзда, окрім "Експресу Підземного Шляху", в цій частині Верхнього Підземного Шляху.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -134,7 +140,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Who's Nimble?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто такий Спритний?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -144,7 +150,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>C'mon, everyone knows &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Та всі знають &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -154,7 +160,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Do go on.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Продовжуйте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -164,7 +170,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Where did you say I could find Nimble again?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де ви сказали, що я можу знову знайти Спритного?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -174,7 +180,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not in this part of Upper Underrail, that's for sure.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не в цій частині Верхнього Підземного Шляху, це точно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -184,7 +190,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the Arena?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Арену?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -194,7 +200,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's the reason people come to Core City - to witness the most beautiful carnage available in Underrail! ::She laughs.:: Some say it's cruel and evil and all that nonsense, but all contestants are there voluntarily. *Voluntarily.* They fight 'cause they want the fame... and the coin.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це причина, чому люди приїжджають до Центрального Міста - щоб побачити найпрекраснішу бійню, доступну в Підземному Шляху! ::Вона сміється.:: Дехто каже, що це жорстоко та зловісно, і все таке нісенітницю, але всі учасники там добровільно. *Добровільно.* Вони б'ються, бо хочуть слави... і грошей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -204,7 +210,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So, if you got the time off to see some hardcore domination - check it out! You won't regret it!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тож, якщо у вас є час, щоб побачити жорстоке домінування - завітайте! Ви не пошкодуєте!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -214,7 +220,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You also won't regret tasting some of the food I've got to offer!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви також не пошкодуєте, скуштувавши трохи їжі, яку я можу запропонувати!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -224,7 +230,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How do you feel now that the invasion has ended?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви почуваєтесь зараз, коли вторгнення закінчилося?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -234,7 +240,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We haven't been turned into cyborgs and the business is going quite well after the blockade had been lifted, even at this station up here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нас не перетворили на кіборгів, і бізнес йде досить добре після зняття блокади, навіть на цій станції вгорі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -244,7 +250,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So I feel quite hardcore. ::She smiles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тож я почуваюся досить круто. ::Вона посміхається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -254,7 +260,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How do you feel about the Faceless invasion?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви думаєте про вторгнення Безликих?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -264,7 +270,7 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well... it's a weird situation. When I first heard that the Faceless were cutting us off from the North, I'm not gonna lie, I panicked. It's hardcore stuff - you know what I mean - with the tunnelers and all that nonsense.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну... це дивна ситуація. Коли я вперше почув, що Безликі відрізають нас від Півночі, я не буду брехати, я запанікував. Це крута штука - ви розумієте, що я маю на увазі - з тунельниками і всім цим нісенітницю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -276,7 +282,9 @@ But don't quote me on anything. I'm just a food stall owner.&lt;end&gt;</source>
         <source>The Praetorians managed to halt their advance for now, but I still got a bad feeling about it all. I heard the Faceless kidnap people and turn them into cyborgs - into more Faceless. 
 
 If that's true, then they aren't going to stop until we've all been converted!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Преторіанцям вдалося зупинити їхній наступ на даний момент, але я все одно маю погане відчуття з цього приводу. Я чув, як Безликі викрадають людей і перетворюють їх на кіборгів - на більше Безликих.
+
+Якщо це правда, то вони не зупиняться, поки не перетворять нас усіх!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -286,7 +294,7 @@ If that's true, then they aren't going to stop until we've all been converted!&l
       </mda:metadata>
       <segment state="translated">
         <source>Well, they ain't gonna catch me, no. I'm gonna drop off a ledge if they ever get into the city. This is all nonsense, hardcore nonsense...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, вони мене не спіймають, ні. Я зістрибну зі скелі, якщо вони коли-небудь потраплять у місто. Це все нісенітниця, крута нісенітниця...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -296,7 +304,7 @@ If that's true, then they aren't going to stop until we've all been converted!&l
       </mda:metadata>
       <segment state="translated">
         <source>Do you know Moe, by any chance? He has a stall on the lower level.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви випадково не знаєте Мо, чи маєте уявлення про нього? У нього є лавка на нижньому рівні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -308,7 +316,9 @@ If that's true, then they aren't going to stop until we've all been converted!&l
         <source>::The instant you mention *his* name, her so-far pleasant and amiable face gets shattered by an erupting volcano of emotions. Yet, she keeps silent, waiting for the inner boiling to die down. And soon enough, it does, allowing her fissured, charred face to revolve back to the same one as before. 
 
 Almost the same.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Щойно ви згадуєте *його* ім'я, її досі приємне та доброзичливе обличчя розбивається виверженням емоцій. Проте вона мовчить, чекаючи, поки внутрішнє кипіння вщухне. І незабаром це відбувається, дозволяючи її потрісканому, обвугленому обличчю повернутися до того самого, що й раніше.
+
+Майже того самого.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -320,7 +330,9 @@ Almost the same.::&lt;end&gt;</source>
         <source>::She speaks with a more reserved voice.:: 
 
 We ain't gonna talk about *him*. Is that understood? Let's pretend you never mentioned *him*, and all will be well... and hardcore.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона говорить більш стриманим голосом.::
+
+Ми не будемо говорити про *нього*. Це зрозуміло? Давайте прикинемося, що ви ніколи про *нього* не згадували, і все буде добре... і круто.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -330,7 +342,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>What's wrong? What did Moe ever do to you to deserve that much hate?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що не так? Що Мо зробив, щоб заслужити стільки ненависті?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -340,7 +352,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Do not make me repeat myself. We are *not* discussing... *him.*&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не змушуйте мене повторювати. Ми *не* обговорюємо... *його*.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -350,7 +362,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Whatever, woman. It's no big deal anyway. Let me ask something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре, жінко. Це все одно не має значення. Дозвольте мені запитати щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -360,7 +372,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>::Her glare fires up a bit but gets quickly extinguished. She doesn't respond, however.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Її погляд трохи спалахує, але швидко згасає. Вона не відповідає, однак.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -370,7 +382,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Understood. On to another topic.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зрозуміло. Перейдемо до іншої теми.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -380,7 +392,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>::She nods.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона киває.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -390,7 +402,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -400,7 +412,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>I gotta say, that strapping friend of yours in the white coat - &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я мушу сказати, твій крутий друг у білому халаті - &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -410,7 +422,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>tell him to drop by after the midnight train.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">скажіть йому зайти після опівнічного поїзда.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -420,7 +432,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Will do. But what I really wanted was...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зроблю. Але те, що я хотів насправді, було...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -430,7 +442,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>What can I get you this time?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що я можу вам запропонувати цього разу?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -440,7 +452,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>I'm sure he'll be delighted. Now...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я впевнений, він буде радий. А тепер...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -450,7 +462,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>::Nod and leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кивком прощається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -460,7 +472,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Errrm, actually, I gotta go.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Еррм, насправді, я мушу йти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -470,7 +482,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>fellow in the white coat - my, my, what a hardcore catch, girl.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">хлопець у білому халаті - мій, мій, яка крута здобич, дівчинко.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -480,7 +492,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Thanks. But what I really wanted was...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую. Але те, що я хотів насправді, було...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -490,7 +502,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Hands off, you. Now...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Руки геть від мене. Тепер...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -500,7 +512,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Hmpf. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хмф. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -510,7 +522,7 @@ We ain't gonna talk about *him*. Is that understood? Let's pretend you never men
       </mda:metadata>
       <segment state="translated">
         <source>Ah, customer! &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах, клієнте! &lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Evelyn says nothing, instead letting her angry, deranged stare do the talking.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Евелін нічого не каже, натомість дозволяє своєму розлюченому, божевільному погляду говорити.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::You find yourself in Evelyn's bedroom, feeling a strong headache and dizziness after a mere two drinks that weren't that strong at all - let alone enough for you to lose consciousness. As the dark curtain slowly lifts from your eyes, you are presented with a bone-chilling image: Evelyn is standing before you, pointing a large knife right at your face. 
 
 The semi-drugged, nauseating state you're in only enhances her transformation from beauty into beast, making the experience even more surreal: Her kind eyes have now become flaming furnaces emitting enough heat to turn your skin to liquid; her charming smile - a scrap metal shredder grinning at your impending doom, and her soft, full hair - strands of molten metal erupting from the tip of her head and flowing down her face.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви опиняєтесь у спальні Евелін, відчуваючи сильний головний біль і запаморочення після всього лише двох напоїв, які й не були такими міцними – не кажучи вже про те, щоб змусити вас втратити свідомість. Коли темна завіса повільно піднімається перед вашими очима, вам відкривається жахлива картина: Евелін стоїть перед вами, направляючи великий ніж прямо на ваше обличчя. 
+
+Напів-отруєний, нудотний стан, в якому ви перебуваєте, лише підсилює її перетворення з красивої жінки на звіра, роблячи цей досвід ще більш сюрреалістичним: Її добрі очі перетворилися на палаючі печі, що випромінюють достатньо тепла, щоб перетворити вашу шкіру на рідину; її чарівна посмішка – подрібнювач металобрухту, що посміхається вашій неминучій загибелі, а її м'яке, густе волосся – пасма розплавленого металу, що вириваються з кінчика її голови і стікають по її обличчю.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -32,7 +34,9 @@ The semi-drugged, nauseating state you're in only enhances her transformation fr
         <source>::Only as you recoil do you realize you have been undressed almost completely, which further exacerbates your position. After she watches you flounder about for a few moments, she finally decides to speak.::
 
 Oh, my sweet $(context.player.Name), how naive can you get. Now that I have you in my grasp, we're going to have so much fun! Well, at least I will - duh! ::After finishing her last sentence, she clenches her knife and moves toward you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Тільки коли ти відсмикуєшся, ти розумієш, що тебе майже повністю роздягли, що ще більше погіршує твоє становище. Після того, як вона спостерігає за твоїми спробами виплутатися кілька хвилин, вона нарешті вирішує заговорити.::
+
+О, мій солодкий $(context.player.Name), наскільки ти наївний. Тепер, коли я тримаю тебе у своїх руках, нам буде так весело! Ну, принаймні мені - очевидно! ::Закінчивши останнє речення, вона стискає ніж і рухається до тебе.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -42,7 +46,7 @@ Oh, my sweet $(context.player.Name), how naive can you get. Now that I have you 
       </mda:metadata>
       <segment state="translated">
         <source>::End Dialog.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кінець діалогу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -56,7 +60,11 @@ Oh, my sweet $(context.player.Name), how naive can you get. Now that I have you 
 She is the first one to speak.::
 
 Good day. May I help you somehow?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Молода, приваблива жінка здається єдиною присутньою в цьому тихому домі. Навіть з першого погляду зрозуміло, що ця жінка сяє, як діамант у відрі вугілля, порівняно з іншими жінками, яких ви бачили у Foundry досі. Її чудово витягнуте обличчя та струнка, але витончена фігура утворюють вражаюче зображення, яке, на жаль, затьмарюється однією незначною недосконалістю – легким набряком і темними колами навколо її втомлених зелених очей.
+
+Вона перша заговорила.::
+
+Доброго дня. Чи можу я вам чимось допомогти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -66,7 +74,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hi, my name's $(context.player.Name), I apologize if I'm disturbing you, but I'd just like to ask you a couple of questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, мене звати $(context.player.Name), перепрошую, якщо я вас турбую, але я хотів би задати вам кілька запитань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -76,7 +84,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::She smiles.:: Well, since you're so polite I suppose I'll have to indulge you. My name is Evelyn Ingram, $(context.player.Name). What would you like to talk to me about?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона посміхається.:: Ну, оскільки ви такі чемні, я думаю, я мушу вам поступитися. Мене звати Евелін Інгрем, $(context.player.Name). Про що б ви хотіли поговорити зі мною?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -96,7 +104,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Who are you and what do you do around here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто ти і що ти тут робиш?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -106,7 +114,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Ah, I don't think it would be very smart of me to discuss personal information with strangers... but you seem like an honest guy. Different than the ones I'm usually surrounded with.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах, я не думаю, що мені варто обговорювати особисту інформацію з незнайомцями… але ти здаєшся чесним хлопцем. Не таким, як ті, з ким я зазвичай оточена.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -126,7 +134,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm very sorry to hear that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені дуже шкода це чути.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -136,7 +144,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I was really shocked when he died. All was well until one day he suddenly fell, dying before he hit the floor. Doctor Stevenson told me that it was a heart attack; apparently he'd been overworked and overstressed and... slept too little. Not to mention the "quality" of living conditions here. In the end, all that got to him, leaving me to cope with... loneliness.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я була справді шокована, коли він помер. Все було добре, поки одного дня він раптово впав, померши до того, як торкнувся підлоги. Доктор Стівенсон сказав мені, що це був серцевий напад; очевидно, він перепрацював, був перенапружений і… недостатньо спав. Не кажучи вже про "якість" умов життя тут. Зрештою, все це його здолало, залишивши мене наодинці з… самотністю.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -146,7 +154,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Losing a man I loved like that left a hole in my heart I don't think I'll ever be able to fill again. I don't know... who knows, maybe it's time for me to move on. I *am* young and still have so much to live for...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Втрата людини, яку я кохала, залишила в моєму серці діру, яку, боюся, я ніколи не зможу заповнити. Я не знаю… хто знає, можливо, настав час мені рухатися далі. Я *ще* молода і маю так багато, заради чого жити…&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -156,7 +164,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::She sighs.:: It's... complicated. Maybe that's enough about that subject.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона зітхає.:: Це… складно. Можливо, цього достатньо про цю тему.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -166,7 +174,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm sorry. Maybe we should change the subject.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте. Можливо, нам варто змінити тему.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -176,7 +184,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Don't feel sorry. While it is... difficult for me to speak about it, sometimes it's good to speak about these things. And you seem like a good listener. Anyway...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не сумуй. Хоча мені… важко про це говорити, іноді корисно виговоритися. І ти здаєшся хорошою слухачкою. У будь-якому випадку…::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -186,7 +194,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Excuse me? I just met you and I'm not comfortable talking about private things with strangers.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте? Я щойно з вами познайомився і мені некомфортно обговорювати особисті речі з незнайомцями.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -196,7 +204,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>If you're going to ask me direct personal questions like that - I suggest you find someone else to interrogate.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви збираєтеся ставити мені такі прямі особисті запитання – я раджу вам знайти когось іншого для допиту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -206,7 +214,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>A beautiful woman like you should not be forced to sit alone in her home and wither away. I can make you company, if you don't have a problem with that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Такій красуні, як ти, не повинно доводитися сидіти самій вдома і в'янути. Я можу скласти тобі компанію, якщо ти не проти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -218,7 +226,9 @@ Good day. May I help you somehow?&lt;end&gt;</source>
         <source>::A charming smile slowly appears on her face.:: Not at all. Thank you for the compliment, but I don't consider myself *that* beautiful. Pretty seems more appropriate. But, you are right about me being alone... that is true, sadly.
 
 ::She pauses, letting her seductive stare convey her unspoken thoughts. After a few quiet moments, she turns away to grab a bottle of some seemingly expensive drink and shows it to you.:: Care for a drink?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::На її обличчі повільно з'являється чарівна посмішка.:: Зовсім ні. Дякую за комплімент, але я не вважаю себе *настільки* красивою. Красива – звучить більш доречно. Але ви праві щодо того, що я самотня… це правда, на жаль.
+
+::Вона робить паузу, дозволяючи своєму спокусливому погляду передати невисловлені думки. Після кількох тихих моментів вона відвертається, щоб взяти пляшку якогось, здається, дорогого напою і показує її вам.:: Хочете випити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -228,7 +238,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Have a drink with Evelyn.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Випити з Евелін.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -238,7 +248,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>A drink? Are you sure this isn't a misunderstanding?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Напій? Ти впевнений, що це не непорозуміння?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -248,7 +258,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well, let's see now... ::She smiles.:: First, I would like for you to have a nice drink with me, or several. After that... well, who knows, we'll see what happens after that, if you understand what I... mean.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, давайте подивимося… ::Вона посміхається.:: Спочатку я хотіла б, щоб ви випили зі мною, або кілька. А потім… ну, хто знає, подивимося, що станеться після цього, якщо ви розумієте, що я… маю на увазі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -258,7 +268,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sorry, but I'm going to have to say no.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, але я мушу відмовити.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -268,7 +278,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::All seductiveness instantly evaporates from her face, leaving behind only an expression of disappointment.:: Well, in that case, *I* am the one that should be sorry. Maybe it really was a misunderstanding. A woman like me can get lonely in a boring place like this, you know. I apologize for... this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Уся спокусливість миттєво зникає з її обличчя, залишаючи лише вираз розчарування.:: Ну, в такому разі, *я* повинна вибачитися. Можливо, це була просто непорозумілка. Такій жінці, як я, може бути самотньо в такому нудному місці, знаєш. Вибач за… це.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -278,7 +288,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Anyway, is there anything else you wanted or are we done?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У будь-якому випадку, чи є ще щось, чого ви хотіли, чи ми закінчили?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -288,7 +298,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How do you feel now that the mine has been reopened?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви почуваєтеся зараз, після того, як шахту знову відкрили?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -298,7 +308,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well, well, if it isn't the "boss" himself. The mayor and the chief want most of the glory for themselves, but *I* know who did all the hard work. It takes one brave, strong, capable man to do what you did. If you ever find a break from doing heroic deeds, you could perhaps find some time tell me all about your endeavors.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, ну, якщо це не сам "бос". Мер і начальник хочуть отримати більшу частину слави для себе, але *я* знаю, хто виконав всю важку роботу. Потрібна одна хоробра, сильна, здібна людина, щоб зробити те, що ти зробив. Якщо ти колись знайдеш перерву від героїчних вчинків, можливо, ти зможеш знайти час, щоб розповісти мені про всі свої пригоди.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -318,7 +328,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I heard people talking about it. I'm glad it was over quickly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я чула, як люди про це говорили. Я рада, що все закінчилося швидко.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -328,7 +338,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Good news.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хороші новини.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -338,7 +348,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Foundry?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про Фаундрі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -348,7 +358,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>About Foundry? Foundry is well known throughout Underrail for its rich mine, and because we're the largest exporter of iron in the region. That allows us to afford a strong defense, which we need if we are to defend ourselves from raiders. Unfortunately, Foundry is also the most polluted station in the region... and life expectancy isn't the best either. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щодо Фаундрі? Фаундрі добре відомий по всьому Андеррейлу завдяки своїй багатій шахті, і тому, що ми є найбільшим експортером заліза в регіоні. Це дозволяє нам дозволити собі сильну оборону, яка нам потрібна, щоб захиститися від рейдерів. На жаль, Фаундрі також є найзабрудненішою станцією в регіоні… і тривалість життя тут теж не найкраща.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -358,7 +368,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>To tell you the truth, I don't care much about this place. I'd leave it if I could.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щиро кажучи, мені не дуже важливо це місце. Я б покинула його, якби могла.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -368,7 +378,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You know, I don't feel like being a tour guide right now. Foundry has a rich mine, strong defence, pollution.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Знаєш, я не відчуваю себе в настрої бути екскурсоводом зараз. Фаундрі має багату шахту, сильну оборону, забруднення.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -388,7 +398,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What was I thinking! I'd like to have a drink with you - if the offer still stands?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Про що я думав! Я хотів би випити з тобою - якщо пропозиція все ще в силі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -398,7 +408,7 @@ Good day. May I help you somehow?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::She crosses her arms and takes a good look at you before speaking:: Do you really expect me to offer you a drink again, after what you did to me earlier?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона схрещує руки і уважно розглядає тебе, перш ніж заговорити:: Ти справді очікуєш, що я знову запропоную тобі випити, після того, як ти зі мною вчинив?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -420,7 +430,9 @@ Good day. May I help you somehow?&lt;end&gt;</source>
         <source>::She pauses for several seconds, alternately looking at you then away as she considers your words. Finally, she speaks.::
  
 I think today is your lucky day, $(context.player.Name). Usually I would not give anyone a second chance after doing what you did, but there's just something... special about you...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона робить паузу на кілька секунд, по черзі дивлячись на вас, а потім відводить погляд, обмірковуючи ваші слова. Нарешті, вона говорить.::
+
+Думаю, сьогодні ваш щасливий день, $(context.player.Name). Зазвичай я не давала б нікому другого шансу після того, що ви зробили, але в вас є щось... особливе...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -430,7 +442,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Well, no. You are right to be mad.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, ні. Ви маєте рацію, що розлючені.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -440,7 +452,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>I'm really, really sorry. I'll be good this time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені дуже, дуже шкода. Я буду чемним цього разу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -450,7 +462,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Do you know anything about creatures from the mine?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви щось знаєте про істот з шахти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -460,7 +472,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Not much, I've mostly heard people say those things look like they're made of rocks or something, but that's all I know. Luckily, I never had a chance to meet one in person and learn whether that description is true.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не багато, я здебільшого чула, як люди кажуть, що ці речі виглядають так, ніби зроблені з каменів або чогось подібного, але це все, що я знаю. На щастя, мені ніколи не доводилося зустрічати одну з них особисто і дізнаватися, чи правдивий цей опис.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -470,7 +482,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>And I hope I never meet one. You know, I'm sure the Foundry Guard situation will be resolved quickly, and the mine will be operational again.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І я сподіваюся, що ніколи не зустріну. Знаєте, я впевнена, що ситуацію з Foundry Guard вирішать швидко, і шахта знову запрацює.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -480,7 +492,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Are you bothered by those people from the slums? I mean, you live right next to them.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вас турбують ті люди з нетрів? Маю на увазі, ви живете прямо поруч з ними.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -490,7 +502,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Hmmm, they rarely even come out, and when they do, they don't bother me at all. Now, Messer on the other hand, our local butcher, is having some... difficulties with those people, as far as he tells me. I think you can figure out why a bunch of underfed bums would bother a butcher who's got a pen full of pigs in the back.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хммм, вони рідко навіть виходять, а коли виходять, то зовсім мене не турбують. Зараз, Мессер, з іншого боку, наш місцевий м’ясник, має деякі… труднощі з цими людьми, наскільки мені відомо. Думаю, ви можете здогадатися, чому зграя недоїдливих бродяг турбуватиме м’ясника, у якого в задній кімнаті повний хлів свиней.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -500,7 +512,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>And he is such a lovely man, Messer, and probably the only person I like talking to around here. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І він така чудова людина, Мессер, і, мабуть, єдина людина, з якою мені приємно розмовляти тут. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -510,7 +522,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>You seem pretty nice too. ::She smiles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви теж здаєтеся досить приємною людиною. ::Вона посміхається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -520,7 +532,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>I need to go. Bye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені треба йти. Бувай.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -530,7 +542,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>See you again. Bye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимося знову. Бувай.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -540,7 +552,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -550,7 +562,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Nice to meet you. I'm Evelyn. What do you need?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Приємно познайомитися. Я Евелін. Що вам потрібно?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -560,7 +572,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Hello, I'm $(context.player.Name). I came here to talk to you, if you don't mind.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, я $(context.player.Name). Я прийшов поговорити з вами, якщо ви не проти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -570,7 +582,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>Hello. I was just thinking about you, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт. Я щойно думала про вас, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -580,7 +592,7 @@ I think today is your lucky day, $(context.player.Name). Usually I would not giv
       </mda:metadata>
       <segment state="translated">
         <source>What is it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що таке?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

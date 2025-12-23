@@ -10,7 +10,9 @@
         <source>::The bald man seems to be scratching a small brownish growth on his head. He stops doing so when he notices you watching him.::
 
 Hey, $(#man/sister). Need something?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Лисий чоловік здається, чухає невелике коричневе утворення на голові. Він припиняє це робити, коли помічає, що ти на нього дивишся.::
+
+Гей, $(#чоловіче/сестро). Щось потрібно?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm looking for two men called Bogdan and Slavomir. Do you know where I can find them?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я шукаю двох чоловіків на ім'я Богдан і Славомір. Чи знаєте ви, де я можу їх знайти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Don't know them.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не знаю їх.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have money.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є гроші.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Eh, bre, don't speak about money in Drop Zone unless you want to lose it, $(#man/sister). Also, as I said, I can't help you. Don't know 'em.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ех, брате, не говори про гроші в Зоні падіння, якщо не хочеш їх втратити, $(#чоловіче/сестро). Та й, як я вже сказав, я не можу тобі допомогти. Не знаю їх.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Do you know anyone who knows where I can find them?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи знаєте ви когось, хто знає, де я можу їх знайти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -90,7 +92,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Are you sure?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви впевнені?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +102,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>But how am I going to find my cousins then?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">А як я тоді знайду своїх кузенів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hold on, bre, hold on. Cousins? That changes things. What's your name?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Почекай, брате, почекай. Кузени? Це змінює справу. Як тебе звати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -130,7 +132,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Brdomir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Брдомір.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -140,7 +142,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hmmm...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хммм...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I don't remember hearing Slavomir ever mention you... but he's got a big family. Are you from Brzostur's or Vanjisima's side?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не пам'ятаю, щоб Славомір згадував тебе... але у нього велика сім'я. Ти з роду Брзостура чи Ванджисима?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -160,7 +162,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Brzostur's.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Брзостура.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -170,7 +172,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Ah. Good. Welcome to the Drop Zone. Take care not to die.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах. Добре. Ласкаво просимо до Зони Висадки. Будь обережний, щоб не померти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -180,7 +182,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Anyway, Slavomir lives just here, through those doors by the ladder. ::He points to the shack next to him.:: That's his place. Bogdan's is somewhere up in the residential district, and he never comes here, the pipeworker. I haven't seen Slavomir in ages, though; maybe he's walking the pipes again.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До речі, Славомір живе тут неподалік, за тими дверима біля драбини. ::Він показує на халупу поруч із собою.:: Там його місце. Богдан десь у житловому районі, і він ніколи сюди не приходить, цей трубопровідник. Я вже давно не бачив Славоміра, хоча; може, він знову обходить труби.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -190,7 +192,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Walking the pipes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Обіходить труби?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -200,7 +202,7 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::A smile appears on his face, which soon turns into a laugh..:: Slavomir... He had this crazy idea to make a secret exit from his home. He got this, bre, safe house, but you gotta walk across some pipes to get to the other side, and there's only emptiness below you! Totally hardcore, bre! He said, in case the Faceless break through!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::На його обличчі з'являється посмішка, яка швидко перетворюється на сміх.:: Славомір... У нього була божевільна ідея зробити секретний вихід зі свого дому. Він зробив собі, брате, безпечний дім, але щоб дістатися на інший бік, потрібно пройти по трубах, а внизу лише порожнеча! Тотально хардкорно, брате! Він сказав, на випадок, якщо Безликі прорвуться!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -212,7 +214,9 @@ Hey, $(#man/sister). Need something?&lt;end&gt;</source>
         <source>I mean, *now* it's because of the Faceless! First it was because of a rathound invasion, then the Zone riots, then the Great Plague... and now this, bre! Slavomir - 'nuff said! You know what he's like.
 
 Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Маю на увазі, *зараз* це через Безликих! Спочатку була навала щурозаврів, потім заворушення в Зоні, потім Велика Чума... і тепер це, брате! Славомір - і сказано все! Ти знаєш, який він.
+
+У будь-якому випадку, почекай, я впевнений, він скоро покажеться.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -222,7 +226,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Is that some euphemism I'm not familiar with?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це якийсь евфемізм, з яким я не знайомий?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -232,7 +236,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No, no. But I can see why you'd think that. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, ні. Але я розумію, чому ти так подумав. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -242,7 +246,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Vanjisima's.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ванджисіма.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -252,7 +256,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Teglije.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тегліє.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -262,7 +266,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Razumislav.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Разуміслав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -272,7 +276,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Borkan.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Боркан.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -282,7 +286,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Dragoljubche.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Драголюбче.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -292,7 +296,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Jelenarija.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Єленарія.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -302,7 +306,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Stanomirka.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Станомірка.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -312,7 +316,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Jelisavetana.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Єлісаветана.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -322,7 +326,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Djurdjilijana.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Джурджиліяна.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -332,7 +336,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Marijabre.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Маріябре.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -342,7 +346,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll ask you something else then.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я запитаю тебе про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -352,7 +356,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sure.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -362,7 +366,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Very well. Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже добре. До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -372,7 +376,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -382,7 +386,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So, how's life?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">То як життя?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -392,7 +396,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Meh, it's the usual Drop Zone lifestyle. Poverty, hunger, death and all that. Totally hardcore. In the Zone, you need to surround yerself with the people you can trust, 'nuff said. That's the key to survival.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Та нічого особливого, звичайне життя в Зоні Висадки. Бідність, голод, смерть і все таке. Тотально хардкорно. У Зоні потрібно оточувати себе людьми, яким ти можеш довіряти, і все. Це ключ до виживання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -402,7 +406,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Although, I don't know where they all left... Odd.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хоча, я не знаю, куди вони всі поділися... Дивно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -412,7 +416,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Otherwise, you'd just get picked apart by pipeworking gangs or what have you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Інакше тебе просто розірвуть на шматки банди трубопровідників або щось таке.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -422,7 +426,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>See you around.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимось.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -432,7 +436,7 @@ Anyway, wait around, I'm sure he'll show himself soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yeah?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

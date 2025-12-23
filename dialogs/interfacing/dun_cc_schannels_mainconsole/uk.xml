@@ -10,7 +10,9 @@
         <source>::The light coming from the console's display illuminates the gratings on which you stand, catching your attention to look below. Down there, you see that this cabin you're in right now is on top of a large machine with countless coupled gears and long pipes all leading to the head of the engine. The observation point from which you stand doesn't allow you to see the bottom of this massive motor which is used to run the intricate hanging crane system outside. 
 
 The display on the console showcases two green graphs, one on each monitor, with several large red circles, seemingly placed at random all throughout the scheme. These dots most likely represent the positions of the crane's many lifting arms available at your disposal. Some sections at both monitors are starting to fade out, the others outright not showing up. In the top right corner of the left screen you can see what seems to be a power bar, and it's showing a number: *21*. In between the two large monitors is a third one which shows two large rectangles on it. However, the diminished visuals there leave you with no useful information other than the fact that they are pulsating in orange color.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Світло від дисплея консолі освітлює решітки, на яких ви стоїте, привертаючи вашу увагу подивитися вниз. Там, внизу, ви бачите, що кабіна, в якій ви зараз знаходитесь, розташована над величезною машиною з незліченною кількістю з’єднаних шестерень і довгими трубами, які ведуть до головки двигуна. Оглядова точка, з якої ви стоїте, не дозволяє побачити дно цього масивного двигуна, який використовується для роботи складної системи підвісних кранів зовні.
+
+Дисплей на консолі показує два зелені графіки, по одному на кожному моніторі, з кількома великими червоними колами, які, здається, розташовані випадковим чином по всій схемі. Ці точки, ймовірно, представляють положення багатьох підйомних рук крана у вашому розпорядженні. Деякі розділи на обох моніторах починають зникати, інші взагалі не відображаються. У верхньому правому куті лівого екрану ви можете побачити те, що здається індикатором живлення, і на ньому відображається число: *21*. Між двома великими моніторами знаходиться третій, на якому відображаються два великі прямокутники. Однак приглушене зображення там не дає вам жодної корисної інформації, окрім того, що вони пульсують помаранчевим кольором.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -24,7 +26,11 @@ The display on the console showcases two green graphs, one on each monitor, with
 ::This vantage point allows you to see very far away. By leaning back and forth you can observe every section of the room. Outside the double doors you've walked in is a wide open clear area suitable for lowering anything you can pick up with the crane.::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кількама рухами ви очищаєте клавіатуру від накопиченого пилу. Літери на них збереглися, і вам не потрібно багато часу, щоб розібратися в елементах керування.::
+
+::Ця оглядова точка дозволяє вам бачити дуже далеко. Нахиляючись вперед і назад, ви можете спостерігати за кожною частиною кімнати. За подвійними дверима, через які ви зайшли, знаходиться широка відкрита зона, придатна для опускання будь-чого, що ви можете підняти краном.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -34,7 +40,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -46,7 +52,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Power display: $(context.loc_dun_cc_sChannels_craneUses). The console is functional.::
 
 ::Clear trash from: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Індикатор живлення: $(context.loc_dun_cc_sChannels_craneUses). Консоль функціонує.::
+
+::Очистити сміття з: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -56,7 +64,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::North channel.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Північний канал.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -66,7 +74,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Use the crane to: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовувати кран для: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -76,7 +84,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Bring over the western floating barrel.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перенести західну плаваючу бочку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -88,7 +96,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage pick up the barrel and bring it in front of the cabin. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається підняти бочку і піднести її до кабіни.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -98,7 +108,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Bring over the floating corpse in the east.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перенести плаваючий труп на сході.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -110,7 +120,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage pick up the box and bring it in front of the cabin. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається підняти коробку і піднести її до кабіни.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -120,7 +132,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Back.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -130,7 +142,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::South channel.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Південний канал.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -140,7 +152,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Use the crane to: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовувати кран для: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -150,7 +162,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Bring over the western floating barrel.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перенести західну плаваючу бочку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -162,7 +174,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage pick up the barrel and bring it in front of the cabin. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається підняти бочку і піднести її до кабіни.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -172,7 +186,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Bring over the eastern floating box.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перенести східну плаваючу коробку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -184,7 +198,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage pick up the box and bring it in front of the cabin. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається підняти коробку і піднести її до кабіни.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -194,7 +210,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Clear the obstacle next to most southern point of the section.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити перешкоду біля найбільш південної точки секції.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -206,7 +222,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to clear the obstacle. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається очистити перешкоду.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -216,7 +234,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Middle channel. ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Середній канал.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -226,7 +244,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Use the crane to: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовувати кран для: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -236,7 +254,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Bring over the northen floating box.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перенести північну плаваючу коробку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -248,7 +266,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage pick up the box and bring it in front of the cabin. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається підняти коробку і піднести її до кабіни.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -258,7 +278,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Bring over the southern floating barrel.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перенести південну плаваючу бочку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -270,7 +290,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage pick up the barrel and bring it in front of the cabin. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається підняти бочку і піднести її до кабіни.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -280,7 +302,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::East platform.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Східна платформа.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -290,7 +312,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Use the crane to: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовувати кран для: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -300,7 +322,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Clear the obstacle next to the north sewage pool.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити перешкоду біля північного каналізаційного басейну.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -312,7 +334,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to clear the obstacle. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається очистити перешкоду.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -322,7 +346,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Clear the obstacle next to the south sewage pool.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити перешкоду біля південного каналізаційного басейну.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -334,7 +358,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to clear the obstacle. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається очистити перешкоду.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -344,7 +370,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Bring over the floating barrel which is inside the southern sewage pool.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перенести плаваючу бочку, яка знаходиться всередині південного каналізаційного басейну.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -356,7 +382,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to clear the obstacle. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається очистити перешкоду.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -366,7 +394,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::West platform.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Західна платформа.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -376,7 +404,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Use the crane to: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовувати кран для: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -386,7 +414,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Clear the trash which is covering the northen sewage pool and bring the box closer to you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити сміття, яке покриває північний каналізаційний басейн, і піднести коробку ближче до вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -398,7 +426,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to remove the obstacles and move the box closer to the cabin. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається видалити перешкоди і підсунути коробку ближче до кабіни.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -408,7 +438,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Clear the trash in the middle, which is east from the small console.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити сміття в середині, яке знаходиться на схід від маленької консолі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -420,7 +450,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to remove the trash. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається видалити сміття.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -430,7 +462,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Clear the trash in the middle, which is south from the small console.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити сміття в середині, яке знаходиться на південь від маленької консолі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -442,7 +474,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to remove the trash. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається видалити сміття.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -452,7 +486,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Clear the crates in the south, which are east from the sewage pool.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити ящики на півдні, які знаходяться на схід від каналізаційного басейну.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -464,7 +498,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to remove the crates. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається видалити ящики.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -474,7 +510,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Clear the trash in the south, which is south from the sewage pool.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити сміття на півдні, яке знаходиться на південь від каналізаційного басейну.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -486,7 +522,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage to clear the obstacle. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається очистити перешкоду.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -496,7 +534,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Bring over the floating box which is inside the southern sewage pool.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перенести плаваючу коробку, яка знаходиться всередині південного каналізаційного басейну.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -508,7 +546,9 @@ The display on the console showcases two green graphs, one on each monitor, with
         <source>::Using the crane you manage pick up the box and bring it in front of the cabin. ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За допомогою крана вам вдається підняти коробку і піднести її до кабіни.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -518,7 +558,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залишити.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -528,7 +568,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Power display: $(context.loc_dun_cc_sChannels_craneUses). The console is no longer responding to any of your inputs. It has self locked itself.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Індикатор живлення: $(context.loc_dun_cc_sChannels_craneUses). Консоль більше не реагує на жоден з ваших вхідних даних. Вона самостійно заблокувалася.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -538,7 +578,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залишити.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -548,7 +588,7 @@ The display on the console showcases two green graphs, one on each monitor, with
       </mda:metadata>
       <segment state="translated">
         <source>::Most of the display has been turned off. Little what was left can be barely seen as it's mostly faded out. All of the controls have become unresponsive. All three monitors share a common message: Power Critical!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Більшість дисплея вимкнено. Те, що залишилося, ледь видно, оскільки воно в основному згасло. Всі елементи керування стали нечутливими. Всі три монітори мають спільне повідомлення: Критичний рівень живлення!::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>
