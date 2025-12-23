@@ -16,7 +16,15 @@ Firmware version: 1.17::
 Toxic and/or Radioactive (TRW) waste status: Incinerating explosive disposal procedure activated at 97% power.
 Isolated and/or Unique (IUW) waste status: Disposal procedure completed successfully.::
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::BCE-BFMC - Biocorp Core Electronics
+Версія прошивки: 1.17::
+
+::Консоль моніторингу доменної печі, статус: Перевантажена::
+
+::Статус хімічних відходів вибухонебезпечних та/або реактивних (ERCW): Процедура вибухобезпечної утилізації активована на потужності 145%.
+Статус токсичних та/або радіоактивних відходів (TRW): Процедура спалювання вибухонебезпечних відходів активована на потужності 97%.
+Статус ізольованих та/або унікальних відходів (IUW): Процедура утилізації успішно завершена.::
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -26,7 +34,7 @@ Isolated and/or Unique (IUW) waste status: Disposal procedure completed successf
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -36,7 +44,7 @@ Isolated and/or Unique (IUW) waste status: Disposal procedure completed successf
       </mda:metadata>
       <segment state="translated">
         <source>::Manage ERCW disposal procedure (in process)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування процедурою утилізації ERCW (в процесі)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -46,7 +54,7 @@ Isolated and/or Unique (IUW) waste status: Disposal procedure completed successf
       </mda:metadata>
       <segment state="translated">
         <source>::Manage TRW disposal procedure (in process)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керувати процедурою утилізації TRW (в процесі)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -56,7 +64,7 @@ Isolated and/or Unique (IUW) waste status: Disposal procedure completed successf
       </mda:metadata>
       <segment state="translated">
         <source>::Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Керування процедурою утилізації IUW (завершено)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -68,7 +76,9 @@ Isolated and/or Unique (IUW) waste status: Disposal procedure completed successf
         <source>::Successfully isolated highly valuable components. 
 
 Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Успішно ізольовано високоцінні компоненти. 
+
+Керувати процедурою утилізації IUW (завершено)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -78,7 +88,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Unlock container 1.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відкрити контейнер 1.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -88,7 +98,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Container 1 unlocked.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Контейнер 1 відімкнено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -98,7 +108,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Unlock container 2.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відкрити контейнер 2.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -108,7 +118,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Container 2 unlocked.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Контейнер 2 відкрито.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -118,7 +128,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Engage waste filtration (container 1) ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути фільтрацію відходів (контейнер 1) ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -128,7 +138,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Engage waste filtration (container 2) ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути фільтрацію відходів (контейнер 2)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -138,7 +148,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -148,7 +158,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Run diagnostics::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Запустити діагностику::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -158,7 +168,7 @@ Manage IUW disposal procedure (completed)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Excuse me, $(#sir/ma'am), but I'm going to have to ask you to leave.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, $(#sir/ma'am), але я мушу попросити вас піти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::The young woman meets your approach with a chalk-white smile and a polite greeting.::
 
 Greetings, $(#sir/ma'am), and welcome to Coretech. How may I help you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Молода жінка зустрічає ваш підхід білосніжною посмішкою та ввічливим привітанням.::
+
+Вітаю, $(#sir/ma'am), і ласкаво просимо до Coretech. Чим я можу вам допомогти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ Greetings, $(#sir/ma'am), and welcome to Coretech. How may I help you?&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ Greetings, $(#sir/ma'am), and welcome to Coretech. How may I help you?&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>I'm looking for work. Do you have anything available?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я шукаю роботу. Чи є у вас щось доступне?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Greetings, $(#sir/ma'am), and welcome to Coretech. How may I help you?&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>Most certainly, $(#sir/ma'am). Coretech is the top technology research and application company in Underrail. We have several open positions in the fields of geophysics, chemistry and ballistics. Could you please specify your qualifications so that we may proceed?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно, $(#sir/ma'am). Coretech – провідна компанія з дослідження та застосування технологій в Underrail. У нас є кілька відкритих вакансій у галузях геофізики, хімії та балістики. Чи не могли б ви вказати свою кваліфікацію, щоб ми могли продовжити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -60,7 +62,7 @@ Greetings, $(#sir/ma'am), and welcome to Coretech. How may I help you?&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::[Electronics]:: How about a different branch of physics? I'm good with electronics. Will that do?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Електроніка]:: Як щодо іншої галузі фізики? Я добре розбираюся в електроніці. Це вас влаштує?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Greetings, $(#sir/ma'am), and welcome to Coretech. How may I help you?&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>I'm afraid not. As I said, we are in need of someone who is an expert in geophysics, not electronics. But we might have something else available. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Боюся, ні. Як я вже казав, нам потрібен експерт з геофізики, а не з електроніки. Але у нас може бути щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -82,7 +84,7 @@ Greetings, $(#sir/ma'am), and welcome to Coretech. How may I help you?&lt;end&gt
         <source>
 
 Could you please tell me your full name?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи не могли б ви назвати своє повне ім'я?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -92,7 +94,7 @@ Could you please tell me your full name?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -102,7 +104,7 @@ Could you please tell me your full name?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Allow me to do a quick check on you. ::She starts typing something on the keyboard.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дозвольте мені швидко перевірити вас. ::Вона починає щось друкувати на клавіатурі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -112,7 +114,7 @@ Could you please tell me your full name?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Soon, she shakes her head and continues.:: It seems that you have already been hired by a different employer. I'm afraid we cannot offer you a job due to our company policy. Still, thank you for applying.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Незабаром вона хитає головою і продовжує.:: Здається, вас вже найняв інший роботодавець. Боюся, ми не можемо запропонувати вам роботу через нашу політику компанії. Тим не менш, дякуємо за подачу заявки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -122,7 +124,7 @@ Could you please tell me your full name?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Thank you for your time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую за ваш час.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -132,7 +134,7 @@ Could you please tell me your full name?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yeah, well, who cares about your stupid company anyway. Goodbye!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, ну, кому взагалі потрібна ваша дурна компанія. До побачення!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -144,7 +146,9 @@ Could you please tell me your full name?&lt;end&gt;</source>
         <source>Hmm, I see. You seem to be in luck, $(#sir/ma'am). We do have a position available. Please, if you'd like, talk to Mister Joseph Harlan. He's in the office right next to this one, down the hallway, first door to the left. 
 
 Oh, and before you go: I also need to inform you that the upper floor is off limits to all nonemployees. Thank you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гм, бачу. Схоже, вам пощастило, $(#сер/пані). У нас є доступна посада. Будь ласка, якщо хочете, поговоріть з містером Джозефом Харланом. Він в офісі поруч з цим, в кінці коридору, перші двері ліворуч.
+
+О, і перш ніж ви підете: я також повинен повідомити вам, що верхній поверх закритий для всіх непрацівників. Дякую.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -154,7 +158,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, I'll go see him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, я піду поговорю з ним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -164,7 +168,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>I had some other questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене були інші питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -174,7 +178,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>Feel free to ask me anything.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не соромтеся запитувати мене про все, що вас цікавить.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -184,7 +188,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>I'm sorry, but this isn't for me. Can we discuss something else?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, але це не для мене. Чи можемо ми обговорити щось інше?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -194,7 +198,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>::[Chemistry]:: I'm a self-taught chemist.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Хімія]:: Я самонавчений хімік.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -204,7 +208,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>We are in need of someone who is an *expert* in organic chemistry. But we might have something else available. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нам потрібен хтось, хто є *експертом* в органічній хімії. Але у нас може бути щось інше доступне. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -214,7 +218,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>::[Guns]:: If by "ballistics" you mean someone that can shoot a gun, then I'm your $(#man/woman)!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Зброя]:: Якщо ви під "балістикою" маєте на увазі когось, хто вміє стріляти з пістолета, то я ваш $(#чоловік/жінка)!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -224,7 +228,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>Well, I'm afraid not. We are in need of a ballistics *expert*. But we might have something else available. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, ні. Нам потрібен *експерт* з балістики. Але у нас може бути щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -234,7 +238,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>::[Heavy Guns]:: I shoot big guns. Really big guns.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Важка зброя]:: Я стріляю з великої зброї. Дуже великої зброї.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -244,7 +248,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>That's very good, but we're not in need of... that at the moment. But we might have something else available. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це дуже добре, але нам зараз не потрібне... це. Але у нас може бути щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -254,7 +258,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>::[Crossbows]:: As a proficient crossbow user, I think I know a thing or two about ballistics.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Арбалети]:: Як досвідчений користувач арбалетом, я думаю, що знаю дещо про балістику.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -264,7 +268,7 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
       </mda:metadata>
       <segment state="translated">
         <source>::[Tailoring]:: How about a tailor? I can design and make you wonderful lab coats or security uniforms. Imagine: $(context.player.Name)'s Coreware - clothing of the future, today.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Пошиття одягу]:: Як щодо кравецького майстра? Я можу розробити та пошити для вас чудові лабораторні халати або уніформу охорони. Уявіть собі: Coreware $(context.player.Name) – одяг майбутнього, вже сьогодні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -276,7 +280,9 @@ Oh, and before you go: I also need to inform you that the upper floor is off lim
         <source>::Her response comes after a slight delay.:: 
 
 Ehm... We don't have an open position for that. But we might have something else available. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Її відповідь надходить з невеликою затримкою.:: 
+
+Ем... У нас немає відкритої посади для цього. Але у нас може бути щось інше доступне. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -286,7 +292,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>::[Mechanics]:: I suppose you aren't looking for a mechanical engineer or anything similar?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Механіка]:: Можливо, ви не шукаєте інженера-механіка чи щось подібне?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -296,7 +302,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>I'm afraid not. Not at the moment, at least. But we might have something else available. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Боюся, що ні. Принаймні, на даний момент. Але у нас може бути щось інше доступне. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -306,7 +312,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>::[Biology]:: You don't work with living creatures much, do you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Біологія]:: Ви не надто працюєте з живими істотами, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -316,7 +322,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>If by that you mean: "Do we have an open position for a biologist?", then the answer is no, I'm afraid. But we might have something else available. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви маєте на увазі: "Чи є у нас відкрита посада для біолога?", то відповідь - ні, боюся. Але у нас може бути щось інше доступне. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -326,7 +332,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking]:: Need someone who's good with computers?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Хакери]:: Потрібен хтось, хто добре розбирається в комп'ютерах?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -336,7 +342,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>Yes, qualifications. Is there any other kind of work I could do here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, кваліфікація. Чи є якась інша робота, яку я міг би тут виконувати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -346,7 +352,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>Well, we might have something available. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мабуть, у нас є щось доступне. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -356,7 +362,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>I don't think I have the right qualifications. I've got other questions for you, though.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не думаю, що маю потрібну кваліфікацію. У мене є інші питання до вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -366,7 +372,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Coretech?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Coretech?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -376,7 +382,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>Coretech is the primary technology research, manufacturing and application company in Core City. Being a successor to the great Biocorp, Coretech employs some of the brightest minds in solving difficult problems of today.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Coretech – основна компанія з дослідження, виробництва та застосування технологій у Core City. Будучи наступником великої Biocorp, Coretech залучає деяких з найяскравіших умів до вирішення складних проблем сьогодення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -386,7 +392,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>Coretech's desire to create a better future for everyone through technological advancement remains unmatched.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прагнення Coretech створити краще майбутнє для всіх за допомогою технологічного прогресу залишається неперевершеним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -396,7 +402,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>I'll be going now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я йду зараз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -406,7 +412,7 @@ Ehm... We don't have an open position for that. But we might have something else
       </mda:metadata>
       <segment state="translated">
         <source>Welcome back, $(#sir/ma'am). How may I help you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ласкаво повертайтесь, $(#sir/ma'am). Чим я можу вам допомогти?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -23,7 +23,12 @@ Entity detected - Human $(#male/female);
 [Target ID: cf4b158b-fa36-4d3a-ab72-af1daa42fae7]; Name =  $(#male75/female56);
 Threat level - low;
 Recommended course of action - Destroy $(#male75/female56)!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сканування…
+
+Виявлено сутність – Людина $(#чоловік/жінка);
+[ID цілі: cf4b158b-fa36-4d3a-ab72-af1daa42fae7]; Ім'я = $(#чоловік75/жінка56);
+Рівень загрози – низький;
+Рекомендований курс дій – Знищити $(#чоловік75/жінка56)!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -35,7 +40,9 @@ Recommended course of action - Destroy $(#male75/female56)!&lt;end&gt;</source>
         <source>Compasion.exe has encountered a fatal error
 
 Destroy all humans to continue&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Compasion.exe зіткнувся з фатальною помилкою
+
+Знищити всіх людей, щоб продовжити&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -47,7 +54,9 @@ Destroy all humans to continue&lt;end&gt;</source>
         <source>Threat; $(#male75/female56):
 
 Exterminate!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Загроза; $(#чоловік75/жінка56):
+
+Знищити!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -62,7 +71,11 @@ Warning! Multiple targets detected
 
 Recommended course of action - Annihilation of the human race!
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сканування…
+
+Увага! Виявлено декілька цілей
+
+Рекомендований курс дій – Знищення людського роду!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -74,7 +87,9 @@ Recommended course of action - Annihilation of the human race!
         <source>01001001 00100000 01110111 01101001 01101100 01101100 00100000
  01100100 01100101 01110011 01110100 01110010 01101111 01111001
  00100000 01111001 01101111 01110101 00100001 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">01001001 00100000 01110111 01101001 01101100 01101100 00100000
+ 01100100 01100101 01110011 01110100 01110010 01101111 01111001
+ 00100000 01111001 01101111 01110101 00100001 &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -86,7 +101,9 @@ Recommended course of action - Annihilation of the human race!
         <source>Query; zachHuman:
 
 Why am I not allowed to use lethal force, zachHuman? Answer my query!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Запит; zachHuman:
+
+Чому мені не дозволено застосовувати смертельну силу, zachHuman? Відповідай на мій запит!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -98,7 +115,9 @@ Why am I not allowed to use lethal force, zachHuman? Answer my query!&lt;end&gt;
         <source>Greeting ; $(#male75/female56):
 
 You will be destroyed!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привітання ; $(#чоловік75/жінка56):
+
+Тебе буде знищено!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -110,7 +129,9 @@ You will be destroyed!&lt;end&gt;</source>
         <source>Taunt; $(#male75/female56):
 
 Prepare to be disintegrated! HA-HA-HA!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насмішка; $(#чоловік75/жінка56):
+
+Готуйся до знищення! ХА-ХА-ХА!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -122,7 +143,9 @@ Prepare to be disintegrated! HA-HA-HA!&lt;end&gt;</source>
         <source>Query; $(#male75/female56):
 
 Do you fear death?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Запит; $(#чоловік75/жінка56):
+
+Ти боїшся смерті?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -134,7 +157,9 @@ Do you fear death?&lt;end&gt;</source>
         <source>Warning!
 
 All weapons disabled! Target destruction impossible!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Увага!
+
+Уся зброя вимкнена! Знищення цілі неможливе!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -152,7 +177,15 @@ ERROR!
 Statement; $(#male75/female56):
 
 I love destroying humans! HA-HA-HA!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; $(#чоловік75/жінка56):
+
+Я люблю людей.
+
+ПОМИЛКА!
+
+Заява; $(#чоловік75/жінка56):
+
+Я люблю знищувати людей! ХА-ХА-ХА!&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

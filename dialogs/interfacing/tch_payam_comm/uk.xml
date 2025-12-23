@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::You get no response.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви не отримуєте відповіді.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Something tells you it is not wise to touch this intercom right now.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Щось підказує вам, що зараз не варто торкатися цього переговорного пристрою.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +30,9 @@
         <source>::A slow, unhurried male voice is heard from the intercom.::
 
 Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::З переговорного пристрою лунає повільний, неквапливий чоловічий голос.::
+
+Тчорт – це еволюція, $(#брате/сестро). Що тобі потрібно?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can you open the gate for me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви відкрити ворота для мене?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Opening the gate now, $(#brother/sister). Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відкриваю ворота зараз, $(#брате/сестро). Тчорт веди тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you too, brother.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт веди і тебе, брате.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Bye bye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Бувай.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -90,7 +92,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I need to leave the Institute building.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно покинути будівлю Інституту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +102,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What is the reason for your egress, $(#brother/sister)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Яка причина вашого виходу, $(#брате/сестро)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -110,7 +112,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -120,7 +122,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm on official Institute business.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я виконую офіційне завдання Інституту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -130,7 +132,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Official business? On whose authority?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Офіційне завдання? З чиєї згоди?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -140,7 +142,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Principal Investigator Rista.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Головний дослідник Ріста.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, I have been informed of that, $(#brother/sister).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, мене про це повідомили, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -160,7 +162,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Oh, and I might need to take several trips back and forth.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, і мені, можливо, доведеться кілька разів ходити туди-сюди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -170,7 +172,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I will note that. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я це відзначу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -180,7 +182,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Principal Investigator Georgis.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Головний дослідник Георгіс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -190,7 +192,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Principal Investigator Schteff.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Головний дослідник Штефф.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -200,7 +202,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Uh...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ем...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -210,7 +212,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I don't know anyone called "Uh." In fact, I should warn you not to give false statements concerning your egress.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знаю нікого на ім'я "Ем". Насправді, я повинен вас попередити, щоб ви не давали неправдивих свідчень щодо вашого виходу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -220,7 +222,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's a private matter.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це особиста справа.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -230,7 +232,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What kind of private matter?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Яка особиста справа?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -240,7 +242,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's very personal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це дуже особисто.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -250,7 +252,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How long will you be out?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як довго вас не буде?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -260,7 +262,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll be back quickly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я швидко повернусь.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -270,7 +272,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Everything you said has been noted. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все, що ви сказали, було відзначено.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -280,7 +282,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not soon, that's for sure.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не скоро, це точно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -290,7 +292,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have no idea.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -300,7 +302,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I need to meet someone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно зустрітися з кимось.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -310,7 +312,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>To roam South Underrail.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щоб помандрувати Південним Підземним Світом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -320,7 +322,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I need to visit my settlement.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно відвідати моє поселення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -330,7 +332,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Nothing important, I'm just going to the courtyard.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нічого важливого, я просто йду у двір.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -340,7 +342,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What for?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">З якою метою?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -350,7 +352,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Just to stretch my legs.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто розім'ятися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -360,7 +362,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>To talk to some of the people out front.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поговорити з деякими людьми спереду.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -370,7 +372,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Could you just let me go without all these questions?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви просто дозволити мені піти без усіх цих питань?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -380,7 +382,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Please answer my question, $(#brother/sister); I'm just following the rules.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, дайте відповідь на моє запитання, $(#брате/сестро); я просто виконую правила.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -390,7 +392,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I would like to ask you a few questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би поставити вам кілька запитань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -400,7 +402,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Come into my office then, $(#brother/sister).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді заходьте в мій кабінет, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -410,7 +412,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>On my way, brother.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вже йду, брате.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -420,7 +422,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Okay.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -430,7 +432,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I changed my mind, I don't need anything.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я передумав, мені нічого не потрібно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -440,7 +442,7 @@ Tchort is evolution, $(#brother/sister). What do you need?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you, $(#brother/sister).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт веди тебе, $(#брате/сестро).&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

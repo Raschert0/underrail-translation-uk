@@ -10,7 +10,9 @@
         <source>::Captain Herve welcomes you into his office with a smile.::
 
 Good to see you again, $(context.player.Name). What brings you back to Rail Crossing?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Капітан Герве вітає вас у своєму кабінеті з посмішкою.::
+
+Радий вас знову бачити, $(context.player.Name). Що привело вас до Rail Crossing?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       </mda:metadata>
       <segment state="translated">
         <source>I wanted to talk to you about a certain debt I have at the bar here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів поговорити з вами про певний борг, який я маю тут у барі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       </mda:metadata>
       <segment state="translated">
         <source>Yes, I've already heard about it. So what's the problem? Why do you refuse to pay?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, я вже про це чув. То в чому проблема? Чому ви відмовляєтеся платити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       </mda:metadata>
       <segment state="translated">
         <source>I have no money at the moment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене зараз немає грошей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       </mda:metadata>
       <segment state="translated">
         <source>Ah. So that's the core of the issue. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ага. Отже, в цьому суть проблеми. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       </mda:metadata>
       <segment state="translated">
         <source>Listen, South Gate Station and Rail Crossing have established pretty good relations over the years. Should we allow petty issues like this to divide us?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Слухайте, станція South Gate Station і Rail Crossing встановили досить хороші відносини за ці роки. Чи варто нам дозволяти дрібним проблемам, як ця, роз'єднувати нас?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
       </mda:metadata>
       <segment state="translated">
         <source>You've already helped this station so much, which is something I and this whole station are very grateful for. I will personally pay for your debt, $(context.player.Name). Let's forget this... incident ever happened. Very good.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви вже так багато допомогли цій станції, за що я і вся станція дуже вдячні. Я особисто заплачу за ваш борг, $(context.player.Name). Давайте забудемо про цей... інцидент. Чудово.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -92,7 +94,9 @@ Good to see you again, $(context.player.Name). What brings you back to Rail Cros
         <source>I cannot arrest you or force you to pay your debt off since I fear that might affect our two stations' relations. However, you are being denied service throughout the station - most of it, at least - from what I hear, so it is entirely up to you how you want to proceed. I will not interfere.
 
 Think about it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не можу вас заарештувати або змусити сплатити борг, оскільки боюся, що це може вплинути на відносини між нашими двома станціями. Однак, наскільки я знаю, вам відмовлено в обслуговуванні по всій станції - принаймні, більшій її частині - тож все залежить від вас, як ви хочете вчинити. Я не буду втручатися.
+
+Подумайте про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -102,7 +106,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I already left the money on the counter, but someone else took it when the barkeeper wasn't looking.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вже залишив гроші на стійці, але хтось інший забрав їх, поки бармен не бачив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -112,7 +116,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The drink and the service were absolutely awful.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Напій і обслуговування були абсолютно жахливими.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -122,7 +126,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I find that hard to believe. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені важко в це повірити. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -132,7 +136,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Dude was supposed to pay for it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цей хлопець мав за це заплатити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -142,7 +146,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>But he is no longer in Rail Crossing, correct? &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але його більше немає в Rail Crossing, вірно?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -152,7 +156,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I see the supplies have finally arrived.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачу, нарешті прибули поставки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -162,7 +166,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes! And not a moment too soon. I've been receiving more and more reports of Ironhead activity near Rail Crossing. It even seems that several different clans are converging on this location. These Ironheads, they are like packs of rathounds: They've sensed blood in the air and are moving in for the kill.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так! І не хвилина запізнення. Я отримую все більше і більше повідомлень про активність Ironhead поблизу Rail Crossing. Здається, кілька різних кланів сходяться в цьому місці. Ці Ironhead, вони як зграї скажених псів: вони відчули кров у повітрі та рухаються на вбивство.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -172,7 +176,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We are still short on men, but at least we have some serious firepower in our hands. I hope that will be enough.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нам все ще не вистачає людей, але принаймні у нас є серйозна вогнева міць. Сподіваюся, цього буде достатньо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -182,7 +186,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I talked to Major Clifton again about the supplies.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я знову говорив з майором Кліфтоном про поставки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -192,7 +196,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes, what did he say?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, що він сказав?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -202,7 +206,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>He said the supplies will be here in no more than two weeks.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він сказав, що поставки будуть тут не пізніше ніж через два тижні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -212,7 +216,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Two weeks? That is not good news...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Два тижні? Це погана новина...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -222,7 +226,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That is, unless someone intercepts the train again.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тим паче, якщо хтось знову перехопить потяг.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -232,7 +236,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Please, things are already difficult enough. However, thank you for the information. Two weeks, while long, is better than nothing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, все і так досить важко. Однак, дякую за інформацію. Два тижні, хоч і довгий термін, краще, ніж нічого.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -242,7 +246,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There was nothing I could do.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я нічого не міг зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -252,7 +256,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I understand. Thank you for your help. Two weeks, while long, is better than nothing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. Дякую за вашу допомогу. Два тижні, хоч і довгий термін, краще, ніж нічого.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -262,7 +266,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I found out what happened to the missing train.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я дізнався, що сталося з потягом, що зник.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -272,7 +276,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You did? Great! Tell me everything.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви? Чудово! Розкажіть мені все.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -282,7 +286,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It was hijacked by a small group of armed bandits.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Його захопила невелика група озброєних бандитів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -292,7 +296,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I was afraid of that. But where is it now, and what about the cargo?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я цього боялася. Але де він зараз, і що з вантажем?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -302,7 +306,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I took care of the hijackers. It's south of Rail Crossing; there is a turn west into a cave and to what appears to be some warehouse. The supplies look mostly untouched.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розправився з викрадачами. Він на південь від Rail Crossing; є поворот на захід у печеру і, здається, в якийсь склад. Поставки виглядають майже недоторканими.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -312,7 +316,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Great! In that case, contact the Protectorate again and have them take care of it. It's best that way. Don't think the Protectorate would appreciate us taking the train without their knowledge&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово! У такому разі зв'яжіться з Протекторатом знову і нехай вони цим займуться. Так буде краще. Не думаю, що Протекторат оцінить, якщо ми заберемо потяг без їхнього відома.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -322,7 +326,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Get back to me when you're done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Повідомте мені, коли закінчите.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -332,7 +336,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Excellent, but I don't think the Protectorate would appreciate us taking the train without their knowledge. Go to South Railroad Outpost and talk to them about getting their train and then sending the supplies to me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відмінно, але я не думаю, що Протекторат оцінить, якщо ми заберемо потяг без їхнього відома. Відвідайте South Railroad Outpost і поговоріть з ними про отримання їхнього потяга, а потім відправте поставки мені.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -342,7 +346,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Get back to me when you're done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Повідомте мені, коли закінчите.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -352,7 +356,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's gone. I tried to fight the hijackers, but one of them used a bomb to destroy the train and its cargo. It was located just south of Rail Crossing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Його немає. Я спробував боротися з викрадачами, але один з них використав бомбу, щоб знищити потяг і його вантаж. Він знаходився безпосередньо на південь від Rail Crossing.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -362,7 +366,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What? WHAT? Damn it! This is unbelievable. Why did you have to do it all alone? Why didn't you contact us or the Protectorate?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що? ЩО? Чорт забирай! Це неймовірно. Чому ви вирішили діяти самостійно? Чому ви не зв'язалися з нами або з Протекторатом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -372,7 +376,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I had no choice at the moment. I couldn't tell them to wait while I get reinforcements.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене не було вибору в той момент. Я не міг сказати їм чекати, поки я отримаю підкріплення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -382,7 +386,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::The captain lowers his head.:: It doesn't matter now. Please, leave me alone. You've done enough.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Капітан опускає голову.:: Це вже не має значення. Будь ласка, залиште мене одного. Ви зробили достатньо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -392,7 +396,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -402,7 +406,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's how I do things. Alone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так я і дію. Самостійно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -412,7 +416,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::The captain lowers his head.:: Well, that worked out beautifully. Just leave me alone, you've done enough.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Капітан опускає голову.:: Що ж, все вийшло чудово. Просто залиште мене одного, ви зробили достатньо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -422,7 +426,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I informed Major Clifton at South Railroad Outpost. The Protectorate went there to deal with the hijackers and reaquire the train. They said they'll send you the supplies soon.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я повідомив майора Кліфтона на South Railroad Outpost. Протекторат вирушив туди, щоб розібратися з викрадачами та повернути потяг. Вони сказали, що незабаром надішлють вам поставки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -432,7 +436,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Excellent! ::For the first time, a smile finally appears on the captain's face.:: I'm just glad all this is coming to an end. You've done it again, $(context.player.Name). You are one incredibly capable individual. Thank you very much! I promised a reward, and here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відмінно! ::Вперше на обличчі капітана з'являється посмішка.:: Я просто радий, що все це добігає кінця. Ви знову це зробили, $(context.player.Name). Ви неймовірно здібна людина. Дуже дякую! Я обіцяв винагороду, і ось вона. ::Він дає вам 400 харонів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -442,7 +446,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -452,7 +456,7 @@ Think about it.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Oh, did the major tell you anything about when the supplies will arrive?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, чи розповів вам майор, коли прибудуть поставки?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -464,7 +468,9 @@ Think about it.&lt;end&gt;</source>
         <source>::The smile lasts for while, but a worm of doubt soon makes it slowly go away. Worry surfaces on his face, and just as you were about to leave, he stops you.::
 
 Wait. I have one more favor to ask of you...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Посмішка триває деякий час, але хробак сумніву незабаром повільно змушує її зникнути. На його обличчі з'являється тривога, і саме тоді, коли ви збиралися піти, він зупиняє вас.::
+
+Зачекайте. У мене є ще одна послуга, яку я хотів би попросити...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -474,7 +480,7 @@ Wait. I have one more favor to ask of you...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Go ahead.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Проходьте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -486,7 +492,9 @@ Wait. I have one more favor to ask of you...&lt;end&gt;</source>
         <source>This whole situation with the train... it's dragging on. While I do know that the train has been located, I'm left in the dark again. Rail Crossing is vulnerable. You understand. I need to know when the train will be arriving, and it doesn't appear to me like they've revealed that information to you.
 
 Would it be a problem for you to go back and... ask them about it? Perhaps, if possible, somehow... "speed up" the process? If possible.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ця ситуація з потягом... вона затягується. Хоча я і знаю, що потяг знайдено, мене знову залишають у невіданні. Rail Crossing вразливий. Ви розумієте. Мені потрібно знати, коли прибуде потяг, і мені не здається, що вони розкрили вам цю інформацію.
+
+Чи буде проблемою для вас повернутися і... запитати про це? Можливо, якщо це можливо, якось... "прискорити" процес? Якщо це можливо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -496,7 +504,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>I could ask Major Clifton about it. Maybe they've already recovered the train.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я міг би запитати майора Кліфтона про це. Можливо, вони вже повернули потяг.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -506,7 +514,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>I would be grateful. Thank you so much.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я був би вдячний. Дуже дякую.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -516,7 +524,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>I'll see what I can do.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подивлюся, що я можу зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -526,7 +534,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, I'll be waiting.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, я чекатиму.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
@@ -536,7 +544,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>You think highly of me, perhaps too much. I don't think I can "speed up" anything.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви переоцінюєте мене, можливо, занадто. Я не думаю, що можу щось "прискорити".&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -546,7 +554,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>I understand. Even one simple information would suffice.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. Навіть проста інформація була б достатньою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -556,7 +564,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>It's south of Rail Crossing; there is a turn west into a cave and to what appears to be some warehouse. I came here for reinforcements.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він на південь від Rail Crossing; є поворот на захід у печеру і, здається, в якийсь склад. Я прийшов сюди за підкріпленням.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -566,7 +574,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Great, go to South Railroad Outpost about that. If they said it's their investigation, then they should deal with the hijackers. And they are far better equipped for it anyway.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово, зверніться до South Railroad Outpost з цього приводу. Якщо вони сказали, що це їхнє розслідування, то вони повинні розібратися з викрадачами. І вони набагато краще для цього обладнані, до речі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -576,7 +584,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>We don't have the men to deal with the hijackers, but I'm sure the Protectorate wouldn't mind giving us a hand. It's their train after all. Go to South Railroad Outpost and tell them what you told me. They are far better equipped for dealing with the hijackers anyway.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У нас немає достатньо людей, щоб розібратися з викрадачами, але я впевнений, що Протекторат не відмовиться нам допомогти. Все ж таки, це їхній потяг. Відвідайте Південний залізничний пост і розкажіть їм те, що розказали мені. Вони набагато краще оснащені для боротьби з викрадачами, зрештою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -586,7 +594,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>The Free Drones hijacked the train.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вільні Дрони захопили потяг.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -596,7 +604,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Free Drones? Are you sure?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вільні Дрони? Ви впевнені?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -606,7 +614,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Yes. I think all this was an act against Protectorate, rather than against Rail Crossing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. Я думаю, що все це було актом проти Протекторату, а не проти Залізничного Переходу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -616,7 +624,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Indeed, it makes perfect sense. I don't know much about them, but I know they're all about fighting the Protectorate. They came from the North several years ago, just after Protectorate started building Fort Apogee in Upper Underrail.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дійсно, це має сенс. Я не багато знаю про них, але знаю, що вони всі про боротьбу з Протекторатом. Вони прийшли з Півночі кілька років тому, відразу після того, як Протекторат почав будувати Форт Апогей у Верхньому Андеррейлі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -626,7 +634,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>All that aside, where is the train now, and what about the cargo?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">В усякому разі, де зараз потяг і що з вантажем?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a63" name="=&gt;a63">
@@ -636,7 +644,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>I'm sure, but I don't know their exact motives.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я впевнений, але я не знаю їхніх точних мотивів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
@@ -646,7 +654,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>I don't know much about the Free Drones, but what I know is they're all about fighting the Protectorate. They came from the North several years ago, just after Protectorate started building Fort Apogee in Upper Underrail.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не багато знаю про Вільних Дронів, але знаю, що вони всі про боротьбу з Протекторатом. Вони прийшли з Півночі кілька років тому, відразу після того, як Протекторат почав будувати Форт Апогей у Верхньому Андеррейлі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a65" name="=&gt;a65">
@@ -656,7 +664,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Even though the Faceless are gone, you seem troubled. Are there any other problems?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Навіть після того, як Безликі зникли, ви здаєтеся стурбованим. Чи є ще якісь проблеми?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -666,7 +674,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>I am relieved, believe me, more than it shows. But so many troubles befell Rail Crossing recently, and that is the reason why I'm not exactly jumping with joy. We basically trade one misfortune for another.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я радий, повірте мені, більше, ніж показую. Але останнім часом на Залізничний Перехід обрушилося так багато проблем, і тому я не в захваті від радості. Ми, по суті, обмінюємо одне нещастя на інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -676,7 +684,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Is it something I can help you with? You know you can trust me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи є щось, чим я можу вам допомогти? Ви знаєте, що можете мені довіряти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -686,7 +694,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Trust is not the issue, it's just... Alright, I'll explain.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Довіра – не проблема, це просто... Гаразд, я поясню.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
@@ -696,7 +704,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Recently we've had problems with an increasing number of attacks on Rail Crossing. Mostly by bandits, but hell, when you add the Faceless to that, the pressure becomes overwhelming. Regardless, even without these recent events the attacks have become more and more vicious and difficult to repel. So... I... made a deal with the Protectorate some time ago, according to which they were to deliver us military supplies.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Останнім часом у нас виникли проблеми зі зростаючою кількістю нападів на Залізничний Перехід. Здебільшого бандити, але, чорт забирай, коли до цього додати Безликих, тиск стає нестерпним. Незалежно від цього, навіть без цих останніх подій напади ставали все більш жорстокими та важкими для відбиття. Тому... я... уклав угоду з Протекторатом деякий час тому, згідно з якою вони мали доставити нам військові припаси.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -706,7 +714,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Look, I don't know how you feel about the Protectorate, but what I did I did out of necessity. Rail Crossing is a small station - easy pickings - and we need a way to protect ourselves. To do that, we need weapons, ammo, medical supplies.... everything, pretty much. And those things you can't go around and pick like, like mushrooms.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Послухайте, я не знаю, як ви ставитеся до Протекторату, але я зробив це з необхідності. Залізничний Перехід – невелика станція – легка здобич – і нам потрібен спосіб захистити себе. Для цього нам потрібна зброя, боєприпаси, медикаменти.... все, по суті. І ці речі ви не можете просто так знайти, як, наприклад, гриби.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -716,7 +724,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a72" name="=&gt;a72">
@@ -726,7 +734,7 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
       </mda:metadata>
       <segment state="translated">
         <source>Tell me more about this delivery.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розкажіть мені більше про цю доставку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q73" name="=&gt;q73">
@@ -738,7 +746,9 @@ Would it be a problem for you to go back and... ask them about it? Perhaps, if p
         <source>The only thing I had been told was that a train loaded with supplies was due to arrive several days ago. As far as I know, the train was to set off from South Railroad Outpost, which is a small Protectorate base south of here. The train never arrived, and I've received no word from the Protectorate regarding the whole situation since. 
 
 I do not know what is happening: Maybe it never departed, maybe something happened along the way, maybe... I just don't know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені сказали лише те, що потяг, завантажений припасами, мав прибути кілька днів тому. Наскільки я знаю, потяг мав відправитися з Південного залізничного посту, який є невеликою базою Протекторату на південь від нас. Потяг так і не прибув, і я не отримав жодної інформації від Протекторату щодо всієї ситуації з того часу.
+
+Я впевнений, але я не знаю їхніх точних мотивів. Я не знаю, що відбувається: можливо, він ніколи не відправлявся, можливо, щось трапилося по дорозі, можливо... я просто не знаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a74" name="=&gt;a74">
@@ -748,7 +758,7 @@ I do not know what is happening: Maybe it never departed, maybe something happen
       </mda:metadata>
       <segment state="translated">
         <source>I will help you. We'll find out what happened.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я допоможу вам. Ми з’ясуємо, що сталося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -760,7 +770,9 @@ I do not know what is happening: Maybe it never departed, maybe something happen
         <source>Great, great! Thank you! You will be rewarded for your assistance, I promise, just find out what happened to that train. Okay, so the best way to reach South Railroad Outpost is by following the tracks south, which is exactly the route the train had to take to reach us. Return to me if you learn anything important, and please, be quick - lives are at stake.
 
 I'll be here, in the office. Take care.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово, чудово! Дякую! Вас буде нагороджено за вашу допомогу, я обіцяю, просто з’ясуйте, що сталося з тим потягом. Гаразд, найкращий спосіб дістатися до Південного залізничного посту – це йти по коліях на південь, що є саме тим маршрутом, яким потяг мав дістатися до нас. Поверніться до мене, якщо дізнаєтеся щось важливе, і, будь ласка, поспішайте – життя під загрозою.
+
+Я буду тут, в офісі. Бережіть себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q76" name="=&gt;q76">
@@ -770,7 +782,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
@@ -780,7 +792,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll pass.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я відмовлюся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -790,7 +802,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Very well. I... understand. This is not your fight, after all.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре. Я... розумію. Це не ваша боротьба, зрештою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a79" name="=&gt;a79">
@@ -800,7 +812,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They didn't just give you all that for free, did they?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони не просто так дали вам все це, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q80" name="=&gt;q80">
@@ -810,7 +822,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Nothing is free in this world.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нічого в цьому світі не буває безкоштовно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q81" name="=&gt;q81">
@@ -820,7 +832,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We made a deal. Let's leave it at that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми уклали угоду. Залишмо це так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a82" name="=&gt;a82">
@@ -830,7 +842,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Then I wish you the best of luck. Let's talk about something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді я бажаю вам всього найкращого. Давайте поговоримо про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q83" name="=&gt;q83">
@@ -840,7 +852,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What do you need?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що вам потрібно?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a84" name="=&gt;a84">
@@ -850,7 +862,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Even though the Faceless are gone, you seem troubled. Are there any other problems?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Навіть після того, як Безликі зникли, ви здаєтеся стурбованим. Чи є ще якісь проблеми?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a85" name="=&gt;a85">
@@ -860,7 +872,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've informed the Protectorate of the missing train's location. They'll take care of it and will send you the supplies as soon as possible.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я повідомив Протекторат про місцезнаходження зниклого потяга. Вони розберуться з цим і якнайшвидше надішлють вам припаси.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
@@ -870,7 +882,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Excellent! ::For the first time, a smile finally appears on the captain's face.:: I'm just glad all this is coming to an end. You've done it again, $(context.player.Name). You are one incredibly capable individual. Thank you very much! I promised a reward, and here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово! ::Вперше на обличчі капітана з’являється посмішка.:: Я просто радий, що все це добігає кінця. Ви знову це зробили, $(context.player.Name). Ви неймовірно здібна людина. Дуже дякую! Я обіцяв винагороду, і ось вона. ::Він дає вам 400 харонів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
@@ -880,7 +892,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You found it? Wow, you've been busy... What happened to it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви знайшли його? Вау, ви були зайняті... Що з ним сталося?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
@@ -890,7 +902,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The train was hijacked by some gang.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Потяг захопила якась банда.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -900,7 +912,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I was afraid of that, but I'm relieved the train has been found. I'm just glad all this is coming to an end. You've done it again $(context.player.Name), you seem to be an incredibly capable individual. Thank you very much! I promised a reward, so here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я цього боявся, але радий, що потяг знайдено. Я просто радий, що все це добігає кінця. Ви знову це зробили $(context.player.Name), ви здаєтеся неймовірно здібною людиною. Дуже дякую! Я обіцяв винагороду, тож ось вона. ::Він дає вам 400 харонів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a90" name="=&gt;a90">
@@ -910,7 +922,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The Free Drones hijacked the train.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вільні Дрони захопили потяг.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
@@ -920,7 +932,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Free Drones? Are you sure?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вільні Дрони? Ви впевнені?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
@@ -930,7 +942,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They are fighting against the Protectorate, claiming that they're oppressors.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони борються проти Протекторату, стверджуючи, що вони гнобителі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -940,7 +952,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Indeed, it makes perfect sense. The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дійсно, це має сенс. Єдине, що я знаю про них, це те, що вони анархістська група з Північного Андеррейлу і що вони борються з Протекторатом. Вони проти Союзу і, хоча їхня кількість у Південному Андеррейлі наразі невелика, я боюся, що вони виростуть до серйозної загрози.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q94" name="=&gt;q94">
@@ -950,7 +962,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>All in all, I'm relieved the train has been found. You've done it again $(context.player.Name), you seem to be an incredibly capable individual. Thank you very much! I promised a reward, so here it is. ::He gives you 400 charons.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Загалом, я радий, що потяг знайдено. Ви знову це зробили $(context.player.Name), ви здаєтеся неймовірно здібною людиною. Дуже дякую! Я обіцяв винагороду, тож ось вона. ::Він дає вам 400 харонів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a95" name="=&gt;a95">
@@ -960,7 +972,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm sure, but I don't know their exact motives.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я впевнений, але я не знаю їхніх точних мотивів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q96" name="=&gt;q96">
@@ -970,7 +982,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Єдине, що я знаю про них, це те, що вони анархістська група з Північного Андеррейлу і що вони борються з Протекторатом. Вони проти Союзу і, хоча їхня кількість у Південному Андеррейлі наразі невелика, я боюся, що вони виростуть до серйозної загрози.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a97" name="=&gt;a97">
@@ -980,7 +992,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've informed the Protectorate of the missing train's location. Their soldiers have managed to recover it and it's on its way back to the outpost.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я повідомив Протекторат про місцезнаходження зниклого потяга. Їхні солдати змогли повернути його, і він повертається на пост.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a98" name="=&gt;a98">
@@ -990,7 +1002,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've talked to Major Clifton in South Railroad Outpost.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я поговорив з майором Кліфтоном на Південному залізничному посту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q99" name="=&gt;q99">
@@ -1000,7 +1012,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Great, what did he say?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово, що він сказав?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a100" name="=&gt;a100">
@@ -1010,7 +1022,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The train left the outpost as planned, but they aren't sure what happened to it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Потяг покинув пост, як і планувалося, але вони не знають, що з ним сталося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
@@ -1020,7 +1032,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It is what I feared. Someone must've intercepted the train. We need to keep searching. Who knows how long it'll take for the Protectorate to get to the bottom of this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це те, чого я боявся. Хтось повинен був перехопити потяг. Нам потрібно продовжувати пошуки. Хто знає, скільки часу знадобиться Протекторату, щоб розібратися в цьому.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a102" name="=&gt;a102">
@@ -1030,7 +1042,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What if they're lying? Maybe they are trying to trick you somehow.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що, якщо вони брешуть? Можливо, вони намагаються якось вас обдурити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
@@ -1040,7 +1052,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I do not think so. ::He pauses.:: But even if it is true, there is nothing we can do about it other than try to find out what happened to the train. And hope, basically.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я так не думаю. ::Він робить паузу.:: Але навіть якщо це правда, нам нічого не залишається, окрім як спробувати з’ясувати, що сталося з потягом. І сподіватися, по суті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a104" name="=&gt;a104">
@@ -1050,7 +1062,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm on the case.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я візьмуся за це. Ми з’ясуємо, що сталося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q105" name="=&gt;q105">
@@ -1060,7 +1072,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I knew I could count on you. Good luck.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я знав, що можу на вас розраховувати. Удачі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a106" name="=&gt;a106">
@@ -1070,7 +1082,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yeah, the train left the outpost all right, but they lost track of it. They also impolitely told me to wait until they deal with it, and after that, they'll inform you about what happens next. Eventually...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, потяг покинув пост, але вони втратили його з поля зору. Вони також неввічливо сказали мені чекати, поки вони розберуться з цим, і після цього повідомлять вам про те, що сталося. Зрештою...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q107" name="=&gt;q107">
@@ -1080,7 +1092,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sounds like some jack-in-office of an officer. Someone must've intercepted the train. We need to keep searching. Who knows how long it'll take for the Protectorate to get to the bottom of this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звучить як якийсь чиновник. Хтось повинен був перехопити потяг. Нам потрібно продовжувати пошуки. Хто знає, скільки часу знадобиться Протекторату, щоб розібратися в цьому.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a108" name="=&gt;a108">
@@ -1090,7 +1102,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Lie]:: I tried everything, but the train is impossible to find. I am stopping the search.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Брехня]:: Я спробував все, але потяг неможливо знайти. Я припиняю пошуки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q109" name="=&gt;q109">
@@ -1100,7 +1112,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hold on, hold on. I think we still have a chance, maybe there are some clues that can point us in the right direct... ion. ::Herve stops speaking and simply stares at you with disappointment..:: I see... You've already made up your mind. :: He sighs.:: I can't force you to do this if you don't want to. I'm... I'm sorry it turned out this way.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекай, зачекай. Я думаю, у нас ще є шанс, можливо, є якісь підказки, які можуть вказати нам правильний напрям... іон. ::Ерве припиняє говорити і просто дивиться на тебе з розчаруванням.:: Я розумію... Ти вже прийняв рішення. :: Він зітхає.:: Я не можу змушувати тебе робити це, якщо ти не хочеш. Мені... мені шкода, що так вийшло.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q110" name="=&gt;q110">
@@ -1110,7 +1122,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>See you around... $(context.player.Name). Take care.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимось... $(context.player.Name). Бережи себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a111" name="=&gt;a111">
@@ -1120,7 +1132,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've decided to help you with the missing train.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вирішив допомогти тобі з пошуком потяга.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a112" name="=&gt;a112">
@@ -1130,7 +1142,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Do you know anything about the Free Drones?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти щось знаєш про Вільних Дронів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -1140,7 +1152,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The only thing I know about them is that they are an anarchist group from North Underrail and that they are fighting the Protectorate. They oppose the Union and, even though their numbers in South Underrail are low at the moment, I fear they will grow large enough to become a serious threat.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Єдине, що я знаю про них, це те, що вони є анархістською групою з Північного Андеррейлу і що вони воюють з Протекторатом. Вони протистоять Союзу і, хоча їх кількість у Південному Андеррейлі зараз невелика, я боюся, що вони виростуть достатньо, щоб стати серйозною загрозою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q114" name="=&gt;q114">
@@ -1150,7 +1162,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That is all I know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все, що я знаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a115" name="=&gt;a115">
@@ -1160,7 +1172,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about South Railroad Outpost?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про Південний Залізничний Пост?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q116" name="=&gt;q116">
@@ -1170,7 +1182,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not much, really. All I know is that it's a Protectorate outpost, has a railroad access and is pretty well guarded.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не багато, насправді. Все, що я знаю, це те, що це пост Протекторату, має залізничний доступ і добре охороняється.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q117" name="=&gt;q117">
@@ -1180,7 +1192,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's all I know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все, що я знаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a118" name="=&gt;a118">
@@ -1190,7 +1202,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why is this a bad day to visit?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому сьогодні поганий день для відвідування?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q119" name="=&gt;q119">
@@ -1200,7 +1212,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You must have heard the reports of Faceless invading the Core City by now, right? Well, we got our own problems with the Faceless here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти, мабуть, чув про вторгнення Безликих у Ядро Міста, чи не так? Ну, у нас тут теж є проблеми з Безликими.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
@@ -1210,7 +1222,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They busted in with one of their tunnelers down the track south and occupied Buzzer's shop. We tried to blitz them back before they'd set up but that ended badly. They killed three of my men and badly wounded one.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони ввірвалися з одним зі своїх тунелерів по колії на південь і окупували крамницю Баззера. Ми спробували швидко їх вибити, перш ніж вони встигли облаштуватися, але це закінчилося погано. Вони вбили трьох моїх людей і серйозно поранили одного.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a121" name="=&gt;a121">
@@ -1220,7 +1232,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why do you think they occupied Buzzer's shop?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ти думаєш, що вони окупували крамницю Баззера?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q122" name="=&gt;q122">
@@ -1230,7 +1242,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I can't say for sure. Maybe they want something from him or his shop. Buzzer's known to trade in strange electronics - maybe he got hold of something they want.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не можу сказати напевно. Можливо, вони хочуть щось від нього або його крамниці. Баззер відомий тим, що торгує дивною електронікою - можливо, він отримав щось, що їм потрібно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q123" name="=&gt;q123">
@@ -1240,7 +1252,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Or maybe they actually planned to tunnel out somewhere else in the station and just improvised once they realized they missed their target.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Або, можливо, вони насправді планували прорити тунель десь в іншому місці станції і просто імпровізували, коли зрозуміли, що промахнулися з ціллю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a124" name="=&gt;a124">
@@ -1250,7 +1262,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What are you going to do about the Faceless?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти збираєшся робити з Безликими?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q125" name="=&gt;q125">
@@ -1260,7 +1272,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There's not much we can do at this point. We barely have enough men to fight them off if they come at us now. If we rush them again and suffer more losses, we're done. We'd have to evacuate the station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На даний момент нам не вистачає людей, щоб боротися з ними, якщо вони нападуть. Якщо ми знову кинемося на них і зазнаємо більше втрат, все скінчено. Нам доведеться евакуювати станцію.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a126" name="=&gt;a126">
@@ -1270,7 +1282,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Maybe I could help you with your Faceless situation.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, я міг би допомогти тобі з твоєю ситуацією з Безликими.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q127" name="=&gt;q127">
@@ -1280,7 +1292,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He looks at you curiously.:: That would almost certainly mean you risking your neck for us. Why would you want to do this?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дивиться на тебе з цікавістю.:: Це майже напевно означатиме, що ти ризикуєш своїм життям заради нас. Навіщо ти хочеш це робити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q128" name="=&gt;q128">
@@ -1290,7 +1302,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a129" name="=&gt;a129">
@@ -1300,7 +1312,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm from SGS actually. Tanner sent me to lend you a hand.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я насправді з SGS. Таннер відправив мене, щоб допомогти вам.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q130" name="=&gt;q130">
@@ -1310,7 +1322,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Ah, I did put out a distress call to SGS. Are you the only one they could spare? I guess you people have your own problems.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах, я відправив сигнал лиха до SGS. Ти єдиний, кого вони могли послати? Мабуть, у вас теж є свої проблеми.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q131" name="=&gt;q131">
@@ -1320,7 +1332,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>As I said. Storming the shop is not an option anymore, so you'll have to figure out something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як я вже сказав. Штурмувати крамницю більше не варіант, тому тобі доведеться щось придумати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a132" name="=&gt;a132">
@@ -1330,7 +1342,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We humans should stand together against this Faceless offensive. If your station falls today, my station could be next.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми, люди, повинні стояти разом проти цієї атаки Безликих. Якщо твоя станція впаде сьогодні, моя станція може впасти наступною.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q133" name="=&gt;q133">
@@ -1340,7 +1352,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He gives you a suspicious look.:: I guess that makes sense.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він кидає на тебе підозрілий погляд.:: Гаразд, це має сенс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a134" name="=&gt;a134">
@@ -1350,7 +1362,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'd expect to be paid, of course.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я очікую оплати, звичайно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q135" name="=&gt;q135">
@@ -1360,7 +1372,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That I can understand. If you can somehow make the Faceless leave or take them all out I'll pay you three hundred charons. If you can get Buzzer out of there alive, assuming he still is, I'll throw in extra one hundred charons. Sound good?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це я можу зрозуміти. Якщо ти якимось чином змусиш Безликих піти або знищиш їх усіх, я заплачу тобі триста харонів. Якщо ти зможеш витягти Баззера звідти живим, якщо він ще живий, я додам ще сто харонів. Звучить добре?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q136" name="=&gt;q136">
@@ -1370,7 +1382,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a137" name="=&gt;a137">
@@ -1380,7 +1392,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Agreed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Згоден.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q138" name="=&gt;q138">
@@ -1390,7 +1402,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We have a deal then.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді у нас є угода.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a139" name="=&gt;a139">
@@ -1400,7 +1412,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: You'll have to do better than that, chief. I'm risking my neck here. I'll get you rid of those freaks for 400 charons and for additional I'll get your homeboy Buzzer for additional two hundred charons.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торгівля]:: Тобі доведеться запропонувати краще, шефе. Я ризикую життям тут. Я позбавлю тебе від цих виродків за 400 харонів і за додаткові я витягну твого приятеля Баззера ще за двісті харонів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q140" name="=&gt;q140">
@@ -1410,7 +1422,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hmm... fair enough. Chances are you'll just get killed and I won't have to pay you anything anyway.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хм... справедливо. Шанси, що тебе просто вб'ють, і мені не доведеться тобі платити, все одно великі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q141" name="=&gt;q141">
@@ -1420,7 +1432,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Forget it, $(#boy/girl). It's three hundred and one hundred. Take it or leave it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Забудь, $(#boy/girl). Триста і сто. Бери або залишай.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a142" name="=&gt;a142">
@@ -1430,7 +1442,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll take it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я беру.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a143" name="=&gt;a143">
@@ -1440,7 +1452,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll think about it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подумаю про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q144" name="=&gt;q144">
@@ -1450,7 +1462,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You do that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Подумай.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a145" name="=&gt;a145">
@@ -1460,7 +1472,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll think about it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подумаю про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a146" name="=&gt;a146">
@@ -1470,7 +1482,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Never mind, sounds like a bad idea.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, звучить як погана ідея.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a147" name="=&gt;a147">
@@ -1480,7 +1492,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So let's talk about how I can help you with your Faceless situation again...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тож давай поговоримо про те, як я можу допомогти тобі з твоєю ситуацією з Безликими знову...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q148" name="=&gt;q148">
@@ -1490,7 +1502,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Let me lay down my offer again: You get three hundred charons if you get rid of the Faceless one way or the other, plus a bonus of one hundred charons if you get Buzzer out alive.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволь мені повторити мою пропозицію: ти отримаєш триста харонів, якщо позбавишся від Безликих будь-яким способом, плюс бонус у сто харонів, якщо витягнеш Баззера живим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q149" name="=&gt;q149">
@@ -1500,7 +1512,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm just wondering why you're interested in helping us so much...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я просто дивуюся, чому ти так зацікавлений у тому, щоб допомогти нам...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a150" name="=&gt;a150">
@@ -1510,7 +1522,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Where is Buzzer's shop exactly?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де саме знаходиться крамниця Баззера?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q151" name="=&gt;q151">
@@ -1520,7 +1532,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's just to the south. It's guarded by a Faceless and there are plasma walkers patrolling. And further down south is the train depot.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вона просто на південь. Її охороняє Безликий, і там патрулюють плазмові ходуни. А далі на південь знаходиться депо поїздів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a152" name="=&gt;a152">
@@ -1530,7 +1542,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How many Faceless are there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Скільки там Безликих?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q153" name="=&gt;q153">
@@ -1540,7 +1552,7 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>When we tried to storm the shop I saw three of them, but there could be more inside.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Коли ми спробували штурмувати крамницю, я бачив трьох з них, але всередині може бути більше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q154" name="=&gt;q154">
@@ -1552,7 +1564,9 @@ I'll be here, in the office. Take care.&lt;end&gt;</source>
         <source>Also, they had at least two plasma walkers patrolling the depot so be careful if you go snooping around there. 
 
 Myles has some ideas how to disable those when we discussed a possibility of a second attack. You should ask him about what he had in mind. He lives on the north side of the station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Також, вони мали принаймні двох плазмових ходунів, які патрулювали депо, тому будь обережний, якщо почнеш там нишпорити. 
+
+Майлс має деякі ідеї, як їх вимкнути, коли ми обговорювали можливість другої атаки. Тобі варто запитати його про те, що він мав на увазі. Він живе на північній стороні станції.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a155" name="=&gt;a155">
@@ -1562,7 +1576,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Is there another way to get into Buzzer's shop?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи є інший спосіб потрапити в крамницю Баззера?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q156" name="=&gt;q156">
@@ -1572,7 +1586,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Maybe through the tunnel, but I don't know what state it's in, no one's been using it for a long time. You can access it through the trap door on the south end of the depot. The key is in my locker over there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, через тунель, але я не знаю, в якому він стані, ніхто його давно не використовував. Ти можеш потрапити до нього через люк на південному кінці депо. Ключ у моїй шафці там.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a157" name="=&gt;a157">
@@ -1582,7 +1596,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>I got rid of the Faceless for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я позбувся Безликих для тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q158" name="=&gt;q158">
@@ -1592,7 +1606,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Yeah, I saw some of them retreating. I don't know what you did, but well done. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, я бачив, як деякі з них відступають. Я не знаю, що ти зробив, але молодець.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q159" name="=&gt;q159">
@@ -1602,7 +1616,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>You did us a great favor and we won't forget this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти зробив нам велику послугу, і ми цього не забудемо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q160" name="=&gt;q160">
@@ -1612,7 +1626,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>It's unfortunate that you couldn't save Buzzer, though. He will be missed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, ти не зміг врятувати Баззера, хоча. Його буде не вистачати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a161" name="=&gt;a161">
@@ -1622,7 +1636,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Wish I could have. Rest in peace, Buzzer.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нехай спочиває з миром, Баззер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q162" name="=&gt;q162">
@@ -1632,7 +1646,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>May he rest in peace...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нехай спочиває з миром...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q163" name="=&gt;q163">
@@ -1642,7 +1656,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>You didn't save Buzzer, though, so no bonus money for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти не врятував Баззера, тому ніякого бонусного гроша для тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q164" name="=&gt;q164">
@@ -1652,7 +1666,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>And since you saved Buzzer in the process, here's your bonus as well - two hundred charons.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І оскільки ти врятував Баззера, ось твій бонус - двісті харонів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a165" name="=&gt;a165">
@@ -1662,7 +1676,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Pleasure doing business with you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Приємно мати справу з тобою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q166" name="=&gt;q166">
@@ -1672,7 +1686,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Indeed...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дійсно...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q167" name="=&gt;q167">
@@ -1682,7 +1696,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>And since you saved Buzzer in the process, here's your bonus as well - one hundred charons.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І оскільки ти врятував Баззера, ось твій бонус - сто харонів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q168" name="=&gt;q168">
@@ -1692,7 +1706,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Here's the four hundred charons I promised you. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось чотириста харонів, які я тобі обіцяв.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q169" name="=&gt;q169">
@@ -1702,7 +1716,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Here's the three hundred charons I promised you. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось триста харонів, які я тобі обіцяв.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a170" name="=&gt;a170">
@@ -1712,7 +1726,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>I'm looking for Terry and Lora Baker, merchants from SGS. Have you seen them recently?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я шукаю Террі та Лору Бейкер, торговців з SGS. Ти бачив їх останнім часом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q171" name="=&gt;q171">
@@ -1722,7 +1736,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>They come here regularly to trade, usually with Buzzer, but I haven't seen them recently, no.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони регулярно приходять сюди торгувати, зазвичай з Баззером, але я їх останнім часом не бачив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a172" name="=&gt;a172">
@@ -1732,7 +1746,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Buzzer died before I had the chance to talk to him about the Faceless attack, leaving me with some unanswered questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Баззер помер, перш ніж я мав шанс поговорити з ним про атаку Безликих, залишивши мене з деякими невирішеними питаннями.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q173" name="=&gt;q173">
@@ -1742,7 +1756,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>I already told you all I know. Did you search the shop or learn something from the Faceless themselves?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вже тобі все розповів. Ти обшукав крамницю або дізнався щось від самих Безликих?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q174" name="=&gt;q174">
@@ -1752,7 +1766,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a175" name="=&gt;a175">
@@ -1762,7 +1776,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>They are looking for some item; I don't know what the item is, but it doesn't take a genius to figure out it means a lot to them. As you've said yourself, maybe someone brought something to his store. Did anyone unusual come to his store recently?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони шукають якийсь предмет; я не знаю, що це за предмет, але не потрібно бути генієм, щоб зрозуміти, що він для них багато значить. Як ти сам казав, можливо, хтось приніс щось до його магазину. Чи приходив хтось незвичайний до його магазину останнім часом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q176" name="=&gt;q176">
@@ -1772,7 +1786,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>::He shrugs.:: Plenty, actually. But I don't keep track of who visits Buzzer. You could still ask around the station. Maybe you'll find some clue. My mind is preoccupied with other things now, however, so you're on your own in this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він знизує плечима.:: Багато, насправді. Але я не стежу за тим, хто відвідує Баззера. Ти все ще можеш розпитати по станції. Можливо, ти знайдеш якусь підказку. Мій розум зараз зайнятий іншими речами, тому ти сам у цьому.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a177" name="=&gt;a177">
@@ -1782,7 +1796,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Can I ask you a few more questions before I leave?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви поставити мені ще кілька запитань перед тим, як піти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q178" name="=&gt;q178">
@@ -1792,7 +1806,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Go ahead.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Проходьте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a179" name="=&gt;a179">
@@ -1802,7 +1816,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>I understand. I'm going to go and ask around a bit.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. Я піду розпитаю трохи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a180" name="=&gt;a180">
@@ -1812,7 +1826,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>::[Intelligence]:: I did not find anything unusual, but whatever the Faceless are looking for, it is no longer there. My guess is that all poor Buzzer was guilty of is letting the wrong people into his shop, drawing the Faceless toward him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Інтелект]:: Я нічого незвичайного не знайшов, але те, що шукають Безликі, там більше немає. Я думаю, що єдине, у чому був винен бідний Гудець, це в тому, що він пустив не тих людей у свою крамницю, привернувши увагу Безликих до себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q181" name="=&gt;q181">
@@ -1822,7 +1836,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>How can you be so sure?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви можете бути настільки впевнені?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a182" name="=&gt;a182">
@@ -1832,7 +1846,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>I am not, but you said something yourself - he deals in strange electronics. I think the most plausible explanation is that someone brought this device to his store; it likely didn't exchange hands, as the Faceless would've found it by now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не впевнений, але ви самі сказали - він торгує дивною електронікою. Я думаю, що найбільш правдоподібне пояснення полягає в тому, що хтось приніс цей пристрій до його магазину; ймовірно, він не перейшов з рук в руки, оскільки Безликі знайшли б його вже зараз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q183" name="=&gt;q183">
@@ -1842,7 +1856,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>You could ask around, but Buzzer had a lot of customers, and a lot of them were weird folks. ::He shrugs.:: My mind is preoccupied with other things now, however, so you're on your own in this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете розпитати, але у Гудця було багато клієнтів, і багато з них були дивними людьми. ::Він знизує плечима.:: Мій розум зараз зайнятий іншими речами, тому вам доведеться розбиратися з цим самостійно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a184" name="=&gt;a184">
@@ -1852,7 +1866,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Nothing useful, unfortunately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, нічого корисного.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q185" name="=&gt;q185">
@@ -1862,7 +1876,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>::He shrugs.:: Sorry, my mind is preoccupied with other things now, so I can't help you much, but it seems to me like the only thing you've got left is to ask around the station. Lots of weird folks come to Buzzer's shop, so perhaps someone saw something you could find useful.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він знизує плечима.:: Вибачте, мій розум зараз зайнятий іншими речами, тому я не можу вам багато допомогти, але мені здається, що все, що вам залишилося, - це розпитати по станції. До крамниці Гудця приходить багато дивних людей, тому, можливо, хтось щось бачив, що може бути вам корисним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q186" name="=&gt;q186">
@@ -1872,7 +1886,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Buzzer was known to trade in strange electronics - maybe he got hold of something they wanted. Did you search the shop or learn something from the Faceless themselves?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гудця знали як торговця дивною електронікою - можливо, він натрапив на те, що їм було потрібно. Ви обшукали крамницю або щось дізналися від самих Безликих?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a187" name="=&gt;a187">
@@ -1882,7 +1896,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Catch you later.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимося пізніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q188" name="=&gt;q188">
@@ -1892,7 +1906,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Please, not now...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, не зараз...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q189" name="=&gt;q189">
@@ -1902,7 +1916,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>The Faceless have retreated. I don't know if you had anything to do with it, but if you did, thank you!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Безликі відступили. Я не знаю, чи це ваша заслуга, але якщо так, то дякую!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q190" name="=&gt;q190">
@@ -1912,7 +1926,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Hello, traveller. I am Herve, captain of the militia and the de facto mayor of this station. It is very fortunate that you didn't arrive during the Faceless attack. Things were quite violent.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, мандрівнику. Я Герве, капітан міліції та фактичний мер цієї станції. Мені дуже пощастило, що ви прибули не під час нападу Безликих. Все було досить жорстоко.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q191" name="=&gt;q191">
@@ -1922,7 +1936,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>I saw you exiting Buzzer's shop and suddenly the Faceless are retreating. I don't know what you did, but thank you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачив, як ви виходили з крамниці Гудця, і раптом Безликі відступили. Я не знаю, що ви зробили, але дякую.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q192" name="=&gt;q192">
@@ -1932,7 +1946,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q193" name="=&gt;q193">
@@ -1942,7 +1956,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Name's Herve, by the way. I'm the captain of the milita and the de facto mayor of this station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До речі, мене звати Герве. Я капітан міліції та фактичний мер цієї станції.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q194" name="=&gt;q194">
@@ -1952,7 +1966,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Hello, traveller. I am Herve, captain of the militia and the de facto mayor of this station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, мандрівнику. Я Герве, капітан міліції та фактичний мер цієї станції.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q195" name="=&gt;q195">
@@ -1962,7 +1976,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>We are usually a friendly and welcoming community, but you've chosen a bad day to pay us a visit.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми зазвичай доброзичлива та гостинна громада, але ви вибрали поганий день, щоб відвідати нас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q196" name="=&gt;q196">
@@ -1972,7 +1986,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Good to see you again, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Радий бачити вас знову, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q197" name="=&gt;q197">
@@ -1982,7 +1996,7 @@ Myles has some ideas how to disable those when we discussed a possibility of a s
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

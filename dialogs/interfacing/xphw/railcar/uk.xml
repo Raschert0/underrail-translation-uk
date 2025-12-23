@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::There's blood and debris all over the cockpit, as well as scattered personal items and a few family pictures. The instrument panel has been mostly destroyed, but maybe there is still something useful that can be done with it.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У кабіні всюди кров і уламки, а також розкидані особисті речі та кілька сімейних фотографій. Приладова панель в основному зруйнована, але, можливо, все ще можна щось зробити з нею.::end</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Inspect the instrument panel.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Оглянути приладну панель.::end</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Most of the controls are damaged beyond repair. Spattered with blood and bits of shattered bone, the navigation computer remains comparatively unscathed.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Більшість елементів керування пошкоджені без можливості ремонту. Забризкані кров'ю та уламками кісток, навігаційний комп'ютер залишається відносно неушкодженим.::end</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Inspect the map again.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Оглянути карту ще раз.::end</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::The screen ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Екран ::end</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +70,9 @@
         <source>::displays a map titled *Dark Territory*. It shows a stretching railway network between South and North Underrail. Some of these sections have been marked in red color, some in green, but most of them remain aptly colored gray.
 
 You take your time and study the map well.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">відображає карту під назвою *Темна територія*. На ній зображена розгалужена мережа залізниць між Півднем і Північчю Андеррейлу. Деякі з цих ділянок позначені червоним кольором, деякі - зеленим, але більшість з них доречно позначені сірим кольором.
+
+Ви приділяєте час і уважно вивчаєте карту.::end</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Покинути.::end</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::It takes about ten seconds for the navigation computer to fully boot, but when it does it ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Потрібно близько десяти секунд, щоб навігаційний комп'ютер повністю завантажився, але коли це відбувається, він ::end</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Inspect the personal items.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Оглянути особисті речі.::end</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -110,7 +112,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Shredded clothes and a scattered hygiene kit - nothing useful to see here.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Порвані речі та розкиданий туалетний набір - тут немає нічого корисного.::end</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -122,7 +124,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
         <source>
 
 ::Except for one photo seated in a simple brass picture frame: It depicts a senior couple standing among a group of four younger men and three women, presumably their offspring. In the foreground are twelve kids, and after counting them all out you also notice that one of the women is holding a three-four month old baby in her arms. They are all smiling::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::За винятком однієї фотографії в простій латунній рамці: На ній зображена старша пара, що стоїть серед групи з чотирьох молодших чоловіків і трьох жінок, ймовірно, їхніх нащадків. На передньому плані дванадцять дітей, і після того, як ви їх перерахуєте, ви також помічаєте, що одна з жінок тримає на руках три-чотиримісячну дитину. Всі вони посміхаються::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -132,7 +134,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::, right through the frame's cracked glass.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::, прямо крізь тріснуте скло рамки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -142,7 +144,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::, contrasting the sad state of the Upper Underrail station they took this photo at.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::, що контрастує зі сумним станом станції Верхньої Підрейкової, де було зроблено це фото::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -152,7 +154,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Inspect the instrument panel.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Оглянути приладну панель::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -162,7 +164,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::For a seemingly simple vehicle that essentially goes forward and backward, these instrument panels do have a lot of buttons, switches and levers - and things.:: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Для, здавалося б, простого транспортного засобу, який по суті рухається вперед і назад, ці приладні панелі мають багато кнопок, перемикачів і важелів - і всякої всячини::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -174,7 +176,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
         <source>
 
 ::The railcar is powered on, and so is the navigation computer.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залізничний вагон увімкнено, а також увімкнено комп’ютер навігації::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -184,7 +186,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -194,7 +196,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Look at the dark territory map again.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Подивіться знову на темну карту території::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -204,7 +206,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Inspect the personal items.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Оглянути особисті речі::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -214,7 +216,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Shirts, pants, socks; scissors, hair trimmer, toothbrush - nothing out of the ordinary, or particularly interesting.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Сорочки, штани, шкарпетки; ножиці, машинка для стрижки волосся, зубна щітка - нічого незвичайного, або особливо цікавого::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -226,7 +228,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
         <source>
 
 ::You also see a navigation computer, likely powered by the railcar's batteries.:: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви також бачите комп’ютер навігації, який, ймовірно, живиться від акумуляторів залізничного вагону::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -236,7 +238,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Powering the railcar in order to turn on the navigation computer will certainly draw attention.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнення залізничного вагону для ввімкнення комп’ютера навігації, безумовно, приверне увагу::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -246,7 +248,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -256,7 +258,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Turn on the power.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути живлення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -266,7 +268,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Turn on the power.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути живлення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -278,7 +280,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
         <source>
 
 ::If you could supply power to it, it might yet still work.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Якщо ви зможете подати на нього живлення, він ще може працювати::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -288,7 +290,7 @@ You take your time and study the map well.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Electronics] Figure out how to power the computer independently.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Електроніка] З’ясуйте, як незалежно подати живлення на комп’ютер::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -300,7 +302,9 @@ You take your time and study the map well.::&lt;end&gt;</source>
         <source>::You find the label stating the voltage, amperage and other useful details.
 
 You calculate that you could power the computer with either one plasma, two fusion or four supercharged lithitum cells. You'll also need an electronic kit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви знаходите етикетку з зазначенням напруги, сили струму та інших корисних деталей.
+
+Ви розраховуєте, що можете живити комп’ютер одним плазмовим, двома термоядерними або чотирма надзарядженими літієвими елементами. Вам також знадобиться електронний набір::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -310,7 +314,7 @@ You calculate that you could power the computer with either one plasma, two fusi
       </mda:metadata>
       <segment state="translated">
         <source>::Connect four supercharged lithium cell in series with the help of an electronic repair kit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підключіть чотири надзаряджені літієві елементи послідовно за допомогою електронного ремонтного набору::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -320,7 +324,7 @@ You calculate that you could power the computer with either one plasma, two fusi
       </mda:metadata>
       <segment state="translated">
         <source>::Connect four supercharged lithium cell in series with the help of an advanced electronic repair kit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підключіть чотири надзаряджені літієві елементи послідовно за допомогою розширеного електронного ремонтного набору::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -330,7 +334,7 @@ You calculate that you could power the computer with either one plasma, two fusi
       </mda:metadata>
       <segment state="translated">
         <source>::Connect two fusion cells in series with the help of an electronic repair kit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підключіть два термоядерні елементи послідовно за допомогою електронного ремонтного набору::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -340,7 +344,7 @@ You calculate that you could power the computer with either one plasma, two fusi
       </mda:metadata>
       <segment state="translated">
         <source>::Connect two fusion cells in series with the help of an advanced electronic repair kit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підключіть два термоядерні елементи послідовно за допомогою розширеного електронного ремонтного набору::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -350,7 +354,7 @@ You calculate that you could power the computer with either one plasma, two fusi
       </mda:metadata>
       <segment state="translated">
         <source>::Use one plasma cell and a few resistors from an electronic repair kit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовуйте один плазмовий елемент і кілька резисторів з електронного ремонтного набору::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -360,7 +364,7 @@ You calculate that you could power the computer with either one plasma, two fusi
       </mda:metadata>
       <segment state="translated">
         <source>::Use one plasma cell and a few resistors from an advanced electronic repair kit.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовуйте один плазмовий елемент і кілька резисторів з розширеного електронного ремонтного набору::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -370,7 +374,7 @@ You calculate that you could power the computer with either one plasma, two fusi
       </mda:metadata>
       <segment state="translated">
         <source>::Try something else.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Спробуйте щось інше::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -380,7 +384,7 @@ You calculate that you could power the computer with either one plasma, two fusi
       </mda:metadata>
       <segment state="translated">
         <source>::Try turning on the power.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Спробуйте увімкнути живлення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -392,7 +396,9 @@ You calculate that you could power the computer with either one plasma, two fusi
         <source>::The panel's lights flicker ever so briefly - then nothing. You flip the power switch again, but the result doesn't change.
 
 Seems like the batteries cannot provide sufficient energy.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вогні на панелі на мить блимають - потім нічого. Ви знову перемикаєте вимикач живлення, але результат не змінюється.
+
+Здається, акумулятори не можуть забезпечити достатньо енергії::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -404,7 +410,9 @@ Seems like the batteries cannot provide sufficient energy.::&lt;end&gt;</source>
         <source>::You look inside the cockpit. It's not at all cramped, even if it may appear so from outside. 
 
 Still, excluding the large instrument panel, most of the free space has been taken up by hanging clothes, personal items and a few family pictures.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви заглядаєте всередину кабіни. Тут зовсім не тісно, навіть якщо здається інакше ззовні.
+
+Проте, не враховуючи велику приладну панель, більшу частину вільного простору займають висячий одяг, особисті речі та кілька сімейних фотографій::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

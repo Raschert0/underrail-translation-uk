@@ -11,7 +11,10 @@
 
 Please select one of the following options:
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага - всі автоматичні турелі вимкнені!
+
+Будь ласка, виберіть один з наступних варіантів:
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -21,7 +24,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -31,7 +34,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle inner checkpoint gate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути внутрішні ворота контрольно-пропускного пункту::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -41,7 +44,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Select one of the following options: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виберіть один з наступних варіантів: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -51,7 +54,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle outer checkpoint gate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути зовнішні ворота контрольно-пропускного пункту::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -61,7 +64,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Check Auto-turret status::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перевірити статус автоматичних турелей::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -71,7 +74,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Warning: Unresponsive auto-turrets detected! Please contact FMR service as soon as possible.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага: Виявлено нереагуючі автоматичні турелі! Будь ласка, зверніться до служби FMR якомога швидше.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -81,7 +84,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::All auto-turrets are currently offline::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Усі автоматичні турелі зараз вимкнені::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -91,7 +94,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::All auto-turrets are currently online::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Всі автоматичні турелі зараз ввімкнені::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -101,7 +104,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Disable auto-turrets::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Вимкнути автоматичні турелі::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -111,7 +114,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Auto-turrets successfuly disabled::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Автоматичні турелі успішно вимкнені::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -121,7 +124,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Error: Access denied::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка: Доступ заборонено::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -131,7 +134,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Disable surveillance video recording::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Вимкнути відеоспостереження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -141,7 +144,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::You successfully disable the recording function of the video surveillance system. Moreover, you make it so that the security monitors are still displaying the recording icon, as to maintain the impression that everything is working as intended.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви успішно вимкнули функцію запису відеоспостереження. Більше того, ви змусили монітори безпеки продовжувати відображати значок запису, щоб підтримувати враження, що все працює як задумано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -151,7 +154,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Review stored camera recordings::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Переглянути збережені записи з камер::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -161,7 +164,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Upon reviewing the recordings, you discover that your illegal activities have been caught on camera.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Переглядаючи записи, ви виявляєте, що ваші незаконні дії були зафіксовані на камеру.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -171,7 +174,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Erase all recordings containing you in them::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Стерти всі записи, що містять вас::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -181,7 +184,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Recordings erased successfully::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Записи успішно стерто::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -191,7 +194,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -201,7 +204,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::You review the recordings, and it appears that none of the cameras caught you doing anything illegal.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви переглядаєте записи, і здається, що жодна з камер не зафіксувала вас за вчиненням чогось незаконного.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -211,7 +214,7 @@ Please select one of the following options:
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -224,7 +227,10 @@ Please select one of the following options:
 
 Please select one of the following options:
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Усі системи безпеки ввімкнено
+
+Будь ласка, виберіть один з наступних варіантів:
+::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

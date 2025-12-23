@@ -17,7 +17,16 @@ Turbine maintenance or replacement is necessary!
 Warning! Total electric supply capacity is extremely low! (&lt;5%)
 
 Current estimated capacity: &lt;10 MW::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Електростанція Арке. Консоль управління живленням
+
+Biocorp Dis Electronics
+
+Номінальна потужність електростанції: 300 МВт
+Увага! Оціночна ефективність турбіни надзвичайно низька! (&lt;10%)
+Необхідне технічне обслуговування або заміна турбіни!
+Увага! Загальна потужність електропостачання надзвичайно низька! (&lt;5%)
+
+Поточна оціночна потужність: &lt;10 МВт::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -27,7 +36,7 @@ Current estimated capacity: &lt;10 MW::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -52,7 +61,22 @@ Tartarus Maximum Security Prison: $(context.loc_dc_prisonPower)%
 South Elevator: 0%
 
 Current power available for allocation: $(context.loc_dc_TotalPower)%::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поточні витрати енергії (%):
+
+Дослідницький комплекс: $(context.loc_dc_labPower)%
+Лабораторія Тітону: 0%
+Резервуари з мутагенами A: $(context.loc_dc_mutagenPower)%
+Резервуари з мутагенами B: 0%
+Електростанція Арке: $(context.loc_dc_arkePower)%
+Складський блок 1: 0%
+Складський блок 2: $(context.loc_dc_warehousePower)%
+BCAF - Відділення Hollow Earth: 0%
+Пост Талос: $(context.loc_dc_facelessPower)%
+Житловий блок Каерус: $(context.loc_dc_residentialPower)%
+Тюрма суворого режиму Тартар: $(context.loc_dc_prisonPower)%
+Південний ліфт: 0%
+
+Поточна доступна потужність для розподілу: $(context.loc_dc_TotalPower)%::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -62,7 +86,7 @@ Current power available for allocation: $(context.loc_dc_TotalPower)%::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Power plant management::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Управління електростанцією::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -79,7 +103,14 @@ Warning! Turbine maintenance or replacement is necessary!
 Steam turbine status: on
 Heat recovery steam generator (HRSG) status: on
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус газової турбіни 1: увімкнено
+Статус газової турбіни 2: увімкнено
+
+Увага! Необхідне технічне обслуговування або заміна турбіни!
+
+Статус парової турбіни: увімкнено
+Статус парового котла утилізації тепла (HRSG): увімкнено
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -91,7 +122,9 @@ Heat recovery steam generator (HRSG) status: on
         <source>::HRSG supplementary burners: on
 
 Mode of operation: combined cycle (Manual config)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Додаткові пальники HRSG: увімкнено
+
+Режим роботи: комбінований цикл (Ручне налаштування)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -101,7 +134,7 @@ Mode of operation: combined cycle (Manual config)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -113,7 +146,9 @@ Mode of operation: combined cycle (Manual config)::&lt;end&gt;</source>
         <source>::HRSG supplementary burners: off
 
 Mode of operation: combined cycle (Auto config)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Додаткові пальники HRSG: вимкнено
+
+Режим роботи: комбінований цикл (Автоматичне налаштування)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -123,7 +158,7 @@ Mode of operation: combined cycle (Auto config)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Electronics] Manually configure the combined-cycle system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Електроніка] Ручне налаштування комбінованої системи::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -137,7 +172,11 @@ Mode of operation: combined cycle (Auto config)::&lt;end&gt;</source>
 Engaging and configuring HRSG supplementary burners... Done.
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Оптимізація повітряно-паливної суміші газової турбіни... Готово.
+
+Увімкнення та налаштування додаткових пальників HRSG... Готово.
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -151,7 +190,11 @@ Engaging and configuring HRSG supplementary burners... Done.
 Optimizing supercondenser operation... Done.
 
 Manual configuration successful. Total net power gain: 51%::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перевірка статусу парової турбіни... Готово.
+
+Оптимізація роботи надпровідного конденсатора... Готово.
+
+Ручне налаштування успішне. Загальне чисте збільшення потужності: 51%::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -167,7 +210,13 @@ Disengaging HRSG supplementary burners...
 Optimizing air-fuel mixture...
 
 Procedure completed! (52 errors logged)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага! Тиск пари досягає неприйнятного рівня!
+
+Повернення до налаштувань за замовчуванням...
+Вимкнення додаткових пальників HRSG...
+Оптимізація повітряно-паливної суміші...
+
+Процедура завершена! (Зареєстровано 52 помилки)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -177,7 +226,7 @@ Procedure completed! (52 errors logged)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Deallocate power from Arke security systems and assembly lines::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відключити живлення від систем безпеки та складальних ліній Арке::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -189,7 +238,9 @@ Procedure completed! (52 errors logged)::&lt;end&gt;</source>
         <source>::This procedure will disable all security systems, including AMA lines, surveillance systems and turret defenses.
 
 Are you sure you want to proceed?::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ця процедура вимкне всі системи безпеки, включаючи лінії AMA, системи спостереження та турельні оборонні системи.
+
+Ви впевнені, що хочете продовжити?::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -199,7 +250,7 @@ Are you sure you want to proceed?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Yes::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Так::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -216,7 +267,14 @@ Automated manufacturing and assembly - security disabled!
 IRIS Core - Error: Remote access is denied!
 
 Procedure completed with 1 error(s)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнення систем безпеки...
+
+Безпека турбінного відділення - безпека вимкнена!
+Офісний відділ - безпека вимкнена!
+Автоматизоване виробництво та складання - безпека вимкнена!
+Ядро IRIS - Помилка: Віддалений доступ заборонено!
+
+Процедура завершена з 1 помилкою(ами)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -226,7 +284,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::No::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ні::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -236,7 +294,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Procedure canceled::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Процедуру скасовано::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -246,7 +304,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Allocate power to Warehouse Block 2 (-5%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виділити живлення складу блоку 2 (-5%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -258,7 +316,9 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
         <source>::Power allocated successfully!::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Живлення виділено успішно!::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -268,7 +328,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Deallocate power from Warehouse Block 2 (+5%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відключити живлення від складу блоку 2 (+5%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -280,7 +340,9 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
         <source>::Power deallocated successfully!::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Живлення відключено успішно!::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -290,7 +352,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Allocate power to Hollow Earth main research complex (-60%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виділити живлення основному дослідницькому комплексу Hollow Earth (-60%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -300,7 +362,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Deallocate power from Hollow Earth main research complex (+60%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відключити живлення від основного дослідницького комплексу Hollow Earth (+60%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -310,7 +372,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Allocate power to Mutagen Tanks A (-30%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виділити живлення резервуарам з мутагенами A (-30%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -320,7 +382,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Deallocate power from Mutagen Tanks A (+30%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відключити живлення від резервуарів з мутагенами A (+30%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -330,7 +392,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Allocate power to Mutagen Tanks B *(Node 3 offline)*::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виділити живлення резервуарам з мутагенами B *(Вузол 3 відключено)*::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -340,7 +402,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Allocate power to Caerus Residential Block (-40%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виділити живлення житловому блоку Каерус (-40%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -351,7 +413,8 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Power allocated successfully!::
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Живлення виділено успішно!::
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -361,7 +424,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Deallocate power from Caerus Residential Block (+40%)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відключити живлення від житлового блоку Каерус (+40%)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -371,7 +434,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Allocate power to Tartarus Maximum Security Prison *(Nodes 8 and 11 offline)*::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виділити живлення в'язниці суворого режиму Тартар *(Вузли 8 та 11 відключено)*::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -381,7 +444,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Allocate power to South Elevator *(Node 19 offline)*::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виділити живлення південному ліфту *(Вузол 19 відключено)*::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -391,7 +454,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Allocate power to Talos Outpost *(Node 2 offline)*::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виділити живлення посту Талос *(Вузол 2 відключено)*::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -401,7 +464,7 @@ Procedure completed with 1 error(s)::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

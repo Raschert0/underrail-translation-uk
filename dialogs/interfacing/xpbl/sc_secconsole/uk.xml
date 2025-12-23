@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::LEMCO LC387 - ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO LC387 - ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Welcome, P. Bridges::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, П. Бріджес::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Lift lockdown::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зняти блокування::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -64,7 +64,13 @@ Passed: Your clearance level is C-4.
 Lifting lockdown will unlock the main entrance gates, disable automated bioscanning procedures and allow access to the Security Command elevator. Mode of operation for automated defense systems will remain unchanged.
 
 Proceed?::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перевірка рівня допуску...
+
+Успішно: Ваш рівень допуску – C-4.
+
+Зняття блокування відкриє основні вхідні ворота, вимкне автоматичні процедури біосканування та дозволить доступ до ліфта Командування Охорони. Режим роботи автоматизованих систем оборони залишиться незмінним.
+
+Продовжити?::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -74,7 +80,7 @@ Proceed?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Yes::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Так::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -90,7 +96,13 @@ Opening entrance gate 2... Done.
 Unlocking Security Command Elevator... Done.
 
 Lockdown lifted successfully.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зняття блокування...
+
+Відкриття вхідних воріт 1... Готово.
+Відкриття вхідних воріт 2... Готово.
+Відкриття ліфта Командування Охорони... Готово.
+
+Блокування успішно знято.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -100,7 +112,7 @@ Lockdown lifted successfully.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::No::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ні::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -110,7 +122,7 @@ Lockdown lifted successfully.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Surveillance system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система спостереження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -122,7 +134,9 @@ Lockdown lifted successfully.::&lt;end&gt;</source>
         <source>::Surveillance system status: Online.
 
 Number of active security cameras in Joint Security Headquarters: N/A::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус системи спостереження: Онлайн.
+
+Кількість активних камер спостереження в Штабі Об'єднаної Охорони: N/A::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -132,7 +146,7 @@ Number of active security cameras in Joint Security Headquarters: N/A::&lt;end&g
       </mda:metadata>
       <segment state="translated">
         <source>::Disable the surveillance system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнути систему спостереження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -150,7 +164,15 @@ Error...
 Error...
 
 Error...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка...
+
+Помилка...
+
+Помилка...
+
+Помилка...
+
+Помилка::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -160,7 +182,7 @@ Error...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Disable the surveillance system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Відключити систему спостереження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -172,7 +194,9 @@ Error...::&lt;end&gt;</source>
         <source>::Disabling surveillance system...
 
 Surveillance system disabled successfully..::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнення системи спостереження...
+
+Систему спостереження успішно вимкнено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -182,7 +206,7 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Surveillance system status: Offline.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус системи спостереження: Офлайн.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -192,7 +216,7 @@ Surveillance system disabled successfully..::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -208,7 +232,13 @@ Error...
 Error...
 
 Rebooting...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка...
+
+Помилка...
+
+Помилка...
+
+Перезавантаження...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -218,7 +248,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -228,7 +258,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Auto-turret defense system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система оборони автоматичних турелей::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -238,7 +268,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Auto-turret defense system status: Online::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус системи оборони автоматичних турелей: Онлайн::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -248,7 +278,7 @@ Rebooting...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Disable auto-turret defense system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнути систему оборони автоматичних турелей::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -266,7 +296,15 @@ Error...
 Error...
 
 Error...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка...
+
+Помилка...
+
+Помилка...
+
+Помилка...
+
+Помилка...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -276,7 +314,7 @@ Error...::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Disable auto-turret defense system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злом] Вимкнути систему оборони автоматичних турелей::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -288,7 +326,9 @@ Error...::&lt;end&gt;</source>
         <source>::Disabling...
 
 Success: Auto-turret defense system has been disabled.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнення...
+
+Успіх: Систему оборони автоматичних турелей вимкнено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -298,7 +338,7 @@ Success: Auto-turret defense system has been disabled.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Auto-turret defense system status: Offline::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус системи оборони автоматичних турелей: Офлайн::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -308,7 +348,7 @@ Success: Auto-turret defense system has been disabled.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Contact active security supervisor::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зв'язатися з активним керівником служби безпеки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -320,7 +360,9 @@ Success: Auto-turret defense system has been disabled.::&lt;end&gt;</source>
         <source>::No active security supervisors detected. There may be temporary communication problems preventing this. 
 
 Please try again later.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активних керівників служби безпеки не виявлено. Можливо, тимчасові проблеми зі зв'язком перешкоджають цьому. 
+
+Будь ласка, спробуйте ще раз пізніше.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -330,7 +372,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Summon available strongman::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Викликати доступного силовика::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -342,7 +384,7 @@ Please try again later.::&lt;end&gt;</source>
         <source>
 
 ::Warning: Joint Security Headquarters is under full lockdown.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Попередження: Штаб-квартира Об'єднаної служби безпеки перебуває на повному блокуванні.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -352,7 +394,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::You do not have permission to use this console. Minimum clearance level required is C-3.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::У вас немає дозволу на використання цієї консолі. Мінімальний рівень допуску: C-3.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

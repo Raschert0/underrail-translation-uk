@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\interfacing\dun_lup-a_pipeandtrash.txt" original="dialogs\interfacing\dun_lup-a_pipeandtrash.txt">
     <unit id="=&gt;q1" name="=&gt;q1">
@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::As you enter the large pipe, the stench of all the waste inside of it forces you to act quickly. Initially, as you start to crawl, there aren't many obstacles in your way. You keep going forward until there is an elevated section of the pipe which you sucessfully manage to climb up into. Once there, the smell of the junk inside the pipe starts to overwhelm you as you rush to get out. The surface you are crawling on starts to become slippery and it causes you to drop down to a new bottom, enveloping you with oozing sludge. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Коли ви входите у велику трубу, сморід усіх відходів всередині змушує вас діяти швидко. Спочатку, коли ви починаєте повзти, на вашому шляху небагато перешкод. Ви продовжуєте рухатися вперед, поки не досягаєте піднятої ділянки труби, на яку вам вдається успішно залізти. Там, запах сміття всередині труби починає вас переповнювати, коли ви поспішаєте вибратися. Поверхня, по якій ви повзете, стає слизькою і змушує вас впасти вниз, огортаючи вас стікаючим брудом.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Keep crawling through the sludge.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Продовжуйте повзти крізь бруд.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::[Will] Your iron will helps you move through the mud. As you keep going, the struggle mounts up as the oozing waste entangles you. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::[Воля] Ваша залізна воля допомагає вам рухатися крізь багно. Продовжуючи рух, боротьба посилюється, оскільки стікаючі відходи обплутують вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::[Will] I will never stop!::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::[Воля] Я ніколи не зупинюся!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +50,9 @@
         <source>::Despite the dense mud that envelops you, your will to survive fights through. You lose the sense of space and time as your only goal is to just keep going forward. After what seems to be an eternity, you make one last push. Exhausted, that effort forces out every last ounce of your remaining strength, causing you to lose your consciousness. 
 
 After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Незважаючи на густий бруд, що огортає вас, ваша воля до виживання пробивається крізь нього. Ви втрачаєте відчуття простору і часу, оскільки ваша єдина мета - просто продовжувати рухатися вперед. Після того, що здається вічністю, ви робите останній ривок. Виснажені, ці зусилля вичавлюють з вас кожну краплю залишку сил, змушуючи втратити свідомість.
+
+Після відновлення почуттів ви знаходите себе, що лежите в якомусь бруді.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -60,7 +62,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Rise up.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Підніміться.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Give up.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Здайтеся.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::[Constitution] Your guts are strong, as you manage to withstand all the disgusting smell coming your way. However, the further you go the filth becomes stronger and the waste becomes denser. Suddenly, the ooze entangles you.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::[Статура] Ваша витривалість сильна, оскільки вам вдається витримати весь огидний сморід, що наближається до вас. Однак, чим далі ви йдете, тим сильнішим стає бруд, а відходи - щільнішими. Раптом, слиз обплутує вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::[Constitution] Muscle through.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::[Статура] Пробийтеся.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -112,7 +114,9 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
         <source>::Your body is strong and it serves you well. You push through the filth and you reach a segment of the pipe with a large opening on it's bottom. Adrenaline kicks in as you see the exit and you jump through the hole. ::
 
 ::The fatigue causes you to slam down onto the floor.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Ваше тіло сильне і добре вам служить. Ви пробиваєтеся крізь бруд і досягаєте сегменту труби з великим отвором внизу. Адреналін вривається, коли ви бачите вихід і стрибаєте в отвір. ::
+
+::Втома змушує вас з гуркотом впасти на підлогу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -122,7 +126,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Stand up.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Встаньте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -132,7 +136,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Give up.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Здайтеся.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -143,7 +147,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       <segment state="translated">
         <source>::As you start to advance slowly, you run out of breath. Your senses become numb, as you lose the ability to feel the surroundings. The only thing you can sense is your beating heart as it tries to compensate for the missing oxygen. Gasping for any air, it feels as if an infinity has passed. Eventually you collapse. ::
 &lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Коли ви починаєте повільно просуватися, у вас перехоплює подих. Ваші почуття стають занімілими, оскільки ви втрачаєте здатність відчувати навколишнє середовище. Єдине, що ви можете відчути, - це биття вашого серця, яке намагається компенсувати нестачу кисню. Задихаючись від будь-якого повітря, здається, що пройшла вічність. Зрештою, ви падаєте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -153,7 +157,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Die.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Померти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -163,7 +167,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::[Will]:: I can do this!&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::[Воля]:: Я можу це зробити!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -173,7 +177,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::[Constitution]:: I can take it ALL!&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::[Статура]:: Я можу витримати ВСЕ!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -183,7 +187,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Give up.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Здайтеся.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -203,7 +207,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Pile of food? No... no food. Too risky...::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Купа їжі? Ні... ні їжі. Занадто ризиковано...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -213,7 +217,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Залиште.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -223,7 +227,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::You stand before a giant pile of trash. The sound of contaminated droplets coming down from the nearby mindshroom and its green light make the trash seem somewhat alive. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Ви стоїте перед гігантською купою сміття. Звук забруднених крапель, що падають з сусіднього гриба-розуму, і його зелене світло змушують сміття здаватися дещо живим.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -233,7 +237,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Dig through the trash. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Перерити сміття.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -243,7 +247,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::You scour through the first half of trash efficiently, but you don't find anything useful.&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Ви ефективно переглядаєте першу половину сміття, але не знаходите нічого корисного.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -253,7 +257,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>Check out the rest of the trash.&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Перевірте решту сміття.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -263,7 +267,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::[Perception] Your keen eyes manage to spot a lockpick. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::[Сприйняття] Ваші гострі очі помічають відмичку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -273,7 +277,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Take the lockpick and rise up.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Візьміть відмичку і підніміться.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -283,7 +287,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Залиште.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -293,7 +297,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::You start searching through the trash going from one end to another. The filthy mud acts like a glue, making it quite hard to pick up objects which are closer to the ground. After a while, the dirt and stench eventually make you stop... ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Ви починаєте шукати в смітті, проходячи від одного кінця до іншого. Брудний бруд діє як клей, ускладнюючи підйом предметів, які знаходяться ближче до землі. Через деякий час бруд і сморід змушують вас зупинитися...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -303,7 +307,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Keep searching.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Продовжуйте пошук.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -313,7 +317,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::This time you start by searching the corners in full detail. You spend considerable amount of time picking out items one by one, but again, none of them seem to useful. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Цього разу ви починаєте з детального пошуку кутів. Ви витрачаєте значну кількість часу на витягування предметів один за одним, але знову ж таки, жоден з них не здається корисним.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -323,7 +327,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Try again.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Спробуйте ще раз.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -333,7 +337,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Your approach changes this time as you start organizing the trash by throwing away the useless stuff to the side. As you dig through, you start reaching for the smallest things. However after a while, all this extra work makes you tired. Glancing over what's left you figure that there is about three times as much more trash left to go through.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Цього разу ваш підхід змінюється, оскільки ви починаєте сортувати сміття, викидаючи непотрібні речі вбік. Копаючи, ви починаєте тягнутися до найменших речей. Однак через деякий час вся ця додаткова робота втомлює вас. Поглянувши на те, що залишилося, ви розумієте, що попереду ще приблизно втричі більше сміття.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -343,7 +347,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Continue digging.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Продовжуйте копати.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -353,7 +357,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::You are becoming better at this, as you start to sort out trash much faster. As you dig deeper, it would seem for a moment, that the trash pile has no end. Fatigue kicks in as you start to confuse which pile of trash you have already visited. Your fingers are becoming numb and you take a small break to rest. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Ви стаєте кращими в цьому, оскільки починаєте сортувати сміття набагато швидше. Копаючи глибше, здається, на мить, що купі сміття немає кінця. Втома вступає в силу, коли ви починаєте плутати, яку купу сміття ви вже відвідали. Ваші пальці стають занімілими, і ви робите невелику перерву, щоб відпочити.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -363,7 +367,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Don't give up.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Не здавайся.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -373,7 +377,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Desparation clouds your mind, as you go through even more filthy trash. At this point, you don't even mind the smell from it. Your numbing hands start to turn into efficient shovels as you bulldoze through the junk. The pain becomes too much at this point as there is about a quarter of initial pile remaining. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Відчай затьмарює ваш розум, коли ви проходите через ще більше брудного сміття. На даний момент вас навіть не турбує запах від нього. Ваші занімілі руки перетворюються на ефективні лопати, коли ви розгрібаєте сміття. Біль стає нестерпним, коли залишається приблизно чверть початкової купи.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -383,7 +387,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Keep... going...::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Продовжуй... йти...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -393,7 +397,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::At this point you become one with the trash. You berserk through what's left out of it. After what's been over a hundred items you've inspected, all but nothing was left to be searched through. Your body quivers in pain as your filth ridden hands start to bleed out from many tiny scars you've received in the process. ::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::На даний момент ви стаєте одним цілим зі сміттям. Ви люто прориваєтеся крізь те, що залишилося. Після того, як ви перевірили понад сотню предметів, майже нічого не залишилося для пошуку. Ваше тіло тремтить від болю, оскільки ваші забруднені руки починають кровоточити від багатьох дрібних шрамів, які ви отримали в процесі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -403,7 +407,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::The ground. Dig through the filth on the ground.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Земля. Перерити бруд на землі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -413,7 +417,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Your numb hands serve you well in this task as you start lifting small chunks of ground which was initally below the trash. Digging efforts bring you closer to the floor sunk in oozing mud, but it doesn't stop your momentum one bit. All that is left are some filth covered rocks.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Ваші занімілі руки добре служать вам у цьому завданні, оскільки ви починаєте піднімати невеликі шматки землі, які спочатку були під сміттям. Копальні зусилля наближають вас до підлоги, зануреної в стікаючий бруд, але це не зупиняє ваш імпульс. Залишилися лише деякі забруднені камені.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -423,7 +427,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::The rocks!::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Камені!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -433,7 +437,7 @@ After regaining your senses, you find yourself lying in some sludge.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::As the rocks are the last thing standing in your way, you suddenly gain encouragement to do the final job. You leap onto work as you start lifting them up, relentlessly. Underneath each rock, you find some additional heavily corroded trash. At last, in a tiny damaged lockbox, you find a wallet. It is in unusually decent condition, considering all the previous items you've seen just before it. Inside the wallet you find a lockpick.::&lt;end&gt;</source>
-        <target state="new"/>
+        <target state="needs-translation">::Оскільки камені - це останнє, що стоїть на вашому шляху, ви раптом отримуєте заохочення зробити фінальну роботу. Ви кидаєтеся до роботи, починаючи піднімати їх невпинно. Під кожним каменем ви знаходите додаткове сильно зруйноване сміття. Нарешті, у крихітному пошкодженому замку ви знаходите гаманець. Він у незвично пристойному стані, враховуючи всі попередні предмети, які ви бачили безпосередньо перед ним. Всередині гаманця ви знаходите відмичку.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

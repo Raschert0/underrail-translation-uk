@@ -12,7 +12,11 @@
 All boiling units have exceeded allowed thresholds!
 
 Emergency protocol is now available. Immediately disengage the heating units!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага, увага!!! Охолодження басейном з водою - виявлено критичну температуру! 
+
+Усі киплячі установки перевищили дозволені межі!
+
+Зараз доступний протокол надзвичайної ситуації. Негайно вимкніть нагрівальні елементи!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -22,7 +26,7 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
       </mda:metadata>
       <segment state="translated">
         <source>::Disable all heating units::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнути всі нагрівальні елементи::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -32,7 +36,7 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
       </mda:metadata>
       <segment state="translated">
         <source>::Error, error, error...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка, помилка, помилка...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -42,7 +46,7 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
       </mda:metadata>
       <segment state="translated">
         <source>::Go back.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повернутися.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -52,7 +56,7 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залишити.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -62,7 +66,7 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
       </mda:metadata>
       <segment state="translated">
         <source>::Compute cooling statistics::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Обчислити статистику охолодження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -72,7 +76,7 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
       </mda:metadata>
       <segment state="translated">
         <source>::Error, error, error...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка, помилка, помилка...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -82,7 +86,7 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
       </mda:metadata>
       <segment state="translated">
         <source>::Conduct emergency protocol::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активувати протокол надзвичайної ситуації::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -92,7 +96,7 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
       </mda:metadata>
       <segment state="translated">
         <source>::Emergency exit now available, proceed to east and take shelter within the secure room.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Аварійний вихід доступний, просувайтеся на схід і знайдіть укриття в безпечній кімнаті.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -104,7 +108,9 @@ Emergency protocol is now available. Immediately disengage the heating units!::&
         <source>::Warning, warning!!! Waterpool cooling - critical temperature detected! 
 
 Head east to the emergency exit and take shelter within the secure room.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага, увага!!! Охолодження водосховища – виявлено критичну температуру! 
+
+Рухайтеся на схід до аварійного виходу і знайдіть укриття в безпечній кімнаті.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -114,7 +120,7 @@ Head east to the emergency exit and take shelter within the secure room.::&lt;en
       </mda:metadata>
       <segment state="translated">
         <source>::The console displays ten distinct heat bars, each showing the current temperature they're operating with. Every boiling unit has its own set of controls, all of which are used to manipulate the amount of heat they can dish out. A separate section of the display shows the water level, as well as the humidity of nearby air.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::На консолі відображаються десять окремих індикаторів нагріву, кожен з яких показує поточну температуру, з якою вони працюють. Кожна кипляча установка має власний набір елементів керування, всі з яких використовуються для регулювання кількості тепла, яке вони можуть виділяти. Окремий розділ дисплея показує рівень води, а також вологість навколишнього повітря.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -124,7 +130,7 @@ Head east to the emergency exit and take shelter within the secure room.::&lt;en
       </mda:metadata>
       <segment state="translated">
         <source>::Adjust cooling/heating levels.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відрегулювати рівень охолодження/нагрівання.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -136,7 +142,9 @@ Head east to the emergency exit and take shelter within the secure room.::&lt;en
         <source>::Error, error, error...::
 
 ::Manual override required.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка, помилка, помилка...::
+
+::Потрібне ручне втручання.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -146,7 +154,7 @@ Head east to the emergency exit and take shelter within the secure room.::&lt;en
       </mda:metadata>
       <segment state="translated">
         <source>::Go back.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Повернутися.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -156,7 +164,7 @@ Head east to the emergency exit and take shelter within the secure room.::&lt;en
       </mda:metadata>
       <segment state="translated">
         <source>::Compute cooling statistics::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Обчислити статистику охолодження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -172,7 +180,13 @@ Temperature - critical (exceeded water boiling point).
 Humidity - very high (over 88%). 
 
 Power consumption - high.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рівень води - критичний (ввімкнено резерви).
+
+Температура - критична (перевищено точку кипіння води).
+
+Вологість - дуже висока (понад 88%).
+
+Споживання енергії - високе.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -188,7 +202,13 @@ Temperature - high (at water boiling point).
 Humidity - high (over 65%). 
 
 Power consumption - moderate/high.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рівень води - низький (ввімкнено резерви).
+
+Температура - висока (на межі кипіння води).
+
+Вологість - висока (понад 65%).
+
+Споживання енергії - помірне/високе.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -204,7 +224,13 @@ Temperature - high (nearing water boiling point).
 Humidity - high (over 41%). 
 
 Power consumption - moderate.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рівень води - стабільний (резерви частково використані).
+
+Температура - висока (наближається до точки кипіння води).
+
+Вологість - висока (понад 41%).
+
+Споживання енергії - помірне.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -220,7 +246,13 @@ Temperature - nominal.
 Humidity - nominal. 
 
 Power consumption - minimal.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рівень води - нормальний.
+
+Температура - нормальна.
+
+Вологість - нормальна.
+
+Споживання енергії - мінімальне.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -230,7 +262,7 @@ Power consumption - minimal.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Detailed Power consumption readings::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Детальні показники споживання енергії::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -240,7 +272,7 @@ Power consumption - minimal.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::The screen flickers for a moment before giving up. The action has failed.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Екран мерехтить на мить, перш ніж згаснути. Дія не вдалася.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

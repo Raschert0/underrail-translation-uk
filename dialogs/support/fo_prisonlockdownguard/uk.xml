@@ -10,7 +10,9 @@
         <source>::A guard stops you. He takes a  few seconds to cough before addressing you with a hoarse, grinding voice.::
 
 Excuse me, but I'm going to have to ask you to leave the area. The prison is under lockdown and no unauthorized personnel is allowed inside.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Охоронець зупиняє вас. Йому потрібно кілька секунд, щоб прокашлятися, перш ніж він звернеться до вас хриплим, скрегочучим голосом.::
+
+Вибачте, але я повинен попросити вас покинути цю територію. В'язниця на карантині, і стороннім особам вхід заборонено.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Excuse me, but I'm going to have to ask you to leave the area. The prison is und
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Excuse me, but I'm going to have to ask you to leave the area. The prison is und
       </mda:metadata>
       <segment state="translated">
         <source>What is going on?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що відбувається?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Excuse me, but I'm going to have to ask you to leave the area. The prison is und
       </mda:metadata>
       <segment state="translated">
         <source>That is classified information.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це конфіденційна інформація.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Excuse me, but I'm going to have to ask you to leave the area. The prison is und
       </mda:metadata>
       <segment state="translated">
         <source>Please leave the area.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, покиньте цю територію.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -60,7 +62,7 @@ Excuse me, but I'm going to have to ask you to leave the area. The prison is und
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Excuse me, but I'm going to have to ask you to leave the area. The prison is und
       </mda:metadata>
       <segment state="translated">
         <source>Need I remind you that the area is off limits to unauthorized personnel? ::He coughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи потрібно нагадувати вам, що ця територія закрита для сторонніх осіб? ::Він кашляє.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

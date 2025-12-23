@@ -10,7 +10,9 @@
         <source>::The weapon appears to be inactive. Yet when you hold it by the grip, the small display flashes red, displaying the message - "Unauthorized user".
 
 Upon further inspection you find a connector on the side...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зброя, здається, неактивна. Але коли ти тримаєш її за рукоятку, маленький дисплей блимає червоним, відображаючи повідомлення - "Неавторизований користувач".
+
+При більш детальному огляді ти знаходиш роз'єм збоку...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -20,7 +22,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</source
       </mda:metadata>
       <segment state="translated">
         <source>::Connect a haxxor to the weapon.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Підключи хакера до зброї.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</source
       </mda:metadata>
       <segment state="translated">
         <source>::The weapon's display turns yellow. The "Unauthorized user" message persists.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дисплей зброї стає жовтим. Повідомлення "Неавторизований користувач" залишається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</source
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</source
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Access basic information.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Отримати базову інформацію.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -66,7 +68,13 @@ Product name: Pulsed Energy Service Pistol - Model 2, Alteration 3
 Model name: PESP-M02A3
 Serial number: DE8NA3CC0004
 Last servicing date: Unavailable::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::*Про:*
+
+Виробник: DETeK, Dis, Північний Андеррейл
+Назва продукту: Імпульсний енергетичний сервісний пістолет - Модель 2, Зміна 3
+Назва моделі: PESP-M02A3
+Серійний номер: DE8NA3CC0004
+Дата останнього обслуговування: Недоступно::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -76,7 +84,7 @@ Last servicing date: Unavailable::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Software information::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Інформація про програмне забезпечення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -90,7 +98,11 @@ Last servicing date: Unavailable::&lt;end&gt;</source>
 OS version: 1.2.897
 UI version: 4.3
 Network address: Unavailable::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::*Інформація про програмне забезпечення:*
+
+Версія ОС: 1.2.897
+Версія UI: 4.3
+Мережева адреса: Недоступно::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -100,7 +112,7 @@ Network address: Unavailable::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -110,7 +122,7 @@ Network address: Unavailable::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -120,7 +132,7 @@ Network address: Unavailable::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Power information::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Інформація про живлення::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -135,7 +147,12 @@ Supercapacitor type: 1x HV hybrid
 Supercapacitor status: Good
 Battery type: 120v potassium-ion
 Battery status: Unavailable::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::*Інформація про живлення:*
+
+Тип суперконденсатора: 1x HV гібрид
+Статус суперконденсатора: Добре
+Тип батареї: 120v калій-іонна
+Статус батареї: Недоступно::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -145,7 +162,7 @@ Battery status: Unavailable::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Weapon information::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Інформація про зброю::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -169,7 +186,21 @@ Pulse delay per shot: 25 µs
 Total energy output per shot: 48kJ
 
 Note: energy "shot" as defined under section 4.8 of BCMS/5.3 UPMS::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::*Інформація про зброю:*
+
+*Летальний режим:*
+Енергія за імпульс: 240 Дж
+Імпульсів за постріл: 50
+Затримка імпульсу за постріл: 10 мкс
+Загальна енергія за постріл: 12 кДж
+
+*Режим меншої летальності (за замовчуванням):*
+Енергія за імпульс: 2.4 кДж
+Імпульсів за постріл: 20
+Затримка імпульсу за постріл: 25 мкс
+Загальна енергія за постріл: 48 кДж
+
+Примітка: енергія "пострілу" як визначено в розділі 4.8 BCMS/5.3 UPMS::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -179,7 +210,7 @@ Note: energy "shot" as defined under section 4.8 of BCMS/5.3 UPMS::&lt;end&gt;</
       </mda:metadata>
       <segment state="translated">
         <source>::User information::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Інформація про користувача::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -195,7 +226,13 @@ Note: energy "shot" as defined under section 4.8 of BCMS/5.3 UPMS::&lt;end&gt;</
 Weapon administrator(s):
 
 Unavailable::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Авторизовані користувачі (1):
+
+*U8HU3CSD* - Рональд Вестрок
+
+Адміністратори зброї:
+
+Недоступно::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -205,7 +242,7 @@ Unavailable::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Add a new user.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Додати нового користувача.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -217,7 +254,9 @@ Unavailable::&lt;end&gt;</source>
         <source>::Collecting biometric data...
 
 Please hold the weapon by its grip until all the necessary information has been collected.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Збираються біометричні дані...
+
+Будь ласка, тримайте зброю за рукоятку, поки не буде зібрано всю необхідну інформацію.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -227,7 +266,7 @@ Please hold the weapon by its grip until all the necessary information has been 
       </mda:metadata>
       <segment state="translated">
         <source>::Do as it says.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зроби, як сказано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -239,7 +278,9 @@ Please hold the weapon by its grip until all the necessary information has been 
         <source>::Successfully added a new user:
 
 *TSMSL2SR - $(context.player.Name)*::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Успішно додано нового користувача:
+
+*TSMSL2SR - $(context.player.Name)*::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -249,7 +290,7 @@ Please hold the weapon by its grip until all the necessary information has been 
       </mda:metadata>
       <segment state="translated">
         <source>::Error: Access Denied::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка: Доступ заборонено::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -259,7 +300,7 @@ Please hold the weapon by its grip until all the necessary information has been 
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -269,7 +310,7 @@ Please hold the weapon by its grip until all the necessary information has been 
       </mda:metadata>
       <segment state="translated">
         <source>::Warning: Unauthorized user detected. Logging biometric data...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага: Виявлено неавторизованого користувача. Логуються біометричні дані...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -279,7 +320,7 @@ Please hold the weapon by its grip until all the necessary information has been 
       </mda:metadata>
       <segment state="translated">
         <source>::Put it away.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поклади це.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

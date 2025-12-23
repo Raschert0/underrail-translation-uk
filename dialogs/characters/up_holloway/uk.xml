@@ -10,7 +10,9 @@
         <source>::It doesn't take too long for you to finally meet the sergeant. He stands before you proud and solid as a rock, displaying a stern face only slightly diluted by worry and uncertainty. A salute appears almost instantly, and his spoken words aren't far behind.::
 
 Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не потрібно багато часу, щоб нарешті зустріти сержанта. Він стоїть перед вами гордий і міцний, як скеля, демонструючи суворе обличчя, лише трохи розмите тривогою та невпевненістю. Салют з'являється майже миттєво, і його сказані слова не забариться.::
+
+Старший сержант Тімоті Голлоуей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -20,7 +22,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Salute.:: Corporal $(context.player.Name), sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Салют.:: Єфрейторе $(context.player.Name), сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So, they've finally sent someone. I expected an army, but I got one $(#man/woman). ::He chuckles in a rather lifeless fashion.:: I never met you before, so you must have enlisted after I left the base. Welcome to Underrail Protectorate, Corporal - welcome to hell.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, вони нарешті когось послали. Я очікував армію, але отримав одного $(#man/woman). ::Він сміється досить безжиттєво.:: Я раніше з тобою не зустрічався, тож ти, мабуть, вступив на службу після того, як я покинув базу. Ласкаво просимо до Протекторату Андеррейлу, Корпорале – ласкаво просимо до пекла.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>But enough about that. Let's talk, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але досить про це. Поговоримо, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -60,7 +62,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why did you leave Fort Apogee? What caused you to abandon your duty?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ви покинули Форт Апогей? Що змусило вас покинути свій обов'язок?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He seems hesitant to speak. From the look in his eyes you draw a conclusion that there is an internal conflict within him; as if one side of him wants to give you an answer, while the other demands he does not.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Здається, він вагається говорити. З погляду в його очах ви робите висновок, що в ньому йде внутрішній конфлікт; ніби одна сторона його хоче дати вам відповідь, а інша вимагає, щоб він цього не робив.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm here to help you save your skin, Holloway. As well as your men's. And I can only do that if you tell me what happened.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я тут, щоб допомогти тобі врятувати свою шкуру, Холлоуей. А також шкуру твоїх людей. І я можу це зробити лише тоді, коли ти мені розповіси, що сталося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -92,7 +94,9 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
         <source>::Holloway's eyes light up. Your words struck a chord with him, and you see he's about to open up.::
 
 It's a long story... It's not one specific thing which happened that made me lead my men here. It's an ongoing problem I have had with the Protectorate. I am disappointed, and I'm furious at the same time. At both the Protectorate and myself.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очі Голлоуея загоряються. Ваші слова знайшли відгук у ньому, і ви бачите, що він збирається відкритися.::
+
+Це довга історія... Це не якась конкретна річ, яка сталася, що змусила мене привести своїх людей сюди. Це постійна проблема, яку я мав з Протекторатом. Я розчарований, і я одночасно розлючений. І на Протекторат, і на себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -102,7 +106,7 @@ It's a long story... It's not one specific thing which happened that made me lea
       </mda:metadata>
       <segment state="translated">
         <source>Go on, I'm all ears.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Продовжуй, я слухаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -114,7 +118,9 @@ It's a long story... It's not one specific thing which happened that made me lea
         <source>::Holloway takes a deep breath.::
 
 Listen to me carefully, Corporal. I've been a proud member of Underrail Protectorate forces for years. I've fought and killed many, more than I'd like to admit, in order to save others, to protect others, to allow others to live better lives. But lately, that is not what I have been doing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Холлоуей глибоко вдихає.::
+
+Уважно слухай мене, Корпорале. Я роками був гордим членом сил Протекторату Андеррейлу. Я бився і вбивав багатьох, більше, ніж хотів би визнавати, щоб врятувати інших, захистити інших, дозволити іншим жити кращим життям. Але останнім часом я цього не робив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -124,7 +130,7 @@ Listen to me carefully, Corporal. I've been a proud member of Underrail Protecto
       </mda:metadata>
       <segment state="translated">
         <source>Lately... I have been killing innocent people... and I have ordered my men to do the same.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Останнім часом... я вбивав невинних людей... і я наказував своїм людям робити те саме.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -134,7 +140,7 @@ Listen to me carefully, Corporal. I've been a proud member of Underrail Protecto
       </mda:metadata>
       <segment state="translated">
         <source>But... why?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але... чому?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -146,7 +152,9 @@ Listen to me carefully, Corporal. I've been a proud member of Underrail Protecto
         <source>Because *I* was ordered the same thing, Corporal. I didn't know who I was killing at the time. 
 
 Raiders? Bad intel, but they're dead anyway - good job, Holloway! Good job, Sarge. Free Drones? Bad intel, those weren't the Free Drones, but they might have helped them at one point. Intel "suggested" so. Good job, Sarge! Good job!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тому що *мені* було наказано зробити те саме, єфрейторе. Я не знав, кого вбиваю в той час.
+
+Рейдери? Погана розвідка, але вони все одно мертві - добре зроблено, Голлоуей! Добре зроблено, сержанте. Вільні Дрони? Погана розвідка, це були не Вільні Дрони, але вони могли їм допомогти в якийсь момент. Розвідка "натякала" на це. Добре зроблено, сержанте! Добре зроблено!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -158,7 +166,9 @@ Raiders? Bad intel, but they're dead anyway - good job, Holloway! Good job, Sarg
         <source>Like they didn't care. Some of my superiors didn't even blink when I confronted them about it. "Who cares, they are all ratters!" - one lieutenant even said.
 
 I felt like I'm crazy, derailed. It made me sick, that's not what I signed for, damn it!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ніби їм було байдуже. Деякі з моїх начальників навіть не моргнули оком, коли я протиставив їм це. "Кому не байдуже, вони всі щурівня!" - навіть один лейтенант сказав.
+
+Я відчував, що я божевільний, зійшов з рейок. Мене нудило, це не те, за чим я підписувався, клянусь!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -170,7 +180,9 @@ I felt like I'm crazy, derailed. It made me sick, that's not what I signed for, 
         <source>I am not the only one who thinks that way, Corporal. See all these men? They felt betrayed too. Protectorate, now it seems to me, is not about protecting anyone but... about something I don't understand anymore. Maybe the people in charge changed, or maybe I was blind all along.
 
 I tried to get to the colonel, but I was shot down long before I could even reach him. Officers, those bigots and sadists I confronted, started backstabbing me - spreading the word I'd gone mad! They knew what I was going to do and so they made their moves quicker than the blink of an eye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не єдиний, хто так думає, Корпорале. Бачиш усіх цих людей? Вони теж відчули зраду. Протекторат, здається мені зараз, не про захист когось, а про щось, чого я більше не розумію. Можливо, люди при владі змінилися, або, можливо, я був сліпий весь час.
+
+Я намагався дістатися до полковника, але мене збили ще до того, як я зміг до нього дотягнутися. Офіцери, ці фанатики та садисти, з якими я зіткнувся, почали мене підставляти – поширювати чутки, що я збожеволів! Вони знали, що я збираюся робити, тому й діяли швидше, ніж блим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -182,7 +194,9 @@ I tried to get to the colonel, but I was shot down long before I could even reac
         <source>I couldn't fight it! It felt like one of those dreams where you try to outrun something but you just cannot. You feel slow and sluggish as you run - like your legs are made of pure lead. And you try and you try... but you're too slow... My foes were always ahead of me, spreading their lies...
 
 Eventually I realized it probably wouldn't do a damn thing even if I did manage to speak to the colonel. So I made a conscious decision to leave Fort Apogee with my men, who felt the same way I did.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не міг з цим боротися! Це було схоже на один із тих снів, де ти намагаєшся обігнати щось, але просто не можеш. Ти відчуваєш себе повільним і млявим, коли біжиш – ніби твої ноги зроблені з чистого свинцю. І ти намагаєшся і намагаєшся... але ти занадто повільний... Мої вороги завжди були попереду мене, поширюючи свою брехню...
+
+Зрештою, я зрозумів, що навіть якщо мені вдасться поговорити з полковником, це, ймовірно, нічого не дасть. Тому я свідомо вирішив покинути Форт Апогей зі своїми людьми, які відчували те саме, що й я.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -192,7 +206,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>::He sighs.:: That is all there is to it, Corporal. Those were my reasons for leaving Fort Apogee with my men.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він зітхає.:: Це все, що є, єфрейторе. Це були мої причини покинути Форт Апогей зі своїми людьми.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -202,7 +216,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>No one is completely innocent.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ніхто не є повністю невинним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -212,7 +226,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>Hogwash, Corporal! I don't know what the hell you're thinking, but an increasing number of people I was ordered to kill... we were ordered to kill weren't neither bandits, nor raiders, nor Free Drones. They were regular people. Some poor bastards get bullets between their eyes, and the excuse is always "bad intel." Bad intel, but good job, Sergeant Holloway. Good job! You did your duty.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нісенітниця, єфрейторе! Я не знаю, що ти думаєш, але все більша кількість людей, яких мені було наказано вбити... нам було наказано вбити, були ні бандитами, ні рейдерами, ні Вільними Дронами. Це були звичайні люди. Деякі нещасні отримали кулі між очима, а виправдання завжди було "погана розвідка". Погана розвідка, але добре зроблено, сержанте Голлоуей. Добре зроблено! Ти виконав свій обов'язок.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -222,7 +236,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>I don't see what could possibly make you abandon your duty, Holloway.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не розумію, що могло змусити тебе покинути свій обов'язок, Холлоуей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -232,7 +246,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>I see you don't want to tell me that, fine. Let's ask a different question.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачу, ви не хочете мені цього розповідати, добре. Запитаємо по-іншому.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -242,7 +256,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>::Holloway says nothing.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Холлоуей нічого не каже.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -252,7 +266,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>Your story changes everything. Maybe I can talk to the colonel and explain everything to him and convince him not to be too hard on you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Твоя історія все змінює. Можливо, я зможу поговорити з полковником і пояснити йому все та переконати його не бути надто суворим до тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -262,7 +276,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>Corporal... the only thing we want is to be left alone. I think that is impossible, but if you're willing to give it a shot, then I have no objections.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Єфрейторе... єдине, чого ми хочемо, це, щоб нас залишили в спокої. Я думаю, що це неможливо, але якщо ви готові спробувати, я не заперечую.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -272,7 +286,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
       </mda:metadata>
       <segment state="translated">
         <source>I'll be back once I've talked to the colonel.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я повернуся, коли поговорю з полковником.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -284,7 +298,9 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <source>::He nods.:: My men will lead you out.
 
 Thank you... Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.:: Мої люди виведуть вас.
+
+Дякую... Єфрейторе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -294,7 +310,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиш.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -304,7 +320,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You are not hiding very well. The Protectorate knows you're here, as you can see.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви не дуже добре ховаєтесь. Протекторат знає, що ви тут, як бачите.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -314,7 +330,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I never had any illusion that we'd escape the all-seeing eye of the Protectorate. We could have tried making a run for Core City but... we'd bite the dust long before we reached it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я ніколи не ілюзіонував, що ми зможемо уникнути всевидючого ока Протекторату. Ми могли б спробувати втекти до Ядерного міста, але... ми б згоріли ще до того, як туди дісталися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -324,7 +340,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Here, at least, we can stand proud, for now. We'll see what's going to happen.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тут, принаймні, ми можемо стояти гордо, поки що. Подивимось, що станеться.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -334,7 +350,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm here to convince you to return to Fort Apogee and surrender.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я тут, щоб переконати тебе повернутися до Форту Апогей і здатися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -344,7 +360,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You sound determined. So, you want me to return and what... be executed for desertion? I know you think I'm not the one who should talk of honor, but I don't see any honor in being shot like a pig.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти звучиш рішуче. Тож ти хочеш, щоб я повернувся і що... був страчений за дезертирство? Я знаю, ти вважаєш, що я не той, хто має говорити про честь, але я не бачу ніякої честі в тому, щоб тебе розстріляли, як свиню.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -354,7 +370,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You think you can evade the Protectorate forever?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти думаєш, що зможеш вічно переховуватися від Протекторату?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -364,7 +380,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He pauses.:: No... No I don't.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він робить паузу.:: Ні... Ні, я не думаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -374,7 +390,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I mean, a whole platoon could be waiting in a dark tunnel to attack, for all I know. Maybe this is the end.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Маю на увазі, цілий взвод може чекати в темному тунелі, щоб напасти, наскільки я знаю. Можливо, це кінець.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -384,7 +400,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: You can't escape court-martial, but, if you surrender peacefully, you might get off easier. It's still better than getting shot.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконати]:: Ви не зможете уникнути військового трибуналу, але якщо ви мирно здастеся, вам може пощастити легше. Це все одно краще, ніж бути застреленим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -394,7 +410,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::All eyes seem to be on Holloway. His men are standing still, waiting for his response. They know what he says next is going to be very crucial. He thinks long and hard, and then he looks at every single one of his men. No words are said, but you feel as if they're communicating. Soon, you get your answer.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Всі погляди, здається, прикуті до Холлоуея. Його люди стоять нерухомо, чекаючи на його відповідь. Вони знають, що його наступне слово буде дуже важливим. Він довго і важко думає, а потім дивиться на кожного зі своїх людей. Слів не сказано, але ти відчуваєш, ніби вони спілкуються. Незабаром ти отримуєш відповідь.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -404,7 +420,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You convinced me, Corporal. We will surrender peacefully. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви переконали мене, єфрейторе. Ми мирно здамося. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -414,7 +430,7 @@ Thank you... Corporal.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Glad you were reasonable, Holloway. Time to move.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Радий, що ти був розумним, Холлоуей. Час рушати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -426,7 +442,9 @@ Thank you... Corporal.&lt;end&gt;</source>
         <source>::He turns to his men.:: We're moving out, soldiers. ASAP! Get your stuff and move out.
 
 We're returning to Fort Apogee.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він повертається до своїх людей.:: Рушаємо, солдати. Негайно! Збирайте речі та рушайте.
+
+Ми повертаємося до Форту Апогей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -436,7 +454,7 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Watch them as they leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поспостерігайте за ними, коли вони йдуть.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -446,7 +464,7 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So I'll rot like a pig for the rest of my life? That's not an option I'm interested in.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тож я буду гнити, як свиня, до кінця свого життя? Це не варіант, який мене цікавить.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -456,7 +474,7 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Intimidate]:: If you don't surrender now, you will be shot like a pig anyway. Not just you, all men you've basically led to death.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Залякування]:: Якщо ти не здасися зараз, тебе все одно розстріляють, як свиню. Не тільки тебе, а й усіх людей, яких ти по суті призвів до смерті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -467,7 +485,8 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
       <segment state="translated">
         <source>::All eyes are on Holloway. His men are waiting for his crucial response. He thinks long and hard, and then he looks at every single one of his men. No words are said, but you feel as if they're communicating. Soon, you get your answer.::
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Усі погляди прикуті до Голлоуея. Його люди чекають на його вирішальну відповідь. Він довго та важко думає, а потім дивиться на кожного зі своїх людей. Не було сказано жодного слова, але здається, ніби вони спілкуються. Незабаром ви отримуєте відповідь.::
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -477,7 +496,7 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They followed me willingly, Corporal. And if we're destined to be shot... like pigs if it must be so, then we'll do it as free men.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони пішли за мною добровільно, Корпорале. І якщо нам судилося бути розстріляними… як свиней, якщо вже так треба, то ми зробимо це як вільні люди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -487,7 +506,7 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have other questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є інші питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -497,7 +516,7 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Of course, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -507,7 +526,7 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I convinced the colonel to reduce your punishment. He will also start an investigation that is to determine if what you told me is true.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я переконав полковника пом’якшити ваше покарання. Він також розпочне розслідування, щоб з’ясувати, чи правдива інформація, яку ви мені надали.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -519,7 +538,9 @@ We're returning to Fort Apogee.&lt;end&gt;</source>
         <source>::Holloway seems relieved.::
 
 Well... it's better than I expected, it most certainly is...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Голоуей здається полегшеним.::
+
+Ну… це краще, ніж я очікував, це точно…&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -529,7 +550,7 @@ Well... it's better than I expected, it most certainly is...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You do have to return to Fort Apogee and turn in all your equipment. You will still face court-martial, but I doubt the punishment will be as severe.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вам доведеться повернутися до Форту Апогей і здати все своє обладнання. Вас все одно чекає військовий трибунал, але я сумніваюся, що покарання буде таким суворим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -543,7 +564,11 @@ Well... it's better than I expected, it most certainly is...&lt;end&gt;</source>
 We will head to Fort Apogee at once. ::He salutes you, then turns to his men.::
 
 Alright, soldiers, let's move out.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На це я готовий погодитися. Корпорале, я повинен подякувати вам за це. Ви нам дуже допомогли.
+
+Ми негайно вирушимо до Форту Апогей. ::Він вітає вас, потім повертається до своїх людей.::
+
+Гаразд, солдати, рушаймо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
@@ -553,7 +578,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I need to leave, but I'll return again.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно йти, але я повернуся знову.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -563,7 +588,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I think we're done here, Holloway. You'll get the Protectorate answer shortly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гадаю, ми тут закінчили, Голлоуей. Ви незабаром отримаєте відповідь від Протекторату.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -573,7 +598,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll be waiting for it. Goodbye, Corporal. Have a good life.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я чекатиму на неї. До побачення, Корпорале. Щасливого життя.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -583,7 +608,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -593,7 +618,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm going to kill you all, you honorless bastards! ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я збираюся вбити вас усіх, ви негідники без честі! ::Атакуйте!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -603,7 +628,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You gave away your rank when you abandoned your duty, Holloway. I'm Corporal $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви видали своє звання, покинувши свій обов’язок, Голлоуей. Я Корпорал $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -613,7 +638,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Perhaps, Corporal, perhaps... I know what I did - what we all did. But to these few men, I'm still Sarge. And in all honesty, that's what matters more to me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, Корпорале, можливо… Я знаю, що я зробив – що ми всі зробили. Але для цих небагатьох людей я все ще Сержант. І, чесно кажучи, це для мене важливіше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -623,7 +648,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So, Corporal, here you are. I expected an army, but I got one $(#man/woman). ::He chuckles in a rather lifeless fashion.:: I never met you before, so you must have enlisted after I had left the base. Welcome to Underrail Protectorate, Corporal - welcome to hell.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, Корпорале, ось ви тут. Я очікував армію, але отримав одного $(#man/woman). ::Він сміється досить безжиттєво.:: Я ніколи раніше з вами не зустрічався, тож ви, мабуть, вступили на службу після того, як я покинув базу. Ласкаво просимо до Підземного Протекторату, Корпорале – ласкаво просимо до пекла.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -633,7 +658,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We meet again, Corporal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми знову зустрілися, Корпорале.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

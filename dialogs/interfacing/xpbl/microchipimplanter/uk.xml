@@ -18,7 +18,17 @@ Make sure to replace the sterilization mixture canister once its gauge turns red
 The implantee's hand needs to be bare. It should also remain motionless for the entire duration of the procedure in order to avoid complications. The procedure is atraumatic and does not require anesthetics in the majority of cases.
 
 The procedure should always be performed in the presence of a qualified physician!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO L-MCU-4 - Мікрочіп Імплантаційний/Екстракційний Блок
+
+Якщо ви виконуєте мікрочіп імплантацію, переконайтеся, що відповідний мікрочіп імплант правильно вставлено в слот, розташований над отвором для руки. Блок автоматично оцінить його функціональність і запросить заміну, якщо це необхідно.
+
+Якщо ви виконуєте мікрочіп імплант екстракцію, завжди переконайтеся, що вибрано правильний режим екстракції та утилізації.
+
+Переконайтеся, що ви замінили каністр зі стерилізаційною сумішшю, коли її індикатор стане червоним.
+
+Рука імплантуєма повинна бути голою. Вона також повинна залишатися нерухомою протягом усієї процедури, щоб уникнути ускладнень. Процедура є неінвазивною і в більшості випадків не потребує анестезії.
+
+Процедуру завжди повинен виконувати кваліфікований лікар!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -28,7 +38,7 @@ The procedure should always be performed in the presence of a qualified physicia
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -38,7 +48,7 @@ The procedure should always be performed in the presence of a qualified physicia
       </mda:metadata>
       <segment state="translated">
         <source>::Implant microchip::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імплантувати мікрочіп::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -48,7 +58,7 @@ The procedure should always be performed in the presence of a qualified physicia
       </mda:metadata>
       <segment state="translated">
         <source>::Microchip implant slot is empty. Please insert an appropriate implant into the slot located above the hand aperture.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Слот для мікрочіпа порожній. Будь ласка, вставте відповідний імплант у слот, розташований над отвором для руки.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -58,7 +68,7 @@ The procedure should always be performed in the presence of a qualified physicia
       </mda:metadata>
       <segment state="translated">
         <source>::Insert Phil's microchip implant and put your hand in the aperture.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставте мікрочіп Філа та покладіть руку в отвір.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -68,7 +78,7 @@ The procedure should always be performed in the presence of a qualified physicia
       </mda:metadata>
       <segment state="translated">
         <source>::You insert your hand into the aperture and rest it inside a padded cuff; it slowly closes around your wrist, keeping it firmly in place. A syringe-like instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to the needle sterilizes your hand, and then you feel a sting - and the microchip is in. The instrument retracts and the cuff opens.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви вставляєте руку в отвір і кладете її всередину м'якої манжети; вона повільно закривається навколо вашого зап'ястя, міцно утримуючи його на місці. З верхньої частини отвору висувається шприцеподібний інструмент, націлений на ділянку між великим і вказівним пальцями. Невелика насадка паралельна голці стерилізує вашу руку, а потім ви відчуваєте укол - і мікрочіп на місці. Інструмент втягується, і манжета відкривається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -82,7 +92,11 @@ The procedure should always be performed in the presence of a qualified physicia
 Testing... 
 
 Test signal received. No issues with the microchip implant detected.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Імплантація успішна.
+
+Тестування... 
+
+Отримано тестовий сигнал. Не виявлено проблем з мікрочіпом імпланту.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -92,7 +106,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -102,7 +116,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вийти::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -112,7 +126,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Extract microchip implant::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Витягти мікрочіп імплант::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -122,7 +136,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Waiting for the implantee to insert his/her hand into the aperture...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Чекаємо, поки імплантуємий вставить свою руку в отвір...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -132,7 +146,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>::Use Todd's severed arm.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовуйте відрізану руку Тодда.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -146,7 +160,11 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
 Initiating inductive charging...
 
 Scanning...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не вдалося виявити мікрочип-імплант.
+
+Запуск індуктивного заряджання...
+
+Сканування...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -160,7 +178,11 @@ Scanning...::&lt;end&gt;</source>
 Unable to connect to LIN. Please contact unit maintenance for necessary software updates or troubleshooting.
 
 The extraction procedure will be aborted.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка: Нерозпізнана версія модуля безпеки імпланта (новіша за очікувану)
+
+Не вдається підключитися до LIN. Зверніться до служби обслуговування для необхідних оновлень програмного забезпечення або усунення несправностей.
+
+Процедуру вилучення буде скасовано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -170,7 +192,7 @@ The extraction procedure will be aborted.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Use your hand.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовуйте свою руку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -180,7 +202,7 @@ The extraction procedure will be aborted.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::You insert your hand into the aperture and rest it in a padded cuff; it slowly closes around your wrist, keeping it firmly in place.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви вставляєте руку в отвір і кладете її в м’яку манжету; вона повільно закривається навколо зап’ястя, міцно утримуючи його на місці.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -190,7 +212,7 @@ The extraction procedure will be aborted.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::A sharp instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to its tip sterilizes your hand before you feel the whole thing driving into your flesh, but the pain is barely noticeable. A second passes - and the microchip is out, disappearing inside the unit. You hear a familiar spraying sound coming from inside the unit, and following a short delay the microchip implant drops into a small tray on the unit's right side.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::З верхньої частини отвору висувається гострий інструмент, націлений на ділянку між великим і вказівним пальцями. Невеликий сопло паралельно його кінчику стерилізує вашу руку, перш ніж ви відчуєте, як все це входить у вашу плоть, але біль ледь помітний. Минає секунда – і мікрочип вилучено, зникаючи всередині пристрою. Ви чуєте знайомий звук розпилення зсередини пристрою, і після короткої затримки мікрочип-імплант падає в невеликий лоток на правій стороні пристрою.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -202,7 +224,9 @@ The extraction procedure will be aborted.::&lt;end&gt;</source>
         <source>::Extraction successful.
 
 The microchip implant has been sterilized and deposited to the extraction tray.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вилучення успішне.
+
+Мікрочип-імплант було стерилізовано та поміщено в лоток для вилучення.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -212,7 +236,7 @@ The microchip implant has been sterilized and deposited to the extraction tray.:
       </mda:metadata>
       <segment state="translated">
         <source>::Microchip implant not detected. Make sure that the hand is bare and has been properly inserted into the aperture.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Мікрочип-імплант не виявлено. Переконайтеся, що рука гола і правильно вставлена в отвір.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -222,7 +246,7 @@ The microchip implant has been sterilized and deposited to the extraction tray.:
       </mda:metadata>
       <segment state="translated">
         <source>::Use Phil's arm.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Використовуйте руку Філа.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -232,7 +256,7 @@ The microchip implant has been sterilized and deposited to the extraction tray.:
       </mda:metadata>
       <segment state="translated">
         <source>::Following the on-screen instructions, you carefully remove the glove from the hand. The gloved hand has always felt somewhat fleshy when pressed, much fuller than one would expect, as if the glove has somehow preserved this very old hand from decay. The glove *has* preserved it. Too well, in fact.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дотримуючись інструкцій на екрані, ви обережно знімаєте рукавичку з руки. Рукавичка завжди здавалася дещо м’ясистою при натисканні, набагато повнішою, ніж можна було б очікувати, ніби рукавичка якимось чином зберегла цю дуже стару руку від розкладання. Рукавичка *дійсно* зберегла її. Занадто добре, насправді.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -244,7 +268,9 @@ The microchip implant has been sterilized and deposited to the extraction tray.:
         <source>::You've been carrying a living creature with you all this time, if one can call this a *single* creature. What you actually see is greenish tissue in the shape of a human hand, familiarly tumorous and unmistakably perverted, writhing unhappily at what you've done to it. Or, perhaps, at what you're about to do next.
 
 You insert the hand into the unit's aperture and observe...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви носили з собою живу істоту весь цей час, якщо можна назвати це *однією* істотою. Те, що ви насправді бачите, це зелена тканина у формі людської руки, знайомо пухлинаста і безсумнівно спотворена, яка невдоволено корчиться від того, що ви з нею зробили. Або, можливо, від того, що ви збираєтеся зробити далі.
+
+Ви вставляєте руку в отвір пристрою і спостерігаєте...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -254,7 +280,7 @@ You insert the hand into the unit's aperture and observe...::&lt;end&gt;</source
       </mda:metadata>
       <segment state="translated">
         <source>::A sharp instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to its tip sterilizes the hand. The mass begins twitching and squirming, as if in pain, and the implement driving into its flesh exacerbates its condition even further. A second passes - and the microchip is out, disappearing inside the unit. You hear a familiar spraying sound coming from inside the unit, and following a short delay the microchip implant drops into a small tray on the unit's right side.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::З верхньої частини отвору висувається гострий інструмент, націлений на ділянку між великим і вказівним пальцями. Невеликий сопло паралельно його кінчику стерилізує руку. Маса починає сіпатися і корчитися, ніби від болю, і інструмент, що входить у її плоть, ще більше посилює її стан. Минає секунда – і мікрочип вилучено, зникаючи всередині пристрою. Ви чуєте знайомий звук розпилення зсередини пристрою, і після короткої затримки мікрочип-імплант падає в невеликий лоток на правій стороні пристрою.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -266,7 +292,9 @@ You insert the hand into the unit's aperture and observe...::&lt;end&gt;</source
         <source>::The hand is motionless and sterilized, its green coloration slowly losing vividness. 
 
 You remove it from the unit: It is now dead, if it was ever even alive.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Рука нерухома і стерилізована, її зелене забарвлення поступово втрачає яскравість.
+
+Ви виймаєте її з пристрою: Тепер вона мертва, якщо вона взагалі колись була живою.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -276,7 +304,7 @@ You remove it from the unit: It is now dead, if it was ever even alive.::&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

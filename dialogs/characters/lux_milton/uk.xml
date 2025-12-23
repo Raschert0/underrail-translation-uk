@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>I thought I told you to leave me alone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я думав, я вже казав тобі залишити мене в спокої.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::The lone man notices you approach his camp and swiftly responds - by aiming his gun at your head. It takes him but a few moments to address you, and does so with a voice that seems rather calm and relaxed considering the tense situation at hand.::
 
 Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find yourself obliterated on the spot. Now, who are you and what are you doing in these caves?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Самотній чоловік помічає, як ви наближаєтесь до його табору, і швидко реагує - націлюючи пістолет вам у голову. Йому потрібна лише пара хвилин, щоб звернутися до вас, і він робить це голосом, який здається досить спокійним і розслабленим, враховуючи напружену ситуацію.::
+
+Не рухайся, $(#buddy/girl). Навіть не думай рухатися... інакше ти будеш знищений на місці. Ну, хто ти такий і що ти робиш у цих печерах?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Whoa, don't shoot, man! My name is $(context.player.Name), and I mean no harm.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей, не стріляй, друже! Мене звати $(context.player.Name), і я не маю наміру завдати шкоди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name). $(context.player.Name), as you may have already noticed, we are in the middle of a cave and you just happen to have... "stumbled" upon this little camp here. I'll be keeping my eyes on you and you better make sure I don't spot you doing anything funky, or else... just think of my introductory statement again and you'll know what'll happen.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name). $(context.player.Name), як ви, можливо, вже помітили, ми знаходимося посеред печери, і ви щойно... "натрапили" на цей маленький табір тут. Я буду стежити за вами, і вам краще переконатися, що я не помічу, як ви робите щось підозріле, інакше... просто згадайте моє вступне твердження, і ви зрозумієте, що станеться.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Now tell me, what do you want?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер скажіть мені, чого ви хочете?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>What are you doing here all alone?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти робиш тут сам?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Well, first of all, what I'm doing here is none of your business. But, alone I am... at least for the moment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, перш за все, що я тут роблю, вас не стосується. Але так, я сам... принаймні, на даний момент.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Yet, you are here too, somehow. ::He makes a brief pause before continuing.:: By the way, did you happen to notice anyone else in these caves?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Проте, ти теж тут, якось. ::Він робить невелику паузу, перш ніж продовжити.:: До речі, ти випадково не помічав нікого іншого в цих печерах?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>As a matter of fact, yes, I have. I saw two men who were killed by rathounds not too far away from here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насправді, так, я бачив двох чоловіків, яких вбили ратхаунди неподалік звідси.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -110,7 +112,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>So, that explains it. Look now: One of those men had a key that is very, very important to me. If you could get it for me, I'd be willing to pay fifty charons for it. Easy money.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, це все пояснює. Слухай: у одного з тих чоловіків був ключ, який дуже, дуже важливий для мене. Якщо ти зможеш дістати його для мене, я готовий заплатити за нього п'ятдесят харонів. Легкі гроші.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -120,7 +122,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Is this the key?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це той ключ?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -130,7 +132,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Let me see. ::He takes a quick look.:: Yes... *yes* it is. I'll give you fifty charons for it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дайте мені подивитися. ::Він швидко оглядає.:: Так... *так*, це він. Я дам вам п'ятдесят харонів за нього.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -140,7 +142,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Here it is. It was nice doing business with ya.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось він. Було приємно вести з вами справи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::He hands you the money and takes the key from you.:: Great, that's it. ::He pockets the key and looks at you with a satisfied smirk on his face.:: As for you, $(#buddy/girl), you better be on your way now. See you later... or not.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він передає вам гроші та забирає ключ.:: Чудово, це все. ::Він кладе ключ у кишеню та дивиться на вас із задоволеною посмішкою на обличчі.:: Що ж, вам краще йти зараз, $(#buddy/girl). Побачимося пізніше... або ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -160,7 +162,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: What? I had to risk my head for that key and that is all you can offer me? I want double.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торгівля]:: Що? Я ризикував головою заради цього ключа, і це все, що ви можете запропонувати? Я хочу подвійну ціну.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -170,7 +172,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Fine, I'll give you a hundred charons. Usually you would get a bullet between your eyes, but today... I feel a bit more merciful.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, я дам вам сто харонів. Зазвичай ви отримали б кулю між очима, але сьогодні... я почуваюся трохи милосерднішим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -180,7 +182,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Here you go. It was nice doing business with ya.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось, візьміть. Було приємно вести з вами справи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -190,7 +192,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Are you derailed? Don't barter with me unless you desire a bullet between your eyes. Choose - fifty charons or a bullet.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви збожеволіли? Не торгуйтеся зі мною, якщо не хочете кулю між очима. Обирайте - п'ятдесят харонів або кулю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -200,7 +202,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Okay, okay, here's the key. My fifty charons, please.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре, добре, ось ключ. Мої п'ятдесят харонів, будь ласка.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -210,7 +212,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Sorry, buddy, no deal. I'll be leaving now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, друже, угоди не буде. Я йду.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -220,7 +222,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::His voice suddenly drops in pitch and becomes grittier, much tenser than it was previously.:: You've just made a big mistake, and you will pay for it. If you won't give me the key - I'll take it from you by force.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Його голос раптово знижується в тональності та стає більш грубим, набагато напруженішим, ніж раніше.:: Ви щойно зробили велику помилку, і вам доведеться за неї заплатити. Якщо ви не віддасте мені ключ - я заберу його силою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -230,7 +232,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бій!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -240,7 +242,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>On a second thought, I'll keep it for myself. See you around Milton.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На другий погляд, я залишу його собі. До зустрічі, Мілтон.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -250,7 +252,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Could use some money. It's a deal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібні гроші. Це угода.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -260,7 +262,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Great, I'll be here... *waiting.*&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово, я буду тут... *чекати.*&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -270,7 +272,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>I'm not going back there. Go get it yourself.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не повернуся туди. Іди сам.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -280,7 +282,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::He frowns, but says nothing otherwise.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він насуплюється, але інакше нічого не каже.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -290,7 +292,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Nope. Sorry, I'm just passing by.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні. Вибачте, я просто проходив повз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -300,7 +302,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Curses. Listen, I'm looking for two men in these caves - don't ask why. I need something from them, a small footlocker key. So, if you meet them, find their bodies or whatever... just get me that key. I'm even willing to pay for it; fifty charons, as a matter of fact.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прокляття. Слухай, я шукаю двох чоловіків у цих печерах - не питай чому. Мені потрібна від них річ, маленький ключ від комода. Тому, якщо ви зустрінете їх, знайдіть їхні тіла або щось таке... просто дістаньте мені цей ключ. Я навіть готовий заплатити за нього; п'ятдесят харонів, насправді.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -310,7 +312,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -320,7 +322,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Hey, I found that key you were looking for.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей, я знайшов той ключ, який ви шукали.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -330,7 +332,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Really? Give it to me; I promised charons and I have them right here. Just give me the key.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Справді? Дайте його мені; я обіцяв харони, і вони у мене тут. Просто дайте мені ключ.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -340,7 +342,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Why do you need that key? Is it for that locker?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Навіщо вам потрібен цей ключ? Він для того шафки?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -350,7 +352,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>None of your business, $(#buddy/girl).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це не твоя справа, $(#buddy/girl).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -360,7 +362,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Why are you looking for those men?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ви шукаєте тих чоловіків?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -370,7 +372,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>I told you not to ask that. Are you deaf?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я ж сказав тобі не питати. Ти глухий?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -380,7 +382,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Okay, I'll search for the key.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре, я пошукаю ключ.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -390,7 +392,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>I really don't care about your stupid key.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені байдужий твій дурний ключ.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -400,7 +402,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::He frowns, but otherwise says nothing.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він насуплюється, але інакше нічого не каже.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -410,7 +412,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>About that key...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щодо того ключа...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -420,7 +422,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Changed your mind, $(#buddy/girl)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Змінили думку, $(#buddy/girl)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -430,7 +432,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>I'll be going now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я йду.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -440,7 +442,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>Who I am is none of your concern. But, know that if I wanted to hurt you I would have done so already instead of participating in this staring contest.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто я, вас не стосується. Але знайте, що якби я захотів вам нашкодити, я б зробив це вже замість того, щоб брати участь у цьому погляді.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -450,7 +452,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>That is good to know. As you may have already noticed, we are in the middle of a cave and you just happen to have... "stumbled" upon this little camp here. I'll be keeping my eyes on you and you better make sure I don't spot you doing anything funky, or else... just think of my introductory statement again and you'll know what'll happen.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це добре знати. Як ви, можливо, вже помітили, ми знаходимося посеред печери, і ви щойно... "натрапили" на цей маленький табір тут. Я буду стежити за вами, і вам краще переконатися, що я не помічу, як ви робите щось підозріле, інакше... просто згадайте моє вступне твердження, і ви зрозумієте, що станеться.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -460,7 +462,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::[Intimidate]:: It is you who will be obliterated if you don't put that gun away right now, you dirty rat! Name's $(context.player.Name). Who the hell are YOU, and what are YOU doing here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Залякування]:: Це вам доведеться знищити, якщо ви не відкладете пістолет прямо зараз, ти брудний щур! Мене звати $(context.player.Name). Хто ти такий, і що ти тут робиш?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -470,7 +472,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::You notice his voice tenses up for a split second, but then quickly reverts to its original quality.:: Look, ::He smiles:: there is no need for us to spill each other's guts here, right? We are, after all, both civilized $(#gentlemen/human beings). &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви помічаєте, як його голос напружується на мить, але потім швидко повертається до своєї початкової якості.:: Послухайте, ::Він посміхається:: немає потреби проливати кров один одного тут, чи не так? Ми ж, врешті-решт, обидва цивілізовані $(#gentlemen/люди).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -480,7 +482,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::Your words are met with a chuckle.:: You sure sound tough, kid. But I want to see how tough you really are.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ваші слова зустрічаються глузуванням.:: Ти звучиш дуже круто, хлопче. Але я хочу побачити, наскільки ти насправді крутий.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -490,7 +492,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бій!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -500,7 +502,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>I didn't know there was anyone in here. I'll just get going and leave you to whatever you were doing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знав, що тут є хтось. Я просто піду і залишу вас займатися тим, чим ви займалися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -510,7 +512,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>That might be wise. ::He still keeps your head between crosshairs and waits for you to leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це було б мудро. ::Він все ще тримає вашу голову між прицілами та чекає, поки ви підете.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -520,7 +522,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиш.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
@@ -530,7 +532,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Атакуй!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -540,7 +542,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>What do I want? How about cutting your tongue out, worm! ::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чого я хочу? Як щодо того, щоб вирвати вам язик, черв'яку! ::Бій!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -550,7 +552,7 @@ Don't move, $(#buddy/girl). Don't even think about moving... or else you'll find
       </mda:metadata>
       <segment state="translated">
         <source>What'll it be?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви оберете?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

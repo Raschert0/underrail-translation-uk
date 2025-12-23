@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::The screen is black.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Екран чорний.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::The console is unresponsive to your input.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Консоль не реагує на ваші дії.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +30,9 @@
         <source>::Warning! Intruder alert! Security bots dispatched!
 
 Please enter appropriate security code for identifier [p2ujY90OjHqfF6] into the field below to disable all security measures:::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага! Зловмисник виявлено! Відправлено ботів безпеки!
+
+Будь ласка, введіть відповідний код безпеки для ідентифікатора [p2ujY90OjHqfF6] у поле нижче, щоб вимкнути всі заходи безпеки:::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Please enter appropriate security code for identifier [p2ujY90OjHqfF6] into the 
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Please enter appropriate security code for identifier [p2ujY90OjHqfF6] into the 
       </mda:metadata>
       <segment state="translated">
         <source>::Type something random.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Введіть щось випадкове.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Please enter appropriate security code for identifier [p2ujY90OjHqfF6] into the 
       </mda:metadata>
       <segment state="translated">
         <source>::Access denied.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Доступ заборонено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Please enter appropriate security code for identifier [p2ujY90OjHqfF6] into the 
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Attempt to hack the console and disable security.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Спроба зламати консоль та вимкнути безпеку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -85,7 +87,12 @@ Security M,&lt;system disabled...
 All active units returning t$82o stations
 U`12:_- opened.
 K@o86&gt;?~#$d$#JIs%&amp;::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перезавантаження...
+
+Безпека вимкнена,&lt;система вимкнена...
+Усі активні підрозділи повертаються до станцій
+U`12:_- відкрито.
+K@o86&gt;?~#$d$#JIs%&amp;::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -95,7 +102,7 @@ K@o86&gt;?~#$d$#JIs%&amp;::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::The console suddenly shuts down.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Консоль раптово вимикається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -105,7 +112,7 @@ K@o86&gt;?~#$d$#JIs%&amp;::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -16,7 +16,15 @@ Gender: Male
 Notes: Subject suffers from multiple severe respiratory issues (details under code T-889-L). To be kept on life support and monitored until further notice.
 
 Vital Status: Deceased::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ім'я суб'єкта: B-004
+
+Вік: 6
+
+Стать: Чоловіча
+
+Нотатки: Суб'єкт страждає на численні серйозні респіраторні захворювання (деталі під кодом T-889-L). Тримати на апараті штучної вентиляції легень та спостерігати до подальших вказівок.
+
+Життєвий статус: Помер::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -26,7 +34,7 @@ Vital Status: Deceased::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -44,7 +52,15 @@ Gender: Male
 Notes: Subject suffers from multiple severe respiratory issues (details under code T-889-L). To be kept on life support and monitored until further notice.
 
 Vital Status: Severe::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ім'я суб'єкта: B-004
+
+Вік: 6
+
+Стать: Чоловіча
+
+Нотатки: Суб'єкт страждає на численні серйозні респіраторні захворювання (деталі під кодом T-889-L). Тримати на апараті штучної вентиляції легень та спостерігати до подальших вказівок.
+
+Життєвий статус: Важкий::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -54,7 +70,7 @@ Vital Status: Severe::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Disable life support::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнути апарат штучної вентиляції легень::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -64,7 +80,7 @@ Vital Status: Severe::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Are you sure you want to disable life support?::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви впевнені, що хочете вимкнути апарат штучної вентиляції легень?::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -74,7 +90,7 @@ Vital Status: Severe::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Yes::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Так::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -84,7 +100,7 @@ Vital Status: Severe::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Life support disabled::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Апарат штучної вентиляції легень вимкнено::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -96,7 +112,9 @@ Vital Status: Severe::&lt;end&gt;</source>
         <source>::The moment you turn off life support, the creature inside the glass container opens its eyes and begins to move. Its weak arms move with little coordination as it thrashes around its soon-to-be grave. It watches you with its murky, dark and distressed eyes before it eventually gives up.
 
 Its body goes limp, its head drops forward - its eyes remain open but unable to see.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Щойно ви вимикаєте апарат штучної вентиляції легень, істота всередині скляного контейнера відкриває очі та починає рухатися. Її слабкі руки рухаються незграбно, коли вона корчиться у своїй майбутній могилі. Вона дивиться на вас своїми каламутними, темними та сповненими страждань очима, перш ніж зрештою здається.
+
+Її тіло стає млявим, голова опускається вперед - її очі залишаються відкритими, але не можуть бачити.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -106,7 +124,7 @@ Its body goes limp, its head drops forward - its eyes remain open but unable to 
       </mda:metadata>
       <segment state="translated">
         <source>::No::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ні::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

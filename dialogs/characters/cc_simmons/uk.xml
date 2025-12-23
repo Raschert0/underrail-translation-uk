@@ -10,7 +10,9 @@
         <source>::Upon stepping into the office, you see a smiling man of average height, watching you and filling the room with thick cigar smoke. His sizable belly pours out of his - without a doubt - expensive suit, drawing eyes away from the suit's high-class design, effectively ruining it. Looking up does not result in a much prettier sight either, for age and lack of care have truly taken a toll on this man's appearance. Regardless, he smiles. He removes the cigar from his mouth and fills the room again, now with his voice.::
 
 Agent $(context.player.Name), welcome to my office. Please make yourself comfortable. I'm Mr. Rupert Simmons - your boss. ::He laughs.:: How are you feeling today?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зайшовши в офіс, ти бачиш усміхненого чоловіка середнього зросту, який дивиться на тебе і наповнює кімнату густим димом від сигари. Його значний живіт виливається з його - без сумніву - дорогого костюма, відволікаючи погляд від висококласного дизайну костюма, фактично руйнуючи його. Піднявши погляд, ти не побачиш нічого приємнішого, оскільки вік і відсутність турботи справді позначилися на зовнішності цього чоловіка. Тим не менш, він усміхається. Він виймає сигару з рота і знову наповнює кімнату, тепер своїм голосом.::
+
+Агент $(context.player.Name), ласкаво просимо до мого офісу. Будь ласка, почувайтеся комфортно. Я містер Руперт Сіммонс - ваш бос. ::Він сміється.:: Як ти почуваєшся сьогодні?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -20,7 +22,7 @@ Agent $(context.player.Name), welcome to my office. Please make yourself comfort
       </mda:metadata>
       <segment state="translated">
         <source>Now that I'm here, excellent!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер, коли я тут, чудово!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ Agent $(context.player.Name), welcome to my office. Please make yourself comfort
       </mda:metadata>
       <segment state="translated">
         <source>Beautiful, that's what I like to hear, son! You'll feel even better after I tell you why I called you up here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово, це те, що мені подобається чути, синку! Я буду радий повідомити тобі, чому я викликав тебе сюди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ Agent $(context.player.Name), welcome to my office. Please make yourself comfort
       </mda:metadata>
       <segment state="translated">
         <source>Son? But, I'm a woman...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Синок? Але, я жінка...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Agent $(context.player.Name), welcome to my office. Please make yourself comfort
       </mda:metadata>
       <segment state="translated">
         <source>::He laughs.:: That's how I call everyone younger than me! It's not meant to be taken literally. But, we're not here to talk about that. I would like to take this opportunity to personally promote you, son. I've heard that you are a good employee, a great agent, and I've seen how you fight in the Arena! I loved it!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він сміється.:: Це те, як я називаю всіх молодших за мене! Це не слід сприймати буквально. Але ми не тут, щоб говорити про це. Я хотів би скористатися цією можливістю, щоб особисто підвищити тебе, синку. Я чув, що ти хороший працівник, чудовий агент, і я бачив, як ти б'єшся на Арені! Мені це дуже сподобалося!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Agent $(context.player.Name), welcome to my office. Please make yourself comfort
       </mda:metadata>
       <segment state="translated">
         <source>To have *the* Invictus working for Coretech, now that is just astonishing, son! Let me tell you something, son - you really earned this promotion!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мати *The* Invictus, який працює на Coretech, це просто дивовижно, синку! Дозволь мені сказати тобі, синку - ти дійсно заслужив це підвищення!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Agent $(context.player.Name), welcome to my office. Please make yourself comfort
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, sir!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, сер!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Agent $(context.player.Name), welcome to my office. Please make yourself comfort
       </mda:metadata>
       <segment state="translated">
         <source>Thank you for being such a good employee! Son, with this promotion, you become my personal agent, which also comes with a fatter pay. You will answer to me - and me only. If someone asks you where you're going or what you're doing, you can just say: "Mr. Simmons says that's none of your damn business!" ::He laughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую за те, що ти такий хороший працівник! Синок, з цим підвищенням ти стаєш моїм особистим агентом, що також супроводжується більшою зарплатою. Ти будеш відповідати мені - і тільки мені. Якщо хтось запитає тебе, куди ти йдеш або що робиш, ти можеш просто сказати: "Містер Сіммонс каже, що це не твоя справа!" ::Він сміється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -92,7 +94,9 @@ Agent $(context.player.Name), welcome to my office. Please make yourself comfort
         <source>Also, you gain access to our internal store. Talk to Harlan about that. 
 
 There. That is all wanted to tell you, son!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Також ти отримуєш доступ до нашого внутрішнього магазину. Поговори з Харланом з цього приводу.
+
+Ось. Це все, що я хотів тобі сказати, синку!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -102,7 +106,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He pauses.:: Actually, maybe that's not all... I don't know if you've heard by now, but Edmund Knight was murdered recently.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він робить паузу.:: Насправді, можливо, це не все... Я не знаю, чи ти чув, але нещодавно було вбито Едмунда Найта.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -112,7 +116,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Edmund Knight?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Едмунда Найта?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -122,7 +126,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Edmund is the son of Archibald Knight, chief of Praetorian Security, one of the Oligarchs, and a dear friend of mine. Edmund was an intelligent, ambitious, solid as steel, and quite a handsome young man. His life had to be taken away at an early age by these... these evil, monstrous... barbarians. These... These Acid Hunters! Led by a man known only as Cornell.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Едмунд - син Арчібальда Найта, начальника Praetorian Security, одного з Олігархів, і мого дорогого друга. Едмунд був розумним, амбітним, міцним як сталь і досить гарним молодим чоловіком. Його життя забрали ці... ці злі, жахливі... варвари. Ці... Ці Acid Hunters! На чолі з чоловіком, відомим лише як Корнелл.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -132,7 +136,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've heard of them before.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я про них чув раніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -142,7 +146,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Then I'm sure you are not surprised by what I'm telling you. I don't think you've heard anything good about these lowlifes, scum - barbarians! They deserve the most severe punishment for what they did, and that's where you come in, son.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді я впевнений, що ти не здивований тим, що я тобі кажу. Я не думаю, що ти чув щось хороше про цих покидьків, сміття - варварів! Вони заслуговують на найсуворіше покарання за те, що вони зробили, і тут вступаєш ти, синку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -152,7 +156,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We have tracked down these animals. They are hiding in the sewers beneath Core City.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми відстежили цих тварин. Вони ховаються в каналізації під Центральним Містом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -162,7 +166,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How did you manage to do that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як вам це вдалося?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -172,7 +176,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Listen, son, Coretech is the most powerful company in Core City. We have our ways. Let's just say those rathounds left giant footprints, just waiting to be tracked.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Слухайте, синку, Coretech – найпотужніша компанія в Центральному Місті. У нас є свої методи. Скажімо так, ці щурники залишили гігантські сліди, які тільки й чекали, щоб їх відстежити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -182,7 +186,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What do you want me to do?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви хочете, щоб я зробив?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -192,7 +196,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Kill Cornell, and bring me his head. As for the rest, kill them too. As commoners would say... dominate them!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вбийте Корнелла і принесіть мені його голову. А решту – вбийте їх також. Як кажуть прості люди... підкоріть їх!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -202,7 +206,7 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've already been to their hideout.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вже був у їхньому сховку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -214,7 +218,9 @@ There. That is all wanted to tell you, son!&lt;end&gt;</source>
         <source>::He smiles, lifting one corner of his mouth while the other bites into his cigar.::
 
 And what did you find, son?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він посміхається, піднімаючи один куточок рота, поки інший вгризається в сигару.::
+
+І що ти там знайшов, синку?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -224,7 +230,7 @@ And what did you find, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -234,7 +240,7 @@ And what did you find, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Oh, I did. ::Show him Cornell's head.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, я знайшов. ::Покажіть йому голову Корнелла.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -246,7 +252,9 @@ And what did you find, son?&lt;end&gt;</source>
         <source>::He takes a look into the bag, moving the cigar from one side of his mouth to the other. His face - as if he was inspecting a train schedule.:: 
 
 Beautiful! Beautiful! Ha! Justice is served! I knew I could count on you, son.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він кидає погляд у сумку, переміщуючи сигару з одного боку рота на інший. Його обличчя – ніби він перевіряє розклад поїздів.:: 
+
+Чудово! Чудово! Ха! Правосуддя восторжествувало! Я знав, що можу на тебе розраховувати, синку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -256,7 +264,7 @@ Beautiful! Beautiful! Ha! Justice is served! I knew I could count on you, son.&l
       </mda:metadata>
       <segment state="translated">
         <source>You have done great service to Core City.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви зробили велику послугу Центральному Місту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -266,7 +274,7 @@ Beautiful! Beautiful! Ha! Justice is served! I knew I could count on you, son.&l
       </mda:metadata>
       <segment state="translated">
         <source>There is just this little thing about Edmund's death...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тут є лише одна маленька річ щодо смерті Едмунда...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -276,7 +284,7 @@ Beautiful! Beautiful! Ha! Justice is served! I knew I could count on you, son.&l
       </mda:metadata>
       <segment state="translated">
         <source>And what is that, son?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І що це, синку?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -286,7 +294,7 @@ Beautiful! Beautiful! Ha! Justice is served! I knew I could count on you, son.&l
       </mda:metadata>
       <segment state="translated">
         <source>Cornell told me your son, Miland, killed him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Корнелл сказав мені, що твій син, Міланд, убив його.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -298,7 +306,9 @@ Beautiful! Beautiful! Ha! Justice is served! I knew I could count on you, son.&l
         <source>You trust that animal? Son... don't disappoint me like this. He was trying to trick you, trick you into not killing him! It didn't work, judging by this head of his. ::He takes another peek into the bag.:: What an ugly bastard...
 
 Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти довіряєш цій тварині? Сину... не розчаровуй мене так. Він намагався обдурити тебе, змусити не вбивати його! Судячи з цієї голови, це не вдалося. ::Він знову заглядає в сумку.:: Який огидний мерзотник...
+
+Чорт забирай, навіщо ти згадуєш про це, якщо вже виконав свій обов'язок?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -308,7 +318,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: You tricked me. Only after killing Cornell did I find evidence that proves your son killed Edmund.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконати]:: Ти обдурив мене. Лише після вбивства Корнелла я знайшов докази, які підтверджують, що твій син убив Едмунда.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -320,7 +330,9 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
         <source>::He removes the cigar from his mouth, extinguishing it with one slow motion.:: It's true. What Cornell told you is true. Miland killed Edmund. My son. He confessed everything. I wanted Cornell dead not only to protect my son, but to protect Core City. If Knight was to do something foolish in his rage... it would spell the end for, for all this we've worked hard to build. And if you value the lives of the people that reside here - you'll shut your damn mouth!
 
 ::He pauses.:: Here's for bringing me that head. ::He gives you 600 charons.:: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він виймає сигару з рота, загашаючи її одним повільним рухом.:: Це правда. Те, що Корнелл тобі сказав, – правда. Міланд убив Едмунда. Мого сина. Він у всьому зізнався. Я хотів, щоб Корнелл помер не лише для захисту свого сина, а й для захисту Центрального Міста. Якщо б Найт піддався люті... це б стало кінцем для всього, над чим ми так важко працювали. І якщо ти цінуєш життя людей, які тут живуть, – заткнися!
+
+::Він робить паузу.:: Ось тобі за те, що приніс мені голову. ::Він дає тобі 600 харонів.:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -330,7 +342,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -340,7 +352,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>I have more work for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є ще робота для тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -350,7 +362,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Now, what I'm about to tell you son, is highly confidential. You are to mention what I'll be telling you to no one, in or out of Coretech. Get it? Beautiful!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зараз я тобі скажу, синку, щось дуже конфіденційне. Ти нікому не згадуватимеш те, що я тобі розповім, ні всередині, ні ззовні Coretech. Зрозумів? Чудово!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -360,7 +372,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>We have recently acquired a rare and strange artifact of unknown origin. We believe that, if we were to unlock its powers, we will be able to launch Coretech into a whole new era of technological advancement! Imagine that, son!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нещодавно ми придбали рідкісний і дивний артефакт невідомого походження. Ми вважаємо, що якщо нам вдасться розкрити його силу, ми зможемо вивести Coretech на абсолютно новий рівень технологічного прогресу! Уяви собі це, синку!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -370,7 +382,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>I also believe, and with full support from my advisors, that this little thing of power is precisely the reason why these Faceless are here. I want this object secured son, at all costs. And I want you to make sure of it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я також вважаю, і мої радники мене повністю підтримують, що ця маленька річ сили – саме причина, чому ці Безликі тут. Я хочу, щоб цей об'єкт був забезпечений, синку, за будь-яку ціну. І я хочу, щоб ти про це подбав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -380,7 +392,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>It will be done sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це буде зроблено, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -390,7 +402,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Beautiful! This is where you need to go: On the lower level of Core City, near one of the under-passage exits in Drop Zone you will find a locked door. Behind it lies the passageway leading to a facility of ours. Use this keycard to unlock the door; this pass must be worn at all times so that the security bots don't rip you to shreds. ::He gives you the keycard.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово! Ось куди тобі потрібно йти: На нижньому рівні Центрального Міста, біля одного з виходів у підземний перехід у Зону падіння, ти знайдеш зачинені двері. За ними знаходиться прохід до нашої установки. Використовуй цю картку для відкриття дверей; цей пропуск потрібно носити постійно, щоб охоронні боти не розірвали тебе на шматки. ::Він дає тобі картку.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -400,7 +412,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>That would be bad, son. ::He laughs.:: There will be a few scientists there, but other than them *no one* else is allowed. I'm counting on you. Keep that artifact safe and sound. For Coretech, for our future.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це було б погано, синку. ::Він сміється.:: Там буде кілька вчених, але крім них *ніхто* інший не дозволений. Я на тебе розраховую. Збережи цей артефакт у цілості та безпеці. Для Coretech, для нашого майбутнього.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -410,7 +422,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -420,7 +432,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>I've already been to this facility. It's not as secure as you think it is.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вже був у цій установі. Вона не така безпечна, як ти думаєш.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -430,7 +442,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>What? You... you cannot be serious, son!?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що? Ти... ти не можеш говорити серйозно, синку!?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -440,7 +452,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -450,7 +462,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>The Tchortists stormed in, killed the scientists and fled with the artifact. There was nothing I could have done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчортисти увірвалися, вбили вчених і втекли з артефактом. Я нічого не міг зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -460,7 +472,7 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Tchortists! TCHORTISTS! ::His clenched fist strikes the table, making you flinch from the sheer volume of the sound produced.:: Curse them, curse them all! Those lying bastards, they... We should never have let the bastards into the city!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчортисти! ТЧОРТИСТИ! ::Його стиснутий кулак б'є по столу, змушуючи тебе здригнутися від сили звуку.:: Проклинаю їх, проклинаю всіх! Ці брехливі мерзотники, ми ніколи не повинні були впускати їх у місто!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -472,7 +484,9 @@ Hell, why are you mentioning this if you have already done your duty?&lt;end&gt;
         <source>::He bows his head, letting it hang above his desk while his fist remains in contact with the table.:: 
 
 All went down the pipes... Sons of rats.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він опускає голову, дозволяючи їй повиснути над столом, поки його кулак залишається на столі.:: 
+
+Все пішло по каналізації... Сини щурів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -484,7 +498,9 @@ All went down the pipes... Sons of rats.&lt;end&gt;</source>
         <source>::He lifts his head and adjusts his suit. A steady motion of his hand as it slides across his receding hair seems to have a calming effect on him.::
  
 I need to be alone now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він піднімає голову і поправляє костюм. Стабільний рух його руки, коли вона ковзає по рідіючому волоссю, здається, заспокоює його.::
+ 
+Мені зараз потрібно побути наодинці.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -494,7 +510,7 @@ I need to be alone now.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Goodby--&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення--&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -506,7 +522,9 @@ I need to be alone now.&lt;end&gt;</source>
         <source>Wait, wait... 
 
 Talk to Harlan. Now leave me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекай, зачекай... 
+
+Поговори з Харланом. А тепер йди від мене.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -516,7 +534,7 @@ Talk to Harlan. Now leave me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I will. Goodbye, Mr. Simmons.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я зроблю це. До побачення, містере Сіммонс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -526,7 +544,7 @@ Talk to Harlan. Now leave me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>As you wi--&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ти скажеш--&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -536,7 +554,7 @@ Talk to Harlan. Now leave me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Nod.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кивок.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
@@ -546,7 +564,7 @@ Talk to Harlan. Now leave me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I understand.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -556,7 +574,7 @@ Talk to Harlan. Now leave me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Beautiful! That's it, son. Get going.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово! Це все, синку. Ходімо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -566,7 +584,7 @@ Talk to Harlan. Now leave me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -576,7 +594,7 @@ Talk to Harlan. Now leave me.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How do I find the Acid Hunters again?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як мені знову знайти Мисливців за кислотою?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -588,7 +606,9 @@ Talk to Harlan. Now leave me.&lt;end&gt;</source>
         <source>Don't disappoint me like this, son! Pay attention! 
 
 Go into the sewers and find a large drain pipe, one a man can walk into. This large pipe has exits to different chambers, and one of them has a crack in the wall. Put your hand in the crack and you'll find a lever. Pull the lever, and the entrance to their lair will be revealed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не розчаровуй мене так, синку! Уважно слухай! 
+
+Зайди в каналізацію і знайди велику дренажну трубу, в яку може пройти людина. У цієї великої труби є виходи до різних камер, і в одній з них є тріщина в стіні. Просунь руку в тріщину, і ти знайдеш важіль. Потягни за важіль, і вхід до їхнього лігва буде розкрито.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -598,7 +618,7 @@ Go into the sewers and find a large drain pipe, one a man can walk into. This la
       </mda:metadata>
       <segment state="translated">
         <source>You catch all that - good.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти все це зрозумів – добре.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -608,7 +628,7 @@ Go into the sewers and find a large drain pipe, one a man can walk into. This la
       </mda:metadata>
       <segment state="translated">
         <source>About the Acid Hunters...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щодо Мисливців за кислотою...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -620,7 +640,9 @@ Go into the sewers and find a large drain pipe, one a man can walk into. This la
         <source>::He smiles, lifting one corner of his mouth while the other bites into his cigar.::
 
 Did you get them, son?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він посміхається, піднімаючи один куточок рота, поки інший вгризається в сигару.::
+
+Ти їх знищив, синку?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -630,7 +652,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How do I get to that research facility again?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як мені знову дістатися до цієї дослідницької установки?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -640,7 +662,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll explain again. On the lower level of Core City, near one of the under-passages exits in the Drop Zone you will find a locked door. Behind it lies the passageway leading to the facility. Use the keycard I gave you to unlock the door; the pass must be worn at all times so that the security bots don't rip you to shreds.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я поясню ще раз. На нижньому рівні Центрального Міста, біля одного з виходів у підземний перехід у Зону падіння, ти знайдеш зачинені двері. За ними знаходиться прохід до установки. Використовуй картку, яку я тобі дав, щоб відкрити двері; пропуск потрібно носити постійно, щоб охоронні боти не розірвали тебе на шматки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -650,7 +672,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's it! Easy to remember.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все! Легко запам'ятати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -660,7 +682,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Have you ever heard of the Acorn, a.k.a ACoNR?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти коли-небудь чув про Acorn, а.к.а ACoNR?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -670,7 +692,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Acorn? What's that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Acorn? Що це таке?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -680,7 +702,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -690,7 +712,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I don't know much about it myself, but from my understanding it's a highly valuable piece of technology that could prove to be a great asset to our company.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я сам про це знаю небагато, але наскільки я розумію, це надзвичайно цінний технологічний винахід, який може виявитися великим активом для нашої компанії.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -700,7 +722,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hm. ::He bites into his cigar.:: Look, son, in &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хм. ::Він затягується сигарою.:: Слухай, синку, в &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
@@ -710,7 +732,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>all my years of doing this business I've never heard of anything like this thing you mentioned. What is it? Biocorp technology?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">всі роки моєї діяльності я ніколи не чув про таку річ, як ти згадав. Що це? Технологія Biocorp?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -720,7 +742,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>But... ::He shakes his head.:: Forget it. I can't deal with that right now. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але... ::Він хитає головою.:: Забудь про це. Я не можу цим займатися зараз. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -730,7 +752,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We've got the Faceless all around us&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У нас навколо Безликі&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -740,7 +762,7 @@ Did you get them, son?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>, we have to secure our research facility, and we've got a bevy of other issues to deal with. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">, ми повинні забезпечити безпеку нашої дослідницької установки, і у нас є безліч інших проблем, з якими потрібно розібратися. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q73" name="=&gt;q73">
@@ -752,7 +774,9 @@ Did you get them, son?&lt;end&gt;</source>
         <source>As soon as we're done with all of that we'll return to this Acorn thing of yours, eh, son. ::He puffs some smoke.:: 
 
 There. Now...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як тільки ми з усім цим закінчимо, ми повернемося до цієї твоєї Acorn, га, синку. ::Він випускає дим.:: 
+
+Ось. Тепер...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q74" name="=&gt;q74">
@@ -762,7 +786,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>, these Acid Hunters&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">, ці Мисливці за кислотою&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -772,7 +796,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source> and a bevy of other problems plaguing this city.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation"> і безліч інших проблем, які мучать це місто.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q76" name="=&gt;q76">
@@ -782,7 +806,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::But he then shakes his head.:: Look, son, forget it. I can't deal with that now. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Але потім він хитає головою.:: Слухай, синку, забудь про це. Я не можу цим займатися зараз. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
@@ -792,7 +816,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>All I know is that it's somehow connected to some high-tech machines capable of traversing great distances, even reaching the Surface. It could prove to be a great asset to our company.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все, що я знаю, це те, що це якимось чином пов'язано з високотехнологічними машинами, здатними долати великі відстані, навіть досягати Поверхні. Це може виявитися великим активом для нашої компанії.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a78" name="=&gt;a78">
@@ -802,7 +826,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It seems to be a device capable of manufacturing highly advanced things, like objects and machinery. It could prove to be a great asset to our company.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це пристрій, здатний виготовляти високорозвинені речі, такі як об'єкти та машини. Це може виявитися великим активом для нашої компанії.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q79" name="=&gt;q79">
@@ -812,7 +836,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What the...? ::He takes the cigar out of his mouth.:: In &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що це...? ::Він виймає сигару з рота.:: В &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a80" name="=&gt;a80">
@@ -822,7 +846,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's a device capable of utilizing materials from its surroundings in order to construct complex objects and machinery. It could prove to be a great asset to our company.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це пристрій, здатний використовувати матеріали з навколишнього середовища для створення складних об'єктів і машин. Це може виявитися великим активом для нашої компанії.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a81" name="=&gt;a81">
@@ -832,7 +856,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's a supercomputer capable of controlling nanobots that can use materials from their surroundings to construct complex objects and machinery. It could prove to be a great asset to our company.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це суперкомп'ютер, здатний керувати наноботами, які можуть використовувати матеріали з навколишнього середовища для створення складних об'єктів і машин. Це може виявитися великим активом для нашої компанії.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a82" name="=&gt;a82">
@@ -842,7 +866,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Never mind. There was something else I wanted to ask you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Неважливо. Було ще одне, про що я хотів тебе запитати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q83" name="=&gt;q83">
@@ -852,7 +876,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He puffs some smoke.:: Well?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він випускає дим.:: Ну?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a84" name="=&gt;a84">
@@ -862,7 +886,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>About the Acorn again...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щодо Acorn знову...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q85" name="=&gt;q85">
@@ -872,7 +896,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That again?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Знову?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a86" name="=&gt;a86">
@@ -882,7 +906,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've been to the facility.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я був у цьому об'єкті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
@@ -892,7 +916,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Returned? Did... did something happen to the artifact? Did the Faceless get to it? Tell me what happened, son, damn it!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Повернувся? Що... що сталося з артефактом? Чи дісталися до нього Безликі? Розкажи мені, що сталося, синку, клянуся!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
@@ -902,7 +926,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can you tell me how the Oligarchy came to be?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можеш ти розповісти мені, як виникла Олігархія?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -912,7 +936,7 @@ There. Now...&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>A long time ago, Archie and I were employed at Biocorp. If you're unfamiliar with its history, it used to be a supercorporation which owned everything in Underrail. Understand, son? *Everything*. They had full control over military, economy, scientific research, politics... *Everything*. But unfortunately, once you grow to that size, you need to make sure you can support all that weight. And Biocorp had a rotten core.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Давно тому, я і Арчі працювали в BioCorp. Якщо ти не знайомий з її історією, колись це була надкорпорація, яка володіла всім в Underrail. Зрозумій, синку? *Всім*. Вони мали повний контроль над військовими, економікою, науковими дослідженнями, політикою... *Всім*. Але, на жаль, коли ти виростаєш до такого розміру, ти повинен переконатися, що можеш підтримати всю цю вагу. А в BioCorp був гнилий центр.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
@@ -924,7 +948,9 @@ There. Now...&lt;end&gt;</source>
         <source>Due to internal conflicts and other external problems, Biocorp fell apart. Then it reformed. Then the cracks appeared again. When the Protectorate came fifteen years ago, Biocorp was no match. No, no. They took out their headquarters in North Underrail, and that was the final blow. Damn it all, we used to be beautiful! Core City belonged to Biocorp. Top scientists lived and worked here. All began to fall apart after that, and Archie and I tried to keep this place together. 
 
 He was the chief of security while I was the head of research department here in Core City - a technocrat, as we used to call ourselves. He formed Praetorian Security; I formed Coretech with the help of my colleagues, in an attempt to continue what Biocorp began.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Через внутрішні конфлікти та інші зовнішні проблеми BioCorp розпалася. Потім вона реформувалася. Потім знову з'явилися тріщини. Коли Протекторат прийшов п'ятнадцять років тому, BioCorp не була йому рівнею. Ні, ні. Вони знищили її штаб-квартиру в Північному Underrail, і це був останній удар. Клянуся, колись ми були прекрасними! Core City належала BioCorp. Тут жили та працювали найкращі вчені. Все почало розвалюватися після цього, і я з Арчі намагалися втримати це місце разом.
+
+Він був начальником служби безпеки, а я - головою дослідницького відділу тут, в Core City - технократом, як ми тоді себе називали. Він сформував Praetorian Security; я сформував Coretech з допомогою своїх колег, намагаючись продовжити те, що почала BioCorp.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
@@ -936,7 +962,9 @@ He was the chief of security while I was the head of research department here in
         <source>Son, it was difficult, but the Arena saved us all. It brought in so much money to Core City. Truthfully, Edstrom should be partially thanked for that, as he was the one who raised its popularity to a whole new level. He was an outsider, so he had the connections, and he had the brains to make everything go his way! ::He laughs.::
 
 That pretty much sums it up, son.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Синку, це було важко, але Арена врятувала нас усіх. Вона принесла так багато грошей в Core City. По правді кажучи, Едстрома слід частково подякувати за це, оскільки саме він підняв її популярність на абсолютно новий рівень. Він був ззовні, тому мав зв'язки, і він мав мозок, щоб все зробити на свою користь! ::Він сміється.::
+
+Це, мабуть, все, синку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
@@ -946,7 +974,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye, Mr. Simmons.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення, містере Сіммонс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -960,7 +988,9 @@ That pretty much sums it up, son.&lt;end&gt;</source>
 ::He calms down.:: Damn it, son. You've done so well so far, why tarnish it, why bite the hand that feeds you. 
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він виймає сигару з рота, гасячи її одним різким рухом.:: Синку, я прикинуся, що ти цього не казав. Мені байдуже, які докази ти знайшов і що той дикун тобі розповів. Корнелл вбив Едмунда! Це правда! Візьми це і замовкни! ::Він дає тобі 600 харонів.::
+
+::Він заспокоюється.:: Клянуся, синку. Ти так добре попрацював досі, чому ж псувати все, чому кусати руку, що тебе годує. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a94" name="=&gt;a94">
@@ -970,7 +1000,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It all seemed *very* suspicious.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все це здавалося *дуже* підозрілим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q95" name="=&gt;q95">
@@ -982,7 +1012,9 @@ That pretty much sums it up, son.&lt;end&gt;</source>
         <source>::He laughs.:: Son, you were loyal to Coretech from your first day. Don't tarnish it now. But, I understand, I understand. We all have moments like this. Here's something to help you... calm down. ::He gives you 600 charons.:: 
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він сміється.:: Синку, ти був вірний Coretech з першого дня. Не псуй це зараз. Але я розумію, я розумію. У всіх бувають такі моменти. Ось щось, щоб допомогти тобі... заспокоїтися. ::Він дає тобі 600 харонів.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a96" name="=&gt;a96">
@@ -992,7 +1024,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Thank you, sir. I was just doing my job.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую, сер. Я просто виконував свою роботу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q97" name="=&gt;q97">
@@ -1002,7 +1034,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You most definitely were. ::He laughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти, безумовно, так і робив. ::Він сміється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q98" name="=&gt;q98">
@@ -1012,7 +1044,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He gives you 600 charons.:: Take this. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дає тобі 600 харонів.:: Візьми це. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a99" name="=&gt;a99">
@@ -1022,7 +1054,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Show him Cornell's head.:: He was guilty of some other crimes as well.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Покажи йому голову Корнелла.:: Він був винен і в інших злочинах.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a100" name="=&gt;a100">
@@ -1032,7 +1064,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They weren't there. I searched everything, but no trace of Acid Hunters.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Їх там не було. Я обшукав все, але жодного сліду Acid Hunters.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
@@ -1042,7 +1074,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So, they escaped... ::He removes the cigar from his mouth, extinguishing it with one swift motion.:: That is disappointing... Not your fault, of course. Your results have been outstanding so far, so I'm assured you did everything within your powers. I'll inform all our forces of this situation; maybe those rats still haven't managed to leave Core City.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, вони втекли... ::Він виймає сигару з рота, гасячи її одним швидким рухом.:: Це розчаровує... Не твоя вина, звісно. Твої результати були вражаючими, тому я впевнений, що ти зробив все, що в твоїх силах. Я повідомлю всі наші сили про цю ситуацію; можливо, ці щури ще не встигли покинути Core City.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a102" name="=&gt;a102">
@@ -1052,7 +1084,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No, but I will.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, але я збираюся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
@@ -1062,7 +1094,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Don't be a zoner, son! Stop fooling around and get to work. We have to get to those animals *before* they escape.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не будь зонером, синку! Перестань дуріти і приступай до роботи. Ми повинні дістатися до цих тварин *до того*, як вони втечуть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a104" name="=&gt;a104">
@@ -1072,7 +1104,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What about capturing them? Can't you put them on a trial or something?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що щодо їх захоплення? Чи не можна їх судити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q105" name="=&gt;q105">
@@ -1082,7 +1114,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Listen, son, let's not lie to each other. I'm not an evil man. Angry, definitely, but evil? No. There is a reason why they must die; we've all already discussed this - I mean, the Oligarchs - and we came to a conclusion that for a crime this severe - death is the only punishment. All evidence points to them, son, all of it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Послухай, синку, не будемо брехати один одному. Я не злий чоловік. Злий, безумовно, але злий? Ні. Є причина, чому вони повинні померти; ми всі вже обговорювали це - я маю на увазі Олігархів - і ми дійшли висновку, що за такий тяжкий злочин - смерть є єдиним покаранням. Всі докази вказують на них, синку, всі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a106" name="=&gt;a106">
@@ -1092,7 +1124,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll do as you ask. How do I get to them?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я зроблю, як ти просиш. Як мені до них дістатися?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q107" name="=&gt;q107">
@@ -1102,7 +1134,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's what I like to hear, son! This is the info we have... Go into the sewers and find a large drain pipe, one a man can walk into. This large pipe has exits to different chambers, and one of them has a crack in the wall. Put your hand in the crack and you'll find a lever. Pull the lever, and the entrance to their lair will be revealed. That's exactly how I've been told.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось що мені подобається в тобі, синку! Ось інформація, яку ми маємо... Зайди в каналізацію і знайди велику зливну трубу, в яку може пройти людина. У цієї великої труби є виходи в різні камери, і в одній з них є тріщина в стіні. Просунь руку в тріщину, і ти знайдеш важіль. Потягни за важіль, і вхід до їхнього лігва буде розкритий. Саме так мені розповіли.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a108" name="=&gt;a108">
@@ -1112,7 +1144,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Are you sure that's true?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти впевнений, що це правда?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q109" name="=&gt;q109">
@@ -1122,7 +1154,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Of course, son! Who do you take me for? ::He laughs.:: Now go, bring me Cornell's head.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, синку! За кого ти мене приймаєш? ::Він сміється.:: Тепер йди, принеси мені голову Корнелла.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a110" name="=&gt;a110">
@@ -1132,7 +1164,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm on the job.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вже в роботі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q111" name="=&gt;q111">
@@ -1142,7 +1174,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>One more thing: Put the head in a leak-proof bag or something, son, as I don't want blood all over my office. You got that - good.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ще одне: Поклади голову в герметичний пакет або щось таке, синку, я не хочу крові по всьому офісу. Ти зрозумів - добре.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a112" name="=&gt;a112">
@@ -1152,7 +1184,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So, you want them dead?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">То ти хочеш їх смерті?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -1162,7 +1194,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's it son! I want you to kill Cornell and bring me his head. As for the rest, kill them too. As commoners would say... dominate them!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це воно, синку! Я хочу, щоб ти вбив Корнелла і приніс мені його голову. Щодо решти, вбий їх також. Як кажуть прості люди... підкори їх!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a114" name="=&gt;a114">
@@ -1172,7 +1204,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm quite familiar with them.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я добре з ними знайомий.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a115" name="=&gt;a115">
@@ -1182,7 +1214,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Who are these Acid Hunters?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто ці Acid Hunters?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q116" name="=&gt;q116">
@@ -1192,7 +1224,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Lowlife scum, barbarians! This Cornell and his band of rats deserve nothing but the most severe punishment for what they did, so that's where you come in, son!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нижлові покидьки, варвари! Цей Корнелл і його банда щурів заслуговують лише на найсуворіше покарання за те, що вони зробили, тому ти і приходиш, синку!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a117" name="=&gt;a117">
@@ -1202,7 +1234,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's horrible, but I'm not sure I know who that is.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це жахливо, але я не впевнений, хто це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q118" name="=&gt;q118">
@@ -1212,7 +1244,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You deserve some rest, and I'll call you when I need the best agent in Coretech. ::Laughs.:: See you again, son.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти заслуговуєш на відпочинок, і я викличу тебе, коли мені знадобиться найкращий агент в Coretech. ::Сміється.:: Побачимося знову, синку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a119" name="=&gt;a119">
@@ -1222,7 +1254,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What do I get with this promotion?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що я отримаю з цим підвищенням?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
@@ -1232,7 +1264,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Straight to the point, I like that, son! I most certainly do. Son, with this promotion, you become my personal agent! You will answer to me, and me only. If someone asks you where you're going and what you're doing, you can just say: "Mr. Simmons says that's none of your damn business." ::He laughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прямо в точку, мені це подобається, синку! Мені це дуже подобається. Синку, з цим підвищенням ти стаєш моїм особистим агентом! Ти будеш відповідати мені, і тільки мені. Якщо хтось запитає тебе, куди ти йдеш і що робиш, ти можеш просто сказати: "Містер Сіммонс сказав, що це не ваша справа". ::Він сміється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q121" name="=&gt;q121">
@@ -1242,7 +1274,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>With the way you've been fighting in there, son, I'm sure you can become invictus one day! If you do, having the invictus working for Coretech would be astonishing! Let me tell you something, son - you really earned this promotion!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">З тим, як ти б'єшся там, синку, я впевнений, що ти можеш стати інвіктусом одного дня! Якщо ти це зробиш, мати інвіктуса, який працює на Coretech, було б дивовижно! Дозволь мені сказати тобі, синку - ти дійсно заслужив це підвищення!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a122" name="=&gt;a122">
@@ -1252,7 +1284,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can't wait to hear it, sir.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не можу дочекатися, щоб почути це, сер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q123" name="=&gt;q123">
@@ -1262,7 +1294,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Beautiful! I would like to take this opportunity to personally promote you, son. I've heard that you are a good employee, and I've seen how you fight in the Arena!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово! Я хотів би скористатися цією нагодою, щоб особисто підвищити тебе, синку. Я чув, що ти хороший працівник, і я бачив, як ти б'єшся на Арені!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a124" name="=&gt;a124">
@@ -1272,7 +1304,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Pretty darn good.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Досить непогано.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a125" name="=&gt;a125">
@@ -1282,7 +1314,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've been having these leg cramps for quite some time now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене вже досить довго судоми в ногах.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q126" name="=&gt;q126">
@@ -1292,7 +1324,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Oh, I'm sure it'll go away, son. Especially after I tell you why I called you up here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, я впевнений, що це пройде, синку. Особливо після того, як я тобі розповім, чому я викликав тебе сюди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q127" name="=&gt;q127">
@@ -1302,7 +1334,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Son. I need to talk to you about something very important. I don't know if you've heard, but Edmund Knight was killed just recently.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Синку. Мені потрібно поговорити з тобою про щось дуже важливе. Я не знаю, чи ти чув, але Едмунда Найта щойно вбили.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q128" name="=&gt;q128">
@@ -1312,7 +1344,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I need to be alone for a while.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно побути одному деякий час.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q129" name="=&gt;q129">
@@ -1322,7 +1354,7 @@ That pretty much sums it up, son.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Ah, son, you are here. What've you got for me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах, синку, ти тут. Що ти приніс мені?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

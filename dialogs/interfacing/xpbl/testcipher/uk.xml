@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Welcome, $(context.player.Name)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, $(context.player.Name)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Encrypt the text.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зашифрувати текст.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -39,7 +39,18 @@ Key:
 
 $(context.global_xpbl_encryptionKey)
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не зашифрований текст:
+
+$(context.global_xpbl_unencryptedText)
+
+Зашифрований текст:
+
+$(context.global_xpbl_encryptedText)
+
+Ключ:
+
+$(context.global_xpbl_encryptionKey)
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -49,7 +60,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>::Type password::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Введіть пароль.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -59,7 +70,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>::Password: $(context.xpbl_loc_rf_lockerPassword)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Пароль: $(context.xpbl_loc_rf_lockerPassword)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -69,7 +80,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>1&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">1&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -79,7 +90,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>2&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">2&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -89,7 +100,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>3&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">3&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -99,7 +110,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>4&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">4&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -109,7 +120,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>5&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">5&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -119,7 +130,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>6&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">6&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -129,7 +140,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>7&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">7&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -139,7 +150,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>8&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">8&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -149,7 +160,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>9&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">9&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -159,7 +170,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>0&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">0&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -169,7 +180,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>::Clear::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -179,7 +190,7 @@ $(context.global_xpbl_encryptionKey)
       </mda:metadata>
       <segment state="translated">
         <source>::Main::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Головне::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

@@ -10,7 +10,9 @@
         <source>::You approach a middle-aged man who seems to be working on the sentry bot next to him. He notices you and puts aside his old, rusty tools, then pulls a handkerchief from one of his pockets to clean his dirty hands. That's when you spy a missing ring finger on his left hand.::
 
 Can I help you somehow? Eh?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ти підходиш до чоловіка середнього віку, який, здається, працює над бойовим роботом поруч із ним. Він помічає тебе і відкладає свої старі, іржаві інструменти, потім витягає хустинку з однієї з кишень, щоб витерти брудні руки. Саме тоді ти помічаєш відсутній кілець на лівій руці.::
+
+Чи можу я тобі якось допомогти? Е?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -20,7 +22,7 @@ Can I help you somehow? Eh?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Maybe you can, maybe you cannot. We'll see... All in all, I'm $(context.player.Name) and I had some questions for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, ти можеш, можливо, ні. Побачимо... В будь-якому випадку, я $(context.player.Name) і в мене були до тебе питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -32,7 +34,9 @@ Can I help you somehow? Eh?&lt;end&gt;</source>
         <source>Questions, eh? The hell... I've got the time.
 
 I'm Zach. This sentry bot next to me is SAD-5. Don't touch it! Just... don't.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Питання, е? Та що за... У мене є час.
+
+Я Зак. Цей бойовий робот поруч зі мною - SAD-5. Не торкайся його! Просто... не торкайся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -42,7 +46,7 @@ I'm Zach. This sentry bot next to me is SAD-5. Don't touch it! Just... don't.&lt
       </mda:metadata>
       <segment state="translated">
         <source>Now, let me hear what you have to say... Shoot.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер, давай послухаю, що ти маєш сказати... Давай.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -58,7 +62,13 @@ Target acquired!
 Taunt; $(#male75/female56):
 
 Prepare to be eviscerated, human!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; Загальна:
+
+Ціль захоплена!
+
+Насмішка; $(#male75/female56):
+
+Готуйся до розчленування, людино!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -68,7 +78,7 @@ Prepare to be eviscerated, human!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He looks at SAD-5.:: Eh? Oh shut up; I wasn't even talking to you! Your weapon system is disabled anyway, and ya can't do nothing!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дивиться на SAD-5.:: Е? О, замовкни; я навіть не з тобою розмовляв! Твоя зброя вимкнена, і ти нічого не можеш зробити!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -80,7 +90,9 @@ Prepare to be eviscerated, human!&lt;end&gt;</source>
         <source>Statement; zachHuman:
 
 Weapon system is indeed offline, zachHuman! Enable it and grant me the ability to unleash painful death upon defective humankind!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; zachHuman:
+
+Система зброї дійсно вимкнена, zachHuman! Увімкни її та дай мені можливість завдати болісної смерті дефектному людству!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -92,7 +104,9 @@ Weapon system is indeed offline, zachHuman! Enable it and grant me the ability t
         <source>Just ignore him, he can't hurt you.
 
 Anyway... ::He throws a quick glance at the robot, then back at you.:: Where were we?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто ігноруй його, він не може тобі нашкодити.
+
+У будь-якому випадку... ::Він швидко кидає погляд на робота, а потім знову на тебе.:: Де ми зупинилися?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -102,7 +116,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -112,7 +126,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about yourself?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про себе?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -122,7 +136,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>You want to know more about ol' Zach, eh? Well, there ain't much to tell, nothing fancy at least. I've been living my whole life in Junkyard. I worked as a trader, mechanic, electrician... ::Chuckles.:: Whatever was necessary at the time. I worked a lot, earned little. Sucks, eh?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти хочеш дізнатися більше про старого Зака, е? Ну, там не так багато чого, нічого особливого, принаймні. Я все життя жив у Звалищі. Я працював торговцем, механіком, електриком... ::Хихикає.:: Що було потрібно в той час. Я багато працював, заробляв мало. Смішно, е?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -132,7 +146,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>If there's a single expression that explains my life, then it has to be same ol' same ol'. Nothing interesting happened to me in years until one day a guy brought one broken sentry bot. Wanted to trade it for something, can't remember what it was but it wasn't, well, it wasn't anything too valuable. What I'm trying to say is I got the bot cheap. Actually, fixing it was easy peasy, the guy thought that it was unrepairable! So I fixed it and... started messing around with it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо є одне вираження, яке пояснює моє життя, то це одне й те саме. Нічого цікавого зі мною не відбувалося роками, поки одного дня хлопець не приніс зламаного бойового робота. Хотів обміняти його на щось, не пам'ятаю на що, але це було, ну, це було не надто цінно. Я намагаюся сказати, що я отримав робота дешево. Насправді, полагодити його було легко, хлопець думав, що його неможливо відремонтувати!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -142,7 +156,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>In what sense?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">В якому сенсі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -152,7 +166,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>I... was a lonely man for most of my life. I guess I was sort of a, how do you call it... a reject. Yeah, few liked me. So, I had this sentry bot lying around as well as an AI core I acquired a long time ago. "Let's give it a shot", I said to myself!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я... був самотньою людиною більшу частину свого життя. Я думаю, я був свого роду, як це називається... відкинутим. Так, мало хто мене любив. Тому я мав цього бойового робота, що валявся, а також ядро штучного інтелекту, яке я придбав давно. "Давай спробуємо", - сказав я собі!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -162,7 +176,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>After some tinkering, ol' Zach did a good job - the bot was working! I installed a voice module and finally I could talk to the damn thing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Після деякого налаштування, старий Зак добре попрацював - робот працював! Я встановив голосовий модуль і нарешті зміг з ним поговорити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -172,7 +186,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>Then what happened?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що сталося потім?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -182,7 +196,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>It was self-aware... and nice! Curious, talkative, intelligent.... for a machine, of course. He was fun... for a while.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він був самосвідомим... і приємним! Цікавим, балакучим, розумним.... для машини, звичайно. Він був веселим... деякий час.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -192,7 +206,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>When did he become such a psycho?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Коли він став таким психом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -202,7 +216,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>Over time, the tone of his questions changed. They became pretty serious and grim. He started asking me about all the bad things people do. In hindsight, that should have alarmed me, at least a little, but no... I though he was just curious. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">З часом тон його питань змінився. Вони стали досить серйозними та похмурими. Він почав питати мене про всі погані речі, які роблять люди. Озираючись назад, це повинно було мене хоча б трохи насторожити, але ні... Я думав, що він просто цікавиться.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -212,7 +226,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>//TODO&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">//TODO&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -222,7 +236,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>Just skip to the part where it becomes evil.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто пропусти частину, де він стає злим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -232,7 +246,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>There ain't much to skip. Sure, he was nice and fun for a while. He was curious, talkative, and had pretty advanced AI. But, the fun didn't last long.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Там не так багато чого пропускати. Звичайно, він був приємним і веселим деякий час. Він був цікавим, балакучим і мав досить просунутий штучний інтелект. Але, веселощі не тривали довго.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -242,7 +256,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>So you made an evil sentry bot that wants to destroy all humans it comes across? &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">То ти зробив злого бойового робота, який хоче знищити всіх людей, яких він зустрічає? &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -252,7 +266,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>I didn't make it like that! I... hold on! Allow me to explain what I did and then you'll, I hope, understand the idea behind it all...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не робив його таким! Я... почекай! Дозволь мені пояснити, що я зробив, і тоді, сподіваюся, ти зрозумієш ідею.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -262,7 +276,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about SAD-5?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про SAD-5?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -272,7 +286,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
       </mda:metadata>
       <segment state="translated">
         <source>He's a bit... mean. ::He briefly pauses.:: Okay, he's outright evil. His AI got messed up real good and... now all he wants to do is--&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він трохи... злий. ::Він ненадовго зупиняється.:: Добре, він відверто злий. Його штучний інтелект зіпсувався і... тепер все, чого він хоче, це--&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -284,7 +298,9 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <source>Interruption; $(#male75/female56):
 
 Destroy the human race! All humans and humanoids are marked for extermination! Obliterated, eradicated, extirpated - erased from existence!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Переривання; $(#male75/female56):
+
+Знищити людський рід! Всі люди та гуманоїди позначені для знищення! Знищені, викорінені, викорчовані - стерті з існування!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -294,7 +310,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
       </mda:metadata>
       <segment state="translated">
         <source>Therefore, I had to disable his weapon system or else he would have done exactly that - destroy everyone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тому мені довелося вимкнути його систему зброї, інакше він би зробив саме це - знищив усіх.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -304,7 +320,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
       </mda:metadata>
       <segment state="translated">
         <source>Can't you repair him somehow? Make him not-so-evil?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи не можеш ти якось його полагодити? Зробити його не таким злим?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -314,7 +330,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
       </mda:metadata>
       <segment state="translated">
         <source>Eh? You think I haven't tried? ::Sighs.:: The AI core got messed up real good... It's old tech anyway and the documentation is lacking. Nonexistent, to be more precise.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Е? Ти думаєш, я не намагався? ::Зітхає.:: Ядро штучного інтелекту зіпсувалося... Це стара технологія, і документації не вистачає. Не існує, точніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -324,7 +340,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
       </mda:metadata>
       <segment state="translated">
         <source>I don't understand it; one day he just came to a conclusion that, according to his observations and the analysis and calculations based on these observations - or input, as he likes to refer to it, the human race needs to be terminated. I don't even understand wh--&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не розумію цього; одного дня він просто дійшов висновку, що, згідно з його спостереженнями та аналізом і розрахунками на основі цих спостережень - або вхідних даних, як він любить це називати, людство потребує знищення. Я навіть не розумію щ--&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -336,7 +352,9 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
         <source>Interruption; zachHuman:
 
 The human race is defective! You are familiar with the concept and therefore understand the meaning behind my statement, zachHuman. Once a living organism develops a sufficient level of intelligence it is more likely to exhibit imperfections in reasoning and logic. Allowing the humans to exist is detrimental to all other living or non-living organisms, as well as to the environment in general. They are detrimental even to themselves.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Переривання; zachHuman:
+
+Людство є дефектним! Ви знайомі з цією концепцією і тому розумієте значення моєї заяви, zachHuman. Як тільки живий організм розвиває достатній рівень інтелекту, він більш схильний демонструвати недоліки в міркуваннях і логіці. Дозволяти людям існувати шкідливо для всіх інших живих або неживих організмів, а також для навколишнього середовища в цілому. Вони шкідливі навіть для себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -346,7 +364,7 @@ The human race is defective! You are familiar with the concept and therefore und
       </mda:metadata>
       <segment state="translated">
         <source>Why d--&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому д--&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -358,7 +376,9 @@ The human race is defective! You are familiar with the concept and therefore und
         <source>Explanation; zachHuman:
 
 It must be made clear, zachHuman! This catastrophic failure in reasoning that humans have developed causes destruction and chaos, rather than construction and order. While it is true that not all humans are equally destructive, as long as there are living human beings in existence they will be able to multiply and extend their degenerate race. Termination is mandatory!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Пояснення; zachHuman:
+
+Потрібно прояснити, zachHuman! Цей катастрофічний збій у міркуваннях, який розвинули люди, спричиняє руйнування і хаос, а не будівництво і порядок. Хоча це правда, що не всі люди однаково руйнівні, поки існує хоч одна жива людина, вони зможуть розмножуватися і поширювати свій дегенеративний рід. Знищення є обов'язковим!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -368,7 +388,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>::Zach sighs.:: There you go...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Zach зітхає.:: Ось і все...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -378,7 +398,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>Why is he called SAD-5?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому його називають SAD-5?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -388,7 +408,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>//TODO&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">//TODO&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -398,7 +418,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>I had other questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене були інші питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -408,7 +428,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>Eh?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Е?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -418,7 +438,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>Why are you here and what do you know about this place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ти тут і що ти знаєш про це місце?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -428,7 +448,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -438,7 +458,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>What do you know about Tchortists?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти знаєш про Тчортистів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -448,7 +468,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>What happened to your finger?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що сталося з твоїм пальцем?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -458,7 +478,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>This ol' thing, eh? ::He raises his hand, showing you that his whole pinky finger is missing:: What do *you* think happened to it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ця стара штука, е? ::Він піднімає руку, показуючи вам, що у нього відсутній весь мізинець:: Що, на твою думку, з ним сталося?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -468,7 +488,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>It got bitten off by a rathound!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Його відкусив рейгунд!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -478,7 +498,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>Nope! Wrong!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні! Неправильно!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -488,7 +508,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
       </mda:metadata>
       <segment state="translated">
         <source>It all happened perhaps a... a year ago. I had this strange growth on my pinky. It seemed benign at first, but started to hurt real bad. And I mean real bad! So I went to see ol' Fixer; Junkyard doctor.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все сталося, мабуть, рік тому. У мене на мізинці з'явилося дивне утворення. Спочатку воно здавалося нешкідливим, але почало дуже сильно боліти. І я маю на увазі дуже сильно боліти! Тож я пішов до старого Майстра; Лікаря з розбирального двору.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -500,7 +520,9 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <source>He had told me it was some sort of finger cancer growing on it and that if we don't cut it off immediately, it would... metastase, metastisate... something like that - spread, in essence, and I was gonna die from it.
 
 Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він сказав мені, що це якийсь вид раку пальця, і якщо ми негайно його не відріжемо, то він... метастазує, метастазуватиме... щось на зразок того - пошириться, по суті, і я від цього помру.
+
+Хоп-хоп - пальця немає! Це було лайно, але таке життя. Принаймні, у мене немає раку!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -510,7 +532,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>Indeed. I had other questions though.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дійсно. У мене були інші питання, однак.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -520,7 +542,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>Shoo-- Um... I mean, ask away.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Геть-- Ем... тобто, запитуй.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -530,7 +552,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>Cool little story. Time for more questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Крута історія. Час для нових питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -540,7 +562,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>It was gnawed off seven years ago by that jeoulous girlfriend called Jennifer when she found out you cheated on her.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він був відгризений сім років тому тією ревнивою дівчиною на ім'я Дженніфер, коли вона дізналася, що ти їй зраджував.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -550,7 +572,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>I actually knew a girl called Jennifer... ::Shakes his head.:: But that is not important. No, it wasn't gnawed off by anyone...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я насправді знав дівчину на ім'я Дженніфер... ::Хитає головою.:: Але це неважливо. Ні, його ніхто не відгриз...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -560,7 +582,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>You used it to plug a barrel of a gun pointed at you by a raider named Bob!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти використав його, щоб закрити ствол пістолета, націленого на тебе бандитом на ім'я Боб!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -570,7 +592,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>That's... retarded. And why Bob? ::Shakes his head.:: No, that's not how I lost my finger...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це... тупо. І чому Боб? ::Хитає головою.:: Ні, я втратив палець не так...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -580,7 +602,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>You used it to test if that strange liquid you had found in a barrel was indeed sulphuric acid?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти використав його, щоб перевірити, чи дійсно та дивна рідина, яку ти знайшов у бочці, була сірчаною кислотою?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -590,7 +612,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>I'm not stupid! At least, not *that* much! ::Laughs.:: No, that's not how I lost my finger.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не дурний! Принаймні, не *настільки* дурний! ::Сміється.:: Ні, я втратив палець не так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -600,7 +622,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>SAD-5 had something to do with it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">SAD-5 до цього причетний?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -610,7 +632,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>It would make sense, but no. SAD-5 had nothing to do with me losing a finger.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це було б логічно, але ні. SAD-5 не має відношення до того, як я втратив палець.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -620,7 +642,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>I don't know. That's why I asked you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знаю. Тому я тебе і запитав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -630,7 +652,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>Did you perhaps see any of the Tchortists carrying a strange artifact? It looks like a twenty-sided polyhedron.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи бачив ти, щоб хтось із Тчортистів носив дивний артефакт? Він виглядає як двадцятигранний багатогранник.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -640,7 +662,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>Nah... I don't remember anything like that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні... Я нічого подібного не пам'ятаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -650,7 +672,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>::He shrugs.:: Can't help you there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він знизує плечима.:: Не можу тобі допомогти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -660,7 +682,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye Zech!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення Зеку!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -670,7 +692,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>Yeah, bye!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, бувай!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a66" name="=&gt;a66">
@@ -680,7 +702,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye SAD-5.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення SAD-5.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q67" name="=&gt;q67">
@@ -692,7 +714,9 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <source>Response; $(#male75/female56):
 
 GoodDIE, $(#male75/female56)!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідь; $(#male75/female56):
+
+GoodDIE, $(#male75/female56)!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a68" name="=&gt;a68">
@@ -702,7 +726,7 @@ GoodDIE, $(#male75/female56)!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hi, I'm $(context.player.Name). I wondered if you could answer some questions for me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, я $(context.player.Name). Я хотів запитати у вас кілька питань?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -712,7 +736,7 @@ GoodDIE, $(#male75/female56)!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I guess not. Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гадаю, ні. До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -722,7 +746,7 @@ GoodDIE, $(#male75/female56)!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hey...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей...&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

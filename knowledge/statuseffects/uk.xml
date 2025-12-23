@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Movement points increased by {0} when not in stealth.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок руху збільшена на {0}, коли не в режимі скритності.</target>
       </segment>
     </unit>
     <unit id="::Charging" name="::Charging">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Movement points increased by {0}. This character will deal {1}% bonus damage if their charge attack lands.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок руху збільшена на {0}. Цей персонаж завдаватиме {1}% додаткової шкоди, якщо його заряджена атака досягне цілі.</target>
       </segment>
     </unit>
     <unit id="::ChargingWithStun" name="::ChargingWithStun">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Movement points increased by {0}. This character will deal {1}% bonus damage and stun the target if their charge attack lands.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок руху збільшена на {0}. Цей персонаж завдаватиме {1}% додаткової шкоди та оглушить ціль, якщо його заряджена атака досягне цілі.</target>
       </segment>
     </unit>
     <unit id="::Sprint-RT" name="::Sprint-RT">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Movement speed increased by {0}% when not in stealth.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидкість руху збільшена на {0}%, коли не в режимі скритності.</target>
       </segment>
     </unit>
     <unit id="::Frozen" name="::Frozen">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Frozen solid. Cannot perform any action, but any direct damage will cancel the effect.</source>
-        <target state="new" />
+        <target state="needs-translation">Заморожений до кісток. Не може виконувати жодних дій, але будь-яка пряма шкода скасує ефект.</target>
       </segment>
     </unit>
     <unit id="::Chilled" name="::Chilled">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Movement points reduced by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок руху зменшена на {0}.</target>
       </segment>
     </unit>
     <unit id="::Chilled-SlowImmune" name="::Chilled-SlowImmune">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This character is immune to slow.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж несприйнятливий до уповільнення.</target>
       </segment>
     </unit>
     <unit id="::Chilled-RT" name="::Chilled-RT">
@@ -78,7 +78,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Movement speed decreased by {0}%</source>
-        <target state="new" />
+        <target state="needs-translation">Швидкість руху зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::AcidicEntanglement" name="::AcidicEntanglement">
@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Character is caught in a sticky acidic blob which prevents them from moving and deals {0} acid damage every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж потрапив у липку кислу пляму, яка не дозволяє йому рухатися та завдає {0} кислотної шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::CorrosiveAcidicEntanglement" name="::CorrosiveAcidicEntanglement">
@@ -98,7 +98,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Character is caught in a sticky acidic blob which prevents them from moving and deals {0} acid damage every turn and applies {1} stacks of corrosion.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж потрапив у липку кислу пляму, яка не дозволяє йому рухатися та завдає {0} кислотної шкоди щоразу та застосовує {1} стеків корозії.</target>
       </segment>
     </unit>
     <unit id="::RustingAcidicEntanglement" name="::RustingAcidicEntanglement">
@@ -108,7 +108,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Character is caught in a sticky acidic blob which prevents them from moving and deals {0} acid damage every turn and applies {1} stacks of rusting.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж потрапив у липку кислу пляму, яка не дозволяє йому рухатися та завдає {0} кислотної шкоди щоразу та застосовує {1} стеків іржавіння.</target>
       </segment>
     </unit>
     <unit id="::StealthMode" name="::StealthMode">
@@ -120,7 +120,9 @@
         <source>The character is currently in stealth mode which allows them to hide from others, but reduces their movement speed by {0}%.
 
 While in combat their movement points are reduced to {1} and they can receive no extra movement points from any source.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж зараз у режимі скритності, що дозволяє йому ховатися від інших, але зменшує його швидкість руху на {0}%.
+
+У бою його кількість очок руху зменшується до {1} і він не може отримати додаткові очки руху з будь-якого джерела.</target>
       </segment>
     </unit>
     <unit id="::ShadowTricks" name="::ShadowTricks">
@@ -130,7 +132,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>{1}% displacement.</source>
-        <target state="new" />
+        <target state="needs-translation">{1}% зміщення.</target>
       </segment>
     </unit>
     <unit id="::PsiBoost" name="::PsiBoost">
@@ -140,7 +142,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Restores {0} psi each turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} пси щоразу.</target>
       </segment>
     </unit>
     <unit id="::PsiBoost-Old" name="::PsiBoost-Old">
@@ -150,7 +152,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Psi regeneration increased by {0}% plus {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Регенерація пси збільшена на {0}% плюс {1}.</target>
       </segment>
     </unit>
     <unit id="::Adrenaline" name="::Adrenaline">
@@ -160,7 +162,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Action points increased by {0}, dodge and evasion by {1}%, and strength by {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок дії збільшена на {0}, ухилення та уникнення на {1}%, а сила на {2}.</target>
       </segment>
     </unit>
     <unit id="::Adrenaline-Old" name="::Adrenaline-Old">
@@ -170,7 +172,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Movement speed increased by {0}%, time between attacks decreased by {1}%, and dodge and evasion increased by {2}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидкість руху збільшена на {0}%, час між атаками зменшено на {1}%, а ухилення та уникнення збільшено на {2}%.</target>
       </segment>
     </unit>
     <unit id="::VitalitySurge" name="::VitalitySurge">
@@ -180,7 +182,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Action points increased by {0}, dodge and evasion by {1}%, and strength by {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок дії збільшена на {0}, ухилення та уникнення на {1}%, а сила на {2}.</target>
       </segment>
     </unit>
     <unit id="::VitalityDrain" name="::VitalityDrain">
@@ -190,7 +192,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Loses {0} health per turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Втрачає {0} здоров'я щоразу.</target>
       </segment>
     </unit>
     <unit id="::Fatigue" name="::Fatigue">
@@ -200,7 +202,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Action points decreased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок дії зменшена на {0}.</target>
       </segment>
     </unit>
     <unit id="::Fatigue-Old" name="::Fatigue-Old">
@@ -210,7 +212,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Movement speed decreased by {0}% and time between attacks increased by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидкість руху зменшена на {0}%, а час між атаками збільшено на {1}%.</target>
       </segment>
     </unit>
     <unit id="::PsionicWithdrawal" name="::PsionicWithdrawal">
@@ -220,7 +222,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Drains {0} psi every turn. Intelligence, Will and Perception are decreased by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Витрачає {0} пси щоразу. Інтелект, Воля та Сприйняття зменшуються на {1}.</target>
       </segment>
     </unit>
     <unit id="::PsionicWithdrawal-Old" name="::PsionicWithdrawal-Old">
@@ -230,7 +232,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>All bonuses to psi regeneration are nullified and psi regeneration is decreased by {0}%. Intelligence, Wisdom and Will are decreased by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Усі бонуси до регенерації пси скасовуються, а регенерація пси зменшується на {0}%. Інтелект, Мудрість і Воля зменшуються на {1}.</target>
       </segment>
     </unit>
     <unit id="::Stunned" name="::Stunned">
@@ -240,7 +242,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Cannot move or perform any actions.</source>
-        <target state="new" />
+        <target state="needs-translation">Не може рухатися або виконувати будь-які дії.</target>
       </segment>
     </unit>
     <unit id="::Incapacitated" name="::Incapacitated">
@@ -250,7 +252,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Cannot move or perform any actions, but any damage taken will remove the effect.</source>
-        <target state="new" />
+        <target state="needs-translation">Не може рухатися або виконувати будь-які дії, але будь-яка отримана шкода зніме ефект.</target>
       </segment>
     </unit>
     <unit id="::CerebralTrauma-Old" name="::CerebralTrauma-Old">
@@ -260,7 +262,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Intelligence decreased by {0} and psi regeneration rate decreased by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Інтелект зменшено на {0}, а швидкість регенерації пси зменшено на {1}%.</target>
       </segment>
     </unit>
     <unit id="::CerebralTrauma-OldAsWell" name="::CerebralTrauma-OldAsWell">
@@ -270,7 +272,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Intelligence decreased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Інтелект зменшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::CerebralTrauma" name="::CerebralTrauma">
@@ -280,7 +282,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>All psi point gains reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Усі прибутки очок пси зменшені на {0}%.</target>
       </segment>
     </unit>
     <unit id="::MentalSubversion" name="::MentalSubversion">
@@ -290,7 +292,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Resolve reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Рішучість зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::KneeWound1" name="::KneeWound1">
@@ -300,7 +302,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>The character suffers {0} bleeding damage every turn and gains no movement points.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж отримує {0} шкоди від кровотечі щоразу та не отримує очок руху.</target>
       </segment>
     </unit>
     <unit id="::KneeWound2" name="::KneeWound2">
@@ -310,7 +312,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character gains no movement points.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж не отримує очок руху.</target>
       </segment>
     </unit>
     <unit id="::KneeWound1-SlowImmune" name="::KneeWound1-SlowImmune">
@@ -320,7 +322,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>The character suffers {0} bleeding damage every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж отримує {0} шкоди від кровотечі щоразу.</target>
       </segment>
     </unit>
     <unit id="::KneeWound2-SlowImmune" name="::KneeWound2-SlowImmune">
@@ -330,7 +332,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character is immune to slow.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж несприйнятливий до уповільнення.</target>
       </segment>
     </unit>
     <unit id="::KneeWound1-Old" name="::KneeWound1-Old">
@@ -340,7 +342,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>The character suffers {0} bleeding damage every second and movement speed is reduced by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж отримує {0} шкоди від кровотечі кожну секунду, а швидкість руху зменшена на {1}%.</target>
       </segment>
     </unit>
     <unit id="::KneeWound2-Old" name="::KneeWound2-Old">
@@ -350,7 +352,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Movement speed reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидкість руху зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::Hypothermia" name="::Hypothermia">
@@ -360,7 +362,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Constitution decreased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Конституція зменшена на {0}.</target>
       </segment>
     </unit>
     <unit id="::NetEntanglement" name="::NetEntanglement">
@@ -370,7 +372,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Cannot move.</source>
-        <target state="new" />
+        <target state="needs-translation">Не може рухатися.</target>
       </segment>
     </unit>
     <unit id="::StoneBolasEntanglement" name="::StoneBolasEntanglement">
@@ -380,7 +382,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Cannot move.</source>
-        <target state="new" />
+        <target state="needs-translation">Не може рухатися.</target>
       </segment>
     </unit>
     <unit id="::Webbed" name="::Webbed">
@@ -390,7 +392,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Cannot move.</source>
-        <target state="new" />
+        <target state="needs-translation">Не може рухатися.</target>
       </segment>
     </unit>
     <unit id="::thermodynamicity_heat-Old" name="::thermodynamicity_heat-Old">
@@ -400,7 +402,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Cost of the next heat based psi ability reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вартість наступної пси-здатності, заснованої на теплі, зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::thermodynamicity_cold-Old" name="::thermodynamicity_cold-Old">
@@ -410,7 +412,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Cost of the next cold based psi ability reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вартість наступної пси-здатності, заснованої на холоді, зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::thermodynamicity_heat" name="::thermodynamicity_heat">
@@ -420,7 +422,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Action point cost of the next heat based psi ability reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вартість наступної пси-здатності, заснованої на теплі, в пунктах дії зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::thermodynamicity_cold" name="::thermodynamicity_cold">
@@ -430,7 +432,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Action point cost of the next cold based psi ability reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вартість наступної пси-здатності, заснованої на холоді, в пунктах дії зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::PackHunting-Old" name="::PackHunting-Old">
@@ -440,7 +442,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This creature is a pack hunter. Its damage is increased against targets that are surrounded by more of its pack. Damage against the current target is increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця істота – зграйний мисливець. Її шкода збільшується проти цілей, оточених більшою кількістю її зграї. Шкода по поточній цілі збільшується на {0}%.</target>
       </segment>
     </unit>
     <unit id="::PackHunting" name="::PackHunting">
@@ -450,7 +452,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This creature is a pack hunter. Its damage and attack skill are increased against targets that are surrounded by more of its pack. Damage against the current target is increased by {0}% and attack skill is increased by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця істота – зграйний мисливець. Її шкода та навичка атаки збільшуються проти цілей, оточених більшою кількістю її зграї. Шкода по поточній цілі збільшується на {0}%, а навичка атаки збільшується на {1}.</target>
       </segment>
     </unit>
     <unit id="::BleedingWound" name="::BleedingWound">
@@ -460,7 +462,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Bleeding for {0} damage every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Кровотеча завдає {0} одиниць шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::ContaminatedWound" name="::ContaminatedWound">
@@ -470,7 +472,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Suffers {0} bio damage every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Завдає {0} біологічної шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::Fear" name="::Fear">
@@ -480,7 +482,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Overwhelming fear prevents this character from acting rationally.</source>
-        <target state="new" />
+        <target state="needs-translation">Придушення страхом не дозволяє цьому персонажу діяти раціонально.</target>
       </segment>
     </unit>
     <unit id="::Rage" name="::Rage">
@@ -490,7 +492,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character is raging and may attack anyone.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж у люті і може атакувати будь-кого.</target>
       </segment>
     </unit>
     <unit id="::Aphobia" name="::Aphobia">
@@ -500,7 +502,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Short term immunity to all fear effects.</source>
-        <target state="new" />
+        <target state="needs-translation">Короткочасний імунітет до всіх ефектів страху.</target>
       </segment>
     </unit>
     <unit id="::SecondWind" name="::SecondWind">
@@ -510,7 +512,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Short term immunity to stun effects.</source>
-        <target state="new" />
+        <target state="needs-translation">Короткочасний імунітет до ефектів оглушення.</target>
       </segment>
     </unit>
     <unit id="::SafeMode" name="::SafeMode">
@@ -520,7 +522,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Short term immunity to all disabling effects.</source>
-        <target state="new" />
+        <target state="needs-translation">Короткочасний імунітет до всіх ефектів, що виводять з ладу.</target>
       </segment>
     </unit>
     <unit id="::Burning" name="::Burning">
@@ -530,7 +532,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character is burning for {0} damage each turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж горить, отримуючи {0} одиниць шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::BurningWithFear" name="::BurningWithFear">
@@ -540,7 +542,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character is burning for {0} damage each turn, while running around in panic.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж горить, отримуючи {0} одиниць шкоди щоразу, бігаючи в паніці.</target>
       </segment>
     </unit>
     <unit id="::Poison" name="::Poison">
@@ -550,7 +552,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character is afflicted by {0}, suffering {1} bio damage every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж уражений {0}, отримуючи {1} одиниць біологічної шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::CaveEarPoison" name="::CaveEarPoison">
@@ -560,7 +562,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character is afflicted by cave ear poison. All biological damage received increased by {0}% and perception reduced by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж уражений отрутою печерного вуха. Вся отримана біологічна шкода збільшується на {0}%, а сприйняття зменшується на {1}.</target>
       </segment>
     </unit>
     <unit id="::CrawlerPoison" name="::CrawlerPoison">
@@ -570,7 +572,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character is afflicted by crawler poison, suffering {0} bio damage every turn. If the poison is not removed before it expires it will stun the victim for up to {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж уражений отрутою повзучого, отримуючи {0} одиниць біологічної шкоди щоразу. Якщо отруту не видалити до закінчення терміну дії, вона може оглушити жертву на термін до {1}.</target>
       </segment>
     </unit>
     <unit id="::SpiritPoison" name="::SpiritPoison">
@@ -580,7 +582,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This character is afflicted by spirit poison, suffering {0} bio damage every turn and having its resolve reduced by {1}%. If the poison is not removed before it expires it will summon a psionic doppelganger of the victim if it's human.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж уражений духовною отрутою, отримуючи {0} одиниць біологічної шкоди щоразу та втрачаючи {1}% рішучості. Якщо отруту не видалити до закінчення терміну дії, вона призове псионічного двійника жертви, якщо вона людина.</target>
       </segment>
     </unit>
     <unit id="::ShortCircuited" name="::ShortCircuited">
@@ -590,7 +592,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>This machine is temporarily disabled and cannot perform any functions.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця машина тимчасово виведена з ладу і не може виконувати жодних функцій.</target>
       </segment>
     </unit>
     <unit id="::PersonalCloaking" name="::PersonalCloaking">
@@ -600,7 +602,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>Stealth increased by {0} and evasion increased by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Схожість збільшена на {0}, а ухилення збільшено на {1}.</target>
       </segment>
     </unit>
     <unit id="::Nightvision" name="::Nightvision">
@@ -610,7 +612,7 @@ While in combat their movement points are reduced to {1} and they can receive no
       </mda:metadata>
       <segment state="translated">
         <source>You can see in the dark.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви бачите в темряві.</target>
       </segment>
     </unit>
     <unit id="::LocusOfControl" name="::LocusOfControl">
@@ -622,7 +624,9 @@ While in combat their movement points are reduced to {1} and they can receive no
         <source>Immune to stun, fear, incapacitation, and mind control.
 
 Next thought control psi ability the character invokes will have an area of effect, but will end the effect.</source>
-        <target state="new" />
+        <target state="needs-translation">Імунітет до оглушення, страху, втрати свідомості та контролю розуму.
+
+Наступна пси-здатність контролю розуму, яку використає персонаж, матиме зону дії, але припинить ефект.</target>
       </segment>
     </unit>
     <unit id="::Premeditation" name="::Premeditation">
@@ -632,7 +636,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Character's next psi ability will cost {0}% less psi points, {1}% less action points and will have its range increased by {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Наступна пси-здатність персонажа коштуватиме на {0}% менше пси-очок, на {1}% менше пунктів дії та матиме збільшену дальність на {2}.</target>
       </segment>
     </unit>
     <unit id="::PsionicMania" name="::PsionicMania">
@@ -642,7 +646,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Character's next offensive psi ability will be an automatic critical hit.</source>
-        <target state="new" />
+        <target state="needs-translation">Наступна атакуюча пси-здатність персонажа буде автоматичним критичним ударом.</target>
       </segment>
     </unit>
     <unit id="::psionicSynergy" name="::psionicSynergy">
@@ -652,7 +656,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Proximity of other psionically active Azuridae beetles increases this creature's psi skill levels by {0} and also allows it to invoke more powerful psi abilities.</source>
-        <target state="new" />
+        <target state="needs-translation">Близькість інших псионічно активних жуків Азурід збільшує рівні пси-навичок цієї істоти на {0} і також дозволяє їй використовувати потужніші пси-здатності.</target>
       </segment>
     </unit>
     <unit id="::SpecialTactics" name="::SpecialTactics">
@@ -662,7 +666,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Character's next special bolt attack will cost no action points.</source>
-        <target state="new" />
+        <target state="needs-translation">Наступна спеціальна атака болтом персонажа не коштуватиме пунктів дії.</target>
       </segment>
     </unit>
     <unit id="::Food_rathoundBarbeque" name="::Food_rathoundBarbeque">
@@ -672,7 +676,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by 1.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на 1.</target>
       </segment>
     </unit>
     <unit id="::Food_burrowerBurger" name="::Food_burrowerBurger">
@@ -682,7 +686,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Constitution increased by 1.</source>
-        <target state="new" />
+        <target state="needs-translation">Конституція збільшена на 1.</target>
       </segment>
     </unit>
     <unit id="::Food_caveHopperSteak" name="::Food_caveHopperSteak">
@@ -692,7 +696,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Agility increased by 1.</source>
-        <target state="new" />
+        <target state="needs-translation">Спритність збільшена на 1.</target>
       </segment>
     </unit>
     <unit id="::Food_eelSandwich" name="::Food_eelSandwich">
@@ -702,7 +706,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Dexterity increased by 1.</source>
-        <target state="new" />
+        <target state="needs-translation">Вправність збільшена на 1.</target>
       </segment>
     </unit>
     <unit id="::Food_mushroomBrew" name="::Food_mushroomBrew">
@@ -712,7 +716,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by 1 and all mechanical damage taken reduced by 10%. Perception and dexterity reduced by 2. All psionic skills reduced by 20 and psi regeneration reduced by 30.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на 1, а вся отримана механічна шкода зменшена на 10%. Сприйняття та вправність зменшені на 2. Всі псионічні навички зменшені на 20, а регенерація пси зменшена на 30.</target>
       </segment>
     </unit>
     <unit id="::Food_coffee" name="::Food_coffee">
@@ -722,7 +726,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Movement points increased by 5 and psi cost of all psi abilities reduced by 10%, but psi regeneration also reduced by 3.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість рухових пунктів збільшена на 5, а вартість всіх пси-здатностей в пси-очках зменшена на 10%, але регенерація пси також зменшена на 3.</target>
       </segment>
     </unit>
     <unit id="::Food_baconCheeseSandwich" name="::Food_baconCheeseSandwich">
@@ -732,7 +736,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Maximum health increased by 20.</source>
-        <target state="new" />
+        <target state="needs-translation">Максимальне здоров'я збільшено на 20.</target>
       </segment>
     </unit>
     <unit id="::Food_cannedFish" name="::Food_cannedFish">
@@ -742,7 +746,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Cold damage taken reduced by 15%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від холоду зменшена на 15%.</target>
       </segment>
     </unit>
     <unit id="::Food_cannedMeat" name="::Food_cannedMeat">
@@ -752,7 +756,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Mechanical damage taken reduced by 5%.</source>
-        <target state="new" />
+        <target state="needs-translation">Механічна шкода зменшена на 5%.</target>
       </segment>
     </unit>
     <unit id="::Food_cannedMushrooms" name="::Food_cannedMushrooms">
@@ -762,7 +766,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Bio damage taken reduced by 15%.</source>
-        <target state="new" />
+        <target state="needs-translation">Біологічна шкода зменшена на 15%.</target>
       </segment>
     </unit>
     <unit id="::Food_cannedStew" name="::Food_cannedStew">
@@ -772,7 +776,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Heat damage taken reduced by 8%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від тепла зменшена на 8%.</target>
       </segment>
     </unit>
     <unit id="::Food_cookedBurrowerEgg" name="::Food_cookedBurrowerEgg">
@@ -782,7 +786,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Poison damage taken reduced by 35%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від отрути зменшена на 35%.</target>
       </segment>
     </unit>
     <unit id="::Food_coreChips" name="::Food_coreChips">
@@ -792,7 +796,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Weapon critical hit chance increased by 2%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс критичного удару зброєю збільшено на 2%.</target>
       </segment>
     </unit>
     <unit id="::Food_hardcoreChips" name="::Food_hardcoreChips">
@@ -802,7 +806,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Weapon critical hit chance increased by 5%, but chance to get critically hit by weapons increased by 2%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс критичного удару зброєю збільшено на 5%, але шанс отримати критичний удар зброєю збільшено на 2%.</target>
       </segment>
     </unit>
     <unit id="::Food_friedSiphonerTongue" name="::Food_friedSiphonerTongue">
@@ -812,7 +816,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Healing effectiveness increased by 15%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ефективність лікування збільшена на 15%.</target>
       </segment>
     </unit>
     <unit id="::Food_mushroomSalad" name="::Food_mushroomSalad">
@@ -822,7 +826,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Perception increased by 1.</source>
-        <target state="new" />
+        <target state="needs-translation">Сприйняття збільшено на 1.</target>
       </segment>
     </unit>
     <unit id="::Food_pentapusBarbecue" name="::Food_pentapusBarbecue">
@@ -832,7 +836,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Carry capacity increased by 25.</source>
-        <target state="new" />
+        <target state="needs-translation">Вантажопідйомність збільшена на 25.</target>
       </segment>
     </unit>
     <unit id="::Food_pickledMindshrooms" name="::Food_pickledMindshrooms">
@@ -842,7 +846,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Psionic critical damage bonus increased by 40%.</source>
-        <target state="new" />
+        <target state="needs-translation">Бонус пси-шкоди від пси-критичного удару збільшено на 40%.</target>
       </segment>
     </unit>
     <unit id="::Food_psiBeetleBrainSoup" name="::Food_psiBeetleBrainSoup">
@@ -852,7 +856,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Psi ability psi cost decreased by 15%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вартість пси-здатності в пси-очках зменшена на 15%.</target>
       </segment>
     </unit>
     <unit id="::Food_rootSoda" name="::Food_rootSoda">
@@ -862,7 +866,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Initiative increased by 5.</source>
-        <target state="new" />
+        <target state="needs-translation">Ініціатива збільшена на 5.</target>
       </segment>
     </unit>
     <unit id="::Food_stuffedBat" name="::Food_stuffedBat">
@@ -872,7 +876,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Detection increased by 15%.</source>
-        <target state="new" />
+        <target state="needs-translation">Виявлення збільшено на 15%.</target>
       </segment>
     </unit>
     <unit id="::Food_underPie" name="::Food_underPie">
@@ -882,7 +886,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All skills increased by 3.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі навички збільшені на 3.</target>
       </segment>
     </unit>
     <unit id="::Food_cannedCzernina" name="::Food_cannedCzernina">
@@ -892,7 +896,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Heat damage taken reduced by 15%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від тепла зменшена на 15%.</target>
       </segment>
     </unit>
     <unit id="::Food_crabSandwich" name="::Food_crabSandwich">
@@ -902,7 +906,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Global mechanical threshold increased by 15%.</source>
-        <target state="new" />
+        <target state="needs-translation">Глобальний механічний поріг збільшено на 15%.</target>
       </segment>
     </unit>
     <unit id="::Food_kzozel" name="::Food_kzozel">
@@ -912,7 +916,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Dodge increased by 50 and all mechanical damage taken reduced by 10%. Perception reduced by 2. All psionic skills reduced by 20 and psi regeneration reduced by 30.</source>
-        <target state="new" />
+        <target state="needs-translation">Ухилення збільшено на 50, а вся отримана механічна шкода зменшена на 10%. Сприйняття зменшено на 2. Всі псионічні навички зменшені на 20, а регенерація пси зменшена на 30.</target>
       </segment>
     </unit>
     <unit id="::Food_kzozelYantar" name="::Food_kzozelYantar">
@@ -922,7 +926,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Dodge increased by 70 and all mechanical damage taken reduced by 15%. Perception reduced by 3. All psionic skills reduced by 40 and psi regeneration reduced by 30.</source>
-        <target state="new" />
+        <target state="needs-translation">Ухилення збільшено на 70, а вся отримана механічна шкода зменшена на 15%. Сприйняття зменшено на 3. Всі псионічні навички зменшені на 40, а регенерація пси зменшена на 30.</target>
       </segment>
     </unit>
     <unit id="::Food_mutieStew" name="::Food_mutieStew">
@@ -932,7 +936,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Acid damage taken reduced by 35%, but health reduced by 20 and healing effectiveness decreased by 35%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від кислоти зменшена на 35%, але здоров'я зменшено на 20, а ефективність лікування зменшена на 35%.</target>
       </segment>
     </unit>
     <unit id="::Food_SeaSerpentFillet" name="::Food_SeaSerpentFillet">
@@ -942,7 +946,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Poison damage taken reduced by 20% and evasion increased by 30.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від отрути зменшена на 20%, а ухилення збільшено на 30.</target>
       </segment>
     </unit>
     <unit id="::Food_butterySteamedClams" name="::Food_butterySteamedClams">
@@ -952,7 +956,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Maximum health points increased by 40.</source>
-        <target state="new" />
+        <target state="needs-translation">Максимальна кількість очок здоров'я збільшена на 40.</target>
       </segment>
     </unit>
     <unit id="::Food_bisonMilk" name="::Food_bisonMilk">
@@ -962,7 +966,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by 1 and critical damage bonus of melee weapons and unarmed attacks increased by 25%.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на 1, а бонус до шкоди від ближнього бою та беззбройних атак збільшено на 25%.</target>
       </segment>
     </unit>
     <unit id="::Food_mysteryCandy" name="::Food_mysteryCandy">
@@ -972,7 +976,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Critical chance with weapon, unarmed, and psi attacks increased by 5%, but will reduced by 1 and resolve reduced by 100.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс критичного удару зброєю, беззбройними атаками та пси-атаками збільшено на 5%, але сила зменшена на 1, а рішучість зменшена на 100.</target>
       </segment>
     </unit>
     <unit id="::Food_iceOfSpades" name="::Food_iceOfSpades">
@@ -982,7 +986,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Metathermics increased by 20 but movement points reduced by 10.</source>
-        <target state="new" />
+        <target state="needs-translation">Метатерміка збільшена на 20, але кількість рухових пунктів зменшена на 10.</target>
       </segment>
     </unit>
     <unit id="::Food_allIn" name="::Food_allIn">
@@ -992,7 +996,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All base abilities increased by 3. Chance to get critically hit with weapons, unarmed attacks and psi abilities increased by 100% (additively).</source>
-        <target state="new" />
+        <target state="needs-translation">Всі базові здібності збільшені на 3. Шанс отримати критичний удар зброєю, беззбройними атаками та пси-здатностями збільшено на 100% (адитивно).</target>
       </segment>
     </unit>
     <unit id="::Food_boolean" name="::Food_boolean">
@@ -1002,7 +1006,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All base abilities decreased by 3. All psionic skills reduced by 20 and psi regeneration reduced by 30.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі базові здібності зменшені на 3. Всі псионічні навички зменшені на 20, а регенерація пси зменшена на 30.</target>
       </segment>
     </unit>
     <unit id="::Food_stalagDrop" name="::Food_stalagDrop">
@@ -1012,7 +1016,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by 1 and all mechanical damage taken reduced by 10%. Perception and dexterity reduced by 1. All psionic skills reduced by 10 and psi regeneration reduced by 15.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на 1, а вся отримана механічна шкода зменшена на 10%. Сприйняття та вправність зменшені на 1. Всі псионічні навички зменшені на 10, а регенерація пси зменшена на 15.</target>
       </segment>
     </unit>
     <unit id="::Food_caveTear" name="::Food_caveTear">
@@ -1022,7 +1026,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by 2 and all mechanical damage taken reduced by 20%. Perception and dexterity reduced by 3. All psionic skills reduced by 30 and psi regeneration reduced by 40.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на 2, а вся отримана механічна шкода зменшена на 20%. Сприйняття та вправність зменшені на 3. Всі псионічні навички зменшені на 30, а регенерація пси зменшена на 40.</target>
       </segment>
     </unit>
     <unit id="::Food_cleanDeal" name="::Food_cleanDeal">
@@ -1032,7 +1036,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Thought control increased by 20, but perception reduced by 1 and resolve reduced by 30.</source>
-        <target state="new" />
+        <target state="needs-translation">Контроль розуму збільшено на 20, але сприйняття зменшено на 1, а рішучість зменшена на 30.</target>
       </segment>
     </unit>
     <unit id="::Food_sleightOfTheNight" name="::Food_sleightOfTheNight">
@@ -1042,7 +1046,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Pickpocketing increased by 15.</source>
-        <target state="new" />
+        <target state="needs-translation">Кішенькове злодійство збільшено на 15.</target>
       </segment>
     </unit>
     <unit id="::Food_slampipe" name="::Food_slampipe">
@@ -1052,7 +1056,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by 1 and character does 15% bonus damage with blunt melee weapons, fist weapons and unarmed attacks. Agility reduced by 1. </source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на 1, а персонаж завдає на 15% більше шкоди тупими видами зброї ближнього бою, кулаками та беззбройними атаками. Спритність зменшена на 1.</target>
       </segment>
     </unit>
     <unit id="::Food_outwork" name="::Food_outwork">
@@ -1062,7 +1066,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Carry capacity increased by 30.</source>
-        <target state="new" />
+        <target state="needs-translation">Несуча здатність збільшена на 30.</target>
       </segment>
     </unit>
     <unit id="::Food_jetdrag" name="::Food_jetdrag">
@@ -1072,7 +1076,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Stability on jet skis increased by 10%, but action points reduced by 5.</source>
-        <target state="new" />
+        <target state="needs-translation">Стабільність на гідроциклах збільшена на 10%, але кількість одиниць дії зменшена на 5.</target>
       </segment>
     </unit>
     <unit id="::Food_laylow" name="::Food_laylow">
@@ -1082,7 +1086,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Evasion increased by 15% and stealth increased by 20. Also all bio damage received reduced by 10%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ухилення збільшено на 15%, а скритність на 20. Також всі біологічні ушкодження, що отримуються, зменшено на 10%.</target>
       </segment>
     </unit>
     <unit id="::Food_mindshroomMartini" name="::Food_mindshroomMartini">
@@ -1092,7 +1096,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Maximum psi points increased by 10.</source>
-        <target state="new" />
+        <target state="needs-translation">Максимальна кількість пси-очок збільшена на 10.</target>
       </segment>
     </unit>
     <unit id="::Food_whiteDude" name="::Food_whiteDude">
@@ -1102,7 +1106,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Agility increased by 3, persuasion increased by 15, but dexterity and perception reduced by 2 and psi point regeneration reduced by 30.</source>
-        <target state="new" />
+        <target state="needs-translation">Спритність збільшена на 3, переконання збільшено на 15, але вправність і сприйняття зменшені на 2, а відновлення пси-очок зменшено на 30.</target>
       </segment>
     </unit>
     <unit id="::Food_slackjaw" name="::Food_slackjaw">
@@ -1112,7 +1116,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength and constitution increased by 1 and intimidation increased by 15, but intelligence reduced by 3 and will reduced by 1.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила та витривалість збільшені на 1, а залякування збільшене на 15, але інтелект зменшено на 3, а воля на 1.</target>
       </segment>
     </unit>
     <unit id="::Food_absence" name="::Food_absence">
@@ -1122,7 +1126,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Detection increased by 23.3%, chance to get crit with weapons, unarmed attacks and psi abilities reduced by 16.6%. To balance the transcendental scales this character has 16.6% increased critical chance with psi abilities and 33.3% increased psi cost. They can also fInAl1y PerC3ive the rE4lity as It TRUEly isŝş...</source>
-        <target state="new" />
+        <target state="needs-translation">Виявлення збільшено на 23.3%, шанс критичного удару зброєю, беззбройним боєм та пси-здібностями зменшено на 16.6%. Щоб збалансувати трансцендентні ваги, цей персонаж має збільшений шанс критичного удару пси-здібностями на 16.6% та збільшену вартість пси-очок на 33.3%. Вони також можуть нарешті сприймати реальність такою, якою вона є насправді...</target>
       </segment>
     </unit>
     <unit id="::Food_bloodyOligarch" name="::Food_bloodyOligarch">
@@ -1132,7 +1136,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Health increased by 30, but reslove reduced by the same amount. Its disgusting taste will linger in your mouth for hours.</source>
-        <target state="new" />
+        <target state="needs-translation">Здоров'я збільшено на 30, але розсудливість зменшена на ту ж суму. Його огидний смак ще довго залишатиметься у вашій ротовій порожнині.</target>
       </segment>
     </unit>
     <unit id="::Food_scrapperac" name="::Food_scrapperac">
@@ -1142,7 +1146,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character does 15% bonus damage with melee weapons and unarmed attacks and also has a small chance to daze the target, themselves, or both on each such attack.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж завдає 15% додаткової шкоди холодною зброєю та беззбройним боєм, а також має невеликий шанс дезорієнтувати ціль, себе або обох при кожній такій атаці.</target>
       </segment>
     </unit>
     <unit id="::Food_jonSpecial" name="::Food_jonSpecial">
@@ -1152,7 +1156,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All skills increased by 5.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі навички збільшені на 5.</target>
       </segment>
     </unit>
     <unit id="::StrangeFeeling" name="::StrangeFeeling">
@@ -1162,7 +1166,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>You feel the darkness clasp around you and an ominous presence in the back of your mind.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви відчуваєте, як темрява стискає вас, і зловісну присутність у глибині вашого розуму.</target>
       </segment>
     </unit>
     <unit id="::PsionicApparition" name="::PsionicApparition">
@@ -1172,7 +1176,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Immune to all physical attacks.</source>
-        <target state="new" />
+        <target state="needs-translation">Несприйнятливий до всіх фізичних атак.</target>
       </segment>
     </unit>
     <unit id="::OffBalance" name="::OffBalance">
@@ -1182,7 +1186,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Dodge and evasion reduced to zero.</source>
-        <target state="new" />
+        <target state="needs-translation">Ухилення та скритність зменшені до нуля.</target>
       </segment>
     </unit>
     <unit id="::IceRemnant" name="::IceRemnant">
@@ -1192,7 +1196,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Cold apparition. Immune to all damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Холодна примара. Несприйнятливий до будь-якої шкоди.</target>
       </segment>
     </unit>
     <unit id="::Intimidated" name="::Intimidated">
@@ -1202,7 +1206,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All offensive skills reduced by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі наступальні навички зменшені на {0}.</target>
       </segment>
     </unit>
     <unit id="::CreepingDread" name="::CreepingDread">
@@ -1212,7 +1216,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>You feel a deep primordial fear creeping in the back of your head. All offensive, defensive and psionic skills reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви відчуваєте глибокий первісний страх, що закрадається у глибину вашої голови. Всі наступальні, оборонні та псионічні навички зменшені на {0}%.</target>
       </segment>
     </unit>
     <unit id="::SporeInfection" name="::SporeInfection">
@@ -1222,7 +1226,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>You're getting dizzy. Health reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вас нудить. Здоров'я зменшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::EyeOfTchort" name="::EyeOfTchort">
@@ -1232,7 +1236,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>The eye of Tchort is upon you, nearly paralyzing you with fear. All offensive, defensive and psionic skills reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Око Чорта на вас, майже паралізуючи страхом. Всі наступальні, оборонні та псионічні навички зменшені на {0}%.</target>
       </segment>
     </unit>
     <unit id="::Crippled" name="::Crippled">
@@ -1242,7 +1246,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength decreased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила зменшена на {0}.</target>
       </segment>
     </unit>
     <unit id="::Tackled" name="::Tackled">
@@ -1252,7 +1256,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Movement points decreased by {0}, action points decreased by {1} and chance to hit with all ranged weapons decreased by {2}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок руху зменшена на {0}, кількість одиниць дії зменшена на {1}, а шанс влучити з будь-якої вогнепальної зброї зменшено на {2}%.</target>
       </segment>
     </unit>
     <unit id="::MorphineHypo" name="::MorphineHypo">
@@ -1262,7 +1266,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All damage taken reduced by {0}%. After the effect expires the character will take damage equal to {1}% of their missing health.</source>
-        <target state="new" />
+        <target state="needs-translation">Вся отримана шкода зменшена на {0}%. Після закінчення дії персонаж отримає шкоду, рівну {1}% від його відсутнього здоров'я.</target>
       </segment>
     </unit>
     <unit id="::Nervosomnifer" name="::Nervosomnifer">
@@ -1272,7 +1276,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All damage taken reduced by {0}%. After the effect expires the character will take damage equal to {1}% of their missing health.</source>
-        <target state="new" />
+        <target state="needs-translation">Вся отримана шкода зменшена на {0}%. Після закінчення дії персонаж отримає шкоду, рівну {1}% від його відсутнього здоров'я.</target>
       </segment>
     </unit>
     <unit id="::Anticoagulation" name="::Anticoagulation">
@@ -1282,7 +1286,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Prolongs all bleeding effects and increases effectiveness of blood draining attacks by {0}%. Also, all healing effects are reduced by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Подовжує всі ефекти кровотечі та збільшує ефективність атак, що висмоктують кров, на {0}%. Також всі ефекти лікування зменшені на {1}%.</target>
       </segment>
     </unit>
     <unit id="::AnticoagulationItemEffect_Cap" name="::AnticoagulationItemEffect_Cap">
@@ -1292,7 +1296,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Applies anticoagulant to a suitable melee weapon that prolongs all bleeding effects and increases effectiveness of blood draining attacks by {0}% for {2}. Also, all healing effects are reduced by {1}%. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить антикоагулянт на відповідну холодну зброю, що подовжує всі ефекти кровотечі та збільшує ефективність атак, що висмоктують кров, на {0}% протягом {2}. Також всі ефекти лікування зменшені на {1}%. Накопичується {3} рази.</target>
       </segment>
     </unit>
     <unit id="::AnticoagulationItemEffect_Applied" name="::AnticoagulationItemEffect_Applied">
@@ -1302,7 +1306,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, anticoagulant is applied that prolongs all bleeding effects and increases effectiveness of blood draining attacks by {0}% for {2}. Also, all healing effects are reduced by {1}%. Stacks {3} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака пробиває броню, наноситься антикоагулянт, що подовжує всі ефекти кровотечі та збільшує ефективність атак, що висмоктують кров, на {0}% протягом {2}. Також всі ефекти лікування зменшені на {1}%. Накопичується {3} рази.</target>
       </segment>
     </unit>
     <unit id="::BrokenRib" name="::BrokenRib">
@@ -1312,7 +1316,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>The character takes additional {0}% mechanical damage from all sources.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж отримує додаткову {0}% механічної шкоди від усіх джерел.</target>
       </segment>
     </unit>
     <unit id="::UncannyDodge-Old" name="::UncannyDodge-Old">
@@ -1322,7 +1326,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character will dodge the next regular or special melee attack.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж ухилиться від наступної звичайної або спеціальної атаки холодною зброєю.</target>
       </segment>
     </unit>
     <unit id="::UncannyDodge" name="::UncannyDodge">
@@ -1332,7 +1336,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character will dodge a regular or special melee attack for each stack of this effect.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж ухилиться від звичайної або спеціальної атаки холодною зброєю за кожен стек цього ефекту.</target>
       </segment>
     </unit>
     <unit id="::UncannyEvasion" name="::UncannyEvasion">
@@ -1342,7 +1346,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character will evade a regular or special ranged weapon attack for each stack of this effect.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж ухилиться від звичайної або спеціальної атаки вогнепальною зброєю за кожен стек цього ефекту.</target>
       </segment>
     </unit>
     <unit id="::EvasiveManeuvers" name="::EvasiveManeuvers">
@@ -1352,7 +1356,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Evasion increased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Ухилення збільшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::MentalBreakdown" name="::MentalBreakdown">
@@ -1362,7 +1366,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character is incapacitated and suffering {0}% reduced resolve. If a detrimental thought control psi ability is invoked against them it will have double the effect, but will end the mental breakdown.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж знерухомлений і страждає від зменшення розсудливості на {0}%. Якщо проти нього буде застосована шкідлива пси-здібність контролю розуму, її ефект буде подвоєний, але це припинить ментальний зрив.</target>
       </segment>
     </unit>
     <unit id="::Trapped" name="::Trapped">
@@ -1372,7 +1376,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character is rooted in place by a trap.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж прикутий до місця пасткою.</target>
       </segment>
     </unit>
     <unit id="::Compass" name="::Compass">
@@ -1382,7 +1386,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character can tell which way north is.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж може сказати, в якому напрямку знаходиться північ.</target>
       </segment>
     </unit>
     <unit id="::Infusion_Reflexes" name="::Infusion_Reflexes">
@@ -1392,7 +1396,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Dodge and evasion increased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Ухилення та скритність збільшені на {0}.</target>
       </segment>
     </unit>
     <unit id="::Infusion_Strength" name="::Infusion_Strength">
@@ -1402,7 +1406,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на {0}.</target>
       </segment>
     </unit>
     <unit id="::Infusion_Speed" name="::Infusion_Speed">
@@ -1412,7 +1416,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Movement points increased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість очок руху збільшена на {0}.</target>
       </segment>
     </unit>
     <unit id="::Infusion_Focus" name="::Infusion_Focus">
@@ -1422,7 +1426,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All psionic skills increased by {0}</source>
-        <target state="new" />
+        <target state="needs-translation">Всі псионічні навички збільшені на {0}.</target>
       </segment>
     </unit>
     <unit id="::InfectedWound" name="::InfectedWound">
@@ -1432,7 +1436,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All damage taken increased by {0}%. Healing effectiveness reduced by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вся отримана шкода збільшена на {0}%. Ефективність лікування зменшена на {1}%.</target>
       </segment>
     </unit>
     <unit id="::ExposedWeakness" name="::ExposedWeakness">
@@ -1442,7 +1446,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Mechanical damage resistance and threshold reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Механічна стійкість та поріг зменшені на {0}%.</target>
       </segment>
     </unit>
     <unit id="::BlastedArmor" name="::BlastedArmor">
@@ -1452,7 +1456,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Mechanical and heat damage resistance and threshold reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Стійкість та поріг до механічної та термічної шкоди зменшені на {0}%.</target>
       </segment>
     </unit>
     <unit id="::Suppressed" name="::Suppressed">
@@ -1462,7 +1466,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Ranged chance to hit reduced by {0}%, action points reduced by {1} and movement points reduced by {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс влучити з вогнепальної зброї зменшено на {0}%, кількість одиниць дії зменшена на {1}, а кількість очок руху зменшена на {2}.</target>
       </segment>
     </unit>
     <unit id="::QuickTinkering" name="::QuickTinkering">
@@ -1472,7 +1476,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character will arm the next trap instantly, even in combat in which case it will cost {0} action points.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж миттєво активує наступну пастку, навіть у бою, в такому випадку це коштуватиме {0} одиниць дії.</target>
       </segment>
     </unit>
     <unit id="::TasteForBlood" name="::TasteForBlood">
@@ -1482,7 +1486,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Melee damage increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від холодної зброї збільшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::TasteForBlood2-Old" name="::TasteForBlood2-Old">
@@ -1492,7 +1496,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Melee damage increased by {0}% and action point cost for using melee weapons reduced by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від холодної зброї збільшена на {0}%, а вартість одиниць дії для використання холодної зброї зменшена на {1}.</target>
       </segment>
     </unit>
     <unit id="::Combo" name="::Combo">
@@ -1502,7 +1506,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>If you land three consecutive damage dealing unarmed or fist weapon attacks against a single target in a single turn, the third attack will deal {0}% bonus damage and stun the target for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви завдасте три послідовні удари беззбройним боєм або холодною зброєю по одній цілі за один хід, третій удар завдасть {0}% додаткової шкоди та оглушить ціль на {1}.</target>
       </segment>
     </unit>
     <unit id="::LastStand" name="::LastStand">
@@ -1512,7 +1516,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>After this effect exipres the character's health will be reduced to 1.</source>
-        <target state="new" />
+        <target state="needs-translation">Після закінчення дії здоров'я персонажа буде зменшено до 1.</target>
       </segment>
     </unit>
     <unit id="::ThermodynamicDestabilization" name="::ThermodynamicDestabilization">
@@ -1522,7 +1526,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>If this target is destroyed it will explode, dealing {0} and {1} damage to the surrounding characters.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ця ціль буде знищена, вона вибухне, завдавши {0} та {1} шкоди навколишнім персонажам.</target>
       </segment>
     </unit>
     <unit id="::Irongut" name="::Irongut">
@@ -1532,7 +1536,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All biological damage taken reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вся біологічна шкода, що отримується, зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::PsionicTrance" name="::PsionicTrance">
@@ -1542,7 +1546,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Critical damage bonus of psi abilities increased by {0}%, but psi cost increased by {1}% as well.</source>
-        <target state="new" />
+        <target state="needs-translation">Бонус критичної шкоди пси-здібностей збільшено на {0}%, але вартість пси-очок також збільшена на {1}%.</target>
       </segment>
     </unit>
     <unit id="::PainSuppression" name="::PainSuppression">
@@ -1552,7 +1556,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All damage taken reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вся отримана шкода зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::FocusBoost" name="::FocusBoost">
@@ -1562,7 +1566,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Critical chance with weapons, unarmed combat and psionics increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс критичного удару зброєю, беззбройним боєм та псионікою збільшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::AgilityBoost" name="::AgilityBoost">
@@ -1572,7 +1576,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Dodge and evasion increased by {0}%. Movement points increased by {1} while not in stealth.</source>
-        <target state="new" />
+        <target state="needs-translation">Ухилення та скритність збільшені на {0}%. Кількість очок руху збільшена на {1} у стані, коли не перебуває у скритності.</target>
       </segment>
     </unit>
     <unit id="::HerculeanMight" name="::HerculeanMight">
@@ -1582,7 +1586,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength, dexterity, agility, and constitution increased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила, вправність, спритність та витривалість збільшені на {0}.</target>
       </segment>
     </unit>
     <unit id="::HerculeanWithdrawal" name="::HerculeanWithdrawal">
@@ -1592,7 +1596,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>You feel ill. Strength, dexterity, agility, and constitution decreased by {0}. Action points reduced by {0}. Movement points reduced by {2} and movement speed reduced by {3}%. Taking {1} damage every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви почуваєтеся недобре. Сила, вправність, спритність та витривалість зменшені на {0}. Кількість одиниць дії зменшена на {0}. Кількість очок руху зменшена на {2} та швидкість руху зменшена на {3}%. Отримуєте {1} шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::ZombieMutating" name="::ZombieMutating">
@@ -1602,7 +1606,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>This character is undergoing horrific mutations.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж зазнає жахливих мутацій.</target>
       </segment>
     </unit>
     <unit id="::DreadnoughtPiloting" name="::DreadnoughtPiloting">
@@ -1612,7 +1616,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>You are piloting a dreadnought.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви керуєте дредноутом.</target>
       </segment>
     </unit>
     <unit id="::JetskiPiloting" name="::JetskiPiloting">
@@ -1622,7 +1626,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>You are piloting a jet ski.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви керуєте гідроциклом.</target>
       </segment>
     </unit>
     <unit id="::Dazed" name="::Dazed">
@@ -1632,7 +1636,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Action points reduced by {0} and movement points reduced by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Кількість одиниць дії зменшена на {0}, а кількість очок руху зменшена на {1}.</target>
       </segment>
     </unit>
     <unit id="::Inhibited" name="::Inhibited">
@@ -1642,7 +1646,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Cannot invoke psi abilities or regenerate psi points naturally.</source>
-        <target state="new" />
+        <target state="needs-translation">Не може використовувати пси-здібності або природно відновлювати пси-очки.</target>
       </segment>
     </unit>
     <unit id="::ConcentratedFire" name="::ConcentratedFire">
@@ -1652,7 +1656,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Receives {0}% extra damage from burst attacks.</source>
-        <target state="new" />
+        <target state="needs-translation">Отримує {0}% додаткової шкоди від імпульсних атак.</target>
       </segment>
     </unit>
     <unit id="::GunRush" name="::GunRush">
@@ -1662,7 +1666,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Your next assault rifle or SMG burst attack will cost no action points.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша наступна чергова або скорострільна атака зброєю не коштуватиме одиниць дії.</target>
       </segment>
     </unit>
     <unit id="::Immobilized" name="::Immobilized">
@@ -1672,7 +1676,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Cannot move.</source>
-        <target state="new" />
+        <target state="needs-translation">Не може рухатися.</target>
       </segment>
     </unit>
     <unit id="::Charged" name="::Charged">
@@ -1682,7 +1686,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Next electrical psionic attack will deal additional {0} electrical damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Наступна електрична пси-атака завдасть додаткову {0} електричної шкоди.</target>
       </segment>
     </unit>
     <unit id="::Contaminated" name="::Contaminated">
@@ -1692,7 +1696,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All damage taken increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вся отримана шкода збільшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::WorkbenchSkillBonus" name="::WorkbenchSkillBonus">
@@ -1702,7 +1706,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>{0} increased by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">{0} збільшено на {1}%.</target>
       </segment>
     </unit>
     <unit id="::PseudoSpatialProjection" name="::PseudoSpatialProjection">
@@ -1712,7 +1716,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Unarmed and weapon attacks have a chance to miss this character, instead removing one of the psionic projections.</source>
-        <target state="new" />
+        <target state="needs-translation">Атаки беззбройним боєм та зброєю мають шанс промахнутися по цьому персонажу, замість цього видаляючи одну з псионічних проекцій.</target>
       </segment>
     </unit>
     <unit id="::BlurredVision" name="::BlurredVision">
@@ -1722,7 +1726,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Perception reduced by {0} and detection by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Сприйняття зменшено на {0} та виявлення на {1}%.</target>
       </segment>
     </unit>
     <unit id="::NeurovisualDisruption" name="::NeurovisualDisruption">
@@ -1732,7 +1736,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Cannot detect stealthed characters.</source>
-        <target state="new" />
+        <target state="needs-translation">Не може виявляти персонажів у скритності.</target>
       </segment>
     </unit>
     <unit id="::DisruptiveField" name="::DisruptiveField">
@@ -1742,7 +1746,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Chance to hit with ranged and thrown weapon reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс влучити з вогнепальної та метальної зброї зменшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::ExothermicAura" name="::ExothermicAura">
@@ -1752,7 +1756,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>You are immune to heat damage and generate flames around you and in your wake (except on the last turn).</source>
-        <target state="new" />
+        <target state="needs-translation">Ви несприйнятливі до термічної шкоди та генеруєте полум'я навколо себе та у вашому сліді (за винятком останнього ходу).</target>
       </segment>
     </unit>
     <unit id="::CryoShield" name="::CryoShield">
@@ -1762,7 +1766,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Each time the character suffers a melee attack, there's a {0}% chance that one of the shards will block {1} of mechanical damage and be destroyed in the process.</source>
-        <target state="new" />
+        <target state="needs-translation">При кожній атаці в ближньому бою є {0}% шанс, що один з осколків заблокує {1} механічної шкоди та буде знищений у процесі.</target>
       </segment>
     </unit>
     <unit id="::Bullhead" name="::Bullhead">
@@ -1772,7 +1776,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Immune to stun, daze, and incapacitation.</source>
-        <target state="new" />
+        <target state="needs-translation">Не сприйнятливий до оглушення, запаморочення та знерухомлення.</target>
       </segment>
     </unit>
     <unit id="::Regeneration" name="::Regeneration">
@@ -1782,7 +1786,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Regenerates {0} health each turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} здоров'я кожного ходу.</target>
       </segment>
     </unit>
     <unit id="::PsiRegeneration" name="::PsiRegeneration">
@@ -1792,7 +1796,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Regenerates {0} psi each turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} пси-енергії кожного ходу.</target>
       </segment>
     </unit>
     <unit id="::SupersoldierDrug" name="::SupersoldierDrug">
@@ -1802,7 +1806,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Strength, dexterity, agility, constitution, and perception increased by {0}. All combat skills increased by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила, спритність, вправність, витривалість та увага збільшені на {0}. Усі бойові навички збільшені на {1}%.</target>
       </segment>
     </unit>
     <unit id="::ShieldRecharging" name="::ShieldRecharging">
@@ -1812,7 +1816,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Regains {0} shield each turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} щита кожного ходу.</target>
       </segment>
     </unit>
     <unit id="::Corroded" name="::Corroded">
@@ -1822,7 +1826,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>All damage resistances and thresholds reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Усі показники опору та порогові значення шкоди зменшені на {0}%.</target>
       </segment>
     </unit>
     <unit id="::BlackDragonPoison" name="::BlackDragonPoison">
@@ -1832,7 +1836,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Affected by poison which prevents psi ability invocation and psi points regeneration.</source>
-        <target state="new" />
+        <target state="needs-translation">Уражений отрутою, яка перешкоджає виклику пси-здатностей та відновленню пси-очок.</target>
       </segment>
     </unit>
     <unit id="::PsychostaticElectricity" name="::PsychostaticElectricity">
@@ -1842,7 +1846,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Chance to get critically hit from weapon and unarmed attacks and psi abilities increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшено шанс критичного удару від атак зброєю, беззбройних атак та пси-здатностей на {0}%.</target>
       </segment>
     </unit>
     <unit id="::SecondSight" name="::SecondSight">
@@ -1852,7 +1856,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Perception increased by {0} and the character is granted the gift of second sight.</source>
-        <target state="new" />
+        <target state="needs-translation">Увага збільшена на {0} та персонаж отримує дар прозорливості.</target>
       </segment>
     </unit>
     <unit id="::Hemopsychosis" name="::Hemopsychosis">
@@ -1862,7 +1866,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Your psi abilities cost health instead of psi points.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваші пси-здатності коштують здоров'я замість пси-очок.</target>
       </segment>
     </unit>
     <unit id="::HemopsychosisReduced" name="::HemopsychosisReduced">
@@ -1872,7 +1876,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Your psi abilities cost health instead of psi points, but their cost is reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваші пси-здатності коштують здоров'я замість пси-очок, але їх вартість зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::Blindsiding" name="::Blindsiding">
@@ -1882,7 +1886,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Unarmed and weapon damage increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шкода від беззбройних атак та зброї збільшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::TemporalDistorsion" name="::TemporalDistorsion">
@@ -1892,7 +1896,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>When this effect expires, it will deal {0} and {1} damage to the target. This damage ignores shield and {2}% of damage resistance and threshold.</source>
-        <target state="new" />
+        <target state="needs-translation">Коли цей ефект закінчиться, він завдасть {0} та {1} шкоди цілі. Ця шкода ігнорує щит та {2}% опору та порогового значення шкоди.</target>
       </segment>
     </unit>
     <unit id="::EntropicRecurrence" name="::EntropicRecurrence">
@@ -1902,7 +1906,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>The character suffers {0} damage every turn. This damage ignores shields and resistances.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж отримує {0} шкоди щоразу. Ця шкода ігнорує щити та опір.</target>
       </segment>
     </unit>
     <unit id="::PsychotemporalDilation" name="::PsychotemporalDilation">
@@ -1912,7 +1916,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Action points reduced by {0} and movement points reduced by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Очки дії зменшені на {0} та очки руху зменшені на {1}.</target>
       </segment>
     </unit>
     <unit id="::PsychotemporalContraction" name="::PsychotemporalContraction">
@@ -1922,7 +1926,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Action points increased by {0} and movement points increased by {1}. After the effect ends, there's a {2}% chance of it reversing into a psychotemporal dilation of varying power.</source>
-        <target state="new" />
+        <target state="needs-translation">Очки дії збільшені на {0} та очки руху збільшені на {1}. Після закінчення ефекту є {2}% шанс, що він перетвориться на психохронологічне сповільнення різної сили.</target>
       </segment>
     </unit>
     <unit id="::TemporaryRewind" name="::TemporaryRewind">
@@ -1932,7 +1936,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>After this effect ends, the character will take {0} damage. This damage ignores shields and resistances.</source>
-        <target state="new" />
+        <target state="needs-translation">Після закінчення цього ефекту персонаж отримає {0} шкоди. Ця шкода ігнорує щити та опір.</target>
       </segment>
     </unit>
     <unit id="::Precognition" name="::Precognition">
@@ -1942,7 +1946,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated">
         <source>Chance to dodge and evade attacks increased by {0}% (additively). Drains {1} psi points every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшено шанс ухилення та уникнення атак на {0}% (адитивно). Витрачає {1} пси-очок кожного ходу.</target>
       </segment>
     </unit>
     <unit id="::Stasis" name="::Stasis">
@@ -1954,7 +1958,9 @@ Next thought control psi ability the character invokes will have an area of effe
         <source>Immune to all damage and most disabling effects, but cannot act. The character's status effects do not progress, but the cooldowns do.
 
 Stasis will break if it absorbs {0} more damage, otherwise it will expire at the beginning of the last turn of duration instead of at the end.</source>
-        <target state="new" />
+        <target state="needs-translation">Несприйнятливий до будь-якої шкоди та більшості знерухомлюючих ефектів, але не може діяти. Статусні ефекти персонажа не прогресують, але час перезарядки – так.
+
+Стазис буде знято, якщо він поглине {0} додаткової шкоди, інакше він закінчиться на початку останнього ходу тривалості замість кінця.</target>
       </segment>
     </unit>
     <unit id="::BlindingPoison" name="::BlindingPoison">
@@ -1964,7 +1970,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>This character is afflicted by blinding poison, suffering {0} bio damage every turn. Their perception is also decreased by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж уражений засліплюючою отрутою, отримуючи {0} біологічної шкоди щоразу. Його увага також зменшена на {1}.</target>
       </segment>
     </unit>
     <unit id="::PsionicAcceleration" name="::PsionicAcceleration">
@@ -1974,7 +1980,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Psi regeneration increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлення пси-енергії збільшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::BlackOilSlow" name="::BlackOilSlow">
@@ -1984,7 +1990,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Movement speed reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидкість руху зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::WebSlow" name="::WebSlow">
@@ -1994,7 +2000,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Movement speed reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидкість руху зменшена на {0}%.</target>
       </segment>
     </unit>
     <unit id="::HeavyIntoxication" name="::HeavyIntoxication">
@@ -2004,7 +2010,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>This is what happens when you get wasted with Dude. All your base attributes have been reduced by {0}. Cheers!</source>
-        <target state="new" />
+        <target state="needs-translation">Це відбувається, коли ви напиваєтесь з Дюдом. Усі ваші базові атрибути зменшені на {0}. За ваше здоров'я!</target>
       </segment>
     </unit>
     <unit id="::SoreHands" name="::SoreHands">
@@ -2014,7 +2020,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Your hands are sore. Your dexterity has been reduced by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваші руки болять. Ваша спритність зменшена на {0}.</target>
       </segment>
     </unit>
     <unit id="::IntelligenceBoost" name="::IntelligenceBoost">
@@ -2024,7 +2030,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Intelligence increased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Інтелект збільшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::InitiativeBoost" name="::InitiativeBoost">
@@ -2034,7 +2040,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Initiative increased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Ініціатива збільшена на {0}.</target>
       </segment>
     </unit>
     <unit id="::ThirdEye" name="::ThirdEye">
@@ -2044,7 +2050,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Detection increased by {0}%. Perception increased by {1} for the purpose of detecting hidden passages and other secrets.</source>
-        <target state="new" />
+        <target state="needs-translation">Виявлення збільшено на {0}%. Увага збільшена на {1} для виявлення прихованих проходів та інших секретів.</target>
       </segment>
     </unit>
     <unit id="::SpearGuard" name="::SpearGuard">
@@ -2054,7 +2060,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Has a {0}% chance to block up to {1} mechanical damage when holding a spear.</source>
-        <target state="new" />
+        <target state="needs-translation">Має {0}% шанс заблокувати до {1} механічної шкоди, тримаючи спис.</target>
       </segment>
     </unit>
     <unit id="::ShatteredWill" name="::ShatteredWill">
@@ -2064,7 +2070,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Your drive to continue on is rapidly deteriorating. All base abilities reduced by {0}, all skills reduced by {1}, movement and action points reduced by {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваше прагнення продовжувати швидко згасає. Усі базові здібності зменшені на {0}, усі навички зменшені на {1}, очки руху та дії зменшені на {2}.</target>
       </segment>
     </unit>
     <unit id="::CarvedUp" name="::CarvedUp">
@@ -2074,7 +2080,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Action points reduced by {0} and the chance to get critically hit by weapon and unarmed attacks increased by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Очки дії зменшені на {0} та збільшено шанс критичного удару від атак зброєю та беззбройних атак на {1}%.</target>
       </segment>
     </unit>
     <unit id="::ChemicalDestabilization" name="::ChemicalDestabilization">
@@ -2084,7 +2090,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>The character takes additional {0}% {1} damage from all sources.</source>
-        <target state="new" />
+        <target state="needs-translation">Персонаж отримує додатково {0}% {1} шкоди від усіх джерел.</target>
       </segment>
     </unit>
     <unit id="::ChemicalDestabilizationProvider" name="::ChemicalDestabilizationProvider">
@@ -2094,7 +2100,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Your successful chemical pistol attacks increase the amount of damage taken from the pistol's damage type by {0}% from all sources for {1}. Stacks {2} times.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваші успішні атаки хімічним пістолетом збільшують кількість шкоди, яку ви отримуєте від типу шкоди пістолета, на {0}% від усіх джерел протягом {1}. Накопичується {2} рази.</target>
       </segment>
     </unit>
     <unit id="::LeperPoison" name="::LeperPoison">
@@ -2104,7 +2110,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>This character is afflicted by leper poison, suffering {0} bio damage every turn and receiving {1}% more mechanical damage from all sources.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж уражений отрутою прокаженого, отримуючи {0} біологічної шкоди щоразу та отримуючи {1}% більше механічної шкоди від усіх джерел.</target>
       </segment>
     </unit>
     <unit id="::Submerged" name="::Submerged">
@@ -2114,7 +2120,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>This character is submerged in water. Evasion is increased by {0}, dodge increased by {1} and all damage resistances are increased by {2}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж занурений у воду. Ухилення збільшено на {0}, уникнення збільшено на {1} та всі показники опору збільшені на {2}%.</target>
       </segment>
     </unit>
     <unit id="::HeartbreakPoison" name="::HeartbreakPoison">
@@ -2124,7 +2130,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>This character is afflicted by heartbreak poison, suffering {0} bio damage every turn. If the poison is not removed, it will deal additional {1} bio damage on expiration.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж уражений отрутою розбитого серця, отримуючи {0} біологічної шкоди щоразу. Якщо отруту не видалити, вона завдасть додатково {1} біологічної шкоди після закінчення терміну дії.</target>
       </segment>
     </unit>
     <unit id="::Rusting" name="::Rusting">
@@ -2134,7 +2140,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Reduces durability of all mechanical items in your posession by {0} each turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує довговічність усіх механічних предметів у вашому володінні на {0} щоразу.</target>
       </segment>
     </unit>
     <unit id="::VehicleTurbo" name="::VehicleTurbo">
@@ -2144,7 +2150,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Vehicle movement speed and movement points increased by {0}%, but energy consumption increased by {1}%. The bonuses only work if vehicle is not overencumbered.</source>
-        <target state="new" />
+        <target state="needs-translation">Швидкість руху та очки руху транспортного засобу збільшені на {0}%, але споживання енергії збільшене на {1}%. Бонуси працюють лише в тому випадку, якщо транспортний засіб не перевантажений.</target>
       </segment>
     </unit>
     <unit id="::Flurry" name="::Flurry">
@@ -2154,7 +2160,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Reduces action point cost of Flurry by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує вартість в очках дії здібності «Швидкий напад» на {0}.</target>
       </segment>
     </unit>
     <unit id="::Onslaught" name="::Onslaught">
@@ -2164,7 +2170,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Increases damage done by swords by {0}%. Will be removed if an attack misses or does no damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує шкоду від мечів на {0}%. Буде видалено, якщо атака промахнеться або не завдасть шкоди.</target>
       </segment>
     </unit>
     <unit id="::Riposte" name="::Riposte">
@@ -2174,7 +2180,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>This character can perform a free sword attack.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж може виконати безкоштовну атаку мечем.</target>
       </segment>
     </unit>
     <unit id="::PositiveVoidAffliction" name="::PositiveVoidAffliction">
@@ -2184,7 +2190,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Positively affected by the outcome of the previous battle. </source>
-        <target state="new" />
+        <target state="needs-translation">Позитивно впливає результат попередньої битви.</target>
       </segment>
     </unit>
     <unit id="::NegativeVoidAffliction" name="::NegativeVoidAffliction">
@@ -2194,7 +2200,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Negatively affected by the outcome of the previous battle.</source>
-        <target state="new" />
+        <target state="needs-translation">Негативно впливає результат попередньої битви.</target>
       </segment>
     </unit>
     <unit id="::PlayerVoidApparition" name="::PlayerVoidApparition">
@@ -2204,7 +2210,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Your mind is detached from your body, and out here it's also your only tool available.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваш розум відірваний від тіла, і тут він також є вашим єдиним інструментом.</target>
       </segment>
     </unit>
     <unit id="::PelletMayhem" name="::PelletMayhem">
@@ -2214,7 +2220,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated">
         <source>Your next shotgun attack will have the critical hit chance increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша наступна атака з дробовиком матиме збільшений шанс критичного удару на {0}%.</target>
       </segment>
     </unit>
     <unit id="::ElectroshockAura" name="::ElectroshockAura">
@@ -2228,7 +2234,11 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
 Additionally, whenever this character is attacked by a melee attack, the attacker will be hit by the same electrical damage at the same energy cost.
 
 Whenever this aura deals electrical damage, there's {3}% chance the target will be stunned for {4}.</source>
-        <target state="new" />
+        <target state="needs-translation">Витрачає {0} енергії з броні та атакує сусідніх персонажів на {1} шкоди в кінці кожного ходу за рахунок {2} енергії на персонажа.
+
+Крім того, кожного разу, коли на цього персонажа нападають в ближньому бою, нападник буде вражений тією ж електричною шкодою з тією ж вартістю енергії.
+
+Кожного разу, коли ця аура завдає електричної шкоди, є {3}% шанс, що ціль буде приголомшена на {4}.</target>
       </segment>
     </unit>
     <unit id="::MetallineEnergization" name="::MetallineEnergization">
@@ -2238,7 +2248,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Drains {0} energy from the armor, but reduces the character's overall armor penalty by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Витрачає {0} енергії з броні, але зменшує загальний штраф броні на {1}%.</target>
       </segment>
     </unit>
     <unit id="::EnergyShieldEmpowerment" name="::EnergyShieldEmpowerment">
@@ -2248,7 +2258,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Draing {0} energy from the armor, but increases all energy shielding values by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Витрачає {0} енергії з броні, але збільшує всі значення енергетичного щита на {1}%.</target>
       </segment>
     </unit>
     <unit id="::WirelessChargingAura" name="::WirelessChargingAura">
@@ -2258,7 +2268,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Transfers up to {0} energy at {1}% efficiency from the source item to all other equipped items that require recharging, splitting the energy equally among them.</source>
-        <target state="new" />
+        <target state="needs-translation">Передає до {0} енергії з {1}% ефективністю з вихідного предмета на всі інші обладнані предмети, які потребують перезарядки, розподіляючи енергію рівномірно між ними.</target>
       </segment>
     </unit>
     <unit id="::RestlessSpirits" name="::RestlessSpirits">
@@ -2268,7 +2278,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Dexterity and perception reduced by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Спритність та увага зменшені на {0}.</target>
       </segment>
     </unit>
     <unit id="::DarkPresence" name="::DarkPresence">
@@ -2278,7 +2288,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>There is something unwholesome lingering in the back of your mind. Will reduced by {0} and resolve reduced by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">У глибині вашого розуму затримується щось нездорове. Воля зменшена на {0} та рішучість зменшена на {1}%.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Base" name="::StriderParasiticInfestation_Base">
@@ -2288,7 +2298,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character has been infested!</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж заражений!</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase1" name="::StriderParasiticInfestation_Phase1">
@@ -2298,7 +2308,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>They take {4} bio damage per turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Вони отримують {4} біологічної шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase2" name="::StriderParasiticInfestation_Phase2">
@@ -2308,7 +2318,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Healing reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Лікування зменшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase3" name="::StriderParasiticInfestation_Phase3">
@@ -2318,7 +2328,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Psi regeneration reduced by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлення пси-енергії зменшено на {1}.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase4" name="::StriderParasiticInfestation_Phase4">
@@ -2328,7 +2338,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Movement points reduced by {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Очки руху зменшені на {2}.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase5" name="::StriderParasiticInfestation_Phase5">
@@ -2338,7 +2348,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Action points reduced by {3}. The infested wound hurts abominably.</source>
-        <target state="new" />
+        <target state="needs-translation">Очки дії зменшені на {3}. Заражена рана жахливо болить.</target>
       </segment>
     </unit>
     <unit id="::SwampTrance" name="::SwampTrance">
@@ -2348,7 +2358,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character has perception increased by {0} and regenerates {1} health points each turn. Also makes the character glow.</source>
-        <target state="new" />
+        <target state="needs-translation">У цього персонажа збільшена увага на {0} та відновлюється {1} очок здоров'я щоразу. Також змушує персонажа світитися.</target>
       </segment>
     </unit>
     <unit id="::Polarized" name="::Polarized">
@@ -2358,7 +2368,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Energy damage resistance and threshold reduced by {0}% and electrical ones reduced by {1}%. Chance to get critically hit by weapons increased by {2}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Опір енергетичній шкоді та порогове значення зменшені на {0}% та електричній – на {1}%. Збільшено шанс критичного удару зброєю на {2}%.</target>
       </segment>
     </unit>
     <unit id="::Hyperallergenic" name="::Hyperallergenic">
@@ -2368,7 +2378,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Consuming any type of medicine will inflict {0} unavoidable bio damage to this character and daze them for {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Вживання будь-якого типу ліків завдасть {0} неминучої біологічної шкоди цьому персонажу та приголомшить його на {1}.</target>
       </segment>
     </unit>
     <unit id="::HyperallergenicItemEffect_Cap" name="::HyperallergenicItemEffect_Cap">
@@ -2378,7 +2388,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Applies hyperallergenic to a suitable melee weapon that will inflict up to {0} unavoidable bio damage to the victim and daze them for {1} if they consume any type of medicine while under its effect. Lasts {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Наносить гіпералергенну речовину на відповідну зброю ближнього бою, яка завдасть до {0} неминучої біологічної шкоди жертві та приголомшить її на {1}, якщо вона вживатиме будь-який тип ліків під час дії. Триває {2}.</target>
       </segment>
     </unit>
     <unit id="::HyperallergenicItemEffect_Applied" name="::HyperallergenicItemEffect_Applied">
@@ -2388,7 +2398,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>If the attack penetrates the armor, hyperallergenic is applied and it will inflict up to {0} unavoidable bio damage to the victim and daze them for {1} if they consume any type of medicine while under its effect. Lasts {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо атака проникає через броню, наноситься гіпералергенна речовина, яка завдасть до {0} неминучої біологічної шкоди жертві та приголомшить її на {1}, якщо вона вживатиме будь-який тип ліків під час дії. Триває {2}.</target>
       </segment>
     </unit>
     <unit id="::BattleTrance" name="::BattleTrance">
@@ -2398,7 +2408,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>All offensive and psionic skills increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Усі наступальні та психічні навички збільшені на {0}%.</target>
       </segment>
     </unit>
     <unit id="::Smoking" name="::Smoking">
@@ -2408,7 +2418,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Increases psi regeneration by {0}, but reduces constitution by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує відновлення пси-енергії на {0}, але зменшує витривалість на {1}.</target>
       </segment>
     </unit>
     <unit id="::CerebralAcidization" name="::CerebralAcidization">
@@ -2418,7 +2428,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This creature suffers {0} acid damage every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця істота отримує {0} кислотної шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::VoidRot" name="::VoidRot">
@@ -2428,7 +2438,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character suffers {0} energy damage every turn.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж отримує {0} енергетичної шкоди щоразу.</target>
       </segment>
     </unit>
     <unit id="::ImprovedSprint" name="::ImprovedSprint">
@@ -2438,7 +2448,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Movement points increased by {0} and action points increased by {1} when not in stealth.</source>
-        <target state="new" />
+        <target state="needs-translation">Очки руху збільшені на {0} та очки дії збільшені на {1}, коли не в режимі скритності.</target>
       </segment>
     </unit>
     <unit id="::EmpoweredInvocation" name="::EmpoweredInvocation">
@@ -2448,7 +2458,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>{0} skill increased by {1}%. When this effect expires, the character will lose all psi points.</source>
-        <target state="new" />
+        <target state="needs-translation">Навичка {0} збільшена на {1}%. Після закінчення ефекту персонаж втратить усі пси-очки.</target>
       </segment>
     </unit>
     <unit id="::BoardedUp" name="::BoardedUp">
@@ -2458,7 +2468,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Increases the amount blocked by a riot shield by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Збільшує кількість блокування щитом на {0}%.</target>
       </segment>
     </unit>
     <unit id="::ShellCount" name="::ShellCount">
@@ -2468,7 +2478,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Next shotgun shot will deal {0}% bonus damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Наступний постріл з дробовика завдаватиме {0}% додаткової шкоди.</target>
       </segment>
     </unit>
     <unit id="::ScrambledCortex" name="::ScrambledCortex">
@@ -2478,7 +2488,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This machine is confused and may attack anyone or retreat at random.</source>
-        <target state="new" />
+        <target state="needs-translation">Ця машина збентежена і може атакувати будь-кого або відступити навмання.</target>
       </segment>
     </unit>
     <unit id="::Chemhaze" name="::Chemhaze">
@@ -2488,7 +2498,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Chance to hit with ranged weapons reduced by {0}% and chance to hit with melee weapons and unarmed attacks reduced by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс влучити зброєю дальнього бою зменшено на {0}%, а шанс влучити зброєю ближнього бою та беззбройними атаками зменшено на {1}%.</target>
       </segment>
     </unit>
     <unit id="::HelmetLanternAura" name="::HelmetLanternAura">
@@ -2498,7 +2508,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Drains {0} energy every turn and provides light up to {1} tiles in front of the wearer</source>
-        <target state="new" />
+        <target state="needs-translation">Витрачає {0} енергії щоразу та забезпечує освітлення до {1} клітинок попереду того, хто його носить.</target>
       </segment>
     </unit>
     <unit id="::ElectricTorchAura" name="::ElectricTorchAura">
@@ -2508,7 +2518,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Drains {0} energy every turn and provides light in radius of {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Витрачає {0} енергії щоразу та забезпечує освітлення в радіусі {1}.</target>
       </segment>
     </unit>
     <unit id="::IndustrialExoskeletonAura" name="::IndustrialExoskeletonAura">
@@ -2518,7 +2528,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by {0} and movement points increased by {1}. Movement speed penalty of the armor negated. Drains {2} energy every turn, as well as additional {3} energy for every tile of movement.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на {0} та кількість рухових очок збільшена на {1}. Усунено штраф до швидкості руху від броні. Витрачає {2} енергії щоразу, а також додаткові {3} енергії за кожну клітинку руху.</target>
       </segment>
     </unit>
     <unit id="::CombatExoskeletonAura" name="::CombatExoskeletonAura">
@@ -2528,7 +2538,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Strength increased by {0} and movement points increased by {1}. Movement speed penalty of the armor negated. Drains {2} energy every turn, as well as additional {3} energy for every tile of movement.</source>
-        <target state="new" />
+        <target state="needs-translation">Сила збільшена на {0} та кількість рухових очок збільшена на {1}. Усунено штраф до швидкості руху від броні. Витрачає {2} енергії щоразу, а також додаткові {3} енергії за кожну клітинку руху.</target>
       </segment>
     </unit>
     <unit id="::ShootingSpree" name="::ShootingSpree">
@@ -2538,7 +2548,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Your next sniper rifle attack will refund 100% of the action point cost if it kills the target.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша наступна атака зі снайперської гвинтівки поверне 100% вартості витрачених рухових очок, якщо вона вб'є ціль.</target>
       </segment>
     </unit>
     <unit id="::PlayerMutantFireClaw" name="::PlayerMutantFireClaw">
@@ -2548,7 +2558,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Flames engulf your left claw, causing it to deal additional 10-15 heat damage with each melee attack.</source>
-        <target state="new" />
+        <target state="needs-translation">Полум'я охоплює вашу ліву кігтю, змушуючи її завдавати додаткову теплову шкоду 10-15 одиниць з кожною атакою ближнього бою.</target>
       </segment>
     </unit>
     <unit id="::PlayerMutantFrostClaw" name="::PlayerMutantFrostClaw">
@@ -2558,7 +2568,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Dipping your right claw into a liquid nitrogen freezer has encased it in solid ice, causing it do deal additional 20-35 cold damage with each melee attack, chilling the target in process.</source>
-        <target state="new" />
+        <target state="needs-translation">Занурення вашої правої кігті в морозильну камеру з рідким азотом покрило її твердим льодом, змушуючи її завдавати додаткову холодну шкоду 20-35 одиниць з кожною атакою ближнього бою, одночасно охолоджуючи ціль.</target>
       </segment>
     </unit>
     <unit id="::PlayerMutantRustingAcidInfusion" name="::PlayerMutantRustingAcidInfusion">
@@ -2568,7 +2578,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Consuming a mysterious concoction has altered your acidic glands, causing your Acid Spray to inflict rusting acid upon use.</source>
-        <target state="new" />
+        <target state="needs-translation">Вживання таємничого зілля змінило ваші кислотні залози, змушуючи ваш Кислотний Сплеск завдавати іржавої кислоти при використанні.</target>
       </segment>
     </unit>
     <unit id="::BulletTime" name="::BulletTime">
@@ -2578,7 +2588,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Reduces action point cost of firing firearm pistols by {0}%. Cannot reduce the action point cost below the hard minimum.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує вартість рухових очок для стрільби з вогнепальної зброї пістолетного типу на {0}%. Не може зменшити вартість рухових очок нижче встановленого мінімуму.</target>
       </segment>
     </unit>
     <unit id="::CutsceneDamageResistance" name="::CutsceneDamageResistance">
@@ -2588,7 +2598,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>You shouldn't be seeing this. Look at something else.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви не повинні цього бачити. Подивіться на щось інше.</target>
       </segment>
     </unit>
     <unit id="::Campfire" name="::Campfire">
@@ -2598,7 +2608,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>The fire warms you up and relaxes you. Movement points are increased by {0}, movement speed by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Вогонь зігріває та розслабляє вас. Кількість рухових очок збільшується на {0}, швидкість руху на {1}%.</target>
       </segment>
     </unit>
     <unit id="::FrigidEnvironment" name="::FrigidEnvironment">
@@ -2608,7 +2618,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>It's freezing in here. Your cold resistance and threshold is reduced by {0}%, and all cold damage taken is increased by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Тут дуже холодно. Ваш опір холоду та поріг зменшено на {0}%, а вся отримана холодна шкода збільшується на {1}%.</target>
       </segment>
     </unit>
     <unit id="::PsychokineticChainLink" name="::PsychokineticChainLink">
@@ -2618,7 +2628,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character is linked into a psychokinetic chain so {0}% of all direct mechanical and electrical damage taken will be transferred to the next link in the chain, up to maximum of {1} damage per single transfer.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж підключений до психокінетичного ланцюга, тому {0}% усієї прямої механічної та електричної шкоди буде передано наступній ланці ланцюга, але не більше {1} шкоди за одну передачу.</target>
       </segment>
     </unit>
     <unit id="::TelekineticGrounding" name="::TelekineticGrounding">
@@ -2628,7 +2638,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character is immobilized for now by telekinetic force, but may manage to break free.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж зараз знерухомлений телекінетичною силою, але може спробувати звільнитися.</target>
       </segment>
     </unit>
     <unit id="::PsychosomaticPredator" name="::PsychosomaticPredator">
@@ -2638,7 +2648,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character is on the hunt for a specific prey, dealing bonus damage to them with weapon and unarmed attacks. The same damage is reduced by overall {0}% against other targets.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж полює на певну здобич, завдаючи їй додаткової шкоди зброєю та беззбройними атаками. Шкода проти інших цілей зменшується на {0}%.</target>
       </segment>
     </unit>
     <unit id="::PsychosomaticPrey" name="::PsychosomaticPrey">
@@ -2648,7 +2658,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character is being hunted and will receive {0}% bonus damage from its hunter's weapon and unarmed attacks. This damage is doubled if the attack is melee, and again doubled while this character is frightened.</source>
-        <target state="new" />
+        <target state="needs-translation">На цього персонажа полюють, і він отримає {0}% додаткової шкоди від зброї та беззбройних атак його мисливця. Ця шкода подвоюється, якщо атака ближнього бою, і знову подвоюється, коли цей персонаж наляканий.</target>
       </segment>
     </unit>
     <unit id="::PsionicTransceiver" name="::PsionicTransceiver">
@@ -2658,7 +2668,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Psionic skills increased by {0} due to presence of other psionics.</source>
-        <target state="new" />
+        <target state="needs-translation">Психонічні навички збільшено на {0} завдяки присутності інших псионіків.</target>
       </segment>
     </unit>
     <unit id="::FreezingMemories" name="::FreezingMemories">
@@ -2668,7 +2678,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Will increased by {2}. All cold damage taken reduced by {0}% and all mechanical damage taken reduced by {1}%. The character is immune to any further chilling or freezing effects.</source>
-        <target state="new" />
+        <target state="needs-translation">Воля збільшена на {2}. Вся отримана холодна шкода зменшена на {0}%, а вся отримана механічна шкода зменшена на {1}%. Персонаж імунізований до будь-яких подальших ефектів охолодження чи заморожування.</target>
       </segment>
     </unit>
     <unit id="::Motion" name="::Motion">
@@ -2678,7 +2688,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This cat is in motion, which means that intelligence and perception are reduced by {0}, while maximum psi points are increased by {1} and psi regeneration is increased by {2}. Also, resolve is reduced by {3}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей кіт у русі, що означає, що інтелект і сприйняття зменшено на {0}, а максимальна кількість пси-очок збільшено на {1} і регенерація пси-очок збільшено на {2}. Також рішучість зменшено на {3}%.</target>
       </segment>
     </unit>
     <unit id="::MotionWithdrawal" name="::MotionWithdrawal">
@@ -2688,7 +2698,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This cat is suffering from severe motion deficiency, which means that intelligence and perception are reduced by {0}, maximum psi points are reduced by {1} and psi regeneration is reduced by {2}. Also, resolve is reduced by {3}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей кіт страждає від серйозного дефіциту руху, що означає, що інтелект і сприйняття зменшено на {0}, максимальна кількість пси-очок зменшено на {1} і регенерація пси-очок зменшено на {2}. Також рішучість зменшено на {3}%.</target>
       </segment>
     </unit>
     <unit id="::MindFog" name="::MindFog">
@@ -2698,7 +2708,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Intelligence reduced by {0} and psi cost increased by {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Інтелект зменшено на {0} і вартість пси-очок збільшено на {1}%.</target>
       </segment>
     </unit>
     <unit id="::ToxicGasHealingForEnergyMicrofeat" name="::ToxicGasHealingForEnergyMicrofeat">
@@ -2708,7 +2718,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Restores {0}-{1} health each turn while standing inside a toxic gas cloud at the cost of up to {2} energy. The healing amount depends on the thickness of the cloud and the energy cost depends on the healing amount. Cannot heal above {3}% of the maximum health. Does not work while frozen or chilled.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0}-{1} здоров'я щоразу, стоячи в токсичній газовій хмарі, за рахунок до {2} енергії. Кількість відновлення залежить від товщини хмари, а вартість енергії залежить від кількості відновлення. Не може відновити більше {3}% від максимального здоров'я. Не працює під час заморожування або охолодження.</target>
       </segment>
     </unit>
     <unit id="::HeadTrap" name="::HeadTrap">
@@ -2718,7 +2728,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Suffering {0} damage every turn. Perception reduced by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Завдає {0} шкоди щоразу. Сприйняття зменшено на {1}.</target>
       </segment>
     </unit>
     <unit id="::ScanCallOverload" name="::ScanCallOverload">
@@ -2728,7 +2738,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Scan time increased by {0}%, which makes the camera slower to find and report intruders.</source>
-        <target state="new" />
+        <target state="needs-translation">Час сканування збільшено на {0}%, що робить камеру повільнішою у пошуку та повідомленні про зловмисників.</target>
       </segment>
     </unit>
     <unit id="::SweepingMomentum" name="::SweepingMomentum">
@@ -2738,7 +2748,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Sweep attack deals {0}% bonus damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Атака розмахом завдає {0}% додаткової шкоди.</target>
       </segment>
     </unit>
     <unit id="::BurstWindUp" name="::BurstWindUp">
@@ -2748,7 +2758,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Burst attack with this weapon will fire {0} extra round{1} while costing {2} less action point{3}.</source>
-        <target state="new" />
+        <target state="needs-translation">Серійна атака цією зброєю випустить {0} додаткових куль{1}, при цьому вартість рухових очок зменшиться на {2}{3}.</target>
       </segment>
     </unit>
     <unit id="::BulletTrance" name="::BulletTrance">
@@ -2758,7 +2768,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character does {0}% bonus damage when using heavy guns.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж завдає {0}% додаткової шкоди при використанні важкої зброї.</target>
       </segment>
     </unit>
     <unit id="::DemolitionRage" name="::DemolitionRage">
@@ -2768,7 +2778,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This character does {0}% bonus damage when using grenade and rocket launchers.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей персонаж завдає {0}% додаткової шкоди при використанні гранатометів і ракетних установок.</target>
       </segment>
     </unit>
     <unit id="::GunnersHigh" name="::GunnersHigh">
@@ -2778,7 +2788,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Heals {0} health per turn, but cannot heal above {1}% of maximum health.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} здоров'я щоразу, але не може відновити більше {1}% від максимального здоров'я.</target>
       </segment>
     </unit>
     <unit id="::JumpstarterBoost" name="::JumpstarterBoost">
@@ -2788,7 +2798,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Grants {0} extra burst rounds to {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Надає {0} додаткових серійних куль для {1}.</target>
       </segment>
     </unit>
     <unit id="::ColdLaserInterception" name="::ColdLaserInterception">
@@ -2798,7 +2808,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This tactical support bot is equipped with an active area protection system that intercepts and rapidly cools grenades, effectively neutralizing them.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей тактичний бот підтримки оснащений активною системою захисту зони, яка перехоплює та швидко охолоджує гранати, ефективно нейтралізуючи їх.</target>
       </segment>
     </unit>
     <unit id="::DesignatorLaser" name="::DesignatorLaser">
@@ -2808,7 +2818,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>This tactical support bot is equipped with a computerized laser designator that feeds its allies targetting information, thereby improving their precision and effectiveness.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей тактичний бот підтримки оснащений комп’ютеризованим лазерним цілевказівником, який передає своїм союзникам інформацію про цілі, тим самим покращуючи їхню точність та ефективність.</target>
       </segment>
     </unit>
     <unit id="::LaserDesignatedTarget" name="::LaserDesignatedTarget">
@@ -2818,7 +2828,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Chance to get critically hit with weapons increased by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Шанс отримати критичний удар зброєю збільшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::SensorimotorTransference" name="::SensorimotorTransference">
@@ -2828,7 +2838,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Combatant's performance is influenced by external sources. All offensive skills increased by {0}, action point cost of all weapon attacks reduced by {1} and all damage taken reduced by {2}.</source>
-        <target state="new" />
+        <target state="needs-translation">На продуктивність комбата впливають зовнішні джерела. Усі наступальні навички збільшено на {0}, вартість рухових очок для всіх атак зброєю зменшено на {1} і вся отримана шкода зменшено на {2}.</target>
       </segment>
     </unit>
     <unit id="::SensorimotorTransferenceDisruption" name="::SensorimotorTransferenceDisruption">
@@ -2838,7 +2848,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Reduces the number of Sensorimotor Command stacks by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує кількість стеків Команди Сенсомоторного Контролю на {0}.</target>
       </segment>
     </unit>
     <unit id="::SensorimotorAmplifier" name="::SensorimotorAmplifier">
@@ -2848,7 +2858,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Reinforces and contributes to received sensorimotor information.</source>
-        <target state="new" />
+        <target state="needs-translation">Підсилює та сприяє отриманій сенсомоторній інформації.</target>
       </segment>
     </unit>
     <unit id="::WildPsionicInnervation" name="::WildPsionicInnervation">
@@ -2858,7 +2868,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Skill level increased by {0}, critical chance increased by {1} and critical damage by {2}, while psi point cost is reduced by {3} for {4} psi abilities. All other non-boosted psi school have their psi point cost increased by {5}.</source>
-        <target state="new" />
+        <target state="needs-translation">Рівень навички збільшено на {0}, шанс критичного удару збільшено на {1} і критична шкода на {2}, а вартість пси-очок зменшено на {3} для {4} пси-здатностей. Усі інші непідсилені психічні школи мають збільшену вартість пси-очок на {5}.</target>
       </segment>
     </unit>
     <unit id="::ParafibroticRegeneration" name="::ParafibroticRegeneration">
@@ -2868,7 +2878,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Heals {0} health per turn and mechanical and heat damage taken reduced by {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Відновлює {0} здоров'я щоразу та зменшує механічну та теплову шкоду на {1}.</target>
       </segment>
     </unit>
     <unit id="::Demoralized" name="::Demoralized">
@@ -2878,7 +2888,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Offensive skills reduced by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Наступальні навички зменшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::ShellShocked" name="::ShellShocked">
@@ -2888,7 +2898,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>Offensive and defensive skills reduced by {0}.</source>
-        <target state="new" />
+        <target state="needs-translation">Наступальні та оборонні навички зменшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::MutationSickness" name="::MutationSickness">
@@ -2898,7 +2908,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>You feel nauseated, and your entire body aches. Your health has been temporarily reduced by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви відчуваєте нудоту, і все тіло болить. Ваше здоров'я тимчасово зменшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::MutationVigor" name="::MutationVigor">
@@ -2908,7 +2918,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated">
         <source>You feel strangely revitalized. Your health has been temporarily increased by {0}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви відчуваєте дивну бадьорість. Ваше здоров'я тимчасово збільшено на {0}%.</target>
       </segment>
     </unit>
   </file>

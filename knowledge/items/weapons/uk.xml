@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Regular handguns come in various shapes and sizes. They all deal mechanical damage, but their fire rate varies significantly.</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайні пістолети бувають різних форм і розмірів. Всі вони завдають механічної шкоди, але їхня скорострільність значно варіюється.</target>
       </segment>
     </unit>
     <unit id="::Pistol" name="::Pistol">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0}caliber {1} type handgun.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}калібру {1} типу пістолет.</target>
       </segment>
     </unit>
     <unit id="::SMG" name="::SMG">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0}caliber {1} type submachine gun.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}калібру {1} типу пістолет-кулемет.</target>
       </segment>
     </unit>
     <unit id="::Sniper" name="::Sniper">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0}caliber {1} type sniper rifle.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}калібру {1} типу снайперська гвинтівка.</target>
       </segment>
     </unit>
     <unit id="::AssaultRifle" name="::AssaultRifle">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0}caliber {1} type assault rifle.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}калібру {1} типу штурмова гвинтівка.</target>
       </segment>
     </unit>
     <unit id="::GrenadeLauncher" name="::GrenadeLauncher">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0}caliber {1} type grenade launcher.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}калібру {1} типу гранатомет.</target>
       </segment>
     </unit>
     <unit id="::RocketLauncher" name="::RocketLauncher">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0}caliber {1} type rocket launcher.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}калібру {1} типу ракетна установка.</target>
       </segment>
     </unit>
     <unit id="::LaserPistol" name="::LaserPistol">
@@ -80,7 +80,9 @@
         <source>Most common laser attack mode is achieved by applying intense Q-switching which packs the normal power of the laser beam into much shorter time frames, practically launching a laser bolt. While this bolt is not as powerful as a plasma beam, laser weaponry recharges faster allowing for higher fire rate.
 
 Laser pistols have been around for quite some time and many pick them as their weapon of choice.</source>
-        <target state="new" />
+        <target state="needs-translation">Найпоширеніший лазерний режим атаки досягається шляхом застосування інтенсивного Q-перемикання, яке упаковує нормальну потужність лазерного променя в набагато коротші часові рамки, фактично запускаючи лазерний імпульс. Хоча цей імпульс не такий потужний, як плазмовий промінь, лазерна зброя перезаряджається швидше, що дозволяє досягти вищої скорострільності.
+
+Лазерні пістолети існують вже досить давно, і багато хто обирає їх як зброю свого вибору.</target>
       </segment>
     </unit>
     <unit id="::PlasmaPistol" name="::PlasmaPistol">
@@ -92,7 +94,9 @@ Laser pistols have been around for quite some time and many pick them as their w
         <source>Plasma technology based weapons inflict damage by performing high power thermal discharge. Generating temperatures nearly double that of Sun's surface, these weapons can be devastating. However, they usually have lower fire rates than their laser counterparts due to the longer recharge and cooling times.
 
 Plasma pistol is the most common type of plasma weapon.</source>
-        <target state="new" />
+        <target state="needs-translation">Плазмові технології, що лежать в основі зброї, завдають шкоди, виконуючи високопотужний термічний розряд. Генеруючи температури майже вдвічі вищі за температуру поверхні Сонця, ця зброя може бути руйнівною. Однак вони зазвичай мають нижчу скорострільність, ніж їхні лазерні аналоги через довший час перезарядки та охолодження.
+
+Плазмовий пістолет є найпоширенішим типом плазмової зброї.</target>
       </segment>
     </unit>
     <unit id="::Crossbow" name="::Crossbow">
@@ -102,7 +106,7 @@ Plasma pistol is the most common type of plasma weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Although not as devastating as firearms or energy weapons, crossbow is still a dangerous device. The bolts it fires can be rigged with explosives or coated with poison, but are otherwise generally less efficient against heavily armored targets. On the other hand, since bolts fly at a relatively low speed they penetrate energy shields more easily.</source>
-        <target state="new" />
+        <target state="needs-translation">Хоча і не такий руйнівний, як вогнепальна або енергетична зброя, арбалет все ще є небезпечним пристроєм. Стріли, які він випускає, можуть бути оснащені вибухівкою або покриті отрутою, але в іншому випадку вони, як правило, менш ефективні проти сильно броньованих цілей. З іншого боку, оскільки стріли летять відносно повільно, вони легше проникають крізь енергетичні щити.</target>
       </segment>
     </unit>
     <unit id="::crossbow.1" name="::crossbow.1">
@@ -112,7 +116,7 @@ Plasma pistol is the most common type of plasma weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is a Zephyr model light crossbow.</source>
-        <target state="new" />
+        <target state="needs-translation">Це легкий арбалет моделі Zephyr.</target>
       </segment>
     </unit>
     <unit id="::crossbow.2" name="::crossbow.2">
@@ -122,7 +126,7 @@ Plasma pistol is the most common type of plasma weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is a Hurricane model crossbow.</source>
-        <target state="new" />
+        <target state="needs-translation">Це арбалет моделі Hurricane.</target>
       </segment>
     </unit>
     <unit id="::crossbow.3" name="::crossbow.3">
@@ -132,7 +136,7 @@ Plasma pistol is the most common type of plasma weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is a Tornado model crossbow.</source>
-        <target state="new" />
+        <target state="needs-translation">Це арбалет моделі Tornado.</target>
       </segment>
     </unit>
     <unit id="::crossbow.4" name="::crossbow.4">
@@ -142,7 +146,7 @@ Plasma pistol is the most common type of plasma weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is a Monsoon model crossbow.</source>
-        <target state="new" />
+        <target state="needs-translation">Це арбалет моделі Monsoon.</target>
       </segment>
     </unit>
     <unit id="::crossbow.5" name="::crossbow.5">
@@ -152,7 +156,7 @@ Plasma pistol is the most common type of plasma weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is a Cyclon model crossbow.</source>
-        <target state="new" />
+        <target state="needs-translation">Це арбалет моделі Cyclon.</target>
       </segment>
     </unit>
     <unit id="::Sledgehammer" name="::Sledgehammer">
@@ -162,7 +166,7 @@ Plasma pistol is the most common type of plasma weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>The sledgehammer can be a powerful melee weapon in the hands of a strong wielder.</source>
-        <target state="new" />
+        <target state="needs-translation">Кувалда може бути потужною зброєю ближнього бою в руках сильного воїна.</target>
       </segment>
     </unit>
     <unit id="::Placeholder" name="::Placeholder">
@@ -173,7 +177,7 @@ Plasma pistol is the most common type of plasma weapon.</source>
       <segment state="translated">
         <source>Having integrating itself in various industries, Light Amplification by Stimulated Emission of Radiation, or LASER for short, has also found its combat applications. 
 Most common laser attack mode is achieved by applying intense Q-switching which packs the normal power of the laser beam into much shorter time frames, practically launching a laser bolt. While this bolt is not a powerful as a plasma beam, laser weaponry recharges faster allowing for higher fire rate.</source>
-        <target state="new" />
+        <target state="needs-translation">Інтегрувавшись у різні галузі, підсилення світла за допомогою вимушеного випромінювання, або ЛАЗЕР, також знайшло своє бойове застосування. Найпоширеніший режим лазерної атаки досягається шляхом застосування інтенсивного Q-перемикання, яке концентрує звичайну потужність лазерного променя в набагато коротші проміжки часу, фактично запускаючи лазерний імпульс. Хоча цей імпульс не такий потужний, як плазмовий промінь, лазерна зброя перезаряджається швидше, що дозволяє збільшити скорострільність.</target>
       </segment>
     </unit>
     <unit id="::Knife" name="::Knife">
@@ -183,7 +187,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>This {0} knife can be a quick and deadly close quarters weapon against unarmored or unsuspecting targets.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей {0} ніж може бути швидкою та смертельною зброєю ближнього бою проти неброньованих або необачних цілей.</target>
       </segment>
     </unit>
     <unit id="::SerratedKnife" name="::SerratedKnife">
@@ -193,7 +197,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>This serrated {0} knife can inflict serious bleeding wounds.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей {0} ніж із зазубреним лезом може завдати серйозних кровотечних ран.</target>
       </segment>
     </unit>
     <unit id="::Dagger" name="::Dagger">
@@ -203,7 +207,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>The long {0} blade of this dagger can pierce deep into target's body and puncture vital organs.</source>
-        <target state="new" />
+        <target state="needs-translation">Довге {0} лезо цього кинджала може глибоко проникати в тіло цілі та проколювати життєво важливі органи.</target>
       </segment>
     </unit>
     <unit id="::EnergyPistol-old" name="::EnergyPistol-old">
@@ -213,7 +217,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0} powered by a {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}, що працює від {1}.</target>
       </segment>
     </unit>
     <unit id="::EnergyPistol" name="::EnergyPistol">
@@ -223,7 +227,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>This {0} is powered by a {1}.</source>
-        <target state="new" />
+        <target state="needs-translation">Цей {0} живиться від {1}.</target>
       </segment>
     </unit>
     <unit id="::Unarmed" name="::Unarmed">
@@ -233,7 +237,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>Nothing like beating the life out of them with your bare fists!</source>
-        <target state="new" />
+        <target state="needs-translation">Немає нічого кращого, ніж вибити з них життя голими руками!</target>
       </segment>
     </unit>
     <unit id="::UnarmedForceEmission" name="::UnarmedForceEmission">
@@ -243,7 +247,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>You punch people with your mind!</source>
-        <target state="new" />
+        <target state="needs-translation">Ти б'єш людей силою думки!</target>
       </segment>
     </unit>
     <unit id="::Spear" name="::Spear">
@@ -253,7 +257,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>Primitive but versatile weapon that can be used for both offense and defense.</source>
-        <target state="new" />
+        <target state="needs-translation">Примітивна, але універсальна зброя, яку можна використовувати як в атаці, так і в обороні.</target>
       </segment>
     </unit>
     <unit id="::Machete" name="::Machete">
@@ -263,7 +267,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>This is a deadly close quarters weapon that can deliver devastating wounds if used correctly.</source>
-        <target state="new" />
+        <target state="needs-translation">Це смертельна зброя ближнього бою, яка може завдати нищівних ран, якщо використовувати її правильно.</target>
       </segment>
     </unit>
     <unit id="::Shotgun" name="::Shotgun">
@@ -273,7 +277,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>This is a 12 gauge {0} type shotgun.</source>
-        <target state="new" />
+        <target state="needs-translation">Це 12-го калібру {0} дробовик.</target>
       </segment>
     </unit>
     <unit id="::LMG" name="::LMG">
@@ -283,7 +287,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0}caliber {1} type light machine gun.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}-каліберний {1} легкий кулемет.</target>
       </segment>
     </unit>
     <unit id="::Minigun" name="::Minigun">
@@ -293,7 +297,7 @@ Most common laser attack mode is achieved by applying intense Q-switching which 
       </mda:metadata>
       <segment state="translated">
         <source>This is a {0}caliber {1} type minigun. It's got a {2} autonomous electric motor that rotates the barrels.</source>
-        <target state="new" />
+        <target state="needs-translation">Це {0}-каліберний {1} кулемет Гатлінга. Він оснащений {2} автономним електричним двигуном, який обертає стволи.</target>
       </segment>
     </unit>
   </file>

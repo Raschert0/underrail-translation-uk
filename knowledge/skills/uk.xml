@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Skills</source>
-        <target state="new" />
+        <target state="needs-translation">Навички</target>
       </segment>
     </unit>
     <unit id="::AnyPsi" name="::AnyPsi">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Any psi skill</source>
-        <target state="new" />
+        <target state="needs-translation">Будь-яка психічна навичка</target>
       </segment>
     </unit>
     <unit id="::GeneralInfo" name="::GeneralInfo">
@@ -34,7 +34,13 @@ Each skill is affected by one of your character's base ability scores, but the a
 Some skills may benefit from others through skill synergy.
 
 The number in brackets represents the skill level with all factors counted in.</source>
-        <target state="new" />
+        <target state="needs-translation">У міру підвищення рівня вашого персонажа, ви отримаєте певну кількість очок навичок, які зможете розподілити в різних областях. Ви не можете інвестувати більше 5 очок навичок (втричі більше на першому рівні) за рівень в будь-яку навичку.
+
+На кожну навичку впливає один з базових показників вашого персонажа, але кількість очок, які ви можете інвестувати в будь-яку навичку, не обмежується ними.
+
+Деякі навички можуть отримувати вигоду від інших завдяки синергії навичок.
+
+Число в дужках представляє рівень навички з урахуванням усіх факторів.</target>
       </segment>
     </unit>
     <unit id="::Guns" name="::Guns">
@@ -46,7 +52,9 @@ The number in brackets represents the skill level with all factors counted in.</
         <source>Increases your precision and damage with any type of pistol, SMG or rifle. This includes both firearms and energy weapons.
 
 Also, the higher your skill level the more advanced weapons you can wield effectively.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує вашу точність і шкоду від будь-якого типу пістолетів, ПП або гвинтівок. Це включає як вогнепальну зброю, так і енергетичну зброю.
+
+Крім того, чим вищий ваш рівень навички, тим більш просунуту зброю ви зможете ефективно використовувати.</target>
       </segment>
     </unit>
     <unit id="::Guns_xpbl" name="::Guns_xpbl">
@@ -58,7 +66,9 @@ Also, the higher your skill level the more advanced weapons you can wield effect
         <source>Increases your precision and damage with any type of pistol, SMG, shotgun, or rifle. This includes both firearms and energy weapons.
 
 Also, the higher your skill level the more advanced weapons you can wield effectively.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує вашу точність і шкоду від будь-якого типу пістолетів, ПП, дробовиків або гвинтівок. Це включає як вогнепальну зброю, так і енергетичну зброю.
+
+Крім того, чим вищий ваш рівень навички, тим більш просунуту зброю ви зможете ефективно використовувати.</target>
       </segment>
     </unit>
     <unit id="::Guns_xphw" name="::Guns_xphw">
@@ -70,7 +80,9 @@ Also, the higher your skill level the more advanced weapons you can wield effect
         <source>Increases your precision and damage with any type of pistol, SMG, rifle, or grenade launcher. This includes both firearms and energy weapons.
 
 Also, the higher your skill level the more advanced weapons you can wield effectively.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує вашу точність і шкоду від будь-якого типу пістолетів, ПП, гвинтівок або гранатометів. Це включає як вогнепальну зброю, так і енергетичну зброю.
+
+Крім того, чим вищий ваш рівень навички, тим більш просунуту зброю ви зможете ефективно використовувати.</target>
       </segment>
     </unit>
     <unit id="::Guns_full" name="::Guns_full">
@@ -82,7 +94,9 @@ Also, the higher your skill level the more advanced weapons you can wield effect
         <source>Increases your precision and damage with any type of pistol, SMG, shotgun, rifle, or grenade launcher. This includes both firearms and energy weapons.
 
 Also, the higher your skill level the more advanced weapons you can wield effectively.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує вашу точність і шкоду від будь-якого типу пістолетів, ПП, дробовиків, гвинтівок або гранатометів. Це включає як вогнепальну зброю, так і енергетичну зброю.
+
+Крім того, чим вищий ваш рівень навички, тим більш просунуту зброю ви зможете ефективно використовувати.</target>
       </segment>
     </unit>
     <unit id="::Heavy Guns" name="::Heavy Guns">
@@ -94,7 +108,9 @@ Also, the higher your skill level the more advanced weapons you can wield effect
         <source>Increases your precision and damage with machine guns and handheld miniguns.
 
 Also, the higher your skill level the more advanced weapons you can wield effectively.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує вашу точність і шкоду від кулеметів і портативних мініганів.
+
+Крім того, чим вищий ваш рівень навички, тим більш просунуту зброю ви зможете ефективно використовувати.</target>
       </segment>
     </unit>
     <unit id="::Crossbows" name="::Crossbows">
@@ -104,7 +120,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Increases your precision and damage with crossbows. </source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує вашу точність і шкоду від арбалетів.</target>
       </segment>
     </unit>
     <unit id="::Grenades-Old" name="::Grenades-Old">
@@ -114,7 +130,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Allows you to throw grenades more quickly, more often and across greater distance.</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволяє кидати гранати швидше, частіше і на більшу відстань.</target>
       </segment>
     </unit>
     <unit id="::Throwing" name="::Throwing">
@@ -124,7 +140,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Increases your precision with all thrown weapons and utilities, including grenades.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує вашу точність з усією метальною зброєю та приладдям, включаючи гранати.</target>
       </segment>
     </unit>
     <unit id="::Melee" name="::Melee">
@@ -134,7 +150,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Increases mechanical damage with melee weapons and unarmed attacks and helps you overcome your target's dodge rating.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує механічну шкоду від зброї ближнього бою та необзброєних атак і допомагає вам подолати показник ухилення вашої цілі.</target>
       </segment>
     </unit>
     <unit id="::Dodge" name="::Dodge">
@@ -144,7 +160,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Increases your chance to avoid melee attacks.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує ваші шанси уникнути атак ближнього бою.</target>
       </segment>
     </unit>
     <unit id="::Evasion" name="::Evasion">
@@ -154,7 +170,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Increases your chance to avoid a ranged attack. Reduces damage you receive from area of effect attacks.</source>
-        <target state="new" />
+        <target state="needs-translation">Підвищує ваші шанси уникнути дальньої атаки. Зменшує шкоду, яку ви отримуєте від атак з великої площі.</target>
       </segment>
     </unit>
     <unit id="::Stealth" name="::Stealth">
@@ -164,7 +180,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Decreases the chance that you'll be spotted while in stealth mode. Also affects numerous aspects of stealth combat.</source>
-        <target state="new" />
+        <target state="needs-translation">Зменшує ймовірність того, що вас помітять у режимі скритності. Також впливає на численні аспекти скритності в бою.</target>
       </segment>
     </unit>
     <unit id="::Hacking" name="::Hacking">
@@ -174,7 +190,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Allows you to hack all kinds of computer devices, such as electronic locks, cameras, sentry turrets, etc.</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволяє зламувати всі види комп'ютерних пристроїв, таких як електронні замки, камери, кулеметні вежі тощо.</target>
       </segment>
     </unit>
     <unit id="::Lockpicking" name="::Lockpicking">
@@ -184,7 +200,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Allows you to pick mechanical locks and dismantle other mechanical barriers such as ventilation shafts.</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволяє відкривати механічні замки та демонтувати інші механічні бар'єри, такі як вентиляційні шахти.</target>
       </segment>
     </unit>
     <unit id="::Pickpocketing" name="::Pickpocketing">
@@ -194,7 +210,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Allows you to steal items from other characters.</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволяє красти предмети в інших персонажів.</target>
       </segment>
     </unit>
     <unit id="::Mechanics" name="::Mechanics">
@@ -204,7 +220,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Represents your knowledge of mechanics. This skill is primarily used in crafting various items, such as weapons, armors and traps.</source>
-        <target state="new" />
+        <target state="needs-translation">Представляє ваші знання механіки. Ця навичка в основному використовується для створення різних предметів, таких як зброя, броня та пастки.</target>
       </segment>
     </unit>
     <unit id="::Electronics" name="::Electronics">
@@ -214,7 +230,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Represents your knowledge of electronics. This skill is primarily used in crafting various items, such as various electronic utilities and energy weapons.</source>
-        <target state="new" />
+        <target state="needs-translation">Представляє ваші знання електроніки. Ця навичка в основному використовується для створення різних предметів, таких як різні електронні прилади та енергетична зброя.</target>
       </segment>
     </unit>
     <unit id="::Chemistry" name="::Chemistry">
@@ -224,7 +240,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Represents your knowledge of chemistry. This skill is primarily used in crafting various items, such as explosives.</source>
-        <target state="new" />
+        <target state="needs-translation">Представляє ваші знання хімії. Ця навичка в основному використовується для створення різних предметів, таких як вибухові речовини.</target>
       </segment>
     </unit>
     <unit id="::Biology" name="::Biology">
@@ -234,7 +250,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Represents your knowledge of biology. This skill is primarily used in crafting various items, such as healing and psi restoring concoctions. It also enables you to extract useful substances from plants and animals.</source>
-        <target state="new" />
+        <target state="needs-translation">Представляє ваші знання біології. Ця навичка в основному використовується для створення різних предметів, таких як лікувальні та психічні зілля. Вона також дозволяє вам витягувати корисні речовини з рослин і тварин.</target>
       </segment>
     </unit>
     <unit id="::Tailoring" name="::Tailoring">
@@ -244,7 +260,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Represents your skill in tailoring leather and cloth materials into pieces of armor.</source>
-        <target state="new" />
+        <target state="needs-translation">Представляє вашу майстерність у пошитті шкіряних і тканинних матеріалів в частини броні.</target>
       </segment>
     </unit>
     <unit id="::Thought Control" name="::Thought Control">
@@ -254,7 +270,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Ability to influence the minds of other living creatures through mental suggestion and domination. Also the ability to focus and enhance your own mental processes and to take greater control of your body.</source>
-        <target state="new" />
+        <target state="needs-translation">Здатність впливати на розум інших живих істот за допомогою ментальних пропозицій і домінування. Також здатність концентруватися та покращувати власні розумові процеси та брати більший контроль над своїм тілом.</target>
       </segment>
     </unit>
     <unit id="::Psychokinesis" name="::Psychokinesis">
@@ -264,7 +280,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Ability of the mind to exert mechanical force, as well as to emit electric currents and project electromagnetic fields.</source>
-        <target state="new" />
+        <target state="needs-translation">Здатність розуму чинити механічну силу, а також випромінювати електричні струми та проектувати електромагнітні поля.</target>
       </segment>
     </unit>
     <unit id="::Metathermics" name="::Metathermics">
@@ -274,7 +290,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Ability of mind to initiate and control rapid temperature changes and harness exothermic and endothermic energies.</source>
-        <target state="new" />
+        <target state="needs-translation">Здатність розуму ініціювати та контролювати швидкі зміни температури та використовувати екзотермічні та ендотермічні енергії.</target>
       </segment>
     </unit>
     <unit id="::Temporal Manipulation" name="::Temporal Manipulation">
@@ -284,7 +300,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Ability of mind to manipulate time or time perception on very local level, including partial time suspension, reversal and recurrence.</source>
-        <target state="new" />
+        <target state="needs-translation">Здатність розуму маніпулювати часом або сприйняттям часу на дуже локальному рівні, включаючи часткове призупинення часу, зворотний хід і повторення.</target>
       </segment>
     </unit>
     <unit id="::Persuasion" name="::Persuasion">
@@ -294,7 +310,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Your ability to convince the other party to see things your way through non-violent means.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша здатність переконати іншу сторону подивитися на речі по-вашому ненасильницькими засобами.</target>
       </segment>
     </unit>
     <unit id="::Intimidation" name="::Intimidation">
@@ -304,7 +320,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Your ability to make someone act out of fear.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша здатність змусити когось діяти з страху.</target>
       </segment>
     </unit>
     <unit id="::Mercantile" name="::Mercantile">
@@ -314,7 +330,7 @@ Also, the higher your skill level the more advanced weapons you can wield effect
       </mda:metadata>
       <segment state="translated">
         <source>Your ability to work out favorable prices in a business transaction.</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша здатність вигідно торгуватися в діловій угоді.</target>
       </segment>
     </unit>
     <unit id="::Traps" name="::Traps">
@@ -326,7 +342,9 @@ Also, the higher your skill level the more advanced weapons you can wield effect
         <source>Allows you to plant and disarm increasingly more powerful traps. The higher your skill is the harder your traps are to spot and disarm.
 
 Also increases your chance of spotting traps.</source>
-        <target state="new" />
+        <target state="needs-translation">Дозволяє встановлювати та знешкоджувати все більш потужні пастки. Чим вищий ваш рівень навички, тим важче виявити та знешкодити ваші пастки.
+
+Також підвищує ваші шанси виявити пастки.</target>
       </segment>
     </unit>
   </file>

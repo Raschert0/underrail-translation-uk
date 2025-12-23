@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Sorry, $(#sir/ma'am), but I can't let you in.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, $(#sir/ma'am), але я не можу вас впустити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::The soldier quirks an eyebrow as he examines your security pass.:: 
 
 So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Солдат піднімає брову, розглядаючи ваш пропуск.::
+
+Тож... вас звати Боб? Дивне ім'я для жінки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: Oops, it seems I accidentally swapped my security pass with Bob.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконати]:: Ой, здається, я випадково переплутав свій пропуск з Бобом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>And what would your name be?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як вас звати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Nice try, but no one by that name works here. You're coming with me. ::He aims his weapon at you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не вдасться. Тут ніхто не працює під таким ім'ям. Ви йдете зі мною. ::Він наводить зброю на вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Wait, I am one of you guys. Corporal $(context.player.Name). Stationed at Fort Apogee.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекайте, я один з вас. Капрал $(context.player.Name). Служу у Форті Апогей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Shut up and put your hands in the air, zoner!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Замовкни і підніми руки вгору, зонер!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -90,7 +92,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::Resist arrest.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Опір арешту.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Kate Johnson.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Кейт Джонсон.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Tina Miller.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тіна Міллер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -120,7 +122,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Doris Davis.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Доріс Девіс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -130,7 +132,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Mary Scott.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мері Скотт.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -140,7 +142,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Never mind. I think I got the wrong building. Bye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Неважливо. Думаю, я помилився будівлею. Бувай.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>I don't think so. You're coming with me. ::He aims his weapon at you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не думаю. Ви йдете зі мною. ::Він наводить зброю на вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -160,7 +162,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бійся!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -170,7 +172,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Nice try, but you're coming with me. ::He aims his weapon at you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не вдасться, але ви йдете зі мною. ::Він наводить зброю на вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -180,7 +182,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>It's short for Kate.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це скорочено від Кейт.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -190,7 +192,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>You're one dumb zoner, aren't you? You're coming with me. ::He aims his weapon at you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти тупий зонер, чи що? Ти йдеш зі мною. ::Він наводить зброю на вас.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -200,7 +202,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>I think I got the wrong building. Excuse me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я, здається, помилився будівлею. Вибачте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -210,7 +212,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::Attack.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Атака.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -220,7 +222,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>You're late again, Bob. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти знову запізнився, Бобе. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -230,7 +232,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>And since when are you a marine?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І з якого часу ти морський піхотинець?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -240,7 +242,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: I had a bad day, man, just let me go inside before the commander notices.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконати]:: У мене був поганий день, друже, просто дозволь мені пройти всередину, поки командир не помітив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -250,7 +252,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Oh, he noticed already. He ordered that you report to him immediately. ::He speaks into his comm device and after a few moments the doors unlock.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, він вже помітив. Він наказав тобі негайно з'явитися до нього. ::Він говорить у свій комунікатор і через кілька моментів двері відмикаються.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -260,7 +262,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Good luck, man.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Удачі, друже.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -270,7 +272,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::He looks at you suspiciously.:: You are not Bob. You're coming with me! ::He aims his weapon at you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дивиться на тебе підозріло.:: Ти не Боб. Ти йдеш зі мною! ::Він наводить зброю на тебе.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -280,7 +282,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>This... is temporary. I left my armor inside.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це... тимчасово. Я залишив свою броню всередині.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -290,7 +292,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>No you didn't...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, не залишив...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -300,7 +302,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>And why aren't you in your uniform?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І чому ти не у формі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -310,7 +312,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>I left it inside.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я залишив її всередині.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -320,7 +322,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -330,7 +332,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::The soldier quirks and eyebrow as he examines your security pass.:: Say, Bob... There's something different about you today.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Солдат піднімає брову, розглядаючи твій пропуск безпеки.:: Гм, Бобе... Ти сьогодні якийсь інший.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -340,7 +342,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Can't quite put my finger on it. You're just looking a bit...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не можу зрозуміти, що саме. Ти просто виглядаєш трохи...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -350,7 +352,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>...pale today.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">...блідим сьогодні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -360,7 +362,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::He aims his weapon at you.:: Alright, buster, the jig is up.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він наводить зброю на тебе.:: Гаразд, хлопче, все скінчено.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -370,7 +372,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Move along, citizen. This is a restricted area.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Проходьте, громадянине. Це закрита територія.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -380,7 +382,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Aren't you going to salute me, soldier?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти не збираєшся вітати мене, солдате?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -390,7 +392,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Salute you? Who are you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вітати тебе? Хто ти такий?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -400,7 +402,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>I am Corporal $(context.player.Name) and I need to get inside.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я капрал $(context.player.Name) і мені потрібно пройти всередину.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -410,7 +412,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Yeah? On whose orders?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так? За чиїм наказом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -420,7 +422,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Colonel Cathcart himself sent me here to perform an inspection.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сам полковник Кетхарт відправив мене сюди для проведення інспекції.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -430,7 +432,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Well, I wasn't informed anyone by that name was supposed to arrive. So I can't let you in. Orders.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене ніхто не повідомляв про прибуття людини з таким іменем. Тому я не можу тебе впустити. Наказ.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -440,7 +442,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>But I am a corporal. I have a higher rank.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але я капрал. Я маю вищий ранг.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -450,7 +452,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Listen, $(#sir/ma'am), I am going to talk slower now: I... cannot... let... you... in. $(#Sir/Ma'am).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Слухай, $(#сер/пані), я зараз говоритиму повільніше: я... не... можу... тебе... впустити. $(#Сер/Пані).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -460,7 +462,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>May I speak to your commanding officer?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можу я поговорити з вашим командувачем?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -470,7 +472,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>To Captain Wilkins?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">З капітаном Вілкінсом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -480,7 +482,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Yes.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -490,7 +492,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>No.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -500,7 +502,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Very good. Carry on, soldier.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже добре. Продовжуй, солдате.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -510,7 +512,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>I will, $(#sir/ma'am). Um... ::He salutes you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я продовжу, $(#сер/пані). Ем... ::Він вітає тебе.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -520,7 +522,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -530,7 +532,7 @@ So... your name is Bob then? That's a strange name for a woman.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>Move along, citizen. This is a restricted area.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Проходьте, громадянине. Це закрита територія.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

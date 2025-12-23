@@ -13,7 +13,12 @@
 ::Hits: $(context.ShootingRangeConsoleData.Hits) ($(context.ShootingRangeConsoleData.HitsPercentage)%)::
 ::Misses: $(context.ShootingRangeConsoleData.Misses) ($(context.ShootingRangeConsoleData.MissesPercentage)%)::
 ::Average damage: $(context.ShootingRangeConsoleData.AverageDamage)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Сеанс у процесі.::
+
+::Загальна кількість пострілів: $(context.ShootingRangeConsoleData.TotalShots)::
+::Попадання: $(context.ShootingRangeConsoleData.Hits) ($(context.ShootingRangeConsoleData.HitsPercentage)%)::
+::Промахи: $(context.ShootingRangeConsoleData.Misses) ($(context.ShootingRangeConsoleData.MissesPercentage)%)::
+::Середня шкода: $(context.ShootingRangeConsoleData.AverageDamage)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -23,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::End session::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Завершити сеанс::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -38,7 +43,12 @@
 ::Hits: $(context.ShootingRangeConsoleData.Hits) ($(context.ShootingRangeConsoleData.HitsPercentage)%)::
 ::Misses: $(context.ShootingRangeConsoleData.Misses) ($(context.ShootingRangeConsoleData.MissesPercentage)%)::
 ::Average damage: $(context.ShootingRangeConsoleData.AverageDamage)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Сеанс завершено. Підсумкова статистика: ::
+
+::Загальна кількість пострілів: $(context.ShootingRangeConsoleData.TotalShots)::
+::Попадання: $(context.ShootingRangeConsoleData.Hits) ($(context.ShootingRangeConsoleData.HitsPercentage)%)::
+::Промахи: $(context.ShootingRangeConsoleData.Misses) ($(context.ShootingRangeConsoleData.MissesPercentage)%)::
+::Середня шкода: $(context.ShootingRangeConsoleData.AverageDamage)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -48,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -58,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Continue session::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Продовжити сеанс::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -70,7 +80,9 @@
         <source>::Welcome to the Shooting Range. 
 
 What do you wish to do?::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо на стрільбище. 
+
+Що ви хочете зробити?::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -80,7 +92,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Configure target distance::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Налаштувати відстань до цілі::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -90,7 +102,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Choose target distance.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Оберіть відстань до цілі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -100,7 +112,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::5 meters::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::5 метрів::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -110,7 +122,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::8 meters::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::8 метрів::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -120,7 +132,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::10 meters::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::10 метрів::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -130,7 +142,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave it as it is::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залишити як є::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -140,7 +152,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Start new session::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Почати новий сеанс::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -150,7 +162,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Session started.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сеанс розпочато.</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -160,7 +172,7 @@ What do you wish to do?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Покинути::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

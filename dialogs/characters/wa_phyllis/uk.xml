@@ -10,7 +10,9 @@
         <source>::The woman turns toward you, slowly and calmly. She looks at you with emotionless eyes, greets you with an impassive expression, and speaks to you in a toneless voice.::
 
 $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or if you prefer a different term, I offer "medical attention."&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Жінка повільно та спокійно повертається до вас. Вона дивиться на вас безпристрасними очима, вітає вас незворушним виразом обличчя і говорить вам безбарвним голосом.::
+
+$(context.player.Name). Я Філіс, і я виконую ремонт всіх окулітів, або, якщо ви віддаєте перевагу іншому терміну, я пропоную "медичну допомогу".&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -20,7 +22,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>Nice to meet you, Phyllis.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Приємно познайомитися, Філіс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>The pleasure is mine. If you get damaged, do not hesitate to see me. During my time here, not a single one of my patients expired.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Взаємно. Якщо ви отримаєте пошкодження, не соромтеся звертатися до мене. За час моєї роботи тут жоден з моїх пацієнтів не помер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>Expired?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Помер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>Dead, deceased, departed... One that has ceased to be.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Померлий, покійний, відійшов... Той, хто припинив існування.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -60,7 +62,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>I have no wish to expire. I'll see you if I need help.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не хочу померти. Я звертаюся до вас, якщо мені знадобиться допомога.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>Please do. All treatment will be free of charge.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка. Все лікування буде безкоштовним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -90,7 +92,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>Show me what you have for sale. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Покажіть мені, що у вас є для продажу. ::Торгівля.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>Could you take a look at my injuries?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи не могли б ви подивитися на мої травми?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -110,7 +112,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>You are severely damaged, $(context.player.Name). I will fix you up.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви серйозно пошкоджені, $(context.player.Name). Я вас полагожу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -120,7 +122,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>::Let her treat you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дозвольте їй вас лікувати.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -130,7 +132,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>You are lightly damaged. The repairs will not take too long.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви злегка пошкоджені. Ремонт не займе багато часу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -140,7 +142,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>You mentioned "repairing" Oculites...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви згадали "ремонтування" Окулітів...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>Yes, that is what I said. Why? Is that term bothering you in that particular context?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, я це сказала. Чому? Цей термін вас турбує в цьому конкретному контексті?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -160,7 +162,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>It does, actually. How can you say that you "repair" human beings? Unless there's something I'm missing here...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, насправді. Як ви можете говорити про "ремонт" людей? Якщо я чогось не розумію...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -170,7 +172,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>You are not the first person to tell me that. Let me explain to you why I use such terminology.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви не перша людина, яка мені це каже. Дозвольте мені пояснити вам, чому я використовую таку термінологію.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -180,7 +182,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>I understand that we, humans, have this belief that we are somehow special, somehow unique, that we somehow possess a certain property, perhaps... a soul if you will. Some would say that we were created by a higher power even. Whatever the specific case, it comes down to our lack of understanding, or better yet, our lack of knowledge about humans or other living creatures, that makes us think so.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію, що ми, люди, маємо цю віру, що ми якимось чином особливі, якимось чином унікальні, що ми якимось чином володіємо певною властивістю, можливо... душею, якщо хочете. Дехто скаже, що нас створила вища сила. Незалежно від конкретного випадку, все зводиться до нашого нерозуміння, або краще сказати, відсутності знань про людей чи інші живі істоти, що змушує нас так думати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -190,7 +192,7 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
       </mda:metadata>
       <segment state="translated">
         <source>From my perspective, the reality is different. When I look at a living body, I see muscles that contract to pull the tendons that bend the arm; I see a heart, a simple pump, the most easily replaced organ, doing just that - pumping fluid. I see that same fluid containing red blood cells, which in turn contain hemoglobin, which contains iron molecules that bind with the oxygen, which is latter carried to the cells to fuel them with that very oxygen - fuel.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">З моєї точки зору, реальність інша. Коли я дивлюся на живе тіло, я бачу м'язи, які скорочуються, щоб тягнути сухожилля, які згинають руку; я бачу серце, простий насос, найлегший для заміни орган, який робить саме це - перекачує рідину. Я бачу ту саму рідину, що містить червоні кров'яні клітини, які, в свою чергу, містять гемоглобін, який містить молекули заліза, які зв'язуються з киснем, який пізніше переноситься до клітин, щоб забезпечити їх цим киснем - паливом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -203,7 +205,9 @@ $(context.player.Name). I am Phyllis, and I perform repairs on all oculites, or 
 
 And only if I see it as such - a living machine - will I be able to reach a new level, reach new frontiers of medicine... and perhaps one day "repair" something that we dared not touch, for we were observing it from the wrong angle, our perception impeded by false presumptions.
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все це... механізми, хімічні реакції, електричні сигнали... всередині наших тіл змушує їх функціонувати. І все це менші живі істоти, які складають ціле, більше створіння, яке помилково вважає себе унікальною сутністю - неповторним. Воно складається з плоті, так, але по суті це ніщо інше, як складний механізм, і я їх ремонтую.
+
+І тільки якщо я бачу це саме так - як живий механізм - я зможу досягти нового рівня, досягти нових горизонтів медицини... і, можливо, одного дня "відремонтувати" щось, до чого ми навіть не наважувалися торкатися, бо спостерігали за цим під неправильним кутом, наше сприйняття було затьмарене хибними припущеннями.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -213,7 +217,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>There you are. And one more thing that I like to point out whenever this discussion gets brought up: All living things, including us human beings, are mainly made from some of the most common chemical elements: hydrogen, oxygen, carbon and nitrogen. If we were somehow special... somehow unique or, yes, even *created* by something or someone greater - in case you believe something like that - then why aren't we made from, say, polonium? Or bismuth, yes... That would make us *very* unique, don't you think?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось ви і є. І ще одне, що я люблю нагадувати, коли ця дискусія піднімається: Всі живі істоти, включаючи нас, людей, в основному складаються з деяких з найпоширеніших хімічних елементів: водню, кисню, вуглецю та азоту. Якщо б ми були якимось чином особливими... якимось чином унікальними або, так, навіть *створеними* чимось або кимось більшим - якщо ви в це вірите - то чому ми не складаємося, скажімо, з полонію? Або вісмуту, так... Це зробило б нас *дуже* унікальними, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -223,7 +227,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>Think about it. I have not told you anything untrue.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Подумайте про це. Я не сказала вам нічого неправдивого.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -233,7 +237,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>I just find the choice of words strange. That is all.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я просто вважаю вибір слів дивним. Це все.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -243,7 +247,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>In that case, I will give you an explanation, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У такому випадку я дам вам пояснення, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -253,7 +257,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>It doesn't bother me, not at all. I just suspect that there is a reason for using that specific word in that context, and I'd like to hear it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це мене не турбує, зовсім ні. Я просто підозрюю, що є причина використовувати це конкретне слово в цьому контексті, і я хотів би її почути.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -263,7 +267,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Oculus?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Окулус?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -273,7 +277,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>As far as I am aware, unknown beings, dubbed Godmen by Azif, built Oculus for purposes... unknown. I have inquired about this subject on numerous occasions, but most of the answers can be summed up with, "We're not sure, but we think..."&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наскільки мені відомо, невідомі істоти, яких Азіф назвав Бог-людьми, побудували Окулус з цілями... невідомими. Я неодноразово запитувала про це, але більшість відповідей можна підсумувати так: "Ми не впевнені, але ми думаємо..."&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -283,7 +287,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>Living in a place you know little about can be both fascinating and frightening. And yes, I have emotions, despite what *you* may think of me; I noticed your stare. Now, fascinating, I think it is obvious why. Oculus is so much more advanced than anything what you will find outside of it. Also, every new discovery we make opens new possibilities and knowledge. Frightening, I think it's also obvious why...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Жити в місці, про яке ви мало знаєте, може бути одночасно захоплююче і лякаюче. І так, я відчуваю емоції, незважаючи на те, що *ви* можете про мене думати; я помітила ваш погляд. Зараз, захоплююче, я думаю, це очевидно чому. Окулус набагато передовіший за все, що ви знайдете за його межами. Також кожне нове відкриття, яке ми робимо, відкриває нові можливості та знання. Лякаюче, я думаю, це також очевидно чому...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -293,7 +297,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>Ignoring the deadly drop - if you trip and fall into the darkness - which, granted, never destroyed any oculites so far - who knows what else we will find here. Maybe one day, our curiosity will lead us to our destruction. No one can tell for certain.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ігноруючи смертельне падіння - якщо ви спіткнетеся і впадете в темряву - яке, правда, ще нікого з окулітів не знищило - хто знає, що ще ми тут знайдемо. Можливо, одного дня наша цікавість призведе нас до загибелі. Ніхто не може сказати напевно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -303,7 +307,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>Are you a machine?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви машина?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -313,7 +317,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>::She stares at you blankly.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона дивиться на вас порожнім поглядом.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -323,7 +327,7 @@ And only if I see it as such - a living machine - will I be able to reach a new 
       </mda:metadata>
       <segment state="translated">
         <source>I may seem like one, due to my views and behavior, but I am not.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я можу здаватися такою через мої погляди та поведінку, але я не така.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -335,7 +339,9 @@ And only if I see it as such - a living machine - will I be able to reach a new 
         <source>::A genuine smile shatters her bland expression.::
 
 Does that make you feel better?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Справжня посмішка руйнує її нудний вираз обличчя.::
+
+Це змушує вас почуватися краще?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -345,7 +351,7 @@ Does that make you feel better?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How and why did you join Oculus?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як і чому ви приєдналися до Окулуса?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -355,7 +361,7 @@ Does that make you feel better?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Everyone in Oculus was carefully evaluated for a prolonged time before finally being approached with the offer to join Oculus. Such was my case, yet, unlike most oculites here, I did not seek Oculus... Oculus sought me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Кожного в Окулусі ретельно оцінювали протягом тривалого часу, перш ніж нарешті запропонувати приєднатися до Окулуса. Так було і в моєму випадку, але, на відміну від більшості окулітів тут, я не шукала Окулуса... Окулус шукав мене.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -365,7 +371,7 @@ Does that make you feel better?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can you explain?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поясніть?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -375,7 +381,7 @@ Does that make you feel better?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Certainly. Most oculites started out by performing smaller, simpler jobs. Then, naturally, as they progressed and displayed the ability to perform more difficult tasks, they were given more difficult tasks, and if they could perform even more difficult, they were give those, and so on and so forth.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно. Більшість окулітів починали з виконання менших, простіших завдань. Потім, природно, коли вони прогресували та демонстрували здатність виконувати більш складні завдання, їм давали більш складні завдання, і якщо вони могли виконувати ще більш складні, їм давали ті, і так далі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -387,7 +393,9 @@ Does that make you feel better?&lt;end&gt;</source>
         <source>I will take this opportunity, $(context.player.Name), to say a few words about the progression of an oculite: In Oculus, there are no ranks, levels or titles to attain; we are all the same, and we are not. You will always be an oculite, but some oculites are better than others, and it is the level of your own skills and abilities that determines your duties - hence your place in Oculus - not hierarchical gradation.
 
 In any case, let us get back to the subject at hand.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я скористаюся цією нагодою, $(context.player.Name), щоб сказати кілька слів про прогрес окуліта: В Окулусі немає рангів, рівнів чи звань, які можна отримати; ми всі однакові, і ми не однакові. Ви завжди будете окулітом, але деякі окуліти кращі за інших, і рівень ваших навичок і здібностей визначає ваші обов’язки - отже, ваше місце в Окулусі - а не ієрархічна градація.
+
+У будь-якому випадку, повернемося до суті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -397,7 +405,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I was selected based on my performance as a physician and my will to perfect my skills to the absolute maximum. I was approached and offered advanced medical knowledge, beyond what I had available at the time, in exchange for becoming a part of Oculus. I could not refuse.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене обрали на основі моєї роботи як лікаря та моєї волі вдосконалити свої навички до абсолютного максимуму. До мене звернулися та запропонували передові медичні знання, недоступні мені на той час, в обмін на те, щоб стати частиною Окулуса. Я не могла відмовитися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -407,7 +415,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I do not regret my decision. Not even a bit.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не шкодую про своє рішення. Зовсім ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -417,7 +425,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Who is that six-fingered cyborg?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто цей шестипалий кіборг?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -427,7 +435,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>A fascinating creature, unlike any I have ever seen, and I am sure I am not speaking only for myself. He does not seem very concerned with any one of us and performs his own tasks within Oculus as if he were alone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Захоплива істота, на відміну від будь-якої, яку я коли-небудь бачив, і я впевнений, що я говорю не тільки за себе. Здається, він зовсім не переймається ніким з нас і виконує свої завдання в Окулусі, ніби він сам по собі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -437,7 +445,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What does he do around here, exactly?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що саме він тут робить?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -447,7 +455,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>He is one of the clients. Azif informed us that he is allowed to move freely around Oculus, and that he is not to be disturbed. I have not seen him in some time, though, but he might return at any moment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він один з клієнтів. Азіф повідомив нам, що йому дозволено вільно пересуватися по Окулусу, і що його не слід турбувати. Я не бачив його вже деякий час, але він може повернутися будь-якої миті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -457,7 +465,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>He is one of the clients. Azif told us that he can move freely around Oculus, and that he is not to be disturbed. That is all I can tell you about him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він один з клієнтів. Азіф сказав нам, що він може вільно пересуватися по Окулусу, і що його не слід турбувати. Це все, що я можу вам про нього сказати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -467,7 +475,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Interesting, but I have other questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цікаво, але у мене є інші питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -477,7 +485,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am sure you do.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я впевнений, що так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -487,7 +495,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about those robed oculites? &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про цих одягнених у мантії окулітів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -497,7 +505,7 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Khazum Morakht? We call them Whisperers, but that is the proper name of the clan they belong to. They came from North Underrail, as far as I understood. I could be wrong, though. You will find them throughout Oculus, standing in silence and almost completely motionless.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хазум Морахт? Ми називаємо їх Шептунами, але це правильна назва клану, до якого вони належать. Вони прийшли з Північного Андеррейлу, наскільки я зрозумів. Хоча я можу помилятися. Ви знайдете їх по всьому Окулусу, що стоять у мовчанні та майже повністю нерухомо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -509,7 +517,9 @@ In any case, let us get back to the subject at hand.&lt;end&gt;</source>
         <source>Their task is to guard Oculus, but frankly, they have not seen much action, and you can presume why. At least not since I arrived here.
 
 You will get used to their presence soon.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Їхнє завдання – охороняти Окулус, але, відверто кажучи, вони не бачили багато дії, і ви можете здогадатись чому. Принаймні, не з мого прибуття сюди.
+
+Ви швидко звикнете до їхньої присутності.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -519,7 +529,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'd like to ask you about some of the people here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би запитати вас про деяких людей тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -529,7 +539,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>If you want to know more about other oculites, ask them yourself.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви хочете дізнатися більше про інших окулітів, запитайте їх самих.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -539,7 +549,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That is my recommendation.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це моя рекомендація.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -549,7 +559,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye, Phyllis.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення, Філіс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -559,7 +569,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It's a pleasure, Doctor.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже приємно, докторе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -569,7 +579,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hey there, how's it going?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, як справи?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -579,7 +589,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It... is going well. Thank you for asking.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все... добре. Дякую, що запитали.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -589,7 +599,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Remain silent.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залишайтеся мовчазними.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -599,7 +609,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::She also remains silent, probably waiting for you to say something.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона також залишається мовчазною, ймовірно, чекаючи, поки ви щось скажете.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -609,7 +619,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Remain silent.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залишайтеся мовчазними.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -619,7 +629,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Did you want to talk to me about something?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви хотіли щось зі мною обговорити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -629,7 +639,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So, I had some questions I wanted to ask you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, у мене було кілька питань, які я хотів вам задати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -639,7 +649,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Go ahead, I am listening.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Продовжуйте, я слухаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
@@ -649,7 +659,7 @@ You will get used to their presence soon.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

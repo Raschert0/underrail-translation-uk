@@ -10,7 +10,9 @@
         <source>::You enter the office to see a short, thin man already standing behind his desk to greet you. Neatly dressed, neatly shaved, smooth-faced - and scar-free - and in possession of straight white teeth - this man is a Northerner. He greets you with a polite voice.::
 
 Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). We've been expecting you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви заходите в офіс і бачите невисокого, худорлявого чоловіка, який вже стоїть за своїм столом, щоб привітати вас. Охайно одягнений, охайно поголений, з гладким обличчям - і без шрамів - і з рівними білими зубами - цей чоловік з Півночі. Він вітає вас ввічливим голосом.::
+
+Ласкаво просимо до посольства Об'єднаних Станцій, $(#Містере/Міс) $(context.player.Name). Ми вас чекали.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
       </mda:metadata>
       <segment state="translated">
         <source>Major Clifton told me you wanted to talk to me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Майор Кліфтон сказав мені, що ви хотіли поговорити зі мною.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
       </mda:metadata>
       <segment state="translated">
         <source>Ah, yes, the Major told me that you were an integral part in the recovery of the missing train. We were aware of the Free Drones threat in the South, but so far the've never been... this bold. Not in South Underrail, that is.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ах, так, Майор розповів мені, що ви відіграли важливу роль у відновленні зниклого потяга. Ми знали про загрозу Вільних Дронів на Півдні, але досі вони ніколи не були… настільки зухвалими. Принаймні, не в Південному Підземному Залізничному Шляху.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -60,7 +62,7 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
       </mda:metadata>
       <segment state="translated">
         <source>They sure have. But they couldn't fool you, $(context.player.Name). That's why I have a simple proposal for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони так і зробили. Але вони не змогли тебе обдурити, $(context.player.Name). Саме тому я маю просту пропозицію для тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
       </mda:metadata>
       <segment state="translated">
         <source>You want to offer me a job?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви хочете запропонувати мені роботу?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
       </mda:metadata>
       <segment state="translated">
         <source>Offer might not be the right word; it's better to say, refer to you to someone who can. You see, it is my belief that you can be a powerful ally to the Underrail Protectorate and the United Stations. From how I understood Miss Hale, you've proven yourself quite, quite resourceful to SGS. And while I had no reason to doubt her, only after the recent events have I realized exactly how correct she was.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Пропозиція – не зовсім правильне слово; краще сказати, я можу направити вас до когось, хто зможе. Знаєте, я вважаю, що ви можете стати потужним союзником для Охорони Підземного Шляху та Об’єднаних Станцій. З того, що я зрозумів від міс Хейл, ви вже зарекомендували себе як досить, досить винахідливий агент SGS. І хоча у мене не було причин сумніватися в ній, лише після останніх подій я усвідомив, наскільки вона була права.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
       </mda:metadata>
       <segment state="translated">
         <source>I've talked to some people and we have agreed that it would be beneficial for us all, United Stations, as well as you and South Gate Station, if you were to join the Protectorate ranks. Not as a common footsoldier, no. You are more valuable than that. Rather, as someone who will perform more important tasks.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я поговорив з деякими людьми, і ми погодилися, що було б вигідно для всіх нас, Об'єднаних Станцій, а також для вас і станції Південні Ворота, якщо б ви приєдналися до лав Протекторату. Не як звичайний піхотинець, ні. Ви цінніші за це. Скоріше, як той, хто виконуватиме важливіші завдання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
       </mda:metadata>
       <segment state="translated">
         <source>What sort of tasks we talking about, exactly?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Про які саме завдання йдеться?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -112,7 +114,9 @@ Welcome to the United Stations embassy, $(#Mister/Miss) $(context.player.Name). 
         <source>Your primary role will mostly be a military-oriented one, meaning you will be a part of Underrail Protectorate operations. Let's say... another train goes missing! Aren't you the right person for the job? ::He laughs.:: But, joking aside, there is more to it: You will also act as a representative of South Gate Station. Our cooperation has been very limited so far, sadly, despite Ms. Hale's commendable dedication; your involvement could elevate it to the next level.
 
 But, more on that later; I best leave something for the consul. ::He smiles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша основна роль буде переважно військовою, тобто ви будете брати участь в операціях Підземного Залізничного Шляху Протекторату. Скажімо… зник ще один потяг! Хіба ви не та людина, яка підходить для цієї роботи? ::Він сміється.:: Але, жартуючи в сторону, є ще дещо: ви також будете виступати представником станції Південні Ворота. Наша співпраця була дуже обмеженою досі, на жаль, незважаючи на похвальну відданість пані Хейл; ваша участь може підняти її на новий рівень.
+
+Але більше про це пізніше; я краще залишу щось для консула. ::Він посміхається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -122,7 +126,7 @@ But, more on that later; I best leave something for the consul. ::He smiles.::&l
       </mda:metadata>
       <segment state="translated">
         <source>What do I get out of all this?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що я маю з цього всього?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -134,7 +138,9 @@ But, more on that later; I best leave something for the consul. ::He smiles.::&l
         <source>I think that is obvious. The Protectorate is the most powerful entity in the Underrail. You will be compensated financially, and will be ensured safety and protection. That alone is worth it in this world.
 
 But, on a grand scale, you will be helping us protect our citizens and take part in building a better future. That is priceless, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я думаю, це очевидно. Протекторат є найпотужнішою організацією в Андеррейлі. Вам буде виплачено фінансову компенсацію, і вам буде гарантовано безпеку та захист. Саме це варте того в цьому світі.
+
+Але, в ширшому масштабі, ви допоможете нам захистити наших громадян і взяти участь у побудові кращого майбутнього. Це безцінно, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -144,7 +150,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>The choice is yours. If you are interested in becoming a part of the Protectorate, reach out to Consul Oliver in Fort Apogee, Upper Underrail. I had already contacted the consul and explained to him the whole situation, so he is expecting your arrival, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибір за вами. Якщо ви зацікавлені у приєднанні до Протекторату, зверніться до консула Олівера у Форт Апогей, Верхня Підземка. Я вже зв'язався з консулом і пояснив йому всю ситуацію, тому він очікує на ваш приїзд, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -154,7 +160,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>I'll think about it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подумаю над цим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -164,7 +170,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>I understand perfectly well it's not an easy choice for you to make. Nevertheless, I think it would be the correct one.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я чудово розумію, що це нелегкий вибір для вас. Проте, я думаю, що це було б правильним рішенням.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -174,7 +180,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>Is the pay good?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи хороша оплата?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -184,7 +190,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>You will be compensated generously, have no fear. But try to look at the bigger picture. You will be assisting us protect our citizens and take part in building a finer future for everyone. That is priceless, $(context.player.Name), I sincerely hope you agree.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вам буде щедро компенсовано, не бійтеся. Але спробуйте подивитися на ширшу картину. Ви допоможете нам захистити наших громадян і взяти участь у побудові кращого майбутнього для всіх. Це безцінно, $(context.player.Name), я щиро сподіваюся, ви погодитеся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -194,7 +200,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>I'm all ears, Ambassador.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я весь увага, посол.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -204,7 +210,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name), you have great potential. You see, it is my belief that you can be a powerful ally to the Underrail Protectorate and the United Stations. From how I understood Miss Hale, you've proven yourself quite, quite resourceful to SGS. And while I had no reason to doubt her, only after the recent events have I realized exactly how correct she was.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name), ви маєте великий потенціал. Бачите, я вірю, що ви можете стати потужним союзником Протекторату Підземних Залізниць та Об'єднаних Станцій. З того, що я зрозумів від міс Хейл, ви вже зарекомендували себе як досить, досить винахідливий співробітник SGS. І хоча у мене не було причин сумніватися в ній, лише після останніх подій я усвідомив, наскільки вона була права.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -214,7 +220,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>Free Drones? But I thought they were just ordinary bandits.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вільні Дрони? Але я думав, що це звичайні бандити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -224,7 +230,7 @@ But, on a grand scale, you will be helping us protect our citizens and take part
       </mda:metadata>
       <segment state="translated">
         <source>Bandits they are, indeed... but, not ordinary bandits, no. The train was actually hijacked by the Free Drones. They are a menace that followed us from North Underrail, trying to prevent us from unifying all the unprotected stations.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Бандити вони, справді... але не звичайні бандити, ні. Потяг насправді був захоплений Вільними Дронами. Вони – загроза, яка прийшла до нас з Північної Підземки, намагаючись не дати нам об'єднати всі незахищені станції.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -236,7 +242,9 @@ But, on a grand scale, you will be helping us protect our citizens and take part
         <source>Just take a look at the missing train scenario, the one you experienced. The Free Drones intercepted supplies headed to Rail Crossing, which was, at the time, attacked by the Faceless, and is constantly threatened by bandit raids. Tell me, $(context.player.Name), do these people, the *Free* Drones, seem like they want to help the people of this region?
 
 No, they see *us* as the bad guys, yet their actions show how inconsiderate and selfish they truly are.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто подивіться на сценарій з відсутнім потягом, той, який ви пережили. Вільні Дрони перехопили поставки, що прямували до Перехрестя, яке на той час було атаковано Безликими, і постійно зазнає нападів бандитів. Скажіть мені, $(context.player.Name), чи ці люди, *Вільні* Дрони, здаються такими, що хочуть допомогти людям цього регіону?
+
+Ні, вони бачать *нас* як поганих хлопців, але їхні дії показують, наскільки вони недбалі та егоїстичні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -246,7 +254,7 @@ No, they see *us* as the bad guys, yet their actions show how inconsiderate and 
       </mda:metadata>
       <segment state="translated">
         <source>I'm glad you chose the right side, $(context.player.Name), and that is why I have a proposal for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я радий, що ви обрали правильну сторону, $(context.player.Name), і саме тому у мене є пропозиція для вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -256,7 +264,7 @@ No, they see *us* as the bad guys, yet their actions show how inconsiderate and 
       </mda:metadata>
       <segment state="translated">
         <source>What is Fort Apogee and how do I get there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що таке Форт Апогей і як туди дістатися?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -268,7 +276,9 @@ No, they see *us* as the bad guys, yet their actions show how inconsiderate and 
         <source>Fort Apogee is the core of all Protectorate operations in the South. It was constructed - let me think - about five... four-five years ago in Upper Underrail, as a forward operations base in South Underrail. Sadly, the turbulent nature of Core City's leaders proved... troubling, to put it mildly, since going through the city itself is basically the only viable way to move between Upper and Lower Underrail.
 
 I guess no one anticipated such problems with the Oligarchy. Nevertheless, we manage somehow.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Форт Апогей є ядром усіх операцій Протекторату на Півдні. Його було збудовано – дозвольте подумати – приблизно п’ять… чотири-п’ять років тому у Верхньому Андеррейлі, як передову оперативну базу в Південному Андеррейлі. На жаль, нестабільна природа лідерів Центрального Міста виявилася… тривожною, м’яко кажучи, оскільки проходження через саме місто є практично єдиним життєздатним способом пересування між Верхнім та Нижнім Андеррейлем.
+
+Гадаю, ніхто не очікував таких проблем з Олігархією. Проте, ми якось справляємося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -278,7 +288,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>The United Stations consulate lies within the base perimeter, and is open to all our citizens should they need some sort of protection. All in all, to reach Fort Apogee you would need to enter Upper Underrail through Core City. You could take the train from Core City's Upper Underrail station or, if for some reason you can't use the train, you could get to it on foot by following the green metro line.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Консульство Об’єднаних Станцій розташоване в межах периметра бази та відкрите для всіх наших громадян, якщо їм потрібен певний захист. Загалом, щоб дістатися до Форту Апогей, вам потрібно буде увійти у Верхній Андеррейль через Центральне Місто. Ви можете сісти на потяг зі станції Верхнього Андеррейля в Центральному Місті або, якщо з якихось причин ви не можете скористатися потягом, ви можете дістатися туди пішки, слідуючи зеленою лінією метро.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -288,7 +298,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Black Eels are preparing to move against the Scrappers and they are asking for your support.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чорні Вужі готуються напасти на Збирачів і просять вашої підтримки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -298,7 +308,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>::The ambassador seems somewhat alarmed.:: We expected this to happen eventually, but not this soon. The tension between these two... factions has been steadily growing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Посол здається дещо стурбованим.:: Ми очікували, що це станеться зрештою, але не так скоро. Напруга між цими двома… фракціями постійно зростала.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -308,7 +318,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>We would like to aid them, but I'm afraid that until the replacement for Second Lieutenant Garren arrives, I am not allowed to authorize such an operation.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми хотіли б їм допомогти, але боюся, що поки не прибуде заміна другому лейтенанту Гаррену, мені не дозволено санкціонувати таку операцію.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -318,7 +328,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>We will aid them, but in turn they will have to allow us to have some military presence on both the docks and the Old Junkyard gate. Let me know if these terms are acceptable.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми допоможемо їм, але в обмін вони повинні дозволити нам мати певну військову присутність як на доках, так і біля воріт Старого Звалища. Повідомте мені, чи прийнятні ці умови.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -328,7 +338,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>I need to talk to someone about a train that was supposed to arrive to Rail Crossing?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно поговорити з кимось про потяг, який мав прибути на Перехрестя?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -338,7 +348,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>You'll have to talk to Major Clifton, the commanding officer of South Railroad Outpost about that. SRO is right above us.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вам доведеться поговорити з майором Кліфтоном, командувачем Південного Залізничного Посту, з цього приводу. ПЗП прямо над нами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -348,7 +358,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>You can use the elevator to get up there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете скористатися ліфтом, щоб піднятися туди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -358,7 +368,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Since it's official business, I'll allow you access to the elevator that will get you up there. Just take the corridor next the embassy entrance and you'll find it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Оскільки це службове питання, я дозволю вам доступ до ліфта, який доставить вас туди. Просто пройдіть коридором поруч із входом до посольства, і ви його знайдете.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -368,7 +378,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the Free Drones?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Вільних Дронів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -378,7 +388,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>They're nothing but a group of violent anarchists. Sure, they cause some trouble to the Protectorate, but so do the Ironheads, Lunatics or other unwanted groups. They claim we're the bad guys, and they openly rebel against all of us, both the Protectorate and the United Stations. Us, who help stations survive these harsh conditions and protect their citizens against raiders and bandits!?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони ніщо інше, як група насильницьких анархістів. Звичайно, вони завдають певних проблем Протекторату, але так само, як і Залізна Голова, Божевільні або інші небажані групи. Вони стверджують, що ми – погані хлопці, і відкрито повстають проти всіх нас, як Протекторату, так і Об’єднаних Станцій. Ми, які допомагаємо станціям виживати в цих суворих умовах і захищаємо їхніх громадян від рейдерів і бандитів!?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -388,7 +398,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Sad, misguided people... but they are becoming a threat, and I'm afraid diplomacy can't help much there. Protectorate will have to apply harsher measures.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сумні, заблукалі люди... але вони стають загрозою, і я боюся, що дипломатія тут мало чим допоможе. Протекторат муситиме застосувати більш жорсткі заходи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -398,7 +408,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Do you think they're behind the hacking of the Junkyard network?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи вважаєте ви, що вони стоять за зломом мережі Звалища?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -408,7 +418,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -418,7 +428,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Most likely, Corporal. But I am reluctant to blame everything on the Free Drones, because if we allow ourselves that, then we might unintentionally become less attentive of our other enemies' actions; Free Drones are not the only ones, you know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Найімовірніше, корпусе. Але я не схильний звинувачувати у всьому Вільних Дронів, тому що якщо ми дозволимо собі це, то можемо ненавмисно стати менш уважними до дій наших інших ворогів; Вільні Дрони – не єдині, знаєте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -428,7 +438,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>We'll wait for the official investigation to complete, then we'll know for sure.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми дочекаємося завершення офіційного розслідування, тоді ми точно дізнаємося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -438,7 +448,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>I don't know. Perhaps. Perhaps not. I'd rather not comment on it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знаю. Можливо. Можливо, ні. Я б не хотів це коментувати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -448,7 +458,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>I had other questions for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене були інші питання до вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -458,7 +468,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -468,7 +478,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Silas has agreed to your terms.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Силас погодився на ваші умови.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -478,7 +488,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>::He nods.:: We will send an agent to coordinate battle plans.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.:: Ми відправимо агента для координації планів битви.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -488,7 +498,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Vera sent you these trading documents. ::Give him the documents.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вера надіслала вам ці торгові документи. ::Віддайте йому документи.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -498,7 +508,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Very good, very good. Usually I would allow this sort of information to be wired, but we have reason to believe that the network going through Junkyard might have been compromised. You never know who might be listening and what they can do even with harmless trading agreement info.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже добре, дуже добре. Зазвичай я дозволив би передавати цю інформацію по дротах, але у нас є підстави вважати, що мережа, яка проходить через Звалище, могла бути скомпрометована. Ніколи не знаєш, хто може підслуховувати і що вони можуть зробити навіть з інформацією про нешкідливу торгову угоду.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -508,7 +518,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Have a nice day.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гарного дня.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -518,7 +528,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Just so you know, as a representative of South Gate Station, you are free to move around most of the embassy premises, and can also use our elevator to South Railroad Outpost.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Просто знайте, що як представник станції Південні Ворота, ви вільні пересуватися більшою частиною території посольства, а також можете використовувати наш ліфт до Південного Залізничного Посту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -528,7 +538,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>It's out of order at the moment because of the earthquake, but we're working on fixing it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наразі він не працює через землетрус, але ми працюємо над його ремонтом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -538,7 +548,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>It was damaged recently by the earthquake, but it's fixed now and safe to use.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Її нещодавно пошкодив землетрус, але зараз вона відремонтована і безпечна у використанні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -548,7 +558,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Who do you suspect has hacked the Junkyard network?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Кого ви підозрюєте у зломі мережі Звалища?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -558,7 +568,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>We're not sure yet, but there's an ongoing investigation. Until further notice, I asked that any sensitive information coming from SGS and our other trading partners in the South be delivered physically.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми ще не впевнені, але триває розслідування. До подальших розпоряджень я попросив, щоб будь-яка чутлива інформація від SGS та наших інших торгових партнерів на Півдні доставлялася фізично.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -568,7 +578,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>I'm sure we'll get to the bottom of this soon so that the communication can continue as before.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я впевнений, ми скоро розберемося з цим, щоб спілкування відновилося як і раніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -578,7 +588,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>I've heard of the name "Free Drones." Do you think these people could be behind the hacking of the Junkyard network?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я чув про "Вільних Дронів". Як ви думаєте, чи ці люди могли стояти за зломом мережі Звалища?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -588,7 +598,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Do you think the Free Drones are behind the hacking of the Junkyard network?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви думаєте, Вільні Дрони стоять за зломом мережі Звалища?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -598,7 +608,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>South Railroad Outpost?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Південний залізничний аванпост?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -608,7 +618,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>That's the metro base right above us. We use an elevator here in the embassy to quickly access it. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це метро-база прямо над нами. Ми використовуємо ліфт тут, в посольстві, щоб швидко туди дістатися. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -618,7 +628,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>In fact, that's how we got to Junkyard in the first place - via railroad. Only later did we establish a waterways route after acquiring Port Zenith in Core City as well as reaching a mutually acceptable agreement with the Black Eels.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насправді, саме так ми потрапили на Звалище - по залізниці. Лише пізніше ми встановили водний шлях після захоплення Порту Зеніт в Ядромісті, а також досягли взаємоприйнятної угоди з Чорними Вуграми. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -628,7 +638,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Can you tell me a bit about the United Stations?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви розповісти мені трохи про Об'єднані Станції?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -638,7 +648,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Of course. We are an ever growing confederacy of stations. Our goal is to unite the remnants of humanity in order to ensure our survival and prosperity. United Stations are ruled by the Council of Five and guarded by the Protectorate.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно. Ми - конфедерація станцій, що постійно зростає. Наша мета - об'єднати залишки людства, щоб забезпечити наше виживання та процвітання. Об'єднаними Станціями керує Рада П'яти та охороняє Протекторат. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
@@ -648,7 +658,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>We bring peace, order and law to the stations that we integrate in this union, but also allow for a degree of independence. The stations are still free to choose their own local governing body.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми приносимо мир, порядок і закон станціям, які ми інтегруємо в цей союз, але також дозволяємо певну незалежність. Станції все ще вільні у виборі свого місцевого органу управління. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -658,7 +668,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Our member stations are the safest and most prosperous in the Underrail.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наші станції-члени - найбезпечніші та найпроцвітаючі в Підземному Світі. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -668,7 +678,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>We haven't integrated any stations here in the South Underrail, but we're hoping that will change soon.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми ще не інтегрували жодної станції тут, у Південному Підземному Світі, але сподіваємося, що це зміниться найближчим часом. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -678,7 +688,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>I want to report a security threat to the embassy.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хочу повідомити про загрозу безпеці посольству. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -688,7 +698,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Sounds serious. You best talk to second lieutenant Garren. He's in command of the Protectorate security forces here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звучить серйозно. Вам краще поговорити з другим лейтенантом Гарреном. Він командує силами безпеки Протекторату тут. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -698,7 +708,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>I'll go see him then.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді я піду до нього. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a70" name="=&gt;a70">
@@ -708,7 +718,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>What are your thoughts on the Faceless invasion?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Які ваші думки щодо вторгнення Безликих?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -718,7 +728,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>The Protectorate is investigating the matter as we speak, but until I get some word from them I cannot provide an official statement.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Протекторат розслідує це питання, і поки я не отримаю від них інформацію, я не можу надати офіційну заяву. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a72" name="=&gt;a72">
@@ -728,7 +738,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>I have to go now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я мушу йти зараз. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q73" name="=&gt;q73">
@@ -738,7 +748,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Take care, Corporal. Feel free to come back anytime if there is something you wish to discuss.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будьте обережні, Корпорале. Не соромтеся повертатися будь-коли, якщо у вас є щось, що ви хочете обговорити. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q74" name="=&gt;q74">
@@ -748,7 +758,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>Take care, $(#Mister/Miss) $(context.player.Name). Feel free to come back anytime if there is something you wish to discuss.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будьте обережні, $(#Містер/Міс) $(context.player.Name). Не соромтеся повертатися будь-коли, якщо у вас є щось, що ви хочете обговорити. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -758,7 +768,7 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q76" name="=&gt;q76">
@@ -770,7 +780,9 @@ I guess no one anticipated such problems with the Oligarchy. Nevertheless, we ma
         <source>Corporal, I've received a complaint from my deputy regarding your "inappropriate" behavior. Your rank does not give you the right to mistreat the embassy staff, and if I hear one more complaint I will contact Fort Apogee immediately. That kind of behavior will not be tolerated. Mark my words.
 
 Why did you come to me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Корпорале, я отримав скаргу від мого заступника щодо вашої "неприйнятної" поведінки. Ваше звання не дає вам права погано ставитися до співробітників посольства, і якщо я почую ще одну скаргу, я негайно зв'яжуся з Фортом Апогей. Така поведінка не буде терпимою. Запам'ятайте мої слова.
+
+Навіщо ви прийшли до мене?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q77" name="=&gt;q77">
@@ -782,7 +794,9 @@ Why did you come to me?&lt;end&gt;</source>
         <source>$(#Mister/Miss) $(context.player.Name), I've received a complaint from my deputy regarding your "inappropriate" behavior. You are in the United Stations embassy, remember that, and if you mistreat the embassy staff one more time, the consequences will be severe. Mark my words.
 
 Why did you come to me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(#Містер/Міс) $(context.player.Name), я отримав скаргу від мого заступника щодо вашої "неприйнятної" поведінки. Пам'ятайте, ви перебуваєте в посольстві Об'єднаних Станцій, і якщо ви ще раз погано ставитиметеся до співробітників посольства, наслідки будуть серйозними. Запам'ятайте мої слова.
+
+Навіщо ви прийшли до мене?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -792,7 +806,7 @@ Why did you come to me?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How can I help you, Corporal?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чим я можу вам допомогти, Корпорале?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q79" name="=&gt;q79">
@@ -802,7 +816,7 @@ Why did you come to me?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How can I help you this time, $(#Mister/Miss) $(context.player.Name)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чим я можу вам допомогти цього разу, $(#Містер/Міс) $(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

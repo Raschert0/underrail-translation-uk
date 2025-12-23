@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::LEMCO LC387 - ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO LC387 - ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::Welcome, P. Bridges::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, П. Бріджес::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Unable to connect to ASIN. Only local data is available.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не вдалося підключитися до ASIN. Доступні лише локальні дані.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Cargo traffic log::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Журнал вантажних перевезень::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -62,7 +64,19 @@ Date: LE 16. 10. 122. Time: 20:15. Id: 3435710. Qty: 180. Prt: 3. Destination: M
 Date: LE 16. 10. 122. Time: 20:15. Id: 4444444. Qty: 24. Prt: 3. Destination: Residential Dome 1.
 Date: LE 16. 10. 122. Time: 22:20. Id: 7152902. Qty: 45. Prt: 3. Destination: Aquaponics Dome.
 Date: LE 16. 10. 122. Time: 10:15. Id: 5137437. Qty: 26. Prt: 4. Destination: Manufacturing Dome.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Журнал вантажних перевезень
+
+Сортування: Пріоритет
+
+Дата: ЛЕ 17. 10. 122. Час: 10:35. Id: ACoNR. Кількість: 1. Прт: 1. Призначення: Купол досліджень і розробок.
+Дата: ЛЕ 17. 10. 122. Час: 03:25. Id: 2781081. Кількість: 7. Прт: 2. Призначення: Виробничий купол.
+Дата: ЛЕ 15. 10. 122. Час: 06:30. Id: 5451163. Кількість: 80. Прт: 2. Призначення: Житловий купол 1.
+Дата: ЛЕ 14. 10. 122. Час: 22:55. Id: 6204910. Кількість: 15. Прт: 2. Призначення: Купол аквапоніки.
+Дата: ЛЕ 13. 10. 122. Час: 14:10. Id: 2133259. Кількість: 2. Прт: 3. Призначення: Купол досліджень і розробок.
+Дата: ЛЕ 16. 10. 122. Час: 20:15. Id: 3435710. Кількість: 180. Прт: 3. Призначення: Виробничий купол.
+Дата: ЛЕ 16. 10. 122. Час: 20:15. Id: 4444444. Кількість: 24. Прт: 3. Призначення: Житловий купол 1.
+Дата: ЛЕ 16. 10. 122. Час: 22:20. Id: 7152902. Кількість: 45. Прт: 3. Призначення: Купол аквапоніки.
+Дата: ЛЕ 16. 10. 122. Час: 10:15. Id: 5137437. Кількість: 26. Прт: 4. Призначення: Виробничий купол.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -72,7 +86,7 @@ Date: LE 16. 10. 122. Time: 10:15. Id: 5137437. Qty: 26. Prt: 4. Destination: Ma
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -82,7 +96,7 @@ Date: LE 16. 10. 122. Time: 10:15. Id: 5137437. Qty: 26. Prt: 4. Destination: Ma
       </mda:metadata>
       <segment state="translated">
         <source>::Summon available strongman::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Викликати доступного силовика::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -92,7 +106,7 @@ Date: LE 16. 10. 122. Time: 10:15. Id: 5137437. Qty: 26. Prt: 4. Destination: Ma
       </mda:metadata>
       <segment state="translated">
         <source>::No available strongmen detected. Your request has been placed in a queue.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не виявлено доступних силовиків. Ваш запит поставлено в чергу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -102,7 +116,7 @@ Date: LE 16. 10. 122. Time: 10:15. Id: 5137437. Qty: 26. Prt: 4. Destination: Ma
       </mda:metadata>
       <segment state="translated">
         <source>::Contact active security supervisor::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зв'язатися з активним керівником служби безпеки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -114,7 +128,9 @@ Date: LE 16. 10. 122. Time: 10:15. Id: 5137437. Qty: 26. Prt: 4. Destination: Ma
         <source>::No active security supervisors detected. There may be temporary communication problems preventing this. 
 
 Please try again later.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не виявлено активних керівників служби безпеки. Можливо, виникли тимчасові проблеми зі зв'язком, що цьому перешкоджають.
+
+Будь ласка, спробуйте ще раз пізніше.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -124,7 +140,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -136,7 +152,7 @@ Please try again later.::&lt;end&gt;</source>
         <source>::Welcome, guest::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, гостю::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

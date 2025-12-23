@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::The quadrupedal Faceless steps forward. His weapon is aimed at you, yet he seems reluctant to immediately open fire, instead opting for an emotionless stare.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Чотириногий Безликий робить крок вперед. Його зброя націлена на вас, але він, здається, не поспішає відкривати вогонь, натомість обирає безпристрасний погляд.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Give him time to see what his intentions are.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дайте йому час, щоб зрозуміти його наміри.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::He silently holds you at gun point, and for a while nothing happens; nothing but the subtle exchange of glances between his weapons-at-the-ready companions, done in such a curiously responsive manner as if an aspect of some kind of unspoken conversation.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він мовчки наводить на вас зброю, і деякий час нічого не відбувається; лише ледь помітна переміна поглядів між його компаньйонами, готовими до бою, відбувається настільки дивно та чуйно, ніби це частина якоїсь негласної розмови.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +40,9 @@
         <source>::He then reaches for something on the inside of the chin of his mask, and soon after that you can hear a crude synthesized voice.:: 
 
 Identify yourself.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Тоді він тягнеться до чогось під підборіддям маски, і незабаром ви чуєте грубий синтезований голос.:: 
+
+Ідентифікуйте себе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -50,7 +52,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am $(context.player.Name) from South Gate Station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я $(context.player.Name) зі станції Південні Ворота.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What is your business here?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Яка ваша мета тут?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The leaders of Foundry want to know why you are here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Керівництво Складів хоче знати, навіщо ви тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He pauses briefly, as if unsure how to proceed.:: Something of value has been stolen from us. We believe it might have found its way to their community.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він робить коротку паузу, ніби не впевнений, як діяти далі.:: У нас було викрадено щось цінне. Ми вважаємо, що це могло потрапити до їхньої громади.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>If you can help us locate the missing item, we will be on our way.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви зможете допомогти нам знайти зниклий предмет, ми підемо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +102,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Is this what you're after? ::Show him the Acorn.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це те, що ви шукаєте? ::Покажіть йому Жолудь.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He looks at the sealed container.:: Open it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дивиться на запечатаний контейнер.:: Відкрийте його.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -130,7 +132,7 @@ Identify yourself.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Um, I still haven't found the way to do so.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ем, я все ще не знайшов способу це зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -142,7 +144,9 @@ Identify yourself.&lt;end&gt;</source>
         <source>::His raspy response comes after a tense delay.:: 
 
 This is not what we're after.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Його хриплий голос лунає після напруженої паузи.:: 
+
+Це не те, що ми шукаємо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -152,7 +156,7 @@ This is not what we're after.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can you describe what was stolen, then?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви описати, що було викрадено?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -162,7 +166,7 @@ This is not what we're after.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We may not tell you this, but the item is very distinct. People who came in contact with it will certainly remember it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми можемо вам цього і не сказати, але предмет дуже відрізняється. Люди, які контактували з ним, обов'язково його запам'ятають.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -172,7 +176,7 @@ This is not what we're after.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Inquire with the local merchants; the thief who stole it might have attempted to sell it to them.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розпитайте місцевих торговців; злодій, який його вкрав, міг спробувати продати його їм.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -182,7 +186,7 @@ This is not what we're after.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The Tchortists recently stole a peculiar item from one of Coretech's research facilities. It looked like a bluish-gray polyhedron with unusual symbols on its faces. Is that the thing you're looking for?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчортисти нещодавно викрали дивний предмет з однієї з дослідницьких лабораторій Coretech. Він виглядав як синьо-сірий багатогранник з незвичайними символами на гранях. Це те, що ви шукаєте?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -194,7 +198,9 @@ This is not what we're after.&lt;end&gt;</source>
         <source>::He answers after an uncomfortably long pause.:: 
 
 Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він відповідає після незручно довгої паузи.:: 
+
+Якщо ви говорите правду, нам немає причин залишатися тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -204,7 +210,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Take this as a sign of our appreciation for your assistance in this matter. ::He hands you what looks to be a high quality power core.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прийміть це як знак нашої вдячності за вашу допомогу в цій справі. ::Він простягає вам те, що виглядає як високоякісний енергетичний блок.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -214,7 +220,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>What will you do now?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви робитимете тепер?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -224,7 +230,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>The matter is very simple: We will retrieve this item. Those who would stop us from doing so will be dealt with.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все дуже просто: ми повернемо цей предмет. З тими, хто намагатиметься нам завадити, буде розібрано.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -234,7 +240,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Our business here is done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нашу справу зроблено.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -244,7 +250,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Is this item the reason your people have blockaded the Core City?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Через цей предмет ваші люди заблокували Центральне Місто?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -254,7 +260,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>While we appreciate your assistance, we must advise you not to investigate this matter further or interfere with our operations near Core City or elsewhere.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хоча ми цінуємо вашу допомогу, ми повинні попередити вас не розслідувати цю справу далі або не втручатися в наші операції поблизу Core City або деінде.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -264,7 +270,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Thanks and good luck.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую та удачі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -274,7 +280,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Good luck to you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Удачі вам.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -284,7 +290,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>In that case, I've learned that something rather unusual used to be in the possession of a man called Cornell, the leader of the Acid Hunters, a gang from Core City. However, he does not have it anymore. All I know is that Foundry is not the place to be searching for the item.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У такому разі я дізнався, що щось досить незвичайне належало чоловікові на ім'я Корнелл, лідеру Мисливців за кислотою, банди з Core City. Однак, зараз він його не має. Все, що я знаю, це те, що Foundry – не місце для пошуку цього предмета.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -294,7 +300,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>In that case, the item you seek has to be in the possession of a man called Cornell. He's the leader of the Acid Hunters gang which usually hangs out in Core City. At this point, it's highly unlikely that the item is anywhere near Foundry.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У такому разі, предмет, який ви шукаєте, має бути у чоловіка на ім'я Корнелл. Він лідер банди "Кислотні Мисливці", які зазвичай тусуються в Центральному Місті. На даний момент, вкрай малоймовірно, що цей предмет знаходиться десь поблизу Складів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -304,7 +310,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>I'll get back to looking, then.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді я повернуся до пошуків.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -314,7 +320,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Sorry, I cannot do this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, я не можу цього зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -324,7 +330,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Very well. Leave us then.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже добре. Тоді йдіть звідси.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -334,7 +340,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>It can't be opened.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Його неможливо відчинити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -344,7 +350,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Is it the thing you're after or not?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це те, що ви шукаєте, чи ні?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -354,7 +360,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>If it's that Cube you're looking for, it used to be in the possession of a man called Cornell, the leader of the Acid Hunters, a gang from Core City. However, he does not have it anymore. All I know is that Foundry is not the place to be searching for the item.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви шукаєте той Куб, він належав чоловікові на ім'я Корнелл, лідеру Мисливців за кислотою, банди з Core City. Однак, зараз він його не має. Все, що я знаю, це те, що Foundry – не місце для пошуку цього предмета.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -364,7 +370,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>If it's that Cube you're looking for, I can tell you now that this item is in the possession of a man called Cornell. He's the leader of the Acid Hunters gang which usually hangs out in Core City. At this point, it's highly unlikely that the item is anywhere near Foundry.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви шукаєте той Куб, я можу вам сказати, що цей предмет зараз у чоловіка на ім'я Корнелл. Він лідер банди "Кислотні Мисливці", які зазвичай тусуються в Центральному Місті. На даний момент, вкрай малоймовірно, що цей предмет знаходиться десь поблизу Складів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -374,7 +380,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Alright, I'll see what I can do. What was stolen exactly?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, я подивлюся, що я можу зробити. Що саме було викрадено?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -384,7 +390,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Sorry, I cannot do this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, я не можу цього зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -394,7 +400,7 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>I wanted to talk to you about the item you're looking for.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів поговорити з вами про предмет, який ви шукаєте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -406,7 +412,9 @@ Providing you're telling the truth, we have no reason to remain here.&lt;end&gt;
         <source>::After a short pause, he responds.:: 
 
 How do you know about this?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Після короткої паузи він відповідає.:: 
+
+Звідки ви знаєте про це?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -416,7 +424,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>A traveling merchant you recently interrogated - the one with the two bodyguards you killed - he wrote about what happened on his mobile computer. He too is not among the living anymore, but his logs offered enough information for me to seek you out.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мандрівний торговець, якого ви нещодавно допитували – той, з двома охоронцями, яких ви вбили – написав про те, що сталося на своєму мобільному комп’ютері. Його теж більше немає серед живих, але його записи дали мені достатньо інформації, щоб розшукати вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -426,7 +434,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What you say did occur. ::He pauses briefly, as if unsure how to proceed.:: Something of value has been stolen from us. We believe it might have found its way to the community nearby.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Те, що ви кажете, дійсно сталося. ::Він робить невелику паузу, ніби не впевнений, як діяти далі.:: У нас було викрадено щось цінне. Ми вважаємо, що це могло потрапити до сусідньої громади.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -436,7 +444,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>If you can help us locate the missing item, we will be on our way.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви зможете допомогти нам знайти зниклий предмет, ми підемо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -446,7 +454,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The item you seek used to be in the possession of a man called Cornell, the leader of the Acid Hunters, a gang from Core City. However, he does not have it anymore. All I know is that Foundry is not the place to be searching for the item.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Предмет, який ви шукаєте, належав чоловікові на ім'я Корнелл, лідеру Мисливців за кислотою, банди з Core City. Однак, зараз він його не має. Все, що я знаю, це те, що Foundry – не місце для пошуку цього предмета.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -456,7 +464,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The item you seek is in the possession of a man called Cornell. He's the leader of the Acid Hunters gang which usually hangs out in Core City. At this point, it's highly unlikely that the item is anywhere near Foundry.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Предмет, який ви шукаєте, зараз у чоловіка на ім'я Корнелл. Він лідер банди "Кислотні Мисливці", які зазвичай тусуються в Центральному Місті. На даний момент, вкрай малоймовірно, що цей предмет знаходиться десь поблизу Складів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -466,7 +474,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll see what I can do. Can you describe the thing that was stolen from you exactly?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подивлюся, що я можу зробити. Чи можете ви описати річ, яка була у вас викрадена?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -476,7 +484,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I was merely exploring.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я просто досліджував.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -486,7 +494,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There's nothing for you to take here. Be on your way.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тут вам нема чого брати. Йдіть геть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -496,7 +504,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>My business is my own.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мої справи – мої справи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -506,7 +514,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Your answer is not acceptable. We will give you one more chance.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ваша відповідь неприйнятна. Ми даємо вам ще один шанс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -516,7 +524,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>And I will tell you again this is no business of yours.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І я скажу вам ще раз, це не ваша справа.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -526,7 +534,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Атакуйте!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a53" name="=&gt;a53">
@@ -536,7 +544,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>My name is $(context.player.Name) and I'm a vagrant scavenger.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене звати $(context.player.Name), і я бродячий шукач.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -546,7 +554,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is no concern of yours.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це вас не стосується.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -556,7 +564,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Атакуйте!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -566,7 +574,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::The synthesized voice greets you.:: Did you locate the item?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Синтезований голос вітає вас.:: Чи знайшли ви предмет?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -576,7 +584,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Is this what you're after? ::Show him the Acorn.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це те, що ви шукаєте? ::Покажіть йому Жолудь.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -586,7 +594,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not yet, but I have a couple of questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ще ні, але у мене є кілька запитань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -596,7 +604,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No, we will answer no more questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, ми більше не відповідатимемо на запитання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -606,7 +614,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm still looking.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я все ще шукаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -616,7 +624,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Then we have nothing to say to you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді нам нема що вам сказати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -626,7 +634,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Our business here is done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наша справа тут завершена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -636,7 +644,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We have told you already - there is nothing to be found here. Begone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми вже сказали вам – тут нічого не знайдено. Зникайте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -646,7 +654,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've decided to help with locating your stolen property. What was it exactly?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вирішив допомогти знайти ваше викрадене майно. Що саме це було?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a65" name="=&gt;a65">
@@ -656,7 +664,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can I ask you a question?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можу я вам щось запитати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -666,7 +674,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -676,7 +684,7 @@ How do you know about this?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sorry for bothering you. I'll be on my way.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, що турбую вас. Я йду.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

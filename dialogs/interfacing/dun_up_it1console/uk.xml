@@ -14,7 +14,12 @@ Firmware version: 0.997::
 
 Stabilization systems offline, full automatic maintenance disabled. Applied most recent stable flow configuration. Missing all sensor data.
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::BCE-HX - B_...-^rp C Eletrncccz_
+Версія прошивки: 0.997::
+
+::Час з моменту останньої ручної декомпресії: 4444---
+
+Системи стабілізації вимкнені, повне автоматичне обслуговування вимкнено. Застосовано останню стабільну конфігурацію потоку. Відсутні всі дані датчиків.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -24,7 +29,7 @@ Stabilization systems offline, full automatic maintenance disabled. Applied most
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -34,7 +39,7 @@ Stabilization systems offline, full automatic maintenance disabled. Applied most
       </mda:metadata>
       <segment state="translated">
         <source>::Cooling system diagnostics::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Діагностика системи охолодження::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -48,7 +53,11 @@ Stabilization systems offline, full automatic maintenance disabled. Applied most
 Please wait...
 
 A loading bar is displayed, but it's not filling up at all. Red exclamation point is flashing at the end of the bar.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Обробка даних...
+
+Будь ласка, зачекайте...
+
+Відображається панель завантаження, але вона взагалі не заповнюється. Червоний знак оклику блимає в кінці панелі.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -60,7 +69,9 @@ A loading bar is displayed, but it's not filling up at all. Red exclamation poin
         <source>::Sensors offline. 
 
 Most recent readings: All levels critical, insufficient core pressure, divert power immediately. Engage asynchronous pressure stabilization.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Датчики вимкнені. 
+
+Останні показання: Усі рівні критичні, недостатній тиск в ядрі, негайно перенаправте енергію. Увімкніть асинхронну стабілізацію тиску.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -70,7 +81,7 @@ Most recent readings: All levels critical, insufficient core pressure, divert po
       </mda:metadata>
       <segment state="translated">
         <source>::Power display/management::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дисплей/управління живленням::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -80,7 +91,7 @@ Most recent readings: All levels critical, insufficient core pressure, divert po
       </mda:metadata>
       <segment state="translated">
         <source>::Pressure-flow control::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Управління тиском-потоком::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -90,7 +101,7 @@ Most recent readings: All levels critical, insufficient core pressure, divert po
       </mda:metadata>
       <segment state="translated">
         <source>::Acess to H__ towwr::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Доступ до H__ вежі::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -102,7 +113,9 @@ Most recent readings: All levels critical, insufficient core pressure, divert po
         <source>::It takes a while for the program to respond. Whenever you would try to hover over another option, the display doesn't respond.  
 
 Suddenly the screen goes blank, periodically flashing previously seen information. Three desultory beeping sounds play out, followed up by a distant, loud mechanical noise of a huge engine starting up. You can hear the gears turning, as the walls start to shake. The image on the monitor is restored.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Програмі потрібен час, щоб відповісти. Щоразу, коли ви намагаєтеся навести курсор на інший варіант, дисплей не реагує.  
+
+Раптом екран гасне, періодично блимаючи раніше побаченою інформацією. Три нерішучі звукові сигнали, за якими слідує віддалений гучний механічний шум запуску величезного двигуна. Ви можете чути, як обертаються шестерні, і стіни починають трястися. Зображення на моніторі відновлюється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -114,7 +127,9 @@ Suddenly the screen goes blank, periodically flashing previously seen informatio
         <source>::Access granted.
 
 Be advised, cold depressurization commencing. ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Доступ надано.
+
+Будьте обережні, холодна депресуризація починається. ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -124,7 +139,7 @@ Be advised, cold depressurization commencing. ::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вийти.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

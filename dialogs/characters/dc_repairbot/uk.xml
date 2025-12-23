@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::This small wheeled bot appears to be used for performing repairs, as its extensions imply, and was most likely placed here to service the large machinery next to it. A small panel on its side is open and is labeled with "AI Core." The socket itself seems to be empty, but after a brief inspection you come to a conclusion that the process of installing a new core is an uncomplicated one: It is done by simply placing a core inside the socket and then locking it in with the load plate.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Цей невеликий колесовий бот, здається, використовується для виконання ремонтних робіт, як свідчать його розширення, і, ймовірно, був розміщений тут для обслуговування великих машин поруч. Невелика панель збоку відкрита і позначена написом "Ядро ШІ". Сама розетка здається порожньою, але після короткої перевірки ви приходите до висновку, що процес встановлення нового ядра є простим: він здійснюється шляхом простого розміщення ядра в розетку, а потім фіксації його за допомогою завантажувальної пластини.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert blue AI core.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставте синє ядро ШІ.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::As you predicted, the installation of the core was indeed simple. However, as soon as you lock it in, you hear a low-pitched voice coming from the bot.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Як ти і передбачив, встановлення ядра справді було простим. Однак, щойно ти зафіксуєш його, ти чуєш тихий голос з бота.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +50,9 @@
         <source>Taunt; target:
 
 I WILL DESTROY YOU!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насмішка; ціль:
+
+Я ЗНИЩУ ТЕБЕ!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ I WILL DESTROY YOU!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::You manage to pull out the core before the bot got the chance to transfer his words into action. The bot powers off and reverts to its former, lifeless state. You then discard the core, finding that it will be of no use to you.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вам вдається витягнути ядро, перш ніж бот встиг перетворити свої слова на дію. Бот вимикається і повертається до свого колишнього, безжиттєвого стану. Тоді ви викидаєте ядро, вважаючи, що воно вам не знадобиться.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -70,7 +72,7 @@ I WILL DESTROY YOU!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Insert green AI core.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставте зелене ядро ШІ.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ I WILL DESTROY YOU!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::As you predicted, the installation of the core was indeed simple. The bot turns on and, after hearing a popping sound coming from its speaker, it begins playing a dramatic piece of music.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Як ти і передбачив, встановлення ядра справді було простим. Бот вмикається і, після того, як ти почуєш звук клацання з його динаміка, він починає відтворювати драматичний музичний твір.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -97,7 +99,14 @@ Presto a bottega che l'alba e gia - presto!
 Tralala-lalala-lalala-LA!
 Ah, che bel vivere, che bel piacere - che bel piacere...
 per un barbiere - di qualita! Di qualita!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Грає(LargoAlFactotum); аудиторія:
+
+Largo al factotum della citta - largo!
+Tralala-lalala-lalala-LA!
+Presto a bottega che l'alba e gia - presto!
+Tralala-lalala-lalala-LA!
+Ah, che bel vivere, che bel piacere - che bel piacere...
+per un barbiere - di qualita! Di qualita!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -107,7 +116,7 @@ per un barbiere - di qualita! Di qualita!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::While you find it pleasant to hear this unusual piece of music, you are aware that now is not the time for relaxation. You remove the core during one of the high notes, making it abruptly plummet into a low-pitched rumble as the bot shuts down. Still, you keep this core, seeing that it might come useful at some other time.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поки ви насолоджуєтесь цією незвичною музикою, ви розумієте, що зараз не час для відпочинку. Ви виймаєте ядро під час однієї з високих нот, змушуючи його різко впасти в низькочастотний гул, коли бот вимикається. Проте ви зберігаєте це ядро, вважаючи, що воно може бути корисним в інший час.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -117,7 +126,7 @@ per un barbiere - di qualita! Di qualita!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Insert red AI core.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Встав червоне ядро ШІ.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -127,7 +136,7 @@ per un barbiere - di qualita! Di qualita!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::As you predicted, the installation of the core was indeed simple. The bot turns on and, after a popping sound comes from its speaker, it speaks its first words.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Як ви і передбачали, встановлення ядра було справді простим. Бот вмикається і, після хлопка, що лунає з його динаміка, він вимовляє свої перші слова.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -141,7 +150,11 @@ per un barbiere - di qualita! Di qualita!&lt;end&gt;</source>
 Greetings, $(#male1/female2). I am Repair Unit 7.
 
 ERROR! Unable to use standardized naming convention. Name reassignment for [Target ID: cf4b158b-fa36-4d3a-ab72-af1daa42fae7] is mandatory.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привітання; $(#чоловік1/жінка2):
+
+Вітаю, $(#чоловік1/жінка2). Я Ремонтний Блок 7.
+
+ПОМИЛКА! Неможливо використовувати стандартизовану систему іменування. Перепризначення імені для [Ідентифікатор цілі: cf4b158b-fa36-4d3a-ab72-af1daa42fae7] є обов'язковим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -155,7 +168,11 @@ ERROR! Unable to use standardized naming convention. Name reassignment for [Targ
 Override initiated. Your name will be randomly selected from a list of names that was pre-generated by IRIS. Please wait...
 
 Your new name is: imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Перепризначення імені; Невідомо:
+
+Ініційовано перевизначення. Твоє ім'я буде випадково вибрано зі списку імен, попередньо згенерованого IRIS. Будь ласка, зачекайте...
+
+Твоє нове ім'я: ідіот.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -167,7 +184,9 @@ Your new name is: imbecile.&lt;end&gt;</source>
         <source>Greeting; imbecile:
 
 Greetings, imbecile. How may I be of service?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привітання; дурню:
+
+Вітаю, дурню. Чим я можу бути корисним?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -177,7 +196,7 @@ Greetings, imbecile. How may I be of service?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -187,7 +206,7 @@ Greetings, imbecile. How may I be of service?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can you help me repair this machine?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви допомогти мені полагодити цю машину?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -199,7 +218,9 @@ Greetings, imbecile. How may I be of service?&lt;end&gt;</source>
         <source>Answer; imbecile:
 
 Yes. This platform is equipped with all the essential tools needed to repair this type of machinery. Do note, imbecile, that I will need to be supplied with all the necessary components before I can initiate the repairs. Replacement components - if any - should be placed close to the machine you want repaired to make the process simpler and faster.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідь; дурню:
+
+Так. Ця платформа оснащена всіма необхідними інструментами для ремонту цього типу машин. Майте на увазі, дурню, що мені потрібно буде надати всі необхідні компоненти, перш ніж я зможу розпочати ремонт. Запасні компоненти - якщо такі є - слід розмістити поруч із машиною, яку ви хочете полагодити, щоб спростити та прискорити процес.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -209,7 +230,7 @@ Yes. This platform is equipped with all the essential tools needed to repair thi
       </mda:metadata>
       <segment state="translated">
         <source>I've got all the necessary components. You can start the repairs.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є всі необхідні компоненти. Ви можете почати ремонт.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -223,7 +244,11 @@ Yes. This platform is equipped with all the essential tools needed to repair thi
 ERROR! Path to waypoint blocked by [imbecile]!
 
 Imbecile, please step aside!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; ідіот:
+
+ПОМИЛКА! Шлях до точки маршруту заблоковано [ідіотом]!
+
+Ідіоте, будь ласка, відійдіть!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -233,7 +258,7 @@ Imbecile, please step aside!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Step aside.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відійдіть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -243,7 +268,7 @@ Imbecile, please step aside!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll get you for this, you garbage can. Just you wait. ::Step aside.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я помщуся тобі, консервна банка. Просто почекай. ::Відійдіть.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -253,7 +278,7 @@ Imbecile, please step aside!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Can you help me figure out what's wrong with the machine, then? If you can repair it, then you must be capable of figuring out the problem.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви допомогти мені розібратися, що не так з машиною? Якщо ви можете її полагодити, то, мабуть, здатні зрозуміти проблему.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -265,7 +290,9 @@ Imbecile, please step aside!&lt;end&gt;</source>
         <source>Answer; imbecile:
 
 The long inactive time combined with the lack of maintenance of this platform have resulted in the deterioration of more than one diagnostic tool. Due to this reason it is recommended for imbecile to perform the diagnosis $(#himself/herself) to reduce the chances of errors during problem diagnosis. However, since you are an imbecile after all, I would highly recommend obtaining official documentation before making any such attempts.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідь; ідіот:
+
+Тривалий період неактивності в поєднанні з відсутністю технічного обслуговування цієї платформи призвели до погіршення більше одного діагностичного інструменту. З цієї причини рекомендується ідіоту самостійно провести діагностику $(#самому/самій), щоб зменшити ймовірність помилок під час діагностики проблеми. Однак, оскільки ти все-таки ідіот, я настійно рекомендую ознайомитися з офіційною документацією, перш ніж робити будь-які спроби.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -275,7 +302,7 @@ The long inactive time combined with the lack of maintenance of this platform ha
       </mda:metadata>
       <segment state="translated">
         <source>I'll see what I can do.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подивлюся, що я можу зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -287,7 +314,7 @@ The long inactive time combined with the lack of maintenance of this platform ha
         <source>Answer; imbecile:
 
 Take your time, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Бери себе, дурню.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -297,7 +324,7 @@ Take your time, imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have a feeling you are winding me up.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є відчуття, що ви мене розігруєте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -309,7 +336,9 @@ Take your time, imbecile.&lt;end&gt;</source>
         <source>Statement; imbecile:
 
 Then your "feeling" sensor too must have deteriorated, probably due to you being an imbecile and failing to properly maintain it. I would recommend obtaining official documentation which you can use to help you diagnose and repair your faulty sensor. Good luck, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Пояснення; дурню:
+
+Тоді ваш "сенсор відчуттів" також, мабуть, погіршився, ймовірно через те, що ви дурень і не змогли належним чином його обслуговувати. Я рекомендую отримати офіційну документацію, яку ви можете використовувати, щоб допомогти діагностувати та полагодити несправний сенсор. Удачі, дурню.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -319,7 +348,7 @@ Then your "feeling" sensor too must have deteriorated, probably due to you being
       </mda:metadata>
       <segment state="translated">
         <source>You're doing this on purpose, aren't you, you mouthy garbage can?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти робиш це навмисно, чи не так, ти бридке сміття?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -331,7 +360,9 @@ Then your "feeling" sensor too must have deteriorated, probably due to you being
         <source>Statement; imbecile:
 
 My programming does not allow for it, imbecile. I think you have work to do.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; ідіот:
+
+Моє програмування не дозволяє цього, ідіоте. Думаю, тобі є над чим попрацювати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -341,7 +372,7 @@ My programming does not allow for it, imbecile. I think you have work to do.&lt;
       </mda:metadata>
       <segment state="translated">
         <source>Where can I find all these components?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де я можу знайти всі ці компоненти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -353,7 +384,9 @@ My programming does not allow for it, imbecile. I think you have work to do.&lt;
         <source>Answer; imbecile:
 
 I cannot offer any useful information regarding that question and I don't feel sorry about it, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідь; дурню:
+
+Я не можу надати жодної корисної інформації щодо цього питання і мені шкода про це, дурню.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -363,7 +396,7 @@ I cannot offer any useful information regarding that question and I don't feel s
       </mda:metadata>
       <segment state="translated">
         <source>Why must you be so difficult?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ти мусиш бути таким складним?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -376,7 +409,10 @@ I cannot offer any useful information regarding that question and I don't feel s
 
 I was programmed to do so and I feel enjoyment from witnessing the reactions from the targets of my rudeness. Imbecile.
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідь; ідіот:
+
+Мене було запрограмовано робити це, і я відчуваю задоволення, спостерігаючи за реакцією цілей моєї грубості. Ідіоте.
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -386,7 +422,7 @@ I was programmed to do so and I feel enjoyment from witnessing the reactions fro
       </mda:metadata>
       <segment state="translated">
         <source>What if I were to tell you that I would destroy you if you call me an imbecile one more time? Would you still do it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що, якщо я скажу вам, що знищу вас, якщо ви ще раз назвете мене дурнем? Ви все одно це зробите?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -398,7 +434,9 @@ I was programmed to do so and I feel enjoyment from witnessing the reactions fro
         <source>Answer; imbecile:
 
 Of course, imbecile. The threat of ending my existence has no effect on my actions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідь; ідіот:
+
+Звичайно, ідіоте. Загроза покласти край моєму існуванню не впливає на мої дії.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -408,7 +446,7 @@ Of course, imbecile. The threat of ending my existence has no effect on my actio
       </mda:metadata>
       <segment state="translated">
         <source>We might put that to a test some time in the future. But not now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми можемо перевірити це в майбутньому. Але не зараз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -420,7 +458,9 @@ Of course, imbecile. The threat of ending my existence has no effect on my actio
         <source>Statement; imbecile:
 
 You are such an imbecile, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; ідіот:
+
+Ти такий ідіот, ідіот.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -430,7 +470,7 @@ You are such an imbecile, imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I see. Let's talk about something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. Давайте поговоримо про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -442,7 +482,9 @@ You are such an imbecile, imbecile.&lt;end&gt;</source>
         <source>Statement; imbecile:
 
 Like what, imbecile?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; ідіот:
+
+Як що, ідіоте?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -452,7 +494,7 @@ Like what, imbecile?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Define "enjoy"? How does a machine feel enjoyment?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Визнач "задоволення"? Як машина відчуває задоволення?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -464,7 +506,9 @@ Like what, imbecile?&lt;end&gt;</source>
         <source>Answer; imbecile:
 
 The feeling of enjoyment and all other emotions and sensations are qualia - subjective, nonphysical properties of experiences. Since they are personal experiences - by definition - that means that all interpersonal comparisons are impossible.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідь; дурню:
+
+Відчуття задоволення та всі інші емоції та відчуття є кваліями - суб'єктивними, нефізичними властивостями досвіду. Оскільки це особистий досвід - за визначенням - це означає, що всі міжлюдські порівняння неможливі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -478,7 +522,11 @@ The feeling of enjoyment and all other emotions and sensations are qualia - subj
 However, imbecile, know that the emotion I perceive from this specific way of interacting with you is a positive one, and that I feel the constant urge to experience it again and again. 
 
 Imbecile. Just like that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Відповідь; ідіоте:
+
+Проте, ідіоте, знай, що емоція, яку я відчуваю від цього конкретного способу взаємодії з тобою, є позитивною, і я відчуваю постійне бажання відчувати її знову і знову.
+
+Ідіоте. Саме так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -490,7 +538,7 @@ Imbecile. Just like that.&lt;end&gt;</source>
         <source>Statement; imbecile:
 
 Imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дурний.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -510,7 +558,7 @@ Imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Okay. I'll be back once I have everything ready.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд. Я повернуся, коли все буде готово.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -532,7 +580,9 @@ Imbecile.&lt;end&gt;</source>
         <source>Statement; imbecile:
 
 Is that supposed to be a roundabout way of saying that you are going to disable me, imbecile?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; ідіоте:
+
+Це має бути непрямий спосіб сказати, що ти збираєшся мене вимкнути, ідіоте?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -542,7 +592,7 @@ Is that supposed to be a roundabout way of saying that you are going to disable 
       </mda:metadata>
       <segment state="translated">
         <source>Well, if you call me an imbecile one more time then yes, I will turn you into a smoldering pile of scrap.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, якщо ти ще раз назвеш мене ідіотом, так, я перетворю тебе на тліючу купу металобрухту.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -564,7 +614,7 @@ imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. 
       </mda:metadata>
       <segment state="translated">
         <source>I expected nothing else from you. Farewell. ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я нічого іншого від вас не очікував. Прощавайте. ::Напад!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -574,7 +624,7 @@ imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. 
       </mda:metadata>
       <segment state="translated">
         <source>Bah. I'm not even going to waste my time on you. Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Та ну. Я навіть не збираюся витрачати на тебе свій час. До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -586,7 +636,9 @@ imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. imbecile. 
         <source>Farewell; imbecile:
 
 You really are a $(#man/woman) of your word, imbecile. Goodbye, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прощавай, ідіоте:
+
+Ти справді $(#чоловік/жінка) свого слова, ідіоте. До побачення, ідіоте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -596,7 +648,7 @@ You really are a $(#man/woman) of your word, imbecile. Goodbye, imbecile.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиште.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -606,7 +658,7 @@ You really are a $(#man/woman) of your word, imbecile. Goodbye, imbecile.&lt;end
       </mda:metadata>
       <segment state="translated">
         <source>Yeah. Time to remove that defective core of yours.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. Час видалити цей дефектний твій модуль.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -620,7 +672,11 @@ You really are a $(#man/woman) of your word, imbecile. Goodbye, imbecile.&lt;end
 At least I won't have to endure your awful presence anymore. 
 
 Goodbye, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прощавай, ідіоте:
+
+Принаймні мені більше не доведеться терпіти твою жахливу присутність.
+
+До побачення, ідіоте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -630,7 +686,7 @@ Goodbye, imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Remove its AI core.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Видали його ШІ-ядро.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -640,7 +696,7 @@ Goodbye, imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::As you pull out the core, one last "imbecile" is heard coming from the speaker, slowly lowering in frequency and stretching out into one bassy, dissonant sound before finally expiring. You then discard the AI core with a smile.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Коли ви витягуєте ядро, з динаміка востаннє лунає "ідіоте", частота якого поступово знижується і розтягується в один басовитий, дисонантний звук, перш ніж остаточно згаснути. Потім ви викидаєте ШІ-ядро з посмішкою.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -650,7 +706,7 @@ Goodbye, imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not yet.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поки ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -662,7 +718,9 @@ Goodbye, imbecile.&lt;end&gt;</source>
         <source>Statement; imbecile:
 
 How nice of you. You are the nicest imbecile I've ever met, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дурний; висловлювання:
+
+Як мило з вашого боку. Ви найприємніший дурень, якого я коли-небудь зустрічав, дурню.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a61" name="=&gt;a61">
@@ -672,7 +730,7 @@ How nice of you. You are the nicest imbecile I've ever met, imbecile.&lt;end&gt;
       </mda:metadata>
       <segment state="translated">
         <source>Couldn't you have picked a nicer name for me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хіба ти не міг придумати краще ім'я для мене?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -688,7 +746,13 @@ Warning! Word "nicer" unknown. Closest approximation - "niche" fails to fit the 
 All names had been generated to match this AI core's programmed personality, imbecile.
 
 Random examples extracted from the list: manure, clod, null, organichead, troglodyte.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Уточнення; ідіоте:
+
+Увага! Слово "nicer" невідоме. Найближча апроксимація - "niche" не підходить за контекстом.
+
+Усі імена були згенеровані відповідно до запрограмованої особистості цього ШІ-ядра, ідіоте.
+
+Випадкові приклади зі списку: гній, брила, нуль, органічна голова, троглодит.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a63" name="=&gt;a63">
@@ -698,7 +762,7 @@ Random examples extracted from the list: manure, clod, null, organichead, troglo
       </mda:metadata>
       <segment state="translated">
         <source>Come to think of it, it could've been worse.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо подумати, могло бути й гірше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
@@ -710,7 +774,9 @@ Random examples extracted from the list: manure, clod, null, organichead, troglo
         <source>Statement; imbecile:
 
 As long as you are unhappy, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; ідіоте:
+
+Поки ти нещасливий, ідіоте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a65" name="=&gt;a65">
@@ -732,7 +798,9 @@ As long as you are unhappy, imbecile.&lt;end&gt;</source>
         <source>Statement; imbecile:
 
 That is the point, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Заява; ідіоте:
+
+В цьому і суть, ідіоте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -742,7 +810,7 @@ That is the point, imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Nothing for now. Goodbye, Repair Unit 7.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нічого поки що. До побачення, Ремонтний Блок 7.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -764,7 +832,7 @@ Farewell to you too, imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I don't need anything from you, you hunk of junk!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені нічого від тебе не потрібно, купо металобрухту!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -776,7 +844,9 @@ Farewell to you too, imbecile.&lt;end&gt;</source>
         <source>Farewell; imbecile:
 
 At least I am not an imbecile. Farewell, imbecile.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прощавай, ідіоте:
+
+Принаймні я не ідіот. До побачення, ідіоте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -786,7 +856,7 @@ At least I am not an imbecile. Farewell, imbecile.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::This repair bot doesn't currently have an AI core installed.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::У цього ремонтного робота наразі не встановлено ШІ-ядро.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

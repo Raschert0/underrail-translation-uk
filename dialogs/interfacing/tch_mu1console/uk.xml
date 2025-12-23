@@ -11,7 +11,10 @@
 Hazardous waste disposal control
 
 Lockdown mode initiated. Please enter security code to proceed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Утилітарна Станція 7 - Термінал 6
+Контроль утилізації небезпечних відходів
+
+Режим блокування активовано. Введіть код безпеки для продовження.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -21,7 +24,7 @@ Lockdown mode initiated. Please enter security code to proceed.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::Type something random::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Введіть щось випадкове::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -31,7 +34,7 @@ Lockdown mode initiated. Please enter security code to proceed.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::Invalid security code::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Невірний код безпеки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -41,7 +44,7 @@ Lockdown mode initiated. Please enter security code to proceed.&lt;end&gt;</sour
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -55,7 +58,11 @@ Hazardous waste disposal control
 
 Checking status...
 1 procedure(s) initialized::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Утилітарна Станція 7 - Термінал 6
+Контроль утилізації небезпечних відходів
+
+Перевірка статусу...
+Ініціалізовано 1 процедуру(и).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -65,7 +72,7 @@ Checking status...
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -75,7 +82,7 @@ Checking status...
       </mda:metadata>
       <segment state="translated">
         <source>::Initiate toxic gas disposal procedure::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ініціювати процедуру утилізації токсичного газу::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -91,7 +98,13 @@ Assessing pipeline 2 integrity...
 Warning - Pipeline 2 integrity assessment failed!
 Dangerous breach in section C-3 of Pipeline 2 detected!
 Gas disposal procedure aborted due to safety risks.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ініціювання процедури...
+Оцінка цілісності трубопроводу 1... пройдено
+Оцінка цілісності трубопроводу 2...
+
+Увага - Оцінка цілісності трубопроводу 2 не вдалася!
+Виявлено небезпечне порушення в секції C-3 трубопроводу 2!
+Процедура утилізації газу припинена з міркувань безпеки.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -101,7 +114,7 @@ Gas disposal procedure aborted due to safety risks.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Perform an override and initialize the toxic gas disposal procedure.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злом] Здійснити обхід та ініціювати процедуру утилізації токсичного газу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -117,7 +130,13 @@ Procedure initialized successfully.
 Warning - gas leak detected!
 
 Chamber lockdown initiated!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ініціювання процедури утилізації токсичного газу...
+
+Процедура успішно ініціалізована.
+
+Увага - виявлено витік газу!
+
+Ініційовано блокування камери!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -129,7 +148,9 @@ Chamber lockdown initiated!::&lt;end&gt;</source>
         <source>::Unauthorized access blocked!
 
 Initiating terminal 6 lockdown and sending notification to Utility Station 7 security. Please remain where you are until the security officers arrive.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Несанкціонований доступ заблоковано!
+
+Ініціювання блокування терміналу 6 та надсилання сповіщення службі безпеки Утилітарної Станції 7. Будь ласка, залишайтеся на місці до прибуття офіцерів безпеки.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -139,7 +160,7 @@ Initiating terminal 6 lockdown and sending notification to Utility Station 7 sec
       </mda:metadata>
       <segment state="translated">
         <source>::Back.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -153,7 +174,11 @@ Hazardous waste disposal control
 
 Checking status...
 Waste disposal system is on standby - no procedures in place::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Утилітарна Станція 7 - Термінал 6
+Контроль утилізації небезпечних відходів
+
+Перевірка статусу...
+Система утилізації відходів знаходиться в режимі очікування - процедури не виконуються.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -163,7 +188,7 @@ Waste disposal system is on standby - no procedures in place::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Unlock chamber::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Відімкнути камеру::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -173,7 +198,7 @@ Waste disposal system is on standby - no procedures in place::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Chamber unlocked successfully::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Камера успішно відімкнена::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -183,7 +208,7 @@ Waste disposal system is on standby - no procedures in place::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle emergency shutters::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути аварійні жалюзі::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -193,7 +218,7 @@ Waste disposal system is on standby - no procedures in place::&lt;end&gt;</sourc
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle emergency shutters::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути аварійні жалюзі::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -205,7 +230,9 @@ Waste disposal system is on standby - no procedures in place::&lt;end&gt;</sourc
         <source>::Warning - unable to lower emergency shutters!
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увага - неможливо опустити аварійні жалюзі!
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -217,7 +244,9 @@ Waste disposal system is on standby - no procedures in place::&lt;end&gt;</sourc
         <source>::Sending notification to maintenance.
 
 Please wait...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Надсилання сповіщення службі технічного обслуговування.
+
+Будь ласка, зачекайте...::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

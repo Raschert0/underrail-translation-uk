@@ -9,7 +9,8 @@
       <segment state="translated">
         <source>- Setting traps or planting explosives near other characters might provoke them
 - Setting traps or planting explosives out of sight cannot be traced to you</source>
-        <target state="new" />
+        <target state="needs-translation">- Розставлення пасток або підрив вибухівки біля інших персонажів може спровокувати їх
+- Розставлення пасток або підрив вибухівки поза полем зору неможливо відстежити до вас</target>
       </segment>
     </unit>
     <unit id="::PartiallyControlled" name="::PartiallyControlled">
@@ -20,7 +21,8 @@
       <segment state="translated">
         <source>- Setting traps or planting explosives near other characters might provoke them
 - If members of certain factions take damage from your traps or explosives they will automatically track it back to you and will turn hostile</source>
-        <target state="new" />
+        <target state="needs-translation">- Розставлення пасток або підрив вибухівки біля інших персонажів може спровокувати їх
+- Якщо члени певних фракцій отримують пошкодження від ваших пасток або вибухівки, вони автоматично відстежать це до вас і стануть ворожими</target>
       </segment>
     </unit>
     <unit id="::Controlled" name="::Controlled">
@@ -32,7 +34,9 @@
         <source>- Setting traps or planting explosives near other characters might provoke them
 - If members of certain factions take damage from your traps or explosives they will automatically track it back to you and will turn hostile
 - If members of certain factions discover traps or explosives planted by you they will automatically track it back to you and will turn hostile</source>
-        <target state="new" />
+        <target state="needs-translation">- Розставлення пасток або підрив вибухівки біля інших персонажів може спровокувати їх
+- Якщо члени певних фракцій отримують пошкодження від ваших пасток або вибухівки, вони автоматично відстежать це до вас і стануть ворожими
+- Якщо члени певних фракцій виявлять пастки або вибухівку, встановлену вами, вони автоматично відстежать це до вас і стануть ворожими</target>
       </segment>
     </unit>
     <unit id="::CameraFootage" name="::CameraFootage">
@@ -42,7 +46,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>If you are spotted by the cameras in this zone, you might later trigger hostilities from certain factions if the footage is not promptly erased.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо вас помітять камери в цій зоні, ви можете пізніше спровокувати ворожість з боку певних фракцій, якщо відео не буде оперативно стерто.</target>
       </segment>
     </unit>
     <unit id="::LeaveNoWitnesses" name="::LeaveNoWitnesses">
@@ -52,7 +56,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>If you trigger hostilities with characters in this zone and leave the zone before disposing of the witnesses, the hostilities may propagate to the entire faction and even allied factions.</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви спровокуєте ворожість з персонажами в цій зоні та покинете зону, не позбавившись свідків, ворожість може поширитися на всю фракцію та навіть на союзні фракції.</target>
       </segment>
     </unit>
     <unit id="::SavingDisabled" name="::SavingDisabled">
@@ -62,7 +66,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>You cannot save the game while in this zone.</source>
-        <target state="new" />
+        <target state="needs-translation">Ви не можете зберегти гру, перебуваючи в цій зоні.</target>
       </segment>
     </unit>
   </file>

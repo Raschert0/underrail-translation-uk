@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::[Thought Control] Thanks to your training, you manage to compose yourself somewhat. The Faceless seem to be searching your memory for an item of great importance, but you cannot tell what it is. You feel the urgency of his quest.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Контроль розуму] Завдяки вашій підготовці, вам вдається дещо опанувати себе. Безликі, здається, шукають у вашій пам’яті щось дуже важливе, але ви не можете зрозуміти, що саме. Ви відчуваєте терміновість його пошуків.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::[Thought Control] As he continues to search you, you let more of his thoughts flood in. You find out that his group is just one of many that have been dispatched across South Underrail in search of this item.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Контроль розуму] Поки він продовжує досліджувати вас, ви дозволяєте більшій кількості його думок затопити ваш розум. Ви дізнаєтеся, що його група – лише одна з багатьох, відправлених по всьому Південному Андеррейлу в пошуках цього предмета.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::After a while it stops and the metal hand releases you. For a moment you stand there confused but pull yourself together quickly.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Через деякий час це припиняється, і металева рука відпускає вас. Мить ви стоїте там розгублені, але швидко берете себе в руки.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Thank you for cooperating, $(context.player.Name). We will be leaving now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дякую за співпрацю, $(context.player.Name). Ми зараз підемо.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -78,7 +78,7 @@
       </mda:metadata>
       <segment state="translated">
         <source> But before we leave, I'm afraid we must deal with our unwilling host.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але перш ніж ми підемо, боюся, ми повинні розібратися з нашим небажаним господарем.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -98,7 +98,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Wait... if I'm not mistaken you came here looking for something but did not find it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекайте... якщо я не помиляюся, ви прийшли сюди в пошуках чогось, але не знайшли цього?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -108,7 +108,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>We know you spoke to us before. But that does not change the fact that this person must die.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми знаємо, що ви раніше розмовляли з нами. Але це не змінює того факту, що цю людину потрібно вбити.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -118,7 +118,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Look, while I did tell you guys where to look for the item, you still haven't found it, or else you wouldn't be here. This man might still prove useful to your investigation.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Послухайте, хоча я й сказав вам, де шукати предмет, ви все одно його не знайшли, інакше б ви не були тут. Ця людина все ще може бути корисною для вашого розслідування.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -128,7 +128,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::He pauses for a moment.:: This is true. Though leaving him alive is risky, we will take this chance. Should it come to pass that this was a bad decision, we will return to correct it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він робить паузу на мить.:: Це правда. Хоча залишати його живим ризиковано, ми підемо на цей ризик. Якщо виявиться, що це було погане рішення, ми повернемося, щоб виправити його.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -138,7 +138,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::End Dialog::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кінець діалогу::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -148,7 +148,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: Perhaps leaving him alive can increase your chances of finding the item in the future. Surely you are cutting off one avenue of investigation by killing him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконання]:: Можливо, залишення його живим збільшить ваші шанси знайти предмет у майбутньому. Ви напевно перекриваєте один із шляхів розслідування, вбиваючи його.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -158,7 +158,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -168,7 +168,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This is not acceptable.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це неприйнятно.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -178,7 +178,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Look...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Послухайте...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -188,7 +188,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>What is it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що таке?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -198,7 +198,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>This is none of your concern.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це вас не стосується.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -208,7 +208,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::[Persuade]:: Perhaps leaving him alive can increase your chances of finding it in the future. Surely you are cutting off one avenue of investigation by killing him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Переконання]:: Можливо, залишення його живим збільшить ваші шанси знайти його в майбутньому. Ви напевно перекриваєте один із шляхів розслідування, вбиваючи його.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -218,7 +218,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::[Intimidate]:: I cannot allow you to kill Buzzer.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Залякування]:: Я не дозволю вам вбити Баззера.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -228,7 +228,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Then you must die as well. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді ви повинні померти також.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -238,7 +238,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::As his voice retreats from your mind, you can feel a rush of hostile thoughts.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Коли його голос віддаляється від вашого розуму, ви відчуваєте наплив ворожих думок.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -248,7 +248,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Fight!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Бій!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -258,7 +258,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>What will happen to Buzzer?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що станеться з Баззером?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -268,7 +268,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>I'm afraid he must die.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Боюся, він повинен померти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -278,7 +278,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Why?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -288,7 +288,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>I may not answer that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не можу на це відповісти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -298,7 +298,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Not so fast, buddy. ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не так швидко, друже. ::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -308,7 +308,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>I can't let you to do this, freak! ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не дозволю вам це зробити, виродку! ::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -318,7 +318,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>I understand. ::Let them wrap up their business and be on their way.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. ::Дозвольте їм завершити свої справи та піти.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -328,7 +328,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::As he continues, it becomes much harder to focus your mind on his thoughts and you feel dizzy from mental exhaustion.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поки він продовжує, зосередитися на його думках стає все важче, і ви відчуваєте запаморочення від розумового виснаження.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -338,7 +338,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::You can sense his mind's eye fall upon you. For a moment it's as if he's about to attack, but his curiosity stops him.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви відчуваєте, як його розумове око падає на вас. На мить здається, що він збирається напасти, але його цікавість зупиняє його.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -348,7 +348,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::You hear an echoing voice in the back of your head. The words sound familiar, but you cannot make them out; it's as if it speaks in a language you once knew but had forgotten.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ви чуєте відлуння голосу в глибині своєї голови. Слова звучать знайомо, але ви не можете їх розібрати; ніби він говорить мовою, яку колись знав, але забув.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -358,7 +358,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::As the voice gets louder, it starts making sense.:: Sss.. sub-sub-sub...Ssssubmit...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Коли голос стає гучнішим, він починає мати сенс.:: Сс.. сс-сс-сс...Сс.. підкорись...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -368,7 +368,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Allow his excursion into your mind to continue.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дозвольте йому продовжити вторгнення у ваш розум.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -378,7 +378,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>...Submit... to the questioning...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">...Підкорись... до допиту...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -388,7 +388,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>...Submit to the questioning or we shall resolve this in combat. ::The voice speaks fluently now.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">...Підкорись допиту або ми вирішимо це в бою. ::Голос говорить вільно зараз.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -398,7 +398,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>What would you like to know?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви хочете знати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -408,7 +408,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Everything... ::The mechanical grappling arm protruding from his helmet starts moving.:: I will look into your thoughts and extract the answers to my questions. The process is painless and after this we will depart and leave you unharmed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все... ::Механічна захоплююча рука, що виступає з його шолома, починає рухатися.:: Я зазирну у ваші думки та витягну відповіді на мої запитання. Процес безболісний, і після цього ми підемо і залишимо вас неушкодженими.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -418,7 +418,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Very well. ::Allow him to inspect your head.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре. ::Дозвольте йому оглянути вашу голову.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -428,7 +428,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>No way, you're not touching my mind with that dirty claw.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ніколи, ви не торкнетеся мого розуму цим брудним кігтем.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -438,7 +438,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -448,7 +448,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

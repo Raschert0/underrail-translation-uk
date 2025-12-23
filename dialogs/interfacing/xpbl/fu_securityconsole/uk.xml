@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::LEMCO LC387 - ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO LC387 - ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,9 @@
         <source>::Welcome, P. Bridges::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вітаємо, П. Бріджес::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +32,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -48,7 +50,15 @@ Active Auto-turrets: $(context.loc_xpbl_e5_lemurianTurretsActive)
 Active Auto-artillery units: 0
 
 Protective Energy Dome: Offline::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус системи оборони Арх Кіп:
+
+Автоматизовані засоби захисту:
+
+Активні захисники Нага: N/A
+Активні автоматичні турелі: $(context.loc_xpbl_e5_lemurianTurretsActive)
+Активні автоматичні артилерійські установки: 0
+
+Захисний енергетичний купол: Відключено::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -58,7 +68,7 @@ Protective Energy Dome: Offline::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Naga Protector control system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система управління захисниками Нага::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -68,7 +78,7 @@ Protective Energy Dome: Offline::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Auto-turret defense system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система оборони автоматичними турелями::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -78,7 +88,7 @@ Protective Energy Dome: Offline::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Auto-turret defense system status: Offline::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус системи оборони автоматичними турелями: Відключено::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -88,7 +98,7 @@ Protective Energy Dome: Offline::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Enable auto-turret defense system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнути систему оборони автоматичними турелями::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -102,7 +112,11 @@ Protective Energy Dome: Offline::&lt;end&gt;</source>
 D5... No auto-turrets detected.
 D6... No auto-turrets detected.
 E5... ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Увімкнення...
+
+D5... Автоматичні турелі не виявлено.
+D6... Автоматичні турелі не виявлено.
+E5... ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -113,7 +127,8 @@ E5... ::&lt;end&gt;</source>
       <segment state="translated">
         <source>::2 auto-turrets detected.::
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виявлено 2 автоматичні турелі.::
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -124,7 +139,7 @@ E5... ::&lt;end&gt;</source>
       <segment state="translated">
         <source>
 ::E6: No auto-turrets detected.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::E6: Автоматичні турелі не виявлено.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -138,7 +153,11 @@ E5... ::&lt;end&gt;</source>
 Warning: Detected targets do not match the CIDFF profile category definition: Lemurian Security
 
 Designate as foes or update category definition?::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Завантаження профілю CIDFF та виконання ареального сканування...
+
+Увага: Виявлені цілі не відповідають категорійному визначенню профілю CIDFF: Лемурійська безпека
+
+Позначити як ворогів або оновити категорійне визначення?::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -148,7 +167,7 @@ Designate as foes or update category definition?::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Update category definition (this process will be performed automatically)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Оновити категорійне визначення (цей процес буде виконано автоматично)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -164,7 +183,13 @@ Processing... Done.
 Updating definition... Done.
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Збір даних... Готово.
+
+Обробка... Готово.
+
+Оновлення визначення... Готово.
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -176,7 +201,9 @@ Updating definition... Done.
         <source>::Activating... Done.
 
 Auto-turret activation procedure completed.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активація... Готово.
+
+Процедура активації автоматичної турелі завершена.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -186,7 +213,7 @@ Auto-turret activation procedure completed.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Auto-turret defense system status: Online::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Статус системи оборони автоматичними турелями: Онлайн::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -196,7 +223,7 @@ Auto-turret activation procedure completed.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -206,7 +233,7 @@ Auto-turret activation procedure completed.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Designate as foes::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Позначити як ворогів::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -216,7 +243,7 @@ Auto-turret activation procedure completed.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::1 auto-turret detected.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виявлено 1 автоматичну турель.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -226,7 +253,7 @@ Auto-turret activation procedure completed.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Auto-artillery defense system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Автоматична артилерійська система оборони::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -236,7 +263,7 @@ Auto-turret activation procedure completed.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Protective Energy Dome control system::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Система управління захисним енергетичним куполом::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -246,7 +273,7 @@ Auto-turret activation procedure completed.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Contact active security supervisor::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Зв'язатися з активним керівником служби безпеки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -258,7 +285,9 @@ Auto-turret activation procedure completed.::&lt;end&gt;</source>
         <source>::No active security supervisors detected. There may be temporary communication problems preventing this. 
 
 Please try again later.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активних керівників служби безпеки не виявлено. Можуть бути тимчасові проблеми зі зв'язком, що перешкоджають цьому.
+
+Будь ласка, спробуйте ще раз пізніше.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -268,7 +297,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Summon available Servants::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Викликати доступних слуг::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -278,7 +307,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -288,7 +317,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -300,7 +329,9 @@ Please try again later.::&lt;end&gt;</source>
         <source>::Welcome, guest
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вітаємо, гостю
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -310,7 +341,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::You do not have permission to use this console. Minimum clearance level required is C-3.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::У вас немає дозволу використовувати цю консоль. Мінімальний необхідний рівень допуску - C-3.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -320,7 +351,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Gain access to the security console::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Отримати доступ до консолі безпеки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -330,7 +361,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -340,7 +371,7 @@ Please try again later.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Unknown error::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Невідома помилка::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

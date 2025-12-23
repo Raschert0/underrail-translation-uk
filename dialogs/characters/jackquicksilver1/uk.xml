@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>I've been informed of your refusal to accomplish the given assignments. That concludes our cooperation. Goodbye, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене повідомили про вашу відмову виконувати поставлені завдання. Це завершує нашу співпрацю. До побачення, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Yeah?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Show me what you've got for trade. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Покажіть мені, що у вас є для обміну. ::Торгівля.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>I have done everything you asked. Now what?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я зробив все, що ви просили. Що далі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Now... we wait. I have no assignments available at the moment. I'll contact you when you are needed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер... ми чекаємо. На даний момент у мене немає доступних завдань. Я зв'яжуся з вами, коли знадобиться.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>All right, see you later then.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, до зустрічі тоді.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -78,7 +78,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Sure. See you later...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно. До зустрічі...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>How will you contact me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви зі мною зв'яжетесь?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +100,9 @@
         <source>You ask me a question like that after all you've been through? 
 
 See you around, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви ставите мені таке питання після всього, що ви пережили?
+
+До зустрічі, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I punched through a rock wall with my bare fists back in Hathor mine! I don't have time to wait!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я пробив кам'яну стіну голими руками в шахті Хатор! У мене немає часу чекати!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -120,7 +122,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sure you do. We all have to wait for something. Ain't it so? That's all I've got to say for now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно, є. Всі ми чогось чекаємо. Хіба ні? Це все, що я маю сказати на даний момент.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -130,7 +132,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Indeed you have, and with optimal results even. This hasn't gone unnoticed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дійсно, і з оптимальними результатами навіть. Це не залишилося непоміченим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -140,7 +142,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There's someone who wishes to speak with you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Є хтось, хто хоче з вами поговорити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Travel to the caves below Lower Underrail and look for Azif in a place called the "Hanging Rat."&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Подорожуйте до печер під Нижньою Підземкою і шукайте Азіфа в місці під назвою "Висяча Щур".&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -170,7 +172,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Who is Azif?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто такий Азіф?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -180,7 +182,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You'll find out.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви дізнаєтесь.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -190,7 +192,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How do I find this place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як мені знайти це місце?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -200,7 +202,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He smirks.:: By being resourceful, as you were so far.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він посміхається.:: Будучи винахідливим, як ви вже були.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -210,7 +212,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Enter the caves from the Rail Crossing station and start your search from there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Увійдіть у печери зі станції Rail Crossing і почніть пошуки звідти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -220,7 +222,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Alright. I'll look for Azif.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд. Я пошукаю Азіфа.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -230,7 +232,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He nods.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -240,7 +242,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'll think about it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я подумаю про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -250,7 +252,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He nods.:: Take your time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.:: Не поспішайте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -260,7 +262,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Forget it. I have more important things to do then wonder aimlessly through caves.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Забудьте. У мене є важливіші справи, ніж безцільно блукати печерами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -270,7 +272,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Still, if you change your mind, you should make your way there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все одно, якщо ви передумаєте, вам слід туди вирушити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -280,7 +282,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm done with Everard's assignment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я виконав завдання Евенарда.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -290,7 +292,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've been informed. ::He gives you 400 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене повідомили. ::Він дає вам 400 стігійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -300,7 +302,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>There you go. Anything else?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ось. Щось ще?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -310,7 +312,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm done with Xander's assignment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я виконав завдання Ксандера.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -320,7 +322,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Indeed you are. ::He gives you 400 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дійсно. ::Він дає вам 400 стігійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a33" name="=&gt;a33">
@@ -330,7 +332,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm done with Pierce's assignment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я виконав завдання Пірса.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -340,7 +342,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>As I hoped. ::He gives you 400 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як я і сподівався. ::Він дає вам 400 стігійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -350,7 +352,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'd like to know more about the organization you're working for.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би дізнатися більше про організацію, на яку ви працюєте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -360,7 +362,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tough. Abram or I would have told you by now more if we thought you should know at this point in time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Важко. Абрам або я розповіли б вам більше, якби вважали, що вам потрібно знати на даний момент. Але не хвилюйтеся, просто будьте терплячі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -370,7 +372,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>But don't worry, just be patient.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але не турбуйтеся, просто будьте терплячі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -380,7 +382,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I need some help with the assignments you gave me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібна допомога з завданнями, які ви мені дали.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -390,7 +392,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name), I can't say much that will help you. It's up to you to figure out what needs to be done and then do it, preferably in an optimal way. Then again, I suppose a word of advice wouldn't hurt.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name), я не можу багато сказати, що вам допоможе. Ви повинні самі розібратися, що потрібно зробити, а потім зробити це, бажано оптимальним способом. Хоча, гадаю, порада не зашкодить.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -400,7 +402,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>And, it's a very simple piece of advice: Keep your eyes and ears open. There are always cracks in the walls for you to get through, little details that reveal big secrets, small mistakes that have big consequences. Take care in everything you do, for a careless mistake might cause unrepairable damage.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І це дуже проста порада: тримайте очі та вуха відкритими. Завжди є тріщини в стінах, крізь які можна пройти, дрібні деталі, які розкривають великі секрети, незначні помилки, які мають великі наслідки. Будьте уважні у всьому, що робите, адже недбала помилка може завдати непоправної шкоди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -410,7 +412,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's enough of Jack's wisdom for now. ::He smiles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Досить мудрості від Джека. ::Він посміхається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a42" name="=&gt;a42">
@@ -420,7 +422,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Catch you later, Jack.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимося пізніше, Джек.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -430,7 +432,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Maybe I should order another drink...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, мені варто замовити ще один напій...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -440,7 +442,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hmm? I'm sorry, I don't have time to chat, I'm waiting for someone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хм? Вибачте, у мене немає часу на балачки, я чекаю на когось.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -450,7 +452,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q46" name="=&gt;q46">
@@ -460,7 +462,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name), I've waited for you for quite some time back there, yet you never showed up. I'm sorry, but I had to move on. I had some business I needed to attend to.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name), я чекав на вас там досить довго, але ви так і не з'явилися. Мені шкода, але мені довелося рухатися далі. У мене були справи, які потрібно було вирішити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -470,7 +472,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What was the meaning of all that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Який сенс у всьому цьому?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -480,7 +482,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I knew I was being watched, so I had to use someone as a decoy while I get the real package out of the station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я знав, що за мною стежать, тому мені довелося використати когось як приманку, поки я виноситиму справжній пакет зі станції.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -490,7 +492,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I told you a man was waiting to pay you for the delivery. I never said who the man would be. Well, I've waited, and waited, and waited... ::He hands you some charons.:: In any case, thanks for the help. You earned this.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я сказав вам, що чоловік чекає, щоб заплатити вам за доставку. Я ніколи не говорив, хто цей чоловік. Ну, я чекав, чекав і чекав... ::Він дає вам кілька харонів.:: У будь-якому випадку, дякую за допомогу. Ви це заслужили.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -500,7 +502,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Since that's out of the way, I'm going to have to excuse myself. I'm waiting for someone important. See you later, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Оскільки це позаду, я змушений вибачитися. Я чекаю на когось важливого. До зустрічі, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -510,7 +512,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Now, on to more pressing matters. Abram informed me you helped him in Junkyard. Told me you have potential.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер до більш нагальних справ. Абрам повідомив мені, що ви допомогли йому на звалищі. Сказав, що у вас є потенціал.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -520,7 +522,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>We will put you to the test, don't worry. Before all that, I'd like to make certain things clear before we proceed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми перевіримо вас, не хвилюйтеся. Перш ніж це станеться, я хотів би уточнити деякі речі, перш ніж ми продовжимо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -530,7 +532,7 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Abram and I are working for a... certain organization, whose name I can't reveal to you at the moment; the less you know, the better. What you do need to know is that you have shown certain qualities we seek, and if your performance continues to be satisfactory... there just might be more work for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Абрам і я працюємо на... певну організацію, назву якої я не можу вам розкрити на даний момент; чим менше ви знаєте, тим краще. Те, що вам потрібно знати, це те, що ви продемонстрували певні якості, які ми шукаємо, і якщо ваша продуктивність продовжуватиме бути задовільною... можливо, у вас буде більше роботи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -542,7 +544,9 @@ See you around, $(context.player.Name).&lt;end&gt;</source>
         <source>Everything, and I mean everything, concerning Abram, myself and everyone - I do mean everyone - involved in what we do, stays between us. We require maximum discretion, and, just so you know, we have eyes and ears everywhere.
 
 You get it, don't you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все, і я маю на увазі все, що стосується Абрама, мене та всіх - я маю на увазі всіх - причетних до того, що ми робимо, залишається між нами. Ми вимагаємо максимальної обачності, і, щоб ви знали, у нас є очі та вуха всюди.
+
+Ви розумієте, чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -554,7 +558,9 @@ You get it, don't you?&lt;end&gt;</source>
         <source>I'm getting tired of talking so listen up, I'll be brief: I have three assignments for you at the moment; you can do them in any order you like; do know that two of them will require some traveling. 
 
 First, I want you to go to Foundry and find our cell there. Once you do, you will be asked, "Who goes there?" to which you reply with, "The neophyte." Once you're in, talk to Everard, he'll tell you what needs to be done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я втомився говорити, тож слухайте уважно: у мене є три завдання для вас на даний момент; ви можете виконати їх у будь-якому порядку; майте на увазі, що два з них вимагатимуть деяких подорожей.
+
+По-перше, я хочу, щоб ви поїхали до Foundry і знайшли нашу клітину там. Коли ви це зробите, вас запитають: "Хто там?" на що ви відповідаєте: "Неофіт". Коли ви всередині, поговоріть з Евенардом, він скаже вам, що потрібно зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -564,7 +570,7 @@ First, I want you to go to Foundry and find our cell there. Once you do, you wil
       </mda:metadata>
       <segment state="translated">
         <source>How do I find the cell?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як мені знайти клітину?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -574,7 +580,7 @@ First, I want you to go to Foundry and find our cell there. Once you do, you wil
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name), if I need to tell you such basic things, you might not be cut out for this line of work. Where was I... Ah, yes.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name), якщо мені потрібно розповідати вам такі базові речі, можливо, ви не підходите для цієї роботи. Де я зупинився... Ах, так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -584,7 +590,7 @@ First, I want you to go to Foundry and find our cell there. Once you do, you wil
       </mda:metadata>
       <segment state="translated">
         <source>Second, I want you to go to SGS - that's right - and find a man called Lenox Pierce. He is in need of our services, so be polite and represent us well. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">По-друге, я хочу, щоб ви поїхали до SGS - правильно - і знайшли чоловіка на ім'я Ленокс Пірс. Він потребує наших послуг, тому будьте ввічливі та добре представляйте нас. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -594,7 +600,7 @@ First, I want you to go to Foundry and find our cell there. Once you do, you wil
       </mda:metadata>
       <segment state="translated">
         <source>And what's the third assignment?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">А яке третє завдання?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -606,7 +612,9 @@ First, I want you to go to Foundry and find our cell there. Once you do, you wil
         <source>The third one is here, in Core City. A man called Ohad Xander is waiting for you down at the Core City train station. He also needs some help with a certain... "issue."
 
 Go now, let's not keep people waiting. You will be paid upon assignment completion. If you have any more questions or want to trade, I'll be right here - enjoying my drink.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Третій тут, у Центральному Місті. Чоловік на ім'я Охад Ксандер чекає на тебе на станції Центрального Міста. Йому також потрібна допомога з певною... "проблемою".
+
+Іди зараз, не будемо змушувати людей чекати. Тобі заплатять після завершення завдання. Якщо у тебе є ще запитання або ти хочеш торгувати, я буду тут - насолоджуючись напоєм.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -616,7 +624,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -626,7 +634,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>I got it, what's the second assignment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я отримав, яке друге завдання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a63" name="=&gt;a63">
@@ -636,7 +644,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>You used me as a decoy.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви використали мене як приманку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q64" name="=&gt;q64">
@@ -646,7 +654,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>That I did. Guilty as charged.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я так і зробив. Винен, як кажуть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -656,7 +664,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>I told you we'd meet again, $(context.player.Name). You look well enough. Listen, I'd love to chat, but I'm waiting for someone important, I'll catch you later.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я ж казав, що ми ще зустрінемося, $(context.player.Name). Ти виглядаєш досить добре. Слухай, я б із задоволенням поспілкувався, але я чекаю на когось важливого, я перехоплю тебе пізніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -666,7 +674,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Oh, $(context.player.Name), there's a familiar face. I'd love to chat with you at the moment, but I'm waiting for someone important. I'll catch you later.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О, $(context.player.Name), знайоме обличчя. Я б із задоволенням поспілкувався з вами зараз, але я чекаю на когось важливого. Побачимося пізніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q67" name="=&gt;q67">
@@ -676,7 +684,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>So you are $(context.player.Name). Name's Jack Quicksilver. Abram told me you come from SGS. I was stuck there recently, it's funny how we never met. But, that's not important right now. He also told me you helped him in Junkyard. Told me you have potential.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, ви $(context.player.Name). Мене звати Джек Квіксільвер. Абрам сказав мені, що ви з SGS. Я нещодавно там застряг, смішно, що ми ніколи не зустрічалися. Але це зараз не важливо. Він також сказав мені, що ви допомогли йому на звалищі. Сказав, що у вас є потенціал.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -686,7 +694,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>...And here $(#he/she) is. You've talked to Abram, I presume. He informed me earlier you helped him in Junkyard. Told me you have potential.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">...І ось він/вона. Ти вже говорив з Абрамом, я припускаю. Він повідомив мені раніше, що ти допоміг йому на Звалищі. Сказав, що в тебе є потенціал.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q69" name="=&gt;q69">
@@ -696,7 +704,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Well, well, if it isn't $(context.player.Name). I told you we would meet again. Abram informed me you helped him in Junkyard. Told me you have potential.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну-ну, якщо це не $(context.player.Name). Я ж казав, що ми ще зустрінемося. Абрам повідомив мені, що ти допоміг йому на Звалищі. Сказав, що в тебе є потенціал.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -706,7 +714,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Well, well, if it isn't $(context.player.Name). We talked briefly at SGS, yet here we are again. Interesting. Abram informed me you helped him in Junkyard. Told me you have potential.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, ну, якщо це не $(context.player.Name). Ми коротко поговорили в SGS, і ось ми знову тут. Цікаво. Абрам повідомив мені, що ви допомогли йому на звалищі. Сказав, що у вас є потенціал.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q71" name="=&gt;q71">
@@ -716,7 +724,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Yeah?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q72" name="=&gt;q72">
@@ -726,7 +734,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a73" name="=&gt;a73">
@@ -736,7 +744,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Let's barter. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Давай торгувати. ::Торгівля.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a74" name="=&gt;a74">
@@ -746,7 +754,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Where are you from, Jack?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звідки ви родом, Джек?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -756,7 +764,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>I'm not a citizen of any place if that's what you're asking. I travel around a lot, but when I'm not on a train, I spend most of my time in Core City.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не громадянин жодного місця, якщо ти про це запитуєш. Я багато подорожую, але коли я не в поїзді, більшу частину часу проводжу в Центральному Місті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a76" name="=&gt;a76">
@@ -766,7 +774,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>What brought you here in the first place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що привело вас сюди в першу чергу?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q77" name="=&gt;q77">
@@ -776,7 +784,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>A lucrative business opportunity. But it slipped past me, unfortunately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вигідна ділова пропозиція. Але, на жаль, вона вислизнула від мене.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a78" name="=&gt;a78">
@@ -786,7 +794,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>What do you do for living? Are you a trader?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чим ти займаєшся? Ти торговець?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q79" name="=&gt;q79">
@@ -796,7 +804,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Among other things, yeah. Are you looking to trade?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">З іншого боку, так. Ти хочеш торгувати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a80" name="=&gt;a80">
@@ -806,7 +814,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Show me what you got. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Покажи, що в тебе є. ::Торгівля.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a81" name="=&gt;a81">
@@ -816,7 +824,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Maybe later.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, пізніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q82" name="=&gt;q82">
@@ -826,7 +834,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>I'll be here for a little while longer.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я тут ще трохи затримаюсь.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a83" name="=&gt;a83">
@@ -836,7 +844,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>What happened with that business opportunity?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що сталося з тією діловою пропозицією?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q84" name="=&gt;q84">
@@ -846,7 +854,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>It's a business secret.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це комерційна таємниця.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q85" name="=&gt;q85">
@@ -856,7 +864,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>If you're interested in doing some work, though, that's something I can arrange.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ти зацікавлений у роботі, я можу це організувати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a86" name="=&gt;a86">
@@ -866,7 +874,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>What kind of work?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Яка це робота?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
@@ -878,7 +886,9 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
         <source>Package delivery. I'll pay you in SGS credits. Hundred pieces.
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Доставка посилки. Я заплачу тобі в SGS кредитах. Сто штук.
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q88" name="=&gt;q88">
@@ -888,7 +898,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>You interested?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вас це цікавить?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -898,7 +908,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a90" name="=&gt;a90">
@@ -908,7 +918,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Yeah. Tell me the details.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. Розкажи мені деталі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
@@ -918,7 +928,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>::He beckons you closer.:: You know where the GMS warehouse block is?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він кличе тебе ближче.:: Ти знаєш, де знаходиться складський блок GMS?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a92" name="=&gt;a92">
@@ -928,7 +938,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Yes.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -938,7 +948,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>First go to the barracks at the station platform here in SGS. This key will open one of the footlockers and the package will be inside. ::He hands you the key.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Спочатку йди до казарм на платформі станції тут, у SGS. Цей ключ відкриє одну зі скринь і посилка буде всередині. ::Він передає тобі ключ.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q94" name="=&gt;q94">
@@ -948,7 +958,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Take the package to the warehouse block, to the building just south of the GMS compound. A man will be waiting for the package there and you'll get your money.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Віднесіть пакунок до складського блоку, до будівлі трохи південніше від комплексу GMS. Там вас чекатиме чоловік, і ви отримаєте свої гроші.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a95" name="=&gt;a95">
@@ -958,7 +968,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Alright.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q96" name="=&gt;q96">
@@ -968,7 +978,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>We will not speak of this again until the job is done.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми більше не будемо про це говорити, поки робота не буде виконана.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a97" name="=&gt;a97">
@@ -978,7 +988,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Why don't you just take the package yourself?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ви самі не віднесете пакунок?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q98" name="=&gt;q98">
@@ -988,7 +998,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>No questions. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Без питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a99" name="=&gt;a99">
@@ -998,7 +1008,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Actually I changed my mind.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насправді я передумав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q100" name="=&gt;q100">
@@ -1008,7 +1018,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Too late for that now. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Запізно для цього зараз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a101" name="=&gt;a101">
@@ -1018,7 +1028,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>No.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q102" name="=&gt;q102">
@@ -1028,7 +1038,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Never mind then. Can't risk you getting lost with the package.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Неважливо тоді. Не можу ризикувати, щоб ти заблукав із посилкою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a103" name="=&gt;a103">
@@ -1038,7 +1048,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Maybe later.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, пізніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a104" name="=&gt;a104">
@@ -1048,7 +1058,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>What's the pay?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Яка оплата?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q105" name="=&gt;q105">
@@ -1060,7 +1070,9 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
         <source>I'll pay you in SGS credits. Hundred pieces. It's a package delivery job.
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я заплачу тобі в SGS кредитах. Сто штук. Це робота з доставки посилки.
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a106" name="=&gt;a106">
@@ -1070,7 +1082,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Perhaps later.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо, пізніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q107" name="=&gt;q107">
@@ -1080,7 +1092,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>::He nods.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a108" name="=&gt;a108">
@@ -1090,7 +1102,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Tell me about that job you mentioned earlier again.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розкажи мені про ту роботу, яку ти згадував раніше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a109" name="=&gt;a109">
@@ -1100,7 +1112,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Catch you later, Jack.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимося пізніше, Джек.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q110" name="=&gt;q110">
@@ -1110,7 +1122,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Or maybe I'll catch you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Або, може, я перехоплю тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q111" name="=&gt;q111">
@@ -1120,7 +1132,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Haven't seen you around here before. You stuck in this hole now as well?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не бачив вас тут раніше. Ви також застрягли в цій дірі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a112" name="=&gt;a112">
@@ -1130,7 +1142,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>No, actually, I'm new here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, насправді, я тут новенький.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q113" name="=&gt;q113">
@@ -1140,7 +1152,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Name's Jack Quicksilver.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене звати Джек Квіксільвер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q114" name="=&gt;q114">
@@ -1150,7 +1162,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source> Who're you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто ти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a115" name="=&gt;a115">
@@ -1160,7 +1172,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>My name is $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене звати $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q116" name="=&gt;q116">
@@ -1170,7 +1182,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>::He just nods in confirmation.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він лише киває на знак підтвердження.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a117" name="=&gt;a117">
@@ -1180,7 +1192,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Why would I be stuck?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому я маю застрягти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q118" name="=&gt;q118">
@@ -1190,7 +1202,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Thought you might be travelling and got trapped here by the earthquake. Forget it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Думав, ти подорожував і потрапив сюди через землетрус. Забудь про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a119" name="=&gt;a119">
@@ -1200,7 +1212,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Who wants to know?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто хоче знати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
@@ -1210,7 +1222,7 @@ Go now, let's not keep people waiting. You will be paid upon assignment completi
       </mda:metadata>
       <segment state="translated">
         <source>Don't answer a question with a question. It's irritating.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не відповідай на запитання запитанням. Це дратує.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

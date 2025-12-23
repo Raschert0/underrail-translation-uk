@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::The pump seems to be running without problems.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Здається, насос працює без проблем.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a2" name="=&gt;a2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Залиш.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::This looks like some sort of a pump. It appears to be in functional state.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Це виглядає як насос. Здається, він у робочому стані.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Initiate pumping liquid to the hydraulic generator.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Запустити перекачування рідини до гідравлічного генератора.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -59,7 +59,8 @@
       <segment state="translated">
         <source>::Error: Breach in the piping system detected
 Unable to initiate pumping procedure::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка: Виявлено прорив у трубопровідній системі.
+Не вдалося запустити процедуру перекачування::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -69,7 +70,7 @@ Unable to initiate pumping procedure::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Pumping procedure initiated successfully::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Процедуру перекачування успішно запущено.::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

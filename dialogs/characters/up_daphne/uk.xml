@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Please don't hurt me!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка, не рани мене!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Leave me alone!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Залиш мене в спокої!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +30,9 @@
         <source>::A petite young woman appears to be lost in thought, her gaze fixed on some distant spot far behind you. Upon approaching her she looks at you and smiles, making her cheeks plump up. When she speaks, her voice has a mostly pleasant timbre, but there is also a hint of abrasiveness from time to time, sounding like she's suffered some degree of damage to her voice.::
 
 Hi, stranger. Are you also here to join the Tchortists?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Здається, тендітна молода жінка занурена в роздуми, її погляд прикутий до якоїсь далекої точки позаду вас. Підійшовши до неї, вона дивиться на вас і посміхається, округлюючи щоки. Коли вона говорить, її голос переважно приємний, але час від часу відчувається нотка різкості, ніби її голос зазнав певних ушкоджень.::
+
+Привіт, незнайомцю. Ви теж тут, щоб приєднатися до Чортистів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ Hi, stranger. Are you also here to join the Tchortists?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Maybe. What can you tell me about them?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо. Що ви можете мені про них розповісти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -52,7 +54,9 @@ Hi, stranger. Are you also here to join the Tchortists?&lt;end&gt;</source>
         <source>Oh. Well then... if you are - join the line, hah!
 
 But first, allow me introduce myself. I'm Daphne. Nice to meet you... ehm...?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О. Ну тоді... якщо ви так - ставайте в чергу, ха-ха!
+
+Але спочатку дозвольте мені представитися. Я Дафна. Рада знайомству... ем...?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -62,7 +66,7 @@ But first, allow me introduce myself. I'm Daphne. Nice to meet you... ehm...?&lt
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a7" name="=&gt;a7">
@@ -72,7 +76,7 @@ But first, allow me introduce myself. I'm Daphne. Nice to meet you... ehm...?&lt
       </mda:metadata>
       <segment state="translated">
         <source>It's $(context.player.Name). Nice to meet you too, Daphne.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене звати $(context.player.Name). Мені теж приємно познайомитися, Дафно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -84,7 +88,9 @@ But first, allow me introduce myself. I'm Daphne. Nice to meet you... ehm...?&lt
         <source>$(context.player.Name). Got it.
 
 Okay, $(context.player.Name), let's talk.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name). Зрозуміло.
+
+Гаразд, $(context.player.Name), давайте поговоримо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -94,7 +100,7 @@ Okay, $(context.player.Name), let's talk.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -104,7 +110,7 @@ Okay, $(context.player.Name), let's talk.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about yourself?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені про себе розповісти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -114,7 +120,7 @@ Okay, $(context.player.Name), let's talk.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am a geneticist from Foundry.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я генетик з Фаундрі.</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -124,7 +130,7 @@ Okay, $(context.player.Name), let's talk.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What exactly do you mean by that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що саме ви маєте на увазі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -136,7 +142,9 @@ Okay, $(context.player.Name), let's talk.&lt;end&gt;</source>
         <source>You see, Foundry is a station, town - call it however you will - that revolves around a single thing - mining. Well, mining, processing and manufacturing products out of ore that has been mined out, true, but the most important aspect is that such place has no room for, say, a biologist. It's like a... like a... fisherman on a train station: He's got nothing to do, hah!
 
 Anyway, I had to get outta there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Бачите, Фаундрі - це станція, місто - називайте як хочете - яке обертається навколо однієї речі - видобутку корисних копалин. Ну, видобутку, переробки та виробництва продуктів з видобутої руди, звісно, але найважливіше те, що в такому місці немає місця, скажімо, біологу. Це як... як рибалці на залізничній станції: Йому там робити нічого, ха-ха!
+
+У будь-якому випадку, мені довелося звідти вибратися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -146,7 +154,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How did you end up there in the first place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви туди потрапили?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -156,7 +164,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>My parents brought me there when I was little. The money was good, sure, but if we had gone to South Gate or Rail Crossing we would've been golden. But, oh, well... I ended up there. Years went by, I grew older. "No more will I waste my time in that dump," I said to myself. I have aspirations, and I'm gonna study as much as I can, get out of that hole and move forward in life!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мої батьки привезли мене туди, коли я була маленькою. Гроші були хороші, звісно, але якби ми поїхали до Південних воріт або Рейл Кросінгу, то нам було б набагато краще. Але, що ж, я там опинилася. Минули роки, я подорослішала. "Я більше не буду витрачати свій час у цій дірі", - сказала я собі. У мене є прагнення, і я збираюся вчитися якомога більше, вибратися з цієї ями та рухатися вперед у житті!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -166,7 +174,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Isn't it a bit dangerous to travel around alone?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хіба не трохи небезпечно подорожувати самостійно?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -176,7 +184,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Technically, it's more dangerous to live in Foundry, hah. I'm not exaggerating, $(context.player.Name). Nope.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Технічно, більш небезпечно жити у Фаундрі, ха-ха. Я не перебільшую, $(context.player.Name). Ні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -186,7 +194,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well said. Now, let me ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре сказано. Тепер дозвольте мені запитати вас про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -196,7 +204,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why not, $(context.player.Name). What did you have in mind?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому б і ні, $(context.player.Name). Що ви мали на увазі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -206,7 +214,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>And...?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І...?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -216,7 +224,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Actually, that tells me all I need to know. Let me ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насправді, цього мені достатньо. Дозвольте мені запитати вас про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -226,7 +234,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Nothing. I can, but I won't. Why should I expose any personal information if you couldn't find the common decency to at least introduce yourself?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нічого. Я можу, але не буду. Чому ви повинні розкривати будь-яку особисту інформацію, якщо ви не змогли виявити достатньо ввічливості, щоб хоча б представитися?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -236,7 +244,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>It was rhetorical; Don't answer it...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це було риторичне питання; Не відповідайте на нього...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -246,7 +254,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why are you here and what can you tell me about this place?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ви тут і що ви можете мені розповісти про це місце?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -256,7 +264,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Well, I got tired of living in a polluted environment, that's one reason. The other is, well, this Institute of Tchort seems to need a lot of experts in the field of biology, genetics and similar. I'm not saying *I'm* an expert, but joining them could be the first step toward becoming one, hah. Besides, I'm sure they pay good money. Just look at the building.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, я втомилася жити в забрудненому середовищі, це одна з причин. Інша полягає в тому, що, здається, цьому Інституту Чорта потрібно багато експертів у галузі біології, генетики та подібного. Я не кажу, що *я* експерт, але приєднання до них може бути першим кроком до того, щоб ним стати, ха-ха. Крім того, я впевнена, що вони добре платять. Просто подивіться на будівлю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -266,7 +274,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Do you even know why they need so many scientists?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви взагалі знаєте, навіщо їм стільки вчених?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -276,7 +284,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I know what you really mean: "Are these guys some evil cultists that perform twisted experiments and torture people and if so, why would I want to join them?" Well... ::She makes a slightly longer pause.:: Frankly, I don't know what's going on inside, but I know one thing: There is no other place in Underrail where you can go to and *not* ask yourself the same question, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я знаю, що ви маєте на увазі: "Чи ці хлопці якісь злі культисти, які проводять збочені експерименти та катують людей, і якщо так, то навіщо мені до них приєднуватися?" Ну... ::Вона робить трохи довшу паузу.:: Чесно кажучи, я не знаю, що відбувається всередині, але я знаю одне: немає іншого місця в Підземці, куди б ви пішли і *не* поставили б собі те саме питання, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -286,7 +294,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>This whole world is... twisted, and... despite their strange appearance these Tchortists seem like... I mean...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цей цілий світ... збочений, і... незважаючи на їхній дивний вигляд, ці Чортисти здаються... я маю на увазі...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -296,7 +304,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Look, I'm careful... if I sense anything too strange is going on - I will back out. I haven't lost all my senses from living in Foundry, hah. Got that one?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Послухайте, я обережна... якщо я відчую, що щось дивне відбувається - я відступлю. Я не втратила всі свої почуття від життя у Фаундрі, ха-ха. Зрозуміло?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -306,7 +314,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How about a different question?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як щодо іншого питання?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -316,7 +324,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sure, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -326,7 +334,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is Institute of Tchort, the main building of the Tchortist organization. As to why I'm here...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це Інститут Чорта, головна будівля організації Чортистів. Щодо того, чому я тут...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -336,7 +344,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That I'm not willing to share with you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тим я не готова з вами ділитися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -346,7 +354,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the Tchortists?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Чортистів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -356,7 +364,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>From what I know, Institute of Tchort is a research organization that celebrates a creature called Tchort. Supposedly, that creature's genome is very unique and whatever they learned from it can be applied to humans as well. I've heard terms like "directed evolution" and "conquering the Surface," but I won't comment on those until I know more.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Наскільки я знаю, Інститут Чорта - це дослідницька організація, яка вшановує істоту, що називається Чортом. Нібито геном цієї істоти дуже унікальний, і все, що вони з нього дізналися, можна застосувати до людей. Я чула такі терміни, як "спрямована еволюція" та "завоювання Поверхні", але я не буду коментувати їх, поки не дізнаюся більше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -366,7 +374,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>This is their main building; they supposedly have facilities in Deep Caverns as well. That's pretty much all I know, hah. It's not my fault, it's just that information on them is kind of scarce.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це їхня головна будівля; нібито вони мають об'єкти в Глибоких Печерах. Це все, що я знаю, ха-ха. Це не моя провина, просто інформація про них досить обмежена.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -376,7 +384,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Institute of Tchort is a research organization that celebrates a creature called Tchort. Supposedly, that creature's genome is very unique and whatever they learned from it can be applied to humans as well.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Інститут Чорта - це дослідницька організація, яка вшановує істоту, що називається Чортом. Нібито геном цієї істоти дуже унікальний, і все, що вони з нього дізналися, можна застосувати до людей.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -386,7 +394,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>And this is their main building.That's pretty much all I know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І це їхня головна будівля. Це все, що я знаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -396,7 +404,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Did you perhaps see any of the Tchortists carrying a strange artifact? It looks like a twenty-sided polyhedron.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви, можливо, бачили Чортистів, які носили дивний артефакт? Він виглядає як двадцятигранний багатогранник.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -406,7 +414,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What you describe, no, I haven't seen. But I remember a large group of Tchortists coming back from Core City - that's what I overheard - and they seem to have had something pretty valuable with them. Again, I sort of overheard them talk.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Те, що ви описуєте, ні, я не бачила. Але я пам'ятаю, як велика група Чортистів поверталася з Кор Сіті - ось що я підслухала - і, здається, вони мали з собою щось цінне. Знову ж таки, я просто підслухала їхню розмову.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -416,7 +424,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What happened then?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що сталося тоді?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -426,7 +434,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They went inside, hah, what else? Anyway, that's all I can remember seeing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони зайшли всередину, ха-ха, що ще? У будь-якому випадку, це все, що я пам'ятаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -436,7 +444,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I don't think I have.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не думаю, що бачила.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -446,7 +454,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Anything else?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щось ще?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a45" name="=&gt;a45">
@@ -456,7 +464,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have to go. Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я мушу йти. До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -466,7 +474,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I can't reveal my name to you. It must remain a secret.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не можу розкрити вам своє ім'я. Воно повинно залишитися в секреті.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -476,7 +484,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::She becomes slightly uneasy after hearing what you said.:: Okay... ::She falls silent.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона стає трохи неспокійною після того, як почула те, що ви сказали.:: Гаразд... ::Вона замовкає.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a48" name="=&gt;a48">
@@ -486,7 +494,7 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I was joking with you. I just wanted to see your reaction. I'm $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я жартувала з вами. Я просто хотіла подивитися на вашу реакцію. Мене звати $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q49" name="=&gt;q49">
@@ -500,7 +508,11 @@ Anyway, I had to get outta there.&lt;end&gt;</source>
 Honestly, the way you said that was... slightly alarming. There's a lot of weird people in Underrail and... I was thinking... what does this $(#guy/woman) want from me? What are $(#his/her) true intentions? Hah!
 
 Anyway, $(context.player.Name), let's talk.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Спочатку вона здається збентеженою, потім посміхається - потім починає сміятися.::
+
+Чесно кажучи, те, як ви це сказали, було... трохи тривожно. В Підземці багато дивних людей, і... я думала... чого цей $(#хлопець/дівчина) хоче від мене? Які його справжні наміри? Ха-ха!
+
+У будь-якому випадку, $(context.player.Name), давайте поговоримо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a50" name="=&gt;a50">
@@ -510,7 +522,7 @@ Anyway, $(context.player.Name), let's talk.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm sorry, but really can't tell you my name. I had some questions, though.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, але я справді не можу вам сказати своє ім'я. У мене були запитання, хоча.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -520,7 +532,7 @@ Anyway, $(context.player.Name), let's talk.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::She appears more reserved than previously.:: Okay, I suppose I can answer some of those.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона здається більш стриманою, ніж раніше.:: Гаразд, я думаю, я можу відповісти на деякі з них.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -530,7 +542,7 @@ Anyway, $(context.player.Name), let's talk.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>To be honest, I don't *want* to tell you my name, Daphne. Nice of you to tell me yours. It could prove useful.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чесно кажучи, я не *хочу* говорити вам своє ім'я, Дафно. Приємно, що ви сказали мені своє. Це може виявитися корисним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -542,7 +554,9 @@ Anyway, $(context.player.Name), let's talk.&lt;end&gt;</source>
         <source>::Her eyes widen into a nervous stare as she takes a few steps back.::
 
 Look, I don't like where this is going. I think we should stop here... whoever you are! Leave me alone or I'll call for help. Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Її очі розширюються від нервового погляду, коли вона робить кілька кроків назад.::
+
+Послухайте, мені не подобається, куди це йде. Я думаю, нам варто зупинитися тут... хто б ви не були! Залиште мене в спокої, або я покликаю на допомогу. До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -552,7 +566,7 @@ Look, I don't like where this is going. I think we should stop here... whoever y
       </mda:metadata>
       <segment state="translated">
         <source>Wait, I was joking!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекайте, я жартував!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -562,7 +576,7 @@ Look, I don't like where this is going. I think we should stop here... whoever y
       </mda:metadata>
       <segment state="translated">
         <source>::She raises her voice.:: I said GOODBYE!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона підвищує голос.:: Я сказала ДО ПОБАЧЕННЯ!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -572,7 +586,7 @@ Look, I don't like where this is going. I think we should stop here... whoever y
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye, Daphne.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення, Дафне.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -582,7 +596,7 @@ Look, I don't like where this is going. I think we should stop here... whoever y
       </mda:metadata>
       <segment state="translated">
         <source>No, I'm just passing by. But, I had some questions if you don't mind.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, я просто проходжу повз. Але, у мене було кілька запитань, якщо ви не проти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -592,7 +606,7 @@ Look, I don't like where this is going. I think we should stop here... whoever y
       </mda:metadata>
       <segment state="translated">
         <source>It's not like I have anything better to do, hah! ::She pauses briefly.:: Look, I'm Daphne... Nice to meet you... ehm...?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені нема чим зайнятися, ха-ха! ::Вона робить невелику паузу.:: Мене звати Дафне... Приємно познайомитися... ем...?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -602,7 +616,7 @@ Look, I don't like where this is going. I think we should stop here... whoever y
       </mda:metadata>
       <segment state="translated">
         <source>I'm sorry, I gotta go. See ya some other time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, мені треба йти. Побачимося в інший раз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -612,7 +626,7 @@ Look, I don't like where this is going. I think we should stop here... whoever y
       </mda:metadata>
       <segment state="translated">
         <source>Hi, $(context.player.Name). More questions?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Привіт, $(context.player.Name). Ще питання?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -622,7 +636,7 @@ Look, I don't like where this is going. I think we should stop here... whoever y
       </mda:metadata>
       <segment state="translated">
         <source>Hey... you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей... ти.&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

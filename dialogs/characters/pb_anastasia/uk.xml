@@ -10,7 +10,9 @@
         <source>::This petite, middle-aged woman you see before you seems to be studying some medical charts. Since your eyes were immediately drawn to the charts she was holding, you are quick to notice that one of her hands is badly scarred. The horribly warped skin of her left hand, diffusing from a few spots and contrasting her otherwise clear skin, seems to have been caused by the healing of a deep burn.
 
 She is aware you're looking but does nothing to conceal the object of your interest. Instead, she lowers the charts and begins talking. However, her voice offers yet another surprise: It is a product of two clearly separate, violently dissonant voices clashing against each other before merging into one jarring sound.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ця мініатюрна жінка середнього віку, яку ви бачите перед собою, здається, вивчає медичні карти. Оскільки ваші очі одразу привернули увагу до карт, які вона тримала, ви швидко помічаєте, що одна з її рук сильно пошрамована. Жахливо спотворена шкіра її лівої руки, що розходиться від кількох плям і контрастує з її інакше чистою шкірою, здається, була спричинена загоєнням глибокого опіку.
+
+Вона знає, що ви дивитесь, але нічого не робить, щоб приховати предмет вашої зацікавленості. Натомість вона опускає карти і починає говорити. Однак її голос пропонує ще один сюрприз: це продукт двох чітко окремих, жорстоко дисонуючих голосів, що стикаються один з одним, перш ніж злитися в один різкий звук.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>Corporal, nice to meet you. Khm... $(context.player.Name) was it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Корпорале, приємно познайомитися. Хм... $(context.player.Name), чи не так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>That's right. It's $(context.player.Name). Who are you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, правильно. Це $(context.player.Name). А ви хто?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>My name is Anastasia... khm... Anastasia Merrick. This is the... khm... sorry, this is the infirmary, as you can tell, and I'm the... khm... chief physician here. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене звати Анастасія... хм... Анастасія Меррік. Це... хм... вибачте, це інфірмерія, як ви можете бачити, і я... хм... головний лікар тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -60,7 +62,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>Can you take a look at my injuries?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви подивитися на мої поранення?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>::She nods.:: Relax, Corporal, and let me see... khm... what we're dealing with...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона киває.:: Розслабтеся, корпорале, і дозвольте мені подивитися... хм... з чим ми маємо справу...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>::Let her treat your injuries.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Дозвольте їй лікувати ваші поранення.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -90,7 +92,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>I am interested in medical supplies. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене цікавлять медикаменти. ::Торгуйте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ She is aware you're looking but does nothing to conceal the object of your inter
       </mda:metadata>
       <segment state="translated">
         <source>Excuse me for asking, but can you tell me what happened to your hand and your voice?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, що питаю, але чи можете ви розповісти мені, що сталося з вашою рукою та вашим голосом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -112,7 +114,9 @@ She is aware you're looking but does nothing to conceal the object of your inter
         <source>::She waits for several seconds, slowly swallowing during her silence. After this brief pause, she replies.::
 
 Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... chemical attack... several years ago. I was traveling to Fort Apogee by a civilian train... khm... from North Underrail... Back then, there was no... khm... need for every train to have troopers aboard... khm... since that section of the railway was... considered safe. Yet, just before reaching South Underrail... khm... the train was ambushed near a small station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона чекає кілька секунд, повільно ковтаючи під час мовчання. Після цієї короткої паузи вона відповідає.::
+
+Хм... Все в порядку... запитувати... Бачите, корпорале, я стала жертвою... хм... хімічної атаки... кілька років тому. Я подорожувала до Форту Апогей цивільним поїздом... хм... з Північного Андеррейлу... Тоді не було... хм... потреби, щоб у кожному поїзді були солдати... хм... оскільки цей відрізок залізниці вважався безпечним. Але незадовго до досягнення Південного Андеррейлу... хм... поїзд був обстріляний поблизу невеликої станції.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -122,7 +126,7 @@ Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... c
       </mda:metadata>
       <segment state="translated">
         <source>It was my first trip to...khm... South Underrail. The attackers used chemical weapons...khm. Launchers, grenades... khm. Some of the corrosive substance... khm... burned clean through this hand here... khm... burned my left leg. But the gas... khm... the gas hurt my throat... khm. I could feel it burning... khm... deforming my throat with every inhalation. The damage to my vocal folds is... irreversible... I managed to protect my eyes somehow. Which is very... khm... very fortunate. A blind doctor is... khm... um... you understand.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це була моя перша подорож до... хм... Південного Андеррейлу. Нападники використовували хімічну зброю... хм. Запускачі, гранати... хм. Деяка корозійна речовина... хм... пропекла цю руку тут... хм... пропалила мою ліву ногу. Але газ... хм... газ поранив моє горло... хм. Я відчувала, як він пече... хм... деформує моє горло з кожним вдихом. Пошкодження голосових зв'язок є... незворотним... Мені якось вдалося захистити очі. Що дуже... хм... дуже пощастило. Сліпий лікар - це... хм... ем... ви розумієте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -132,7 +136,7 @@ Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... c
       </mda:metadata>
       <segment state="translated">
         <source>That is horrible. Who would do something as horrible as that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це жахливо. Хто б міг зробити щось настільки жахливе?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -144,7 +148,9 @@ Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... c
         <source>We were told...khm... that the Free Drones did it. Southerners. Apparently to deter Protectorate from... khm... moving into South Underrail. I have no reason to...khm... doubt they were behind it... khm... Corporal. Bandits would've robbed us... Slavers would've kidnapped us... khm. Drones... they cause pain and death, then run away... khm... that's all they ever do. I remember hearing the anti-Protectorate... khm... chants. They laughed at the people dying... khm. And the Free Drones haven't changed to this day... khm... from what I hear. Barbarians.
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нам сказали... хм... що це зробили Вільні Дрони. Південці. Нібито щоб стримати Протекторат від... хм... вторгнення в Південний Андеррейл. У мене немає причин... хм... сумніватися, що вони за цим стоять... хм... корпорале. Бандити б пограбували нас... Торговці рабами б викрали нас... хм. Дрони... вони завдають болю та смерті, а потім тікають... хм... ось що вони завжди роблять. Я пам'ятаю, як чула антипротекторські... хм... вигуки. Вони сміялися з людей, що вмирали... хм. І Вільні Дрони досі не змінилися... хм... з того, що я чую. Варвари.
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -154,7 +160,7 @@ Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... c
       </mda:metadata>
       <segment state="translated">
         <source>I'm so sorry to hear it. It is a difficult subject, so I think we should change the subject. I had some other questions to ask.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені дуже шкода це чути. Це складна тема, тому я думаю, що нам варто змінити тему. У мене було кілька інших питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -164,7 +170,7 @@ Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... c
       </mda:metadata>
       <segment state="translated">
         <source>::She nods.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона киває.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -174,7 +180,7 @@ Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... c
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the Free Drones?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про Вільних Дронів?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -184,7 +190,7 @@ Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... c
       </mda:metadata>
       <segment state="translated">
         <source>Because of the Free Drones... I... khm... I have difficulty speaking... to put it mildly. All this you're hearing... khm... it's because of them. To illustrate... khm... sometimes my throat muscles squeeze my larynx so hard it chokes me... khm.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Через Вільних Дронів... я... хм... мені важко говорити... м'яко кажучи. Все це, що ви чуєте... хм... це через них. Щоб проілюструвати... хм... іноді м'язи мого горла так сильно стискають гортань, що мене душить... хм.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -196,7 +202,9 @@ Khm... It's okay to... ask... You see, Corporal, I was a victim of a... khm... c
         <source>I then have to...khm... swallow... in order to ease the tension. Sometimes...khm... it doesn't go away at once... It contracts and... khm... doesn't let go.
 
 That's... the Free Drones. Pain.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді мені доводиться... хм... ковтати... щоб полегшити напругу. Іноді... хм... це не проходить одразу... Він скорочується і... хм... не відпускає.
+
+Це... Вільні Дрони. Біль.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -206,7 +214,7 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Why did you decide to help the Protectorate?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ви вирішили допомогти Протекторату?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -216,7 +224,7 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I wanted to... khm... help people. That's it... South Underrail is a... much more dang-- khm... khm.. ::She stops, her face red. As she slowly swallows, the color reverts and she proceeds.:: ...dangerous place than North...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотіла... хм... допомогти людям. Це все... Південний Андеррейл - це... набагато небезпечніше міс-- хм... хм.. ::Вона зупиняється, її обличчя червоніє. Коли вона повільно ковтає, колір повертається, і вона продовжує.:: ...небезпечне місце, ніж Північ...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -226,7 +234,7 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Even despite... khm... my problems, I am able to do it... and won't stop while my help here is... needed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Навіть незважаючи на... хм... мої проблеми, я можу це зробити... і не зупинюся, поки моя допомога тут... потрібна.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -236,7 +244,7 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Where in Fort Apogee can I exchange currencies?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Де у Форті Апогей я можу обмінювати валюти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -246,7 +254,7 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>See Staff Sergeant Fraser...khm...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зверніться до штаб-сержанта Фрейзера... хм...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -256,7 +264,7 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>He performs the exchange.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він здійснює обмін.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -266,7 +274,7 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Consul Oliver?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про Консула Олівера?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -276,7 +284,7 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>He's, khm... a well-educated man, dedicated to his work... khm. Capable. Comes from a... khm... wealthy family. But... he sometimes seems a bit detached from what is really happening around him. Sitting in the office, isolated, affects the perception sometimes... khm... and I understand it well myself.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він, хм... освічена людина, віддана своїй роботі... хм. Здатний. Походить з... хм... багатої сім'ї. Але... іноді здається трохи відірваним від того, що насправді відбувається навколо нього. Сидіння в офісі, ізоляція, іноді впливає на сприйняття... хм... і я це добре розумію сам.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -288,7 +296,9 @@ That's... the Free Drones. Pain.&lt;end&gt;</source>
         <source>When I came here from North Underrail... I imagined the south differently. Much differently. I failed to realize how bad it is here... until I saw it myself... experienced it... for myself.
 
 Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe I'm just... or... Forget I said anything.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Коли я приїхала сюди з Північного Андеррейлу... я уявляла південь інакше. Набагато інакше. Я не усвідомлювала, наскільки тут погано... поки не побачила це на власні очі... не відчула це... на собі.
+
+Ох, що я... хм... кажу... консул - компетентний... хм... чоловік, можливо, я просто... або... Забудьте, що я сказала.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -298,7 +308,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Colonel Cathcart?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про полковника Кеткарта?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -308,7 +318,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>You better ask the soldiers that... khm... question, because it's their lives that are in his hands... khm... I have only good things to say about the colonel... khm... but, ultimately, his decisions mean life or death to the troops, while I... khm... I just treat the ones who weren't as unfortunate, or, depending on the injuries suffered, as fortunate... khm... as those who were killed in action.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Краще запитайте солдатів це... хм... питання, тому що саме їхнє життя в його руках... хм. Я маю лише хороші слова про полковника... хм... але, зрештою, його рішення означають життя або смерть для військ, а я... хм... я просто лікую тих, хто був менш нещасним, або, залежно від отриманих поранень, більш щасливим... хм... ніж тих, хто загинув у бою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -318,7 +328,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>However... khm... recently I've been having more patients than usual. I don't know how good or bad that... khm... is in relation to the big picture. I... khm... am just a physician. I only care... about saving lives.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Однак... хм... останнім часом у мене з'являється більше пацієнтів, ніж зазвичай. Я не знаю, наскільки це добре чи погано... хм... у зв'язку з загальною картиною. Я... хм... лише лікар. Я піклуюсь лише... про порятунок життів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -328,7 +338,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Fraser?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про Фрейзера?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -338,7 +348,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>::A sharp furrow chisels itself into her forehead.:: Staff Sergeant is... khm... always speaking well of me... khm... all his supremacist nonsense... khm... How I'm a brave Northerner doctor who, despite her... khm... disabilities had persevered and stayed in Fort Apogee... khm... to aid the cause.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Різкий нахмурений вираз прокреслюється на її чолі.:: Штаб-сержант... хм... завжди добре говорить про мене... хм... всяка його верховенська нісенітниця... хм... Як я, хоробра північна лікарка, яка, незважаючи на свої... хм... вади, витримала і залишилася у Форті Апогей... хм... щоб допомогти справі. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -348,7 +358,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>I dislike such people... khm... but I have to deal with them, I'm afraid. He's a rotten man, Corporal... khm... and sadly not the only one around. He despises all who aren't Northerners. He asks me... why I socialize with Southerners... khm... like Luka or... khm... Justin. He doesn't explicitly call them "ratters," but... khm... khm... he implies it. It's always at the tip of his.. khm... tongue. I suppose the two of us... khm... represent Protectorate in completely opposite ways, sadly.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не люблю таких людей... хм... але я змушена з ними мати справу, боюся. Він - гнилий чоловік, корпорале... хм... і, на жаль, не єдиний навколо. Він ненавидить усіх, хто не з Півночі. Він питає мене... чому я спілкуюся з південцями... хм... як Лука чи... хм... Джастін. Він не називає їх відкрито "щурами", але... хм... хм... він натякає на це. Це завжди на кінчику його... хм... язика. Я думаю, що ми двоє... хм... представляємо Протекторат у зовсім протилежних способах, на жаль.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -358,7 +368,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>My words... khm... are precious... Corporal, and I wouldn't want to waste them on that... khm... man.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мої слова... хм... дорогі... корпорале, і я не хотіла б витрачати їх на цього... хм... чоловіка.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -368,7 +378,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Luka?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про Луку?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -378,7 +388,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>::She smiles.:: Luka is a very nice man... khm... very charming... He is the head mechanic, a Dreadnought expert... khm. He is fascinated by those machines so much... We hang out all the time and... khm... despite our different professions and... khm... different environments we grew up in... we found that we have a lot in common.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона посміхається.:: Лука – дуже приємна людина… хм… дуже чарівна… Він головний механік, експерт з "Дредноутів"... хм. Він так захоплений цими машинами… Ми постійно проводимо час разом і… хм… незважаючи на різні професії та… хм… різні умови, в яких ми виросли… ми знайшли багато спільного.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -388,7 +398,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>::She laughs which, due to her damaged throat, sounds like two jagged rocks grinding against each other.:: When we're having lunch in the mess... khm... we take turns at talking about our jobs. He'd talk about machines, tools, his colleagues... whatever happens to be on his mind at the time... and after that... I'd talk about my med stuff... khm. I usually pick the grossest examples I could remember... khm. He's very squeamish, so I often go into... khm... great detail. ::She smiles.:: And end it with "Enjoy your... khm... meal!"&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона сміється, що через пошкоджене горло звучить як тертя двох гострих каменів.:: Коли ми обідаємо в їдальні… хм… ми по черзі розповідаємо про свою роботу. Він говорить про машини, інструменти, своїх колег… про все, що спадає йому на думку в цей момент… а потім… я розповідаю про свою медичну справу… хм. Зазвичай я вибираю найогидніші приклади, які тільки можу згадати… хм. Він дуже чутливий, тому я часто вдаюся до… хм… великих деталей. ::Вона посміхається.:: І закінчую словами: "Смачного… хм… обіду!"&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -398,7 +408,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>I think we both learned a lot about each... khm... other's professions. And approaches to life. Interactions like that... khm... enrich a person.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я думаю, ми обидва багато чого дізналися один про одного… хм… про професії один одного. І про підходи до життя. Такі взаємодії… хм… збагачують людину.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -408,7 +418,7 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Case?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Кейса?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -420,7 +430,9 @@ Oh, what am I... khm... saying... the consul is a competent... khm... man, maybe
         <source>He's got anterior... khm... cruciate ligament injury in his left knee. ::She pauses for a split second before continuing.:: I don't know why I said that... khm... first. It's how my brain works... khm... I suppose. 
 
 He works at the mess. Very kind... khm... man. He's a Southerner, much like you, so I reckon you two... khm... have a lot in common.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У нього пошкодження передньої… хм… хрестоподібної зв’язки лівого коліна. ::Вона робить паузу на мить, перш ніж продовжити.:: Не знаю, чому я це сказала… хм… першим. Так працює мій мозок… хм… гадаю.
+
+Він працює в їдальні. Дуже добрий… хм… чоловік. Він з Півдня, як і ви, тому я думаю, що ви двоє… хм… маєте багато спільного.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -430,7 +442,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>The knee injury prevents him from being a... khm... soldier, but I think that's good for him. I've treated so many horrible... khm... injuries and have seen... khm... things. At least he doesn't have to worry about any... khm... of *that* happening to him.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Травма коліна не дозволяє йому бути… хм… солдатом, але я думаю, що це добре для нього. Я лікувала так багато жахливих… хм… поранень і бачила… хм… речі. Принаймні, йому не доводиться турбуватися про будь-яке… хм… з цього, що може з ним статися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -440,7 +452,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about CAU?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про КВУ?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -450,7 +462,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>Please... khm...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Будь ласка… хм…&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -460,7 +472,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>I'd rather not talk about that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я б краще не говорила про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -470,7 +482,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the Faceless?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете мені розповісти про Безликих?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -480,7 +492,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>Probably... khm... nothing, because I don't know much about them... khm... &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Напевно… хм… нічого, тому що я мало про них знаю… хм… &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -490,7 +502,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>I mean... khm... I've heard rumors... khm... stories, but I'd rather not... khm... comment. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Маю на увазі… хм… я чула чутки… хм… історії, але я б краще не… хм… коментувала. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -500,7 +512,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>See you around, Doc.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимось, докторе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -510,7 +522,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>We better not, if you know what I... khm... mean. ::She smiles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Краще ні, якщо ви розумієте, що я… хм… маю на увазі. ::Вона посміхається.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -520,7 +532,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>Yes. And you are?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. А ви хто?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q52" name="=&gt;q52">
@@ -530,7 +542,7 @@ He works at the mess. Very kind... khm... man. He's a Southerner, much like you,
       </mda:metadata>
       <segment state="translated">
         <source>Khm... Corporal?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хм… Корпорал?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

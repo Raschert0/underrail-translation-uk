@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::LEMCO LC387 - ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::LEMCO LC387 - ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +20,7 @@
         <source>::Welcome, P. Bridges::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, П. Бріджес::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +30,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Please select one of the following options: ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Будь ласка, виберіть один з наступних варіантів: ::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +40,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Cryovault 1a info::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Інформація про Кріоваулт 1a::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -53,7 +53,10 @@
 Chamber temperature:  sensor data unavailable!
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Охолодження зовнішньої камери Кріоваулта 1a: вимкнено
+Температура камери: дані датчика недоступні!
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -66,7 +69,10 @@ Chamber temperature:  sensor data unavailable!
 Chamber temperature:  sensor data unavailable!
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Охолодження внутрішньої камери Кріоваулта 1a: увімкнено
+Температура камери: дані датчика недоступні!
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -77,7 +83,8 @@ Chamber temperature:  sensor data unavailable!
       <segment state="translated">
         <source>::Cryovault 1a side chamber cooling: on
 Chamber temperature: sensor data unavailable!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Охолодження бічної камери Кріоваулта 1a: увімкнено
+Температура камери: дані датчика недоступні!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -87,7 +94,7 @@ Chamber temperature: sensor data unavailable!::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a9" name="=&gt;a9">
@@ -97,7 +104,7 @@ Chamber temperature: sensor data unavailable!::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Activate inner chamber cooling.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активувати охолодження внутрішньої камери.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -109,7 +116,9 @@ Chamber temperature: sensor data unavailable!::&lt;end&gt;</source>
         <source>::Activating...
 
 Inner chamber cooling activated successfully.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активація...
+
+Охолодження внутрішньої камери успішно активовано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -119,7 +128,7 @@ Inner chamber cooling activated successfully.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Deactivate inner chamber cooling.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнути охолодження внутрішньої камери.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -129,7 +138,7 @@ Inner chamber cooling activated successfully.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -143,7 +152,11 @@ Inner chamber cooling activated successfully.::&lt;end&gt;</source>
 Inner chamber cooling deactivated successfully.
 
 It takes some time for the residual cryogas to dissipate. Please be patient.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнення...
+
+Охолодження внутрішньої камери успішно вимкнено.
+
+Потрібен час, щоб залишковий кріогаз розсіявся. Будь ласка, зачекайте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -153,7 +166,7 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       </mda:metadata>
       <segment state="translated">
         <source>::You do not have permission to perform this action.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::У вас немає дозволу виконувати цю дію.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -163,7 +176,7 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Deactivate inner chamber cooling.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Вимкнути охолодження внутрішньої камери.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -173,7 +186,7 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -183,7 +196,7 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       </mda:metadata>
       <segment state="translated">
         <source>::Unknown error.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Невідома помилка.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -193,7 +206,7 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -203,7 +216,7 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       </mda:metadata>
       <segment state="translated">
         <source>::Activate outer chamber cooling.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активувати охолодження зовнішньої камери.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -213,7 +226,7 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       </mda:metadata>
       <segment state="translated">
         <source>::Activating...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активація...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -227,7 +240,11 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
 Logging and contacting a technician...
 
 Error: Unable to connect to LIN.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка: Неможливо активувати кріогенне охолодження зовнішньої камери. 
+
+Ведеться протокол та зв'язок з техніком...
+
+Помилка: Неможливо підключитися до LIN.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -237,7 +254,7 @@ Error: Unable to connect to LIN.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Deactivate outer chamber cooling.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнути охолодження зовнішньої камери.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -247,7 +264,7 @@ Error: Unable to connect to LIN.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Activate side chamber cooling.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активувати охолодження бічної камери.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q24" name="=&gt;q24">
@@ -257,7 +274,7 @@ Error: Unable to connect to LIN.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -269,7 +286,9 @@ Error: Unable to connect to LIN.::&lt;end&gt;</source>
         <source>::Activating...
 
 Side chamber cooling activated successfully.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Активація...
+
+Охолодження бічної камери успішно активовано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -279,7 +298,7 @@ Side chamber cooling activated successfully.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::You do not have permission to perform this action.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::У вас немає дозволу виконувати цю дію.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -289,7 +308,7 @@ Side chamber cooling activated successfully.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Hacking] Activate side chamber cooling.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Злам] Активувати охолодження бічної камери.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -299,7 +318,7 @@ Side chamber cooling activated successfully.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -309,7 +328,7 @@ Side chamber cooling activated successfully.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Deactivate side chamber cooling.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнути охолодження бічної камери.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -323,7 +342,11 @@ Side chamber cooling activated successfully.::&lt;end&gt;</source>
 Side chamber cooling deactivated successfully.
 
 It takes some time for the residual cryogas to dissipate. Please be patient.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вимкнення...
+
+Охолодження бічної камери успішно вимкнено.
+
+Потрібен час, щоб залишковий кріогаз розсіявся. Будь ласка, зачекайте.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -333,7 +356,7 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -344,7 +367,8 @@ It takes some time for the residual cryogas to dissipate. Please be patient.::&l
       <segment state="translated">
         <source>::Cryovault 1a side chamber cooling: off
 Chamber temperature: sensor data unavailable!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Охолодження бічної камери Кріоваулта 1a: вимкнено
+Температура камери: дані датчика недоступні!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -357,7 +381,10 @@ Chamber temperature: sensor data unavailable!::&lt;end&gt;</source>
 Chamber temperature:  sensor data unavailable!
 
 ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Охолодження внутрішньої камери Кріоваулта 1a: вимкнено
+Температура камери: дані датчика недоступні!
+
+::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -367,7 +394,7 @@ Chamber temperature:  sensor data unavailable!
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle Cryovault 1a outer gate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перемкнути зовнішні ворота Кріоваулта 1a::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -377,7 +404,7 @@ Chamber temperature:  sensor data unavailable!
       </mda:metadata>
       <segment state="translated">
         <source>::Toggle Cryovault 1a inner gate::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перемкнути внутрішні ворота Кріоваулта 1a::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -387,7 +414,7 @@ Chamber temperature:  sensor data unavailable!
       </mda:metadata>
       <segment state="translated">
         <source>::Error: Unable to open the gate remotely. Please try opening the gate manually or summoning a strongman in case of gate malfunction.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Помилка: Неможливо відкрити ворота дистанційно. Будь ласка, спробуйте відкрити ворота вручну або викликати сильного чоловіка у разі несправності воріт.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -397,7 +424,7 @@ Chamber temperature:  sensor data unavailable!
       </mda:metadata>
       <segment state="translated">
         <source>::Summon available Servants::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Викликати доступних Слуг::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -407,7 +434,7 @@ Chamber temperature:  sensor data unavailable!
       </mda:metadata>
       <segment state="translated">
         <source>::No available Servants detected. Your request has been placed in a queue.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Не виявлено доступних Слуг. Ваш запит поставлено в чергу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a39" name="=&gt;a39">
@@ -417,7 +444,7 @@ Chamber temperature:  sensor data unavailable!
       </mda:metadata>
       <segment state="translated">
         <source>::Exit::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вихід::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q40" name="=&gt;q40">
@@ -429,7 +456,7 @@ Chamber temperature:  sensor data unavailable!
         <source>::Welcome, guest::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ласкаво просимо, гостю::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

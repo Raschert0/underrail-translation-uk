@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Incapacitates everyone caught in the blast for {0} unless they resist the effect. Incapacitated targets will also immediately lose sight of you, allowing you to easily hide from them.</source>
-        <target state="new" />
+        <target state="needs-translation">Знерухомлює всіх, спійманих у вибуху, на {0} секунд, якщо вони не протистоять ефекту. Знерухомлені цілі також негайно втратять з поля зору, що дозволить вам легко сховатися від них.</target>
       </segment>
     </unit>
     <unit id="::Flashbang-Old" name="::Flashbang-Old">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Incapacitates everyone caught in the blast for {0} seconds unless they resist the effect. Incapacitated targets will also immediately lose sight of you, allowing you to easily hide from them.</source>
-        <target state="new" />
+        <target state="needs-translation">Знерухомлює всіх, спійманих у вибуху, на {0} секунд, якщо вони не протистоять ефекту. Знерухомлені цілі також негайно втратять з поля зору, що дозволить вам легко сховатися від них.</target>
       </segment>
     </unit>
     <unit id="::Stingball" name="::Stingball">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Deals {0} damage to everyone caught in the blast and stuns living targets for {1} if they don't resist the damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Завдає {0} шкоди всім, спійманим у вибуху, і приголомшує живих цілей на {1}, якщо вони не протистоять пошкодженню.</target>
       </segment>
     </unit>
     <unit id="::Frag" name="::Frag">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Everyone caught in the blast suffers {0} damage as well as damage from {1}-{2} shrapnel, each shrapnel dealing {3} damage. Targets closer to detonation have greater chance of receiving shrapnel.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі, спіймані у вибуху, отримують {0} шкоди, а також шкоду від {1}-{2} осколків, кожен з яких завдає {3} шкоди. Цілі, ближчі до детонації, мають більшу ймовірність отримати осколки.</target>
       </segment>
     </unit>
     <unit id="::NailBomb" name="::NailBomb">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Everyone caught in the blast gets hit by {0}-{1} nails, each dealing {2} damage and having {3}% chance to cause a bleeding wound that deals additional {4}% damage over {5}. Each bleeding wound also has {6}% chance to cause an infected wound that increases damage taken from all sources by {7}% and reduces healing effects by {8}% for the same duration (stacks {9} times).</source>
-        <target state="new" />
+        <target state="needs-translation">Всі, спіймані у вибуху, отримують {0}-{1} цвяхів, кожен з яких завдає {2} шкоди та має {3}% шанс викликати кровотечу, яка завдає додаткові {4}% шкоди протягом {5}. Кожна кровотеча також має {6}% шанс викликати інфіковану рану, яка збільшує шкоду, отриману від усіх джерел, на {7}% і зменшує ефект лікування на {8}% протягом того ж періоду (накопичується {9} разів).</target>
       </segment>
     </unit>
     <unit id="::HE" name="::HE">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Everyone caught in the blast suffers {0} damage and {1} damage. Ignores {2}% of damage resistance and threshold.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі, спіймані у вибуху, отримують {0} шкоди та {1} шкоди. Ігнорує {2}% опірності та порогу шкоди.</target>
       </segment>
     </unit>
     <unit id="::Plasma" name="::Plasma">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Everyone caught in the blast suffers {0} damage and {1} damage.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі, спіймані у вибуху, отримують {0} шкоди та {1} шкоди.</target>
       </segment>
     </unit>
     <unit id="::EMP" name="::EMP">
@@ -78,7 +78,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>All automatons caught in the blast take {0} damage (this damage bypasses resistances and shields) and are stunned for {1} turns. All targets also have their electronic equipment immediately drained of all energy and receive electrical damage equal to {2}% of energy drained.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі автомати, спіймані у вибуху, отримують {0} шкоди (ця шкода обходить опір і щити) і приголомшуються на {1} ходи. Усі цілі також негайно втрачають всю енергію з їхнього електронного обладнання та отримують електричну шкоду, рівну {2}% вичерпаної енергії.</target>
       </segment>
     </unit>
     <unit id="::Molotov" name="::Molotov">
@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Everyone caught in the blast suffers {0} damage and has {1}% chance to catch fire, suffering additional {2}% of the original damage over {3}. The fuel from the cocktail sets the ground on fire. Creatures standing in the fire suffer heat damage equal to {4}%-{5}% of their maximal health (up to maximum of {6}-{7}), plus additional {8}-{9}, depending on the intensity of fire at that spot, while creatures moving through the fire suffer one third of that damage per tile.</source>
-        <target state="new" />
+        <target state="needs-translation">Всі, спіймані у вибуху, отримують {0} шкоди та {1}% шанс загорітися, отримуючи додаткові {2}% від початкової шкоди протягом {3}. Паливо з коктейлю підпалює землю. Істоти, що стоять у вогні, отримують термічну шкоду, рівну {4}%-{5}% від їхнього максимального здоров’я (до максимального значення {6}-{7}), а істоти, що проходять через вогонь, отримують третину цієї шкоди за плитку.</target>
       </segment>
     </unit>
     <unit id="::ToxicGas" name="::ToxicGas">
@@ -98,7 +98,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw a gas grenade to the ground where it remains for {0}, releasing toxic gas that deals {1} damage per turn (depending on the gas concentration) to anyone standing in it and one third that damage to those passing through it. Living creatures exposed to the toxic gas become contaminated, which causes them to take as much as {2}% more damage from all sources.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний газ, який завдає {1} одиниць шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Істоти, що піддаються впливу токсичного газу, стають забрудненими, що призводить до отримання ними до {2}% більше шкоди від усіх джерел.</target>
       </segment>
     </unit>
     <unit id="::PsimorphicBiocide" name="::PsimorphicBiocide">
@@ -108,7 +108,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw a gas grenade to the ground where it remains for {0}, releasing toxic gas that deals {1} damage per turn (depending on the gas concentration) to anyone standing in it and one third that damage to those passing through it. The gas also destroys any inert psimorphic biomass.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний газ, який завдає {1} одиниць шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Газ також знищує будь-яку інертну псіморфну біомасу.</target>
       </segment>
     </unit>
     <unit id="::Cryogas" name="::Cryogas">
@@ -120,7 +120,9 @@
         <source>Throw a gas grenade to the ground where it remains for {0}, releasing cryogenic gas that deals {1} damage per turn (depending on the gas concentration) to anyone standing in it, and applies Chill debuff which decreases target's movement points by {2} for {3}. It stacks up to {4} times.
 
 It also causes hypothermia which reduces target's constitution by {5}. This effect stacks up to {6} times and lasts up to {7}. After hypothermia reaches maximum stacks, the target may become frozen for {8}.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи кріогенний газ, який завдає {1} одиниць шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і накладає дебафф "Охолодження", який зменшує кількість рухових пунктів цілі на {2} протягом {3}. Він накопичується до {4} разів.
+
+Він також викликає переохолодження, яке зменшує конституцію цілі на {5}. Цей ефект накопичується до {6} разів і триває до {7}. Після досягнення максимальної кількості накопичень переохолодження, ціль може замерзнути на {8}.</target>
       </segment>
     </unit>
     <unit id="::HerbicideGas" name="::HerbicideGas">
@@ -130,7 +132,7 @@ It also causes hypothermia which reduces target's constitution by {5}. This effe
       </mda:metadata>
       <segment state="translated">
         <source>Throw a gas grenade to the ground where it remains for {0}, releasing toxic herbicidal gas that deals {1} damage per turn (depending on the gas concentration) to anyone standing in it and one third that damage to those passing through it. Does {2}% damage to insectoids and bypasses their poison resistance.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний гербіцидний газ, який завдає {1} одиниць шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Завдає {2}% шкоди комахоподібним і обходить їх стійкість до отрути.</target>
       </segment>
     </unit>
     <unit id="::Chemhaze" name="::Chemhaze">
@@ -140,7 +142,7 @@ It also causes hypothermia which reduces target's constitution by {5}. This effe
       </mda:metadata>
       <segment state="translated">
         <source>Throw a grenade that instantly spreads the "chemhaze" gas which reduces chance to hit with ranged weapons by up to {0}% and reduces chance to hit with melee weapons and unarmed attack by up to {1}%.</source>
-        <target state="new" />
+        <target state="needs-translation">Киньте гранату, яка миттєво поширює газ "хемхейз", який зменшує шанс влучання зброєю дальнього бою до {0}% і зменшує шанс влучання зброєю ближнього бою та голими руками до {1}%.</target>
       </segment>
     </unit>
   </file>

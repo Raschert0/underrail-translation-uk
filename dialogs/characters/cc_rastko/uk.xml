@@ -10,7 +10,9 @@
         <source>::The rugged ferryman greets you with a long, thoughtful stare. After a brief moment of inspection he points his finger at you and speaks.::
 
 Ain't you that $(#dude who punched his wife in the face/gal who gave birth to twin girls) on my boat a couple of months ago? ::He then shakes his head as he realizes his error.:: Nah, nah, my bad. That $(#dude/gal) did look a lot like you, though. Anyway, I'm Rastko. Need a ride?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Пошарпаний перевізник вітає тебе довгим, задумливим поглядом. Після короткої миті огляду він показує на тебе пальцем і говорить.::
+
+Ти не той $(#чувак, який вдарив дружину в обличчя/дівчина, яка народила двійню) на моєму човні кілька місяців тому? ::Потім він хитає головою, усвідомлюючи свою помилку.:: Ні, ні, моя помилка. Той $(#чувак/дівчина) дійсно був схожий на тебе, хоча. У будь-якому випадку, я Растко. Потрібна поїздка?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,7 +22,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -30,7 +32,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>I need to get to Junkyard.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно дістатися до Сміттєзвалища.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +42,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>::He glances at your jet ski.:: &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він кидає погляд на твій гідроцикл.:: &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Well, after you've passed the Core Ring just sail straight south and after &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, після того, як ти пройдеш Кільце Ядра, просто пливи прямо на південь, і через &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>a while you'll see Junkyard on the western bank. Can't miss it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">якийсь час ти побачиш Сміттєзвалище на західному березі. Не пропустиш.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -80,7 +82,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a10" name="=&gt;a10">
@@ -100,7 +102,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>How do I get to Junkyard?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як мені дістатися до Сміттєзвалища?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>How do I get to South Gate Station?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як мені дістатися до станції Південні Ворота?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -120,7 +122,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>How do I get to Camp Hathor?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як мені дістатися до табору Хатор?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -130,7 +132,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>I have other questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є інші питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -140,7 +142,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Want me to take you somewhere?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хочете, щоб я вас кудись відвіз?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -150,7 +152,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>you've passed Junkyard look to the east for the SGS docks.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви пройшли повз звалище, подивіться на схід до доків SGS.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -160,7 +162,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Sail east past the Core Ring and The Rig, through the Dreadpool, and then turn south and follow Isaac's River until you see the camp on the western bank.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Пливіть на схід повз Кільце Ядра та Рек, через Жахливу Лагуну, потім поверніть на південь і йдіть річкою Айзека, поки не побачите табір на західному березі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -170,7 +172,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Sure, I can get you there, &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно, я можу вас туди довезти,&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -180,7 +182,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>but it'll cost you fifty charons. It's a lot, but the waterways have gotten real dangerous lately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">але це коштуватиме вам п'ятдесят харонів. Це багато, але водні шляхи останнім часом стали дуже небезпечними.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -190,7 +192,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Let's go. ::Give him 50 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ходімо. ::Дайте йому 50 стигійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -200,7 +202,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -210,7 +212,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Hop in - and keep your limbs inside the boat: People have started talking about something hardcore on the prowl in Core City waters. So yeah...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Застрибуйте - і тримайте кінцівки всередині човна: люди почали говорити про щось жорстоке, що полює у водах Центрального Міста. Тож так...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -220,7 +222,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>::Sail to Camp Hathor.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Попливіть до табору Хатор.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -230,7 +232,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>::Sail to South Gate Station.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Попливіть до станції Південні Ворота.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -240,7 +242,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>::Sail to Junkyard.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Попливіть до звалища.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -250,7 +252,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>I never get tired of sailing there; the Hathorians are much nicer people than these here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я ніколи не втомлююся плавати туди; хаторяни набагато приємніші люди, ніж ці тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -260,7 +262,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>::Sail to Camp Hathor.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Попливіть до табору Хатор.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -270,7 +272,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>South Gate Station - here we come.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Станція Південні Ворота - ось ми йдемо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -280,7 +282,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>::Sail to South Gate Station.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Попливіть до станції Південні Ворота.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -290,7 +292,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Junkyard it is.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звалище, так і буде.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -300,7 +302,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>::Sail to Junkyard.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Попливіть до звалища.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -310,7 +312,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>I've changed my mind, maybe some other time.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я передумав, можливо, іншим разом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -320,7 +322,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Fine, but no one is gonna offer you a cheaper ride than me if that's what you're concerned about.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд, але ніхто не запропонує вам дешевшу поїздку, ніж я, якщо це вас турбує.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -330,7 +332,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>but it'll cost you twenty-five charons. It's a lot, but the waterways have gotten real dangerous lately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">але це коштуватиме вам двадцять п'ять харонів. Це багато, але водні шляхи останнім часом стали дуже небезпечними.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -340,7 +342,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Let's go. ::Give him 25 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ходімо. ::Дайте йому 25 стигійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -350,7 +352,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>I need to get to South Gate Station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно дістатися до станції Південні Ворота.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -360,7 +362,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Right, I can get you there. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, я можу вас туди довезти. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -370,7 +372,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>It'll cost you fifty charons. It's a lot, but the waterways have gotten real dangerous lately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це коштуватиме вам п'ятдесят харонів. Це багато, але водні шляхи останнім часом стали дуже небезпечними.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -380,7 +382,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Let's go. ::Give him 50 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ходімо. ::Дайте йому 50 стигійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -390,7 +392,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>It'll cost you twenty-five charons. It's a lot, but the waterways have gotten real dangerous lately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це коштуватиме вам двадцять п'ять харонів. Це багато, але водні шляхи останнім часом стали дуже небезпечними.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -400,7 +402,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Let's go. ::Give him 25 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ходімо. ::Дайте йому 25 стигійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -410,7 +412,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>I need to get to Camp Hathor.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно дістатися до табору Хатор.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -420,7 +422,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Right, I can get you there. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, я можу вас туди довезти. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -430,7 +432,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>It'll cost you seventy charons. It's a lot, but the waterways have gotten real dangerous lately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це коштуватиме вам сімдесят харонів. Це багато, але водні шляхи останнім часом стали дуже небезпечними.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -440,7 +442,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Let's go. ::Give him 70 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ходімо. ::Дайте йому 70 стигійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -450,7 +452,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>It'll cost you thirty-five charons. It's a lot, but the waterways have gotten real dangerous lately.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це коштуватиме вам тридцять п'ять харонів. Це багато, але водні шляхи останнім часом стали дуже небезпечними.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -460,7 +462,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>Let's go. ::Give him 35 stygian coins.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ходімо. ::Дайте йому 35 стигійських монет.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -470,7 +472,7 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
       </mda:metadata>
       <segment state="translated">
         <source>I need to get to Forsaken Island.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно дістатися до Закинутого Острова.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -482,7 +484,9 @@ Ain't you that $(#dude who punched his wife in the face/gal who gave birth to tw
         <source>::He looks at you with disbelief.::
 
 You are joking, right?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дивиться на вас з недовірою.::
+
+Ви жартуєте, правда?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -492,7 +496,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I don't have time for this. Will you take me to Forsaken Island or not?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене немає на це часу. Ви відвезете мене на Закинутий Острів чи ні?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -502,7 +506,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He shakes his head.:: Nah, it's too dangerous. No one in their right mind would take you there, so my advice is to save yourself the trouble and forget about it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він хитає головою.:: Ні, це занадто небезпечно. Ніхто при здоровому глузді не відвезе вас туди, тож моя порада - забудьте про це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -512,7 +516,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Now, is there a *normal* place you want me to take you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер, чи є якесь *нормальне* місце, куди ви хочете, щоб я вас відвіз?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -522,7 +526,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No, I am not.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, я не хочу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -532,7 +536,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Oh... OH! Well, I am not sailing there - no sane person is. It's just far too dangerous, and to tell you the truth, even if you offered me a lot - and I mean a whole bucket of shinies I still wouldn't sail there.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">О... О! Ну, я не збираюся туди плисти - жодна розсудлива людина не попливе. Це просто занадто небезпечно, і, чесно кажучи, навіть якщо ви запропонуєте мені багато - і я маю на увазі ціле відро блискучого - я все одно не попливу туди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -542,7 +546,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I can take you somewhere else though, if you wanna.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я можу відвезти вас в інше місце, якщо хочете.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -552,7 +556,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I need some sailing directions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібні вказівки щодо плавання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -562,7 +566,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sure.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звісно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a57" name="=&gt;a57">
@@ -572,7 +576,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the Black Sea?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви можете розповісти мені про Чорне Море?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -582,7 +586,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You ain't planning on going there with those Aegis people?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви не плануєте туди плисти з тими людьми з Aegis?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -592,7 +596,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Maybe.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -602,7 +606,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Maybe... &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можливо... &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -612,7 +616,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Whatever it is you're planning to do, my advice is to avoid that place. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що б ви там не планували, моя порада - уникайте цього місця. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q62" name="=&gt;q62">
@@ -622,7 +626,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Don't go there. It's full of pirates and vicious beasts, whirlpools and rapids and who knows what other hardcore dangers. There's a good reason why normal folks don't go there, and pirates ain't normal folks anyway. Nah, they ain't.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не ходіть туди. Воно кишить піратами та лютими звірами, вирами та порогами та хто знає якими іншими жорстокими небезпеками. Недарма звичайні люди туди не ходять, а пірати й так не звичайні люди. Ні, не такі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -632,7 +636,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've lost a few good friends who were dumb enough to go there. It's one hardcore place, too hardcore. Leave it to the pirates. They can have it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я втратив кількох хороших друзів, які були досить дурними, щоб туди поїхати. Це жорстоке місце, занадто жорстоке. Залиште це піратам. Нехай вони мають його.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -642,7 +646,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What do you know about Aegis Incorporated?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви знаєте про Aegis Incorporated?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q65" name="=&gt;q65">
@@ -652,7 +656,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Security agency from North Underrail. They are protecting some university folks from Dis, that's what I heard. Saw them at the eastern docks a week ago - or was it two? - and it looked like quite a hardcore operation, boats and jets and lotta stuff going to the Black Sea. Of all the places - the Hell's Gut, heh. They're back now. To resupply, I think.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Організація безпеки з Північного Андеррейлу. Вони захищають деяких університетських працівників з Діса, наскільки я чув. Бачив їх на східних доках тиждень тому - чи два? - і це виглядало як досить жорстка операція, човни та літаки та багато чого іншого, що прямує до Чорного Моря. З усіх місць - Пекло, ге.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -662,7 +666,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Them Northerners, coming here and thinking they can outgun anyone and anything. They think they are so... dominating. Well, we got guns too, and know how to use them, we sure do, but we also know what you can mess with and what you cannot. Them folks don't. They'll regret going there, I'm telling ya.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ті північні, які приїжджають сюди і думають, що можуть пересилити будь-кого і будь-що. Вони думають, що вони такі... домінуючі. Ну, у нас теж є зброя, і ми знаємо, як нею користуватися, ми точно знаємо, але ми також знаємо, з чим можна зв'язатися, а з чим ні. Ті люди не знають. Вони пошкодують, що туди поїхали, я вам кажу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -672,7 +676,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'd like you to take me somewhere. It's not the Black Sea, by the way.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би, щоб ви мене кудись відвезли. До речі, це не Чорне Море.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -682,7 +686,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>That's more like it. Where do you wanna go?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це краще. Куди ви хочете поїхати?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -692,7 +696,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I gotta go. Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я мушу йти. До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -702,7 +706,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>See ya.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a71" name="=&gt;a71">
@@ -712,7 +716,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Precisely.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Саме так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a72" name="=&gt;a72">
@@ -722,7 +726,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No, I'm just curious.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, я просто цікавлюся.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q73" name="=&gt;q73">
@@ -732,7 +736,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hmmm... &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хмм... &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q74" name="=&gt;q74">
@@ -742,7 +746,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>You asking because of those Aegis people at the eastern dock? Aegis Incorporated. They're interested in exploring the Black Sea.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви питаєте через тих людей Aegis на східному доці? Aegis Incorporated.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a75" name="=&gt;a75">
@@ -752,7 +756,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Who are these Aegis Incorporated people?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто ці люди Aegis Incorporated?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q76" name="=&gt;q76">
@@ -762,7 +766,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They are a military group from North Underrail... But wait, first thing's first...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони військова група з Північного Андеррейлу... Але почекайте, перш за все...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
@@ -772,7 +776,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Who are those people at the docks east of here? Do you know anything about them?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хто ці люди на доках на схід відсюда? Ви щось про них знаєте?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -782,7 +786,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The folks wearing armor? They're Aegis... yes, Aegis Incorporated.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ті, хто носить броню? Це Aegis... так, Aegis Incorporated.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a79" name="=&gt;a79">
@@ -792,7 +796,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Forget that, let's discuss something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Забудьте про це, давайте обговоримо щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q80" name="=&gt;q80">
@@ -802,7 +806,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Fine by me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a81" name="=&gt;a81">
@@ -812,7 +816,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm looking for the Acid Hunters. I was told that they have been seen near the docks.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я шукаю Мисливців за Кислотою. Мені сказали, що їх бачили біля доків.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q82" name="=&gt;q82">
@@ -822,7 +826,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Acid Hunters? Those bags of slackjaw mess. I was nearly zoned out because of those pipeworkers.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мисливці за Кислотою? Ті мішки з безглуздими щелепами. Я ледь не вимкнувся через тих трубопрокладальників.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a83" name="=&gt;a83">
@@ -832,7 +836,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What happened?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що сталося?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q84" name="=&gt;q84">
@@ -842,7 +846,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>A trip to Junkyard that ended in a gunfight - chemical gunfight - I had nothing to do with but still ended up having a lot of damage done to my ferry. For which the bastards still owe me shinies. Bunch of pipeworkers.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поїздка до Звалища, яка закінчилася перестрілкою – хімічною перестрілкою – до якої я не мав жодного відношення, але все одно завдала багато шкоди моєму порому. За що покидьки досі винні мені блискітки. Зграя трубопровідників.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a85" name="=&gt;a85">
@@ -852,7 +856,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm guessing you don't know where I could find them.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я припускаю, ви не знаєте, де я можу їх знайти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
@@ -864,7 +868,9 @@ You are joking, right?&lt;end&gt;</source>
         <source>Well, you've just told me they've been seen at the docks, but I haven't seen them in a long time. Gotta be avoiding me.
 
 ::He shrugs.:: Sorry, friend, I can't help you. Wish I could, though.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, ви щойно сказали мені, що їх бачили на доках, але я давно їх не бачив. Мабуть, уникають мене.
+
+::Він знизує плечима.:: Вибачте, друже, я не можу вам допомогти. Хотів би, але не можу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a87" name="=&gt;a87">
@@ -874,7 +880,7 @@ You are joking, right?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So do you know where they are or not?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">То ви знаєте, де вони, чи ні?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q88" name="=&gt;q88">
@@ -886,7 +892,9 @@ You are joking, right?&lt;end&gt;</source>
         <source>Heard about what's happening out there? ::He shakes his head.:: These waterways are getting more and more hardcore by the day.
 
 So, where do you wanna sail?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чули про те, що відбувається там? ::Він хитає головою.:: Ці водні шляхи стають все більш жорстокими з кожним днем.
+
+То куди ви хочете поплисти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -896,7 +904,7 @@ So, where do you wanna sail?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>At your service, friend. Where are we sailing this time?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До ваших послуг, друже. Куди ми пливемо цього разу?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
@@ -906,7 +914,7 @@ So, where do you wanna sail?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yeah? You wanna sail somewhere?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так? Хочете кудись поплисти?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

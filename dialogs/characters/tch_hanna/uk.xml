@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Adapt and overcome!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Адаптуйся та перемагай!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name), Mediant Samuel wishes to see you. He is in his office with Efreitor Denzil.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name), Медіант Самуель хоче тебе бачити. Він у своєму кабінеті з Ефрейтором Дензілом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +30,9 @@
         <source>::This young woman welcomes you by putting her hand on her chest and follows with a verbal greeting. Her bright and high-pitched voice sounds pleasant and matches her petiteness perfectly. On the other hand, the full combat uniform that she is wearing - complete with a mask she never removes, a characteristic you noticed in all rassophores throughout the Institute; creates a different, if conflicting visual image.::
 
 Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort. You're $(context.player.Name), if I'm not mistaken?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ця молода жінка вітає тебе, приклавши руку до грудей і додавши словесне привітання. Її яскравий і високий голос звучить приємно і ідеально відповідає її мініатюрності. З іншого боку, повна бойова форма, яку вона носить - включаючи маску, яку вона ніколи не знімає, особливість, яку ти помітив у всіх рассофорів Інституту; створює інший, якщо не суперечливий, візуальний образ.::
+
+Тчорт - це еволюція. Я - Ефрейтор Ганна, зброяр Інституту Тчорта. Ти $(context.player.Name), якщо я не помиляюся?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -40,7 +42,7 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
       </mda:metadata>
       <segment state="translated">
         <source>Evolution is Tchort. Yes, I am $(#him/her). Pleasure to meet you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Еволюція - це Тчорт. Так, я $(#him/her). Дуже приємно познайомитися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
       </mda:metadata>
       <segment state="translated">
         <source>Pleasure to meet you too, $(context.player.Name). Under Mediant Samuel's direct orders, you are allowed access to Preservation's armory, despite the fact that you are not a rassophore... yet.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені також приємно познайомитися, $(context.player.Name). За прямим наказом Медіанта Самуеля, тобі дозволено доступ до арсеналу Пресервейшн, незважаючи на те, що ти поки що не рассофор... ще.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
       </mda:metadata>
       <segment state="translated">
         <source>Of course, armory access is not free, so prepare some charons before making a purchase.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, доступ до арсеналу не безкоштовний, тож приготуй трохи харонів перед покупкою.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
       </mda:metadata>
       <segment state="translated">
         <source>Eidein told me to see you about my uniform.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ейдейн сказав мені звернутися до тебе щодо моєї форми.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -92,7 +94,9 @@ Tchort is evolution. I am Efreitor Hanna, armory keeper for Institute of Tchort.
         <source>::She signals the other rassophore, and he leaves the the room.::
 
 We keep the new vathosphores... downstairs. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона дає знак іншому рассофору, і він покидає кімнату.::
+
+Ми тримаємо нових ватосфорів... внизу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -104,7 +108,9 @@ We keep the new vathosphores... downstairs. &lt;end&gt;</source>
         <source>::While the rassophore is away, she grabs a rassophore armor from one of the lockers.::
 
 This is your standard issue armored robe. You will be wearing this when on duty as a rassophore.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поки рассофор відсутній, вона хапає броню рассофора з однієї з шафок.::
+
+Це твоя стандартна броньована роба. Ти носитимеш її під час чергування як рассофор.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -118,7 +124,11 @@ This is your standard issue armored robe. You will be wearing this when on duty 
 Now this - this is the new vathosphore armored robe. Lucky you. Take good care of it - you don't want to get it dirty or damaged before the ceremony. Eidein has allowed you to take it this early only for you to get comfortable wearing it. 
 
 No one wants novitiates tipping over during one of their most apex hours. Totally not. ::She chuckles.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Приблизно через десять хвилин рассофор повертається з громіздкою зеленою робою та незвичайним рюкзаком.::
+
+А тепер це - це нова броньована роба ватосфора. Тобі пощастило. Бережи її - ти не хочеш забруднити або пошкодити її до церемонії. Ейдейн дозволив тобі взяти її так рано лише для того, щоб ти звик до неї.
+
+Ніхто не хоче, щоб новачки перекидалися під час однієї з їхніх найвищих годин. Абсолютно ні. ::Вона хихикає.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -128,7 +138,7 @@ No one wants novitiates tipping over during one of their most apex hours. Totall
       </mda:metadata>
       <segment state="translated">
         <source>Therefore, mind that ecopack; it's heavy. And don't fiddle with it too much.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тому пам'ятай про екопак; він важкий. І не вовтузися з ним занадто сильно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -138,7 +148,7 @@ No one wants novitiates tipping over during one of their most apex hours. Totall
       </mda:metadata>
       <segment state="translated">
         <source>Ecopack?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Екопак?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q14" name="=&gt;q14">
@@ -150,7 +160,9 @@ No one wants novitiates tipping over during one of their most apex hours. Totall
         <source>That device on the back. It houses, and let me quote the manual: "...an ecosystem of thermosynthetic microorganisms living off the wearer's captured heat. These microorganisms are capable of producing breathable air enriched with compounds beneficial to the wearer's general health and combat performance."
 
 I think I got that right.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цей пристрій на спині. Він містить, дозвольте мені процитувати інструкцію: "...екосистему термосинтетичних мікроорганізмів, що живуть за рахунок тепла, яке виділяє носій. Ці мікроорганізми здатні виробляти дихальне повітря, збагачене сполуками, корисними для загального здоров'я та бойової ефективності носія."
+
+Гадаю, я правильно зрозумів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -160,7 +172,7 @@ I think I got that right.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Interesting. What else can you tell me about the armor?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цікаво. Що ще ти можеш мені розповісти про броню?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -172,7 +184,9 @@ I think I got that right.&lt;end&gt;</source>
         <source>Well, it's a new series of armored robes, designed jointly by both Preservation and Investigation experts. The ecopack and the added hazardous protection make it suitable for extreme environments. A few of you lucky ones will get to show it off during the ceremony, but whether you get to keep it afterwards... that I ain't got a clue.
 
 So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ну, це нова серія броньованих роб, розроблена спільно експертами Пресервейшн та Інвестігейшн. Екопак і додатковий захист від небезпеки роблять її придатною для екстремальних умов. Деякі з вас щасливчики зможуть продемонструвати її під час церемонії, але чи отримаєте ви її після цього... я не знаю.
+
+Тож тримай її чистою, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -182,7 +196,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Understood. Now, I better go and get changed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зрозуміло. Тепер мені краще піти переодягнутися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q18" name="=&gt;q18">
@@ -192,7 +206,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::She waves at you.:: Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона махає тобі.:: Тчорт веди тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -202,7 +216,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'd like to see what you have in the armory. ::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би подивитися, що у тебе є в арсеналі. ::Торгівля.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -212,7 +226,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::[Mercantile]:: Excuse me, Efreitor, but would you mind showing me the... rest of the equipment? The things you don't show to just about any novitiate. Price is not an issue - I've got the coin to spend.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Торговельна]:: Вибачте, Ефрейторе, але чи не могли б ви показати мені... решту обладнання? Те, що ви не показуєте будь-якому новачку. Ціна не має значення - у мене є гроші, щоб витратити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q21" name="=&gt;q21">
@@ -222,7 +236,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>If that is the case... then let me show you what we got, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо це так... тоді дозвольте мені показати вам, що у нас є, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -232,7 +246,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Barter.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Торгівля.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -242,7 +256,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sorry, but I cannot grant you access to the rest of the armory inventory, $(context.player.Name). It's... Never mind. I cannot.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вибачте, але я не можу надати вам доступ до решти запасів арсеналу, $(context.player.Name). Це... Неважливо. Я не можу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -252,7 +266,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>How and why did you join Institute of Tchort?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як і чому ти приєднався до Інституту Тчорта?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -262,7 +276,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Institute-born here. ::She laughs.:: That means I've been exposed to Tchortism all my life and I am glad for it. I was lucky; outsiders who come here as novitiates always talk how difficult life on the outside is. Poverty, disease, bandits... wars even. While we do have our own problems here, namely with the Faceless and - as of late - Lunatics, the quality of life in the Institute is unmatched by anything in South Underrail.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Інститутське народження тут. ::Вона сміється.:: Це означає, що я все життя піддавався впливу Тчортизму, і я радий цьому. Мені пощастило; новачки, які приходять сюди, завжди говорять про те, як важко жити зовні. Бідність, хвороби, бандити... навіть війни. Хоча у нас тут теж є свої проблеми, а саме з Безликими та - останнім часом - Божевільними, якість життя в Інституті не має собі рівних в Південному Андеррейлі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -272,7 +286,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>All in all, the Institute is totally apex! ::She laughs.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Загалом, Інститут - це абсолютно вершина! ::Вона сміється.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -282,7 +296,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Have you ever been outside?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти колись була зовні?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -292,7 +306,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Other than a few Upper Underrail patrols when I was a rassophore trainee, I've never went too far from the Institute. I saw nothing of interest during that time anyway, totally nothing, so I did not really feel the need to see what lies beyond. I'm sure it's just more of the same.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Крім кількох патрулів Верхнього Андеррейля, коли я була на навчанні рассофора, я ніколи не заходила далеко від Інституту. Я нічого цікавого не бачила під час того часу, тому я не відчувала потреби бачити, що лежить за межами. Впевнена, там просто більше того ж самого.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -302,7 +316,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I've got everything I need right here. I have friends, family... and this totally apex armory. And I suppose I have a purpose: Tchortism is something you dedicate your life to, something that fulfills you. All in all, I have everything here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене все, що мені потрібно, тут. У мене є друзі, сім'я... і цей абсолютно чудовий арсенал. І, мабуть, у мене є мета: Тчортизм - це те, чому ти присвячуєш своє життя, те, що тебе задовольняє. Загалом, у мене все є тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a30" name="=&gt;a30">
@@ -312,7 +326,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Glad to hear that. Allow me to ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Радий це чути. Дозвольте мені запитати вас про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q31" name="=&gt;q31">
@@ -322,7 +336,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sure, $(context.player.Name). I'm listening...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, $(context.player.Name). Я слухаю...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a32" name="=&gt;a32">
@@ -332,7 +346,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am looking for a rassophore called Nevil. Have you seen him recently?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я шукаю рассофора на ім'я Невіл. Ти бачила його останнім часом?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -342,7 +356,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>As I have already reported to Mediant Samuel, I haven't seen Rassophore Nevil today. The last time we spoke was two days ago when he came to the armory with a request for ammunition for his rifle, but that was all. He got what he needed and walked away.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як я вже повідомляла Медіанту Самуелю, сьогодні я не бачила рассофора Невіла. Востаннє ми розмовляли два дні тому, коли він прийшов до арсеналу з проханням про боєприпаси для своєї гвинтівки, але це все. Він отримав те, що йому потрібно, і пішов.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -352,7 +366,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>He is not a talkative man anyway, so that is how our interaction usually goes. Totally.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він все одно не дуже балакучий, тому так зазвичай і проходить наша взаємодія. Абсолютно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a35" name="=&gt;a35">
@@ -362,7 +376,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Mediant Samuel?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш мені розповісти про Медіанта Самуеля?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -372,7 +386,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>His Notability is a dedicated Tchortist and a good man, and it is an honor and a privilege to be a rassophore under his command. He can be strict - but he is always just.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Його Значимість - відданий Тчортист і хороша людина, і це честь і привілей бути рассофором під його командуванням. Він може бути суворим - але завжди справедливим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a37" name="=&gt;a37">
@@ -382,7 +396,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Is he in charge of all forces or...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи він керує всіма силами, чи...?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -392,7 +406,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No, $(context.player.Name) - that would be His Excellency, Harmost Stavros. Mediant, as a rank, is someone who relays harmost's commands to efreitors and rassophores; the middle link in the command chain, so to speak. But since His Excellency is in Deep Caverns at the moment, he left Mediant Samuel in command of the Institute forces up here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, $(context.player.Name) - тоді б це був Його Високоповажність, Гармост Ставрос. Медіант, як ранг, той, хто передає накази Гармоста ефрейторам і рассофорам; середня ланка в командному ланцюгу, так би мовити. Але оскільки Його Високоповажність зараз у Глибоких Печерах, він залишив Медіанта Самуеля командувати силами Інституту тут.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -402,7 +416,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>So in a way he *is* in command, but only temporarily.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, в певному сенсі він *і є* командувачем, але лише тимчасово.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -412,7 +426,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Interesting... I had something else I wanted to ask you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цікаво... Я хотів запитати тебе про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a41" name="=&gt;a41">
@@ -422,7 +436,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>What does a cell about to undergo mitosis say to an interested investigator? "I hope I have your divided attention!"&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що каже клітина, яка збирається поділитися, зацікавленому досліднику? "Сподіваюся, я заслуговую на твою розділену увагу!"&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -432,7 +446,7 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::At first, the joke is met with a giggle. However, a moment later Hanna bursts into full-blown laughter. She lowers her head and soon enough you don't even hear her anymore but only see her shaking.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Спочатку жарт зустрічають з хихиканням. Однак, за мить Ганна вибухає повним сміхом. Вона опускає голову і незабаром ти вже не чуєш її, а лише бачиш, як вона тремтить.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q43" name="=&gt;q43">
@@ -444,7 +458,9 @@ So keep it nice and clean, $(context.player.Name).&lt;end&gt;</source>
         <source>::She returns to you eventually.::
 
 That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона зрештою повертається до тебе.::
+
+Це було просто супер. Неподіль-- ::Вона знову вибухає сміхом.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a44" name="=&gt;a44">
@@ -454,7 +470,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Glad you like it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Радий, що тобі сподобалося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -464,7 +480,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>::She nods a few times, still laughing.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона кілька разів киває, все ще сміючись.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -474,7 +490,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>There was something else I wanted to talk about.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів поговорити про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a47" name="=&gt;a47">
@@ -484,7 +500,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'll leave you to it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я залишу тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -494,7 +510,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>::She nods a few times, still laughing.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона кілька разів киває, все ще сміючись.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -504,7 +520,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you, sister.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тхорт благословить тебе, сестро.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -514,7 +530,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I wouldn't have it any other way, $(context.player.Name). You too.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я б не хотів інакше, $(context.player.Name). Тобі також.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a51" name="=&gt;a51">
@@ -524,7 +540,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>See ya later, Hanna.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Побачимося пізніше, Ганно.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -534,7 +550,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>That is correct. How did you know?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це правильно. Звідки ти знаєш?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -544,7 +560,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>News spreads fast; the Institute is not a very big place. A place of big ideas - perhaps, but not a physically big place. Also, your totally apex retrieval of the figurine stolen by those... devolved Lunatics is a something that really caught everyone's attention.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Новини поширюються швидко; Інститут - не дуже велике місце. Місце великих ідей - можливо, але не велике фізично. Також, твоє просто супер відновлення фігурки, викраденої тими... деградованими Божевільними, дійсно привернуло увагу всіх.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q54" name="=&gt;q54">
@@ -554,7 +570,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Now, under Mediant Samuel's direct orders, you are allowed access to Preservation's armory, despite the fact that you are not a rassophore... yet.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер, за прямим наказом Медіанта Самуїла, тобі дозволено доступ до арсеналу Пресервейшн, незважаючи на те, що ти ще не расофор... поки що.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a55" name="=&gt;a55">
@@ -564,7 +580,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I am, and I'm looking to get acquire weapons if possible. Mediant Samuel told me that you can help me with that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я так і є, і я хочу отримати зброю, якщо це можливо. Медіант Самуїл сказав мені, що ти можеш мені з цим допомогти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q56" name="=&gt;q56">
@@ -574,7 +590,7 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>::She nods.:: That is correct. Even though you are not a rassophore yet, $(context.player.Name), you will be granted access to Preservation's armory - as instructed by the mediant himself.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вона киває.:: Це правильно. Навіть якщо ти ще не расофор, $(context.player.Name), тобі буде надано доступ до арсеналу Пресервейшн - за вказівкою самого медіанта.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -586,7 +602,9 @@ That was totally apex. Undivid-- ::She bursts into laughter again.::&lt;end&gt;<
         <source>Hey, $(context.player.Name). If you heard any loud banging on your way here, those were the weights falling off the weight rack in the gym. The armory is perfectly safe. 
 
 Still... don't stand near the cabinets.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей, $(context.player.Name). Якщо ти чув гучні удари на шляху сюди, це були гирі, що впали з стійки в спортзалі. Арсенал абсолютно безпечний.
+
+Все ж... не стій біля шаф.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q58" name="=&gt;q58">
@@ -596,7 +614,7 @@ Still... don't stand near the cabinets.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>$(context.player.Name), you totally have to see the new equipment we've just received.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">$(context.player.Name), тобі обов'язково потрібно побачити нове обладнання, яке ми щойно отримали.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a59" name="=&gt;a59">
@@ -606,7 +624,7 @@ Still... don't stand near the cabinets.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>In a moment, I had some questions first.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">За мить, але в мене були спочатку якісь питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q60" name="=&gt;q60">
@@ -616,7 +634,7 @@ Still... don't stand near the cabinets.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -626,7 +644,7 @@ Still... don't stand near the cabinets.&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hey, $(context.player.Name). What culling tools do you need now?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гей, $(context.player.Name). Які інструменти для знищення тобі потрібні зараз?&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

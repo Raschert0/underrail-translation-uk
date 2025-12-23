@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::The crane is fully operational. It can be used for some heavy lifting.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кран повністю робочий. Його можна використовувати для переміщення важких предметів.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Descend into the cave using the chain.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Спуститися в печеру за допомогою ланцюга.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a4" name="=&gt;a4">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Climb up the chain.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вилізти на ланцюг.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a5" name="=&gt;a5">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Йдіть.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +60,9 @@
         <source>::Before you lies an abandoned crane with a visibly torn chain. Other than that, the crane itself seems to be in decent shape.  ::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Перед вами лежить покинутий кран з помітно порваним ланцюгом. В іншому, сам кран виглядає в непоганому стані.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Tools and spare parts used for the crane's maintenance are sitting nearby.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Поруч лежать інструменти та запасні частини для обслуговування крана.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::[Mechanics] Attempt to repair the chain.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::[Механіка] Спробуйте полагодити ланцюг.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -92,7 +94,7 @@
         <source>::Browsing the available toolkit, you quickly pick out a spare chain and an advanced soldering tool.::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Переглядаючи доступний набір інструментів, ви швидко вибираєте запасний ланцюг і сучасний паяльник.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -102,7 +104,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Applying your knowledge in mechanics, using the soldering tool, you manage to sucessfully repair the chain. Although not ideal, the new chain you've created, according to your estimation, should be able to easily handle your own weight. ::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Застосовуючи свої знання в механіці та використовуючи паяльник, ви успішно ремонтуєте ланцюг. Хоча й не ідеально, але, за вашою оцінкою, новий ланцюг легко витримає вашу вагу.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q11" name="=&gt;q11">
@@ -112,7 +114,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Despite giving your best effort to repair the chain, you were unable to do so.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Незважаючи на всі ваші зусилля, ви не змогли полагодити ланцюг.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -124,7 +126,9 @@
         <source>::The crane's chain is visibly damaged, hence making it unusable.::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ланцюг крана помітно пошкоджений, тому він непридатний для використання.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

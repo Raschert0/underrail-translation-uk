@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::УВАГА: Виявлено токсичність у біомасі. Система нестабільна.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q3" name="=&gt;q3">
@@ -30,7 +30,9 @@
         <source>::Mutagen Combinator.::
 
 ::Sequence: [$(context.dc_mutagenCompoundText)]::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Мутагенний комбінатор.::
+
+::Послідовність: [$(context.dc_mutagenCompoundText)]::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -41,7 +43,7 @@
       <segment state="translated">
         <source>
 ::Compound formed.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::З'єднання сформовано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -51,7 +53,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
@@ -61,7 +63,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Modify sequence::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Змінити послідовність::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -71,7 +73,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::ERROR: Cannot modify sequence in compound state.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::ПОМИЛКА: Неможливо змінити послідовність у стані з'єднання.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q8" name="=&gt;q8">
@@ -81,7 +83,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::$(context.loc_dc_mutagenCombinatorMessage)::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::$(context.loc_dc_mutagenCombinatorMessage)::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -93,7 +95,9 @@
         <source>::Mutagen Combinator.::
 
 ::Sequence: [$(context.dc_mutagenCompoundText)]::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Мутагенний комбінатор.::
+
+::Послідовність: [$(context.dc_mutagenCompoundText)]::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -103,7 +107,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -113,7 +117,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Ovid-1::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Овід-1::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a12" name="=&gt;a12">
@@ -123,7 +127,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Ovid-2::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Овід-2::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a13" name="=&gt;a13">
@@ -133,7 +137,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Ovid-3::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Овід-3::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -143,7 +147,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Solis-1::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Соліс-1::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a15" name="=&gt;a15">
@@ -153,7 +157,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Solis-2::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Соліс-2::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a16" name="=&gt;a16">
@@ -163,7 +167,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Echo-1::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Ехо-1::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a17" name="=&gt;a17">
@@ -173,7 +177,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Echo-2::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Ехо-2::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -183,7 +187,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Echo-3::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Ехо-3::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a19" name="=&gt;a19">
@@ -193,7 +197,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Echo-4::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Ехо-4::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a20" name="=&gt;a20">
@@ -203,7 +207,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Io-1::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Іо-1::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -213,7 +217,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Io-2::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Іо-2::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a22" name="=&gt;a22">
@@ -223,7 +227,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Io-3::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Іо-3::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a23" name="=&gt;a23">
@@ -233,7 +237,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Helicon-1::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Гелікон-1::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -243,7 +247,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Helicon-2::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Гелікон-2::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a25" name="=&gt;a25">
@@ -253,7 +257,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Helicon-3::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Гелікон-3::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a26" name="=&gt;a26">
@@ -263,7 +267,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Insert mutagen: Exitus-1::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Вставити мутаген: Ексітус-1::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q27" name="=&gt;q27">
@@ -273,7 +277,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::ERROR: Prohibited compound detected::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::ПОМИЛКА: Виявлено заборонену сполуку::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a28" name="=&gt;a28">
@@ -283,7 +287,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Back::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Назад::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a29" name="=&gt;a29">
@@ -293,7 +297,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Clear sequence.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Очистити послідовність.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -303,7 +307,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Sequence cleared::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Послідовність очищена::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -313,7 +317,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Create compound from sequence::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Створити сполуку з послідовності::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -323,7 +327,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Compound formed.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::З'єднання сформовано.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -333,7 +337,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::ERROR: Empty sequence::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::ПОМИЛКА: Порожня послідовність::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a34" name="=&gt;a34">
@@ -343,7 +347,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Inject compound::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Ввести сполуку::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -353,7 +357,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Manufacturing agent from sequence...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Виготовлення агента з послідовності...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q36" name="=&gt;q36">
@@ -363,7 +367,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Injecting agent...::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Введення агента...::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -374,7 +378,8 @@
       <segment state="translated">
         <source>::Success.
 WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Успіх.
+УВАГА: Виявлено токсичність у біомасі. Система нестабільна.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q38" name="=&gt;q38">
@@ -385,7 +390,8 @@ WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</source>
       <segment state="translated">
         <source>::Success.
  System stable.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Успіх.
+Система стабільна.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -395,7 +401,7 @@ WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::ERROR: No compound::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::ПОМИЛКА: Немає сполуки::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -405,7 +411,7 @@ WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Leave::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Покинути::&lt;end&gt;</target>
       </segment>
     </unit>
   </file>

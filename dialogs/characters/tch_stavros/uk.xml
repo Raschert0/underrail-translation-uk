@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Out.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Геть.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::A man wearing an intricately decorated Preservation uniform stands behind the large desk. Immediately, your eyes are drawn to a symbol on his robe - an all-familiar eye surrounded with equidistant tentacles; four in this instance. A hulking guard in the room stands still in silence - silence which consumes the room as His Excellency patiently awaits your salutation.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Чоловік у вишукано прикрашеній уніформі Охоронців стоїть за великим столом. Відразу ваша увага привертає символ на його мантії – добре знайоме око, оточене рівновіддаленими щупальцями; чотири в цьому випадку. Кремезний охоронець у кімнаті стоїть нерухомо в тиші – тиші, яка поглинає кімнату, поки Його Величність терпляче чекає на ваше вітання.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Place your hand on your chest and bow down slightly.:: Tchort is Evolution, Your Excellency.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Покладіть руку на груди і трохи вклоніться.:: Тчорт – це еволюція, Ваша Величносте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -40,7 +40,9 @@
         <source>::Harmost Stavros answers in a confident, booming voice of a middle-aged man.::
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Гармост Ставрос відповідає впевненим, гучним голосом чоловіка середнього віку.::
+
+&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -50,7 +52,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q6" name="=&gt;q6">
@@ -60,7 +62,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Evolution is Tchort. I am Harmost Stavros. I've already been informed where you're from and that you're the one brave enough to free our rassophores from the clutches of the inbreds. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Еволюція – це Тчорт. Я – Гармост Ставрос. Мені вже повідомили, звідки ви, і що ви той, хто наважився звільнити наших расофорів з лап кровожерливих. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q7" name="=&gt;q7">
@@ -70,7 +72,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Sadly, only one rassophore returned. But, it is still better than none, and is a good thing for morale, if only a bit.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, повернувся лише один расофор. Але це все одно краще, ніж нічого, і це добре для морального духу, хоч і трохи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a8" name="=&gt;a8">
@@ -80,7 +82,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Glad to hear so. Anyway, my name is $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Радий це чути. До речі, мене звати $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q9" name="=&gt;q9">
@@ -90,7 +92,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Pleased to meet you. Now, $(context.player.Name), I would like you to tell me what in Tchort's magnificence is happening at the Institute building?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Приємно познайомитися. Тепер, $(context.player.Name), я хотів би, щоб ви розповіли мені, що в ім'я величі Тчорта відбувається в будівлі Інституту?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q10" name="=&gt;q10">
@@ -100,7 +102,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a11" name="=&gt;a11">
@@ -110,7 +112,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>The Faceless attacked the Institute, but, while it might've been sudden, it was nothing our brave brothers and sisters couldn't handle. The Faceless advance has been halted, for now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Безликі напали на Інститут, але, хоча це було раптово, це було те, з чим могли впоратися наші хоробрі брати та сестри. Наступ Безликих було зупинено, поки що.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q12" name="=&gt;q12">
@@ -122,7 +124,9 @@
         <source>Sadly, their attack here was devastating in comparison. What you see here is almost everything left of active Preservation Forces in Deep Caverns.
 
 I presume Eidein is safe?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, їхній напад тут був руйнівним у порівнянні. Те, що ви бачите тут, – це майже все, що залишилося від активних сил Охоронців у Глибоких Печерах.
+
+Я припускаю, що Ейдейн у безпеці?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q13" name="=&gt;q13">
@@ -132,7 +136,7 @@ I presume Eidein is safe?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a14" name="=&gt;a14">
@@ -142,7 +146,7 @@ I presume Eidein is safe?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I have bad news. Eidein seem to have been their primary target, and, sadly, they managed to reach him and take his life.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене погані новини. Ейдейн, здається, був їхньою основною ціллю, і, на жаль, їм вдалося до нього дістатися і забрати його життя.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q15" name="=&gt;q15">
@@ -154,7 +158,9 @@ I presume Eidein is safe?&lt;end&gt;</source>
         <source>::Harmost Stavros lowers his head slightly.::
 
 No...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Гармост Ставрос трохи опускає голову.::
+
+Ні...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q16" name="=&gt;q16">
@@ -166,7 +172,9 @@ No...&lt;end&gt;</source>
         <source>::He turns toward the only guard in the room, and their stares meet. Then, he looks directly at you.::
 
 The information regarding Eidein's death must *not* leave this room. Are we clear? Morale is already too low for us to further bury it into the ground. If anyone asks you - Eidein is still alive and is resisting the Faceless with the rest of Preservation Forces.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він повертається до єдиного охоронця в кімнаті, і їхні погляди зустрічаються. Потім він дивиться прямо на вас.::
+
+Інформація про смерть Ейдейна *не повинна* покидати цю кімнату. Чи ми зрозуміли? Моральний дух і так занадто низький, щоб ще більше занурювати його в землю. Якщо хтось запитає – Ейдейн все ще живий і чинить опір Безликим разом з рештою сил Охоронців.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q17" name="=&gt;q17">
@@ -176,7 +184,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>Again, are we clear on that, $(context.player.Name)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Знову, чи ми зрозуміли це, $(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a18" name="=&gt;a18">
@@ -186,7 +194,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>Yes, Your Excellency.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, Ваша Величносте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q19" name="=&gt;q19">
@@ -196,7 +204,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>Very well. Very well...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже добре. Дуже добре...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q20" name="=&gt;q20">
@@ -206,7 +214,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>So, to summarize: Eidein is dead, and we can expect no reinforcements, no one to relieve us. Basically, we are... alone.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Отже, підсумуємо: Ейдейн мертвий, і ми не можемо очікувати підкріплення, нікого, хто б нас замінив. По суті, ми... самі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a21" name="=&gt;a21">
@@ -216,7 +224,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>Yes.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q22" name="=&gt;q22">
@@ -226,7 +234,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>Fine. We will then have to deal with the situation to the best of our abilities. Adapt and overcome.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Гаразд. Тоді ми повинні впоратися з ситуацією якнайкраще. Адаптуватися і перемагати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q23" name="=&gt;q23">
@@ -236,7 +244,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>One more question, $(context.player.Name), before we are finished. How did you manage to get down here, and are you alone?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ще одне питання, $(context.player.Name), перш ніж ми закінчимо. Як вам вдалося спуститися сюди, і чи ви самі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a24" name="=&gt;a24">
@@ -246,7 +254,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>I was sent down here by Eidein to help with Tchort's defense. And I am alone. The elevator stopped working during the descent, but a lucky opening in the wall saved me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мене відправив сюди Ейдейн, щоб допомогти в обороні Тчорта. І я сам. Ліфт перестав працювати під час спуску, але вдалий отвір у стіні врятував мене.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q25" name="=&gt;q25">
@@ -256,7 +264,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>I see. The Faceless must've disabled the elevator in order to cut us off. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. Безликі, мабуть, вимкнули ліфт, щоб відрізати нас. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q26" name="=&gt;q26">
@@ -266,7 +274,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>However, who are you to earn yourself Eidein's trust enough for him to send you alone? I've never seen you before, so you must've joined the Institute of Tchort during my - relatively short - absence, and I've too never seen Eidein so favorable toward a novitiate?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Однак, хто ви такий, щоб заслужити довіру Ейдейна, щоб він відправив вас одного? Я ніколи не бачив вас раніше, тож ви, мабуть, приєдналися до Інституту Тчорта під час моєї – відносно короткої – відсутності, і я ніколи не бачив Ейдейна таким прихильним до новачка?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a27" name="=&gt;a27">
@@ -276,7 +284,7 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
       </mda:metadata>
       <segment state="translated">
         <source>A lot has happened during your absence. Let's leave it at that.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Багато чого сталося під час вашої відсутності. Залишмо це так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q28" name="=&gt;q28">
@@ -288,7 +296,9 @@ The information regarding Eidein's death must *not* leave this room. Are we clea
         <source>::He looks at you for a few quiet moments before continuing.::
 
 A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він дивиться на вас кілька тихих моментів, перш ніж продовжити.::
+
+Багато чого *сталося*... я не можу це заперечувати, $(context.player.Name). &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q29" name="=&gt;q29">
@@ -298,7 +308,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Now, did Eidein make any attempts at coming down with you? According to emergency plan we had, he was supposed to go to Tchort, but from what you told me I somehow draw a conclusion that he didn't make any such attempts.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тепер, чи робив Ейдейн спроби спуститися з вами? Згідно з планом надзвичайних ситуацій, він мав вирушити до Тчорта, але з того, що ви мені розповіли, я роблю висновок, що він не робив таких спроб.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q30" name="=&gt;q30">
@@ -308,7 +318,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a31" name="=&gt;a31">
@@ -318,7 +328,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I really don't know. I suppose the plan has changed. What I've already told you is all I know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я дійсно не знаю. Припускаю, план змінився. Все, що я вам сказав, – це все, що я знаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q32" name="=&gt;q32">
@@ -328,7 +338,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Right... &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Добре... &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q33" name="=&gt;q33">
@@ -338,7 +348,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>::He sighs.:: Alright, $(context.player.Name), you have earned yourself some rest. Should you need supplies, speak to Rassophore Prevlic in the armory. A word of caution, though: He had been injured during the battle with the devolved, and is still severely traumatized. He is very unstable, so do *not* speak with him about the current events so not to upset him. Am I clear? Keep the talk minimal and watch what you say.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він зітхає.:: Гаразд, $(context.player.Name), ви заслужили трохи відпочинку. Якщо вам потрібні припаси, зверніться до Расофора Пребліка в збройовій. Але будьте обережні: він був поранений під час битви з деградованими, і все ще сильно травмований. Він дуже нестабільний, тому *не* розмовляйте з ним про поточні події, щоб не засмутити його. Чи зрозуміло? Тримайте розмову мінімальною і стежте за тим, що ви говорите.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q34" name="=&gt;q34">
@@ -348,7 +358,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>And also remember: The official word is that Eidein is alive and well and that the situation at the Institute of Tchort is stable. If that is clear, you are free to leave unless you have further questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І також пам'ятайте: офіційна версія полягає в тому, що Ейдейн живий і здоровий, і що ситуація в Інституті Тчорта стабільна. Якщо це зрозуміло, ви вільні йти, якщо у вас немає інших питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q35" name="=&gt;q35">
@@ -358,7 +368,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a36" name="=&gt;a36">
@@ -368,7 +378,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I think I've proven to be of much assistance since my arrival. I'm going to need supplies and some better equipment if you want me to remain effective.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я думаю, я вже довів свою корисність з моменту прибуття. Мені знадобляться припаси та краще обладнання, якщо ви хочете, щоб я залишався ефективним.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q37" name="=&gt;q37">
@@ -378,7 +388,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>You are correct about that. And you do seem to find your way around Deep Caverns very well. ::He pauses.:: The storage building right outside my office - the keycode is 778901. I cannot give you ammo or weapons, for we are low ourselves, but there are some thing in that storage which you might find useful. Take anything you wish from it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви маєте рацію. І ви, здається, добре орієнтуєтеся в Глибоких Печерах. ::Він робить паузу.:: Склад праворуч від мого кабінету – код доступу 778901. Я не можу дати вам боєприпаси чи зброю, бо самі ми в скрутному становищі, але там є речі, які можуть вам знадобитися. Візьміть все, що забажаєте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a38" name="=&gt;a38">
@@ -388,7 +398,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>778901. Got it. I'll go check it out.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">778901. Зрозумів. Я перевірю це.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q39" name="=&gt;q39">
@@ -398,7 +408,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт веде тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a40" name="=&gt;a40">
@@ -408,7 +418,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Understood. But I've got a few more questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розумію. Але у мене є ще кілька запитань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q41" name="=&gt;q41">
@@ -418,7 +428,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'm listening.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я слухаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q42" name="=&gt;q42">
@@ -428,7 +438,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a43" name="=&gt;a43">
@@ -438,7 +448,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Tell me about the Hollow Earth complex.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розкажіть мені про комплекс Порожньої Землі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q44" name="=&gt;q44">
@@ -448,7 +458,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Hollow Earth used to be a secret Biocorp research complex. Scientists specialized in numerous fields worked here, and the vast complex was protected by the most elite soldiers. The area just outside Cytosine Outpost used to be where most of the laboratories were located, now nothing but ruin. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Порожня Земля колись була секретним дослідницьким комплексом Biocorp. Тут працювали вчені, які спеціалізувалися в багатьох галузях, а величезний комплекс охоронявся найелітнішими солдатами. Район безпосередньо за постом Цитозин колись був місцем розташування більшості лабораторій, тепер це лише руїни.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q45" name="=&gt;q45">
@@ -458,7 +468,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Of course, over the years we, Institute of Tchort, have managed to extract useful research data which accelerated our own efforts.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно, з роками нам, Інституту Тчорта, вдалося витягти корисні дослідницькі дані, які прискорили наші власні зусилля.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a46" name="=&gt;a46">
@@ -468,7 +478,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Anything else you can tell me about it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ще ви можете мені про це розповісти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q47" name="=&gt;q47">
@@ -478,7 +488,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Not much you'll find immediately useful. This section of the complex is the only location that is under the control of Preservation Forces, and is probably the safest, outside a few shelters scattered throughout the complex which you can use in case the Faceless make another push.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не так багато корисного ви знайдете одразу. Ця частина комплексу є єдиним місцем, яке контролюється Силами Охорони, і, ймовірно, найбезпечніше, за винятком кількох укриттів, розкиданих по всьому комплексу, які ви можете використовувати в разі нової атаки Безликих.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q48" name="=&gt;q48">
@@ -488,7 +498,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Also know that, even though Tchort's minions will not harm a Tchortist, as its will dictates, be careful if moving to the north, close to Nucleus, as that is where they are most numerous. In these abnormal conditions, and you being unfamiliar to Tchort, you might risk getting attacked.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Також знайте, що, хоча слуги Тчорта не зашкодять Тчортисту, як того вимагає його воля, будьте обережні, рухаючись на північ, близько до Ядра, оскільки там їх найбільше. В цих ненормальних умовах, і враховуючи, що ви не знайомі Тчорту, ви можете ризикнути бути атакованим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a49" name="=&gt;a49">
@@ -498,7 +508,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Tell me about the warehouse block.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розкажіть мені про складський блок.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q50" name="=&gt;q50">
@@ -508,7 +518,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Eight years ago there were two warehouse blocks east of here, currently under Faceless control. However, a cave-in buried one of them, Warehouse Block 1, while leaving Warehouse Block 2 intact.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вісім років тому на схід від цього місця було два складські блоки, які зараз контролюються Безликими. Однак обвал поховав один з них, Складський блок 1, залишивши Складський блок 2 неушкодженим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q51" name="=&gt;q51">
@@ -518,7 +528,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Preservation Forces during the early years of the Institute of Tchort retrieved much of the Warehouse Block 1 supplies, all left over from Biocorp. The other block we've left largely intact, but I have no doubt that the Faceless have scavenged through it by now. Whatever the case, both blocks were loaded with weapons, ammo and various other supplies.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Силами Охорони в ранні роки Інституту Тчорта було вилучено багато припасів зі Складського блоку 1, все, що залишилося від Biocorp. Інший блок ми залишили здебільшого недоторканим, але я не сумніваюся, що Безликі вже перебрали його. У будь-якому випадку, обидва блоки були завантажені зброєю, боєприпасами та різними іншими припасами.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a52" name="=&gt;a52">
@@ -528,7 +538,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Tell me about the Caerus Residential Block.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розкажіть мені про житловий блок Каерус.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q53" name="=&gt;q53">
@@ -538,7 +548,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>It is where Biocorp scientists and other personnel resided up until the Hollow Earth Incident. It consists of four large buildings and sits just past the SE3 checkpoint; that's Hollow Earth's south-eastern exit.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Там проживали вчені Biocorp та інший персонал до Інциденту на Порожній Землі. Він складається з чотирьох великих будівель і розташований трохи за контрольно-пропускним пунктом SE3; це південно-східний вихід з Порожньої Землі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a54" name="=&gt;a54">
@@ -548,7 +558,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>What else can you tell me about it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ще ви можете мені про це розповісти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q55" name="=&gt;q55">
@@ -558,7 +568,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Not much else, I'm afraid, other than the fact that the last time our recon units scouted the buildings they had been infested with coil spiders. It was thirty years ago, but I doubt much has changed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, не так багато, окрім того факту, що востаннє наші розвідувальні підрозділи обстежували будівлі, вони були кишачими спіральними павуками. Це було тридцять років тому, але я сумніваюся, що щось змінилося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a56" name="=&gt;a56">
@@ -568,7 +578,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Tell me about Arke Power Station.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Розкажіть мені про електростанцію Арке.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q57" name="=&gt;q57">
@@ -578,7 +588,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>It lies to the north of Warehouse Block 2. It is a gas turbine power station that used to power the whole Hollow Earth complex. As you saw on your way here, the complex is dark.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вона розташована на північ від Складського блоку 2. Це газова турбінна електростанція, яка колись живила весь комплекс Порожньої Землі. Як ви бачили на своєму шляху сюди, комплекс темний.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a58" name="=&gt;a58">
@@ -588,7 +598,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>How do you get your power?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви отримуєте свою енергію?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q59" name="=&gt;q59">
@@ -598,7 +608,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>We have our own generators. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У нас є власні генератори.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a60" name="=&gt;a60">
@@ -608,7 +618,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Has anyone ever been there?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи хтось колись там був?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q61" name="=&gt;q61">
@@ -618,7 +628,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Long ago, before I was even born. Eidein's Library contained several rassophore reports regarding their recon of the area. As far as I remember, the plant was heavily defended by automated security systems at the time, preventing further advance. Our forces managed to retreat without casualties, luckily, but no further attempts were made at penetrating the defenses and entering the building.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Давно, ще до мого народження. Бібліотека Ейдейна містила кілька звітів рассофорів щодо їхньої розвідки цієї території. Наскільки я пам'ятаю, електростанція була сильно захищена автоматизованими системами безпеки на той час, що перешкоджало подальшому просуванню. Нашим силам вдалося відступити без втрат, на щастя, але більше спроб проникнути в оборону та увійти в будівлю не робилося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a62" name="=&gt;a62">
@@ -628,7 +638,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Why not? It seems like an important location to have under one's control.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому ні? Здається, це важливе місце, щоб мати під контролем.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q63" name="=&gt;q63">
@@ -638,7 +648,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>We were able to provide power to all critical locations in Deep Caverns even without the power station. Most of our generators are situated in the Nucleus. They are safest there, and that is also where the power is most necessary.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми змогли забезпечити живленням усі критичні локації в Глибоких Печерах навіть без електростанції. Більшість наших генераторів розташовані в Ядрі. Там вони найбезпечніші, і саме там найбільше потрібна енергія.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a64" name="=&gt;a64">
@@ -648,7 +658,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'd like to ask you about some other location.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би запитати вас про іншу локацію.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a65" name="=&gt;a65">
@@ -658,7 +668,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Are there any more exits out of Deep Caverns other than Cytosine Outpost elevator?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи є ще якісь виходи з Глибоких Печер, окрім ліфта на посту Цитозин?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q66" name="=&gt;q66">
@@ -668,7 +678,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>There are two more elevators, but both are out of order.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Є ще два ліфти, але обидва не працюють.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a67" name="=&gt;a67">
@@ -678,7 +688,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Can you tell me where to find them?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви сказати мені, де їх знайти?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q68" name="=&gt;q68">
@@ -688,7 +698,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>::He nods.:: One is to the north of here, just past the vehicle park; you passed through the park on your way here. The other is south-west from Caerus. The first one collapsed decades ago, while the second remains mostly intact.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.:: Один на північ від цього місця, трохи за парком транспортних засобів; ви проходили через парк на своєму шляху сюди. Інший на південний захід від Каеруса. Перший обвалився десятиліття тому, а другий залишається здебільшого неушкодженим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a69" name="=&gt;a69">
@@ -698,7 +708,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Have you ever used it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви коли-небудь ним користувалися?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q70" name="=&gt;q70">
@@ -708,7 +718,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>No. We never had the need to, although if I'm not mistaken, many decades ago it was attached to our power grid. As far as I am aware, it leads to Lower Underrail, but I cannot confirm it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні. У нас ніколи не було потреби, хоча, якщо я не помиляюся, багато десятиліть тому він був підключений до нашої енергомережі. Наскільки мені відомо, він веде до Нижнього Андеррейлу, але я не можу це підтвердити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a71" name="=&gt;a71">
@@ -718,7 +728,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>That's good enough for me. I'd like to ask you something else now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цього достатньо для мене. Я хотів би запитати вас щось інше зараз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a72" name="=&gt;a72">
@@ -728,7 +738,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'd like to ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я хотів би запитати вас щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q73" name="=&gt;q73">
@@ -738,7 +748,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'm listening.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я слухаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a74" name="=&gt;a74">
@@ -748,7 +758,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Can you tell me more about Tchort's minions?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви розповісти мені більше про слуг Тчорта?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q75" name="=&gt;q75">
@@ -758,7 +768,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Certainly. Tchort's minions are the physical manifestation of Tchort's will. To explain: As you already know, Tchort is capable of developing traits most appropriate for the environment it is in, the ones that are most likely to secure its survival. Some of these traits are only expressed once the physical form underwent a complete regeneration cycle; others, however, related to Tchort's mental capacity and will are always present.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звичайно. Слуги Тчорта є фізичним проявом волі Тчорта. Щоб пояснити: як ви вже знаєте, Тчорт здатний розвивати риси, найбільш придатні для навколишнього середовища, ті, які найбільш ймовірно забезпечать його виживання. Деякі з цих рис проявляються лише після повного циклу регенерації фізичної форми; інші, однак, пов'язані з розумовими здібностями та волею Тчорта, завжди присутні.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q76" name="=&gt;q76">
@@ -768,7 +778,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>We aren't yet sure when Tchort developed the ability to manipulate organic matter and mold it into living creatures - it could've been a recent trend, for all we know - and we have only scratched the surface of the exact mechanisms whereby the process is being accomplished. What we do know is that it is an extremely effective device for Tchort's preservation, making it yet another proof of its magnificence.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ми ще не впевнені, коли Тчорт розвинув здатність маніпулювати органічною речовиною та формувати з неї живі істоти - це може бути нещодавня тенденція, наскільки нам відомо - і ми лише поверхнево дослідили точні механізми, за допомогою яких цей процес здійснюється. Те, що ми знаємо, це те, що це надзвичайно ефективний засіб для збереження Тчорта, що є ще одним доказом його величі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a77" name="=&gt;a77">
@@ -778,7 +788,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Where does Tchort get the organic matter to produce such a number of minions?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Звідки Тчорт бере органічну речовину для виробництва такої кількості слуг?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q78" name="=&gt;q78">
@@ -788,7 +798,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>It is easily obtainable from local sources: wildlife, fungus and even - but rarely due to their scarcity - plants. As I said, we haven't yet investigated these mechanisms completely, but just imagine the applications if we could-- ::He stops abruptly.:: I won't proceed. There are more important matters to attend to right now, $(context.player.Name). Let's leave these dreams for after we've gotten ourselves safely out of this mess.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Її легко отримати з місцевих джерел: дикої природи, грибів і навіть - але рідко через їх дефіцит - рослин. Як я вже сказав, ми ще не повністю дослідили ці механізми, але лише уявіть собі застосування, якщо б ми могли-- ::Він різко зупиняється.:: Я не буду продовжувати. Зараз є більш важливі справи, $(context.player.Name). Давайте залишимо ці мрії на потім, коли ми безпечно виберемося з цієї халепи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a79" name="=&gt;a79">
@@ -798,7 +808,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I had other questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене були інші запитання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q80" name="=&gt;q80">
@@ -808,7 +818,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>::He nods.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він киває.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a81" name="=&gt;a81">
@@ -818,7 +828,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Do you have any tasks for me, Your Excellency?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи є у вас якісь завдання для мене, Ваша Високосте?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q82" name="=&gt;q82">
@@ -828,7 +838,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>You have already helped us enough. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви вже достатньо нам допомогли.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q83" name="=&gt;q83">
@@ -838,7 +848,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I had considered sending you on a recon mission, but the rassophores you rescued gave me enough information regarding Faceless positioning, personnel and available equipment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розглядав можливість відправити вас на розвідувальну місію, але расофори, яких ви врятували, дали мені достатньо інформації щодо позиціонування, особового складу та доступного обладнання Безликих.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q84" name="=&gt;q84">
@@ -848,7 +858,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Excellent work so far, $(context.player.Name). At least we now have a better idea what we are up against, even if the current situation does not allow us much room to act. The important thing is that they are outside of Hollow Earth, at least for now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудова робота, $(context.player.Name). Принаймні, тепер ми краще розуміємо, з ким маємо справу, навіть якщо поточна ситуація не дає нам багато можливостей для дій. Важливо, що вони зараз за межами Порожньої Землі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q85" name="=&gt;q85">
@@ -858,7 +868,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q86" name="=&gt;q86">
@@ -868,7 +878,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I had considered sending you on a recon mission, but the rassophore you rescued gave me enough information regarding Faceless positioning, personnel and available equipment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розглядав можливість відправити вас на розвідувальну місію, але расофор, якого ви врятували, дав мені достатньо інформації щодо позиціонування, особового складу та доступного обладнання Безликих.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q87" name="=&gt;q87">
@@ -878,7 +888,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>What are you good at doing?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ви вмієте робити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a88" name="=&gt;a88">
@@ -888,7 +898,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I am a skilled individual. I can deal with a lot of difficult situations.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вміла людина. Я можу впоратися з багатьма складними ситуаціями.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q89" name="=&gt;q89">
@@ -898,7 +908,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>My rassophores are demoralized, tired, and some even traumatized by the recent events. On the other hand, you seem rather enthusiastic and capable. I might just have the perfect assignment for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мої расофори деморалізовані, втомлені, і деякі навіть травмовані останніми подіями. З іншого боку, ви здаєтеся досить енергійним і здібним. Можливо, у мене є ідеальне завдання для вас.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q90" name="=&gt;q90">
@@ -908,7 +918,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>The situation is, as you are perfectly aware, very grim. We need every man, woman, turret, rifle and bullet if we're going to overcome what fell upon us. But, even all that won't help us unless we have the right information. Knowing the whereabouts of your enemy and planning for his next move can turn the tide of any conflict. So, this is what I need you to do.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ситуація, як ви чудово знаєте, дуже похмура. Нам потрібен кожен чоловік, кожна жінка, кожна турель, кожна гвинтівка та кожна куля, якщо ми хочемо подолати те, що на нас обрушилося. Але навіть цього буде недостатньо, якщо у нас не буде правильної інформації. Знання про місцезнаходження вашого ворога та планування його наступного ходу може переломити хід будь-якого конфлікту. Тому я хочу, щоб ви зробили наступне.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q91" name="=&gt;q91">
@@ -918,7 +928,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I need you to move out of Cytosine Outpost as soon as you are able and perform reconnaissance of the Hollow Earth complex as well as the areas east of it; that is the direction where all major Faceless attacks have come from and I would presume that they have set up a base of operations from which they are launching these attacks.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені потрібно, щоб ви покинули аванпост Цитозин якомога швидше та провели розвідку комплексу «Порожня Земля», а також районів на схід від нього; саме звідти приходять усі основні атаки Безликих, і я припускаю, що вони облаштували там базу, з якої здійснюють ці атаки.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q92" name="=&gt;q92">
@@ -928,7 +938,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>This base - or bases - should be your primary reconnaissance targets if possible. The Battle of the Nucleus, despite happening nearly sixty years ago, taught us that the Faceless are capable of performing brutal cybernetic augmentation procedures on captives in order to turn them into corrupted, mindless war machines. I doubt that doctrine has changed since. If you encounter any captured rassophores - do try and save them from such fate.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ця база – або бази – повинні бути вашими основними цілями розвідки, якщо це можливо. Битва за Ядро, незважаючи на те, що відбулася майже шістдесят років тому, навчила нас, що Безликі здатні проводити жорстокі кібернетичні процедури аугментації на полонених, щоб перетворити їх на корумповані, бездумні військові машини. Я сумніваюся, що ця доктрина змінилася з того часу. Якщо ви зустрінете будь-яких захоплених расофорів – спробуйте врятувати їх від такої долі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q93" name="=&gt;q93">
@@ -938,7 +948,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I am asking a lot of you and know that it is a tremendously difficult task, but our options are limited. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я прошу вас про багато чого і знаю, що це надзвичайно складне завдання, але наші варіанти обмежені. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a94" name="=&gt;a94">
@@ -948,7 +958,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I have already been to one of these bases.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я вже був на одній з цих баз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q95" name="=&gt;q95">
@@ -958,7 +968,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>You have? Excellent work, $(context.player.Name). I am interested in its location, defenses, manpower. Everything you can tell me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви були? Чудова робота, $(context.player.Name). Мене цікавить її розташування, оборона, чисельність особового складу. Все, що ви можете мені розповісти.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a96" name="=&gt;a96">
@@ -968,7 +978,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>It is the only base I was able to find so far. It lies to the far east, behind the warehouse block and is heavily defended by turrets and a large number of troops. Based on what I saw, and which matches what you suspected, it is their main base of operations in the area.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це єдина база, яку мені вдалося знайти на даний момент. Вона розташована далеко на сході, за складським кварталом і добре захищена турелями та великою кількістю військ. Судячи з того, що я бачив, і що збігається з вашими підозрами, це їхня основна база операцій у цьому районі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q97" name="=&gt;q97">
@@ -978,7 +988,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Excellent work so far, $(context.player.Name). At least we now have a better idea what we are up against, even if current situation does not allow us much room to act. The important thing is that they are outside of Hollow Earth, at least for now.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудова робота досі, $(context.player.Name). Принаймні, тепер ми краще розуміємо, з чим маємо справу, навіть якщо поточна ситуація не дозволяє нам багато діяти. Важливо те, що вони знаходяться за межами Порожньої Землі, принаймні поки що.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a98" name="=&gt;a98">
@@ -988,7 +998,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>There is one more thing I have to report.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Є ще одна річ, про яку я повинен повідомити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q99" name="=&gt;q99">
@@ -998,7 +1008,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a100" name="=&gt;a100">
@@ -1008,7 +1018,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I failed to find any captured rassophores.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені не вдалося знайти жодного захопленого расофора.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q101" name="=&gt;q101">
@@ -1018,7 +1028,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>You did excellent in any case. It would've been a great boost to morale had you found, and even possibly rescued them, but that is how things are. Well done, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви все одно попрацювали відмінно. Було б чудово для морального духу, якби ви їх знайшли і навіть, можливо, врятували, але так все влаштовано. Молодець, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a102" name="=&gt;a102">
@@ -1028,7 +1038,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I have found a few captured rassophores held inside the base, but I haven't found a way to help them out.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я знайшов кількох захоплених расофорів, утримуваних всередині бази, але я не знайшов способу допомогти їм.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q103" name="=&gt;q103">
@@ -1038,7 +1048,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>You did? Excellent. In that case, I have another task for you - find a way to get those rassophores out of the clutches of the corrupted. Every man counts, but if you do manage to rescue the captives, a boost in morale will increase our effectiveness even more.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви так? Чудово. У такому разі у мене є для вас ще одне завдання – знайдіть спосіб визволити цих расофорів з лап корумпованих. Кожен чоловік має значення, але якщо вам вдасться врятувати полонених, це ще більше підвищить нашу ефективність.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a104" name="=&gt;a104">
@@ -1048,7 +1058,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Yes, Your Excellency.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, Ваша Величносте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a105" name="=&gt;a105">
@@ -1058,7 +1068,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Got it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зрозумів.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a106" name="=&gt;a106">
@@ -1068,7 +1078,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I found a few captured rassophores, but sadly I wasn't able to get them out alive.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я знайшов кількох захоплених расофорів, але, на жаль, не зміг визволити їх живими.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q107" name="=&gt;q107">
@@ -1078,7 +1088,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Magnificent Tchort, that is sad news. It would've been a great boost to morale had you managed to rescued them, but that is how things are. Well done for trying, $(context.player.Name), but what you just told me cannot leave this room. Am I clear?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Прекрасний Чорт, це сумна новина. Було б чудово для морального духу, якби вам вдалося їх врятувати, але так все влаштовано. Молодець, що спробували, $(context.player.Name), але те, що ви щойно мені розповіли, не повинно покидати цю кімнату. Я чіткий?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q108" name="=&gt;q108">
@@ -1088,7 +1098,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Good work in any case, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У будь-якому випадку, чудова робота, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a109" name="=&gt;a109">
@@ -1098,7 +1108,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>It is the only base I was able to find so far. It lies to the far east, behind the warehouse block and is heavily defended by turrets and a large number of troops. Based on what I saw, and which matches what you suspected, it is their main base of operations in the area. Ehm... it was until I took care of it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це єдина база, яку мені вдалося знайти на даний момент. Вона розташована далеко на сході, за складським кварталом і добре захищена турелями та великою кількістю військ. Судячи з того, що я бачив, і що збігається з вашими підозрами, це їхня основна база операцій у цьому районі. Ем... принаймні, доки я не потурбувався про неї.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q110" name="=&gt;q110">
@@ -1108,7 +1118,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Can you... repeat that last part? You "took care of it"?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви можете... повторити останню частину? Ви "подбали про неї"?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a111" name="=&gt;a111">
@@ -1118,7 +1128,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Yes. I eliminated the base commander and all his troops. All of them.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так. Я усунув командира бази та всіх його військ. Усіх.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q112" name="=&gt;q112">
@@ -1128,7 +1138,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Your words sound almost unreal. Magnificent Tchort! How can one $(#man/woman) be such a force of destruction?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ваші слова звучать майже нереально. Прекрасний Чорт! Як одна $(#man/woman) може бути такою руйнівною силою?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a113" name="=&gt;a113">
@@ -1138,7 +1148,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>It was simply a matter of quality over quantity, Your Excellency.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це була просто справа якості, а не кількості, Ваша Величносте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q114" name="=&gt;q114">
@@ -1148,7 +1158,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I am nothing short of amazed by your actions. You have tipped the odds in our favor completely. While we are not out of the depths yet, you have demonstrated that the Faceless are not as superior as we had originally thought. Excellent work!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я нічого іншого, як вражений вашими діями. Ви повністю переломили шанси на нашу користь. Хоча ми ще не вийшли з безодні, ви продемонстрували, що Безликі не такі всемогутні, як ми спочатку думали. Чудова робота!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a115" name="=&gt;a115">
@@ -1158,7 +1168,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>All it took was some skill, some luck, and most importantly - a lot of guts.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Потрібні були лише навички, трохи удачі та, найголовніше, багато мужності.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a116" name="=&gt;a116">
@@ -1168,7 +1178,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>You haven't seen anything yet.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви ще нічого не бачили.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a117" name="=&gt;a117">
@@ -1178,7 +1188,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>This is all I'm going to say: I am Invictus!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це все, що я збираюся сказати: я Invictus!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a118" name="=&gt;a118">
@@ -1188,7 +1198,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I just murdered everyone I could find. It was easy - like skinning a cave hopper.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я просто вбив усіх, кого зміг знайти. Це було легко – як знімати шкіру з печерного стрибуна.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a119" name="=&gt;a119">
@@ -1198,7 +1208,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'm on the job.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я на роботі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q120" name="=&gt;q120">
@@ -1208,7 +1218,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Good luck and Tchort guide you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Удачі вам і нехай Чорт вас веде.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a121" name="=&gt;a121">
@@ -1218,7 +1228,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I understand everything, Your Excellency.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я все розумію, Ваша Величносте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a122" name="=&gt;a122">
@@ -1228,7 +1238,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I have some questions for you before I leave.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є кілька запитань до вас, перш ніж я піду.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a123" name="=&gt;a123">
@@ -1238,7 +1248,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Everything.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q124" name="=&gt;q124">
@@ -1248,7 +1258,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>A bold statement, $(context.player.Name). &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Смілива заява, $(context.player.Name). &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a125" name="=&gt;a125">
@@ -1258,7 +1268,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Cooking and killing! That's the best combo!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Готувати та вбивати! Це найкраще комбо!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q126" name="=&gt;q126">
@@ -1268,7 +1278,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Interesting. Rassophore Jeremy, our best cook was killed recently, but let's ignore that for a moment; I have something else in mind. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Цікаво. Расофор Джеремі, наш найкращий кухар, нещодавно загинув, але давайте поки що ігнорувати це; у мене є щось інше на думці. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a127" name="=&gt;a127">
@@ -1278,7 +1288,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>About those captives...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Щодо тих полонених...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q128" name="=&gt;q128">
@@ -1288,7 +1298,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Yes?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a129" name="=&gt;a129">
@@ -1298,7 +1308,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'm afraid I wasn't able to rescue the rassophores. They are all dead.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я боюся, що не зміг врятувати расофорів. Усі вони мертві.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a130" name="=&gt;a130">
@@ -1308,7 +1318,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>Actually, nothing.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насправді, нічого.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q131" name="=&gt;q131">
@@ -1318,7 +1328,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>::He says nothing.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він нічого не каже.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a132" name="=&gt;a132">
@@ -1328,7 +1338,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'm here for a reconnaissance report.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я тут за звітом про розвідку.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q133" name="=&gt;q133">
@@ -1338,7 +1348,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>There is no need for that now. I have already been told everything I need to know about the Faceless.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У цьому більше немає потреби. Мені вже розповіли все, що мені потрібно знати про Безликих.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q134" name="=&gt;q134">
@@ -1348,7 +1358,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I'm listening.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я слухаю.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a135" name="=&gt;a135">
@@ -1358,7 +1368,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I have been to the Faceless base.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я був на базі Безликих.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a136" name="=&gt;a136">
@@ -1368,7 +1378,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>I have scouted the areas outside of Hollow Earth.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я обстежив райони за межами Порожньої Землі.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q137" name="=&gt;q137">
@@ -1378,7 +1388,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>And?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a138" name="=&gt;a138">
@@ -1388,7 +1398,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       </mda:metadata>
       <segment state="translated">
         <source>The Faceless have numerous heavily-armed patrols just outside of the edge of the complex.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Безликі мають численні сильно озброєні патрулі безпосередньо за межами комплексу.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q139" name="=&gt;q139">
@@ -1399,7 +1409,7 @@ A lot *has* happened... that I cannot deny, $(context.player.Name). &lt;end&gt;<
       <segment state="translated">
         <source>Just as I suspected, but it doesn't take a good strategist to figure that out. Tchort is what is keeping them away, and I only hope they don't discover a way to shield themselves from its influence. 
 Have you managed to reach any of their bases yet? That's what interests me the most.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як я і підозрював, але не потрібно бути хорошим стратегом, щоб це зрозуміти. Чорт – це те, що їх стримує, і я тільки сподіваюся, що вони не знайдуть спосіб захиститися від його впливу. Чи вдалося вам дістатися до будь-якої з їхніх баз? Це те, що мене найбільше цікавить.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a140" name="=&gt;a140">
@@ -1409,7 +1419,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Indeed, I was able to get close enough to one of their bases.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, мені вдалося підійти досить близько до однієї з їхніх баз.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a141" name="=&gt;a141">
@@ -1419,7 +1429,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Not yet, but I am working on it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ще ні, але я працюю над цим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q142" name="=&gt;q142">
@@ -1429,7 +1439,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Good work so far. Report back when you have more information.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хороша робота досі. Повідомте, коли у вас буде більше інформації.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a143" name="=&gt;a143">
@@ -1439,7 +1449,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>I have nothing to report.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене нічого немає для повідомлення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q144" name="=&gt;q144">
@@ -1449,7 +1459,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Is this a joke, $(context.player.Name)? Return to me only if you have something useful to say. Am I clear?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це жарт, $(context.player.Name)? Поверніться до мене тільки якщо у вас є щось корисне сказати. Я чіткий?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a145" name="=&gt;a145">
@@ -1459,7 +1469,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>I've been experiencing this aching sensation in my head ever since I came to this place. Why is that so?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я відчуваю цей ниючий біль у голові з тих пір, як прийшов у це місце. Чому так?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q146" name="=&gt;q146">
@@ -1469,7 +1479,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>I see. I presume you haven't been prepared for your descent, so I understand why you've been feeling these sensations. It takes some time for Tchort to probe the minds of those who wander into its domain, and the process might feel uncomfortable for the untrained Tchortists such as yourself. However, for *others* - those whom Tchort perceives as threats, or as simply unwanted - for those the effects would be much more severe.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я бачу. Я припускаю, що ви не були готові до свого спуску, тому я розумію, чому ви відчуваєте ці відчуття. Потрібен час, щоб Чорт досліджував розум тих, хто блукає в його домені, і цей процес може бути некомфортним для нетренованих чортистів, таких як ви. Однак для *інших* – тих, кого Чорт сприймає як загрозу, або просто як небажаних – для тих ефекти були б набагато серйознішими.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a147" name="=&gt;a147">
@@ -1479,7 +1489,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Can you tell me more about Tchort?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можете ви розповісти мені більше про Чорта?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q148" name="=&gt;q148">
@@ -1489,7 +1499,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Tchort is formless, you know that, but not mindless. It can exert its mental influence over this whole area of Deep Caverns - Cytosine Outpost, whole Hollow Earth and of course Nucleus - and does so by controlling its minions, who follow its will and, in this case, helped us fight the Faceless; you have probably encountered some already, they are everywhere. It is the same ability it uses to speak to Eidein, who is most attuned to Tchort's mind, and understands it the best.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт безформний, ти знаєш це, але не бездушний. Він може чинити свій ментальний вплив на всю цю територію Глибоких Печер – Відсіч Цитозин, всю Порожню Землю і, звісно, Ядро – і робить це, контролюючи своїх слуг, які слідують його волі і, в цьому випадку, допомогли нам боротися з Безликими; ти, ймовірно, вже з деякими з них зустрічався, вони всюди. Це та сама здатність, яку він використовує, щоб спілкуватися з Ейдейн, який найбільше налаштований на розум Тчорта і найкраще його розуміє.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q149" name="=&gt;q149">
@@ -1499,7 +1509,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>The sole reason why Eidein is the *only* one allowed to enter the Nucleus is because Tchort simply wouldn't let anyone else so close to itself; it is its will, and we must abide. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Єдина причина, чому Ейдейн є *єдиним*, кому дозволено входити в Ядро, полягає в тому, що Тчорт просто не дозволив би нікому іншому наблизитися до себе; це його воля, і ми повинні її дотримуватися. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q150" name="=&gt;q150">
@@ -1509,7 +1519,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>All this shows the magnificence of Tchort: Even in its most vulnerable phase, during its regeneration, it has a way to defend itself, to influence all that is around it. There were traitors in the past who spoke of Tchort as if it is a mere fabrication, and told that a trip to Deep Caverns would only prove their claims. Ironically for them, it proves exactly the opposite - it proves Tchort's magnificence.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все це демонструє велич Тчорта: Навіть у своїй найбільш вразливій фазі, під час регенерації, він має спосіб захистити себе, впливати на все, що його оточує. У минулому були зрадники, які говорили про Тчорта так, ніби це лише вигадка, і стверджували, що подорож до Глибоких Печер лише доведе їхні твердження. Іронічно для них, це доводить зовсім протилежне – це доводить велич Тчорта.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a151" name="=&gt;a151">
@@ -1519,7 +1529,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Actually, I had other questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Насправді, у мене були інші питання.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q152" name="=&gt;q152">
@@ -1529,7 +1539,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Then ask, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тоді питай, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a153" name="=&gt;a153">
@@ -1539,7 +1549,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the Faceless invasion?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш розповісти мені про вторгнення Безликих?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q154" name="=&gt;q154">
@@ -1549,7 +1559,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>First of all, we haven't had contact with the inbreds in decades, so hearing about their invasion of Core City lifted a few eyebrows in Preservation. When I discussed the matter with Eidein, we came to a decision that it is best if I descend to Deep Caverns with - initially - several more rassophore combat units in order to make sure Cytosine Outpost and Nucleus are well defended.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Перш за все, ми не мали контакту з інбридами десятиліттями, тому новина про їхнє вторгнення в Центральне Місто викликала деяке здивування в Пресервації. Коли я обговорив це питання з Ейдейн, ми дійшли висновку, що найкраще, якщо я спущуся до Глибоких Печер з – спочатку – кількома бойовими підрозділами рассофорів, щоб переконатися, що Відсіч Цитозин і Ядро добре захищені.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a155" name="=&gt;a155">
@@ -1559,7 +1569,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>If you were prepared, how did they manage to overwhelm you?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Якщо ви були готові, як їм вдалося вас пересилити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q156" name="=&gt;q156">
@@ -1569,7 +1579,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Sadly, it seems we greatly underestimated their forces. Decades ago Faceless were as far off from being a match for us, as history has shown. Now, they outnumber us not only in armed personnel but in mechanization as well, as their tunneling machines allow such mobility and support that we were unable to match them. Their tactics are - and I'm not glad to admit this - but they proved to be extremely effective.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">На жаль, здається, ми сильно недооцінили їхні сили. Десятиліття тому Безликі були далекі від того, щоб бути рівними нам, як показала історія. Зараз вони перевершують нас не тільки чисельністю озброєного персоналу, але й механізацією, оскільки їхні тунельні машини забезпечують таку мобільність і підтримку, які ми не змогли їм протиставити. Їхня тактика – і я не радий це визнавати – але вона виявилася надзвичайно ефективною.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q157" name="=&gt;q157">
@@ -1579,7 +1589,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Simultaneous flanking attacks made sure the outside perimeter was quickly breached. Their initial push might've even allowed them to reach Cytosine Outpost itself, but our minefields were enough to slow them down, allowing our forces to regroup and form another line of defense, which proved effective for a time; however, no matter how many inbreds we culled, their troops just kept receiving reinforcements.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Одночасні флангові атаки забезпечили швидке прорив зовнішнього периметру. Їхній початковий натиск міг навіть дозволити їм досягти самої Відсічі Цитозин, але наші мінні поля були достатніми, щоб сповільнити їх, дозволяючи нашим силам перегрупуватися і сформувати нову лінію оборони, яка виявилася ефективною протягом певного часу; однак, незалежно від того, скільки інбридів ми знищували, їхні війська постійно отримували підкріплення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q158" name="=&gt;q158">
@@ -1589,7 +1599,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>A combination of excellent maneuvering and overwhelming numbers meant that eventually they were going to breach our defensive lines. And so they did. They made it to our final defensive position, as you can see by their corpses just beyond the base walls.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поєднання відмінного маневрування та переваги в силах означало, що зрештою вони прорвуть наші оборонні лінії. І так воно і сталося. Вони дісталися до нашої останньої оборонної позиції, як ви можете бачити з їхніх трупів, що лежать за стінами бази.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a159" name="=&gt;a159">
@@ -1599,7 +1609,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Wait, didn't Tchort's minions help you fight the Faceless?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зачекай, невже слуги Тчорта допомогли вам боротися з Безликими?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q160" name="=&gt;q160">
@@ -1609,7 +1619,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Tchort's minions were one of the reasons we are still alive, as their numbers, if nothing else, matched that of the Faceless. What secured our victory was the fact that the Faceless ultimately couldn't withstand the magnificence of Tchort's mind. I saw the effects myself: Some of them were dropping their weapons and falling to the ground, shaking and rolling until finally coming to eternal rest. Soon after these incidents began to occur, and naturally reduced their combat effectiveness, they retreated.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Слуги Тчорта були однією з причин, чому ми все ще живі, оскільки їхня кількість, принаймні, відповідала кількості Безликих. Те, що забезпечило нашу перемогу, полягало в тому, що Безликі зрештою не змогли витримати велич розуму Тчорта. Я бачив це на власні очі: Деякі з них кидали зброю і падали на землю, тремтіли і перекочувалися, поки нарешті не знайшли вічний спокій. Незабаром після цього ці інциденти почали відбуватися, і природно зменшили їхню боєздатність, вони відступили.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q161" name="=&gt;q161">
@@ -1619,7 +1629,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>They haven't made any advances since then.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони більше не робили жодних спроб просування.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a162" name="=&gt;a162">
@@ -1629,7 +1639,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Why do you think the Faceless invaded half of Underrail at this particular time?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому, на твою думку, Безликі вторглися в половину Підземного Світу саме в цей час?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q163" name="=&gt;q163">
@@ -1639,7 +1649,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>One might argue that they have finally grown strong enough to do so, but there is one little detail which explains it, and had I been aware of it earlier, things would've turned out differently.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можна стверджувати, що вони нарешті стали достатньо сильними, щоб це зробити, але є одна маленька деталь, яка все пояснює, і якби я знав про неї раніше, все б склалося інакше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a164" name="=&gt;a164">
@@ -1649,7 +1659,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>The artifact.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Артефакт.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q165" name="=&gt;q165">
@@ -1659,7 +1669,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Artifact? You know about that?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Артефакт? Ти про це знаєш?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a166" name="=&gt;a166">
@@ -1669,7 +1679,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>I heard about it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я про нього чув.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q167" name="=&gt;q167">
@@ -1679,7 +1689,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>Regardless, I believe this object is the reason for everything that had happened starting with Core City invasion up until now. And had I made that connection earlier, we might've been more prepared to deal with the Faceless.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Незалежно від цього, я вважаю, що цей об’єкт є причиною всього, що сталося, починаючи з вторгнення в Центральне Місто і до сьогоднішнього дня. І якби я зробив цей зв’язок раніше, ми могли б бути краще підготовлені до боротьби з Безликими.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a168" name="=&gt;a168">
@@ -1689,7 +1699,7 @@ Have you managed to reach any of their bases yet? That's what interests me the m
       </mda:metadata>
       <segment state="translated">
         <source>How so?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як саме?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q169" name="=&gt;q169">
@@ -1701,7 +1711,9 @@ Have you managed to reach any of their bases yet? That's what interests me the m
         <source>I wasn't aware where the artifact came from. I was only told by the investigators that Eidein ordered it sent to Nucleus. One single bit of information was necessary for me to realize that an object, that technologically advanced, existing in Core City at the time of the Faceless invasion, was as far from a coincidence as it can be possible. 
 
 I wonder why Eidein hasn't made that same connection, but what happened, happened.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не знав, звідки взявся артефакт. Мені лише повідомили слідчі, що Ейдейн наказав відправити його в Ядро. Однієї інформації було достатньо, щоб я зрозумів, що об’єкт, такий технологічно просунутий, існування якого в Центральному Місті на момент вторгнення Безликих, був якомога далі від збігу.
+
+Я дивуюся, чому Ейдейн не зробив того самого висновку, але що сталося, те сталося.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a170" name="=&gt;a170">
@@ -1711,7 +1723,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>But you do know it came from Core City, you just said it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Але ти знаєш, що він прийшов з Центрального Міста, ти ж сам це сказав.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q171" name="=&gt;q171">
@@ -1721,7 +1733,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>I realized that far too late once I've spoken to one of the surviving investigators. Magnificent Tchort, had I only paid more attention. We wouldn't have moved everyone to Deep Caverns; Preservation Forces as a single whole could've repelled the Faceless, but we were split.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я зрозумів це занадто пізно, коли поговорив з одним із тих, хто вижив. Величний Тчорт, якби я тільки звернув більше уваги. Ми б не переміщували всіх до Глибоких Печер; сили Пресервації в цілому могли б відбити Безликих, але нас розділили.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a172" name="=&gt;a172">
@@ -1731,7 +1743,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Why was the artifact brought to Tchort?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чому артефакт було доставлено до Тчорта?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q173" name="=&gt;q173">
@@ -1741,7 +1753,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>That you would need to ask Eidein. I know nothing other than it is something... exceptional. I can only assume that it is something worthy of Tchort's attention. Many such objects have found their way to the Nucleus, and if we preserve it, many more will.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Про це тобі потрібно запитати Ейдейн. Я нічого не знаю, окрім того, що це щось... виняткове. Я можу лише припустити, що це щось, гідне уваги Тчорта. Багато таких об’єктів знайшли свій шлях до Ядра, і якщо ми їх збережемо, то знайдеться ще багато.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a174" name="=&gt;a174">
@@ -1751,7 +1763,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>One single detail changes everything. I need to ask you something else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Одна маленька деталь змінює все. Мені потрібно запитати тебе про щось інше.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a175" name="=&gt;a175">
@@ -1761,7 +1773,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>What is it?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що таке?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q176" name="=&gt;q176">
@@ -1771,7 +1783,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>It is some sort of a strange object which was brought down to Deep Caverns just recently.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це якийсь дивний об’єкт, який нещодавно було доставлено до Глибоких Печер.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a177" name="=&gt;a177">
@@ -1781,7 +1793,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about this artifact?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш розповісти мені про цей артефакт?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q178" name="=&gt;q178">
@@ -1791,7 +1803,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>It is a strange polyhedron with even stranger markings; one of the investigators only showed it to me, but I know of its use very little.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це дивний багатогранник з ще більш дивними позначками; один із слідчих лише показав його мені, але я знаю про його призначення дуже мало.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a179" name="=&gt;a179">
@@ -1801,7 +1813,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>I have some other questions for you.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">У мене є ще кілька питань до тебе.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a180" name="=&gt;a180">
@@ -1811,7 +1823,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>How did you drive them off?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви їх відбили?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a181" name="=&gt;a181">
@@ -1821,7 +1833,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about Cytosine Outpost?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш розповісти мені про Відсіч Цитозин?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q182" name="=&gt;q182">
@@ -1831,7 +1843,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Its purpose is to provide a base of operations for all Preservation Forces in Deep Caverns, and serves as a connection to the Institute of Tchort building. We are well equipped for the time being, but we cannot afford to be wasteful during this crisis.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Її призначення полягає в тому, щоб забезпечити базу операцій для всіх сил Пресервації в Глибоких Печерах, і служить зв’язком з Інститутом Тчорта. На даний момент ми добре оснащені, але ми не можемо дозволити собі марнотратство під час цієї кризи.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q183" name="=&gt;q183">
@@ -1841,7 +1853,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Other than that, there isn't much I can or wish to tell you about Cytosine Outpost.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Крім того, я не можу або не хочу розповісти тобі багато про Відсіч Цитозин.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a184" name="=&gt;a184">
@@ -1851,7 +1863,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>What can you tell me about the surrounding areas?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що ти можеш розповісти мені про навколишні території?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q185" name="=&gt;q185">
@@ -1861,7 +1873,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>The most I can tell you is about the Hollow Earth research complex. Outside of it is mostly Faceless territory now, but there are a few points of interest, like the warehouse block, Caerus residential block and Arke Power Station. Everything else is, to our knowledge, wild territory.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Найбільше, що я можу тобі сказати, це про дослідницький комплекс Порожньої Землі. Зовні нього зараз переважно територія Безликих, але є кілька цікавих місць, таких як складський район, житловий район Каерус і Арке Електростанція. Все інше, наскільки нам відомо, є дикою територією.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a186" name="=&gt;a186">
@@ -1871,7 +1883,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>How can I get to Nucleus?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як я можу дістатися до Ядра?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q187" name="=&gt;q187">
@@ -1881,7 +1893,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>It is to the north, but all entrances are sealed at the moment.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Воно на північ, але всі входи зараз запечатані.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a188" name="=&gt;a188">
@@ -1891,7 +1903,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Sealed?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Запечатані?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q189" name="=&gt;q189">
@@ -1901,7 +1913,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Yes, the gate leading to Tchort is closed. Thankfully, the Faceless haven't even managed to come anywhere near it, let alone breach it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, ворота, що ведуть до Тчорта, зачинені. На щастя, Безликі навіть не змогли наблизитися до них, не кажучи вже про те, щоб їх прорвати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a190" name="=&gt;a190">
@@ -1911,7 +1923,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Can it be opened?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи можна їх відкрити?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q191" name="=&gt;q191">
@@ -1921,7 +1933,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Only by Tchort.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тільки Тчорт.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a192" name="=&gt;a192">
@@ -1931,7 +1943,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>You mean, Tchort can control the gate?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти маєш на увазі, що Тчорт може контролювати ворота?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q193" name="=&gt;q193">
@@ -1941,7 +1953,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>You can say that. In fact, Tchort's influence is the reason we have successfully resisted all the recent Faceless attacks, even if just barely.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Можна сказати так. Насправді, вплив Тчорта є причиною того, що ми успішно чинили опір усім останнім атакам Безликих, навіть якщо ледве.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a194" name="=&gt;a194">
@@ -1951,7 +1963,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>What exactly do you mean?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Що саме ти маєш на увазі?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a195" name="=&gt;a195">
@@ -1961,7 +1973,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Have you ever seen Tchort?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти коли-небудь бачив Тчорта?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q196" name="=&gt;q196">
@@ -1971,7 +1983,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>No. Tchort only allows Eidein near it, no one else.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні. Тчорт дозволяє наблизитися до нього лише Ейдейн, нікому іншому.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q197" name="=&gt;q197">
@@ -1981,7 +1993,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>His death makes everything much more complicated now. But, we will adapt and overcome, as the saying goes. Tchort must be preserved, that is our top priority. We will have to postpone our worries until after we drive the Faceless off.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Його смерть значно ускладнює все зараз. Але ми адаптуємося та подолаємо, як кажуть. Тчорта необхідно зберегти, це наш головний пріоритет. Нам доведеться відкласти наші турботи до того, як ми виженемо Безликих. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q198" name="=&gt;q198">
@@ -1991,7 +2003,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>And I am sure he well come here with reinforcements as soon as possible, as soon as he's able.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">І я впевнений, що він прибуде сюди з підкріпленням якомога швидше, як тільки зможе. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a199" name="=&gt;a199">
@@ -2001,7 +2013,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Tchort guide you, Your Excellency.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт веди тебе, Ваша Високосте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a200" name="=&gt;a200">
@@ -2011,7 +2023,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Goodbye.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">До побачення.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q201" name="=&gt;q201">
@@ -2021,7 +2033,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>You are free to leave unless you have further questions.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ви вільні йти, якщо у вас немає інших питань.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a202" name="=&gt;a202">
@@ -2031,7 +2043,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>I'm sure Eidein knows why he acted like he did.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я впевнений, Ейдейн знає, чому він діяв саме так.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a203" name="=&gt;a203">
@@ -2041,7 +2053,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>No, not as far as I know.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ні, наскільки мені відомо.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q204" name="=&gt;q204">
@@ -2051,7 +2063,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>In the end, I suppose that is the least relevant thing now. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Зрештою, гадаю, це найменш важливе зараз. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a205" name="=&gt;a205">
@@ -2061,7 +2073,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>He did, but he never made it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Він так і зробив, але не дістався.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a206" name="=&gt;a206">
@@ -2071,7 +2083,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>I'm sure he'll have an explanation once the Faceless have been dealt with.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я впевнений, він дасть пояснення, як тільки Безликих буде ліквідовано.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q207" name="=&gt;q207">
@@ -2081,7 +2093,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Still, why didn't Eidein himself come to the Nucleus? According to my knowledge, that was the emergency plan?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все ж таки, чому сам Ейдейн не прийшов до Ядра? Наскільки я знаю, це був план надзвичайних ситуацій? &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a208" name="=&gt;a208">
@@ -2091,7 +2103,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Eidein sent a group of us to go down using the elevator, but the elevator's failure mid-descent as well as the subsequent death of others left me as the only survivor.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ейдейн відправив групу з нас вниз ліфтом, але поломка ліфта під час спуску, а також подальша смерть інших, залишила мене єдиним, хто вижив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a209" name="=&gt;a209">
@@ -2101,7 +2113,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Before his death, Eidein sent me to help with Tchort's defense. And I am alone. The elevator stopped working during the descent, but a lucky opening in the wall saved me.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Перед смертю Ейдейн відправив мене допомогти з обороною Тчорта. І я один. Ліфт зупинився під час спуску, але вдалий отвір у стіні врятував мене.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a210" name="=&gt;a210">
@@ -2111,7 +2123,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>Before his death, Eidein instructed a group of us to go down using the elevator, but the elevator's failure mid-descent as well as the subsequent death of others left me as the only survivor.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Перед смертю Ейдейн наказав групі з нас спуститися ліфтом, але поломка ліфта під час спуску, а також подальша смерть інших, залишила мене єдиним, хто вижив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a211" name="=&gt;a211">
@@ -2121,7 +2133,7 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
       </mda:metadata>
       <segment state="translated">
         <source>I fled the Institute during the fighting.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я втік з Інституту під час боїв.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q212" name="=&gt;q212">
@@ -2133,7 +2145,9 @@ I wonder why Eidein hasn't made that same connection, but what happened, happene
         <source>::Several long seconds pass before you get a reply.::
 
 I knew there was something odd about you, $(context.player.Name), and now I know what it was. And to state your treacherousness so calmly... a true Evdok you are.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кілька довгих секунд минає, перш ніж ви отримаєте відповідь.::
+
+Я знав, що в тобі є щось дивне, $(context.player.Name), і тепер я знаю, що саме. І висловлювати свою зраду так спокійно... справжній Евдок ти є. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q213" name="=&gt;q213">
@@ -2143,7 +2157,7 @@ I knew there was something odd about you, $(context.player.Name), and now I know
       </mda:metadata>
       <segment state="translated">
         <source>You are not worthy of calling yourself a Tchortist, and no matter how valuable every man and woman are right now, a traitor once - a traitor always. I cannot take any risk, so I order you to leave Cytosine Outpost. Resistance will be met with forceful removal.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ти не гідний називати себе Тчортистом, і незалежно від того, наскільки цінною є кожна людина зараз, зрадник раз - зрадник назавжди. Я не можу ризикувати, тому наказую тобі покинути аванпост Цитозин. Опір буде зустрінутий силовим видаленням. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a214" name="=&gt;a214">
@@ -2153,7 +2167,7 @@ I knew there was something odd about you, $(context.player.Name), and now I know
       </mda:metadata>
       <segment state="translated">
         <source>Allow me to explain...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дозвольте мені пояснити...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q215" name="=&gt;q215">
@@ -2165,7 +2179,9 @@ I knew there was something odd about you, $(context.player.Name), and now I know
         <source>::He interrupts you.::
 
 Out!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він перебиває тебе.::
+
+Геть!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a216" name="=&gt;a216">
@@ -2175,7 +2191,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I will leave.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я піду.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q217" name="=&gt;q217">
@@ -2185,7 +2201,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::He does not reply. Instead, he simply stands still and waits for you to leave.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він не відповідає. Замість цього він просто стоїть нерухомо і чекає, поки ти підеш.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a218" name="=&gt;a218">
@@ -2195,7 +2211,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Sad to say so.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Сумно так казати.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q219" name="=&gt;q219">
@@ -2205,7 +2221,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>While Eidein's death is a serious blow to the Institute of Tchort, at least you bear us some good news. Hopefully our brothers and sisters will find a way to reinforce us, because we are unable to repair the elevator from here.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хоча смерть Ейдейна є серйозним ударом по Інституту Тчорта, принаймні ви принесли нам добрі новини. Сподіваємося, наші брати та сестри знайдуть спосіб підсилити нас, тому що ми не можемо відремонтувати ліфт звідси.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a220" name="=&gt;a220">
@@ -2215,7 +2231,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>::Nod.::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Кивок.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a221" name="=&gt;a221">
@@ -2225,7 +2241,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Don't they deserve to know the truth?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Хіба вони не заслуговують знати правду?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q222" name="=&gt;q222">
@@ -2235,7 +2251,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Not yet if we all wish to survive. Again, are we clear?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Поки ні, якщо ми всі хочемо вижити. Знову ж таки, чи все зрозуміло?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a223" name="=&gt;a223">
@@ -2245,7 +2261,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I am sad to inform you that Eidein was killed by the Faceless. He was involved in the combat and, despite him fighting the invaders bravely, did not make it out alive.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені сумно повідомити вам, що Ейдейна вбито Безликими. Він брав участь у боях і, незважаючи на те, що хоробро бився з загарбниками, не вижив.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a224" name="=&gt;a224">
@@ -2255,7 +2271,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Don't worry, Eidein is alive and well.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Не хвилюйтеся, Ейдейн живий і здоровий.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q225" name="=&gt;q225">
@@ -2267,7 +2283,7 @@ Out!&lt;end&gt;</source>
         <source>That is excellent news, $(context.player.Name). The situation was looking very grim up to this point, but now things have changed. Thank you for this excellent news. I will be sure to inform our rassophores of this, maybe it'll help the weak morale.
 
 &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Це чудові новини, $(context.player.Name). Ситуація виглядала дуже похмуро до цього моменту, але тепер все змінилося. Дякую за ці чудові новини. Я обов’язково повідомлю наших рассофорів про це, можливо, це допоможе слабкому моральному духу. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q226" name="=&gt;q226">
@@ -2277,7 +2293,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>When can we expect reinforcements? I am perfectly aware the elevator was badly damaged by the Faceless and that it's out of action, but I expect you were sent here with some information, at least?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Коли ми можемо очікувати підкріплення? Я чудово розумію, що ліфт був сильно пошкоджений Безликими і не працює, але я очікую, що вас відправили сюди з якоюсь інформацією, принаймні?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a227" name="=&gt;a227">
@@ -2287,7 +2303,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Very soon, Your Excellency. As soon as the elevator becomes operational again.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Дуже скоро, Ваша Високосте. Щойно ліфт знову запрацює.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q228" name="=&gt;q228">
@@ -2297,7 +2313,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Excellent, $(context.player.Name). That is good news indeed.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово, $(context.player.Name). Це дійсно хороші новини.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a229" name="=&gt;a229">
@@ -2307,7 +2323,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I can't tell you anything yet. We can only hope that reinforcements will come soon.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я не можу вам нічого сказати поки що. Ми можемо тільки сподіватися, що підкріплення прибуде найближчим часом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q230" name="=&gt;q230">
@@ -2317,7 +2333,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I understand. We are in no position to repair the elevator from here; therefore, all depends on what mechanics can accomplish up there before we can get our hopes up.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я розумію. Ми не в змозі відремонтувати ліфт звідси; тому все залежить від того, що зможуть зробити механіки там, перш ніж ми зможемо на щось сподіватися.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q231" name="=&gt;q231">
@@ -2327,7 +2343,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Still, your arrival at least came with some illumination regarding this whole situation.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все ж таки, ваше прибуття принесло хоч якесь прояснення щодо всієї цієї ситуації.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a232" name="=&gt;a232">
@@ -2337,7 +2353,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>As you said, the elevator is badly damaged, so I wouldn't expect reinforcements very soon.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Як ви сказали, ліфт сильно пошкоджений, тому я не очікую підкріплення найближчим часом.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a233" name="=&gt;a233">
@@ -2347,7 +2363,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The Faceless launched a full-scale attack on the Institute. Battle was still raging during the time of my descent, so I'm unsure of its outcome.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Безликі розпочали повномасштабний напад на Інститут. Бій все ще тривав під час мого спуску, тому я не знаю його результату.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a234" name="=&gt;a234">
@@ -2357,7 +2373,7 @@ Out!&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>The Faceless attack on the Institute of Tchort was devastating. They left no one alive.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Атака Безликих на Інститут Тчорта була нищівною. Вони нікого не залишили живим.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q235" name="=&gt;q235">
@@ -2369,7 +2385,9 @@ Out!&lt;end&gt;</source>
         <source>::He stops for moment before resuming with an unchanged tone of voice.::
 
 No one? Eidein?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він зупиняється на мить, перш ніж продовжити з незмінним тоном голосу.::
+
+Нікого? Ейдейна?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a236" name="=&gt;a236">
@@ -2379,7 +2397,7 @@ No one? Eidein?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>No one, not even Eidein.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Нікого, навіть Ейдейна.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a237" name="=&gt;a237">
@@ -2389,7 +2407,7 @@ No one? Eidein?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Hell.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Пекло.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q238" name="=&gt;q238">
@@ -2401,7 +2419,9 @@ No one? Eidein?&lt;end&gt;</source>
         <source>::He pauses.::
 
 Is it really that grim?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він робить паузу.::
+
+Це справді так похмуро?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a239" name="=&gt;a239">
@@ -2411,7 +2431,7 @@ Is it really that grim?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Everything is destroyed, everyone killed - including Eidein. So yes, I'd say it's grim.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Все знищено, всі вбиті - включно з Ейдейном. Тож так, я б сказав, що це похмуро.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q240" name="=&gt;q240">
@@ -2421,7 +2441,7 @@ Is it really that grim?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>They have all made it back safely and are ready for action.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони всі повернулися в безпеці та готові до дії.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q241" name="=&gt;q241">
@@ -2431,7 +2451,7 @@ Is it really that grim?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort is evolution. I am Harmost Stavros. I've already been informed that you're the one brave enough to free our rassophores from the clutches of the inbreds. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт - це еволюція. Я Гармост Ставрос. Мені вже повідомили, що ви той, хто наважився звільнити наших рассофорів з лап виродків. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q242" name="=&gt;q242">
@@ -2441,7 +2461,7 @@ Is it really that grim?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Evolution is Tchort. I am Harmost Stavros. Welcome to Cytosine Outpost. &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Еволюція - це Тчорт. Я Гармост Ставрос. Ласкаво просимо до аванпосту Цитозин. &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a243" name="=&gt;a243">
@@ -2451,7 +2471,7 @@ Is it really that grim?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I'm $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q244" name="=&gt;q244">
@@ -2461,7 +2481,7 @@ Is it really that grim?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>Tchort is Evolution. I've already been informed where you're from. I am Harmost Stavros. Welcome to Cytosine Outpost.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт - це Еволюція. Мені вже повідомили, звідки ви. Я Гармост Ставрос. Ласкаво просимо до аванпосту Цитозин.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a245" name="=&gt;a245">
@@ -2471,7 +2491,7 @@ Is it really that grim?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I come straight from the Institute of Tchort, Your Excellency.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я прийшов безпосередньо з Інституту Тчорта, Ваша Високосте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a246" name="=&gt;a246">
@@ -2481,7 +2501,7 @@ Is it really that grim?&lt;end&gt;</source>
       </mda:metadata>
       <segment state="translated">
         <source>I notice you are silent, Your Excellency. I wonder if you can maintain it when start ripping your heart out of your squirming body! ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Я помічаю, що ви мовчите, Ваша Високосте. Цікаво, чи зможете ви зберегти це мовчання, коли я почну виривати ваше серце з вашого корчильного тіла! ::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q247" name="=&gt;q247">
@@ -2493,7 +2513,9 @@ Is it really that grim?&lt;end&gt;</source>
         <source>::Harmost Stavros spits out a torrent of words as soon as you enter his office.:: 
 
 Are you out of your vestigial mind, $(context.player.Name)!? Didn't I specifically instruct you to take extreme care when speaking with Rassophore Prevlic? You are not supposed to upset my men to the point of near-uselessness!&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Гармост Ставрос випльовує потік слів, щойно ви заходите в його кабінет.::
+
+Ти з глузду з’їхав, $(context.player.Name)!? Я конкретно наказав тобі бути надзвичайно обережним, розмовляючи з Рассофором Пребліком? Ти не повинен засмучувати моїх людей до точки майже безпорадності!&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q248" name="=&gt;q248">
@@ -2505,7 +2527,9 @@ Are you out of your vestigial mind, $(context.player.Name)!? Didn't I specifical
         <source>::He takes a moment to calm down.:: 
 
 I know you have done a lot since you arrived here, but I would like to make myself clear now, $(context.player.Name), and you better listen carefully: I need everyone in Cytosine Outpost to be as capable and as ready as they can possibly be - and you are stomping all over my efforts. However, precisely because I need *everyone* is the same reason why you will not be punished right now. Should you do anything similar to this again... well...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він бере момент, щоб заспокоїтися.::
+
+Я знаю, що ти багато зробив з моменту свого прибуття сюди, але я хотів би прояснити зараз, $(context.player.Name), і тобі краще уважно слухати: мені потрібні всі на аванпості Цитозин, щоб бути максимально здатними та готовими - і ти топчеш усі мої зусилля. Однак, саме тому, що мені потрібен *кожен*, є та сама причина, чому тебе зараз не покарають. Якщо ти знову зробиш щось подібне... ну...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q249" name="=&gt;q249">
@@ -2515,7 +2539,7 @@ I know you have done a lot since you arrived here, but I would like to make myse
       </mda:metadata>
       <segment state="translated">
         <source>Am I clear enough, $(context.player.Name)?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чи все зрозуміло, $(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a250" name="=&gt;a250">
@@ -2525,7 +2549,7 @@ I know you have done a lot since you arrived here, but I would like to make myse
       </mda:metadata>
       <segment state="translated">
         <source>Yes, Your Excellency.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Так, Ваша Високосте.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q251" name="=&gt;q251">
@@ -2535,7 +2559,7 @@ I know you have done a lot since you arrived here, but I would like to make myse
       </mda:metadata>
       <segment state="translated">
         <source>Excellent. Now, tell me what you needed of me?&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудово. Тепер розкажіть мені, що вам було потрібно від мене?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a252" name="=&gt;a252">
@@ -2545,7 +2569,7 @@ I know you have done a lot since you arrived here, but I would like to make myse
       </mda:metadata>
       <segment state="translated">
         <source>Crystal clear.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Кристально зрозуміло.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a253" name="=&gt;a253">
@@ -2555,7 +2579,7 @@ I know you have done a lot since you arrived here, but I would like to make myse
       </mda:metadata>
       <segment state="translated">
         <source>I have had enought of this! Time to show you who's the boss around here! ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Мені цього вже достатньо! Настав час показати тобі, хто тут господар! ::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a254" name="=&gt;a254">
@@ -2565,7 +2589,7 @@ I know you have done a lot since you arrived here, but I would like to make myse
       </mda:metadata>
       <segment state="translated">
         <source>No one tells me - the Invictus - what to do! I will raze this place to the ground for your insolence! ::Attack!::&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Ніхто не каже мені - Інвіктусу - що робити! Я зрівняю це місце з землею за твою зухвалість! ::Атака!::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q255" name="=&gt;q255">
@@ -2577,7 +2601,9 @@ I know you have done a lot since you arrived here, but I would like to make myse
         <source>::He takes a moment to calm down.:: 
 
 I would like to make myself clear now, $(context.player.Name), and you better listen carefully: I need everyone in Cytosine Outpost to be as capable and as ready as they can possibly be - and you are stomping all over my efforts. However, precisely because I need *everyone* is the same reason why you will not be punished right now. Should you do anything similar to this again... well...&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">::Він бере момент, щоб заспокоїтися.::
+
+Я хотів би прояснити зараз, $(context.player.Name), і тобі краще уважно слухати: мені потрібні всі на аванпості Цитозин, щоб бути максимально здатними та готовими - і ти топчеш усі мої зусилля. Однак, саме тому, що мені потрібен *кожен*, є та сама причина, чому тебе зараз не покарають. Якщо ти знову зробиш щось подібне... ну...&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q256" name="=&gt;q256">
@@ -2587,7 +2613,7 @@ I would like to make myself clear now, $(context.player.Name), and you better li
       </mda:metadata>
       <segment state="translated">
         <source>Excellent work, $(context.player.Name). &lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Чудова робота, $(context.player.Name). &lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q257" name="=&gt;q257">
@@ -2597,7 +2623,7 @@ I would like to make myself clear now, $(context.player.Name), and you better li
       </mda:metadata>
       <segment state="translated">
         <source>The rassophores which you have rescued have made it back to Cytosine Outpost.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Рассофори, яких ви врятували, повернулися на аванпост Цитозин.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q258" name="=&gt;q258">
@@ -2607,7 +2633,7 @@ I would like to make myself clear now, $(context.player.Name), and you better li
       </mda:metadata>
       <segment state="translated">
         <source>&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q259" name="=&gt;q259">
@@ -2617,7 +2643,7 @@ I would like to make myself clear now, $(context.player.Name), and you better li
       </mda:metadata>
       <segment state="translated">
         <source>They have armed themselves and are ready to face the Faceless... ::He stops briefly.:: once more.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Вони озброїлися та готові знову зустрітися віч-на-віч з Безликими... ::Недовга пауза.:: знову.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q260" name="=&gt;q260">
@@ -2627,7 +2653,7 @@ I would like to make myself clear now, $(context.player.Name), and you better li
       </mda:metadata>
       <segment state="translated">
         <source>Despite that, the rassophore is armed and ready to face the Faceless... ::He stops briefly.:: once more.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Незважаючи на це, расофор озброєний і готовий знову зустрітися віч-на-віч з Безликими... ::Недовга пауза.:: знову.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q261" name="=&gt;q261">
@@ -2637,7 +2663,7 @@ I would like to make myself clear now, $(context.player.Name), and you better li
       </mda:metadata>
       <segment state="translated">
         <source>The rassophore which you have rescued made it back to Cytosine Outpost. Sadly, the other two captives weren't able to make it.&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Расофор, якого ви врятували, повернувся на аванпост Цитозин. На жаль, інші двоє полонених не змогли цього зробити.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q262" name="=&gt;q262">
@@ -2647,7 +2673,7 @@ I would like to make myself clear now, $(context.player.Name), and you better li
       </mda:metadata>
       <segment state="translated">
         <source>Tchort is evolution, $(context.player.Name).&lt;end&gt;</source>
-        <target state="new" />
+        <target state="needs-translation">Тчорт – це еволюція, $(context.player.Name).&lt;end&gt;</target>
       </segment>
     </unit>
   </file>
