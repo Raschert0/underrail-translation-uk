@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="knowledge\caltrops.txt" original="knowledge\caltrops.txt">
     <unit id="::Regular" name="::Regular">
@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Deploy regular caltrops to the targeted area. Anyone who steps on a caltrop suffers {0} damage and loses {1} movement points (if target has no movement points, it loses action points instead). Stepping on a caltrop cannot deal a fatal blow.</source>
-        <target state="needs-translation">Розгорніть звичайні дротики в цільовій області. Будь-хто, хто наступить на дротик, отримає {0} шкоди та втратить {1} пунктів руху (якщо ціль не має пунктів руху, вона втратить бали дії замість цього). Наступання на дротик не може завдати смертельного удару.</target>
+        <target state="translated">Розкидайте звичайні колючки в цільовій області. Будь-хто, хто наступить на колючку, отримає {0} шкоди та втратить {1} очок руху (якщо ціль не має очок руху, вона натомість втратить очки дії). Наступання на колючку не може завдати смертельного удару.</target>
       </segment>
     </unit>
     <unit id="::BurrowerPoison" name="::BurrowerPoison">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Deploy poison-tipped caltrops to the targeted area. Anyone who steps on a caltrop immediately suffers {0} damage and loses {1} movement points (if target has no movement points, it loses action points instead) and is infected by burrower poison that deals {2} damage each turn for {3}. Stacks {4} times.</source>
-        <target state="needs-translation">Розгорніть дротики з отруєними наконечниками в цільовій області. Будь-хто, хто наступить на дротик, негайно отримає {0} шкоди та втратить {1} пунктів руху (якщо ціль не має пунктів руху, вона втратить бали дії замість цього) та заразиться отрутою повзунів, яка завдає {2} шкоди кожного ходу протягом {3}. Накопичується {4} разів.</target>
+        <target state="translated">Розкидайте колючки з отруєними наконечниками в цільовій області. Будь-хто, хто наступить на колючку, отримає {0} шкоди та втратить {1} очок руху (якщо ціль не має очок руху, вона натомість втратить очки дії) та заразиться отрутою копак, яка завдає {2} шкоди кожного ходу впродовж {3}. Накопичується {4} разів.</target>
       </segment>
     </unit>
     <unit id="::CaveEarPoison" name="::CaveEarPoison">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Deploy poison-tipped caltrops to the targeted area. Anyone who steps on a caltrop immediately suffers {0} damage and loses {1} movement points (if target has no movement points, it loses action points instead) and is infected by cave ear poison that increases all biological damage taken by {2}% and reduces perception by {3}. Lasts up to {4}.</source>
-        <target state="needs-translation">Розгорніть дротики з отруєними наконечниками в цільовій області. Будь-хто, хто наступить на дротик, негайно отримає {0} шкоди та втратить {1} пунктів руху (якщо ціль не має пунктів руху, вона втратить бали дії замість цього) та заразиться отрутою печерного вуха, яка збільшує всю біологічну шкоду, яку отримує, на {2}% і зменшує сприйняття на {3}. Триває до {4}.</target>
+        <target state="translated">Розкидайте колючки з отруєними наконечниками в цільовій області. Будь-хто, хто наступить на колючку, отримає {0} шкоди та втратить {1} очок руху (якщо ціль не має очок руху, вона натомість втратить очки дії) та заразиться отрутою печерного вуха, яка збільшує всю отриману біологічну шкоду на {2}% та зменшує сприйняття на {3}. Триває до {4}.</target>
       </segment>
     </unit>
     <unit id="::CrawlerPoison" name="::CrawlerPoison">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Deploy poison-tipped caltrops to the targeted area. Anyone who steps on a caltrop immediately suffers {0} damage and loses {1} movement points (if target has no movement points, it loses action points instead) and is infected by crawler poison that deals {2} damage each turn for {3}. If the poison is not removed before it expires it will stun the victim for {4}.</source>
-        <target state="needs-translation">Розгорніть дротики з отруєними наконечниками в цільовій області. Будь-хто, хто наступить на дротик, негайно отримає {0} шкоди та втратить {1} пунктів руху (якщо ціль не має пунктів руху, вона втратить бали дії замість цього) та заразиться отрутою повзуна, яка завдає {2} шкоди кожного ходу протягом {3}. Якщо отруту не видалити до закінчення терміну її дії, вона приголомшить жертву на {4}.</target>
+        <target state="translated">Розкидайте колючки з отруєними наконечниками в цільовій області. Будь-хто, хто наступить на колючку, отримає {0} шкоди та втратить {1} очок руху (якщо ціль не має очок руху, вона натомість втратить очки дії) та заразиться отрутою повзуна, яка завдає {2} шкоди кожного ходу впродовж {3}. Якщо отруту не видалити до закінчення терміну її дії, вона приголомшить жертву на {4}.</target>
       </segment>
     </unit>
     <unit id="::BlindingPoison" name="::BlindingPoison">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Deploy poison-tipped caltrops to the targeted area. Anyone who steps on a caltrop immediately suffers {0} damage and loses {1} movement points (if target has no movement points, it loses action points instead) and is infected by blinding poison that deals {2} damage each turn for {3} and reduces perception by {4}. Stacks {5} times.</source>
-        <target state="needs-translation">Розгорніть дротики з отруєними наконечниками в цільовій області. Будь-хто, хто наступить на дротик, негайно отримає {0} шкоди та втратить {1} пунктів руху (якщо ціль не має пунктів руху, вона втратить бали дії замість цього) та заразиться сліпою отрутою, яка завдає {2} шкоди кожного ходу протягом {3} і зменшує сприйняття на {4}. Накопичується {5} разів.</target>
+        <target state="translated">Розкидайте колючки з отруєними наконечниками в цільовій області. Будь-хто, хто наступить на колючку, отримає {0} шкоди та втратить {1} очок руху (якщо ціль не має очок руху, вона натомість втратить очки дії) та заразиться осліплюючою отрутою, яка завдає {2} шкоди кожного ходу впродовж {3} та зменшує сприйняття на {4}. Накопичується {5} разів.</target>
       </segment>
     </unit>
   </file>
