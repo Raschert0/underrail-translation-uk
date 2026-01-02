@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="dialogs\characters\jgi_sisters.txt" original="dialogs\characters\jgi_sisters.txt">
     <unit id="=&gt;q1" name="=&gt;q1">
@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>::Two robed women stand in the middle of a small cavern, facing each other. Their gleaming eyes become focused on you the moment you reveal your presence. The darkness of the cave as well as that of their hoods make it difficult for you to discern any facial features of these two women, but the details are not your concern right now - their hostile poses are.::&lt;end&gt;</source>
-        <target state="needs-translation">::Дві вбрані жінки стоять посеред невеликої печери, обличчям одна до одної. Їхні блискучі очі зосереджуються на вас, щойно ви виявляєте свою присутність. Темрява печери, а також капюшони, ускладнюють розрізнення будь-яких рис обличчя цих двох жінок, але деталі зараз не мають значення - їхні ворожі пози мають.::&lt;кінець&gt;</target>
+        <target state="translated">::Дві вбрані жінки стоять посеред невеликої печери, обличчям одна до одної. Їхні блискучі очі зосереджуються на вас, щойно ви виявляєте свою присутність. Темрява печери, а також капюшони, ускладнюють розрізнення будь-яких рис обличчя цих двох жінок, але деталі зараз не мають значення - їхні ворожі пози говорять самі за себе.::&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q2" name="=&gt;q2">
@@ -20,9 +20,7 @@
         <source>::One of the two women speaks with a frigid, unwelcoming voice.::
 
 Identify yourself, visitor. Who are you and what is your purpose here?&lt;end&gt;</source>
-        <target state="needs-translation">::Одна з двох жінок говорить крижаним, непривітним голосом.::
-
-Назвіться, відвідувачу. Хто ви і яка ваша мета тут?&lt;кінець&gt;</target>
+        <target state="needs-translation">::Одна з двох жінок говорить крижаним, непривітним голосом.:: Назвіться, відвідувачу. Хто ви і яка ваша мета тут?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a3" name="=&gt;a3">
@@ -32,7 +30,7 @@ Identify yourself, visitor. Who are you and what is your purpose here?&lt;end&gt
       </mda:metadata>
       <segment state="translated">
         <source>I'm $(context.player.Name) and I mean you no harm.&lt;end&gt;</source>
-        <target state="needs-translation">Я $(context.player.Name) і не маю наміру завдати вам шкоди.&lt;кінець&gt;</target>
+        <target state="translated">Я $(context.player.Name) і не маю наміру завдати вам шкоди.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q4" name="=&gt;q4">
@@ -44,9 +42,7 @@ Identify yourself, visitor. Who are you and what is your purpose here?&lt;end&gt
         <source>::The two women exchange looks, but not words. A short glance is all it takes for them to know what the other one is thinking, it seems.::
 
 $(context.player.Name)... I am Adira, and this is my sister Beatrice.&lt;end&gt;</source>
-        <target state="needs-translation">::Дві жінки обмінюються поглядами, але не словами. Короткого погляду достатньо, щоб вони знали, що думає інша.::
-
-$(context.player.Name)... Я Адіра, а це моя сестра Беатріс.&lt;кінець&gt;</target>
+        <target state="translated">::Дві жінки обмінюються мовчазними поглядами. Короткого погляду достатньо, щоб вони знали, що думає інша.:: $(context.player.Name)... Я Адіра, а це моя сестра Беатріс.&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;q5" name="=&gt;q5">
@@ -56,7 +52,7 @@ $(context.player.Name)... Я Адіра, а це моя сестра Беатр�
       </mda:metadata>
       <segment state="translated">
         <source>Your purpose here, $(context.player.Name)?&lt;end&gt;</source>
-        <target state="needs-translation">Ваша мета тут, $(context.player.Name)?&lt;кінець&gt;</target>
+        <target state="translated">Ваша мета тут, $(context.player.Name)?&lt;end&gt;</target>
       </segment>
     </unit>
     <unit id="=&gt;a6" name="=&gt;a6">
