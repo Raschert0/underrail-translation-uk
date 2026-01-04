@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="knowledge\vehiclestattooltips.txt" original="knowledge\vehiclestattooltips.txt">
     <unit id="::Durability" name="::Durability">
@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Shows current and maximum durability points of the vehicle. When the current durability points reach zero, the vehicle is destroyed and the driver dies. Many vehicle parts, items in the trunk and the driver itself are likely to be completely destroyed when this happens.</source>
-        <target state="needs-translation">Показує поточну та максимальну міцність транспортного засобу. Коли поточна міцність досягає нуля, транспортний засіб знищується, а водій гине. Багато частин транспортного засобу, предмети в багажнику та сам водій, ймовірно, будуть повністю знищені, коли це станеться.</target>
+        <target state="translated">Показує поточну та максимальну міцність транспортного засобу. Коли поточна міцність досягає нуля, транспортний засіб знищується, а водій гине. Багато частин транспортного засобу, предмети в багажнику та сам водій, ймовірно, будуть повністю знищені, коли це станеться.</target>
       </segment>
     </unit>
     <unit id="::Energy" name="::Energy">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Shows current stored energy and the maximum battery capacity. When the vehicle runs out of energy it will engage the auxiliary power and move extremely slowly.</source>
-        <target state="needs-translation">Показує поточний запас енергії та максимальну ємність акумулятора. Коли транспортний засіб розрядиться, він увімкне допоміжне живлення та рухатиметься надзвичайно повільно.</target>
+        <target state="translated">Показує поточний запас енергії та максимальну ємність акумулятора. Коли транспортний засіб розрядиться, він увімкне допоміжне живлення та рухатиметься надзвичайно повільно.</target>
       </segment>
     </unit>
     <unit id="::EnginePower" name="::EnginePower">
@@ -30,9 +30,7 @@
         <source>Engine power determines how fast the vehicle will move under certain weight. The number represents the maximum total weight (including the vehicle parts, items in the trunk and the driver) the vehicle can take on and move at the nominal speed for the vehicle type.
 
 Having excess or deficit of power will modify the vehicle speed accordingly. </source>
-        <target state="needs-translation">Потужність двигуна визначає, як швидко транспортний засіб рухатиметься під певною вагою. Число представляє максимальну загальну вагу (включаючи частини транспортного засобу, предмети в багажнику та водія), яку транспортний засіб може взяти на себе та рухатися з номінальною швидкістю для даного типу транспортного засобу.
-
-Надлишок або дефіцит потужності відповідно змінюватиме швидкість транспортного засобу.</target>
+        <target state="translated">Потужність двигуна визначає, як швидко транспортний засіб рухатиметься з певною вагою. Число представляє максимальну загальну вагу (включаючи частини транспортного засобу, предмети в багажнику та водія), яку транспортний засіб може транспортувати з номінальною швидкістю для даного типу транспортного засобу. Надлишок або дефіцит потужності відповідно змінюватиме швидкість транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::Consumption" name="::Consumption">
@@ -42,7 +40,7 @@ Having excess or deficit of power will modify the vehicle speed accordingly. </s
       </mda:metadata>
       <segment state="translated">
         <source>Some engines are more efficient than others. The number represents the effective engine power when it comes to determining the energy consumption.</source>
-        <target state="needs-translation">Деякі двигуни більш ефективні за інші. Число представляє ефективну потужність двигуна при визначенні споживання енергії.</target>
+        <target state="translated">Деякі двигуни більш ефективні за інші. Число представляє ефективну потужність двигуна при визначенні споживання енергії.</target>
       </segment>
     </unit>
     <unit id="::EnergyPerTile" name="::EnergyPerTile">
@@ -52,7 +50,7 @@ Having excess or deficit of power will modify the vehicle speed accordingly. </s
       </mda:metadata>
       <segment state="translated">
         <source>The amount of energy the vehicle consumes when it moves the distance of one kilometer. Some engines are more efficient than others.</source>
-        <target state="needs-translation">Кількість енергії, яку транспортний засіб споживає при переміщенні на відстань одного кілометра. Деякі двигуни більш ефективні за інші.</target>
+        <target state="translated">Кількість енергії, яку транспортний засіб споживає при переміщенні на відстань одного кілометра. Деякі двигуни більш ефективні за інші.</target>
       </segment>
     </unit>
     <unit id="::Weight" name="::Weight">
@@ -62,7 +60,7 @@ Having excess or deficit of power will modify the vehicle speed accordingly. </s
       </mda:metadata>
       <segment state="translated">
         <source>Vehicle weight is the total weight of the vehicle chasis plus the vehicle parts installed. Total weight is vehicle weight plus the weight of items stored in the trunk, plus the weight of the driver if they are currently mounting the vehicle.</source>
-        <target state="needs-translation">Вага транспортного засобу - це загальна вага шасі транспортного засобу плюс встановлені частини транспортного засобу. Загальна вага - це вага транспортного засобу плюс вага предметів, що зберігаються в багажнику, плюс вага водія, якщо він зараз керує транспортним засобом.</target>
+        <target state="translated">Вага транспортного засобу - це загальна вага шасі транспортного засобу плюс встановлені частини транспортного засобу. Загальна вага - це вага транспортного засобу плюс вага предметів, що зберігаються в багажнику, плюс вага водія, якщо він зараз керує транспортним засобом.</target>
       </segment>
     </unit>
     <unit id="::BaseSpeed" name="::BaseSpeed">
@@ -72,7 +70,7 @@ Having excess or deficit of power will modify the vehicle speed accordingly. </s
       </mda:metadata>
       <segment state="translated">
         <source>This is the base speed for the vehicle type (e.g. standing jetski). This speed is further modified by engine power, loaded weight and the chassis aero/hydo-dynamicity.</source>
-        <target state="needs-translation">Це базова швидкість для типу транспортного засобу (наприклад, гідроцикл, що стоїть). Ця швидкість додатково змінюється потужністю двигуна, завантаженою вагою та аеро/гідродинамікою шасі.</target>
+        <target state="translated">Це базова швидкість для типу транспортного засобу (наприклад, гідроцикл). Ця швидкість додатково змінюється потужністю двигуна, завантаженою вагою та аеро/гідродинамікою шасі.</target>
       </segment>
     </unit>
     <unit id="::SpeedModifier" name="::SpeedModifier">
@@ -84,7 +82,7 @@ Having excess or deficit of power will modify the vehicle speed accordingly. </s
         <source>This is the speed modifier of the current vehicle chassis. Some models are more aero/hydro-dynamic than others.
 
 Positive speed modifiers are only applied if the vehicle is not out of energy and is not carrying more weight than it can normaly support with its engine.</source>
-        <target state="needs-translation">Це модифікатор швидкості поточного шасі транспортного засобу. Деякі моделі більш аеро/гідродинамічні за інші.
+        <target state="translated">Це модифікатор швидкості поточного шасі транспортного засобу. Деякі моделі більш аеро/гідродинамічні за інші.
 
 Позитивні модифікатори швидкості застосовуються лише в тому випадку, якщо транспортний засіб не розряджений і не перевозить більше ваги, ніж він може нормально підтримувати своїм двигуном.</target>
       </segment>
@@ -96,7 +94,7 @@ Positive speed modifiers are only applied if the vehicle is not out of energy an
       </mda:metadata>
       <segment state="translated">
         <source>This is the current theoretical unmanned vehicle speed and evasion modifier (which is dependent of the vehicle's speed and maneuverability).</source>
-        <target state="needs-translation">Це поточна теоретична швидкість транспортного засобу без пілота та модифікатор ухилення (який залежить від швидкості та маневреності транспортного засобу).</target>
+        <target state="translated">Це поточна теоретична швидкість транспортного засобу без пілота та модифікатор ухилення (який залежить від швидкості та маневреності транспортного засобу).</target>
       </segment>
     </unit>
     <unit id="::MannedSpeed" name="::MannedSpeed">
@@ -106,7 +104,7 @@ Positive speed modifiers are only applied if the vehicle is not out of energy an
       </mda:metadata>
       <segment state="translated">
         <source>This is the current actual vehicle speed and evasion modifier (which is dependent of the vehicle's speed and maneuverability).</source>
-        <target state="needs-translation">Це поточна фактична швидкість транспортного засобу та модифікатор ухилення (який залежить від швидкості та маневреності транспортного засобу).</target>
+        <target state="translated">Це поточна фактична швидкість транспортного засобу та модифікатор ухилення (який залежить від швидкості та маневреності транспортного засобу).</target>
       </segment>
     </unit>
     <unit id="::Stability" name="::Stability">
@@ -116,7 +114,7 @@ Positive speed modifiers are only applied if the vehicle is not out of energy an
       </mda:metadata>
       <segment state="translated">
         <source>Stability indicates how stable and easy to do combat from the vehicle is, influencing both ranged and melee (though to a lesser degree), as well as throwing, precision. Precision of melee attacks is further modified by the vehicle's maneuverability, and precision of short range melee weapons (knives and fist weapons), as well as unarmed attacks, is further reduced by additional 10%.</source>
-        <target state="needs-translation">Стабільність вказує на те, наскільки стабільний і простий у веденні бою транспортний засіб, впливаючи як на вогневу підтримку, так і на ближній бій (хоча й у меншій мірі), а також на метання та точність. Точність атак ближнього бою додатково змінюється маневреністю транспортного засобу, а точність зброї ближнього бою малої дальності (ножі та кулаки), а також голих рук додатково зменшується на додаткові 10%.</target>
+        <target state="translated">Стабільність вказує на те, наскільки стабільний і простий у веденні бою транспортний засіб, впливаючи точність як дальнього, так і (хоч і меншою мірою) ближнього бою, а також на точність метання . Точність атак ближнього бою додатково змінюється маневреністю транспортного засобу, а точність зброї ближнього бою малої дальності (ножі та кулачна зброя), а також атак голіруч зменшується додатково на 10%.</target>
       </segment>
     </unit>
     <unit id="::MeleeDamageBonus" name="::MeleeDamageBonus">
@@ -126,7 +124,7 @@ Positive speed modifiers are only applied if the vehicle is not out of energy an
       </mda:metadata>
       <segment state="translated">
         <source>Bonus to melee damage when attacking from this vehicle due to vehicle speed.</source>
-        <target state="needs-translation">Бонус до шкоди ближнього бою при атаці з цього транспортного засобу завдяки швидкості транспортного засобу.</target>
+        <target state="translated">Бонус до шкоди ближнього бою при атаці з цього транспортного засобу завдяки швидкості транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::Cover" name="::Cover">
@@ -138,9 +136,7 @@ Positive speed modifiers are only applied if the vehicle is not out of energy an
         <source>The chance that the incoming attack will hit the vehicle instead of the driver.
 
 In case of an area of effect attack it represents the amount of damage that the vehicle will bear in driver's stead.</source>
-        <target state="needs-translation">Імовірність того, що вхідна атака вразить транспортний засіб, а не водія.
-
-У випадку атаки по області це представляє кількість шкоди, яку транспортний засіб понесе замість водія.</target>
+        <target state="translated">Імовірність того, що вхідна атака вразить транспортний засіб, а не водія. У випадку атаки по області це відображає кількість шкоди, яку транспортний засіб понесе замість водія.</target>
       </segment>
     </unit>
     <unit id="::ResistanceDescription" name="::ResistanceDescription">
@@ -150,7 +146,7 @@ In case of an area of effect attack it represents the amount of damage that the 
       </mda:metadata>
       <segment state="translated">
         <source>The armor either absorbs the amount indicated by the percentage OR the flat number, whichever will result in more damage being absorbed. The unabsorbed amount reduces the vehicles durability.</source>
-        <target state="needs-translation">Броня поглинає кількість, вказану у відсотках АБО фіксоване число, залежно від того, що призведе до поглинання більшої кількості шкоди. Непоглинута кількість зменшує міцність транспортного засобу.</target>
+        <target state="translated">Броня поглинає кількість, вказану у відсотках АБО фіксоване число, залежно від того, що призведе до поглинання більшої кількості шкоди. Непоглинута шкода зменшує міцність транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::ResistanceMechanical" name="::ResistanceMechanical">
@@ -160,7 +156,7 @@ In case of an area of effect attack it represents the amount of damage that the 
       </mda:metadata>
       <segment state="translated">
         <source>The amount of mechanical damage the vehicle's armor can absorb.</source>
-        <target state="needs-translation">Кількість механічної шкоди, яку може поглинути броня транспортного засобу.</target>
+        <target state="translated">Кількість механічної шкоди, яку може поглинути броня транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::ResistanceHeat" name="::ResistanceHeat">
@@ -170,7 +166,7 @@ In case of an area of effect attack it represents the amount of damage that the 
       </mda:metadata>
       <segment state="translated">
         <source>The amount of heat damage the vehicle's armor can absorb.</source>
-        <target state="needs-translation">Кількість термічної шкоди, яку може поглинути броня транспортного засобу.</target>
+        <target state="translated">Кількість теплової шкоди, яку може поглинути броня транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::ResistanceCold" name="::ResistanceCold">
@@ -180,7 +176,7 @@ In case of an area of effect attack it represents the amount of damage that the 
       </mda:metadata>
       <segment state="translated">
         <source>The amount of cold damage the vehicle's armor can absorb.</source>
-        <target state="needs-translation">Кількість холодної шкоди, яку може поглинути броня транспортного засобу.</target>
+        <target state="translated">Кількість крижаної шкоди, яку може поглинути броня транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::ResistanceElectricity" name="::ResistanceElectricity">
@@ -190,7 +186,7 @@ In case of an area of effect attack it represents the amount of damage that the 
       </mda:metadata>
       <segment state="translated">
         <source>The amount of electrical damage the vehicle's armor can absorb.</source>
-        <target state="needs-translation">Кількість електричної шкоди, яку може поглинути броня транспортного засобу.</target>
+        <target state="translated">Кількість електричної шкоди, яку може поглинути броня транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::ResistanceAcid" name="::ResistanceAcid">
@@ -200,7 +196,7 @@ In case of an area of effect attack it represents the amount of damage that the 
       </mda:metadata>
       <segment state="translated">
         <source>The amount of acid damage the vehicle's armor can absorb.</source>
-        <target state="needs-translation">Кількість кислотної шкоди, яку може поглинути броня транспортного засобу.</target>
+        <target state="translated">Кількість кислотної шкоди, яку може поглинути броня транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::ResistanceEnergy" name="::ResistanceEnergy">
@@ -210,7 +206,7 @@ In case of an area of effect attack it represents the amount of damage that the 
       </mda:metadata>
       <segment state="translated">
         <source>The amount of energy damage the vehicle's armor can absorb.</source>
-        <target state="needs-translation">Кількість енергетичної шкоди, яку може поглинути броня транспортного засобу.</target>
+        <target state="translated">Кількість енергетичної шкоди, яку може поглинути броня транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::ResistanceBio" name="::ResistanceBio">
@@ -220,7 +216,7 @@ In case of an area of effect attack it represents the amount of damage that the 
       </mda:metadata>
       <segment state="translated">
         <source>The amount of bio damage the vehicle's armor can absorb.</source>
-        <target state="needs-translation">Кількість біологічної шкоди, яку може поглинути броня транспортного засобу.</target>
+        <target state="translated">Кількість біологічної шкоди, яку може поглинути броня транспортного засобу.</target>
       </segment>
     </unit>
   </file>
