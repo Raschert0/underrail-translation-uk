@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="knowledge\traps.txt" original="knowledge\traps.txt">
     <unit id="::FragMine" name="::FragMine">
@@ -8,7 +8,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a fragmentation mine on targeted spot. When triggered everyone caught in the blast suffer {0} damage as well as damage from {1}-{2} shrapnel, each shrapnel dealing {3} damage. Targets closer to detonation have greater chance of receiving shrapnel.</source>
-        <target state="needs-translation">Розмістіть уламкову міну в цільовій точці. При спрацюванні всі, хто потрапить у зону вибуху, отримають {0} одиниць шкоди, а також ушкодження від {1}-{2} осколків, кожен з яких завдає {3} одиниць шкоди. Цілі, ближчі до місця детонації, мають більший шанс отримати осколки.</target>
+        <target state="translated">Розмістити уламкову міну в цільовій точці. При спрацюванні всі, хто потрапить у зону вибуху, отримають {0} одиниць шкоди, а також ушкодження від {1}-{2} уламків, кожен з яких завдає {3} шкоди. Цілі, ближчі до місця детонації, мають більший шанс ураження.</target>
       </segment>
     </unit>
     <unit id="::HeMine" name="::HeMine">
@@ -18,7 +18,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a high explosive mine on targeted spot. When triggered everyone caught in the blast suffer {0} damage and {1} damage. Ignores {2}% of damage resistance and threshold.</source>
-        <target state="needs-translation">Розмістіть міну з вибуховою речовиною у вибраній точці. При спрацюванні всі, хто потрапить у зону ураження, отримають {0} та {1} одиниць шкоди. Ігнорує {2}% від опору до шкоди та порогу.</target>
+        <target state="translated">Розмістити фугасну міну у вибраній точці. При спрацюванні всі, хто потрапить у зону ураження, отримають {0} шкоди та {1} шкоди. Ігнорує {2}% опору та порогу ушкоджень.</target>
       </segment>
     </unit>
     <unit id="::EmpMine" name="::EmpMine">
@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place an EMP mine on targeted spot. When triggered all automatons caught in the blast take {0} damage (this damage bypasses resistances and shields) and are stunned for {1} turns. All other targets have their electronic equipment immediately drained of all energy and receive electrical damage equal to {2}% of energy drained.</source>
-        <target state="needs-translation">Розмістіть ЕМП-міну у вибраній точці. При спрацюванні всі автомати, що потрапили в зону ураження, отримають {0} одиниць шкоди (ця шкода ігнорує опір та щити) та будуть приголомшені на {1} ходів. Усі інші цілі матимуть своє електронне обладнання негайно розряджене, а також отримають електричну шкоду, що дорівнює {2}% від розрядженої енергії.</target>
+        <target state="translated">Розмістити ЕМІ-міну у вибраній точці. При спрацюванні всі автоматони, що потрапили в зону ураження, отримають {0} шкоди (ця шкода ігнорує опір та щити) та будуть приголомшені на {1} ходів. У всіх інших цілей негайно розрядиться електронне обладнання, а також вони отримають електричну шкоду, що дорівнює {2}% від розрядженої енергії.</target>
       </segment>
     </unit>
     <unit id="::PlasmaMine" name="::PlasmaMine">
@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a plasma mine on targeted spot. When triggered everyone caught in the blast take {0} and {1} damage.</source>
-        <target state="needs-translation">Розмістіть плазмову міну у вибраній точці. При спрацюванні всі, хто потрапить у зону ураження, отримають {0} та {1} одиниць шкоди.</target>
+        <target state="translated">Розмістити плазмову міну у вибраній точці. При спрацюванні всі, хто потрапить у зону ураження, отримають {0} шкоди та {1} шкоди.</target>
       </segment>
     </unit>
     <unit id="::AcidBlob" name="::AcidBlob">
@@ -48,7 +48,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a special chemical trap that will entangle the target in acidic sludge when triggered, doing {0} damage over {1} and preventing them from moving.</source>
-        <target state="needs-translation">Розмістіть спеціальну хімічну пастку, яка при спрацюванні зв'яже ціль у кислому багнюці, завдаючи {0} одиниць шкоди протягом {1} та позбавляючи її можливості рухатися.</target>
+        <target state="translated">Розмістити спеціальну хімічну пастку, яка при спрацюванні заплутає ціль у кислотному слизі, завдаючи {0} шкоди протягом {1} та позбавляючи її можливості рухатися.</target>
       </segment>
     </unit>
     <unit id="::CorrosiveAcidBlob" name="::CorrosiveAcidBlob">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a special chemical trap that will entangle the target in acidic sludge when triggered, doing {0} damage over {1} and preventing them from moving. Each turn the target is entangled, it will also apply {2} stacks of Corroded debuff which reduces all damage resistances and thresholds by {3}% per stack for {4}. Stacks up to {5} times.</source>
-        <target state="needs-translation">Розмістіть спеціальну хімічну пастку, яка при спрацюванні заплутає ціль у кислому слизі, завдаючи {0} урону протягом {1} та позбавляючи її можливості рухатися. З кожним ходом, поки ціль заплутана, буде застосовуватися {2} стаків дебафу "З'їдений корозією", який зменшує весь опір до урону та порогові значення на {3}% за кожен стак протягом {4}. Стаки накопичуються до {5} разів.</target>
+        <target state="translated">Розмістити спеціальну хімічну пастку, яка при спрацюванні заплутає ціль у кислотному слизі, завдаючи {0} шкоди протягом {1} та позбавляючи її можливості рухатися. З кожним ходом, доки ціль заплутана, буде застосовуватися {2} стеків дебафу Корозія, який зменшує весь опір та поріг ушкоджень на {3}% за кожен стек протягом {4}. Накопичується до {5} разів.</target>
       </segment>
     </unit>
     <unit id="::RustingAcidBlob" name="::RustingAcidBlob">
@@ -68,7 +68,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a special chemical trap that will entangle the target in acidic sludge when triggered, doing {0} damage over {1} and preventing them from moving. Damage is increased by {2}% damage against machines. Each turn the target is entangled, it will also apply {3} stacks of Rusting debuff which reduces durability of all mechanical items in target's posession by {4} per stack each turn for {5}. Stacks up to {6} times.</source>
-        <target state="needs-translation">Розмістіть спеціальну хімічну пастку, яка при спрацюванні зв'яже ціль у кислому багнюці, завдаючи {0} одиниць шкоди протягом {1} та позбавляючи її можливості рухатися. Шкода збільшується на {2}% проти машин. З кожним ходом, поки ціль зв'язана, на неї також буде накладено {3} стаків ефекту "Іржавіння", який зменшує міцність усіх механічних предметів у володінні цілі на {4} за кожен стак щоразу протягом {5}. Накопичується до {6} разів.</target>
+        <target state="translated">Розмістити спеціальну хімічну пастку, яка при спрацюванні заплутає ціль у кислотному слизі, завдаючи {0} шкоди протягом {1} та позбавляючи її можливості рухатися. Шкода збільшується на {2}% проти машин. З кожним ходом, доки ціль заплутана, на неї також буде накладено {3} стеків ефекту Іржавіння, який зменшує міцність усіх механічних предметів у володінні цілі на {4} за кожен стек щоходу протягом {5}. Накопичується до {6} разів.</target>
       </segment>
     </unit>
     <unit id="::CryoliquidBlob" name="::CryoliquidBlob">
@@ -78,7 +78,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a special chemical trap that deals {0} damage when triggered and freezes the target for up to {1}.</source>
-        <target state="needs-translation">Розмістіть спеціальну хімічну пастку, яка завдає {0} одиниць шкоди при спрацюванні та заморожує ціль на термін до {1}.</target>
+        <target state="translated">Розмістити спеціальну хімічну пастку, яка завдає {0} шкоди при спрацюванні та заморожує ціль на термін до {1}.</target>
       </segment>
     </unit>
     <unit id="::IncendiaryBlob" name="::IncendiaryBlob">
@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a special chemical trap that sets the target on fire, dealing up to {0} damage over up to {1}.</source>
-        <target state="needs-translation">Розмістіть спеціальну хімічну пастку, яка підпалює ціль, завдаючи до {0} одиниць шкоди протягом до {1}.</target>
+        <target state="translated">Розмістити спеціальну хімічну пастку, яка підпалює ціль, завдаючи до {0} шкоди протягом {1}.</target>
       </segment>
     </unit>
     <unit id="::BearTrap" name="::BearTrap">
@@ -98,7 +98,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.</source>
-        <target state="needs-translation">Розмістіть механічний ведмежий капкан, який миттєво завдає {0} одиниць шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та приковує жертву на місці на {3}.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}.</target>
       </segment>
     </unit>
     <unit id="::HopperTrap" name="::HopperTrap">
@@ -108,7 +108,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Place a mechanical trap that deals no damage, but can trap small low strength animals for up to {0}.</source>
-        <target state="needs-translation">Розмістіть механічну пастку, яка не завдає шкоди, але може зловити дрібних тварин з низькою силою на термін до {0}.</target>
+        <target state="translated">Розмістити механічну пастку, яка не завдає шкоди, але може зловити дрібних тварин з низькою силою на термін до {0}.</target>
       </segment>
     </unit>
     <unit id="::PoisonedBearTrap" name="::PoisonedBearTrap">
@@ -119,8 +119,7 @@
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with {5} that deals {6} damage per stack every turn for up to {7} turns.</source>
-        <target state="needs-translation">Розмістіть механічну ведмежу пастку, яка завдає {0} одиниць урону миттєво, накладає кровотечу, що завдає додаткові {1}% від початкового урону протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також заражає ціль {5}, яка завдає {6} одиниць урону за кожен стак щоразу протягом до {7} ходів.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль {5}, що завдає {6} шкоди за кожен стек щоходу і діє до {7} ходів.</target>
       </segment>
     </unit>
     <unit id="::PoisonedBearTrapStacked" name="::PoisonedBearTrapStacked">
@@ -131,8 +130,7 @@ When triggered this trap also afflicts the target with {5} that deals {6} damage
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with {4} stacks of {5} that deals {6} damage per stack every turn for up to {7} turns.</source>
-        <target state="needs-translation">Розмістіть механічний ведмежий капкан, який миттєво завдає {0} одиниць шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також вражає ціль {4} стаками {5}, що завдає {6} одиниць шкоди за кожен стек щоразу протягом {7} ходів.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль {4} стеками {5}, що завдає {6} шкоди за кожен стек щоходу і діє до {7} ходів.</target>
       </segment>
     </unit>
     <unit id="::CaveEarPoisonBearTrap" name="::CaveEarPoisonBearTrap">
@@ -143,8 +141,7 @@ When triggered this trap also afflicts the target with {4} stacks of {5} that de
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with cave ear poison that increases all biological damage taken by {4}% and reduces perception by {5}. Lasts up to {6}.</source>
-        <target state="needs-translation">Розмістіть механічну ведмежу пастку, яка завдає {0} одиниць урону миттєво, накладає кровотечу, що завдає додаткові {1}% від початкового урону протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також заражає ціль отрутою печерного вуха, яка збільшує весь біологічний урон, що отримується, на {4}% та зменшує сприйняття на {5}. Тривалість до {6}.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль отрутою печерного вуха, яка збільшує всю отриману біологічну шкоду на {4}% та зменшує сприйняття на {5}. Тривалість до {6}.</target>
       </segment>
     </unit>
     <unit id="::CrawlerPoisonBearTrap" name="::CrawlerPoisonBearTrap">
@@ -155,8 +152,7 @@ When triggered this trap also afflicts the target with cave ear poison that incr
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with crawler poison that deals {4} damage per turn each turn for {5}. If the poison is not removed before it expires it will stun the victim for {6}.</source>
-        <target state="needs-translation">Розмістіть механічну ведмежу пастку, яка завдає {0} одиниць урону миттєво, накладає кровотечу, що завдає додаткові {1}% від початкового урону протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також заражає ціль отрутою повзунів, яка завдає {4} одиниць урону за кожен хід протягом {5}. Якщо отруту не видалити до закінчення терміну її дії, вона приголомшить жертву на {6}.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль отрутою повзуна, яка завдає {4} шкоду за кожен хід протягом {5}. Якщо отруту не видалити до закінчення терміну її дії, вона приголомшить жертву на {6}.</target>
       </segment>
     </unit>
     <unit id="::BlackDragonPoisonBearTrap" name="::BlackDragonPoisonBearTrap">
@@ -167,8 +163,7 @@ When triggered this trap also afflicts the target with crawler poison that deals
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with black dragon poison poison that causes psionic inhibition, which prevents the victim from invoking psi abilities and regenerating psi points. Lasts {4}.</source>
-        <target state="needs-translation">Розмістіть механічну ведмежу пастку, яка завдає {0} одиниць шкоди миттєво, накладає кровотечу, яка завдає додаткові {1}% від початкової шкоди протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також заражає ціль отрутою чорного дракона, яка викликає психічну інгібіцію, що перешкоджає жертві використовувати психічні здібності та відновлювати психічні бали. Триває {4}.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль отрутою чорного дракона, яка викликає психічну пригніченість, що перешкоджає жертві використовувати псі здібності та відновлювати очки псі. Триває {4}.</target>
       </segment>
     </unit>
     <unit id="::SpiritPoisonBearTrap" name="::SpiritPoisonBearTrap">
@@ -179,8 +174,7 @@ When triggered this trap also afflicts the target with black dragon poison poiso
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with spirit poison that deals {4} damage per turn each turn for {5} and reduces resolve by {6}%. If the poison is not removed before it expires it will summon a psionic doppelganger of the victim if it's humanoid.</source>
-        <target state="needs-translation">Розмістіть механічну ведмежу пастку, яка завдає {0} одиниць урону миттєво, накладає кровотечу, що завдає додаткові {1}% від початкового урону протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також заражає ціль духівною отрутою, яка завдає {4} одиниць урону за кожен хід протягом {5} та зменшує рішучість на {6}%. Якщо отруту не видалити до закінчення терміну її дії, вона призове псионічного двійника жертви, якщо вона гуманоїдна.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль отрутою духів, яка завдає {4} шкоди за кожен хід протягом {5} та зменшує рішучість на {6}%. Якщо отруту не видалити до закінчення терміну її дії, вона призове психічного двійника жертви, якщо вона гуманоїдна.</target>
       </segment>
     </unit>
     <unit id="::BlindingPoisonBearTrap" name="::BlindingPoisonBearTrap">
@@ -191,8 +185,7 @@ When triggered this trap also afflicts the target with spirit poison that deals 
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with {4} stacks of blinding poison that deals {5} damage per stack every turn for up to {6} and reduces perception by {7}. Stacks {8} times.</source>
-        <target state="needs-translation">Розмістіть механічний ведмежий капкан, який миттєво завдає {0} одиниць шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також вражає ціль {4} стаками засліплюючої отрути, що завдає {5} одиниць шкоди за кожен стек щоразу протягом {6} та зменшує сприйняття на {7}. Накопичує {8} разів.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль {4} стеками осліплюючої отрути, що завдає {5} одиниць шкоди за кожен стек щоходу протягом {6} та зменшує сприйняття на {7}. Накопичується {8} разів.</target>
       </segment>
     </unit>
     <unit id="::LeperPoisonBearTrap" name="::LeperPoisonBearTrap">
@@ -203,8 +196,7 @@ When triggered this trap also afflicts the target with {4} stacks of blinding po
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with {4} stacks of leper poison that deals {5} damage per stack every turn for up to {6} and increases all mechanical damage taken by {7}%. Stacks {8} times.</source>
-        <target state="needs-translation">Розмістіть механічний ведмежий капкан, який миттєво завдає {0} одиниць шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також вражає ціль {4} стаками отрути прокаженого, що завдає {5} одиниць шкоди за кожен стек щоразу протягом {6} та збільшує весь механічний урон, що отримується, на {7}%. Накопичує {8} разів.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль {4} стеками отрути прокаженого, що завдає {5} шкоди за кожен стек щоходу і діє до {6} та збільшує всю отриману механічну шкоду на {7}%. Накопичується {8} разів.</target>
       </segment>
     </unit>
     <unit id="::HeartbreakPoisonBearTrap" name="::HeartbreakPoisonBearTrap">
@@ -215,8 +207,7 @@ When triggered this trap also afflicts the target with {4} stacks of leper poiso
       <segment state="translated">
         <source>Place a mechanical bear trap that deals {0} damage instantly, applies a bleeding wound that deals additional {1}% of the initial damage over {2} and roots the victim in place for {3}.
 When triggered this trap also afflicts the target with {4} stacks of heartbreak poison that deals {5} damage per stack every turn for up to {6}. Stacks {7} times. If this poison is allowed the expire naturally it will then deal a great amount of damage which increases ever more rapidly with each stack.</source>
-        <target state="needs-translation">Розмістіть механічну ведмежу пастку, яка завдає {0} одиниць урону миттєво, накладає кровотечу, що завдає додаткові {1}% від початкового урону протягом {2} та приковує жертву на місці на {3}.
-При спрацюванні ця пастка також заражає ціль {4} стаками отрути розбитого серця, яка завдає {5} одиниць урону за кожен стак щоразу протягом до {6}. Стаки накопичуються до {7} разів. Якщо цю отруту дозволити закінчитися природним шляхом, вона завдасть величезної кількості урону, яка з кожним стаком буде збільшуватися все швидше.</target>
+        <target state="translated">Розмістити механічний ведмежий капкан, який миттєво завдає {0} шкоди, накладає кровотечу, що завдає додатково {1}% від початкової шкоди протягом {2} та знерухомлює жертву на місці на {3}. При спрацюванні ця пастка також вражає ціль {4} стеками отрути розбитого серця, яка завдає {5} шкоди за кожен стек щоходу і діє до {6}. Накопичується до {7} разів. Якщо дія цієї отрути спливе природнім чином, вона завдасть величезної кількості шкоди, яка з кожним стеком буде збільшуватися все швидше.</target>
       </segment>
     </unit>
   </file>
