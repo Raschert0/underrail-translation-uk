@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Everyone caught in the blast suffers {0} damage and has {1}% chance to catch fire, suffering additional {2}% of the original damage over {3}. The fuel from the cocktail sets the ground on fire. Creatures standing in the fire suffer heat damage equal to {4}%-{5}% of their maximal health (up to maximum of {6}-{7}), plus additional {8}-{9}, depending on the intensity of fire at that spot, while creatures moving through the fire suffer one third of that damage per tile.</source>
-        <target state="translated">Усі, кого зачепив вибух, отримують {0} шкоди та {1}% шанс загорітися, отримуючи додаткові {2}% від початкової шкоди протягом {3}. Паливо з коктейлю підпалює землю. Істоти, що стоять у вогні, отримують теплову шкоду, рівну {4}%-{5}% від їхнього максимального здоров’я (до максимального значення {6}-{7}), а істоти, що проходять через вогонь, отримують третину цієї шкоди за клітинку.</target>
+        <target state="translated">Усі, кого зачепив вибух, отримують {0} шкоди та {1}% шанс загорітися, отримуючи додаткові {2}% від початкової шкоди протягом {3}. Паливо з коктейлю підпалює землю. Істоти, що стоять у вогні, отримують теплову шкоду, рівну {4}%-{5}% від їхнього максимального здоров’я (до максимального значення {6}-{7}, плюс додаткові {8}-{9}), а істоти, що проходять через вогонь, отримують третину цієї шкоди за клітинку.</target>
       </segment>
     </unit>
     <unit id="::ToxicGas" name="::ToxicGas">
@@ -98,7 +98,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw a gas grenade to the ground where it remains for {0}, releasing toxic gas that deals {1} damage per turn (depending on the gas concentration) to anyone standing in it and one third that damage to those passing through it. Living creatures exposed to the toxic gas become contaminated, which causes them to take as much as {2}% more damage from all sources.</source>
-        <target state="needs-translation">Киньте газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний газ, який завдає {1} одиниць шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Істоти, що піддаються впливу токсичного газу, стають забрудненими, що призводить до отримання ними до {2}% більше шкоди від усіх джерел.</target>
+        <target state="translated">Кинути газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний газ, який завдає {1} шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Істоти, що піддаються впливу токсичного газу, стають забрудненими, що призводить до отримання ними до {2}% більше шкоди з усіх джерел.</target>
       </segment>
     </unit>
     <unit id="::PsimorphicBiocide" name="::PsimorphicBiocide">
@@ -108,7 +108,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw a gas grenade to the ground where it remains for {0}, releasing toxic gas that deals {1} damage per turn (depending on the gas concentration) to anyone standing in it and one third that damage to those passing through it. The gas also destroys any inert psimorphic biomass.</source>
-        <target state="needs-translation">Киньте газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний газ, який завдає {1} одиниць шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Газ також знищує будь-яку інертну псіморфну біомасу.</target>
+        <target state="translated">Кинути газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний газ, який завдає {1} шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Газ також знищує будь-яку інертну псіморфну біомасу.</target>
       </segment>
     </unit>
     <unit id="::Cryogas" name="::Cryogas">
@@ -120,9 +120,7 @@
         <source>Throw a gas grenade to the ground where it remains for {0}, releasing cryogenic gas that deals {1} damage per turn (depending on the gas concentration) to anyone standing in it, and applies Chill debuff which decreases target's movement points by {2} for {3}. It stacks up to {4} times.
 
 It also causes hypothermia which reduces target's constitution by {5}. This effect stacks up to {6} times and lasts up to {7}. After hypothermia reaches maximum stacks, the target may become frozen for {8}.</source>
-        <target state="needs-translation">Киньте газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи кріогенний газ, який завдає {1} одиниць шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і накладає дебафф "Охолодження", який зменшує кількість рухових пунктів цілі на {2} протягом {3}. Він накопичується до {4} разів.
-
-Він також викликає переохолодження, яке зменшує конституцію цілі на {5}. Цей ефект накопичується до {6} разів і триває до {7}. Після досягнення максимальної кількості накопичень переохолодження, ціль може замерзнути на {8}.</target>
+        <target state="translated">Кинути газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи кріогенний газ, який завдає {1} шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і накладає дебаф "Охолодження", який зменшує кількість очок руху цілі на {2} протягом {3}. Він накопичується до {4} разів. Він також викликає переохолодження, яке зменшує статуру цілі на {5}. Цей ефект накопичується до {6} разів і триває до {7}. Після досягнення максимальної кількості накопичень переохолодження, ціль може стати замороженою на {8}.</target>
       </segment>
     </unit>
     <unit id="::HerbicideGas" name="::HerbicideGas">
@@ -132,7 +130,7 @@ It also causes hypothermia which reduces target's constitution by {5}. This effe
       </mda:metadata>
       <segment state="translated">
         <source>Throw a gas grenade to the ground where it remains for {0}, releasing toxic herbicidal gas that deals {1} damage per turn (depending on the gas concentration) to anyone standing in it and one third that damage to those passing through it. Does {2}% damage to insectoids and bypasses their poison resistance.</source>
-        <target state="needs-translation">Киньте газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний гербіцидний газ, який завдає {1} одиниць шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Завдає {2}% шкоди комахоподібним і обходить їх стійкість до отрути.</target>
+        <target state="translated">Кинути газову гранату на землю, де вона залишатиметься протягом {0}, вивільняючи токсичний гербіцидний газ, який завдає {1} шкоди за хід (залежно від концентрації газу) тим, хто стоїть у ньому, і третину цієї шкоди тим, хто проходить крізь нього. Завдає {2}% шкоди комахоподібним і обходить їх стійкість до отрути.</target>
       </segment>
     </unit>
     <unit id="::Chemhaze" name="::Chemhaze">
@@ -142,7 +140,7 @@ It also causes hypothermia which reduces target's constitution by {5}. This effe
       </mda:metadata>
       <segment state="translated">
         <source>Throw a grenade that instantly spreads the "chemhaze" gas which reduces chance to hit with ranged weapons by up to {0}% and reduces chance to hit with melee weapons and unarmed attack by up to {1}%.</source>
-        <target state="needs-translation">Киньте гранату, яка миттєво поширює газ "хемхейз", який зменшує шанс влучання зброєю дальнього бою до {0}% і зменшує шанс влучання зброєю ближнього бою та голими руками до {1}%.</target>
+        <target state="translated">Кинути гранату, яка миттєво поширює газ "хім-імла", який зменшує шанс влучання зброєю дальнього бою на значення до {0}% і зменшує шанс влучання зброєю ближнього бою та голими руками на значення до {1}%.</target>
       </segment>
     </unit>
   </file>
