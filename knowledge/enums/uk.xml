@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" version="2.0" srcLang="en" trgLang="uk">
   <file id="knowledge\enums.txt" original="knowledge\enums.txt">
     <unit id="::MainMenuTheme.Default" name="::MainMenuTheme.Default">
@@ -1257,8 +1257,8 @@
         <mda:meta type="pos_id">126</mda:meta>
       </mda:metadata>
       <segment state="translated">
-        <source>Easy</source>
-        <target state="translated">Легка</target>
+        <source>Beginner</source>
+        <target state="needs-translation">Легка</target>
       </segment>
     </unit>
     <unit id="::GameDifficulty.Normal" name="::GameDifficulty.Normal">
@@ -1267,8 +1267,8 @@
         <mda:meta type="pos_id">127</mda:meta>
       </mda:metadata>
       <segment state="translated">
-        <source>Normal</source>
-        <target state="translated">Нормальна</target>
+        <source>Veteran</source>
+        <target state="needs-translation">Нормальна</target>
       </segment>
     </unit>
     <unit id="::GameDifficulty.Hard" name="::GameDifficulty.Hard">
@@ -1277,8 +1277,8 @@
         <mda:meta type="pos_id">128</mda:meta>
       </mda:metadata>
       <segment state="translated">
-        <source>Hard</source>
-        <target state="translated">Важка</target>
+        <source>Expert</source>
+        <target state="needs-translation">Важка</target>
       </segment>
     </unit>
     <unit id="::GameDifficulty.Dominating" name="::GameDifficulty.Dominating">
@@ -1291,10 +1291,20 @@
         <target state="translated">Домінуюча</target>
       </segment>
     </unit>
-    <unit id="::DamageType.Mechanical" name="::DamageType.Mechanical">
+    <unit id="::GameDifficulty.Custom" name="::GameDifficulty.Custom">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">130</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Custom</source>
+        <target state="needs-translation">Налаштування</target>
+      </segment>
+    </unit>
+    <unit id="::DamageType.Mechanical" name="::DamageType.Mechanical">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">131</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Mechanical</source>
@@ -1304,7 +1314,7 @@
     <unit id="::DamageType.Heat" name="::DamageType.Heat">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">131</mda:meta>
+        <mda:meta type="pos_id">132</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Heat</source>
@@ -1314,7 +1324,7 @@
     <unit id="::DamageType.Cold" name="::DamageType.Cold">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">132</mda:meta>
+        <mda:meta type="pos_id">133</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Cold</source>
@@ -1324,7 +1334,7 @@
     <unit id="::DamageType.Electricity" name="::DamageType.Electricity">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">133</mda:meta>
+        <mda:meta type="pos_id">134</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Electricity</source>
@@ -1334,7 +1344,7 @@
     <unit id="::DamageType.Acid" name="::DamageType.Acid">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">134</mda:meta>
+        <mda:meta type="pos_id">135</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Acid</source>
@@ -1344,7 +1354,7 @@
     <unit id="::DamageType.Energy" name="::DamageType.Energy">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">135</mda:meta>
+        <mda:meta type="pos_id">136</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Energy</source>
@@ -1354,7 +1364,7 @@
     <unit id="::DamageType.Bio" name="::DamageType.Bio">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">136</mda:meta>
+        <mda:meta type="pos_id">137</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Bio</source>
@@ -1364,7 +1374,7 @@
     <unit id="::ImpactSpeed.VeryLow" name="::ImpactSpeed.VeryLow">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">137</mda:meta>
+        <mda:meta type="pos_id">138</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Very Low</source>
@@ -1374,7 +1384,7 @@
     <unit id="::ImpactSpeed.Low" name="::ImpactSpeed.Low">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">138</mda:meta>
+        <mda:meta type="pos_id">139</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Low</source>
@@ -1384,7 +1394,7 @@
     <unit id="::ImpactSpeed.Medium" name="::ImpactSpeed.Medium">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">139</mda:meta>
+        <mda:meta type="pos_id">140</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Medium</source>
@@ -1394,7 +1404,7 @@
     <unit id="::ImpactSpeed.High" name="::ImpactSpeed.High">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">140</mda:meta>
+        <mda:meta type="pos_id">141</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>High</source>
@@ -1404,17 +1414,37 @@
     <unit id="::ImpactSpeed.VeryHigh" name="::ImpactSpeed.VeryHigh">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">141</mda:meta>
+        <mda:meta type="pos_id">142</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Very High</source>
         <target state="translated">Дуже висока</target>
       </segment>
     </unit>
+    <unit id="::PsiSchool.PsiAbility" name="::PsiSchool.PsiAbility">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">143</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psi ability</source>
+        <target state="needs-translation">Пси-здатність</target>
+      </segment>
+    </unit>
+    <unit id="::PsiSchool.Psionic" name="::PsiSchool.Psionic">
+      <mda:metadata>
+        <mda:meta type="version">1</mda:meta>
+        <mda:meta type="pos_id">144</mda:meta>
+      </mda:metadata>
+      <segment state="translated">
+        <source>Psionic</source>
+        <target state="needs-translation">Псіонічний</target>
+      </segment>
+    </unit>
     <unit id="::PsiSchool.ThoughtControl" name="::PsiSchool.ThoughtControl">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">142</mda:meta>
+        <mda:meta type="pos_id">145</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Thought Control</source>
@@ -1424,7 +1454,7 @@
     <unit id="::PsiSchool.Thought Control" name="::PsiSchool.Thought Control">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">143</mda:meta>
+        <mda:meta type="pos_id">146</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Thought Control</source>
@@ -1434,7 +1464,7 @@
     <unit id="::PsiSchool.Psychokinesis" name="::PsiSchool.Psychokinesis">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">144</mda:meta>
+        <mda:meta type="pos_id">147</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Psychokinesis</source>
@@ -1444,7 +1474,7 @@
     <unit id="::PsiSchool.Metathermics" name="::PsiSchool.Metathermics">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">145</mda:meta>
+        <mda:meta type="pos_id">148</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Metathermics</source>
@@ -1454,7 +1484,7 @@
     <unit id="::PsiSchool.TemporalManipulation" name="::PsiSchool.TemporalManipulation">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">146</mda:meta>
+        <mda:meta type="pos_id">149</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Temporal Manipulation</source>
@@ -1464,7 +1494,7 @@
     <unit id="::PsiSchool.Temporal Manipulation" name="::PsiSchool.Temporal Manipulation">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">147</mda:meta>
+        <mda:meta type="pos_id">150</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Temporal Manipulation</source>
@@ -1474,7 +1504,7 @@
     <unit id="::ItemRepairCategory.Mechanical" name="::ItemRepairCategory.Mechanical">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">148</mda:meta>
+        <mda:meta type="pos_id">151</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Mechanical</source>
@@ -1484,7 +1514,7 @@
     <unit id="::ItemRepairCategory.Fabric" name="::ItemRepairCategory.Fabric">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">149</mda:meta>
+        <mda:meta type="pos_id">152</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Fabric</source>
@@ -1494,7 +1524,7 @@
     <unit id="::ItemRepairCategory.Electronic" name="::ItemRepairCategory.Electronic">
       <mda:metadata>
         <mda:meta type="version">1</mda:meta>
-        <mda:meta type="pos_id">150</mda:meta>
+        <mda:meta type="pos_id">153</mda:meta>
       </mda:metadata>
       <segment state="translated">
         <source>Electronic</source>
