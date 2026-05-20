@@ -85,4 +85,5 @@ jobs:
           gh release create "${{ steps.version.outputs.tag }}" \
             --title "${{ steps.version.outputs.tag }}" \
             --notes-file release_notes.md \
+            --prerelease \
             ukrainian.zip
