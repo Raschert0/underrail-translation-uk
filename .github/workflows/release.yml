@@ -25,6 +25,7 @@ jobs:
         with:
           repository: Raschert0/xliff-2-0-agent
           path: xliff-2-0-agent
+          ssh-key: ${{ secrets.XLIFF_2_0_DEPLOY_KEY }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
