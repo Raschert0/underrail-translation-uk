@@ -16,18 +16,18 @@ jobs:
 
     steps:
       - name: Checkout translation repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Checkout xliff-2-0-agent
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: Raschert0/xliff-2-0-agent
           path: xliff-2-0-agent
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
