@@ -1,0 +1,87 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: release
+  cancel-in-progress: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout translation repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Checkout xliff-2-0-agent
+        uses: actions/checkout@v6
+        with:
+          repository: Raschert0/xliff-2-0-agent
+          path: xliff-2-0-agent
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install pyyaml google-genai
+
+      - name: Write agent config
+        run: |
+          cat > xliff-2-0-agent/config.yaml << 'EOF'
+          loc:
+            src_lang: 'en'
+            trg_lang: 'uk'
+            input_dir: ''
+            output_dir: '${{ github.workspace }}/output'
+            xliff_dir: '${{ github.workspace }}'
+            untranslatable_files: []
+          ai_studio:
+            api_key: ''
+            model: ''
+          EOF
+
+      - name: Run XLIFF to LOC conversion
+        run: |
+          mkdir -p output
+          cd xliff-2-0-agent && python main.py --mode read-xliff-and-create-loc
+
+      - name: Copy static files
+        run: cp info.txt output/info.txt
+
+      - name: Archive output
+        run: cd output && zip -r "${{ github.workspace }}/ukrainian.zip" .
+
+      - name: Determine next version
+        id: version
+        run: |
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+          VERSION=${LATEST_TAG#v}
+          MAJOR=$(echo "$VERSION" | cut -d. -f1)
+          MINOR=$(echo "$VERSION" | cut -d. -f2)
+          PATCH=$(echo "$VERSION" | cut -d. -f3)
+          NEXT_TAG="v${MAJOR}.${MINOR}.$((PATCH + 1))"
+          echo "tag=$NEXT_TAG" >> "$GITHUB_OUTPUT"
+          echo "Next release: $NEXT_TAG"
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat > release_notes.md << 'EOF'
+          ### Installation
+
+          Download the attached `ukrainian.zip` archive and extract it into `%path_to_Underrail_installation%\data\localization`.
+          EOF
+          gh release create "${{ steps.version.outputs.tag }}" \
+            --title "${{ steps.version.outputs.tag }}" \
+            --notes-file release_notes.md \
+            ukrainian.zip
