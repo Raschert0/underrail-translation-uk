@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Shows current and maximum psi points, as well as psi regeneration per turn. Psi is used to invoke psionic abilities.</source>
-        <target state="translated">Показує поточні та максимальні очки псі, а також відновлення псі за хід. Псі використовується для застосування псі здібностей.</target>
+        <target state="translated">Показує поточні та максимальні очки псі, а також відновлення псі за хід. Псі використовується для застосування псі-здібностей.</target>
       </segment>
     </unit>
     <unit id="::PsiReserve" name="::PsiReserve">
@@ -88,7 +88,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Increases the chance to resist some negative status effects, such as stun and incapacitation, caused by mental stress and also reduces damage or duration of certain psionic attacks that target the mind directly.</source>
-        <target state="translated">Збільшує шанс протистояти деяким негативним ефектам, таким як приголомшення та втрата дієздатності, спричиненим психічним стресом, а також зменшує шкоду або тривалість певних псі атак, які безпосередньо націлені на розум.</target>
+        <target state="translated">Збільшує шанс протистояти деяким негативним ефектам, таким як приголомшення та втрата дієздатності, спричиненим псіонічним стресом, а також зменшує шкоду або тривалість певних псі атак, які безпосередньо націлені на розум.</target>
       </segment>
     </unit>
     <unit id="::ToGetWeaponCritChanceMod" name="::ToGetWeaponCritChanceMod">
@@ -108,7 +108,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Modifies the chance you'll get critically hit with psi abilities.</source>
-        <target state="translated">Змінює шанс отримати критичне пошкодження від псі-здібностей.</target>
+        <target state="translated">Змінює шанс отримати критичне влучання від псі-здібностей.</target>
       </segment>
     </unit>
     <unit id="::ArmorPenalty" name="::ArmorPenalty">
@@ -128,7 +128,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>The total amount of damage the shield can absorb when fully charged.</source>
-        <target state="translated">Загальна кількість ушкоджень, яку щит може поглинути, коли повністю заряджений.</target>
+        <target state="translated">Загальна кількість шкоди, яку щит може поглинути, коли повністю заряджений.</target>
       </segment>
     </unit>
     <unit id="::ShieldingDescription" name="::ShieldingDescription">
@@ -148,7 +148,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Maximum amount of damage that the shield can absorb per attack from very low impact speed attacks (such as melee weapon attacks).</source>
-        <target state="translated">Максимальна кількість ушкоджень, яку щит може поглинути за атаку при ударі з дуже низькою швидкістю (наприклад, від зброї ближнього бою).</target>
+        <target state="translated">Максимальна кількість шкоди, яку щит може поглинути за атаку при ударі з дуже низькою швидкістю (наприклад, від зброї ближнього бою).</target>
       </segment>
     </unit>
     <unit id="::ShieldingLow" name="::ShieldingLow">
@@ -158,7 +158,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Maximum amount of damage that the shield can absorb per attack from low impact speed attacks (such as crossbow bolts).</source>
-        <target state="translated">Максимальна кількість ушкоджень, яку щит може поглинути за атаку при ударі з низькою швидкістю (наприклад, від арбалетного болта).</target>
+        <target state="translated">Максимальна кількість шкоди, яку щит може поглинути за атаку при ударі з низькою швидкістю (наприклад, від арбалетного болта).</target>
       </segment>
     </unit>
     <unit id="::ShieldingMedium" name="::ShieldingMedium">
@@ -168,7 +168,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Maximum amount of damage that the shield can absorb per attack from medium impact speed attacks (such as regular firearms).</source>
-        <target state="translated">Максимальна кількість ушкоджень, яку щит може поглинути за атаку при ударі з середньою швидкістю (наприклад, від звичайної вогнепальної зброї).</target>
+        <target state="translated">Максимальна кількість шкоди, яку щит може поглинути за атаку при ударі з середньою швидкістю (наприклад, від звичайної вогнепальної зброї).</target>
       </segment>
     </unit>
     <unit id="::ShieldingHigh" name="::ShieldingHigh">
@@ -178,7 +178,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Maximum amount of damage that the shield can absorb per attack from high impact speed attacks (such as sniper rifles).</source>
-        <target state="translated">Максимальна кількість ушкоджень, яку щит може поглинути за атаку при ударі з високою швидкістю (наприклад, від снайперської гвинтівки).</target>
+        <target state="translated">Максимальна кількість шкоди, яку щит може поглинути за атаку при ударі з високою швидкістю (наприклад, від снайперської гвинтівки).</target>
       </segment>
     </unit>
     <unit id="::ShieldingVeryHigh" name="::ShieldingVeryHigh">
@@ -188,7 +188,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Maximum amount of damage that the shield can absorb per attack from very high impact speed attacks (such as energy weapons).</source>
-        <target state="translated">Максимальна кількість ушкоджень, яку щит може поглинути за атаку при ударі з дуже високою швидкістю (наприклад, від енергетичної зброї).</target>
+        <target state="translated">Максимальна кількість шкоди, яку щит може поглинути за атаку при ударі з дуже високою швидкістю (наприклад, від енергетичної зброї).</target>
       </segment>
     </unit>
     <unit id="::ResistanceDescription" name="::ResistanceDescription">
@@ -200,7 +200,7 @@
         <source>The armor either absorbs the amount indicated by the percentage OR the flat number, whichever will result in more damage being absorbed. Keep in mind that certain damages (such as poison or direct mind damage, completely ignore armor).
 
 The number in the brackets is the percentage by which the damage that goes through the shield and the resistance is modified.</source>
-        <target state="translated">Броня поглинає кількість шкоди, вказану АБО у відсотках, АБО як фіксоване число, залежно від того, що призведе до поглинання більшої кількості ушкоджень. Майте на увазі, що певні види ушкоджень (наприклад, отрута або пряма псі шкода) повністю ігнорують броню. Число в дужках – це відсоток, на який модифікуються пошкодження, що проходять через щит та опір до шкоди.</target>
+        <target state="translated">Броня поглинає кількість шкоди, вказану АБО у відсотках, АБО як фіксоване число, залежно від того, що призведе до поглинання більшої кількості шкоди. Майте на увазі, що певні види шкоди (наприклад, отрута або пряма псі шкода) повністю ігнорують броню. Число в дужках – це відсоток, на який модифікується шкода, що проходить через щит та опір до шкоди.</target>
       </segment>
     </unit>
     <unit id="::ResistanceMechanical" name="::ResistanceMechanical">
@@ -210,7 +210,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>The amount of mechanical damage your armor can absorb.</source>
-        <target state="translated">Кількість механічних ушкоджень, які може поглинути ваша броня.</target>
+        <target state="translated">Кількість механічної шкоди, які може поглинути ваша броня.</target>
       </segment>
     </unit>
     <unit id="::ResistanceHeat" name="::ResistanceHeat">
@@ -220,7 +220,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>The amount of heat damage your armor can absorb.</source>
-        <target state="translated">Кількість теплових ушкоджень, які може поглинути ваша броня.</target>
+        <target state="translated">Кількість теплової шкоди, які може поглинути ваша броня.</target>
       </segment>
     </unit>
     <unit id="::ResistanceCold" name="::ResistanceCold">
@@ -230,7 +230,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>The amount of cold damage your armor can absorb.</source>
-        <target state="translated">Кількість крижаних ушкоджень, які може поглинути ваша броня.</target>
+        <target state="translated">Кількість крижаної шкоди, які може поглинути ваша броня.</target>
       </segment>
     </unit>
     <unit id="::ResistanceElectricity" name="::ResistanceElectricity">
@@ -240,7 +240,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>The amount of electrical damage your armor can absorb.</source>
-        <target state="translated">Кількість електричних ушкоджень, які може поглинути ваша броня.</target>
+        <target state="translated">Кількість електричної шкоди, які може поглинути ваша броня.</target>
       </segment>
     </unit>
     <unit id="::ResistanceAcid" name="::ResistanceAcid">
@@ -250,7 +250,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>The amount of acid damage your armor can absorb.</source>
-        <target state="translated">Кількість кислотних ушкоджень, які може поглинути ваша броня.</target>
+        <target state="translated">Кількість кислотної шкоди, які може поглинути ваша броня.</target>
       </segment>
     </unit>
     <unit id="::ResistanceEnergy" name="::ResistanceEnergy">
@@ -260,7 +260,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>The amount of energy damage your armor can absorb.</source>
-        <target state="translated">Кількість енергетичних ушкоджень, які може поглинути ваша броня.</target>
+        <target state="translated">Кількість енергетичної шкоди, які може поглинути ваша броня.</target>
       </segment>
     </unit>
     <unit id="::ResistanceBio" name="::ResistanceBio">
@@ -270,7 +270,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>The amount of bio damage your armor can absorb.</source>
-        <target state="translated">Кількість біологічних ушкоджень, які може поглинути ваша броня.</target>
+        <target state="translated">Кількість біологічної шкоди, які може поглинути ваша броня.</target>
       </segment>
     </unit>
     <unit id="::Stealth" name="::Stealth">
@@ -390,7 +390,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Effective skill level when invoking metathermic psionic abilities.</source>
-        <target state="translated">Ефективний рівень навички при викликанні метатермічних псі здібностей.</target>
+        <target state="translated">Ефективний рівень навички при викликанні метатермічних псі-здібностей.</target>
       </segment>
     </unit>
     <unit id="::MetathermicsCritChance" name="::MetathermicsCritChance">
@@ -400,7 +400,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Chance to score a critical hit when invoking metathermic psionic abilities.</source>
-        <target state="translated">Шанс нанести критичний удар при викликанні метермічних псі здібностей.</target>
+        <target state="translated">Шанс нанести критичний удар при викликанні метатермічних псі-здібностей.</target>
       </segment>
     </unit>
     <unit id="::MetathermicsCritBonus" name="::MetathermicsCritBonus">
@@ -410,7 +410,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Damage bonus applied when you score a critical hit with a metathermic psionic ability.</source>
-        <target state="translated">Бонус до нанесеної шкоди за критичного влучання метермічною псі здібністю.</target>
+        <target state="translated">Бонус до нанесеної шкоди за критичного влучання метатермічною псі-здібністю.</target>
       </segment>
     </unit>
     <unit id="::MetathermicsPsiCost" name="::MetathermicsPsiCost">
@@ -420,7 +420,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Base psi point cost modifier for metathermic psi abilities.</source>
-        <target state="translated">Базовий модифікатор вартості очок псі для метермічних псі здібностей.</target>
+        <target state="translated">Базовий модифікатор вартості очок псі для метатермічних псі-здібностей.</target>
       </segment>
     </unit>
     <unit id="::PsychokinesisSkill" name="::PsychokinesisSkill">
@@ -430,7 +430,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Effective skill level when invoking psychokinetic psionic abilities.</source>
-        <target state="translated">Ефективний рівень навички при викликанні психокінетичних псі здібностей.</target>
+        <target state="translated">Ефективний рівень навички при викликанні психокінетичних псі-здібностей.</target>
       </segment>
     </unit>
     <unit id="::PsychokinesisCritChance" name="::PsychokinesisCritChance">
@@ -440,7 +440,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Chance to score a critical hit when invoking psychokinetic psionic abilities.</source>
-        <target state="translated">Шанс нанести критичний удар при викликанні психокінетичних псі здібностей.</target>
+        <target state="translated">Шанс нанести критичний удар при викликанні психокінетичних псі-здібностей.</target>
       </segment>
     </unit>
     <unit id="::PsychokinesisCritBonus" name="::PsychokinesisCritBonus">
@@ -450,7 +450,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Damage bonus applied when you score a critical hit with a psychokinetic psionic ability.</source>
-        <target state="translated">Бонус до нанесеної шкоди за критичного влучання психокінетичною псі здібністю.</target>
+        <target state="translated">Бонус до нанесеної шкоди за критичного влучання психокінетичною псі-здібністю.</target>
       </segment>
     </unit>
     <unit id="::PsychokinesisPsiCost" name="::PsychokinesisPsiCost">
@@ -460,7 +460,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Base psi point cost modifier for psychokinetic psi abilities.</source>
-        <target state="translated">Базовий модифікатор вартості очок псі для психокінетичних псі здібностей.</target>
+        <target state="translated">Базовий модифікатор вартості очок псі для психокінетичних псі-здібностей.</target>
       </segment>
     </unit>
     <unit id="::ThoughtControlSkill" name="::ThoughtControlSkill">
@@ -470,7 +470,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Effective skill level when invoking thought control psionic abilities.</source>
-        <target state="translated">Ефективний рівень навички при викликанні псі здібностей контролю розуму.</target>
+        <target state="translated">Ефективний рівень навички при викликанні псі-здібностей контролю розуму.</target>
       </segment>
     </unit>
     <unit id="::ThoughtControlCritChance" name="::ThoughtControlCritChance">
@@ -480,7 +480,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Chance to score a critical hit when invoking thought control psionic abilities.</source>
-        <target state="translated">Шанс нанести критичний удар при викликанні псі здібностей контролю розуму.</target>
+        <target state="translated">Шанс нанести критичний удар при викликанні псі-здібностей контролю розуму.</target>
       </segment>
     </unit>
     <unit id="::ThoughtControlCritBonus" name="::ThoughtControlCritBonus">
@@ -490,7 +490,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Damage bonus applied when you score a critical hit with a thought control psionic ability.</source>
-        <target state="translated">Бонус до нанесеної шкоди за критичного влучання псі здібністю контролю розуму.</target>
+        <target state="translated">Бонус до нанесеної шкоди за критичного влучання псі-здібністю контролю розуму.</target>
       </segment>
     </unit>
     <unit id="::ThoughtControlPsiCost" name="::ThoughtControlPsiCost">
@@ -500,7 +500,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Base psi point cost modifier for thought control psi abilities.</source>
-        <target state="translated">Базовий модифікатор вартості очок псі для псі здібностей контролю розуму.</target>
+        <target state="translated">Базовий модифікатор вартості очок псі для псі-здібностей контролю розуму.</target>
       </segment>
     </unit>
     <unit id="::TemporalManipulationSkill" name="::TemporalManipulationSkill">
@@ -510,7 +510,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Effective skill level when invoking temporal manipulation psionic abilities.</source>
-        <target state="translated">Ефективний рівень навички при викликанні псі здібностей маніпулювання часом.</target>
+        <target state="translated">Ефективний рівень навички при викликанні псі-здібностей маніпулювання часом.</target>
       </segment>
     </unit>
     <unit id="::TemporalManipulationCritChance" name="::TemporalManipulationCritChance">
@@ -520,7 +520,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Chance to score a critical hit when invoking temporal manipulation psionic abilities.</source>
-        <target state="translated">Шанс нанести критичний удар при викликанні псі здібностей маніпулювання часом.</target>
+        <target state="translated">Шанс нанести критичний удар при викликанні псі-здібностей маніпулювання часом.</target>
       </segment>
     </unit>
     <unit id="::TemporalManipulationCritBonus" name="::TemporalManipulationCritBonus">
@@ -530,7 +530,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Damage bonus applied when you score a critical hit with a temporal manipulation psionic ability.</source>
-        <target state="translated">Бонус до нанесеної шкоди за критичного влучання псі здібністю маніпулювання часом.</target>
+        <target state="translated">Бонус до нанесеної шкоди за критичного влучання псі-здібністю маніпулювання часом.</target>
       </segment>
     </unit>
     <unit id="::TemporalManipulationPsiCost" name="::TemporalManipulationPsiCost">
@@ -540,7 +540,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Base psi point cost modifier for temporal manipulation psi abilities.</source>
-        <target state="translated">Базовий модифікатор вартості очок псі для псі здібностей маніпулювання часом.</target>
+        <target state="translated">Базовий модифікатор вартості очок псі для псі-здібностей маніпулювання часом.</target>
       </segment>
     </unit>
     <unit id="::SpecialAttackBonusDamage" name="::SpecialAttackBonusDamage">
@@ -550,7 +550,7 @@ The number in the brackets is the percentage by which the damage that goes throu
       </mda:metadata>
       <segment state="translated">
         <source>Increases the damage done by special weapon or unarmed attacks. This does not affect unconditional special attacks.</source>
-        <target state="translated">Збільшує шкоду від спеціальних атак зброєю або атак голруч. Це не впливає на безумовні спеціальні атаки.</target>
+        <target state="translated">Збільшує шкоду від спеціальних атак зброєю або атак голіруч. Це не впливає на безумовні спеціальні атаки.</target>
       </segment>
     </unit>
     <unit id="::ActionPoints" name="::ActionPoints">

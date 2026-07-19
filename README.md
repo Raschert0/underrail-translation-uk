@@ -33,6 +33,15 @@ The `mda:meta` fields are bookkeeping for the tooling — `pos_id` preserves eac
 original game file, and `version` is the agent's data-schema version, reserved for future migrations.
 Both are regenerated on import; only the `<target>` elements in `uk.xml` are hand-owned.
 
+## Для перекладачів
+
+[STYLE-uk.md](STYLE-uk.md) — правила перекладу: звертання, гендерні плейсхолдери, розмітка
+рушія, типографіка, великі літери, транслітерація й канонічна термінологія. Канонічні терміни —
+у [глосарії проєкту](https://translate.flying-asparagus-factory.cc/projects/underrail/glossary/uk/).
+
+Перед масовими правками запускайте `pwsh tools/check-uk.ps1` — скрипт перевіряє, що розмітка
+рушія (`<end>`, `::`, `{N}`, `$(…)`) не постраждала.
+
 ## Weblate configuration
 
 Weblate scans the repository for `.xml` translation files and creates one component per leaf

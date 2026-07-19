@@ -54,7 +54,7 @@ Cooldown: {0}.</source>
         <source>Grants you a special attack with a crossbow or sniper rifle that deals additional damage per stealth skill point. Can only be used in stealth. This attack cannot critically hit.
 
 Cooldown: {0}.</source>
-        <target state="translated">Надає вам спеціальну атаку з арбалетом або снайперською гвинтівкою, яка завдає додаткової шкоди за кожен пункт навички непомітності. Можна використовувати лише в режимі скрадання. Ця атака не може бути критичною. Відновлення: {0}.</target>
+        <target state="translated">Надає вам спеціальну атаку з арбалетом або снайперською гвинтівкою, яка завдає додаткової шкоди за кожне очко навички непомітності. Можна використовувати лише в режимі скрадання. Ця атака не може бути критичною. Відновлення: {0}.</target>
       </segment>
     </unit>
     <unit id="::S" name="::S">
@@ -102,7 +102,7 @@ Only works on biological targets.</source>
         <source>An attack with a pistol, crossbow or SMG that does normal damage and applies a bleeding wound that deals additional {0}% of the original damage over {2} plus additional {1}% for every point in perception and removes all movement points from the target for {2} (target can still move using action points).
 
 Only works on living targets (that have knees). Cooldown: {3}.</source>
-        <target state="translated">Атака пістолетом, арбалетом або ПК, що завдає звичайної шкоди та накладає кровотечу, яка завдає додаткові {0}% початкової шкоди протягом {2}, плюс додаткові {1}% за кожен пункт сприйняття, та позбавляє ціль усіх очок руху протягом {2} (ціль все ще може рухатися, використовуючи очки дії). Працює лише на живих цілях (які мають коліна). Відновлення: {3}.</target>
+        <target state="translated">Атака пістолетом, арбалетом або ПК, що завдає звичайної шкоди та накладає кровотечу, яка завдає додаткові {0}% початкової шкоди протягом {2}, плюс додаткові {1}% за кожне очко сприйняття, та позбавляє ціль усіх очок руху протягом {2} (ціль все ще може рухатися, використовуючи очки дії). Працює лише на живих цілях (які мають коліна). Відновлення: {3}.</target>
       </segment>
     </unit>
     <unit id="::KCS" name="::KCS">
@@ -212,7 +212,7 @@ Only works on living targets.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Allows the character to learn and invoke psi abilities, but their base health is reduced by {0}%.</source>
-        <target state="translated">Дозволяє персонажу вивчати та використовувати псі здібності, але його базове здоров’я зменшується на {0}%.</target>
+        <target state="translated">Дозволяє персонажу вивчати та використовувати псі-здібності, але його базове здоров’я зменшується на {0}%.</target>
       </segment>
     </unit>
     <unit id="::CI" name="::CI">
@@ -224,7 +224,7 @@ Only works on living targets.</source>
         <source>Increases the duration of all cold effects of your psi abilities by {0} and allows you to shatter targets caught in your cryostasis if the attack deals over {1}% of target's remaining health (only mechanical and cold damage dealt is considered).
 
 Also increases the health of cryogenic barrier by {2}%.</source>
-        <target state="translated">Збільшує тривалість усіх крижаних ефектів ваших психічних здібностей на {0} та дозволяє вам знищити цілі, ув’язнені у вашому кріостазі, якщо атака завдає понад {1}% залишку здоров’я цілі (враховується лише механічна та крижана шкода). Також збільшує здоров’я кріогенного бар'єру на {2}%.</target>
+        <target state="translated">Збільшує тривалість усіх крижаних ефектів ваших псі-здібностей на {0} та дозволяє вам знищити цілі, ув’язнені у вашому кріостазі, якщо атака завдає понад {1}% залишку здоров’я цілі (враховується лише механічна та крижана шкода). Також збільшує здоров’я кріогенного бар’єру на {2}%.</target>
       </segment>
     </unit>
     <unit id="::IM" name="::IM">
@@ -248,7 +248,7 @@ Cooldown: {1}.</source>
         <source>Your cold based metathermic psi abilities also reduce target's constitution by {0}. This effect stacks up to {1} times and lasts up to {2}.
 
 Can be mitigated with cold resistance and targets that are immune to chilling and freezing effects are also immune to hypothermia.</source>
-        <target state="translated">Ваші психічні здібності на основі холоду також зменшують статуру цілі на {0}. Цей ефект накопичується до {1} разів і триває до {2}. Може бути пом’якшений холодостійкістю, а цілі, які мають імунітет до охолодження та заморожування, також мають імунітет до переохолодження.</target>
+        <target state="translated">Ваші псі-здібності на основі холоду також зменшують статуру цілі на {0}. Цей ефект накопичується до {1} разів і триває до {2}. Може бути пом’якшений холодостійкістю, а цілі, які мають імунітет до охолодження та заморожування, також мають імунітет до переохолодження.</target>
       </segment>
     </unit>
     <unit id="::I" name="::I">
@@ -278,7 +278,7 @@ Can be mitigated with cold resistance and targets that are immune to chilling an
       </mda:metadata>
       <segment state="translated">
         <source>Increases the base damage of your Neural Overload psi ability by {0}%. Also, whenever it lands it reduces all target's psi point gains by {1}% for {2} turns. This effect stacks {3} times.</source>
-        <target state="translated">Збільшує базову шкоду вашої псі здібності «Нейронне перевантаження» на {0}%. Її спрацювання також зменшує відновлення псі у цілі на {1}% протягом {2} ходів. Цей ефект накопичується {3} разів.</target>
+        <target state="translated">Збільшує базову шкоду вашої псі-здібності «Нейронне перевантаження» на {0}%. Її спрацювання також зменшує відновлення псі у цілі на {1}% протягом {2} ходів. Цей ефект накопичується {3} разів.</target>
       </segment>
     </unit>
     <unit id="::CT" name="::CT">
@@ -288,7 +288,7 @@ Can be mitigated with cold resistance and targets that are immune to chilling an
       </mda:metadata>
       <segment state="translated">
         <source>Increases the base damage of your Neural Overload psi ability by {0}%. Also, whenever it lands it reduces target's psi point reserves by {1}% of their maximum psi points.</source>
-        <target state="translated">Збільшує базову шкоду вашої псі здібності «Нейронне перевантаження» на {0}%. Її спрацювання також зменшує резерв псі очок цілі на {1}% від його максимального значення.</target>
+        <target state="translated">Збільшує базову шкоду вашої псі-здібності «Нейронне перевантаження» на {0}%. Її спрацювання також зменшує резерв псі очок цілі на {1}% від його максимального значення.</target>
       </segment>
     </unit>
     <unit id="::MS" name="::MS">
@@ -298,7 +298,7 @@ Can be mitigated with cold resistance and targets that are immune to chilling an
       </mda:metadata>
       <segment state="translated">
         <source>Each offensive mind affecting psi ability you land on the target reduces its resolve by a small percentage, but can ultimately stack up to {0}%.</source>
-        <target state="translated">Кожна атакуюча психічна здібність, яку ви застосовуєте до цілі, зменшує її рішучість на невеликий відсоток, але зрештою може накопичитися до {0}%.</target>
+        <target state="translated">Кожна атакуюча псі-здібність, яку ви застосовуєте до цілі, зменшує її рішучість на невеликий відсоток, але зрештою може накопичитися до {0}%.</target>
       </segment>
     </unit>
     <unit id="::CO" name="::CO">
@@ -308,7 +308,7 @@ Can be mitigated with cold resistance and targets that are immune to chilling an
       </mda:metadata>
       <segment state="translated">
         <source>Reduces all mechanical, heat and cold damage taken by {0}% plus {1}% for every point in constitution above {2}.</source>
-        <target state="translated">Зменшує всю механічну, теплову та крижану шкоду, яку ви отримуєте, на {0}% плюс {1}% за кожен пункт статури вище {2}.</target>
+        <target state="translated">Зменшує всю механічну, теплову та крижану шкоду, яку ви отримуєте, на {0}% плюс {1}% за кожне очко статури вище {2}.</target>
       </segment>
     </unit>
     <unit id="::DS-old" name="::DS-old">
@@ -340,7 +340,7 @@ Can be mitigated with cold resistance and targets that are immune to chilling an
         <source>After invoking heat based psi ability you gain thermodynamicity which reduces the psi cost of your next cold based psi ability by {0}% and vice versa.
 
 If unused, the bonus expires after {1}.</source>
-        <target state="translated">Після застосування псі здібності на основі тепла ви отримуєте термодинамічність, яка зменшує вартість наступної псі здібності на основі холоду на {0}%, і навпаки. Якщо не використовується, бонус закінчується через {1}.</target>
+        <target state="translated">Після застосування псі-здібності на основі тепла ви отримуєте термодинамічність, яка зменшує вартість наступної псі-здібності на основі холоду на {0}%, і навпаки. Якщо не використовується, бонус закінчується через {1}.</target>
       </segment>
     </unit>
     <unit id="::TD" name="::TD">
@@ -352,7 +352,7 @@ If unused, the bonus expires after {1}.</source>
         <source>After invoking heat based psi ability you gain thermodynamicity which reduces the action point cost of your next cold based psi ability by {0}% and vice versa.
 
 If unused, the bonus expires after {1}.</source>
-        <target state="translated">Після застосування псі здібності на основі тепла ви отримуєте термодинамічність, яка зменшує вартість очок дій наступної псі здібності на основі холоду на {0}%, і навпаки. Якщо не використовується, бонус закінчується через {1}.</target>
+        <target state="translated">Після застосування псі-здібності на основі тепла ви отримуєте термодинамічність, яка зменшує вартість очок дій наступної псі-здібності на основі холоду на {0}%, і навпаки. Якщо не використовується, бонус закінчується через {1}.</target>
       </segment>
     </unit>
     <unit id="::PM-Old" name="::PM-Old">
@@ -364,7 +364,7 @@ If unused, the bonus expires after {1}.</source>
         <source>Whenever you deal damage with your fire based psi abilities you have a {0}% chance to set the target on fire, dealing {1}% of that damage again over {2} turns.
 
 Setting living targets on fire will put them in state of extreme panic.</source>
-        <target state="translated">Коли ви завдаєте шкоди своїми вогневими псі здібностями, у вас є {0}% шанс підпалити ціль, завдаючи {1}% тієї ж шкоди знову протягом {2} ходів. Підпалювання живих цілей змусить їх надзвичайно панікувати.</target>
+        <target state="translated">Коли ви завдаєте шкоди своїми вогневими псі-здібностями, у вас є {0}% шанс підпалити ціль, завдаючи {1}% тієї ж шкоди знову протягом {2} ходів. Підпалювання живих цілей змусить їх надзвичайно панікувати.</target>
       </segment>
     </unit>
     <unit id="::PM" name="::PM">
@@ -376,7 +376,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
         <source>Whenever you deal damage with your fire based psi abilities you have a chance to set the target on fire, dealing {0}% of that damage again over {1} turns.
 
 Setting living targets on fire will put them in state of extreme panic.</source>
-        <target state="translated">Коли ви завдаєте шкоди своїми вогневими псі здібностями, у вас є шанс підпалити ціль, завдаючи {0}% тієї ж шкоди знову протягом {1} ходів. Підпалювання живих цілей змусить  їх надзвичайно панікувати.</target>
+        <target state="translated">Коли ви завдаєте шкоди своїми вогневими псі-здібностями, у вас є шанс підпалити ціль, завдаючи {0}% тієї ж шкоди знову протягом {1} ходів. Підпалювання живих цілей змусить  їх надзвичайно панікувати.</target>
       </segment>
     </unit>
     <unit id="::FullAuto" name="::FullAuto">
@@ -426,7 +426,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>Further increases number of extra rounds for LMG burst by {0}, and increases the amount of extra rounds you get for each wind up stack when bursting with a minigun by {1}.</source>
-        <target state="translated">Подальше збільшення кількості додаткових куль при стрільбі чергами з легкого кулемета на {0} і збільшення кількості додаткових куль, які ви отримуєте за кожен стек накопичення під час стрільби чергами з мінігана на {1}.</target>
+        <target state="translated">Подальше збільшення кількості додаткових куль при стрільбі чергами з легкого кулемета на {0} і збільшення кількості додаткових куль, які ви отримуєте за кожне накопичення накопичення під час стрільби чергами з мінігана на {1}.</target>
       </segment>
     </unit>
     <unit id="::Ambush" name="::Ambush">
@@ -436,7 +436,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated">
         <source>When attacking an illuminated target from out of the darkness with a single-target ranged weapon you ignore half the target's evasion and your critical chance is increased by {0}% plus {1}% for each stealth skill point.</source>
-        <target state="translated">При атаці освітленої цілі з темряви направленою зброєю дальнього бою ви ігноруєте половину ухилення цілі, а ваш шанс критичної шкоди збільшується на {0}% плюс {1}% за кожен пункт навички непомітності.</target>
+        <target state="translated">При атаці освітленої цілі з темряви направленою зброєю дальнього бою ви ігноруєте половину ухилення цілі, а ваш шанс критичної шкоди збільшується на {0}% плюс {1}% за кожне очко навички непомітності.</target>
       </segment>
     </unit>
     <unit id="::ForceUser" name="::ForceUser">
@@ -448,7 +448,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
         <source>Telekinesis is strong with you.
 
 Damage from your telekinetic punch is increased by {0}%, your force field has {1}% more health and lasts {2} additional turns, and your force emission costs {3} less psi point.</source>
-        <target state="translated">Телекінез сильний у вас. Шкода від вашого телекінетичного удару збільшується на {0}%, ваш силовий щит має {1}% більше здоров'я і триває {2} додаткових ходів, а ваше випромінювання сили коштує {3} менше псі очок.</target>
+        <target state="translated">Телекінез сильний у вас. Шкода від вашого телекінетичного удару збільшується на {0}%, ваш силовий щит має {1}% більше здоров’я і триває {2} додаткових ходів, а ваше випромінювання сили коштує {3} менше псі очок.</target>
       </segment>
     </unit>
     <unit id="::LocusOfControl" name="::LocusOfControl">
@@ -464,7 +464,7 @@ Activate this ability to remove and gain immunity to stun, fear, incapacitation,
 While this effect is active you can invoke any thought control psi ability as an area of effect ability, but that will end the effect.
 
 Cooldown: {1}.</source>
-        <target state="translated">Ви - господар своєї долі. Активуйте цю здатність, щоб видалити та отримати імунітет до приголомшення, страху, недієздатності та контролю розуму протягом {0}. Поки цей ефект активний, ви можете застосувати будь-яку псі здібність контролю розуму як здібність із площею ураження, але це закінчить ефект. Відновлення: {1}.</target>
+        <target state="translated">Ви – господар своєї долі. Активуйте цю здатність, щоб видалити та отримати імунітет до приголомшення, страху, недієздатності та контролю розуму протягом {0}. Поки цей ефект активний, ви можете застосувати будь-яку псі-здібність контролю розуму як здібність із площею ураження, але це закінчить ефект. Відновлення: {1}.</target>
       </segment>
     </unit>
     <unit id="::Tranquility-Old" name="::Tranquility-Old">

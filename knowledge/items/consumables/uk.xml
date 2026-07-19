@@ -52,7 +52,7 @@ After the effect expires, the consumer will be worn out.</source>
         <source>Immediately restores {0} psi and additional {1} psi each turn for {2}. Stacks up {3} times. 
 
 Causes psionic withdrawal effect when it expires. Intensity of this effect depends on the number of stacks as well as if the user was already under its effect before new consumation.</source>
-        <target state="translated">Негайно відновлює {0} псі та додаткові {1} псі кожного ходу протягом {2}. Накопичується до {3} разів. Викликає ефект психічної абстиненції після закінчення дії. Інтенсивність цього ефекту залежить від кількості накопичень, а також від того, чи користувач вже перебував під його впливом до нового споживання.</target>
+        <target state="translated">Негайно відновлює {0} псі та додаткові {1} псі кожного ходу протягом {2}. Накопичується до {3} разів. Викликає ефект псіонічної абстиненції після закінчення дії. Інтенсивність цього ефекту залежить від кількості накопичень, а також від того, чи користувач вже перебував під його впливом до нового споживання.</target>
       </segment>
     </unit>
     <unit id="::MindDart-Old" name="::MindDart-Old">
@@ -64,7 +64,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
         <source>Increases psi regeneration by {0}% plus {1} for {2} seconds. Stacks up {3} times. 
 
 Causes psionic withdrawal effect when it expires. Intensity of this effect depends on the number of stacks as well as if the user was already under its effect before new consumation.</source>
-        <target state="translated">Збільшує регенерацію псі на {0}% плюс {1} протягом {2} секунд. Накопичується до {3} разів. Викликає ефект психічної абстиненції після закінчення дії. Інтенсивність цього ефекту залежить від кількості накопичень, а також від того, чи користувач вже перебував під його впливом до нового споживання.</target>
+        <target state="translated">Збільшує регенерацію псі на {0}% плюс {1} протягом {2} секунд. Накопичується до {3} разів. Викликає ефект псіонічної абстиненції після закінчення дії. Інтенсивність цього ефекту залежить від кількості накопичень, а також від того, чи користувач вже перебував під його впливом до нового споживання.</target>
       </segment>
     </unit>
     <unit id="::RestoreItemEnergy" name="::RestoreItemEnergy">
@@ -114,7 +114,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Restores {0} health points over {1} seconds. Health must be over {2}% in order for bandages to be effective.</source>
-        <target state="translated">Відновлює {0} пунктів здоров’я протягом {1} секунд. Здоров'я має бути більше {2}%, щоб бинти були ефективними.</target>
+        <target state="translated">Відновлює {0} очок здоров’я протягом {1} секунд. Здоров’я має бути більше {2}%, щоб бинти були ефективними.</target>
       </segment>
     </unit>
     <unit id="::MorphineHypo" name="::MorphineHypo">
@@ -194,7 +194,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Increases strength, dexterity, agility, and constitution by {0} for {1}... but at what cost?</source>
-        <target state="translated">Збільшує силу, вправність, спритність та статуру на {0} протягом {1}... але якою ціною?</target>
+        <target state="translated">Збільшує силу, вправність, спритність та статуру на {0} протягом {1}… але якою ціною?</target>
       </segment>
     </unit>
     <unit id="::Bullhead" name="::Bullhead">
@@ -214,7 +214,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
       </mda:metadata>
       <segment state="translated">
         <source>Removes psionic inhibition.</source>
-        <target state="translated">Видаляє психічну пригніченість.</target>
+        <target state="translated">Видаляє псіонічну пригніченість.</target>
       </segment>
     </unit>
     <unit id="::RegenerativeMixture" name="::RegenerativeMixture">
@@ -306,7 +306,7 @@ Causes psionic withdrawal effect when it expires. Intensity of this effect depen
         <source>Instantly restores {0} health points and then additional {1} health points each turn for {2}.
 
 Unfortunately, it also slightly blurs the vision and numbs the fingers, reducing perception and dexterity by {3} for {4}.</source>
-        <target state="translated">Миттєво відновлює {0} пунктів здоров’я, а потім додаткові {1} пунктів здоров’я кожного ходу протягом {2}. На жаль, це також трохи розмиває зір і викликає оніміння пальців, зменшуючи сприйняття і вправність на {3} протягом {4}.</target>
+        <target state="translated">Миттєво відновлює {0} очок здоров’я, а потім додаткові {1} очок здоров’я кожного ходу протягом {2}. На жаль, це також трохи розмиває зір і викликає оніміння пальців, зменшуючи сприйняття і вправність на {3} протягом {4}.</target>
       </segment>
     </unit>
     <unit id="::SpiritPotion" name="::SpiritPotion">
@@ -329,7 +329,7 @@ Unfortunately, it also puts an unwholesome burden on the mind, reducing will by 
       <segment state="translated">
         <source>Increases action points by {0}, dodge and evasion by {1}% and strength by {2} for {3}, temporarily removing any fatigue.
 After the effect expires, the consumer will be worn out and also lose {4} health each turn for {5}.</source>
-        <target state="translated">Збільшує кількість очок дії на {0}, вивертання та ухилення на {1}% і силу на {2} протягом {3}, тимчасово знімаючи будь-яку втому. Після закінчення дії споживач буде виснажений і також втрачатиме {4} здоров'я кожного ходу протягом {5}.</target>
+        <target state="translated">Збільшує кількість очок дії на {0}, вивертання та ухилення на {1}% і силу на {2} протягом {3}, тимчасово знімаючи будь-яку втому. Після закінчення дії споживач буде виснажений і також втрачатиме {4} здоров’я кожного ходу протягом {5}.</target>
       </segment>
     </unit>
     <unit id="::BioluminousSwampHoney" name="::BioluminousSwampHoney">
@@ -339,7 +339,7 @@ After the effect expires, the consumer will be worn out and also lose {4} health
       </mda:metadata>
       <segment state="translated">
         <source>Increases perception by {0} and regenerates {1} health points each turn for {2}. Also makes the consumer glow.</source>
-        <target state="translated">Збільшує сприйняття на {0} і регенерує {1} пунктів здоров’я кожного ходу протягом {2}. Також змушує споживача світитися.</target>
+        <target state="translated">Збільшує сприйняття на {0} і регенерує {1} очок здоров’я кожного ходу протягом {2}. Також змушує споживача світитися.</target>
       </segment>
     </unit>
     <unit id="::Cigar" name="::Cigar">
@@ -349,7 +349,7 @@ After the effect expires, the consumer will be worn out and also lose {4} health
       </mda:metadata>
       <segment state="translated">
         <source>Increases psi regeneration by {0}, but reduces constitution by {1} for {2} minutes. Requires a lighter.</source>
-        <target state="translated">Збільшує регенерацію псі на {0}, але зменшує витривалість на {1} протягом {2} хвилин. Потрібна запальничка.</target>
+        <target state="translated">Збільшує регенерацію псі на {0}, але зменшує статуру на {1} протягом {2} хвилин. Потрібна запальничка.</target>
       </segment>
     </unit>
     <unit id="::PsionicInhalant" name="::PsionicInhalant">
