@@ -30,7 +30,9 @@
         <source>Engine power determines how fast the vehicle will move under certain weight. The number represents the maximum total weight (including the vehicle parts, items in the trunk and the driver) the vehicle can take on and move at the nominal speed for the vehicle type.
 
 Having excess or deficit of power will modify the vehicle speed accordingly. </source>
-        <target state="translated">Потужність двигуна визначає, як швидко транспортний засіб рухатиметься з певною вагою. Число представляє максимальну загальну вагу (включаючи частини транспортного засобу, предмети в багажнику та водія), яку транспортний засіб може транспортувати з номінальною швидкістю для даного типу транспортного засобу. Надлишок або дефіцит потужності відповідно змінюватиме швидкість транспортного засобу.</target>
+        <target state="translated">Потужність двигуна визначає, як швидко транспортний засіб рухатиметься з певною вагою. Число представляє максимальну загальну вагу (включаючи частини транспортного засобу, предмети в багажнику та водія), яку транспортний засіб може транспортувати з номінальною швидкістю для даного типу транспортного засобу.
+
+Надлишок або дефіцит потужності відповідно змінюватиме швидкість транспортного засобу.</target>
       </segment>
     </unit>
     <unit id="::Consumption" name="::Consumption">
@@ -136,7 +138,9 @@ Positive speed modifiers are only applied if the vehicle is not out of energy an
         <source>The chance that the incoming attack will hit the vehicle instead of the driver.
 
 In case of an area of effect attack it represents the amount of damage that the vehicle will bear in driver's stead.</source>
-        <target state="translated">Імовірність того, що вхідна атака вразить транспортний засіб, а не водія. У випадку атаки по області це відображає кількість шкоди, яку транспортний засіб понесе замість водія.</target>
+        <target state="translated">Імовірність того, що вхідна атака вразить транспортний засіб, а не водія.
+
+У випадку атаки по області це відображає кількість шкоди, яку транспортний засіб понесе замість водія.</target>
       </segment>
     </unit>
     <unit id="::ResistanceDescription" name="::ResistanceDescription">
