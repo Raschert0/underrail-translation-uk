@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">2</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Salutes you.:: Corporal.&lt;end&gt;</source>
         <target state="needs-translation">::Салютує вам.:: Капрале.&lt;end&gt;</target>
       </segment>
@@ -16,7 +16,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">4</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Citizen...&lt;end&gt;</source>
         <target state="needs-translation">Громадянине...&lt;end&gt;</target>
       </segment>
@@ -26,7 +26,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">6</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Remember, citizen: Holster *all* your weapons before entering the consulate. Thank you.&lt;end&gt;</source>
         <target state="needs-translation">Пам'ятайте, громадянине: зніміть *всю* зброю перед входом до консульства. Дякую.&lt;end&gt;</target>
       </segment>
@@ -36,7 +36,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">8</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::True to his words, the guard returns quickly.:: You are allowed entry, $(#sir/ma'am). I must ask you to holster all visible weapons, grenades and otherwise potentially dangerous equipment before you enter the consulate. Failure to do so will be interpreted as a sign of hostility and will be dealt with accordingly - and swiftly. Keep that in mind.&lt;end&gt;</source>
         <target state="needs-translation">::Як і обіцяв, охоронець швидко повертається.:: Вам дозволено вхід, $(#сер/пані). Я повинен попросити вас зняти всю видиму зброю, гранати та інше потенційно небезпечне обладнання перед входом до консульства. Невиконання цього буде розцінено як ознака ворожості та буде вирішено відповідно - швидко. Майте це на увазі.&lt;end&gt;</target>
       </segment>
@@ -46,7 +46,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">10</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>To get to the consulate, you need to head straight forward, then left into the main hall. Take the northern set of stairs, and afterward take the second door to the right to get to the consul's office. Do not deviate from my directions; you are not allowed entry into any other section of the base.
 
 I hope I made everything clear. You may proceed.&lt;end&gt;</source>
@@ -60,7 +60,7 @@ I hope I made everything clear. You may proceed.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">12</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::The guard gestures you to stop.::
 
 Hold it right there, citizen. You are about to enter Underrail Protectorate territory. Admittance is not allowed without proper clearance. Therefore, I must ask of you to state your business here.&lt;end&gt;</source>
@@ -74,7 +74,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">14</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="translated">&lt;end&gt;</target>
       </segment>
@@ -84,7 +84,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">16</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>My name is $(context.player.Name) and I was sent here by Ambassador Athanas in order to speak to Consul Oliver.&lt;end&gt;</source>
         <target state="needs-translation">Мене звати $(context.player.Name), і мене відправив сюди посол Атанас, щоб поговорити з консулом Олівером.&lt;end&gt;</target>
       </segment>
@@ -94,7 +94,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">18</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::The guard visually inspects you before replying.:: I would need to confirm that. $(context.player.Name) - is that what you said?&lt;end&gt;</source>
         <target state="needs-translation">::Охоронець візуально оглядає вас, перш ніж відповісти.:: Мені потрібно це підтвердити. $(context.player.Name) - це те, що ви сказали?&lt;end&gt;</target>
       </segment>
@@ -104,7 +104,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">20</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Correct.&lt;end&gt;</source>
         <target state="needs-translation">Правильно.&lt;end&gt;</target>
       </segment>
@@ -114,7 +114,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">22</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Very well, please wait here. I will be with you shortly, citizen.&lt;end&gt;</source>
         <target state="needs-translation">Добре, почекайте тут. Я скоро повернуся до вас, громадянине.&lt;end&gt;</target>
       </segment>
@@ -124,7 +124,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">24</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Wait.::&lt;end&gt;</source>
         <target state="needs-translation">::Зачекайте.::&lt;end&gt;</target>
       </segment>
@@ -134,7 +134,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">26</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>No, I said $(context.player.Name).&lt;end&gt;</source>
         <target state="needs-translation">Ні, я сказав $(context.player.Name).&lt;end&gt;</target>
       </segment>
@@ -144,7 +144,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">28</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>That's what I said. $(context.player.Name). Please wait here. I will be with you shortly.&lt;end&gt;</source>
         <target state="needs-translation">Це те, що я сказав. $(context.player.Name). Будь ласка, почекайте тут. Я скоро повернуся до вас.&lt;end&gt;</target>
       </segment>
@@ -154,7 +154,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">30</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>What is this place?&lt;end&gt;</source>
         <target state="needs-translation">Що це за місце?&lt;end&gt;</target>
       </segment>
@@ -164,7 +164,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">32</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>This is Fort Apogee, citizen, the headquarters of all Underrail Protectorate operations in South Underrail, as well as the location of the United Stations consulate.&lt;end&gt;</source>
         <target state="needs-translation">Це Форт Апогей, громадянине, штаб-квартира всіх операцій Підземного Протекторату в Південному Підземному світі, а також місцезнаходження консульства Об'єднаних станцій.&lt;end&gt;</target>
       </segment>
@@ -174,7 +174,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">34</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Can I join the Underrail Protectorate?&lt;end&gt;</source>
         <target state="needs-translation">Чи можу я приєднатися до Підземного Протекторату?&lt;end&gt;</target>
       </segment>
@@ -184,7 +184,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">36</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>We have just received a new group of recruits and do not need more recruits at the moment, citizen. Check with one of the two available recruitment centers in South Underrail at some later time - Core City or Junkyard.&lt;end&gt;</source>
         <target state="needs-translation">Ми щойно отримали нову групу новобранців і наразі не потребуємо більше рекрутів, громадянине. Зверніться до одного з двох доступних рекрутингових центрів у Південному Підземному світі - Core City або Junkyard.&lt;end&gt;</target>
       </segment>
@@ -194,7 +194,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">38</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>What's the purpose of the consulate?&lt;end&gt;</source>
         <target state="needs-translation">Яка мета консульства?&lt;end&gt;</target>
       </segment>
@@ -204,7 +204,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">40</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Are you in need of Underrail Protectorate's protection? The consulate offers protection to all citizens of United Stations members. You would have to show me your papers, though.&lt;end&gt;</source>
         <target state="needs-translation">Вам потрібен захист Підземного Протекторату? Консульство пропонує захист усім громадянам країн-членів Об'єднаних станцій. Вам доведеться показати мені свої документи, хоча.&lt;end&gt;</target>
       </segment>
@@ -214,7 +214,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">42</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>I don't have those...&lt;end&gt;</source>
         <target state="needs-translation">У мене їх немає...&lt;end&gt;</target>
       </segment>
@@ -224,7 +224,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">44</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Then I can't help you.&lt;end&gt;</source>
         <target state="needs-translation">Тоді я не можу вам допомогти.&lt;end&gt;</target>
       </segment>
@@ -234,7 +234,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">46</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Is South Gate Station a member of the United Stations?&lt;end&gt;</source>
         <target state="needs-translation">Чи Південна станція є членом Об'єднаних станцій?&lt;end&gt;</target>
       </segment>
@@ -244,7 +244,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">48</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>I'm afraid not.&lt;end&gt;</source>
         <target state="needs-translation">На жаль, ні.&lt;end&gt;</target>
       </segment>
@@ -254,7 +254,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">50</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Let me ask you something else.&lt;end&gt;</source>
         <target state="needs-translation">Дозвольте мені запитати вас про щось інше.&lt;end&gt;</target>
       </segment>
@@ -264,7 +264,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">52</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Yes, citizen?&lt;end&gt;</source>
         <target state="needs-translation">Так, громадянине?&lt;end&gt;</target>
       </segment>
@@ -274,7 +274,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">54</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Death to Protectorate scum! For the Free Drones! ::Attack!::&lt;end&gt;</source>
         <target state="needs-translation">Смерть протекторатській погані! За вільних дронів! ::Атакуй!::&lt;end&gt;</target>
       </segment>
@@ -284,7 +284,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">56</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Sorry, I took a wrong turn. Goodbye.&lt;end&gt;</source>
         <target state="needs-translation">Вибачте, я збився зі шляху. До побачення.&lt;end&gt;</target>
       </segment>
@@ -294,7 +294,7 @@ Hold it right there, citizen. You are about to enter Underrail Protectorate terr
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">58</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Citizen?&lt;end&gt;</source>
         <target state="needs-translation">Громадянине?&lt;end&gt;</target>
       </segment>

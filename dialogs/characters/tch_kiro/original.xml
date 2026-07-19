@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We are not surviving this.&lt;end&gt;</source>
         <target state="final">We are not surviving this.&lt;end&gt;</target>
       </segment>
@@ -16,7 +16,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::This thin man seems uninterested in you at first glance, as his facial expression doesn't change at all when he notices you trying to start a conversation - and his body language doesn't differ. What you also find peculiar is the fact that he almost never breaks eye contact, but maintains it during the whole conversation. Luckily, he blinks in regular intervals, or else the mechanical stare would seem even more awkward. Also, it comes as no surprise that his tone of voice is as flat as his excitement for the conversation he is engaged in.::
 
 Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</source>
@@ -30,7 +30,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Evolution is Tchort, brother. I am $(context.player.Name) and I wanted to ask you a few questions.&lt;end&gt;</source>
         <target state="final">Evolution is Tchort, brother. I am $(context.player.Name) and I wanted to ask you a few questions.&lt;end&gt;</target>
       </segment>
@@ -40,7 +40,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>No problem at all, $(#brother/sister). What is on your mind?&lt;end&gt;</source>
         <target state="final">No problem at all, $(#brother/sister). What is on your mind?&lt;end&gt;</target>
       </segment>
@@ -50,7 +50,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -60,7 +60,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Mechanics]:: Do you happen to have any spare super steel sheets that aren't going to be used in the particle accelerator? I might need them for... constructing certain things.&lt;end&gt;</source>
         <target state="final">::[Mechanics]:: Do you happen to have any spare super steel sheets that aren't going to be used in the particle accelerator? I might need them for... constructing certain things.&lt;end&gt;</target>
       </segment>
@@ -70,7 +70,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Super steel components for the particle accelerator are costly and take time to manufacture to our apex standards. Since the production is limited and demand great, I cannot spare a single one of those, $(#brother/sister).&lt;end&gt;</source>
         <target state="final">Super steel components for the particle accelerator are costly and take time to manufacture to our apex standards. Since the production is limited and demand great, I cannot spare a single one of those, $(#brother/sister).&lt;end&gt;</target>
       </segment>
@@ -80,7 +80,7 @@ Tchort is evolution. I am Investigator Kiro. Who are you?&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>However, sheets are sometimes replaced after a certain number of particular experiments. They degrade in quality and are no longer suitable for testing. We either recycle them or repurpose them.
 
 These I can spare. You may take a look at them if you wish.&lt;end&gt;</source>
@@ -94,7 +94,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Barter.::&lt;end&gt;</source>
         <target state="final">::Barter.::&lt;end&gt;</target>
       </segment>
@@ -104,7 +104,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Principal Investigator Schteff told me I could purchase high-tech stuff from you.&lt;end&gt;</source>
         <target state="final">Principal Investigator Schteff told me I could purchase high-tech stuff from you.&lt;end&gt;</target>
       </segment>
@@ -114,7 +114,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Of course, $(#brother/sister). Please wait a moment and I will show you what is available.&lt;end&gt;</source>
         <target state="final">Of course, $(#brother/sister). Please wait a moment and I will show you what is available.&lt;end&gt;</target>
       </segment>
@@ -124,7 +124,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I would like to purchase something.&lt;end&gt;</source>
         <target state="final">I would like to purchase something.&lt;end&gt;</target>
       </segment>
@@ -134,7 +134,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I am in need of some high-tech gadgetry and components. I guess this would be the right place to ask...&lt;end&gt;</source>
         <target state="final">I am in need of some high-tech gadgetry and components. I guess this would be the right place to ask...&lt;end&gt;</target>
       </segment>
@@ -144,7 +144,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>There are components and devices that I may be able to offer you for purchase, but I must have PI Schteff's permission before I can actually do so. You can go ask him.&lt;end&gt;</source>
         <target state="final">There are components and devices that I may be able to offer you for purchase, but I must have PI Schteff's permission before I can actually do so. You can go ask him.&lt;end&gt;</target>
       </segment>
@@ -154,7 +154,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Okay, just tell me where can I find him?&lt;end&gt;</source>
         <target state="final">Okay, just tell me where can I find him?&lt;end&gt;</target>
       </segment>
@@ -164,7 +164,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>His office is the one with double doors, just by the resonant transformer. Hard to miss it, $(#brother/sister).&lt;end&gt;</source>
         <target state="final">His office is the one with double doors, just by the resonant transformer. Hard to miss it, $(#brother/sister).&lt;end&gt;</target>
       </segment>
@@ -174,7 +174,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'll ask him that, but I had other questions first.&lt;end&gt;</source>
         <target state="final">I'll ask him that, but I had other questions first.&lt;end&gt;</target>
       </segment>
@@ -184,7 +184,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Of course, $(#brother/sister).&lt;end&gt;</source>
         <target state="final">Of course, $(#brother/sister).&lt;end&gt;</target>
       </segment>
@@ -194,7 +194,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'll go ask him then. Will be right back.&lt;end&gt;</source>
         <target state="final">I'll go ask him then. Will be right back.&lt;end&gt;</target>
       </segment>
@@ -204,7 +204,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Can you tell me who's in charge here?&lt;end&gt;</source>
         <target state="final">Can you tell me who's in charge here?&lt;end&gt;</target>
       </segment>
@@ -214,7 +214,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>That would be Principal Investigator Schteff; he runs the Department of Physics. He should be in his office in case you need him.&lt;end&gt;</source>
         <target state="final">That would be Principal Investigator Schteff; he runs the Department of Physics. He should be in his office in case you need him.&lt;end&gt;</target>
       </segment>
@@ -224,7 +224,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Anything else on your mind, $(#brother/sister)?&lt;end&gt;</source>
         <target state="final">Anything else on your mind, $(#brother/sister)?&lt;end&gt;</target>
       </segment>
@@ -234,7 +234,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What's that machine you're working on?&lt;end&gt;</source>
         <target state="final">What's that machine you're working on?&lt;end&gt;</target>
       </segment>
@@ -244,7 +244,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>This is our particle accelerator.&lt;end&gt;</source>
         <target state="final">This is our particle accelerator.&lt;end&gt;</target>
       </segment>
@@ -254,7 +254,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Electronics]:: What accelerates the particles? Electromagnetic fields?&lt;end&gt;</source>
         <target state="final">::[Electronics]:: What accelerates the particles? Electromagnetic fields?&lt;end&gt;</target>
       </segment>
@@ -264,7 +264,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">51</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Precisely, $(#brother/sister). &lt;end&gt;</source>
         <target state="final">Precisely, $(#brother/sister). &lt;end&gt;</target>
       </segment>
@@ -274,7 +274,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">53</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What you see before you is only one part of the machine - the rest is a five-hundred-meter-long circular *track* looping through the Institute building. This allows us to propel particles around until they reach sufficient speed, and then we steer them, guide them - like Tchort guides us - with superconducting magnets.&lt;end&gt;</source>
         <target state="final">What you see before you is only one part of the machine - the rest is a five-hundred-meter-long circular *track* looping through the Institute building. This allows us to propel particles around until they reach sufficient speed, and then we steer them, guide them - like Tchort guides us - with superconducting magnets.&lt;end&gt;</target>
       </segment>
@@ -284,7 +284,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">55</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The particles form beams, and then we can collide them or aim them at fixed targets.&lt;end&gt;</source>
         <target state="final">The particles form beams, and then we can collide them or aim them at fixed targets.&lt;end&gt;</target>
       </segment>
@@ -294,7 +294,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">57</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>By Tchort!&lt;end&gt;</source>
         <target state="final">By Tchort!&lt;end&gt;</target>
       </segment>
@@ -304,7 +304,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">59</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Apex, is it not?&lt;end&gt;</source>
         <target state="final">Apex, is it not?&lt;end&gt;</target>
       </segment>
@@ -314,7 +314,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">61</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What do you learn from all of this?&lt;end&gt;</source>
         <target state="final">What do you learn from all of this?&lt;end&gt;</target>
       </segment>
@@ -324,7 +324,7 @@ These I can spare. You may take a look at them if you wish.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">63</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We can study how the particles react during collision, what kind of radiation gets released - we can observe the effects it has on materials and tissue. It can be used for many things. Currently we use it to simulate Surface radiation, or what we hypothesize it could be like. 
 
 Or, we will be using it after the replacement super steel sheets are installed inside the track.&lt;end&gt;</source>
@@ -338,7 +338,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">65</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We are fortunate to have inherited it from the original engineers of this building. We can maintain it - but constructing one today would be nigh impossible.&lt;end&gt;</source>
         <target state="final">We are fortunate to have inherited it from the original engineers of this building. We can maintain it - but constructing one today would be nigh impossible.&lt;end&gt;</target>
       </segment>
@@ -348,7 +348,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">67</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What do you use it for?&lt;end&gt;</source>
         <target state="final">What do you use it for?&lt;end&gt;</target>
       </segment>
@@ -358,7 +358,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">69</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Experiments, $(#brother/sister). &lt;end&gt;</source>
         <target state="final">Experiments, $(#brother/sister). &lt;end&gt;</target>
       </segment>
@@ -368,7 +368,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">71</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What's that?&lt;end&gt;</source>
         <target state="final">What's that?&lt;end&gt;</target>
       </segment>
@@ -378,7 +378,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">73</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Tchort guide you.&lt;end&gt;</source>
         <target state="final">Tchort guide you.&lt;end&gt;</target>
       </segment>
@@ -388,7 +388,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">75</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Tchort guide you, $(#brother/sister).&lt;end&gt;</source>
         <target state="final">Tchort guide you, $(#brother/sister).&lt;end&gt;</target>
       </segment>
@@ -398,7 +398,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">77</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Goodbye, Kiro.&lt;end&gt;</source>
         <target state="final">Goodbye, Kiro.&lt;end&gt;</target>
       </segment>
@@ -408,7 +408,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">79</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Hello, my name is $(context.player.Name) and I was wondering if you could answer a few questions for me.&lt;end&gt;</source>
         <target state="final">Hello, my name is $(context.player.Name) and I was wondering if you could answer a few questions for me.&lt;end&gt;</target>
       </segment>
@@ -418,7 +418,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">81</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I do have the time, $(#brother/sister). What is on your mind?&lt;end&gt;</source>
         <target state="final">I do have the time, $(#brother/sister). What is on your mind?&lt;end&gt;</target>
       </segment>
@@ -428,7 +428,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">83</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Hey there, Kiro. $(context.player.Name) is the name I go by, and I had a couple of questions if I that's okay with you.&lt;end&gt;</source>
         <target state="final">Hey there, Kiro. $(context.player.Name) is the name I go by, and I had a couple of questions if I that's okay with you.&lt;end&gt;</target>
       </segment>
@@ -438,7 +438,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">85</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>These constant tremors are really distracting.&lt;end&gt;</source>
         <target state="final">These constant tremors are really distracting.&lt;end&gt;</target>
       </segment>
@@ -448,7 +448,7 @@ Or, we will be using it after the replacement super steel sheets are installed i
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">87</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What is on your mind, $(#brother/sister)?&lt;end&gt;</source>
         <target state="final">What is on your mind, $(#brother/sister)?&lt;end&gt;</target>
       </segment>

@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Welcome to Talloski Manor, $(context.player.Name). You may enter.&lt;end&gt;</source>
         <target state="final">Welcome to Talloski Manor, $(context.player.Name). You may enter.&lt;end&gt;</target>
       </segment>
@@ -16,7 +16,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The guard signals you to stop.::
 
 Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt;end&gt;</source>
@@ -30,7 +30,7 @@ Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -40,7 +40,7 @@ Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What is this place?&lt;end&gt;</source>
         <target state="final">What is this place?&lt;end&gt;</target>
       </segment>
@@ -50,7 +50,7 @@ Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>This property belongs to the Talloski family, and access to the general public is strictly prohibited. Unless, of course, you've been invited by one of the family members.&lt;end&gt;</source>
         <target state="final">This property belongs to the Talloski family, and access to the general public is strictly prohibited. Unless, of course, you've been invited by one of the family members.&lt;end&gt;</target>
       </segment>
@@ -60,7 +60,7 @@ Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>In which case you'd have to give me your name so that I can verify that you're on the list.&lt;end&gt;</source>
         <target state="final">In which case you'd have to give me your name so that I can verify that you're on the list.&lt;end&gt;</target>
       </segment>
@@ -70,7 +70,7 @@ Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Can I come in?&lt;end&gt;</source>
         <target state="final">Can I come in?&lt;end&gt;</target>
       </segment>
@@ -80,7 +80,7 @@ Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He pulls out a mobile computer.:: Your name?&lt;end&gt;</source>
         <target state="final">::He pulls out a mobile computer.:: Your name?&lt;end&gt;</target>
       </segment>
@@ -90,7 +90,7 @@ Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>$(context.player.Name).&lt;end&gt;</source>
         <target state="final">$(context.player.Name).&lt;end&gt;</target>
       </segment>
@@ -100,7 +100,7 @@ Excuse me, $(#sir/ma'am), this is private property. State your business here.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He taps the device a few times before speaking again.:: You're on the list, which means you are free to come in. Welcome to Talloski Manor.
 
 One word of warning, though: Your movement is restricted only to the first floor. Unless specified otherwise, getting caught anywhere else in the manor will have serious consequences. Enjoy your stay.&lt;end&gt;</source>
@@ -114,7 +114,7 @@ One word of warning, though: Your movement is restricted only to the first floor
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He taps the device a few times before speaking again.::
 
 I'm sorry, but I don't see your name on the list, which means I can't allow you to enter. Not on the list - not getting in.&lt;end&gt;</source>
@@ -128,7 +128,7 @@ I'm sorry, but I don't see your name on the list, which means I can't allow you 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Do the owners of this place offer any work? I'm looking to earn some coin.&lt;end&gt;</source>
         <target state="final">Do the owners of this place offer any work? I'm looking to earn some coin.&lt;end&gt;</target>
       </segment>
@@ -138,7 +138,7 @@ I'm sorry, but I don't see your name on the list, which means I can't allow you 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm afraid not.&lt;end&gt;</source>
         <target state="final">I'm afraid not.&lt;end&gt;</target>
       </segment>
@@ -148,7 +148,7 @@ I'm sorry, but I don't see your name on the list, which means I can't allow you 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Anything else?&lt;end&gt;</source>
         <target state="final">Anything else?&lt;end&gt;</target>
       </segment>
@@ -158,7 +158,7 @@ I'm sorry, but I don't see your name on the list, which means I can't allow you 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Sorry to bother you. Goodbye.&lt;end&gt;</source>
         <target state="final">Sorry to bother you. Goodbye.&lt;end&gt;</target>
       </segment>
@@ -168,7 +168,7 @@ I'm sorry, but I don't see your name on the list, which means I can't allow you 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>How may I help you?&lt;end&gt;</source>
         <target state="final">How may I help you?&lt;end&gt;</target>
       </segment>

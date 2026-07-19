@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">2</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Session in progress.::
 
 ::Total shots: $(context.ShootingRangeConsoleData.TotalShots)::
@@ -26,7 +26,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">4</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::End session::&lt;end&gt;</source>
         <target state="needs-translation">::Завершити сеанс::&lt;end&gt;</target>
       </segment>
@@ -36,7 +36,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">6</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Session ended. Final statistics: ::
 
 ::Total shots: $(context.ShootingRangeConsoleData.TotalShots)::
@@ -56,7 +56,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">8</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="translated">&lt;end&gt;</target>
       </segment>
@@ -66,7 +66,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">10</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Continue session::&lt;end&gt;</source>
         <target state="needs-translation">::Продовжити сеанс::&lt;end&gt;</target>
       </segment>
@@ -76,7 +76,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">12</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Welcome to the Shooting Range. 
 
 What do you wish to do?::&lt;end&gt;</source>
@@ -90,7 +90,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">14</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Configure target distance::&lt;end&gt;</source>
         <target state="needs-translation">::Налаштувати відстань до цілі::&lt;end&gt;</target>
       </segment>
@@ -100,7 +100,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">16</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Choose target distance.::&lt;end&gt;</source>
         <target state="needs-translation">::Оберіть відстань до цілі.::&lt;end&gt;</target>
       </segment>
@@ -110,7 +110,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">18</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::5 meters::&lt;end&gt;</source>
         <target state="needs-translation">::5 метрів::&lt;end&gt;</target>
       </segment>
@@ -120,7 +120,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">20</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::8 meters::&lt;end&gt;</source>
         <target state="needs-translation">::8 метрів::&lt;end&gt;</target>
       </segment>
@@ -130,7 +130,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">22</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::10 meters::&lt;end&gt;</source>
         <target state="needs-translation">::10 метрів::&lt;end&gt;</target>
       </segment>
@@ -140,7 +140,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">24</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Leave it as it is::&lt;end&gt;</source>
         <target state="needs-translation">::Залишити як є::&lt;end&gt;</target>
       </segment>
@@ -150,7 +150,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">26</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Start new session::&lt;end&gt;</source>
         <target state="needs-translation">::Почати новий сеанс::&lt;end&gt;</target>
       </segment>
@@ -160,7 +160,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">28</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Session started.&lt;end&gt;</source>
         <target state="needs-translation">Сеанс розпочато.</target>
       </segment>
@@ -170,7 +170,7 @@ What do you wish to do?::&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">30</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::Leave::&lt;end&gt;</source>
         <target state="needs-translation">::Покинути::&lt;end&gt;</target>
       </segment>

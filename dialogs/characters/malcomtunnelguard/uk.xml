@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">2</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::The man greets you with a warm smile.::
 
 Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help you?&lt;end&gt;</source>
@@ -20,7 +20,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">4</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="translated">&lt;end&gt;</target>
       </segment>
@@ -30,7 +30,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">6</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Know anything about that scavenger from Mushroom Cove?&lt;end&gt;</source>
         <target state="needs-translation">Щось знаєш про того шукача з Грибкової Затоки?&lt;end&gt;</target>
       </segment>
@@ -40,7 +40,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">8</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Well, one of the guards found &lt;end&gt;</source>
         <target state="needs-translation">Ну, один з охоронців знайшов &lt;end&gt;</target>
       </segment>
@@ -50,7 +50,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">10</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>him &lt;end&gt;</source>
         <target state="needs-translation">його&lt;end&gt;</target>
       </segment>
@@ -60,7 +60,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">12</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>there, dying, just as I was starting my shift some hours ago. &lt;end&gt;</source>
         <target state="needs-translation">там, вмираючим, якраз коли починав свою зміну кілька годин тому.&lt;end&gt;</target>
       </segment>
@@ -70,7 +70,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">14</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>$(tempContext.wasteWaterPronounCap) &lt;end&gt;</source>
         <target state="needs-translation">$(tempContext.wasteWaterPronounCap)&lt;end&gt;</target>
       </segment>
@@ -80,7 +80,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">16</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>was horribly mutated, covered in green tumors and all. &lt;end&gt;</source>
         <target state="needs-translation">був жахливо мутований, покритий зеленими пухлинами і все таке.&lt;end&gt;</target>
       </segment>
@@ -90,7 +90,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">18</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Terrible things happen out there all the time, but this $(context.frag_dun_wasteWater_corpseGender) was still alive when $(tempContext.wasteWaterPronoun) was brought through here. Now that's something you don't see often. Sadly, that didn't last, as $(tempContext.wasteWaterPronoun) died before reaching the medical level, though.&lt;end&gt;</source>
         <target state="needs-translation">Там постійно трапляються жахливі речі, але цей $(context.frag_dun_wasteWater_corpseGender) був ще живий, коли $(tempContext.wasteWaterPronoun) принесли сюди. Це рідкість, мушу сказати. На жаль, це тривало недовго, адже $(tempContext.wasteWaterPronoun) помер до того, як його доставили до медичного відсіку.&lt;end&gt;</target>
       </segment>
@@ -100,7 +100,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">20</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Did he manage to say who did this to him?&lt;end&gt;</source>
         <target state="needs-translation">Він встиг сказати, хто це з ним зробив?&lt;end&gt;</target>
       </segment>
@@ -110,7 +110,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">22</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>No. Mushroom Cove's full of psi beetles&lt;end&gt;</source>
         <target state="needs-translation">Ні. Затока Грибів кишить пси-жуками.&lt;end&gt;</target>
       </segment>
@@ -120,7 +120,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">24</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>. Could be them, as they got some nasty psi abilities at their disposal, but the way this scavenger's been hurt... it's somewhat different from anything I've seen the beetles do.&lt;end&gt;</source>
         <target state="needs-translation">. Можливо, це вони, адже вони володіють деякими жахливими пси-здібностями, але те, як цього шукача було поранено... це дещо відрізняється від усього, що я бачив від жуків.&lt;end&gt;</target>
       </segment>
@@ -130,7 +130,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">26</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="needs-translation">&lt;end&gt;</target>
       </segment>
@@ -140,7 +140,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">28</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>How do I get to Mushroom Cove?&lt;end&gt;</source>
         <target state="needs-translation">Як мені дістатися до Грибкової Затоки?&lt;end&gt;</target>
       </segment>
@@ -150,7 +150,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">30</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>It's a wet cave a bit south from here. &lt;end&gt;</source>
         <target state="needs-translation">Це волога печера трохи на південь звідси.&lt;end&gt;</target>
       </segment>
@@ -160,7 +160,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">32</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>But I'd advise against going there right now, $(context.player.Name). It's a dangerous place for a rookie.&lt;end&gt;</source>
         <target state="needs-translation">Але я б не радив туди йти зараз, $(context.player.Name). Це небезпечне місце для новачка.&lt;end&gt;</target>
       </segment>
@@ -170,7 +170,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">34</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>But don't you get any strange ideas, $(context.player.Name). It's a dangerous place...&lt;end&gt;</source>
         <target state="needs-translation">Але не замислюйте нічого дивного, $(context.player.Name). Це небезпечне місце...&lt;end&gt;</target>
       </segment>
@@ -180,7 +180,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">36</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>That's everything I needed to know.&lt;end&gt;</source>
         <target state="needs-translation">Це все, що мені потрібно було знати.&lt;end&gt;</target>
       </segment>
@@ -190,7 +190,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">38</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::He nods.:: Heading out?&lt;end&gt;</source>
         <target state="needs-translation">::Він киває.:: Вирушаєте?&lt;end&gt;</target>
       </segment>
@@ -200,7 +200,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">40</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>That's everything I needed to know. I need to get out into the caves.&lt;end&gt;</source>
         <target state="needs-translation">Це все, що мені потрібно було знати. Мені потрібно вибратися в печери.&lt;end&gt;</target>
       </segment>
@@ -210,7 +210,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">42</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>You didn't get your access card yet, right? Yes. Should be around here somewhere... 
 
 ::He starts looking through the drawers.::&lt;end&gt;</source>
@@ -224,7 +224,7 @@ Ah, $(context.player.Name), good to finally meet you. I'm Malcom. How can I help
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">44</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>There it is. ::He produces a red access card and passes it to you.::
 
 Now listen here, this is the procedure...&lt;end&gt;</source>
@@ -238,7 +238,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">46</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>When you want to leave, you let me know and I'll open the inner gate. You then step into the transition room. Then I close the inner gate and open the outer gate and off you go.&lt;end&gt;</source>
         <target state="needs-translation">Коли захочеш піти, дай мені знати, і я відкрию внутрішні ворота. Тоді ти увійдеш у перехідну кімнату. Потім я закрию внутрішні ворота і відкрию зовнішні ворота, і ти підеш.&lt;end&gt;</target>
       </segment>
@@ -248,7 +248,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">48</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Alright, now, when you want to get back in, use the card I gave you on the console outside. Stand in front of the camera so I can confirm it's you. Then I'll open the outer gate.&lt;end&gt;</source>
         <target state="needs-translation">Гаразд, тепер, коли захочеш повернутися, використай картку, яку я тобі дав, на консолі зовні. Стань перед камерою, щоб я міг переконатися, що це ти. Тоді я відкрию зовнішні ворота.&lt;end&gt;</target>
       </segment>
@@ -258,7 +258,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">50</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Earlier, we used to do bioscanning everytime someone passed, but since no one ever showed up positive, it became a nuisance.&lt;end&gt;</source>
         <target state="needs-translation">Раніше ми робили біосканування кожного, хто проходив, але оскільки ніхто ніколи не показував позитивних результатів, це стало незручністю.&lt;end&gt;</target>
       </segment>
@@ -268,7 +268,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">52</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>What if I *do* contract a disease?&lt;end&gt;</source>
         <target state="needs-translation">Що, якщо я *все ж* підхоплю хворобу?&lt;end&gt;</target>
       </segment>
@@ -278,7 +278,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">54</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Then be kind enough to inform me so I can activate the turrets. They'll shred you to pieces, we'll burn the remains and everything's good.&lt;end&gt;</source>
         <target state="needs-translation">Тоді будь ласка, повідом мене, щоб я міг активувати турелі. Вони розірвуть тебе на шматки, ми спалимо рештки, і все буде добре.&lt;end&gt;</target>
       </segment>
@@ -288,7 +288,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">56</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::He chuckles.:: Just kidding... or am I.&lt;end&gt;</source>
         <target state="needs-translation">::Він сміється.:: Просто жартую... чи ні.&lt;end&gt;</target>
       </segment>
@@ -298,7 +298,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">58</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Understood.&lt;end&gt;</source>
         <target state="needs-translation">Зрозумів.&lt;end&gt;</target>
       </segment>
@@ -308,7 +308,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">60</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>So, you going or what?&lt;end&gt;</source>
         <target state="needs-translation">То ти йдеш чи що?&lt;end&gt;</target>
       </segment>
@@ -318,7 +318,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">62</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source> but this doesn't look like a product of their psionics. &lt;end&gt;</source>
         <target state="needs-translation"> але це не схоже на результат їхньої псионіки.&lt;end&gt;</target>
       </segment>
@@ -328,7 +328,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">64</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Did she manage to say who did this to her?&lt;end&gt;</source>
         <target state="needs-translation">Чи вдалося їй сказати, хто це зробив?&lt;end&gt;</target>
       </segment>
@@ -338,7 +338,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">66</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>was severely burnt, smelled horribly. &lt;end&gt;</source>
         <target state="needs-translation">був сильно обпечений, жахливо смердів.&lt;end&gt;</target>
       </segment>
@@ -348,7 +348,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">68</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>had so many gunshot wounds it was impossible to count them all. &lt;end&gt;</source>
         <target state="needs-translation">мав так багато вогнепальних поранень, що їх було неможливо порахувати.&lt;end&gt;</target>
       </segment>
@@ -358,7 +358,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">70</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>was badly electrocuted, smelled horribly. &lt;end&gt;</source>
         <target state="needs-translation">був сильно уражений струмом, жахливо смердів.&lt;end&gt;</target>
       </segment>
@@ -368,7 +368,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">72</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>was horribly mauled by something, with bits of flesh dangling off. Wasn't psi beetles, that's for sure. &lt;end&gt;</source>
         <target state="needs-translation">був жахливо пошматований чимось, з шматками плоті, що звисали. Це точно не були пси-жуки.&lt;end&gt;</target>
       </segment>
@@ -378,7 +378,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">74</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>was missing patches of hair and skin - the skull was showing. But that face... like $(tempContext.wasteWaterPronoun)'s been through living hell. &lt;end&gt;</source>
         <target state="needs-translation">у нього не вистачало шматків шкіри та волосся – було видно череп. Але це обличчя... ніби $(tempContext.wasteWaterPronoun) пережив справжнє пекло.&lt;end&gt;</target>
       </segment>
@@ -388,7 +388,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">76</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>her &lt;end&gt;</source>
         <target state="needs-translation">її&lt;end&gt;</target>
       </segment>
@@ -398,7 +398,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">78</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>I need to get out into the caves.&lt;end&gt;</source>
         <target state="needs-translation">Мені потрібно вибратися в печери.&lt;end&gt;</target>
       </segment>
@@ -408,7 +408,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">80</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Open the gate, please. I'm off to the caves.&lt;end&gt;</source>
         <target state="needs-translation">Відкрийте ворота, будь ласка. Я йду до печер.&lt;end&gt;</target>
       </segment>
@@ -418,7 +418,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">82</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Open the gate, please. I'm off to the caves.&lt;end&gt;</source>
         <target state="needs-translation">Відкрийте ворота, будь ласка. Я йду до печер.&lt;end&gt;</target>
       </segment>
@@ -428,7 +428,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">84</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>::He nods.:: Oh, and here's a tip for you: If you find yourself surrounded by rathounds, use flares to scare them away. They'll be back, though, so try not to stick around.&lt;end&gt;</source>
         <target state="needs-translation">::Він киває.:: О, і ось вам порада: якщо ви опинитеся в оточенні щурів-мисливців, використовуйте сигнальні ракети, щоб їх розігнати. Хоча вони повернуться, тому краще не затримуйтеся там.&lt;end&gt;</target>
       </segment>
@@ -438,7 +438,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">86</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Thanks, I'll keep that in mind.&lt;end&gt;</source>
         <target state="needs-translation">Дякую, я це врахую.&lt;end&gt;</target>
       </segment>
@@ -448,7 +448,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">88</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>You're good to go.&lt;end&gt;</source>
         <target state="needs-translation">Можеш йти.&lt;end&gt;</target>
       </segment>
@@ -458,7 +458,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">90</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Everyone knows that.&lt;end&gt;</source>
         <target state="needs-translation">Усі це знають.&lt;end&gt;</target>
       </segment>
@@ -468,7 +468,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">92</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Just trying to help you out. &lt;end&gt;</source>
         <target state="needs-translation">Просто намагаюся тобі допомогти.&lt;end&gt;</target>
       </segment>
@@ -478,7 +478,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">94</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>I want to stomp them out, not scare them away.&lt;end&gt;</source>
         <target state="needs-translation">Я хочу їх розчавити, а не налякати.&lt;end&gt;</target>
       </segment>
@@ -488,7 +488,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">96</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Well then... try not to lose a foot. &lt;end&gt;</source>
         <target state="needs-translation">Гаразд тоді... спробуй не втратити ногу.&lt;end&gt;</target>
       </segment>
@@ -498,7 +498,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">98</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Not right now.&lt;end&gt;</source>
         <target state="needs-translation">Не зараз.&lt;end&gt;</target>
       </segment>
@@ -508,7 +508,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">100</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>$(context.player.Name), where have you been all this time? Vera's been looking for you. You should go to her office as soon as possible.&lt;end&gt;</source>
         <target state="needs-translation">$(context.player.Name), де ти весь цей час пропадав? Вера тебе шукала. Тобі варто негайно піти до неї в офіс.&lt;end&gt;</target>
       </segment>
@@ -518,7 +518,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">102</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>What for?&lt;end&gt;</source>
         <target state="needs-translation">Навіщо?&lt;end&gt;</target>
       </segment>
@@ -528,7 +528,7 @@ Now listen here, this is the procedure...&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">104</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Don't know, but something's going on, $(context.player.Name). I've never seen her like this. 
 
 Just go to her.&lt;end&gt;</source>
@@ -542,7 +542,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">106</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>I will. See you later.&lt;end&gt;</source>
         <target state="needs-translation">Я піду. Побачимось пізніше.&lt;end&gt;</target>
       </segment>
@@ -552,7 +552,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">108</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>You aren't planning on disappearing like Tanner did, right? ::He chuckles.:: Ignore that.&lt;end&gt;</source>
         <target state="needs-translation">Ти ж не збираєшся зникнути, як Таннер, правда? ::Він хихикає.:: Ігноруй це.&lt;end&gt;</target>
       </segment>
@@ -562,7 +562,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">110</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>You be careful out there. No one's safe from now 'cause of the Faceless.&lt;end&gt;</source>
         <target state="needs-translation">Будь обережним там. Ніхто не в безпеці зараз через Безликих.&lt;end&gt;</target>
       </segment>
@@ -572,7 +572,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">112</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>You know, I saw that dead scavenger as &lt;end&gt;</source>
         <target state="needs-translation">Знаєш, я бачив того мертвого шукача як &lt;end&gt;</target>
       </segment>
@@ -582,7 +582,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">114</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>he &lt;end&gt;</source>
         <target state="needs-translation">він &lt;end&gt;</target>
       </segment>
@@ -592,7 +592,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">116</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>was being carried to medical. ::He shakes his head.::&lt;end&gt;</source>
         <target state="needs-translation">несли до медичного пункту. ::Він хитає головою.::&lt;end&gt;</target>
       </segment>
@@ -602,7 +602,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">118</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>I've seen the body myself. What do you know about it?&lt;end&gt;</source>
         <target state="needs-translation">Я сам бачив тіло. Що ти про нього знаєш?&lt;end&gt;</target>
       </segment>
@@ -612,7 +612,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">120</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Well, one of the guards found this dying $(context.frag_dun_wasteWater_corpseGender) in Mushroom Cove just as I was starting my shift some hours ago. &lt;end&gt;</source>
         <target state="needs-translation">Ну, один з охоронців знайшов цього вмираючого $(context.frag_dun_wasteWater_corpseGender) в Грибковій Бухті якраз коли я починав свою зміну кілька годин тому.&lt;end&gt;</target>
       </segment>
@@ -622,7 +622,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">122</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>I heard about that. What happened?&lt;end&gt;</source>
         <target state="needs-translation">Я чув про це. Що сталося?&lt;end&gt;</target>
       </segment>
@@ -632,7 +632,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">124</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Tell me more.&lt;end&gt;</source>
         <target state="needs-translation">Розкажи мені більше.&lt;end&gt;</target>
       </segment>
@@ -642,7 +642,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">126</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>I'd rather not discuss that.&lt;end&gt;</source>
         <target state="needs-translation">Я б волів не обговорювати це.&lt;end&gt;</target>
       </segment>
@@ -652,7 +652,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">128</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Fair enough. &lt;end&gt;</source>
         <target state="needs-translation">Гаразд. &lt;end&gt;</target>
       </segment>
@@ -662,7 +662,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">130</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Going somewhere?&lt;end&gt;</source>
         <target state="needs-translation">Кудись збираєшся?&lt;end&gt;</target>
       </segment>
@@ -672,7 +672,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">132</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>Don't know, don't wanna know.&lt;end&gt;</source>
         <target state="needs-translation">Не знаю, і не хочу знати.&lt;end&gt;</target>
       </segment>
@@ -682,7 +682,7 @@ Just go to her.&lt;end&gt;</source>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">134</mda:meta>
       </mda:metadata>
-      <segment state="translated">
+      <segment state="translated" xml:space="preserve">
         <source>she &lt;end&gt;</source>
         <target state="needs-translation">вона &lt;end&gt;</target>
       </segment>

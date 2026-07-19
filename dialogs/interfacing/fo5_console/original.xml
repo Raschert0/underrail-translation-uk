@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Stored ore: $(context.loc_fo5_storedOre)
 Loaded ore: $(context.loc_fo5_loadedOre)
 Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</source>
@@ -20,7 +20,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>
 ::Super steel melting program loaded. Controls overriden.::&lt;end&gt;</source>
         <target state="final">
@@ -32,7 +32,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>
 ::Furnace cooling down.::&lt;end&gt;</source>
         <target state="final">
@@ -44,7 +44,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -54,7 +54,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Recall the cart.::&lt;end&gt;</source>
         <target state="final">::Recall the cart.::&lt;end&gt;</target>
       </segment>
@@ -64,7 +64,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Unload the cart.::&lt;end&gt;</source>
         <target state="final">::Unload the cart.::&lt;end&gt;</target>
       </segment>
@@ -74,7 +74,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Cargo scanning successful. No invalid objects detected.::&lt;end&gt;</source>
         <target state="final">::Cargo scanning successful. No invalid objects detected.::&lt;end&gt;</target>
       </segment>
@@ -84,7 +84,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Proceed with unloading.::&lt;end&gt;</source>
         <target state="final">::Proceed with unloading.::&lt;end&gt;</target>
       </segment>
@@ -94,7 +94,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Invalid objects detected inside the cart. Please proceed with cargo inspection.::&lt;end&gt;</source>
         <target state="final">::Invalid objects detected inside the cart. Please proceed with cargo inspection.::&lt;end&gt;</target>
       </segment>
@@ -104,7 +104,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Turn the conveyor belt on.::&lt;end&gt;</source>
         <target state="final">::Turn the conveyor belt on.::&lt;end&gt;</target>
       </segment>
@@ -114,7 +114,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Turn the conveyor belt off.::&lt;end&gt;</source>
         <target state="final">::Turn the conveyor belt off.::&lt;end&gt;</target>
       </segment>
@@ -124,7 +124,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Initiate the melting process.::&lt;end&gt;</source>
         <target state="final">::Initiate the melting process.::&lt;end&gt;</target>
       </segment>
@@ -134,7 +134,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>
 ::Melting in progress.::&lt;end&gt;</source>
         <target state="final">
@@ -146,7 +146,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Drain the tank.::&lt;end&gt;</source>
         <target state="final">::Drain the tank.::&lt;end&gt;</target>
       </segment>
@@ -156,7 +156,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Leave it be.::&lt;end&gt;</source>
         <target state="final">::Leave it be.::&lt;end&gt;</target>
       </segment>
@@ -166,7 +166,7 @@ Conveyor belt: $(context.loc_fo5_conveyorStatus)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>
 ::Tank full.::&lt;end&gt;</source>
         <target state="final">

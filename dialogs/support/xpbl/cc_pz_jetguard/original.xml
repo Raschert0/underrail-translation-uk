@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The marine raises his hand and signals you to stop.::
 
 Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</source>
@@ -20,7 +20,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -30,7 +30,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Name's $(context.player.Name).&lt;end&gt;</source>
         <target state="final">Name's $(context.player.Name).&lt;end&gt;</target>
       </segment>
@@ -40,7 +40,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He points a handheld scanner at your jet ski; red light reflects off his goggles.::
 
 &lt;end&gt;</source>
@@ -54,7 +54,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm sorry, Corporal, but you're going to have to see Private Lloyd at the warehouse entrance, over at the civilian dock. This entrance is for authorized vessels only.&lt;end&gt;</source>
         <target state="final">I'm sorry, Corporal, but you're going to have to see Private Lloyd at the warehouse entrance, over at the civilian dock. This entrance is for authorized vessels only.&lt;end&gt;</target>
       </segment>
@@ -64,7 +64,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -74,7 +74,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>And my vessel is not authorized?&lt;end&gt;</source>
         <target state="final">And my vessel is not authorized?&lt;end&gt;</target>
       </segment>
@@ -84,7 +84,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>No, $(#sir/ma'am). Not according to the scanner.&lt;end&gt;</source>
         <target state="final">No, $(#sir/ma'am). Not according to the scanner.&lt;end&gt;</target>
       </segment>
@@ -94,7 +94,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm Corporal $(context.player.Name).&lt;end&gt;</source>
         <target state="final">I'm Corporal $(context.player.Name).&lt;end&gt;</target>
       </segment>
@@ -104,7 +104,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -114,7 +114,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>This has got to be some kind of mistake.&lt;end&gt;</source>
         <target state="final">This has got to be some kind of mistake.&lt;end&gt;</target>
       </segment>
@@ -124,7 +124,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>If you're not in the system, you're not docking here. You should know this, Corporal.&lt;end&gt;</source>
         <target state="final">If you're not in the system, you're not docking here. You should know this, Corporal.&lt;end&gt;</target>
       </segment>
@@ -134,7 +134,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>But I was allowed to pass just a few days ago on this very jet ski.&lt;end&gt;</source>
         <target state="final">But I was allowed to pass just a few days ago on this very jet ski.&lt;end&gt;</target>
       </segment>
@@ -144,7 +144,7 @@ Hold it. The port is off-limits to unauthorized personnel.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Then you were authorized to dock on that day. For today you aren't. Simple as that. 
 
 Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and hopefully he'll be able to refer you to someone who can help you.&lt;end&gt;</source>
@@ -158,7 +158,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'll get going then.&lt;end&gt;</source>
         <target state="final">I'll get going then.&lt;end&gt;</target>
       </segment>
@@ -168,7 +168,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>No argument: You're not authorized; you cannot dock.&lt;end&gt;</source>
         <target state="final">No argument: You're not authorized; you cannot dock.&lt;end&gt;</target>
       </segment>
@@ -178,7 +178,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You're not authorized to dock here. Please turn around. Thank you.&lt;end&gt;</source>
         <target state="final">You're not authorized to dock here. Please turn around. Thank you.&lt;end&gt;</target>
       </segment>
@@ -188,7 +188,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>This is where they told me to dock.&lt;end&gt;</source>
         <target state="final">This is where they told me to dock.&lt;end&gt;</target>
       </segment>
@@ -198,7 +198,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What is this place?&lt;end&gt;</source>
         <target state="final">What is this place?&lt;end&gt;</target>
       </segment>
@@ -208,7 +208,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>This is the entrance to Port Zenith, $(#sir/ma'am). Authorized vessels only.&lt;end&gt;</source>
         <target state="final">This is the entrance to Port Zenith, $(#sir/ma'am). Authorized vessels only.&lt;end&gt;</target>
       </segment>
@@ -218,7 +218,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -228,7 +228,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What did I tell you? Turn around your vessel and leave.&lt;end&gt;</source>
         <target state="final">What did I tell you? Turn around your vessel and leave.&lt;end&gt;</target>
       </segment>
@@ -238,7 +238,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>My bad. Goodbye.&lt;end&gt;</source>
         <target state="final">My bad. Goodbye.&lt;end&gt;</target>
       </segment>
@@ -248,7 +248,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -258,7 +258,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -268,7 +268,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">51</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You may not dock here, Corporal.&lt;end&gt;</source>
         <target state="final">You may not dock here, Corporal.&lt;end&gt;</target>
       </segment>
@@ -278,7 +278,7 @@ Now please, Corporal, go speak with Private Lloyd at the warehouse entrance and 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">53</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He points his rifle at you.::
 
 Hands up! Now!&lt;end&gt;</source>
@@ -292,7 +292,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">55</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Wait, wait! I'm one of you guys. I'm Corporal $(context.player.Name).&lt;end&gt;</source>
         <target state="final">Wait, wait! I'm one of you guys. I'm Corporal $(context.player.Name).&lt;end&gt;</target>
       </segment>
@@ -302,7 +302,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">57</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Yeah, right! &lt;end&gt;</source>
         <target state="final">Yeah, right! &lt;end&gt;</target>
       </segment>
@@ -312,7 +312,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">59</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Stay still - you're coming with me!
 
 ::He speaks into his radio.:: Zenith Command, this is Jay-Seven-Five...&lt;end&gt;</source>
@@ -326,7 +326,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">61</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Listen to me!&lt;end&gt;</source>
         <target state="final">Listen to me!&lt;end&gt;</target>
       </segment>
@@ -336,7 +336,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">63</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>...I'm detaining a suspicious person. Will need assistance, over.&lt;end&gt;</source>
         <target state="final">...I'm detaining a suspicious person. Will need assistance, over.&lt;end&gt;</target>
       </segment>
@@ -346,7 +346,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">65</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Resist arrest.::&lt;end&gt;</source>
         <target state="final">::Resist arrest.::&lt;end&gt;</target>
       </segment>
@@ -356,7 +356,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">67</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Resist arrest.::&lt;end&gt;</source>
         <target state="final">::Resist arrest.::&lt;end&gt;</target>
       </segment>
@@ -366,7 +366,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">69</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Resist arrest.::&lt;end&gt;</source>
         <target state="final">::Resist arrest.::&lt;end&gt;</target>
       </segment>
@@ -376,7 +376,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">71</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Why? I didn't do anything wrong.&lt;end&gt;</source>
         <target state="final">Why? I didn't do anything wrong.&lt;end&gt;</target>
       </segment>
@@ -386,7 +386,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">73</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Raise your hands.:: What's going on?&lt;end&gt;</source>
         <target state="final">::Raise your hands.:: What's going on?&lt;end&gt;</target>
       </segment>
@@ -396,7 +396,7 @@ Hands up! Now!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">75</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Fight!::&lt;end&gt;</source>
         <target state="final">::Fight!::&lt;end&gt;</target>
       </segment>

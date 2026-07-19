@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::LEMCO L-MCU-4 - Microchip Implantation/Extraction Unit
 
 If performing microchip implantation, make sure that the appropriate microchip implant has been properly inserted into the slot located above the hand aperture. The unit will automatically evaluate its functionality and request replacement if necessary.
@@ -36,7 +36,7 @@ The procedure should always be performed in the presence of a qualified physicia
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -46,7 +46,7 @@ The procedure should always be performed in the presence of a qualified physicia
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Implant microchip::&lt;end&gt;</source>
         <target state="final">::Implant microchip::&lt;end&gt;</target>
       </segment>
@@ -56,7 +56,7 @@ The procedure should always be performed in the presence of a qualified physicia
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Microchip implant slot is empty. Please insert an appropriate implant into the slot located above the hand aperture.::&lt;end&gt;</source>
         <target state="final">::Microchip implant slot is empty. Please insert an appropriate implant into the slot located above the hand aperture.::&lt;end&gt;</target>
       </segment>
@@ -66,7 +66,7 @@ The procedure should always be performed in the presence of a qualified physicia
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert Phil's microchip implant and put your hand in the aperture.::&lt;end&gt;</source>
         <target state="final">::Insert Phil's microchip implant and put your hand in the aperture.::&lt;end&gt;</target>
       </segment>
@@ -76,7 +76,7 @@ The procedure should always be performed in the presence of a qualified physicia
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::You insert your hand into the aperture and rest it inside a padded cuff; it slowly closes around your wrist, keeping it firmly in place. A syringe-like instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to the needle sterilizes your hand, and then you feel a sting - and the microchip is in. The instrument retracts and the cuff opens.::&lt;end&gt;</source>
         <target state="final">::You insert your hand into the aperture and rest it inside a padded cuff; it slowly closes around your wrist, keeping it firmly in place. A syringe-like instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to the needle sterilizes your hand, and then you feel a sting - and the microchip is in. The instrument retracts and the cuff opens.::&lt;end&gt;</target>
       </segment>
@@ -86,7 +86,7 @@ The procedure should always be performed in the presence of a qualified physicia
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Implantation successful.
 
 Testing... 
@@ -104,7 +104,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Back::&lt;end&gt;</source>
         <target state="final">::Back::&lt;end&gt;</target>
       </segment>
@@ -114,7 +114,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Exit::&lt;end&gt;</source>
         <target state="final">::Exit::&lt;end&gt;</target>
       </segment>
@@ -124,7 +124,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Extract microchip implant::&lt;end&gt;</source>
         <target state="final">::Extract microchip implant::&lt;end&gt;</target>
       </segment>
@@ -134,7 +134,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Waiting for the implantee to insert his/her hand into the aperture...::&lt;end&gt;</source>
         <target state="final">::Waiting for the implantee to insert his/her hand into the aperture...::&lt;end&gt;</target>
       </segment>
@@ -144,7 +144,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Use Todd's severed arm.::&lt;end&gt;</source>
         <target state="final">::Use Todd's severed arm.::&lt;end&gt;</target>
       </segment>
@@ -154,7 +154,7 @@ Test signal received. No issues with the microchip implant detected.::&lt;end&gt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Unable to detect microchip implant. 
 
 Initiating inductive charging...
@@ -172,7 +172,7 @@ Scanning...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Error: Unrecognized implant security module version (newer than expected)
 
 Unable to connect to LIN. Please contact unit maintenance for necessary software updates or troubleshooting.
@@ -190,7 +190,7 @@ The extraction procedure will be aborted.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Use your hand.::&lt;end&gt;</source>
         <target state="final">::Use your hand.::&lt;end&gt;</target>
       </segment>
@@ -200,7 +200,7 @@ The extraction procedure will be aborted.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::You insert your hand into the aperture and rest it in a padded cuff; it slowly closes around your wrist, keeping it firmly in place.::&lt;end&gt;</source>
         <target state="final">::You insert your hand into the aperture and rest it in a padded cuff; it slowly closes around your wrist, keeping it firmly in place.::&lt;end&gt;</target>
       </segment>
@@ -210,7 +210,7 @@ The extraction procedure will be aborted.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::A sharp instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to its tip sterilizes your hand before you feel the whole thing driving into your flesh, but the pain is barely noticeable. A second passes - and the microchip is out, disappearing inside the unit. You hear a familiar spraying sound coming from inside the unit, and following a short delay the microchip implant drops into a small tray on the unit's right side.::&lt;end&gt;</source>
         <target state="final">::A sharp instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to its tip sterilizes your hand before you feel the whole thing driving into your flesh, but the pain is barely noticeable. A second passes - and the microchip is out, disappearing inside the unit. You hear a familiar spraying sound coming from inside the unit, and following a short delay the microchip implant drops into a small tray on the unit's right side.::&lt;end&gt;</target>
       </segment>
@@ -220,7 +220,7 @@ The extraction procedure will be aborted.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Extraction successful.
 
 The microchip implant has been sterilized and deposited to the extraction tray.::&lt;end&gt;</source>
@@ -234,7 +234,7 @@ The microchip implant has been sterilized and deposited to the extraction tray.:
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Microchip implant not detected. Make sure that the hand is bare and has been properly inserted into the aperture.::&lt;end&gt;</source>
         <target state="final">::Microchip implant not detected. Make sure that the hand is bare and has been properly inserted into the aperture.::&lt;end&gt;</target>
       </segment>
@@ -244,7 +244,7 @@ The microchip implant has been sterilized and deposited to the extraction tray.:
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Use Phil's arm.::&lt;end&gt;</source>
         <target state="final">::Use Phil's arm.::&lt;end&gt;</target>
       </segment>
@@ -254,7 +254,7 @@ The microchip implant has been sterilized and deposited to the extraction tray.:
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Following the on-screen instructions, you carefully remove the glove from the hand. The gloved hand has always felt somewhat fleshy when pressed, much fuller than one would expect, as if the glove has somehow preserved this very old hand from decay. The glove *has* preserved it. Too well, in fact.::&lt;end&gt;</source>
         <target state="final">::Following the on-screen instructions, you carefully remove the glove from the hand. The gloved hand has always felt somewhat fleshy when pressed, much fuller than one would expect, as if the glove has somehow preserved this very old hand from decay. The glove *has* preserved it. Too well, in fact.::&lt;end&gt;</target>
       </segment>
@@ -264,7 +264,7 @@ The microchip implant has been sterilized and deposited to the extraction tray.:
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::You've been carrying a living creature with you all this time, if one can call this a *single* creature. What you actually see is greenish tissue in the shape of a human hand, familiarly tumorous and unmistakably perverted, writhing unhappily at what you've done to it. Or, perhaps, at what you're about to do next.
 
 You insert the hand into the unit's aperture and observe...::&lt;end&gt;</source>
@@ -278,7 +278,7 @@ You insert the hand into the unit's aperture and observe...::&lt;end&gt;</target
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::A sharp instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to its tip sterilizes the hand. The mass begins twitching and squirming, as if in pain, and the implement driving into its flesh exacerbates its condition even further. A second passes - and the microchip is out, disappearing inside the unit. You hear a familiar spraying sound coming from inside the unit, and following a short delay the microchip implant drops into a small tray on the unit's right side.::&lt;end&gt;</source>
         <target state="final">::A sharp instrument emerges from the top of the aperture, targeting the area between the thumb and the index finger. A small nozzle parallel to its tip sterilizes the hand. The mass begins twitching and squirming, as if in pain, and the implement driving into its flesh exacerbates its condition even further. A second passes - and the microchip is out, disappearing inside the unit. You hear a familiar spraying sound coming from inside the unit, and following a short delay the microchip implant drops into a small tray on the unit's right side.::&lt;end&gt;</target>
       </segment>
@@ -288,7 +288,7 @@ You insert the hand into the unit's aperture and observe...::&lt;end&gt;</target
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The hand is motionless and sterilized, its green coloration slowly losing vividness. 
 
 You remove it from the unit: It is now dead, if it was ever even alive.::&lt;end&gt;</source>
@@ -302,7 +302,7 @@ You remove it from the unit: It is now dead, if it was ever even alive.::&lt;end
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>

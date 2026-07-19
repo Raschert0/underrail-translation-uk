@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::STATUS: UNLOCKING...
 
 LOW POWER!
@@ -24,7 +24,7 @@ UNLOCKING...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::LOCK::&lt;end&gt;</source>
         <target state="final">::LOCK::&lt;end&gt;</target>
       </segment>
@@ -34,7 +34,7 @@ UNLOCKING...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::UNLOCK::&lt;end&gt;</source>
         <target state="final">::UNLOCK::&lt;end&gt;</target>
       </segment>
@@ -44,7 +44,7 @@ UNLOCKING...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::EXIT::&lt;end&gt;</source>
         <target state="final">::EXIT::&lt;end&gt;</target>
       </segment>
@@ -54,7 +54,7 @@ UNLOCKING...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::STATUS: LOCKED::&lt;end&gt;</source>
         <target state="final">::STATUS: LOCKED::&lt;end&gt;</target>
       </segment>
@@ -64,7 +64,7 @@ UNLOCKING...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::UNLOCK::&lt;end&gt;</source>
         <target state="final">::UNLOCK::&lt;end&gt;</target>
       </segment>
@@ -74,7 +74,7 @@ UNLOCKING...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::UNLOCKING...
 
 LOW POWER!

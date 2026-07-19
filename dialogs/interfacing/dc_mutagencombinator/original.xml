@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</source>
         <target state="final">::WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</target>
       </segment>
@@ -16,7 +16,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -26,7 +26,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Mutagen Combinator.::
 
 ::Sequence: [$(context.dc_mutagenCompoundText)]::&lt;end&gt;</source>
@@ -40,7 +40,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>
 ::Compound formed.::&lt;end&gt;</source>
         <target state="final">
@@ -52,7 +52,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -62,7 +62,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Modify sequence::&lt;end&gt;</source>
         <target state="final">::Modify sequence::&lt;end&gt;</target>
       </segment>
@@ -72,7 +72,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::ERROR: Cannot modify sequence in compound state.::&lt;end&gt;</source>
         <target state="final">::ERROR: Cannot modify sequence in compound state.::&lt;end&gt;</target>
       </segment>
@@ -82,7 +82,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::$(context.loc_dc_mutagenCombinatorMessage)::&lt;end&gt;</source>
         <target state="final">::$(context.loc_dc_mutagenCombinatorMessage)::&lt;end&gt;</target>
       </segment>
@@ -92,7 +92,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Mutagen Combinator.::
 
 ::Sequence: [$(context.dc_mutagenCompoundText)]::&lt;end&gt;</source>
@@ -106,7 +106,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -116,7 +116,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Ovid-1::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Ovid-1::&lt;end&gt;</target>
       </segment>
@@ -126,7 +126,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Ovid-2::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Ovid-2::&lt;end&gt;</target>
       </segment>
@@ -136,7 +136,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Ovid-3::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Ovid-3::&lt;end&gt;</target>
       </segment>
@@ -146,7 +146,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Solis-1::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Solis-1::&lt;end&gt;</target>
       </segment>
@@ -156,7 +156,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Solis-2::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Solis-2::&lt;end&gt;</target>
       </segment>
@@ -166,7 +166,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Echo-1::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Echo-1::&lt;end&gt;</target>
       </segment>
@@ -176,7 +176,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Echo-2::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Echo-2::&lt;end&gt;</target>
       </segment>
@@ -186,7 +186,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Echo-3::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Echo-3::&lt;end&gt;</target>
       </segment>
@@ -196,7 +196,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Echo-4::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Echo-4::&lt;end&gt;</target>
       </segment>
@@ -206,7 +206,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Io-1::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Io-1::&lt;end&gt;</target>
       </segment>
@@ -216,7 +216,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Io-2::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Io-2::&lt;end&gt;</target>
       </segment>
@@ -226,7 +226,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Io-3::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Io-3::&lt;end&gt;</target>
       </segment>
@@ -236,7 +236,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Helicon-1::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Helicon-1::&lt;end&gt;</target>
       </segment>
@@ -246,7 +246,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Helicon-2::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Helicon-2::&lt;end&gt;</target>
       </segment>
@@ -256,7 +256,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Helicon-3::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Helicon-3::&lt;end&gt;</target>
       </segment>
@@ -266,7 +266,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">51</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Insert mutagen: Exitus-1::&lt;end&gt;</source>
         <target state="final">::Insert mutagen: Exitus-1::&lt;end&gt;</target>
       </segment>
@@ -276,7 +276,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">53</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::ERROR: Prohibited compound detected::&lt;end&gt;</source>
         <target state="final">::ERROR: Prohibited compound detected::&lt;end&gt;</target>
       </segment>
@@ -286,7 +286,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">55</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Back::&lt;end&gt;</source>
         <target state="final">::Back::&lt;end&gt;</target>
       </segment>
@@ -296,7 +296,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">57</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Clear sequence.::&lt;end&gt;</source>
         <target state="final">::Clear sequence.::&lt;end&gt;</target>
       </segment>
@@ -306,7 +306,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">59</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Sequence cleared::&lt;end&gt;</source>
         <target state="final">::Sequence cleared::&lt;end&gt;</target>
       </segment>
@@ -316,7 +316,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">61</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Create compound from sequence::&lt;end&gt;</source>
         <target state="final">::Create compound from sequence::&lt;end&gt;</target>
       </segment>
@@ -326,7 +326,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">63</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Compound formed.::&lt;end&gt;</source>
         <target state="final">::Compound formed.::&lt;end&gt;</target>
       </segment>
@@ -336,7 +336,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">65</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::ERROR: Empty sequence::&lt;end&gt;</source>
         <target state="final">::ERROR: Empty sequence::&lt;end&gt;</target>
       </segment>
@@ -346,7 +346,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">67</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Inject compound::&lt;end&gt;</source>
         <target state="final">::Inject compound::&lt;end&gt;</target>
       </segment>
@@ -356,7 +356,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">69</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Manufacturing agent from sequence...::&lt;end&gt;</source>
         <target state="final">::Manufacturing agent from sequence...::&lt;end&gt;</target>
       </segment>
@@ -366,7 +366,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">71</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Injecting agent...::&lt;end&gt;</source>
         <target state="final">::Injecting agent...::&lt;end&gt;</target>
       </segment>
@@ -376,7 +376,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">73</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Success.
 WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</source>
         <target state="final">::Success.
@@ -388,7 +388,7 @@ WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">75</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Success.
  System stable.::&lt;end&gt;</source>
         <target state="final">::Success.
@@ -400,7 +400,7 @@ WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">77</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::ERROR: No compound::&lt;end&gt;</source>
         <target state="final">::ERROR: No compound::&lt;end&gt;</target>
       </segment>
@@ -410,7 +410,7 @@ WARNING: Toxicity detected in biomass. System unstable.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">79</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Leave::&lt;end&gt;</source>
         <target state="final">::Leave::&lt;end&gt;</target>
       </segment>

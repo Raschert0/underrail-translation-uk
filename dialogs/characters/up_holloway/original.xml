@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::It doesn't take too long for you to finally meet the sergeant. He stands before you proud and solid as a rock, displaying a stern face only slightly diluted by worry and uncertainty. A salute appears almost instantly, and his spoken words aren't far behind.::
 
 Sergeant First Class Timothy Holloway.&lt;end&gt;</source>
@@ -20,7 +20,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Salute.:: Corporal $(context.player.Name), sir.&lt;end&gt;</source>
         <target state="final">::Salute.:: Corporal $(context.player.Name), sir.&lt;end&gt;</target>
       </segment>
@@ -30,7 +30,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>So, they've finally sent someone. I expected an army, but I got one $(#man/woman). ::He chuckles in a rather lifeless fashion.:: I never met you before, so you must have enlisted after I left the base. Welcome to Underrail Protectorate, Corporal - welcome to hell.&lt;end&gt;</source>
         <target state="final">So, they've finally sent someone. I expected an army, but I got one $(#man/woman). ::He chuckles in a rather lifeless fashion.:: I never met you before, so you must have enlisted after I left the base. Welcome to Underrail Protectorate, Corporal - welcome to hell.&lt;end&gt;</target>
       </segment>
@@ -40,7 +40,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>But enough about that. Let's talk, Corporal.&lt;end&gt;</source>
         <target state="final">But enough about that. Let's talk, Corporal.&lt;end&gt;</target>
       </segment>
@@ -50,7 +50,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -60,7 +60,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Why did you leave Fort Apogee? What caused you to abandon your duty?&lt;end&gt;</source>
         <target state="final">Why did you leave Fort Apogee? What caused you to abandon your duty?&lt;end&gt;</target>
       </segment>
@@ -70,7 +70,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He seems hesitant to speak. From the look in his eyes you draw a conclusion that there is an internal conflict within him; as if one side of him wants to give you an answer, while the other demands he does not.::&lt;end&gt;</source>
         <target state="final">::He seems hesitant to speak. From the look in his eyes you draw a conclusion that there is an internal conflict within him; as if one side of him wants to give you an answer, while the other demands he does not.::&lt;end&gt;</target>
       </segment>
@@ -80,7 +80,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm here to help you save your skin, Holloway. As well as your men's. And I can only do that if you tell me what happened.&lt;end&gt;</source>
         <target state="final">I'm here to help you save your skin, Holloway. As well as your men's. And I can only do that if you tell me what happened.&lt;end&gt;</target>
       </segment>
@@ -90,7 +90,7 @@ Sergeant First Class Timothy Holloway.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Holloway's eyes light up. Your words struck a chord with him, and you see he's about to open up.::
 
 It's a long story... It's not one specific thing which happened that made me lead my men here. It's an ongoing problem I have had with the Protectorate. I am disappointed, and I'm furious at the same time. At both the Protectorate and myself.&lt;end&gt;</source>
@@ -104,7 +104,7 @@ It's a long story... It's not one specific thing which happened that made me lea
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Go on, I'm all ears.&lt;end&gt;</source>
         <target state="final">Go on, I'm all ears.&lt;end&gt;</target>
       </segment>
@@ -114,7 +114,7 @@ It's a long story... It's not one specific thing which happened that made me lea
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Holloway takes a deep breath.::
 
 Listen to me carefully, Corporal. I've been a proud member of Underrail Protectorate forces for years. I've fought and killed many, more than I'd like to admit, in order to save others, to protect others, to allow others to live better lives. But lately, that is not what I have been doing.&lt;end&gt;</source>
@@ -128,7 +128,7 @@ Listen to me carefully, Corporal. I've been a proud member of Underrail Protecto
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Lately... I have been killing innocent people... and I have ordered my men to do the same.&lt;end&gt;</source>
         <target state="final">Lately... I have been killing innocent people... and I have ordered my men to do the same.&lt;end&gt;</target>
       </segment>
@@ -138,7 +138,7 @@ Listen to me carefully, Corporal. I've been a proud member of Underrail Protecto
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>But... why?&lt;end&gt;</source>
         <target state="final">But... why?&lt;end&gt;</target>
       </segment>
@@ -148,7 +148,7 @@ Listen to me carefully, Corporal. I've been a proud member of Underrail Protecto
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Because *I* was ordered the same thing, Corporal. I didn't know who I was killing at the time. 
 
 Raiders? Bad intel, but they're dead anyway - good job, Holloway! Good job, Sarge. Free Drones? Bad intel, those weren't the Free Drones, but they might have helped them at one point. Intel "suggested" so. Good job, Sarge! Good job!&lt;end&gt;</source>
@@ -162,7 +162,7 @@ Raiders? Bad intel, but they're dead anyway - good job, Holloway! Good job, Sarg
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Like they didn't care. Some of my superiors didn't even blink when I confronted them about it. "Who cares, they are all ratters!" - one lieutenant even said.
 
 I felt like I'm crazy, derailed. It made me sick, that's not what I signed for, damn it!&lt;end&gt;</source>
@@ -176,7 +176,7 @@ I felt like I'm crazy, derailed. It made me sick, that's not what I signed for, 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I am not the only one who thinks that way, Corporal. See all these men? They felt betrayed too. Protectorate, now it seems to me, is not about protecting anyone but... about something I don't understand anymore. Maybe the people in charge changed, or maybe I was blind all along.
 
 I tried to get to the colonel, but I was shot down long before I could even reach him. Officers, those bigots and sadists I confronted, started backstabbing me - spreading the word I'd gone mad! They knew what I was going to do and so they made their moves quicker than the blink of an eye.&lt;end&gt;</source>
@@ -190,7 +190,7 @@ I tried to get to the colonel, but I was shot down long before I could even reac
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I couldn't fight it! It felt like one of those dreams where you try to outrun something but you just cannot. You feel slow and sluggish as you run - like your legs are made of pure lead. And you try and you try... but you're too slow... My foes were always ahead of me, spreading their lies...
 
 Eventually I realized it probably wouldn't do a damn thing even if I did manage to speak to the colonel. So I made a conscious decision to leave Fort Apogee with my men, who felt the same way I did.&lt;end&gt;</source>
@@ -204,7 +204,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He sighs.:: That is all there is to it, Corporal. Those were my reasons for leaving Fort Apogee with my men.&lt;end&gt;</source>
         <target state="final">::He sighs.:: That is all there is to it, Corporal. Those were my reasons for leaving Fort Apogee with my men.&lt;end&gt;</target>
       </segment>
@@ -214,7 +214,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>No one is completely innocent.&lt;end&gt;</source>
         <target state="final">No one is completely innocent.&lt;end&gt;</target>
       </segment>
@@ -224,7 +224,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Hogwash, Corporal! I don't know what the hell you're thinking, but an increasing number of people I was ordered to kill... we were ordered to kill weren't neither bandits, nor raiders, nor Free Drones. They were regular people. Some poor bastards get bullets between their eyes, and the excuse is always "bad intel." Bad intel, but good job, Sergeant Holloway. Good job! You did your duty.&lt;end&gt;</source>
         <target state="final">Hogwash, Corporal! I don't know what the hell you're thinking, but an increasing number of people I was ordered to kill... we were ordered to kill weren't neither bandits, nor raiders, nor Free Drones. They were regular people. Some poor bastards get bullets between their eyes, and the excuse is always "bad intel." Bad intel, but good job, Sergeant Holloway. Good job! You did your duty.&lt;end&gt;</target>
       </segment>
@@ -234,7 +234,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I don't see what could possibly make you abandon your duty, Holloway.&lt;end&gt;</source>
         <target state="final">I don't see what could possibly make you abandon your duty, Holloway.&lt;end&gt;</target>
       </segment>
@@ -244,7 +244,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I see you don't want to tell me that, fine. Let's ask a different question.&lt;end&gt;</source>
         <target state="final">I see you don't want to tell me that, fine. Let's ask a different question.&lt;end&gt;</target>
       </segment>
@@ -254,7 +254,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Holloway says nothing.::&lt;end&gt;</source>
         <target state="final">::Holloway says nothing.::&lt;end&gt;</target>
       </segment>
@@ -264,7 +264,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Your story changes everything. Maybe I can talk to the colonel and explain everything to him and convince him not to be too hard on you.&lt;end&gt;</source>
         <target state="final">Your story changes everything. Maybe I can talk to the colonel and explain everything to him and convince him not to be too hard on you.&lt;end&gt;</target>
       </segment>
@@ -274,7 +274,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Corporal... the only thing we want is to be left alone. I think that is impossible, but if you're willing to give it a shot, then I have no objections.&lt;end&gt;</source>
         <target state="final">Corporal... the only thing we want is to be left alone. I think that is impossible, but if you're willing to give it a shot, then I have no objections.&lt;end&gt;</target>
       </segment>
@@ -284,7 +284,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">51</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'll be back once I've talked to the colonel.&lt;end&gt;</source>
         <target state="final">I'll be back once I've talked to the colonel.&lt;end&gt;</target>
       </segment>
@@ -294,7 +294,7 @@ Eventually I realized it probably wouldn't do a damn thing even if I did manage 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">53</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He nods.:: My men will lead you out.
 
 Thank you... Corporal.&lt;end&gt;</source>
@@ -308,7 +308,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">55</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Leave.::&lt;end&gt;</source>
         <target state="final">::Leave.::&lt;end&gt;</target>
       </segment>
@@ -318,7 +318,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">57</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You are not hiding very well. The Protectorate knows you're here, as you can see.&lt;end&gt;</source>
         <target state="final">You are not hiding very well. The Protectorate knows you're here, as you can see.&lt;end&gt;</target>
       </segment>
@@ -328,7 +328,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">59</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I never had any illusion that we'd escape the all-seeing eye of the Protectorate. We could have tried making a run for Core City but... we'd bite the dust long before we reached it.&lt;end&gt;</source>
         <target state="final">I never had any illusion that we'd escape the all-seeing eye of the Protectorate. We could have tried making a run for Core City but... we'd bite the dust long before we reached it.&lt;end&gt;</target>
       </segment>
@@ -338,7 +338,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">61</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Here, at least, we can stand proud, for now. We'll see what's going to happen.&lt;end&gt;</source>
         <target state="final">Here, at least, we can stand proud, for now. We'll see what's going to happen.&lt;end&gt;</target>
       </segment>
@@ -348,7 +348,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">63</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm here to convince you to return to Fort Apogee and surrender.&lt;end&gt;</source>
         <target state="final">I'm here to convince you to return to Fort Apogee and surrender.&lt;end&gt;</target>
       </segment>
@@ -358,7 +358,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">65</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You sound determined. So, you want me to return and what... be executed for desertion? I know you think I'm not the one who should talk of honor, but I don't see any honor in being shot like a pig.&lt;end&gt;</source>
         <target state="final">You sound determined. So, you want me to return and what... be executed for desertion? I know you think I'm not the one who should talk of honor, but I don't see any honor in being shot like a pig.&lt;end&gt;</target>
       </segment>
@@ -368,7 +368,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">67</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You think you can evade the Protectorate forever?&lt;end&gt;</source>
         <target state="final">You think you can evade the Protectorate forever?&lt;end&gt;</target>
       </segment>
@@ -378,7 +378,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">69</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He pauses.:: No... No I don't.&lt;end&gt;</source>
         <target state="final">::He pauses.:: No... No I don't.&lt;end&gt;</target>
       </segment>
@@ -388,7 +388,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">71</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I mean, a whole platoon could be waiting in a dark tunnel to attack, for all I know. Maybe this is the end.&lt;end&gt;</source>
         <target state="final">I mean, a whole platoon could be waiting in a dark tunnel to attack, for all I know. Maybe this is the end.&lt;end&gt;</target>
       </segment>
@@ -398,7 +398,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">73</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Persuade]:: You can't escape court-martial, but, if you surrender peacefully, you might get off easier. It's still better than getting shot.&lt;end&gt;</source>
         <target state="final">::[Persuade]:: You can't escape court-martial, but, if you surrender peacefully, you might get off easier. It's still better than getting shot.&lt;end&gt;</target>
       </segment>
@@ -408,7 +408,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">75</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::All eyes seem to be on Holloway. His men are standing still, waiting for his response. They know what he says next is going to be very crucial. He thinks long and hard, and then he looks at every single one of his men. No words are said, but you feel as if they're communicating. Soon, you get your answer.::&lt;end&gt;</source>
         <target state="final">::All eyes seem to be on Holloway. His men are standing still, waiting for his response. They know what he says next is going to be very crucial. He thinks long and hard, and then he looks at every single one of his men. No words are said, but you feel as if they're communicating. Soon, you get your answer.::&lt;end&gt;</target>
       </segment>
@@ -418,7 +418,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">77</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You convinced me, Corporal. We will surrender peacefully. &lt;end&gt;</source>
         <target state="final">You convinced me, Corporal. We will surrender peacefully. &lt;end&gt;</target>
       </segment>
@@ -428,7 +428,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">79</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Glad you were reasonable, Holloway. Time to move.&lt;end&gt;</source>
         <target state="final">Glad you were reasonable, Holloway. Time to move.&lt;end&gt;</target>
       </segment>
@@ -438,7 +438,7 @@ Thank you... Corporal.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">81</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He turns to his men.:: We're moving out, soldiers. ASAP! Get your stuff and move out.
 
 We're returning to Fort Apogee.&lt;end&gt;</source>
@@ -452,7 +452,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">83</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Watch them as they leave.::&lt;end&gt;</source>
         <target state="final">::Watch them as they leave.::&lt;end&gt;</target>
       </segment>
@@ -462,7 +462,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">85</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>So I'll rot like a pig for the rest of my life? That's not an option I'm interested in.&lt;end&gt;</source>
         <target state="final">So I'll rot like a pig for the rest of my life? That's not an option I'm interested in.&lt;end&gt;</target>
       </segment>
@@ -472,7 +472,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">87</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Intimidate]:: If you don't surrender now, you will be shot like a pig anyway. Not just you, all men you've basically led to death.&lt;end&gt;</source>
         <target state="final">::[Intimidate]:: If you don't surrender now, you will be shot like a pig anyway. Not just you, all men you've basically led to death.&lt;end&gt;</target>
       </segment>
@@ -482,7 +482,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">89</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::All eyes are on Holloway. His men are waiting for his crucial response. He thinks long and hard, and then he looks at every single one of his men. No words are said, but you feel as if they're communicating. Soon, you get your answer.::
 &lt;end&gt;</source>
         <target state="final">::All eyes are on Holloway. His men are waiting for his crucial response. He thinks long and hard, and then he looks at every single one of his men. No words are said, but you feel as if they're communicating. Soon, you get your answer.::
@@ -494,7 +494,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">91</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>They followed me willingly, Corporal. And if we're destined to be shot... like pigs if it must be so, then we'll do it as free men.&lt;end&gt;</source>
         <target state="final">They followed me willingly, Corporal. And if we're destined to be shot... like pigs if it must be so, then we'll do it as free men.&lt;end&gt;</target>
       </segment>
@@ -504,7 +504,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">93</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I have other questions.&lt;end&gt;</source>
         <target state="final">I have other questions.&lt;end&gt;</target>
       </segment>
@@ -514,7 +514,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">95</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Of course, Corporal.&lt;end&gt;</source>
         <target state="final">Of course, Corporal.&lt;end&gt;</target>
       </segment>
@@ -524,7 +524,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">97</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I convinced the colonel to reduce your punishment. He will also start an investigation that is to determine if what you told me is true.&lt;end&gt;</source>
         <target state="final">I convinced the colonel to reduce your punishment. He will also start an investigation that is to determine if what you told me is true.&lt;end&gt;</target>
       </segment>
@@ -534,7 +534,7 @@ We're returning to Fort Apogee.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">99</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Holloway seems relieved.::
 
 Well... it's better than I expected, it most certainly is...&lt;end&gt;</source>
@@ -548,7 +548,7 @@ Well... it's better than I expected, it most certainly is...&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">101</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You do have to return to Fort Apogee and turn in all your equipment. You will still face court-martial, but I doubt the punishment will be as severe.&lt;end&gt;</source>
         <target state="final">You do have to return to Fort Apogee and turn in all your equipment. You will still face court-martial, but I doubt the punishment will be as severe.&lt;end&gt;</target>
       </segment>
@@ -558,7 +558,7 @@ Well... it's better than I expected, it most certainly is...&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">103</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>That is something I'm willing to accept. Corporal, I must thank you for this. You've helped us so much.
 
 We will head to Fort Apogee at once. ::He salutes you, then turns to his men.::
@@ -576,7 +576,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">105</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I need to leave, but I'll return again.&lt;end&gt;</source>
         <target state="final">I need to leave, but I'll return again.&lt;end&gt;</target>
       </segment>
@@ -586,7 +586,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">107</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I think we're done here, Holloway. You'll get the Protectorate answer shortly.&lt;end&gt;</source>
         <target state="final">I think we're done here, Holloway. You'll get the Protectorate answer shortly.&lt;end&gt;</target>
       </segment>
@@ -596,7 +596,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">109</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'll be waiting for it. Goodbye, Corporal. Have a good life.&lt;end&gt;</source>
         <target state="final">I'll be waiting for it. Goodbye, Corporal. Have a good life.&lt;end&gt;</target>
       </segment>
@@ -606,7 +606,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">111</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Leave.::&lt;end&gt;</source>
         <target state="final">::Leave.::&lt;end&gt;</target>
       </segment>
@@ -616,7 +616,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">113</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm going to kill you all, you honorless bastards! ::Attack!::&lt;end&gt;</source>
         <target state="final">I'm going to kill you all, you honorless bastards! ::Attack!::&lt;end&gt;</target>
       </segment>
@@ -626,7 +626,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">115</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You gave away your rank when you abandoned your duty, Holloway. I'm Corporal $(context.player.Name).&lt;end&gt;</source>
         <target state="final">You gave away your rank when you abandoned your duty, Holloway. I'm Corporal $(context.player.Name).&lt;end&gt;</target>
       </segment>
@@ -636,7 +636,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">117</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Perhaps, Corporal, perhaps... I know what I did - what we all did. But to these few men, I'm still Sarge. And in all honesty, that's what matters more to me.&lt;end&gt;</source>
         <target state="final">Perhaps, Corporal, perhaps... I know what I did - what we all did. But to these few men, I'm still Sarge. And in all honesty, that's what matters more to me.&lt;end&gt;</target>
       </segment>
@@ -646,7 +646,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">119</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>So, Corporal, here you are. I expected an army, but I got one $(#man/woman). ::He chuckles in a rather lifeless fashion.:: I never met you before, so you must have enlisted after I had left the base. Welcome to Underrail Protectorate, Corporal - welcome to hell.&lt;end&gt;</source>
         <target state="final">So, Corporal, here you are. I expected an army, but I got one $(#man/woman). ::He chuckles in a rather lifeless fashion.:: I never met you before, so you must have enlisted after I had left the base. Welcome to Underrail Protectorate, Corporal - welcome to hell.&lt;end&gt;</target>
       </segment>
@@ -656,7 +656,7 @@ Alright, soldiers, let's move out.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">121</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We meet again, Corporal.&lt;end&gt;</source>
         <target state="final">We meet again, Corporal.&lt;end&gt;</target>
       </segment>

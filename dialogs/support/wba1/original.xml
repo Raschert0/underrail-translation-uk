@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'll be staying here a while longer.&lt;end&gt;</source>
         <target state="final">I'll be staying here a while longer.&lt;end&gt;</target>
       </segment>
@@ -16,7 +16,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>They're expecting you inside.&lt;end&gt;</source>
         <target state="final">They're expecting you inside.&lt;end&gt;</target>
       </segment>
@@ -26,7 +26,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Sorry, $(context.player.Name). No one else is allowed inside for now.&lt;end&gt;</source>
         <target state="final">Sorry, $(context.player.Name). No one else is allowed inside for now.&lt;end&gt;</target>
       </segment>
@@ -36,7 +36,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He nods.:: $(context.player.Name).&lt;end&gt;</source>
         <target state="final">::He nods.:: $(context.player.Name).&lt;end&gt;</target>
       </segment>

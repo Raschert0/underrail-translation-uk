@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::LEMCO L-MSU-P4 - Medication Synthesis Unit
 
 This unit is a working prototype and as such might exhibit errors during operation. Contact us at nexus.medtech.medsynth for problem reporting and suggestions. 
@@ -28,7 +28,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -38,7 +38,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::MSCC gauge level: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</source>
         <target state="final">::MSCC gauge level: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</target>
       </segment>
@@ -48,7 +48,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>:: - Please replace the MedSynth chemical canister.::&lt;end&gt;</source>
         <target state="final">:: - Please replace the MedSynth chemical canister.::&lt;end&gt;</target>
       </segment>
@@ -58,7 +58,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -68,7 +68,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize antidote (-5%)::&lt;end&gt;</source>
         <target state="final">::Synthesize antidote (-5%)::&lt;end&gt;</target>
       </segment>
@@ -78,7 +78,7 @@ Please select the item you want to synthesize. The percentage of total MedSynth 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Preparing container... Done.
 
 Synthesizing...
@@ -96,7 +96,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize health hypo (-5%)::&lt;end&gt;</source>
         <target state="final">::Synthesize health hypo (-5%)::&lt;end&gt;</target>
       </segment>
@@ -106,7 +106,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize advanced health hypo (-10%)::&lt;end&gt;</source>
         <target state="final">::Synthesize advanced health hypo (-10%)::&lt;end&gt;</target>
       </segment>
@@ -116,7 +116,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize morphine shot (-10%)::&lt;end&gt;</source>
         <target state="final">::Synthesize morphine shot (-10%)::&lt;end&gt;</target>
       </segment>
@@ -126,7 +126,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize adrenaline shot (-10%)::&lt;end&gt;</source>
         <target state="final">::Synthesize adrenaline shot (-10%)::&lt;end&gt;</target>
       </segment>
@@ -136,7 +136,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize psi booster (-5%)::&lt;end&gt;</source>
         <target state="final">::Synthesize psi booster (-5%)::&lt;end&gt;</target>
       </segment>
@@ -146,7 +146,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize desaturated psionic inhalant (-5%)::&lt;end&gt;</source>
         <target state="final">::Synthesize desaturated psionic inhalant (-5%)::&lt;end&gt;</target>
       </segment>
@@ -156,7 +156,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize irongut (-15%)::&lt;end&gt;</source>
         <target state="final">::Synthesize irongut (-15%)::&lt;end&gt;</target>
       </segment>
@@ -166,7 +166,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize coagulation shot (-15%)::&lt;end&gt;</source>
         <target state="final">::Synthesize coagulation shot (-15%)::&lt;end&gt;</target>
       </segment>
@@ -176,7 +176,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Other medication::&lt;end&gt;</source>
         <target state="final">::Other medication::&lt;end&gt;</target>
       </segment>
@@ -186,7 +186,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesis of these types of medication is currently disabled. Check work log for more information.::&lt;end&gt;</source>
         <target state="final">::Synthesis of these types of medication is currently disabled. Check work log for more information.::&lt;end&gt;</target>
       </segment>
@@ -196,7 +196,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Hacking] Enable synthesis of more medication types::&lt;end&gt;</source>
         <target state="final">::[Hacking] Enable synthesis of more medication types::&lt;end&gt;</target>
       </segment>
@@ -206,7 +206,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Please wait...::&lt;end&gt;</source>
         <target state="final">::Please wait...::&lt;end&gt;</target>
       </segment>
@@ -216,7 +216,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -226,7 +226,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Warning: Synthesis of these types of medication hasn't been fully tested and could result in malsynthesized substances or even complete synthesis failures!
 
 ::&lt;end&gt;</source>
@@ -240,7 +240,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::MSCC gauge level: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</source>
         <target state="final">::MSCC gauge level: $(context.loc_xpbl_rf_medicationSynthesisCanisterCharge)%::&lt;end&gt;</target>
       </segment>
@@ -250,7 +250,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>:: - Please replace the canister.::&lt;end&gt;</source>
         <target state="final">:: - Please replace the canister.::&lt;end&gt;</target>
       </segment>
@@ -260,7 +260,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -270,7 +270,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize focus stim (-15%)::&lt;end&gt;</source>
         <target state="final">::Synthesize focus stim (-15%)::&lt;end&gt;</target>
       </segment>
@@ -280,7 +280,7 @@ Synthesis successful. Please collect your item from the deposit tray.::&lt;end&g
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">51</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Preparing container... Done.
 
 Synthesizing...
@@ -298,7 +298,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">53</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -308,7 +308,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">55</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesis unsuccessful!
 
 Disposing of waste product...
@@ -326,7 +326,7 @@ Waste disposal successful.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">57</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesis data has been logged for evaluation.
 
 ::&lt;end&gt;</source>
@@ -340,7 +340,7 @@ Waste disposal successful.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">59</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -350,7 +350,7 @@ Waste disposal successful.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">61</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesis successful. Please collect your item from the deposit tray.::&lt;end&gt;</source>
         <target state="final">::Synthesis successful. Please collect your item from the deposit tray.::&lt;end&gt;</target>
       </segment>
@@ -360,7 +360,7 @@ Waste disposal successful.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">63</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize super health hypo (-15%)::&lt;end&gt;</source>
         <target state="final">::Synthesize super health hypo (-15%)::&lt;end&gt;</target>
       </segment>
@@ -370,7 +370,7 @@ Waste disposal successful.::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">65</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Preparing container... Done.
 
 Synthesizing...
@@ -388,7 +388,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">67</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -398,7 +398,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">69</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -408,7 +408,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">71</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize supersoldier drug (-25%)::&lt;end&gt;</source>
         <target state="final">::Synthesize supersoldier drug (-25%)::&lt;end&gt;</target>
       </segment>
@@ -418,7 +418,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">73</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Preparing container... Done.
 
 Synthesizing...
@@ -436,7 +436,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">75</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -446,7 +446,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">77</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -456,7 +456,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">79</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize psi reinvigorator (-30%)::&lt;end&gt;</source>
         <target state="final">::Synthesize psi reinvigorator (-30%)::&lt;end&gt;</target>
       </segment>
@@ -466,7 +466,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">81</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Preparing container... Done.
 
 Synthesizing...
@@ -484,7 +484,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">83</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -494,7 +494,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">85</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -504,7 +504,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">87</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Back::&lt;end&gt;</source>
         <target state="final">::Back::&lt;end&gt;</target>
       </segment>
@@ -514,7 +514,7 @@ Synthesizing...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">89</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Unknown error! 
 
 Rebooting...::&lt;end&gt;</source>
@@ -528,7 +528,7 @@ Rebooting...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">91</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize focus stim (-15%)::&lt;end&gt;</source>
         <target state="final">::Synthesize focus stim (-15%)::&lt;end&gt;</target>
       </segment>
@@ -538,7 +538,7 @@ Rebooting...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">93</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize super health hypo (-15%)::&lt;end&gt;</source>
         <target state="final">::Synthesize super health hypo (-15%)::&lt;end&gt;</target>
       </segment>
@@ -548,7 +548,7 @@ Rebooting...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">95</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize supersoldier drug (-25%)::&lt;end&gt;</source>
         <target state="final">::Synthesize supersoldier drug (-25%)::&lt;end&gt;</target>
       </segment>
@@ -558,7 +558,7 @@ Rebooting...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">97</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Synthesize psi reinvigorator (-30%)::&lt;end&gt;</source>
         <target state="final">::Synthesize psi reinvigorator (-30%)::&lt;end&gt;</target>
       </segment>
@@ -568,7 +568,7 @@ Rebooting...::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">99</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Exit::&lt;end&gt;</source>
         <target state="final">::Exit::&lt;end&gt;</target>
       </segment>

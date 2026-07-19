@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The weapon appears to be inactive. Yet when you hold it by the grip, the small display flashes red, displaying the message - "Unauthorized user".
 
 Upon further inspection you find a connector on the side...::&lt;end&gt;</source>
@@ -20,7 +20,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</target
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Connect a haxxor to the weapon.::&lt;end&gt;</source>
         <target state="final">::Connect a haxxor to the weapon.::&lt;end&gt;</target>
       </segment>
@@ -30,7 +30,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</target
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The weapon's display turns yellow. The "Unauthorized user" message persists.::&lt;end&gt;</source>
         <target state="final">::The weapon's display turns yellow. The "Unauthorized user" message persists.::&lt;end&gt;</target>
       </segment>
@@ -40,7 +40,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</target
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -50,7 +50,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</target
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Hacking] Access basic information.::&lt;end&gt;</source>
         <target state="final">::[Hacking] Access basic information.::&lt;end&gt;</target>
       </segment>
@@ -60,7 +60,7 @@ Upon further inspection you find a connector on the side...::&lt;end&gt;</target
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::*About:*
 
 Manufacturer: DETeK, Dis, North Underrail
@@ -82,7 +82,7 @@ Last servicing date: Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Software information::&lt;end&gt;</source>
         <target state="final">::Software information::&lt;end&gt;</target>
       </segment>
@@ -92,7 +92,7 @@ Last servicing date: Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::*Software information:*
 
 OS version: 1.2.897
@@ -110,7 +110,7 @@ Network address: Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Back::&lt;end&gt;</source>
         <target state="final">::Back::&lt;end&gt;</target>
       </segment>
@@ -120,7 +120,7 @@ Network address: Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Exit::&lt;end&gt;</source>
         <target state="final">::Exit::&lt;end&gt;</target>
       </segment>
@@ -130,7 +130,7 @@ Network address: Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Power information::&lt;end&gt;</source>
         <target state="final">::Power information::&lt;end&gt;</target>
       </segment>
@@ -140,7 +140,7 @@ Network address: Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::*Power information:*
 
 Supercapacitor type: 1x HV hybrid
@@ -160,7 +160,7 @@ Battery status: Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Weapon information::&lt;end&gt;</source>
         <target state="final">::Weapon information::&lt;end&gt;</target>
       </segment>
@@ -170,7 +170,7 @@ Battery status: Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::*Weapon information:*
 
 *Lethal mode:*
@@ -208,7 +208,7 @@ Note: energy "shot" as defined under section 4.8 of BCMS/5.3 UPMS::&lt;end&gt;</
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::User information::&lt;end&gt;</source>
         <target state="final">::User information::&lt;end&gt;</target>
       </segment>
@@ -218,7 +218,7 @@ Note: energy "shot" as defined under section 4.8 of BCMS/5.3 UPMS::&lt;end&gt;</
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Authorized users (1):
 
 *U8HU3CSD* - Ronald Westrock
@@ -240,7 +240,7 @@ Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Hacking] Add a new user.::&lt;end&gt;</source>
         <target state="final">::[Hacking] Add a new user.::&lt;end&gt;</target>
       </segment>
@@ -250,7 +250,7 @@ Unavailable::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Collecting biometric data...
 
 Please hold the weapon by its grip until all the necessary information has been collected.::&lt;end&gt;</source>
@@ -264,7 +264,7 @@ Please hold the weapon by its grip until all the necessary information has been 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Do as it says.::&lt;end&gt;</source>
         <target state="final">::Do as it says.::&lt;end&gt;</target>
       </segment>
@@ -274,7 +274,7 @@ Please hold the weapon by its grip until all the necessary information has been 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Successfully added a new user:
 
 *TSMSL2SR - $(context.player.Name)*::&lt;end&gt;</source>
@@ -288,7 +288,7 @@ Please hold the weapon by its grip until all the necessary information has been 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Error: Access Denied::&lt;end&gt;</source>
         <target state="final">::Error: Access Denied::&lt;end&gt;</target>
       </segment>
@@ -298,7 +298,7 @@ Please hold the weapon by its grip until all the necessary information has been 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Back::&lt;end&gt;</source>
         <target state="final">::Back::&lt;end&gt;</target>
       </segment>
@@ -308,7 +308,7 @@ Please hold the weapon by its grip until all the necessary information has been 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Warning: Unauthorized user detected. Logging biometric data...::&lt;end&gt;</source>
         <target state="final">::Warning: Unauthorized user detected. Logging biometric data...::&lt;end&gt;</target>
       </segment>
@@ -318,7 +318,7 @@ Please hold the weapon by its grip until all the necessary information has been 
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Put it away.::&lt;end&gt;</source>
         <target state="final">::Put it away.::&lt;end&gt;</target>
       </segment>

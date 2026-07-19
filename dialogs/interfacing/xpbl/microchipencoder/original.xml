@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::LEMCO LMIE-1
 
 Note: This device has been unlocked by Senior Security Officer Jordan Grayling and does not require authorization in order to write data.
@@ -28,7 +28,7 @@ Detecting active RFID microchip implants...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::2 active microchip implants ::&lt;end&gt;</source>
         <target state="final">::2 active microchip implants ::&lt;end&gt;</target>
       </segment>
@@ -38,7 +38,7 @@ Detecting active RFID microchip implants...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::detected.::&lt;end&gt;</source>
         <target state="final">::detected.::&lt;end&gt;</target>
       </segment>
@@ -48,7 +48,7 @@ Detecting active RFID microchip implants...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Access RFID041317-674F::&lt;end&gt;</source>
         <target state="final">::Access RFID041317-674F::&lt;end&gt;</target>
       </segment>
@@ -58,7 +58,7 @@ Detecting active RFID microchip implants...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::RFID041317-674F::&lt;end&gt;</source>
         <target state="final">::RFID041317-674F::&lt;end&gt;</target>
       </segment>
@@ -68,7 +68,7 @@ Detecting active RFID microchip implants...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Read personal information::&lt;end&gt;</source>
         <target state="final">::Read personal information::&lt;end&gt;</target>
       </segment>
@@ -78,7 +78,7 @@ Detecting active RFID microchip implants...
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Personal information: 
 
 PID: 041317-674F
@@ -106,7 +106,7 @@ Marital status: Married (to Astrid Kristian Jacobsen)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Security clearance level: C-4::&lt;end&gt;</source>
         <target state="final">::Security clearance level: C-4::&lt;end&gt;</target>
       </segment>
@@ -116,7 +116,7 @@ Marital status: Married (to Astrid Kristian Jacobsen)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Back::&lt;end&gt;</source>
         <target state="final">::Back::&lt;end&gt;</target>
       </segment>
@@ -126,7 +126,7 @@ Marital status: Married (to Astrid Kristian Jacobsen)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Security clearance level: C-2::&lt;end&gt;</source>
         <target state="final">::Security clearance level: C-2::&lt;end&gt;</target>
       </segment>
@@ -136,7 +136,7 @@ Marital status: Married (to Astrid Kristian Jacobsen)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Read medical information::&lt;end&gt;</source>
         <target state="final">::Read medical information::&lt;end&gt;</target>
       </segment>
@@ -146,7 +146,7 @@ Marital status: Married (to Astrid Kristian Jacobsen)::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Height: 192cm
 Weight: 87kg 
 ::&lt;end&gt;</source>
@@ -160,7 +160,7 @@ Weight: 87kg
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Blood pressure: 120/80
 ::&lt;end&gt;</source>
         <target state="final">::Blood pressure: 120/80
@@ -172,7 +172,7 @@ Weight: 87kg
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Blood type: AB-
 Known allergies: none::&lt;end&gt;</source>
         <target state="final">::Blood type: AB-
@@ -184,7 +184,7 @@ Known allergies: none::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Full medical record::&lt;end&gt;</source>
         <target state="final">::Full medical record::&lt;end&gt;</target>
       </segment>
@@ -194,7 +194,7 @@ Known allergies: none::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Error 01: Unable to open file RFID041317-674F_Medical_Record.mci::&lt;end&gt;</source>
         <target state="final">::Error 01: Unable to open file RFID041317-674F_Medical_Record.mci::&lt;end&gt;</target>
       </segment>
@@ -204,7 +204,7 @@ Known allergies: none::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Blood pressure: Unavailable (last recorded: 311/284)
 ::&lt;end&gt;</source>
         <target state="final">::Blood pressure: Unavailable (last recorded: 311/284)
@@ -216,7 +216,7 @@ Known allergies: none::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Implant information::&lt;end&gt;</source>
         <target state="final">::Implant information::&lt;end&gt;</target>
       </segment>
@@ -226,7 +226,7 @@ Known allergies: none::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Implant ID: RFID041317-674F
 Manufacturer: LEMCO
 Model name: L-RFID 2.4
@@ -254,7 +254,7 @@ Implantation date: LE 13.03.102::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Tracking information::&lt;end&gt;</source>
         <target state="final">::Tracking information::&lt;end&gt;</target>
       </segment>
@@ -264,7 +264,7 @@ Implantation date: LE 13.03.102::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Error 08: Tracking information currently unavailable.::&lt;end&gt;</source>
         <target state="final">::Error 08: Tracking information currently unavailable.::&lt;end&gt;</target>
       </segment>
@@ -274,7 +274,7 @@ Implantation date: LE 13.03.102::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Change security clearance level::&lt;end&gt;</source>
         <target state="final">::Change security clearance level::&lt;end&gt;</target>
       </segment>
@@ -284,7 +284,7 @@ Implantation date: LE 13.03.102::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Current security clearance level: C-4::&lt;end&gt;</source>
         <target state="final">::Current security clearance level: C-4::&lt;end&gt;</target>
       </segment>
@@ -294,7 +294,7 @@ Implantation date: LE 13.03.102::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>
 ::Available security clearance level codes: C-0, C-1, C-2, C-3, C-4.::&lt;end&gt;</source>
         <target state="final">
@@ -306,7 +306,7 @@ Implantation date: LE 13.03.102::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Upgrade security clearance level.::&lt;end&gt;</source>
         <target state="final">::Upgrade security clearance level.::&lt;end&gt;</target>
       </segment>
@@ -316,7 +316,7 @@ Implantation date: LE 13.03.102::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">51</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Done.
 
 Security clearance level for microchip implant RFID041317-674F has been upgraded to C-4.::&lt;end&gt;</source>
@@ -330,7 +330,7 @@ Security clearance level for microchip implant RFID041317-674F has been upgraded
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">53</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Current security clearance level: C-2::&lt;end&gt;</source>
         <target state="final">::Current security clearance level: C-2::&lt;end&gt;</target>
       </segment>
@@ -340,7 +340,7 @@ Security clearance level for microchip implant RFID041317-674F has been upgraded
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">55</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Back::&lt;end&gt;</source>
         <target state="final">::Back::&lt;end&gt;</target>
       </segment>
@@ -350,7 +350,7 @@ Security clearance level for microchip implant RFID041317-674F has been upgraded
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">57</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Access RFID191026-835T::&lt;end&gt;</source>
         <target state="final">::Access RFID191026-835T::&lt;end&gt;</target>
       </segment>
@@ -360,7 +360,7 @@ Security clearance level for microchip implant RFID041317-674F has been upgraded
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">59</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Accessing RFID191026-835T...::&lt;end&gt;</source>
         <target state="final">::Accessing RFID191026-835T...::&lt;end&gt;</target>
       </segment>
@@ -370,7 +370,7 @@ Security clearance level for microchip implant RFID041317-674F has been upgraded
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">61</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Error: Connection lost.
 
 Please make sure that the microchip implant is operational and within range of the device. If the problem persists, visit your nearest medical office or contact health.medtech.implant for more information.::&lt;end&gt;</source>
@@ -384,7 +384,7 @@ Please make sure that the microchip implant is operational and within range of t
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">63</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -394,7 +394,7 @@ Please make sure that the microchip implant is operational and within range of t
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">65</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Turn off::&lt;end&gt;</source>
         <target state="final">::Turn off::&lt;end&gt;</target>
       </segment>
@@ -404,7 +404,7 @@ Please make sure that the microchip implant is operational and within range of t
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">67</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::1 active microchip implant ::&lt;end&gt;</source>
         <target state="final">::1 active microchip implant ::&lt;end&gt;</target>
       </segment>
@@ -414,7 +414,7 @@ Please make sure that the microchip implant is operational and within range of t
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">69</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::No active microchip implants detected.::&lt;end&gt;</source>
         <target state="final">::No active microchip implants detected.::&lt;end&gt;</target>
       </segment>

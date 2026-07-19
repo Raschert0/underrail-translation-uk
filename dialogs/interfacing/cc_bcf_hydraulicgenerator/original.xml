@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::This large machine has "Biocorp Hydraulics North BCHG-223 - Hydraulic Generator" written on it. It seems to be powered off.::&lt;end&gt;</source>
         <target state="final">::This large machine has "Biocorp Hydraulics North BCHG-223 - Hydraulic Generator" written on it. It seems to be powered off.::&lt;end&gt;</target>
       </segment>
@@ -16,7 +16,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -26,7 +26,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Inspect the machine.::&lt;end&gt;</source>
         <target state="final">::Inspect the machine.::&lt;end&gt;</target>
       </segment>
@@ -36,7 +36,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Pressing the power button makes the machine successfully start-up, but it displays error 43, which means nothing to you. Upon further inspection, you notice one of the panels on the machine is loosely screwed. You remove the panel and look inside, noticing that certain mechanical components look broken.::&lt;end&gt;</source>
         <target state="final">::Pressing the power button makes the machine successfully start-up, but it displays error 43, which means nothing to you. Upon further inspection, you notice one of the panels on the machine is loosely screwed. You remove the panel and look inside, noticing that certain mechanical components look broken.::&lt;end&gt;</target>
       </segment>
@@ -46,7 +46,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Mechanics] Attempt to repair the generator.::&lt;end&gt;</source>
         <target state="final">::[Mechanics] Attempt to repair the generator.::&lt;end&gt;</target>
       </segment>
@@ -56,7 +56,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::You remove one of the panels on the machine and notice certain parts are broken. You proceed to replace all the broken parts, and after that you press the power button. It starts on the first try. Several options show up on the display.::&lt;end&gt;</source>
         <target state="final">::You remove one of the panels on the machine and notice certain parts are broken. You proceed to replace all the broken parts, and after that you press the power button. It starts on the first try. Several options show up on the display.::&lt;end&gt;</target>
       </segment>
@@ -66,7 +66,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Biocorp Hydraulics North BCHG-223  Hydraulic Generator
 
 Welcome. Please select one of the options: ::&lt;end&gt;</source>
@@ -80,7 +80,7 @@ Welcome. Please select one of the options: ::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -90,7 +90,7 @@ Welcome. Please select one of the options: ::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Initiate the elevator start-up process::&lt;end&gt;</source>
         <target state="final">::Initiate the elevator start-up process::&lt;end&gt;</target>
       </segment>
@@ -100,7 +100,7 @@ Welcome. Please select one of the options: ::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Initiating...
 
 Elevator start-up process successfully initiated::&lt;end&gt;</source>
@@ -114,7 +114,7 @@ Elevator start-up process successfully initiated::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Back::&lt;end&gt;</source>
         <target state="final">::Back::&lt;end&gt;</target>
       </segment>
@@ -124,7 +124,7 @@ Elevator start-up process successfully initiated::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Initiating...
 
 Error 55: Hydraulic fluid levels low
@@ -144,7 +144,7 @@ Operation aborted::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Perform a system check::&lt;end&gt;</source>
         <target state="final">::Perform a system check::&lt;end&gt;</target>
       </segment>
@@ -154,7 +154,7 @@ Operation aborted::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Please wait...
 
 All systems are up and running
@@ -170,7 +170,7 @@ No errors detected::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Please wait...
 
 All internal and external systems passed the check successfully
@@ -186,7 +186,7 @@ Elevator start-up process can safely be initiated::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Please wait...
 
 1 error(s) detected
@@ -206,7 +206,7 @@ Please check fluid tanks and fluid delivery pump status
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Exit::&lt;end&gt;</source>
         <target state="final">::Exit::&lt;end&gt;</target>
       </segment>
@@ -216,7 +216,7 @@ Please check fluid tanks and fluid delivery pump status
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Even though you possess the parts for the generator, you find it's just too complicated for you to repair it on your own.::&lt;end&gt;</source>
         <target state="final">::Even though you possess the parts for the generator, you find it's just too complicated for you to repair it on your own.::&lt;end&gt;</target>
       </segment>
@@ -226,7 +226,7 @@ Please check fluid tanks and fluid delivery pump status
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::It appears to you that this machine can't be repaired without some spare parts.::&lt;end&gt;</source>
         <target state="final">::It appears to you that this machine can't be repaired without some spare parts.::&lt;end&gt;</target>
       </segment>
@@ -236,7 +236,7 @@ Please check fluid tanks and fluid delivery pump status
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Leave.::&lt;end&gt;</source>
         <target state="final">::Leave.::&lt;end&gt;</target>
       </segment>

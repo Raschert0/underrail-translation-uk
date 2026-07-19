@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Two robed women stand in the middle of a small cavern, facing each other. Their gleaming eyes become focused on you the moment you reveal your presence. The darkness of the cave as well as that of their hoods make it difficult for you to discern any facial features of these two women, but the details are not your concern right now - their hostile poses are.::&lt;end&gt;</source>
         <target state="final">::Two robed women stand in the middle of a small cavern, facing each other. Their gleaming eyes become focused on you the moment you reveal your presence. The darkness of the cave as well as that of their hoods make it difficult for you to discern any facial features of these two women, but the details are not your concern right now - their hostile poses are.::&lt;end&gt;</target>
       </segment>
@@ -16,7 +16,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::One of the two women speaks with a frigid, unwelcoming voice.::
 
 Identify yourself, visitor. Who are you and what is your purpose here?&lt;end&gt;</source>
@@ -30,7 +30,7 @@ Identify yourself, visitor. Who are you and what is your purpose here?&lt;end&gt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm $(context.player.Name) and I mean you no harm.&lt;end&gt;</source>
         <target state="final">I'm $(context.player.Name) and I mean you no harm.&lt;end&gt;</target>
       </segment>
@@ -40,7 +40,7 @@ Identify yourself, visitor. Who are you and what is your purpose here?&lt;end&gt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The two women exchange looks, but not words. A short glance is all it takes for them to know what the other one is thinking, it seems.::
 
 $(context.player.Name)... I am Adira, and this is my sister Beatrice.&lt;end&gt;</source>
@@ -54,7 +54,7 @@ $(context.player.Name)... I am Adira, and this is my sister Beatrice.&lt;end&gt;
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Your purpose here, $(context.player.Name)?&lt;end&gt;</source>
         <target state="final">Your purpose here, $(context.player.Name)?&lt;end&gt;</target>
       </segment>
@@ -64,7 +64,7 @@ $(context.player.Name)... I am Adira, and this is my sister Beatrice.&lt;end&gt;
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I heard about the monster - Behemoth.&lt;end&gt;</source>
         <target state="final">I heard about the monster - Behemoth.&lt;end&gt;</target>
       </segment>
@@ -74,7 +74,7 @@ $(context.player.Name)... I am Adira, and this is my sister Beatrice.&lt;end&gt;
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The two women exchange looks yet again. This time, their wordless communication took a bit longer than previously. Still, you eventually get your response.::
 
 Many came here for this very reason. I'm sure you walked past the remains of some on your way in.&lt;end&gt;</source>
@@ -88,7 +88,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -98,7 +98,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What can you tell me about the Forsaken Behemoth?&lt;end&gt;</source>
         <target state="final">What can you tell me about the Forsaken Behemoth?&lt;end&gt;</target>
       </segment>
@@ -108,7 +108,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::She smiles.:: You've gotten this far, so I think you deserve the truth. The Forsaken Behemoth doesn't exist. All the things you've been told are, in fact, false.&lt;end&gt;</source>
         <target state="final">::She smiles.:: You've gotten this far, so I think you deserve the truth. The Forsaken Behemoth doesn't exist. All the things you've been told are, in fact, false.&lt;end&gt;</target>
       </segment>
@@ -118,7 +118,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Everything you heard is a product of my sister's skillful manipulation. If one has the ability to control fire, moving air to create frightening sounds is not an issue. Especially when the entrance to the cave helps it resonate and reach the ears of superstitious ferrymen.&lt;end&gt;</source>
         <target state="final">Everything you heard is a product of my sister's skillful manipulation. If one has the ability to control fire, moving air to create frightening sounds is not an issue. Especially when the entrance to the cave helps it resonate and reach the ears of superstitious ferrymen.&lt;end&gt;</target>
       </segment>
@@ -128,7 +128,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I guess your ruse worked. You convinced a lot of people that this island is the home of a terrifying monster.&lt;end&gt;</source>
         <target state="final">I guess your ruse worked. You convinced a lot of people that this island is the home of a terrifying monster.&lt;end&gt;</target>
       </segment>
@@ -138,7 +138,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Ironically, our whole plan also attracted a fair number of crazy monster hunters - or at least what we suspect they were, since they came well armed.&lt;end&gt;</source>
         <target state="final">Ironically, our whole plan also attracted a fair number of crazy monster hunters - or at least what we suspect they were, since they came well armed.&lt;end&gt;</target>
       </segment>
@@ -148,7 +148,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>And some of them were really rude. They still haven't left the island to this day! It's impolite to overstay your welcome, I say. ::She flashes a malicious smile.::&lt;end&gt;</source>
         <target state="final">And some of them were really rude. They still haven't left the island to this day! It's impolite to overstay your welcome, I say. ::She flashes a malicious smile.::&lt;end&gt;</target>
       </segment>
@@ -158,7 +158,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>So basically, there's nothing interesting on this island.&lt;end&gt;</source>
         <target state="final">So basically, there's nothing interesting on this island.&lt;end&gt;</target>
       </segment>
@@ -168,7 +168,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>No... Unless you think hoppers and mindshrooms are interesting.&lt;end&gt;</source>
         <target state="final">No... Unless you think hoppers and mindshrooms are interesting.&lt;end&gt;</target>
       </segment>
@@ -178,7 +178,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Nothing interesting at all?&lt;end&gt;</source>
         <target state="final">Nothing interesting at all?&lt;end&gt;</target>
       </segment>
@@ -188,7 +188,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The visitor meant other than the two of us...&lt;end&gt;</source>
         <target state="final">The visitor meant other than the two of us...&lt;end&gt;</target>
       </segment>
@@ -198,7 +198,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm sure of that...&lt;end&gt;</source>
         <target state="final">I'm sure of that...&lt;end&gt;</target>
       </segment>
@@ -208,7 +208,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I had other questions...&lt;end&gt;</source>
         <target state="final">I had other questions...&lt;end&gt;</target>
       </segment>
@@ -218,7 +218,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::They both nod.::&lt;end&gt;</source>
         <target state="final">::They both nod.::&lt;end&gt;</target>
       </segment>
@@ -228,7 +228,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>But why are you doing all this?&lt;end&gt;</source>
         <target state="final">But why are you doing all this?&lt;end&gt;</target>
       </segment>
@@ -238,7 +238,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We don't like visitors. I think that's fairly obvious.&lt;end&gt;</source>
         <target state="final">We don't like visitors. I think that's fairly obvious.&lt;end&gt;</target>
       </segment>
@@ -248,7 +248,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I see you really don't want visitors here.&lt;end&gt;</source>
         <target state="final">I see you really don't want visitors here.&lt;end&gt;</target>
       </segment>
@@ -258,7 +258,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I heard about a creature called Forsaken Behemoth living on this island. Do you know anything about that?&lt;end&gt;</source>
         <target state="final">I heard about a creature called Forsaken Behemoth living on this island. Do you know anything about that?&lt;end&gt;</target>
       </segment>
@@ -268,7 +268,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">51</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>How did you two end up here, if I may ask?&lt;end&gt;</source>
         <target state="final">How did you two end up here, if I may ask?&lt;end&gt;</target>
       </segment>
@@ -278,7 +278,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">53</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Allow us to tell you a story...&lt;end&gt;</source>
         <target state="final">Allow us to tell you a story...&lt;end&gt;</target>
       </segment>
@@ -288,7 +288,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">55</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Alright. You may start.&lt;end&gt;</source>
         <target state="final">Alright. You may start.&lt;end&gt;</target>
       </segment>
@@ -298,7 +298,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">57</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::You manage catch a little smile on Adira's face, vanishing as quickly as it appeared. Even if it was there only for a brief moment, you could tell that hiding behind that smile was not joy but, in fact, sadness.::&lt;end&gt;</source>
         <target state="final">::You manage catch a little smile on Adira's face, vanishing as quickly as it appeared. Even if it was there only for a brief moment, you could tell that hiding behind that smile was not joy but, in fact, sadness.::&lt;end&gt;</target>
       </segment>
@@ -308,7 +308,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">59</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>A young girl was born and raised in a small station far away from here. The girl had a twin sister whom she loved more than anything in this world. The two were inseparable.&lt;end&gt;</source>
         <target state="final">A young girl was born and raised in a small station far away from here. The girl had a twin sister whom she loved more than anything in this world. The two were inseparable.&lt;end&gt;</target>
       </segment>
@@ -318,7 +318,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">61</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The sisters were inseparable - as most twins tend to be. As unfortunate as it is, several tragedies made the bond between the sisters even stronger than before. Their father, a good and caring man, died from the hands of vile raiders that had constantly circled the station like packs of hungry rathounds. Their mother, a gorgeous woman and equally - if not more - caring than the father died from a broken heart.&lt;end&gt;</source>
         <target state="final">The sisters were inseparable - as most twins tend to be. As unfortunate as it is, several tragedies made the bond between the sisters even stronger than before. Their father, a good and caring man, died from the hands of vile raiders that had constantly circled the station like packs of hungry rathounds. Their mother, a gorgeous woman and equally - if not more - caring than the father died from a broken heart.&lt;end&gt;</target>
       </segment>
@@ -328,7 +328,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">63</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The little girl and her sister were left living with their grandmother, an old, disabled woman who could barely take care of herself, let alone feed and raise two young girls.&lt;end&gt;</source>
         <target state="final">The little girl and her sister were left living with their grandmother, an old, disabled woman who could barely take care of herself, let alone feed and raise two young girls.&lt;end&gt;</target>
       </segment>
@@ -338,7 +338,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">65</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The sisters never loved her. She was a selfish and bitter old woman. It was a miracle how she even managed to raise such a selfless and intelligent son when she herself was quite the opposite.&lt;end&gt;</source>
         <target state="final">The sisters never loved her. She was a selfish and bitter old woman. It was a miracle how she even managed to raise such a selfless and intelligent son when she herself was quite the opposite.&lt;end&gt;</target>
       </segment>
@@ -348,7 +348,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">67</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The next page of the story spells poverty and a life that was about to get even harder: The girl and her sister shared a gift - they were psionics. One was gifted with the ability to control fire, one the ability to control frost.&lt;end&gt;</source>
         <target state="final">The next page of the story spells poverty and a life that was about to get even harder: The girl and her sister shared a gift - they were psionics. One was gifted with the ability to control fire, one the ability to control frost.&lt;end&gt;</target>
       </segment>
@@ -358,7 +358,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">69</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Control is the wrong word here, for they had no real control over their abilities and there was no one in that small, forgotten station that could help them embrace this ability that they possessed and teach them how to use it properly.&lt;end&gt;</source>
         <target state="final">Control is the wrong word here, for they had no real control over their abilities and there was no one in that small, forgotten station that could help them embrace this ability that they possessed and teach them how to use it properly.&lt;end&gt;</target>
       </segment>
@@ -368,7 +368,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">71</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Accidental fires, flying ice spikes and an occasional frozen door knob quickly raised the whole station to its feet; the residents were filled with fear as well as prejudice.&lt;end&gt;</source>
         <target state="final">Accidental fires, flying ice spikes and an occasional frozen door knob quickly raised the whole station to its feet; the residents were filled with fear as well as prejudice.&lt;end&gt;</target>
       </segment>
@@ -378,7 +378,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">73</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The sisters were scared too; they didn't want to hurt anyone, they tried not to. It was a true horror. There was no one to guide them, show them the right way to innervate and use their abilities - no one to help them! All they got were looks of fear and prejudice, and even hatred. Even their own grandmother proved even more useless and selfish than what the girls had originally thought.&lt;end&gt;</source>
         <target state="final">The sisters were scared too; they didn't want to hurt anyone, they tried not to. It was a true horror. There was no one to guide them, show them the right way to innervate and use their abilities - no one to help them! All they got were looks of fear and prejudice, and even hatred. Even their own grandmother proved even more useless and selfish than what the girls had originally thought.&lt;end&gt;</target>
       </segment>
@@ -388,7 +388,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">75</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Fear overcame the simple-minded. The girls were forced to leave in fear of their "evil" powers hurting the community. Grandmother had a pseudo-wise explanation which, at least in her own distorted mind, justified such actions. The sisters were given some money, some clothes, some food, and were told to go to Core City. There, someone could perhaps help them.&lt;end&gt;</source>
         <target state="final">Fear overcame the simple-minded. The girls were forced to leave in fear of their "evil" powers hurting the community. Grandmother had a pseudo-wise explanation which, at least in her own distorted mind, justified such actions. The sisters were given some money, some clothes, some food, and were told to go to Core City. There, someone could perhaps help them.&lt;end&gt;</target>
       </segment>
@@ -398,7 +398,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">77</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Nonsense...&lt;end&gt;</source>
         <target state="final">Nonsense...&lt;end&gt;</target>
       </segment>
@@ -408,7 +408,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">79</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The capital of decadence, torn apart by rioters, was luckily not the destination of the little sisters. They were sick of people, of the whole treacherous human race! The bastards, the inconsiderate walking piles of rathound excrement threw us out - FORCED US OUT like we were... like we weren't even human beings... If we had been eaten by rabid animals right outside the station they wouldn't have cared one stinking bit! They got rid of us. We were not their problem anymore, and that's all they cared about.&lt;end&gt;</source>
         <target state="final">The capital of decadence, torn apart by rioters, was luckily not the destination of the little sisters. They were sick of people, of the whole treacherous human race! The bastards, the inconsiderate walking piles of rathound excrement threw us out - FORCED US OUT like we were... like we weren't even human beings... If we had been eaten by rabid animals right outside the station they wouldn't have cared one stinking bit! They got rid of us. We were not their problem anymore, and that's all they cared about.&lt;end&gt;</target>
       </segment>
@@ -418,7 +418,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">81</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::She gives her sister a short glance.:: Naturally, a place - any place untainted by humans was the best place for the little sisters to settle. Not only that, but it also had to be difficult for anyone to reach this place. The little girls tried to find a ferryman to take them to Forsaken Island, an island surrounded by dangerous currents that had doomed a vast number of unfortunate boats in the past and was often avoided. As there was no one willing to take them there, they had to... *steal* their ride.&lt;end&gt;</source>
         <target state="final">::She gives her sister a short glance.:: Naturally, a place - any place untainted by humans was the best place for the little sisters to settle. Not only that, but it also had to be difficult for anyone to reach this place. The little girls tried to find a ferryman to take them to Forsaken Island, an island surrounded by dangerous currents that had doomed a vast number of unfortunate boats in the past and was often avoided. As there was no one willing to take them there, they had to... *steal* their ride.&lt;end&gt;</target>
       </segment>
@@ -428,7 +428,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">83</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The island offered them a life of isolation and sufficient resources to survive. They grew up, and many years later they eventually mastered their "cursed" gifts. They sought and gained control over the abilities that were a burden up to that point. &lt;end&gt;</source>
         <target state="final">The island offered them a life of isolation and sufficient resources to survive. They grew up, and many years later they eventually mastered their "cursed" gifts. They sought and gained control over the abilities that were a burden up to that point. &lt;end&gt;</target>
       </segment>
@@ -438,7 +438,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">85</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>In the end, they only needed each other in life. Through joint effort they managed to survive through everything. And to this day, their bond is stronger then ever. And so are their powers.&lt;end&gt;</source>
         <target state="final">In the end, they only needed each other in life. Through joint effort they managed to survive through everything. And to this day, their bond is stronger then ever. And so are their powers.&lt;end&gt;</target>
       </segment>
@@ -448,7 +448,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">87</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>That was a really sad story. Some people are so small-minded! But as you said, who needs those bastards!&lt;end&gt;</source>
         <target state="final">That was a really sad story. Some people are so small-minded! But as you said, who needs those bastards!&lt;end&gt;</target>
       </segment>
@@ -458,7 +458,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">89</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Well... what's done is done. It's all in the past now.&lt;end&gt;</source>
         <target state="final">Well... what's done is done. It's all in the past now.&lt;end&gt;</target>
       </segment>
@@ -468,7 +468,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">91</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Ugh... I still hate them to this day! I wish...&lt;end&gt;</source>
         <target state="final">Ugh... I still hate them to this day! I wish...&lt;end&gt;</target>
       </segment>
@@ -478,7 +478,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">93</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You wish nothing, Beatrice. Leave it be.&lt;end&gt;</source>
         <target state="final">You wish nothing, Beatrice. Leave it be.&lt;end&gt;</target>
       </segment>
@@ -488,7 +488,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">95</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I... ::She sighs.:: Yes, sister. I'll leave it be.&lt;end&gt;</source>
         <target state="final">I... ::She sighs.:: Yes, sister. I'll leave it be.&lt;end&gt;</target>
       </segment>
@@ -498,7 +498,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">97</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Both of them fall silent. They seem to have drifted off, perhaps somewhere far back in the past.::&lt;end&gt;</source>
         <target state="final">::Both of them fall silent. They seem to have drifted off, perhaps somewhere far back in the past.::&lt;end&gt;</target>
       </segment>
@@ -508,7 +508,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">99</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You might not agree with me, but you were a potential danger to those people. Psionics out of control don't seem safe to me.&lt;end&gt;</source>
         <target state="final">You might not agree with me, but you were a potential danger to those people. Psionics out of control don't seem safe to me.&lt;end&gt;</target>
       </segment>
@@ -518,7 +518,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">101</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>So, throwing us out was perfectly justified according to you? How can you say such a thing? All we needed was some love... some understanding, some help. Nothing else. And we got none of it, not even a little.&lt;end&gt;</source>
         <target state="final">So, throwing us out was perfectly justified according to you? How can you say such a thing? All we needed was some love... some understanding, some help. Nothing else. And we got none of it, not even a little.&lt;end&gt;</target>
       </segment>
@@ -528,7 +528,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">103</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We never hurt anyone, and never would have - not even by accident!&lt;end&gt;</source>
         <target state="final">We never hurt anyone, and never would have - not even by accident!&lt;end&gt;</target>
       </segment>
@@ -538,7 +538,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">105</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm sorry. I didn't mean to sound like I support their decision. Forget I said anything.&lt;end&gt;</source>
         <target state="final">I'm sorry. I didn't mean to sound like I support their decision. Forget I said anything.&lt;end&gt;</target>
       </segment>
@@ -548,7 +548,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">107</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Yeah, whatever you say. I had other question.&lt;end&gt;</source>
         <target state="final">Yeah, whatever you say. I had other question.&lt;end&gt;</target>
       </segment>
@@ -558,7 +558,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">109</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Both of them put on a frown but say nothing.::&lt;end&gt;</source>
         <target state="final">::Both of them put on a frown but say nothing.::&lt;end&gt;</target>
       </segment>
@@ -568,7 +568,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">111</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I don't know what to say to all this...&lt;end&gt;</source>
         <target state="final">I don't know what to say to all this...&lt;end&gt;</target>
       </segment>
@@ -578,7 +578,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">113</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>That's alright. There are times when words cannot describe something you wish to express.&lt;end&gt;</source>
         <target state="final">That's alright. There are times when words cannot describe something you wish to express.&lt;end&gt;</target>
       </segment>
@@ -588,7 +588,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">115</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Adira and I sometimes don't utter a single word for a whole day or two. Yet, we never fail to understand each other.&lt;end&gt;</source>
         <target state="final">Adira and I sometimes don't utter a single word for a whole day or two. Yet, we never fail to understand each other.&lt;end&gt;</target>
       </segment>
@@ -598,7 +598,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">117</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Actually, we haven't talked this much in a long, long time...&lt;end&gt;</source>
         <target state="final">Actually, we haven't talked this much in a long, long time...&lt;end&gt;</target>
       </segment>
@@ -608,7 +608,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">119</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Well now we have a visitor. ::She smiles.::&lt;end&gt;</source>
         <target state="final">Well now we have a visitor. ::She smiles.::&lt;end&gt;</target>
       </segment>
@@ -618,7 +618,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">121</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Now that was a long story! Hey, I grew a long gray beard!&lt;end&gt;</source>
         <target state="final">Now that was a long story! Hey, I grew a long gray beard!&lt;end&gt;</target>
       </segment>
@@ -628,7 +628,7 @@ Many came here for this very reason. I'm sure you walked past the remains of som
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">123</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Both sisters stand in disbelief. Your comment wasn't the one they expected, it seems. They look at each other for a second before Adira replies.::
 
 I am at a loss for words, visitor.&lt;end&gt;</source>
@@ -642,7 +642,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">125</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You think you're funny? You think you can come to our home and act like a jerk!? Why I'll...&lt;end&gt;</source>
         <target state="final">You think you're funny? You think you can come to our home and act like a jerk!? Why I'll...&lt;end&gt;</target>
       </segment>
@@ -652,7 +652,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">127</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm sorry, okay! I didn't mean it like that. Again, I'm sorry.&lt;end&gt;</source>
         <target state="final">I'm sorry, okay! I didn't mean it like that. Again, I'm sorry.&lt;end&gt;</target>
       </segment>
@@ -662,7 +662,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">129</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Let's all calm down. You better watch your words next time, visitor.&lt;end&gt;</source>
         <target state="final">Let's all calm down. You better watch your words next time, visitor.&lt;end&gt;</target>
       </segment>
@@ -672,7 +672,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">131</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Beatrice says nothing. She just stares at you.::&lt;end&gt;</source>
         <target state="final">::Beatrice says nothing. She just stares at you.::&lt;end&gt;</target>
       </segment>
@@ -682,7 +682,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">133</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Did you have any other questions, visitor?&lt;end&gt;</source>
         <target state="final">Did you have any other questions, visitor?&lt;end&gt;</target>
       </segment>
@@ -692,7 +692,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">135</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What? Please continue. I'm really interested in what you were going to say.&lt;end&gt;</source>
         <target state="final">What? Please continue. I'm really interested in what you were going to say.&lt;end&gt;</target>
       </segment>
@@ -702,7 +702,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">137</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>That's it! You're going down!&lt;end&gt;</source>
         <target state="final">That's it! You're going down!&lt;end&gt;</target>
       </segment>
@@ -712,7 +712,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">139</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Fight!::&lt;end&gt;</source>
         <target state="final">::Fight!::&lt;end&gt;</target>
       </segment>
@@ -722,7 +722,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">141</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Wow, someone's oversensitive!&lt;end&gt;</source>
         <target state="final">Wow, someone's oversensitive!&lt;end&gt;</target>
       </segment>
@@ -732,7 +732,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">143</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Overse--!? That's it! You're going down!&lt;end&gt;</source>
         <target state="final">Overse--!? That's it! You're going down!&lt;end&gt;</target>
       </segment>
@@ -742,7 +742,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">145</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What a long story! If I were a man, I'd be sporting a long gray beard by now!&lt;end&gt;</source>
         <target state="final">What a long story! If I were a man, I'd be sporting a long gray beard by now!&lt;end&gt;</target>
       </segment>
@@ -752,7 +752,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">147</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I think you misheard me. I didn't ask for a story, I asked you to tell me how you ended up here.&lt;end&gt;</source>
         <target state="final">I think you misheard me. I didn't ask for a story, I asked you to tell me how you ended up here.&lt;end&gt;</target>
       </segment>
@@ -762,7 +762,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">149</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>ALLOW us to tell you a story...&lt;end&gt;</source>
         <target state="final">ALLOW us to tell you a story...&lt;end&gt;</target>
       </segment>
@@ -772,7 +772,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">151</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Actually, before you start, I had other questions I wanted to ask you.&lt;end&gt;</source>
         <target state="final">Actually, before you start, I had other questions I wanted to ask you.&lt;end&gt;</target>
       </segment>
@@ -782,7 +782,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">153</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What do you do to pass the time here?&lt;end&gt;</source>
         <target state="final">What do you do to pass the time here?&lt;end&gt;</target>
       </segment>
@@ -792,7 +792,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">155</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Besides fishing, picking mushrooms and hunting hoppers...&lt;end&gt;</source>
         <target state="final">Besides fishing, picking mushrooms and hunting hoppers...&lt;end&gt;</target>
       </segment>
@@ -802,7 +802,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">157</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I like creating ice sculptures...&lt;end&gt;</source>
         <target state="final">I like creating ice sculptures...&lt;end&gt;</target>
       </segment>
@@ -812,7 +812,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">159</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I enjoy creating dancing flames of various shapes and sizes...&lt;end&gt;</source>
         <target state="final">I enjoy creating dancing flames of various shapes and sizes...&lt;end&gt;</target>
       </segment>
@@ -822,7 +822,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">161</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We come up with interesting tales...&lt;end&gt;</source>
         <target state="final">We come up with interesting tales...&lt;end&gt;</target>
       </segment>
@@ -832,7 +832,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">163</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Or just meditate... or practice our skills.&lt;end&gt;</source>
         <target state="final">Or just meditate... or practice our skills.&lt;end&gt;</target>
       </segment>
@@ -842,7 +842,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">165</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Life here is not as boring as one might think. Trust us.&lt;end&gt;</source>
         <target state="final">Life here is not as boring as one might think. Trust us.&lt;end&gt;</target>
       </segment>
@@ -852,7 +852,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">167</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Have you ever left this island after you came here?&lt;end&gt;</source>
         <target state="final">Have you ever left this island after you came here?&lt;end&gt;</target>
       </segment>
@@ -862,7 +862,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">169</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>No...&lt;end&gt;</source>
         <target state="final">No...&lt;end&gt;</target>
       </segment>
@@ -872,7 +872,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">171</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>No! Why would we do that?&lt;end&gt;</source>
         <target state="final">No! Why would we do that?&lt;end&gt;</target>
       </segment>
@@ -882,7 +882,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">173</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We don't need anything from the outside world; we have everything we need *right* here.&lt;end&gt;</source>
         <target state="final">We don't need anything from the outside world; we have everything we need *right* here.&lt;end&gt;</target>
       </segment>
@@ -892,7 +892,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">175</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Well, I have to be leaving now. Goodbye.&lt;end&gt;</source>
         <target state="final">Well, I have to be leaving now. Goodbye.&lt;end&gt;</target>
       </segment>
@@ -902,7 +902,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">177</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Where do you think you're going?&lt;end&gt;</source>
         <target state="final">Where do you think you're going?&lt;end&gt;</target>
       </segment>
@@ -912,7 +912,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">179</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Home.&lt;end&gt;</source>
         <target state="final">Home.&lt;end&gt;</target>
       </segment>
@@ -922,7 +922,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">181</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Did you really think we were gonna let you just leave this place and tell anyone about what you witnessed here?&lt;end&gt;</source>
         <target state="final">Did you really think we were gonna let you just leave this place and tell anyone about what you witnessed here?&lt;end&gt;</target>
       </segment>
@@ -932,7 +932,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">183</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>But you seemed talkative and friendly.&lt;end&gt;</source>
         <target state="final">But you seemed talkative and friendly.&lt;end&gt;</target>
       </segment>
@@ -942,7 +942,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">185</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>In all honesty, it was interesting to hear another voice. Perhaps something of the outside world, not that it matters much. In the end, we can't let you get out of here alive.&lt;end&gt;</source>
         <target state="final">In all honesty, it was interesting to hear another voice. Perhaps something of the outside world, not that it matters much. In the end, we can't let you get out of here alive.&lt;end&gt;</target>
       </segment>
@@ -952,7 +952,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">187</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::[Persuade]:: Okay, kill me. Then my powerful friends, who know I'm here, will come looking for me - armed to the teeth. After all, they will be expecting the Behemoth to be here so they'll pack quite a bit of firepower. Can you deal with all of them?&lt;end&gt;</source>
         <target state="final">::[Persuade]:: Okay, kill me. Then my powerful friends, who know I'm here, will come looking for me - armed to the teeth. After all, they will be expecting the Behemoth to be here so they'll pack quite a bit of firepower. Can you deal with all of them?&lt;end&gt;</target>
       </segment>
@@ -962,7 +962,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">189</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Adira is silent, and so is her sister.::&lt;end&gt;</source>
         <target state="final">::Adira is silent, and so is her sister.::&lt;end&gt;</target>
       </segment>
@@ -972,7 +972,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">191</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I know it's hard to trust a complete stranger, but at least give it a shot. What I saw here will remain between you and me. You have my word.&lt;end&gt;</source>
         <target state="final">I know it's hard to trust a complete stranger, but at least give it a shot. What I saw here will remain between you and me. You have my word.&lt;end&gt;</target>
       </segment>
@@ -982,7 +982,7 @@ I am at a loss for words, visitor.&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">193</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Looks are exchanged between the sisters once again. Your answer came quickly, preceded only by a short sigh.::
 
 You convinced us. We won't stop you from leaving, $(context.player.Name). You are free to go.&lt;end&gt;</source>
@@ -996,7 +996,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">195</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Well, I'm outta here. So long!&lt;end&gt;</source>
         <target state="final">Well, I'm outta here. So long!&lt;end&gt;</target>
       </segment>
@@ -1006,7 +1006,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">197</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Goodbye.&lt;end&gt;</source>
         <target state="final">Goodbye.&lt;end&gt;</target>
       </segment>
@@ -1016,7 +1016,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">199</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Your excuse is pathetic! Let's get this over with!&lt;end&gt;</source>
         <target state="final">Your excuse is pathetic! Let's get this over with!&lt;end&gt;</target>
       </segment>
@@ -1026,7 +1026,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">201</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I promise I'll bring you a gift if you let me go! I'll get you something nice!&lt;end&gt;</source>
         <target state="final">I promise I'll bring you a gift if you let me go! I'll get you something nice!&lt;end&gt;</target>
       </segment>
@@ -1036,7 +1036,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">203</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Oooh! I want a doll! ::She laughs out loud.:: Actually... no. I don't need a stinking doll!&lt;end&gt;</source>
         <target state="final">Oooh! I want a doll! ::She laughs out loud.:: Actually... no. I don't need a stinking doll!&lt;end&gt;</target>
       </segment>
@@ -1046,7 +1046,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">205</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>The talk is over!&lt;end&gt;</source>
         <target state="final">The talk is over!&lt;end&gt;</target>
       </segment>
@@ -1056,7 +1056,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">207</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'll give you money if you let me live!&lt;end&gt;</source>
         <target state="final">I'll give you money if you let me live!&lt;end&gt;</target>
       </segment>
@@ -1066,7 +1066,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">209</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::She laughs out loud.:: Money? We have no use for that here! That was pathetic!&lt;end&gt;</source>
         <target state="final">::She laughs out loud.:: Money? We have no use for that here! That was pathetic!&lt;end&gt;</target>
       </segment>
@@ -1076,7 +1076,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">211</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm not going down without a fight! ::Attack!::&lt;end&gt;</source>
         <target state="final">I'm not going down without a fight! ::Attack!::&lt;end&gt;</target>
       </segment>
@@ -1086,7 +1086,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">213</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I just wanted to take a look around.&lt;end&gt;</source>
         <target state="final">I just wanted to take a look around.&lt;end&gt;</target>
       </segment>
@@ -1096,7 +1096,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">215</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>To kill all the hoppers on the island! I hate those filthy creatures!&lt;end&gt;</source>
         <target state="final">To kill all the hoppers on the island! I hate those filthy creatures!&lt;end&gt;</target>
       </segment>
@@ -1106,7 +1106,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">217</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm going on a new adventure!&lt;end&gt;</source>
         <target state="final">I'm going on a new adventure!&lt;end&gt;</target>
       </segment>
@@ -1116,7 +1116,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">219</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>To grab something to eat. I'm starving.&lt;end&gt;</source>
         <target state="final">To grab something to eat. I'm starving.&lt;end&gt;</target>
       </segment>
@@ -1126,7 +1126,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">221</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I gotta go.&lt;end&gt;</source>
         <target state="final">I gotta go.&lt;end&gt;</target>
       </segment>
@@ -1136,7 +1136,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">223</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>A strong current pulled the ferry I was on and I ended up stranded here. I originally intended to go to Core City, but I guess I will be spending some time on this cursed place.&lt;end&gt;</source>
         <target state="final">A strong current pulled the ferry I was on and I ended up stranded here. I originally intended to go to Core City, but I guess I will be spending some time on this cursed place.&lt;end&gt;</target>
       </segment>
@@ -1146,7 +1146,7 @@ You convinced us. We won't stop you from leaving, $(context.player.Name). You ar
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">225</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The two women exchange looks yet again. This time, their wordless communication took a bit longer than previously. Still, you eventually get your response.::
 
 The Forsaken Island itself is very dangerous, and so are the waters around it. You are lucky to still be breathing, visitor.&lt;end&gt;</source>
@@ -1160,7 +1160,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">227</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I wanted to explore the Forsaken Island despite the tales of a great and deadly creature inhabiting it.&lt;end&gt;</source>
         <target state="final">I wanted to explore the Forsaken Island despite the tales of a great and deadly creature inhabiting it.&lt;end&gt;</target>
       </segment>
@@ -1170,7 +1170,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">229</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm here to kill you, steal your stuff and then try to sell it to someone. Die! ::Attack!::&lt;end&gt;</source>
         <target state="final">I'm here to kill you, steal your stuff and then try to sell it to someone. Die! ::Attack!::&lt;end&gt;</target>
       </segment>
@@ -1180,7 +1180,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">231</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Who are *you* and what is going on here?&lt;end&gt;</source>
         <target state="final">Who are *you* and what is going on here?&lt;end&gt;</target>
       </segment>
@@ -1190,7 +1190,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">233</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>We *suggest* you answer our question first, visitor.&lt;end&gt;</source>
         <target state="final">We *suggest* you answer our question first, visitor.&lt;end&gt;</target>
       </segment>
@@ -1200,7 +1200,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">235</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I don't think so, ladies.&lt;end&gt;</source>
         <target state="final">I don't think so, ladies.&lt;end&gt;</target>
       </segment>
@@ -1210,7 +1210,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">237</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>So rude...&lt;end&gt;</source>
         <target state="final">So rude...&lt;end&gt;</target>
       </segment>
@@ -1220,7 +1220,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">239</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I guess I took a wrong turn. Sorry for the disturbance. Bye bye!&lt;end&gt;</source>
         <target state="final">I guess I took a wrong turn. Sorry for the disturbance. Bye bye!&lt;end&gt;</target>
       </segment>
@@ -1230,7 +1230,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">241</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Stop right there! Take a step back and it'll be your last one. Answer our question, visitor! Who are you and what are you doing here?&lt;end&gt;</source>
         <target state="final">Stop right there! Take a step back and it'll be your last one. Answer our question, visitor! Who are you and what are you doing here?&lt;end&gt;</target>
       </segment>
@@ -1240,7 +1240,7 @@ The Forsaken Island itself is very dangerous, and so are the waters around it. Y
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">243</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::The two sisters are silent.::&lt;end&gt;</source>
         <target state="final">::The two sisters are silent.::&lt;end&gt;</target>
       </segment>

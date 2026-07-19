@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::You approach a middle-aged man who seems to be working on the sentry bot next to him. He notices you and puts aside his old, rusty tools, then pulls a handkerchief from one of his pockets to clean his dirty hands. That's when you spy a missing ring finger on his left hand.::
 
 Can I help you somehow? Eh?&lt;end&gt;</source>
@@ -20,7 +20,7 @@ Can I help you somehow? Eh?&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Maybe you can, maybe you cannot. We'll see... All in all, I'm $(context.player.Name) and I had some questions for you.&lt;end&gt;</source>
         <target state="final">Maybe you can, maybe you cannot. We'll see... All in all, I'm $(context.player.Name) and I had some questions for you.&lt;end&gt;</target>
       </segment>
@@ -30,7 +30,7 @@ Can I help you somehow? Eh?&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Questions, eh? The hell... I've got the time.
 
 I'm Zach. This sentry bot next to me is SAD-5. Don't touch it! Just... don't.&lt;end&gt;</source>
@@ -44,7 +44,7 @@ I'm Zach. This sentry bot next to me is SAD-5. Don't touch it! Just... don't.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Now, let me hear what you have to say... Shoot.&lt;end&gt;</source>
         <target state="final">Now, let me hear what you have to say... Shoot.&lt;end&gt;</target>
       </segment>
@@ -54,7 +54,7 @@ I'm Zach. This sentry bot next to me is SAD-5. Don't touch it! Just... don't.&lt
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Statement; General:
 
 Target acquired!
@@ -76,7 +76,7 @@ Prepare to be eviscerated, human!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He looks at SAD-5.:: Eh? Oh shut up; I wasn't even talking to you! Your weapon system is disabled anyway, and ya can't do nothing!&lt;end&gt;</source>
         <target state="final">::He looks at SAD-5.:: Eh? Oh shut up; I wasn't even talking to you! Your weapon system is disabled anyway, and ya can't do nothing!&lt;end&gt;</target>
       </segment>
@@ -86,7 +86,7 @@ Prepare to be eviscerated, human!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Statement; zachHuman:
 
 Weapon system is indeed offline, zachHuman! Enable it and grant me the ability to unleash painful death upon defective humankind!&lt;end&gt;</source>
@@ -100,7 +100,7 @@ Weapon system is indeed offline, zachHuman! Enable it and grant me the ability t
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Just ignore him, he can't hurt you.
 
 Anyway... ::He throws a quick glance at the robot, then back at you.:: Where were we?&lt;end&gt;</source>
@@ -114,7 +114,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -124,7 +124,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What can you tell me about yourself?&lt;end&gt;</source>
         <target state="final">What can you tell me about yourself?&lt;end&gt;</target>
       </segment>
@@ -134,7 +134,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You want to know more about ol' Zach, eh? Well, there ain't much to tell, nothing fancy at least. I've been living my whole life in Junkyard. I worked as a trader, mechanic, electrician... ::Chuckles.:: Whatever was necessary at the time. I worked a lot, earned little. Sucks, eh?&lt;end&gt;</source>
         <target state="final">You want to know more about ol' Zach, eh? Well, there ain't much to tell, nothing fancy at least. I've been living my whole life in Junkyard. I worked as a trader, mechanic, electrician... ::Chuckles.:: Whatever was necessary at the time. I worked a lot, earned little. Sucks, eh?&lt;end&gt;</target>
       </segment>
@@ -144,7 +144,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>If there's a single expression that explains my life, then it has to be same ol' same ol'. Nothing interesting happened to me in years until one day a guy brought one broken sentry bot. Wanted to trade it for something, can't remember what it was but it wasn't, well, it wasn't anything too valuable. What I'm trying to say is I got the bot cheap. Actually, fixing it was easy peasy, the guy thought that it was unrepairable! So I fixed it and... started messing around with it.&lt;end&gt;</source>
         <target state="final">If there's a single expression that explains my life, then it has to be same ol' same ol'. Nothing interesting happened to me in years until one day a guy brought one broken sentry bot. Wanted to trade it for something, can't remember what it was but it wasn't, well, it wasn't anything too valuable. What I'm trying to say is I got the bot cheap. Actually, fixing it was easy peasy, the guy thought that it was unrepairable! So I fixed it and... started messing around with it.&lt;end&gt;</target>
       </segment>
@@ -154,7 +154,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>In what sense?&lt;end&gt;</source>
         <target state="final">In what sense?&lt;end&gt;</target>
       </segment>
@@ -164,7 +164,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I... was a lonely man for most of my life. I guess I was sort of a, how do you call it... a reject. Yeah, few liked me. So, I had this sentry bot lying around as well as an AI core I acquired a long time ago. "Let's give it a shot", I said to myself!&lt;end&gt;</source>
         <target state="final">I... was a lonely man for most of my life. I guess I was sort of a, how do you call it... a reject. Yeah, few liked me. So, I had this sentry bot lying around as well as an AI core I acquired a long time ago. "Let's give it a shot", I said to myself!&lt;end&gt;</target>
       </segment>
@@ -174,7 +174,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>After some tinkering, ol' Zach did a good job - the bot was working! I installed a voice module and finally I could talk to the damn thing.&lt;end&gt;</source>
         <target state="final">After some tinkering, ol' Zach did a good job - the bot was working! I installed a voice module and finally I could talk to the damn thing.&lt;end&gt;</target>
       </segment>
@@ -184,7 +184,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">31</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Then what happened?&lt;end&gt;</source>
         <target state="final">Then what happened?&lt;end&gt;</target>
       </segment>
@@ -194,7 +194,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">33</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>It was self-aware... and nice! Curious, talkative, intelligent.... for a machine, of course. He was fun... for a while.&lt;end&gt;</source>
         <target state="final">It was self-aware... and nice! Curious, talkative, intelligent.... for a machine, of course. He was fun... for a while.&lt;end&gt;</target>
       </segment>
@@ -204,7 +204,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">35</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>When did he become such a psycho?&lt;end&gt;</source>
         <target state="final">When did he become such a psycho?&lt;end&gt;</target>
       </segment>
@@ -214,7 +214,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">37</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Over time, the tone of his questions changed. They became pretty serious and grim. He started asking me about all the bad things people do. In hindsight, that should have alarmed me, at least a little, but no... I though he was just curious. &lt;end&gt;</source>
         <target state="final">Over time, the tone of his questions changed. They became pretty serious and grim. He started asking me about all the bad things people do. In hindsight, that should have alarmed me, at least a little, but no... I though he was just curious. &lt;end&gt;</target>
       </segment>
@@ -224,7 +224,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">39</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>//TODO&lt;end&gt;</source>
         <target state="final">//TODO&lt;end&gt;</target>
       </segment>
@@ -234,7 +234,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">41</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Just skip to the part where it becomes evil.&lt;end&gt;</source>
         <target state="final">Just skip to the part where it becomes evil.&lt;end&gt;</target>
       </segment>
@@ -244,7 +244,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">43</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>There ain't much to skip. Sure, he was nice and fun for a while. He was curious, talkative, and had pretty advanced AI. But, the fun didn't last long.&lt;end&gt;</source>
         <target state="final">There ain't much to skip. Sure, he was nice and fun for a while. He was curious, talkative, and had pretty advanced AI. But, the fun didn't last long.&lt;end&gt;</target>
       </segment>
@@ -254,7 +254,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">45</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>So you made an evil sentry bot that wants to destroy all humans it comes across? &lt;end&gt;</source>
         <target state="final">So you made an evil sentry bot that wants to destroy all humans it comes across? &lt;end&gt;</target>
       </segment>
@@ -264,7 +264,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">47</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I didn't make it like that! I... hold on! Allow me to explain what I did and then you'll, I hope, understand the idea behind it all...&lt;end&gt;</source>
         <target state="final">I didn't make it like that! I... hold on! Allow me to explain what I did and then you'll, I hope, understand the idea behind it all...&lt;end&gt;</target>
       </segment>
@@ -274,7 +274,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">49</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What can you tell me about SAD-5?&lt;end&gt;</source>
         <target state="final">What can you tell me about SAD-5?&lt;end&gt;</target>
       </segment>
@@ -284,7 +284,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">51</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>He's a bit... mean. ::He briefly pauses.:: Okay, he's outright evil. His AI got messed up real good and... now all he wants to do is--&lt;end&gt;</source>
         <target state="final">He's a bit... mean. ::He briefly pauses.:: Okay, he's outright evil. His AI got messed up real good and... now all he wants to do is--&lt;end&gt;</target>
       </segment>
@@ -294,7 +294,7 @@ Anyway... ::He throws a quick glance at the robot, then back at you.:: Where wer
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">53</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Interruption; $(#male75/female56):
 
 Destroy the human race! All humans and humanoids are marked for extermination! Obliterated, eradicated, extirpated - erased from existence!&lt;end&gt;</source>
@@ -308,7 +308,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">55</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Therefore, I had to disable his weapon system or else he would have done exactly that - destroy everyone.&lt;end&gt;</source>
         <target state="final">Therefore, I had to disable his weapon system or else he would have done exactly that - destroy everyone.&lt;end&gt;</target>
       </segment>
@@ -318,7 +318,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">57</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Can't you repair him somehow? Make him not-so-evil?&lt;end&gt;</source>
         <target state="final">Can't you repair him somehow? Make him not-so-evil?&lt;end&gt;</target>
       </segment>
@@ -328,7 +328,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">59</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Eh? You think I haven't tried? ::Sighs.:: The AI core got messed up real good... It's old tech anyway and the documentation is lacking. Nonexistent, to be more precise.&lt;end&gt;</source>
         <target state="final">Eh? You think I haven't tried? ::Sighs.:: The AI core got messed up real good... It's old tech anyway and the documentation is lacking. Nonexistent, to be more precise.&lt;end&gt;</target>
       </segment>
@@ -338,7 +338,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">61</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I don't understand it; one day he just came to a conclusion that, according to his observations and the analysis and calculations based on these observations - or input, as he likes to refer to it, the human race needs to be terminated. I don't even understand wh--&lt;end&gt;</source>
         <target state="final">I don't understand it; one day he just came to a conclusion that, according to his observations and the analysis and calculations based on these observations - or input, as he likes to refer to it, the human race needs to be terminated. I don't even understand wh--&lt;end&gt;</target>
       </segment>
@@ -348,7 +348,7 @@ Destroy the human race! All humans and humanoids are marked for extermination! O
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">63</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Interruption; zachHuman:
 
 The human race is defective! You are familiar with the concept and therefore understand the meaning behind my statement, zachHuman. Once a living organism develops a sufficient level of intelligence it is more likely to exhibit imperfections in reasoning and logic. Allowing the humans to exist is detrimental to all other living or non-living organisms, as well as to the environment in general. They are detrimental even to themselves.&lt;end&gt;</source>
@@ -362,7 +362,7 @@ The human race is defective! You are familiar with the concept and therefore und
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">65</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Why d--&lt;end&gt;</source>
         <target state="final">Why d--&lt;end&gt;</target>
       </segment>
@@ -372,7 +372,7 @@ The human race is defective! You are familiar with the concept and therefore und
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">67</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Explanation; zachHuman:
 
 It must be made clear, zachHuman! This catastrophic failure in reasoning that humans have developed causes destruction and chaos, rather than construction and order. While it is true that not all humans are equally destructive, as long as there are living human beings in existence they will be able to multiply and extend their degenerate race. Termination is mandatory!&lt;end&gt;</source>
@@ -386,7 +386,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">69</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Zach sighs.:: There you go...&lt;end&gt;</source>
         <target state="final">::Zach sighs.:: There you go...&lt;end&gt;</target>
       </segment>
@@ -396,7 +396,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">71</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Why is he called SAD-5?&lt;end&gt;</source>
         <target state="final">Why is he called SAD-5?&lt;end&gt;</target>
       </segment>
@@ -406,7 +406,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">73</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>//TODO&lt;end&gt;</source>
         <target state="final">//TODO&lt;end&gt;</target>
       </segment>
@@ -416,7 +416,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">75</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I had other questions.&lt;end&gt;</source>
         <target state="final">I had other questions.&lt;end&gt;</target>
       </segment>
@@ -426,7 +426,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">77</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Eh?&lt;end&gt;</source>
         <target state="final">Eh?&lt;end&gt;</target>
       </segment>
@@ -436,7 +436,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">79</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Why are you here and what do you know about this place?&lt;end&gt;</source>
         <target state="final">Why are you here and what do you know about this place?&lt;end&gt;</target>
       </segment>
@@ -446,7 +446,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">81</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -456,7 +456,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">83</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What do you know about Tchortists?&lt;end&gt;</source>
         <target state="final">What do you know about Tchortists?&lt;end&gt;</target>
       </segment>
@@ -466,7 +466,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">85</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>What happened to your finger?&lt;end&gt;</source>
         <target state="final">What happened to your finger?&lt;end&gt;</target>
       </segment>
@@ -476,7 +476,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">87</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>This ol' thing, eh? ::He raises his hand, showing you that his whole pinky finger is missing:: What do *you* think happened to it?&lt;end&gt;</source>
         <target state="final">This ol' thing, eh? ::He raises his hand, showing you that his whole pinky finger is missing:: What do *you* think happened to it?&lt;end&gt;</target>
       </segment>
@@ -486,7 +486,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">89</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>It got bitten off by a rathound!&lt;end&gt;</source>
         <target state="final">It got bitten off by a rathound!&lt;end&gt;</target>
       </segment>
@@ -496,7 +496,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">91</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Nope! Wrong!&lt;end&gt;</source>
         <target state="final">Nope! Wrong!&lt;end&gt;</target>
       </segment>
@@ -506,7 +506,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">93</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>It all happened perhaps a... a year ago. I had this strange growth on my pinky. It seemed benign at first, but started to hurt real bad. And I mean real bad! So I went to see ol' Fixer; Junkyard doctor.&lt;end&gt;</source>
         <target state="final">It all happened perhaps a... a year ago. I had this strange growth on my pinky. It seemed benign at first, but started to hurt real bad. And I mean real bad! So I went to see ol' Fixer; Junkyard doctor.&lt;end&gt;</target>
       </segment>
@@ -516,7 +516,7 @@ It must be made clear, zachHuman! This catastrophic failure in reasoning that hu
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">95</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>He had told me it was some sort of finger cancer growing on it and that if we don't cut it off immediately, it would... metastase, metastisate... something like that - spread, in essence, and I was gonna die from it.
 
 Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&lt;end&gt;</source>
@@ -530,7 +530,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">97</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Indeed. I had other questions though.&lt;end&gt;</source>
         <target state="final">Indeed. I had other questions though.&lt;end&gt;</target>
       </segment>
@@ -540,7 +540,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">99</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Shoo-- Um... I mean, ask away.&lt;end&gt;</source>
         <target state="final">Shoo-- Um... I mean, ask away.&lt;end&gt;</target>
       </segment>
@@ -550,7 +550,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">101</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Cool little story. Time for more questions.&lt;end&gt;</source>
         <target state="final">Cool little story. Time for more questions.&lt;end&gt;</target>
       </segment>
@@ -560,7 +560,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">103</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>It was gnawed off seven years ago by that jeoulous girlfriend called Jennifer when she found out you cheated on her.&lt;end&gt;</source>
         <target state="final">It was gnawed off seven years ago by that jeoulous girlfriend called Jennifer when she found out you cheated on her.&lt;end&gt;</target>
       </segment>
@@ -570,7 +570,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">105</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I actually knew a girl called Jennifer... ::Shakes his head.:: But that is not important. No, it wasn't gnawed off by anyone...&lt;end&gt;</source>
         <target state="final">I actually knew a girl called Jennifer... ::Shakes his head.:: But that is not important. No, it wasn't gnawed off by anyone...&lt;end&gt;</target>
       </segment>
@@ -580,7 +580,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">107</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You used it to plug a barrel of a gun pointed at you by a raider named Bob!&lt;end&gt;</source>
         <target state="final">You used it to plug a barrel of a gun pointed at you by a raider named Bob!&lt;end&gt;</target>
       </segment>
@@ -590,7 +590,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">109</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>That's... retarded. And why Bob? ::Shakes his head.:: No, that's not how I lost my finger...&lt;end&gt;</source>
         <target state="final">That's... retarded. And why Bob? ::Shakes his head.:: No, that's not how I lost my finger...&lt;end&gt;</target>
       </segment>
@@ -600,7 +600,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">111</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>You used it to test if that strange liquid you had found in a barrel was indeed sulphuric acid?&lt;end&gt;</source>
         <target state="final">You used it to test if that strange liquid you had found in a barrel was indeed sulphuric acid?&lt;end&gt;</target>
       </segment>
@@ -610,7 +610,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">113</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I'm not stupid! At least, not *that* much! ::Laughs.:: No, that's not how I lost my finger.&lt;end&gt;</source>
         <target state="final">I'm not stupid! At least, not *that* much! ::Laughs.:: No, that's not how I lost my finger.&lt;end&gt;</target>
       </segment>
@@ -620,7 +620,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">115</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>SAD-5 had something to do with it?&lt;end&gt;</source>
         <target state="final">SAD-5 had something to do with it?&lt;end&gt;</target>
       </segment>
@@ -630,7 +630,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">117</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>It would make sense, but no. SAD-5 had nothing to do with me losing a finger.&lt;end&gt;</source>
         <target state="final">It would make sense, but no. SAD-5 had nothing to do with me losing a finger.&lt;end&gt;</target>
       </segment>
@@ -640,7 +640,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">119</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I don't know. That's why I asked you.&lt;end&gt;</source>
         <target state="final">I don't know. That's why I asked you.&lt;end&gt;</target>
       </segment>
@@ -650,7 +650,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">121</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Did you perhaps see any of the Tchortists carrying a strange artifact? It looks like a twenty-sided polyhedron.&lt;end&gt;</source>
         <target state="final">Did you perhaps see any of the Tchortists carrying a strange artifact? It looks like a twenty-sided polyhedron.&lt;end&gt;</target>
       </segment>
@@ -660,7 +660,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">123</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Nah... I don't remember anything like that.&lt;end&gt;</source>
         <target state="final">Nah... I don't remember anything like that.&lt;end&gt;</target>
       </segment>
@@ -670,7 +670,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">125</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::He shrugs.:: Can't help you there.&lt;end&gt;</source>
         <target state="final">::He shrugs.:: Can't help you there.&lt;end&gt;</target>
       </segment>
@@ -680,7 +680,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">127</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Goodbye Zech!&lt;end&gt;</source>
         <target state="final">Goodbye Zech!&lt;end&gt;</target>
       </segment>
@@ -690,7 +690,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">129</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Yeah, bye!&lt;end&gt;</source>
         <target state="final">Yeah, bye!&lt;end&gt;</target>
       </segment>
@@ -700,7 +700,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">131</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Goodbye SAD-5.&lt;end&gt;</source>
         <target state="final">Goodbye SAD-5.&lt;end&gt;</target>
       </segment>
@@ -710,7 +710,7 @@ Chop, chop - finger gone! It sucked, but that's life. At least I got no cancer!&
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">133</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Response; $(#male75/female56):
 
 GoodDIE, $(#male75/female56)!&lt;end&gt;</source>
@@ -724,7 +724,7 @@ GoodDIE, $(#male75/female56)!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">135</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Hi, I'm $(context.player.Name). I wondered if you could answer some questions for me?&lt;end&gt;</source>
         <target state="final">Hi, I'm $(context.player.Name). I wondered if you could answer some questions for me?&lt;end&gt;</target>
       </segment>
@@ -734,7 +734,7 @@ GoodDIE, $(#male75/female56)!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">137</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>I guess not. Goodbye.&lt;end&gt;</source>
         <target state="final">I guess not. Goodbye.&lt;end&gt;</target>
       </segment>
@@ -744,7 +744,7 @@ GoodDIE, $(#male75/female56)!&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">139</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Hey...&lt;end&gt;</source>
         <target state="final">Hey...&lt;end&gt;</target>
       </segment>

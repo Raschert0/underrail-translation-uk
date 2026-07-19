@@ -6,7 +6,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">1</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Session in progress.::
 
 ::Total shots: $(context.ShootingRangeConsoleData.TotalShots)::
@@ -26,7 +26,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">3</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::End session::&lt;end&gt;</source>
         <target state="final">::End session::&lt;end&gt;</target>
       </segment>
@@ -36,7 +36,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">5</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Session ended. Final statistics: ::
 
 ::Total shots: $(context.ShootingRangeConsoleData.TotalShots)::
@@ -56,7 +56,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">7</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>&lt;end&gt;</source>
         <target state="final">&lt;end&gt;</target>
       </segment>
@@ -66,7 +66,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">9</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Continue session::&lt;end&gt;</source>
         <target state="final">::Continue session::&lt;end&gt;</target>
       </segment>
@@ -76,7 +76,7 @@
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">11</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Welcome to the Shooting Range. 
 
 What do you wish to do?::&lt;end&gt;</source>
@@ -90,7 +90,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">13</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Configure target distance::&lt;end&gt;</source>
         <target state="final">::Configure target distance::&lt;end&gt;</target>
       </segment>
@@ -100,7 +100,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">15</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Choose target distance.::&lt;end&gt;</source>
         <target state="final">::Choose target distance.::&lt;end&gt;</target>
       </segment>
@@ -110,7 +110,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">17</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::5 meters::&lt;end&gt;</source>
         <target state="final">::5 meters::&lt;end&gt;</target>
       </segment>
@@ -120,7 +120,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">19</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::8 meters::&lt;end&gt;</source>
         <target state="final">::8 meters::&lt;end&gt;</target>
       </segment>
@@ -130,7 +130,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">21</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::10 meters::&lt;end&gt;</source>
         <target state="final">::10 meters::&lt;end&gt;</target>
       </segment>
@@ -140,7 +140,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">23</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Leave it as it is::&lt;end&gt;</source>
         <target state="final">::Leave it as it is::&lt;end&gt;</target>
       </segment>
@@ -150,7 +150,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">25</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Start new session::&lt;end&gt;</source>
         <target state="final">::Start new session::&lt;end&gt;</target>
       </segment>
@@ -160,7 +160,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">27</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>Session started.&lt;end&gt;</source>
         <target state="final">Session started.&lt;end&gt;</target>
       </segment>
@@ -170,7 +170,7 @@ What do you wish to do?::&lt;end&gt;</target>
         <mda:meta type="version">1</mda:meta>
         <mda:meta type="pos_id">29</mda:meta>
       </mda:metadata>
-      <segment state="reviewed">
+      <segment state="reviewed" xml:space="preserve">
         <source>::Leave::&lt;end&gt;</source>
         <target state="final">::Leave::&lt;end&gt;</target>
       </segment>
