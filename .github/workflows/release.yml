@@ -44,7 +44,7 @@ jobs:
             src_lang: 'en'
             trg_lang: 'uk'
             input_dir: ''
-            output_dir: '${{ github.workspace }}/output'
+            output_dir: '${{ github.workspace }}/output/ukrainian'
             xliff_dir: '${{ github.workspace }}'
             untranslatable_files: []
           ai_studio:
@@ -54,14 +54,14 @@ jobs:
 
       - name: Run XLIFF to LOC conversion
         run: |
-          mkdir -p output
+          mkdir -p output/ukrainian
           cd xliff-2-0-agent && python main.py --mode read-xliff-and-create-loc
 
       - name: Copy static files
-        run: cp info.txt output/info.txt
+        run: cp info.txt output/ukrainian/info.txt
 
       - name: Archive output
-        run: cd output && zip -r "${{ github.workspace }}/ukrainian.zip" .
+        run: cd output && zip -r "${{ github.workspace }}/ukrainian.zip" ukrainian
 
       - name: Determine next version
         id: version
