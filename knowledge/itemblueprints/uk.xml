@@ -192,7 +192,7 @@ The type of the grenade created is dictated by its case, while its power depends
         <source>Pistols can be created from frame and barrel parts. The type and quality of the frame will determine the pistol's overall damage potential, while the barrel will dictate the payload. Not all frame types support all barrel types, however.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="translated">Пістолети можна створювати з деталей: рами та ствола. Тип і якість рами визначать загальний потенціал ушкоджень пістолета, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів. Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
+        <target state="translated">Пістолети можна створювати з деталей: рами та ствола. Тип і якість рами визначать загальний потенціал шкоди пістолета, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів. Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::sniper_Name" name="::sniper_Name">
@@ -214,7 +214,7 @@ A number of optional components can also be added to further enhance the weapon.
         <source>Sniper rifles can be created from frame, barrel and scope parts. The type and quality of the frame will determine the rifle's overall damage potential, while the barrel will dictate the payload. Scope will influence the rifle's precision, critical hit chance and other qualities.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="translated">Снайперські гвинтівки можна створити з деталей: рами, ствола та прицілу. Тип і якість рами визначать загальний потенціал ушкоджень гвинтівки, а ствол визначить боєзаряд. Приціл вплине на точність гвинтівки, шанс критичного удару та інші якості. Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
+        <target state="translated">Снайперські гвинтівки можна створити з деталей: рами, ствола та прицілу. Тип і якість рами визначать загальний потенціал шкоди гвинтівки, а ствол визначить боєзаряд. Приціл вплине на точність гвинтівки, шанс критичного удару та інші якості. Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::tacticalVest_Name" name="::tacticalVest_Name">
@@ -290,7 +290,7 @@ With right enhancements they can also be used offensively in melee combat.</sour
       </mda:metadata>
       <segment state="translated">
         <source>SMG</source>
-        <target state="translated">Пістолет-кулемет</target>
+        <target state="translated">ПК</target>
       </segment>
     </unit>
     <unit id="::smg" name="::smg">
@@ -304,7 +304,7 @@ With right enhancements they can also be used offensively in melee combat.</sour
 It can be created from frame and barrel parts. The type and quality of the frame will determine the weapon's overall damage potential, while the barrel will dictate the payload. Not all frame types support all barrel types, however.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="translated">Пістолет-кулемет, іноді званий зброєю особистого захисту (PDW), – це компактна автоматична зброя. Його можна створити з деталей: рами та ствола. Тип і якість рами визначать загальний потенціал ушкоджень зброї, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів. Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
+        <target state="translated">Пістолет-кулемет, іноді званий зброєю особистого захисту (PDW), – це компактна автоматична зброя. Його можна створити з деталей: рами та ствола. Тип і якість рами визначать загальний потенціал шкоди зброї, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів. Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::sledgehammer_Name" name="::sledgehammer_Name">
@@ -378,7 +378,7 @@ They are quick and deadly close quarters weapons against unarmored or unsuspecti
 It can be created from frame and barrel parts. The type and quality of the frame will determine the weapon's overall damage potential, while the barrel will dictate the payload. Not all frame types support all barrel types, however.
 
 A number of optional components can also be added to further enhance the weapon.</source>
-        <target state="translated">Штурмова гвинтівка – це легка автоматична гвинтівка, призначена для мобільного індивідуального використання. Її можна створити з деталей: рами та ствола. Тип і якість рами визначать загальний потенціал ушкоджень зброї, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів. Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
+        <target state="translated">Штурмова гвинтівка – це легка автоматична гвинтівка, призначена для мобільного індивідуального використання. Її можна створити з деталей: рами та ствола. Тип і якість рами визначать загальний потенціал шкоди зброї, а ствол визначить боєзаряд. Однак не всі типи рам підтримують всі типи стволів. Також можна додати ряд додаткових компонентів для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::energyPistol_Name" name="::energyPistol_Name">
@@ -1570,7 +1570,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This pill should only be consumed to combat psi inhibiting conditions and disorders. It can be created by combining unsaturated psionic catalyst with adrenaline and statolith.</source>
-        <target state="translated">Цю пігулку слід вживати лише для боротьби з психічними пригнічуючими станами та розладами. Її можна створити, комбінуючи ненасичений псі каталізатор з адреналіном та статолітом.</target>
+        <target state="translated">Цю пігулку слід вживати лише для боротьби з псіонічними пригнічуючими станами та розладами. Її можна створити, комбінуючи ненасичений псі каталізатор з адреналіном та статолітом.</target>
       </segment>
     </unit>
     <unit id="::supersoldierDrug_Name" name="::supersoldierDrug_Name">
@@ -1590,7 +1590,7 @@ Any battery can be used to charge up the shurikens.</source>
       </mda:metadata>
       <segment state="translated">
         <source>According to this blueprint you can create some sort of a "Supersoldier Drug" by combining the right amounts of muscarine, adrenaline, kynurenic acid, and prednisone solution. Considering the nature of these substances, this could be dangerous...</source>
-        <target state="translated">Згідно з цією схемою, ви можете створити щось на зразок препарату "Суперсолдат", комбінуючи правильні кількості мускарину, адреналіну, кінуренічної кислоти та розчину преднізолону. Враховуючи природу цих речовин, це може бути небезпечно...</target>
+        <target state="translated">Згідно з цим кресленням, ви можете створити щось на зразок препарату "Суперсолдат", комбінуючи правильні кількості мускарину, адреналіну, кінуренічної кислоти та розчину преднізолону. Враховуючи природу цих речовин, це може бути небезпечно...</target>
       </segment>
     </unit>
     <unit id="::theJuice_Name" name="::theJuice_Name">
@@ -1612,7 +1612,7 @@ Any battery can be used to charge up the shurikens.</source>
         <source>According to Dude and this blueprint, you should be able to concoct the mythical serum known only as "The Juice".
 
 You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyromitrin.</source>
-        <target state="translated">Якщо вірити Чуваку та цій схемі, ви повинні мати можливість створити міфічну сироватку, відому лише як "Сік". Вам знадобиться деякий грибний настій, ненасичений псі каталізатор, морфін та гіромітрин.</target>
+        <target state="translated">Якщо вірити Чуваку та цьому кресленню, ви повинні мати можливість створити міфічну сироватку, відому лише як "Сік". Вам знадобиться деякий грибний настій, ненасичений псі каталізатор, морфін та гіромітрин.</target>
       </segment>
     </unit>
     <unit id="::stingballGrenade_Name" name="::stingballGrenade_Name">
@@ -1672,7 +1672,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>This blueprint describes how to reload a standard bullet of any caliber.</source>
-        <target state="translated">Ця схема описує, як спорядити стандартну кулю будь-якого калібру.</target>
+        <target state="translated">Це креслення описує, як спорядити стандартну кулю будь-якого калібру.</target>
       </segment>
     </unit>
     <unit id="::w2cBullets_Name" name="::w2cBullets_Name">
@@ -1692,7 +1692,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>This blueprint describes how to reload a tungsten carbide armor piercing bullet of any caliber.</source>
-        <target state="translated">Ця схема описує, як спорядити бронебійну кулю з карбіду вольфраму будь-якого калібру.</target>
+        <target state="translated">Це креслення описує, як спорядити бронебійну кулю з карбіду вольфраму будь-якого калібру.</target>
       </segment>
     </unit>
     <unit id="::jhpBullets_Name" name="::jhpBullets_Name">
@@ -1712,7 +1712,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>This blueprint describes how to reload a jacketed hollow point bullet of any caliber.</source>
-        <target state="translated">Ця схема описує, як спорядити експансивну кулю будь-якого калібру.</target>
+        <target state="translated">Це креслення описує, як спорядити експансивну кулю будь-якого калібру.</target>
       </segment>
     </unit>
     <unit id="::plasmaGrenade_Name" name="::plasmaGrenade_Name">
@@ -1772,7 +1772,7 @@ You'll need some mushroom brew, unsaturated psionic catalyst, morphine and gyrom
       </mda:metadata>
       <segment state="translated">
         <source>You can create Psionic Accelerator by combining unsaturated psionic catalyst, gyromitrin and psi-somatic agent.</source>
-        <target state="translated">Ви можете створити псі прискорювач, поєднуючи ненасичений псі каталізатор, гіромітрин та психічний агент.</target>
+        <target state="translated">Ви можете створити псі прискорювач, поєднуючи ненасичений псі каталізатор, гіромітрин та псіонічний агент.</target>
       </segment>
     </unit>
     <unit id="::hypercerebrix_Name" name="::hypercerebrix_Name">
@@ -1920,7 +1920,7 @@ It's a deadly close quarters weapon that can deliver devastating wounds if used 
       </mda:metadata>
       <segment state="translated">
         <source>This blueprint describes how to reload a shotgun shell with pellets of various sizes.</source>
-        <target state="translated">Ця схема описує, як спорядити дробовий набій з дробом різних розмірів.</target>
+        <target state="translated">Це креслення описує, як спорядити дробовий набій з дробом різних розмірів.</target>
       </segment>
     </unit>
     <unit id="::shotgun_Name" name="::shotgun_Name">
@@ -1942,7 +1942,7 @@ It's a deadly close quarters weapon that can deliver devastating wounds if used 
         <source>Shotguns can be created from frame and barrel parts. The type and quality of the frame will determine the shotgun's overall damage potential, while the barrel will dictate the spread and will also modify damage.
 
 An optional component can also be added to further enhance the weapon.</source>
-        <target state="translated">Дробовики можна створити з деталей: рами та ствола. Тип і якість рами визначать загальний потенціал ушкоджень дробовика, а ствол визначить розсіювання і також модифікує ушкодження. Також можна додати додатковий компонент для подальшого покращення зброї.</target>
+        <target state="translated">Дробовики можна створити з деталей: рами та ствола. Тип і якість рами визначать загальний потенціал шкоди дробовика, а ствол визначить розсіювання і також модифікує шкоду. Також можна додати додатковий компонент для подальшого покращення зброї.</target>
       </segment>
     </unit>
     <unit id="::throwingNet_Name" name="::throwingNet_Name">
@@ -2102,7 +2102,7 @@ An optional component can also be added to further enhance the weapon.</source>
       </mda:metadata>
       <segment state="translated">
         <source>This strange unconventional blueprint instructs you how to concoct the notorious Motion drug by combining psionic catalyst, gyromitrin, and psychodelic spores inside an inhalant container.</source>
-        <target state="translated">Ця дивна нетрадиційна схема інструктує вас, як створити сумнозвісний наркотик "Рух", комбінуючи псі каталізатор, гіромітрин та психоделічні спори всередині інгаляційного контейнера.</target>
+        <target state="translated">Це дивне нетрадиційне креслення інструктує вас, як створити сумнозвісний наркотик "Рух", комбінуючи псі каталізатор, гіромітрин та психоделічні спори всередині інгаляційного контейнера.</target>
       </segment>
     </unit>
     <unit id="::grenadeLauncher_Name" name="::grenadeLauncher_Name">
@@ -2402,7 +2402,7 @@ A number of optional components can be added to further enhance the rocket launc
       </mda:metadata>
       <segment state="translated">
         <source>Light Machine Gun</source>
-        <target state="translated">Ручний кулемет</target>
+        <target state="translated">Легкий кулемет</target>
       </segment>
     </unit>
     <unit id="::lightMachineGun" name="::lightMachineGun">

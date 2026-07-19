@@ -28,7 +28,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Deals {0} damage to everyone caught in the blast and stuns living targets for {1} if they don't resist the damage.</source>
-        <target state="translated">Завдає {0} шкоди усім, кого зачіпає вибух, і приголомшує живих цілей на {1}, якщо вони не протистоять ушкодженню.</target>
+        <target state="translated">Завдає {0} шкоди усім, кого зачіпає вибух, і приголомшує живих цілей на {1}, якщо вони не протистоять шкоді.</target>
       </segment>
     </unit>
     <unit id="::Frag" name="::Frag">
@@ -58,7 +58,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Everyone caught in the blast suffers {0} damage and {1} damage. Ignores {2}% of damage resistance and threshold.</source>
-        <target state="translated">Усі, кого зачепив вибух, отримують {0} шкоди та {1} шкоди. Ігнорує {2}% опору та порогу ушкоджень.</target>
+        <target state="translated">Усі, кого зачепив вибух, отримують {0} шкоди та {1} шкоди. Ігнорує {2}% опору та порогу шкоди.</target>
       </segment>
     </unit>
     <unit id="::Plasma" name="::Plasma">
@@ -140,7 +140,7 @@ It also causes hypothermia which reduces target's constitution by {5}. This effe
       </mda:metadata>
       <segment state="translated">
         <source>Throw a grenade that instantly spreads the "chemhaze" gas which reduces chance to hit with ranged weapons by up to {0}% and reduces chance to hit with melee weapons and unarmed attack by up to {1}%.</source>
-        <target state="translated">Кинути гранату, яка миттєво поширює газ "хім-імла", який зменшує шанс влучання зброєю дальнього бою на значення до {0}% і зменшує шанс влучання зброєю ближнього бою та голими руками на значення до {1}%.</target>
+        <target state="translated">Кинути гранату, яка миттєво поширює газ "хім-імла", який зменшує шанс влучання зброєю дальнього бою на значення до {0}% і зменшує шанс влучання зброєю ближнього бою та голіруч на значення до {1}%.</target>
       </segment>
     </unit>
   </file>

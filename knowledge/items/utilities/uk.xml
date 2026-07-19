@@ -38,7 +38,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the stone bolas at the target in an attempt to deal {0} damage and immobilize them for up to {1} (depending on the target's strength). If damage is dealt the target's ribs are broken which causes them to receive additional {2}% mechanical damage from all sources. This effect lasts {3} and stacks up to {4} times. Only works on targets that actually have ribs.</source>
-        <target state="translated">Киньте кам’яні бола на ціль, щоб завдати {0} шкоди та знерухомити її на строк до {1} (залежно від сили цілі). Якщо завдано шкоди, ребра цілі зламані, що призводить до отримання додаткових {2}% механічної шкоди від усіх джерел. Цей ефект триває {3} і складається до {4} разів. Працює лише на цілях, які насправді мають ребра.</target>
+        <target state="translated">Киньте кам’яні бола на ціль, щоб завдати {0} шкоди та знерухомити її на строк до {1} (залежно від сили цілі). Якщо завдано шкоди, ребра цілі зламані, що призводить до отримання додаткових {2}% механічної шкоди від усіх джерел. Цей ефект триває {3} і снакопичується до {4} разів. Працює лише на цілях, які насправді мають ребра.</target>
       </segment>
     </unit>
     <unit id="::BarbedThrowingNet" name="::BarbedThrowingNet">
@@ -208,7 +208,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Attempt to scramble the AI cortex of a robot, causing it to turn hostile towards all and attack a random target for up to {1}. It will also occasionally retreat from the target in confusion. Chance to succeed in scrambling is dependent on the user's hacking skill. For the purpose of scrambling the hacking skill is increased by {0} points due to the quality of this device. Costs {2} energy.</source>
-        <target state="translated">Спробувати перевантажити ШІ-кору робота, змусивши його стати ворожим до всіх і атакувати випадкову ціль до {1}. Він також час від часу відступатиме від цілі в розгубленому стані. Ймовірність успіху залежить від навичок хакінгу користувача. Для перевантаження навички хакінгу збільшуються на {0} балів завдяки якості цього пристрою. Коштує {2} енергії.</target>
+        <target state="translated">Спробувати перевантажити ШІ-кору робота, змусивши його стати ворожим до всіх і атакувати випадкову ціль до {1}. Він також час від часу відступатиме від цілі в розгубленому стані. Ймовірність успіху залежить від навичок хакінгу користувача. Для перевантаження навички хакінгу збільшуються на {0} очок завдяки якості цього пристрою. Коштує {2} енергії.</target>
       </segment>
     </unit>
     <unit id="::ElectricTorchAura" name="::ElectricTorchAura">
@@ -238,7 +238,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the vial at the target, bypassing its energy shield and dealing {0} damage if it lands, and also applying {1} stacks of Corroded debuff which reduces all damage resistances and thresholds by {2}% per stack for {3}. Stacks {4} times.</source>
-        <target state="translated">Кинути флакон у ціль, обходячи її енергетичний щит і завдаючи {0} шкоди, якщо він влучить, а також застосовуючи {1} стеків дебафу Corroded, який зменшує всю стійкість до шкоди та поріг на {2}% за стек протягом {3}. Складається до {4} разів.</target>
+        <target state="translated">Кинути флакон у ціль, обходячи її енергетичний щит і завдаючи {0} шкоди, якщо він влучить, а також застосовуючи {1} накопичень дебафу «Корозія», який зменшує всю стійкість до шкоди та поріг на {2}% за накопичення протягом {3}. Снакопичується до {4} разів.</target>
       </segment>
     </unit>
     <unit id="::ThrowRustingAcidVial" name="::ThrowRustingAcidVial">
@@ -248,7 +248,7 @@
       </mda:metadata>
       <segment state="translated">
         <source>Throw the vial at the target, bypassing its energy shield and dealing {0} damage if it lands, and also applying {1} stacks of Rusting debuff which reduces durability of all mechanical items in target's possession by {2} per stack each turn for {3}. Stacks {4} times. Acid damage is increased by {5}% against vehicles and machines.</source>
-        <target state="translated">Кинути флакон у ціль, обходячи її енергетичний щит і завдаючи {0} шкоди, якщо він влучить, а також застосувавши {1} стеків дебафу Іржавіння, який зменшує довговічність усіх механічних предметів у володінні цілі на {2} за стек щоразу протягом {3}. Складається до {4} разів. Шкода кислотою збільшується на {5}% проти транспортних засобів і машин.</target>
+        <target state="translated">Кинути флакон у ціль, обходячи її енергетичний щит і завдаючи {0} шкоди, якщо він влучить, а також застосувавши {1} накопичень дебафу Іржавіння, який зменшує довговічність усіх механічних предметів у володінні цілі на {2} за накопичення щоразу протягом {3}. Снакопичується до {4} разів. Шкода кислотою збільшується на {5}% проти транспортних засобів і машин.</target>
       </segment>
     </unit>
     <unit id="::UseSuicideBomberBelt" name="::UseSuicideBomberBelt">
