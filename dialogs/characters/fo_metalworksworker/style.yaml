@@ -1,0 +1,67 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fo_metalworksworker
+file_id: dialogs\characters\fo_metalworksworker.txt
+derived_from: source-only
+units: {total: 30, npc: 17, player: 13, empty: 1}
+
+speakers:
+  - slug: fo_metalworksworker
+    name: робітник металургійного цеху
+    units: default
+    confidence: certain
+    evidence: [q2, q8, q19]
+    role: >-
+      Безіменний робітник, якого гравець відриває від роботи: спершу огризається, а
+      далі — якщо гравець збреше про смерть його сина — зривається в справжній жах і
+      плач. Вузол тримається на цьому перепаді від хамства до горя.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Грубий і роздратований від першої репліки: «Leave me alone already!»,
+        «Now get off my back», «Are you blind?» — STYLE §3.2. $(#man/woman) у q8 і q28
+        — фамільярно-роздратоване звертання, не ввічливе.
+      gender_cues: ["$(#man/woman)"]
+      switches:
+        - {unit: q12, to: ти, trigger: "тон утрачає різкість (::his tone of voice loses roughness::), але регістр не змінюється — м’якшає лексика, не звертання"}
+    voice:
+      register: грубий, уривчастий; крик капслоком у піку люті
+      idiolect:
+        - "лайливі вигуки-заповнювачі: «Jeez!», «what the blazes»"
+        - "затинання на зламі емоції: «Wh-- what», «I don't...» — обриви зберігати"
+        - "капслок MORON у q19 — це крик, регістр літер зберігати"
+        - "риторичні питання замість тверджень: «Can't you see I'm working?»"
+
+narration:
+  present: true
+  note: "«ви» без винятків, попри те що сам робітник каже «ти» — STYLE §3.1"
+
+new_names: ["Beast"]
+
+idioms:
+  - unit: q8
+    src: "get off my back"
+    note: "ідіому локалізувати, не калькувати «злізь зі спини»"
+  - unit: q19
+    src: "That's the final straw!"
+    note: "усталений вираз про останню краплю — брати український відповідник"
+  - unit: q14
+    src: "the thoughts he is having mold his expression into that of blood-curdling horror"
+    note: "довгий книжний період нарації; не спрощувати до короткого речення — контраст із грубою прямою мовою навмисний"
+
+pitfalls:
+  - "q14 і q24 містять ідентичний блок нарації від «::The rest of the sentence…» — переклад має бути дослівно однаковим в обох юнітах"
+  - "q9 «if you fought the Beast» — відсилання до істоти/події, канонічної назви немає; не вигадувати"
+  - "a17 ::Watch as he leaves.:: — підказка дії, інфінітив (STYLE §3.5)"
+  - "q16: «my little boy» — про сина; уся емоційна лінія від q12 до q16 говориться чоловіком про себе, минулий час чоловічого роду"
+
+examples:
+  - unit: q8
+    rule: "$(#man/woman) — роздратоване гендерне звертання, STYLE §2"
+    uk_fragment: "$(#чоловіче/жінко)"
+    status: proposed
+  - unit: q19
+    rule: "капслок як крик зберігається, грубість не пом’якшується — STYLE §9"
+    uk_fragment: "ІДІОТ"
+    status: proposed

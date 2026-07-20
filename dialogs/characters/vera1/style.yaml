@@ -1,0 +1,92 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/vera1
+file_id: dialogs\characters\vera1.txt
+derived_from: source-only
+units: {total: 177, npc: 99, player: 78, empty: 4}
+
+speakers:
+  - slug: vera
+    name: Віра
+    units: default
+    confidence: certain
+    evidence: [q13, q34, q42, q129, q137, q162]
+    role: >-
+      Радниця Станції Саут-Гейт; пропонує гравцеві місце в раді й веде його через
+      справу зниклих Бейкерів та зникнення Таннера. Говорить як посадовиця, що
+      зважує слова, — навіть коли вражена, зривається не в лайку, а в паузу.
+    relationships:
+      - "Таннер — голова станції; вона перебирає частину його обов’язків після зникнення"
+      - "Горський — колега-радник; «may have had... disagreements», але з повагою"
+      - "Езра — до нього вона відсилає гравця по доступ"
+      - "Паскуале — станційний лікар, її джерело про стан Лори"
+      - "Терр і Лора Бейкери — «two of our own», їхня доля рухає весь вузол"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні обов’язків — STYLE §3.2. Тримає повні форми
+        без скорочень («I cannot believe it», «You do not have to answer right
+        away»), звертається на ім’я через $(context.player.Name) навіть у
+        напруженні. Гравець дзеркалить — §3.3.
+      gender_cues: ["$(#man/woman)"]
+    voice:
+      register: стримано-офіційний, тепліший у горі, ніж у справах
+      idiolect:
+        - "«Certainly» як звична згода — не «звісно ж», а рівне «безумовно»"
+        - "потрійні повтори в шоці: «This is horrible, horrible»"
+        - "обірвані речення з крапками, коли не дає волю емоціям: «but since he... is not with us anymore»"
+        - "оцінює політично, а не емоційно: «position ourselves advantageously», «retain a high degree of independence»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут нарація рясна й описує міміку Віри"
+
+new_names: ["Terry", "Baker", "Malcom", "Melek", "Acid Hunters", "United Stations", "Union", "Council of Five", "Bakers"]
+
+idioms:
+  - unit: q8
+    src: "to mention but a few"
+    note: "канцелярська формула переліку; не калькувати «щоб згадати лише кілька»"
+  - unit: q32
+    src: "Difficult times lay ahead of us"
+    note: "усталене; українська має свою формулу, не дослівний «лежать попереду»"
+  - unit: q90
+    src: "died in his sleep"
+    note: "евфемізм смерті; зберегти пом’якшення, а не «помер уві сні» буквально-медично"
+  - unit: q103
+    src: "not very keen on being buddies with their old enemies"
+    note: "розмовне «buddies» контрастує з її звичним регістром — це свідомий іронічний зсув, зберегти"
+  - unit: q111
+    src: "created with a gun or a sword"
+    note: "афористична пара; тримати ритм, не розгортати в пояснення"
+  - unit: a110
+    src: "Hell no."
+    note: "грубий відкид гравця — не пом’якшувати, STYLE §9"
+  - unit: a167
+    src: "it's derailed!"
+    note: "внутрішньоігрова лайка-каламбур від Underrail; шукати ігровий відповідник, не «зійшло з рейок»"
+
+pitfalls:
+  - "q1, q11, q16, q22, q52, q60, q128, q129, q149, q176, q177 містять $(context.player.Name) — не відмінювати й не додавати закінчень усередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному"
+  - "q109 «a wise $(#man/woman)» — обидві гілки українською, з узгодженим прикметником; STYLE §2"
+  - "q6, q11, q18, q20 — «councilor» стосується Віри й гравця; тримати один термін по всьому вузлу"
+  - "SGS у q78 і a99 — за глосарієм ССГ; South Gate Station — Станція Саут-Гейт"
+  - "Underrail, Biocorp у q8, q86, q87 лишаються латиницею й не відмінюються — глосарій"
+  - "q52, q60 закінчуються ::She sighs.:: — ремарка перекладається як проза, «::» лишаються"
+  - "q59, q62, q64, q66, q68 повторюють один блок ремарки дослівно — переклад має бути ідентичним у всіх п’яти"
+  - "a12 «::Ends the game.::» — службова підказка гравцеві, не репліка; інфінітив за STYLE §3.5"
+
+examples:
+  - unit: q109
+    rule: "$(#man/woman) — гендерна гілка, обидві українською; STYLE §2"
+    uk_fragment: "$(#чоловік/жінка)"
+    status: proposed
+  - unit: a16
+    rule: "підказка дії всередині ::…:: — інфінітив; STYLE §3.5"
+    uk_fragment: "::Завершити діалог.::"
+    status: proposed
+  - unit: q10
+    rule: "наказовий спосіб успадковує «ви»; STYLE §3.4"
+    uk_fragment: "подумайте про це"
+    status: proposed

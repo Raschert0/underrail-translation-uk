@@ -1,0 +1,89 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jye_athanas
+file_id: dialogs\characters\jye_athanas.txt
+derived_from: source-only
+units: {total: 79, npc: 53, player: 26, empty: 3}
+
+speakers:
+  - slug: athanas
+    name: Атанас
+    units: default
+    confidence: certain
+    evidence: [q1, q29, q30]
+    role: >-
+      Посол Об’єднаних Станцій у Звалищі: вербує гравця до Протекторату й веде
+      перемовини між фракціями. Говорить як дипломат — його слова завжди
+      обережні, обтічні й ніколи не грубі, навіть коли він докоряє.
+    relationships:
+      - "майор Кліфтон — командир Південного Залізничного Форпосту над посольством; посол відсилає гравця до нього"
+      - "консул Олівер у Форт-Апогей — посол уже написав йому про гравця"
+      - "другий лейтенант Гаррен — начальник охорони посольства; його заміни ще нема"
+      - "Miss Hale із ССГ — рекомендувала гравця; посол посилається на її оцінку"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Джерело дає пряме звертання $(#Mister/Miss) та військове «Corporal»;
+        мовець — офіційна особа на службі, без жодного скорочення чи сленгу.
+        Репліки гравця дзеркалять базовий регістр (STYLE §3.3), навіть різкі
+        на кшталт «Those anarchist bastards».
+      gender_cues: ["$(#Mister/Miss)"]
+    voice:
+      register: підкреслено ввічливий, книжний, дипломатично-обтічний
+      idiolect:
+        - "подвоєння для наголосу: «quite, quite resourceful», «Very good, very good»"
+        - "вставні пом’якшувачі: «I'm afraid», «sadly», «to put it mildly», «Nevertheless»"
+        - "тире-паузи як імітація роздумів уголос: «It was constructed - let me think - about five...»"
+        - "риторичні питання до гравця замість прямих тверджень: «Tell me, …, do these people … ?»"
+
+narration:
+  present: true
+  note: "q1 та вставки на кшталт ::He laughs.::, ::He smiles.::, ::He nods.:: — «ви» без винятків, STYLE §3.1"
+
+new_names: ["Athanas", "Hale", "United Stations", "Fort Apogee", "South Railroad Outpost", "SRO", "Black Eels", "Scrappers", "Lunatics", "Council of Five", "Port Zenith", "Oligarchy", "Upper Underrail", "Lower Underrail", "South Underrail", "North Underrail"]
+
+idioms:
+  - unit: q13
+    src: "on a grand scale"
+    note: "не «у великому масштабі»; ідеться про ширшу перспективу"
+  - unit: q18
+    src: "look at the bigger picture"
+    note: "локалізувати як «поглянути ширше», не калькувати «більшу картину»"
+  - unit: q56
+    src: "get to the bottom of this"
+    note: "«з’ясувати, у чому річ» — не «дістатися дна»"
+  - unit: q76
+    src: "Mark my words"
+    note: "усталена погроза-попередження; тримати офіційний тон, без базарного «запам’ятай»"
+  - unit: a5
+    src: "have stepped over the line"
+    note: "«перейшли межу»; репліка гравця, лишається в межах «ви»"
+  - unit: a19
+    src: "I'm all ears"
+    note: "локалізувати, не калькувати анатомію"
+
+pitfalls:
+  - "q1, q6, q13, q14, q18, q20, q23, q24, q74, q77, q79 містять $(context.player.Name) — не відмінювати всередині плейсхолдера й не додавати закінчень зовні"
+  - "$(#Mister/Miss) — звертання, тож потрібен кличний відмінок обох гілок; далі йде ім’я гравця, яке лишається незмінним"
+  - "«Corporal» у q41, q73, q76, q78 — звертання до гравця в кличному; це паралельна гілка для гравця, що вступив до Протекторату, а q74, q77, q79 — гілка для стороннього. Обидві мають лишитися взаємно послідовними"
+  - "q23 має курсивний наголос через зірочки: the *Free* Drones, they see *us* — зірочки зберігати на відповідному українському слові"
+  - "Underrail і Praetorian-подібні назви лишаються латиницею й не відмінюються (глосарій); «Underrail Protectorate» — «Протекторат Underrail»"
+  - "SGS → ССГ, але GMS лишається латиницею — не плутати схеми"
+  - "Free Drones → Вільні Дрони, Faceless → Безликі, Ironheads → Залізноголові, Rail Crossing → Залізничний Переїзд, Old Junkyard → Старе Звалище, Core City → Центральне Місто (глосарій)"
+  - "q11 та q8 дають два варіанти написання того самого персонажа — «Ms. Hale» і «Miss Hale»; в українському тексті звертання уніфікувати"
+  - "«second lieutenant Garren» у q68 з малої, «Second Lieutenant Garren» у q30 з великої — звання українською з малої в обох"
+
+examples:
+  - unit: q1
+    rule: "$(#Mister/Miss) — гендерне звертання в кличному, STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q73
+    rule: "звертання за званням — кличний відмінок, STYLE §3.2"
+    uk_fragment: "капрале"
+    status: proposed
+  - unit: q33
+    rule: "звання з малої літери, STYLE §5"
+    uk_fragment: "майор Кліфтон"
+    status: proposed

@@ -1,0 +1,103 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/rig_murky
+file_id: dialogs\characters\xpbl\rig_murky.txt
+derived_from: source-only
+units: {total: 130, npc: 80, player: 50, empty: 2}
+
+speakers:
+  - slug: murky
+    name: Мутний
+    units: default
+    confidence: certain
+    evidence: [q2, q70, q77]
+    role: >-
+      Шинкар, діджей і охорона Платформи в одній особі — сам себе так і представляє.
+      Половина вузла — його довгі байки про завсідників, тож головне завдання перекладу
+      не торгівля, а усний оповідний ритм.
+    relationships:
+      - "Stella — працює в тій самій таверні, згадана як свідок його історій"
+      - "Валун (Boulder) і Сквізер (Squeezer) — торговці зовні, до яких він відсилає гравця"
+      - "Black Eels — власники Платформи; Мутний працює під ними й обходить незручні питання"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Попри посаду обслуги (реєстр: Barkeeper → шинкар), мова суцільно вулична —
+        «ya dig», «punk», «sons of rats»; STYLE §3.2 вирішує за характером, а не за
+        посадою, тому «ти». Репліки гравця дзеркалять (§3.3).
+      gender_cues: []
+      switches:
+        - {unit: q77, to: ти, trigger: "прихована погроза під виглядом дружньої поради — тон холоднішає, але звертання не міняється"}
+    voice:
+      register: розслаблений, іронічний, з готовою погрозою під сподом
+      idiolect:
+        - "тег-питання «ya dig» наприкінці думки — найпомітніший маркер, тримати сталим"
+        - "«’n’» замість and у кожному переліку"
+        - "«ya» замість you, випадання g: botherin’, swingin’, recordin’s"
+        - "звертання до гравця «sailor» — рівно там, де воно є, не додавати"
+        - "оповідний теперішній час у байках: «So one day he comes over…»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Black Eels", "Otto", "Stella", "Dizzy McMillan", "Micky Mick", "Hey", "Jet Eater", "Drag 'n' Drop", "slackjaw", "pentapus", "goliath"]
+
+idioms:
+  - unit: q13
+    src: "sleepin’ with the slackjaws"
+    note: "евфемізм «були б мертві»; будувати за зразком «годувати рибу», не калькувати"
+  - unit: q48
+    src: "ya dig"
+    note: "розмовний тег згоди; сталий український відповідник на весь вузол, не варіювати"
+  - unit: q100
+    src: "into the drink"
+    note: "морський сленг «за борт, у воду», а не «у напій»"
+  - unit: q102
+    src: "obviously derailed"
+    note: >-
+      внутрішньоігрове derailed — «зійшов з рейок» у значенні божевільний;
+      гра з назвою Underrail, потребує сталого рішення
+  - unit: q103
+    src: "the drunken son of a rat"
+    note: "лайка світу Underrail; грубість зберігаємо (STYLE §9), не замінювати звичним «сучий син»"
+  - unit: q107
+    src: "left with their tails between their legs"
+    note: "локалізувати наявною українською ідіомою"
+  - unit: q99
+    src: "Al “Ain’t My Pal”"
+    note: >-
+      римоване прізвисько до канонічного «Аль Фабет»; потрібна римована українська пара,
+      дослівний переклад руйнує жарт
+  - unit: q94
+    src: "yada yada yada"
+    note: "розмовне «і так далі, і таке інше» — не транслітерувати"
+  - unit: q108
+    src: "ethanol immunity or somethin’"
+    note: "жартівливий псевдотермін, зберігати наукоподібність"
+
+pitfalls:
+  - "a35 «I know what number one and two are, but three…» — жарт про туалет (number one / number two); прив’язаний до «Number three’s available» у q22, тож обидва юніти треба перекладати разом, інакше каламбур зникне"
+  - "q4 + q5 і q18 — один розрізаний рядок: q4 це самé «We», а q18 — вступ «Now here in the tavern, here we»; переклад мусить стикуватися граматично"
+  - "q11 + q12 + q13 + q14 — розрізане речення, q14 це сама крапка; не переносити розділові знаки між юнітами"
+  - "q26 + q27 і q122, q126 — короткі фрагменти-продовження, не самостійні репліки"
+  - "q90, q95, q96, q103, q107, q119 містять літеральне \\n\\n — зберігати як розрив абзацу"
+  - "глосарійні терміни в байках беруться готовими: burrower → копака, crawler → повзун, hopper → стрибун, Mindshroom → Гриб Розуму, Old Junkyard → Старе Звалище, Core City → Центральне Місто, Hell’s Gut → Нутро Пекла, Protectorate → Протекторат, charon → харон, Rig → Платформа"
+  - "«Underrail» у q99 лишається латиницею й не відмінюється — глосарій, read-only"
+  - "«Drag ’n’ Drop» — назва бару, побудована на комп’ютерному терміні; рішення централізоване, не перекладати самовільно"
+  - "«Northerners» / «Southerners» у q105–q107 — протиставлення, що тримає всю байку; передавати однаковою парою в усіх трьох юнітах"
+
+examples:
+  - unit: q47
+    rule: "наказовий спосіб успадковує «ти» — STYLE §3.4"
+    uk_fragment: "Викинь…"
+    status: proposed
+  - unit: a7
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q40
+    rule: "нарація — «ви», STYLE §3.1"
+    uk_fragment: "::Він показує вам…::"
+    status: proposed

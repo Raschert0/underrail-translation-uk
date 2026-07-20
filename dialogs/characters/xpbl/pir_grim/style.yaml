@@ -1,0 +1,228 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/pir_grim
+file_id: dialogs\characters\xpbl\pir_grim.txt
+derived_from: source-only
+units: {total: 749, npc: 492, player: 257, empty: 47}
+
+speakers:
+  - slug: grim
+    name: Грим
+    units: default
+    confidence: certain
+    evidence: [q456, q458, q461]
+    role: >-
+      Капітан Грим (справжнє ім’я — Cadmus Green, колишній кадет офіцерського
+      корпусу Biocorp) очолює найбільшу піратську команду Півдня. Освічений
+      стратег у піратському середовищі: повні складні речення, книжна лексика,
+      але системне випадання кінцевого «g» — його мова має бути гладкою й
+      владною, а не простацькою.
+    relationships:
+      - "Крузер — підлеглий, доповідає з моря; Грим відповідає йому спокійно й покровительськи"
+      - "Бритва — «right hand of mine», лейтенант; після його загибелі місце пропонують гравцеві"
+      - "Донні — торговець порту, до нього Грим відсилає по платню"
+      - "Катя — цілителька, готує йому парфуми"
+      - "Тодд, Останній Лемурієць — Грим ставиться до нього дбайливо, як до цінності"
+      - "Перевізник — див. сусідній вузол dialogs/characters/xpbl/ferryman, Грим описує його з повагою"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Грим говорить із гравцем як капітан із членом власної команди — наказує,
+        погрожує, кепкує: «Don’t make us look bad… I’ll find you and send you
+        under myself» (q704), «I want that ship raided, pirate!» (q720). Це своє,
+        вулично-командне середовище, отже «ти» — STYLE §3.2. Репліки гравця
+        дзеркалять базу (§3.3); субординацію несе звертання «Cap’n», а не «ви».
+      gender_cues: ["$(#man/woman)", "$(#he/she)", "$(#'im/'er)", "$(#his/her)", "$(#Gentlemen/Ladies and gentlemen)"]
+      switches:
+        - {unit: q605, to: ви, trigger: "звертання до зібраної команди — множина, урочистий тон"}
+    voice:
+      register: владний, стриманий, книжно-піратський
+      idiolect:
+        - "системне випадання «g»: interestin’, jettin’, lootin’ — але без вульгаризмів"
+        - "нав’язливе «Interestin’. Real interestin’» — словесний тик (q9, q161, q307)"
+        - "морська божба замість лайки: «By the sea», «Damn it to the sea’s depths!»"
+        - "евфемізм «send under» = вбити/потопити (q228, q704)"
+        - "схвальне «jettin’» як прикметник: «jettin’ work», «jettin’ guts»"
+        - "часте «yes, yes» на початку відповіді"
+        - "ремарка ::He half-smiles.:: повторюється як його фірмовий жест"
+
+  - slug: cruzer
+    name: Крузер
+    # q519 належить Флінгеру: q518 — «::Furious, he turns to D' Flinger.::
+    # Dispose of the body», тож «Aye, Cap'n.» відповідає саме адресат.
+    units: [q30, q32, q34, q44, q49, q581, q587, q592, q593, q594, q595,
+            q608, q616, q622, q646, q647, q698, q700, q706, q712, q716, q718]
+    confidence: probable
+    evidence: [q30, q608, q646]
+    role: >-
+      Капітан ферій і розвідник Гримових Джеттерів, доповідає про Вугрів і сонар.
+      Найгрубіший голос вузла — його репліки контрастують із мовою Грима і цей
+      контраст має бути чутний.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "груба вулична мова, кличе гравця «banga» і «Can» (q712) — STYLE §3.2"
+      gender_cues: ["$(#'im/'er)", "$(#he/she)"]
+    voice:
+      register: грубий, портовий, зневажливий
+      idiolect:
+        - "суцільний eye-dialect: d’ = the, dey/der/dis/dan, ye/yer, fer, sum, an’, ’ere"
+        - "усічення кінцевих приголосних: wors’, momen’, jus’, pas’, suspect’d"
+        - "«Squeals» — зневажлива кличка протекторатців"
+        - "«banga» — його звертання до гравця, не Гримове"
+    note: >-
+      Атрибуція probable: у файлі немає позначок мовця, підстава — суцільний
+      eye-dialect, якого немає в жодного іншого персонажа. q519 («Aye, Cap’n.»
+      після наказу «::he turns to D’ Flinger::», q518) належить D’ Flinger, а не
+      Крузерові — його винесено окремо нижче.
+
+  - slug: razor
+    name: Бритва
+    units: [q603, q642, q644, q650, q652, q655, q657, q672, q674, q694, q695, q697]
+    confidence: probable
+    evidence: [q604, q644, q655]
+    role: >-
+      Лейтенант і права рука капітана, іде з гравцем на рейд проти «Армстронга».
+      Мова майже літературна, з легкою елізією — між Гримом і Крузером.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "рівний по команді, звертається «mate» (q650, q675) — STYLE §3.2"
+      gender_cues: ["$(#he/she)", "$(#'im/'er)"]
+    voice:
+      register: діловий, суховато-зухвалий
+      idiolect:
+        - "звертання «mate» до гравця"
+        - "«diddly-squat» (q603) — знижена розмовність без eye-dialect"
+        - "ремарка ::He flips his knife.:: (q644) — його впізнаваний жест"
+    note: >-
+      Ключовий доказ: q604 «Everyone was involved in this raid, Razor» — Грим
+      звертається до Бритви, отже попередній q603 промовляє саме Бритва.
+      Так само q673 «::He looks at you, but speaks to Razor.::» доводить, що
+      q672 і q674 — Бритвині.
+
+  - slug: flinger
+    name: Флінгер
+    units: [q519]
+    confidence: probable
+    evidence: [q518]
+    role: >-
+      Підручний, якому Грим наказує позбутися тіла. Одна репліка — коротке
+      підтвердження наказу.
+    address:
+      npc_to_player: н/д
+      player_to_npc: н/д
+      basis: "до гравця не звертається; говорить до капітана"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q525, q640, q641, q675]
+    confidence: unknown
+    reason: >-
+      q525 («They’re attackin’!») — вигук тривоги без імені й без мовного
+      відбитка. q640–q641 («Be quiet,» / «Can.») — обірвана репліка когось із
+      двох лейтенантів: слово «Can» уживає Крузер (q712), але тон пасує й
+      Бритві. q675 («The lootin’ waters will be yours, mate.») стоїть після
+      обміну Грим — Бритва, і «mate» вказує на Бритву, а зміст — на капітана.
+    guidance: >-
+      Тримати базовий регістр вузла — «ти», нейтральна побудова. Уникати форм
+      минулого часу й прикметників, що видають рід мовця. Не додавати
+      eye-dialect, поки атрибуція не підтверджена: помилково «крузерівський»
+      правопис читатиметься як інший персонаж.
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, зокрема довгі вступні блоки q1–q3, q5 і всі
+    ремарки ::He half-smiles.::, ::He ponders.::. Підказки дій усередині
+    ::…:: — інфінітив (§3.5).
+
+unattributed_units: [q525, q640, q641, q675]
+
+new_names: ["Cadmus", "Green", "Wade Green", "Senda", "Armstrong", "UPCSS",
+            "Port Ceto", "Port Crag", "Ceto", "The Pirate Bay", "Grim Jetters",
+            "Scalers", "Black Eels", "Aegis Incorporated", "Creeper Bay",
+            "Omega Pass", "Black Strait", "The Jaws", "Silent Isle",
+            "Port Zenith", "Abyssal Station Zero", "Shadowlith", "Acorn",
+            "ACoNR", "Lemurian", "Spectral Grinners", "Glowing Canine",
+            "Isaac's River", "Fold-M", "Dis", "Nexus of Technology",
+            "The Last Garden of a Megalopolis", "BCAF", "Dreadnought",
+            "jetter", "banga", "dryfoot", "Squeals", "Cans", "muties",
+            "Last Garden"]
+
+idioms:
+  - unit: q228
+    src: "We send under those that resist"
+    note: "«send under» — піратський евфемізм «пустити на дно», не калькувати як «відправити під»"
+  - unit: q233
+    src: "No prey - no pay"
+    note: "гасло; потрібна коротка римована українська формула, а не дослівний переклад"
+  - unit: q247
+    src: "They've been the fangs in our and our predecessors' feet"
+    note: "авторський гібрид «thorn in the foot» і «fangs» — дивність образу зберегти, не зводити до «більмо на оці»"
+  - unit: q377
+    src: "more keen on drinkin' human blood than their mother's milk"
+    note: "гіпербола, не пом’якшувати — STYLE §9"
+  - unit: q378
+    src: "like sandpaper against the eardrums"
+    note: "порівняння перекладати образом, не терміном"
+  - unit: q217
+    src: "Know them like the back of my hand"
+    note: "усталена ідіома — брати український відповідник «як свої п’ять пальців»"
+  - unit: q603
+    src: "he'd do diddly-squat"
+    note: "знижене «нічогісінько», не лайка"
+  - unit: q662
+    src: "Are you derailed?"
+    note: "внутрішньоігровий сленг зі значенням «схибнутий»; той самий корінь у q72 «somewhat derailed» — тримати один відповідник"
+  - unit: q729
+    src: "were by no means deucin' themselves"
+    note: "піратський сленг «байдикувати»; локалізувати, не транслітерувати"
+  - unit: q585
+    src: "the fools that dared wetting their feet in our waters"
+    note: "перегукується з «dryfoot» (q363, q404) — зберегти зв’язок «сухоногі» / «мочити ноги»"
+  - unit: q121
+    src: "takes some jettin' guts"
+    note: "«jettin’» тут — схвальний підсилювач від «jetter», не «реактивний»"
+
+pitfalls:
+  - "Grim у реєстрі — «Грим», не «Грім»: збіг зі словом «грім» руйнує ім’я"
+  - "Aegis у цьому вузлі — «Aegis Incorporated», військова компанія (q547), а НЕ бойовий препарат «Егіда» з глосарія; це різні референти"
+  - "$(context.player.Name) трапляється щонайменше в 20 юнітах (q16, q35, q47, q62, q87, q91, q100, q123, q148, q254, q350, q454, q527, q573, q578, q617, q649, q654, q704, q711, q726, q744, q749) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному, кличний неможливий"
+  - "«Grim Jetters» містить ім’я капітана — рішення про назву банди має узгоджуватися з «Грим»"
+  - "«The Rig» — глосарій дає «Платформа»; «Dreadpool» — «Жахлива Лагуна»; «Meatway» — «М’ясний Шлях»; «Chancer’s Bay» — «Затока Авантюриста»; «Core Ring» — «Центральне Кільце»; «Hell’s Gut» — «Нутро Пекла»; «Camp Hathor» — «Табір Хатор». Брати готове, не вигадувати"
+  - "«Cap’n» — стягнена форма звертання, повторюється десятки разів; потрібен один стабільний український відповідник на весь вузол"
+  - "Крузерів eye-dialect передавати українським просторіччям, а не транслітерацією англійських скорочень; «d’» не має українського аналога-артикля"
+  - "теги навичок ::[Mercantile]::, ::[Biology]::, ::[Electronics]:: оформлювати як ::[Переконати]:: з глосарія — квадратні дужки й ::  зберігати"
+  - "Biocorp і Underrail лишаються латиницею навіть усередині української фрази (глосарій)"
+  - "«charons» (a168, a172, a174, a176) — глосарійне «харон», монета, з малої"
+  - "у q3, q47, q83, q87, q99, q118, q121, q143, q147, q164, q289, q290, q312, q415, q421, q456, q457, q568, q611, q673, q707 є буквальне \\n\\n — зберігати як є"
+  - "q163 і q289 обіграють побуквене A-C-o-N-R → Acorn: гра слів вимагає рішення про назву «Acorn» ДО перекладу цих юнітів"
+  - "q30 «d’ Eels let us in» і q32 стосуються Чорних Вугрів — назва фракції потребує централізованого рішення (у new_names)"
+
+examples:
+  - unit: q1
+    rule: "нарація ::…:: — завжди «ви», STYLE §3.1"
+    uk_fragment: "::Ви приводите"
+    status: proposed
+  - unit: a18
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Поговорити з професором.::"
+    status: proposed
+  - unit: q593
+    rule: "гендерний плейсхолдер присвійного займенника, STYLE §2"
+    uk_fragment: "$(#його/її)"
+    status: proposed
+  - unit: q605
+    rule: "звертання до команди — множина, обидві гілки з великої, STYLE §2"
+    uk_fragment: "$(#Панове/Пані та панове)"
+    status: proposed
+  - unit: q50
+    rule: "$(#he/she) в мові NPC про гравця"
+    uk_fragment: "$(#він/вона)"
+    status: proposed
+  - unit: q9
+    rule: "словесний тик Грима — той самий відповідник у q161, q307"
+    uk_fragment: "Цікаво. Направду цікаво."
+    status: proposed

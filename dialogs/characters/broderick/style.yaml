@@ -1,0 +1,97 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/broderick
+file_id: dialogs\characters\broderick.txt
+derived_from: source-only
+units: {total: 123, npc: 72, player: 51, empty: 8}
+
+speakers:
+  - slug: broderick
+    name: Бродерік
+    units: default
+    confidence: certain
+    evidence: [q2, q29, q97]
+    role: >-
+      Човняр-перевізник, який за плату возить гравця між пристанями (ССГ, Табір Хатор,
+      Центральне Місто, Мовчазний Острів). Просторічний, забобонний попри власні
+      заперечення, і саме через це його мова — розмовна, з обірваними формами.
+    relationships:
+      - "Сайлас — той, хто надіслав гравця по загублений вантаж (q29)"
+      - "пірати Grim Jetters — через них він підняв ціни (q109)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний просторічний мовець без жодної службової ввічливості: «Suit yourself»,
+        «You must have been eating some raw mushrooms, man», «We going or what?».
+        STYLE §3.2 — грубі й свої на «ти»; §3.3 — репліки гравця дзеркалять базовий регістр.
+      gender_cues: []
+    voice:
+      register: просторічний, буркотливий, з байкарською жилкою
+      idiolect:
+        - "стале ain’t замість isn’t/am not: «I ain’t sailing anywhere far», «things ain’t right there»"
+        - "випадання g: «towin’», «I ain’t towin’ that thing»"
+        - "коротке «Suit yourself.» як відмова-відчепись (q59, q74)"
+        - "риторичне «or what?» у кінці питання: «We going or what?» (q72, q75)"
+        - "довга сольна оповідь q34–q46 — суцільний усний монолог, тримати розмовний синтаксис, не вирівнювати в літературний"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; підказки дій усередині «::…::» — інфінітив, §3.5"
+
+new_names:
+  - "Silent Isle"
+  - "Forsaken Island"
+  - "Isaac's River"
+  - "Grim Jetters"
+  - "quaker"
+
+idioms:
+  - unit: q29
+    src: "someone derailed enough"
+    note: >-
+      Внутрішньоігровий сленг на рейковій метафорі: «derailed» = здурілий, зсунутий.
+      Не калькувати «зійшов з рейок» буквально як залізничний термін, але рейковий образ
+      варто зберегти — він наскрізний у грі (пор. q100 «cross to the other side of the rails»).
+  - unit: q29
+    src: "I'm no quaker"
+    note: "Тут не релігійна громада, а «полохливий, боягуз». Перекладати за значенням."
+  - unit: q31
+    src: "eating too many mushroom cupcakes"
+    note: "Натяк на дурман від грибів; не буквальні «кекси» — розмовний відповідник."
+  - unit: q29
+    src: "gives me the creeps"
+    note: "«мороз по шкірі», «моторошно» — не калькувати."
+  - unit: a47
+    src: "gave me the heebie-jeebies"
+    note: "Розмовне «аж мурашки»; регістр знижений, не літературний."
+  - unit: a73
+    src: "Save your story for barrel fire"
+    note: "Багаття в бочці, біля якого травлять байки. Локалізувати образ, не термін."
+  - unit: q100
+    src: "you dig"
+    note: "Сленгове «розумієш?», не «копаєш»."
+  - unit: q100
+    src: "cross to the other side of the rails"
+    note: "Евфемізм переходу межі (смерть / божевілля) на рейковій метафорі — зберегти образ."
+  - unit: q5
+    src: "I don't ferry jet skis"
+    note: "Гідроцикл гравця; у q6 те саме скорочено як «your jet» — тримати один термін в обох рядках."
+
+pitfalls:
+  - "q97, q101 містять \\n\\n — розрив абзацу зберігати дослівно."
+  - "«charons» (q7, q12, q15) і «stygian coins» (a8, a11) — глосарій: «харон» і «стигійська монета». Це два різні написання однієї монети, обидва вживані."
+  - "Топоніми з глосарія: SGS → ССГ, Camp Hathor → Табір Хатор, Core City → Центральне Місто, Chancer's Bay → Затока Авантюриста, Meatway → М’ясний Шлях, Black Sea → Чорне Море, Junkyard → Звалище."
+  - "Silent Isle і Forsaken Island — сюжетно протиставлені (q103): «туди можу, а туди ні». Назви мають лишатися розрізнюваними."
+  - "«Grim Jetters» (q109) — банда; Grim у реєстрі → Грим, але сполучення в цілому не вирішене, не вигадувати."
+  - "Просторіччя мовця (ain’t, towin’) — навмисна характеристика, не помилка джерела; не «виправляти» на літературну норму."
+
+examples:
+  - unit: a10
+    rule: "підказка дії всередині «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Пливти до ССГ.::"
+    status: proposed
+  - unit: q48
+    rule: "нарація — «ви», навіть коли мовець каже «ти», STYLE §3.1"
+    uk_fragment: "::Він киває.::"
+    status: proposed

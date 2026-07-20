@@ -1,0 +1,85 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/sully
+file_id: dialogs\characters\sully.txt
+derived_from: source-only
+units: {total: 53, npc: 31, player: 22, empty: 4}
+
+speakers:
+  - slug: sully
+    name: Саллі
+    units: default
+    confidence: certain
+    evidence: [q36, q28]
+    role: >-
+      Ватажок невеликої громади вцілілих, що осіла на покинутій базі й саме зазнала
+      нападу рейдерів. Говорить із гідністю й провиною, тримає слово і цим міряє
+      співрозмовника.
+    relationships:
+      - "Bloomberg — покійний друг, який колись запечатав двері першого рівня; ключ був у нього"
+      - "рейдери з табору на півночі — вороги, через них загинули люди громади"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Стійко уникає скорочень там, де розмовна мова їх вимагає: «I do not, but he
+        must have had a good reason», «I do not trust you», «I think it be better if
+        we left». Це книжна, підкреслено стримана мова провідника громади, що
+        говорить із чужинцем, — STYLE §3.2 дає «ви». Репліки гравця дзеркалять
+        базовий регістр (§3.3), навіть коли гравець грубий (a51 «Shut up and answer
+        my questions») — грубість передається лексикою, а не переходом на «ти».
+      gender_cues: ["$(#man/woman) of your word"]
+    voice:
+      register: стриманий, книжний, з нотою провини й утоми
+      idiolect:
+        - "майже не вживає скорочень — do not, cannot замість don't, can't; зберігати повні форми в українському відповіднику"
+        - "формули честі: «I'm a man of my word», «You are a $(#man/woman) of your word» — повторюваний мотив, тримати однаковий переклад в обох місцях"
+        - "зривається на паузи й обриви, коли говорить про загиблих: «We... we should have left...»"
+
+narration:
+  present: true
+  note: >-
+    ::He sighs.::, ::He frowns.::, ::As you turn to leave he grabs your arm.:: —
+    «ви» без винятків, STYLE §3.1. Підказки дій усередині :: :: — інфінітив
+    (§3.5): a13 ::Jerk your arm free and leave.::
+
+new_names: ["Bloomberg"]
+
+idioms:
+  - unit: q22
+    src: "I think it be better if we left"
+    note: >-
+      навмисне нестандартна граматика, не помилка джерела; передавати як легку
+      просторічну неправильність, не вирівнювати в чисту норму
+  - unit: q30
+    src: "Truth be told..."
+    note: "усталений зворот, не калькувати дослівно; «правду кажучи…»"
+  - unit: a23
+    src: "Hang in there, man"
+    note: >-
+      підбадьорення, а не наказ триматися за щось; «man» тут — вигук-звертання,
+      не іменник «чоловік»
+  - unit: q46
+    src: "Your threats are empty"
+    note: "«порожні погрози» — сталий український відповідник є, не описувати перифразою"
+
+pitfalls:
+  - "q4, q7, q25, q30, q46 містять літеральний \\n\\n — розрив абзацу, зберігати як є, не заміняти пробілом"
+  - "q24 $(#man/woman) — гендер ГРАВЦЯ, не Саллі; обидві гілки українською"
+  - "a42 ::[Persuade]:: і a45 ::[Intimidate]:: — назви навичок у дужках, брати з глосарію (::[Переконати]::), не перекладати вільно"
+  - "Саллі — чоловік (registry: «не відмінювати як жіноче ім’я»); минулий час і прикметники в його репліках — чоловічого роду"
+  - "q11 і q34 — та сама фраза «Don't forget what you promised» у двох обрамленнях; переклад має збігатися дослівно"
+
+examples:
+  - unit: q28
+    rule: "формула честі — однаковий переклад у q24 і q28"
+    uk_fragment: "я людина слова"
+    status: proposed
+  - unit: q24
+    rule: "$(#man/woman) — гендер гравця, STYLE §2"
+    uk_fragment: "$(#чоловік/жінка) слова"
+    status: proposed
+  - unit: a13
+    rule: "підказка дії в :: :: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Вирвати руку…::"
+    status: proposed

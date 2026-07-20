@@ -1,0 +1,96 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pb_oliver
+file_id: dialogs\characters\pb_oliver.txt
+derived_from: source-only
+units: {total: 116, npc: 78, player: 38, empty: 3}
+
+speakers:
+  - slug: oliver
+    name: Олівер
+    units: default
+    confidence: certain
+    evidence: [q82, q78, q110]
+    role: >-
+      Консул United Stations у Форті Апогей: дипломат, який дає гравцеві завдання
+      повернути дезертирів SFC Голловея й наполягає на переговорах замість сили.
+      Вихована, багатослівна людина, чия ввічливість тріскає лише тоді, коли йдеться
+      про CAU, що виштовхали його з власного кабінету.
+    relationships:
+      - "Каткарт — полковник, партнер по роботі; поважає, але визнає розбіжності (q74, q75)"
+      - "Голловей — SFC-дезертир, чию бездоганну службу консул захищає (q16, q47)"
+      - "Фрейзер — до нього консул відсилає гравця по платню (q36, q42, q56)"
+      - "Атанас — посол, який направив гравця до консула (q92, q107)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Дипломат при виконанні: «dear Corporal», рукостискання, «Au revoir»,
+        церемонні звороти. Службова, формальна мова — «ви» за STYLE §3.2;
+        гравець дзеркалить базовий регістр (§3.3).
+      gender_cues: ["$(#Bravo/Brava)", "$(#bravo/brava)"]
+      switches:
+        - {unit: q78, to: ви, trigger: "лють на CAU з «I am the consul, damn it!» — регістр тримається, зривається лише лексика"}
+        - {unit: q47, to: ви, trigger: "холодний докір за вбивство Голловея; ввічливість стає крижаною, не фамільярною"}
+    voice:
+      register: церемонний, дипломатичний, багатослівний
+      idiolect:
+        - "«dear Corporal» — стале пом’якшене звертання (q14, q40, q56, q58, q59)"
+        - "$(#Bravo/Brava) як похвала-рефрен (q19, q26, q33, q36, q105)"
+        - "французьке «Au revoir» на прощання (q103) — лишити чужомовним вкрапленням"
+        - "старомодні вигуки безсилля: «Dear me», «for crying out loud», «Now, now» (q2, q11, q107)"
+        - "самопоправки й хезитації в мові: «or, better yet», «how shall I say», «ehm», «let's call it like that»"
+        - "нанизані синоніми в гніві: «uncivil, audacious... impudent» (q78)"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; підказки дій усередині «::…::» — інфінітив (§3.5)"
+
+new_names:
+  - "Fort Apogee"
+  - "United Stations"
+  - "Holloway"
+  - "Timothy"
+  - "Frederick"
+  - "Athanas"
+  - "Kaya"
+  - "Black Eel"
+  - "Dolos Center"
+  - "Hale"
+  - "CAU"
+  - "SFC"
+
+idioms:
+  - unit: q14
+    src: "if you play your cards right"
+    note: "стала ідіома — локалізувати українським відповідником, не калькувати карти"
+  - unit: q16
+    src: "the colonel is your best bet"
+    note: "розмовний зворот у формальній мові консула; зберегти контраст, але не буквалізм"
+  - unit: q47
+    src: "You might think that you've sacrificed one to save the rest"
+    note: "риторична фігура докору, не ідіома — інтонацію розчарування не пом’якшувати"
+  - unit: q79
+    src: "makes my blood boil"
+    note: "ідіома; український відповідник, а не дослівна калька"
+  - unit: q63
+    src: "He was zoned to the bone"
+    note: "зонерський сленг — лишаємо запозиченням, STYLE §9"
+
+pitfalls:
+  - "$(context.player.Name) трапляється в 12 рядках (q1, q81, q82, q84, q86, q93, q103, q105, q107, q108, q110) — не відмінювати всередині плейсхолдера; речення будувати так, щоб ім’я стояло в називному"
+  - "$(#Bravo/Brava) і $(#bravo/brava) — різний регістр літер у гілках має зберігатися точно"
+  - "Голловей фігурує і як «SFC Holloway», і просто як «the sergeant» — звання не змішувати"
+  - "q7 пояснює абревіатуру SFC у q9 («Sergeant First Class») — переклад має тримати цей зв’язок питання-відповіді a8/q9"
+  - "Junkyard (q72, q84) — глосарій дає «Звалище»; Core City — «Центральне Місто»; Underrail лишається латиницею й не відмінюється"
+  - "«Miss Vera Hale» (q93) — Vera за реєстром «Віра», прізвище ще без канонічного варіанта"
+
+examples:
+  - unit: a54
+    rule: "підказка дії в «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Переказати історію Голловея.::"
+    status: proposed
+  - unit: q19
+    rule: "$(#Bravo/Brava) — гендерна пара, велика літера в обох гілках, STYLE §2"
+    uk_fragment: "$(#Браво/Брава)"
+    status: proposed

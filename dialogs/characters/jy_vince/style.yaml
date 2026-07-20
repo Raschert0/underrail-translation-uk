@@ -1,0 +1,82 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_vince
+file_id: dialogs\characters\jy_vince.txt
+derived_from: source-only
+units: {total: 36, npc: 22, player: 14, empty: 1}
+
+speakers:
+  - slug: vince
+    name: Вінс
+    units: default
+    confidence: certain
+    evidence: [q1, q6, q26]
+    role: >-
+      Здирник, що тримає прохід через провулок на Звалищі й бере «одноразову
+      плату» за прохід. Тримається впевнено, поки має за спиною подільників,
+      але миттєво здувається перед силою або згадкою про псіоніка.
+    relationships:
+      - "«Psionic boy» — покровитель, згадка про якого змушує Вінса пропустити гравця задарма"
+      - "«his comrades» у q28 — подільники поруч; сміливість Вінса тримається на них"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        $(#jack/sister) чотири рази, «punk», «get your ass outta 'ere» —
+        вуличний грубий регістр, STYLE §3.2. Гравець дзеркалить погрозами
+        того самого рівня, STYLE §3.3.
+      gender_cues: ["$(#jack/sister)", "$(#him/her)", "$(#his/her)"]
+    voice:
+      register: нахабний, вуличний, з дефектною граматикою
+      idiolect:
+        - "«Mhm.» наприкінці репліки — словесний тик, повторюється в q1, q10, q33; зберігати як окреме речення"
+        - "зламане узгодження: «you is», «I is rememberin'», «I thinks», «this alley is belong to us» — відтворювати неграмотність, не виправляти"
+        - "«Hold't right thar» — стягнена вимова, не помилка набору"
+        - "«shinies» замість «coins» — своє слівце для монет, тримати однаковим у q21, q16, q36"
+
+narration:
+  present: true
+  note: >-
+    q1, q10, q28 містять ::…:: усередині репліки — «ви» без винятків,
+    навіть коли поруч Вінс каже «ти», STYLE §3.1
+
+new_names: []
+
+idioms:
+  - unit: q13
+    src: "Don't play no games with me"
+    note: "«не грайся зі мною»; подвійне заперечення — ознака мовлення, не помилка"
+  - unit: q14
+    src: "I would've remembered your mug"
+    note: "«mug» тут — пика, а не кухоль"
+  - unit: a25
+    src: "you mangy street rat"
+    note: "лайка-образа, лишається грубою, STYLE §9"
+  - unit: a27
+    src: "your little cardboard city"
+    note: "зневажливий образ халабуд; зберегти зневагу, не згладжувати"
+  - unit: q22
+    src: "I ain't fallin' for that one"
+    note: "«на це я не куплюся», не буквальне падіння"
+
+pitfalls:
+  - "q10 — це гілка для персонажки: «For a pretty girl like you» уже є жіночим варіантом рядка, не додавати сюди $(#…)"
+  - "q29 містить $(#him/her) і $(#his/her) — гравець згаданий у третій особі; обидві гілки мають узгодитися з рештою речення"
+  - "a11, q10, a15, a17, a19: charon → харон, stygian coin → стигійська монета (глосарій)"
+  - "a23, q24: South Gate Station → Станція Саут-Гейт, SGS → ССГ (глосарій); «southgater» — похідний демонім, потребує узгодженої форми"
+  - "a27: Underrail не перекладати й не відмінювати — «Upper Underrail» лишається латиницею всередині української фрази (глосарій)"
+  - "a12 ::[Persuade]:: → ::[Переконати]::, a25/a27 ::[Intimidate]:: — назва перевірки в дужках, узгодити з глосарієм навичок"
+
+examples:
+  - unit: q1
+    rule: "$(#jack/sister) — панібратське гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q1
+    rule: "словесний тик лишається окремим коротким реченням"
+    uk_fragment: "Ага."
+    status: proposed
+  - unit: a11
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Заплатити 5 стигійських монет.::"
+    status: proposed

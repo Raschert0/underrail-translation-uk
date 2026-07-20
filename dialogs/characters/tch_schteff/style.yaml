@@ -1,0 +1,99 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_schteff
+file_id: 'dialogs\characters\tch_schteff.txt'
+derived_from: source-only
+units: {total: 192, npc: 107, player: 85, empty: 4}
+
+speakers:
+  - slug: schteff
+    name: Штефф
+    units: default
+    confidence: certain
+    evidence: [q4, q3, q88]
+    role: >-
+      Головний дослідник (Principal Investigator) фізичного відділу Інституту Тчорта:
+      захоплений науковець-теоретик, який посилає гравця розставляти T-променеві
+      випромінювачі. Мова — освічена, розлога, з постійним почуттям провини за
+      загиблого рясофора Павла.
+    relationships:
+      - "Рясофор Павло — доброволець, якого Штефф послав у Західне Крило й тим занапастив; тема, до якої він повертається щоразу"
+      - "Медіант Семюел — начальник Сил Збереження; Штефф покладався на його рапорти й тепер виправдовується ними"
+      - "Дослідник Кіро — підлеглий-математик і торговець; Штефф говорить про нього з теплим зверхнім гумором"
+      - "Ейдейн — вища духовна інстанція, згадується у формулі «Eidein pardon me»"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Формальний науковець і посадовець, що звертається до незнайомця: «please -
+        just call me Schteff. You are...?», «I have no objections to that», «By all
+        means», «I am all ears». Жодних випадань «g», повні синтаксичні конструкції.
+        Братське $(#brother/sister) тут — конфесійна формула тчортистів, а не
+        панібратство, і «ви» не скасовує.
+      gender_cues: ["$(#brother/sister)", "$(#man/woman)", "$(#guy/girl)"]
+    voice:
+      register: ввічливо-академічний, багатослівний, захоплений, легко вибачливий
+      idiolect:
+        - "«Well now» — вставка-перемикач теми, майже в кожній довгій репліці; тримати як один сталий зворот"
+        - "«apex» — його особисте слівце на позначення «чудово/найвищий клас»; не «вершина», потрібен один сталий відповідник у всьому вузлі"
+        - "«Magnificent Tchort!» і «By the Tchort» — вигуки-божіння; передавати однаково скрізь"
+        - "«Eidein pardon me» — конфесійна вибачальна формула, не буквальне прохання пробачення"
+        - "науковий жаргон у побутовій репліці: terahertz, triploidy, mitosis — не спрощувати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки типу ::He laughs.:: і ::He hands you 450 stygian coins.:: подієві, теперішній час"
+
+new_names: ["Pavel", "Unas", "Harpocrates Station", "West Wing", "Preservation Forces", "Mediant", "Praepostor", "Department of Physics", "T-ray emitter"]
+
+idioms:
+  - unit: q49
+    src: "All fine and dandy"
+    note: "не калькувати; розмовне «все чудово-пречудово»"
+  - unit: q164
+    src: "their jaws instantly crack the floor"
+    note: "гіпербола про відвислі щелепи; локалізувати образ, не перекладати дослівно"
+  - unit: q127
+    src: "zilch"
+    note: "розмовне «нічого/нуль», не термін"
+  - unit: q17
+    src: "we are fresh out of emitters"
+    note: "«запаси скінчилися», не «свіжі»"
+  - unit: q48
+    src: "we're on the same page"
+    note: "локалізувати як «порозумілися», не «на одній сторінці»"
+  - unit: q16
+    src: "I'm afraid that is all for now"
+    note: "ввічливе пом’якшення, не про страх"
+  - unit: a176
+    src: "I hope I have your divided attention"
+    note: "каламбур на поділі клітини (mitosis / divided); дослівний переклад руйнує жарт — потрібна українська гра слів навколо «поділу»; відповідь q177 має лишатися реакцією на вдалий жарт"
+  - unit: q71
+    src: "it's like triploidy"
+    note: "біологічний термін як метафора невдачі; лишати терміном"
+
+pitfalls:
+  - "$(context.player.Name) — усередині плейсхолдера нічого не відмінювати; фразу будувати так, щоб ім’я стояло у називному (звертання «…, $(context.player.Name)» трапляється десятки разів)"
+  - "Пара формул «Tchort is evolution» / «Evolution is Tchort» (q3, a10) — дзеркальна відповідь-відгук; переклад має лишатися дзеркальним"
+  - "«Tchort guide you» (q42, q92, q117, q147, q149) — стала формула прощання, один переклад на весь вузол"
+  - "Титули Principal Investigator, Rassophore, Mediant, Praepostor вживаються перед іменем; рясофор закріплено реєстром (Rassophore Payam → рясофор Паям), решта потребує централізованого рішення"
+  - "stygian coins → «стигійська монета», charons → «харон» (глосарій); числа сум не змінювати"
+  - "Core City → «Центральне Місто», Drop Zone → «Зона Скидання», Institute of Tchort → «Інститут Тчорта», rathounds → «щурчаки» (глосарій)"
+  - "Underrail у «Core City Upper Underrail station» лишається латиницею й не відмінюється"
+  - "Літерал \\n\\n усередині рядків (q3, q17, q33, q59, q95, q103, q179, q182) — розділювач абзаців, зберігати як є"
+  - "Емфатичні зірочки *as*, *do*, *exact*, *completely* — авторський наголос, зберігати"
+  - "a67, a69, a73 — зрив гравця на грубість («damn it man», «stinkin’ places»); це емоційний сплеск, а не зміна базового «ви» (STYLE §3.3)"
+
+examples:
+  - unit: q42
+    rule: "$(#brother/sister) — гендерне конфесійне звертання, кличний відмінок, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q127
+    rule: "$(#man/woman) — гендерний іменник у складі означення"
+    uk_fragment: "$(#чоловік/жінка)"
+    status: proposed
+  - unit: q54
+    rule: "::…:: — ремарка лишається в делімітерах, теперішній час"
+    uk_fragment: "::Він усміхається.::"
+    status: proposed

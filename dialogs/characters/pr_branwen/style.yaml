@@ -1,0 +1,73 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pr_branwen
+file_id: dialogs\characters\pr_branwen.txt
+derived_from: source-only
+units: {total: 33, npc: 15, player: 18, empty: 2}
+
+speakers:
+  - slug: branwen
+    name: Бранвен
+    units: default
+    confidence: certain
+    evidence: [q5]
+    role: >-
+      Лейтенантка Протекторату, що тримає позицію під Інститутом Тчорта.
+      Крижано офіційна; від гравця-цивільного відмахується, гравця-капрала
+      терпить рівно стільки, скільки вимагає статут.
+    relationships:
+      - "полковник Каткарт — вищий за званням, їй же підпорядкована звітність"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        «direct, unyielding and very official tone of voice» просто в ремарці
+        q5 — службовий регістр (STYLE §3.2). «Ви» тримається і в холодній
+        гілці для цивільного: зневага передається лексикою «citizen», а не
+        переходом на «ти».
+    voice:
+      register: карбований статутний, без жодного скорочення
+      idiolect:
+        - "принципово без скорочень: «I am Lieutenant Branwen», «I am under no obligation» — не стягувати"
+        - "звертання-ярлик «Corporal» / «citizen» замість імені; підміна одного одним і є її зброя"
+        - "статутні формули «At ease», «You are dismissed» — усталені кліше"
+        - "зірочки як наголос: «*really*», «*Leave.*» — зберігати"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Портретні блоки q2, q23, q25, q27
+    несуть майже все характеротворення цього вузла.
+
+new_names: ["Fort Apogee", "Cathcart"]
+
+idioms:
+  - unit: q16
+    src: "Now get out of my sight"
+    note: "різке «геть з очей»; грубість зберегти (STYLE §9), але без переходу на «ти»"
+  - unit: q23
+    src: "Need I repeat myself"
+    note: "холодна погроза, не запитання про пам’ять"
+  - unit: q27
+    src: "her eyes tell a different story"
+    note: "ідіома про суперечність між лицем і поглядом; не калькувати «розповідають історію»"
+  - unit: a31
+    src: "Protectorate swine"
+    note: "лайка — лишається лайкою, не пом’якшувати (STYLE §9)"
+
+pitfalls:
+  - "Protectorate → Протекторат, Faceless → Безликі, Institute (of Tchort) → Інститут Тчорта — глосарій"
+  - "«Tchortists» — похідне від Tchort → Тчорт; тримати єдину форму з рештою вузлів tch_*"
+  - "a4 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "звання Lieutenant і Colonel з малої: «лейтенант Бранвен» (реєстр), «полковник Каткарт»"
+  - "a26 «you stupid woman» — образа від гравця; тут перехід на «ти» доречний саме як зрив, а не як база (STYLE §3.3)"
+
+examples:
+  - unit: q8
+    rule: "STYLE §3.4 — наказовий спосіб успадковує «ви»"
+    uk_fragment: "Повідомте"
+    status: proposed
+  - unit: a17
+    rule: "STYLE §3.5 — підказка дії в ::…:: інфінітивом"
+    uk_fragment: "::Віддати честь і піти.::"
+    status: proposed

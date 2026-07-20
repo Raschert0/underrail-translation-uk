@@ -93,6 +93,40 @@ Note the state distinction: `<target state="needs-translation">` is raw machine 
 (94.7% of the corpus), `<target state="translated">` is human-reviewed (5.3%). Style rules and
 audits apply to the latter — the former will be retranslated wholesale.
 
+⚠️ **`state="translated"` overstates review coverage.** Of the 1 762 such targets, **1 338 are
+the literal string `<end>`** — an untranslatable control token that was auto-marked. Only ~338
+exceed 40 characters. Genuine human-reviewed prose lives in roughly 16 nodes, led by
+`bigbret1` (171 segments), `cc_al_fabet` (53), `abram` (39), `cc_moe` (29). Any filter on this
+state must exclude `<end>`-only targets, or it treats ~905 untranslated nodes as done.
+
+## Style cards (`style.yaml`)
+
+Every dialog node under `dialogs/characters/` and `dialogs/events/` (347 nodes) carries a
+`style.yaml` beside its `uk.xml`: who speaks, ти or ви in each direction and why, voice and
+idiolect, idioms that must not be calqued, node-specific pitfalls. Cards are **derived only
+from the English `<source>`** — never from targets, which are ~98% raw MT — but are **written
+in Ukrainian**.
+
+- `style/registry.yaml` — canonical Ukrainian name for every recurring character. Single
+  source of truth: never invent a transliteration for a name listed there.
+- `STYLE-dialogs-uk.md` — one row per speaker, the index that makes inconsistency visible.
+- Cards are **invisible to Weblate** (discovery matches `.xml` only) and cut no release
+  (`release.yml` triggers on `**/*.xml`). They are read in the repository, not in the editor.
+
+Key fact that shapes the schema: a node holds a whole conversation tree, and `=>qN` units can
+belong to **several different NPCs with no attribution attribute**. Hence `speakers` is always
+a list. A name in the vocative identifies the *addressee*, not the speaker — the single most
+common attribution error. Where a speaker cannot be established, the card says so explicitly
+(`confidence: unknown` with `reason` and `guidance`) rather than guessing.
+
+Tooling:
+
+- `tools/extract-sources.ps1` — emits English-only source files; makes "sources only" a
+  structural guarantee rather than an instruction.
+- `tools/inventory-dialogs.ps1` — unit counts, `$(#…)` cues, proper nouns in narration.
+- `tools/check_style_cards.py` — validates cards (Python, because no PowerShell YAML parser
+  is installed). Same conventions as `check-uk.ps1`: problems grouped by kind, exit 0/1.
+
 ## Working here
 
 - Prefer targeted edits to individual `<target>` elements; a bulk reformat of 2146 files would produce an unreviewable Weblate diff.

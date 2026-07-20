@@ -1,0 +1,75 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_tchortistinterceptor
+file_id: dialogs\characters\cc_tchortistinterceptor.txt
+derived_from: source-only
+units: {total: 19, npc: 15, player: 4, empty: 1}
+
+speakers:
+  - slug: tchortist_interceptor
+    name: тчортистський проповідник
+    units: default
+    confidence: certain
+    evidence: [q1, q4]
+    role: >-
+      Вуличний місіонер Інституту Тчорта, який зупиняє перехожих із коротким
+      відшліфованим казанням і скеровує їх до міністра Персіваля. Ввічливий,
+      доглянутий, професійно улесливий.
+    relationships:
+      - "Ейдейн — засновник Інституту, якого він цитує (q3, q14)"
+      - "Персіваль — міністр, до чиєї лекції він скеровує (q4, q11, q19)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Незнайомець зі службовою місією, що вітається уклоном і зве гравця
+        «traveler» (q1), вибачається за забраний час і дякує — STYLE §3.2,
+        формальний мовець. Гравець відповідає у тому ж ключі (§3.3), навіть
+        відмовляючи (a8).
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: єлейний, книжний, проповідницький; повні форми без стягнень
+      idiolect:
+        - "формула-гасло «Tchort is evolution» (q1, q12) — повторюваний символ віри"
+        - "риторичні питання за себе й за співрозмовника: «Why is it magnificent, you wonder?»"
+        - "благословення на прощання: «Tchort guide you» (q4)"
+        - "коротші q10–q19 — вуличні заклики-барки того самого голосу, тон гучніший"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут q1, q2 і ::Leave.:: в a7"
+
+new_names: ["Minister", "Percy"]
+
+idioms:
+  - unit: q4
+    src: "I won't take even one more second of your time"
+    note: "ввічлива формула, локалізувати як формулу, не послівно"
+  - unit: q14
+    src: "Adapt and overcome"
+    note: >-
+      Гасло-цитата засновника; має звучати як карбоване гасло, а не як опис дії,
+      і однаково в усіх появах.
+  - unit: q13
+    src: "Their doom is imminent."
+    note: "високий регістр — «загибель», не побутове «кінець»"
+
+pitfalls:
+  - >-
+    a6 «this... Percy guy» — навмисно зневажливе скорочення імені Персіваль
+    у вустах гравця; не вирівнювати до повного імені, зневага має читатися.
+  - >-
+    Глосарні одиниці, які не можна перекладати вільно: Tchort → Тчорт,
+    Institute of Tchort → Інститут Тчорта, Faceless → Безликі,
+    Core City → Центральне Місто, JKK — лишається латиницею.
+  - >-
+    q2 «renerative» — друкарська помилка джерела; в українській відтворювати
+    помилку не треба, пишемо нормативно.
+  - >-
+    Mitchell у q18 — це Мітчелл із реєстру, а не випадкове слово.
+
+examples:
+  - unit: q4
+    rule: "$(#brother/sister) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed

@@ -1,0 +1,70 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/kirilllab2_entangledcuttlesnail
+file_id: dialogs\characters\xpbl\kirilllab2_entangledcuttlesnail.txt
+derived_from: source-only
+units: {total: 20, npc: 10, player: 10, empty: 2}
+
+speakers:
+  - slug: narration
+    name: нарація
+    units: default
+    confidence: certain
+    evidence: [q1, q4, q18]
+    role: >-
+      Персонажа-мовця у вузлі немає: усі q-юніти — суцільна нарація, що описує
+      сцену з застряглим молюском. Це не розмова, а інтерактивний опис
+      з розгалуженням.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Нарація ::…:: — завжди «ви», без винятків (STYLE §3.1). Репліки гравця
+        тут майже всі теж службові підказки дій, тож окремого регістру
+        співрозмовника взагалі не виникає.
+      gender_cues: []
+    voice:
+      register: тілесний, натуралістичний, повільно-докладний опис
+      idiolect:
+        - "довгі складнопідрядні періоди з послідовністю дій — темп навмисно тягучий"
+        - "фізіологічна конкретика: слиз, кислота, желейна тканина, органи"
+
+narration:
+  present: true
+  note: "усі q-юніти — нарація; «ви» без винятків, STYLE §3.1"
+
+new_names: ["cuttlesnail"]
+
+idioms:
+  - unit: q9
+    src: "before you know it"
+    note: "«не встигаєте й оговтатися» — сталий зворот, не буквально"
+  - unit: q11
+    src: "cut through the snail with breeze"
+    note: >-
+      спотворене «with ease» — у джерелі саме «breeze»; передавати як
+      «легко, мов крізь масло», не вигадувати вітер
+  - unit: q13
+    src: "bitter-sweet"
+    note: "тут прямий смак, а не переносне «гірко-солодкий спогад»"
+  - unit: q7
+    src: "no desired results"
+    note: "канцелярський зворот на тлі натуралізму — контраст навмисний, зберегти"
+
+pitfalls:
+  - "КЛЮЧОВЕ: персонаж гравця тут не людина — у нього «crusted claw», «sharp teeth», він реве «RAAAGHHHH!» і «Kiiiillll!». Опис тіла не «олюднювати»: claw — це кіготь/лапа, а не рука в переносному сенсі"
+  - "Попри нелюдськість гравця нарація лишається на «ви» — STYLE §3.1 винятків не має"
+  - "a12 і a15 («Grgl, grgl, grrrg», «Wwwwhhhaaa?») — нечленоподільні звуки; відтворювати українськими літерами, зберігаючи довжину повторів"
+  - "«cuttlesnail» — істота, якої немає ні в реєстрі, ні в глосарії; не вигадувати назву самотужки"
+  - "Підказки дій ::Try to free it.::, ::Pet it.::, ::Leave.::, ::Stand up.:: — інфінітив, STYLE §3.5"
+  - "У q4/q9 важливо розрізняти праву й ліву руку — це сюжет сцени, не деталь"
+
+examples:
+  - unit: a3
+    rule: "підказка дії — інфінітив, STYLE §3.5"
+    uk_fragment: "::Спробувати визволити.::"
+    status: proposed
+  - unit: a15
+    rule: "нечленоподільний звук передається українськими літерами, STYLE §9"
+    uk_fragment: "Ввввщщщооо?"
+    status: proposed

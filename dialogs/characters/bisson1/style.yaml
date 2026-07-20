@@ -1,0 +1,84 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/bisson1
+file_id: dialogs\characters\bisson1.txt
+derived_from: source-only
+units: {total: 87, npc: 44, player: 43, empty: 4}
+
+speakers:
+  - slug: bisson
+    name: Біссон
+    units: default
+    confidence: certain
+    evidence: [q80, q53, q79]
+    role: >-
+      Псіонік у ССГ, платний учитель психокінетики; розчищає тунель телекінезом
+      і живе з викладання. Половина вузла — навчальні пояснення здібностей, тому
+      його мова тримається на точній термінології, а не на емоції.
+    relationships:
+      - "Езра і Квінтон — інші вчителі ССГ, називає їх без суперництва, як колег"
+      - "Гарольд — знайомий із бару, з якого починається розмова"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Наскрізне звертання «friend» (q1, q35, q53, q60, q73, q79) ставить
+        співрозмовника на один рівень із мовцем; він не обслуга і не службовець,
+        а сусід по станції. Піднесеність його мови треба передавати добором слів
+        і повними конструкціями, а не переходом на «ви».
+      switches: []
+    voice:
+      register: спокійний, розважливий, майже проповідницький; повні речення без ковтання складів
+      idiolect:
+        - "звертання «friend» як постійний тик — має бути та сама українська форма в усіх шести випадках"
+        - "пом’якшувальні зачини «I'm afraid», «If I would have to guess», «Again» — обережність, а не невпевненість"
+        - "книжні формули «if memory serves me right», «I most certainly don't envy him» поряд із вуличним «if you dig» — суміш регістрів навмисна"
+        - "афористичні кінцівки: «a shortcut to ability… not a shortcut to wisdom» — зберегти паралелізм"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки «::He laughs.::», «::He nods.::» короткі, не розгортати"
+
+new_names: ["Lunatics", "Bisson"]
+
+idioms:
+  - unit: q8
+    src: "if you dig"
+    note: "вуличне «розумієш?», не калькувати дієслово «копати»"
+  - unit: q8
+    src: "If memory serves me right"
+    note: "усталене «якщо не зраджує пам’ять», не буквально"
+  - unit: q49
+    src: "Teaching is how I get by"
+    note: "«з того й живу» — про засіб існування, не про якість викладання"
+  - unit: q59
+    src: "end up derailed"
+    note: "«злітають з котушок»; гра з рейками тут неперекладна, значення важливіше"
+  - unit: q73
+    src: "mind-boggling"
+    note: "розмовне «голова обертом», не науковий термін"
+
+pitfalls:
+  - "назви псі-здібностей (telekinetic punch, force field, force emission, electrokinesis) та дисциплін (psychokinetics, thought control, metathermics) — ігрові терміни; звірити з knowledge/ і вживати ту саму форму в q13, q16, q23, q31, q39 та в гілках гравця a15, a22, a30, a38"
+  - "«::[Requires: Psychokinesis 25]::» в a22, a30, a38 — службова мітка інтерфейсу; число й формат зберегти"
+  - "q18, q25, q33, q41 — чотири дослівно однакові репліки «Let's begin your training then...»; переклад має бути однаковий у всіх чотирьох"
+  - "q27 і q43 однакові, q35 відрізняється лише доданим «friend» — розбіжність значуща, не вирівнювати"
+  - "суми словами: fifty / one hundred / two hundred / one hundred fifty credits — лишати словами, не цифрами"
+  - "a81, a85, q87 містять $(context.player.Name) — не відмінювати всередині плейсхолдера; фразу будувати так, щоб ім’я стояло в називному"
+  - "«cerebral imprinting», «psionic mentors» — сталі терміни, узгодити з глосарієм проєкту"
+  - "«scavenger» → «шукач», «Faceless» → «Безликі», «Core City» → «Центральне Місто», «Biocorp» латиницею, «Underrail» латиницею й без відмінювання — глосарій"
+  - "q57, q59, q60 — тризгаданий «friend» лише в q60; не додавати звертання там, де його немає"
+
+examples:
+  - unit: a86
+    rule: "$(#guy/girl) — гендерна пара, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#новенький/новенька)"
+    status: proposed
+  - unit: a19
+    rule: "службова підказка дії всередині «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Продовжити::"
+    status: proposed
+  - unit: q79
+    rule: "нарація «::…::» — «ви», STYLE §3.1"
+    uk_fragment: "::Він киває.::"
+    status: proposed

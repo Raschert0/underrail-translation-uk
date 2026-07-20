@@ -1,0 +1,98 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fo_barkeeper
+file_id: 'dialogs\characters\fo_barkeeper.txt'
+derived_from: source-only
+units: {total: 48, npc: 33, player: 15, empty: 2}
+
+speakers:
+  - slug: fo_barkeeper
+    name: шинкар
+    units: default
+    confidence: certain
+    evidence: [q1, q5, q16]
+    role: >-
+      Шинкар Ливарні — головне джерело чуток у місті: розповідає про шахту,
+      скельних тварюк, нетрі й місцевих торговців. Безперервно кашляє від
+      брудного повітря, і цей кашель вплетений у майже кожну його репліку.
+    relationships:
+      - 'Hugo — постійний клієнт, шинкар його вигороджує попри підозрілу компанію'
+      - 'Foundry Guard — гарант безпеки міста, говорить про них схвально'
+      - 'Ironheads — вороги, зве їх barrenheads'
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Формально це обслуга, і STYLE §3.2 схиляв би до «ви», але звертання
+        $(#pal/gal) — приятельське, і його підпирає суцільне просторіччя:
+        ’cause, ya, ’im, you dig, жарти про girly men. Рішення на користь «ти»;
+        це свідомий виняток із «обслуга → ви», і його треба тримати в усьому
+        вузлі. Гравець дзеркалить (§3.3).
+      gender_cues: ["$(#pal/gal)"]
+    voice:
+      register: гучний, панібратський, з грубуватим гумором
+      idiolect:
+        - 'словесний тик «you dig» (q21, q23, q26) — потрібен один повторюваний український відповідник, як-от «тямиш?»'
+        - 'подвоєне ствердження «Yeah. Yeah.» і «Sure, sure.» — зберігати повтор'
+        - 'сміх крізь кашель: He laughs and coughs at the same time — постійний прийом, не згладжувати'
+        - 'односкладні відповіді-оцінки: «Golden.», «Nope, sorry.»'
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, хоча сам шинкар каже «ти».
+    Підказка дії ::Barter.:: — інфінітив (§3.5), готовий варіант у глосарії.
+
+new_names: ["Bryan", "Stevenson", "Banner", "Ingram", "Balor", "rockies", "barrenheads"]
+
+idioms:
+  - unit: q1
+    src: "dark, light, rocky and pansy"
+    note: 'назви сортів пива — перекладати як цілісний набір; pansy має лишитися глузливим, бо на ньому тримається наступний жарт'
+  - unit: q1
+    src: "that one’s for girly men and northerners"
+    note: 'грубий жарт — не пом’якшувати, STYLE §9'
+  - unit: a11
+    src: "the derailed preacher"
+    note: 'залізнична метафора божевілля, доречна в Underrail; не калькувати «зійшов з рейок» буквально, але залізничний натяк варто зберегти'
+  - unit: q12
+    src: "Not Lunatic, but lunatic"
+    note: 'гра на великій і малій літері: Lunatic — фракція, lunatic — просто причинний; протиставлення має читатися в українському'
+  - unit: q15
+    src: "be my guest and pay them a visit"
+    note: 'іронічне запрошення — локалізувати, не калькувати'
+  - unit: q38
+    src: "that’ll do ya good"
+    note: 'просторічне ya — регістр передавати лексикою, а не апострофами'
+  - unit: q42
+    src: "Eat that, Ironheads!"
+    note: 'зловтішний вигук — «Отримайте!», не буквальне «з’їжте це»'
+  - unit: q48
+    src: "lubricate your dry, friable throat"
+    note: 'навмисно пишномовний зворот у вустах шинкаря — комічний контраст зберегти'
+
+pitfalls:
+  - 'Foundry → Ливарня, але Foundry Guard НЕ перекладається — лишається латиницею (глосарій); у q5, q41, q43 обидва слова стоять поруч'
+  - 'Ironheads → Залізноголові, Faceless → Безликі, Core City → Центральне Місто — глосарій'
+  - 'Martin Marshall → Мартін Маршалл (registry, прим. до Mayor); Hugo → Г’юго; Bobby → Боббі; West → Вест; Messer → Мессер; Leonie → Леоні; Estelle → Естель; Evelyn → Евелін; Nicolas → Ніколас; Olivia → Олівія'
+  - 'Chief → шеф із малої (registry): «Chief Banner» → «шеф Banner», «Chief Ingram» → «шеф Ingram»; самі прізвища — у new_names, не транслітерувати наосліп'
+  - 'Doc Stevenson: «Doc» → «док» (registry), прізвище Stevenson — у new_names'
+  - 'ремарка ::He coughs.:: повторюється щонайменше десять разів — перекласти один раз і вставляти дослівно, без синонімів'
+  - 'q1, q16, q35, q39 містять $(#pal/gal) — гендерний плейсхолдер, обидві гілки в українських формах, латиниці всередині не лишати'
+  - 'q1, q5, q39 містять літеральні \n\n — переносити без змін'
+  - 'зірочка емфази у q6 (*I*) — розмітка наголосу, зберігати'
+  - '«rockies» (q10) — місцеве прізвисько скельних тварюк; узгодити з назвою істоти централізовано'
+
+examples:
+  - unit: q1
+    rule: '$(#pal/gal) — гендерне звертання, STYLE §2'
+    uk_fragment: "$(#друже/подруго)"
+    status: proposed
+  - unit: a3
+    rule: 'підказка дії в ::…:: — інфінітив, STYLE §3.5'
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q13
+    rule: 'наказовий спосіб успадковує «ти», STYLE §3.4'
+    uk_fragment: "Просто не зважай на нього."
+    status: proposed

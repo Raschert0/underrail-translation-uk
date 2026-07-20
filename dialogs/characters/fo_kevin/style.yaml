@@ -1,0 +1,73 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fo_kevin
+file_id: dialogs\characters\fo_kevin.txt
+derived_from: source-only
+units: {total: 47, npc: 31, player: 16, empty: 2}
+
+speakers:
+  - slug: kevin
+    name: Кевін
+    units: default
+    confidence: certain
+    evidence: [q1, q24]
+    role: >-
+      Наглядач Foundry Guard, який під службовим фасадом підторговує військовою
+      зброєю з-під поли. Звідси роздвоєння голосу: офіційна ввічливість на людях
+      і сторожка змовницька мова, щойно розмова заходить про товар.
+    relationships:
+      - "Foundry Guard — його служба; говорить про неї з підкресленою гордістю (q30)"
+      - "Клод — постачальник питної води в Ливарні, Кевін радить пити лише в нього (q32)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Пряме `$(#sir/ma'am)` у першій же репліці, представлення посадою й
+        іменем, службовий регістр — STYLE §3.2 для формальних і службових осіб.
+      gender_cues: ["$(#sir/ma'am)", "$(#him/her)"]
+      switches: []
+    voice:
+      register: офіційний, стриманий, з нальотом самовдоволення
+      idiolect:
+        - "подвоєне поступливе «Alright, alright» — момент, коли фасад тріскає (q6, q10, q16)"
+        - "перепитує «Understand? Yes?», «Yes?» — тисне на співрозмовника (q6, q16, q39)"
+        - "надмірно ввічливі формули «I'm terribly sorry», «if I may ask» — робить вигляд, що нічого не сталося"
+
+narration:
+  present: true
+  note: "лише q1 (`::The man clears his throat before speaking.::`) — «ви» без винятків, STYLE §3.1"
+
+new_names: ["Grey", "Claude", "Fort Apogee", "the Beast"]
+
+idioms:
+  - unit: q16
+    src: "we're golden"
+    note: >-
+      місцева ливарська приказка «все чудово / ми в порядку»; звучить також у
+      Маркоса — не калькувати «золоті», тримати один варіант на всю Ливарню
+  - unit: q41
+    src: "annoying the marbles out of everyone"
+    note: "розмовне «дістає всіх до печінок»; калька з «кульками» неможлива"
+  - unit: q38
+    src: "odd rocky creatures"
+    note: >-
+      у сусідніх вузлах ті самі істоти звуться «rockies» — потрібен один
+      український відповідник на обидва слова
+
+pitfalls:
+  - "q35 містить $(context.player.Name) — плейсхолдер не відмінювати; будувати фразу так, щоб ім’я стояло в називному"
+  - "q16 `$(#him/her)` стосується ГРАВЦЯ, а не третьої особи — при перебудові речення стежити, щоб плейсхолдер лишився про адресата"
+  - "a5, a9 — теги навичок `::[Mercantile]::`, `::[Persuade]::`; беруться з глосарію, а не перекладаються наново"
+  - "q30 «Underrail Protectorate's Fort Apogee» — Underrail лишається латиницею й не відмінюється (глосарій), Protectorate → Протекторат"
+  - "«Foundry Guard» лишається латиницею (глосарій), тоді як саме місто Foundry → Ливарня — в одному реченні q30 обидва варіанти поруч"
+  - "q35–q36 Кевін роздратований і зверхній, але лишається на «ви» — це службовий тон, а не зближення; на «ти» не зривати"
+
+examples:
+  - unit: q1
+    rule: "$(#sir/ma'am) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q6
+    rule: "подвоєна поступка як мовний тик — зберігати повтор"
+    uk_fragment: "Гаразд, гаразд."
+    status: proposed

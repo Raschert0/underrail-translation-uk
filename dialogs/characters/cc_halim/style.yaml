@@ -1,0 +1,88 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_halim
+file_id: dialogs\characters\cc_halim.txt
+derived_from: source-only
+units: {total: 77, npc: 49, player: 28, empty: 2}
+
+speakers:
+  - slug: halim
+    name: Галім
+    units: default
+    confidence: certain
+    evidence: [q1, q5, q7]
+    role: >-
+      Літній крамар у Центральному Місті, який торгує зброєю, але зневажає
+      насильство: майже кожна його відповідь про місто — моральна оцінка, а не
+      довідка. Ключове слово його світогляду — «harmony/harmonious», ним він
+      хвалить людей і ним же засуджує Арену та Рукавицю.
+    relationships:
+      - "дружина — подарувала йому браслет із суперсталі, зроблений у Ливарні (q56, q58)"
+      - "Оскар — сусідній торговець, колишній працівник Praetorian Security (q12)"
+      - "Al Fabet — постійно приносить йому непотріб, Галім щоразу ввічливо відмовляє (q53)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Обслуга й людина підкреслено чемна: «I welcome you to my store,
+        traveler», «I am at your service» (q1). Навіть коли обриває
+        нахабство — робить це холодною формальністю, а не грубістю (q7).
+        STYLE §3.2. Репліки гравця дзеркалять цю чемність (§3.3).
+      switches:
+        - {unit: q7, to: ви, trigger: "різкий тон при неповазі — регістр не змінюється, змінюється холод"}
+    voice:
+      register: неспішний, м’який, повчальний; проповідник за прилавком
+      idiolect:
+        - "англійська нерідна: систематично випадають артиклі — «Man you speak of», «Order which they brought», «placed it into hearts of the people», «ease soul»"
+        - "короткі рубані ствердження підряд: «It is the place of poor. It is the place of unwanted.» — риторичний паралелізм зберігати"
+        - "«harmony», «harmonious», «inharmonious» — наскрізна оцінна лексика, той самий український корінь щоразу"
+        - "жодних скорочень і сленгу, на відміну від решти персонажів Центрального Міста"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; «::Barter.::» — інфінітив (§3.5)"
+
+new_names:
+  - "Spectres"
+  - "Gauntlet"
+  - "Oligarchy"
+  - "Tchortists"
+  - "Talloski"
+  - "Suzana"
+  - "Terry Baker"
+  - "Acid Hunters"
+  - "Arda"
+  - "Underrail Express"
+  - "TriEnergy"
+  - "super steel"
+
+idioms:
+  - unit: q30
+    src: "It will speak clearer than any of us can"
+    note: "місто як мовець — образ зберігати, не спрощувати до «подивіться самі»"
+  - unit: q53
+    src: "A seemingly endless loop"
+    note: "сухий підсумок анекдоту; не калькувати технічне «цикл»"
+  - unit: q68
+    src: "If memory serves me well"
+    note: "усталений зворот, локалізувати ідіомою, а не дослівно"
+
+pitfalls:
+  - "q62, q65, q66: Tunnelers → «Тунельники», Faceless → «Безликі» (глосарій) — Галім називає тих самих істот двома словами; обидва передавати за глосарієм, не уніфікувати"
+  - "q21, q32, q33: Coretech, Biocorp, JKK, Praetorian Security — латиницею, не відмінювати (глосарій)"
+  - "q35: Underrail — латиницею, не відмінювати навіть усередині фрази (глосарій)"
+  - "q58: Foundry → «Ливарня», але Foundry Guard лишається латиницею (глосарій)"
+  - "q20: Drop Zone → «Зона Скидання»; q23 Arena → «Арена»; a52 Al Fabet → «Аль Фабет» (глосарій)"
+  - "a67: South Gate Station → «Станція Саут-Гейт», але «Southgaters» (q68) відповідника не має — рішення централізоване"
+  - "a57: charons → «харони» (глосарій, монета)"
+  - "q32: «disonance», q40 «estamblishment» — одруківки в джерелі, перекладати за змістом, не відтворювати помилку"
+
+examples:
+  - unit: q11
+    rule: "випадання артиклів → книжна інверсія, а не помилка в українському (STYLE §9)"
+    uk_fragment: "Той, про кого ви кажете, мені не відомий"
+    status: proposed
+  - unit: q3
+    rule: "підказка дії всередині «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

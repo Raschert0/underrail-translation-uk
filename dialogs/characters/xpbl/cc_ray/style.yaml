@@ -1,0 +1,136 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/cc_ray
+file_id: dialogs\characters\xpbl\cc_ray.txt
+derived_from: source-only
+units: {total: 632, npc: 372, player: 260, empty: 126}
+
+speakers:
+  - slug: ray
+    name: Рей
+    units: default
+    confidence: certain
+    evidence: [q5, q486]
+    role: >-
+      Власник єдиної крамниці гідроциклів у Південній Underrail: балакучий продавець,
+      що тисне на панібратство й засипає покупця технічними подробицями. Весь вузол —
+      його монолог, тож регістр і словесні тики тут вирішують усе.
+    relationships:
+      - "Гіб — механік, працює з ним у майстерні (q2, q470)"
+      - "Отто — набридливий клієнт-мисливець, якого Рей ледве терпить (q467)"
+      - "Преторіанці — патруль, до якого він звертається після пограбування (q513)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Від першої репліки зве покупця «friend», одразу випитує ім’я й переходить на
+        нього, у q9 звертається «$(#, son/)». Мова суцільно розмовна («ya», «yer»,
+        «Imma», «ain’t»). За STYLE §3.2 це однозначне «ти»; репліки гравця дзеркалять
+        його (§3.3), зокрема фамільярне «Come on, Ray» у торгах.
+      gender_cues: ["$(#, son/)"]
+    voice:
+      register: гучний, панібратський, торговельний; захоплений технікою
+      idiolect:
+        - "«hardcore» — головний словесний тик; те саме слово як похвала, вигук і прикметник (q9, q22, q255, q423, q508). Потрібен ОДИН український відповідник на весь вузол, не синонімічний ряд"
+        - "«dominate / dominatin’ / domination / dominator» — другий тик, універсальний підсилювач і водночас евфемізм «убити» (q26, q595). Тримати спільний корінь у всіх формах"
+        - "«Can’t deny that» — стала кінцівка-приспів (q206, q212, q222, q232, q511, q516). Перекладати щоразу однаково"
+        - "«O-kay» з дефісом — розтягнуте вимовляння, не звичайне «окей»; дефіс зберігати (q34, q36, q452, q464)"
+        - "систематичне випадання -g: fixin’, sellin’, drivin’ — відтворювати українською розмовною редукцією, а не апострофами всередині слів"
+        - "стягнення whatcha / getcha / didja / betcha / Imma / lotta / buncha / ’cuz — суцільний просторічний шар"
+        - "лайка-евфемізм на «ass» і «Pipeworks»: ass-joes, ass-juicers, sack-a-asses, son of ass, asshats, pipeworkin’ scum (q245, q467, q488, q515). Грубе лишається грубим — STYLE §9"
+        - "«bom’» замість bomb — навмисно обрізане слово (q500, q505); обрізаність зберігати"
+        - "виділення зірочками *the* fastest, *so* hardcore — розмітка наголосу, лишається на місці"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1, попри суцільне «ти» у мовця"
+
+new_names:
+  - "Raymond"
+  - "Cerr"
+  - "Gib"
+  - "Otto"
+  - "Gizzy McGold"
+  - "Mike Burnwater"
+  - "Great Jetso"
+  - "Bob"
+  - "Bobbette"
+  - "Jane"
+  - "Hexagon"
+  - "Black Eels"
+  - "Oligarchy"
+  - "Pipeworks"
+  - "Biocorp Armory"
+  - "Biocorp Industries"
+  - "Ghastly Marauders"
+  - "Waves of Terror"
+  - "chompers"
+
+idioms:
+  - unit: q239
+    src: "these four are the pipes and barrels"
+    note: "не калькувати «труби й бочки»; ідіома означає «основа, суть справи». Те саме в q473"
+  - unit: q16
+    src: "a jet virgin"
+    note: "жартівливе «новачок»; зберегти двозначність, але без вульгаризації"
+  - unit: q26
+    src: "the rite of passage we must all take"
+    note: "усталене «обряд ініціації» звучало б книжно — потрібен розмовний відповідник"
+  - unit: q32
+    src: "them slackjaw fishes"
+    note: "вигадана глузлива назва риби; не шукати реального виду"
+  - unit: q211
+    src: "his steerin’ crapped out on him"
+    note: "технічна відмова, сказана грубо; не пом’якшувати до «зламалося»"
+  - unit: q217
+    src: "he went derailed"
+    note: "«зійшов з рейок» — залізничний образ світу гри у значенні «схибнувся»; образ варто зберегти"
+  - unit: q219
+    src: "Gizzy got zoned out"
+    note: "«zoned out» — сленгове «убили», похідне від zoner (глосарій: зонер); не плутати з «замріявся»"
+  - unit: q422
+    src: "as slim as a zoner’s wallet"
+    note: "порівняння будується на бідності зонера — зберегти зв’язок із терміном"
+  - unit: q246
+    src: "Easy-peasy"
+    note: "дитяча римована приказка; шукати українську риму, не описовий переказ"
+  - unit: q486
+    src: "claw yourself outta the Pipeworks"
+    note: "фізичний образ видирання нігтями; не зводити до «вибратися»"
+  - unit: q489
+    src: "ya respect the Man"
+    note: "«the Man» — влада, начальство як безлика сила; не власне ім’я"
+  - unit: q467
+    src: "blitherin’-ass coot"
+    note: "лайка на старого базіку; груба, з підсилювачем «-ass»"
+  - unit: q595
+    src: "Catch ya later, dominator!"
+    note: "прощання через його ж тик — має перегукуватися з рештою «dominate»-форм"
+
+pitfalls:
+  - "$(context.npc_cc_ray_playerName) трапляється в десятках q-рядків (q12, q16, q17, q24, q54…) — усередині плейсхолдера нічого не відмінювати; речення будувати так, щоб ім’я стояло у формі називного/кличного"
+  - "$(context.player.Name) в a616, a620, q621 — те саме обмеження"
+  - "$(#, son/) у q9: жіноча гілка порожня навмисно. Порожню гілку зберегти, кому всередині плейсхолдера теж — не вигадувати жіночий відповідник"
+  - "цінові плейсхолдери $(context.VehicleStatus_xpbl_*.BuyPriceWithDiscount0) та .SellPriceWithIncrease0 підставляють невідоме число — уникати конструкцій, що вимагають узгодження з конкретним числівником"
+  - "q539 і q542 містять $(context.npc_cc_ray_describeBreakIn_finalDescription) — це зібраний з відповідей гравця опис; рамку речення будувати під довільну іменникову групу"
+  - "q603 «Bob is a male name» і q612 «Jane? That’s a girl’s name» — увесь жарт тримається на тому, що ім’я читається як чоловіче чи жіноче; зберегти цю зчитуваність"
+  - "назви гідроциклів (Torpedo, Blazer, Phaser, Shark, Glow, Plasma Leviator, Devastator, Freighter, Junk Jet, Scrap Jet, Skimmer, Scooter, Reef Glider) — предметні назви; звіряти з переліками в knowledge/, не вирішувати локально"
+  - "маркування моделей і вузлів (XG Turbopower 999, XL 55, XP 39, FC-2, Harp-1, X1-class, X3, SL) — лишати як є"
+  - "глосарні терміни в тексті: zoner, rathound, hopper, Mindshroom, Drop Zone, Tunnelers, Arena, Core City, Core Ring, stygian coin, charon, Junkyard, The Rig, Protectorate, Biocorp, Underrail — брати готові рішення з глосарію"
+  - "«Praetorians» у q513 і q539 — демонім, а не компанія Praetorian Security; глосарій позначає це як окреме нерозв’язане питання"
+  - "літерали \\n\\n у q2, q5, q222, q237, q470, q473, q501, q513, q625 — переносити без змін"
+  - "у q435 в джерелі описка «sligthly» — не відтворювати"
+
+examples:
+  - unit: q9
+    rule: "порожня гілка гендерного плейсхолдера зберігається — STYLE §2"
+    uk_fragment: "$(#, синку/)"
+    status: proposed
+  - unit: a29
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q262
+    rule: "наказовий і звертання успадковують «ти» — STYLE §3.4"
+    uk_fragment: "як щось знадобиться"
+    status: proposed

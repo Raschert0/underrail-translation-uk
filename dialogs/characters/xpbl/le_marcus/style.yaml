@@ -1,0 +1,158 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/le_marcus
+file_id: dialogs\characters\xpbl\le_marcus.txt
+derived_from: source-only
+units: {total: 270, npc: 193, player: 77, empty: 31}
+
+speakers:
+  - slug: marcus
+    name: Маркус
+    units: default
+    confidence: certain
+    evidence: [q86, q120, q220, q221]
+    role: >-
+      Інтендант і технічний офіцер експедиції Aegis Incorporated на Чорному Морі:
+      видає спорядження, платить, обмінює долари на харони, читає лекції про
+      навігацію та системи оборони острова. Гравець — його підлеглий сек-боєць,
+      тож Маркус говорить як старший за посадою, а не як приятель.
+    relationships:
+      - "Тоні (Ladelman) — сусід по наметі, зброяр; постійне джерело роздратування: «I've been stuck in this tent with you for far too long...»"
+      - "шеф Бріггс — начальник експедиції, вищий за Маркуса"
+      - "гравець — сек-боєць під його розпорядженням; Маркус видає йому наряди і платню"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова субординація і незмінно чемний тон: «Well, go get it for me,
+        please. I need to have everything accounted for», «I must advise you not
+        to interfere with our work here». Персонаж повними реченнями, без
+        випадання g, без сленгу — STYLE §3.2 «формальні, службові» → «ви».
+        Репліки гравця дзеркалять базовий регістр (STYLE §3.3).
+      gender_cues: ["$(#him/her)", "$(#his/her)", "$(#His/Her)"]
+    voice:
+      register: стриманий, службовий; терпляча пояснювальна манера
+      idiolect:
+        - "довгі повні періоди без скорочень — лекції про navcom (q122–q124) і про APS (q215, q218, q219) читаються як інструктаж"
+        - "любить точність формулювань і поправляє співрозмовника: розбір «over and out» у q149"
+        - "зітхання й нахили голови у нарації як основний спосіб емоції: «::He sighs.::», «::He nods.::»"
+        - "у фіналі експедиції тон пригнічений — джерело прямо каже «downhearted tone of voice» (q20, q254)"
+
+  - slug: tony
+    name: Тоні
+    units: [q5, q44, q45, q60, q84, q86, q87, q88, q89, q106, q110, q117, q121,
+            q127, q138, q154, q159, q161, q165, q176, q178, q183, q220]
+    confidence: probable
+    evidence: [q45, q60, q117, q127, q165, q220]
+    role: >-
+      Зброяр із того самого намету, балакучий і грубуватий; коментує чужі репліки
+      без запрошення. Його голос — головний контраст до Маркусового і найбільший
+      ризик злиття двох персонажів в один регістр.
+    relationships:
+      - "Маркус — сусід по наметі, якого Тоні дражнить: «Marcus, you swipin' zoner», «Damn, Marky»"
+      - "гравця називає власним прізвиськом — плейсхолдер $(context.npc_xpbl_ladelman_playerName)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Панібратство, кулачне вітання («::He fist bumps you.::», q45), звертання
+        «man» (q44), власне прізвисько для гравця. STYLE §3.2 «грубі, свої,
+        вуличні» → «ти». Гравець дзеркалить (STYLE §3.3), але прямих реплік
+        гравця до Тоні у файлі майже немає.
+      gender_cues: ["$(#himself/herself)"]
+    voice:
+      register: гучний, вуличний, жартівливий; лайка не пом’якшується (STYLE §9)
+      idiolect:
+        - "постійне випадання g: workin', swipin', imaginin', handlin', beatin', squatin' — відтворювати розмовною українською, не апострофами"
+        - "регіт «bwahaha» / «bwahahaha» — сталий тик, зберігати як звук, а не описувати"
+        - "«hardcore» як універсальна похвала (q106, q110, q138, q161) — має лишатися одним і тим самим словом у всіх входженнях"
+        - "розтягнуте «Yeeeeeah» (q161, q183) — розтяг голосного передавати українським голосним"
+        - "самовигадані слівця: «boomy floaty zone-outers» (q183), «rodworker» (q161), «Assingers» (q110) — вигадувати український відповідник, не калькувати"
+        - "«zone out» як «прибити/укокошити» — внутрішньоігровий сленг від «зонер» (q138, q176, q183)"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q119, q163]
+    confidence: unknown
+    reason: >-
+      q119 «Right away.» дослівно збігається з q121, який належить Тоні (відповідь
+      на прохання Маркуса в q120); яка з двох реплік чия — з файлу не видно.
+      q163 — нейтральна інформативна репліка про камеру полоненого, без жодної
+      ознаки ідіолекту: «I saw» пасує обом.
+    guidance: >-
+      Перекладати нейтрально: без випадання приголосних і без «bwahaha»-манери,
+      але й без канцеляриту. Уникати форм минулого часу з родовою ознакою мовця
+      і будь-яких звертань до гравця, щоб рядок читався за будь-якої атрибуції.
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, навіть у нарації довкола реплік Тоні.
+    Підказки дій у `::…::` — інфінітив (STYLE §3.5): `::Barter.::` → `::Торгувати.::`
+    (глосарій), `::Nod and leave.::`, `::Say nothing.::`, `::Shrug.::`.
+
+unattributed_units: [q119, q163]
+
+new_names: ["Ladelman", "Seeger", "Savage", "Carnifex", "Redinger", "Aegis Incorporated",
+            "United Stations", "Fort Apogee", "NFT", "the Keep", "navcom", "sec-trooper",
+            "creeper", "floatie-talkie", "Protectors"]
+
+idioms:
+  - unit: q5
+    src: "Let's kick some... *pipeworkin'* ass."
+    note: "не калькувати «надерти зад»; евфемізм із зірочками — вставлене лайливе означення, зберегти саме як вставку"
+  - unit: q60
+    src: "for pipe's sake"
+    note: "фірмова лайка табору замість «for God's sake» — потрібен український вигук із тим самим «трубним» коренем"
+  - unit: q82
+    src: "I still think in terms of blues"
+    note: "«blues» — сленгова назва доларів United Stations за кольором купюри, не музика"
+  - unit: q106
+    src: "No, siree."
+    note: "розмовне категоричне заперечення; не передавати як звертання «сер»"
+  - unit: q110
+    src: "Unlike these Redingers... Assingers, more like it."
+    note: "перекручування бренду на лайку — потрібна українська гра на назві, а не калька"
+  - unit: q149
+    src: "Over is \"over to you,\" ... Out is I'm done"
+    note: "розбір радіоетикету; український відповідник має лишити обидва терміни розрізнюваними, інакше пояснення розсиплеться"
+  - unit: q152
+    src: "turn him over to Core City authorities"
+    note: "Core City — «Центральне Місто» за глосарієм"
+  - unit: q154
+    src: "We canned the pipeworker."
+    note: "подвійне дно: «звільнили» і «запхали в контейнер»; жарт має читатися разом із q156"
+
+pitfalls:
+  - "$(context.player.Name) (q20, q23, q28 та ще ~15 юнітів) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному"
+  - "$(context.npc_xpbl_ladelman_playerName) (q45, q60, q117, q165) — прізвисько від Тоні, теж не відмінювати; ознака мовця, а не адресата"
+  - "$(context.loc_xpbl_le_currentPaycheck) (q24, q41, q81) — число; узгодження «стигійських монет» має працювати за будь-якої кількості"
+  - "звертання на ім’я вказує на адресата: «Marcus, you swipin' zoner» (q86), «Damn, Marky» (q220), «Tone, ...» (q6, q120, q177, q221) — рядок належить НЕ названому"
+  - "«pipeworker» → «труболаз» за глосарієм; у цьому вузлі це лайка, тож зневажливий відтінок має зберігатися"
+  - "«stygian coins» → «стигійські монети», «charons» → «харони», «zoner» → «зонер» — глосарій"
+  - "«Black Sea» → «Чорне Море», «Hell's Gut» → «Нутро Пекла», «Invictus» → «Інвіктус», «Protectorate» → «Протекторат», «Tchort» → «Тчорт» — глосарій"
+  - "Biocorp, Coretech, Underrail — лишати латиницею і не відмінювати (глосарій)"
+  - "q212–q214, q223–q231, q251–q253, q269–q270 — обірвані фрагменти, що склеюються в речення в рантаймі; не додавати крапку й не дописувати кінцівку"
+  - "«Chief Briggs» → «шеф Бріггс», шеф з малої (registry, kind: title)"
+
+examples:
+  - unit: q44
+    rule: "$(#himself/herself) — гендер гравця в минулому часі, STYLE §2"
+    uk_fragment: "$(#сам/сама)"
+    status: proposed
+  - unit: q177
+    rule: "$(#him/her) у знахідному — плейсхолдер обіймає обидві форми"
+    uk_fragment: "$(#його/її)"
+    status: proposed
+  - unit: q68
+    rule: "наказовий спосіб успадковує «ви» — STYLE §3.4"
+    uk_fragment: "принесіть"
+    status: proposed
+  - unit: q161
+    rule: "випадання g у Тоні → розмовна форма, не апостроф — STYLE §9"
+    uk_fragment: "лупцювання"
+    status: proposed
+  - unit: q53
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути й піти.::"
+    status: proposed

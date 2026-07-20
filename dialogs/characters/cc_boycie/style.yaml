@@ -1,0 +1,57 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_boycie
+file_id: dialogs\characters\cc_boycie.txt
+derived_from: source-only
+units: {total: 12, npc: 12, player: 0, empty: 1}
+
+speakers:
+  - slug: boycie
+    name: Бойсі
+    units: default
+    confidence: probable
+    evidence: [q3, q4, q11]
+    role: >-
+      Прибиральник Арени в другому поколінні: виносить трупи й змиває кров
+      після боїв. Балакучий, добродушний, професійно байдужий до різанини
+      і трохи хизується своїм фахом перед гладіатором.
+    address:
+      npc_to_player: ви
+      player_to_npc: н/д
+      basis: >-
+        Обслуга при роботі, ввічливі формули вітання («Why, hello there»,
+        «Greetings, …») і звертання до гравця за ареновим титулом — «ви»,
+        STYLE §3.2. Реплік гравця у вузлі немає.
+    voice:
+      register: приязний, побутовий, з нервовим смішком
+      idiolect:
+        - "смішок «Heh, he!» наприкінці репліки — словесний тик (q5, q11, q12), тримати однаковим"
+        - "«Ahem» (q10) як зачин історії"
+
+narration:
+  present: false
+
+new_names: ["Boycie", "Carnifex", "Desolator"]
+
+idioms:
+  - unit: q5
+    src: "have someone else do it"
+    note: "жарт про «єдине правило» — пуант у перекладанні роботи на іншого; порядок слів не міняти"
+  - unit: q10
+    src: "the fastest one-legged man I've seen in my life"
+    note: "не калькувати «one-legged» буквально в описовий зворот — жарт тримається на стислості"
+  - unit: q11
+    src: "That one was a blast to watch"
+    note: "розмовне «видовище/вибух емоцій», не буквальний «вибух»"
+
+pitfalls:
+  - "q7 містить $(context.playerArenaTitle) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб титул стояв у називному"
+  - "crawler → повзун, Free Drones → Вільні Дрони, Protectorate → Протекторат (глосарій)"
+  - "q12 «That would dominate!» — те саме ігрове «домінувати», що й вигук «Dominating!», тримати спільний корінь"
+  - "Carnifex і Desolator — псевда гладіаторів, а не звичайні слова; канонічних варіантів немає"
+
+examples:
+  - unit: q5
+    rule: "смішок як ідіолект — передавати сталою формою, а не щоразу новою"
+    uk_fragment: "Хе, хе!"
+    status: proposed

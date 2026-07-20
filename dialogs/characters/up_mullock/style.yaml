@@ -1,0 +1,46 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/up_mullock
+file_id: dialogs\characters\up_mullock.txt
+derived_from: source-only
+units: {total: 6, npc: 6, player: 0, empty: 1}
+
+speakers:
+  - slug: mullock
+    name: Маллок
+    units: default
+    confidence: certain
+    evidence: [q2, q6]
+    role: >-
+      Бойовик зграї Zone Boyz, що відганяє гравця від території. Усі шість
+      реплік — короткі погрози-барки, зв’язного діалогу немає.
+    relationships:
+      - "Zone Boyz — його зграя; говорить про неї у третій особі однини («Zone Boyz kill!»)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний бандит, самі накази й погрози; STYLE §3.2 — «ти».
+        Реплік гравця у вузлі немає.
+      gender_cues: []
+    voice:
+      register: різкий, наказовий, гасловий
+      idiolect:
+        - "спрощений синтаксис без артиклів і зв’язок — примітивна мова зграї"
+        - "повторюване самоназивання «Zone Boyz» замість «ми»"
+
+narration:
+  present: false
+
+new_names: ["Zone Boyz"]
+
+pitfalls:
+  - "q3 і q5 — накази; наказовий спосіб успадковує «ти», STYLE §3.4"
+  - "«Zone Boyz» — назва зграї, рішення централізоване; не перекладати самотужки"
+  - "Не подовжувати рубані речення до правильних українських — обірваність навмисна"
+
+examples:
+  - unit: q5
+    rule: "наказовий спосіб на «ти», STYLE §3.4"
+    uk_fragment: "Забирайся."
+    status: proposed

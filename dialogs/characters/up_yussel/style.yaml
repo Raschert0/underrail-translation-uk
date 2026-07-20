@@ -1,0 +1,67 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/up_yussel
+file_id: dialogs\characters\up_yussel.txt
+derived_from: source-only
+units: {total: 22, npc: 12, player: 10, empty: 2}
+
+speakers:
+  - slug: yussel
+    name: Юссель
+    units: default
+    confidence: probable
+    evidence: [q2, q13, q17]
+    role: >-
+      Науковець у сліпучо-білому халаті, який вважає співрозмовника нижчим за
+      себе й не приховує цього. Його мова — це поєднання книжної правильності
+      з відвертою зневагою.
+    relationships:
+      - "гравця називає «imbecile» і «random... person» — принципово знеособлює"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Попри грубість, Yussel тримає книжний, повносинтаксичний регістр —
+        «I beg your pardon!?», «there is no purpose in this», жодних скорочень
+        вуличного типу. Це формальний мовець, який ображає саме на «ви»
+        (STYLE §3.2); згладжене «ти» зруйнувало б ефект. Гравець починає
+        підкреслено чемно (a3) — дзеркалить «ви», STYLE §3.3.
+      gender_cues: []
+      switches:
+        - {unit: q20, to: ви, trigger: "навіть у найгрубішій репліці регістр не падає — зневага лишається холодною"}
+    voice:
+      register: пихатий, книжний, роздратований
+      idiolect:
+        - "«imbecile» як рефрен — відкриває вузол (q1) і закриває його (q20)"
+        - "повні складнопідрядні конструкції там, де вистачило б фрази — ознака самозамилування"
+        - "цитує уявну ввічливу відповідь, щоб її висміяти (q17)"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Yussel", "Tchortists"]
+
+idioms:
+  - unit: q2
+    src: "you... random... person..."
+    note: >-
+      навмисне знеособлення з павзами — зберігати затинання й трикрапки,
+      не замінювати на «незнайомцю»
+  - unit: q11
+    src: "I beg your pardon!?"
+    note: "формула обуреного перепитування, не буквальне прохання пробачення"
+  - unit: q13
+    src: "babble about unimportant subjects"
+    note: "зневажливе «молоти про дурниці», не нейтральне «говорити»"
+
+pitfalls:
+  - "У джерелі «condenscending»/«condenscening» (a12, q13) — це помилки оригіналу, не риса мовлення; в українському не імітувати"
+  - "«imbecile» перекладати ОДНИМ сталим словом у q1, q13, q17, q20 — це рефрен"
+  - "Tchortists — похідне від Tchort (Тчорт); форму демоніма вирішувати централізовано"
+
+examples:
+  - unit: q1
+    rule: "рефрен має бути стабільним, STYLE §9"
+    uk_fragment: "Кретин!"
+    status: proposed

@@ -1,0 +1,83 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/essie
+file_id: dialogs\characters\essie.txt
+derived_from: source-only
+units: {total: 67, npc: 41, player: 26, empty: 2}
+
+speakers:
+  - slug: essie
+    name: Ессі
+    units: default
+    confidence: certain
+    evidence: [q1, q49, q51]
+    role: >-
+      Мешканка ССГ, яка знає станцію й маршрути напам’ять і радо розкладає
+      гравцеві дорогу по кроках. Половина її реплік — це маршрутні вказівки,
+      друга половина — балачка про станційні новини й покійного Патріка.
+    relationships:
+      - "Патрік Пірс — покійний, якого вона щиро любила; про нього говорить із болем"
+      - "Великий Брет і Квінтон — дратують її буркотінням про Патрікові обігрівачі"
+      - "Лора — поранена подруга, за яку вона тримає кулаки"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Стара знайома, а не службовець: одразу нагадує про себе на ім’я
+        («remember me? Essie?»), сміється, вживає розмовне «not too shabby»,
+        «gotta», «stinkin'» і сама зізнається «Sorry, I'm raging a bit».
+        Гендерних плейсхолдерів звертання в джерелі немає.
+    voice:
+      register: тепла, балакуча, з легкою іронією; голос описано як «light soprano»
+      idiolect:
+        - "подвоєння для наголосу: «Right? Right?», «not too shabby, not too shabby»"
+        - "маркер розважливості «I reckon» — не богословське «гадаю», а буденне «та мабуть»"
+        - "лапки з астерисками для наголосу на слові — *entire*, *mad*, *killed*"
+        - "у маршрутних репліках — чіткі команди напрямку поспіль; тримати їх короткими, не оздоблювати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут нарація коротка (::She laughs.::, ::She shakes her head.::)"
+
+new_names: ["Underrail Express", "Warehouse Block Beta", "Hathorians", "Pat"]
+
+idioms:
+  - unit: q51
+    src: "Who gives a rathound's rear about your stinkin' heaters?"
+    note: "груба відмашка з ігровою твариною всередині; грубе лишається грубим, STYLE §9, «rathound» → щурчак за глосарієм"
+  - unit: q54
+    src: "punch me right in the kisser"
+    note: "не калькувати «цілувальник»; розмовне «просто в пику»"
+  - unit: q63
+    src: "Not too shabby"
+    note: "стала розмовна відповідь на «як справи», не оцінка якості"
+  - unit: q41
+    src: "run the whole show"
+    note: "не «вести шоу»; ідеться про монопольний контроль над залізницею"
+  - unit: q12
+    src: "if you really want to stretch your legs"
+    note: "жарт про «розім’яти ноги» замість поїзда — зберегти легкість, не буквалізувати"
+  - unit: q42
+    src: "their guess is as good as mine"
+    note: "стала формула незнання, локалізувати, а не перекладати послівно"
+
+pitfalls:
+  - "q1, q42, q67 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "q1, q52, q66 містять \\n\\n — порожній рядок між абзацами зберігати"
+  - "GMS лишається латиницею (глосарій), SGS передається як ССГ — у цьому вузлі трапляються обидва"
+  - "Underrail не перекладати й не відмінювати навіть у «North Underrail», «South Underrail»"
+  - "топоніми беруться з глосарію: Rail Crossing → Залізничний Переїзд, Junkyard → Звалище, Camp Hathor → Табір Хатор, Core City → Центральне Місто, Foundry → Ливарня, Mushroom Cove → Грибна Бухта"
+  - "істоти з глосарію: rathounds → щурчаки, psi beetles → псі-жуки, hoppers → стрибуни"
+  - "Faceless → Безликі, Ironheads → Залізноголові, Protectorate → Протекторат, Biocorp латиницею"
+  - "q14 і q66 закінчуються пробілом перед <end> — не прибирати"
+  - "у q51 «Pat» — пестлива форма від Patrick Pierce; канонічного скорочення ще немає, див. new_names"
+
+examples:
+  - unit: a43
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути.::"
+    status: proposed
+  - unit: q39
+    rule: "астериски наголосу зберігаються як розмітка, не як лапки"
+    uk_fragment: "*усієї*"
+    status: proposed

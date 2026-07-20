@@ -1,0 +1,65 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/senna
+file_id: dialogs\characters\xpbl\senna.txt
+derived_from: source-only
+units: {total: 20, npc: 19, player: 1, empty: 5}
+
+speakers:
+  - slug: senna
+    name: Сенна
+    units: default
+    confidence: certain
+    evidence: [q9]
+    role: >-
+      Учасниця експедиції на Чорному Морі, що супроводжує гравця в сутичці
+      з Кароном. Постійно на межі паніки — це визначає рвану, недокінчену
+      побудову фраз, а не просто емоційне забарвлення.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Товаришка по вилазці, а не службовиця: короткі попередження без
+        пом’якшення («Watch your step.», «Careful.») і панібратське
+        «do your thing». Плейсхолдерів статі в джерелі немає.
+    voice:
+      register: нервовий, задиханий, розмовний
+      idiolect:
+        - "::wheeze:: розриває речення посеред думки — паузу зберігати там само, де вона в оригіналі"
+        - "подвоєння з розтягуванням «yes, yees» — відтворювати розтягуванням українського голосного"
+        - "затинання «Wh-what», «D-dead» — переносити на український приголосний (STYLE §9)"
+        - "обірвані речення з трьома крапками — не добудовувати до повних"
+
+narration:
+  present: true
+  note: >-
+    Вставки ::Quivers.::, ::Gasps.::, ::She places her finger on her right ear.::
+    — «ви» без винятків, STYLE §3.1. Ці ж вставки підтверджують жіночий рід мовиці.
+
+new_names: ["Kharon"]
+
+idioms:
+  - unit: q16
+    src: "Not my best day that's for sure."
+    note: "розмовна применшувальна формула; не калькувати «не мій найкращий день»"
+  - unit: q18
+    src: "The nerves are killing me."
+    note: "ідіома про знервованість, а не про біль; українська відповідність, не калька"
+  - unit: q19
+    src: "Trouble, trouble everywhere..."
+    note: "повтор — ритмічна фігура, зберегти саме повтором"
+
+pitfalls:
+  - "Kharon — ім’я персонажа, якого немає в реєстрі; не плутати з глосарійним «charon → харон» (монета). До вирішення лишати як є."
+  - "q9 — один юніт із кількома ::…:: вставками; кількість і межі роздільників мають збігатися з оригіналом (tools/check-uk.ps1)."
+  - "q15 «do your thing» — звертання до гравця; не втратити панібратський тон при перекладі."
+
+examples:
+  - unit: q9
+    rule: "затинання відтворюємо на українському приголосному, STYLE §9"
+    uk_fragment: "Щ-що"
+    status: proposed
+  - unit: q20
+    rule: "підказка-нарація всередині ::…:: — іменник/інфінітив без розгортання, STYLE §3.5"
+    uk_fragment: "::Зойк.::"
+    status: proposed

@@ -1,0 +1,98 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_barkeeper
+file_id: dialogs\characters\cc_barkeeper.txt
+derived_from: source-only
+units: {total: 287, npc: 200, player: 87, empty: 8}
+
+# Вузол на двох мовців. Пастка: кожне звертання «Gene» в q-рядку означає, що
+# говорить НЕ Джин, а Гаррієтта. Питання власності знято дослівно в q1.
+speakers:
+  - slug: gene
+    name: Джин
+    units: default            # усі q-юніти, не заявлені іншими мовцями
+    confidence: certain
+    evidence: [q1]            # «I'm Gene, the owner, and this here is my beautiful wife Harriette»
+    role: >-
+      власник Хардкор Сіті Бар у Центральному Місті; вузол торгівлі, чуток і
+      наводок на половину міських квестів
+    relationships:
+      - "Гаррієтта — дружина, працює поруч; постійно кепкує з нього, він піддається"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        гучний, панібратський шинкар; кличе гравця $(#mate/love) — приятельське,
+        не службове звертання; жодного $(#sir/ma'am) у вузлі немає
+      gender_cues: ["$(#mate/love)", "$(#you/your pretty face)"]
+    voice:
+      register: гучний, хвалькуватий, добродушний
+      idiolect:
+        - "нав’язливе Absolutely — словесний тик, варто зберегти сталим відповідником"
+        - "hardcore як універсальний епітет: бар, чоловіки, справи"
+        - "переходить на шепіт, коли йдеться про Олігархів чи Motion — ::He whispers.::"
+
+  - slug: harriette
+    name: Гаррієтта
+    units: [q15, q64, q83, q132, q226, q230, q238, q240, q243, q247]
+    confidence: certain
+    evidence: [q1, q56, q64, q230, q243]
+    role: дружина Джина; уточнює й підколює його, зрідка сама дає інформацію
+    relationships:
+      - "Джин — чоловік; звертається до нього на ім’я, звідси й атрибуція"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "кличе гравця sweetie; той самий домашній тон, що і в cc_harriette"
+      gender_cues: ["$(#gentleman/lady)"]
+    voice:
+      register: тепла іронія, сухі шпильки
+      idiolect:
+        - "виправляє Джина конструкцією «What Gene meant/wanted to say is…» (q230, q238)"
+        - "звертається до гравця sweetie"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1, попри те що обидва мовці кажуть «ти»"
+
+unattributed_units: []
+
+new_names: ["Slavomir", "Bogdan", "Talloski"]
+
+idioms:
+  - unit: q1
+    src: "Name your poison"
+    note: "усталене барне; не калькувати «назви свою отруту» — питання «Що наливати?»"
+  - unit: q65
+    src: "Gives me collywobbles"
+    note: "розмовне «аж вивертає»; collywobbles — не медичний термін"
+  - unit: q243
+    src: "complimented a girl's patootie"
+    note: "грайливий евфемізм; §9 — грубувате лишається грубуватим, не пом’якшувати"
+  - unit: q145
+    src: "Poor woman crossed the tracks"
+    note: >-
+      внутрішньоігровий евфемізм смерті (рейки метро); зберегти образ,
+      не замінювати нейтральним «померла»
+
+pitfalls:
+  - "q1 містить $(#you/your pretty face) — обидві гілки треба розгорнути українською"
+  - >-
+    Hardcore City Bar → Хардкор Сіті Бар (глосарій); слово hardcore у мові Джина
+    поза назвою — не бренд, перекладається за контекстом
+  - "Core City → Центральне Місто, Faceless → Безликі (глосарій)"
+  - "q128 «listen carefuly» — друкарська помилка джерела, не відтворювати"
+  - >-
+    у вузлі є $(#She's married, mate. Just so you know./) — ціле речення в
+    чоловічій гілці й порожня жіноча. Порожню гілку лишати порожньою:
+    це задум (репліку чує лише гравець-чоловік), а не втрачений переклад
+
+examples:
+  - unit: q1
+    rule: "$(#mate/love) — приятельське звертання, STYLE §2"
+    uk_fragment: "$(#друже/люба)"
+    status: proposed
+  - unit: q226
+    rule: "$(#gentleman/lady) — Гаррієтта говорить про гравця в третій особі"
+    uk_fragment: "$(#панові/пані)"
+    status: proposed

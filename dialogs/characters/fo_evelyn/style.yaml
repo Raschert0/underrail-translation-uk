@@ -1,0 +1,81 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fo_evelyn
+file_id: dialogs\characters\fo_evelyn.txt
+derived_from: source-only
+units: {total: 57, npc: 38, player: 19, empty: 1}
+
+speakers:
+  - slug: evelyn
+    name: Евелін
+    units: default
+    confidence: certain
+    evidence: [q7, q5, q1]
+    role: >-
+      Молода вдова колишнього шефа Варти Ливарні, зовні витончена й самотня, а
+      насправді вбивця, яка присипляє гостя й нападає з ножем. Уся її мова —
+      доглянута світська оболонка, і саме контраст із q1–q3 має працювати.
+    relationships:
+      - "Michael Ingram — покійний чоловік, шеф Варти; тема, довкола якої вона будує образ жертви"
+      - "Мессер, місцевий різник — єдина людина, про яку говорить тепло"
+      - "мешканці нетрів — про них говорить з холодною зневагою"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Ввічлива, тримає дистанцію з незнайомцем: «Good day. May I help you
+        somehow?», пряма відмова обговорювати особисте зі сторонніми (q18, q19).
+        За STYLE §3.2 це «ви»; гравець дзеркалить (§3.3), бо гілка спокуси
+        побудована саме на підкресленій чемності.
+    voice:
+      register: м’яка, доглянута, з паузами й напівнатяками; повні речення, майже без скорочень
+      idiolect:
+        - "часті недомовки з трикрапкою — прийом спокуси, зберігати всі трикрапки"
+        - "курсивні наголоси через *зірочки* (*that* beautiful, *I* know) — зберігати зірочки й місце наголосу"
+        - "у q3 та сама витончена ввічливість озвучує погрозу — жах саме в тому, що тон НЕ змінюється; не переводити її на грубу лайку"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; q2, q3, q5 — довгі описові блоки"
+
+new_names: ["Ingram", "Michael", "Stevenson"]
+
+idioms:
+  - unit: q5
+    src: "shines as bright as a diamond in a bucket of coal"
+    note: "розгорнуте порівняння; локалізувати образ, зберігши контраст «коштовність — вугілля»"
+  - unit: q2
+    src: "her transformation from beauty into beast"
+    note: "формула «красуня — чудовисько»; потрібен сталий український відповідник, бо образ тримає всю сцену"
+  - unit: q2
+    src: "As the dark curtain slowly lifts from your eyes"
+    note: "метафора повернення свідомості; не буквальна завіса"
+  - unit: q29
+    src: "if it isn't the boss himself"
+    note: "іронічне вітання; лапки навколо «boss» — глузливі, зберегти"
+  - unit: q48
+    src: "a bunch of underfed bums"
+    note: "зневажливо й грубо — не пом’якшувати, STYLE §9"
+
+pitfalls:
+  - "джерело подекуди припускає, що гравець — чоловік: q10 «you seem like an honest guy», q29 «one brave, strong, capable man», репліка гравця a20. Українською тут потрібні $(#…) там, де в англійському їх немає — це правило, а не вільність (STYLE §2)"
+  - "q2, q3 — минулий час і дієприкметники про гравця («undressed», «you have been…»): гендерні форми, потрібні $(#…)"
+  - "$(context.player.Name) у q3, q7, q41, q56 і в репліках гравця — не відмінювати всередині плейсхолдера"
+  - "Evelyn → Евелін, Messer → Мессер — з реєстру; Ingram, Michael, Stevenson поки без канонічного варіанта"
+  - "Foundry Guard лишається латиницею (глосарій), місто Foundry — «Ливарня», Underrail — латиницею й без відмінювання (q34)"
+  - "a4 ::End Dialog.:: та a22 ::Have a drink with Evelyn.:: — підказки дій, інфінітив, STYLE §3.5"
+  - "\\n\\n у q2, q3, q5, q21, q41 — розрив рядка, зберігати"
+
+examples:
+  - unit: a22
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Випити з Евелін.::"
+    status: proposed
+  - unit: q10
+    rule: "англійське «guy» про гравця розгортається в гендерний плейсхолдер, STYLE §2"
+    uk_fragment: "$(#чесним/чесною)"
+    status: proposed
+  - unit: q5
+    rule: "ввічлива дистанція з незнайомцем — «ви», STYLE §3.2"
+    uk_fragment: "Добрий день. Чим можу допомогти?"
+    status: proposed

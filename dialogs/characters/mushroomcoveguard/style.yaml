@@ -1,0 +1,83 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/mushroomcoveguard
+file_id: 'dialogs\characters\mushroomcoveguard.txt'
+derived_from: source-only
+units: {total: 53, npc: 32, player: 21, empty: 3}
+
+speakers:
+  - slug: mushroom_cove_guard
+    name: вартовий Грибної Бухти
+    units: default
+    confidence: certain
+    evidence: [q2, q29, q40, q42]
+    role: >-
+      Вартовий ССГ на проході до Грибної Бухти: перевіряє кожного, хто йде повз,
+      і легко зривається на грубість. Для гравця він джерело напрямку та
+      попереджень про псі-жуків, а не сюжетна фігура.
+    relationships:
+      - "Джеральд і Малком — інші вартові змін; він про них згадує, сам ним не є"
+      - "Горський — начальство, на чию думку він покликається, коли зневажає новачків"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Солдатський жаргон без жодної ввічливої формули: «Are you derailed?»,
+        «you idiot», «Drop the attitude», «Dig?». Гравця називає описово
+        «the new $(#guy/girl)», а не «$(#sir/ma'am)» — STYLE §3.2, репліки
+        гравця дзеркалять (§3.3).
+      gender_cues: ["$(#guy/girl)", "$(#guys/girls)"]
+    voice:
+      register: різкий, службовий, зверхній до новачків
+      idiolect:
+        - "«Nasty buggers» про псі-жуків повторюється двічі (q14, q16) — той самий відповідник обидва рази"
+        - "риторичне «Are you derailed?» замість лайки — з’являється і в q2, і в q43"
+
+narration:
+  present: true
+  note: "«ви» без винятків, попри «ти» в прямій мові — STYLE §3.1"
+
+new_names: ["Gerald", "Malcom", "Lurker", "Crossroads"]
+
+idioms:
+  - unit: q2
+    src: "Are you derailed?"
+    note: "внутрішньоігрова лайка від rail/Underrail; не калькувати «зійшов з рейок», потрібен єдиний сталий відповідник по корпусу"
+  - unit: q45
+    src: "Dig?"
+    note: "жаргонне «второпав?»; питальна частка, не дієслово копання"
+  - unit: q37
+    src: "Drop the attitude."
+    note: "не «кинь ставлення»; розмовний наказ припинити огризатися"
+  - unit: q43
+    src: "deserve a bullet between their eyes"
+    note: "груба погроза — не пом’якшувати, STYLE §9"
+  - unit: q29
+    src: "Good hunting."
+    note: "усталене напутнє побажання, не буквальне «доброго полювання» як опис заняття"
+  - unit: q51
+    src: "Don't you \"yeah, yeah\" me"
+    note: "цитування слів співрозмовника як дієслово; перебудувати, а не калькувати"
+
+pitfalls:
+  - "q18 + (q19 або q23) + q20 — це ОДНЕ речення, розрізане на три юніти заради статі шукача: «Gerald, guard, found » + «him »/«her » + «dying in the Cove.». Кінцеві пробіли зберігати, гендерне слово лишати тільки в q19/q23 і не переносити його в сусідні юніти"
+  - "q19 і q23 — односкладові юніти («him», «her»); перекладач бачить їх поза контекстом, читати разом з q18 і q20"
+  - "q39 і q53 містять $(context.player.Name) — усередині плейсхолдера нічого не відмінювати; у q39 будувати називну конструкцію"
+  - "q2 «Don't sneak up on me» і q52 ::Remain silent.:: — підказка дії всередині :: :: подається інфінітивом, STYLE §3.5"
+  - "Глосарій: SGS → ССГ, Mushroom Cove → Грибна Бухта, psi beetles → псі-жуки, hoppers → стрибуни, scavenger → шукач, Old Jonas → Старий Йонас"
+  - "q15 «the Crossroads» — глосарій має лише Crossroad Watch → Перехресна Варта; назва місця тут окрема, рішення централізоване"
+  - "q47 «Lurker» з великої — фракція, а не описове «причаєний»"
+
+examples:
+  - unit: q3
+    rule: "$(#guy/girl) — гендер гравця, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#новенький/новенька)"
+    status: proposed
+  - unit: q2
+    rule: "нарація :: :: — завжди «ви», STYLE §3.1"
+    uk_fragment: "::Він наводить на вас гвинтівку.::"
+    status: proposed
+  - unit: q52
+    rule: "підказка дії всередині :: :: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Мовчати.::"
+    status: proposed

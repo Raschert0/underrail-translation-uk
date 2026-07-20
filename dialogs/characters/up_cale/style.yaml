@@ -1,0 +1,91 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/up_cale
+file_id: dialogs\characters\up_cale.txt
+derived_from: source-only
+units: {total: 90, npc: 48, player: 42, empty: 2}
+
+speakers:
+  - slug: cale
+    name: Кейл
+    units: default
+    confidence: certain
+    evidence: [q7, q20, q29, q33, q49]
+    role: >-
+      Марнославний божевільний під Інститутом Тчорта, який називає себе «Cale, the
+      Lord of Invisibility» і щиро вірить, що невидимий, — його просто всі ігнорують.
+      Уся мова будується на позі величі: пишні звороти, самоцитування повним титулом
+      і зневажливе «mortal» до співрозмовника.
+    relationships:
+      - "гравець — єдиний, хто його «бачить»; Кейл пояснює це не власною хибою, а «даром» гравця"
+      - "тчортисти — ті, кого він планує вразити появою; говорить про них зверхньо"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Кейл звертається до гравця не як службовець, а як «божество» до нижчої
+        істоти: «Typical mortal...», «Now stop bothering me with these silly
+        questions.» Це зверхнє «ти», а не ввічливе «ви» — STYLE §3.2. Репліки
+        гравця дзеркалять (§3.3): вони фамільярні аж до образи — «You've lost your
+        marbles a long time ago, man.», «Goodbye, you derailed moron.»
+      gender_cues: ["$(#Bob/Susan)", "$(#Mike/Ann)", "$(#caveman/cavewoman)"]
+    voice:
+      register: пишномовний, зверхній, псевдоурочистий; синтаксис довгий і книжний
+      idiolect:
+        - "нав’язливе *mortal* як звертання й лайка водночас — тримати один український відповідник в усіх 20+ входженнях"
+        - "самоназивання повним титулом: «I - Cale, the Lord of Invisibility - ...» — формула, не переказ"
+        - "псевдологічні зв’язки «Therefore», «The only logical conclusion», «Simple logic» — пародія на силогізм, зберігати"
+        - "зривається з високого стилю в побутове, коли роздратований: «no frickin' clue», «That sounds... well, retarded!»"
+
+narration:
+  present: true
+  note: >-
+    Довгі описові вставки (q2, q25 немає — q2, q17, q31, q66, q76, q80, q85) і дві
+    підказки дій гравця. «Ви» без винятків — STYLE §3.1; підказки дій усередині
+    ::…:: — інфінітив (§3.5): a78 ::Leave and say nothing.::, a84 ::Touch him.::
+
+new_names: ["gone", "Nucleus"]
+
+idioms:
+  - unit: q7
+    src: 'a state of gone - complete invisibility'
+    note: >-
+      «gone» тут — вигаданий Кейлом іменник-термін, а не дієприкметник. Потрібен
+      один сталий український відповідник на всі входження (q7, q33, q38, q42);
+      у q42 на ньому тримається жарт про «majesticness» звучання.
+  - unit: q40
+    src: 'That sounds... well, retarded!'
+    note: "грубе лишається грубим — не пом’якшувати (STYLE §9)"
+  - unit: a81
+    src: "You've lost your marbles a long time ago"
+    note: "ідіому локалізувати, не калькувати «загубив кульки»"
+  - unit: a77
+    src: 'you derailed moron'
+    note: >-
+      derailed — внутрішньоігрове слово для божевільного (від залізничного світу
+      Underrail); шукати відповідник, що зберігає зв’язок із рейками, не нейтральне «псих»
+  - unit: q13
+    src: 'Tell me of this gift of yours'
+    note: "«gift» у всьому вузлі — «дар» у сенсі надприродної здібності, не подарунок"
+
+pitfalls:
+  - "q2, q4, q9, q38, q74, q80, q82 містять літеральне \\n\\n — це розділювач абзаців у рушії, не текст; лишати як є"
+  - "зірочки навколо *mortal*, *you*, *me*, *were* — розмітка наголосу; зберігати позицію відносно українського слова"
+  - "a10, q11 містять $(context.player.Name) — не відмінювати й нічого не дописувати всередині плейсхолдера; речення будувати так, щоб ім’я стояло в називному"
+  - "q21 — одне навмисно заплутане речення на 70+ слів; не розбивати на кілька: незрозумілість і є жартом"
+  - "q33 містить друкарську помилку джерела «Invisiblity» — у перекладі просто правильне слово"
+  - "«Underrail» у q49 лишається латиницею (STYLE §6, глосарій)"
+
+examples:
+  - unit: q7
+    rule: "титул із registry.yaml — «Cale, the Lord of Invisibility»"
+    uk_fragment: "Кейл, Володар Невидимості"
+    status: proposed
+  - unit: q82
+    rule: "$(#caveman/cavewoman) — гендер гравця, обидві гілки українською (STYLE §2)"
+    uk_fragment: "$(#печерний/печерна)"
+    status: proposed
+  - unit: a84
+    rule: "підказка дії в ::…:: — інфінітив (STYLE §3.5)"
+    uk_fragment: "::Торкнутися його.::"
+    status: proposed

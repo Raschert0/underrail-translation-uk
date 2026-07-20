@@ -1,0 +1,88 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fls_ratking
+file_id: 'dialogs\characters\fls_ratking.txt'
+derived_from: source-only
+units: {total: 63, npc: 32, player: 31, empty: 4}
+
+speakers:
+  - slug: ratking
+    name: Король Щурів
+    units: default
+    confidence: certain
+    evidence: [q4, q6, q31, q37]
+    role: >-
+      Дід, що жив у печерній заставі до приходу людей ССГ і тепер огризається на
+      всіх; двох щурчаків називає своїми дітьми. Уся розмова — торг за право
+      лишитися вдома, тож його мова весь час на межі образи й жалю.
+    relationships:
+      - 'двоє щурчаків — «мої діти», для нього це рідня, а не звірі'
+      - 'гравець і люди ССГ — загарбники його дому, він зве їх yobs і vultures'
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Грубий, ворожий, просторічний: ain’t, wanna, outta, gonna, Bah, you!,
+        get the hell out. STYLE §3.2 — грубий вуличний мовець → «ти».
+        Звертання young $(#man/lady) у q25 — це поблажливість за віком, а не
+        пошана, і «ви» не мотивує. Гравець дзеркалить (§3.3): зве його old man
+        і ugly rat.
+      gender_cues: ["$(#him/her)", "$(#man/lady)"]
+    voice:
+      register: буркотливий, злостивий, старече-просторічний
+      idiolect:
+        - 'нав’язливе yobs про чужинців — тримати одне лайливе слово'
+        - 'формула «I’m tired. I don’t wanna talk anymore.» повторюється в q11, q14, q16 — перекладати ідентично'
+        - 'триразовий повтор ремарки про гримасу (q13, q16, q21) — це той самий рядок, не варіювати'
+        - 'уривчасті вигуки-однослівники: Hmm? / Bah, you! / And stay out!'
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, попри те що сам дід каже «ти».
+    Підказки дій гравця в ::…:: — інфінітив (§3.5): ::Attack!::, ::Continue::.
+
+new_names: ["Rat King", "Lurkers"]
+
+idioms:
+  - unit: q1
+    src: "taking their sweet-ass time"
+    note: 'згрубіле «тягнуть казна-скільки»; лайливий відтінок зберегти — STYLE §9'
+  - unit: q1
+    src: "A buncha yobs"
+    note: 'британське yob — «шпана», «бидло»; не калькувати й не пом’якшувати'
+  - unit: q2
+    src: "Leave me be"
+    note: 'застаріла форма — «дай мені спокій», не дослівне «залиш мене бути»'
+  - unit: q37
+    src: "before I bolt in your ugly face"
+    note: 'гра слів на арбалетному болті — дід цілиться з арбалета (q60); дослівний «болт» неможливий, шукати відповідник із пострілом'
+  - unit: a46
+    src: "some cave rats snooping around our property"
+    note: 'образа «печерні щури» перегукується з його щурчаками — зв’язок навмисний, зберегти слово «щур»'
+  - unit: q40
+    src: "it ain’t got nothing"
+    note: 'подвійне заперечення — ознака просторіччя, відтворювати регістром, а не граматичною помилкою'
+
+pitfalls:
+  - 'rathounds → щурчаки, South Gate Station → Станція Саут-Гейт, ::[Persuade]:: → ::[Переконати]:: — глосарій'
+  - '::[Intimidate]:: (a39) у глосарії відсутнє — узгодити з назвою навички централізовано, не вигадувати варіант у цьому вузлі'
+  - '«my children» (q23, q31, q48) — це про щурчаків; перекладати буквально «мої діти», пафос навмисний і тримає q13'
+  - 'у a12 в джерелі описка «some some rest» — не відтворювати подвоєння'
+  - 'q4, q9, q13, q16, q48 містять літеральні \n\n — переносити без змін'
+  - 'зірочки емфази у a8 (*you*), q27 (*can*) — розмітка наголосу, зберігати'
+  - 'a8 і a39 — довгі репліки гравця з перевіркою навички; базовий регістр «ти», емоційність не змінює вибору (STYLE §3.3)'
+
+examples:
+  - unit: q23
+    rule: '$(#him/her) — гендерний плейсхолдер про гравця, STYLE §2'
+    uk_fragment: "$(#його/її)"
+    status: proposed
+  - unit: a22
+    rule: 'підказка дії в ::…:: — інфінітив, STYLE §3.5'
+    uk_fragment: "::Атакувати!::"
+    status: proposed
+  - unit: q37
+    rule: 'наказовий спосіб успадковує «ти», STYLE §3.4'
+    uk_fragment: "Забирайся"
+    status: proposed

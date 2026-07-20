@@ -1,0 +1,80 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fo_faceless
+file_id: dialogs\characters\fo_faceless.txt
+derived_from: source-only
+units: {total: 67, npc: 29, player: 38, empty: 1}
+
+speakers:
+  - slug: faceless
+    name: Безликі
+    units: default
+    confidence: certain
+    evidence: [q1, q4, q56]
+    role: >-
+      Речник загону Безликих, що став табором коло Ливарні й шукає викрадену
+      річ; говорить крізь синтезатор у масці, від імені всього загону. Мова
+      навмисно позбавлена емоцій і особистого — це головне, що має вціліти
+      в перекладі.
+    relationships:
+      - "решта загону — «companions» з q3; він говорить за всіх, звідси постійне «ми»"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Холодна дистанція чужинця, а не ввічливість: накази без пом’якшення
+        («Identify yourself», «Be on your way», «Begone»), відсутність
+        скорочень, повні книжні звороти («We may not tell you this»,
+        «Your answer is not acceptable»). Гравець дзеркалить стриманістю.
+      gender_cues: []
+    voice:
+      register: синтезований, безсторонній, майже протокольний
+      idiolect:
+        - "постійне «we/us» замість «I» — говорить від імені загону; в українському перекладі тримати множину послідовно (q8, q9, q16, q22, q25)"
+        - "формальні заперечення без скорочень: «we will answer no more questions» (q59), «There's nothing for you to take here» (q48)"
+        - "архаїчне «Begone» (q63) — має звучати різкіше й старомовніше за звичайне «йдіть»"
+        - "паузи описано в нарації, не в репліці («after an uncomfortably long pause») — саму репліку не робити нерішучою"
+
+narration:
+  present: true
+  note: >-
+    Ремарки ::…:: — «ви» без винятків, STYLE §3.1. Тут вони несуть майже всю
+    характеристику мовця (постава, зброя, паузи), тому перекладати їх як прозу,
+    а не як службові підказки.
+
+new_names: ["Acid Hunters", "Tchortists", "Acorn"]
+
+idioms:
+  - unit: q3
+    src: "holds you at gun point"
+    note: "усталений вислів; український відповідник, не калька"
+  - unit: q3
+    src: "weapons-at-the-ready companions"
+    note: "складений епітет — розгортати в українську конструкцію, не через дефіси"
+  - unit: q8
+    src: "it might have found its way to their community"
+    note: "евфемізм замість «її вкрали й принесли»; зберегти ухильність"
+  - unit: a2
+    src: "::Give him time to see what his intentions are.::"
+    note: "підказка дії в ремарці — інфінітив, STYLE §3.5"
+  - unit: a52
+    src: "::Attack!::"
+    note: "підказка дії — інфінітивна форма, а не наказ у другій особі"
+
+pitfalls:
+  - "a5, a53 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "Faceless як самоназва — «Безликі» (глосарій, frozen); у ремарці q1 однина — «Безликий»"
+  - "Core City → «Центральне Місто», Foundry → «Ливарня», Coretech лишається латиницею — усе три в глосарії, трапляються поруч (a18, a28, a35)"
+  - "«the Acorn» (a11, a57) і «that Cube» (a35, a36) — назви предметів з великої літери; тримати єдину форму в усіх юнітах вузла"
+  - "\\n\\n у q4, q14, q19, q40 — розділювач абзаців після ремарки, зберігати"
+  - "чотири майже однакові репліки гравця про Корнелла (a28, a29, a35, a36, a44, a45) — перекладати узгоджено, розбіжність читатиметься як помилка"
+
+examples:
+  - unit: q63
+    rule: "різке архаїчне випровадження — не пом’якшувати, STYLE §9"
+    uk_fragment: "Геть."
+    status: proposed
+  - unit: a52
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Напасти!::"
+    status: proposed

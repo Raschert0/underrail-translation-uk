@@ -1,0 +1,87 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pr_dess
+file_id: dialogs\characters\pr_dess.txt
+derived_from: source-only
+units: {total: 41, npc: 28, player: 13, empty: 1}
+
+speakers:
+  - slug: dess
+    name: Десс
+    units: default
+    confidence: certain
+    evidence: [q2, q10]
+    role: >-
+      Убивця з CAU Протекторату, колишня вчителька математики з Гексагона; отруює
+      ворогів кислотними болтами й відверто насолоджується вбивством. Її веселість
+      і хихотіння накладені на людожерський зміст — це головний ефект, який має вціліти.
+    relationships:
+      - "Cap (Captain Mareth) — командир, вона говорить про нього із замилуванням (q19, q20)"
+      - "Void — напарник, «ідеальний друг», бо мовчить (q22, q24, q25)"
+      - "гравець — «Corps», рівня їй за фахом убивці, звідси панібратство"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Десс від першої репліки чіпляє гравцеві прізвисько «Corps»/«Corpsie», тицяє
+        його в спільне ремесло («it's what you and me are best at») і глузує
+        («what kind of a pansy») — свій до свого, вулична панібратськість (STYLE §3.2).
+        Гравець дзеркалить (§3.3), зокрема в a5 «I’d kill you right now if I could!».
+    voice:
+      register: манірно-весела жорстокість, хихотіння впереміш із описами вбивств
+      idiolect:
+        - "нав’язливе ::She giggles.:: — словесно-жестовий тик, повторюється 10+ разів; не прибирати й не варіювати щоразу різними словами"
+        - "випадання g: killin', takin', hidin', somethin', turnin' — розмовна редукція"
+        - "звертання «Corps» / пестливе «Corpsie» — звужена форма Corporal, її фірмова манера"
+        - "подовження голосних на письмі: «Aaand», «Aaah» — зберігати як є"
+        - "ain't, doncha, whatcha — стягнення, шукати українські розмовні відповідники, не книжні"
+        - "капслок HA-HA! (q28) — реєстр крику, не пом’якшувати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; довга вступна нарація q2 і ремарки ::She giggles.::"
+
+new_names: ["Mareth", "Hexagon", "CAU", "Corps", "Corpsie"]
+
+idioms:
+  - unit: q2
+    src: "someone who's on the same side of the tracks as you are"
+    note: "не калькувати «по той бік колії»; ідіома про соціальну/моральну чужість"
+  - unit: q10
+    src: "a highly efficient murder machine"
+    note: "самохарактеристика з гордістю — «машина для вбивств», без пом’якшення"
+  - unit: q14
+    src: "The bastards weren't even to our knees"
+    note: "образне «і в підметки не годилися»; локалізувати, не калькувати"
+  - unit: q36
+    src: "where me diaper, whaaa, whaaa"
+    note: "перекривляння немовляти; лишити безграмотним і кривлякуватим, не виправляти на «wear»"
+  - unit: q39
+    src: "every single one of those frags"
+    note: "frag — сленг про вбивство; шукати розмовний відповідник, не військовий термін"
+  - unit: q31
+    src: "One of my faves"
+    note: "усічене розмовне — усічене й українською"
+
+pitfalls:
+  - "q2, q6, q14 тощо: «Corps» — це звертання до ГРАВЦЯ, а не ім’я мовця; мовець усюди Десс"
+  - "a18 називає Captain Mareth — адресат розмови, не мовець; канонічного варіанта імені ще немає"
+  - "Void → Порожнеча (registry): у тексті прямо сказано «We don't even know his real name» (q25) — переклад прізвиська виправданий"
+  - "q27, a29: Protectorate → Протекторат, Free Drones → Вільні Дрони (glossary)"
+  - "q10 «acid bolts» — арбалетні болти, не «стріли» й не «блискавки»"
+  - "q40 «you Southerners» — жителі півдня Underrail; Underrail лишається латиницею й не відмінюється (glossary)"
+  - "q15 «shock bolt in my belt» — предмет спорядження, узгодити з термінологією предметів"
+
+examples:
+  - unit: q7
+    rule: "панібратське прізвисько-звертання, STYLE §3.2 — форма має лишатися пестливо-глузливою"
+    uk_fragment: "Корпсі"
+    status: proposed
+  - unit: q2
+    rule: "нарація ::…:: — завжди «ви», STYLE §3.1"
+    uk_fragment: "ви відчули"
+    status: proposed
+  - unit: q13
+    rule: "повторюваний тик ::She giggles.:: — сталий переклад в усіх входженнях"
+    uk_fragment: "::Вона хихоче.::"
+    status: proposed

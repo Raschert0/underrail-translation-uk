@@ -1,0 +1,71 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_theresa
+file_id: dialogs\characters\tch_theresa.txt
+derived_from: source-only
+units: {total: 25, npc: 11, player: 14, empty: 0}
+
+speakers:
+  - slug: theresa
+    name: Тереза
+    units: default
+    confidence: certain
+    evidence: [q4]
+    role: >-
+      Рясофорка служби безпеки Інституту, що під приводом «кількох запитань»
+      веде гравця вглиб. Підкреслено ввічлива; ввічливість — інструмент тиску,
+      і зривається вона миттєво, щойно гравець відмовляє.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні, формули «Would you be so kind»,
+        «Would you kindly follow me» — «ви» за STYLE §3.2. Гравець дзеркалить
+        базовий регістр (§3.3), навіть коли грубить.
+      gender_cues: ["$(#brother/sister)"]
+      switches:
+        - {unit: q18, to: ви, trigger: "тон холоднішає до крижаного, але регістр не змінюється — зрив передається лаконічністю, не переходом на «ти»"}
+    voice:
+      register: рівна професійна ввічливість, що дає тріщину
+      idiolect:
+        - "нав’язливе «please» — q6 не має, а q12, q14, q16 тримають; наростання тиску"
+        - "звертання на ім’я гравця майже в кожній репліці — q2, q3, q4, q12, q14, q16; це прийом тиску, не вирізати"
+        - "запевняння-повтори «It won't take long», «This won't take too long», «It won't take too much of your time» — три варіації однієї формули, тримати їх схожими, але не тотожними"
+        - "остання репліка стискається до одного слова: «No?»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки q4 і q20"
+
+new_names: []
+
+idioms:
+  - unit: a7
+    src: "let's get this over with"
+    note: "«покінчімо з цим швидше»; повторюється в a23 у зіпсованій формі"
+  - unit: a22
+    src: "Whatcha gonna do about it?"
+    note: >-
+      Навмисно вульгарне стягнення — виклик. Зберегти зниження регістру
+      (STYLE §9), не вирівнювати в літературне «що ви зробите».
+  - unit: q20
+    src: "concealed stare"
+    note: "погляд з-під маски; не «прихований погляд» буквально"
+
+pitfalls:
+  - "Theresa → Тереза (реєстр); Tchort → Тчорт (глосарій)"
+  - "«Tchort is evolution», «Adapt and overcome!» — ритуальні гасла культу, узгодити з tch_curator, tch_prevlic, tch_vladan"
+  - "q2, q3, q4, q12, q14, q16 містять $(context.player.Name) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб називний відмінок був природним"
+  - "a23 «Let's get this over with as already» — граматична помилка джерела; у перекладі не відтворювати як помилку"
+  - "«sister» у a10, a24, a25 — сан-звертання побратимів, кличний відмінок"
+  - "a9 ::End Dialog.:: — службова підказка, інфінітив за STYLE §3.5"
+
+examples:
+  - unit: q6
+    rule: "STYLE §2 — гендерне звертання в обох гілках, кличний відмінок"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q16
+    rule: "STYLE §3.4 — наказовий спосіб успадковує «ви»"
+    uk_fragment: "Ідіть за мною"
+    status: proposed

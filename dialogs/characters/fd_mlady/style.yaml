@@ -1,0 +1,93 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fd_mlady
+file_id: 'dialogs\characters\fd_mlady.txt'
+derived_from: source-only
+units: {total: 83, npc: 51, player: 32, empty: 4}
+
+speakers:
+  - slug: sarah_allene
+    name: Сара Аллен
+    units: default
+    confidence: certain
+    evidence: [q16, q17, q59, q7]
+    role: >-
+      Вербує гравця до Вільних Дронів і дає перше завдання — вбити посланця
+      Протекторату. Говорить як агітаторка підпілля: пафос про «родину» та
+      свободу впереміш із вуличною говіркою, тому висока риторика тут не
+      книжна, а мітингова.
+    relationships:
+      - 'Вільні Дрони — її фракція, вона говорить від імені «нас»'
+      - 'Протекторат — ворог; про його солдатів каже зневажливо Cans'
+      - 'Lurkers — сусіди бази в підпереходах, не союзники'
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Звертається $(#brother/sister) і весь час веде мову про «нашу родину» —
+        це вербування в побратимство, не службова розмова. Підсилюють вуличні
+        форми gotta, gonna, stinkin’, see ya. STYLE §3.2 — своя, вулична → «ти».
+        Гравець дзеркалить (§3.3), навіть у ворожих репліках a75, a83.
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: палка, панібратська; агітаційний пафос упереміш із вуличним просторіччям
+      idiolect:
+        - 'нав’язливе «family» про фракцію — тримати одне слово в усіх випадках'
+        - 'обриви думки трьома крапками: It’s Sarah... / Only... filth...'
+        - 'емфатичні повтори: You did it… You did it. / Well done! Well done!'
+        - 'риторичне huh?/Hmm? наприкінці питань — лишати як окремий вигук'
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, навіть там, де сама Сара каже «ти».
+    Підказки дій гравця в ::…:: — інфінітив (§3.5): ::Bow down.::, ::Let her continue.::
+
+new_names: ["Sarah Allene", "Lurkers", "Tin Cans", "Cans", "Jane"]
+
+idioms:
+  - unit: q48
+    src: "don’t be a wimp and quake out"
+    note: 'не калькувати «тремтіти»; ідея — «не злякайся й не дай задню»'
+  - unit: q66
+    src: "I swear on my mother’s grave"
+    note: 'усталена клятва — український відповідник, не дослівний переклад'
+  - unit: q63
+    src: "Bingo!"
+    note: 'вигук-схвалення; «Бінго!» прийнятне, але не робити з нього гри в лото'
+  - unit: q67
+    src: "drive them back whence they came from"
+    note: 'архаїчне whence — високий стиль навмисний, зберегти врочистість'
+  - unit: q66
+    src: "all-is-gonna-be-well-if-you-bow-down image"
+    note: 'складений через дефіси іронічний епітет — відтворити як цілісну конструкцію, не розбивати на речення'
+  - unit: q65
+    src: "that stinkin’ Rail Crossing"
+    note: 'згрубіле означення, не пом’якшувати — STYLE §9'
+  - unit: a75
+    src: "It’s time to leave, missy"
+    note: 'зневажливе звертання гравця до неї; має читатися як шпилька, не як ввічливість'
+
+pitfalls:
+  - 'q1, q2, q52, q54, q55, q58, q63, q67, q72, q74, q76, q81 містять $(context.player.Name) — не відмінювати й не додавати літер усередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному'
+  - 'Free Drones → Вільні Дрони, Protectorate → Протекторат, Rail Crossing → Залізничний Переїзд, Core City → Центральне Місто, Junkyard → Звалище — глосарій'
+  - 'GMS лишається латиницею (на відміну від SGS → ССГ) — глосарій'
+  - 'Underrail не перекладати й не відмінювати: «Південна Underrail», «Нижня Underrail» — глосарій'
+  - 'Cans / Tin Cans — фракційне прізвисько, а не побутові «бляшанки»; q41 прямо його пояснює, тож переклад у q41 і q37 має бути тим самим словом'
+  - 'зірочки емфази у q42 (*pretty*), q76 (*$(context.player.Name).*), a83 (*you*) — розмітка наголосу, зберігати'
+  - 'q7, q10, q52, q59 містять літеральні \n\n — переносити без змін'
+  - '«under-passages» повторюється десятки разів — обрати один відповідник і не варіювати'
+
+examples:
+  - unit: q25
+    rule: '$(#brother/sister) — гендерне звертання, STYLE §2'
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: a28
+    rule: 'підказка дії в ::…:: — інфінітив, STYLE §3.5'
+    uk_fragment: "::Дати їй договорити.::"
+    status: proposed
+  - unit: q36
+    rule: 'наказовий спосіб успадковує «ти», STYLE §3.4'
+    uk_fragment: "Повір мені"
+    status: proposed

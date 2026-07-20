@@ -1,0 +1,60 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_kendrick
+file_id: dialogs\characters\jy_kendrick.txt
+derived_from: source-only
+units: {total: 16, npc: 9, player: 7, empty: 1}
+
+speakers:
+  - slug: jy_kendrick
+    name: Кендрік
+    units: default
+    confidence: probable
+    evidence: [q1, q5]
+    role: >-
+      Старий мисливець і дрібний перекупник на Звалищі: збуває мисливське
+      спорядження та мотлох, який назбирав. Балакучий — на просте питання
+      відповідає побутовою побрехенькою про смак жуків.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Батьківське $(#son/young lady) і суцільне просторіччя — «свій»,
+        вуличний регістр, STYLE §3.2. Гравець дзеркалить його тоном
+        («old timer»), STYLE §3.3.
+      gender_cues: ["$(#son/young lady)"]
+    voice:
+      register: просторічний, добродушний, старечий
+      idiolect:
+        - "стале випадання g і стягнення: huntin', ya, fer, 'em"
+        - "подвійне заперечення «I ain't have none of that» — неграмотність зберігати"
+        - "діалектне «Them beetles» замість «those»"
+
+narration:
+  present: false
+
+new_names: ["Kendrick", "Depot"]
+
+idioms:
+  - unit: a3
+    src: "old timer"
+    note: "не калькувати «старий таймер»; розмовне звертання до літнього чоловіка"
+  - unit: q15
+    src: "I could taste it in my mouth fer weeks!"
+    note: "гіпербола розмовна, не буквальний «смак у роті тижнями»"
+
+pitfalls:
+  - "q10, a9: charon → харон, stygian coin → стигійська монета (глосарій)"
+  - "q12: rathound → щурчак, hopper → стрибун (глосарій)"
+  - "a4: «Armadillo class drill rotor circuit board» — технічна назва деталі, узгодити з термінологією предметів, не перекладати наздогад"
+  - "q7: «the Depot» — топонім Звалища, канонічного варіанта ще немає"
+
+examples:
+  - unit: a3
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q5
+    rule: "гендерне звертання зберігає обидві гілки, STYLE §2"
+    uk_fragment: "$(#сину/панночко)"
+    status: proposed

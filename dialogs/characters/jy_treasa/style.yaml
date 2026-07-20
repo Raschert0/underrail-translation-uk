@@ -1,0 +1,56 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_treasa
+file_id: dialogs\characters\jy_treasa.txt
+derived_from: source-only
+units: {total: 14, npc: 10, player: 4, empty: 1}
+
+speakers:
+  - slug: treasa
+    name: Тріса
+    units: default
+    confidence: certain
+    evidence: [q8]
+    role: >-
+      Свідок убивства на Звалищі: злякана, але не розгублена — одразу
+      вимовляється, що її тут не було, і торгується за власну безпеку.
+      Її репліки коливаються між переляком і відвертою погрозою.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        $(#jack/sister) і суцільне просторіччя (nuthin', ain't, we good) —
+        вуличний свій регістр, STYLE §3.2. Гравець відповідає так само різко.
+      gender_cues: ["$(#jack/sister)"]
+    voice:
+      register: настороджений, різкий, вуличний
+      idiolect:
+        - "nuthin', ain't, «and we good» без дієслова-зв’язки"
+        - "евфемізми замість лайки: «heck», «damn» — тримати цей рівень, не підсилювати"
+
+narration:
+  present: true
+  note: "q8 ::She nods.:: — «ви» без винятків, STYLE §3.1; підтверджує жіночий рід мовиці"
+
+new_names: []
+
+idioms:
+  - unit: q2
+    src: "that sorry sap"
+    note: "не «сумний сік»; зневажливо-жалісливе «бідолаха», «недотепа»"
+  - unit: a5
+    src: "Dibs on the head!"
+    note: "дитяча формула застовпити своє; локалізувати як «голова моя!», не калькувати"
+  - unit: q14
+    src: "Snooping's bad for your health"
+    note: "усталена погроза; зберегти саме форму погрози, а не пораду"
+
+pitfalls:
+  - "q8 ::She nods.:: підтверджує, що Тріса — жінка: минулий час і прикметники в її репліках у жіночому роді"
+  - "a9 ::Attack Treasa.:: — ім’я всередині підказки дії відмінюється: «Напасти на Трісу»"
+
+examples:
+  - unit: q14
+    rule: "$(#jack/sister) — панібратське гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed

@@ -1,0 +1,128 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_kareem
+file_id: dialogs\characters\jy_kareem.txt
+derived_from: source-only
+units: {total: 167, npc: 113, player: 54, empty: 16}
+
+speakers:
+  - slug: kareem
+    name: Карім
+    units: default
+    confidence: certain
+    evidence: [q167, q155, q80]
+    role: >-
+      Шинкар Звалища і головний рознощик чуток у місті: за монету віддає
+      інформацію, за монету наймає ловити вугрів. Говорить коротко й зверхньо,
+      а довгі абзаци видає лише тоді, коли переказує новини.
+    relationships:
+      - "Абрам — передає через Каріма гроші (q1, q162) і погрозу (q163); Карім лише посередник, не має свого ставлення"
+      - "Гровер — згадує зневажливо: «that weasel Grover» (q40)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Звертається до гравця як до чергового відвідувача, без жодної
+        сервісної ввічливості: «$(#jack/lady)», «$(#jack/sis)», «I ain't your
+        secretary». Шпилька «For a simple patron, you sure ask a lot» (q155) —
+        це рівний до рівного, не обслуга до клієнта.
+      gender_cues: ["$(#jack/lady)", "$(#jack/sis)", "$(#jack/sister)", "$(#guy/woman)", "$(#man/woman)"]
+    voice:
+      register: >-
+        буркотливий, лаконічний, з сухою іронією; за словами джерела —
+        «deep, rumbling voice», і не зрозуміло, чи він злий, чи просто нудьгує
+      idiolect:
+        - "репліки-обрубки як основний прийом: «Maybe.», «It's a surprise.», «Could be.», «Me too.», «You'll be back.» — не розгортати їх у повні речення"
+        - "дзеркалення реплік гравця як форма шпильки: «For a simple barkeep, you sure know a lot» → «For a simple patron, you sure ask a lot» (a154/q155); синтаксис відповіді має повторювати синтаксис запитання"
+        - "у режимі чуток регістр піднімається до майже газетного переказу (q20, q21, q35, q48) — це свідомий контраст із його ж однослівними відповідями"
+        - "розмовне зниження в емоційних місцях: «ain't», «crapless», «son of a rat», «freakin'»"
+
+narration:
+  present: true
+  note: >-
+    «::A large man with a scruffy bush of a beard stands at the counter…::»
+    (q167), «::He rubs an invisible coin between his thumb and index finger.::»
+    (q96), «::He rolls his eyes.::» (q153) — «ви» без винятків, STYLE §3.1.
+    Підказки дій «::Barter.::», «::Give him five stygian coins.::»,
+    «::Nod and leave.::», «::[Mercantile]::» — інфінітив, STYLE §3.5.
+
+new_names: ["Royce", "Joshua", "Jennifer", "Black Eels", "Scrappers", "Silent Isle", "North Tunnel", "Junkyard surprise", "Depot A"]
+
+idioms:
+  - unit: q21
+    src: "moved their businesses in-land"
+    note: "«вглиб суходолу»; у підземному сеттингу «in-land» — протиставлення докам, а не морю"
+  - unit: q24
+    src: "stinking worse than Core City docks"
+    note: "порівняння прив’язане до топоніма з глосарію — «Центральне Місто»; жарт тримається на впізнаваності місця"
+  - unit: q24
+    src: "wasted the derailed son of a rat"
+    note: "«wasted» = вбив; «son of a rat» — місцева заміна лайки, зберегти щурячу образність; «derailed» — внутрішньоігровий термін божевілля, потребує єдиного рішення на весь корпус"
+  - unit: q28
+    src: "spasming out and rambling"
+    note: "«битися в судомах і марити»; «rambling» тут — безладна мова, не блукання"
+  - unit: q31
+    src: "everyone's scared crapless"
+    note: "груба ідіома — грубе лишається грубим, STYLE §9; не пом’якшувати до «налякані»"
+  - unit: q40
+    src: "that weasel Grover"
+    note: "«weasel» як характеристика — слизький пронира; зберегти саме тваринну метафору"
+  - unit: q40
+    src: "you better steer clear of him"
+    note: "«тримайся від нього подалі» — усталена порада, не морська метафора"
+  - unit: q57
+    src: "The more shinies you have in your pocket"
+    note: "«shinies» — просторічна назва грошей, а не окремий предмет; потрібне розмовне слово, не «монети»"
+  - unit: q58
+    src: "they don't mess with the big boys"
+    note: "«big boys» = великі банди; не буквальні «хлопці»"
+  - unit: q97
+    src: "It's on the tip of my tongue..."
+    note: "«крутиться на язиці» — український відповідник існує, калька не потрібна"
+  - unit: q149
+    src: "you know it makes sense"
+    note: "поблажливе схвалення після торгу, не логічне твердження"
+  - unit: q153
+    src: "Don't injure yourself."
+    note: "сарказм у відповідь на «I'll have to think about it» — «дивись не надірвися»; буквальний переклад руйнує жарт"
+  - unit: q105
+    src: "Doesn't get any more real than this."
+    note: "відповідь-відбивання на запитання про «real food»; слово «справжній» має бути те саме, що в a104"
+
+pitfalls:
+  - >-
+    ГОЛОВНЕ: вузол широко використовує СКЛЕЮВАННЯ юнітів у одне речення під час
+    гри. Ланцюги: q32 + (q33 | q38 | q39) + q34; q66 + (q67 | q84) + q68;
+    (q70 | q83) + q71; q122 + q123; q165 + один із рядків-чуток; q55 і q59 —
+    рядки-заголовки перед блоками. Пробіли на початку й у кінці таких юнітів
+    значущі — не прибирати. Українська вимагає узгодження за відмінком і родом
+    через шов, тому кожен фрагмент слід будувати так, щоб він працював з УСІМА
+    можливими продовженнями; за потреби перебудовувати речення, а не
+    підганяти під одну гілку.
+  - "q32 «Some lone rat caused » має стикуватися і з «a bloodbath…» (q33), і з «a lot of trouble…» (q38), і з «some trouble…» (q39) — керування дієслова мусить підійти всім трьом"
+  - "q68 закінчується на «J-J-J...», а продовження задає гравець: Joshua (a69) або Jennifer (a82). Заїкання має відтворюватися на тому приголосному, з якого починаються ОБИДВА українські імені, інакше підказка розсинхронізується з відповіддю — STYLE §9"
+  - "q1, q7, q166 містять $(#jack/lady), q80 — $(#jack/sis), q163 — $(#jack/sister): три різні пари в одного мовця; кожну перекладати окремо, не зводити до однієї"
+  - "q43 «the $(#man/woman) who lead the charge» — плейсхолдер стоїть у підметі, тож і дієслово, і означення далі мають бути гендерно нейтральними або також у плейсхолдері"
+  - "q24 «some scavenger $(#guy/woman) came in and wasted…» — минулий час після плейсхолдера гендерний; потрібен додатковий $(#…) на дієслові, і це правильно, а не вільність"
+  - "q40 згадка «Grover», «Silas»; q52 «Elwood»; q53 «Kimi»; q163 «Abram» — це персонажі, про яких мова, а не мовці"
+  - "глосарій: The Rig → «Платформа», Camp Hathor → «Табір Хатор», Old Junkyard → «Старе Звалище», Junkyard → «Звалище», Core City → «Центральне Місто», Free Drones → «Вільні Дрони», Faceless → «Безликі», Rail Crossing → «Залізничний Переїзд», Protectorate → «Протекторат», siphoners → «висмоктувачі», rathounds → «щурчаки», charons → «харони», SGS → «ССГ»"
+  - "q142, q146, q147, a145 містять суми (100, 150) — числа не чіпати; торг має лишитися арифметично послідовним"
+  - "q39 пише «the Rig» з малої, тоді як q31, q33, q37, q38 — «The Rig»; це різнобій джерела, в перекладі назва єдина"
+
+examples:
+  - unit: q166
+    rule: "$(#jack/lady) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/пані)"
+    status: proposed
+  - unit: q68
+    rule: "заїкання відтворюємо на українському приголосному, STYLE §9"
+    uk_fragment: "Дж-дж-дж…"
+    status: proposed
+  - unit: a77
+    rule: "підказка дії в «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути й піти.::"
+    status: proposed
+  - unit: q34
+    rule: "юніт-склейка: самі пунктуація й пробіли, вміст не додавати"
+    uk_fragment: ". "
+    status: proposed

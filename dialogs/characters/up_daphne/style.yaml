@@ -1,0 +1,85 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/up_daphne
+file_id: dialogs\characters\up_daphne.txt
+derived_from: source-only
+units: {total: 61, npc: 37, player: 24, empty: 2}
+
+speakers:
+  - slug: daphne
+    name: Дафна
+    units: default
+    confidence: certain
+    evidence: [q3, q5, q11, q47, q58]
+    role: >-
+      Молода генетикиня з Ливарні, що чекає під Інститутом Тчорта на вступ до
+      тчортистів. Балакуча й самоіронічна, але сторожка: тримається доти, доки
+      гравець поводиться відкрито, і різко замикається, щойно відчує загрозу.
+    relationships:
+      - "батьки привезли її до Ливарні дитиною — говорить про це з образою («that dump», «that hole»)"
+      - "тчортисти — потенційні роботодавці; ставиться прагматично, без побожності"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Знайомиться першою і одразу неформально: «Hi, stranger.», «join the line,
+        hah!», сленг «outta», «gonna», «Nope.» Це не службовий і не обслуговчий
+        регістр — STYLE §3.2 дає «ти». Репліки гравця дзеркалять (§3.3): вони так
+        само розмовні («See ya some other time.»).
+      gender_cues: ["$(#guy/woman)", "$(#his/her)"]
+    voice:
+      register: розмовний, теплий, із самоіронією; голос із хрипотою (q3)
+      idiolect:
+        - "кінцеве «hah!» — словесний тик, 8 входжень (q5, q13, q29, q36, q42, q58 тощо); не викидати й не перетворювати на сміх у ремарці"
+        - "звертання на ім’я гравця всередині фрази як прийом близькості: «I'm not exaggerating, $(context.player.Name).»"
+        - "побутові порівняння-саморобки: «like a... like a... fisherman on a train station»"
+        - "самоцитування власних рішень у лапках: «\"No more will I waste my time in that dump,\" I said to myself»"
+      switches:
+        - {unit: q22, to: ти, trigger: "холоне й відмовляє, коли гравець не назвався, але форма звертання не змінюється — це тон, не регістр"}
+        - {unit: q53, to: ти, trigger: "злякана, відступає й підвищує голос (q55); знову лише тон — на «ви» не переходить"}
+
+narration:
+  present: true
+  note: >-
+    Ремарки в третій особі про неї саму (q27, q47, q49, q51, q53, q55) плюс
+    портретний вступ q3. «Ви» без винятків — STYLE §3.1.
+
+idioms:
+  - unit: q13
+    src: "It's like a... like a... fisherman on a train station"
+    note: "збити порівняння треба так само незграбно, з паузами — вона добирає слова вголос"
+  - unit: q15
+    src: "we would've been golden"
+    note: "ідіому локалізувати («жили б як у Бога за пазухою»), не калькувати «золоті»"
+  - unit: q29
+    src: 'Got that one?'
+    note: "розмовна перевірка «зрозумів?», не буквальне «отримав»"
+  - unit: q35
+    src: 'directed evolution'
+    note: "науковий термін у лапках — вона цитує чуже, зберігати лапки « »"
+  - unit: q13
+    src: 'I had to get outta there'
+    note: "стягнена форма — передавати розмовністю української, не апострофом"
+
+pitfalls:
+  - "q8, q49 містять \\n\\n — розділювач абзаців рушія, лишати як є"
+  - "$(context.player.Name) у q8, q17, q19, q27, q31, q49, q60 — не відмінювати; будувати речення під називний відмінок, попри те що в англійському це кличне звертання"
+  - "q49: $(#guy/woman) і $(#his/her) стосуються ГРАВЦЯ, не Дафни — обидві гілки перекладати українськими родовими формами"
+  - "Foundry, Core City, Deep Caverns, Institute of Tchort, South Gate, Rail Crossing — брати з глосарію, не перекладати наново"
+  - "«Underrail» (q27, q49) лишається латиницею — STYLE §6"
+  - "q23 «It was rhetorical; Don't answer it...» — велика літера після крапки з комою є огріхом джерела; в українському нормалізувати пунктуацію"
+  - "q35, q37 і q36, q38 — майже дублі однієї відповіді (коротка й довга гілки); тримати їх узгодженими між собою"
+
+examples:
+  - unit: q5
+    rule: "кінцеве «hah!» — тик, зберігати як окремий вигук (STYLE §9)"
+    uk_fragment: "ха!"
+    status: proposed
+  - unit: q49
+    rule: "$(#guy/woman) — гендер гравця, обидві гілки українською (STYLE §2)"
+    uk_fragment: "$(#хлопець/жінка)"
+    status: proposed
+  - unit: q55
+    rule: "капіталізація як крик зберігається"
+    uk_fragment: "ПРОЩАВАЙ"
+    status: proposed

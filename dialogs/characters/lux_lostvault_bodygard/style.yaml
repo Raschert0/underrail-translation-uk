@@ -1,0 +1,58 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/lux_lostvault_bodygard
+file_id: dialogs\characters\lux_lostvault_bodygard.txt
+derived_from: source-only
+units: {total: 14, npc: 8, player: 6, empty: 1}
+
+speakers:
+  - slug: lux_lostvault_bodygard
+    name: охоронець при торговці
+    units: default
+    confidence: certain
+    evidence: [q2, q5, q8]
+    role: >-
+      Мовчазний охоронець, що тримає гравця на прицілі й пропускає лише
+      до торговця. Говорить рівно стільки, скільки треба, щоб дати дозвіл
+      або відмову — кожна репліка коротка, і ця скупість і є його голосом.
+    relationships:
+      - "«He's over by the shack» — торговець із сусіднього вузла lux_lostvault_trader, якого він охороняє"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Просторічне «Ya here to do business?» і грубе відсилання
+        $(#lost, jack/…) — вуличний свій регістр, а не службова
+        ввічливість, STYLE §3.2.
+      gender_cues: ["$(#lost, jack/yer pretty tushie outta here)"]
+    voice:
+      register: скупий, погрозливо-спокійний
+      idiolect:
+        - "ya / yer — стягнення навіть у найкоротших репліках"
+        - "репліки в 2–5 слів; не дописувати зв’язок і ввічливість, якої в джерелі немає"
+        - "«I'm watching you» повторюється як дія у q14 — та сама погроза словом і жестом"
+
+narration:
+  present: true
+  note: "q2, q5, q8, q14 містять ::…:: — «ви» без винятків, STYLE §3.1"
+
+new_names: ["Lost Vault"]
+
+idioms:
+  - unit: q8
+    src: "yer pretty tushie outta here"
+    note: "масно-грубе «геть звідси»; не пом’якшувати до нейтрального, STYLE §9"
+  - unit: a12
+    src: "Killing is my business... and business is good!"
+    note: "цитата-каламбур на «do business» із q2; зберегти повтор слова «справа», інакше жарт зникає"
+
+pitfalls:
+  - "q8 містить незвичний плейсхолдер $(#lost, jack/yer pretty tushie outta here) — усередині нього не лише звертання, а майже вся фраза, і гілки різної будови; перекладати обидві гілки цілком, узгоджуючи з «I suggest ya get» ззовні"
+  - "q10 «Then » — обірваний рядок із пробілом перед <end>; не дописувати речення й не прибирати пробіл"
+  - "«Lost Vault» (назва локації в id вузла) канонічного варіанта ще не має"
+
+examples:
+  - unit: a4
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути.::"
+    status: proposed

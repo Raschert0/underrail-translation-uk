@@ -1,0 +1,106 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/ch_fredd
+file_id: 'dialogs\characters\ch_fredd.txt'
+derived_from: source-only
+units: {total: 109, npc: 60, player: 49, empty: 6}
+
+speakers:
+  - slug: fredd
+    name: Фредд
+    units: default
+    confidence: certain
+    evidence: [q104, q108]
+    role: >-
+      Чинбар і торговець мисливським спорядженням у Таборі Хатор, водночас
+      самозваний хранитель місцевої історії. Готовий віддати верстат і всі
+      гроші за шолом засновника — і не розуміє, чому інші не поділяють запалу.
+    relationships:
+      - "Фред і Фредді — інші торговці табору; у q59 Фредд спокійно спростовує жарт Фреда про братів і називає його «the regular jokester»"
+      - "Едгар — ватажок табору; Фредд не вірить у перемир’я (q62, q63) і оплакує його (q64)"
+      - "Isaac Hathor — засновник табору, предмет культу; шолом із ініціалами I.H. — сюжетний стрижень вузла"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Наскрізне $(#mate/miss) — панібратське звертання, не службове.
+        Просторічна граматика без жодного винятку. STYLE §3.2 дає «ти».
+      gender_cues: ["$(#mate/miss)", "$(#Mate/Miss)"]
+    voice:
+      register: балакучий, добродушний, легко переходить у побожний захват
+      idiolect:
+        - "суцільне випадання g: huntin', goin', usin', interestin', makin'"
+        - "«me» замість «my»: «me business», «me throat», «me favorite customer», «made this one meself» — просторічна присвійність, найпомітніша його прикмета"
+        - "«ain't» як універсальне заперечення, зокрема з підметом-множиною"
+        - "заповнювач «hm» усередині й наприкінці речень — не викидати, це ритм його мови"
+        - "«you dig» / «I don't dig» / коротке «Dig.» — спільне з Фредом, але тут частіше означає згоду, ніж перепит"
+        - "у захваті збивається на риторику проповідника: «constructed by his holy hands»"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Нарація тут часто описує ритуали вагання
+    (q21, q23) і повторюється дослівно в q77 та q86 — повтор має лишитися
+    дослівним і в перекладі.
+
+new_names: ["Isaac Hathor", "Hathor the Coalbringer", "Jezebel", "Rathound King", "Hathorians", "Core City Housing Corporation", "Stinksalot The Fourth"]
+
+idioms:
+  - unit: q76
+    src: "Are you derailed...?"
+    note: >-
+      Внутрішньоігрова лайка на залізничній метафорі, спорідненій із назвою
+      Underrail. Повторюється в q82 і q89. Зберегти образ «зійти з рейок» —
+      нейтральне «ти здурів» стирає світ.
+  - unit: q50
+    src: "bein' a quaker in that situation is better than bein' dead"
+    note: >-
+      «quaker» тут — боягуз, той, кого трясе; не релігійна громада.
+      Потрібне українське слівце того ж ґатунку.
+  - unit: q50
+    src: "The guy ain't a push-over"
+    note: "«не з тих, кого зіб’єш»; не калькувати"
+  - unit: q59
+    src: "he keeps on pullin' their leg"
+    note: "«водити за носа»; узгодити з тим самим місцем у вузлі ch_fred"
+  - unit: q52
+    src: "His eyes light up like a pair of torches."
+    note: "порівняння в нарації; смолоскип, а не лампа — світ без електрики в побуті"
+  - unit: q9
+    src: "children will look at this here helmet and go, \"yeah.\""
+    note: >-
+      Комізм у тому, що урочисте бачення завершується беззмістовним вигуком.
+      Вигук лишити коротким і порожнім.
+  - unit: q64
+    src: "It's a one for one trade - a great man for a great beast."
+    note: "торговельна метафора в устах торговця — зберегти саме її, а не загальне «обмін»"
+
+pitfalls:
+  - "q54 «an expedition came from the west» — звичайне слово з малої літери, перекладати «експедиція». Це НЕ назва доповнення Expedition, яку глосарій велить лишати латиницею"
+  - "q49 «he's this boulder, this savage man» — загальна назва «брила», а не персонаж Boulder → Валун із реєстру"
+  - "глосарій: charons → харон, stygian coins → стигійська монета, Deep Caverns → Глибокі Печери, Camp Hathor → Табір Хатор, burrowers → копаки, crawlers → повзуни, Tunnelers → Тунельники, hopper → стрибун, Core City → Центральне Місто, Foundry → Ливарня"
+  - "суми мають збігатися між репліками: тисяча в q23, q25, q33, a79 проти сімохсот у a30, q31, a32; двісті в a72/q73 проти п’ятисот у a74"
+  - "теги навичок ::[Mercantile]::, ::[Persuade]::, ::[Tailoring]:: — ::[Переконати]:: закріплено глосарієм; решту брати з наявних назв навичок, не вигадувати нових"
+  - "q102 $(#Mate/Miss) — обидві гілки з великої, регістр гілки зберігати (STYLE §2)"
+  - '\n\n у q4, q12, q21, q23, q77, q86, q108 — розділювачі нарації й репліки, зберігати як є'
+  - "q77 і q86 мають однаковий початок нарації, але різні кінцівки — не зливати їх в один переклад"
+  - "q82 і q89 відрізняються лише доданим останнім реченням — перша частина має збігатися дослівно"
+  - "a55, a99, a107 — саркастичні репліки гравця про нудьгу; іронія тримається на надмірній чемності, не спрощувати"
+
+examples:
+  - unit: a16
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5 (форма закріплена глосарієм)"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q45
+    rule: "$(#mate/miss) — панібратське звертання, підтверджує «ти», STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q108
+    rule: "нарація ::…:: — завжди «ви», STYLE §3.1"
+    uk_fragment: "::жестом просить вас зачекати::"
+    status: proposed
+  - unit: q19
+    rule: "«me» замість «my» — просторічна присвійність, передається розмовним ладом, а не помилкою"
+    uk_fragment: "воно мені для роботи"
+    status: proposed

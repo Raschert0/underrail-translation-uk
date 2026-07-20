@@ -1,0 +1,202 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/events/xpbl/pir_meetingcaptain
+file_id: dialogs\events\xpbl\pir_meetingcaptain.txt
+derived_from: source-only
+units: {total: 413, npc: 254, player: 159, empty: 42}
+
+speakers:
+  - slug: grim
+    name: Грим
+    units: default
+    confidence: certain
+    evidence: [q2, q23, q86, q341]
+    role: >-
+      Капітан піратів Cadmus Grim, який захопив професора Олдфілда і веде
+      переговори про викуп; тримає церемонну ввічливість господаря корабля
+      навіть тоді, коли погрожує. Ім’я в реєстрі — Грим (не «Грім»).
+    relationships:
+      - "Крузер і Бритва — його лейтенанти; він їх стримує («Cruzer.» — і той замовкає)"
+      - "Олдфілд — заручник; про нього Грим говорить рівно, як про предмет угоди"
+      - "Флінгер — підлеглий, який стереже професора (q176)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Формальний, освічений мовець у ролі господаря й переговорника:
+        «Welcome to my ship», «Thank you, I appreciate the compliment»,
+        «We are pirates, my friend». STYLE §3.2 — «ви»; репліки гравця
+        дзеркалять (§3.3), гравець звертається «Captain».
+      gender_cues: ["$(#man/woman)", "$(#him/her)", "$(#He/She)"]
+      switches:
+        - {unit: q48, to: ти, trigger: "обриває нахабство — «Watch your tongue»"}
+        - {unit: q82, to: ти, trigger: "вибух гніву, наказ схопити гравця"}
+        - {unit: q283, to: ти, trigger: "пряма погроза життю професора"}
+    voice:
+      register: стриманий, підкреслено чемний, з холодною погрозою під ввічливістю
+      idiolect:
+        - "послідовне випадання -g: makin’, somethin’, interestin’ — просторічний шар під книжним синтаксисом; в українській передавати розмовною лексикою, не «зіпсованою» орфографією"
+        - "повторювана формула схвалення «I like the sound of that» / «We’re makin’ progress» — тримати сталою в усіх входженнях (q78, q150, q208, q244)"
+        - "виділення курсивом через *зірочки*: *Everythin’*, *knows*, *take* — зірочки зберігати"
+        - "любить сентенції-афоризми: «Impatience brings failure; patience brings reward»"
+
+  - slug: cruzer
+    name: Крузер
+    units: [q3, q87, q89, q335, q337, q340, q342, q344, q346, q347, q348, q350, q368]
+    confidence: probable
+    evidence: [q3, q334, q335, q337]
+    role: >-
+      Лейтенант капітана, з рознесеною лівою половиною щелепи, прикритою
+      банданою; грубий, сексуально-агресивний, тримає гравця під прицілом.
+      Уся його мова — контраст до капітанової.
+    relationships:
+      - "Грим — капітан; Крузер його слухається з першого слова (q341 → q342 «Yes, Cap’n.»)"
+      - "має особисту ненависть до Протекторату — шрам від їхнього солдата (q334)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний, відверто ворожий мовець із погрозами й непристойностями
+        («Ye wanna bend over too, eh?») — STYLE §3.2 «ти». Репліки гравця
+        до нього (a339, a345) дзеркалять цим самим «ти».
+      gender_cues: []
+    voice:
+      register: грубий, брутальний, зверхній; грубе лишається грубим (STYLE §9)
+      idiolect:
+        - "найсильніший ідіолект у вузлі: артикль d’ замість the, ye/yer замість you/your, me замість my, випадання початкового h (’e, ’is, ’ere), 'cus замість because"
+        - "передавати системною просторічністю української — редукції та згрубіла лексика, а не випадковими помилками"
+        - "«Cap’n» у його вустах — коротка форма; тримати однаковою в q342 і в q3"
+    note: >-
+      Атрибуція тримається на бандані: q3 — голос крізь бандану, q335 — той
+      самий персонаж стягує бандану й показує шрам, а q334 прямо називає цей
+      шрам Крузеровим.
+
+  - slug: oldfield
+    name: Олдфілд
+    units: [q177, q179, q181, q183]
+    confidence: certain
+    evidence: [q177]
+    role: >-
+      Професор-заручник, чути лише по рації; говорить спокійно й інтелігентно,
+      без жодного піратського шару.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: "науковець, колега гравця по експедиції; гравець звертається «Professor» — STYLE §3.2"
+      gender_cues: []
+    voice:
+      register: втомлений, але витриманий; повні форми, без розмовних скорочень
+    note: >-
+      У його репліках стоїть окремий плейсхолдер
+      $(context.npc_xpbl_oldfield_playerName), а не $(context.player.Name).
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q343]
+    confidence: unknown
+    reason: >-
+      Гола ремарка «::He turns to you.::» між реплікою Крузера (q342) і його ж
+      тирадою (q344): «він» — це або капітан, що повертається до перерваної
+      розмови, або Крузер, що переходить до наступної погрози.
+    guidance: >-
+      Нейтральна нарація на «ви» без уточнення особи; не додавати імені й не
+      вживати гендерованих форм понад те, що є в джерелі.
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, зокрема довга сенсорна секвенція із
+    зав’язаними очима q406–q412 і сцена побиття q99–q108. Підказки дій у
+    ::…:: — інфінітив (§3.5): ::Don’t fight.::, ::Say nothing.::, ::Wait.::,
+    ::Contact Chief Briggs.::
+
+unattributed_units: [q343]
+
+new_names:
+  - Cadmus
+  - Grim Jetters
+  - Scalers
+  - The Pirate Bay
+  - The Jaws
+  - Aegis Incorporated
+  - Larry
+  - Southgater
+  - Tchortist
+  - floatie-talkie
+  - dryfoot
+
+idioms:
+  - unit: q3
+    src: "d' same smile I got on me banda: Wide - an' fleshless"
+    note: "«усмішка» тут — рана від вибитої щелепи; передавати образ, не кальку «безм’ясний»"
+  - unit: q9
+    src: "send you under on sight"
+    note: "морський евфемізм убивства — «пустити на дно», не буквальне «відправити вниз»"
+  - unit: q65
+    src: "someone with a good noggin' on his shoulders"
+    note: "розмовне «голова на плечах»; noggin — не окремий орган"
+  - unit: q66
+    src: "It devours lives and money like a voracious sea serpent"
+    note: "образ ненажерливого змія тримати — далі змії згадуються буквально (q199)"
+  - unit: q199
+    src: "now you're in jettin' trouble"
+    note: "jettin’ — внутрішньоігрова лайка від Grim Jetters; лишати як запозичення (STYLE §9), не замінювати звичайним лайливим словом"
+  - unit: q287
+    src: "he is now fish chomp"
+    note: "піратське «корм для риб»; не калькувати"
+  - unit: q303
+    src: "You people have kicked the hive"
+    note: "ідіома «розворушити вулик»; повторюється в a132 — тримати ту саму формулу"
+  - unit: q304
+    src: "you've raised hell - you've raised the Hell's Gut"
+    note: "каламбур на топонімі Нутро Пекла (глосарій) — зберегти зв’язок «здійняли пекло» / «здійняли Нутро Пекла»"
+  - unit: q307
+    src: "We don't *want* things - we *take* them"
+    note: "антитеза з курсивом — обидві зірочки на місці, протиставлення дієслів обов’язкове"
+  - unit: q337
+    src: "Coins can be stolen at any time, life is one"
+    note: "обірвана сентенція: життя одне; не добудовувати речення"
+  - unit: q275
+    src: "thrown a massive wrench into our plans"
+    note: "локалізувати («сплутати карти»), не «кинути ключ»"
+  - unit: a374
+    src: "The expedition is a sinking ship"
+    note: "морська метафора доречна дослівно — тут кальку зберігаємо свідомо"
+
+pitfalls:
+  - "q86 «I know you've made a promise, Cruzer» і q403 «Now, Cruzer, this person is no dryfoot thug» — звертання до Крузера; говорить капітан, а не Крузер (правило адресата)"
+  - "q334 «Cruzer is gonna like you even more now» — говорить Грим про Крузера; наступна ремарка q335 уже Крузерова"
+  - "q23, q27, q49, q294, q328, q330, q333, q353, a5, a186, a293 містять $(context.player.Name) — не відмінювати всередині плейсхолдера, будувати фразу так, щоб працював називний"
+  - "q179, q183 — $(context.npc_xpbl_oldfield_playerName); q386 — $(context.event_pir_meeting_offerLine), підставляється предмет пропозиції, тож речення має лишатися граматично нейтральним"
+  - "«South Underrail» (a248) і «North Underrail» (a312, q331, q354) — Underrail латиницею й без відмінювання (глосарій)"
+  - "Black Sea → Чорне Море, Hell's Gut → Нутро Пекла, Core City → Центральне Місто, Free Drones → Вільні Дрони, Protectorate → Протекторат, Institute of Tchort → Інститут Тчорта, South Gate Station → Станція Саут-Гейт, charons → харони, Biocorp — латиницею: усе з глосарію"
+  - "мітки навичок у ::[…]:: беруться з глосарію: ::[Persuade]:: → ::[Переконати]::, ::[Dodge]:: → ::[Вивертання]:: (не Ухилення)"
+  - "у джерелі є друкарські помилки — unrestriced/negotations (q30), stongly (q302), successfuly (q314), «the two man» (q84), «you island» (q199), «byin' time» (q260), «Of course.I am» (q397). Перекладати за змістом, помилок не відтворювати"
+  - "послідовності \\n\\n і кінцеві пробіли перед <end> зберігати як у джерелі"
+  - "паралельні торгові гілки (a206/a219/a229/a251 — three quarters; a209/a221/a231/a254 — half; a212/a224/a234/a257 — one quarter) сформульовані однаково: тримати ідентичні українські формули, бо гравець порівнює їх у меню"
+
+examples:
+  - unit: q13
+    rule: "$(#man/woman) — гендерний плейсхолдер, STYLE §2"
+    uk_fragment: "$(#чоловік/жінка)"
+    status: proposed
+  - unit: q86
+    rule: "$(#his/her) при іменнику — узгоджувати присвійну форму, а не залишати латиницю"
+    uk_fragment: "$(#його/її)"
+    status: proposed
+  - unit: a55
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Не битися.::"
+    status: proposed
+  - unit: a351
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Мовчати.::"
+    status: proposed
+  - unit: q2
+    rule: "«Cap'n» — редукована форма звертання, однакова в усіх мовців"
+    uk_fragment: "кеп"
+    status: proposed
+  - unit: q350
+    rule: "ідіолект Крузера — «ти» і згрубіла редукція, STYLE §3.2 і §9"
+    uk_fragment: "ти тепер кепів гість"
+    status: proposed

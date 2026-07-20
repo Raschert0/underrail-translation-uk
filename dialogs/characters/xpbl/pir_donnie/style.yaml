@@ -1,0 +1,187 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/pir_donnie
+file_id: dialogs\characters\xpbl\pir_donnie.txt
+derived_from: source-only
+units: {total: 391, npc: 267, player: 124, empty: 17}
+
+speakers:
+  - slug: donnie
+    name: Донні
+    units: default
+    confidence: certain
+    evidence: [q17, q58, q124]
+    role: >-
+      Донні Мерчант — корабельний торговець піратської команди Grim Jetters у Port Ceto,
+      колишній мандрівний купець, якого пірати буквально викрали в скрині. Низькорослий,
+      балакучий, самозакоханий; говорить безупинно й усе оцінює через торгівлю та власну
+      значущість.
+    relationships:
+      - "Todd — його мовчазний помічник у крамниці; Донні бурчить на нього, але захищає"
+      - "Cruz (Крузер) — той, хто його вкрав; давня образа переросла у взаємну повагу"
+      - "Cap’n Grim (капітан Грим) — начальник, про якого Донні говорить із побожністю"
+      - "Senda, Chalice, Ruth — жінки-піратки, з якими він грає в strippage і фліртує"
+      - "Katya (Катя) — знахарка табору; Донні відсилає гравця до неї"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний пірат без жодної службової дистанції: кличе гравця гендерним
+        панібратським звертанням і хвалить як дитину. STYLE §3.2 — «свій, вуличний» → «ти».
+        Гравець дзеркалить (§3.3).
+      gender_cues: ["$(#banga/sweet)", "$(#boy/girl)", "$(#Banga/Sweet)"]
+      note: >-
+        `$(#banga/sweet)` — не звертання на ім’я, а панібратське «свій/мила». Обидві гілки
+        мають лишитися звертальними (кличний відмінок), а не описовими.
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q53]
+    confidence: unknown
+    reason: >-
+      Рядок «Oh, Donnie, Donnie. Ye sayin’ it now…» — звертання на ім’я вказує на адресата:
+      говорить НЕ Донні. За контекстом (q16, q18, q54) це одна з трьох піраток —
+      Senda, Chalice або Ruth, — але текст не дає позначки, яка саме.
+    guidance: >-
+      Перекладати як жіночу репліку: минулий час і прикметники в жіночому роді, «ти» до
+      Донні, той самий грубуватий піратський регістр. Ім’я мовиці не додавати.
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, навіть коли Донні поруч каже «ти».
+    Нарація тут двох видів: ремарки про Донні («::He shrugs.::», «::He laughs.::»,
+    «::He grabs onto his shorts…::») і підказки дій гравця («::Barter.::»,
+    «::Play strippage.::»), які йдуть інфінітивом — STYLE §3.5.
+  third_party_narration: [q377, q378]
+
+unattributed_units: [q53]
+
+new_names:
+  - Senda
+  - Chalice
+  - Ruth
+  - Calamity
+  - Slick Nick
+  - Kenny Slickjaw
+  - Gizzy McGold
+  - Vinnie The Rock
+  - Rocco
+  - Joe Irongut
+  - Steve Heave
+  - Bleedin’ Boil Jim
+  - Mike Rough
+  - Ol’ Percy
+  - Roy Deuce
+  - Merchant
+  - Grim Jetters
+  - Black Eels
+  - Spectral Grinners
+  - Scalers
+  - Bloody Bayhounds
+  - Loot Brothers
+  - Aegis Incorporated
+  - Port Ceto
+  - Port Crag
+  - Skidrow
+  - The Pirate Bay
+  - Creepers Bay
+  - Fetid Marsh
+  - Isaac’s River
+  - Scrappy Narrow
+  - Black Strait
+  - Glowin’ Canine
+  - Underrail Express
+  - banga
+  - jettin’
+  - dryfoot
+  - shroom boom
+  - strippage
+
+idioms:
+  - unit: q151
+    src: "if ya catch the way my jet's floatin'"
+    note: >-
+      Піратська переробка «if you catch my drift». Не калькувати — потрібен український
+      розмовний відповідник із морським/катерним образом, однаковий у q151, q162, q171.
+  - unit: q158
+    src: "got sent under"
+    note: >-
+      Евфемізм «убитий» (пішов під воду). Наскрізний у файлі — потрібен один сталий
+      український евфемізм, не «відправлений під».
+  - unit: q23
+    src: "By the sea!"
+    note: "Божба замість «By God». Лишити морською, не замінювати на «Боже»."
+  - unit: q33
+    src: "ruth or bare"
+    note: >-
+      Каламбур на «truth or dare» + ім’я Ruth. Гру слів зберегти неможливо дослівно —
+      потрібна українська назва салонної гри з роздяганням.
+  - unit: q313
+    src: "people goin' derailed"
+    note: >-
+      Внутрішньосвітове «з’їхати з рейок» = збожеволіти; тримати залізничний образ,
+      бо це фірмова ідіома світу Underrail.
+  - unit: q361
+    src: "Who gives an eel?"
+    note: "Піратський варіант «who gives a damn» із назвою ворожої банди. Замінник має лишитися морським."
+  - unit: q83
+    src: "what the hell's gut was wrong"
+    note: "Каламбур на топонім Hell’s Gut (глосарій: Нутро Пекла) — лайка й назва місця збігаються."
+  - unit: q171
+    src: "make the toilet your best banga"
+    note: "Грубий жарт про харчове отруєння — не пом’якшувати, STYLE §9."
+  - unit: q196
+    src: "rat-bangin' sons of slackjaws"
+    note: "Лайка на істот світу; лишити грубою, не замінювати нейтральним «покидьки»."
+
+pitfalls:
+  - >-
+    Головна пастка вузла — розрізані речення. Пари й трійки юнітів склеюються в один
+    рядок: q7+q8+q9, q66+q67, q74+q75, q78+q79, q115+q116+q117+q118, q149+q150,
+    q248+q249, q250+q251+q252, q255+q256, q362+q363/q364. Перекладати їх треба разом,
+    стежачи за відмінком і порядком слів на стику; українська ділиться в іншому місці,
+    ніж англійська.
+  - >-
+    Тензорні дублі «живий/мертвий»: q153 (Razor у минулому) проти q154 (у теперішньому),
+    q163 проти q164 (Cruz), q160 проти q166, q251 проти q253. Час дієслова — це змінна
+    стану гри, не стилістика; не уніфікувати.
+  - "q89 і q90 містять $(context.player.Name) — не відмінювати всередині плейсхолдера."
+  - >-
+    «Expedition» тут — внутрішньоігрова експедиція (q105, q206, q272), а не назва
+    доповнення: перекладати як «експедиція», попри запис у глосарії.
+  - >-
+    «Aegis Incorporated» (q275, q276) — північна охоронна фірма, а не бойовий препарат
+    Aegis → Егіда з глосарія. Назву компанії не перекладати за зразком Praetorian Security.
+  - >-
+    «Cap’n» → «капітан» (пор. запис Svana в реєстрі); «Cap’n Grim» → «капітан Грим».
+    «D’ Flinger» тримати за реєстровим Флінгер із його бренд-артиклем.
+  - >-
+    Донні заїкається потроєнням слів («and, and, and», «Cruz, Cruz», «no, no, no»,
+    «these, these, these»). Це його головна прикмета — відтворювати повтором
+    українського слова, а не викидати, STYLE §9.
+  - >-
+    Випадання g (jettin’, nothin’, 'ere, 'im, 'is, ya) — суцільний просторічний шар.
+    Передавати українським просторіччям загалом, а не апострофами в окремих словах.
+
+examples:
+  - unit: q9
+    rule: "$(#boy/girl) — гендерне схвальне звертання, STYLE §2"
+    uk_fragment: "$(#молодець/молодчина)"
+    status: proposed
+  - unit: q12
+    rule: "$(#banga/sweet) — панібратське звертання, кличний відмінок в обох гілках"
+    uk_fragment: "$(#друзяко/солоденька)"
+    status: proposed
+  - unit: q17
+    rule: "Нарація ::…:: — «ви», STYLE §3.1"
+    uk_fragment: "::І тут він вас помічає.::"
+    status: proposed
+  - unit: q209
+    rule: "Підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q1
+    rule: "Просторічне випадання g передаємо українським просторіччям"
+    uk_fragment: "Йо, на нас напали!"
+    status: proposed

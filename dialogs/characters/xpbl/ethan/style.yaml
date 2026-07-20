@@ -1,0 +1,141 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/ethan
+file_id: dialogs\characters\xpbl\ethan.txt
+derived_from: source-only
+units: {total: 417, npc: 275, player: 142, empty: 33}
+
+speakers:
+  - slug: ethan
+    name: Ітан
+    units: default
+    confidence: certain
+    evidence: [q66, q373, q395, q404]
+    role: >-
+      Мандрівний темпоральний маніпулятор, який за плату навчає гравця псі-здібностей
+      і водночас відверто з ним фліртує. Уся його мова — вправно опанована світськість,
+      під якою ховається те, що він насправді старий і вбив свого наставника.
+    relationships:
+      - "Артур Кейн — наставник, якого Ітан убив; про це він у ввічливій гілці бреше (q290), а в зірваній зізнається (q33)"
+      - "Гравець — потенційний учень і об’єкт залицянь водночас"
+      - "Капітан Растко — перевізник з анекдоту q247, канонічне ім’я в реєстрі"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Ітан тримає підкреслено ґречний регістр і сам його вимагає: «proper manners
+        dictate that you should introduce yourself first» (q384), «let’s show some
+        manners here» (q386), «May I help you?» (q63), «Ladies first» (q133).
+        Він — сторонній, що знайомиться, і продає послугу; STYLE §3.2 дає «ви».
+        Гравець дзеркалить базовий регістр (§3.3), а не разові грубощі (a58, a385).
+      gender_cues: []
+      switches:
+        - {unit: q4, to: ти, trigger: "зрив у стані «старого»: маска ввічливості спадає повністю"}
+        - {unit: q5, to: ти, trigger: "«YOU! Have you s-seen it?» — крик, не звертання"}
+        - {unit: q53, to: ти, trigger: "«One of you bastards took it» — пряма лайка"}
+        - {unit: q54, to: ти, trigger: "«You... you were close to me. *You* took it!» — звинувачення"}
+        - {unit: q56, to: ти, trigger: "«We’ll see about that!» — погроза перед бійкою"}
+    voice:
+      register: >-
+        вишукано-ввічливий, млосно-фліртівний, самозакоханий; повні речення,
+        книжна лексика, багато вставних зворотів
+      idiolect:
+        - "подвоєне «Yes, yes» — головний словесний тик (q66, q93, q289, q294, q337)"
+        - "подвоєне «Excellent, excellent», «Calm down, calm down» — та сама модель подвоєння"
+        - "«Certainly.» як стандартна згода — тримати одне українське слово наскрізь (q153, q170, q189, q196, q275, q381)"
+        - "анекдоти незмінно починає з «I remember...» — формула, зберігати дослівно однаковою (q247, q252, q256, q259, q263, q266)"
+        - "«Mmm...» перед відповіддю на здогад гравця (q199, q201, q203, q207, q209)"
+        - "«how shall I say» — манірна вставка (q77, q292)"
+        - "у зірваному стані — заїкання на приголосному: W-where (q4), s-seen (q5), b-back (q19), G-give (q21), t-t-took (q53), C-- Correct (q45); відтворювати українським приголосним, STYLE §9"
+
+narration:
+  present: true
+  note: >-
+    Дуже великий обсяг нарації, включно з довгими описовими блоками (q62, q323, q412).
+    «Ви» без винятків — STYLE §3.1, навіть коли поруч Ітан переходить на «ти».
+    Підказки дій усередині «::…::» — інфінітив (§3.5): ::Attack::, ::Resist.::,
+    ::Inspect the medallion.::, ::Let him leave.::
+
+new_names:
+  - "Arthur Kain"
+  - "Lanford"
+  - "Hathorians"
+  - "Black Eels"
+  - "Hanging Rat"
+  - "United Stations"
+
+idioms:
+  - unit: q63
+    src: "like a living toothpaste ad"
+    note: "образ реклами зубної пасти читається українською — не калькувати дослівно порядок слів"
+  - unit: q234
+    src: "make myself scarce"
+    note: "не «зробити себе рідкісним»; розмовне «зникнути з очей», «залягти на дно»"
+  - unit: q248
+    src: "step on it"
+    note: "не «наступити»; «піддати газу», «врубати на повну»"
+  - unit: q248
+    src: "odious jetters"
+    note: "внутрішньоігрове слівце про піратів на гідроциклах; лишати як запозичення-сленг, STYLE §9"
+  - unit: q250
+    src: "or \"stacked,\" to use an informal term"
+    note: "глосарій: stack → накопичення; лапки в джерелі позначають саме неформальність терміна — зберегти маркування"
+  - unit: q255
+    src: "he blessed me a lot of juicy epithets"
+    note: "іронія навиворіт — «наблагословив»/«обдарував»; грубість епітетів не пом’якшувати"
+  - unit: q255
+    src: "Drunks."
+    note: "однослівне зневажливе резюме — тримати таким же коротким"
+  - unit: q260
+    src: "busting a \"pretty boy's mug\""
+    note: "вулична лайка в лапках — грубе лишається грубим, STYLE §9"
+  - unit: q268
+    src: "stand out like a flower in a mushroom patch"
+    note: "образ побудований на грибах Underrail — зберегти саме гриби, не підміняти звичним «як троянда серед бур’яну»"
+  - unit: q270
+    src: "add more oil to the fire"
+    note: "еротичний евфемізм; локалізувати як натяк, не як фразеологізм «підливати оливи» в значенні сварки"
+  - unit: q363
+    src: "Neat, huh?"
+    note: "коротке самовдоволене «Гарно, скажіть?» — не розгортати в речення"
+  - unit: a385
+    src: "Just spill it, man"
+    note: "«викладай» — не «розлий»; звертання «man» тут грубувате, не «чоловіче» книжне"
+  - unit: q89
+    src: "drive your enemies derailed"
+    note: "«derailed» — внутрішньоігровий стан божевілля, той самий термін, що в a58 «You’re derailed, old man»; обидва вживання мають бути одним словом"
+
+pitfalls:
+  - "a376–a379 та a387–a390 містять $(context.player.Name) — усередині плейсхолдера нічого не відмінювати й не змінювати"
+  - "Ітан і «старий» — той самий персонаж у двох станах; імені мовця це не змінює, змінює лише регістр і синтаксис"
+  - "q133 «Ladies first» і a316 «Is that how you treat a lady?» передбачають жіночу стать гравця — гілка гендерно зумовлена; не додавати сюди $(#…), бо вибір уже зроблено грою"
+  - "Українське минуле дієслово в репліках гравця (a11, a15, a276, a383, a392) потребує $(#…), якого в джерелі немає — додавати обов’язково, STYLE §2"
+  - "«Temporal Manipulation» як назва дисципліни в джерелі з великих; «temporal manipulator» як фах — з малої (q79, q226). Різницю тримати"
+  - "Назви здібностей (temporal distortion, limited temporal increment, psycho-temporal dilation/contraction, stasis, precognition, temporary rewind, entropic recurrence) — ігрові терміни; звіряти з knowledge/, а не вигадувати тут"
+  - "Глосарій: Core City → Центральне Місто, South Gate Station → Станція Саут-Гейт, SGS → ССГ, Rail Crossing → Залізничний Переїзд, Camp Hathor → Табір Хатор, Junkyard → Звалище, Faceless → Безликі, Protectorate → Протекторат, Hardcore City Bar → Хардкор Сіті Бар, hoppers → стрибуни, stygian coins → стигійські монети, Underrail — латиницею"
+  - "q259 «United Stations embassy» і q247 «Black Eels» — назви фракцій без канонічного рішення, не перекладати навмання"
+  - "q260 починається з обірваного «t wasn’t about the money» — друкарська помилка джерела; перекладати як повне «Річ була не в грошах»"
+  - "q41, q44, q415 закінчуються порожнім рядком після «::…::» — це навмисні склейки з наступним юнітом; не дописувати туди тексту"
+  - "q266 + q267/q271/q272 — розірване речення, що збирається з фрагментів («...right here, in» + «South Gate Station.»); переклад має лишатися граматично складаним"
+
+examples:
+  - unit: q66
+    rule: "подвоєння як словесний тик — тримати сталим у всіх вживаннях"
+    uk_fragment: "Так, так"
+    status: proposed
+  - unit: q4
+    rule: "заїкання відтворюється на українському приголосному, STYLE §9"
+    uk_fragment: "Д-де воно"
+    status: proposed
+  - unit: q63
+    rule: "мова Ітана — «ви», STYLE §3.2"
+    uk_fragment: "Чим можу допомогти?"
+    status: proposed
+  - unit: a15
+    rule: "підказка дії всередині «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Опиратися.::"
+    status: proposed
+  - unit: q247
+    rule: "формула-зачин анекдоту — незмінна в усіх шести випадках"
+    uk_fragment: "Пам’ятаю..."
+    status: proposed

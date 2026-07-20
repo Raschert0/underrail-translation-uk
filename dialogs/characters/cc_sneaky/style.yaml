@@ -1,0 +1,91 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_sneaky
+file_id: dialogs\characters\cc_sneaky.txt
+derived_from: source-only
+units: {total: 61, npc: 42, player: 19, empty: 5}
+
+speakers:
+  - slug: sneaky
+    name: Пронира
+    units: default
+    confidence: certain
+    evidence: [q33, q36, q40]
+    role: >-
+      Ватажка Зонних Щурів у Центральному Місті: вулична, цинічна, політично
+      підкована. Говорить як людина, що звикла командувати й не добирати слів.
+    relationships:
+      - "Горський — союзник, до якого вона ставиться з повагою («he’s hardcore»)"
+      - "Jon the Beautiful — колишній коханець; про нього говорить ніяково й з іронією"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вулична ватажка без жодної службової дистанції: кличе гравця «friend»
+        і «Southgater», сипле «wanna», «gonna», «lotsa», «ain’t». STYLE §3.2 —
+        свої й вуличні на «ти»; репліки гравця дзеркалять (§3.3).
+      gender_cues: []
+    voice:
+      register: >-
+        груба вулична розмовна, з політичним запалом; лайка не пом’якшується
+      idiolect:
+        - "«pipeworking» — евфемістична лайка від Pipeworks; потрібен стабільний
+           український відповідник-евфемізм, не буквальне «трубний»"
+        - "подвоєне «I ain’t. *We* ain’t» — риторичний повтор, зберігати як повтор"
+        - "«Eh...» на початку реплік простою — вагання, не вигук здивування"
+        - "зірочки навколо слова (*exactly*, *We*) — інтонаційний наголос, переносити"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут це короткі ремарки на кшталт ::She laughs.::"
+
+new_names:
+  - "Bob"
+  - "Jon the Beautiful"
+  - "Zone Rats"
+  - "Black Crawlers"
+  - "Pipeworks"
+  - "Southgater"
+  - "Oligarchs"
+
+idioms:
+  - unit: q9
+    src: "zoning him out entirely"
+    note: >-
+      не «зонувати»; йдеться про повне вирубування людини — розмовне українське
+      «вирубити», «прибрати з гри»
+  - unit: q46
+    src: "it's piss-easy to tell you who can't"
+    note: "грубе підсилення; лишається грубим — не «дуже легко», а різкіше"
+  - unit: q49
+    src: "twiddling my thumbs"
+    note: "локалізувати як «сидіти склавши руки», не калькувати"
+  - unit: q48
+    src: "fat rats"
+    note: >-
+      образ жирних щурів наскрізний у q48–q49 — тримати той самий образ в обох
+      юнітах, інакше зв’язок розпадається
+
+pitfalls:
+  - "q49 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "q49 і q13 містять \\n — розрив рядка, зберігати позицію"
+  - "Gorsky (q2, q33, q53–q55) — Горський, відмінюється як прикметник (реєстр)"
+  - "q25, q46 «Pipeworks» — топонім-туалет; від нього утворено лайку q15/q46
+     «pipeworking», тож переклад назви має давати придатну основу для лайки"
+  - "q32/q34 — майже дублікати з різницею лише в часі дієслів (had managed / breach);
+     переклади мають відрізнятися так само й не більше"
+  - "q51/q56 і q53/q54/q55 — варіанти під різні гілки квесту, регістр однаковий"
+
+examples:
+  - unit: q61
+    rule: "«ти»-звертання при прощанні, STYLE §3.2"
+    uk_fragment: "Бувай, "
+    status: proposed
+  - unit: q33
+    rule: "нарація ::…:: — до гравця на «ви», STYLE §3.1"
+    uk_fragment: "::Вона сміється.::"
+    status: proposed
+  - unit: q46
+    rule: "внутрішньоігровий сленг лишається запозиченням, STYLE §9"
+    uk_fragment: "зонер"
+    status: proposed

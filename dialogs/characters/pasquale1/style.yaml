@@ -1,0 +1,133 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pasquale1
+file_id: dialogs\characters\pasquale1.txt
+derived_from: source-only
+units: {total: 226, npc: 144, player: 82, empty: 15}
+
+speakers:
+  - slug: pasquale
+    name: Паскуале
+    units: default
+    confidence: certain
+    evidence: [q75, q77, q86, q1]
+    role: >-
+      Лікар ССГ — єдиний мовець вузла. Веде прийом, оглядає тіла, пояснює гравцеві
+      природу псіонічного потенціалу; говорить довгими науково-популярними абзацами,
+      і саме це визначає добір слів, а не сюжет.
+    relationships:
+      - "Ньютон і Лора — його пацієнти; про обох говорить тепло й співчутливо (q174, q177)"
+      - "Патрік Пірс — небіжчик, чию смерть від нього вимагають пояснити; тема його дратує (q66)"
+      - "Квінтон, Біссон, Езра — колеги-псіоніки, про яких він розповідає гравцеві (q140–q143)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні обов’язків, лікар на прийомі, звертається до
+        пацієнта — STYLE §3.2 дає «ви». Мовлення підкреслено книжне, без випадання
+        звуків і без ain’t; повні форми скорочень, вставні «Allow me to explain»,
+        «I am obliged to mention», «I won’t bore you with details». Репліки гравця
+        дзеркалять базу — теж «ви» (STYLE §3.3).
+      gender_cues: []
+      switches:
+        - {unit: a127, to: ви, trigger: "«Forget it, doc» — фамільярне звертання «доку», але регістр не змінює: це тон, а не перехід"}
+        - {unit: a97, to: ви, trigger: "«Gotta run, thanks man!» — емоційна невимушеність гравця, база лишається «ви» (STYLE §3.3)"}
+    voice:
+      register: ввічливий, книжний, лекторський; лікар, що любить пояснювати
+      idiolect:
+        - "подвоєні підтвердження як тик — «Yes, yes», «No, no, not at all», «Sure. Sure.», «Good. Good.»"
+        - "самоперебиви й багатокрапки в роздумі — «I suppose... I suppose I can allow it»"
+        - "науковий вокабуляр без спрощення — innervation, neurogenesis, metabolite saturation; не примітивізувати"
+        - "сам себе ловить на багатослів’ї — «Sorry if I rambled» (q114); іронія має читатися"
+        - "часто сміється тихим смішком — ::He chuckles.:: у q114, q204, q210, q223"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Юніти q1, q86, q125 — суцільна нарація від
+    другої особи, а не мовлення Паскуале; решта нарації — короткі ремарки
+    ::He chuckles.::, ::He pauses to think.:: всередині його реплік. Підказки дій
+    у репліках гравця — інфінітив (STYLE §3.5): ::Wait.::, ::Barter.::,
+    ::Nod and leave.::, ::Let him treat your wounds.::, ::Take the pill and swallow it.::
+    Мітки навичок ::[Doctor]::, ::[Biology]::, ::[Persuade]:: беруться з глосарію.
+
+new_names:
+  - Joshua Royce
+  - Jennifer Royce
+  - Royce
+  - Malcom
+  - Hal Roche
+  - Ethan Lanford
+  - Hercules
+  - Metathermics
+  - Psychokinetics
+  - Temporal Manipulation
+  - Thought Control
+
+idioms:
+  - unit: a5
+    src: "the murderer might realize we're on his tail"
+    note: "не калькувати «на хвості»; ідіома про викриття стеження — шукати питомий відповідник"
+  - unit: q66
+    src: "Here we go again."
+    note: "розмовна відмова, а не буквальне «ось ми знову»; передає втому від повторюваного питання"
+  - unit: q90
+    src: "that's only the tip of it"
+    note: "усічена «tip of the iceberg» — локалізувати як ідіому, не дослівно"
+  - unit: q128
+    src: "I'm a doctor, not a monk."
+    note: "суха дотепна відмова; будувати як афоризм, зберегти протиставлення"
+  - unit: q157
+    src: "These things don't just grow out of the ground"
+    note: "розмовне «на дорозі не валяються»; калька про землю тут працює гірше"
+  - unit: a154
+    src: "short on brain juice"
+    note: "жаргон гравця про псі-ресурс; знижений регістр зберегти, «сік мозку» не калькувати"
+  - unit: a136
+    src: "psionic mumbo-jumbo"
+    note: "зневажливе «якась псі-муть»; грубість не пом’якшувати (STYLE §9)"
+  - unit: q177
+    src: "their medicine is something out of this world"
+    note: "«не з цього світу» тут буквалізується через сеттинг — краще нейтральніша похвала"
+  - unit: a220
+    src: "I'm not derailed!"
+    note: "внутрішньоігровий сленг від Underrail — лишати запозиченням, як «зонер» (STYLE §9); не перекладати як «схиблений»"
+  - unit: q207
+    src: "spontaneous and good ol'"
+    note: "розмовне усічення в устах книжного мовця — свідомий контраст, зберегти"
+
+pitfalls:
+  - "q13–q18, q53–q55, q59, q170, q171 — не самостійні репліки, а фрагменти одного речення, що склеюються рушієм. Перекладати як частини, узгоджені між собою; кінцеві пробіли й відсутність <end> усередині збірки не чіпати."
+  - "q14 «him» і q55 «her» — окремі юніти-фрагменти під гендер небіжчика. Українська вимагає відмінка, якого в англійському фрагменті немає; переклад має лягати в конструкцію сусідніх фрагментів q13 і q15."
+  - "$(tempcontext.wasteWater_pronoun1/2/3Cap) і $(context.frag_dun_wasteWater_corpseGender) — рушійні підстановки займенника й роду. Усередині плейсхолдера нічого не відмінювати; речення будувати так, щоб підставлений займенник не вимагав неможливого відмінка."
+  - "$(context.player.Name) у q94, q200, q208, q211, q212 — не відмінювати всередині плейсхолдера; перебудовувати фразу під називний."
+  - "\\n\\n у q36, q44, q90, q109, q118, q143, q164, q189, q195, q196, q221 — розрив абзацу, зберігати дослівно."
+  - "Терміни глосарію: Mushroom Cove → Грибна Бухта, SGS → ССГ, Chancer's Bay → Затока Авантюриста, Junkyard → Звалище, Core City → Центральне Місто, Faceless → Безликі, Patrick Pierce → Патрік Пірс, scavengers → шукачі, innervated → іннервовано."
+  - "Biocorp і Underrail лишаються латиницею й не відмінюються (глосарій, read-only)."
+  - "Назви псі-дисциплін (Metathermics, Psychokinetics, Thought Control, Temporal Manipulation) і «psionic inhibitor» мають збігатися з компонентом knowledge/ — не вигадувати тут власних варіантів."
+  - "«innervation» — наскрізний термін вузла (q109, q116, q117, q164, q165, q196); одна форма на весь вузол, глосарій дає «іннервовано» для innervated."
+  - "«psi boosters» і «psionic inhalants» — предметні назви з knowledge/, звіряти, а не перекладати наново."
+  - "Розрядка зірочками *innervating*, *psionic*, *boosters*, *desaturated psionic inhalants* — розмітка наголосу; зірочки зберігати навколо українського відповідника."
+  - "«doc» у репліках гравця (a127, a131, a154) — звертання, кличний відмінок, з малої."
+
+examples:
+  - unit: a11
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Дати йому оглянути…::"
+    status: proposed
+  - unit: q79
+    rule: "наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "Зачекайте тут"
+    status: proposed
+  - unit: q114
+    rule: "ремарка нарації, дієслово в теперішньому, STYLE §3.1"
+    uk_fragment: "::Він посміюється.::"
+    status: proposed
+  - unit: q66
+    rule: "фахова лексика не спрощується"
+    uk_fragment: "судово-медичний експерт"
+    status: proposed
+  - unit: a220
+    rule: "внутрішньоігровий сленг лишається запозиченням, STYLE §9"
+    uk_fragment: "не дерейлнутий"
+    status: proposed

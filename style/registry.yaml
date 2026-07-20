@@ -1,0 +1,414 @@
+# Канонічні українські імена персонажів Underrail.
+#
+# ЄДИНЕ ДЖЕРЕЛО ІСТИНИ. Картки style.yaml беруть імена звідси; генератори карток
+# НЕ мають права вигадувати транслітерацію для імені, яке тут є. Ім'я, якого тут
+# немає, потрапляє в `new_names:` картки й вирішується централізовано.
+#
+# Правила — STYLE-uk.md §6: особові імена транслітеруємо й відмінюємо; латинський
+# h → Г; літера Ґ не вживається; корпорації й бренди лишаються латиницею.
+#
+# kind: person | nickname | title | faction
+# frozen: true — рішення закріплене глосарієм проєкту, не переглядати.
+
+registry_version: 2
+
+# Політика слов'янських імен: питома українська форма без винятків
+# (Віра, Кирило, Світлана, Микола). Омонімія із загальною назвою не є підставою
+# для транслітерації — ім'я завжди з великої літери.
+#
+# Політика прізвиськ (продовжує закріплене глосарієм Twitch → Сіпавка):
+# прозорі за значенням перекладаємо, непрозорі й бренд-подібні транслітеруємо.
+
+characters:
+  # --- закріплено глосарієм ---
+  - {en: Faceless, uk: Безликі, kind: faction, frozen: true}
+  - {en: Tanner, uk: Таннер, kind: person, frozen: true}
+  - {en: Knight, uk: Найт, kind: person, frozen: true, note: "Archibald Knight → Арчібальд Найт"}
+  - {en: Edstrom, uk: Едстром, kind: person, frozen: true}
+  - {en: Simmons, uk: Сіммонс, kind: person, frozen: true}
+  - {en: Azif, uk: Азіф, kind: person, frozen: true}
+  - {en: Harlan, uk: Гарлан, kind: person, frozen: true, note: "не плутати з Harland → Гарланд"}
+  - {en: Harland, uk: Гарланд, kind: person, frozen: true, note: "не плутати з Harlan → Гарлан"}
+  - {en: Newton, uk: Ньютон, kind: person, frozen: true}
+  - {en: Moe, uk: Мо, kind: person, frozen: true}
+  - {en: Ola, uk: Ола, kind: person, frozen: true, note: "Ola Halidorson → Ола Халідорсон"}
+  - {en: Wyatt, uk: Ваятт, kind: person, frozen: true}
+  - {en: Twitch, uk: Сіпавка, kind: nickname, frozen: true}
+  # Складені імена — slug пишеться через підкреслення: big_bret, al_fabet, old_jonas.
+  - {en: Big Bret, uk: Великий Брет, kind: person, frozen: true, slug: big_bret}
+  - {en: Al Fabet, uk: Аль Фабет, kind: person, frozen: true, slug: al_fabet}
+  - {en: Old Jonas, uk: Старий Йонас, kind: person, frozen: true, slug: old_jonas}
+  - {en: Babar, uk: Бабар, kind: person, slug: babar, note: "розпорядник Арени; STYLE §3 називає його «Бабар на Арені»"}
+
+  # --- особові імена ---
+  - {en: Will, uk: Вілл, kind: person, note: "механік, «name's Will» — не модальне дієслово"}
+  - {en: Lora, uk: Лора, kind: person}
+  - {en: Gorsky, uk: Горський, kind: person, note: "відмінюється як прикметник: Горського, Горському"}
+  - {en: Eidein, uk: Ейдейн, kind: person}
+  - {en: Vera, uk: Віра, kind: person, note: "питома форма; омонімія зі словом «віра» не заважає — ім'я з великої"}
+  - {en: West, uk: Вест, kind: person, note: "прізвище: George West → Джордж Вест"}
+  - {en: Cornell, uk: Корнелл, kind: person}
+  - {en: Cathcart, uk: Каткарт, kind: person}
+  - {en: Briggs, uk: Бріггс, kind: person}
+  - {en: Pasquale, uk: Паскуале, kind: person}
+  - {en: Ezra, uk: Езра, kind: person, note: "не «Ездра» — біблійна форма недоречна"}
+  - {en: Oliver, uk: Олівер, kind: person}
+  - {en: Silas, uk: Сайлас, kind: person, note: "вимова SY-ləs"}
+  - {en: Quinton, uk: Квінтон, kind: person}
+  - {en: Oldfield, uk: Олдфілд, kind: person}
+  - {en: Todd, uk: Тодд, kind: person}
+  - {en: Harold, uk: Гарольд, kind: person}
+  - {en: Lenox, uk: Ленокс, kind: person}
+  - {en: Marcus, uk: Маркус, kind: person}
+  - {en: Vlatko, uk: Влатко, kind: person}
+  - {en: Ethan, uk: Ітан, kind: person}
+  - {en: Daniel, uk: Деніел, kind: person}
+  - {en: Bate, uk: Бейт, kind: person, note: "Alvin Bate → Елвін Бейт"}
+  - {en: Samuel, uk: Семюел, kind: person}
+  - {en: Trenton, uk: Трентон, kind: person}
+  - {en: Rista, uk: Ріста, kind: person}
+  - {en: Fraser, uk: Фрейзер, kind: person}
+  - {en: Amelia, uk: Амелія, kind: person}
+  - {en: Hutch, uk: Гатч, kind: person}
+  - {en: Colton, uk: Колтон, kind: person}
+  - {en: Maura, uk: Мора, kind: person, note: "ірландське Maura — MOR-a"}
+  - {en: Marcella, uk: Марселла, kind: person}
+  - {en: Becket, uk: Бекет, kind: person}
+  - {en: Darling, uk: Дарлінг, kind: person, note: "прізвище Julia Darling, не пестливе звертання"}
+  - {en: Maxim, uk: Максим, kind: person}
+  - {en: Abram, uk: Абрам, kind: person}
+  - {en: Fred, uk: Фред, kind: person, note: "окремий персонаж від Fredd → Фредд"}
+  - {en: Fredd, uk: Фредд, kind: person, note: "подвоєння зберігаємо, щоб відрізняти від Fred"}
+  - {en: Schteff, uk: Штефф, kind: person}
+  - {en: Kokoschka, uk: Кокошка, kind: person}
+  - {en: Blaine, uk: Блейн, kind: person}
+  - {en: Stavros, uk: Ставрос, kind: person}
+  - {en: Edgar, uk: Едгар, kind: person}
+  - {en: Evelyn, uk: Евелін, kind: person}
+  - {en: Nevil, uk: Невіл, kind: person}
+  - {en: Juraj, uk: Юрай, kind: person}
+  - {en: Bernard, uk: Бернард, kind: person}
+  - {en: Dan, uk: Ден, kind: person}
+  - {en: Wit, uk: Віт, kind: person, note: "Wit Nosek → Віт Носек, слов'янське ім'я"}
+  - {en: Lydia, uk: Лідія, kind: person}
+  - {en: Yahota, uk: Ягота, kind: person}
+  - {en: Anastasia, uk: Анастасія, kind: person}
+  - {en: Holloway, uk: Голловей, kind: person}
+  - {en: Lucas, uk: Лукас, kind: person}
+  - {en: Todor, uk: Тодор, kind: person}
+  - {en: Donnie, uk: Донні, kind: person}
+  - {en: Arlene, uk: Арлін, kind: person}
+  - {en: Sarine, uk: Сарін, kind: person}
+  - {en: Bisson, uk: Біссон, kind: person}
+  - {en: Clifton, uk: Кліфтон, kind: person}
+  - {en: Zilla, uk: Зілла, kind: person}
+  - {en: Luka, uk: Лука, kind: person}
+  - {en: Georgis, uk: Георгіс, kind: person}
+  - {en: Tony, uk: Тоні, kind: person}
+  - {en: Eddy, uk: Едді, kind: person}
+  - {en: Oskar, uk: Оскар, kind: person}
+  - {en: Olivia, uk: Олівія, kind: person}
+  - {en: Chester, uk: Честер, kind: person}
+  - {en: Percival, uk: Персіваль, kind: person}
+  - {en: Vencel, uk: Венцель, kind: person}
+  - {en: Mykola, uk: Микола, kind: person, note: "українське ім'я — питома форма"}
+  - {en: Beck, uk: Бек, kind: person}
+  - {en: Norman, uk: Норман, kind: person}
+  - {en: Nicolas, uk: Ніколас, kind: person}
+  - {en: Eustace, uk: Юстас, kind: person}
+  - {en: Wilkos, uk: Вілкос, kind: person}
+  - {en: Mordre, uk: Мордре, kind: person}
+  - {en: Denzil, uk: Дензіл, kind: person}
+  - {en: Katya, uk: Катя, kind: person}
+  - {en: Essie, uk: Ессі, kind: person}
+  - {en: Morgan, uk: Морган, kind: person}
+  - {en: Ven, uk: Вен, kind: person, note: "тека VEN капслоком, у прозі «Ven» — людина"}
+  - {en: Myles, uk: Майлз, kind: person}
+  - {en: Dess, uk: Десс, kind: person}
+  - {en: Hugo, uk: Г’юго, kind: person, note: "англомовний персонаж, не французьке «Гюго»"}
+  - {en: Roman, uk: Роман, kind: person}
+  - {en: Svana, uk: Свана, kind: person, note: "«Cap'n Svana» → «капітанка Свана»"}
+  - {en: Sophie, uk: Софі, kind: person}
+  - {en: Duff, uk: Дафф, kind: person}
+  - {en: Rastko, uk: Растко, kind: person}
+  - {en: Leonie, uk: Леоні, kind: person}
+  - {en: Lanista, uk: Ланіста, kind: person, note: "прізвище Syntar Lanista, попри збіг із латинським терміном"}
+  - {en: Freddy, uk: Фредді, kind: person}
+  - {en: Herve, uk: Герве, kind: person}
+  - {en: Wesley, uk: Веслі, kind: person}
+  - {en: Grover, uk: Гровер, kind: person}
+  - {en: Halim, uk: Галім, kind: person}
+  - {en: Johan, uk: Йоган, kind: person}
+  - {en: Lars, uk: Ларс, kind: person, note: "тека LARS капслоком, у прозі «Lars»"}
+  - {en: Jeremy, uk: Джеремі, kind: person}
+  - {en: Elwood, uk: Елвуд, kind: person}
+  - {en: Luben, uk: Любен, kind: person}
+  - {en: Ray, uk: Рей, kind: person, note: "Ray Cerr → Рей Керр"}
+  - {en: Everard, uk: Еверард, kind: person}
+  - {en: Vivian, uk: Вівіан, kind: person}
+  - {en: Stratford, uk: Стратфорд, kind: person}
+  - {en: Archie, uk: Арчі, kind: person}
+  - {en: Mac, uk: Мак, kind: person}
+  - {en: Sergio, uk: Серджо, kind: person, note: "італійське прочитання, не «Серхіо»"}
+  - {en: Derica, uk: Деріка, kind: person}
+  - {en: Svetlana, uk: Світлана, kind: person, note: "слов'янське ім'я — питома форма"}
+  - {en: Garren, uk: Гаррен, kind: person}
+  - {en: Jared, uk: Джаред, kind: person}
+  - {en: Leo, uk: Лео, kind: person}
+  - {en: Andrea, uk: Андреа, kind: person}
+  - {en: Messer, uk: Мессер, kind: person}
+  - {en: Payam, uk: Паям, kind: person, note: "Rassophore Payam → рясофор Паям"}
+  - {en: Kevin, uk: Кевін, kind: person}
+  - {en: Octavia, uk: Октавія, kind: person}
+  - {en: Henderson, uk: Гендерсон, kind: person}
+  - {en: Treasa, uk: Тріса, kind: person, note: "ірландське Treasa — TRAH-sa"}
+  - {en: Sully, uk: Саллі, kind: person, note: "чоловік — не відмінювати як жіноче ім'я"}
+  - {en: Torrence, uk: Торренс, kind: person}
+  - {en: Jerre, uk: Джерре, kind: person, note: "Jerre Franz → Джерре Франц"}
+  - {en: Blackwall, uk: Блеквол, kind: person}
+  - {en: Phyllis, uk: Філліс, kind: person}
+  - {en: Milton, uk: Мілтон, kind: person}
+  - {en: Kimi, uk: Кімі, kind: person}
+  - {en: Senna, uk: Сенна, kind: person}
+  - {en: Tina, uk: Тіна, kind: person}
+  - {en: Hanna, uk: Ганна, kind: person}
+  - {en: Prevlic, uk: Превлич, kind: person, note: "сербське Prevlić; -ić → -ич за традицією"}
+  - {en: Vuk, uk: Вук, kind: person}
+  - {en: Theodore, uk: Теодор, kind: person}
+  - {en: Estelle, uk: Естель, kind: person}
+  - {en: Bobby, uk: Боббі, kind: person}
+  - {en: Oinko, uk: Ойнко, kind: person}
+  - {en: Marcos, uk: Маркос, kind: person, note: "Marcos Banti → Маркос Банті"}
+  - {en: Saban, uk: Сабан, kind: person, note: "Saban Mulov → Сабан Мулов; пестливе Sapke → Сапке"}
+  - {en: Gritz, uk: Грітц, kind: person}
+  - {en: Harriette, uk: Гаррієтта, kind: person, note: "жіноче ім'я, відмінюється: Гаррієтти, кличний Гаррієтто"}
+  - {en: Kareem, uk: Карім, kind: person}
+  - {en: Mateo, uk: Матео, kind: person}
+  - {en: Boyd, uk: Бойд, kind: person}
+  - {en: Kiro, uk: Кіро, kind: person}
+  - {en: Branwen, uk: Бранвен, kind: person, note: "Lieutenant Branwen → лейтенант Бранвен"}
+  - {en: Ohad, uk: Огад, kind: person, note: "Ohad Xander → Огад Ксандер"}
+  - {en: Theresa, uk: Тереза, kind: person}
+  - {en: Mitchell, uk: Мітчелл, kind: person}
+  - {en: Drek, uk: Дрек, kind: person}
+  - {en: Coltrane, uk: Колтрейн, kind: person}
+  - {en: Garry, uk: Гаррі, kind: person}
+  - {en: Lal, uk: Лал, kind: person, note: "«Lazy Lal» → «Ледачий Лал»"}
+  - {en: Ion, uk: Іон, kind: person, note: "особове ім'я, не фізичний термін"}
+  - {en: Vince, uk: Вінс, kind: person}
+  - {en: Constantine, uk: Константин, kind: person}
+  - {en: Mullock, uk: Маллок, kind: person}
+  - {en: Anna, uk: Анна, kind: person}
+  - {en: Marty, uk: Марті, kind: person}
+  - {en: Daphne, uk: Дафна, kind: person}
+  - {en: Jookhela, uk: Джукгела, kind: person, note: "kh → кг за правилом h → Г"}
+  - {en: Yngwar, uk: Інгвар, kind: person, note: "скандинавське Yngvarr"}
+  - {en: Ford, uk: Форд, kind: person}
+  - {en: Kirill, uk: Кирило, kind: person, note: "слов'янське ім'я — питома форма"}
+  - {en: Brady, uk: Брейді, kind: person}
+  - {en: Jyles, uk: Джайлз, kind: person, note: "варіант написання Giles"}
+  - {en: Juke, uk: Джук, kind: person}
+  - {en: Delma, uk: Делма, kind: person}
+  - {en: Heidi, uk: Гайді, kind: person}
+  - {en: Cale, uk: Кейл, kind: person, note: "«Cale, the Lord of Invisibility» → «Кейл, Володар Невидимості»"}
+  - {en: Vladan, uk: Владан, kind: person}
+  - {en: Priscilla, uk: Прісцилла, kind: person}
+  - {en: Zach, uk: Зак, kind: person}
+  - {en: Gort, uk: Горт, kind: person}
+  - {en: Katherine, uk: Кетрін, kind: person}
+  - {en: Broderick, uk: Бродерік, kind: person}
+  - {en: Gene, uk: Джин, kind: person, note: "власник Хардкор Сіті Бар, чоловік Гаррієтти"}
+
+  # --- прізвиська: прозорі за значенням перекладаємо ---
+  - {en: Void, uk: Порожнеча, kind: nickname, note: "у тексті прямо сказано, що це не справжнє ім'я"}
+  - {en: Dude, uk: Чувак, kind: nickname, note: "«His name is Dude»"}
+  - {en: Boulder, uk: Валун, kind: nickname, note: "«I'm Boulder, *the* Boulder»"}
+  - {en: Psycho, uk: Псих, kind: nickname}
+  - {en: Razor, uk: Бритва, kind: nickname, note: "жіночий рід нормальний для прізвиська чоловіка, пор. Сіпавка"}
+  - {en: Rag, uk: Ганчірка, kind: nickname, note: "персонаж просить так його не звати — образа має читатися"}
+  - {en: Blanket, uk: Ковдра, kind: nickname}
+  - {en: Murky, uk: Мутний, kind: nickname, note: "шинкар і діджей"}
+  - {en: Sneaky, uk: Пронира, kind: nickname, note: "ватажка Зонних Щурів"}
+  - {en: Buzzer, uk: Дзижчик, kind: nickname}
+  - {en: Laser, uk: Лазер, kind: nickname, note: "кличка пса Гатча"}
+
+  # --- прізвиська: непрозорі й бренд-подібні транслітеруємо ---
+  - {en: Grim, uk: Грим, kind: nickname, note: "капітан піратів; «Грім» уникаємо через збіг зі словом"}
+  - {en: Cruzer, uk: Крузер, kind: nickname}
+  - {en: Flinger, uk: Флінгер, kind: nickname, note: "бренд-псевдонім «D' Real Flinger»"}
+  - {en: Squeezer, uk: Сквізер, kind: nickname}
+  - {en: Spanner, uk: Спаннер, kind: nickname, note: "«Ключ» був би невпізнаваним як ім'я"}
+  - {en: Doubletap, uk: Даблтеп, kind: nickname}
+  - {en: Case, uk: Кейс, kind: nickname, note: "«Everyone calls me Case»; гра слів неперекладна"}
+  - {en: Ditch, uk: Дітч, kind: nickname}
+  - {en: Fixer, uk: Фіксер, kind: nickname, note: "«фіксер» — засвоєне запозичення"}
+  - {en: Detritus, uk: Детрітус, kind: nickname}
+
+  # --- звання й посади, а не імена ---
+  - {en: Chief, uk: шеф, kind: title, note: "«Chief Knight» → «шеф Найт»; з малої, крім початку речення"}
+  - {en: Doc, uk: док, kind: title, note: "звертання до лікаря; fo_doc — це Doctor Stevenson"}
+  - {en: Mayor, uk: мер, kind: title, note: "мер Ливарні — Martin Marshall → Мартін Маршалл"}
+  - {en: Barkeeper, uk: шинкар, kind: title, note: "родова назва посади"}
+  - {en: Curator, uk: куратор, kind: title, note: "сан: «Curator Nenna» → «куратор Ненна»"}
+  - {en: Ferryman, uk: Перевізник, kind: title, note: "значуще прізвисько-роль; з великої як усталене іменування"}
+
+  # --- дописано звіркою карток після fan-out ---
+  # Імена, які агенти вивели з англійського джерела; спірні й залишені
+  # латиницею вирішено централізовано за STYLE §6.
+
+  - {en: Acid Messenger, uk: посильний, kind: person, slug: acid_messenger}
+  - {en: Adira, uk: Адіра, kind: person, slug: adira}
+  - {en: Aliza, uk: Аліза, kind: person, slug: aliza}
+  - {en: Ambusher, uk: нападник із ножем, kind: person, slug: ambusher}
+  - {en: Aran, uk: Аран, kind: person, slug: aran}
+  - {en: Arena Doc, uk: лікар Арени, kind: person, slug: arena_doc}
+  - {en: Arena Messenger, uk: посильний, kind: person, slug: arena_messenger}
+  - {en: Banner, uk: шеф Баннер, kind: person, slug: banner}
+  - {en: Battle Ui, uk: інтерфейсні зведення бою, kind: person, slug: battle_ui}
+  - {en: Beatrice, uk: Беатріс, kind: person, slug: beatrice}
+  - {en: Blue Core, uk: синє ШІ-ядро, kind: person, slug: blue_core}
+  - {en: Boycie, uk: Бойсі, kind: person, slug: boycie}
+  - {en: Bryan Honest, uk: мовця встановлено, канонічного імені ще немає, kind: person, slug: bryan_honest}
+  - {en: Brynn Savage, uk: Бринн Севедж, kind: person, slug: brynn_savage}
+  - {en: Claude The Water Chap, uk: продавець води, kind: person, slug: claude_the_water_chap}
+  - {en: Cliff, uk: Кліфф, kind: person, slug: cliff}
+  - {en: Cook, uk: кухар (імені в джерелі не названо), kind: person, slug: cook}
+  - {en: Cross Eyed Guard, uk: косоокий вартовий біля ґрат, kind: person, slug: cross_eyed_guard}
+  - {en: Dc Medic, uk: лікар Безликих, kind: person, slug: dc_medic}
+  - {en: Deacon, uk: Дікон, kind: person, slug: deacon}
+  - {en: Deaf Old Man, uk: глухий старий, kind: person, slug: deaf_old_man}
+  - {en: Diedrick, uk: Дідрік, kind: person, slug: diedrick}
+  - {en: Dirty Tom, uk: Брудний Том, kind: person, slug: dirty_tom}
+  - {en: Doctor, uk: лікар, kind: person, slug: doctor}
+  - {en: Doctor M, uk: доктор М, kind: person, slug: doctor_m}
+  - {en: Dying Voice, uk: голос істоти, kind: person, slug: dying_voice}
+  - {en: Faceless Centaur, uk: Безликий-кентавр, kind: person, slug: faceless_centaur}
+  - {en: Faceless Mindreader, uk: Безликий-читець думок, kind: person, slug: faceless_mindreader}
+  - {en: Flo Commander, uk: командувач Безликих, kind: person, slug: flo_commander}
+  - {en: Fo Barkeeper, uk: шинкар, kind: person, slug: fo_barkeeper}
+  - {en: Fo Chief, uk: шеф, kind: person, slug: fo_chief}
+  - {en: Fo Doc, uk: доктор Стівенсон, kind: person, slug: fo_doc}
+  - {en: Fo Metalworksworker, uk: робітник металургійного цеху, kind: person, slug: fo_metalworksworker}
+  - {en: Fo Preacher, uk: проповідник, kind: person, slug: fo_preacher}
+  - {en: Formedicator, uk: медикатор, kind: person, slug: formedicator}
+  - {en: Gms Hostage 1, uk: заручник із GMS, kind: person, slug: gms_hostage_1}
+  - {en: Gms Hostage Oldman, uk: старий заручник, kind: person, slug: gms_hostage_oldman}
+  - {en: Gms Raider Crossbow, uk: рейдерка з арбалетом, kind: person, slug: gms_raider_crossbow}
+  - {en: Gms Raider Guard, uk: охоронець рейдерів, kind: person, slug: gms_raider_guard}
+  - {en: Gms Raider Knife, uk: рейдер з ножем, kind: person, slug: gms_raider_knife}
+  - {en: Gms Raider Leader, uk: ватажок рейдерів у GMS, kind: person, slug: gms_raider_leader}
+  - {en: Gms Raiders, uk: рейдери на GMS, kind: person, slug: gms_raiders}
+  - {en: Gorge, uk: Гордж, kind: nickname, slug: gorge, note: "непрозоре прізвисько — «at least that's how I heard some people call him»"}
+  - {en: Green Core, uk: зелене ШІ-ядро, kind: person, slug: green_core}
+  - {en: Guard Orders, uk: вартовий, що віддає наказ, kind: person, slug: guard_orders}
+  - {en: Guzomir, uk: Гузомір, kind: person, slug: guzomir}
+  - {en: Hannah, uk: Ганна, kind: person, slug: hannah}
+  - {en: Hannah Drugged, uk: Ганна під дією галюциногену, kind: person, slug: hannah_drugged}
+  - {en: Hole Of Reason, uk: Порожня Яма (луна), kind: person, slug: hole_of_reason}
+  - {en: Intercessor, uk: інтерцесор, kind: person, slug: intercessor}
+  - {en: Iris, uk: IRIS, kind: technical, slug: iris, note: "робот; технічний акронім лишається латиницею (STYLE §6)"}
+  - {en: Jacek, uk: Яцек, kind: person, slug: jacek, note: "польське ім’я"}
+  - {en: Jackquicksilver, uk: мовця встановити не вдалося, kind: person, slug: jackquicksilver}
+  - {en: Jenny, uk: Дженні, kind: person, slug: jenny}
+  - {en: Jeremy Seeger, uk: Джеремі Сігер, kind: person, slug: jeremy_seeger}
+  - {en: Johnny Filth, uk: Джонні Філт, kind: person, slug: johnny_filth}
+  - {en: Jon The Beautiful, uk: Джон Красень, kind: nickname, slug: jon_the_beautiful, note: "епітет прозорий і на ньому тримається жарт про марнославство"}
+  - {en: Jy Hugh, uk: сторож біля тунелю (канонічного імені в реєстрі немає), kind: person, slug: jy_hugh}
+  - {en: Jy Kendrick, uk: Кендрік, kind: person, slug: jy_kendrick}
+  - {en: Jy Len, uk: Лен, kind: person, slug: jy_len}
+  - {en: Jy Lenny, uk: Ленні, kind: person, slug: jy_lenny}
+  - {en: Jy Vilmer, uk: Вілмер, kind: person, slug: jy_vilmer}
+  - {en: Jyt Jenny, uk: Дженні, kind: person, slug: jyt_jenny, note: "той самий персонаж, що й jenny"}
+  - {en: Kaya, uk: Кая, kind: person, slug: kaya}
+  - {en: Knuckles, uk: Кулак, kind: nickname, slug: knuckles, note: "бійцівське прізвисько, прозоре за значенням"}
+  - {en: Kohlmeier, uk: Кольмаєр, kind: person, slug: kohlmeier}
+  - {en: Krom, uk: Кром, kind: person, slug: krom, note: "повна форма Kromilus → Кромілус"}
+  - {en: Kupusije, uk: лисий чоловік із Зони Скидання, kind: person, slug: kupusije}
+  - {en: Ladelman, uk: мовця встановлено, канонічного імені немає, kind: person, slug: ladelman}
+  - {en: Ljubostanka, uk: мешканка з кувалдою, kind: person, slug: ljubostanka}
+  - {en: Lloyd, uk: вартовий на посту, kind: person, slug: lloyd}
+  - {en: Lu B26X Banditguard, uk: бандит-вартовий, kind: person, slug: lu_b26x_banditguard}
+  - {en: Lu B29 Freedronebomber, uk: підривник Вільних Дронів, kind: person, slug: lu_b29_freedronebomber}
+  - {en: Lu B29 Freedroneguard, uk: вартовий Вільних Дронів, kind: person, slug: lu_b29_freedroneguard}
+  - {en: Lu Barricade Bandit1, uk: бандит на барикаді, kind: person, slug: lu_barricade_bandit1}
+  - {en: Lup Lurker Butcher, uk: різник-людожер, kind: person, slug: lup_lurker_butcher}
+  - {en: Lux Lostvault Bodygard, uk: охоронець при торговці, kind: person, slug: lux_lostvault_bodygard}
+  - {en: Lux Lostvault Trader, uk: торговець біля Сховища, kind: person, slug: lux_lostvault_trader}
+  - {en: Malcom, uk: Малком, kind: person, slug: malcom}
+  - {en: Mareth, uk: Марет, kind: person, slug: mareth, note: "капітан Марет"}
+  - {en: Martin Marshall, uk: Мартін Маршалл, kind: person, slug: martin_marshall}
+  - {en: Mushroom Cove Guard, uk: вартовий Грибної Бухти, kind: person, slug: mushroom_cove_guard}
+  - {en: Mutant Subject, uk: піддослідний мутант, kind: person, slug: mutant_subject}
+  - {en: Mutated Dog, uk: мутований пес, kind: person, slug: mutated_dog}
+  - {en: Mutie, uk: мутій із притулку, kind: person, slug: mutie}
+  - {en: Narration, uk: нарація, kind: person, slug: narration}
+  - {en: Noz, uk: Ноз, kind: person, slug: noz}
+  - {en: Old Ib, uk: Старий Іб, kind: person, slug: old_ib}
+  - {en: Panicked Investigator, uk: переляканий працівник лабораторії, kind: person, slug: panicked_investigator}
+  - {en: Player, uk: гравець, kind: person, slug: player}
+  - {en: Radusinan, uk: чоловік із гнилим зубом, kind: person, slug: radusinan}
+  - {en: Rahm Umbra, uk: Рам-Умбра, kind: person, slug: rahm_umbra}
+  - {en: Rassophore Guard, uk: рясофор із варти, kind: person, slug: rassophore_guard}
+  - {en: Rathound King, uk: Король Щурчаків, kind: title, slug: rathound_king, note: "rathound → щурчак за глосарієм"}
+  - {en: Rc1 Barkeeper, uk: шинкар, kind: person, slug: rc1_barkeeper}
+  - {en: Reject Leader, uk: ватажок Відкинутих, kind: person, slug: reject_leader}
+  - {en: Renegade Guard, uk: вартовий на вході, kind: person, slug: renegade_guard}
+  - {en: Repair Unit 7, uk: Ремонтний Блок 7, kind: person, slug: repair_unit_7}
+  - {en: Rick, uk: Рік, kind: person, slug: rick}
+  - {en: Rig Drunkguard, uk: п’яний вартовий, kind: person, slug: rig_drunkguard}
+  - {en: Rob, uk: мовця названо «Rob», канонічної форми ще немає, kind: person, slug: rob}
+  - {en: Ron, uk: Рон, kind: person, slug: ron}
+  - {en: Rubin, uk: Рубін, kind: person, slug: rubin}
+  - {en: Ryl, uk: Ріл, kind: person, slug: ryl}
+  - {en: Sad, uk: SAD-5, kind: technical, slug: sad, note: "бот; технічне позначення лишається латиницею"}
+  - {en: Sad5, uk: SAD-5, kind: technical, slug: sad5, note: "бот; технічне позначення лишається латиницею"}
+  - {en: Saved Faceless, uk: врятований Безликий, kind: person, slug: saved_faceless}
+  - {en: Sec Trooper, uk: сек-трупер (безіменний), kind: person, slug: sec_trooper}
+  - {en: Sectrooper, uk: сек-боєць, kind: person, slug: sectrooper}
+  - {en: Seeger, uk: Зіґер, kind: person, slug: seeger}
+  - {en: Sewer Mutants, uk: каналізаційні мутанти, kind: person, slug: sewer_mutants}
+  - {en: Spectre Dossier, uk: текст досьє (не мовець), kind: person, slug: spectre_dossier}
+  - {en: Tchortist Interceptor, uk: тчортистський проповідник, kind: person, slug: tchortist_interceptor}
+  - {en: Tchortist Investigator, uk: тчортистський розвідник, kind: person, slug: tchortist_investigator}
+  - {en: Technomedic, uk: техномедик, kind: person, slug: technomedic}
+  - {en: Tina Drugged, uk: Тіна під дією галюциногену, kind: person, slug: tina_drugged}
+  - {en: Travis, uk: Тревіс, kind: person, slug: travis}
+  - {en: Vitek, uk: Вітек, kind: person, slug: vitek}
+  - {en: Voidcommander, uk: командувач, kind: person, slug: voidcommander}
+  - {en: Voidfighter, uk: боєць-порожнечник, kind: person, slug: voidfighter}
+  - {en: Wounded Eel, uk: поранений боєць Black Eels (імені в тексті немає), kind: person, slug: wounded_eel}
+  - {en: Zack, uk: Зак, kind: person, slug: zack}
+  - {en: Zaman, uk: Заман, kind: person, slug: zaman}
+  # --- другий прохід звірки: імена, які агенти свідомо лишили нерозвʼязаними ---
+  - {en: Aliza, uk: Аліза, kind: person, slug: aliza_doc, note: "лікарка; Doctor Boudreau → Бодро"}
+  - {en: Angus, uk: Ангус, kind: person, slug: angus}
+  - {en: Asta, uk: Аста, kind: person, slug: asta}
+  - {en: Athanas, uk: Атанас, kind: person, slug: athanas, note: "посол Атанас"}
+  - {en: Azarias, uk: Азаріас, kind: person, slug: azarias, note: "юдикатор Азаріас"}
+  - {en: Buck Nimble, uk: Бак Німбл, kind: person, slug: buck_nimble}
+  - {en: Chorus, uk: хор, kind: title, slug: chorus, note: "не персонаж — багатоголосся як мовець"}
+  - {en: Cognator, uk: Когнатор, kind: title, slug: cognator}
+  - {en: Creature, uk: істота, kind: title, slug: creature, note: "описова роль, не імʼя; реплік не має"}
+  - {en: Dick, uk: Дік, kind: person, slug: dick}
+  - {en: Ewald, uk: Евальд, kind: person, slug: ewald}
+  - {en: Greg, uk: Грег, kind: person, slug: greg, note: "Ґ у проєкті не вживається"}
+  - {en: Jack Quicksilver, uk: Джек Квіксілвер, kind: nickname, slug: jack_quicksilver, note: "бренд-подібний позивний — транслітеруємо"}
+  - {en: Jones, uk: Джонс, kind: person, slug: jones}
+  - {en: Kharon, uk: Харон, kind: person, slug: kharon, note: "збіг із валютою «харон» (глосарій) — імʼя завжди з великої"}
+  - {en: Lance, uk: Ланс, kind: person, slug: lance}
+  - {en: Lunatic Guard, uk: вартовий лунатиків, kind: title, slug: lunatic_guard, note: "мовця названо лише роллю"}
+  - {en: Lunatic Synesthete, uk: синестет-лунатик, kind: title, slug: lunatic_synesthete}
+  - {en: Nenna, uk: Ненна, kind: person, slug: nenna, note: "куратор Ненна"}
+  - {en: Phreak, uk: Фрік, kind: nickname, slug: phreak, note: "непрозорий хакерський позивний"}
+  - {en: Rat King, uk: Король Щурів, kind: nickname, slug: ratking, note: "самітник із печери; НЕ плутати з Rathound King → Король Щурчаків"}
+  - {en: Sarah Allene, uk: Сара Аллен, kind: person, slug: sarah_allene}
+  - {en: Shelley, uk: Шеллі, kind: person, slug: shelley}
+  - {en: Stanley, uk: Стенлі, kind: person, slug: stanley}
+  - {en: Stig, uk: Стіг, kind: person, slug: stig}
+  - {en: Synneva, uk: Сіннева, kind: person, slug: synneva}
+  - {en: Tapio, uk: Тапіо, kind: person, slug: tapio}
+  - {en: Yussel, uk: Юссель, kind: person, slug: yussel}
+
+# Механічні збіги, що НЕ є іменами — не заводити в картки.
+rejected:
+  - {en: Sad, reason: "тека up_sad — це бот SAD-5, технічне позначення, лишається латиницею"}

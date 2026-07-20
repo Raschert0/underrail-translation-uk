@@ -1,0 +1,155 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_samuel
+file_id: dialogs\characters\tch_samuel.txt
+derived_from: source-only
+units: {total: 254, npc: 141, player: 113, empty: 6}
+
+speakers:
+  - slug: samuel
+    name: Семюел
+    units: default
+    confidence: certain
+    evidence: [q5, q10, q21, q23]
+    role: >-
+      Медіант Семюел — друга особа в Preservation Forces Інституту Тчорта, тимчасово
+      виконує обов’язки замість відсутнього гармоста Ставроса. Говорить як штабний
+      офіцер, що весь час пам’ятає про свій ранг, і саме це, а не сюжет, диктує
+      добір слів.
+    relationships:
+      - "єфрейтор Дензіл — підлеглий; Семюел зневажає його й прилюдно принижує (q12, q14)"
+      - "гармост Ставрос — начальник, «His Excellency»; Семюел шанобливий, але дозволяє собі критику (q133)"
+      - "Ейдейн — вища духовна інстанція Інституту; згадується з пієтетом"
+      - "гравець — новіціат, якого Семюел просуває й водночас випробовує"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Семюел — високий чин, що звертається до новоприбулого підлеглого підкреслено
+        церемонно ($(#brother/sister), «Welcome to my office»), а гравець послідовно
+        відповідає титулами «Your Notability», «Mediant». Це службова вертикаль,
+        а не вулиця — STYLE §3.2 і §3.3.
+      gender_cues: ["$(#brother/sister)", "$(#Brother/Sister)"]
+      switches:
+        - {unit: q59, to: ви, trigger: "зривається на крик («Did you really just say that to me, novitiate?»), але «ви» тримає — грубішає лексика, не регістр"}
+        - {unit: q105, to: ви, trigger: "переходить на прямий наказ («I *order* you to cull him!») — імперативи множини, STYLE §3.4"}
+    voice:
+      register: церемонний, багатослівний, поблажливо-ввічливий; під гнівом — уїдливий
+      idiolect:
+        - "нав’язливе питальне «no?» наприкінці речення — головний словесний тик; має бути ОДНА стала українська відповідність у всьому вузлі"
+        - "божба «By the Tchort» / «Magnificent Tchort» — теж стала формула, не варіювати"
+        - "евфемізм «cull» замість «kill» — свідома інституційна мова; потрібне одне дієслово скрізь, і воно не має бути нейтральним «вбити»"
+        - "любить перепитувати самого себе й тут-таки відповідати («Hard work? Don’t make me laugh»)"
+        - "наукоподібні евфемізми для людей — «foreign bodies», «devolved», «dystrophic»"
+
+  - slug: denzil
+    name: Дензіл
+    units: [q3, q9, q11, q13, q15, q20]
+    confidence: certain
+    evidence: [q3, q9]
+    role: >-
+      Єфрейтор Дензіл — попередній квестодавець, який на початку вузла хвалиться перед
+      медіантом і дістає прочухана. Його репліки звучать зовсім інакше — запобігливо,
+      емоційно, з обірваними фразами.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        До гравця Дензіл звертається панібратськи й захоплено («good of you to finally
+        show up!», глузливе «Khm... yo? Really?»), на відміну від медіанта. Базовий
+        регістр самого персонажа задає його власний вузол — dialogs/characters/tch_denzil;
+        тут лише не збивати його на офіційний тон Семюела.
+    voice:
+      register: запобігливий перед начальством, збуджений перед гравцем; обірвані фрази
+      idiolect:
+        - "затинається й перериває себе («I worked hard with, with $(context.player.Name)»)"
+        - "до Семюела — виключно «Your Notability», «Mediant»"
+
+narration:
+  present: true
+  note: >-
+    ::…:: — «ви» без винятків, STYLE §3.1. Увага: q3, q11, q15, q21, q47, q67 містять
+    нарацію І пряму мову в одному юніті — регістр усередині юніта різний.
+    Підказки дій a16, a17, a62, a125, a182 — інфінітив, STYLE §3.5.
+
+new_names:
+  - Azarias
+  - Marcial
+  - Antheia
+  - Bradock
+  - Harpocrates
+  - Cytosine Outpost
+  - Emporion
+  - Nucleus
+  - Reaching Man
+  - West Wing
+  - Lunatics
+  - Mediant
+  - Efreitor
+  - Rassophore
+  - Novitiate
+  - Praepostor
+  - Harmost
+  - Protonotary
+  - Judicator
+  - Monsignor
+  - Episkopos
+  - Your Notability
+  - His Excellency
+  - shadow crawler
+
+idioms:
+  - unit: q3
+    src: "good of you to finally show up"
+    note: "розмовний докір із теплом, не калькувати дослівно"
+  - unit: q12
+    src: "idling away in front of the Institute gate"
+    note: "«байдикувати», не «простоювати»"
+  - unit: q14
+    src: "babbling and bootlicking"
+    note: "алітераційна пара; варто зберегти співзвучність, а не лише зміст"
+  - unit: q23
+    src: "Survival of the fittest at its best"
+    note: "сталий дарвіністський вираз — брати усталену українську формулу"
+  - unit: q76
+    src: "vanished into thin air"
+    note: "ідіома; локалізувати, не калькувати «розчинився в повітрі» механічно"
+  - unit: q126
+    src: "wimp"
+    note: "репліка гравця; грубувато-зневажливе, не пом’якшувати"
+  - unit: q192
+    src: "foreign bodies were successfully removed from the system"
+    note: "медична метафора про людей — зберегти саме медичність, у цьому й цинізм"
+  - unit: q248
+    src: "I hope I have your divided attention"
+    note: "каламбур на мітозі й «divided»; калька не спрацює — потрібен український каламбур про поділ клітини"
+  - unit: q188
+    src: "*Revolting* inbred ferals"
+    note: "лайка, лишається грубою; зірочки-акцент зберігати"
+
+pitfalls:
+  - "$(context.player.Name) трапляється у понад двадцяти юнітах (q3, q5, q11, q14, q23, q32, q35, q37, q57, q61, q73, q74, q82, q96, q142, q191, q200, q252, a194) — не відмінювати всередині плейсхолдера й не додавати закінчення поруч"
+  - "$(#brother/sister) майже завжди у кличному звертанні (q2, q7, q43, q57, q90, q92, q100) — потрібна кличний-форма; у q21 воно з великої й у ролі підмета ($(#Brother/Sister) responded) — там називний"
+  - "«Tchort guide you» та «Tchort is evolution / Evolution is Tchort» — ритуальні формули; q5 і a6 дзеркальні, переклад теж має дзеркалитися слово в слово"
+  - "q10 «At. all. times.» — крапки як засіб наголосу, зберегти саме таке дроблення"
+  - "виділення зірочками (*duty*, *very*, *order*, *we*, *you*, *Revolting*) — розмітка наголосу, переносити на відповідне українське слово"
+  - "\\n\\n у джерелі — літеральні переноси рядків, не чіпати"
+  - "q28 і q139 закінчуються нарацією без подальшого тексту — порожній хвіст юніта не заповнювати"
+  - "суми монет у q52, q100, q115, q193 (400, 700, 550, 450) — stygian coins, глосарій дає «стигійська монета»; узгодити число з формою іменника"
+  - "q1 і q2 — контекстні вигуки/привітання без діалогового оточення; атрибуцію Семюелові дає лексика («cull», «$(#brother/sister)»), а не сусідство"
+  - "«Institute of Tchort» (Інститут Тчорта), «Faceless» (Безликі), «Deep Caverns» (Глибокі Печери), «Core City» (Центральне Місто) — глосарій, не перекладати наново"
+  - "Preservation Forces у джерелі трапляється і як «Preservation», і як «Preservation Forces» — потрібне одне рішення на обидва варіанти"
+
+examples:
+  - unit: q7
+    rule: "$(#brother/sister) у звертанні — кличний відмінок, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q21
+    rule: "$(#Brother/Sister) з великої, у ролі підмета — називний, регістр літери зберігається"
+    uk_fragment: "$(#Брат/Сестра)"
+    status: proposed
+  - unit: q244
+    rule: "тик «no?» — одна стала відповідність у всьому вузлі"
+    uk_fragment: "…, чи не так?"
+    status: proposed

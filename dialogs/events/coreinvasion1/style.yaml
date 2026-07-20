@@ -1,0 +1,56 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/events/coreinvasion1
+file_id: dialogs\events\coreinvasion1.txt
+derived_from: source-only
+units: {total: 9, npc: 6, player: 3, empty: 0}
+
+speakers:
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: default
+    confidence: unknown
+    reason: >-
+      Кат-сцена початку вторгнення без жодного імені. З тексту випливає лише
+      розстановка ролей: q1 і q3 говорить розвідник, що доповідає («commander»,
+      «All is clear»), q4 — той, кого він називає командиром («::He nods.::
+      We felt them here too»). Кому належать q5–q7, з файлу не встановити:
+      «Maybe I spoke too soon» логічно продовжує q4, але доказу немає.
+    guidance: >-
+      Регістр військовий і субординаційний: доповідь підлеглого — «ви», з
+      формулами рапорту, без розмовних стягнень. Нарація ::He nods.:: дає
+      чоловічий рід тому, хто говорить q4; для решти рід не встановлений —
+      уникати гендерованого минулого часу. Гравець у сцені не бере слова:
+      усі a-юніти — службові підказки.
+
+narration:
+  present: true
+  note: "::He nods.:: (q4) — «ви», STYLE §3.1; водночас це єдина вказівка на рід мовця"
+
+unattributed_units: [q1, q3, q4, q5, q6, q7]
+
+new_names: []
+
+idioms:
+  - unit: q1
+    src: "All is clear."
+    note: "формула рапорту, а не опис видимості; шукати статутний відповідник"
+  - unit: q6
+    src: "Maybe I spoke too soon."
+    note: "стала формула про передчасну заяву; локалізувати, не калькувати"
+
+pitfalls:
+  - "«5K of the north tunnel» (q1) — п’ять кілометрів; не залишати літеру K і не читати як номер."
+  - "«aftershocks» (q3, q4, q7) — повторні поштовхи після землетрусу; термін має бути той самий у всіх трьох юнітах, бо на його повторі тримається розв’язка q7."
+  - "q5 — самі три крапки. Юніт не порожній: пауза є реплікою, лишати як є."
+  - "a2, a8 ::Continue:: і a9 ::Skip cutscene:: — службові підказки без крапки всередині ::…::; крапку не додавати."
+
+examples:
+  - unit: q1
+    rule: "«ви» у доповіді старшому за званням, STYLE §3.2"
+    uk_fragment: "командире"
+    status: proposed
+  - unit: a9
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Пропустити сцену::"
+    status: proposed

@@ -1,0 +1,71 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pb_blackwall
+file_id: dialogs\characters\pb_blackwall.txt
+derived_from: source-only
+units: {total: 33, npc: 20, player: 13, empty: 1}
+
+speakers:
+  - slug: blackwall
+    name: Блеквол
+    units: default
+    confidence: certain
+    evidence: [q1]
+    role: >-
+      Капітан Протекторату, комендант лабораторії Епіон; ставить гравцеві
+      завдання розвідати периметр. Говорить як старший офіцер до підлеглого.
+    relationships:
+      - "полковник Каткарт — вищий за званням, саме він прислав гравця"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Статутне звертання за званням у кожній другій репліці («At ease,
+        Corporal», «Dismissed») — службовий регістр, «ви» без варіантів
+        (STYLE §3.2). Гравець відповідає «sir» — дзеркалить це «ви» (§3.3).
+      gender_cues: []
+    voice:
+      register: сухий командний, з проблисками добродушності
+      idiolect:
+        - "нав’язливе «To be frank» — словесний тик, повторюється в q3, q5, q15, q21, q30"
+        - "звертання «Corporal» як розділовий знак — майже в кожній репліці, не вирізати"
+        - "статутні формули «At ease», «Dismissed», «Outstanding work» — усталені військові кліше, не описові фрази"
+        - "зірочки навколо слова — інтонаційний наголос: «*something*», «*fit*», «*only*»; зберігати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки q1, q15, q24, q25, q30"
+
+new_names: ["Fort Apogee", "Dreadnought", "Mareth"]
+
+idioms:
+  - unit: q7
+    src: "If even a centipede is missing a leg, I want to know about it."
+    note: >-
+      Гіпербола, не зоологія. Образ зберегти дослівним — він повторюється
+      дослівно в q28, тож обидва місця мають збігатися слово в слово.
+  - unit: a14
+    src: "They breathe no more."
+    note: >-
+      Навмисно піднесений евфемізм замість «я їх убив». Не спрощувати до
+      «вони мертві»; повторюється дослівно в a29.
+  - unit: q30
+    src: "caught off guard"
+    note: "«заскочений зненацька», не калька про варту"
+
+pitfalls:
+  - "Epione → Епіон, Free Drones → Вільні Дрони, Rail Crossing → Залізничний Переїзд, Protectorate → Протекторат — глосарій"
+  - "South Underrail (q22): Underrail лишається латиницею й не відмінюється — глосарій"
+  - "Cathcart → Каткарт (реєстр); звання Colonel з малої — «полковник Каткарт»"
+  - "q15 і q30 містять той самий абзац — переклад має бути ідентичним"
+  - "q7 і q28 містять ідентичне речення про стоногу — не розходитися"
+
+examples:
+  - unit: q3
+    rule: "статутне звертання за званням зберігається — STYLE §3.2"
+    uk_fragment: "капрале"
+    status: proposed
+  - unit: a19
+    rule: "STYLE §3.5 — підказка дії в ::…:: інфінітивом"
+    uk_fragment: "::Віддати честь і піти.::"
+    status: proposed

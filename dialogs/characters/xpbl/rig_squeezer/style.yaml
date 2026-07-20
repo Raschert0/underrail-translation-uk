@@ -1,0 +1,75 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/rig_squeezer
+file_id: dialogs\characters\xpbl\rig_squeezer.txt
+derived_from: source-only
+units: {total: 33, npc: 19, player: 14, empty: 2}
+
+speakers:
+  - slug: squeezer
+    name: Сквізер
+    units: default
+    confidence: certain
+    evidence: [q3, q16]
+    role: >-
+      Худий продавець, який підмінює Валуна в крамниці запчастин і відповідає
+      на все якомога коротше. Комізм персонажа — у контрасті між лаконічними
+      репліками й безперервним чуханням, яке їх супроводжує.
+    relationships:
+      - "Валун — його бос, двоюрідний брат і власник житла водночас (q10)"
+      - "Black Eels — членство визнає знизуванням плечей (q12)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Гендерне $(#jack/sis) у q2 і q33 — прямий сигнал на «ти» (STYLE §3.2);
+        «Yo.», «runnin’», «Whatcha need» довершують вуличний регістр.
+        Гравець дзеркалить (STYLE §3.3).
+      gender_cues: ["$(#jack/sis)"]
+    voice:
+      register: млявий, лаконічний, байдужо-панібратський
+      idiolect:
+        - "відповідь у два-три слова там, де питання довге: «Chicks.», «A really crappy one.»"
+        - "ремарка про чухання майже після кожної репліки — наскрізний тілесний тик, не випускати жодної"
+        - "випадання g і початкового h: «runnin’», «’is wife», «’ere», «Everythin’s»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут це короткі ремарки ::He scratches…::"
+
+new_names: ["Black Eels", "Boulder's Jet Bits"]
+
+idioms:
+  - unit: q22
+    src: "Do hoppers hop?"
+    note: >-
+      риторичне питання-відповідь за моделлю «а ведмідь у лісі…»; означає
+      «ще б пак». «hoppers» — глосарій: стрибуни; гру слів «стрибуни стрибають»
+      українська зберігає
+  - unit: q18
+    src: "Allowed? I’m encouraged."
+    note: "антитеза у двох словах — зберегти стислість, не розгортати в речення"
+  - unit: q26
+    src: "A really crappy one."
+    note: "грубувато-зневажливе про власне майно; STYLE §9 — не пом’якшувати"
+  - unit: q32
+    src: "Everythin’s cool."
+    note: "«усе нормально» — розмовне, не буквальна прохолода"
+
+pitfalls:
+  - "Squeezer — реєстр: Сквізер (транслітерація), тоді як Boulder — Валун (переклад). Асиметрія навмисна"
+  - "q16 «It’s my real name» — прізвисько подано як справжнє ім’я; це не привід перекладати його значуще"
+  - "q16 будує ланцюг «Squeezer — skinny — squeeze into the toilet»; зв’язок імені з дієсловом «протискатися» в українському втрачається — не намагатися відновити його заміною імені"
+  - "«hoppers» (q22) — глосарій: стрибуни; «the Rig» (q2) — Платформа; «Arena» (q30) — Арена"
+  - "Ремарки ::He scratches his head/bum/leg/ear.:: — щоразу інша частина тіла, не уніфікувати"
+  - "a5 містить ::Barter.:: — інфінітив, STYLE §3.5"
+
+examples:
+  - unit: q2
+    rule: "гендерне звертання на «ти», STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q24
+    rule: "лаконізм як риса голосу"
+    uk_fragment: "Поки що ні."
+    status: proposed

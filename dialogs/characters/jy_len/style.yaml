@@ -1,0 +1,57 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_len
+file_id: dialogs\characters\jy_len.txt
+derived_from: source-only
+units: {total: 12, npc: 6, player: 6, empty: 1}
+
+speakers:
+  - slug: jy_len
+    name: Лен
+    units: default
+    confidence: probable
+    evidence: [q1, q9]
+    role: >-
+      Зброяр невеликої крамниці на Звалищі. Говорить коротко й по ділу:
+      що не його товар — одразу відсилає до Депо чи доків.
+    relationships:
+      - "Колтон у доках — до нього відсилає по харони"
+      - "Горт у Депо — до нього відсилає по деталі, зневажливо «a slacker»"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Панібратське $(#jack/sis) двічі поспіль і просторічні стягнення
+        (Lookin', Ya, 'ave) — вуличний свій, STYLE §3.2.
+      gender_cues: ["$(#jack/sis)"]
+    voice:
+      register: діловий, коротко-панібратський
+      idiolect:
+        - "стягнення ya / 'ave / Lookin' — крамар, а не оратор"
+        - "репліки в одне-два речення, без прикрас"
+
+narration:
+  present: false
+
+new_names: ["Len", "Depot"]
+
+idioms:
+  - unit: q9
+    src: "a slacker called Gort"
+    note: "«ледацюга», зневажлива характеристика; не нейтралізувати"
+
+pitfalls:
+  - "q5, a4: charon → харон, stygian coin → стигійська монета (глосарій)"
+  - "q5 Colton → Колтон, q9 Gort → Горт (реєстр) — відмінювати"
+  - "a6: «Armadillo class drill rotor circuit board» — технічна назва деталі, звіряти з термінологією предметів"
+  - "q9, q11: «the Depot» — топонім Звалища без канонічного варіанта"
+
+examples:
+  - unit: q9
+    rule: "$(#jack/sis) — панібратське гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/сестричко)"
+    status: proposed
+  - unit: a3
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

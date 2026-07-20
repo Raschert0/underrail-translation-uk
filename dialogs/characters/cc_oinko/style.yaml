@@ -1,0 +1,101 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_oinko
+file_id: dialogs\characters\cc_oinko.txt
+derived_from: source-only
+units: {total: 79, npc: 50, player: 29, empty: 2}
+
+speakers:
+  - slug: oinko
+    name: Ойнко
+    units: default
+    confidence: certain
+    evidence: [q1, q3]
+    role: >-
+      Балакуча свиня, що живе в кімнаті Дітча в Зоні Скидання. Увесь комізм тримається
+      на розриві між виглядом і мовленням: вишукано-манірний синтаксис, іронія
+      й коментарі про людство від істоти, яка рохкає посеред власних фраз.
+    relationships:
+      - "Дітч — господар і єдиний співрозмовник; Ойнко захищає його й водночас кепкує з його смаку до Арени та Гантлету"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Манірна ввічливість — і є характер: «I accept your proposal», «Pardon me!»,
+        «I hope you don’t interpret this as rudeness». Постійне звертання «human» /
+        «My dear human» — поблажливо-приязна дистанція, а не панібратство. Гравець
+        дзеркалить, попри розмовність окремих реплік (a53, a67).
+      gender_cues: ["$(#man/woman)"]
+    voice:
+      register: манірний, велемовний, іронічний; ввічливість як комічний прийом
+      idiolect:
+        - "звертання «human» майже в кожній репліці — тримати наскрізним, не варіювати довільно"
+        - "самоперебиви рохканням посеред слова (q29, q32, q48) — фірмовий прийом"
+        - "риторичні хвостики «shall we?», «am I right?», «is it not?» — манірне запрошення до згоди"
+        - "фінальне «Yes.» окремим реченням (q66) — сухе самопідтвердження"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Ремарок дуже багато (≈17), переважно ::Snorts.::,
+    ::Laughs like a pig.::, ::Giggles like a pig.::, ::Sighs.::, ::Clears throat.::
+
+new_names: ["Gauntlet", "Tchortists", "Lurkers"]
+
+idioms:
+  - unit: q16
+    src: "death by high velocity impacts"
+    note: "канцелярський евфемізм для падіння з висоти — зберегти саме евфемістичність, не пояснювати"
+  - unit: q17
+    src: "\"dropping off\" or \"zoning out\""
+    note: >-
+      Ключова гра слів вузла: обидва вирази прив’язані до топоніма Drop Zone
+      (глосарій: Зона Скидання) і мають з нього виводитися. Рішення приймати
+      разом із q33 «you get zoned out in a flash».
+  - unit: q20
+    src: "kin-eating meanies"
+    note: "дитячо-пом’якшене «meanies» у вустах свині — не підвищувати до «канібалів»"
+  - unit: q26
+    src: "until they all go belly up"
+    note: "ідіома «здохнути/збанкрутувати»; додатковий жарт у тому, що це говорить свиня — по змозі зберегти тілесний образ"
+  - unit: q26
+    src: "high-definition violence"
+    note: "технічний анахронізм як іронія; не спрощувати до «жорстокості»"
+  - unit: q29
+    src: "corporate pigs-- err, I mean scum..."
+    note: >-
+      Самоперебив тримається на тому, що «свиня» — образа, яку мовець-свиня ловить
+      на півслові. Український відповідник має дати ту саму самоцензуру.
+  - unit: q33
+    src: "he’s got that piggy-wiggy goodness in his heart"
+    note: "дитяча пестлива редуплікація — потрібна українська редуплікація, не описовий переклад"
+  - unit: q38
+    src: "Drunk people are hungry, and I'm a pig."
+    note: "сухий силогізм-жарт; не додавати пояснень, гумор у стислості"
+  - unit: q39
+    src: "That it is hardcore, that it dominates"
+    note: "переказ реклами Hardcore City Bar; має перегукуватися з рекламними формулами бару в сусідніх вузлах"
+
+pitfalls:
+  - "q1 і q19 містять $(context.player.Name) — не відмінювати всередині плейсхолдера й не додавати до нього закінчень"
+  - "q57 містить $(#man/woman) — обидві гілки в українських гендерних формах"
+  - "q3 і q10 — повний дублікат тексту, як і q4 і q11; перекладати абсолютно однаково"
+  - "::Snorts.:: трапляється близько десяти разів — обрати один варіант і не варіювати; ::Laughs like a pig.:: і ::Giggles like a pig.:: — різні ремарки, розрізняти"
+  - "q32 «Here's somethin-- ::Snorts.:: Pardon me!» і q48 «stayed with him for-- ::Snorts loudly.::» — обрив слова має припадати на українську склад/приголосний, а не механічно копіювати місце розриву"
+  - "Глосарій: Drop Zone — Зона Скидання, zoner — зонер, Arena — Арена, barrel soup — Бочковий суп, Faceless — Безликі, Core City — Центральне Місто, Hardcore City Bar — Хардкор Сіті Бар; Coretech, Biocorp, JKK, Praetorian Security — латиницею"
+  - "a74 і a76 — підказки дій ::Attack!:: — інфінітив, STYLE §3.5"
+  - "q75 «Oink!» і q79 «Snort!» — звуконаслідування, пов’язані з іменем Ойнко; q1 прямо обговорює, що звук більше схожий на рохкання, ніж на «oink» — обидва звуки мають лишитися помітно різними"
+
+examples:
+  - unit: q1
+    rule: "звертання «human» як наскрізна поблажлива дистанція"
+    uk_fragment: "людино"
+    status: proposed
+  - unit: a74
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Напасти!::"
+    status: proposed
+  - unit: q57
+    rule: "$(#man/woman) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#чоловіче/жінко)"
+    status: proposed

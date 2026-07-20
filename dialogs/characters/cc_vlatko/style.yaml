@@ -1,0 +1,96 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_vlatko
+file_id: dialogs\characters\cc_vlatko.txt
+derived_from: source-only
+units: {total: 117, npc: 66, player: 51, empty: 3}
+
+speakers:
+  - slug: vlatko
+    name: Влатко
+    units: default
+    confidence: certain
+    evidence: [q99, q97, q27]
+    role: >-
+      Заможний торговець, голова родини Талloski, приймає гравця у власному
+      маєтку й наймає його полагодити величезний монітор. Мова гостинного
+      господаря — ввічлива, багатослівна, з постійними компліментами й
+      самовдоволеною гордістю за нажите.
+    relationships:
+      - "Максим — син, працює на нього в торговому ділі"
+      - "Sophia (Sophie) — донька, «daddy's little girl»"
+      - "Suzana — дружина, поїхала на North Underrail"
+      - "Grandpa — прапрадід по бабусиній лінії, живе в маєтку, немічний розумом"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Господар дому, який приймає незнайомця: вітає «Welcome to our home»,
+        весь час тримає дистанційне звертання й жодного разу не переходить на
+        фамільярність. Гравець дзеркалить — STYLE §3.3.
+      gender_cues: ["$(#mister/miss)", "$(#young man/young lady)"]
+      switches:
+        - {unit: q1, to: ти, trigger: "заскочив чужинця в домі — «Who the hell are you? SECURITY!», одинична афектна репліка, не база вузла"}
+    voice:
+      register: ввічливий, теплий, багатослівний; купецька самопрезентація
+      idiolect:
+        - "звертання-плейсхолдер $(#young man/young lady) як словесний тик — повторюється щонайменше сім разів"
+        - "подвоєння слів для доброзичливості: «Good, good», «thank you, thank you», «no, no»"
+        - "курсивні наголоси зірочками: «Money is *not* the issue», «*We* let him believe it» — зберігати позицію наголосу"
+        - "самопохвала через важку працю: «a few charons and a lot of sweat and tears»"
+
+narration:
+  present: true
+  note: >-
+    Ремарки третьої особи про мовця (::He laughs.::, ::He raises his eyebrows.::)
+    і розлога вступна нарація q97. Звертання до гравця в нарації — «ви» без
+    винятків, STYLE §3.1.
+
+new_names: ["Talloski", "Suzana", "Sophia", "Grandpa", "Omegas", "Gauntlet"]
+
+idioms:
+  - unit: q77
+    src: "his train was derailed a long time ago"
+    note: >-
+      Внутрішньосвітова залізнична ідіома на позначення божевілля. Не калькувати
+      «поїзд зійшов з рейок» дослівно як факт — потрібен український евфемізм,
+      що зберігає залізничний образ.
+  - unit: q79
+    src: "he's not entirely on this side of the tracks"
+    note: "той самий залізничний евфемізм божевілля — тримати узгодженим із q77"
+  - unit: q74
+    src: "daddy's little girl"
+    note: "не калька; усталене українське «татова доця/принцеса»"
+  - unit: q69
+    src: "You're spot on"
+    note: "розмовне «у самісіньке яблучко», не «ти на місці»"
+  - unit: q37
+    src: "the bloody thing stopped working"
+    note: "лайливий підсилювач, не колір; повторюється в q47 — та сама лексема"
+  - unit: q49
+    src: "Hard work pays off"
+    note: "прислів’я, локалізувати цілісно, а не пословно"
+
+pitfalls:
+  - "a98 і q99 містять $(context.player.Name) — не відмінювати й не додавати літер усередині плейсхолдера"
+  - "У джерелі роздільна неузгодженість: q37 каже «8460p», q47 — «8640p». Переносити цифри дослівно, кожну у своєму юніті, не «виправляти»"
+  - "ArenaNow — бренд, лишається латиницею (глосарій, read-only). Gauntlet поки без рішення — див. new_names"
+  - "Термінологія з глосарія: charons → харони, Core City → Центральне Місто, SGS → ССГ, South Gate Station → Станція Саут-Гейт, Rail Crossing → Залізничний Переїзд, Junkyard → Звалище, Foundry → Ливарня, Arena → Арена"
+  - "Underrail у «North Underrail» не перекладати й не відмінювати — глосарій, read-only"
+  - "Псевдотехнічні вигадані терміни гравця (a10 «anoding picture polarizer», a13 «tubular thrasher unit») мають лишитися псевдонауковою нісенітницею — q14 прямо каже, що Влатко їх не розуміє"
+  - "::[Mercantile]:: у a83, a85, a88 — тег навички, формат дужок і :: зберігати"
+  - "\\n\\n у q37, q39, q47 — розрив абзацу, переносити як є"
+
+examples:
+  - unit: q97
+    rule: "$(#mister/miss) — гендерне звертання, STYLE §2; регістр літер із джерела"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q4
+    rule: "$(#young man/young lady) — гендерне звертання на «ви», кличний відмінок"
+    uk_fragment: "$(#юначе/панночко)"
+    status: proposed
+  - unit: q26
+    rule: "::…:: — нарація, «ви» без винятків, STYLE §3.1"
+    uk_fragment: "::Він дає вам…::"
+    status: proposed

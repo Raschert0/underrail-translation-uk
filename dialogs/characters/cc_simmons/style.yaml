@@ -1,0 +1,104 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_simmons
+file_id: dialogs\characters\cc_simmons.txt
+derived_from: source-only
+units: {total: 129, npc: 78, player: 51, empty: 6}
+
+speakers:
+  - slug: simmons
+    name: Сіммонс
+    units: default
+    confidence: certain
+    evidence: [q1, q8]
+    role: >-
+      Руперт Сіммонс — власник Coretech і один з Олігархів Центрального Міста,
+      прямий начальник гравця. Підвищує гравця до особистого агента й посилає
+      вбити Корнелла, приховуючи, що Едмунда вбив його власний син.
+    relationships:
+      - "Арчібальд Найт («Archie») — давній друг ще з Biocorp, шеф Praetorian Security; про нього говорить тепло і на прізвисько"
+      - "Едмунд Найт — син Арчібальда, вбитий; офіційний привід для замовлення"
+      - "Miland — власний син Сіммонса, справжній убивця; згадка цього імені зриває йому маску (q31, q93)"
+      - "Гарлан — підлеглий, до якого відсилає по крам (q9, q49)"
+      - "Едстром — згаданий як той, хто підняв популярність Арени (q91)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ви
+      basis: >-
+        Асиметрія навмисна. Сіммонс кличе гравця son у майже кожній репліці й
+        сам пояснює, що так зве всіх молодших (q5) — це поблажлива зверхність
+        начальника, отже «ти». Гравець відповідає «Thank you, sir!» (a7),
+        «It will be done sir» (a37), «Goodbye, Mr. Simmons» (a50, a92) —
+        службова субординація, отже «ви». STYLE §3.2; випадок, коли §3.3
+        (дзеркалення) НЕ діє, бо стосунки нерівні за посадою.
+      switches:
+        - {unit: q31, to: ти, trigger: "маска спадає — погроза «you'll shut your damn mouth»; регістр той самий, але тон різко ворожий"}
+        - {unit: q93, to: ти, trigger: "лють і підкуп водночас — «Take this and shut the hell up!»"}
+    voice:
+      register: гучний, самовдоволений, поблажливо-начальницький; зривається в лють
+      idiolect:
+        - "son у майже кожній репліці — головна риса; потрібне ОДНЕ стабільне українське слово на весь вузол"
+        - "Beautiful! як вигук схвалення (q3, q24, q34, q38, q54, q123) — словесний тик, завжди той самий відповідник"
+        - "That's what I like to hear! (q3, q107) — повторювана формула похвали"
+        - "лайливі ярлики для ворогів: animals, rats, rathounds, scum, lowlifes, barbarians, Sons of rats — залишати грубими (STYLE §9)"
+        - "корпоративний пафос у розповіді про Biocorp (q89, q90): «we used to be beautiful», «a rotten core» — риторика, не канцелярит"
+        - "*Everything*, *the* Invictus, *before* — емфатичні зірочки, зберігати на слові-відповіднику"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; це вся вступна нарація q1 і численні ремарки з сигарою"
+
+new_names: ["Edmund", "Miland", "Acid Hunters", "Acorn", "ACoNR", "Tchortists", "Oligarchs"]
+
+idioms:
+  - unit: q17
+    src: "those rathounds left giant footprints, just waiting to be tracked"
+    note: "щурчаки (глосарій) + мисливська метафора; зберегти образ сліду, не калькувати"
+  - unit: q46
+    src: "All went down the pipes... Sons of rats."
+    note: "внутрішньосвітовий відповідник «down the drain» — образ труб тримати; «Sons of rats» — лайка, не пом’якшувати"
+  - unit: q95
+    src: "why bite the hand that feeds you"
+    note: "ідіома має усталений український відповідник — не калькувати дослівно"
+  - unit: q19
+    src: "As commoners would say... dominate them!"
+    note: "цитує сленг Арени; «домінувати» має збігатися з тим, як domination передано в аренних вузлах"
+  - unit: q12
+    src: "solid as steel"
+    note: "порівняння-кліше в устах Сіммонса; передавати сталим українським зворотом"
+  - unit: q103
+    src: "Don't be a zoner, son!"
+    note: "зонер (глосарій) тут як докір «не тупи»; запозичення лишається"
+  - unit: q62
+    src: "the security bots don't rip you to shreds"
+    note: "грубий образ; не пом’якшувати до «пошкодять»"
+
+pitfalls:
+  - "son — НЕ родинне звертання і НЕ залежить від статі гравця: a4 «Son? But, I'm a woman...» і q5 «That's how I call everyone younger than me» будують окремий обмін саме на тому, що слово чоловіче. Український відповідник має лишитися чоловічим навіть для персонажки, інакше a4+q5 стають безглуздими"
+  - "q1 містить $(context.player.Name) — не відмінювати й нічого не дописувати всередині плейсхолдера; речення будувати так, щоб ім’я стояло в називному"
+  - "a48 «Goodby--» і a51 «As you wi--» — обірвані на півслові репліки; українське слово теж має обриватися посеред слова, а не на межі слів"
+  - "q68+q69, q70+q71+q72+q73, q74+q75, q76, q79 — фрагменти одного речення, порізані на юніти; збирати зв’язно, не переносячи слова через межу юніта"
+  - "q6 «*the* Invictus» (титул, з великої, глосарій: Інвіктус) і q121 «become invictus» (з малої, загальніше) — регістр літери в джерелі різний, зберегти різницю"
+  - "Coretech, Biocorp, Praetorian Security — лишати латиницею і не відмінювати (глосарій); Foundry Guard там само, але тут не трапляється"
+  - "Knight — Найт (реєстр); Archibald Knight → Арчібальд Найт (глосарій); пестливе «Archie» в q89, q90 → Арчі (реєстр)"
+  - "Drop Zone → Зона Скидання, charons → харони, rathounds → щурчаки, Protectorate → Протекторат, Faceless → Безликі, Arena → Арена (глосарій)"
+  - "«the Surface» (a77) — велика літера в джерелі; це топонім-поняття, тримати з великої послідовно"
+  - "q9 «There. That is all wanted to tell you» — у джерелі пропущено «I»; не відтворювати помилку, перекладати як нормальне речення"
+
+examples:
+  - unit: a52
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути.::"
+    status: proposed
+  - unit: a23
+    rule: "підказка дії в ::…:: — інфінітив, попри наказовий спосіб джерела"
+    uk_fragment: "::Показати йому голову Корнелла.::"
+    status: proposed
+  - unit: q89
+    rule: "емфатичні зірочки зберігаються на слові-відповіднику"
+    uk_fragment: "*Усе*."
+    status: proposed
+  - unit: a7
+    rule: "гравець тримає «ви» — службова субординація"
+    uk_fragment: "Дякую, пане!"
+    status: proposed

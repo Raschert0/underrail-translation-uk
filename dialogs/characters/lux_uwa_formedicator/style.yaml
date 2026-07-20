@@ -1,0 +1,65 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/lux_uwa_formedicator
+file_id: dialogs\characters\lux_uwa_formedicator.txt
+derived_from: source-only
+units: {total: 26, npc: 14, player: 12, empty: 2}
+
+speakers:
+  - slug: formedicator
+    name: медикатор
+    units: default
+    confidence: probable
+    evidence: [q1, q8, q15]
+    role: >-
+      Культовий «лікар» у масці, що проводить ритуальний розтин тіла загиблого
+      побратима. Мовець без власного імені — у тексті він лише «the physician».
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Не панібратство, а холодна відстороненість містика: гравець для нього —
+        «a new mind ready to be cleaned», об’єкт, а не приятель. Урочистий,
+        книжний синтаксис без розмовних скорочень (STYLE §3.2).
+    voice:
+      register: урочистий, монотонний, езотеричний
+      idiolect:
+        - "мова рветься на трикрапки — «This world... and everything about it... is just a barrier...»; паузи зберігати"
+        - "абстрактні іменники низкою: «Malformations... colors of doubt... stench of foul regret...»"
+        - "відсутні розмовні скорочення — ознака ритуального регістру"
+
+narration:
+  present: true
+  note: >-
+    Розлогі описові блоки ::…:: — «ви» без винятків, STYLE §3.1. Тут вони довгі
+    й самостійні: q1, q15, q16 — це фактично проза, а не ремарки.
+
+new_names: ["Finity", "Transfinity"]
+
+idioms:
+  - unit: q4
+    src: "the hooks are detached from Finity"
+    note: >-
+      Культова метафора, не побутові гачки. Не калькувати як «гаки» —
+      потрібен образ пут/прив’язі, і той самий образ повторити в q20.
+  - unit: q25
+    src: "This one is toast."
+    note: >-
+      Розмовне «цьому кінець», а не «тост». Різкий контраст із високим
+      регістром NPC — це репліка гравця, і зниження навмисне.
+
+pitfalls:
+  - "«transformation» тут — термін культу («перетворення»), тримати один відповідник у q4, q6, q16, q20"
+  - "«brother» у q14 і q20 — не родич, а побратим по культу"
+  - "«physician» у нарації q15, q16 — не «фізик»"
+  - "у q9 і q22 підказка дії ::Barter.:: — інфінітив за STYLE §3.5"
+
+examples:
+  - unit: q9
+    rule: "STYLE §3.5 — підказка дії всередині ::…:: інфінітивом"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q6
+    rule: "STYLE §3.1 — нарація і мова цього NPC тримають «ви»"
+    uk_fragment: "не дає нам сягнути"
+    status: proposed

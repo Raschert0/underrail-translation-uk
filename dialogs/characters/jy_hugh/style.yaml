@@ -1,0 +1,55 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_hugh
+file_id: dialogs\characters\jy_hugh.txt
+derived_from: source-only
+units: {total: 6, npc: 4, player: 2, empty: 1}
+
+speakers:
+  - slug: jy_hugh
+    name: сторож біля тунелю (канонічного імені в реєстрі немає)
+    units: default
+    confidence: probable
+    evidence: [q1, q4, q6]
+    role: >-
+      Приставлений до входу в тунель «The Wormhole» на Звалищі: вітає, називає, куди
+      веде прохід, і жене тих, хто топчеться. Увесь вузол — чотири короткі репліки.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        $(#brother/sister) у q1 і q4 — панібратське звертання вуличного Звалища
+        (STYLE §3.2). Підтверджує наказове «Either move in or get out» без жодної
+        ввічливої формули.
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: коротко, глузливо-байдуже; чорний гумор у ролі гіда
+      idiolect:
+        - "випадання g: loiterin'"
+        - "q4 побудований як оголошення рейсу («Destination: Hell») — канцелярська форма з іронією, зберігати двокрапку"
+
+narration:
+  present: false
+
+new_names: ["Hugh", "The Wormhole", "Depot A"]
+
+idioms:
+  - unit: q6
+    src: "No loiterin'. Either move in or get out."
+    note: "формула вивіски-заборони; передавати коротко й рублено, не розгортати в повне речення"
+
+pitfalls:
+  - "тека зветься jy_hugh — це Hugh, НЕ Hugo з fo_anna; у реєстрі є лише Hugo → Г’юго, і його сюди переносити не можна"
+  - "у самому тексті мовець ніде не названий — ім’я відоме тільки з назви теки"
+  - "«The Wormhole» у лапках — назва закладу/проходу, канонічного варіанта немає; лапки передавати як « »"
+  - "«Depot A» — той самий об’єкт, що й у jy_gort q8; переклад мусить збігатися"
+
+examples:
+  - unit: q1
+    rule: "$(#brother/sister) — панібратське гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q6
+    rule: "наказовий спосіб успадковує «ти» — STYLE §3.4"
+    uk_fragment: "Заходь або йди геть"
+    status: proposed

@@ -1,0 +1,118 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_rista
+file_id: dialogs\characters\tch_rista.txt
+derived_from: source-only
+units: {total: 224, npc: 123, player: 101, empty: 4}
+
+speakers:
+  - slug: rista
+    name: Ріста
+    units: default
+    confidence: certain
+    evidence: [q210, q75, q3]
+    role: >-
+      Головний дослідник (Principal Investigator) найзавантаженішого відділу Інституту
+      Тчорта: пихатий, вічно роздратований науковець, який зустрічає гравця відкритою
+      ворожістю, а після виконаного доручення різко теплішає до панібратства.
+    relationships:
+      - "Лідія — його безпосередня начальниця (Chief Investigator); боїться її й огризається за очі"
+      - "Ейдейн — вища інстанція, згадується як формула («Eidein pardon them»)"
+      - "Георгіс, Вук — підлеглі дослідники його відділу"
+      - "Псих — піддослідна істота проєкту нейропацифікації, його головна цінність"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Ріста звертається до гравця виключно фамільярним $(#bro/sis), кидається лайкою
+        («Out you inbred!») і командами («Now go!», «Out.»); це вуличне панібратство,
+        а не службова ввічливість — STYLE §3.2. Гравець дзеркалить: «I feel for you man…»,
+        «Tchort guide you, brother».
+      gender_cues: ["$(#bro/sis)", "$(#Bro/Sis)", "$(#man/woman)", "$(#mister/miss)", "$(#his/her)"]
+    voice:
+      register: гучний, самозакоханий, дратівливий; наукова лексика впереміш із вуличною
+      idiolect:
+        - "«Indeed!» — головний словесний тик, окреме речення-вигук; тримати сталий український відповідник наскрізь"
+        - "«Indubitably!» — другий тик, підкреслено книжніший за «Indeed»; має відрізнятися від нього"
+        - "«Apex!» — його власний сленг на позначення «найвищого класу», і як вигук, і як прикметник («an apex find»)"
+        - "«Magnificent Tchort!» — лайка-божба, не звертання до Тчорта"
+        - "«That is all regarding the matter» — канцелярська формула закриття теми, повторюється дослівно"
+        - "«cull» замість «kill» про істот — свідомий фаховий евфемізм, не зводити до «вбити»"
+        - "емфатичні зірочки навколо слів (*I*, *should*, *before*) — зберігати на тому самому слові"
+        - "«How-ever» через дефіс у q36 — навмисне розтягування, не помилка"
+
+  - slug: panicked_investigator
+    name: переляканий працівник лабораторії
+    units: [q179, q183, q184, q186]
+    confidence: probable
+    evidence: [q179, q186]
+    role: >-
+      Безіменний співробітник, який вриваються в кабінет із новиною про втечу Психа;
+      говорить задиханими уривками й звертається до Рісти на «Investigator».
+    address:
+      npc_to_player: ви
+      player_to_npc: ти
+      basis: >-
+        До гравця прямо не звертається; з Рістою — підкреслено субординаційно
+        («I'm so sorry to bother you, Investigator»), тож базовий регістр цього мовця — «ви».
+    voice:
+      register: захекана, перелякана службова мова
+      idiolect:
+        - "«Uh... whoooh...», «but, but, but» — задишка й затинання; відтворювати українськими вигуками, не викидати"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, навіть там, де Ріста поруч каже «ти».
+    q215 («::You hear rushed footsteps behind you.::») — суто нарація без мовця.
+    a34, a38, a216 — підказки дій усередині ::…::, інфінітив за STYLE §3.5.
+
+new_names: ["Forsaken Island", "Forsaken Behemoth", "Behemoth", "psimorph", "azuridae", "coil spider", "NPS"]
+
+idioms:
+  - unit: q63
+    src: "my ass is on the line"
+    note: "локалізувати як розмовну загрозу собі, не калькувати анатомію"
+  - unit: q63
+    src: "And Lydia's the one with the barbed whip"
+    note: "метафора влади; наступне речення прямо каже, що батога буквально немає — образ має вижити"
+  - unit: q86
+    src: "we are onto something here"
+    note: "не «на чомусь»; розмовне «ми на правильному сліді»"
+  - unit: q193
+    src: "your best bet is to tire out"
+    note: "не про парі; «найкраще, що можеш зробити»"
+  - unit: a120
+    src: "Count me in!"
+    note: "усталене «я в ділі», не буквальний підрахунок"
+  - unit: q2
+    src: "Out you inbred!"
+    note: "груба лайка — не пом’якшувати, STYLE §9"
+  - unit: a159
+    src: "I hope I have your divided attention!"
+    note: "каламбур на мітозі (divided = поділ клітини й «розсіяна увага»); потрібен український каламбур, а не переклад значення"
+
+pitfalls:
+  - "a20, q21, a165 містять $(context.player.Name) — не відмінювати всередині плейсхолдера, перебудовувати фразу"
+  - "q180 має $(#mister/miss) і $(#his/her) в одному рядку — обидві гілки мусять узгодитися між собою"
+  - "q147 починається з $(#Bro/Sis) — велика літера в гілках обов’язкова, STYLE §2"
+  - "q23, q175, q179, q181 містять \\n\\n — розриви абзаців зберігати точно"
+  - "«charons» і «stygian coins» у сусідніх реченнях — це одна валюта; глосарій: харон / стигійська монета"
+  - "«Institute of Tchort» → Інститут Тчорта, «Foundry» → Ливарня, «Core City» → Центральне Місто, «Drop Zone» → Зона Скидання, «Deep Caverns» → Глибокі Печери — глосарій; «Underrail» лишається латиницею й не відмінюється"
+  - "«zoner» (a85) → зонер, «hoppers» (a101, a105) → стрибуни — глосарій"
+  - "«rassophores» (q172) → рясофори, як у registry-нотатці до Payam"
+  - "«Principal Investigator» (q75, q210, a88) — посада, з малої в тексті, окрім початку речення; тримати один відповідник у всіх трьох"
+
+examples:
+  - unit: q3
+    rule: "$(#bro/sis) — фамільярне гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q23
+    rule: "минулий час гравця потребує гендерної гілки, якої в англійському немає"
+    uk_fragment: "ти добре $(#впорався/впоралася)"
+    status: proposed
+  - unit: a34
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Показати"
+    status: proposed

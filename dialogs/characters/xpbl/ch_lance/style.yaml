@@ -1,0 +1,92 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/ch_lance
+file_id: dialogs\characters\xpbl\ch_lance.txt
+derived_from: source-only
+units: {total: 88, npc: 49, player: 39, empty: 5}
+
+speakers:
+  - slug: lance
+    units: default
+    confidence: certain
+    evidence: [q1, q6, q24, q76]
+    role: >-
+      Сонний списоборець на розбитому катері: рибалить списом, б’ється на воді з
+      піратами й за гроші вчить гравця морському списобою (50 монет за основи,
+      150 за сам списобій). Майже весь час дрімає — розмова постійно його будить.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Суцільне випадання «g» (joustin', teachin', waitin'), «ya», «yer», «ain't»,
+        «'n'», «Whaddaya», відверта грубуватість («Yer ass is gonna get flung outta
+        jet») — свій, вуличний мовець, STYLE §3.2. Гендерний плейсхолдер у q24
+        закріплює «ти».
+      gender_cues: ["$(#buddy/sis)"]
+    voice:
+      register: сонний, буркотливий, мінімалістичний; говорить рівно стільки, скільки треба
+      idiolect:
+        - "мукання-заповнювачі «Mm», «Mmm», «Mhm», «Hmpf» — це репліки самі по собі (q52, q65, q81, q83), не викидати й не розгортати в слова"
+        - "жорстке випадання кінцевого приголосного в дієприкметниках: joustin', teachin', nothin' — українською компенсувати розмовними формами й проковтуванням, не кальковим апострофом"
+        - "«ya/yer» замість you/your — просторічна вимова, а не помилка"
+        - "уривчасті односкладові відмови: «Because.», «Charons.», «Life's hard.»"
+        - "сонне марення уві сні (q78, q84-q88) — беззв’язні уривки з трьома крапками, ритм обриву зберігати"
+
+narration:
+  present: true
+  note: >-
+    Нарація описує його рухи (піднімає шолом, осідає в кріслі) — «ви» без винятків,
+    STYLE §3.1, навіть коли сам Ленс каже «ти».
+
+new_names:
+  - Lance
+  - Rathound King
+
+idioms:
+  - unit: q1
+    src: "settles into his seat like a rag doll"
+    note: "порівняння передавати образно; «ганчір’яна лялька» читається природно"
+  - unit: q6
+    src: "wanna piece a me"
+    note: "«лізуть до мене / хочуть зі мною зчепитися» — не калькувати «шматок мене»"
+  - unit: q6
+    src: "charge full throttle 'n' skewer 'em"
+    note: "розмовне «на повному ходу»; «skewer» — грубо, «настромити», не пом’якшувати"
+  - unit: q38
+    src: "Decent ain't gonna cut it."
+    note: "ідіома «цього не вистачить»; калька неможлива"
+  - unit: q38
+    src: "Yer ass is gonna get flung outta jet"
+    note: "грубість зберегти, STYLE §9 — не пом’якшувати до «вас викине»"
+  - unit: q43
+    src: "What the hell. Give it 'ere."
+    note: "поступка з досадою: «та біс із ним»; «'ere» — просторічне «сюди»"
+  - unit: q70
+    src: "bring ya up to speed"
+    note: "«підтягнути» — не калькувати швидкість"
+  - unit: a55
+    src: "chuck a few grenades"
+    note: "розмовне «жбурнути», не «кинути» нейтрально"
+  - unit: a57
+    src: "when they go belly-up"
+    note: "про рибу — «спливуть черевом догори»; ідіома має лишитися образною"
+
+pitfalls:
+  - "q24 містить $(#buddy/sis) — обидві гілки перекласти українськими гендерними формами звертання, регістр літер зберегти (STYLE §2)"
+  - "«naval jousting» / «naval combat» — центральний термін вузла, повторюється в q6, q11, q17, q66, q70, a10, a23, a58; обрати один варіант і тримати його в усіх появах"
+  - "charons → харони, stygian coins → стигійські монети (глосарій); у a13/a44/a47 і q61/q72 це та сама валюта, узгодити"
+  - "burrowers → копаки, Faceless → Безликі (глосарій); q86 «Rathound King» — власна назва без канонічного варіанта, у new_names"
+  - "суми виділені зірочками: *Fifty*, *A hundred fifty* — розмітку наголосу зберегти разом із числом"
+  - "a23 містить ::[Requires: Melee 70]:: і a41 ::[Mercantile]:: — це службові позначки перевірок, формат дужок не чіпати"
+  - "«jet» тут — водний катер персонажа, а не літак; у q29, q38 «on a jet» означає «на катері»"
+  - "хропіння q76/q77/q79 «Zzzzzz…» і вигук q33 «ZzzzzzzzKHHHH-- Uh!?» — звуконаслідування передавати українською графікою, довжину зберігати"
+
+examples:
+  - unit: q24
+    rule: "гендерне звертання $(#…/…), STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q52
+    rule: "односкладова відмова — не розгортати"
+    uk_fragment: "Бо так."
+    status: proposed

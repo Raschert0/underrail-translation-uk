@@ -1,0 +1,83 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fo_hugo
+file_id: dialogs\characters\fo_hugo.txt
+derived_from: source-only
+units: {total: 41, npc: 25, player: 16, empty: 2}
+
+speakers:
+  - slug: hugo
+    name: Г’юго
+    units: default
+    confidence: certain
+    evidence: [q4, q9, q18]
+    role: >-
+      Гравець-боржник із Ливарні, якого трясе банда за картярські борги; після
+      порятунку багатослівно дякує й сам себе картає. Мова недоладна,
+      емоційна, з постійним самоприниженням — це і є його головна прикмета.
+    relationships:
+      - "Anna — жінка, з якою він збирається покинути Ливарню (q18, q34)"
+      - "Cornell — колишній приятель, що продав його банді; про нього говорить із гіркотою й лайкою (q23, q29)"
+      - "Jacek — ватажок банди-кредитора (q23)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличне, неписьменне мовлення: «lotsa», «gonna», «must’ve», «Hell»,
+        «freaking», вигуки й обірвані речення. Плюс миттєве панібратство після
+        порятунку — «You’re the boss!» (q4). Гравець дзеркалить, STYLE §3.3.
+      gender_cues: []
+    voice:
+      register: метушливий, розхристаний, самопринизливий
+      idiolect:
+        - "«muck» як пом’якшена лайка замість непристойного слова (q9, q16, q18, q23) — центральна прикмета мовлення; потрібен один український евфемізм, ужитий послідовно"
+        - "самопринизливі ярлики: «I’m stupid», «a complete moron», «was I an idiot» (q9, q16)"
+        - "самовиправлення вголос: «end up in the same muck. Err, situation.» (q18) — обриви й перепитування зберігати"
+        - "повтори цілих періодів у q9 і q16 — це навмисно та сама завчена скарга; перекладати однаково"
+        - "лайка на адресу Корнелла: «Lying bastard!», «backstabbing bastard» (q23, q29) — грубе лишається грубим, STYLE §9"
+
+narration:
+  present: true
+  note: >-
+    Ремарок ::…:: у репліках NPC немає; ::Leave.:: (a37) — підказка дії,
+    інфінітив, STYLE §3.5.
+
+new_names: ["Jacek", "Acid Hunters"]
+
+idioms:
+  - unit: q9
+    src: "my bad luck streak had to end at some point"
+    note: "картярське «смуга невдач» — усталений український вислів, не калька"
+  - unit: q12
+    src: "the word \"Tchort\" sure has a cool ring to it"
+    note: "«гарно звучить» — не буквальне про дзвін"
+  - unit: q12
+    src: "that derailed guy"
+    note: "внутрішньоігровий сленг на позначення божевільного (від залізничної метафори Underrail) — шукати образне українське слово, не «зійшов з рейок» буквально"
+  - unit: q23
+    src: "led me straight into Jacek's paws"
+    note: "«у лапи» працює і українською, але перевірити керування; не «до лап»"
+  - unit: q40
+    src: "I thought I was a goner"
+    note: "розмовне «мені кінець»; не описова конструкція"
+  - unit: q26
+    src: "a strange twenty-sided thingy"
+    note: "«thingy» — навмисно недоладне слово неука, зберегти зневажливу невизначеність"
+
+pitfalls:
+  - "«muck» — не перекладати щоразу по-різному; один евфемізм на весь вузол, інакше зникає гра слів у «My mucky \"friend\"» (q23)"
+  - "Tchort → «Тчорт» (глосарій); у q10 «the Tchort himself» — з артиклем, але це те саме ім’я"
+  - "Foundry → «Ливарня», Core City → «Центральне Місто» — глосарій (q18, q28, q31, q34)"
+  - "q9 і q16 майже дослівно збігаються — розбіжний переклад читатиметься як помилка"
+  - "«scavenger» (q23) → «шукач» за глосарієм, не «сміттяр»"
+  - "\\n\\n у q23 — розділювач абзаців перед вигуком, зберігати"
+
+examples:
+  - unit: q9
+    rule: "пом’якшена лайка «muck» — грубе лишається грубим, але евфемізмом, STYLE §9"
+    uk_fragment: "Ах, трясця"
+    status: proposed
+  - unit: a37
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Піти.::"
+    status: proposed

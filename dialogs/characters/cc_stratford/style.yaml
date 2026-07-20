@@ -1,0 +1,122 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_stratford
+file_id: dialogs\characters\cc_stratford.txt
+derived_from: source-only
+units: {total: 192, npc: 111, player: 81, empty: 4}
+
+speakers:
+  - slug: stratford
+    name: Стратфорд
+    units: default
+    confidence: certain
+    evidence: [q10, q58]
+    role: >-
+      Лейтенант Praetorian Security, вербувальник і безпосередній начальник
+      гравця-енфорсера. Говорить статутно: короткі команди, повні форми без
+      скорочень, постійна перевірка «Understood?».
+    relationships:
+      - "шеф Найт — його начальник; згадує його як інстанцію, що дає дозволи"
+      - "гравець — підлеглий; звертається за званням, ніколи на ім’я"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова вертикаль без жодної фамільярності: звертається за званням
+        («Recruit», «Enforcer», «civilian»), уникає скорочень (do not, cannot,
+        I am), гравець відповідає «Yes, sir». STYLE §3.2 — формальні й службові
+        на «ви»; гравець дзеркалить (§3.3).
+      gender_cues: []
+      switches:
+        - {unit: q180, to: ви, trigger: "зрив на холодну зневагу — «*civilian*» замість звання; регістр той самий, змінюється температура"}
+        - {unit: q123, to: ви, trigger: "роздратування («empty-headed buffoon») — грубішає лексика, не форма звертання"}
+    voice:
+      register: >-
+        офіційно-військовий, підкреслено правильний; довгі періоди в настановах,
+        рубані команди в кінці розмови
+      idiolect:
+        - "«Splendid!» — головний словесний тик, близько п’ятнадцяти юнітів;
+           потрібен ОДИН український відповідник, ужитий скрізь однаково"
+        - "«splendiferous» (q133) — навмисне вигадливе роздування того самого
+           кореня; має відрізнятися від звичайного «Splendid», але лишатися
+           впізнаваним як його форма"
+        - "«Dismissed.» — статутна формула завершення, не побутове «Ідіть»"
+        - "«Understood?» / «Is that correct?» — контрольні питання, повторювані
+           дослівно; тримати сталу формулу"
+        - "принципова відсутність скорочень — ознака персонажа; українською це
+           повні книжні форми, без розмовних стягнень"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Тут нарація подеколи є документом (q60,
+    q71–q73): канцелярський, безособовий стиль, не жива мова
+
+new_names:
+  - "Nigel"
+  - "Joe De Pacino"
+  - "Spectre"
+  - "Spectres"
+  - "Operation Banishment"
+  - "Peacekeeper"
+  - "Chestguard"
+  - "Lawgiver"
+  - "Core City Housing Corporation"
+  - "James C. Barlington"
+  - "Rudolph Breinger"
+  - "Timmy Joe Burner"
+  - "Michael Mordington"
+  - "Stephen Luck"
+  - "Harkira Matamo"
+  - "Alyssa Bane"
+  - "Hagenstrom"
+  - "Gunther Gunther"
+
+idioms:
+  - unit: q16
+    src: "That is music to my ears"
+    note: "усталений вислів — брати український відповідник, не кальку"
+  - unit: q43
+    src: "elevate your armory access level"
+    note: "канцелярит навмисний; зберігати бюрократичну сухість, не спрощувати"
+  - unit: q92
+    src: "how feeble most of them are"
+    note: "зневага до новобранців — не пом’якшувати до нейтрального «слабкі»"
+  - unit: a138
+    src: "imprint my boots of justice into his backside"
+    note: >-
+      навмисно пафосно-безглузда фраза гравця; q139 прямо коментує її як
+      «interesting choice of words» — тож переклад має лишитися химерним
+  - unit: q121
+    src: "Spot on!"
+    note: "коротке схвалення, не розгорнуте «Абсолютно правильно»"
+
+pitfalls:
+  - "q185 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "q187 «Senior Enforcer, » і q191 «Enforcer, » — обірвані фрагменти, що
+     склеюються з q188; кінцевий пробіл і кома значущі, речення не добудовувати"
+  - "q166 «Now, as for your training: » — теж фрагмент-склейка"
+  - "q24 і q154 — девіз «Order through strength»; у q154 він у джерелі з
+     друкарською помилкою «throught», перекладати обидва однаково"
+  - "«Enforcer», «Recruit», «civilian» — звертання за званням; з великої в
+     джерелі, українською за нормою з малої (пор. реєстр: Chief → шеф)"
+  - "Praetorian Security, Biocorp, Coretech, JKK — лишаються латиницею
+     (глосарій, read-only); Foundry (a77, a98) — Ливарня"
+  - "q62 містить «rememer» — очевидна помилка джерела, перекладати як «remember»"
+  - "q101 «I'm afraid not» — одне з небагатьох скорочень у його мові; це не привід
+     знижувати регістр"
+  - "q71, q72, q116, q133, q160 містять \\n — розриви рядків, зберігати позицію"
+
+examples:
+  - unit: q8
+    rule: "статутна формула завершення, «ви»-регістр, STYLE §3.4"
+    uk_fragment: "Вільно."
+    status: proposed
+  - unit: a7
+    rule: "репліка гравця дзеркалить службове «ви», STYLE §3.3"
+    uk_fragment: "Так, пане."
+    status: proposed
+  - unit: a35
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

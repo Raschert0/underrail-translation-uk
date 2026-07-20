@@ -1,0 +1,82 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_jerre
+file_id: dialogs\characters\tch_jerre.txt
+derived_from: source-only
+units: {total: 41, npc: 26, player: 15, empty: 1}
+
+speakers:
+  - slug: jerre
+    name: Джерре
+    units: default
+    confidence: certain
+    evidence: [q2, q30]
+    role: >-
+      Слідчий медицини та протофізик Інституту Тчорта, крамар ліків і платний
+      лікар. Мовець книжний, багатослівний і підкреслено делікатний — це
+      єдиний вузол, де довгі підрядні речення в перекладі є рисою персонажа,
+      а не недоглядом.
+    relationships:
+      - "Тчортисти — «наші брати»; себе позначає абревіатурою IM"
+      - "Томас Гардінг (Tom) — покійний колега, через якого прийшов до Інституту"
+      - "Безликі — предмет відразливості; Вільні Дрони — винуватці смерті Тома"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службовець і платна обслуга (огляд за двадцять харонів), мова без
+        просторіччя й без скорочень — STYLE §3.2. Ритуальне «$(#brother/sister)»
+        тут релігійне звертання ордену, а не панібратство, і «ви» не скасовує:
+        «брате, чи можу я вам допомогти». Гравець дзеркалить — STYLE §3.3.
+      gender_cues: ["$(#brother/sister)", "$(#Brother/Sister)"]
+    voice:
+      register: тихий, ввічливий, книжний; проповідницький пафос про Тчорта
+      idiolect:
+        - "ритуальні формули «Tchort is evolution», «Tchort guide you» — сталий переклад по всьому корпусу"
+        - "вигук «Magnificent Tchort!» як божба (q26, q40)"
+        - "довгі періоди зі вставними «well», «in fact», «to be precise» (q23, q25)"
+        - "науковий штамп «it is the superior design. Proven.» (q19) — сухий вирок, не пом’якшувати"
+        - "єдиний зрив у грубість — «corrupted, inbred, dystrophic...» (q30), лишається різким"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; довга інтродукція q2 і ремарки q30, q31"
+
+new_names: ["Thomas Harding", "Dis", "Praepostor", "Upper Underrail", "North Underrail", "South Underrail"]
+
+idioms:
+  - unit: q22
+    src: "Foul, corrupted beings"
+    note: "релігійна лайка, не наукова оцінка; шукати церковно-осудливий регістр"
+  - unit: q23
+    src: "some, well, private business of his"
+    note: "евфемізм із затинанням-вставкою — зберегти вставне слово, не згладжувати"
+  - unit: q28
+    src: "it floored me"
+    note: "не калькувати; розмовне «мене вразило до нестями»"
+  - unit: q30
+    src: "face turns sour"
+    note: "не «обличчя кисне»; про міміку — «спохмурнів»"
+
+pitfalls:
+  - "q2 містить $(context.player.Name) — не відмінювати всередині плейсхолдера, будувати фразу так, щоб ім’я лишалося в називному"
+  - "«IM» (Investigator of Medicine) у q2 — самоназва-абревіатура; рішення про звання й скорочення потрібне централізоване, не вигадувати тут"
+  - "«charons» (q10, q16) і «stygian coins» (a11) — різні одиниці глосарію: харон і стигійська монета"
+  - "«Institute of Tchort» → Інститут Тчорта, «Free Drones» → Вільні Дрони, «Core City» → Центральне Місто, «Faceless» → Безликі — усе з глосарію"
+  - "«Underrail» лишається латиницею й не відмінюється; складені «North/South/Upper Underrail» — у new_names"
+  - "«rassophores» (q27) — рясофори, за приміткою реєстру до Payam"
+  - "«Minister Percival» → Персіваль; «Assistant Minister» — звання, потребує єдиного рішення"
+
+examples:
+  - unit: q5
+    rule: "$(#brother/sister) — гендерне звертання, кличний відмінок, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q33
+    rule: "регістр літери в гілці плейсхолдера значущий — з великої на початку репліки"
+    uk_fragment: "$(#Брате/Сестро)?"
+    status: proposed
+  - unit: a6
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

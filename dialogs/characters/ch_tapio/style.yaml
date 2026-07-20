@@ -1,0 +1,122 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/ch_tapio
+file_id: dialogs\characters\ch_tapio.txt
+derived_from: source-only
+units: {total: 88, npc: 43, player: 45, empty: 4}
+
+speakers:
+  - slug: tapio
+    name: Тапіо
+    units: default
+    confidence: certain
+    evidence: [q10, q17, q50]
+    role: >-
+      Недосвідчений мисливець, який перевантажений спорядженням застряг на березі
+      зі зламаним джетскі й зрештою намагається збути його гравцеві. Увесь вузол —
+      один торг, де ціна падає з 650 до 300 монет залежно від навичок гравця.
+    relationships: []
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Випадкова зустріч рівних біля води: суцільне просторіччя («ain’t», «goin’»,
+        «doin’»), фамільярні звертання «fellow» (q19), «Ay» (q44) і пряма лайка
+        «Get lost, punk!» (q52). STYLE §3.2 — вуличний, свій, отже «ти»; репліки
+        гравця дзеркалять (§3.3).
+      gender_cues: []
+    voice:
+      register: >-
+        мнучкий, знічений, весь час виправдовується; на тиск зривається в агресію
+        і так само швидко здувається назад
+      idiolect:
+        - "заповнювачі «uhm», «heh heh», «mmm» у місцях невпевненості (q14, q17, q19, q42, q58)"
+        - "заїкання від зніяковіння: «I-I mean» (q17), «Y-you know what?» (q58), «W-what?» (q73) — відтворювати на українському приголосному, STYLE §9"
+        - "самопереконування повтором: «right? Right?» (q75), «yes… that’s the best course» (q75), «yeah…» (q44)"
+        - "розтягнуті голосні на впізнаванні: «Ooooh… riiight» (q42)"
+        - "випадання кінцевого g: goin’, buyin’, huntin’, doin’, sellin’, somethin’"
+        - "у гніві переходить на короткі рубані погрози й курсивні наголоси: «eh, *eh*?» (q52), «*moron’s* tryin’ to *drown* me» (q69)"
+
+  - slug: narrator
+    name: нарація
+    units: [q2, q4, q7, q8, q55, q61, q63, q65]
+    confidence: certain
+    evidence: [q8, q61, q65]
+    role: >-
+      Авторський опис: перше представлення персонажа, його безрезультатна возня з
+      машиною і наслідки, якщо гравець штовхне його у воду.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: "нарація завжди на «ви» — STYLE §3.1"
+    voice:
+      register: рівний описовий, з відтінком іронії щодо новачківської метушні персонажа
+
+narration:
+  present: true
+  note: >-
+    Крім окремих юнітів нарації, майже кожна репліка містить вкраплення ::He nods.::,
+    ::He looks away.::, ::He shrugs.:: — вони теж на «ви» і теж третьою особою,
+    STYLE §3.1. Ремарки гравця (::Wave back at him.::, ::Leave.::, ::Fight!::) —
+    підказки дії, отже інфінітив, STYLE §3.5.
+
+new_names: ["Tapio", "Junk Jet"]
+
+idioms:
+  - unit: q5
+    src: "What a pile of junk!"
+    note: "лейтмотив вузла — «pile of junk» повторюється в q10 і q58; тримати те саме сполучення щоразу"
+  - unit: q17
+    src: "seven-six fifty-ish, maybe?"
+    note: >-
+      Не помилка джерела, а самовиправлення вголос: почав казати «сімсот», обірвав,
+      знизив до «шістсот п’ятдесят щось». Обрив зберігати.
+  - unit: q19
+    src: "Pleasure doin' business fellow, uhm... hunter."
+    note: "затинання на звертанні — він не знає, як назвати гравця; пауза й невпевненість важливіші за буквальність"
+  - unit: q22
+    src: "Everyone out there's looking to catch loose fish, if you know what I mean."
+    note: "«loose fish» — евфемізм для легкої здобичі/жертви, не про риболовлю; калька руйнує натяк"
+  - unit: q22
+    src: "get armed to the teeth before darin' to tangle such a challenge"
+    note: "«armed to the teeth» має усталений український відповідник; «tangle such a challenge» — авторська неоковирність, вирівнювати не треба"
+  - unit: q33
+    src: "Half a price for half the machine, hehe."
+    note: "жарт на паралелізмі half/half — зберегти повтор, інакше зникає дотеп"
+  - unit: q52
+    src: "Get lost, punk! Before I drown you with my bare hands."
+    note: "грубе лишається грубим — STYLE §9; «punk» тут зневажливе до молодшого, не субкультура"
+  - unit: q59
+    src: "before I put a bounty on your hide"
+    note: "«on your hide» — «за твою шкуру»; образ шкури доречний у мисливському таборі, зберегти"
+  - unit: q61
+    src: "as if a boulder had fallen from the top of the cave"
+    note: "порівняння вписане в підземний світ гри — не замінювати на побутове"
+  - unit: q78
+    src: "Just chill out."
+    note: "«охолонь / вгамуйся», не калька"
+
+pitfalls:
+  - "q29 і q31 містять зламаний тег навички ::[Mercantile|:: — вертикальна риска замість дужки. Це помилка оригіналу; відтворювати символ у символ, не «виправляти» на ::[Mercantile]::."
+  - "Теги навичок ::[Mechanics]::, ::[Mercantile|::, ::[Persuasion]::, ::[Strength or Dexterity] (a60 — без закривних дужок) мають збігатися з назвами навичок у knowledge/; звірити з глосарієм, а не перекладати наново."
+  - "«Expedition» у q22 — назва доповнення в глосарії лишається латиницею, але тут це внутрішньосвітова експедиція, про яку говорить персонаж. Рішення потрібне свідоме, а не автоматичне."
+  - "Глосарні терміни: Black Sea → Чорне Море, Hell’s Gut → Нутро Пекла, Core City → Центральне Місто (усі три в q22)."
+  - "Ціни («600 coins», «500 coins», «400 coins», «450 coins», «300 coins») — одиниця валюти має бути єдиною по всьому вузлу; числівники словами («nine hundred», «Four hundred it is», «Three hundred?») лишати словами."
+  - "q12, q22, q42, q44, q50, q58, q61, q75 містять літеральні \\n\\n — зберігати розриви абзаців."
+  - "q58 закінчується трьома кінцевими пробілами, q41 — одним; кінцеві пробіли не прибирати."
+  - "Курсивні наголоси зірочками (*nine hundred* q17, *eh* q52, *moron’s*, *drown* q69) — розмітка наголосу, переносити на відповідне українське слово, а не на позицію."
+  - "Персонажа в тексті жодного разу не названо на ім’я — «Tapio» відомий лише з назви теки. Не вставляти ім’я в переклад там, де його немає в джерелі."
+
+examples:
+  - unit: q58
+    rule: "заїкання відтворюється на українському приголосному, STYLE §9"
+    uk_fragment: "З-знаєш що?"
+    status: proposed
+  - unit: q39
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Піти.::"
+    status: proposed
+  - unit: q22
+    rule: "глосарний топонім"
+    uk_fragment: "Нутро Пекла"
+    status: proposed

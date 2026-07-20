@@ -1,0 +1,81 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/rig_boulder
+file_id: dialogs\characters\xpbl\rig_boulder.txt
+derived_from: source-only
+units: {total: 34, npc: 20, player: 14, empty: 2}
+
+speakers:
+  - slug: boulder
+    name: Валун
+    units: default
+    confidence: certain
+    evidence: [q3]
+    role: >-
+      Здоровань-власник крамниці запчастин до джетів на Платформі, який на все
+      відповідає жартом і реготом. Розмова з ним — це серія коротких
+      самовдоволених дотепів, а не обмін інформацією.
+    relationships:
+      - "Сквізер — його двоюрідний брат і працівник, вічна мішень добродушних кпинів (q7, q10)"
+      - "дружина — постійна тема жартів про власну силу й вагу (q16, q26)"
+      - "Black Eels — на пряме питання про членство відповідає ухильно (q12)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Гендерне $(#boy/sis) у q14 — прямий сигнал на «ти» (STYLE §3.2);
+        суцільне випадання g, «ya», «ain’t», «whatcha» довершують вуличний
+        панібратський регістр. Гравець дзеркалить (STYLE §3.3).
+      gender_cues: ["$(#boy/sis)"]
+    voice:
+      register: гучний, панібратський, самовдоволено-жартівливий
+      idiolect:
+        - "регіт «hah» / «hah-hah» наприкінці майже кожної репліки — головний тик"
+        - "тотальне випадання кінцевого g: «doin’», «chasin’», «purchasin’»"
+        - "стягнення «yer», «whatcha», «whacha may’ve», «’n’» замість and"
+        - "«the missus» замість «моя дружина» — стале фамільярне називання"
+
+narration:
+  present: false
+  note: "самостійних ремарок ::…:: у вузлі немає, окрім підказки дії ::Barter.:: в a5"
+
+new_names: ["Black Eels", "Boulder's Jet Bits", "Carnifex", "Underman 2"]
+
+idioms:
+  - unit: q7
+    src: "Chasin’ chicks"
+    note: "розмовне «бігає за дівками»; не пом’якшувати до «шукає подругу»"
+  - unit: q10
+    src: "no-good cousin’ of mine"
+    note: "«нікчемний братан» — зневажливо, але по-родинному тепло; тон зберегти"
+  - unit: q14
+    src: "They ain’t got the guts"
+    note: "«кишка тонка» — сталий вислів, не буквальні нутрощі"
+  - unit: q24
+    src: "As long as yer purchasin’"
+    note: "«поки купуєш» — коротко й обрубано, як в оригіналі"
+  - unit: q31
+    src: "ya dig"
+    note: "розмовне «сам розумієш»; калька «копаєш» неприпустима"
+  - unit: q26
+    src: "she started gettin’ pissy about it"
+    note: "«почала бурчати/казитися» — грубувато, STYLE §9 не пом’якшувати"
+
+pitfalls:
+  - "Boulder — реєстр: Валун (прозоре прізвисько перекладається); Squeezer — Сквізер (транслітерація). Асиметрія навмисна, не «вирівнювати»"
+  - "«Boulder’s Jet Bits» — назва крамниці з іменем власника; потребує централізованого рішення, чи перекладати"
+  - "«Arena» (q30) — глосарій: Арена"
+  - "«the Rig» у цій локації — глосарій: Платформа"
+  - "q3 «I’m Boulder, *the* Boulder» — зірочки-наголос зберегти; реєстр прямо цитує цей рядок"
+  - "a5 містить ::Barter.:: — інфінітив, STYLE §3.5"
+  - "«jet» тут — транспортний засіб, наскрізний термін вузла; узгодити один варіант на всі 34 юніти"
+
+examples:
+  - unit: q14
+    rule: "гендерне звертання на «ти», STYLE §2"
+    uk_fragment: "$(#хлопче/сестро)"
+    status: proposed
+  - unit: a5
+    rule: "підказка дії — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

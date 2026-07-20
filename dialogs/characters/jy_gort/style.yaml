@@ -1,0 +1,65 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_gort
+file_id: dialogs\characters\jy_gort.txt
+derived_from: source-only
+units: {total: 20, npc: 12, player: 8, empty: 1}
+
+speakers:
+  - slug: gort
+    name: Горт
+    units: default
+    confidence: certain
+    evidence: [q1, q6, q14]
+    role: >-
+      Доглядач складу брухту на Депо Б: зустрічає гравця як покупця, охоче теревенить
+      про справи банди, але доступу за ворота не дає. Тон крамарський і водночас
+      цілком вуличний.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        $(#jack/sis) тричі (q6, q8, q10) і $(#jacks/ladies) у q17 — вуличне панібратське
+        звертання (STYLE §3.2). Попри те що він торговець, мова суцільно просторічна:
+        «Ya wouldn't want to meet none of 'em».
+      gender_cues: ["$(#jack/sis)", "$(#jacks/ladies)"]
+    voice:
+      register: просторічний зазивала-торговець; говіркий, без агресії
+      idiolect:
+        - "ya / yer / yerself замість you / your / yourself — передавати розмовним регістром"
+        - "випадання g: Lookin', scavengin', roamin', somethin'"
+        - "аферезис 'ere замість here, 'Ey замість hey — стягнення на початку слова"
+        - "подвійне заперечення: «I don't have none of that stuff» — зберігати неправильність"
+        - "неузгодженість числа: «He leads the gang and run this place» — навмисна, не виправляти"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут нарація лише в ремарці q8 (::Points his thumb over the shoulder.::)"
+
+new_names: ["Depot A", "Depot B", "Armadillo"]
+
+idioms:
+  - unit: q10
+    src: "don't get yer hopes up"
+    note: "ідіому локалізувати українським відповідником, не калькувати «не піднімай надії»"
+  - unit: q18
+    src: "That's how we make our livin'."
+    note: "«так і живемо / з того й живемо» — розмовна формула, не буквальне «заробляємо на життя»"
+
+pitfalls:
+  - "«Old Junkyard» — «Старе Звалище» за глосарієм; «Depot A»/«Depot B» канонічного варіанта не мають"
+  - "«the Foundry» (q17) — «Ливарня»; «Protectorate» — «Протекторат», обидва за глосарієм"
+  - "Eddy є в реєстрі — «Едді»"
+  - "a3 ::Barter.:: — підказка дії, інфінітив (STYLE §3.5)"
+  - "q17 $(#jacks/ladies) — плейсхолдер у МНОЖИНІ, обидві гілки мають бути множинними"
+  - "«Armadillo class drill rotor circuit board» (a4) — назва деталі; клас «Armadillo» канонічного рішення не має, у jy_johan a6 той самий рядок — переклад мусить збігатися"
+
+examples:
+  - unit: q6
+    rule: "$(#jack/sis) — вуличне гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/сестричко)"
+    status: proposed
+  - unit: q20
+    rule: "наказовий спосіб успадковує «ти» — STYLE §3.4"
+    uk_fragment: "Купуй щось!"
+    status: proposed

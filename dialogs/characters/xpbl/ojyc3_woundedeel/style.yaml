@@ -1,0 +1,83 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/ojyc3_woundedeel
+file_id: 'dialogs\characters\xpbl\ojyc3_woundedeel.txt'
+derived_from: source-only
+units: {total: 137, npc: 61, player: 76, empty: 7}
+
+speakers:
+  - slug: wounded_eel
+    name: 'поранений боєць Black Eels (імені в тексті немає)'
+    units: default
+    confidence: certain
+    evidence: [q7, q80, q83]
+    role: >-
+      Смертельно поранений боєць банди, кинутий у кутку печери після різанини:
+      єдиний свідок того, що сталося з загоном. У маренні плутає гравця зі
+      зрадницею Каєю, тож більшість його реплік — докір людині, якої перед ним немає.
+    relationships:
+      - 'Kaya — та, кого загін мав прибрати; він приймає гравця за неї («Now... leave me be, Kaya.», q85)'
+      - 'the rigmaster — брат Каї, який віддав наказ (q22, q24)'
+      - 'Protectorate — ті, кому Кая здавала банду; колишні «allies» (q53)'
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Він вважає співрозмовника давньою знайомою-зрадницею й кидає прямі образи
+        («Y-you... snitch!», «traitor»); дистанції на «ви» тут не існує в жодній
+        гілці. Гравець дзеркалить (STYLE §3.3): навіть «лікарські» гілки a11, a13,
+        a94 — це розмова над умирущим, а не ввічлива дистанція.
+      gender_cues: ["Now... leave me be, Kaya.", "The traitor... is gone."]
+    voice:
+      register: обірваний диханням шепіт; сили вистачає на 3–4 слова поспіль
+      idiolect:
+        - 'трикрапки як брак дихання — їхню кількість і позицію зберігати, це ритм сцени, а не пунктуація'
+        - 'випадання g навіть у передсмертній мові: snitchin’, rattin’, explorin’, durin’, anythin’, actin’'
+        - 'заїкання на початку слова: I-I, W-what, Y-you, Th--'
+        - '::wheeze:: вклинюється просто в середину речення (q19, q104, q131)'
+
+narration:
+  present: true
+  note: '«ви» без винятків — STYLE §3.1; q7, q10, q126 — довгі суцільні описи його стану, найбільші блоки нарації у вузлі'
+
+new_names: ["Kaya", "Black Eels", "rigmaster"]
+
+idioms:
+  - unit: q19
+    src: "he told us to repay her... in kind"
+    note: 'repay in kind — «відплатити тим самим»; не калькувати «оплатити натурою»'
+  - unit: q32
+    src: "She was snitchin' on us... she was rattin' us out"
+    note: 'два синоніми доносу поспіль — потрібні два різні просторічні слова, не одне повторене'
+  - unit: a96
+    src: "Sadistic? Yeah, that's my second name."
+    note: 'локалізувати як «це про мене»; «друге ім’я» українською не читається як ідіома'
+  - unit: a77
+    src: "Those random insults won't phase me"
+    note: 'у джерелі помилка замість faze; значення — «не проймуть», а не щось про фази'
+  - unit: a47
+    src: "Serves you well."
+    note: 'усталене «так тобі й треба»; дослівний переклад дасть протилежний зміст'
+
+pitfalls:
+  - 'він звертається до гравця як до жінки (Каї), але стать персонажа гравця змінна: гендерне минулий час не ставити жіночим наглухо, а вводити $(#masc/fem) — «you won», «what you did», «you''ve caused», «how''d you get in» усі потребують плейсхолдера (STYLE §2)'
+  - 'a97 «::Whisper: ::Hello.», a99 «::Whisper::: Yes, it is.», a104 «::Yell::: BOO!.» — у джерелі зламані розділювачі; кількість :: у цілі має точно збігатися з джерелом (tools/check-uk.ps1), «виправляти» їх не можна'
+  - 'a84 ::[Intimidation]:: і a94 ::[Persuasion]:: — теґи перевірок навички; глосарій дає зразок ::[Переконати]::, другий теґ будувати за тим самим шаблоном'
+  - 'у джерелі багато друкарських помилок (annother, traior, addtition, hes, didnt, «it''s grip») — у цілі їх не відтворювати'
+  - 'q73 закінчується кількома порожніми рядками — послідовність \n не чіпати'
+  - 'глосарій: Protectorate → Протекторат, Free Drones → Вільні Дрони, Rig → Платформа, ::wheeze:: → ::хрип::'
+  - 'q126 — нарація, яка згадує «Kaya mentioned earlier»: це опис від гравця, а не його мова, тож «ви» (STYLE §3.1), попри те що поруч він говорить «ти»'
+
+examples:
+  - unit: a48
+    rule: 'підказка дії всередині ::…:: — інфінітив, STYLE §3.5'
+    uk_fragment: '::Піти.::'
+    status: proposed
+  - unit: q2
+    rule: 'наказовий спосіб успадковує «ти» — STYLE §3.4'
+    uk_fragment: 'Іди... геть.'
+    status: proposed
+  - unit: q89
+    rule: 'гендерне минуле гравця через плейсхолдер — STYLE §2'
+    uk_fragment: 'Ти тоді $(#переміг/перемогла)'
+    status: proposed

@@ -1,0 +1,91 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pb_case
+file_id: 'dialogs\characters\pb_case.txt'
+derived_from: source-only
+units: {total: 74, npc: 48, player: 26, empty: 1}
+
+speakers:
+  - slug: case
+    name: Кейс
+    units: default
+    confidence: certain
+    evidence: [q2, q3, q8, q31]
+    role: >-
+      Молодий південець, роздавальник у їдальні (DFAC) форту Fort Apogee;
+      травмоване коліно не пустило його в солдати. Єдиний тут, хто говорить із
+      гравцем як зі своїм — і щоразу себе на цьому осмикує.
+    relationships:
+      - "Лука — головний механік, перший друг у форті; разом п’ють біля рингу (q58–q60)"
+      - "Анастасія, док Меррік — захищає її від співчутливих балачок (q62–q63)"
+      - "Фрейзер — про нього принципово мовчить (q47–q48)"
+      - "друзі дитинства серед Вільних Дронів — таємниця, яку він видає лише пошепки (q31)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        «$(#sir/ma'am)» у понад десяти репліках плюс постійне «Corporal» —
+        обслуга, що говорить до старшого за званням; STYLE §3.2. Гравець
+        дзеркалить (§3.3).
+      gender_cues: ["$(#sir/ma'am)"]
+    voice:
+      register: привітний, послужливий, балакучий; пошепки — довірливий
+      idiolect:
+        - "«rotten» — словесний тик: rotten place, rotten thing, rotten psychos, rotten cyborgs (q21, q23, q56, q58, q65, q70). Має бути ОДНЕ українське слово в усіх входженнях"
+        - "самоперебивання жаргон → статут: «Do you dig-- I mean understand» (q33, q39, q72), «Are you derailed... um, $(#sir/ma'am)?» (q39), «Eric... I mean, Staff Sergeant Fraser» (q18)"
+        - "«um» як заповнювач вагання перед незручним словом"
+        - "«Hardcore, hardcore.» (q59) — захоплений вигук, повтор зберігати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки описують Кейса ззовні (q2, q8, q30, q31)"
+
+new_names: ["Kost", "Eric", "Merrick", "Fort Apogee", "DFAC", "CAU", "Dreadnought", "United Stations"]
+
+idioms:
+  - unit: q52
+    src: "He needs bigger stones"
+    note: "евфемізм про сміливість; не калькувати «більші камені», шукати український відповідник тієї ж грубуватості"
+  - unit: q52
+    src: "You need to elbow your way through"
+    note: "пробиватися ліктями — локалізувати як ідіому, не описово"
+  - unit: q48
+    src: "If you can't say something nice about someone... don't say anything at all."
+    note: "прислів’я; брати усталений український відповідник, багатокрапку зберегти"
+  - unit: q50
+    src: "\"shoot first, and ask questions later\""
+    note: "сталий зворот у лапках — лапки « » за STYLE"
+  - unit: q6
+    src: "jump the queue"
+    note: "лізти без черги; тримати єдину лексику черги в q6, q8, q13, q14"
+  - unit: q33
+    src: "Do you dig-- I mean understand what I mean"
+    note: "той самий жаргонізм «dig», що й у вартових ССГ; обрив на півслові — частина характеру, не помилка"
+  - unit: q62
+    src: "you don't need to constantly yap about it"
+    note: "зневажливе «молоти язиком»; грубість зберегти, STYLE §9"
+
+pitfalls:
+  - "q1 «DFAC is for military personnel only.» — єдина репліка без «Corporal» і без $(#sir/ma'am): суха службова відсічка. Не додавати ввічливості й не вирівнювати під решту його голосу"
+  - "q33 і q39 містять майже дослівно однаковий довгий блок (гілки того самого діалогу) — перекладати ідентично; так само q31 і q37 у частині про таємницю"
+  - "$(#sir/ma'am) → $(#пане/пані); регістр першої літери в гілках зберігати так, як у джерелі"
+  - "Самоперебивання «Do you dig-- I mean understand» треба відтворити як обрив саме на жаргонному слові з наступною статутною заміною; якщо обрив зникне, зникне весь характер"
+  - "q65 «the chems» — розмовна назва бійців CAU, а не «хімікати»"
+  - "q2 «rathound stew» → щурчак (глосарій); «Kost» у цій репліці стоїть у звертанні — кличний відмінок"
+  - "Глосарій: Core City → Центральне Місто (q56), Tunnelers → Тунельники і Faceless → Безликі (q70), Free Drones → Вільні Дрони, Protectorate → Протекторат, ::[Persuade]:: → ::[Переконати]:: (a29), ::Barter.:: → ::Торгувати.:: (a5)"
+  - "Зірочки навколо слів (*us.*, *are*, *that*) — авторський наголос; переносити на відповідне українське слово, а не на позицію"
+  - "«Underrail» у «South Underrail» лишається латиницею й не відмінюється (глосарій, read-only)"
+
+examples:
+  - unit: q3
+    rule: "$(#sir/ma'am) — сильний сигнал на «ви», STYLE §3.2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q2
+    rule: "нарація :: :: — завжди «ви», STYLE §3.1"
+    uk_fragment: "::Ви підходите до…::"
+    status: proposed
+  - unit: q72
+    rule: "самоперебивання жаргон → статут зберігати як обрив"
+    uk_fragment: "Втя-- тобто розумієте"
+    status: proposed

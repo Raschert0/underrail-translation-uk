@@ -1,0 +1,89 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/rc_buzzer
+file_id: dialogs\characters\rc_buzzer.txt
+derived_from: source-only
+units: {total: 49, npc: 35, player: 14, empty: 3}
+
+speakers:
+  - slug: buzzer
+    name: Дзижчик
+    units: default
+    confidence: certain
+    evidence: ["q42", "q46", "q9"]
+    role: >-
+      Крамар із Залізничного Переїзду, торгує дивною електронікою; Безликі вломилися
+      в його крамницю й тримали його в клітці, доки гравець його не визволив.
+      Балакучий, спостережливий, із виразними політичними симпатіями до Вільних Дронів.
+    relationships:
+      - "Cornell та його ватага — покупці, що принесли йому дивний пристрій і накликали Безликих"
+      - "Безликі — тримали його в клітці й вивідували щось із його свідомості"
+      - "Terry і Lora Baker — постійні торгові партнери зі ССГ"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Плейсхолдери $(#boy/girl) (q35), $(#man/sister) (q46, q47), $(#man/woman) (q49) —
+        панібратські звертання, сильний сигнал на «ти» (STYLE §3.2). Підкріплено
+        зверненням «man» у q27 і репліками гравця «See you later, man» (a41).
+      gender_cues: ["$(#boy/girl)", "$(#man/sister)", "$(#man/woman)"]
+    voice:
+      register: розмовний, крамарський, із лайкою середньої сили; охоче розповідає довгі історії
+      idiolect:
+        - "«man» як звертання-заповнювач — в українському тексті не калькувати як «чоловіче» щоразу, а чергувати природні розмовні вставки"
+        - "проковтнута лайка: «hell», «freaking», «bloody», «hot damn», «damn it to hell» — грубе лишається грубим, не пом’якшувати (STYLE §9)"
+        - "суха жартівливість із паузою: «A singularity bomb...» / «Just kidding» (q29–q30) — тайминг зберегти окремими юнітами"
+        - "у розповіді переходить у теперішній час: «he tells me», «By this point I’m intrigued» (q10, q12) — розмовний наративний теперішній, відтворити"
+        - "у політичному монолозі (q32–q36) риторичні питання й публіцистичний регістр — контраст із побутовою мовою решти вузла"
+
+narration:
+  present: true
+  note: "::He chuckles.:: (q17), ::He whispers.:: (q42), ::His mouth dries up…:: (q35) — «ви», STYLE §3.1; ::Barter.:: (a3) — інфінітив, §3.5"
+
+new_names: ["Terry", "Baker", "Acid Hunters", "United Stations", "Tin Cans", "brain hook"]
+
+idioms:
+  - unit: q15
+    src: "I’d bet money on it"
+    note: "розмовне «голову даю / б’юсь об заклад», не буквально про гроші"
+  - unit: q19
+    src: "Bingo."
+    note: "як вигук згоди — «Отож», «Точно»; калька «Бінго» лишає гру, якої в тексті немає"
+  - unit: q32
+    src: "worse than the phlegm I cough up after waking up"
+    note: "навмисно бридке порівняння — не облагороджувати"
+  - unit: q34
+    src: "excuses and lies they vomit to the commoners"
+    note: "«vomit» тут дієслово мовлення; зберегти грубу метафору, не замінювати нейтральним «кажуть»"
+  - unit: q36
+    src: "seal them inside the hole they crawled out of"
+    note: "образна лайка, а не інструкція — тримати ідіоматичність"
+  - unit: q46
+    src: "My house is your house."
+    note: "формула гостинності; український відповідник, а не дослівний переклад"
+  - unit: q47
+    src: "you did take care of them freaks"
+    note: "«them freaks» замість «those freaks» — просторічна форма, знак низького регістру мовця"
+
+pitfalls:
+  - "q46 містить $(#man/sister) — обидві гілки перекладаємо українськими звертаннями, латиниці всередині $(#…) лишатися не має"
+  - "Underrail не перекладається й не відмінюється (глосарій): «Lower Underrail», «South Underrail», «North Underrail» — означення українською, назва латиницею"
+  - "Faceless → «Безликі», Free Drones → «Вільні Дрони», Protectorate → «Протекторат», Core City → «Центральне Місто», SGS → «ССГ», scavengers → «шукачі» — глосарні відповідники"
+  - "«the Cans» (q32) і «Tin Cans» (q36) — те саме зневажливе прізвисько протекторатських солдатів; переклад має бути один і впізнаваний в обох юнітах"
+  - "q11 «twenty-sided Rubik’s cube» — реальний бренд, лишається впізнаваним; двадцятигранність зберегти, це опис предмета"
+  - "q46 і q47 — взаємовиключні варіанти тієї самої сцени (визволив / не визволив); тон різний, але звертання й імена мають збігатися"
+  - "q42–q44, q46, q47, q49 не мають реплік-відповідей у файлі — це репліки-оклики поза деревом; вони мають читатися самостійно"
+
+examples:
+  - unit: q35
+    rule: "$(#boy/girl) — гендерне звертання, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed
+  - unit: a3
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q42
+    rule: "нарація на «ви» навіть при «ти» в мовця — STYLE §3.1"
+    uk_fragment: "::Він шепоче.::"
+    status: proposed

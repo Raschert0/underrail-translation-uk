@@ -1,0 +1,71 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_arenamessenger
+file_id: dialogs\characters\cc_arenamessenger.txt
+derived_from: source-only
+units: {total: 17, npc: 10, player: 7, empty: 1}
+
+speakers:
+  - slug: arena_messenger
+    name: посильний
+    units: default
+    confidence: probable
+    evidence: [q3, q10, q17]
+    role: >-
+      Втомлений найманий посильний, що годину чекав на гравця, аби передати
+      виклик від одного з трьох патронів. Легко лякається, коли гравець
+      тисне ареновим титулом, і бурчить про свою роботу, щойно піде.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова доставка, вибачливий тон («Excuse me», «I'm sorry, please
+        don't be mad») і виразна нерівність статусу — «ви» в обидва боки,
+        STYLE §3.2, §3.3.
+    voice:
+      register: догідливий, трохи знесилений; офіційна формула чергується з живою скаргою
+      idiolect:
+        - "обірваний самокоригований рядок «I don't ne-- ::He takes the charon.::» — обрив зберегти"
+        - "q17 — репліка сам до себе після розмови, тон роздратований, не службовий"
+
+  - slug: narrator
+    name: нарація
+    units: [q10]
+    confidence: certain
+    evidence: [q10]
+    role: >-
+      Вставка «::He takes the charon.::» усередині репліки посильного —
+      авторська ремарка, не його мова.
+    address:
+      npc_to_player: ви
+      basis: "нарація завжди «ви», STYLE §3.1"
+
+address_note: >-
+  Гравець у a15 переходить на зверхнє «ти» («Speak, little man») — це
+  емоційний зрив, а не базовий регістр; решта його реплік лишається на «ви».
+
+narration:
+  present: true
+  note: "«::Give him one charon.::» (a9) — підказка дії, інфінітив, STYLE §3.5"
+
+new_names: ["Nigel"]
+
+idioms:
+  - unit: q3
+    src: "thought you weren't gonna show up"
+    note: "розмовне стягнення gonna — знизити регістр, але не до вульгарності"
+  - unit: a15
+    src: "Speak, little man"
+    note: "зверхнє звертання гравця; «чоловічку» звучить пестливо — потрібне зневажливе"
+
+pitfalls:
+  - "q1, a14, a15 містять $(context.player.Name) і $(context.playerArenaTitle) — не відмінювати всередині плейсхолдера"
+  - "q6 «I've got a message for $(#him/her)» — плейсхолдер стосується гравця у третій особі: посильний ще не впізнав його"
+  - "Stratford → Стратфорд (реєстр); ім’я Nigel канонічного варіанта не має"
+  - "Blanket (q17) → Ковдра, реєстр; Joseph Harlan → Джозеф Гарлан, Ola Halidorson → Ола Халідорсон, Praetorian Security і Coretech — латиницею (глосарій)"
+
+examples:
+  - unit: q1
+    rule: "$(#him/her) — гендерний плейсхолдер про гравця, STYLE §2"
+    uk_fragment: "$(#нього/неї)"
+    status: proposed

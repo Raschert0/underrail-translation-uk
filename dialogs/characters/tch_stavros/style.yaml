@@ -1,0 +1,117 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_stavros
+file_id: dialogs\characters\tch_stavros.txt
+derived_from: source-only
+units: {total: 262, npc: 143, player: 119, empty: 8}
+
+speakers:
+  - slug: stavros
+    name: Ставрос
+    units: default
+    confidence: certain
+    evidence: [q4, q6, q241, q242, q247]
+    role: >-
+      Гармост Ставрос — командувач Preservation Forces у Cytosine Outpost, найвищий
+      за званням тчортист у Глибоких Печерах після смерті Ейдейна. Говорить як
+      воєначальник і водночас як духовна особа: наказ, доктрина й молитовна формула
+      в одному реченні.
+    relationships:
+      - "Ейдейн — вищий за саном керівник Інституту; Ставрос приховує його смерть заради бойового духу"
+      - "Превлич — рясофор в арсеналі, травмований; Ставрос захищає його від розмов"
+      - "гравець — новіціат, якому Ставрос спершу не довіряє, потім цінує як бійця"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Найвищий сан і військова субординація: гравець незмінно звертається
+        «Your Excellency», сам Ставрос віддає накази й вимагає підтвердження
+        («Are we clear?»). Обидва напрямки — «ви» без винятків, навіть коли він
+        кричить (q247).
+      gender_cues: ["$(#man/woman)"]
+      switches:
+        - {unit: q215, to: ви, trigger: "зрив на крик «Out!» — регістр не змінюється, лише тон"}
+    voice:
+      register: >-
+        високий, ораторський; повні речення без розмовних скорочень у наказах,
+        книжковий синтаксис, звороти на кшталт «Adapt and overcome»
+      idiolect:
+        - "молитовні формули-обрамлення: «Tchort is Evolution» / «Evolution is Tchort», «Tchort guide you»"
+        - "«Magnificent Tchort!» як вигук — не лайка, а вигук віри"
+        - "«magnificence» про Тчорта повторюється як термін культу, тримати один відповідник"
+        - "«inbreds» — зневажлива назва Безликих у його вустах, грубість зберігати"
+        - "риторичне «Am I clear?» / «Are we clear?» — сталий контрольний повтор, перекладати однаково"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Нарація тут третьоособова про Ставроса
+    («::He nods.::», «::He pauses.::») і другоособова про гравця
+    («::Several long seconds pass before you get a reply.::»).
+
+new_names:
+  - Harmost
+  - Hollow Earth
+  - Cytosine Outpost
+  - Nucleus
+  - Caerus Residential Block
+  - Arke Power Station
+  - Warehouse Block
+  - Preservation Forces
+  - Tchortist
+  - Evdok
+  - coil spider
+  - Lower Underrail
+  - Battle of the Nucleus
+  - Hollow Earth Incident
+
+idioms:
+  - unit: q22
+    src: "Adapt and overcome."
+    note: "військове гасло; шукати сталу українську формулу, не дослівну пару дієслів"
+  - unit: q114
+    src: "we are not out of the depths yet"
+    note: "не калькувати; ідіома «ще не все позаду» з опорою на образ глибини"
+  - unit: q139
+    src: "it doesn't take a good strategist to figure that out"
+    note: "розмовна применшувальна формула, не буквальний «не треба бути стратегом»"
+  - unit: q154
+    src: "lifted a few eyebrows"
+    note: "ідіома здивування; локалізувати, не описувати брови"
+  - unit: q90
+    src: "can turn the tide of any conflict"
+    note: "усталений військовий образ — шукати український відповідник «переломити»"
+  - unit: a118
+    src: "like skinning a cave hopper"
+    note: "порівняння на глосарному «стрибун»; грубість репліки не пом’якшувати"
+  - unit: q212
+    src: "a true Evdok you are"
+    note: "внутрішньоігрова лайка-ярлик; лишати запозиченням, як «зонер»"
+
+pitfalls:
+  - "$(context.player.Name) трапляється у понад двадцяти юнітах (q9, q17, q23, q84, q95, q144, q212, q247, q249, q262 та ін.) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному або в кличному без зміни форми"
+  - "q112 містить $(#man/woman) — єдиний гендерний плейсхолдер у вузлі; обидві гілки українською"
+  - "«\\n» у q4, q15, q16, q28, q33, q139, q169, q212, q225, q235, q238, q247, q248, q255 — службовий розрив рядка, зберігати як є"
+  - "«*not*», «*has*», «*others*», «*everyone*» — зірочки як наголос, переносити на відповідне українське слово, а не механічно на ту саму позицію"
+  - "q37 містить код 778901, продубльований у a38 — числа мають збігатися"
+  - "Underrail (q70, a162) і Biocorp (q44, q51) — латиницею, не відмінювати (глосарій)"
+  - "«rassophore» → рясофор (registry, нотатка до Payam); «Rassophore Prevlic» → рясофор Превлич"
+  - "«Preservation» вжито і як назву організації, і як богословське поняття «preserve/preservation» (q150, q173, q197) — розрізняти"
+
+examples:
+  - unit: q6
+    rule: "молитовна формула-обрамлення, дзеркальна пара з a3 — тримати однаковою в усіх варіантах привітання (q6, q241, q242, q244, q262)"
+    uk_fragment: "Еволюція — це Тчорт."
+    status: proposed
+  - unit: q112
+    rule: "$(#man/woman) — гендерний плейсхолдер, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#чоловік/жінка)"
+    status: proposed
+  - unit: a246
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Напасти!::"
+    status: proposed
+  - unit: q6
+    rule: "«inbreds» — зневага в устах Ставроса, не пом’якшувати, STYLE §9"
+    uk_fragment: "виродки"
+    status: proposed

@@ -1,0 +1,91 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/lu_clifton
+file_id: dialogs\characters\lu_clifton.txt
+derived_from: source-only
+units: {total: 90, npc: 51, player: 39, empty: 4}
+
+speakers:
+  - slug: clifton
+    name: Кліфтон
+    units: default
+    confidence: certain
+    evidence: [q27, q1, q2]
+    role: >-
+      Майор Протекторату, командир Південного Залізничного Форпосту; веде слідство
+      у справі зниклого потяга. Говорить статутно й безособово, ніколи не переходить
+      на приятельський тон — навіть коли дозволяє щось гравцеві.
+    relationships:
+      - "гравець — капрал Протекторату, формально підлеглий: «At ease, Corporal» (q4)"
+      - "капітан Герве із Залізничного Переїзду — сторона, що вимагає постачання; майор говорить про нього зверхньо (q44, q68)"
+      - "посол Атанас — вищий за майора, майор посилає до нього гравця (q24)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова субординація з обох боків: майор звертається за званням
+        («Corporal», «You are dismissed»), гравець відповідає «No, sir.» і
+        «Goodbye, Major.». STYLE §3.2 — формальний, службовий мовець — «ви»;
+        §3.3 — репліки гравця дзеркалять базовий регістр співрозмовника.
+      gender_cues: ["$(#boy/girl)"]
+      switches:
+        - {unit: q53, to: ви, trigger: "зверхність без зміни регістру — «$(#boy/girl)» у формі кличного відмінка, але звертання лишається на «ви»"}
+    voice:
+      register: сухий, статутний, беземоційний; повні форми без скорочень
+      idiolect:
+        - "«That is all.» — статутна формула завершення розмови, повторюється (q26, q45, q64, q72, q83); має бути ОДНАКОВОЮ в усіх юнітах"
+        - "«Is that all?» — так само повторювана формула-відсіч (q74, q76, q78, q85)"
+        - "офіційні кліше: «I am not obliged to give you any explanations», «It's classified» — канцелярит тут доречний, не згладжувати"
+        - "жодних скорочень типу ain't чи 'cause — мова бездоганно правильна"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Нарація тут описова й довга (q2, q15, q27):
+    портрет офіцера та плин часу. Підказки дій у ::…:: (a3, a8, a14, a42) —
+    інфінітив, STYLE §3.5.
+
+new_names: ["Athanas", "Fort Apogee", "South Railroad Outpost", "United Stations", "Lower Underrail"]
+
+idioms:
+  - unit: q1
+    src: "leave me to my work"
+    note: "не калькувати «залиште мене до моєї роботи»; службове «не заважайте працювати»"
+  - unit: q4
+    src: "At ease, Corporal."
+    note: "військова команда, має усталений український відповідник — не описувати своїми словами"
+  - unit: q53
+    src: "Don't act like a smartass with me"
+    note: "грубувато-зверхнє, але не лайка; не пом’якшувати до нейтрального «не жартуйте»"
+  - unit: q73
+    src: "take your sweet time"
+    note: "саркастичне; ідіому локалізувати, не калькувати «свій солодкий час»"
+  - unit: q37
+    src: "killed and ditched somewhere along the way"
+    note: "ditched тут — «кинули», а не «викопали рів»"
+  - unit: q87
+    src: "nothing but a gang of deluded vandals"
+    note: "пропагандистський регістр Протекторату; зневага має читатися"
+
+pitfalls:
+  - "q53 містить $(#boy/girl) — обидві гілки перекласти українськими кличними формами; латиниці всередині $(#…) лишати не можна"
+  - "Corporal / Major / Captain / Ambassador — звання, а не імена; у звертанні йдуть у кличному відмінку"
+  - "«Free Drones» → «Вільні Дрони», «Protectorate» → «Протекторат», «Rail Crossing» → «Залізничний Переїзд», «Junkyard» → «Звалище» — глосарій; «Underrail» лишається латиницею й не відмінюється (q82, q87)"
+  - "«That is all.» і «Is that all?» — різні формули (твердження й питання); не зливати в одну"
+  - "q15, q26, q74, q76, q78 містять \\n — розрив абзацу зберігати як є"
+  - "q40, q45, q88 закінчуються пробілом перед <end> — не «прибирати зайве»"
+  - "у q30 «You what?» — обрив недовіри, а не питання по суті; зберегти різкість"
+
+examples:
+  - unit: a3
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Віддати честь.::"
+    status: proposed
+  - unit: q1
+    rule: "звертання за званням — кличний відмінок, STYLE §6"
+    uk_fragment: "капрале"
+    status: proposed
+  - unit: q53
+    rule: "$(#boy/girl) — гендерне звертання, обидві гілки українською"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed

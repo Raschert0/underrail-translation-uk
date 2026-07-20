@@ -1,0 +1,87 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_garren
+file_id: dialogs\characters\jy_garren.txt
+derived_from: source-only
+units: {total: 86, npc: 48, player: 38, empty: 2}
+
+speakers:
+  - slug: garren
+    name: Гаррен
+    units: default
+    confidence: certain
+    evidence: [q22, q49, q86]
+    role: >-
+      Офіцер Протекторату на блокпосту біля посольства United Stations на Звалищі:
+      пропускає до посла, вербує гравця як інформатора проти Абрама й погрожує
+      стратою за шпигунство. Говорить статутною мовою — рівно, безособово, без емоцій.
+    relationships:
+      - "Абрам — ціль розслідування; Гаррен називає його «this Abram person» підкреслено відсторонено"
+      - "полковник Каткарт, Fort Apogee — вище командування, до якого Гаррен передає вітання"
+      - "Мора — в’язня, яку Абрам намагається витягти; Гаррен відмовляється про неї говорити (q81)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні: звертається за званням («Corporal», q4, q46) або
+        «citizen» (q85, q86), будує фрази канцелярськими зворотами («be advised that»,
+        «I'm allowed and required to»). STYLE §3.2 — формальний, службовий мовець.
+        Плейсхолдер $(#mister/miss) у q65 підтверджує «ви» напряму.
+      gender_cues:
+        - "$(#mister/miss)"
+    voice:
+      register: сухий, статутний, підкреслено безособовий; загрози без підвищення тону
+      idiolect:
+        - "канцелярит замість розмови: «be advised that», «regardless of jurisdictional boundaries», «effectively makes you an enemy spy»"
+        - "жодних скорочень у формальних блоках (q51, q52, q71) — на відміну від коротких наказів; контраст зберігати"
+        - "погроза подана як процедура: «I could terminate you now, but I'm going to let you go if…» (q18) — холодна, не емоційна"
+        - "накази короткі й безособові: «Hurry now.», «Halt, citizen.», «Give it to me.»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; наративних юнітів мало: q5, q22, q64"
+
+new_names: ["United Stations", "Fort Apogee"]
+
+idioms:
+  - unit: q29
+    src: "you have outgrown your usefulness, spy"
+    note: >-
+      Евфемізм смертного вироку, поданий як кадрове рішення. Зберегти канцелярську
+      холодність — не підсилювати до відкритої погрози.
+  - unit: q20
+    src: "I will also be keeping my eyes on you."
+    note: "Формальне «наглядати», не розмовне «пильную за тобою» — регістр вузла «ви»."
+  - unit: q34
+    src: "You better watch your back now."
+    note: >-
+      Єдине місце, де Гаррен зривається в розмовний тон. Ідіому локалізувати, але
+      на «ти» НЕ переходити — базовий регістр тримається.
+
+pitfalls:
+  - >-
+    Наказовий спосіб успадковує «ви» — STYLE §3.4: «Hurry now.» → «Покваптеся», а не
+    «Поквапся»; «Halt, citizen.» → «Стійте, громадянине».
+  - >-
+    Звертання за званням «Corporal» (q4, q46) і «citizen» (q85, q86) — це два різні
+    стани гри: гравець або зарахований до Протекторату, або ні. Обидва — кличний
+    відмінок; звання з малої літери за конвенцією registry.yaml для kind: title.
+  - "q65 містить і $(#mister/miss), і $(context.player.Name) — плейсхолдер імені не відмінювати, звертання узгодити з ним за родом."
+  - "Protectorate → Протекторат, Faceless → Безликі, Junkyard → Звалище, South Gate Station → Станція Саут-Гейт, burrower → копака (глосарій)."
+  - "Underrail і Biocorp (q49, q51, q52, q54) — латиницею, не відмінювати: «інфраструктури Underrail», «об’єктів Biocorp»."
+  - "q13, q29, q41, q45 закінчуються пробілом перед <end> — зберегти."
+  - "a26 «cybernetic burrower spawn» — не «зародок копаки» навмання; це предмет-пристрій, потрібен єдиний варіант із квестовими вузлами про Абрама."
+
+examples:
+  - unit: q4
+    rule: "звертання за званням у кличному відмінку, з малої — registry.yaml, kind: title"
+    uk_fragment: "Гарна робота, капрале."
+    status: proposed
+  - unit: q65
+    rule: "$(#mister/miss) — гендерне звертання на «ви», STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q44
+    rule: "наказовий спосіб успадковує «ви» — STYLE §3.4"
+    uk_fragment: "Покваптеся."
+    status: proposed

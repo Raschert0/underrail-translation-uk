@@ -1,0 +1,140 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/events/xpbl/kirill_postmutiehuntersbattle
+file_id: dialogs\events\xpbl\kirill_postmutiehuntersbattle.txt
+derived_from: source-only
+units: {total: 33, npc: 26, player: 7, empty: 0}
+
+speakers:
+  - slug: juraj
+    name: Юрай
+    units: default
+    confidence: certain
+    evidence: [q2, q9, q10, q11, q14]
+    role: >-
+      Ватажок банди після вбивства Карона: виголошує поминальну промову за
+      загиблими й веде вцілілих на корабель. Говорить піднесено, майже
+      літургійно, і сам себе картає за минуле.
+    relationships:
+      - "Грітц — підлеглий-цинік, кепкує з жалоби Юрая (q2, q14)"
+      - "Сенна — підлегла, гасить сварку між ними (q3) і співчуває (q9)"
+      - "Карон — колишній наймач, якого банда щойно вбила"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Банда вуличних мутіїв, свої між собою; гравець — мутій-силовик у складі
+        загону, якого ведуть у вантажний відсік. STYLE §3.2 — грубі, свої,
+        вуличні: «ти».
+      gender_cues: []
+    voice:
+      register: урочистий, надгробний, з надривом
+      idiolect:
+        - "проповідницьке «we shall», «we must», емфаза зірочками *must* — зберігати"
+        - "образ «promised land» / «refuge» повторюється в усіх гілках — тримати один сталий переклад"
+        - "у q10 зривається на сповідь із заїканням «I-I’m glad» — відтворити на українському приголосному, STYLE §9"
+
+  - slug: gritz
+    name: Грітц
+    units: [q2, q5, q14, q21, q23, q25, q31, q32]
+    confidence: certain
+    evidence: [q15, q21, q26]
+    role: >-
+      Арбалетник-марадер, для якого весь похід — це здобич. Постійно збиває
+      пафос Юрая на жарт і говорить про «нагороду», поки інші оплакують мертвих.
+    relationships:
+      - "Юрай — ватажок, з якого Грітц глузує, але команд слухається"
+      - "Сенна — дорікає йому за жадібність (q22, q26)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "вуличний свій; до гравця звертається панібратським «friend»"
+      gender_cues: []
+    voice:
+      register: розв’язний, глумливий, жадібний
+      idiolect:
+        - "усічене lil’ (q5, q14, q32) — словесний тик, тримати просторічну форму"
+        - "римований жарт «Lil’ boaty, take us to the booty» — потрібна українська рима, не калька"
+        - "розтягнуті голосні «amaaazing», «blaaah» — зберігати розтягування"
+
+  - slug: senna
+    name: Сенна
+    units: [q3, q9, q22, q24, q26, q28, q29]
+    confidence: certain
+    evidence: [q3, q11, q22, q26]
+    role: >-
+      Наймолодша в загоні; пристала до банди дорогою і єдина ставиться до втечі
+      як до порятунку, а не до здобичі. Нервова, миротворить між Юраєм і Грітцом.
+    relationships:
+      - "Прайс — загиблий супутник, з яким вона пристала до банди (q28)"
+      - "Грітц — дратує її мародерством (q22, q26)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Той самий вуличний регістр загону; у сольній гілці (q28, q29) переходить
+        на довірливу сповідь — усе одно «ти», STYLE §3.2.
+      gender_cues: []
+    voice:
+      register: нервовий, надламаний, довірливий у сольній гілці
+      idiolect:
+        - "обірвані речення з трикрапкою, самоперебивання «I... I»"
+        - "мовець — жінка: дієслова минулого часу про себе в жіночому роді"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ::Board the ship and set sail.:: — інфінітив, STYLE §3.5"
+
+new_names: ["Kharon", "Dannath", "Jaxon", "Madelyn", "Craig", "Pryce"]
+
+idioms:
+  - unit: q2
+    src: "Let the dead weight sink to the bottom"
+    note: "«баласт», не «мертва вага»; фраза цинічна — не пом’якшувати"
+  - unit: q10
+    src: "almost from the get-go"
+    note: "«мало не від самого початку», не калькувати"
+  - unit: q14
+    src: "eyes on the prize"
+    note: "локалізувати як усталене «не спускай очей з наживи», не дослівно"
+  - unit: q14
+    src: "our lil’ race to the bottom"
+    note: "гра з ідіомою «race to the bottom» — потрібен український відповідник змагання в падінні"
+  - unit: q15
+    src: "we’ve made it to the finish line"
+    note: "спортивна метафора в устах мутія — тримати розмовною"
+  - unit: q23
+    src: "you cannot get disappointed if you have no expectations"
+    note: "афоризм Грітца; будувати як приказку, не як переклад речення"
+  - unit: q31
+    src: "ridden with riches, all ripe for the taking"
+    note: "«бери — не хочу»; не калькувати «стиглі для взяття»"
+  - unit: q32
+    src: "someone who’s looking for his twisted spine"
+    note: "«шукає, кому мститися»; хребет тут — зневажливе означення Карона, образ зберегти"
+
+pitfalls:
+  - "::wheeze:: розсипано по всіх репліках — глосарій дає ::хрип::; ділити українську фразу в тих самих місцях. У q3 воно з великої (::Wheeze::) — регістр зберегти"
+  - "q1, q8, q13 — три варіанти однієї промови з різними списками загиблих; переклад має бути однаковим слово в слово всюди, де текст збігається"
+  - "Kharon — персонаж, а не монета: глосарійне charon → харон стосується грошей"
+  - "звертання «Juraj» у q2, q9, q14 вказує на адресата, а не на мовця"
+  - "гравець-мутій має лише ::…:: репліки (a7, a12, a17, a20, a27, a30, a33) — це підказки дій, не пряма мова"
+  - "звертання NPC до гравця («friend», «you’ll have to stay») — уникати минулого часу про гравця або ставити $(#…), STYLE §2"
+
+examples:
+  - unit: q5
+    rule: "усічене lil’ — просторічний тик Грітца, STYLE §9"
+    uk_fragment: "наша солоденька винагородка"
+    status: proposed
+  - unit: q10
+    rule: "заїкання відтворюємо на українському приголосному — STYLE §9"
+    uk_fragment: "я-я радий"
+    status: proposed
+  - unit: q7
+    rule: "підказки дій усередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Зійти на корабель і відпливти.::"
+    status: proposed
+  - unit: q25
+    rule: "панібратське «friend» від Грітца — «ти», STYLE §3.2"
+    uk_fragment: "сюди, е-е... друже?"
+    status: proposed

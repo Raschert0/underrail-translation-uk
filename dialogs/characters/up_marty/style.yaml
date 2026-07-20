@@ -1,0 +1,72 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/up_marty
+file_id: dialogs\characters\up_marty.txt
+derived_from: source-only
+units: {total: 33, npc: 20, player: 13, empty: 1}
+
+speakers:
+  - slug: marty
+    name: Марті
+    units: default
+    confidence: certain
+    evidence: [q1]
+    role: >-
+      Крамар-шукач у Верхній Underrail, який торгує знахідками й тисне на
+      покупця нав’язливою привітністю. Уся його мова — це продаж, навіть коли
+      він відповідає на особисті питання.
+    relationships:
+      - "«асоціати» біля крамниці — найманий захист, яким він хизується (q17, q18)"
+      - "дружини не має; вигадує її на ходу, щоб не зізнатися, що збрехав (q20)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Обслуга й торгівець: «dear customer» у майже кожній репліці, гендерне
+        $(#man/woman) — сильний сигнал на «ви» (STYLE §3.2). Гравець дзеркалить
+        (STYLE §3.3), навіть у роздратованому a21.
+      gender_cues: ["$(#man/woman)"]
+    voice:
+      register: улесливий, метушливий, з нав’язливою чемністю крамаря
+      idiolect:
+        - "паразитне «yes» наприкінці фраз — головний словесний тик, обов’язково відтворити"
+        - "дзеркальне «no» у заперечних реченнях: «I don’t want that, no.»"
+        - "звертання «dear customer» замість імені — повторюється як формула"
+        - "довгі синонімічні переліки (bandits, robbers, raiders…) — комічний прийом, не скорочувати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; довга портретна вставка на початку q1"
+
+new_names: ["Marty Quick", "Upper Underrail"]
+
+idioms:
+  - unit: q13
+    src: "Chop chop, dear customer!"
+    note: "підганяння, не звуконаслідування; розмовне «швидше-швидше»"
+  - unit: q17
+    src: "did you come straight from the caves"
+    note: "закид у дикунстві — локалізувати як «ти що, з печери виліз», але на «ви»"
+  - unit: q12
+    src: "It is just an expression"
+    note: "«це просто така фігура мови», не «це просто вираз»"
+  - unit: q29
+    src: "low temperatures - low prices"
+    note: "рекламний слоган із паралелізмом — зберегти симетрію, не пояснювати"
+
+pitfalls:
+  - "«Underrail» — глосарій: латиницею й не відмінювати; «Upper Underrail» потребує централізованого рішення щодо означення"
+  - "«scavengers» (q8) — глосарій: шукачі"
+  - "a3 містить ::Barter.:: — підказка дії, інфінітив: ::Торгувати.:: (STYLE §3.5)"
+  - "Переліки в q17/q18 навмисно надлишкові — не згортати синоніми в одне слово"
+  - "q1 і q20 — «yes»/«no» тики; не викидати їх як зайві частки"
+
+examples:
+  - unit: q1
+    rule: "гендерне звертання, STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: a3
+    rule: "підказка дії — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

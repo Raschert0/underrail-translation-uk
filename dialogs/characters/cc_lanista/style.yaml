@@ -1,0 +1,99 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_lanista
+file_id: dialogs\characters\cc_lanista.txt
+derived_from: source-only
+units: {total: 136, npc: 90, player: 46, empty: 2}
+
+speakers:
+  - slug: lanista
+    name: Ланіста
+    units: default
+    confidence: certain
+    evidence: [q51, q132]
+    role: >-
+      Розпорядник Арени Центрального Міста: набирає бійців, призначає бої й
+      видає нагороди. Представляється сам у q51 — «I'm Syntar Lanista»; q132 —
+      вступна нарація про нього, отже весь вузол одномовцевий.
+    relationships:
+      - "Карніфекс — колишній Інвіктус, предмет його майже фанатського захоплення (q85, q86)"
+      - "Doc Filibert — штатний медик Арени, про якого він відгукується схвально (q72, q73)"
+      - "Andrea — відповідає за Гонитву, до неї він відсилає гравця (q45, q46)"
+      - "Archibald Knight — власник Арени, згадується шанобливо-діловито (q82)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Грубуватий, свій, звертається до гравця «halfwit» і командує в наказовому
+        способі («Get in there - and dominate!») — STYLE §3.2. Плейсхолдерів
+        $(#sir/ma'am) у вузлі немає.
+      switches:
+        - {unit: q45, to: ти, trigger: "формула «miss Andrea» — ввічливість до третьої особи, а не зміна регістру до гравця; не переносити на звертання"}
+    voice:
+      register: гучний, втомлено-цинічний, естрадно-зазивний; шоумен на роботі
+      idiolect:
+        - "I dunno — головний словесний тик, вставлений посеред речення без значення; тримати як паразит («не знаю», «ну», «типу»), не вирізати"
+        - "Good, good, good — потрійний повтор схвалення (q51, q70, q127)"
+        - "hardcore — оцінка-штамп, лишається запозиченням («хардкор»), як і в назві Хардкор Сіті Бар"
+        - "dominate / domination — нав’язливе слово на позначення перемоги; тримати один корінь по всьому вузлу"
+        - "halfwit — його звичне зневажливе слово про бійців; двічі обриває себе на ньому (q36, q41) — обрив має бути чутний"
+        - "Yup — коротке недбале підтвердження (q55)"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; довга вступна нарація q132 задає тон вузла"
+
+new_names: ["Syntar", "Carnifex", "Dread Lord", "Bull's Eye", "Master Exploder",
+            "Chemical Agent", "The Surgeon", "Zap", "Stygian Exorcist",
+            "Pulverizer", "Filibert", "Jerry", "Mad Butchers", "Deathhammers",
+            "Gauntlet"]
+
+idioms:
+  - unit: q1
+    src: "I'm completely bamboozled"
+    note: "розмовне приголомшення; не калькувати, шукати живий відповідник"
+  - unit: q2
+    src: "you got dominated"
+    note: "той самий корінь, що й у решті вузла — не міняти на синонім заради різноманіття"
+  - unit: q36
+    src: "He has dropped down to fighting halfwits lik-- khm, challengers like you"
+    note: "обрив на середині слова — відтворити обривом українського слова, не крапками замість фрази"
+  - unit: q41
+    src: "two other poor ha--\\n\\n*Challengers*"
+    note: "той самий прийом; зірочки навколо слова — авторський наголос, зберегти"
+  - unit: q79
+    src: "he or she wins at life. Literally!"
+    note: "розмовне «wins at life» — не буквально «виграє в житті»"
+  - unit: q82
+    src: "it'd make your head spin and drop off"
+    note: "гіпербола-жарт; локалізувати, а не калькувати"
+  - unit: q107
+    src: "Ran out of batteries!"
+    note: "жарт про щойно вбитого суперника-робота; зберегти як репліку, а не пояснення"
+
+pitfalls:
+  - "$(context.player.Name) (q8, q31, q116, q120, q126, q135 та в a52, a62) — не відмінювати всередині плейсхолдера; перебудувати фразу під називний"
+  - "$(context.playerArenaTitle) (q14, q19, q105, q107, q111, q134) — те саме; титул підставляється готовим"
+  - "q111 містить $(#his/her) — гендерна гілка про гравця, обидві форми українською"
+  - "Invictus — глосарій: «Інвіктус»; у q1, q5, q8, q79 це титул, а в q7 «Dread Lord, the Invictus» — чинний носій"
+  - "stygian coins (q2, q105–q127) — глосарій: «стигійська монета»; charons (q82) — «харон», монета"
+  - "psi beetles (q27), siphoners (q29), burrowers (q31), rathounds (q41) — усі в глосарії, брати готові форми"
+  - "Biocorp, Coretech, JKK, Praetorian Security, ArenaNow, Underrail (q81, q82, q86, q94) — латиницею, не відмінювати"
+  - "Deep Caverns (q53), Core City (q61), Hardcore City Bar (q44, q46), Arena (q82) — глосарні топоніми"
+  - "zoner (q21, q35) — глосарій: «зонер», запозичення; pipeworker (q21, q73) — «труболаз»"
+  - "the Gauntlet — назва другого закладу, у корпусі ще не закріплена; тримати один варіант по всьому вузлу"
+  - "q45, q47 містять типографські лапки “grandiose.” — переводити на « », STYLE §5"
+
+examples:
+  - unit: q8
+    rule: "наказовий спосіб успадковує «ти» — STYLE §3.4"
+    uk_fragment: "заходь — і доміінуй"
+    status: proposed
+  - unit: q55
+    rule: "I dunno як паразит усередині речення, не вирізати"
+    uk_fragment: "ну, не знаю"
+    status: proposed
+  - unit: q127
+    rule: "потрійний повтор схвалення зберігається як повтор"
+    uk_fragment: "Добре, добре, добре"
+    status: proposed

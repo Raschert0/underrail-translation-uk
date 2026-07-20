@@ -1,0 +1,56 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jackquicksilver2
+file_id: dialogs\characters\jackquicksilver2.txt
+derived_from: source-only
+units: {total: 18, npc: 10, player: 8, empty: 1}
+
+speakers:
+  - slug: jackquicksilver
+    name: мовця встановити не вдалося
+    units: default
+    confidence: probable
+    evidence: [q1, q8, q13]
+    role: >-
+      Контрабандист-торговець, який щойно використав гравця як приманку і спокійно
+      в цьому зізнається. Ключ до голосу — незворушна ввічливість людини, яка
+      вважає обман частиною чесної угоди.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Показово уникає скорочень там, де розмовна мова їх вимагає: «I honestly did
+        not expect», «I always honor the deal», «Farewell» — підкреслено вибудувана,
+        майже старомодна мова (STYLE §3.2). Гендерних плейсхолдерів у вузлі немає.
+    voice:
+      register: рівний, чемний, стримано-іронічний; жодної грубості навіть у зізнанні в обмані
+      idiolect:
+        - "повні форми замість скорочень — головна прикмета, що відрізняє його від решти торговців корпусу"
+        - "звертання на ім’я гравця через $(context.player.Name) — знак навмисної ввічливості"
+        - "формульні звороти: «I'm a man of my word», «Farewell»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Jack Quicksilver"]
+
+idioms:
+  - unit: q3
+    src: "use someone as a decoy"
+    note: "«приманка/підсадна качка» — брати український відповідник, узгоджений із a14"
+  - unit: q10
+    src: "The trains are out"
+    note: "«поїзди не ходять», а не «поїзди зовні»"
+
+pitfalls:
+  - "q8 і q13 містять $(context.player.Name) — плейсхолдер не відмінювати і нічого всередину не дописувати; речення будувати так, щоб ім’я стояло в називному"
+  - "a6 і a17 ::Barter.:: — підказка дії, інфінітив (STYLE §3.5)"
+  - "ім’я мовця в тексті жодного разу не звучить — воно лише в назві теки; канонічного варіанта немає"
+  - "q1 «I honestly did not expect you should survive» — граматична неправильність оригіналу, ймовірно навмисна пишномовність; не «виправляти» в бік гладкості"
+
+examples:
+  - unit: q8
+    rule: "плейсхолдер імені стоїть у називному, речення підлаштовується — STYLE §4"
+    uk_fragment: "$(context.player.Name), я завжди"
+    status: proposed

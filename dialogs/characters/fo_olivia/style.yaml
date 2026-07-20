@@ -1,0 +1,91 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fo_olivia
+file_id: dialogs\characters\fo_olivia.txt
+derived_from: source-only
+units: {total: 104, npc: 58, player: 46, empty: 3}
+
+speakers:
+  - slug: olivia
+    name: Олівія
+    units: default
+    confidence: certain
+    evidence: [q6, q63]
+    role: >-
+      Єдина хімікиня Ливарні, виготовляє тротил для шахти; дружина Ніколаса,
+      яку той замовив убити. Говорить стримано й освічено, охоче й фахово
+      пояснює хімію, зривається лише коли мова заходить про чоловіка.
+    relationships:
+      - "Ніколас — чоловік, двадцять років шлюбу; від «blissful love» до відвертої ненависті, дзеркальна пара до вузла fo_nicolas"
+      - "шеф Баннер — до нього вона відсилає гравця з доносом (q46)"
+      - "мер — згадує його страхову виплату за смерть на роботі як джерело грошей"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Перша репліка до незнайомця — «May I help you?»; тримає ввічливу
+        дистанцію, до самого кінця не переходить на панібратство. Освічена,
+        не вулична — STYLE §3.2.
+      switches:
+        - {unit: q60, to: ви, trigger: "лють після провалу («You barren-headed imbecile») — образа різка, але регістр не падає на «ти»"}
+    voice:
+      register: ввічливий, діловий; у гніві — різкий, але не вуличний
+      idiolect:
+        - "хронічний кашель: ::She coughs.:: пронизує майже кожну репліку — ритмічний маркер персонажа, не декоративна вставка, зберігати кожне входження"
+        - "«golden» як схвалення (q10, q87) — той самий сленг Ливарні, що в Ніколаса; тримати спільний відповідник"
+        - "«muck» як цензурна лайка (q2, q53, q60) — не пом’якшувати, STYLE §9"
+        - "у фаховому фрагменті q69–q70 переходить на точну технічну мову без розмовності"
+    gender_note: >-
+      Мовиця — жінка: минулий час і прикметники в її репліках у жіночому роді.
+      Це стосується лише її власної мови; звертання до гравця гендеронезалежні.
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; вставки ::She coughs.::, ::She laughs.:: і довгі описові блоки q4, q14, q20"
+
+unattributed_units: []
+
+new_names: ["Banner", "Underrail Express"]
+
+idioms:
+  - unit: q24
+    src: "his brain runs faster than Underrail Express trains"
+    note: "порівняння з місцевим потягом; «Underrail» за глосарієм лишається латиницею й не відмінюється"
+  - unit: q20
+    src: "Our love sunk all the way to Deep Caverns"
+    note: "гра на топонімі як на дні світу; Deep Caverns за глосарієм — «Глибокі Печери», зберегти саме топонім, не замінювати на «дно»"
+  - unit: q18
+    src: "Are you derailed?"
+    note: "внутрішньоігрова лайка світу Underrail — тримати єдину форму з fo_nicolas (там a66)"
+  - unit: q70
+    src: "you could blow yourself to smithereens"
+    note: "локалізувати розмовним «рознести на друзки», не калькувати"
+  - unit: q60
+    src: "You barren-headed imbecile."
+    note: "образа з місцевим колоритом; лишається образою, не пом’якшувати"
+  - unit: q9
+    src: "You're... the boss."
+    note: "двозначне: і визнання, і холодна оцінка; зберегти паузу трьома крапками"
+
+pitfalls:
+  - "$(context.player.Name) у a5 не відмінювати — фраза має лягати під називний відмінок"
+  - "хімічна термінологія q66–q70 має бути точною: trinitrotoluene / TNT, sulfuric і nitric acid, toluene, beaker, ice bath; «degrees centigrade» — градуси Цельсія"
+  - "«charons» (q25, q27, q33) і «stygian coins» (q58, q59) — за глосарієм «харон» і «стигійська монета»; обидві назви одної валюти, розрізняти"
+  - "Ironheads (q97) — за глосарієм «Залізноголові»; Messer (q96) — «Мессер» за registry"
+  - "«work-related accident» / «workplace accident» повторюється як формула угоди (q21, q25, q37, q60) — тримати однаковий український відповідник, зокрема через межу вузлів із fo_nicolas"
+  - "a48, a49, a50 містять ::Attack!:: — службова підказка дії, інфінітив за STYLE §3.5"
+  - "\\n\\n усередині q4, q10, q12, q14, q16, q20, q37, q46, q52, q53, q60 — розрив абзацу, зберігати"
+
+examples:
+  - unit: q7
+    rule: "нарація ::…:: — «ви», STYLE §3.1"
+    uk_fragment: "::Вона кашляє.::"
+    status: proposed
+  - unit: q87
+    rule: "мовиця — жінка: власний минулий час у жіночому роді, без плейсхолдера"
+    uk_fragment: "я непокоїлася"
+    status: proposed
+  - unit: q50
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Напасти!::"
+    status: proposed

@@ -1,0 +1,91 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/lux_milton
+file_id: dialogs\characters\lux_milton.txt
+derived_from: source-only
+units: {total: 55, npc: 27, player: 28, empty: 2}
+
+speakers:
+  - slug: milton
+    name: Мілтон
+    units: default
+    confidence: certain
+    evidence: [a24, q2]
+    role: >-
+      Озброєний одинак, що отаборився в печерах і тримає гравця на мушці від
+      першої репліки. Йому потрібен ключ від скрині з тіл двох загиблих; платить
+      п’ятдесят харонів і торгується лише під загрозою.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний, панібратськи-погрозливий мовець: гендерне звертання
+        $(#buddy/girl), пряма лайка «you dirty rat», «worm», обіцянка «a bullet
+        between your eyes». Гравець дзеркалить тим самим регістром — «don’t
+        shoot, man», «Sorry, buddy, no deal», «doing business with ya».
+      gender_cues: ["$(#buddy/girl)", "$(#gentlemen/human beings)"]
+      switches:
+        - {unit: q47, to: ти, trigger: "удавана ввічливість «both civilized $(#gentlemen/human beings)» — не перехід на «ви», а іронічна показна чемність усередині того самого «ти»"}
+    voice:
+      register: спокійна, контрольована погроза; рівний тон навіть у момент, коли цілиться
+      idiolect:
+        - "нарація q2 прямо задає ключ: «a voice that seems rather calm and relaxed considering the tense situation» — погрози звучать буденно, без крику"
+        - "«none of your business» як відмова-рефрен (q8, q35); повторне питання обриває різко (q37)"
+        - "зірочки навколо наголошених слів — авторська розмітка наголосу, зберігати: «*yes* it is», «*waiting*»"
+        - "у q22 голос свідомо грубішає — нарація це називає («drops in pitch and becomes grittier»); контраст із базовим спокоєм має читатися"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, навіть там, де Мілтон у тій самій репліці
+    каже «ти» (q2, q13, q15, q22, q47, q51).
+
+new_names: ["Milton"]
+
+idioms:
+  - unit: q19
+    src: "Are you derailed?"
+    note: >-
+      внутрішньоігрова лайка зі значенням «здурів?»; тримається на залізничній
+      метафорі назви Underrail — зберегти саме залізничний образ, не замінювати
+      нейтральним «збожеволів»
+  - unit: q4
+    src: "doing anything funky"
+    note: "розмовне «щось утнеш»; не калькувати"
+  - unit: a14
+    src: "It was nice doing business with ya"
+    note: >-
+      ділова формула, знижена редукцією «ya»; передавати розмовністю самої
+      фрази, а не приміткою про вимову
+  - unit: q11
+    src: "Easy money."
+    note: "усталене «легкі гроші», не «проста оплата»"
+  - unit: a44
+    src: "this staring contest"
+    note: "гра в гляділки; локалізувати образ, не описувати його"
+  - unit: q17
+    src: "a bullet between your eyes"
+    note: "стала погроза — «кулю межи очі»; повторюється в q19, тримати однаково"
+
+pitfalls:
+  - "$(context.player.Name) у a3, q4 (двічі), a46 — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному"
+  - "$(#gentlemen/human beings) у q47 — пара асиметрична (рід / нейтральне); в українському потрібні дві гендеровані форми"
+  - "charons (q11, q17, q20, q30, q33) — глосарій: харон (монета), з малої"
+  - "rathounds (a10) — глосарій: щурчаки"
+  - "::[Mercantile]:: (a16) і ::[Intimidate]:: (a46) — теги перевірок навичок, дужки й формат не чіпати"
+  - "q28 і q40 — майже ідентична ремарка («He frowns, but says nothing otherwise» / «but otherwise says nothing»); різниця лише в порядку слів, не робити з них різні репліки"
+  - "q45 дослівно повторює другу половину q2 — переклад має збігатися слово в слово"
+
+examples:
+  - unit: q2
+    rule: "$(#buddy/girl) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/дівчино)"
+    status: proposed
+  - unit: a23
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed
+  - unit: a52
+    rule: "те саме правило для виходу з діалогу, STYLE §3.5"
+    uk_fragment: "::Піти.::"
+    status: proposed

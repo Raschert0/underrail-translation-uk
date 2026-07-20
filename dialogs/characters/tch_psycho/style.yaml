@@ -1,0 +1,62 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_psycho
+file_id: dialogs\characters\tch_psycho.txt
+derived_from: source-only
+units: {total: 7, npc: 5, player: 2, empty: 1}
+
+speakers:
+  - slug: creature
+    name: істота
+    units: default
+    confidence: certain
+    evidence: [q1, q3, q7]
+    role: >-
+      Величезний старий жук, об’єкт взаємодії, а не співрозмовник. У вузлі
+      немає жодної прямої мови: всі п’ять q-юнітів — суцільна нарація.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Прямої мови немає взагалі, тож регістр цілком визначає нарація —
+        «ви» без винятків (STYLE §3.1).
+    voice:
+      register: без голосу — лише опис
+
+narration:
+  present: true
+  note: >-
+    Увесь вузол — нарація, «ви» без винятків (STYLE §3.1). q3 і q6 —
+    розгорнуті описові пасажі з наукоподібною лексикою.
+
+new_names: []
+
+idioms:
+  - unit: q3
+    src: "Miniature landscapes adorn the beetle's back"
+    note: "метафора про рельєф панцира; образ зберегти, не спрощувати до «візерунки»"
+  - unit: q3
+    src: "But time to study it you do not have, however"
+    note: >-
+      Навмисна інверсія з надлишковим «however» — стилістична незграбність
+      джерела. Українською варто вирівняти в природний порядок слів.
+  - unit: q3
+    src: "knocked out for the time being"
+    note: "«наразі непритомна», не про удар як такий"
+
+pitfalls:
+  - "попри назву теки tch_psycho, тут не персонаж на прізвисько Psycho з реєстру, а безіменна істота — не переносити ім’я «Псих» у текст"
+  - "«carapace» — «панцир», послідовно в q3 і q6"
+  - "«neural pacifier» у a5 і q6 — назва предмета, узгодити з knowledge/"
+  - "рід істоти українською слід тримати єдиним у всіх трьох ремарках"
+  - "у a2 і a5 підказки дії в ::…:: — інфінітив за STYLE §3.5"
+
+examples:
+  - unit: a2
+    rule: "STYLE §3.5 — підказка дії в ::…:: інфінітивом"
+    uk_fragment: "::Піти.::"
+    status: proposed
+  - unit: q1
+    rule: "STYLE §3.1 — нарація на «ви»"
+    uk_fragment: "не реагує на вашу присутність"
+    status: proposed

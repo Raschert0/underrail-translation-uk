@@ -1,0 +1,57 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_priscilla
+file_id: dialogs\characters\cc_priscilla.txt
+derived_from: source-only
+units: {total: 6, npc: 5, player: 0, empty: 1}
+
+speakers:
+  - slug: priscilla
+    name: Прісцилла
+    units: default
+    confidence: certain
+    evidence: [q3, q4]
+    role: >-
+      Вуличний персонаж Центрального Міста, що відгавкується від кожного, хто
+      підійде, і ревниво стереже свого чоловіка. Увесь вузол — п’ять коротких
+      відсіків без жодної розмови.
+    address:
+      npc_to_player: ти
+      player_to_npc: н/д
+      basis: >-
+        Самі накази й образи, жодної ввічливої формули, знижена вимова —
+        «ти», STYLE §3.2. Реплік гравця у вузлі немає.
+    voice:
+      register: різкий, задирливий, дуже стислий
+      idiolect:
+        - "стала заміна you → «ya» на початку речення (q2, q3, q4) — просторічна вимога, передавати зниженою формою"
+        - "випадання g: «lookin'»"
+        - "«Aye?» (q5) — недбале «що?», не згода"
+
+narration:
+  present: false
+
+new_names: []
+
+idioms:
+  - unit: q4
+    src: "ya frump"
+    note: >-
+      образа на адресу жінки — неохайна, немодна, розповніла; потрібне
+      українське лайливе слово того самого регістру, не пом’якшувати (STYLE §9)
+  - unit: q3
+    src: "ya pipeworker"
+    note: >-
+      фахова назва, вжита як образа (pipeworker → «труболаз», глосарій);
+      зневага має читатися саме через назву професії, слово не міняти
+
+pitfalls:
+  - "q4 «ya stay away from me man» — «my man» у зниженій вимові, тобто «від мого чоловіка», а не звертання «чоловіче»"
+  - "q3 і q4 адресовані різним статям гравця (труболаз — чоловікові, frump — жінці), але плейсхолдерів тут немає; додавати їх не треба"
+  - "репліки навмисно однослівні — не розгортати «Aye?» і «What?» у повні речення"
+
+examples:
+  - unit: q2
+    rule: "знижений регістр і «ти», STYLE §3.2"
+    uk_fragment: "Чо’ треба?"
+    status: proposed

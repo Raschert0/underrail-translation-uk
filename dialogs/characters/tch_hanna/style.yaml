@@ -1,0 +1,103 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_hanna
+file_id: dialogs\characters\tch_hanna.txt
+derived_from: source-only
+units: {total: 61, npc: 37, player: 24, empty: 1}
+
+speakers:
+  - slug: hanna
+    name: Ганна
+    units: default
+    confidence: certain
+    evidence: [q3, q25]
+    role: >-
+      Ефрейторка Інституту Тчорта, комірниця зброярні «Preservation»; молода,
+      народжена в Інституті й щиро ним захоплена. Продає спорядження й видає
+      гравцеві обрядову рясу перед посвятою.
+    relationships:
+      - "Mediant Samuel — прямий командир; про нього говорить із пієтетом, «His Notability»"
+      - "Nevil — рясофор, якого шукають; для неї просто мовчазний клієнт зброярні"
+      - "Harmost Stavros — «His Excellency», найвища ланка, зараз у Глибоких Печерах"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при видачі майна, що діє «under Mediant Samuel's direct
+        orders» і озвучує розпорядження начальства (q5, q54, q56), — STYLE §3.2
+        дає «ви». Її теплота виражена лексикою («Hey», «Lucky you», сміх), а не
+        зміною регістру; гравець дзеркалить (§3.3). Увага: звертання гравця
+        «sister» (a49) і «See ya later, Hanna» (a51) — орденське побратимство,
+        а не перехід на «ти».
+      gender_cues: ["$(#him/her)"]
+    voice:
+      register: світлий, жвавий, службово-привітний
+      idiolect:
+        - "нав’язливе totally / totally apex — головний словесний тик (q16, q26, q28, q29, q34, q43, q53); потрібен ОДИН стабільний український відповідник-паразит, що працює і як прислівник, і як окреме «Totally.»"
+        - "apex — її оцінне слівце найвищої похвали, окреме від totally; тримати сталим"
+        - "молодіжна недбалість проривається крізь службову мову: «that I ain't got a clue», «Gotta», «Hey»"
+        - "часто називає співрозмовника на ім’я — ознака привітності, зберігати всі входження"
+        - "сміх і хихотіння в нарації — її наскрізна характеристика (q42, q43, q45, q48)"
+
+narration:
+  present: true
+  note: >-
+    ::She nods.::, ::She chuckles.::, ::She waves at you.:: та розгорнутий
+    портретний блок q3 — «ви» без винятків, STYLE §3.1. Підказка дії
+    ::Barter.:: (a19, a22) — інфінітив, глосарій дає «::Торгувати.::».
+
+new_names:
+  - "Efreitor"
+  - "Mediant"
+  - "Harmost"
+  - "Vathosphore"
+  - "Preservation"
+  - "Investigation"
+  - "Lunatics"
+
+idioms:
+  - unit: q16
+    src: "that I ain't got a clue"
+    note: >-
+      різкий спад у просторіччя посеред службової мови — свідомий контраст,
+      не вирівнювати в нейтральне «не знаю»
+  - unit: a41
+    src: "I hope I have your divided attention!"
+    note: >-
+      каламбур на мітозі: undivided attention (нероздільна увага) проти поділу
+      клітини. Калька не спрацює — потрібен український каламбур на «поділ/
+      неподільний», і він мусить лишити впізнаваним обрив «Undivid--» у q43
+  - unit: q25
+    src: "Institute-born here."
+    note: "самопредставлення однією фразою, не розгортати в підрядне речення"
+  - unit: q29
+    src: "totally apex armory"
+    note: "не описувати як «чудова» — це саме її сленгове слівце, а не оцінка"
+  - unit: q11
+    src: "one of their most apex hours"
+    note: "apex тут витісняє звичне «finest hours» — зберегти неоковирність її мови"
+
+pitfalls:
+  - "$(context.player.Name) у q2, q3, q5, q16, q21, q23, q31, q38, q50, q56, q57, q58, q61 — не відмінювати всередині плейсхолдера; будувати фразу під називний відмінок"
+  - "a4 $(#him/her) — гендер ГРАВЦЯ, у відповіді на «You're …, if I'm not mistaken?»; українська конструкція мусить лишитися природною в обох гілках"
+  - "q3, q9, q10, q11, q12, q14, q16, q39, q57 містять літеральний \\n\\n — зберігати"
+  - "Institute of Tchort → «Інститут Тчорта», Faceless → «Безликі», charons → «харони», Deep Caverns → «Глибокі Печери» (глосарій)"
+  - "South Underrail / Upper Underrail — Underrail лишається латиницею й не відмінюється; означення українською («Південна Underrail»)"
+  - "a20 ::[Mercantile]:: — назва навички в дужках, з глосарію"
+  - "q14 містить пряму цитату з інструкції в лапках — усередині цитати технічний, знеособлений регістр, відмінний від голосу Ганни"
+  - "«Tchort is evolution» / «Evolution is Tchort» (q3, a4) — обрядова формула-дзеркало, узгодити з dialogs/characters/tch_denzil"
+  - "Ганна — жінка: минулий час і прикметники в її репліках жіночого роду; «Efreitor Hanna» — жіноча форма звання"
+
+examples:
+  - unit: q26
+    rule: "totally apex — сталий словесний тик, один відповідник на весь вузол"
+    uk_fragment: "…цілком на вершині!"
+    status: proposed
+  - unit: a4
+    rule: "$(#him/her) — гендер гравця, STYLE §2"
+    uk_fragment: "це $(#він/вона)"
+    status: proposed
+  - unit: a19
+    rule: "підказка дії в :: :: — інфінітив, глосарій"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

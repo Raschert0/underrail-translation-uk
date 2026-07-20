@@ -1,0 +1,77 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/lu_b29_freedroneguard
+file_id: dialogs\characters\lu_b29_freedroneguard.txt
+derived_from: source-only
+units: {total: 27, npc: 14, player: 13, empty: 0}
+
+speakers:
+  - slug: lu_b29_freedroneguard
+    name: вартовий Вільних Дронів
+    units: default
+    confidence: certain
+    evidence: [q2, q6, q17]
+    role: >-
+      Молодий вартовий біля захопленого потяга, який намагається не
+      відігнати гравця, а переконати його. Це найдовші зв’язні монологи
+      вузла — агітація Вільних Дронів проти Протекторату, і вона мусить
+      звучати переконливо, а не як белькотіння фанатика.
+    relationships:
+      - "«his comrades» у q10 — загін, з яким він урешті домовляється відступити"
+      - "General Melek — ворог, уособлення Протекторату в його риториці"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Звертання «friend» і $(#brother/sister) — навмисне братання, щоб
+        стерти дистанцію; це «ти», STYLE §3.2. Гравець дзеркалить у a20
+        «Fight on, brothers», STYLE §3.3.
+      gender_cues: ["$(#brother/sister)"]
+      switches:
+        - {unit: q13, to: ти, trigger: "зрив у ворожість — той самий «ти», але вже без братання: «Protectorate puppet»"}
+    voice:
+      register: агітаційний, підкреслено дружній, із запалом
+      idiolect:
+        - "«friend» як звертання на початку переконування (q2, q4)"
+        - "просторічне «'cause we ain't a bunch of quakers» пробивається крізь книжну риторику — контраст зберігати"
+        - "довгі періоди з переліками через тире — не дробити на короткі речення"
+
+narration:
+  present: true
+  note: "q2, q8, q10, q11, q13 — нарація «ви» без винятків, STYLE §3.1"
+
+new_names: ["Melek", "United Stations", "Dreadnought"]
+
+idioms:
+  - unit: q6
+    src: "we ain't a bunch of quakers"
+    note: "не релігійні квакери, а «не якісь там тихоні/боягузи»; локалізувати за змістом"
+  - unit: q10
+    src: "his thought process has turned into a catastrophic train-wreck"
+    note: "образ аварії; у вузлі про потяг це навмисний каламбур — по змозі зберегти залізничний образ"
+  - unit: q16
+    src: "Melek's dogs"
+    note: "«пси Мелека» — зневажлива формула, не пом’якшувати"
+  - unit: a7
+    src: "regurgitate all those stock lines"
+    note: "«відригувати завчені гасла»; різкість зберігати, STYLE §9"
+  - unit: q16
+    src: "driving its serrated threads over us"
+    note: "гусениці бойової машини, а не «нитки»"
+
+pitfalls:
+  - "Protectorate → Протекторат, Free Drones → Вільні Дрони, Biocorp латиницею, Rail Crossing → Залізничний Переїзд (глосарій)"
+  - "«North Underrail», «Underrail Protectorate» — Underrail не перекладати й не відмінювати (глосарій)"
+  - "«General Melek», «United Stations» — канонічних варіантів ще немає, не вигадувати наздогад"
+  - "q6 і q24 — майже однакові промови з дрібними відмінами («this fat» / «this large», «are gonna» / «are»); зберегти обидві як окремі варіанти, не зводити до одного тексту"
+  - "a7 ::[Persuade]:: → ::[Переконати]:: (глосарій)"
+
+examples:
+  - unit: q17
+    rule: "$(#brother/sister) — гендерне братання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: a12
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Завершити діалог.::"
+    status: proposed

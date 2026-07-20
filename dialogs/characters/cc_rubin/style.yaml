@@ -1,0 +1,70 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_rubin
+file_id: dialogs\characters\cc_rubin.txt
+derived_from: source-only
+units: {total: 39, npc: 26, player: 13, empty: 6}
+
+speakers:
+  - slug: rubin
+    name: Рубін
+    units: default
+    confidence: probable
+    evidence: [q7, q25]
+    role: >-
+      Дрібний начальник у доках, який тримає ключі від підсобки й насолоджується
+      цією крихтою влади. Легко залякується, легко підкуповується, а відмовляючи,
+      неодмінно повчає.
+    address:
+      npc_to_player: ти
+      player_to_npc: ви
+      basis: >-
+        Він поводиться зверхньо: зве гравця «kid» (q29) і чотири рази пришиває
+        поблажливе $(#boy/girl). Гравець же просить послуги в чужої службової
+        особи й починає з увічливого «Could you let me in» (a6) — тому базово
+        «ви». Асиметрія свідома, не згладжувати.
+      gender_cues: ["$(#boy/girl)"]
+      switches:
+        - {unit: a26, to: ти, trigger: "коли гравець переходить до прямої погрози ::[Intimidate]::"}
+    voice:
+      register: буркітливий, дріб’язково-владний, без грубої лайки
+      idiolect:
+        - "«Well, …» на початку поступки або відмови (q12, q14)"
+        - "здвоєні окличні поступки: «Alright, alright!» (q27)"
+        - "виштовхувальні формули замість прощання: «Now get lost» (q30), «Off you go now» (q36)"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут q1, q17, q28, q38"
+
+new_names: ["Rubin", "Acid Hunters", "Pipeworks"]
+
+idioms:
+  - unit: q7
+    src: "crawl through the vents willy-nilly"
+    note: "«willy-nilly» — не калькувати; розмовне «як заманеться»"
+  - unit: q19
+    src: "Go fish."
+    note: >-
+      Відмова-відчіпка з карткової гри; калька «іди лови рибу» безглузда.
+      Потрібен український еквівалент відмахування.
+  - unit: a31
+    src: "Thanks for nothing."
+    note: "стала іронічна формула, перекладати як ідіому, не послівно"
+
+pitfalls:
+  - >-
+    q28 містить нарацію в другій половині рядка («::The rest he mutters to
+    himself.::») — усередині одного юніта співіснують мова персонажа («ти») і
+    нарація («ви»).
+  - >-
+    a15, a20, a22 — «charons» — глосарна монета «харон», з малої літери.
+  - >-
+    a18 і a24 починаються з міток навички ::[Mercantile]:: / ::[Intimidate]:: —
+    делімітери «::» і квадратні дужки зберігати, пор. ::[Persuade]:: у глосарії.
+
+examples:
+  - unit: q10
+    rule: "$(#boy/girl) — поблажливе гендерне звертання, STYLE §2"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed

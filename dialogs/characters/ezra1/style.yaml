@@ -1,0 +1,96 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/ezra1
+file_id: dialogs\characters\ezra1.txt
+derived_from: source-only
+units: {total: 305, npc: 163, player: 142, empty: 14}
+
+speakers:
+  - slug: ezra
+    name: Езра
+    units: default
+    confidence: certain
+    evidence: [q1, q17, q29, q170, q191, q295, q305]
+    role: >-
+      Головний мережевий адміністратор і керівник усього інженерного сектора ССГ,
+      прихований псіонік величезної сили. Говорить як науковець на лекції — довгі
+      складнопідрядні періоди, точні терміни, жодного сленгу; це визначає добір
+      слів більше, ніж будь-який сюжетний факт.
+    relationships:
+      - "Таннер — зниклий голова ССГ; Езра зізнається, що роками зазирав у його розум"
+      - "Віра, Гарольд, Паскуале — колеги по станції, згадує їх нейтрально-службово"
+      - "Арлін — відсилає до неї гравця щодо намиста"
+      - "Ваятт Пір — заперечує знайомство, хоч гравець наводить докази; ухиляння тримати сухим"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Езра — керівна посадова особа станції й підкреслено стриманий співрозмовник:
+        «I act as the head network administrator and chief of the entire engineering
+        sector» (q305), «He speaks with a calm and even voice» (q305). Дистанція
+        вирівняна з обох боків, тож і гравець дзеркалить «ви» — STYLE §3.2, §3.3.
+      gender_cues: []
+      switches:
+        - {unit: q181, to: ви, trigger: "тисне на гравця («you will answer my questions»), але дистанції не втрачає — не зривати на «ти»"}
+    voice:
+      register: холодний, професорський, беземоційний
+      idiolect:
+        - "довгі періоди з двокрапками й крапкою з комою — не дробити на короткі речення"
+        - "числа виписує словами: «two thousand five hundred degrees centigrade» — лишати словами"
+        - "категоричні односкладні відповіді на прямі запитання: «No.» (q262), «Yes.» (q264), «Tanner.» (q89)"
+        - "уникає оцінних слів; там, де англійська емоційна, він нейтральний"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Значна частина `::…::` тут описує відчуття
+    гравця зсередини (q212, q213, q215, q217, q222, q223) — це все одно нарація.
+
+unattributed_units: []
+
+new_names: ["Acorn", "ACoNR", "New Frontier Technology", "NFT", "Bionic Institute", "psimorph", "the Beast", "Engineering (сектор станції)"]
+
+idioms:
+  - unit: q31
+    src: "differentiates vermin from a walking apocalypse"
+    note: "образ авторський, не сталий вислів — відтворювати, а не згладжувати"
+  - unit: q282
+    src: "poked their sticky fingers a bit too deep underground and is about to lose an arm for it"
+    note: "розгорнута метафора; зберегти зв’язок «пальці — рука», не замінювати абстракцією"
+  - unit: q287
+    src: "as flat as an ironed shirt"
+    note: "порівняння працює на характеристику Езри — не калькувати дослівно, шукати український відповідник тієї ж сухості"
+  - unit: q274
+    src: "that *doppelganger* of mine"
+    note: "саркастичне; зірочки-виділення зберегти"
+  - unit: q114
+    src: "allow themselves such an oversight"
+    note: "риторичне запитання зверхності — питальну інтонацію не втрачати"
+
+pitfalls:
+  - "$(context.player.Name) у q5, q10, q20, q220, q274, q293, q303, q305 — не відмінювати й не змінювати всередині плейсхолдера; будувати фразу так, щоб потрібен був називний"
+  - "Розірвані речення: q72 обривається на «The fact you», продовження — q73 і q147; так само q81+q82, q151+q152+q153. Перекладати як частини одного речення, а не як самостійні репліки"
+  - "У джерелі немає жодного $(#…), але українська вимагатиме їх у минулому часі гравця (a15, a143, a145, a173) — додавання плейсхолдера тут правильне, STYLE §2"
+  - "Позначки перевірок у дужках — ::[Intelligence]::, ::[Mercantile]::, ::[Will], ::[Requires: Thought Control 30]:: — це назви навичок з knowledge/, узгоджувати з ними, а не перекладати наново"
+  - "Літеральний \\n\\n усередині рядків (q1, q43, q87, q98, q272, q294, q304, q305) — зберігати як є"
+  - "Виділення зірочками (*impure*, *megaprojects*, *yet*, *make*, *it*) — переносити на слово, що несе логічний наголос в українській, а не механічно на те саме місце"
+  - "SGS → ССГ, Foundry → Ливарня, Black Sea → Чорне Море, Old Junkyard → Старе Звалище, Deep Caverns → Глибокі Печери, Faceless → Безликі; Biocorp і Underrail — латиницею (глосарій)"
+  - "«the Core» (q282) — політичний суб’єкт, не місто; не плутати з Core City → Центральне Місто"
+
+examples:
+  - unit: a44
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Чекати.::"
+    status: proposed
+  - unit: a143
+    rule: "минулий час гравця вимагає гендерного плейсхолдера, STYLE §2"
+    uk_fragment: "$(#дізнався/дізналася)"
+    status: proposed
+  - unit: q163
+    rule: "канонічна абревіатура з глосарію"
+    uk_fragment: "ССГ"
+    status: proposed
+  - unit: q18
+    rule: "наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "Зачекаю тут, поки ви оглянете"
+    status: proposed

@@ -1,0 +1,80 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pb_will
+file_id: dialogs\characters\pb_will.txt
+derived_from: source-only
+units: {total: 46, npc: 25, player: 21, empty: 1}
+
+speakers:
+  - slug: will
+    name: Вілл
+    units: default
+    confidence: certain
+    evidence: [q6, q41, q43, q45]
+    role: >-
+      Механік у Форті Апогей, який на прохання гравця споряджає дві каністри мутагену
+      таймером. Простакуватий, послужливий, працею дорожить більше за розмову — саме це
+      диктує його короткі, вибачливі репліки.
+    relationships:
+      - "гравець — замовник і старший за станом; Вілл звертається до нього тільки $(#sir/ma'am)"
+      - "Staff Sergeant Fraser — не діє в сцені, лише привід для жарту про пляму (q4)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Вілл у 14 репліках поспіль вживає $(#sir/ma'am) і жодного разу не переходить
+        на панібратство — це обслуга, що говорить до старшого (STYLE §3.2). Гравець
+        дзеркалить базовий регістр (§3.3); лайливі рядки a31 і a37 — емоційний зрив,
+        а не зміна регістру, «ви» в них зберігається.
+      gender_cues: ["$(#sir/ma'am)", "$(#Sir/Ma'am)"]
+    voice:
+      register: простацький, послужливий, з вибаченнями через слово
+      idiolect:
+        - "суцільне випадання g: workin', chattin', hidin', askin' — передавати розмовною редукцією, не суржиком"
+        - "аферези й скорочення: 'ere, 'Kay, 'n', o', 'Ere ya go — говірка простої людини"
+        - "me замість my: «me bum», «me tummy» — маркер, тримати в усіх входженнях"
+        - "вигук O' на початку репліки (q6, q21) — не читати як «Oh», це його власне слівце"
+        - "подвійне заперечення «didn't mean no harm» (q43) — норма його мовлення"
+        - "заїкання від переляку «Wha-- what did I do wrong?» (q32) — відтворити на українському приголосному, STYLE §9"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; довга нарація q2 і ремарки ::He laughs.:: у q4, q6, q41"
+
+new_names: ["Dreadnought"]
+
+idioms:
+  - unit: q8
+    src: "chattin' means not workin'"
+    note: "не калькувати; розмовна формула на кшталт «балакаєш — не працюєш»"
+  - unit: q29
+    src: "me tummy is showing signs of emptiness"
+    note: "навмисно кострубата пишномовність простака — зберегти незграбність, не вирівнювати"
+  - unit: q6
+    src: "name's Will"
+    note: "усічене представлення без займенника; Will тут — ім’я, не модальне дієслово (registry)"
+  - unit: q4
+    src: "Look at that beak!"
+    note: "beak про ніс — розмовне «дзьоб», не «клюв»"
+
+pitfalls:
+  - "q4 називає Staff Sergeant Fraser — це предмет жарту, а не мовець; Fraser → Фрейзер (registry)"
+  - "q2: rathound → щурчак, stalagmite → сталагміт (glossary)"
+  - "a20: Free Drones → Вільні Дрони (glossary)"
+  - "q2 «Dreadnoughts» з великої — назва машини, не прикметник; канонічного варіанта немає"
+  - "a16, a18, a24 тощо: звертання «Will» у a-рядках указує на адресата — мовець там гравець"
+  - "q25 містить $(#Sir/Ma'am) з великої літери — регістр гілок зберігати"
+
+examples:
+  - unit: q1
+    rule: "$(#sir/ma'am) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q32
+    rule: "заїкання відтворюємо на українському приголосному, STYLE §9"
+    uk_fragment: "Щ-що"
+    status: proposed
+  - unit: a16
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Чекати.::"
+    status: proposed

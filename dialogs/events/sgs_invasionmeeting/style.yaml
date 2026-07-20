@@ -1,0 +1,126 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/events/sgs_invasionmeeting
+file_id: dialogs\events\sgs_invasionmeeting.txt
+derived_from: source-only
+units: {total: 31, npc: 24, player: 7, empty: 1}
+
+speakers:
+  - slug: tanner
+    name: Таннер
+    units: default
+    confidence: probable
+    evidence: [q3, q22, q25]
+    role: >-
+      Голова ССГ, який на нараді викладає обстановку й видає гравцеві
+      завдання. Мова аналітична й повна: довгі складені речення, обережні
+      застереження («The reports are sketchy», «Not yet, anyway») —
+      це голос керівника, а не бійця.
+    relationships:
+      - "Горський — підлеглий-ветеран, який вирушає до Центрального Міста окремо"
+      - "Віра — має власне завдання для гравця (q25)"
+      - "гравець — виконавець, якого Таннер відряджає до Залізничного Переїзду"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Керівник станції, що ставить службове завдання: розгорнуті інструкції,
+        жодного панібратства, доручення й звіт («report back to me»).
+        STYLE §3.2 (формальні, службові — «ви»), §3.4 (наказовий спосіб
+        успадковує вибір: «уникайте», «знайдіть»).
+    voice:
+      register: стриманий, аналітичний, службовий
+      idiolect:
+        - "застереження-обмовки «as far as I can remember», «if possible», «apparently» — обережність формулювань, не згладжувати до впевненості"
+
+  - slug: gorsky
+    name: Горський
+    units: [q2, q7, q17, q24, q30]
+    confidence: probable
+    evidence: [q2, q17, q24]
+    role: >-
+      Ветеран, що вирушає до Центрального Міста сам і кличе гравця туди ж.
+      Говорить коротко й сухо, часто вкидає ущипливий коментар до
+      розлогих пояснень Таннера.
+    relationships:
+      - "Таннер — начальник, з яким Горський розмовляє як рівний"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Різкий ветеран, а не службовець: уривчасті репліки, іронічний
+        коментар «The land of the free.», пряме «Look for me in the Hardcore
+        City Bar». STYLE §3.2 — грубі, свої — «ти».
+      switches:
+        - {unit: q30, to: ти, trigger: "сухий дожим після побажання Таннера — саме зміна голосу тримає жарт"}
+    voice:
+      register: сухий, уривчастий, іронічний
+      idiolect:
+        - "коротка репліка одразу після довгої репліки Таннера — прийом контрасту, речення не подовжувати"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q1, q29]
+    confidence: unknown
+    reason: >-
+      q1 «Don't you have somewhere to be?» — барк-відмова, який може належати
+      будь-кому з двох. q29 «Good luck.» стоїть поряд із q30 і за логікою
+      належить Таннерові, але нарації, яка це доводила б, у файлі немає.
+    guidance: >-
+      Ці два юніти визначають регістр усього прощання, тож обрати треба
+      свідомо: якщо q29 — Таннер, то «ви»; якщо Горський, то «ти».
+      До з’ясування будувати фразу без займенника й без гендерованого
+      минулого часу.
+
+narration:
+  present: true
+  note: >-
+    ::Gorsky and Tanner seem to be in the middle of a conversation.:: (q2),
+    ::He nods in agreement to what Gorsky said, before turning to you.:: (q3),
+    ::Gorsky smirks.:: (q17) — «ви», STYLE §3.1. Це єдині три механічні
+    докази атрибуції в усьому вузлі; решта розподілу — з логіки сцени.
+
+unattributed_units: [q1, q29]
+
+new_names: ["United Stations"]
+
+idioms:
+  - unit: q4
+    src: "The reports are sketchy"
+    note: "«уривчасті/непевні відомості», не «схематичні»"
+  - unit: q6
+    src: "it would be the easiest thing in the world for them"
+    note: "розмовна гіпербола легкості; локалізувати зворотом, не калькувати"
+  - unit: q8
+    src: "waged war on any independent station"
+    note: "«розв’язати війну» — стала пара, зберігати як пару"
+  - unit: q17
+    src: "The land of the free."
+    note: "іронічна цитата-кліше про свободу; сарказм має читатися без пояснень"
+  - unit: q13
+    src: "hence the name"
+    note: "стала пояснювальна формула; коротко, не розгортати"
+  - unit: q30
+    src: "You're going to need it."
+    note: "чорний дожим до «Good luck» — працює лише як коротка добавка, не самостійна фраза"
+
+pitfalls:
+  - "Головна пастка вузла: q3 містить «::He nods in agreement to what Gorsky said::» — це доводить, що q3 говорить НЕ Горський, а Таннер. Ім’я в нарації тут указує на іншого учасника, не на мовця."
+  - "Регістри двох мовців різні («ви» в Таннера, «ти» в Горського) і йдуть упереміш у сусідніх юнітах. Гравцеві теж треба дзеркалити по-різному: a12–a28 звернені переважно до Таннера («ви»), але a26 про дорогу може стосуватися обох — узгодити з вибором для q27."
+  - "Вибір «ти» для Горського тут задає його регістр і в решті вузлів (dialogs/events/cc_gorskytunneler, cc_gorskyassaultcrawlers) — міняти його не можна вибірково."
+  - "Глосарій: SGS → «ССГ», Faceless → «Безликі», Protectorate → «Протекторат», Core City → «Центральне Місто», Rail Crossing → «Залізничний Переїзд», Hardcore City Bar → «Хардкор Сіті Бар», Underrail → лишати латиницею й не відмінювати («north Underrail» → «північна Underrail»)."
+  - "Реєстр: Tanner → «Таннер», Gorsky → «Горський» (відмінюється як прикметник: Горського, Горському), Vera → «Віра» — з великої літери, попри омонімію."
+  - "«tunneling machines» (q5) — бурові машини Безликих; не плутати з глосарійними «Tunnelers → Тунельники» (істоти)."
+  - "«explosive charges» (q27) — вибухові заряди, предмет інвентарю; термін звірити з knowledge/."
+  - "a28 і a31 — майже дублікати («Alright, I'm off.» / «Alright. I'm off.»); різниця лише в розділовому знаку, її треба зберегти."
+  - "У q10 після «Rail Crossing.» стоять два пробіли — не «виправляти» самочинно."
+
+examples:
+  - unit: q23
+    rule: "наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "уникайте сутичок"
+    status: proposed
+  - unit: q24
+    rule: "«ти» Горського контрастує з «ви» Таннера, STYLE §3.2"
+    uk_fragment: "шукай мене"
+    status: proposed

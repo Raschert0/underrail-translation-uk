@@ -1,0 +1,87 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/rc_mindreader
+file_id: dialogs\characters\rc_mindreader.txt
+derived_from: source-only
+units: {total: 45, npc: 25, player: 20, empty: 2}
+
+speakers:
+  - slug: faceless_mindreader
+    name: Безликий-читець думок
+    units: default
+    confidence: certain
+    evidence: [q4, q7, q11, q41]
+    role: >-
+      Безликий телепат, що обшукує пам’ять гравця в крамниці Дзижчика й вирішує
+      долю господаря крамниці. Говорить не вголос, а всередині голови гравця, і
+      майже завжди від імені гурту — «we», а не «I».
+    relationships:
+      - "Безликі (Faceless) — його гурт; один із багатьох, розісланих Південною Underrail на пошуки предмета"
+      - "Дзижчик (Buzzer) — «our unwilling host», якого гурт має намір убити"
+      - "Гравець — об’єкт допиту; ставлення холодно-функціональне, без ворожості, доки не відмовляють"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Мовець підкреслено формальний: жодних стягнень, крім «I’m afraid»,
+        ритуальні формули «This is not acceptable», «I may not answer that»,
+        «We will be leaving now». Це службовий, знеособлений голос — STYLE §3.2
+        відносить таких мовців до «ви». Гравець дзеркалить базовий регістр (§3.3).
+      gender_cues: []
+      switches:
+        - {unit: a30, to: ти, trigger: "гравець зривається на «ти» в бойових репліках — a30 «buddy», a31 «freak»; це емоційний зрив, а не зміна бази (STYLE §3.3)"}
+    voice:
+      register: холодний, ритуальний, беземоційний; мовлення множинного «ми»
+      idiolect:
+        - "послідовне «we» замість «I» — гурт говорить одним голосом; зберігати множину"
+        - "модальні формули дозволу-заборони: «I may not answer that», «you must die»"
+        - "жодних стягнених форм — це головна ознака, що відрізняє його від решти мовців Переїзду"
+
+narration:
+  present: true
+  note: >-
+    Нарації тут більше, ніж прямої мови: q1, q3, q4, q5, q6, q24, q33, q34, q35 —
+    суцільний опис відчуттів гравця. Завжди «ви», без винятків (STYLE §3.1).
+    q4 і q5 починаються з мітки перевірки ::[Thought Control] …:: — назва здібності
+    в дужках і сама структура мітки зберігаються.
+
+new_names: []
+
+idioms:
+  - unit: q1
+    src: "his mind's eye fall upon you"
+    note: "«внутрішній зір», а не буквальне «око розуму»; повторюється в q34 — передавати однаково"
+  - unit: q3
+    src: "someone put your mind on fast-forward"
+    note: "образ перемотки; локалізувати як «перемотування», не калькувати технічний термін"
+  - unit: q13
+    src: "Should it come to pass that this was a bad decision"
+    note: "навмисно архаїчна книжна конструкція — зберігати високий стиль, не спрощувати"
+  - unit: a12
+    src: "you still haven't found it, or else you wouldn't be here"
+    note: "розмовне «or else» — «інакше», не «або ж»"
+  - unit: a15
+    src: "cutting off one avenue of investigation"
+    note: "«відрізаєте собі один зі шляхів пошуку»; не калькувати «авеню»"
+
+pitfalls:
+  - "q7 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "q8 і q23 починаються/закінчуються пробілом (q8 — провідний пробіл, q23 — кінцевий перед <end>) — це склейка речень рушієм, пробіли зберігати"
+  - "a15 і a21 — майже однаковий текст, різниця лише «the item» / «it»; перекладати паралельно, різницю зберегти"
+  - "a22 «Buzzer» і a26 «Buzzer» — канонічно «Дзижчик» (реєстр)"
+  - "q5 «South Underrail» — Underrail лишається латиницею й не відмінюється (глосарій): «Південна Underrail»"
+  - "мітки навичок ::[Thought Control]::, ::[Persuade]::, ::[Intimidate]:: — квадратні дужки й позиція зберігаються; ::[Persuade]:: канонічно ::[Переконати]::"
+
+examples:
+  - unit: q36
+    rule: "заїкання відтворюємо на українському приголосному, а не переносимо латинські літери (STYLE §9)"
+    uk_fragment: "П-п-під... Піддайтеся..."
+    status: proposed
+  - unit: a2
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed
+  - unit: q11
+    rule: "множинне «we» гурту зберігати як «ми», навіть коли говорить один"
+    uk_fragment: "Ми знаємо"
+    status: proposed

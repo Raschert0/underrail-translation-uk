@@ -1,0 +1,78 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pr_void
+file_id: dialogs\characters\pr_void.txt
+derived_from: source-only
+units: {total: 17, npc: 12, player: 5, empty: 1}
+
+speakers:
+  - slug: void
+    name: Порожнеча
+    units: default
+    confidence: certain
+    evidence: [q1, q5, q17]
+    role: >-
+      Мовчазний велет-солдат у масці. Не має жодної репліки: усі його юніти —
+      це нарація про нього («::Void is silent.::»), і мовчання тут сюжетне.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Прямої мови в нього немає взагалі, тож регістр визначає нарація —
+        «ви» без винятків (STYLE §3.1). Гравець звертається до нього марно.
+    voice:
+      register: без голосу — лише опис дій
+      idiolect:
+        - "формула «::Void is silent.::» повторюється дослівно в q5 і q17 — обидва місця перекласти однаково"
+
+  - slug: mareth
+    name: Марет
+    units: [q12]
+    confidence: probable
+    evidence: [q12]
+    role: >-
+      Капітан, що втручається й спиняє сутичку. Єдиний, хто в цьому вузлі
+      справді говорить — коротко, командно, з погрозою.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: "звертання за званням «Corporal» — службовий регістр (STYLE §3.2)"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Практично весь вузол — нарація;
+    q11, q14, q15 описують бійку від другої особи.
+
+new_names: ["Mareth"]
+
+idioms:
+  - unit: q11
+    src: "shakes it off"
+    note: "«струшує з себе / і не морщиться»; не калькувати"
+  - unit: a8
+    src: "so ugly your mom had to put that mask on your face"
+    note: "образа-жарт — грубість зберегти повністю (STYLE §9)"
+  - unit: q14
+    src: "ear-tearing"
+    note: "про різкий сміх — «верескливий»; не «що рве вуха» дослівно"
+  - unit: q9
+    src: "your wait is in vain"
+    note: "усталене «марно», не «в марноті»"
+
+pitfalls:
+  - "Void → Порожнеча (реєстр): прізвисько, а не абстрактне поняття; у тексті прямо сказано, що це не справжнє ім’я"
+  - "Dess → Десс (реєстр)"
+  - "a6 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "a10 містить ::[Dexterity] …:: — назва здібності в дужках, узгодити з knowledge/"
+  - "звання Captain з малої: «капітан»"
+
+examples:
+  - unit: q5
+    rule: "STYLE §3.1 — нарація на «ви», повторювані формули однакові"
+    uk_fragment: "::Порожнеча мовчить.::"
+    status: proposed
+  - unit: a16
+    rule: "STYLE §3.5 — підказка дії в ::…:: інфінітивом"
+    uk_fragment: "::Дати йому спокій.::"
+    status: proposed

@@ -1,0 +1,233 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/ferryman
+file_id: dialogs\characters\xpbl\ferryman.txt
+derived_from: source-only
+units: {total: 1261, npc: 751, player: 510, empty: 97}
+
+speakers:
+  - slug: ferryman
+    name: Перевізник
+    units: default
+    confidence: certain
+    evidence: [q7, q912, q921, q936]
+    role: >-
+      Сімдесятирічний самітник-мисливець за реліквіями, що живе на поромі в Чорному Морі
+      й обміняв власне ім’я на роль Перевізника. Викладає гравцеві свою філософію
+      «Descent into Center» — і саме через неї, а не через сюжет, тримається весь вузол:
+      це найбільший діалог гри, і більшість його обсягу — філософський трактат у формі
+      бесіди.
+    relationships:
+      - "Гравець — «kid»: молодший, якого Перевізник поблажливо навчає й водночас випробовує"
+      - "Тодд — лемурієць, якого гравець може прилаштувати до нього (q5, q6, q1256)"
+      - "Гарланд Вардел — єдиний співрозмовник до гравця, з ким він обговорював Descent (q476, q908)"
+      - "Sørmirbæren, пірати, мутанти — усі терплять його; він єдиний, кого вони підпускають (q858, q943)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ви
+      basis: >-
+        Плейсхолдерів звертання у вузлі немає, тож регістр визначає характер (STYLE §3.2).
+        Перевізник — не обслуга й не службовець: самітник, який тримає дробовик на
+        співрозмовникові й говорить згори вниз. Наскрізне «kid» (близько 80 юнітів),
+        просторічна фонетика (`ain't`, `'cause`, `gotta`, `wanna`, `outta`, `'em`,
+        `Talkin's over`), прямі накази й погрози («Now get off my boat», «Outta my boat,
+        scum», «Get outta here or I'll blow your head clean off») — усе це в українській
+        читається лише як «ти». Філософська піднесеність його лексики цьому не суперечить:
+        це мудрець, що повчає юнака, а не чиновник за стійкою.
+        Зворотний напрямок асиметричний і навмисно НЕ дзеркальний. Підстава просто в
+        тексті: q441 — «because of your lack of respect towards an old man» — гра прямо
+        називає нешанобливість до старого провиною, за яку розмову обривають. Базові
+        репліки гравця витримано ввічливі («Can I ask you a few personal questions?»,
+        «I'd like to ask you about their society»), а «old man» і «gramps» трапляються
+        майже виключно в зневажливих гілках. Отже база гравця — «ви», а грубість —
+        марковане порушення, а не норма (STYLE §3.3).
+      switches:
+        - {unit: a1155, to: ти, trigger: "«Go to hell, old man!» — навмисна образа, розмову обривають"}
+        - {unit: a1165, to: ти, trigger: "«Put that thing away, gramps» — зневажливе звертання"}
+        - {unit: a438, to: ти, trigger: "«I think you're derailed, old man» — після цього q441 карає за неповагу"}
+        - {unit: a446, to: ти, trigger: "прокльон на адресу порома — прощальний зрив"}
+    voice:
+      register: >-
+        двошаровий: просторічна морська говірка накладена на піднесений філософський
+        трактат. Не вирівнювати ні вгору, ні вниз — суміш і є характером.
+      idiolect:
+        - "«kid» — наскрізний тик, ~80 юнітів; майже завжди в кінці або посеред фрази, як розділовий знак"
+        - >-
+          подвоєння як головна прикмета мовлення: «He'll do well. He'll do well.»,
+          «Fine, fine», «I do, I do», «Little. Little.», «plenty to find here, kid, plenty»,
+          «many Sørmirbæren, many», «To this day. To this day...». Не згладжувати —
+          це ритм персонажа, а не недогляд редактора
+        - "стягнені форми: `ain't`, `'cause`, `gotta`, `wanna`, `outta`, `'em`, `Talkin's`, `don't ya`"
+        - >-
+          термінологічні абстракції з великої літери — Reality, Origin, Center, True Death,
+          False Death, Spirit of Gravity, Burden, Humanity, Ascension, Descent into Center.
+          Це терміни його системи, а не риторика: велика літера й один сталий відповідник
+          на весь вузол
+        - "виділення зірочками (*higher*, *us*, *Never*, *Still*) — авторський наголос, зберігати"
+        - >-
+          морська метафорика проймає навіть абстракції: тонучий корабель, баласт, приплив
+          і відплив, іскра в двигуні. Не замінювати на суходільні образи
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, навіть там, де сам Перевізник каже «ти». Частина
+    нарації звернена до гравця прямо (q6 «::You've already told him in advance…::»).
+    Високочастотні формули ремарок — «::He puffs smoke.::», «::He takes a draw.::»,
+    «::He takes a long draw.::», «::He chuckles.::», «::He shakes his head.::» — мають
+    отримати по одному сталому відповіднику й далі повторюватися дослівно: вони
+    трапляються десятки разів і будь-яка варіація читається як помилка.
+    Підказки дій усередині «::…::» — інфінітив (STYLE §3.5): «::Barter.::» → «::Торгувати.::»,
+    «::Attack!::», «::Say nothing.::», «::Keep listening.::», «::Nod.::».
+
+unattributed_units: []
+
+new_names:
+  - "Sørmirbæren"
+  - "Sourmirbaren"
+  - "Serpentborn"
+  - "Flottsørmir"
+  - "Sjörsr"
+  - "Sjoersr"
+  - "Hank Wardell"
+  - "Lemurian"
+  - "Port Ceto"
+  - "Port Crag"
+  - "The Pirate Bay"
+  - "Glowing Canine"
+  - "Fetid Marsh"
+  - "Grim Jetters"
+  - "Aegis Incorporated"
+  - "NFT"
+  - "Descent into Center"
+  - "Spirit of Gravity"
+  - "True Death"
+  - "False Death"
+  - "Origin"
+  - "Center"
+  - "Ascension"
+  - "Burden"
+  - "ACoNR"
+  - "navcom"
+  - "boarshot"
+  - "honey stalks"
+  - "green warts"
+  - "water reeds"
+  - "creepers"
+
+idioms:
+  - unit: q442
+    src: "Now get off my boat."
+    note: >-
+      наскрізна формула вигнання, повторюється (q1197, q1248, q735, q1156). Один сталий
+      український варіант на всі входження, з «ти»-імперативом
+  - unit: q1178
+    src: "I'll blow your head clean off"
+    note: >-
+      репліка-погроза, що повертається (q1102, q1198, q1247, q1144). Не калькувати
+      «чисто знести» — потрібен усталений український зворот, однаковий усюди
+  - unit: q823
+    src: "They come with the flow and disappear with the ebb"
+    note: >-
+      приплив/відплив як образ зміни піратських команд; продовжується в q824 «their ebb
+      too came». Метафора мусить лишитися морською, інакше зв’язок двох юнітів зникає
+  - unit: q1056
+    src: "wouldn't give a rotten fish"
+    note: "евфемізм замість грубого; локалізувати розмовним зворотом, не калькувати рибу"
+  - unit: q1247
+    src: "Don't treat me like a bag of guano"
+    note: "морська лайка з пташиним послідом; грубе лишається грубим — не пом’якшувати"
+  - unit: q173
+    src: "And I'm not selling it, kid."
+    note: >-
+      відповідь на a172 «I'm not buying it». Каламбур купівлі-продажу тримається на парі
+      юнітів — перекладати a172 і q173 разом, інакше жарт розпадається
+  - unit: q300
+    src: "like a drowning man pulling both his rescuer and himself to a watery grave"
+    note: "розгорнуте порівняння в межах морської образності — не скорочувати"
+  - unit: q491
+    src: "a fool's quest"
+    note: "повторюється тричі в q491 і q500; один відповідник на всі входження"
+  - unit: q1163
+    src: "eat lead"
+    note: "разом із «dispensing hot lead» (q1146) і «extra lead in his system» (q1163) — один регістр бандитської погрози"
+  - unit: q1032
+    src: "No can do."
+    note: "розмовна відмова; не буквальне «не можу зробити»"
+  - unit: a1238
+    src: "Ruins be ruins."
+    note: "навмисна неграматичність у репліці гравця — відтворити просторіччям, не виправляти"
+  - unit: a1193
+    src: "Your euthanizer, old man."
+    note: "жартівлива назва дробовика; зберегти іронію, а не описувати зброю"
+  - unit: q793
+    src: "The *Serpentborn*"
+    note: "автопереклад екзоніма Sørmirbæren; українська форма має читатися як переклад, а не як друга назва"
+
+pitfalls:
+  - >-
+    Вузол рясніє обірваними юнітами, які гра склеює в одне речення: q2+q3 («We're » +
+    «moving out, kid»), q4, q275+q276, q430+q431, q539+q540, q657+q658, q762+q763,
+    q890+q891, q893+q894, q1055+q1056. Кожен такий фрагмент перекладати як частину фрази,
+    а не як самостійне речення; порядок слів мусить дозволяти склейку з наступним юнітом.
+  - >-
+    a838/a888 «Sourmirbaren» і a840/a786 «Sørmirbæren» — це навмисно неправильна й правильна
+    вимова. Відповіді q839 (мовчазний кивок) і q787/q841 («You got the pronunciation right»)
+    залежать від різниці. Дві форми мусять відрізнятися і в українській, інакше репліка
+    втрачає сенс. Те саме для a746 «Sjoersr» проти a749 «Sjörsr».
+  - >-
+    $(GiantSkerderHitBodyPart_DisplayName) (q702, a715, q747 — двічі, q716) підставляє назву
+    частини тіла. Не відмінювати всередині плейсхолдера; будувати фразу так, щоб працював
+    називний або прийменникова конструкція.
+  - >-
+    Контекстні плейсхолдери не відмінювати й не перекладати: $(context.player.Name) (a74),
+    $(context.playerArenaTitle) (a634), $(context.npc_xpbl_as_todd_playerName) (a59),
+    $(context.npc_xpbl_ferryman_realName) (q920),
+    $(context.npc_xpbl_ferryman_firstNextLocation) і $(context.npc_xpbl_ferryman_secondNextLocation) (q981).
+  - >-
+    «kid» не має гендерно-нейтрального прямого відповідника: гравець може бути жінкою.
+    Потрібен або гендерно-нейтральний іменник, або плейсхолдер $(#…). Обрати один варіант
+    і тримати його в усіх ~80 юнітах — це найпомітніша риса персонажа.
+  - >-
+    q1030 «::He shrugs and puffs smoke.<end>» — у джерелі бракує закривальних «::».
+    Це баг оригіналу; відтворити ту саму кількість маркерів, інакше tools/check-uk.ps1 впаде.
+  - >-
+    «Aegis Incorporated» (q860, q877, a878) — компанія, а не бойовий препарат Aegis → «Егіда»
+    з глосарія. Різні референти: не переносити глосарійний відповідник автоматично.
+  - >-
+    «expedition» тут — внутрішньоігрова експедиція (q763, q766, q801, q813, a859), а не назва
+    доповнення Expedition. За приміткою глосарія перекладається як «експедиція».
+  - >-
+    Терміни системи Перевізника з’являються в десятках юнітів і часто в означеннях
+    (q232, q270, q419, q456, q462). Щойно обрано відповідник для Descent into Center,
+    Spirit of Gravity, True/False Death, Origin, Center, Burden, Ascension — він
+    незмінний по всьому вузлу; це 3 % корпусу й найбільший ризик розсинхрону.
+  - >-
+    q1011 «22.787 megahertz» — в українській десятковий роздільник кома. Число повторюється
+    в тому самому юніті двічі — обидва входження однаково.
+
+examples:
+  - unit: q23
+    rule: "«kid» потребує гендерної пари — STYLE §2"
+    uk_fragment: "$(#малий/мала)"
+    status: proposed
+  - unit: a965
+    rule: "$(#man/woman) — гендер гравця, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#чоловікові/жінці)"
+    status: proposed
+  - unit: q442
+    rule: "наказовий спосіб успадковує «ти» — STYLE §3.4"
+    uk_fragment: "Геть з мого човна"
+    status: proposed
+  - unit: a661
+    rule: "підказка дії в «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q1004
+    rule: "«charon» — канонічний глосарійний відповідник"
+    uk_fragment: "харонів"
+    status: proposed
+  - unit: q51
+    rule: "просторічне ain't у високому контексті — знижений регістр зберігати"
+    uk_fragment: "серце в мене не з каменю"
+    status: proposed

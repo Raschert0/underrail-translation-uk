@@ -1,0 +1,91 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/pb_fraser
+file_id: dialogs\characters\pb_fraser.txt
+derived_from: source-only
+units: {total: 97, npc: 54, player: 43, empty: 3}
+
+speakers:
+  - slug: fraser
+    name: Фрейзер
+    units: default
+    confidence: certain
+    evidence: [q96, q1, q45]
+    role: >-
+      Штаб-сержант Ерік Фрейзер, квартирмейстер Форту Апогей: продає спорядження
+      й міняє валюту. Північанин, який зверхньо ставиться до південців, тож його
+      ввічливість — форма приниження, а не теплоти.
+    relationships:
+      - "Каткарт — полковник, якого Фрейзер називає своїм другом (q63)"
+      - "Олівер — консул, «наш співвітчизник, справжній північанин» (q66)"
+      - "Лука — механік-південець, якого Фрейзер відкрито зневажає (q71, q72)"
+      - "Анастасія — єдина, про кого говорить із непідробною повагою (q74–q76)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Гравець звертається «sir» і «Staff Sergeant» (a2, a42, a44), Фрейзер —
+        незмінно «Corporal». Стосунки суто службові й дистанційовані; його
+        манірна чемність тримається саме на «ви» — STYLE §3.2.
+      gender_cues: []
+      switches:
+        - {unit: q59, to: ви, trigger: "різкий догану-зрив «That's not how you talk to a superior officer» — регістр не змінюється, змінюється тон"}
+    voice:
+      register: манірний, зверхній, підкреслено службовий
+      idiolect:
+        - "подвоєне звертання «Corporal, Corporal...» — головний словесний тик (q1, q48, q51, q69, q82)"
+        - "«Heh» на початку репліки — самовдоволений смішок (q40, q43, q71, q83)"
+        - "«No offense» перед образою — прийом, який треба зберегти як прийом (q37, q52, q57)"
+        - "повні форми без скорочень, вставні «I suppose», «if I may say so», «to be perfectly honest»"
+        - "нарація повторює «::He smirks.::» — усмішка як маркер персонажа"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; підказки дій усередині «::…::» — інфінітив (§3.5)"
+
+new_names:
+  - "Eric"
+  - "Mareth"
+  - "Justin"
+  - "Fort Apogee"
+  - "Port Zenith"
+  - "United Stations"
+  - "Chemical Assault Unit"
+  - "CAU"
+  - "Lunatics"
+  - "Tchortists"
+
+idioms:
+  - unit: q39
+    src: "these blues are now yours"
+    note: "«blues» — сленгова назва доларів United Stations за кольором купюр; не калькувати «сині», шукати розмовний відповідник для грошей"
+  - unit: q52
+    src: "South Underrail seems pretty derailed to me"
+    note: "гра слів на назві Underrail; «derailed» тут і «зійшов з рейок», і «звихнутий» — каламбур будувати на залізничному образі"
+  - unit: q56
+    src: "wipe the ground with these anarchists"
+    note: "ідіома; український відповідник, а не дослівна калька"
+  - unit: q78
+    src: "someone who is named Justin. Case."
+    note: "жарт будується на тому, що ім’я звучить як «just in case»; каламбур неперекладний дослівно — зберегти зневажливу паузу, глум пояснюється наступним рядком q79"
+  - unit: q69
+    src: "the ratters"
+    note: "зневажлива назва південців; грубе лишається грубим — STYLE §9"
+
+pitfalls:
+  - "q48 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "«Corporal» як звертання повторюється в переважній більшості q-рядків: потрібен один сталий кличний відповідник на весь вузол"
+  - "a17–a21, a27–a31 — торгові підказки в «::…::» з числами; порядок «5 stygian coins for 2 dollars» не перевертати"
+  - "q13 описує курс обміну в обидва боки — плутанина напрямків зламає зрозумілість механіки"
+  - "SGS передається як ССГ (глосарій), але Underrail лишається латиницею й не відмінюється"
+  - "q3, q81 — CAU/Chemical Assault Unit; абревіатура ще не має канонічного рішення, тримати одноманітно в межах вузла"
+
+examples:
+  - unit: a10
+    rule: "підказка дії в «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q1
+    rule: "звертання за званням, стале на весь вузол"
+    uk_fragment: "Капрале, капрале…"
+    status: proposed

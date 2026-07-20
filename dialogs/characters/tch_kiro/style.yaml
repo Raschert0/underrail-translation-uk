@@ -1,0 +1,73 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_kiro
+file_id: dialogs\characters\tch_kiro.txt
+derived_from: source-only
+units: {total: 44, npc: 24, player: 20, empty: 1}
+
+speakers:
+  - slug: kiro
+    name: Кіро
+    units: default
+    confidence: certain
+    evidence: [q2, q4]
+    role: >-
+      Слідчий Інституту Тчорта при прискорювачі частинок, крамар
+      високотехнологічних деталей за дозволом Штеффа. Говорить рівно й
+      беземоційно — реченнєва інтонація має лишатися пласкою навіть там, де
+      зміст захопливий.
+    relationships:
+      - "Штефф — головний слідчий, керівник Відділу фізики й безпосередній начальник"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службовець на робочому місці, мова без просторіччя, без скорочень і без
+        емоційних маркерів («I cannot spare», «I must have permission») —
+        STYLE §3.2. «$(#brother/sister)» тут статутне звертання ордену, не
+        панібратство. Гравець дзеркалить — STYLE §3.3.
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: рівний, технічний, беземоційний; ввічливість без теплоти
+      idiolect:
+        - "механічна ввічливість-заповнювач «No problem at all», «Of course», «Precisely»"
+        - "тчортистський схвальний присудок «Apex, is it not?» (q30) — сленг ордену, той самий відповідник, що й у tch_lal"
+        - "точні числівники й терміни підряд (q27, q32) — не спрощувати до побутової мови"
+        - "ритуальні формули «Tchort is evolution», «Tchort guide you» — сталий переклад по корпусу"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; інтродукція q2 — єдиний нараційний блок вузла"
+
+new_names: ["Praepostor"]
+
+idioms:
+  - unit: q2
+    src: "as flat as his excitement"
+    note: "порівняння на подвійному значенні flat — шукати український відповідник, що працює і про голос, і про запал"
+  - unit: q16
+    src: "Hard to miss it"
+    note: "не калькувати; розмовне «не проґавите»"
+  - unit: q27
+    src: "we steer them, guide them - like Tchort guides us"
+    note: "дієслово guide тут перегукується з формулою «Tchort guide you» — зберегти той самий корінь"
+
+pitfalls:
+  - "a3, a40, a42 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "a3 «Evolution is Tchort, brother» — дзеркальна відповідь на «Tchort is evolution»; порядок слів у парі має лишатися перевернутим"
+  - "«brother» у a3 написане без плейсхолдера — це звертання гравця до NPC-чоловіка, тож форма фіксована, не гендерна"
+  - "«::[Mechanics]::», «::[Electronics]::» — назви навичок у дужках, беруться з глосарію навичок, а не перекладаються заново"
+  - "«Investigator» і «Principal Investigator (PI)» — звання; PI у q14 подано абревіатурою, потрібне єдине рішення для повної й скороченої форми"
+  - "«super steel» (a6, q7, q32) — назва матеріалу, має бути та сама в усіх трьох"
+  - "«Institute» → Інститут Тчорта, «Surface» — велика літера значуща (поверхня як топонім)"
+  - "«Schteff» → Штефф за реєстром; «Kiro» → Кіро"
+
+examples:
+  - unit: q4
+    rule: "$(#brother/sister) — гендерне звертання, кличний відмінок, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: a9
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

@@ -1,0 +1,73 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/tch_curator
+file_id: dialogs\characters\tch_curator.txt
+derived_from: source-only
+units: {total: 38, npc: 25, player: 13, empty: 1}
+
+speakers:
+  - slug: nenna
+    name: Ненна
+    units: default
+    confidence: certain
+    evidence: [q2]
+    role: >-
+      Кураторка Бібліотеки Ейдейна в Інституті Тчорта. Говорить майже пошепки,
+      надзвичайно ввічливо; щиро закохана у свою бібліотеку й у Первісний Звіт.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Служба при бібліотеці, підкреслено ввічлива мова з постійним «please»
+        і формулою $(#brother/sister) — «ви» за STYLE §3.2. Гравець тримає
+        той самий шанобливий тон, звертається «sister» (§3.3).
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: тихий, церемонний, книжний
+      idiolect:
+        - "нав’язливе «please» як пом’якшувач — q5, q7, q8; не вирізати"
+        - "подвоєння для наголосу: «a completely, completely different matter»"
+        - "звертання «novitiate» до гравця замість імені — послідовно в q5, q8, q18"
+        - "довгі складнопідрядні періоди в довідкових репліках q17, q25, q26 — не дробити на короткі речення"
+        - "ритуальні формули вітання й прощання: «Tchort is evolution», «Tchort guide you», «Read well»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки q2, q6, q23"
+
+new_names: ["Nenna", "Azarias"]
+
+idioms:
+  - unit: q6
+    src: "I'd rather not retard your progress"
+    note: >-
+      Тут «retard» — «гальмувати, стримувати», книжне значення, без жодного
+      образливого відтінку. Пастка для машинного перекладу.
+  - unit: q13
+    src: "falling into undesirable hands"
+    note: "усталене «потрапити не в ті руки»"
+  - unit: q18
+    src: "It goes without saying"
+    note: "«само собою зрозуміло», не калька"
+  - unit: q21
+    src: "an uncountable amount of times"
+    note: "гіпербола «безліч разів», не арифметика"
+
+pitfalls:
+  - "Tchort → Тчорт, Institute of Tchort → Інститут Тчорта, Deep Caverns → Глибокі Печери, Faceless → Безликі — глосарій"
+  - "Eidein → Ейдейн (реєстр); у q20 джерело двічі пише «Eiden» — це друкарська помилка джерела, ім’я одне"
+  - "Curator → куратор з малої (реєстр): «куратор Ненна»; Nevil → Невіл (реєстр)"
+  - "терміни культу — novitiate, propagator, curator rights, rassophore, Propagation, Original Report — потребують єдиних відповідників на весь корпус tch_*; узгодити з tch_prevlic і tch_vladan"
+  - "«the Great Earthquake» у q26 — власна назва події, з великої; «year twenty-four» — числівник словами, як у джерелі"
+  - "q5 і q8 — майже дослівний повтор однієї думки; розбіжність у перекладі виглядатиме як помилка"
+  - "у a4 підказка ::[Persuade]:: → ::[Переконати]:: (глосарій)"
+
+examples:
+  - unit: q2
+    rule: "STYLE §2 — гендерне звертання в обох гілках, кличний відмінок"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: a4
+    rule: "глосарій — назва перевірки навички"
+    uk_fragment: "::[Переконати]::"
+    status: proposed

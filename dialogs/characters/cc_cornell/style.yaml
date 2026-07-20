@@ -1,0 +1,106 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_cornell
+file_id: dialogs\characters\cc_cornell.txt
+derived_from: source-only
+units: {total: 103, npc: 55, player: 48, empty: 5}
+
+speakers:
+  - slug: cornell
+    name: Корнелл
+    units: default
+    confidence: certain
+    evidence: [a3, q31, q100]
+    role: >-
+      Ватажок банди шукачів «Acid Hunters», що переховується в Центральному Місті
+      після смерті сина одного з олігархів. Затиснутий у кут і торгується за життя:
+      мова коливається між нахабством напоказ і панічним виправдовуванням.
+    relationships:
+      - "Двоє поплічників поруч — мовчазні, зброю виймають за ним"
+      - "Phreak — давній спільник, у його схованці Корнелл ховається"
+      - "Арчібальд Найт — батько вбитого хлопця, шукає помсти"
+      - "Coretech — замовник убивства самого Корнелла"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний бандит, з першого рядка агресивний і панібратський
+        («Drop off, I ain’t talkin’ to ya!»), звертається до гравця зневажливими
+        прізвиськами. STYLE §3.2 — «ти»; репліки гравця дзеркалять (§3.3).
+      gender_cues: ["$(#man/sister)", "$(#boy/girl)", "$(#him/her)"]
+    voice:
+      register: грубий, вуличний, з постійним випаданням кінцевого g
+      idiolect:
+        - "тотальне випадання g: talkin’, tellin’, hidin’, squabblin’ — потрібен розмовний український відповідник, не літературна норма"
+        - "ya / yer замість you / your, ain’t, ’cause, tryina, outta, gotta"
+        - "зневажливе pipeworker як звертання до гравця — глосарій «труболаз»"
+        - "внутрішньоігрове zone out / dominate у значенні «вбити», «розібратися»"
+        - "обриви й самовиправлення під тиском: «me... us... me?»"
+        - "лайку через *зірочки* автор ставить як евфемізм — лишати грубим, не пом’якшувати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1, навіть коли Корнелл каже «ти»"
+
+new_names: ["Acid Hunters", "Miland", "Edmund", "Phreak", "Terry", "Baker", "Cube"]
+
+idioms:
+  - unit: q1
+    src: "Drop off"
+    note: "«відвали», не калькувати як «відпади»; повторюване відшивання"
+  - unit: q9
+    src: "shut me up"
+    note: "«заткнути» — грубо, без пом’якшення"
+  - unit: q12
+    src: "Tried floggin’ it to a couple of merchants"
+    note: "flog = «спихнути», «збути», не «шмагати»"
+  - unit: q12
+    src: "cheapskates"
+    note: "«жмоти», «скнари» — розмовне, не «ощадливі»"
+  - unit: q17
+    src: "he got dominated"
+    note: "внутрішньоігровий сленг Центрального Міста; тримати єдиний відповідник у всьому вузлі"
+  - unit: q20
+    src: "wants you dead as a hopper"
+    note: "порівняння спирається на істоту «стрибун» (глосарій) — зберегти образ"
+  - unit: q49
+    src: "the old coot"
+    note: "«старий хрін», «старий дурень» — фамільярно-зневажливо"
+  - unit: q53
+    src: "slim pickings"
+    note: "«пожива нікчемна», «поживитися не було чим»; не калькувати"
+  - unit: q69
+    src: "You forgot the part where you killed them in cold blood"
+    note: "in cold blood — «холоднокровно»; далі q70 обігрує це саме слово, зв’язок зберегти"
+  - unit: q100
+    src: "do we get this show on the rails"
+    note: "залізнична переробка «get this show on the road» — образ рейок навмисний, зберегти"
+  - unit: a103
+    src: "that boat trip to hell"
+    note: "перегук зі стигійським мотивом (монета «харон» у глосарії) — не згладжувати до «час помирати»"
+
+pitfalls:
+  - "q39 («We ») і q40 — один розрізаний рядок; так само q46 і q47. Переклад має стикуватися по слову, інакше в грі вийде граматичний брухт. Не переносити слова між юнітами."
+  - "a3 містить $(context.player.Name) — усередині плейсхолдера нічого не відмінювати; будувати фразу так, щоб ім’я стояло в називному."
+  - "a3 «I’ve been looking for you… Cornell» — це гравець звертається до Корнелла; мовець q-рядків від цього не змінюється."
+  - "$(#man/sister) — асиметрична пара в оригіналі; в українському варіанті потрібні дві повноцінні гендерні форми, а не одна на дві статі."
+  - "q76 $(#him/her) — Корнелл говорить про гравця в третій особі до своїх; узгодити з дієсловом, а не з адресатом."
+  - "Coretech лишається латиницею (глосарій, read-only), Core City → «Центральне Місто», Faceless → «Безликі», Tunnelers → «Тунельники»."
+
+examples:
+  - unit: q27
+    rule: "$(#boy/girl) — гендерне звертання у кличному, STYLE §2"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed
+  - unit: q31
+    rule: "pipeworker — канонічний термін глосарія як зневажливе звертання"
+    uk_fragment: "труболазе"
+    status: proposed
+  - unit: q11
+    rule: "нарація ::…:: — «ви», STYLE §3.1"
+    uk_fragment: "::Він кидає на вас…"
+    status: proposed
+  - unit: a28
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed

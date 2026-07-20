@@ -1,0 +1,118 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/jy_grover
+file_id: dialogs\characters\jy_grover.txt
+derived_from: source-only
+units: {total: 66, npc: 32, player: 34, empty: 1}
+
+speakers:
+  - slug: grover
+    name: Гровер
+    units: default
+    confidence: certain
+    evidence: [q50, q52, q24]
+    role: >-
+      Дрібний боржник зі Звалища, який заборгував Докмайстрові й ховається від
+      Чорних Вугрів. Тон коливається від удаваної байдужості до відвертого
+      скиглення — саме цей злам і треба тримати в перекладі.
+    relationships:
+      - "Сайлас — через нього передано борг; Гровер уже виправдовувався перед ним (q52)"
+      - "Тріса — «friend», яку він здає гравцеві заради власного порятунку"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний боржник без жодної службової дистанції: звертання «man»,
+        «$(#jack/sister)», панібратське «my favorite extorter». Гравець приходить
+        вибивати борг — ввічливої форми тут немає з жодного боку.
+      gender_cues: ["$(#jack/sister)"]
+    voice:
+      register: розхристаний, запобігливий, з нальотом фальшивої бадьорості
+      idiolect:
+        - "систематичне випадання g: «tellin'», «nuthin'», «sellin'», «waitin'» — передавати розмовним усіченням, не орфографічною помилкою"
+        - "«ain't», «gotta», «wanna», «kinda» — знижений регістр, не згладжувати"
+        - "заповнювачі «like», «yeah», «you know» — словесні тики, лишати"
+        - "у сценах страху мова розсипається на повтори: «I can, I can help you», «I promise. I promise.»"
+
+  - slug: treasa
+    name: Тріса
+    units: [q8, q10, q14, q17, q20, q25]
+    confidence: probable
+    evidence: [q8, q10]
+    role: >-
+      Мешканка Звалища, яку Гровер заманює в завулок заради енергоядра.
+      Реагує гнівом і недовірою, не проханням.
+    relationships:
+      - "Гровер — називає його «you slimy good-for-nuthin'», тобто жодної приязні"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Одразу після появи говорить вороже й через голову гравця («Who's this
+        $(#guy/woman)?»), далі переходить до погроз. Дистанція тут не ввічлива,
+        а конфліктна.
+      gender_cues: ["$(#guy/woman)"]
+      switches:
+        - {unit: a19, to: ви, trigger: "гравець удавано ґречно каже «Don't worry, ma'am» — глумлива ввічливість перед нападом; зберегти контраст, а не вирівняти під «ти»"}
+    voice:
+      register: різкий, підозріливий, у сутичці — відверто лайливий
+      idiolect:
+        - "те саме випадання g, що й у Гровера («nuthin'») — обоє з того самого дна"
+
+narration:
+  present: true
+  note: >-
+    Стейдж-дирекції на кшталт «::The woman frowns at your presence.::» і
+    «::He gives you a confused look.::» — «ви» без винятків, STYLE §3.1.
+    Підказки дій «::Attack Treasa.::», «::Defend youself.::» (друкарська помилка
+    в джерелі), «::Fight!::», «::End Dialog::» — інфінітив, STYLE §3.5.
+
+new_names: ["Scrappers", "Dockmaster", "Lunatics"]
+
+idioms:
+  - unit: q11
+    src: "We gotta do her in"
+    note: "«прибрати», «порішити» — кримінальний евфемізм, не буквальне «зробити»"
+  - unit: q14
+    src: "you squeezers"
+    note: "лайливе звертання; Squeezer як прізвисько персонажа тут ні до чого — це загальна назва вимагачів"
+  - unit: q27
+    src: "we got to ice her"
+    note: "«ice» = вбити; не калькувати температурою"
+  - unit: q33
+    src: "She's completely derailed"
+    note: "внутрішньоігровий термін божевілля (пор. «derailment»); потрібне єдине рішення на весь корпус, не описовий синонім щоразу"
+  - unit: q28
+    src: "it's my favorite extorter"
+    note: "нервовий підлабузницький жарт, а не образа — інтонація має лишитися загравальною"
+  - unit: a43
+    src: "pry it from your cold dead hands"
+    note: "усталена англійська формула; шукати український відповідник погрози, не дослівний переклад"
+  - unit: a45
+    src: "It's curtains for you then"
+    note: "ідіома «тобі кінець», театральна лаштунковість не відтворюється"
+  - unit: a39
+    src: "you little hopper"
+    note: "образа через назву істоти — глосарій дає «стрибун»; зберегти саме тваринне порівняння"
+
+pitfalls:
+  - "q7 «this is my friend Treasa» — Гровер представляє Трісу гравцеві; ім’я в репліці вказує на того, про кого мова, а не на мовця"
+  - "q8, q10, q17 містять звертання «Grover» — це репліки Тріси ДО Гровера, не Гроверові слова"
+  - "a19 «Don't worry, ma'am» — гравець звертається до Тріси, а не до Гровера, хоч у тій самій репліці згадано «my friend Grover»"
+  - "q30 і q54 змішують нарацію в «::…::» з прямою мовою в одному юніті — регістр усередині юніта різний: «ви» в нарації, «ти» в мові"
+  - "«charons» (q32) — глосарій: «харон», з малої, як монета"
+  - "«Scrappers» (q11) — фракція без канонічного рішення; не вигадувати переклад до внесення в реєстр"
+
+examples:
+  - unit: q4
+    rule: "$(#jack/sister) — гендерне звертання до гравця, STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q23
+    rule: "минулий час і дієприкметники в межах плейсхолдера, якщо звертання гендерне"
+    uk_fragment: "::Він розгублено дивиться на вас.::"
+    status: proposed
+  - unit: a16
+    rule: "підказка дії в «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Напасти на Трісу.::"
+    status: proposed

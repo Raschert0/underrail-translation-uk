@@ -1,0 +1,121 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/ch_edgar
+file_id: 'dialogs\characters\ch_edgar.txt'
+derived_from: source-only
+units: {total: 188, npc: 98, player: 90, empty: 8}
+
+speakers:
+  - slug: edgar
+    name: Едгар
+    units: default
+    confidence: certain
+    evidence: [q13, q38, q149]
+    role: >-
+      Ватажок Табору Хатор, колишній мисливець, що дістав посаду за вислугу років,
+      а не за походження. Говорить як людина, звикла ухвалювати рішення за інших:
+      коротко, наказово, без прикрас.
+    relationships:
+      - "Бойд — заступник, «my right hand man»; Едгар його захищає й пояснює його минуле"
+      - "Gideon Sud — попередній ватажок, загинув на полюванні; Бек — його син"
+      - "Сарін — жінка Бека; Едгар обриває розмову про неї (q169, q173)"
+      - "Великий Брет зі ССГ — давній знайомий, «good old Bret»"
+      - "Rathound King — головний ворог табору; Едгар не називає його інакше як «savage»"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Попри посаду говорить суцільно розмовно: «ain't», «wanna», «gonna»,
+        «them tattoos», «gun them bugs down». Це прикордонний мисливський табір,
+        а не установа — STYLE §3.2 дає «ти».
+      gender_cues: ["$(#man/woman)", "$(#men/men, or women in you case,)"]
+      note: >-
+        Холодність першої зустрічі (q13 «state your business quickly», q124
+        «a complete stranger») передається лексикою, а не переходом на «ви» —
+        інакше вузол розпадеться на два різні регістри.
+    voice:
+      register: різкий, командний, без люб’язностей
+      idiolect:
+        - "просторічна граматика попри посаду — не вирівнювати її до літературної"
+        - "заклинальний повтор наприкінці тиради: «But we'll get rid of him. We will get rid of him.»"
+        - "риторичне питання як докір: «Did a stalactite drop on your head?»"
+        - "коротке рубане речення в наказі: «State your business.»"
+
+  - slug: rathound_king
+    name: Король Щурчаків
+    units: [q10]
+    confidence: certain
+    evidence: [q10]
+    role: >-
+      Ворог табору, з’являється в цьому вузлі рівно один раз — у сцені нападу
+      на його лігво. Говорить зверхньо, як до комах.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Звертання «little one» і тон зверхності: це презирливе «ти», не ввічливе.
+    voice:
+      register: погордливий, урочистий, з паузою на власний титул
+      idiolect:
+        - "говорить про себе в третій особі: «the wrath of the Rathound King»"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Нарація тут довга й описова (q13, q26, q149),
+    з фокусом на міміці Едгара; це не його мова, регістр не успадковується.
+
+new_names: ["Garnham", "Gideon Sud", "Rathound King", "Carnifex"]
+
+idioms:
+  - unit: q34
+    src: "Did a stalactite drop on your head recently?"
+    note: >-
+      Місцева ідіома підземелля, повторюється в q52. Сталактит зберігаємо —
+      це прив’язка до світу, а не випадковий образ.
+  - unit: q157
+    src: "that's just my two charons"
+    note: >-
+      Перелицьоване «my two cents» на ігрову монету. Потрібна українська
+      ідіома того ж типу з «хароном», не дослівний переклад.
+  - unit: q68
+    src: "That savage is like cancer"
+    note: "порівняння лишається жорстким; не пом’якшувати до «біда» чи «лихо»"
+  - unit: q164
+    src: "Beneath all that coloring, something white was shining through."
+    note: >-
+      Метафора татуювань і чистоти водночас. Гра на «coloring» — не зводити
+      до однієї з двох площин.
+  - unit: q55
+    src: "he might as well be floating through these caves"
+    note: "про вміння не лишати слідів, а не про левітацію — не буквалізувати"
+  - unit: q111
+    src: "you are one of them... role-playing people"
+    note: >-
+      Едгар не знає слова й підбирає його вголос; затинання в пошуку терміна
+      має лишитися, інакше зникне комізм.
+
+pitfalls:
+  - "$(context.player.Name) у q1, q20, q34, q41, q44, q87, q173, q187 — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному"
+  - "q113 містить $(#men/men, or women in you case,) — плейсхолдер із друкарською помилкою джерела; помилку не відтворювати, але зберегти форму $(#…/…) з двома гілками"
+  - "q134 $(#man/woman) стосується гравця, а не третьої особи"
+  - "«bugs» — це розмовна назва burrowers; за глосарієм burrowers → копаки. Обидва слова мають вести до одного українського терміна"
+  - "глосарій: charons → харон, Camp Hathor → Табір Хатор, SGS → ССГ, Foundry → Ливарня, Core City → Центральне Місто, crawler → повзун, Underrail → лишати латиницею"
+  - "a110 «the invictus» — титул Арени, глосарій: Інвіктус"
+  - '\n\n у q13, q27, q34, q44, q55, q87, q153, q172, q175, q177 — розділювачі абзаців, зберігати як є'
+  - "q173 і q175 — прихована погроза через недомовку й крапки; не договорювати за персонажа"
+  - "q136 і q147 — переліки зброї, що мають збігатися з відповідями гравця a138–a146; перекладати обидва списки узгоджено"
+
+examples:
+  - unit: q3
+    rule: "нарація ::…:: — завжди «ви», STYLE §3.1"
+    uk_fragment: "::Він простягає вам…::"
+    status: proposed
+  - unit: q113
+    rule: "$(#…) — обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#чоловікові/жінці)"
+    status: proposed
+  - unit: q157
+    rule: "ігрова перелицівка ідіоми — монета зберігається"
+    uk_fragment: "мої два харони"
+    status: proposed

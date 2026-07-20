@@ -1,0 +1,139 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/dc_flo_commander
+file_id: dialogs\characters\dc_flo_commander.txt
+derived_from: source-only
+units: {total: 267, npc: 134, player: 133, empty: 10}
+
+speakers:
+  - slug: flo_commander
+    name: командувач Безликих
+    units: default
+    confidence: certain
+    evidence: [q48, q33, q224, q34]
+    role: >-
+      Командувач загону Безликих у Глибоких Печерах; вимагає в гравця Куб і
+      веде всі перемовини від імені свого народу. Говорить синтезованим голосом
+      і майже завжди від «ми», а не від «я», — це головне, що визначає добір слів.
+    relationships:
+      - "Безликі (Безликі — фракція, registry) — його народ, він мовить від їхнього імені: «We made us», «our goals»"
+      - "Лора Бейкер — полонена/врятована, яку він погоджується повернути до ССГ (q198, q251)"
+      - "Ейдейн і Тчорт — предмет аналітичних монологів q82–q102, ставлення холодно-дослідницьке"
+      - "Rahm-Umbra — союзник, про якого говорить із рідкісною для себе повагою (q139, q141)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Мовець максимально формальний і дистанційований: майже повна відсутність
+        скорочень («We cannot allow that», «You may not receive a further answer»,
+        «I am telling you what you need to know»), книжковий синтаксис, звертання
+        на повне ім’я через $(context.player.Name). Це службово-офіційний голос
+        (STYLE §3.2 — формальні на «ви»). Репліки гравця дзеркалять базовий
+        регістр — «ви» (STYLE §3.3), навіть у грубих зривах на кшталт q243 і a261:
+        це емоція, а не зміна регістру.
+      gender_cues: []
+      switches: []
+    voice:
+      register: >-
+        холодний, аналітичний, беземоційний; мова наукового звіту, а не розмови
+      idiolect:
+        - "стале «ми» замість «я» — Безликі мислять колективно: «We know», «our goals», «we grieve»"
+        - "модальне may як дозвіл, а не можливість: «You may ask», «That I may not say», «but further than that I may not go» — це відмірювання дозволеного, і в українському має лишатися дозволом, а не ввічливістю"
+        - "категоричне однослівне заперечення на початку репліки: «No.», «Correct.», «Unnecessary.», «Possibly.», «Yes.» — рубані речення не зрощувати з наступним"
+        - "наказовий спосіб без пом’якшення: «Speak.», «Leave.», «Ask.», «Take this.» — одне слово, крапка"
+        - "термінологізована лексика замість побутової: «unit», «data», «neural activity», «assignment» — не заміняти розмовними синонімами"
+        - "жодних скорочень у власній мові (cannot, do not, we are not); поодинокі «aren't», «haven't», «I'm afraid» (q157, q166, q220) — свідомі проблиски, не згладжувати в жодний бік"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Нарація тут довга й описова (q33, q224 —
+    повний опис обладунку), а також підказки дій у ::…:: (a7, a36, a42, a230,
+    a266) — інфінітив за STYLE §3.5.
+
+unattributed_units: []
+
+new_names: ["Rahm-Umbra", "Hollow Earth", "Terry Baker", "Baker", "Acorn", "ACoNR", "Surface"]
+
+idioms:
+  - unit: q243
+    src: "stack so many Faceless corpses that I'm gonna be able to climb them back to Lower Underrail"
+    note: >-
+      бравада гравця; образ буквальний і має лишитися буквальним, але «gonna»
+      передавати розмовною формою, не книжковою
+  - unit: a151
+    src: "that bloody thing"
+    note: "лайливий підсилювач, не колір і не буквальне «кривавий»; розмовне зневажливе"
+  - unit: a182
+    src: "some fancy-looking battery"
+    note: "зневажливе применшення — «якась там показна батарейка», не «модна»"
+  - unit: a63
+    src: "singlehandedly defeated Tchort"
+    note: "«сам-один», не калька «однією рукою»"
+  - unit: q220
+    src: "I'm afraid that is now impossible"
+    note: "ввічлива формула відмови, не про страх"
+  - unit: q100
+    src: "our birthplace became their grave"
+    note: "риторична антитеза — зберегти протиставлення місця народження й могили"
+  - unit: q102
+    src: "Every mind is more than the sum of its parts"
+    note: "усталена формула «більше, ніж сума складників» — не перебудовувати"
+  - unit: q84
+    src: "One's intentions are best understood through observing one's actions"
+    note: "сентенція-максима; безособова побудова, без «ви»/«ти»"
+  - unit: q86
+    src: "under the mask of secrecy"
+    note: "образ маски навмисний — Безликі й тчортисти обидва закриті; зберегти"
+  - unit: q126
+    src: "Memories could have been imprinted in your mind"
+    note: "«imprinted» тут технічно — про втручання в пам’ять, не «відбилися»"
+  - unit: a134
+    src: "a.k.a ACoNR"
+    note: "скорочення «a.k.a» розгортати українською («відомий як»), абревіатуру ACoNR лишати як є"
+
+pitfalls:
+  - "q248 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я лишалося в називному"
+  - "у джерелі немає жодного $(#…) — але українське минуле й прикметники гендеровані, тож плейсхолдери доведеться ДОДАВАТИ (STYLE §2): q221 «you helped him», q244 «You have fully cooperated», q257 «You have cooperated», a63 «I just defeated», a192 «I have already been»"
+  - "«the Cube» у джерелі непослідовне: то з великої (q68, q155), то з малої (q37 «the cube», q186, q188, q211) — в українському тримати один варіант"
+  - "Underrail і Biocorp — латиницею, не відмінювати (глосарій); «Lower Underrail» у q243 і «South Underrail» у q114 будувати як «Нижня Underrail», «Південна Underrail»"
+  - "SGS → ССГ, South Gate Station → Станція Саут-Гейт (глосарій); в a55 і a197 стоїть SGS, в a201 — повна назва: різні форми в джерелі, різні й у перекладі"
+  - "Deep Caverns → Глибокі Печери, Core City → Центральне Місто, Institute of Tchort → Інститут Тчорта, Tchort → Тчорт, Oculus → Окулус, Faceless → Безликі, Tunnelers → Тунельники (глосарій)"
+  - "Tchort у джерелі послідовно «it», а не «he» (q88, q90, q170) — знеособлення навмисне; українське «Тчорт» чоловічого роду, тож дистанцію тримати лексикою, а не займенником"
+  - "q252 «a quadrupedal» — це чотириногий Безликий-істота, а не прикметник; іменник"
+  - "q168 «the unit» означає організм, а не підрозділ; у q251 «tunneler units» — навпаки, загін"
+  - "\\n\\n у q3, q13, q30, q33, q39, q48, q99, q126, q141, q155, q224, q236, q248, q251, q252 — літеральна послідовність, копіювати як є"
+  - "q236 закінчується \\n\\n перед <end> — порожній хвіст зберегти"
+  - "лапки в джерелі прямі (\"the Cube\", \"knew\") — в українському « » (STYLE §4)"
+  - "q13 і q154 мають пробіл перед <end> — не «чистити»"
+  - "a109 має подвійний знак питання («events??») — авторська недбалість джерела, відтворювати не треба"
+
+examples:
+  - unit: q70
+    rule: "наказовий спосіб на «ви» — STYLE §3.4"
+    uk_fragment: "Говоріть."
+    status: proposed
+  - unit: q69
+    rule: "наказовий спосіб на «ви» — STYLE §3.4"
+    uk_fragment: "Ідіть."
+    status: proposed
+  - unit: a10
+    rule: "підказка дії у ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Завершити діалог.::"
+    status: proposed
+  - unit: a61
+    rule: "підказка дії у ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed
+  - unit: q221
+    rule: "додати гендерний плейсхолдер там, де в джерелі його немає — STYLE §2"
+    uk_fragment: "після того, як ви йому $(#допомогли/допомогли)"
+    status: proposed
+  - unit: q108
+    rule: "may як відмірюваний дозвіл, а не ввічливість"
+    uk_fragment: "Цього я сказати не можу."
+    status: proposed
+  - unit: q97
+    rule: "колективне «ми» Безликих — не переводити в «я»"
+    uk_fragment: "нас створили"
+    status: proposed

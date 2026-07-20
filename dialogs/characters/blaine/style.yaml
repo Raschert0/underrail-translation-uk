@@ -1,0 +1,92 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/blaine
+file_id: dialogs\characters\blaine.txt
+derived_from: source-only
+units: {total: 106, npc: 60, player: 46, empty: 6}
+
+speakers:
+  - slug: blaine
+    name: Блейн
+    units: default
+    confidence: certain
+    evidence: [q2, q20, q102]
+    role: >-
+      Тіньовий торговець із крамницею в тунелях: продає те, що важко дістати
+      деінде, і тримає охорону. Говорить мало й ваговито, кожна репліка —
+      або умова, або відмова, або погроза, тому стислість тут змістова, а не
+      стилістична дрібниця.
+    relationships:
+      - "Едді зі Скраперів — давній ворог; звістку про його смерть сприймає з холодним задоволенням"
+      - "Сайлас і Вугри — колишні супротивники, тепер вимушені партнери"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вулична говірка з випаданням «g» (doin', amusin', talkin', gettin',
+        somethin'), «ain't», «Dig?» і грубощами «I don't give a handful of
+        rathound's excrement». Звертання $(#jack/sister), $(#jack/girl),
+        $(#boy/girl) — панібратські, жодного «sir/ma'am» у вузлі немає.
+      gender_cues: ["$(#jack/sister)", "$(#jack/girl)", "$(#boy/girl)"]
+    voice:
+      register: холодний, лаконічний, погрозливий; накази без пом’якшення
+      idiolect:
+        - "«Dig?» як фірмове перепитування — має бути та сама українська форма щоразу"
+        - "наказові кінцівки-обриви: «Now - out of my shop.», «Ask.», «Good.», «Farewell.» — не розгортати в повні речення"
+        - "систематичне ковтання кінцівок — передавати розмовним словником і синтаксисом, бо українська не має прямого відповідника"
+        - "зневажливі номінації для чужих: «rats», «muties», «Eddy's lapdogs» — грубе лишається грубим, STYLE §9"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; q2 — довга портретна ремарка, тон нейтрально-описовий"
+
+new_names: ["Scrappers", "Black Eels", "Depot A", "Depot B", "Armadillo"]
+
+idioms:
+  - unit: q6
+    src: "Dig?"
+    note: "«Ясно?» / «Втямив?» — не дієслово копання; тримати єдину форму у всьому вузлі"
+  - unit: q33
+    src: "I'll be damned"
+    note: "вигук здивування, не прокляття на свою адресу"
+  - unit: q35
+    src: "if you guys can pull it off"
+    note: "«якщо провернете» — не калькувати"
+  - unit: q47
+    src: "I don't give a handful of rathound's excrement"
+    note: "навмисно вигадлива груба формула; пом’якшувати не можна, «rathound» → «щурчак»"
+  - unit: q55
+    src: "I collected boots from thugs like you before you were even born"
+    note: "збирання чобіт із трупів — погроза вбити, не побутове заняття; те саме в q57"
+  - unit: q47
+    src: "Anyone worth his weight in scrap"
+    note: "переробка «worth his weight in gold» під місцеві реалії — зберегти гру з металобрухтом"
+  - unit: q95
+    src: "So even his heart betrayed him"
+    note: "сарказм; калька без інтонації втратить сенс"
+
+pitfalls:
+  - "q5 + q6 — розірване речення («One thing first:» → продовження); те саме в q82 + q83; перекладати парою"
+  - "q39 і q41 дослівно однакові — переклад має збігатися символ у символ"
+  - "q29 і q64 переказують те саме різними словами (одне з іменем Сайлас, друге без) — розбіжність зберегти"
+  - "три різні гендерні плейсхолдери в одного мовця: $(#jack/sister), $(#jack/girl), $(#boy/girl) — не зводити до однієї пари, вони позначені по-різному в джерелі"
+  - "зірочки навколо *stuff*, *not* — ігровий наголос, зберігати"
+  - "«::[Mercantile]::», «::[Intimidate]::», «::[Persuade]::», «::Fight!::», «::Attack!::», «::Barter.::» — службові мітки; «::Barter.::» → «::Торгувати.::» за глосарієм"
+  - "q2, q29, q61 містять літеральні \\n\\n — не перетворювати на пробіл"
+  - "«Old Junkyard» → «Старе Звалище», «Junkyard» → «Звалище», «rathound» → «щурчак», «Underrail» латиницею й без відмінювання — глосарій"
+  - "«Depot A» / «Depot B» — технічні позначення складів; літери латиницею не змінювати"
+  - "q37 «you Eels» звучить у вустах Блейна як докір — зневажливий відтінок зберегти"
+
+examples:
+  - unit: q20
+    rule: "$(#jack/sister) — панібратське гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q40
+    rule: "наказовий спосіб успадковує «ти», STYLE §3.4"
+    uk_fragment: "Забирайся з моєї крамниці."
+    status: proposed
+  - unit: q2
+    rule: "нарація «::…::» — «ви», незалежно від того, що мовець каже «ти», STYLE §3.1"
+    uk_fragment: "::…вітає вашу появу.::"
+    status: proposed

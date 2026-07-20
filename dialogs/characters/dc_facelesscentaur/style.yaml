@@ -1,0 +1,79 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/dc_facelesscentaur
+file_id: dialogs\characters\dc_facelesscentaur.txt
+derived_from: source-only
+units: {total: 82, npc: 47, player: 35, empty: 3}
+
+speakers:
+  - slug: faceless_centaur
+    name: Безликий-кентавр
+    units: default
+    confidence: certain
+    evidence: [q1, q2, q3]
+    role: >-
+      Кіборгізований чотириногий Безликий, що видає гравцеві боєприпаси за
+      квотою. Уся його мова — це видача нормативів, тому потрібен реєстр
+      інтенданта, а не характер.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Синтезований голос і повна відсутність скорочень: «You are entitled to»,
+        «I may not give you any more», «That is acceptable», «No, you may not» —
+        службовий, безособовий мовець, STYLE §3.2. Гравець дзеркалить: «May I ask
+        you a few questions?» (a79).
+    voice:
+      register: службовий, беземоційний, канцелярський
+      idiolect:
+        - "нуль скорочень: cannot/do not/I may not замість can't/don't"
+        - "«You are entitled to…» — повторювана формула квоти, тримати однаковою в q6, q16–q18"
+        - "«That is acceptable» замість звичайного прощання — не згладжувати до «Гаразд»"
+
+narration:
+  present: true
+  note: >-
+    q1, q2, q14, q21, q23, q25, q27, q29, q31, q35, q37, q39, q41, q43, q45, q49,
+    q51, q53, q55, q57, q59, q61, q63, q65, q67, q69, q71, q82 — нарація в ::…::,
+    «ви» без винятків, STYLE §3.1.
+
+new_names: []
+
+idioms: []
+
+pitfalls:
+  - >-
+    Faceless → Безликі (глосарій, frozen). Тут ідеться про одного представника,
+    тож потрібна однина «Безликий»; узгодження чоловічого роду підтверджує
+    англійський «he» у q2.
+  - >-
+    «Centaur» у назві теки — технічна мітка розробника, у тексті не звучить.
+    Перекладати нічого не треба.
+  - >-
+    Калібри й позначення набоїв не перекладаються й не транслітеруються: 5mm,
+    7.62mm, 8.6mm, 9mm, .44, 12.7, W2C, JHP. Крапка в «.44» — частина позначення,
+    не пунктуація.
+  - >-
+    «Twelve gauge» (q7) — калібр рушниці, а не «дванадцять». «six-pellet /
+    twelve-pellet / twenty-pellet shot» — тип дробу; числівник має лишитися
+    прив’язаним до типу набою в a62, a64, a66.
+  - >-
+    Рядки q14, q21, q23, q25, q27, q29 та їхні відповідники в гілках W2C і JHP —
+    дослівні повтори «::He gives you one ammo package.::». Переклад має бути
+    ідентичним у всіх, інакше в грі з’явиться безпричинна різниця.
+  - >-
+    q2, q6, q7, q8 закінчуються порожнім рядком або «\n\n» перед <end> —
+    структуру рядків зберегти як є.
+  - >-
+    «batteries — plasma or standard fusion cells» (q8, a70, a72): термінологія
+    предметів, узгодити з knowledge/ і не вигадувати паралельних варіантів.
+
+examples:
+  - unit: q77
+    rule: "службовий мовець тримає «ви», STYLE §3.2 — навіть у короткій згоді"
+    uk_fragment: "Це прийнятно."
+    status: proposed
+  - unit: q31
+    rule: "нарація в ::…:: — «ви», STYLE §3.1"
+    uk_fragment: "::Він мовчить.::"
+    status: proposed

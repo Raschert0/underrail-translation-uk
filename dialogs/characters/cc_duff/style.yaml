@@ -1,0 +1,129 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_duff
+file_id: dialogs\characters\cc_duff.txt
+derived_from: source-only
+units: {total: 178, npc: 115, player: 63, empty: 6}
+
+speakers:
+  - slug: duff
+    name: Дафф
+    units: default
+    confidence: certain
+    evidence: [q29, q31, q80, q101]
+    role: >-
+      Колишній зонер із Зони Скидання, тепер «пристойний громадянин» Центрального
+      Міста: живе з трьома жінками, торгує краденим пристроєм ICPD і фанатіє від Арени.
+    relationships:
+      - "Тіна, Світлана, Прісцилла — його жінки; кличуть його «Duffie», він їх «girls»"
+      - "Тіна німа — спілкується жестами, за неї говорить нарація"
+      - "Любен — той, у кого відібрано ICPD («that scrawny fella»)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний зонер, звертається панібратськи й лайливо («meathead», «huh?»),
+        неформальні гендерні плейсхолдери. STYLE §3.2 — свій, грубий, отже «ти».
+      gender_cues: ["$(#Dude/Sister)", "$(#man/sister)", "$(#boy/girl)"]
+    voice:
+      register: вуличний, гучний, хвалькуватий; проковтнуті закінчення й подвійні заперечення
+      idiolect:
+        - "нав’язливе hardcore — словесний тик, має лишатися одним і тим самим словом у всіх позиціях"
+        - "domination / I dominated them — друге наскрізне слівце"
+        - "meathead як стала образа до гравця — один сталий відповідник на весь вузол"
+        - "huh? наприкінці речень — паразитичний перепит"
+        - "говорить про себе в третій особі: «Duff doesn’t mind», «Duffie’s gotta talk»"
+        - "ain’t, gotta, lotsa, wanna, ya — просторіччя, не вирівнювати до літературної норми"
+
+  - slug: svetlana
+    name: Світлана
+    units: [q100, q150, q155]
+    confidence: probable
+    evidence: [q101, q151, q155]
+    role: >-
+      Одна з жінок Даффа, обережна: перепитує його перед угодою й вимагає
+      грошей наперед.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "той самий вуличний регістр, що й у Даффа; звертається до гравця через $(#he/she)"
+    voice:
+      register: вуличний, різкий
+      idiolect:
+        - "звертання «Duffie» — пестливе, не перекладати як «Дафф»"
+
+  - slug: unknown_1
+    name: мовчиню встановити не вдалося — одна з жінок Даффа
+    units: [q83, q90, q93, q112, q135, q136, q147, q165]
+    confidence: unknown
+    reason: >-
+      Рядки належать жінці (::She laughs.::, звертання «Duffie», «Yer the best»),
+      але імені в них немає. Тіна німа (q96, q159 — вона говорить жестами), отже
+      це Світлана або Прісцилла; текст не дає підстав розрізнити.
+    guidance: >-
+      Базовий регістр вузла — «ти», вуличний. Мовлення марковане сильніше, ніж у
+      Даффа: ya, yer, «How could ya lost it?» — граматична помилка навмисна, її
+      треба відтворити просторічною формою, а не виправляти. Жіночий рід у
+      минулому часі безпечний — мовець точно жінка.
+
+  - slug: unknown_2
+    name: мовця встановити не вдалося
+    units: [q1]
+    confidence: unknown
+    reason: >-
+      «They’re watching, aren’t they?» — окремий рядок без нарації, звертання
+      й контексту; сусідство з q2 не доводить, що це Дафф.
+    guidance: "нейтральна побудова без гендерного минулого часу, базовий регістр вузла — «ти»"
+
+narration:
+  present: true
+  note: >-
+    Багато довгих описових вставок (q3, q72, q116, q128, q164) — «ви» без
+    винятків, STYLE §3.1, навіть коли Дафф поруч каже «ти».
+
+unattributed_units: [q1, q83, q90, q93, q112, q135, q136, q147, q165]
+
+new_names: ["Deathhammer", "ICPD"]
+
+idioms:
+  - unit: q6
+    src: "could’ve had us zoned out like nothing"
+    note: >-
+      «zone out» = вбити, прибрати; сленг Зони. Не калькувати як «вивести з зони» —
+      потрібен український кримінальний евфемізм, сталий на весь вузол (також q15, q129).
+  - unit: q6
+    src: "Fat rats with lotsa money"
+    note: "образ багатіїв із верхнього рівня; повторюється в q167 — тримати один відповідник"
+  - unit: q49
+    src: "how about you just drop off"
+    note: >-
+      «drop off» тут = відчепися, згинь (також q51). Не «висадитися» й не «заснути»;
+      мусить лишитися грубим, STYLE §9.
+  - unit: q167
+    src: "You are derailed to carry that much coin"
+    note: >-
+      внутрішньоігрове «derailed» = здурілий (від Underrail). Зберегти залізничний
+      образ, якщо вдасться, але не калькувати дослівно.
+  - unit: q80
+    src: "Deathhammer just killed forty-five burrowers"
+    note: "burrowers — глосарій: «копаки»"
+
+pitfalls:
+  - "q82 містить навмисну помилку Даффа: ICPD він перевертає на «IPDC» — плутанину літер зберегти, це характеристика персонажа"
+  - "q6 «robbing some squeezer» — тут родова назва фаху, а не персонаж Squeezer із реєстру; з великої не писати"
+  - "q7, q8, q42 містять $(context.player.Name) — не відмінювати всередині плейсхолдера, перебудовувати фразу"
+  - "q98, q148 — маркери навички ::[Mercantile]::; a123 — ::[Intimidate]::; дужки й «::» лишаються, за глосарієм (пор. ::[Persuade]:: → ::[Переконати]::)"
+  - "a52, a77, a120 — ::Leave.:: і подібні підказки дій: інфінітив, STYLE §3.5"
+  - "суми в харонах (a88, a91, a94, a145, a153, a157, a163) і «stygian coins» — глосарій розрізняє «харон» і «стигійська монета»; не зводити до одного слова"
+  - "q29 «ol’ Duffie» — самоназва в третій особі, зберегти пестливість"
+  - "Tina, Svetlana, Priscilla, Luben, Foundry, Core City, Arena, Drop Zone, Tunnelers, zoner, pipeworker, barrel soup — усе вже канонізоване в реєстрі й глосарії"
+
+examples:
+  - unit: q3
+    rule: "$(#Dude/Sister) — гендерне звертання, STYLE §2; обидві гілки українською"
+    uk_fragment: "$(#Чуваче/Сестро)"
+    status: proposed
+  - unit: q78
+    rule: "$(#him/her) — гендер гравця в знахідному, STYLE §2"
+    uk_fragment: "$(#його/її)"
+    status: proposed

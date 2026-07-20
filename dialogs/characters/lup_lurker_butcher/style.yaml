@@ -1,0 +1,77 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/lup_lurker_butcher
+file_id: dialogs\characters\lup_lurker_butcher.txt
+derived_from: source-only
+units: {total: 15, npc: 8, player: 7, empty: 1}
+
+speakers:
+  - slug: lup_lurker_butcher
+    name: різник-людожер
+    units: default
+    confidence: certain
+    evidence: [q1, q9, q11]
+    role: >-
+      Божевільний людожер у своїй різницькій комірці, який оцінює гравця
+      як майбутню страву. Веселий тон при жахливому змісті — саме цей
+      контраст і треба втримати; жодна репліка не повинна звучати похмуро.
+    relationships:
+      - "«this skinny bastard 'ere» — інша жертва, вже в нього; згадується у q1 і q15"
+      - "«Mum» — мати, згадка про яку доводить його до сказу (q11)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Суцільне просторіччя й пряме хамство «ya nincompoop» — вуличний
+        грубий регістр, STYLE §3.2. Гравець грубить у відповідь
+        («You... sick bastard!»), STYLE §3.3.
+    voice:
+      register: маніакально-веселий, просторічний, з реготом
+      idiolect:
+        - "«me» замість «my»: me fault, me mum, me face — стала риса, зберігати неграмотність"
+        - "ya / yer / 'ere / gots / callin' — суцільні стягнення"
+        - "«Hah-hah!» наприкінці репліки (q1, q4, q15) — регіт як словесний тик"
+        - "нагнітання повтором з наростанням: «Meat... Meat... MEAT!» — зберігати сходинки й капслок"
+        - "уривання репліки на півслові: «frea--» — обрив зберігати"
+
+narration:
+  present: false
+  note: "справжньої ::…:: у вузлі немає; ::Fight!:: та ::Attack!:: — підказки дій, інфінітив, STYLE §3.5"
+
+new_names: []
+
+idioms:
+  - unit: q1
+    src: "By the rathound's broken teeth!"
+    note: "вигук-божба, вигаданий світом; лишити як божбу, не пояснювати; rathound → щурчак (глосарій)"
+  - unit: q4
+    src: "bloody wicked recipe"
+    note: "тут «wicked» — схвально «убивчий/шикарний», не «злий»"
+  - unit: q4
+    src: "makes me mouth water"
+    note: "«слинка тече»; зберегти саме гастрономічну ідіому"
+  - unit: q11
+    src: "ya nincompoop"
+    note: "старомодна лайка «телепень/бовдур», не сучасний сленг"
+  - unit: q11
+    src: "Who are ya callin' a looney"
+    note: "«псих», розмовне; перегукується з a10 «demented lunatic» — різні регістри того самого докору"
+  - unit: q1
+    src: "Luscious!"
+    note: "гастрономічно-хтивий епітет, навмисна двозначність — зберегти обидва відтінки"
+
+pitfalls:
+  - "q1 — це гілка для персонажки: «a young woman... A pretty young woman» уже є жіночим варіантом рядка, не додавати сюди $(#…)"
+  - "q15 — альтернативний варіант тієї самої вітальної репліки для іншої умови; перші речення в q1 і q15 збігаються дослівно й мають лишитися однаковими"
+  - "q4 «'shroom sauce» — стягнене mushroom; зберегти просторічну усічену форму, а не писати повне слово"
+  - "q13 закінчується порожнім рядком перед <end> — розмітку не чіпати"
+
+examples:
+  - unit: q7
+    rule: "наростання повтору зберігається, разом із капслоком фінального слова"
+    uk_fragment: "М’ясо...\nМ’ЯСО!"
+    status: proposed
+  - unit: a5
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed

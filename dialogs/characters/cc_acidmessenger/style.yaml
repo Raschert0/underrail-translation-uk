@@ -1,0 +1,58 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_acidmessenger
+file_id: dialogs\characters\cc_acidmessenger.txt
+derived_from: source-only
+units: {total: 18, npc: 9, player: 9, empty: 1}
+
+speakers:
+  - slug: acid_messenger
+    name: посильний
+    units: default
+    confidence: probable
+    evidence: [q1, q3, q11]
+    role: >-
+      Найманий посильний, що доставляє гравцеві офіційні виклики від трьох
+      можновладців Центрального Міста. Говорить завченими канцелярськими
+      формулами, але з власної кишені ображається на скупі чайові.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Звертається «$(#Mister/Miss)» на прізвище й зачитує офіційне
+        повідомлення від третьої особи — службовий регістр, STYLE §3.2.
+      gender_cues: ["$(#Mister/Miss)"]
+    voice:
+      register: канцелярський, завчений; зривається на побутову дратівливість
+      idiolect:
+        - "«hereby requests», «You are to see him as soon as possible» — юридична формула, тримати однаковою в усіх трьох варіантах (q5, q14, q15)"
+        - "q11 — єдиний рядок, де він говорить від себе: побутова грубість «What a cheapskate!»"
+
+narration:
+  present: true
+  note: "q3 «::The man clears his throat.::», q11 — «ви» без винятків, STYLE §3.1"
+
+new_names: []
+
+idioms:
+  - unit: q11
+    src: "What a cheapskate! I'll pass."
+    note: "не калькувати; розмовне «скнара/жмот», тон побутовий, не канцелярський"
+  - unit: a9
+    src: "Splendid. Invictus out!"
+    note: "«Invictus out» — радіоформула кінця зв’язку, гравець ним хизується; Invictus — за глосарієм «Інвіктус»"
+  - unit: q18
+    src: "Dominating!"
+    note: "внутрішньоігровий вигук схвалення Центрального Міста, тримати однаковим по всьому корпусу"
+
+pitfalls:
+  - "q1 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "Praetorian Security, Coretech, JKK — латиницею за глосарієм; Hardcore City Bar → «Хардкор Сіті Бар»"
+  - "charon (a10) — «харон», монета, з малої"
+  - "q5/q14/q15 — три взаємозамінні варіанти однієї репліки; розбіжність у формулюванні читатиметься як помилка"
+
+examples:
+  - unit: q1
+    rule: "$(#Mister/Miss) — гендерне звертання до гравця, STYLE §2"
+    uk_fragment: "$(#Пане/Пані)"
+    status: proposed

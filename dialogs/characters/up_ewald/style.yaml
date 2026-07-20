@@ -1,0 +1,69 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/up_ewald
+file_id: dialogs\characters\up_ewald.txt
+derived_from: source-only
+units: {total: 22, npc: 15, player: 7, empty: 2}
+
+speakers:
+  - slug: ewald
+    name: Евальд
+    units: default
+    confidence: probable
+    evidence: [q5, q9, q12]
+    role: >-
+      Похмурий мешканець Верхньої Underrail, який демонстративно не хоче
+      розмовляти. Уся його мова — це ескалація відмови, від сухого «не цікавить»
+      до відкритої погрози.
+    relationships:
+      - "гравця називає лише «zoner» — чужак, не вартий імені"
+    address:
+      npc_to_player: ти
+      player_to_npc: ви
+      basis: >-
+        Ewald відкрито зневажає й погрожує («I’ll zone you out on the spot»),
+        зневажливе «zoner» замість імені — STYLE §3.2 дає «ти». Гравець же
+        починає підкреслено чемно («Excuse me», «if you have the time»),
+        тож його базовий регістр — «ви»; наступні кпини цього не змінюють
+        (STYLE §3.3 — дзеркалиться базовий регістр, а не емоційні зриви).
+      gender_cues: []
+    voice:
+      register: роздратований, саркастичний, з холодною погордою
+      idiolect:
+        - "нав’язливе «zoner» — його єдине звертання до гравця"
+        - "риторичні питання замість відповідей: «Deaf, stupid or both?»"
+        - "любить розкладати власну фразу на слова й пояснювати їх по одному (q10)"
+
+narration:
+  present: true
+  note: "«ви» без винятків, навіть коли Ewald тикає — STYLE §3.1"
+
+new_names: ["Ewald", "Tchortists"]
+
+idioms:
+  - unit: q5
+    src: "Go bug someone else"
+    note: >-
+      не калькувати «йди дошкуляй іншому»; розмовне «чіпляйся до когось іншого».
+      Формула повторюється у q9 і q20 — переклад має бути тим самим рядком,
+      бо q10 його розбирає по словах
+  - unit: q13
+    src: "*lower* myself to your intellectual level"
+    note: "зірочки — авторський наголос, зберігати; «опуститися до твого рівня»"
+  - unit: q14
+    src: "Duh... Duh duh..."
+    note: >-
+      імітація недоумкуватого мукання, а не слово — український відповідник
+      на кшталт «Гм... гм-гм...», але саме як звук
+
+pitfalls:
+  - "a19 містить $(context.player.Name) — не відмінювати й не чіпати всередині плейсхолдера"
+  - "q10 залежить від дослівного збігу з q9: «Go», «bug», «someone else» мають бути тими самими словами, що й у формулі"
+  - "«zoner» — глосарій: зонер, запозичення, не перекладати описово"
+  - "Tchortists — похідне від Tchort (Тчорт); форму демоніма вирішувати централізовано"
+
+examples:
+  - unit: q5
+    rule: "лайливе звертання — глосарій, STYLE §9"
+    uk_fragment: "…зонере."
+    status: proposed

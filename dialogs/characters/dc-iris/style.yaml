@@ -1,0 +1,89 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/dc-iris
+file_id: dialogs\characters\dc-iris.txt
+derived_from: source-only
+units: {total: 112, npc: 64, player: 48, empty: 1}
+
+speakers:
+  - slug: iris
+    name: IRIS
+    units: default
+    confidence: certain
+    evidence: [q49, q5, q35]
+    role: >-
+      Штучний інтелект станції, який керує обороною комплексу й вважає гравця своїм
+      творцем-«Батьком». Вузол має два різкі режими: скажена ворожа проєкція, що
+      кричить на зайду, і спокійна свідома IRIS після перезапуску — лексика й довжина
+      речень між ними міняються повністю.
+    relationships:
+      - "Stamen Bergmann — творець, якого IRIS називає Father; єдина прив’язаність"
+      - "Kosana — покійна сестра творця, за зразком якої змодельовано особистість"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        У режимі люті IRIS кричить на зайду — це не службова ввічливість. У режимі
+        після перезапуску вона говорить із батьком; українська донька до батька на «ви»
+        не звертається. Обидва режими сходяться на «ти», тому переходу немає.
+      switches:
+        - {unit: q86, to: ви, trigger: "коли IRIS просить передати щось Батькові через третю особу — звертання адресоване вже не Батькові"}
+    voice:
+      register: >-
+        у режимі люті — крик, обірвані речення, капслок; у режимі після перезапуску —
+        клінічна точність, повні речення, нуль скорочень
+      idiolect:
+        - "звертання «Father» майже в кожній репліці — словесний якір, не викидати"
+        - "числа проговорює словами, не цифрами: two hundred seventy six, six hundred thousand"
+        - "мова автомата: «If entity equals invader, then entity must be terminated» — умовна конструкція замість емоції навіть у гніві"
+        - "формула-підпис наприкінці довгої відповіді: «Is the answer to your satisfaction, Father?»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; довгі описові блоки q4, q16, q28 — суцільна проза"
+
+new_names: ["IRIS", "Stamen Bergmann", "Kosana", "Austein", "Hope", "Caerus", "Tartarus", "Arke Power Station", "Hollow Earth", "RAF", "BCAF", "Mutagen Tanks"]
+
+idioms:
+  - unit: a17
+    src: "Tough luck"
+    note: "не калькувати; розмовне співчуття-відмашка"
+  - unit: a21
+    src: "Give me your best shot"
+    note: "виклик у бою, а не прохання; ідіому локалізувати"
+  - unit: a34
+    src: "Is that all you've got?"
+    note: "глузливий виклик; калька «це все, що ти маєш» звучить неприродно"
+  - unit: a34
+    src: "digital girl"
+    note: "зневажливе звертання до ШІ; жіночий рід обов’язковий"
+  - unit: q50
+    src: "my late sister"
+    note: "«покійна», не «пізня»"
+
+pitfalls:
+  - "a97, q98, q99 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "::static:: вставлено всередину речень (q5, q6, q11, q23, q25) — лишати точно на тих самих місцях, розриваючи українську фразу так само"
+  - "капслок (DIE!, NEVER, NOOOOO, YOU) — засіб гучності, зберігати регістр"
+  - "IRIS — жіночого роду; усі дієслова минулого часу й прикметники про себе в жіночому роді"
+  - "стать гравця варіюється: q84 «I perceive you as female, Father» — репліки Батька до IRIS потребують $(#…) там, де українська вимагає роду, хоча в джерелі плейсхолдерів немає жодного"
+  - "Deep Caverns → Глибокі Печери, Biocorp і Underrail лишаються латиницею, Tchort → Тчорт, invictus → Інвіктус — глосарій"
+  - "\\n\\n у q5, q15, q16, q28, q50, q55, q63, q90 — розрив абзацу, зберігати"
+
+examples:
+  - unit: a97
+    rule: "плейсхолдер імені не відмінюємо — STYLE §4"
+    uk_fragment: "$(context.player.Name)."
+    status: proposed
+  - unit: q90
+    rule: "IRIS жіночого роду — минулий час у жіночій формі"
+    uk_fragment: "що я зробила"
+    status: proposed
+  - unit: q5
+    rule: "капслок і ::static:: зберігаються на місці"
+    uk_fragment: "Ні... ні, ::static:: НІ!"
+    status: proposed
+  - unit: a9
+    rule: "службова мітка навички — глосарій"
+    uk_fragment: "::[Переконати]::"
+    status: proposed

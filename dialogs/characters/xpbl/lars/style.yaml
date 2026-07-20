@@ -1,0 +1,64 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/lars
+file_id: dialogs\characters\xpbl\lars.txt
+derived_from: source-only
+units: {total: 13, npc: 13, player: 0, empty: 3}
+
+speakers:
+  - slug: lars
+    name: Ларс
+    units: default
+    confidence: certain
+    evidence: [q2, q8]
+    role: >-
+      Найманець із тієї самої засідки, що й Грітц: чекає на ціль і підганяє
+      своїх. Усі репліки — короткі бойові барки перед сутичкою.
+    relationships:
+      - "діє у складі групи — постійне «ми»/«наше», «he’s on our tails», «We’ve caught so many»"
+      - "спільна ціль — «він», якого вони підстерігають (q3, q11); третя особа, не співрозмовник"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Найманець у засідці, короткі накази й хвальба, жодного маркера
+        ввічливості (STYLE §3.2). Реплік гравця у вузлі немає.
+      gender_cues: []
+    voice:
+      register: нетерплячий, бойовий, з бравадою перед сутичкою
+      idiolect:
+        - "затинання-паузи «ummm...» посеред фрази"
+        - "жаргон готовності: «I’m pumped», «Locked and loaded»"
+        - "хрип ::wheeze:: як у решти цієї групи"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут лише ::Shakes his head.:: у q8"
+
+new_names: []
+
+idioms:
+  - unit: q2
+    src: "he’s on our tails"
+    note: "«сидить у нас на хвості» — сталий вислів, не буквальні хвости"
+  - unit: q7
+    src: "we’ll be toast"
+    note: "«нам кінець»; калька з підсмаженим хлібом не працює"
+  - unit: q12
+    src: "Locked and loaded."
+    note: "військова формула готовності зброї — шукати сталий український відповідник, не описувати"
+  - unit: q11
+    src: "Those ladders will become his tombstone."
+    note: "образ надгробка зберегти дослівно — це навмисна пафосна погроза"
+
+pitfalls:
+  - "q7 «Hurry up ummm... thing?» — Ларс звертається до гравця як до «штуки», а не людини; зневажливо-розгублене звертання, зберегти саме цю невпевненість, не замінювати на ім’я чи «друже»"
+  - "::wheeze:: (q2) — глосарій: ::хрип::"
+  - "«he» у q3, q11 — спільна ціль групи, а не гравець; не переадресовувати репліки"
+  - "q4 «No money will keep us quiet anymore» — про підкуп у минулому; не читати як обіцянку мовчати"
+
+examples:
+  - unit: q6
+    rule: "жаргон готовності — розмовний регістр, STYLE §9"
+    uk_fragment: "Я готовий."
+    status: proposed

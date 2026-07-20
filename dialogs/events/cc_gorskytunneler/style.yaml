@@ -1,0 +1,87 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/events/cc_gorskytunneler
+file_id: dialogs\events\cc_gorskytunneler.txt
+derived_from: source-only
+units: {total: 9, npc: 8, player: 1, empty: 0}
+
+speakers:
+  - slug: gorsky
+    name: Горський
+    units: default
+    confidence: probable
+    evidence: [q2, q4, q8]
+    role: >-
+      Зустрічає давнього напарника біля свого тунельника. Уся його мова тут —
+      добродушна лайка між своїми, а не конфлікт; грубість є формою приязні.
+    relationships:
+      - "Ден — старий напарник; обмін образами замість привітання"
+    address:
+      npc_to_player: н/д
+      basis: >-
+        Гравець у сцені не бере слова: єдиний a-юніт — ::End Dialog.::.
+        Горський і Ден звертаються один до одного на «ти» — свої, грубі,
+        STYLE §3.2.
+    voice:
+      register: грубий, теплий, іронічний
+      idiolect:
+        - "«bloody» як підсилювач (bloody hell, bloody tunneler) — розмовне підсилення, не лайка про кров"
+        - "звертання «man» наприкінці репліки — розмовний маркер, а не звертання за іменем"
+
+  - slug: dan
+    name: Ден
+    units: [q1, q3, q5, q7]
+    confidence: probable
+    evidence: [q1, q3]
+    role: >-
+      Приходить першим і задає тон кпинами; він озброєний рушницею й
+      кепкує з віку Горського. Мова — суцільне піддражнювання.
+    relationships:
+      - "Горський — старий напарник, якого Ден зве «jerk»"
+    address:
+      basis: "взаємне «ти» зі свояком; звертається «jerk», «man», «grandpa»"
+    voice:
+      register: насмішкуватий, розмовний
+      idiolect:
+        - "звертання-образа «jerk» у функції привітання (q1, q3)"
+        - "«'cause» замість «because» — стягнення, відтворювати розмовністю"
+        - "самоперебивання «This tootpi-- this rifle» — обрив зберігати"
+
+narration:
+  present: true
+  note: "::He laughs.:: (q8) — «ви», STYLE §3.1"
+
+new_names: ["Billy Toxic"]
+
+idioms:
+  - unit: q3
+    src: "Where's the gun salute?"
+    note: "збройний салют як частина переліку почестей — не «зброярський привіт»"
+  - unit: q4
+    src: "a toothpick shooter"
+    note: "зневажливо про дрібнокаліберну зброю; шукати український зневажливий образ, не калькувати зубочистку буквально"
+  - unit: q5
+    src: "I've committed genocide on bottles and barrels."
+    note: "гіпербола-жарт про стрільбу по мішенях; пафос слова і тримає жарт"
+  - unit: q7
+    src: "do you still cry yourself to sleep?"
+    note: "стала образлива формула; локалізувати, не калькувати"
+  - unit: q3
+    src: "Scantily clothed chicks?"
+    note: "грубувато-сексистський реєстр персонажа — не пом’якшувати (STYLE §9)"
+
+pitfalls:
+  - "Атрибуція спирається на логіку обміну репліками (звертання «Dan, you slob!» у q2 доводить, що q1 говорить Ден, а не Горський) — це адресат, а не мовець. q6 віддано Горському за суміжністю; якщо в грі виявиться навпаки, ролі q6/q7 треба поміняти разом."
+  - "Billy Toxic — імені немає в реєстрі; не вигадувати транслітерацію."
+  - "«tunneler» — глосарій дає «Tunnelers → Тунельники» для істот; тут це бурова машина Безликих. Перевірити перед перекладом, щоб не сплутати машину з істотою."
+  - "\\n\\n у q3 і q5 — розрив абзацу, зберігати дослівно."
+
+examples:
+  - unit: q9
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Завершити діалог.::"
+    status: proposed
+  - unit: q2
+    rule: "«ти» між своїми, STYLE §3.2"
+    uk_fragment: "невже це ти"
+    status: proposed

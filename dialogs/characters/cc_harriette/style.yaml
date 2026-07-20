@@ -1,0 +1,46 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_harriette
+file_id: dialogs\characters\cc_harriette.txt
+derived_from: source-only
+units: {total: 1, npc: 1, player: 0, empty: 0}
+
+# Однорядковий вузол-відсилання. Уся характеристика Гаррієтти —
+# у dialogs/characters/cc_barkeeper, де вона другий мовець.
+speakers:
+  - slug: harriette
+    name: Гаррієтта
+    units: default
+    confidence: certain
+    evidence: [q1]
+    role: >-
+      дружина Джина, власника Хардкор Сіті Бар; тут лише відмахується
+      й відсилає гравця до чоловіка
+    relationships:
+      - "Джин — чоловік; саме його «my husband» називає цей рядок"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "кличе гравця sweetie — домашній, теплий тон, той самий, що й у cc_barkeeper"
+    voice:
+      register: тепла, заклопотана
+      idiolect:
+        - "звертається до гравця sweetie"
+
+narration:
+  present: false
+
+unattributed_units: []
+
+pitfalls:
+  - >-
+    англійське sweetie не має роду, українське звертання має — потрібен
+    $(#…), якого в джерелі немає. За STYLE §2 додавати плейсхолдер там,
+    де українська цього вимагає, — це норма, а не вільність
+  - "вузол читати разом із cc_barkeeper: там уся мовна характеристика"
+
+examples:
+  - unit: q1
+    rule: "sweetie — гендерне звертання, якого немає в джерелі, STYLE §2"
+    uk_fragment: "$(#солоденький/солоденька)"
+    status: proposed

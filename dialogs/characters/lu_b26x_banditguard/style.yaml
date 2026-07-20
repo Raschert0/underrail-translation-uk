@@ -1,0 +1,67 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/lu_b26x_banditguard
+file_id: dialogs\characters\lu_b26x_banditguard.txt
+derived_from: source-only
+units: {total: 24, npc: 17, player: 7, empty: 3}
+
+speakers:
+  - slug: lu_b26x_banditguard
+    name: бандит-вартовий
+    units: default
+    confidence: certain
+    evidence: [q8, q13, q15]
+    role: >-
+      Безіменний вартовий бандитського табору в протигазі: відганяє
+      сторонніх від колії й вирішує, кого пустити до ватажка. Хизується
+      погрозами, але від зустрічного тиску одразу відступає, зберігаючи лице.
+    relationships:
+      - "«my boss» — ватажок табору, до якого гравець і домагається доступу"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        «punk», «Beat it», «Shut your tick hole» — грубий вуличний регістр,
+        STYLE §3.2. Гравець відповідає погрозами того ж рівня, STYLE §3.3.
+    voice:
+      register: агресивний, хвалькуватий, з бандитським жаргоном
+      idiolect:
+        - "«Imma» замість «I'm gonna» — повторюється в q15, q20, q24"
+        - "«Dig?» наприкінці поступки в q15 і q20 — питання-перевірка «ясно?», словесний тик"
+        - "зірочки навколо слова для наголосу: «You *want* to talk» — інтонаційний наголос, зберігати розрядку"
+        - "«Beat it» тричі — та сама формула відсилання, тримати однаковий переклад"
+
+narration:
+  present: true
+  note: "q8, q15 містять ::…:: — «ви» без винятків, STYLE §3.1"
+
+new_names: []
+
+idioms:
+  - unit: q13
+    src: "some lead to be injected straight into your skull"
+    note: "«свинець» як куля; зберегти саркастичну лікарську метафору «ін’єкції»"
+  - unit: q17
+    src: "Eat lead, punk!"
+    note: "усталений бойовий вигук; локалізувати як звичну українську погрозу, не калькувати «їж свинець»"
+  - unit: q21
+    src: "Shut your tick hole"
+    note: "груба варіація «стули пельку»; грубість зберігати, STYLE §9"
+  - unit: q15
+    src: "he-he"
+    note: "нервовий смішок відступу — не пропускати, він і є сигналом, що вартовий здав назад"
+
+pitfalls:
+  - "q8 — нарація згадує газову маску: «dulled only slightly by the gas mask» пояснює приглушений голос, не викидати деталь"
+  - "a14, a19: ::[Intimidate]::, ::[Persuade]:: — ::[Переконати]:: за глосарієм; назви перевірок узгодити"
+  - "q15 і q20 — це два різні шляхи до тієї самої поступки (погроза й умовляння); формулювання мають лишитися різними"
+
+examples:
+  - unit: q15
+    rule: "словесний тик лишається коротким питанням-перевіркою"
+    uk_fragment: "Ясно?"
+    status: proposed
+  - unit: a18
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed

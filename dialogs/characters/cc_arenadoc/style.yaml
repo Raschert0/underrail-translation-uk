@@ -1,0 +1,57 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/cc_arenadoc
+file_id: dialogs\characters\cc_arenadoc.txt
+derived_from: source-only
+units: {total: 13, npc: 13, player: 0, empty: 1}
+
+speakers:
+  - slug: arena_doc
+    name: лікар Арени
+    units: default
+    confidence: probable
+    evidence: [q5, q6, q9]
+    role: >-
+      Лікар при Арені, який лікує поранених гладіаторів і тут-таки складує
+      мертвих. Увесь вузол — його бурмотіння повз гравця: чорний гумор
+      про розтини, органи й трупи, подане тоном добродушної балачки.
+    address:
+      npc_to_player: ви
+      player_to_npc: н/д
+      basis: >-
+        Медик при виконанні, звертається до відвідувача як до пацієнта
+        («Do you have any spare kidneys», «Watch your step!») — службовий
+        регістр, STYLE §3.2. Реплік гравця у вузлі немає.
+    voice:
+      register: жвавий, безтурботний; моторошний зміст подано як світську бесіду
+      idiolect:
+        - "рамка «People ask me all the time, \"…\" My answer: …» повторюється (q3, q5, q8) — тримати її однаковою, це його словесний тик"
+        - "«::Laughs.::» після найгіршої фрази — механізм жарту, не прибирати"
+
+narration:
+  present: true
+  note: "«::Laughs.::» у q5, q6, q7, q10 — «ви» й інфінітивна форма підказок, STYLE §3.1, §3.5"
+
+new_names: []
+
+idioms:
+  - unit: q3
+    src: "Spinal injuries - they are interesting to the bone!"
+    note: "каламбур «to the bone» = «до кісток» / «до глибини душі»; калькувати не можна — потрібен український жарт на кістках"
+  - unit: q11
+    src: "I smell nothing. Literally - nothing!"
+    note: "двозначність «нічого не чую нюхом» / «нюху не маю»; зберегти обидва прочитання"
+  - unit: q10
+    src: "Did I say borrow? ::Laughs.:: I meant forcefully remove."
+    note: "самовиправлення — комічний прийом; порядок «позичити → вирізати» зберегти"
+
+pitfalls:
+  - "«spleen», «spinal injuries», «kidneys» — анатомія, звичайні слова, не ігрові терміни"
+  - "«the chute» (q8) — сміттєпровід Арени, не «парашут»"
+  - "«eel» (q9) — вугор; «eyeball» (q13) — очне яблуко"
+
+examples:
+  - unit: q5
+    rule: "::…:: — сценічна ремарка, делімітери лишаються, STYLE §3.5"
+    uk_fragment: "::Сміється.::"
+    status: proposed

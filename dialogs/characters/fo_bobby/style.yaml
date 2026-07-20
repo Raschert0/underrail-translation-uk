@@ -1,0 +1,65 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/fo_bobby
+file_id: dialogs\characters\fo_bobby.txt
+derived_from: source-only
+units: {total: 35, npc: 21, player: 14, empty: 1}
+
+speakers:
+  - slug: bobby
+    name: Боббі
+    units: default
+    confidence: certain
+    evidence: [q1, q5, q35]
+    role: >-
+      Власник крамниці загального призначення в Ливарні, доброзичливий балакун із
+      зіпсованим від забрудненого повітря голосом. Обслуга — тому мова підкреслено
+      привітна й трохи рекламна.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Прямий сигнал: $(#sir/ma'am) у q1 і q35 (STYLE §3.2 — обслуга). Витримує
+        крамарську люб’язність навіть у побутових поясненнях.
+      gender_cues: ["$(#sir/ma'am)"]
+    voice:
+      register: улесливо-привітний, крамарський; мова легка, з самозамилуванням
+      idiolect:
+        - "нав’язливе «tehe» — словесний тик, має лишитися впізнаваним і однаковим у всіх юнітах"
+        - "ремарки ::He coughs.:: врізаються просто в середину речення — розрив зберігати на тому самому місці"
+        - "розмовне 'cause замість because; пом’якшувальні вставки «you know», «I suppose»"
+        - "вигуки-заповнювачі: «Oh», «Well...», «Um, okay»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Bass", "barrenheads"]
+
+idioms:
+  - unit: q17
+    src: "like someone I wouldn't trust with a bag of gravel"
+    note: "жартівлива гіпербола недовіри; локалізувати образ, не калькувати «мішок гравію» дослівно"
+  - unit: q30
+    src: "you're golden"
+    note: "розмовне «і все буде гаразд»; не перекладати через «золотий»"
+  - unit: q32
+    src: "I know I'd be if I was in the presence of those bosses"
+    note: "«bosses» тут — захоплене «великі люди», не посада начальника"
+
+pitfalls:
+  - "«Foundry Guard» (q9, q13, q32) — за глосарієм НЕ перекладається, лишається латиницею; саме місто Foundry при цьому — «Ливарня»"
+  - "«Core City» (q29) — «Центральне Місто» за глосарієм"
+  - "a3 ::Barter.:: — підказка дії, інфінітив: STYLE §3.5"
+  - "q13 «barrenheads» — істота, якої немає в глосарії; не вигадувати варіант поодинці"
+  - "q29 «hardcore» drugs у лапках — лапки передавати як « »"
+
+examples:
+  - unit: q1
+    rule: "$(#sir/ma'am) — ввічливе гендерне звертання, STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: a3
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

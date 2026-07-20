@@ -1,0 +1,96 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/gmsraiderleader
+file_id: dialogs\characters\gmsraiderleader.txt
+derived_from: source-only
+units: {total: 42, npc: 30, player: 12, empty: 4}
+
+speakers:
+  - slug: gms_raider_leader
+    name: ватажок рейдерів у GMS
+    units: default
+    confidence: certain
+    evidence: [q2, q7, q9, q22]
+    role: >-
+      Безіменний головоріз, що тримає комплекс GMS і його мешканців у заручниках.
+      Розмова з ним — переговори бранця з тим, хто будь-якої миті може наказати
+      вбити; його рішення й визначає, чи вузол закінчиться боєм.
+    relationships:
+      - "охоронці — підлеглі; звертаються до нього «boss» і доповідають"
+      - "Max — його підручний, посланий нагору й уже мертвий (q7)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Він зневажливо-грубий вуличний ватажок: «punk», «this idiot», «this fool»,
+        погроза «we will waste you» — STYLE §3.2 однозначно дає «ти». Гравець
+        дзеркалить базовий регістр (§3.3): навіть офіційне «I demand that you set
+        these people free» лишається на «ти» — це виклик, а не ввічливість.
+      gender_cues: ["::He narrows his eyes on you.::", "::He smirks at you.::"]
+    voice:
+      register: холодно-глумливий, з награною поштивістю перед погрозою
+      idiolect:
+        - "фірмове «Waste this idiot/fool!» — повторюваний наказ на страту; тримати один український відповідник у всіх повторах"
+        - "переходить на канцелярську побудову, коли глумиться: «I suggest you start being more cooperative»"
+        - "звертається до гравця в третій особі, коли говорить до охоронців: «Get rid of $(#him/her).»"
+
+  - slug: gms_raider_guard
+    name: охоронець рейдерів
+    units: [q3, q4, q5, q8, q40, q41]
+    confidence: certain
+    evidence: [q3]
+    role: >-
+      Підлеглий, що доповідає ватажкові про схопленого гравця. Говорить не до
+      гравця, а про нього — тому весь його текст у третій особі.
+    address:
+      npc_to_player: ви
+      player_to_npc: ти
+      basis: >-
+        До гравця він не звертається взагалі; до ватажка — службово, зі
+        зверненням «boss». Регістр його реплік визначає саме ця субординація,
+        а не ставлення до гравця.
+    voice:
+      register: службовий, короткий, рапортом
+      idiolect:
+        - "рублені доповідні речення без прикрас: «Claims $(#he/she) didn't see him.»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Adahn", "Max"]
+
+idioms:
+  - unit: q23
+    src: "we will waste you"
+    note: "кримінальний жаргон «прикінчити/пустити в розхід»; не «витратити» й не нейтральне «вбити»"
+  - unit: q42
+    src: "you chose a wrong party to crash"
+    note: "ідіома «припертися непроханим на гулянку»; локалізувати образ, не калькувати"
+  - unit: a39
+    src: "it looks like I hit a jackpot"
+    note: "«зірвати куш»; калька «влучив у джекпот» неприйнятна"
+  - unit: a31
+    src: "you rathound loving--"
+    note: "обірване лайливе означення; rathound — щурчак (глосарій), обрив на два дефіси зберігати"
+  - unit: q27
+    src: "We'll tell them you said \"hi.\""
+    note: "глум над приреченим; лапки джерела передавати українськими « »"
+
+pitfalls:
+  - "q3, q16, q40, q42 містять $(#him/her) / $(#he/she) — це стать ГРАВЦЯ у третій особі: «його/її», «він/вона», а не звертання"
+  - "q4, q5, q41 містять $(#His/Her) / $(#He/She) з великої — регістр гілки зберігати"
+  - "q41 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; речення будувати так, щоб ім’я стояло в називному"
+  - "q34 і q37 — дослівно однаковий рядок «I had enough of you. Waste this idiot!»; перекладати ідентично"
+  - "q16 містить літеральний \\n\\n перед ::He motions his guards.:: — розрив абзацу зберігати"
+  - "«South Gate Station» — Станція Саут-Гейт, «SGS» — ССГ (глосарій)"
+
+examples:
+  - unit: q42
+    rule: "$(#him/her) — стать гравця у третій особі, STYLE §2"
+    uk_fragment: "$(#його/її)"
+    status: proposed
+  - unit: q3
+    rule: "субординація охоронця до ватажка — кличний відмінок"
+    uk_fragment: "босе"
+    status: proposed

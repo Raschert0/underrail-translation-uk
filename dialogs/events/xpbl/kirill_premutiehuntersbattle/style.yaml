@@ -1,0 +1,163 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/events/xpbl/kirill_premutiehuntersbattle
+file_id: dialogs\events\xpbl\kirill_premutiehuntersbattle.txt
+derived_from: source-only
+units: {total: 22, npc: 18, player: 4, empty: 0}
+
+speakers:
+  - slug: juraj
+    name: Юрай
+    units: default
+    confidence: certain
+    evidence: [q1, q2, q7, q9, q13, q14]
+    role: >-
+      Ватажок банди мутіїв, який планує засідку на Карона й роздає позиції.
+      Говорить як командир: наказовий спосіб, пафосні звороти про «землю
+      обітовану», зневажливі порівняння до тих, хто вагається.
+    relationships:
+      - "Вен — підлеглий, що злякався; Юрай його публічно принижує (q5)"
+      - "Сенна — підлегла, сумнівається в плані (q8), Юрай відповідає різко"
+      - "Грітц — підлеглий, блазнює; Юрай обриває його виставу (q13)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Банда вуличних злочинців, свої між собою; гравець тут — мутій-силовик у
+        складі загону, до якого звертаються як до знаряддя («we’ll need your
+        strength»). STYLE §3.2 — грубі, свої, вуличні: «ти».
+      gender_cues: []
+    voice:
+      register: командний, пафосний, з нальотом проповіді
+      idiolect:
+        - "звертання до гурту — «gang», «everybody», «everyone»: не «панове»"
+        - "емфаза зірочками *benefactor*, *four*, *end*, *yours* — зберігати як є"
+        - "образи-порівняння з комахами: «stomped like a miserable bug»"
+
+  - slug: ven
+    name: Вен
+    units: [q4, q6]
+    confidence: certain
+    evidence: [q5]
+    role: >-
+      Боєць переднього краю, який відкрито боїться Карона й пропонує все
+      скасувати. Єдиний виразно діалектний голос у вузлі.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "той самий вуличний регістр банди; до гравця прямо не звертається"
+    voice:
+      register: боязкий, розхристаний, просторічний
+      idiolect:
+        - "випадання кінцевого g: doin’, clobberin’, luggin’, feelin’"
+        - "усічення: didn’, ya’ll, ’ere, ol’ — відтворювати українським просторіччям, не суржиком-кальок"
+        - "перепитування «yeh?» наприкінці — шукати живий український відповідник, не «так?»"
+
+  - slug: lars
+    name: Ларс
+    units: [q3]
+    confidence: probable
+    evidence: [q2, q4]
+    role: >-
+      Другий боєць переднього краю, названий разом із Веном у q2; відповідає
+      покірним однорядковим «Got it, ummm boss».
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "той самий регістр банди; репліка коротка й службова"
+    voice:
+      register: покірний, короткий
+      idiolect:
+        - "«boss» — звертання до Юрая; тримати як «шеф/бос», не «начальнику»"
+
+  - slug: senna
+    name: Сенна
+    units: [q8]
+    confidence: certain
+    evidence: [q7, q9]
+    role: >-
+      Спостерігачка на північній позиції; погоджується, але не приховує сумніву
+      в плані.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "той самий регістр банди"
+    voice:
+      register: невпевнений, з паузами
+      idiolect:
+        - "затяжні вагання «Uhhh», обірвані речення з трикрапкою"
+
+  - slug: gritz
+    name: Грітц
+    units: [q10, q12]
+    confidence: certain
+    evidence: [q10]
+    role: >-
+      Арбалетник на східній позиції, показує «підготовлені» болти й жартує про
+      настромлені очі Карона. Джерело чорного гумору у вузлі.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "той самий регістр банди; звертається до гурту як до своїх"
+    voice:
+      register: розв’язний, глумливий
+      idiolect:
+        - "вистава на публіку: показує предмет і питає «Can you tell?»"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q11]
+    confidence: unknown
+    reason: >-
+      «What you yapping about? ::He frowns at Gritz.::» — Грітц тут адресат, а не
+      мовець; нарація називає лише його. Чоловік із банди, але хто саме
+      (Юрай, Ларс чи Вен) — з тексту не випливає.
+    guidance: >-
+      Базовий регістр вузла («ти», вуличний), нейтральна побудова без гендерного
+      минулого часу щодо мовця; тон — коротке роздратоване перебивання.
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ::Nod and leave.:: та ::Shrug?:: — інфінітив, STYLE §3.5"
+
+unattributed_units: [q11]
+
+new_names: ["Kharon", "Dannath", "Jaxon", "Madelyn", "Craig", "Pryce"]
+
+idioms:
+  - unit: q4
+    src: "call it and go back to the good ol’ days"
+    note: "не калькувати; «зав’язати з цим і вернутися до старих добрих часів»"
+  - unit: q4
+    src: "hustle out all these issues"
+    note: "кримінальне «залагодити/утрясти», не «поспішити»"
+  - unit: q5
+    src: "It’s a waste of air talking you in to stay"
+    note: "ідіома марності; не «марнування повітря» дослівно"
+  - unit: q11
+    src: "yapping"
+    note: "зневажливе «гавкати/патякати», не нейтральне «говорити»"
+  - unit: q17
+    src: "One final dirty job to wash away this forsaken place"
+    note: "«брудна робота» тримати як сталий вислів; «wash away» — змити, не випрати"
+
+pitfalls:
+  - "::wheeze:: трапляється всередині речень десятки разів — глосарій дає ::хрип::; ділити українську фразу в тих самих місцях, не зсувати"
+  - "Kharon — персонаж, а не монета: глосарійне charon → харон стосується грошей, назву особи не брати звідти"
+  - "q13: «He points at each mutie individually» — mutie тут родова назва істот, не ім’я"
+  - "звертання на ім’я в q2, q5, q7, q9 вказує на адресата (Lars, Ven, Senna, Gritz), а не на мовця"
+  - "a16 «Yyyyyyiiiss...» та a22 «Nnnnuuuu...» — нечленороздільна мова гравця-мутія; розтягувати український голосний, не робити виразним словом"
+
+examples:
+  - unit: q4
+    rule: "просторічне випадання g відтворюємо українським просторіччям — STYLE §9"
+    uk_fragment: "робити те, шо вміємо"
+    status: proposed
+  - unit: q3
+    rule: "вуличне «boss» лишається коротким звертанням — STYLE §3.2"
+    uk_fragment: "ясно, е-е, шефе"
+    status: proposed
+  - unit: q19
+    rule: "підказки дій усередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути й піти.::"
+    status: proposed

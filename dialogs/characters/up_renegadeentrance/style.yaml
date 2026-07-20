@@ -1,0 +1,67 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/up_renegadeentrance
+file_id: dialogs\characters\up_renegadeentrance.txt
+derived_from: source-only
+units: {total: 25, npc: 13, player: 12, empty: 1}
+
+speakers:
+  - slug: renegade_guard
+    name: вартовий на вході
+    units: default
+    confidence: probable
+    evidence: [q1, q12, q24]
+    role: >-
+      Вартовий, що стереже вхід і вирішує, пустити гравця до сержанта чи ні.
+      Уся його функція — фільтр: він або веде за собою, або жене геть.
+    relationships:
+      - "Holloway (Голловей) — його сержант; вартовий говорить про нього в третій особі («I’ll talk to Sarge»), сам ним НЕ є"
+      - "гравця називає «Corporal» — це звертання до адресата, а не до мовця"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службовець при виконанні, звертається до гравця за званням («Corporal?»,
+        «Follow me, Corporal.»), контекст військової субординації — STYLE §3.2
+        дає «ви». Різкість («Get lost», «Now turn around and leave») — це тон,
+        а не перехід на «ти»; накази лишаються у формі «Заходьте», STYLE §3.4.
+      gender_cues: []
+    voice:
+      register: сухий, службовий, з погрозливою короткістю
+      idiolect:
+        - "коротке «Sarge» замість звання — внутрішньоармійська фамільярність до свого командира"
+        - "речення-накази без пом’якшень: «Stay put», «Follow me», «Get lost»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; q1 і q15 — довгі ремарки про очікування"
+
+new_names: ["Fort Apogee", "Holloway"]
+
+idioms:
+  - unit: q9
+    src: "If I told you, I’d have to kill you."
+    note: "усталений жарт про таємність — локалізувати як сталу формулу, не дослівно"
+  - unit: q10
+    src: "Now turn around and leave."
+    note: "«розвертайтеся й ідіть» — наказ на «ви», STYLE §3.4"
+  - unit: q24
+    src: "Get lost."
+    note: "грубе «згиньте»/«забирайтеся»; не пом’якшувати до «ідіть звідси»"
+
+pitfalls:
+  - "Головна пастка вузла: «Corporal?» (q6) і «Follow me, Corporal.» (q20) — звертання до ГРАВЦЯ; мовець не Голловей і не корпорал"
+  - "Holloway — реєстр дає Голловей; «SFC» — військове звання-абревіатура, потребує централізованого рішення, не розкривати самотужки"
+  - "«Sarge» і «sergeant» (a17) — те саме звання в різних регістрах; розрізняти фамільярне й повне"
+  - "a13 і a14 — однаковий текст ::Wait.:: у двох гілках; переклад мусить збігатися дослівно"
+  - "Підказки дій ::Wait.::, ::Leave.::, ::Follow him.::, ::End Dialog.:: — інфінітив, STYLE §3.5"
+
+examples:
+  - unit: a13
+    rule: "підказка дії — інфінітив, STYLE §3.5"
+    uk_fragment: "::Чекати.::"
+    status: proposed
+  - unit: q18
+    rule: "наказ на «ви» успадковує регістр, STYLE §3.4"
+    uk_fragment: "Ідіть за мною."
+    status: proposed

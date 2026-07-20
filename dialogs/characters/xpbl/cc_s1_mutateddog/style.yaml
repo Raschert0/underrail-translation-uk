@@ -1,0 +1,62 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/xpbl/cc_s1_mutateddog
+file_id: dialogs\characters\xpbl\cc_s1_mutateddog.txt
+derived_from: source-only
+units: {total: 42, npc: 26, player: 16, empty: 5}
+
+speakers:
+  - slug: mutated_dog
+    name: мутований пес
+    units: default
+    confidence: certain
+    evidence: [q2, q7, q13, q27]
+    role: >-
+      Голодний пес зі зграї, який не говорить узагалі: усі його 26 юнітів — це сама
+      нарація в `::…::`, від гавкоту до кивання й хитання головою. Сцена — вгадування
+      того, чого він хоче, доки гравець не пропонує м’ясо.
+    address:
+      npc_to_player: ви
+      player_to_npc: н/д
+      basis: >-
+        Мовлення в NPC немає взагалі, тож правило §3.2 не застосовне: увесь бік NPC —
+        нарація, а вона завжди «ви» (STYLE §3.1). Гравець теж не звертається до пса
+        зв’язною мовою.
+      gender_cues: []
+    voice:
+      register: тільки нарація — рівна описова теперішність, без емоційних оцінок
+      idiolect:
+        - "надкороткі однослівні ремарки-стани: ::Barks.::, ::Pants.::, ::Licks lips.:: — це поведінкові емоції NPC у бою/очікуванні, тримати їх такими ж короткими"
+        - "відповіді «так/ні» подані виключно рухом: кивання (q20, q27) проти хитання головою (q16, q36) — різниця має бути однозначно читана"
+
+narration:
+  present: true
+  note: "весь вузол — нарація; «ви» без винятків, STYLE §3.1"
+
+new_names: []
+
+idioms:
+  - unit: q13
+    src: "The dogs ears rise up. It's expecting something."
+    note: "«нашорошив вуха» — фразеологізм українською природніший за буквальний опис"
+  - unit: q31
+    src: "swinging their tails side to side"
+    note: "передавати як «махають хвостами», а не покроковим описом руху"
+
+pitfalls:
+  - "репліки гравця — спотворена мова мутанта: «C-C-Cooookkkiii?», «Phhhhhiieee?», «Mrrrr… mmmhhhmmiiiitt?», «Bbbrrrnn… rrr… rrroooaaassteeed?», «Frrreeesh meeaat?», «Hhhhhhooooop… Hhhoooooppp», «Wwwwoo.. hrrr, drrrrr.. ddrrrriiiin?» — це впізнавані англійські слова (cookie, pie, meat, roasted, fresh meat, hopper, drink). Спотворювати треба УКРАЇНСЬКЕ слово, а не транслітерувати англійське: інакше загадка перестає розгадуватися"
+  - "заїкання відтворювати на українському приголосному (STYLE §9): «C-C-…» → подвоєння першого звука українського слова"
+  - "a29 «Hhhhhhooooop… Hhhoooooppp» і a30 «cave hopper meat» — це одне й те саме: спотворене слово має вгадуватися саме як «стрибун» (глосарій: hopper → стрибун)"
+  - "рядки-підказки дій ::Try to pet the dog.::, ::Place the cave hopper meat on the plate.::, ::Leave.::, ::Pet all of the dogs.:: — інфінітив, STYLE §3.5"
+  - "q29 закінчується подвоєним ::::  — не «зайві» символи, структуру юніта зберегти як є"
+  - "«it» про пса — українською рід треба обрати один (пес, чоловічий) і тримати його на весь вузол; у q7 «a sad pup», у q31 «they» про зграю"
+
+examples:
+  - unit: a10
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Спробувати погладити…::"
+    status: proposed
+  - unit: a15
+    rule: "заїкання на українському приголосному, STYLE §9"
+    uk_fragment: "П-п-пе…"
+    status: proposed

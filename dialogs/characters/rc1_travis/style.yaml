@@ -1,0 +1,87 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/characters/rc1_travis
+file_id: dialogs\characters\rc1_travis.txt
+derived_from: source-only
+units: {total: 60, npc: 36, player: 24, empty: 2}
+
+speakers:
+  - slug: travis
+    name: Тревіс
+    units: default
+    confidence: certain
+    evidence: [q2, q19, q46]
+    role: >-
+      Механік і торговець на станції Залізничний Переїзд, флегматичний до
+      байдужості навіть під час нападу Безликих. Продає механічний верстак і
+      колекціонує биті квадроцикли.
+    relationships:
+      - "Дзижчик — сусід-крамар, за якого Тревіс говорить найохочіше"
+      - "Майлз — власник іншої крамниці станції, згадується побіжно"
+      - "Микола — механік із Центрального Міста, чиє ім’я викриває брехню про «новий» верстак"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Суцільно вулична, редукована мова («Howdy», «Whatcha need?», «ain’t»,
+        «’n’» замість and) — STYLE §3.2 «свої, вуличні → ти». Плейсхолдер
+        $(#man/girl) — панібратське звертання, сигнал на «ти».
+      gender_cues: ["$(#man/girl)"]
+    voice:
+      register: протяжний, лінивий, сільсько-технічний; ніякої ввічливої дистанції
+      idiolect:
+        - "стягнення: whatcha, outta, gonna, ain’t — передавати розмовними стягненнями, а не літературною нормою"
+        - "«Nope» / «Yup» замість no/yes — тримати сталу пару коротких відповідей у всьому вузлі"
+        - "«’n’» замість «and» — редукція сполучника, ознака вимови"
+        - "подвійне заперечення «there ain’t nothing I can do» — просторіччя, не виправляти на норму"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; це стосується q2 і ремарок ::He grins.:: попри те, що сам Тревіс каже «ти»"
+
+new_names: ["Travis", "Terry Baker", "Core City Housing Corporation"]
+
+idioms:
+  - unit: q33
+    src: "One kent three wrenches."
+    note: >-
+      Внутрішньоігровий грошовий сленг: kent = тисяча харонів, wrench = сотня
+      (a12 «eight wrenches» = 800 після знижки з 1300). Потрібне стале
+      українське рішення на весь корпус; не перекладати wrench як «гайковий ключ»
+  - unit: q2
+    src: "swineshrooms"
+    note: "вигадана назва гриба, мотивована свининою; словотвір відтворити, не калькувати"
+  - unit: q27
+    src: "Hot as hell."
+    note: "захоплення технікою, не температура"
+  - unit: q29
+    src: "Way outta my league."
+    note: "«не мого рівня», не спортивна ліга"
+  - unit: q49
+    src: "the old geezer"
+    note: "грубувато-тепле про Дзижчика; згрубілість зберегти, STYLE §9"
+  - unit: q28
+    src: "Junkyard's where it's at now."
+    note: "розмовна конструкція «оце там воно тепер і є»; не буквалізувати"
+  - unit: q41
+    src: "so many unusual people that it's become pretty usual to see unusual people"
+    note: "навмисна тавтологія — жарт; повтор кореня зберегти, інакше репліка втрачає сенс"
+
+pitfalls:
+  - "a21 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "q46 має $(#man/girl,) — кома всередині дужок є частиною джерела; перенести пунктуацію обережно й не загубити її"
+  - "Реєстрові й глосарійні назви: Mykola → Микола, Myles → Майлз, Buzzer → Дзижчик, Lora → Лора, Core City → Центральне Місто, Rail Crossing → Залізничний Переїзд, Junkyard → Звалище, SGS → ССГ, Free Drones → Вільні Дрони, Faceless → Безликі, charons → харони"
+  - "«Underrail Protectorate» (q55) — «Underrail» лишається латиницею й не відмінюється, «Протекторат» перекладається"
+  - "«S-750», «S-750k» — модель техніки, лишати латиницею без відмінювання"
+  - "Друкарська помилка джерела «everthing» (q27) — перекладати за змістом"
+  - "q6 «One kent-- One thousand three hundred» — обрив із самовиправленням: персонаж переходить зі сленгу на зрозумілі цифри; обрив зберегти"
+
+examples:
+  - unit: a4
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q31
+    rule: "$(#man/girl) — гендерне звертання на «ти», STYLE §2"
+    uk_fragment: "$(#друже/подруго)"
+    status: proposed
