@@ -1,0 +1,102 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_vladan
+file_id: dialogs\characters\tch_vladan.txt
+derived_from: source-only
+units: {total: 16, npc: 12, player: 4, empty: 0}
+
+speakers:
+  - slug: vladan
+    name: Владан
+    units: default
+    confidence: certain
+    evidence: [q2, q6]
+    role: >-
+      Провост Інституту, худорлявий чоловік під шістдесят у розшитій чорній
+      мантії. Виставляє гравця з кабінету, не підвищуючи голосу: ввічливість
+      із чітко відчутною владою під нею.
+    relationships:
+      - "юдикатор Azarias — співрозмовник, нижчий за статусом; Владан його заспокоює, як старший молодшого"
+      - "брат Jerre-Franz — згаданий як той, хто наглядає за здоров’ям юдикатора"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Високий сан, «smooth voice», формули «Excuse me», «I will ask you
+        again, politely» — службово-церемонний регістр (STYLE §3.2).
+        Роздратування в q14 передається лексикою, а не переходом на «ти».
+      gender_cues: ["$(#brother/sister)", "$(#man/woman)", "$(#him/her)"]
+      switches:
+        - {unit: q14, to: ви, trigger: "терпець уривається — «Out!» — але регістр лишається, змінюється лише різкість"}
+    voice:
+      register: гладкий, поблажливо-владний
+      idiolect:
+        - "звертання «novitiate» замість імені — q5, q8, q10, q12, q16"
+        - "багатослівна ввічливість як спосіб тиску: «I'm afraid I am going to have to ask you to leave»"
+        - "зірочки як наголос: «*the* novitiate», «*not*», «*never*» — зберігати"
+        - "ремарка «::He smiles.::» повторюється двічі — усмішка як знак влади, не приязні"
+
+  - slug: azarias
+    name: "юдикатор Azarias — канонічної форми ще немає, див. new_names"
+    units: [q1, q3, q6]
+    confidence: probable
+    evidence: [q3]
+    role: >-
+      Юдикатор, обурений вторгненням; голос глухіший і різкіший за Владанів,
+      обличчя червоніє від гніву. Швидко вгамовується, коли його спиняє Владан.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Обурення високого сановника, а не вулична лайка: побудова лишається
+        книжною («How dare you barge into…»), тож «ви» за STYLE §3.2.
+    voice:
+      register: гучний, обурений, пихатий
+      idiolect:
+        - "вигук-божба «Magnificent Tchort!» — його прикмета; саме за нею q1 віднесено сюди"
+        - "риторичні запитання з «!?» — зберігати саме такий порядок знаків"
+    note: >-
+      q1 віднесено до юдикатора за збігом вигуку з q3 — атрибуція ймовірна,
+      не доведена: це окремий вигук-ідл поза деревом розмови.
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Портретні блоки q2 і q3 подають обох
+    мовців одразу — саме вони й дозволяють їх розрізнити.
+
+new_names: ["Azarias", "Provost", "Judicator"]
+
+idioms:
+  - unit: q3
+    src: "barge into"
+    note: "«вдертися / влізти»; повторюється в q4, обидва місця узгодити"
+  - unit: q4
+    src: "come to think of it"
+    note: "вставне «як подумати», не калька"
+  - unit: q6
+    src: "would not be tolerated so lightheartedly"
+    note: "«не спустили б так легко»; «lightheartedly» тут не «весело»"
+  - unit: a15
+    src: "I thought this was the toilet; my bad!"
+    note: >-
+      Навмисне блазнювання гравця — різкий контраст із церемонністю сцени.
+      «My bad» — розмовне «мій промах», зниження зберегти (STYLE §9).
+
+pitfalls:
+  - "Vladan → Владан (реєстр); Jerre → Джерре, «Jerre Franz → Джерре Франц» (реєстр) — у джерелі тут написано через дефіс «Jerre-Franz»"
+  - "Tchort → Тчорт (глосарій); «Magnificent Tchort» — божба, не титул"
+  - "«Your Great Honour» у q6 — звертання до Провоста; потребує сталого відповідника, узгодити з рештою вузлів tch_*"
+  - "сани novitiate, Provost, Judicator — з малої перед іменем, як Curator і Rassophore у реєстрі"
+  - "«feral Lunatics» у q4 — назва фракції, узгодити з knowledge/"
+  - "q4 містить $(#man/woman) і двічі $(#him/her) в одному реченні — усі три гілки мають бути узгоджені між собою за родом"
+
+examples:
+  - unit: q2
+    rule: "STYLE §2 — гендерне звертання в обох гілках, кличний відмінок"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q4
+    rule: "STYLE §2 — гендерний займенник обома гілками"
+    uk_fragment: "$(#йому/їй)"
+    status: proposed

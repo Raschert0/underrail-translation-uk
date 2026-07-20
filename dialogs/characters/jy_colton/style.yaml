@@ -1,0 +1,88 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_colton
+file_id: dialogs\characters\jy_colton.txt
+derived_from: source-only
+units: {total: 79, npc: 40, player: 39, empty: 3}
+
+speakers:
+  - slug: colton
+    name: Колтон
+    units: default
+    confidence: certain
+    evidence: [q63, q1, q3]
+    role: >-
+      Торговець і міняйло у Звалищі, свій серед Чорних Вугрів; після взяття Депо Б
+      перебирає обов’язки доглядача пристані. Веде обмін валют, дає наводки й
+      вибухівку, говорить як вуличний ділок, а не як службовець.
+    relationships:
+      - "Сайлас — доглядач пристані, до якого Колтон відсилає гравця (q63)"
+      - "Скраппери — суперники, про них зневажливо: «those bastards control the gate»"
+      - "Гравець — після Депо Б офіційно союзник: «Consider yerself our ally»"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Суцільна вулична мова з випаданням g і «ya/yer» замість you/your, плюс
+        панібратське звертання $(#jack/lady) — STYLE §3.2 дає «ти», а репліки
+        гравця дзеркалять базовий регістр (§3.3).
+      gender_cues: ["$(#jack/lady)"]
+    voice:
+      register: розв’язана вулична говірка, добродушний ділок
+      idiolect:
+        - "суцільне випадання g: takin’, bein’, doin’, anythin’, leadin’, tradin’ — відтворювати українським просторіччям, а не апострофами"
+        - "ya / yer / yerself замість you / your — тобто послідовне «ти» без жодного «ви»"
+        - "ain’t, whatcha, yep, nope — короткі просторічні відповіді"
+        - "торгова формула «Pleasure doin’ business with ya» повторюється в q14 і q23 — має бути дослівно однакова в обох"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут нарація коротка й службова (::He nods.::, ::Barter.::)"
+
+new_names: ["Royce", "Scrappers", "Black Eels", "Depot A", "Depot B", "Armadillo", "United Station Dollars"]
+
+idioms:
+  - unit: q41
+    src: "Doesn’t ring a bell"
+    note: "не калькувати дзвіночок; «нічого не пригадую»"
+  - unit: a42
+    src: "Will a few charons help it ring?"
+    note: "гра слів чіпляється за q41 — обидва юніти перекладати разом, інакше жарт розпадається"
+  - unit: q60
+    src: "where there’s will there’s a way"
+    note: "прислів’я — брати український відповідник, не дослівний переклад"
+  - unit: a35
+    src: "I left my wallet in my other armor suit"
+    note: "жарт за моделлю «в іншому піджаку»; зберегти саме броню"
+  - unit: q72
+    src: "Don’t blow yerself up."
+    note: "коротка суха жартівлива пересторога, не розгортати"
+  - unit: q52
+    src: "on account of some accident with a mutagen tank"
+    note: "«on account of» — просторічне «через», не канцелярське"
+
+pitfalls:
+  - "q3, q43, q50, q79 містять $(#jack/lady) — обидві гілки перекладати українськими звертаннями (чоловіча/жіноча), латиниці всередині не лишати"
+  - "«stygian coins» і «charons» — глосарій: стигійська монета, харон; у вузлі це дві різні валюти, не змішувати"
+  - "SGS credits — глосарій дає ССГ; абревіатуру не розкривати в тексті"
+  - "числівники в a13–a17 і a22–a26 — це вибори обміну; співвідношення 4:1 та 5:1 не переплутати між двома блоками"
+  - "Old Junkyard у q39 і q52 — глосарій: Старе Звалище; просто Junkyard у q3 — Звалище"
+  - "«wormhole» у q63 стоїть у лапках як умовне слівце-пароль — лапки « » зберегти"
+
+examples:
+  - unit: a5
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: a27
+    rule: "мітка перевірки навички — сталий формат"
+    uk_fragment: "::[Комерція]::"
+    status: proposed
+  - unit: q9
+    rule: "просторічне скорочення передаємо просторіччям, а не апострофом"
+    uk_fragment: "Шо маєш?"
+    status: proposed
+  - unit: q3
+    rule: "$(#jack/lady) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/подруго)"
+    status: proposed

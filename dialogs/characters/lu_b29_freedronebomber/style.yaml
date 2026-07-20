@@ -1,0 +1,67 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/lu_b29_freedronebomber
+file_id: dialogs\characters\lu_b29_freedronebomber.txt
+derived_from: source-only
+units: {total: 14, npc: 8, player: 6, empty: 1}
+
+speakers:
+  - slug: lu_b29_freedronebomber
+    name: підривник Вільних Дронів
+    units: default
+    confidence: certain
+    evidence: [q1, q4]
+    role: >-
+      Останній уцілілий боєць Вільних Дронів біля бомби: наляканий, але
+      готовий підірватися разом із вантажем. Говорить гаслами руху, і саме
+      цей пафос відрізняє його від звичайних бандитів у сусідніх вузлах.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Особиста лють і звинувачення «Damn you, $(#man/woman)! You... you
+        killed all my friends!» — це не службова дистанція, а зрив,
+        STYLE §3.2. Гравець відповідає прямими погрозами, STYLE §3.3.
+      gender_cues: ["$(#man/woman)"]
+    voice:
+      register: піднесений, ідеологічний, на межі зриву
+      idiolect:
+        - "лозунгові формули руху: «I'm a Free Drone, that's who I am!», «Death to Protectorate!»"
+        - "зірочки для наголосу: «make *sure*» — зберігати розрядку"
+        - "паузи-затинання через три крапки «You... you killed» — відтворювати"
+
+narration:
+  present: true
+  note: "q1, q7, q8 містять ::…:: — «ви» без винятків, STYLE §3.1"
+
+new_names: ["Dreadnought"]
+
+idioms:
+  - unit: a6
+    src: "die in a blaze of glory"
+    note: "усталене «загинути у славі»; не калькувати «спалах слави»"
+  - unit: q4
+    src: "those Protectorate cans"
+    note: "зневажлива кличка бійців Протекторату за броню — «бляшанки»; зневага має читатися"
+  - unit: a9
+    src: "Scram"
+    note: "різке «геть звідси», не нейтральне «іди»"
+  - unit: a6
+    src: "pure, unadulterated agony"
+    note: "підсилювальна пара прикметників; зберегти нагнітання, не скорочувати до одного слова"
+
+pitfalls:
+  - "Protectorate → Протекторат, Free Drones → Вільні Дрони (глосарій) — вживати незмінно в усіх репліках"
+  - "«Dreadnoughts» у q4 — назва бойових машин Протекторату, канонічного варіанта ще немає"
+  - "a6 ::[Intimidate]:: — назва перевірки, узгодити з глосарієм навичок"
+  - "q7 містить пробіл перед <end> — не прибирати, це формат рядка"
+
+examples:
+  - unit: q1
+    rule: "$(#man/woman) — гендерна гілка звертання, STYLE §2"
+    uk_fragment: "$(#чоловіче/жінко)"
+    status: proposed
+  - unit: a14
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed

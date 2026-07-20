@@ -1,0 +1,111 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/dun_lup-a_tina
+file_id: dialogs\characters\dun_lup-a_tina.txt
+derived_from: source-only
+units: {total: 91, npc: 50, player: 41, empty: 8}
+
+speakers:
+  - slug: tina
+    name: Тіна
+    units: default
+    confidence: certain
+    evidence: [q9, q20, q27, q49, q55]
+    role: >-
+      Забіякувата уціліла, що вдає незалежну одиначку («I’m not really with these guys»),
+      хоча згодом сама себе видає словами «our ship» і «our crimes». Її партія тримається
+      на нав’язливому слівці hardcore — це головне, що має пережити переклад.
+    relationships:
+      - "Fred — загиблий, за яким вона тужить лише в маренні (q4, q91)"
+      - "«pipeworkers» — так вона зве нападників; для неї це лайка, а не професія (q39, q49, q64)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вулична мова без прикрас: «ain’t fallin’», «’em», «the good ol’ hardcore way»,
+        зневажливе «Thrown in here like a dog» і «::She looks down on you.::». Груба,
+        своя, панібратська — «ти» за STYLE §3.2; гравець дзеркалить, §3.3.
+      switches:
+        - {unit: q55, to: ти, trigger: "після порятунку теплішає до вдячності, але регістр не міняє — «ти» лишається базою"}
+    voice:
+      register: різка, коротка, задиркувата; накази й обриви замість пояснень
+      idiolect:
+        - "hardcore — словесний тик у 10+ юнітах (q3, q22, q25, q37, q55, q75, q82); ОДИН український відповідник на весь вузол"
+        - "dominate / dominating — другий тик тієї ж природи (q5, q79, q87)"
+        - "випадання «g» і «ain’t»: «fallin’», «pummeling ’em», «ol’» — знижений регістр, не вирівнювати"
+        - "відмахування замість відповіді: «Yeah, yeah.» (q34), «Just no, okay?» (q30)"
+
+  - slug: tina_drugged
+    name: Тіна під дією галюциногену
+    units: [q75, q76, q77, q78, q79, q91]
+    confidence: probable
+    evidence: [q75, q79, q91]
+    reason: >-
+      Той самий мовець в іншому стані, а не інший персонаж: сусідній вузол
+      dialogs/characters/dun_lup-a_threelurkers пояснює, що бранцям підмішують
+      забруднені відходи з галюциногенним ефектом.
+    guidance: >-
+      Регістр «ти» зберігається, але мова розсипається на уламки. Тики мають ламатися
+      так само, як в оригіналі: «Hard... core» і «Dominnn...» — це ті самі слова, обірвані
+      посередині, тож український відповідник треба добирати такий, що піддається обриву.
+    voice:
+      register: уривчастий, тілесний, з трьома крапками як основним знаком
+
+narration:
+  present: true
+  note: >-
+    Ремарки «::…::» — завжди «ви», STYLE §3.1, попри те що сама Тіна говорить «ти».
+    Підказки дій («::Leave.::», «::Nod and leave.::», «::Attack!::») — інфінітив, §3.5.
+
+unattributed_units: []
+
+new_names: []
+
+idioms:
+  - unit: q37
+    src: "The good ol' hardcore way"
+    note: "розмовна формула «по-старому доброму»; не калькувати дослівно"
+  - unit: q27
+    src: "Okay, let's roll."
+    note: "ідіома «рушаймо/погнали», а не «котитися»"
+  - unit: q60
+    src: "This ain't the place for chit-chatting."
+    note: "«не час на балачки»; знижений регістр обов’язковий"
+  - unit: q51
+    src: "I ain't fallin' for the same trick twice"
+    note: "сталий вислів «на ту саму вудку двічі не спіймаюсь» — локалізувати, не калькувати"
+  - unit: q85
+    src: "I guess the boat suffered for our crimes"
+    note: >-
+      Іронічне визнання провини, що суперечить її ж q13 («I’m not really with these guys»).
+      Суперечність у джерелі свідома — не «виправляти» перекладом і не згладжувати.
+  - unit: q26
+    src: "grind them all into dust"
+    note: "гіпербола в її стилі; «стерти на порох» — зберегти силу образу"
+
+pitfalls:
+  - "«pipeworker» має канонічний варіант у глосарії — «труболаз». Тут це образа (q49, q64), але слово те саме; іншого синоніма не вигадувати."
+  - "hardcore: глосарій фіксує «Hardcore City Bar» → «Хардкор Сіті Бар», а STYLE §9 велить лишати внутрішньоігровий сленг запозиченням — тож запозичена форма має перевагу над описовим перекладом. Головне — однаковість у всіх юнітах."
+  - "У вузлі немає жодного $(#…), але українська його вимагає в репліках гравця з минулим часом (a56, a67) та в іменнику «saviour» (a65)."
+  - "a65 і q66 — пара «Saviour?» → відлуння. Форма в q66 має точно повторювати ту, що обрана в a65, разом із плейсхолдером."
+  - "Друкарські помилки автора: «pressence» (q49, q71), «expceting» (q57), «Thats» (q37), «get of those» замість «get rid of» (q83). У цілі — правильна українська."
+  - "Кількість «::» у цілі має точно збігатися з джерелом — це перевіряє tools/check-uk.ps1."
+  - "Fred за реєстром — «Фред»; у q91 звучить у кличному відмінку з заїканням."
+
+examples:
+  - unit: q79
+    rule: "словесний тик має ламатися так само, як в оригіналі"
+    uk_fragment: "Доміну..."
+    status: proposed
+  - unit: a67
+    rule: "минулий час гравця вимагає гендерного плейсхолдера, STYLE §2"
+    uk_fragment: "$(#позбувся/позбулася)"
+    status: proposed
+  - unit: a65
+    rule: "іменник-характеристика гравця теж гендерний, STYLE §2"
+    uk_fragment: "$(#рятівник/рятівниця)"
+    status: proposed
+  - unit: a17
+    rule: "підказка дії — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути й піти.::"
+    status: proposed

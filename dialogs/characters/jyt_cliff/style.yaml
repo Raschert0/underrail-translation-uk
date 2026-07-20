@@ -1,0 +1,95 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jyt_cliff
+file_id: dialogs\characters\jyt_cliff.txt
+derived_from: source-only
+units: {total: 46, npc: 29, player: 17, empty: 3}
+
+speakers:
+  - slug: cliff
+    name: "Cliff — канонічної української форми немає, див. new_names"
+    units: default
+    confidence: certain
+    evidence: [q3, q41]
+    role: >-
+      Смертельно поранений шукач, якого гравець знаходить біля люка в руїни:
+      просить розшукати його дівчину Jenny й помирає від кровотечі в будь-якому
+      разі. Це визначає голос — уривчастий, знесилений, з чорним гумором.
+    relationships:
+      - "Jenny — його дівчина, з якою вони разом лізли в руїни й розділилися під час втечі"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Плейсхолдер $(#buddy/sis) — панібратське звертання, сильний сигнал на «ти»
+        (STYLE §3.2). Мовець — вуличний шукач із суцільно розмовною вимовою; гравець
+        дзеркалить регістр, пор. репліку «I'm sorry, man».
+      gender_cues: ["$(#buddy/sis)"]
+    voice:
+      register: вуличний, знесилений, іронічно-приречений; грубощі не пом’якшувати
+      idiolect:
+        - "суцільне випадання g: startin', donatin', scavengin', bleedin', hopin'"
+        - "випадання h на початку слова: 'ere, 'er, 'em — характерна ознака саме цього мовця"
+        - "ya / yer замість you / your, ain't, nuthin', sumthin', aight, lemme, everthin'"
+        - "стягнення mighta, shoulda, typa, gotta"
+        - "діалектне «Me girl» замість «My girl»"
+        - "«ass» як підсилювач, а не іменник: «Wretched ass burrowers», «Dangerous ass bugs»"
+
+narration:
+  present: true
+  note: "q1, q24, q41 і вставки ::He nods towards the trap door.::, ::He waves away.::, ::He sighs deeply…:: — «ви» без винятків, STYLE §3.1"
+
+new_names: ["Cliff", "Jenny"]
+
+idioms:
+  - unit: q1
+    src: "I'll be damned"
+    note: "вигук здивування, а не прокляття; локалізувати розмовним відповідником"
+  - unit: q2
+    src: "donatin' one more dead body to these ruins"
+    note: "чорний гумор — зберегти саркастичне «дарувати», не переказувати нейтрально"
+  - unit: q8
+    src: "greed will get ya in Underrail"
+    note: "«жадібність тебе доконає»; Underrail лишається латиницею й не відмінюється"
+  - unit: q18
+    src: "Dangerous ass bugs. Not ass bugs but..."
+    note: "жарт будується на тому, що мовець сам чує двозначність свого підсилювача; українська версія має відтворити самопоправку, а не саме слово"
+  - unit: q18
+    src: "poisoned to boot"
+    note: "«та ще й отруєні» — не калькувати «до чобота»"
+  - unit: q24
+    src: "Ain't got nuthin' to lose"
+    note: "усталене «втрачати нічого»; подвійне заперечення в українській природне"
+  - unit: q30
+    src: "what typa rat would come first to take a bite of my remains"
+    note: "образ падальника; не пом’якшувати"
+  - unit: q32
+    src: "loot the dead: dead folks... dead buildings... dead civilizations"
+    note: "триступеневе наростання на одному слові — зберегти повтор, не синонімізувати"
+  - unit: a36
+    src: "I could kill you five times over"
+    note: "гіпербола погрози; «п’ять разів» лишити, це не точна кількість"
+
+pitfalls:
+  - "$(#buddy/sis) — гендерне звертання до гравця, обидві гілки в кличному відмінку; трапляється в q2, q6, q22, q30"
+  - "діалект відтворювати українськими розмовними засобами (стягнення, просторічна лексика, порушений порядок слів), а НЕ механічним викиданням літер з апострофами — калька 'ere/'er в українській нечитабельна"
+  - "q41 — суто нарація-опис без мовця; «ви», інфінітивів не потрібно, це не підказка дії"
+  - "::[Persuade]:: у a31 має канонічний відповідник ::[Переконати]:: (глосарій); ::[Intimidate]:: у a36 канонічного варіанта не має — узгодити з рештою корпусу, не вигадувати поодинці"
+  - "::Fight!:: (a35, a39, a40) і ::Wait.:: (a25) — підказки дії, інфінітив, STYLE §3.5"
+  - "burrowers → копаки, burrower → копака (глосарій); scavengin' run — від scavengers → шукачі"
+  - "q2, q14, q20, q30, q41, q43 закінчуються пробілом перед <end> — не чіпати структуру рядка"
+  - "у q27 та q30 є \\n\\n — розрив абзацу зберігати"
+
+examples:
+  - unit: q2
+    rule: "$(#buddy/sis) — гендерне звертання, кличний, STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: a35
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed
+  - unit: q3
+    rule: "самопредставлення розмовною формулою, не буквальне «ім’я є»"
+    uk_fragment: "Звати мене Cliff"
+    status: proposed

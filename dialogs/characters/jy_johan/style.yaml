@@ -1,0 +1,52 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_johan
+file_id: dialogs\characters\jy_johan.txt
+derived_from: source-only
+units: {total: 10, npc: 4, player: 6, empty: 1}
+
+speakers:
+  - slug: johan
+    name: Йоган
+    units: default
+    confidence: certain
+    evidence: [q1, q5, q7]
+    role: >-
+      Торговець брухтом на Звалищі; його купа мотлоху служить орієнтиром для інших
+      персонажів. Продає без гарантій і про це чесно попереджає.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Гендерних плейсхолдерів у вузлі немає, тож рішення за STYLE §3.2 і оточенням:
+        це вуличний торговець зі Звалища, де всі сусідні мовці на «ти», і мова в нього
+        невимушена — «I got you covered», «But no refunds!». Прямої грубості немає,
+        тому «ти» тут ділове-свійське, без розв’язності Елвуда.
+    voice:
+      register: діловитий, спокійний; коротко й по суті, без діалекту
+      idiolect:
+        - "мова стандартна — жодного випадання g і подвійних заперечень; це і є прикмета, що відрізняє його від Арчі, Горта й Елвуда в тому самому Звалищі"
+        - "перекладання відповідальності на покупця: «It won't be my fault if you buy the wrong thing»"
+
+narration:
+  present: false
+
+new_names: ["Armadillo"]
+
+idioms:
+  - unit: q1
+    src: "I got you covered"
+    note: "розмовне «є все, що треба»; не калькувати через «покривати»"
+
+pitfalls:
+  - "a4/q5: «stygian coins» — «стигійські монети», «charons» — «харони» за глосарієм; це та сама валюта під двома назвами, не уніфікувати"
+  - "Colton є в реєстрі — «Колтон»"
+  - "a3 і a8 ::Barter.:: / ::Barter:: — підказка дії, інфінітив (STYLE §3.5); у a8 в оригіналі немає крапки перед закриттям — пунктуацію оригіналу не «виправляти»"
+  - "a6 «Armadillo class drill rotor circuit board» — той самий рядок, що й у jy_gort a4; переклад мусить збігатися дослівно"
+  - "«Junkyard» як контекст — «Звалище» за глосарієм"
+
+examples:
+  - unit: a3
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

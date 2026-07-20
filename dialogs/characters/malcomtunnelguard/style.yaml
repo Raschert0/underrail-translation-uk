@@ -1,0 +1,94 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/malcomtunnelguard
+file_id: dialogs\characters\malcomtunnelguard.txt
+derived_from: source-only
+units: {total: 67, npc: 45, player: 22, empty: 2}
+
+speakers:
+  - slug: malcom
+    name: Малком
+    units: default
+    confidence: certain
+    evidence: [q1, q21, q23]
+    role: >-
+      Вартовий тунельних воріт ССГ: видає перепустку, відчиняє внутрішні й
+      зовнішні ворота, інструктує новачка про порядок виходу в печери. Службова
+      особа на посту, але привітна — це поєднання й визначає добір слів.
+    relationships:
+      - "Віра — старша за посадою; Малком відсилає гравця до її кабінету (q50, q52)"
+      - "Таннер — зниклий голова ССГ; Малком жартує про його зникнення (q54)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Персонал на службовому посту, який пояснює регламент і звертається до
+        новоприбулого на ім’я: «good to finally meet you», «this is the
+        procedure», «I’d advise against going there». Ані сленгу, ані
+        панібратських маркерів у тексті немає — STYLE §3.2 відносить таких
+        мовців до «ви».
+      switches:
+        - {unit: q30, to: ви, trigger: "«So, you going or what?» — нетерпляча, але не панібратська репліка; тримати «ви»"}
+    voice:
+      register: доброзичливий, службово-роз’яснювальний, з сухим гумором
+      idiolect:
+        - "структурує інструкцію покроково: «When you want to…», «Then I…», «Alright, now…»"
+        - "жартує з незворушним обличчям і сам це знімає — «Just kidding... or am I.» (q28)"
+        - "єдине випадання складу — «'cause» у q55; загалом мова без редукцій"
+
+narration:
+  present: true
+  note: >-
+    ::He nods.::, ::He chuckles.::, ::He starts looking through the drawers.:: —
+    «ви» без винятків, STYLE §3.1.
+
+new_names: ["Malcom"]
+
+idioms:
+  - unit: q16
+    src: "a dangerous place for a rookie"
+    note: "«rookie» — новачок/зелений; не калькувати як «рекрут»"
+  - unit: q23
+    src: "and off you go"
+    note: "формула завершення інструктажу, не буквальне «і геть ви йдете»"
+  - unit: q44
+    src: "You're good to go."
+    note: "дозвіл рушати, а не оцінка стану гравця"
+  - unit: q48
+    src: "try not to lose a foot"
+    note: "сухий чорний жарт у відповідь на браваду; не пом’якшувати"
+  - unit: q27
+    src: "be kind enough to inform me so I can activate the turrets"
+    note: "підкреслена ввічливість як частина жарту — ввічливу рамку зберегти"
+
+pitfalls:
+  - >-
+    Головна складність вузла: q4–q9, q31–q38, q56–q58, q60, q67 — це НЕ
+    самостійні репліки, а фрагменти, які гра склеює в одне речення під час
+    виконання. q5 («him»), q38 («her»), q57 («he»), q67 («she») — самі лише
+    займенники. Перекладати їх треба так, щоб склейка давала граматичне
+    українське речення при будь-якій комбінації.
+  - >-
+    $(tempContext.wasteWaterPronoun) і $(tempContext.wasteWaterPronounCap)
+    підставляють займенник змінного роду, $(context.frag_dun_wasteWater_corpseGender) —
+    іменник змінного роду. Узгоджені з ними дієслова минулого часу й прикметники
+    (q8, q33–q37) не можна лишати з фіксованим родом — потрібна безрідна побудова
+    або $(#…/…).
+  - "$(context.player.Name) (q1, q16, q17, q50, q52) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб потрібен був називний"
+  - "a26 містить *do* — зірочки є розміткою наголосу, зберігати"
+  - "\\n\\n у q1, q21, q22, q52 — літеральна послідовність розриву рядка, не чіпати"
+  - "«Mushroom Cove» → «Грибна Бухта», «psi beetles» → «псі-жуки», «rathounds» → «щурчаки», «Faceless» → «Безликі», «Tanner» → «Таннер», «Vera» → «Віра» — глосарій і реєстр"
+
+examples:
+  - unit: q42
+    rule: "нарація ::…:: — «ви», STYLE §3.1"
+    uk_fragment: "::Він киває.::"
+    status: proposed
+  - unit: q16
+    rule: "плейсхолдер імені лишається в називному, STYLE §4"
+    uk_fragment: "…, $(context.player.Name)."
+    status: proposed
+  - unit: q23
+    rule: "наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "…дайте мені знати…"
+    status: proposed

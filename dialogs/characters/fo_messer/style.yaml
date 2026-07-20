@@ -1,0 +1,70 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_messer
+file_id: dialogs\characters\fo_messer.txt
+derived_from: source-only
+units: {total: 31, npc: 20, player: 11, empty: 2}
+
+speakers:
+  - slug: messer
+    name: Мессер
+    units: default
+    confidence: certain
+    evidence: [q1, q12, q26]
+    role: >-
+      Місцевий різник Ливарні: огрядний, теплий, говіркий, з професійною гордістю за
+      свій товар і повною відсутністю гидливості. Гумор у нього чорнуватий і буденний.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        $(#man/honey) у q23 — фамільярне звертання, і воно тут вирішальне (STYLE §3.2).
+        Підтверджується «Long time no see, friend», сміхом у ремарках і порадами
+        по-свійськи: «A piece of advice: Be careful what you eat».
+      gender_cues: ["$(#man/honey)"]
+    voice:
+      register: теплий баритон, панібратський; мова густа, з паузами й перебивками
+      idiolect:
+        - "нав’язливе «Yeah.» окремим реченням наприкінці думки — словесний тик, зберігати як окреме коротке слово"
+        - "зачини-роздуми: «Hmmm», «Well», «Let's put it this way...»"
+        - "розмовні стягнення: 'cause, 'em"
+        - "рекламні формули в мові торговця: «Get your rocky steaks at Messer's»"
+
+narration:
+  present: true
+  note: "«ви» без винятків, навіть тут, де сам Мессер каже «ти» — STYLE §3.1"
+
+new_names: ["Kirk", "Sonny"]
+
+idioms:
+  - unit: q5
+    src: "your health slowly leaves down the same tunnel"
+    note: "розгорнутий образ, прив’язаний до підземного світу; зберегти саме «тунель», не міняти на нейтральне"
+  - unit: q12
+    src: "I don't sell muck"
+    note: >-
+      «muck» — наскрізне зневажливе слово корпусу (пор. fo_doc q17, fo_estelle q18);
+      один і той самий український відповідник у всіх вузлах
+  - unit: q13
+    src: "you're golden"
+    note: "розмовне «і все гаразд»; не через «золотий» (пор. fo_bobby q30)"
+  - unit: q7
+    src: "raider jackasses"
+    note: "грубе лишається грубим — не пом’якшувати (STYLE §9)"
+
+pitfalls:
+  - "«Ironheads» (q7) — «Залізноголові», «Protectorate» — «Протекторат», «Camp Hathor» (q30) — «Табір Хатор», «hopper meat» — м’ясо стрибуна: усе за глосарієм"
+  - "q25 «in whole South Underrail» — Underrail лишається латиницею й не відмінюється: «у всій Південній Underrail»"
+  - "«Foundry Guard» (q7) не перекладається; «Foundry guardsmen» (q25) — родова назва, перекладається"
+  - "a3 ::Barter.:: — підказка дії, інфінітив (STYLE §3.5)"
+  - "q21 «derailed ideas» — внутрішньоігровий сленг на позначення божевілля, той самий корінь, що й «derailed man» у fo_bobby a28 і fo_estelle a16; тримати єдиний варіант"
+
+examples:
+  - unit: q23
+    rule: "$(#man/honey) — фамільярне гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/люба)"
+    status: proposed
+  - unit: q15
+    rule: "«ти» як база NPC — наказовий і особові форми успадковують вибір, STYLE §3.4"
+    uk_fragment: "більше не турбуватимуть"
+    status: proposed

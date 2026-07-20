@@ -1,0 +1,78 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_lydia
+file_id: dialogs\characters\tch_lydia.txt
+derived_from: source-only
+units: {total: 60, npc: 34, player: 26, empty: 4}
+
+speakers:
+  - slug: lydia
+    name: Лідія
+    units: default
+    confidence: certain
+    evidence: [q5, q50, q57]
+    role: >-
+      Епіскопос Лідія — керівниця всіх трьох відділів Дослідження в Інституті Тчорта,
+      майже десять років на посаді. Говорить як високопосадовиця, що вирішує кар’єру
+      співрозмовника: холодна ввічливість, оцінка «послужного списку», жодної теплоти.
+    relationships:
+      - "Ріста — головний дослідник, який заперечував проти зустрічі з гравцем; Лідія переказує його заперечення підкреслено дистанційовано"
+      - "Ейдейн — «його світлість», вища за неї особа; згадує його з пієтетом («Eidein pardon me»)"
+      - "Амелія — праепостор, до якої вона відсилає гравця за подробицями"
+      - "Ленора — монсеньйор, взірцева попередниця, з якою вона порівнює гравця"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа найвищого рангу в розмові-співбесіді; жодного панібратства,
+        повні форми, накази подані як прохання («I ask of you to make your questions brief»).
+        Гравець послідовно звертається «Your Eminence» — це закріплює «ви» з обох боків
+        (STYLE §3.2, §3.3).
+      gender_cues: ["$(#brother/sister)"]
+      switches:
+        - {unit: q57, to: ви, trigger: "докір «you should learn some manners» лишається на «ви» — холодність, а не зрив на «ти»"}
+    voice:
+      register: формальний, церковно-бюрократичний, стримано зверхній
+      idiolect:
+        - "нав’язливе «Mmm»/«Mmmm» на початку реплік — мовний тик, зберігати як «Ммм»/«Мммм», не викидати"
+        - "довгі періоди з підрядними, кома-крапка-з-комою; не дробити на короткі речення"
+        - "канцелярська лексика оцінювання: «record», «performance», «satisfying»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут це q2 (портретний опис) і короткі ремарки «::She nods.::»"
+
+new_names: ["Lenora"]
+
+idioms:
+  - unit: q16
+    src: "But I digress"
+    note: "не калькувати; книжне «та я відхилилася від теми» — вона одразу повертається до справи"
+  - unit: q12
+    src: "he wasn't pleased with your performance"
+    note: "«performance» тут — службова оцінка роботи, не «виступ»"
+  - unit: q15
+    src: "Despite that little fluke"
+    note: "розмовне применшення провини; «попри ту дрібну похибку», не «випадковість»"
+
+pitfalls:
+  - "Титули Episkopos, Monsignor, Praepostor, Protonotary, Principal Investigator, novitiate — вигаданий церковно-науковий устрій Інституту; канонічних відповідників у глосарії немає, узгоджувати з сусідніми вузлами tch_*, а не вигадувати окремо"
+  - "«Your Eminence» (a17, a20, a44) — звертання гравця до Лідії; форма має бути та сама в усіх трьох юнітах"
+  - "«Investigation» з великої (q30, q37–q40) — назва підрозділу, а не процес розслідування"
+  - "Institute of Tchort → «Інститут Тчорта» (глосарій); Tchort → «Тчорт»"
+  - "$(context.player.Name) стоїть у кличній позиції в більшості q-реплік — плейсхолдер не відмінювати, перебудовувати фразу навколо нього"
+  - "«Tchort is evolution» / «Evolution is Tchort» — обрядова формула-відгук; дзеркальний порядок слів обов’язково зберегти в обох напрямках"
+
+examples:
+  - unit: q1
+    rule: "$(#brother/sister) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q5
+    rule: "тик «Mmmm» зберігається як звук, не як вигук-заповнювач"
+    uk_fragment: "Мммм, так"
+    status: proposed
+  - unit: q45
+    rule: "формула прощання зберігає обрядову сталість"
+    uk_fragment: "Хай Тчорт веде тебе"
+    status: proposed

@@ -1,0 +1,285 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/xpbl/le_oldfield
+file_id: dialogs\characters\xpbl\le_oldfield.txt
+derived_from: source-only
+units: {total: 928, npc: 633, player: 295, empty: 55}
+
+speakers:
+  - slug: oldfield
+    name: Олдфілд
+    units: default
+    confidence: certain
+    evidence: [q873, q21, q443]
+    role: >-
+      Едвард Олдфілд — професор історії суперкорпорацій Університету Дісу, керівник
+      експедиції на Чорне Море; саме він видає завдання гравцеві й переказує майже всю
+      лорну експозицію вузла. Мова — вимова освіченої людини старшого віку: повні
+      форми без скорочень, вставні «I should say», «if you will», «I'd not go into».
+    relationships:
+      - "Річард Бріггс — начальник охорони, з часом близький друг; професор зве його на ім’я «Richard»"
+      - "Джеремі Сігер — його асистент з ІТ, професор ставиться до нього поблажливо-іронічно"
+      - "Тодд — лемурієць, якого професор сприймає як наукову сенсацію, аж поки гравець не осадить його"
+      - "Капітан Грим — колишній слухач його гостьових лекцій, тепер тюремник"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Академічний, підкреслено чемний мовець: «Forgive me, but that is all I could
+        share», «I ask of you to not insist on this matter any further», постійне
+        звертання на ім’я через плейсхолдер. Гравець дзеркалить — усюди «Professor»,
+        «Yes, sir» у службовому контексті (STYLE §3.2, §3.3).
+      gender_cues: ["$(#man/woman)", "$(#He/She)", "$(#his/her)", "$(#gentlemen/both)", "$(#Gentlemen/Both of you)"]
+    voice:
+      register: книжний, доброзичливий, схвильований; емоційні зриви — плач, паніка в полоні
+      idiolect:
+        - "«By the caverns!» — головний вигук персонажа, потребує ОДНОГО сталого відповідника на весь вузол"
+        - "«Goodness me» — другий постійний вигук, окремий від попереднього, теж сталий"
+        - "«Jolly good» (q648, q662) — британська схвальна формула, не «весело»"
+        - "звертання «my dear professor», «Mr. Ladelman» — тримає дистанцію ввічливості"
+        - "у полоні мова розсипається на заїкання: «Y-you know why we're here», «T-that's why» — відтворювати на українському приголосному (STYLE §9)"
+
+  - slug: briggs
+    name: Бріггс
+    units: [q17, q269, q290, q292, q679, q681, q684, q687, q688, q689, q690, q691,
+            q695, q698, q699, q700, q701, q702, q704, q706, q708, q709, q711, q712,
+            q715, q786, q789, q796, q800, q803, q805, q806, q809, q811, q814, q818,
+            q820, q823, q825, q832, q834, q836, q837, q840, q844, q846, q848, q850,
+            q851, q854, q855, q857, q872, q880, q882, q888, q894, q904, q908, q910]
+    confidence: probable
+    evidence: [q789, q851, q832]
+    role: >-
+      Начальник охорони експедиції (Aegis Incorporated), колишній офіцер Протекторату,
+      прямий командир гравця. Говорить статутно й сухо, наказами без пом’якшень.
+    relationships:
+      - "Олдфілд — формально роботодавець, фактично друг; звертається «Professor»"
+      - "Ягота — підлегла, командирка загонів сектруперів"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова субординація: гравець відповідає «Yes, sir», Бріггс — «Cease your
+        complaining and do the job you were hired to do». Це формальна ієрархія,
+        а не панібратство (STYLE §3.2).
+      gender_cues: ["$(#He/She)", "$(#his/her)"]
+      switches:
+        - {unit: q834, to: ви, trigger: "роздратування не змінює регістру — грубішає лексика, не форма"}
+    voice:
+      register: уривчастий, статутний, без емоційних прикрас
+      idiolect:
+        - "команди без підмета: «Move out. On the double.», «Defend the camp!» — наказовий спосіб на «ви» (STYLE §3.4)"
+        - "«Affirmative», «Negative», «sec-troopers», «sec-medic» — військовий жаргон, тримати єдиним по всьому корпусу"
+
+  - slug: grim
+    name: Грим
+    units: [q392, q394, q397, q399, q409, q415, q417, q419, q426, q430, q447, q448,
+            q450, q451, q453, q454, q456, q458, q460, q464, q465, q466, q468, q470,
+            q471, q472, q473, q474, q476, q479, q480, q482, q484, q494, q495, q496,
+            q498, q500, q501, q503, q504, q538, q539, q545, q547, q549, q569, q571,
+            q573, q575, q576, q578, q580, q581, q582, q583, q585]
+    confidence: probable
+    evidence: [q460, q409, q430]
+    role: >-
+      Капітан піратів Грим (справжнє ім’я — Cadmus Green), син офіцера Biocorp,
+      колишній кадет; веде допит професора. Освічений хижак: військова виправка й
+      південний вуличний говір в одній репліці.
+    relationships:
+      - "Олдфілд — колишній лектор його академії; звідси глумливо-шаноблива форма звертання"
+      - "Флінгер — підлеглий, якому кидає короткі накази"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        До гравця — як до свого в команді: «Follow me. We're goin' back to the ship:
+        I've got work for you.» До професора тримає глузливу ввічливість «ви»
+        («my dear professor», «Allow me to refresh your memory») — це свідомий
+        контраст, не згладжувати.
+      switches:
+        - {unit: q448, to: ви, trigger: "звертається до професора — тиснуча ввічливість перед погрозою"}
+        - {unit: q500, to: ви, trigger: "«stop snivellin'. Man up!» — ввічлива форма з грубим наказом усередині"}
+    voice:
+      register: низький, насмішкуватий, з погрозою під ввічливістю
+      idiolect:
+        - "системне випадання -g: financin', givin', somethin', jettin', returnin' — знижений говір, у перекладі передавати розмовною лексикою й синтаксисом, а не орфографічним каліцтвом"
+        - "«jettin'» / «jetters» — внутрішньоігровий сленг піратів, лишати запозиченням (STYLE §9)"
+        - "«derailed» у значенні «здурілий» — гра на назві світу, не калькувати як «зійшов з рейок»"
+
+  - slug: flinger
+    name: Флінгер
+    units: [q452, q475, q502, q588]
+    confidence: certain
+    evidence: [q588, q452]
+    role: >-
+      Пірат-охоронець при капітанові, виконує накази й стереже камеру. Найгрубіший
+      мовець вузла — його репліка навмисно записана спотвореним написанням.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "портовий громило; до капітана — «Aye, Cap'n», до бранців — зневажливо"
+    voice:
+      register: грубий, п’яний, ледь членороздільний
+      idiolect:
+        - "q588 «Ye shut yer traps over dere. Don' wanna hear a word from d' two of ye» — фонетичне спотворення в оригіналі; в українській відтворювати просторіччям і редукцією, не транслітерацією помилок"
+        - "«Aye, Cap'n» — стала матроська формула, однаковий відповідник у q452 і q502"
+
+  - slug: yahota
+    name: Ягота
+    units: [q845, q847, q852, q858, q864, q865, q867, q870]
+    confidence: probable
+    evidence: [q845, q852, q844]
+    role: >-
+      Офіцерка сектруперів Aegis, підлегла Бріггса. Рапортує статутно, з гравцем
+      говорить різко й зверхньо, поки той не доведе свою вартість.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        До Бріггса — «sir», повний рапорт; до гравця — оцінювальне «This one?»,
+        «You - follow me», «Good enough, $(#boy/girl)». Це зневага рівного до
+        новачка, а не службова ввічливість.
+      gender_cues: ["$(#boy/girl)"]
+      switches:
+        - {unit: q845, to: ви, trigger: "рапорт начальникові — тут «ви», а не «ти»"}
+    voice:
+      register: сухий, солдатський, зневажливий
+      idiolect:
+        - "«fraggin'» як лайливий підсилювач — груба лексика лишається грубою (STYLE §9)"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q429, q485, q543, q905]
+    confidence: unknown
+    reason: >-
+      Односкладові відгуки й репліки без імені та без нарації, що вставлені між
+      двома-трьома мовцями. q429 «Ditto.» однаково пасує Гриму й Флінгеру; q485
+      формально містить піратське випадання -g, але за змістом («I was right about
+      that») належить учасникові давньої суперечки про Seven-Day Campaign, а сусідня
+      q486 адресує правоту професорові — атрибуція суперечлива.
+    guidance: >-
+      Перекладати нейтрально: без гендерованого минулого часу, без говіркових маркерів
+      того чи того мовця, коротко. Регістр — базовий регістр сцени, у якій репліка
+      стоїть (полон у піратів — «ти»; намет професора — «ви»).
+
+narration:
+  present: true
+  note: >-
+    Нарації дуже багато (описи професора, його окулярів, сліз, боїв). Скрізь «ви»
+    без винятків — STYLE §3.1, навіть коли поруч мовець каже «ти». Нерозписані
+    між іншими мовцями юніти, зокрема всі суто наративні, потрапляють у запис
+    oldfield (units: default).
+
+unattributed_units: [q429, q485, q543, q905]
+
+new_names:
+  - Edward
+  - Richard
+  - Cadmus
+  - Green
+  - Wade Green
+  - Seeger
+  - Savage
+  - Ladelman
+  - Linda
+  - Aran
+  - Phil
+  - Albert Surr
+  - Lemuria
+  - Lemurian
+  - Hexagon
+  - Horizon
+  - Atlantis
+  - Acorn
+  - ACoNR
+  - New Frontier Technologies
+  - NFT
+  - Nucleus Corporation
+  - Bionic Institute
+  - Transcendix
+  - Security Agency
+  - T6
+  - Aegis Incorporated
+  - Grim Jetters
+  - United Stations
+  - Port Ceto
+  - Dis
+  - Arch Island Keep
+  - Abyssal Station Zero
+  - Nexus of Technology
+  - Crimson Meadow
+  - Citadel of Life
+  - Blistering Shores
+  - West Storage Depot
+  - Lemurian Health Center
+  - Joint Security Headquarters
+  - Shadowlith
+  - Descent
+  - Seven-Day Campaign
+
+idioms:
+  - unit: q7
+    src: "By the caverns..."
+    note: "світобудовний вигук замість «by heavens»; потрібен один сталий український відповідник на весь вузол, не варіювати"
+  - unit: q648
+    src: "Jolly good."
+    note: "британське схвалення; не «весело», а розмовне «чудово»"
+  - unit: q430
+    src: "makes their eyes pop out of their sockets"
+    note: "ідіому локалізувати, не калькувати анатомію"
+  - unit: q464
+    src: "In the jettin' flesh!"
+    note: "«власною персоною» з піратським підсилювачем; jettin' — ігровий сленг, лишати запозиченням"
+  - unit: q500
+    src: "stop snivellin'. Man up!"
+    note: "грубий наказ, не пом’якшувати до «візьміть себе в руки»"
+  - unit: q714
+    src: "You great supine... protoplasmic invertebrate *jelly*!"
+    note: "навмисно псевдонаукова лайка професора — зберегти книжність, це не звичайна лайка"
+  - unit: q470
+    src: "You must be derailed, Professor."
+    note: "гра на назві світу в значенні «здурілий»; калька про рейки руйнує сенс"
+  - unit: q873
+    src: "Speak of the devil..."
+    note: "стала формула, український відповідник, не дослівний диявол"
+  - unit: q895
+    src: "we are on the same page"
+    note: "професор сам маркує це як колоквіалізм («as the colloquialism goes») — потрібен саме розмовний зворот"
+
+pitfalls:
+  - "$(context.npc_xpbl_oldfield_playerName) і $(context.player.Name) — імена гравця; усередині плейсхолдера нічого не відмінювати й не змінювати, будувати фразу так, щоб форма була називна"
+  - "у q19, q268, q291, q680, q887 звучить «Richard» — це звертання до Бріггса, отже мовець там професор, а не Бріггс (пастка звертання, CARD-SPEC §3.3)"
+  - "у q392, q397, q448, q571 звучить «Professor» — мовець там Грим, а не професор"
+  - "«Aegis Incorporated» — фірма-підрядник охорони; глосарійний запис Aegis → Егіда стосується бойового препарату, а не цієї назви — не змішувати"
+  - "Biocorp, Coretech, JKK, Praetorian Security, Underrail — лишаються латиницею (глосарій, read-only)"
+  - "Black Sea → Чорне Море, Core City → Центральне Місто, Camp Hathor → Табір Хатор, Hell's Gut → Нутро Пекла, Protectorate → Протекторат, Faceless → Безликі, Invictus → Інвіктус — брати з глосарію"
+  - "валюта: charons → харони (q265, q273), stygian coins → стигійські монети (q263) — це різні одиниці, не уніфікувати"
+  - "теги навичок ::[Persuade]::, ::[Intimidate]::, ::[Mercantile]:: — брати з глосарію, дужки й :: не чіпати"
+  - "координати K7, H7, I1, F12, L12 — не перекладати й не міняти латиницю"
+  - "багато юнітів — обірвані уламки речення (q39 «Regardless, besides», q163, q660 «There»), що склеюються з сусідніми; не додавати крапок і не добудовувати фрази"
+  - "у q9, q322, q574 обіграно напис «from capital A to capital R» на коробці ACoNR — літери напису лишаються латиницею, інакше пояснення розсипається"
+  - "«sec-troopers», «sec-chef», «sec-medic», «navcom», «jet ski» — повторювані реалії, тримати єдиний відповідник по всьому вузлу"
+
+examples:
+  - unit: q807
+    rule: "$(#gentlemen/both) — гендерне звертання до пари співрозмовників, STYLE §2"
+    uk_fragment: "$(#панове/обоє)"
+    status: proposed
+  - unit: q130
+    rule: "$(#man/woman) у складі присудка вимагає узгодження всієї фрази, STYLE §2"
+    uk_fragment: "$(#першим/першою)"
+    status: proposed
+  - unit: q864
+    rule: "$(#boy/girl) — зневажливе звертання Яготи на «ти», STYLE §3.2"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed
+  - unit: q405
+    rule: "заїкання відтворюємо на українському приголосному, STYLE §9"
+    uk_fragment: "н-навіщо"
+    status: proposed
+  - unit: q110
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Пояснити йому::"
+    status: proposed
+  - unit: q452
+    rule: "матроська формула Флінгера, сталий відповідник у всіх входженнях"
+    uk_fragment: "Так, кеп"
+    status: proposed

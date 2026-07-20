@@ -1,0 +1,73 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_radusinan
+file_id: dialogs\characters\cc_radusinan.txt
+derived_from: source-only
+units: {total: 6, npc: 5, player: 1, empty: 1}
+
+speakers:
+  - slug: narrator
+    name: нарація
+    units: [q1, q4]
+    confidence: certain
+    evidence: [q1, q4]
+    role: >-
+      Оповідач описує зустріч із чоловіком, чию мову годі розібрати. q1 —
+      розлогий опис із іронічним фіналом про відро, q4 — коротка ремарка.
+    address:
+      npc_to_player: ви
+      basis: "нарація завжди «ви», без винятків, STYLE §3.1"
+    voice:
+      register: рівний описовий, з делікатною іронією («Sadly, that is all you are able to make of…»)
+
+  - slug: radusinan
+    name: чоловік із гнилим зубом
+    units: [q5, q6]
+    confidence: probable
+    evidence: [q5, q6]
+    name_note: "англ. Radusinan — з назви теки, у самому тексті ім’я не звучить; канонічного варіанта немає, див. new_names"
+    role: >-
+      Персонаж, що кричить нерозбірливо; артикульованими лишаються тільки
+      слово «відро» й балканське «bre». Голосу як такого в нього немає —
+      є два уривки крику.
+    address:
+      npc_to_player: ти
+      basis: >-
+        Крик без жодної ввічливої формули; зв’язної мови, за якою можна було б
+        встановити регістр точніше, у вузлі немає — базове «ти» за STYLE §3.2.
+    voice:
+      register: несамовитий крик, уривками
+
+narration:
+  present: true
+  note: "q1, q4 — «ви»; «::Leave him alone.::» (a2) — підказка дії в інфінітиві, STYLE §3.1, §3.5"
+
+new_names: ["Radusinan"]
+
+idioms:
+  - unit: q6
+    src: "Bre!"
+    note: >-
+      балканське слівце-паразит, те саме, що в cc_ljubostanka; лишати
+      запозиченням як внутрішньоігровий сленг (STYLE §9), не заміняти
+      українським вигуком
+  - unit: q5
+    src: "Buck-et!?"
+    note: >-
+      слово розбите дефісом — це вимова, а не переніс: чоловік вигукує його
+      по складах. Дефіс поставити за складами українського слова, не копіювати
+      англійський поділ
+  - unit: q1
+    src: "his frantic speech"
+    note: "«несамовита/гарячкова мова», не «панічна»"
+
+pitfalls:
+  - "q1 навмисно тримає інтригу — не пояснювати, чому саме відро важливе; іронія оповідача будується на нерозгаданості"
+  - "«bucket» у нарації (q1) і «Buck-et!?» у крику (q5) — те саме слово; український відповідник мусить збігатися, інакше зв’язок між ремаркою і криком зникне"
+  - "«blustering» (q1) — гучне безладне ремство, не «блеф»"
+
+examples:
+  - unit: a2
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Дати йому спокій.::"
+    status: proposed

@@ -1,0 +1,82 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_garry
+file_id: dialogs\characters\cc_garry.txt
+derived_from: source-only
+units: {total: 81, npc: 51, player: 30, empty: 2}
+
+speakers:
+  - slug: garry
+    name: Гаррі
+    units: default
+    confidence: certain
+    evidence: [q1, q16, q80]
+    role: >-
+      Аматор-уболівальник Арени в мантії, який сам ніколи не бився через
+      кісткову хворобу; підказує гравцеві слабкі місця кожного наступного гладіатора.
+    relationships:
+      - "гравець — його новий фаворит; допомагає безкорисливо, «I don’t want you to die too soon»"
+      - "Dread Lord — чинний Інвіктус і його улюбленець, майбутній суперник гравця"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Освічена, вибудувана мова без просторіччя, підкреслена ввічливість
+        («I hope I’m not bothering you too much», «my dear friend»), медична
+        термінологія в q61. STYLE §3.2 — не вуличний персонаж, отже «ви».
+    voice:
+      register: культурний, багатослівний, захоплений; кровожерність у ввічливій оболонці
+      idiolect:
+        - "самоозначення «I'm an enthusiast» — рефрен, повторюється в q16, q24, q51, q65, q69, q80; тримати один сталий відповідник"
+        - "«a bloodthirsty maniac if you will» — стала автоіронічна приставка до рефрену"
+        - "риторичні перепити «does it?», «how do I put this» — ознака вихованої мови"
+        - "оцінна лексика театрального критика: perfection, marvelous, remarkable, admirable"
+        - "поради гладіаторам завжди закінчуються сухим «Good luck.» — не прикрашати"
+
+narration:
+  present: true
+  note: "коротка нарація-ремарка (q1, q14, q20, q53) — «ви», STYLE §3.1"
+
+new_names: ["Dread Lord", "Bull's Eye", "Master Exploder", "Chemical Agent", "Surgeon", "Zap", "Stygian Exorcist", "Disembowelina", "Gauntlet"]
+
+idioms:
+  - unit: q42
+    src: "It's pipes and barrels to me"
+    note: >-
+      внутрішньоігрова ідіома «це для мене все / хліб насущний» (повторена в q43).
+      Не калькувати як «труби й бочки»; потрібен один сталий український зворот на обидва юніти.
+  - unit: q42
+    src: "I've sunk enough charons into it to restore South Underrail's entire railroad"
+    note: "гіпербола; «South Underrail» за глосарієм — «Південна Underrail», латиниця не відмінюється"
+  - unit: q29
+    src: "send a bolt through a fly's wing without killing the thing"
+    note: "образ влучності — зберегти конкретику, не зводити до «дуже влучний»"
+  - unit: q75
+    src: "Bingo."
+    note: "вигук здогаду; засвоєне запозичення, не описовий переклад"
+  - unit: q33
+    src: "Name says it all."
+    note: "= назва говорить сама за себе; ідіома"
+  - unit: q30
+    src: "he'll be no match for you"
+    note: "= не буде тобі рівнею; не калькувати «матч»"
+
+pitfalls:
+  - "q1, q6 містять $(context.playerArenaTitle), q14 і q81 — $(context.player.Name): не відмінювати всередині плейсхолдера, фраза має тримати називний відмінок"
+  - "прізвиська гладіаторів (Dread Lord, Bull's Eye, Master Exploder, Chemical Agent, Surgeon, Zap, Stygian Exorcist, Disembowelina) канонічно не вирішені — у new_names, не вигадувати варіант на місці"
+  - "q61 «Osteogenesis imperfecta» — реальний медичний діагноз, має усталений український термін; це не вигадана назва"
+  - "«the families» (q17, q78) — евфемізм на позначення кланів олігархів, не «сім’ї» у побутовому значенні; у q20 сам розшифровує: Knight, Simmons, Edstrom"
+  - "Invictus → «Інвіктус», Arena → «Арена», charons → «харони», zoner → «зонер», Core City → «Центральне Місто» — глосарій"
+  - "Coretech, JKK, Praetorian Security (a21, a70, a71) — лишаються латиницею й не відмінюються"
+  - "Gauntlet (a44) — назва окремого режиму, а не звичайне слово; поки не перекладати навмання"
+  - "зірочки навколо слів (*executing*, *just*, *really*) — наголос гри, розмітку зберігати"
+
+examples:
+  - unit: q6
+    rule: "звертання «my dear friend» у регістрі «ви», STYLE §3.2"
+    uk_fragment: "мій дорогий друже"
+    status: proposed
+  - unit: q30
+    rule: "«Good luck.» як стала кінцівка поради — однаковий відповідник у q30, q32, q34, q36, q38, q40"
+    uk_fragment: "Щасти."
+    status: proposed

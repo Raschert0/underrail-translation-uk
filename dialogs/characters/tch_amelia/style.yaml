@@ -1,0 +1,119 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_amelia
+file_id: dialogs\characters\tch_amelia.txt
+derived_from: source-only
+units: {total: 249, npc: 117, player: 132, empty: 5}
+
+speakers:
+  - slug: amelia
+    name: Амелія
+    units: default
+    confidence: certain
+    evidence: [q58, q125, q132, q148]
+    role: >-
+      Препостор Інституту Тчорта — вона проводить вступну співбесіду з гравцем
+      і після прийняття читає йому настанову про устрій Інституту. Голос
+      церемонний, доброзичливо-контрольований: вона одночасно вербує й оцінює,
+      тож ані теплота, ані загроза не мають звучати прямо.
+    relationships:
+      - "Ейдейн — засновник Інституту й Тчортизму; згадує його з пієтетом, «Eidein pardon me» — божба"
+      - "Медіант Семюел, Джерре Франц, міністр Персіваль — підлеглі й колеги, називає їх із титулом"
+      - "Гравець — спершу постулант, далі новіціат; вона тримає позицію старшої, але без зверхності"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Обрядова, книжна мова без розмовних скорочень, звертання за титулом
+        («postulant», «novitiate») і формула вітання «Tchort is evolution» —
+        STYLE §3.2 відносить такого мовця до «ви». Репліки гравця дзеркалять
+        її регістр (§3.3), зокрема й звертання «Praepostor».
+      gender_cues: ["$(#brother/sister)", "$(#himself/herself)", "$(#his/her)"]
+      switches:
+        - {unit: q104, to: ви, trigger: "різкий наказ «Just answer the question you were asked» — регістр той самий, змінюється лише тон: холодніше, коротше, без пом’якшень"}
+    voice:
+      register: рівний, вишуканий, обрядово-офіційний; ані фамільярності, ані сухого канцеляриту
+      idiolect:
+        - "«Mm-hmm» — наскрізний словесний тик, з’являється в 20+ репліках; передавати одним сталим вигуком і не варіювати"
+        - "любить тире й уточнення в дужковій позиції: «protect - or preserve - Tchort»"
+        - "риторичне перепитування реплікою співрозмовника: «You believe so?», «Clever you say...»"
+        - "повторюване *unexpected* із зірочками — сигнал прихованої тривоги, той самий вислів мусить повторюватися дослівно в q147, q204, q216, q218"
+        - "не вживає скорочених форм у настановчих монологах; поодинокі «I'm», «don't» — у живішому діалозі"
+
+narration:
+  present: true
+  note: >-
+    Розлогі описові блоки q56, q57, q106, q125, q132, q148, q160, q168 —
+    «ви» без винятків, STYLE §3.1. Це найлітературніші сегменти вузла:
+    портретний опис Амелії, побудований на розгорнутих порівняннях
+    («like black oil being spilled over a shiny lump of gold»), — калькувати
+    синтаксис не можна, образ треба перебудувати українською.
+
+unattributed_units: []
+
+new_names: ["Gromis", "Lunatics", "Praepostor", "Mediant", "Efreitor", "Protophysician", "Novitiate", "Postulant", "Acolyte", "Tchortism", "Preservation", "Investigation", "Propagation", "Original Report"]
+
+idioms:
+  - unit: q44
+    src: "I hope I have your divided attention"
+    note: >-
+      Каламбур на подвійному значенні divided (мітоз / розділена увага).
+      Потрібен свій український жарт про поділ клітини — дослівний переклад
+      знищує саму репліку, а q45 прямо називає її «mitosis joke».
+  - unit: q20
+    src: "Eidein pardon me"
+    note: "божба за зразком «God pardon me» — передавати як звертання до Ейдейна, не як вибачення перед гравцем"
+  - unit: q19
+    src: "mutilated beyond recognition"
+    note: "стале сполучення, не калькувати послівно"
+  - unit: q125
+    src: "too-long-for-comfort stare"
+    note: "оказіональний складений епітет; українською розгортати в підрядне, а не ліпити дефісами"
+  - unit: q198
+    src: "go to answer nature's call"
+    note: "евфемізм; шукати український евфемізм такого ж рівня, не буквалізм"
+  - unit: q150
+    src: "I've been busted"
+    note: "розмовне «мене розкрили» — репліка гравця, тут допустиме зниження регістру"
+  - unit: q231
+    src: "Loot is life. Life is loot."
+    note: "дзеркальна формула — зберегти саме дзеркальність, а не лише зміст"
+  - unit: q5
+    src: "refectory ... the term \"canteen\""
+    note: >-
+      Протиставлення книжного й побутового слова — обидва мають бути різні
+      українською, інакше репліка втрачає сенс.
+
+pitfalls:
+  - "$(context.player.Name) трапляється в 20+ юнітах — не відмінювати й не додавати літер усередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному"
+  - "q140 містить помилку джерела: «For an instant you see surprise in your eyes» — ідеться про ЇЇ очі; перекладати за змістом, не тиражувати помилку"
+  - "Зірочки навколо *unexpected*, *No*, *later* — авторський наголос, зберігати як розмітку"
+  - "\\n\\n у джерелі — реальні розриви абзаців усередині репліки, не викидати"
+  - "Titles Preservation / Investigation / Propagation — це три підрозділи Інституту, з великої й послідовно однаково в усіх 15+ згадках"
+  - "«Institute of Tchort» → канонічно «Інститут Тчорта» (глосарій); «Tchort» → «Тчорт»; «Faceless» → «Безликі»; «Deep Caverns» → «Глибокі Печери»; «Oculus» → «Окулус»; «Core City» → «Центральне Місто»; «Junkyard» → «Звалище»; «Rail Crossing» → «Залізничний Переїзд»; «Foundry» → «Ливарня»"
+  - "JKK, Coretech, Praetorian Security — латиницею, не відмінювати (глосарій)"
+  - "«rassophore» → «рясофор» — рішення вже закріплене в registry.yaml (примітка до Payam)"
+  - "«brother»/«sister» у q11 — не звертання, а пояснення звичаю; у q12 і q52 те саме слово вже є справжнім звертанням у $(#brother/sister) — розрізняти"
+  - "Числа-роки «year twenty-four», «year sixty-seven» — внутрішньоігрове літочислення, передавати цифрами послідовно в q17 і q19"
+
+examples:
+  - unit: q12
+    rule: "$(#brother/sister) — гендерне звертання у кличному відмінку, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q2
+    rule: "$(#himself/herself) — зворотний займенник, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#himself/herself) → зворотна форма без роду або обидві гілки"
+    status: proposed
+  - unit: q227
+    rule: "$(#man/woman) — іменник на позначення особи, обидві гілки, STYLE §2"
+    uk_fragment: "$(#чоловік/жінка)"
+    status: proposed
+  - unit: q53
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Зачекати, поки вона піде.::"
+    status: proposed
+  - unit: q11
+    rule: "обрядова формула вітання — двочленна дзеркальна пара, обидві половини сталі"
+    uk_fragment: "«Тчорт — еволюція» / «Еволюція — Тчорт»"
+    status: proposed

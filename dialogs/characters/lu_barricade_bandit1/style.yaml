@@ -1,0 +1,73 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/lu_barricade_bandit1
+file_id: dialogs\characters\lu_barricade_bandit1.txt
+derived_from: source-only
+units: {total: 29, npc: 18, player: 11, empty: 3}
+
+speakers:
+  - slug: lu_barricade_bandit1
+    name: бандит на барикаді
+    units: default
+    confidence: certain
+    evidence: [q5, q8, q16]
+    role: >-
+      Здирник на барикаді, який править мито за прохід. Уся його
+      характерність — у перепадах: від хамства «maggot» до запобігливого
+      мимрення «Um... um...», щойно на нього натиснуть, і до масного
+      загравання, коли гравця вмовляють.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        «punk», «maggot», «Hop along little hopper» — вуличне хамство,
+        це «ти», STYLE §3.2. Гравець відповідає так само, STYLE §3.3.
+      gender_cues: ["$(#jack/sister)", "$(#sir/ma'am)"]
+      switches:
+        - {unit: q8, to: ви, trigger: "глумливо-ввічливе $(#sir/ma'am) після отриманих грошей — іронія, а не справжня шанобливість; підкреслена ввічливість має контрастувати з «Now get movin'!» у тому ж рядку"}
+        - {unit: q3, to: ти, trigger: "переляк після залякування — той самий «ти», але з мимренням і паузами"}
+    voice:
+      register: хамський, боягузливий під тиском, масно-загравальний
+      idiolect:
+        - "«maggot» як стала образа (q5, q13, q18) — тримати один переклад в усіх трьох"
+        - "«Um... um...» і «Um...» — мимрення переляку в q3, q16, q17; кількість пауз зберігати"
+        - "пестливі звертання-загравання: sweetcakes (q21), sweetheart (q25) — масні, не ніжні"
+        - "звуконаслідування «BLAM!» капслоком (q2) — лишати вигуком, капслок зберігати"
+
+narration:
+  present: true
+  note: "q2, q13, q21 містять ::…:: — «ви» без винятків, STYLE §3.1"
+
+new_names: []
+
+idioms:
+  - unit: q10
+    src: "Hop along little hopper, hop!"
+    note: "каламбур на назві істоти hopper → стрибун (глосарій); по змозі зберегти гру «стрибай, стрибунчику»"
+  - unit: q5
+    src: "Maggots like you"
+    note: "«личинка» як образа; грубість зберігати, STYLE §9"
+  - unit: a20
+    src: "Look sweetie"
+    note: "гравець сам заграє в перевірці [Persuade]; масний тон навмисний, не нейтралізувати"
+
+pitfalls:
+  - "q5, q25, q27, q29 містять $(context.npc_lu_bandit1_toll) — плейсхолдер із числом; не відмінювати всередині нього й не додавати узгоджену форму «харонів» без урахування числа"
+  - "charon → харон (глосарій); a7, a9, a11, a23 — суми в підказках дій"
+  - "q8 $(#sir/ma'am) — глузлива ввічливість, обидві гілки мають лишитися підкреслено шанобливими за формою"
+  - "a15, a20: ::[Intimidate]::, ::[Persuade]:: → ::[Переконати]:: (глосарій)"
+  - "q16 і q17 — дві різні поступки (після погрози й після жарту); формулювання не зводити до однакового"
+
+examples:
+  - unit: q3
+    rule: "$(#jack/sister) — панібратське гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q8
+    rule: "$(#sir/ma'am) — шаноблива гілка, капіталізацію гілок зберігати, STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: a9
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Дати йому 5 харонів::"
+    status: proposed

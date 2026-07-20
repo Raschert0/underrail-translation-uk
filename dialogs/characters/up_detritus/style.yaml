@@ -1,0 +1,96 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/up_detritus
+file_id: dialogs\characters\up_detritus.txt
+derived_from: source-only
+units: {total: 83, npc: 44, player: 39, empty: 1}
+
+speakers:
+  - slug: detritus
+    name: Детрітус
+    units: default
+    confidence: certain
+    evidence: [q2, q27, q30, q35, q81]
+    role: >-
+      Молодий зонер із Зони Скидання, що втратив усю родину під час чуми й
+      вижив сам; приїхав під Інститут Тчорта шукати кращого життя і згодом
+      стає для тчортистів цінним піддослідним. Простак із теплим, довірливим
+      голосом — уся мова тримається на вуличній фонетиці й вірі в удачу.
+    relationships:
+      - "гравець — доброчинець і єдиний тут «свій»; наприкінці називає його «friend» і дякує (q15)"
+      - "батько, мати, дід, п’ять сестер і два брати — усі померли від чуми (q32, q47)"
+      - "рясофори — тчортистська варта; говорить про них із острахом і повагою (q70, q72)"
+      - "«derailed geezer» надворі — сусідній NPC, про якого він відгукується зневажливо (q69)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний, свій, без жодної офіційності: «Hey... Need somethin'?»,
+        «Hey, I don't know if you've been told...». STYLE §3.2 однозначно дає «ти».
+        Репліки гравця дзеркалять (§3.3) — «Hey, Detritus, how's it going?»,
+        «Stop being such a wimp, Detritus!»
+    voice:
+      register: вуличний, простацький, емоційно відкритий; довгі речення розсипаються на уламки
+      idiolect:
+        - "«hardcore» як універсальний підсилювач — 9 входжень (q8, q10, q35, q55, q65, q66, q72, q77); один сталий український відповідник на всі"
+        - "«dominates!» / «Dominatin'!» як вигук захвату (q4, q8) — окремий тик, не змішувати з «hardcore»"
+        - "«pipeworks» / «pipeworkin'» як лайка-замінник (q35, q53) — від назви локації Pipeworks, має читатися як евфемізм лайки"
+        - "суцільне випадання -g: goin', somethin', 'cause, workin', anythin', rottin', guessin' — передавати розмовною українською морфологією, а не апострофами"
+        - "«ya» замість «you» (q32, q47)"
+        - "самовизначення-рефрен «I'm a simple zoner» (q30, q39, q77)"
+
+narration:
+  present: true
+  note: >-
+    Портретні вставки q2 і q25 та часті короткі ремарки, майже всі — «::He shrugs.::»
+    (q40, q42, q44, q47). «Ви» без винятків — STYLE §3.1; a82 ::Leave him alone.::
+    — підказка дії, інфінітив (§3.5).
+
+new_names: ["Nucleus", "Pipeworks"]
+
+idioms:
+  - unit: q55
+    src: "I'm as nervous as a caged hopper"
+    note: "порівняння з ігровою істотою — hopper брати з глосарію, порівняння не замінювати на земну тварину"
+  - unit: q39
+    src: 'can easily be chucked down Pipeworks'
+    note: "«спустити в трубу» — локалізувати як ідіому марноти, зберігши назву локації"
+  - unit: q10
+    src: "Luck sure took its time to say hi again"
+    note: "персоніфікація удачі — його наскрізний мотив; не згладжувати до «нарешті пощастило»"
+  - unit: q35
+    src: 'that pipeworkin' plague'
+    note: "лайливий означник; грубе лишається грубим (STYLE §9)"
+  - unit: q69
+    src: 'He ain't right in the head'
+    note: "розмовна ідіома про божевілля, не калькувати"
+  - unit: q77
+    src: 'po-li-hadrons'
+    note: >-
+      навмисне перекручення слова «polyhedron» на складах — український відповідник
+      теж має бути перекручений і розбитий дефісами, інакше зникає характеристика персонажа
+
+pitfalls:
+  - "q8, q10, q15, q27, q30, q39, q40, q62, q81 містять \\n\\n — розділювач абзаців рушія"
+  - "$(context.player.Name) у q1, q15, q27, q81 — не відмінювати; речення будувати під називний"
+  - "q35 «Yes, a-- a hardcore plague» — заїкання; відтворити на українському приголосному (STYLE §9), а не лишити англійські літери"
+  - "«zoner»/«zoners» лишається запозиченням «зонер» (глосарій); «the Zone» (a31, q32) — та сама Зона Скидання, коротка форма"
+  - "Drop Zone, Core City, Deep Caverns, Foundry немає — але Drop Zone, Core City, Deep Caverns, Institute of Tchort, hopper, pipeworker брати з глосарію"
+  - "«rassophores» (q70) — сан тчортистської варти; registry дає «рясофор»"
+  - "Eidein (q12) — Ейдейн за registry.yaml"
+  - "q32/q47 і q37/q44 — дублі одного тексту в різних гілках; тримати ідентичними"
+  - "a80 «Hey, good looking!» — флірт-гілка; тон загравання, не звичайне привітання"
+
+examples:
+  - unit: q4
+    rule: "«dominates!» — вигук захвату, тик персонажа"
+    uk_fragment: "панує!"
+    status: proposed
+  - unit: q35
+    rule: "заїкання на українському приголосному (STYLE §9)"
+    uk_fragment: "т-так, ч-чума"
+    status: proposed
+  - unit: a82
+    rule: "підказка дії в ::…:: — інфінітив (STYLE §3.5)"
+    uk_fragment: "::Дати йому спокій.::"
+    status: proposed

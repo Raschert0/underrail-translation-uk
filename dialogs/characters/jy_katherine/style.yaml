@@ -1,0 +1,102 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_katherine
+file_id: dialogs\characters\jy_katherine.txt
+derived_from: source-only
+units: {total: 70, npc: 37, player: 33, empty: 2}
+
+speakers:
+  - slug: katherine
+    name: Кетрін
+    units: default
+    confidence: certain
+    evidence: [q3]
+    role: >-
+      Молода власниця крамнички електроніки в нетрях Звалища: лагодить техніку,
+      торгує інформацією й тримається як своя серед бідноти. Її голос —
+      найяскравіший акцент у вузлі, і саме він, а не зміст реплік, визначає
+      перекладацькі рішення.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Знайомиться першою й одразу без дистанції: «I see you ain't from around
+        here, $(#slick/sis)». Вуличне «sis», «Dig that?», «Come back when you
+        richer, you hear?» — це мова своєї людини, а не обслуги за прилавком.
+        Гравець дзеркалить (a49 «I dig. Thanks, sis.»), STYLE §3.3.
+      gender_cues: ["$(#slick/sis)"]
+    voice:
+      register: жвавий, панібратський, з відчутним просторічним акцентом
+      idiolect:
+        - "джерело прямо називає акцент: «She addresses you with a rather thick accent» (q3) — це не фон, а завдання перекладу"
+        - "суцільне випадання g: «holdin'», «lookin'», «workin'», «findin'», «riskin'», «buildin'», «spelunkin'» — передавати розмовним усіченням послідовно, а не подекуди"
+        - "випадання зв’язки: «unless you one of the wealthier merchants», «two quick and you in», «maybe they right in doing so» — стягнена безкопульна побудова, характерна риса, не помилка"
+        - "«gonna», «gotta», «lemme», «gimme», «ain't», «lotsa», «'cause» — зберігати знижений регістр"
+        - "повтор слова як наголос: «Colton. Colton.», «nothin' has changed. Nothin'.», «All the way to the bone»"
+        - "заповнювачі «yeah», «I mean», «well, uh», «heh» — інтонаційні, не викидати"
+
+narration:
+  present: true
+  note: >-
+    «::A young, slender, tall redhead stands before you.::» (q3),
+    «::She inspects the necklace.::» (q7) — «ви» без винятків, STYLE §3.1.
+    Підказки дій «::Barter.::», «::[Persuade]::», «::[Mercantile]::»,
+    «::Give her 15 stygian coins::», «::End Dialog::» — інфінітив, STYLE §3.5;
+    «::Barter.::» → «::Торгувати.::» і «::[Persuade]::» → «::[Переконати]::»
+    закріплені глосарієм.
+
+new_names: ["Black Eel", "Scrappers", "Armadillo", "Depot A", "Depot B", "Union"]
+
+idioms:
+  - unit: q2
+    src: "if you dig"
+    note: "«second person you dig» — вуличне «second петраєш / кумекаєш»; те саме гніздо, що «Dig that?» (q48) і відповідь гравця «I dig» (a49) — усі три треба вирішити однією формулою, бо вони перегукуються"
+  - unit: q24
+    src: "stripped down to the bone"
+    note: "про розібрану машину — «розібрали до гвинтика», не анатомічна калька"
+  - unit: q26
+    src: "it ain't worth riskin' your neck"
+    note: "«не варто наражатися»; «шия» в українському відповіднику не потрібна"
+  - unit: q28
+    src: "returned in one piece"
+    note: "«повернулися цілими»; ідіома, не буквальний «шматок»"
+  - unit: q41
+    src: "knife them in their sleep"
+    note: "дієслівне вживання «knife» — «пирнути ножем», не «ножувати»"
+  - unit: q41
+    src: "or just 'cause they derailed"
+    note: "внутрішньоігровий термін божевілля — потрібне єдине рішення на весь корпус, а не описовий синонім"
+  - unit: q42
+    src: "those poor saps"
+    note: "зневажливо-співчутливе «бідолахи»; «sap» не «дурень» у чистому вигляді"
+  - unit: q57
+    src: "Seventy-five, keep the smile."
+    note: "торг із відбиванням репліки гравця (a56 «fifty and a big smile») — жарт працює лише якщо в обох рядках слово «усмішка» те саме"
+  - unit: q64
+    src: "Come back when you richer, you hear?"
+    note: "«you hear?» — фатичне закінчення фрази, не питання; передавати часткою, не дослівним «чуєш?» щоразу"
+
+pitfalls:
+  - "q3 «I'm Katherine» — самоназва мовця; це єдиний прямий доказ атрибуції, решта вузла без імен"
+  - "a50 і a6 містять звертання «Katherine» — це репліки ГРАВЦЯ до неї, не її слова"
+  - "q48 і q55 — майже дослівні дублікати (різниця лише «He has» / «He got»); перекладати узгоджено, інакше в грі виникне видима неоднаковість"
+  - "q48/q55 містять інструкцію-код домофона «two times quickly, once long and then two times quickly again... Two quick, one long, two quick» — це ігрова механіка; послідовність і повтор мають лишитися однозначними"
+  - "«charons» / «stygian coins» — глосарій: «харон», «стигійська монета»; у a13, a54, a58, a61 фігурують точні суми, числа не чіпати"
+  - "«Underrail» (q8, q48, q55) — лишати латиницею й не відмінювати, глосарій"
+  - "«SGS» (q48, q55) — глосарій: «ССГ»; «Junkyard» (q37) — «Звалище»; «Protectorate» (q42) — «Протекторат»"
+  - "a58 містить друкарську помилку джерела «stygain» — у перекладі має бути правильна форма"
+  - "«cave hopper meat» (q41) — глосарій дає «стрибун»; «Black Eel» (q21) — фракційна назва без канонічного рішення"
+
+examples:
+  - unit: q3
+    rule: "$(#slick/sis) — гендерне звертання, STYLE §2; обидві гілки українською"
+    uk_fragment: "$(#друзяко/сестричко)"
+    status: proposed
+  - unit: q12
+    rule: "випадання g передаємо розмовним усіченням, а не покаліченим словом"
+    uk_fragment: "воно вже не працюватиме так"
+    status: proposed
+  - unit: a5
+    rule: "підказка дії в «::…::» — інфінітив, глосарій"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

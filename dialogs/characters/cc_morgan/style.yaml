@@ -1,0 +1,82 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_morgan
+file_id: dialogs\characters\cc_morgan.txt
+derived_from: source-only
+units: {total: 63, npc: 38, player: 25, empty: 4}
+
+speakers:
+  - slug: morgan
+    name: Семюел Морган
+    units: default
+    confidence: certain
+    evidence: [q45]
+    role: >-
+      Агент з нерухомості Core City Housing Corporation, який передає гравцеві
+      подаровану містом напівзруйновану резиденцію. Увесь вузол — одна ділова
+      зустріч: показ будинку, пояснення, чому руїни, і вручення ключа.
+    relationships:
+      - "Hank Wardell — попередній власник, що висадив будинок; Морган говорить про нього стримано-офіційно і відмовляється розкривати деталі"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Найформальніший тип мовця в грі: службовець при виконанні. Звертається
+        виключно «$(#Mister/Miss) $(context.player.Name)», уникає скорочень,
+        уживає книжні звороти («I bid you farewell», «I presume», «need I go
+        on»). STYLE §3.2 — службові й обслуга на «ви» без варіантів. Гравець
+        дзеркалить (§3.3), навіть коли хамить: грубість передається лексикою,
+        а не переходом на «ти».
+      gender_cues: ["$(#Mister/Miss)", "$(#man/gal)"]
+    voice:
+      register: підкреслено ввічливий діловий; довгі періоди з крапкою з комою
+      idiolect:
+        - "заповнювачі вагання «ehm», «mmm» — єдина тріщина в бездоганній мові; зберігати, не вичищати"
+        - "«Why, yes it is!», «But of course» — старомодні ствердні формули"
+        - "залишається ввічливим і під тиском: на хамство відповідає доганою, а не хамством (q39)"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Hank Wardell", "Core City Housing Corporation"]
+
+idioms:
+  - unit: q5
+    src: "before you jump to conclusions"
+    note: "не «стрибати до висновків»; «робити поспішні висновки»"
+  - unit: q34
+    src: "after a bit of tiding up, your residence will look as good as new"
+    note: "«as good as new» → «як новенька»; не калькувати"
+  - unit: a40
+    src: "Stop being such a smartass"
+    note: "грубість гравця не пом’якшувати (STYLE §9) — «розумник» із чітко зневажливим відтінком"
+  - unit: a38
+    src: "What the bloody hell...?"
+    note: "лайка-вигук; локалізувати, не калькувати «криваве пекло»"
+  - unit: q57
+    src: "how on earth did you manage"
+    note: "«як на землі» — калька; «як вам це взагалі вдалося»"
+
+pitfalls:
+  - "$(context.player.Name) не відмінювати й нічого не дописувати всередину плейсхолдера — у q1, q8, q22, q34, q36, q45, q47, q61"
+  - "$(#Mister/Miss) → $(#пане/пані) у кличному відмінку, бо стоїть перед іменем; велика чи мала літера — за позицією в реченні (STYLE §2)"
+  - "a60 «I'm a clever $(#man/gal)» — гендерний іменник, обидві гілки українською; «gal» розмовніше за «man», відтінок зберегти"
+  - "у самій назві Core City Housing Corporation/Company — латиницею (політика глосарію щодо компаній); саме місто Core City → Центральне Місто"
+  - "q6 «an aging Northerner» — демонім, не ім’я"
+  - "q8, q31, q34, q45 містять «\\n\\n» — розбиття на абзаци зберігати"
+  - "«Faceless» → «Безликі», «zoners» → «зонери», «South Underrail» — Underrail латиницею й без відмінювання"
+
+examples:
+  - unit: q22
+    rule: "$(#Mister/Miss) перед іменем — кличний відмінок (STYLE §2)"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q44
+    rule: "наказовий спосіб успадковує «ви» (STYLE §3.4)"
+    uk_fragment: "Прошу за мною"
+    status: proposed
+  - unit: q63
+    rule: "нарація завжди на «ви», навіть коли поруч репліки на «ви» (STYLE §3.1)"
+    uk_fragment: "::Він мовчить…::"
+    status: proposed

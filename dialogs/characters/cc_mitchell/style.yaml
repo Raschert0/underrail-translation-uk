@@ -1,0 +1,65 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_mitchell
+file_id: dialogs\characters\cc_mitchell.txt
+derived_from: source-only
+units: {total: 13, npc: 13, player: 0, empty: 1}
+
+speakers:
+  - slug: mitchell
+    name: Мітчелл
+    units: default
+    confidence: certain
+    evidence: [q4, q6, q12]
+    role: >-
+      Недалекий говіркий мешканець Центрального Міста, який плутає імена й
+      факти і кожну історію завершує однією й тією самою відмовкою. Комізм
+      вузла тримається на повторі, а не на змісті окремих реплік.
+    address:
+      npc_to_player: ти
+      player_to_npc: —
+      basis: >-
+        Фамільярне панібратство з першого рядка, плутання імен співрозмовника,
+        жарти про пердіння — «ти», STYLE §3.2. Реплік гравця у вузлі немає.
+    voice:
+      register: простакуватий, безтурботний, з постійним хихотінням
+      idiolect:
+        - "смішок «he-he-he» — словесний тик (q2, q4, q6, q12), тримати однаковою формою"
+        - "рамка «I once tried … Never again.» повторюється п’ять разів (q3, q5, q7, q9, q13) і виноситься в окрему репліку q11 — переклад мусить бути дослівно тим самим, інакше повтор як жарт розсиплеться"
+        - "«Yesh?» (q8) — недбала вимова «Yes?», відтворювати спотворенням, а не нормативним «Так?»"
+
+narration:
+  present: false
+
+new_names: ["Osmond", "Angbond", "Motion", "Slow Rain"]
+
+idioms:
+  - unit: q6
+    src: "Fart! Funny word."
+    note: "жарт про саме звучання слова — потрібне українське слово, яке смішне на слух, а не буквальний відповідник"
+  - unit: q7
+    src: "I don't even know what the word \"rain\" means."
+    note: "не жарт, а світобудова: підземні мешканці не бачили дощу; лишити буквальним"
+  - unit: q10
+    src: "She was *fine*!"
+    note: "розмовне «оце краля», не «з нею все гаразд»; зірочки виділення зберегти"
+  - unit: q13
+    src: "a Junkyard surprise"
+    note: "іронічна назва сумнівної страви; Junkyard за глосарієм — «Звалище»"
+
+pitfalls:
+  - "q4 «$(#Peter/Olga)» і «$(#Branislav/Manjula)» — гендерні плейсхолдери з вигаданими іменами, якими Мітчелл навмання називає гравця; імена мусять бути українськими й обидві гілки заповнені, STYLE §2. Пуант — «it all sounds the same anyway», тож пари мають лишатися явно різними іменами"
+  - "«Osmond Knight… or was it Angbond» — Knight → Найт (реєстр); Osmond і Angbond канонічних варіантів не мають, а «Angbond» є навмисним перекручуванням прізвища — спотворення зберегти"
+  - "burrower → копака (глосарій); crossbow — арбалет"
+  - "«Motion» (q9) — власна назва закладу, не рух як явище"
+  - "«Slow Rain» — назва книжки, зберігати як назву"
+
+examples:
+  - unit: q4
+    rule: "$(#…/…) — обидві гілки перекладаємо, STYLE §2"
+    uk_fragment: "$(#Петре/Ольго)"
+    status: proposed
+  - unit: q11
+    rule: "повторювана рамка передається сталою формою"
+    uk_fragment: "Більше ніколи!"
+    status: proposed

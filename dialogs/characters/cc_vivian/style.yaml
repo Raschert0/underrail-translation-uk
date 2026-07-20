@@ -1,0 +1,162 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_vivian
+file_id: dialogs\characters\cc_vivian.txt
+derived_from: source-only
+units: {total: 274, npc: 154, player: 120, empty: 5}
+
+speakers:
+  - slug: vivian
+    name: Вівіан
+    units: default
+    confidence: certain
+    evidence: [q246, q6, q31, q127]
+    role: >-
+      Вівіан Янг — координаторка операцій JKK, вербує гравця в оперативники й
+      супроводжує його на ремонт генератора. Веде розмову як подруга, а не як
+      начальниця: жартує, сміється мало не в кожній репліці й сама себе перебиває.
+    relationships:
+      - "Ола Халідорсон — близький друг і колега; на питання про роман сміється і заперечує (q125)"
+      - "батько — механік у Центральному Місті, посварилися через її роботу в JKK (q129, q131)"
+      - "Гуннар Едстром — власник JKK, вона говорить про нього шанобливо-іронічно (q228, q230)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Попри службове становище тримається підкреслено неофіційно: зве гравця
+        «silly», «girl», кепкує, сама називає атмосферу в JKK неформальною (q153).
+        Формального регістру немає навіть у вербувальній частині.
+      gender_cues:
+        - "$(#friend/girl)"
+        - "$(#my friend/girl)"
+        - "$(#mister/girl)"
+        - "$(#silly/girl)"
+        - "$(#silly/crazy girl)"
+        - "$(#manly man/super girl)"
+        - "$(#man/woman)"
+        - "$(#guy/girl)"
+      switches:
+        - {unit: q147, to: ви, trigger: "офіційне звільнення за роботу на іншу організацію — корпоративна формула, не її звичайний голос"}
+    voice:
+      register: тепла, балакуча, самоіронічна; сміх і жарт як норма, а не виняток
+      idiolect:
+        - "нав’язливе lovely — головний словесний тик, трапляється в десятках реплік; потрібне ОДНЕ українське слово, повторюване так само настирливо, і воно має працювати і як оцінка, і як вигук"
+        - "Drats — її пом’якшена лайка; теж стале, скрізь однакове слово"
+        - "звертається до себе в третій особі на ім’я: «Okay Vivian, let's see», «Good job, Vivian!», «Be serious Vivian!», «Damn it Vivian!», «serious Vivian steps in»"
+        - "dominate / dominates it — улюблене перебільшення про роботу й розваги (q31, q7)"
+        - "обриває себе на півслові й коментує сказане: «Em, I don't think \"lovely\" is the right word here» (q59)"
+    - # (порожній елемент не використовується)
+
+  - slug: ola
+    name: Ола
+    units: [q214, q220]
+    confidence: certain
+    evidence: [q214]
+    role: >-
+      Ола Халідорсон — оперативник JKK, друг Вівіан; знайомиться з гравцем у сцені
+      представлення. Говорить коротко й панібратськи.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "звертається $(#bro/sis) і хвалить словом hardcore — вуличний, свійський регістр"
+      gender_cues: ["$(#bro/sis)", "$(#He's/She's)"]
+    voice:
+      register: невимушений, короткі речення
+      idiolect:
+        - "hardcore як схвалення — те саме слово, що в назві Хардкор Сіті Бар; збіг варто зберегти"
+
+narration:
+  present: true
+  note: >-
+    Дуже щільна: ::She laughs.:: та варіанти повторюються десятками. «Ви» без
+    винятків — STYLE §3.1. Підказки дій гравця (::Nod.::, ::Follow her.::,
+    ::Dust off your hands.::, ::Point at the small piece of metal.::) — інфінітив,
+    STYLE §3.5.
+
+new_names:
+  - Young
+  - Carnifex
+  - Bogdan
+  - Stravohodnik
+  - Slavomir
+  - Rodger
+  - Mr. Tin
+  - Gauntlet
+  - Armadillo
+  - Beast
+
+idioms:
+  - unit: q25
+    src: "I fix this pipewor-- Whoops! Pardon the language."
+    note: >-
+      Самоцензура: вона обриває слово pipeworker (глосарій — «труболаз»), бо це
+      лайливе прізвисько. Потрібен український обрив на тому ж корені, щоб
+      вибачення за лайку мало сенс.
+  - unit: q82
+    src: "The violenter - the better... I don't think \"violenter\" is a real word"
+    note: >-
+      Свідомо неправильний ступінь порівняння, який вона одразу помічає. Треба
+      українська так само неможлива форма, а не гладке «що жорстокіше».
+  - unit: q129
+    src: "he's not young anymore. Get it? Cause our last name is Young"
+    note: >-
+      Каламбур на прізвищі Young. Прізвище — у new_names; жарт неперекладний
+      дослівно, потрібна заміна з опорою на обране прізвище, інакше репліка
+      «Never mind» повисає.
+  - unit: q224
+    src: "until he got derailed"
+    note: >-
+      derailed — «зійшов з глузду» через залізничну метафору, суголосну назві
+      Underrail. Не калькувати; те саме слово вживає гравець у a204.
+  - unit: q200
+    src: "someone that's missing a few screws"
+    note: "локалізувати сталим українським зворотом, не калькувати «бракує кількох гвинтиків»"
+  - unit: q217
+    src: "don't be such a fuddy-duddy"
+    note: "розмовне «зануда»; регістр легкий, без книжності"
+  - unit: q194
+    src: "going in guns blazing"
+    note: "ідіома про напролом зі стріляниною — локалізувати"
+  - unit: q236
+    src: "if ya catch my drift"
+    note: "стягнене ya — розмовність, яку варто відтворити, а не вирівняти"
+  - unit: q25
+    src: "watch as he becomes a red pancake. Mmm, pancakes..."
+    note: >-
+      Ланцюг тримається на одному слові: «млинець» у порівнянні має повторитися
+      у зітханні про їжу, інакше жарт розпадається.
+  - unit: q72
+    src: "I'd have been one dead Vivian"
+    note: "жарт із власним ім’ям замість займенника — зберегти конструкцію"
+  - unit: q243
+    src: "Ola, oh you bald prince"
+    note: "глузливо-ніжне звертання до друга; не пом’якшувати «лисого»"
+
+pitfalls:
+  - "$(context.player.Name) трапляється дуже часто (q1, q7, q80, q88, q137, q146, q153, q185, q211, q213, q215, q241, q248, a247, a272) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному"
+  - "q155 і q156 — одне речення, розрізане межею юніта: q155 закінчується «everything but the ::», q156 починається «::cap, which she puts on your head.::». Те саме з q243/q244 («::large shades…»). Порядок слів не можна вільно переставляти між юнітами"
+  - "q174 «come on, girl!», q244 «Looking hardcore, girl», q273 «my girl» — тут girl без плейсхолдера: це гілка для гравчині або вже розкритий вибір, а не звертання до третьої особи"
+  - "q131 і q133 — майже дублікати з друкарською помилкою в джерелі («He disproves of what my career choice»); перекладати однаково, помилку не відтворювати"
+  - "q31, q104, q106, q107 — чотири варіанти того самого монологу (різниться лише «toilet cleaner»/«mechanic»); q127 і q166, q6 і q9, q7 і q11 теж дублюються. Розбіжність формулювань між ними читатиметься як помилка"
+  - "trim / trims (q29, q243) — вуличні монітори JKK, ігровий предмет, а не прикметник; глосарій рішення не має"
+  - "Oligarch (q230, q250) — титул у світі гри, з великої; не плутати з побутовим «олігарх»"
+  - "q273 і q274 — вітальні репліки без контексту. Приписані Вівіан за збігом із її гілкою $(#friend/girl); Ола в цьому вузлі вітається інакше ($(#bro/sis)). На регістр це не впливає — обидва на «ти»"
+  - "«I'm tired, I'm dirty and I'm tired» (q7, q11, q18) — повтор «tired» навмисний, це втома, а не недогляд редактора"
+
+examples:
+  - unit: q1
+    rule: "$(#friend/girl) — гендерне звертання, STYLE §2: обидві гілки українською"
+    uk_fragment: "$(#друже/подруго)"
+    status: proposed
+  - unit: q26
+    rule: "наказовий спосіб успадковує «ти» — STYLE §3.4"
+    uk_fragment: "Починай!"
+    status: proposed
+  - unit: a13
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути.::"
+    status: proposed
+  - unit: q6
+    rule: "звертання до себе на ім’я — ім’я в кличному відмінку, STYLE §6"
+    uk_fragment: "Так, Вівіан, погляньмо…"
+    status: proposed

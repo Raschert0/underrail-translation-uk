@@ -1,0 +1,59 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/up_what
+file_id: dialogs\characters\up_what.txt
+derived_from: source-only
+units: {total: 17, npc: 7, player: 10, empty: 0}
+
+speakers:
+  - slug: deaf_old_man
+    name: глухий старий
+    units: default
+    confidence: probable
+    evidence: [q1, q3, q5]
+    role: >-
+      Брудний старий, який на будь-яке питання горлає лише «WHAT!?». Персонаж
+      без реплік у власному значенні слова — уся сцена побудована на тому, що
+      комунікації не відбувається.
+    address:
+      npc_to_player: не встановлено
+      player_to_npc: ви
+      basis: >-
+        NPC не вимовляє жодного речення, тож його регістру з тексту не вивести —
+        єдиний рядок «WHAT!?» безособовий. Регістр гравця визначається окремо:
+        звертання до незнайомого старого починається чемно (a2, a14 «Um... are
+        you okay?»), тож базове — «ви»; образи в a10 і a12 — емоційний зрив,
+        який базового регістру не змінює (STYLE §3.3).
+      gender_cues: []
+    voice:
+      register: не мовлення, а крик — одна незмінна репліка
+      idiolect:
+        - "єдина репліка «WHAT!?» у капслоку зі знаком оклику й питання — форма мусить бути однакова в усіх шести юнітах"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; портретна вставка q1 і ремарки ::He yells loudly.::"
+
+new_names: []
+
+idioms:
+  - unit: a10
+    src: "you derailed idiot"
+    note: >-
+      гра на «Underrail»/«derailed» — «схиблений», «зі зсунутим дахом»;
+      калька «зійшов з рейок» не читається як образа
+  - unit: q1
+    src: "a wicked stare akin to a serpent’s"
+    note: "книжне порівняння в нарації — зберегти високий регістр опису"
+
+pitfalls:
+  - "a2 і a4 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "«WHAT!?» у q3, q5, q7, q9, q15, q17 — рядок мусить бути ідентичний у всіх шести, інакше зникає комічний ефект повтору"
+  - "q3 і q15 мають ремарку ::He yells loudly.::, решта — ні; різницю зберігати"
+  - "a12 «Mentally retarded?» — груба лексика оригіналу, STYLE §9: не пом’якшувати"
+
+examples:
+  - unit: q3
+    rule: "сталий повтор, STYLE §9"
+    uk_fragment: "ЩО!?"
+    status: proposed

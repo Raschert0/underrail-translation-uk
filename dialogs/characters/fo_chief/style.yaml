@@ -1,0 +1,106 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_chief
+file_id: dialogs\characters\fo_chief.txt
+derived_from: source-only
+units: {total: 160, npc: 91, player: 69, empty: 9}
+
+speakers:
+  - slug: fo_chief
+    name: шеф
+    units: default
+    confidence: certain
+    evidence: [q34, q116, q44]
+    role: >-
+      Начальник Foundry Guard і, після смерті судді Тейлора, ще й розпорядник усіх
+      кримінальних справ Ливарні. Говорить як службовець при владі: зважено,
+      повними реченнями, і саме тому кожен його зрив (q17, q101) читається різко.
+    relationships:
+      - "Евелін Інграм — удова попереднього шефа Foundry Guard; шеф відмовляється вірити звинуваченням проти неї, доки не побачить доказів (q126)"
+      - "мер Ливарні — формально вищий за нього; шеф підкоряється його наказам навіть проти власного бажання (q97)"
+      - "Балор — ватажок клану Ironheads, за чию голову шеф призначив винагороду"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні: майже без скорочень («I am aware»,
+        «I would like you to be serious now», «if you’d excuse me»), звертається
+        до гравця на ім’я через $(context.player.Name), а не прізвиськом.
+        STYLE §3.2 — формальний, службовий, отже «ви»; він тримає цей регістр
+        навіть тоді, коли гнівається, тож зривів на «ти» тут немає. Репліки
+        гравця дзеркалять (§3.3) — і грубі теж (a100, a120, a125): їхня зухвалість
+        передається лексикою, а не переходом на «ти».
+      gender_cues: ["$(#man/woman)"]
+    voice:
+      register: стриманий офіціоз, мова рапорту
+      idiolect:
+        - "формули розпорядження: «I'll order my men», «I'll send a few men», «I'll dispatch him» — однотипні навмисне, зберегти їхню одноманітність"
+        - "оцінка через применшення: «not a bad indicator», «I am expecting a favorable outcome»"
+        - "коли схвалює — коротко й сухо: «Pure gold.», «You earned this. Well done.»"
+        - "коли обриває розмову — безособово й остаточно: «We're not discussing this any further.», «That is the current situation.»"
+        - "поодинокі внутрішньоігрові лайки на тлі офіціозу («Muck!», q17) — саме контраст робить їх сильними, не згладжувати"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. q1 — чиста нарація без мовця (сцена до початку
+    розмови), решта вкраплена в репліки шефа.
+
+new_names: ["Bolivar Daud", "Sallywatch", "Micas", "Taylor", "Balor", "Ingram", "Stevenson", "Warehouse Block Beta"]
+
+idioms:
+  - unit: q137
+    src: "I never broke my pick"
+    note: >-
+      Внутрішньоігрова ідіома «break one’s pick» = здатися, опустити руки.
+      Наскрізна для Ливарні (є й у fo_bernard, і в fo_bryan_honest) — переклад
+      має бути ОДНАКОВИЙ у всіх трьох вузлах.
+  - unit: q70
+    src: "A boss, to use a colloquial expression."
+    note: >-
+      «boss» — внутрішньоігровий сленг на позначення визначної, грізної людини,
+      а не начальника. Шеф сам позначає слово як просторічне, тож у перекладі має
+      відчуватися, що він цитує чужу мову. Те саме вживання є в fo_bryan_honest (q21).
+  - unit: q138
+    src: "they'll find themselves in a world of hurt"
+    note: "локалізувати як погрозу, не калькувати «світ болю»"
+  - unit: q71
+    src: "he has some of the best security in South Underrail"
+    note: "Underrail лишається латиницею й не відмінюється (глосарій): «у Південній Underrail»"
+  - unit: q17
+    src: "Muck!"
+    note: "внутрішньоігрова лайка світу; лишати як стале слово, не заміняти звичайним прокльоном"
+  - unit: a43
+    src: "Some, like, dude or chick who ain't Todor shot Bolivar"
+    note: >-
+      Навмисне дурне блазнювання гравця — єдиний рядок такого регістру у вузлі,
+      і саме на нього шеф реагує роздратовано (q44). Розв’язність обов’язково
+      має вціліти, інакше відповідь шефа втрачає причину.
+  - unit: q101
+    src: "::He stares at you, and responds after a few seconds.::"
+    note: "пауза як засіб — ремарку не скорочувати, вона несе весь холод відповіді"
+
+pitfalls:
+  - "Ключові терміни мають глосарні відповідники: Faceless → Безликі, Ironheads → Залізноголові, Foundry → Ливарня, Institute of Tchort → Інститут Тчорта, Tchort → Тчорт, stygian coins → стигійські монети, charons → харони, rathound → щурчак"
+  - "«Foundry Guard» лишається латиницею (глосарій) — на відміну від міста Foundry → «Ливарня». У межах вузла обидва трапляються поруч (q97, q134), не уніфікувати"
+  - "q103, q104, q71, q80 — Underrail не перекладати й не відмінювати: «Нижня Underrail», «Верхня Underrail», «Південна Underrail»"
+  - "$(context.player.Name) у q15, q26, q47, q52, q95, q152 — не відмінювати всередині плейсхолдера; будувати речення під називний"
+  - "q31 «Isn't that the man who killed Bolivar Daud? Accused of killing.» — шеф навмисно виправляє сам себе на юридично точне формулювання; самовиправлення зберегти, це характеристика персонажа"
+  - "q111 «receptive aphasia» — реальний медичний термін (рецептивна афазія), а не вигадка світу; шеф вимовляє його з запинкою, бо чує вперше"
+  - "q60, q61 — емфаза зірочками (*one* *thousand*) розставлена по словах; зберігати позицію наголосу, а не переносити на зручніше слово"
+  - "У джерелі є друкарські помилки («acomplish» q99, «cames» q104, брак пробілу «Upper Underrail.The term» q103) — не відтворювати їх"
+  - "q2, q3, q4 — юридичне формулювання справи (відсутність доказів, звільнення); термінологія має лишатися послідовною в межах усієї лінії Тодора"
+
+examples:
+  - unit: q152
+    rule: "$(#man/woman) — гендерна вилка про гравця; гілки ставляться у відмінку, якого вимагає фраза, STYLE §2"
+    uk_fragment: "$(#чоловіком/жінкою)"
+    status: proposed
+  - unit: a91
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Пояснити"
+    status: proposed
+  - unit: a119
+    rule: "односкладна підказка дії — теж інфінітив"
+    uk_fragment: "::Чекати.::"
+    status: proposed

@@ -1,0 +1,78 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_octavia
+file_id: dialogs\characters\tch_octavia.txt
+derived_from: source-only
+units: {total: 83, npc: 43, player: 40, empty: 1}
+
+speakers:
+  - slug: octavia
+    name: Октавія
+    units: default
+    confidence: certain
+    evidence: [q2, q82]
+    role: >-
+      Слідча Октавія — хімікиня Інституту Тчорта, відповідає за склад реактивів
+      і робить аналізи на замовлення. Говорить як фахова колега, але постійно
+      зривається на сміх, згадуючи п’яну витівку гравця.
+    relationships:
+      - "Георгіс — головний слідчий її відділу, її безпосередній керівник (q67, q70)"
+      - "Гравець — новоприбулий одновірець, якого вона бачить уперше (q2)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа в установі, до того ж торгує реактивами — STYLE §3.2
+        відносить формальних і обслугу до «ви». Знайомляться щойно: «I don’t
+        think we’ve met before» (q2). Сектантське «брате/сестро» тут не знак
+        близькості, а обов’язкова форма звертання тчортистів і з «ви»
+        не конфліктує.
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: доброзичлива, фахова, з нападами нестримного сміху
+      idiolect:
+        - "нерішучі вставки в момент ніяковіння: «um», «em» — відтворювати як «ем», «е-е», не викидати"
+        - "лайка-присяга «Magnificent Tchort!» — сталий вигук культу, тримати однаково в усьому корпусі"
+        - "ритуальні формули «Tchort is evolution», «Tchort guide you» — не варіювати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; підказки дій у «::…::» — інфінітив (§3.5), пор. a9 «::Barter.::»"
+
+new_names:
+  - Episkopos
+  - Praepostor
+  - Principal Investigator
+  - Investigation
+  - bastardane
+
+idioms:
+  - unit: q22
+    src: "staring at me like a confused cat"
+    note: "живе порівняння, не калька; шукати природний український відповідник"
+  - unit: q45
+    src: "a substance called bastardane"
+    note: >-
+      жарт тримається на співзвучності з «bastard». Транслітерація вб’є жарт —
+      потрібне рішення централізовано, тому назва в new_names
+  - unit: a15
+    src: "alcoholic beverage quality control tests"
+    note: "канцелярський евфемізм для пиятики; зберегти саме бюрократичну пишність"
+
+pitfalls:
+  - "q54+q55, q57+q58, q61 — одне речення розрізане на кілька юнітів і склеюється в грі; будувати порядок слів так, щоб склейка лишалася граматичною"
+  - "q7 і q45 містять \\n\\n усередині рядка — розрив абзацу, зберігати"
+  - "a3 і a80 містять $(context.player.Name) — не відмінювати всередині плейсхолдера, перебудовувати фразу"
+  - "q1 «They... they are here!» — бойовий вигук, не частина розмови; регістр окличний, а не салонний"
+  - "a77 «Tchort guide you, sister.» — тут «sister» без плейсхолдера, бо адресат жінка (Октавія); це не гендер гравця"
+  - "«PI» (q71, q72) — абревіатура, яку персонаж тут же розшифровує; український відповідник має так само розшифровуватися"
+
+examples:
+  - unit: q4
+    rule: "$(#brother/sister) — гендерне звертання до гравця, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: a9
+    rule: "підказка дії в «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed

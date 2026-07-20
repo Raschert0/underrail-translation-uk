@@ -1,0 +1,67 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/xphw/spanner
+file_id: dialogs\characters\xphw\spanner.txt
+derived_from: source-only
+units: {total: 13, npc: 13, player: 0, empty: 2}
+
+speakers:
+  - slug: spanner
+    name: Спаннер
+    units: default
+    confidence: certain
+    evidence: [q2, q7]
+    role: >-
+      Технік, що перед відправленням шукає причину вибивання автоматів у
+      потязі. Половина реплік — бурмотіння самому собі, тому вони звучать
+      як обірвана думка, а не як звертання.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        $(#guy/gal) у q3 — неформальне звертання до гравця (не $(#sir/ma'am)),
+        плюс розмовне «okay» наприкінці фраз і «do tell me, okay?». Робітник,
+        а не обслуга: STYLE §3.2 дає «ти».
+      gender_cues: ["$(#guy/gal)"]
+    voice:
+      register: розсіяний, технічний, розмовний
+      idiolect:
+        - "нав’язливе кінцеве «okay» — словесний тик, зберігати як тик, не як питання"
+        - "затинання на початку фрази «Uh,» — повторюваний маркер вагання"
+        - "«a wee bit» — діалектне применшення, не нейтральне «трохи»"
+        - "самозаперечувальний повтор «No, no, no, no» — довжину ряду зберігати"
+
+narration:
+  present: true
+  note: >-
+    ::To himself.:: (q2, q4, q6, q7) — маркер бурмотіння, а не звертання;
+    сама нарація — «ви», STYLE §3.1.
+
+new_names: []
+
+idioms:
+  - unit: q6
+    src: "I'll eat my multimeter otherwise, one resistor at a time."
+    note: "варіація на «I'll eat my hat» — жарт-божба; зберегти жарт, не калькувати англійський шаблон"
+  - unit: q4
+    src: "Everything seems a-okay."
+    note: "розмовне «повний порядок»; не буквалізувати"
+  - unit: q11
+    src: "Gotta do one final check-up before we go"
+    note: "технічний огляд, не медичний"
+
+pitfalls:
+  - "q3 містить $(#guy/gal) — обидві гілки перекладати українськими формами; латиниці всередині $(#…) не лишати (tools/check-uk.ps1)."
+  - "«breakers» (q4) — автоматичні вимикачі, не «гальма» і не «руйнівники»."
+  - "«multimeter», «resistor» — фахова електротехніка; терміни точні, не описові."
+  - "q12 ::He glances at you.:: усередині репліки — три крапки навколо вставки належать репліці, не нарації."
+
+examples:
+  - unit: q3
+    rule: "$(#guy/gal) — гендерне звертання, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#допитливий/допитлива)"
+    status: proposed
+  - unit: q11
+    rule: "«ти» як базовий регістр робітника, STYLE §3.2"
+    uk_fragment: "я зараз трохи зайнятий"
+    status: proposed

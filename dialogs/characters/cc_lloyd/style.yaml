@@ -1,0 +1,81 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_lloyd
+file_id: dialogs\characters\cc_lloyd.txt
+derived_from: source-only
+units: {total: 53, npc: 29, player: 24, empty: 1}
+
+speakers:
+  - slug: lloyd
+    name: вартовий на посту
+    units: default
+    confidence: probable
+    evidence: [q2, q37, q45]
+    role: >-
+      Вартовий-солдат, що не пускає гравця до службової будівлі й перевіряє
+      перепустку. Увесь вузол — одна сцена біля дверей: або гравця викривають,
+      або він видає себе за свого. Ім’я в тексті жодного разу не звучить,
+      мовець установлений за текою й за нарацією «The soldier…» у q2, q33.
+    relationships:
+      - "Bob — власник украденої перепустки, товариш вартового; саме за нього мовець приймає гравця (q22)"
+      - "Captain Wilkins — його безпосередній командир (q47)"
+      - "Colonel Cathcart — офіцер, на якого гравець марно посилається (a42, q43)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні; тричі вживає $(#sir/ma'am) (q1, q45, q51)
+        і формулу «Move along, citizen» — сильний сигнал на «ви», STYLE §3.2.
+      gender_cues: ["$(#sir/ma'am)", "$(#Sir/Ma'am)"]
+      switches:
+        - {unit: q8, to: ти, trigger: "викриття — переходить на команду й лайку «zoner»"}
+        - {unit: q19, to: ти, trigger: "відверта зневага: «You're one dumb zoner, aren't you?»"}
+        - {unit: q22, to: ти, trigger: "приймає гравця за товариша Боба — панібратське «man», службова дистанція зникає (q22–q26)"}
+        - {unit: q36, to: ти, trigger: "«Alright, buster, the jig is up» — зброя піднята, ввічливість скінчилася"}
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут це q2, q6, q25, q27, q33, q36, q51"
+
+new_names: ["Lloyd", "Bob", "Wilkins", "Kate Johnson", "Tina Miller",
+            "Doris Davis", "Mary Scott", "Fort Apogee"]
+
+idioms:
+  - unit: q2
+    src: "quirks an eyebrow"
+    note: "жест недовіри; природний український відповідник, не калька"
+  - unit: q6
+    src: "Nice try, but no one by that name works here"
+    note: "«Nice try» — саркастична формула відмови, не похвала"
+  - unit: q34
+    src: "Can't quite put my finger on it"
+    note: "не калькувати палець; ідіома про невловиму відмінність"
+  - unit: q36
+    src: "the jig is up"
+    note: "ідіома викриття; локалізувати, а не перекладати буквально"
+  - unit: q36
+    src: "buster"
+    note: "зневажливе звертання до чоловіка; тут воно суперечить гендерній нейтральності сцени — узгодити з рештою реплік"
+
+pitfalls:
+  - "$(context.player.Name) в a5, a7, a40 — не відмінювати всередині плейсхолдера; перебудувати фразу під називний"
+  - "q45 містить дві різні гілки — $(#sir/ma'am) з малої та $(#Sir/Ma'am) з великої; регістр літери відтворити точно, STYLE §2"
+  - "zoner (q8, q19) — глосарій: «зонер», лишається запозиченням і лишається образою"
+  - "q45 навмисно розбите крапками «I... cannot... let... you... in» — паузи зберегти, слова не злити"
+  - "a10–a13 і a18 — жіночі імена, які гравець називає замість «Bob»; жарт тримається на тому, що вони жіночі, а перепустка чоловіча"
+  - "q1 і q37/q53 — різні формули відмови (ввічлива й безособово-статутна); не зводити до однієї"
+  - "«Corporal», «Colonel», «Captain» — звання з малої, за зразком реєстру (шеф, мер, куратор)"
+
+examples:
+  - unit: q1
+    rule: "$(#sir/ma'am) — службове гендерне звертання, регістр «ви», STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q37
+    rule: "наказовий спосіб успадковує «ви» — STYLE §3.4"
+    uk_fragment: "Проходьте, громадянине"
+    status: proposed
+  - unit: a9
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Чинити опір арешту.::"
+    status: proposed

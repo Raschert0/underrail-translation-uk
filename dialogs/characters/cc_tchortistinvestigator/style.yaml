@@ -1,0 +1,86 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_tchortistinvestigator
+file_id: dialogs\characters\cc_tchortistinvestigator.txt
+derived_from: source-only
+units: {total: 28, npc: 13, player: 15, empty: 2}
+
+speakers:
+  - slug: tchortist_investigator
+    name: тчортистський розвідник
+    units: default
+    confidence: certain
+    evidence: [q4, q6]
+    role: >-
+      Агент Інституту Тчорта, спійманий за зламом електронного замка в
+      Центральному Місті. Викручується не запереченням, а гладенькою погрозою
+      через службову субординацію співрозмовника.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Обидва тримають підкреслено службову дистанцію: гравець виступає як
+        Praetorian Enforcer і чотири рази каже «sir» (a3, a7, a11, a16), NPC
+        відповідає повними формами й формулою «I hope we understand each other»
+        (q6) — STYLE §3.2, формальні мовці.
+      gender_cues: []
+    voice:
+      register: гладенький, підкреслено чемний, з погрозою під ввічливістю
+      idiolect:
+        - "усмішка як зброя — тричі відзначена в нарації (q4, q6, q12)"
+        - "пом’якшувальні вставки: «merely», «mmm», «injudicious», «Would you kindly»"
+        - "обмовка «Look, efreit--» (q6) — виказує зневагу, яку він одразу маскує"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q25]
+    confidence: unknown
+    reason: >-
+      «Stay away, inbred!» різко суперечить ввічливому, безлайливому мовленню
+      розвідника в усіх інших q-рядках. Це або окремий вуличний NPC, або
+      бойовий барк іншого персонажа; у файлі немає жодної позначки.
+    guidance: >-
+      Перекладати грубо й коротко, без пом’якшення (STYLE §9), нейтральною
+      побудовою без гендерованого минулого часу.
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут q1, q2, q8, q19, q22, q27, q28"
+
+unattributed_units: [q25]
+
+new_names: ["Praetorian Enforcer", "Praetorian Senior Enforcer", "haxxor", "efreit"]
+
+idioms:
+  - unit: q6
+    src: "Look, efreit-- Eh, enforcer."
+    note: >-
+      Обмовка: він мало не вжив внутрішньоігрову зневажливу назву, тоді
+      виправився на службову. Українська пара має звучати як обірване слово,
+      що починається схоже на офіційну назву, — інакше сенс обмовки зникає.
+  - unit: q6
+    src: "one of great diplomatic and educational importance"
+    note: "канцелярський штамп — відтворювати штампом, а не гладкою прозою"
+  - unit: a10
+    src: "Tell that to the judge, crook."
+    note: "поліцейська стала формула; локалізувати як формулу"
+
+pitfalls:
+  - >-
+    a3 і a17 — той самий рядок із різним званням (Enforcer / Senior Enforcer).
+    Переклад має відрізнятися лише званням, решта слово в слово однакова.
+  - >-
+    «haxxor» — внутрішньоігровий пристрій-жаргонізм; за прикладом «zoner» у
+    глосарії тяжіє до запозичення, але рішення централізоване — див. new_names.
+  - >-
+    Praetorian Security за глосарієм лишається латиницею; чи поширюється це на
+    звання «Praetorian Enforcer» — окреме рішення, не вигадувати на місці.
+  - >-
+    a13 і a23 поєднують репліку з бойовою міткою ::Attack!:: — мітка це підказка
+    дії, отже інфінітив, STYLE §3.5.
+
+examples:
+  - unit: a9
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed

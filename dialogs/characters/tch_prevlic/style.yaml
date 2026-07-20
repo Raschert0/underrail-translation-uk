@@ -1,0 +1,77 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_prevlic
+file_id: dialogs\characters\tch_prevlic.txt
+derived_from: source-only
+units: {total: 30, npc: 17, player: 13, empty: 1}
+
+speakers:
+  - slug: prevlic
+    name: Превлич
+    units: default
+    confidence: certain
+    evidence: [q3, q9]
+    role: >-
+      Рясофор-крамар із паралізованою рукою після нападу Безликих. Травмований,
+      затинається, зривається в паніку від самої згадки про напади.
+    relationships:
+      - "Ставрос — «Його Високоповажність, гармост», згадує з підкресленою пошаною"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Побратим по культу, звертання $(#brother/sister) і церемонне
+        «Tchort guide you» — ввічливий регістр за STYLE §3.2. Паніка в q17
+        і q21 регістру не змінює: це зрив емоції, а не перехід на «ти» (§3.3).
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: тихий, тривожний, з постійними затинками
+      idiolect:
+        - "заповнювач «em» усередині фрази — його головна прикмета: q13, q16, q17, q22; відтворювати українським «е-е», не вирізати"
+        - "потроєння від паніки: «No, no, no», «They'll come back... they'll come back»"
+        - "обриви на півслові з трикрапкою — q13, q16, q24"
+        - "самозаспокійливий повтор «Calm down... calm down...» у q22"
+        - "зірочки як наголос: «*do* survive» — зберігати"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Ремарки q3, q5, q9, q16, q19, q20, q24
+    несуть майже всю фізичну характеристику персонажа.
+
+new_names: ["Cytosine Outpost", "Azarias"]
+
+idioms:
+  - unit: q17
+    src: "They'll cull us"
+    note: "«винищать / переб’ють», не «відбракують»; грубість зберегти (STYLE §9)"
+  - unit: q17
+    src: "let alone move it"
+    note: "усталене «не те що поворухнути», не калька"
+  - unit: q19
+    src: "snaps out of it"
+    note: "«отямлюється», не про клацання"
+  - unit: q22
+    src: "just before losing it completely"
+    note: "«за мить до того, як остаточно зірватися»; «losing it» — про розум"
+  - unit: a26
+    src: "See ya."
+    note: "навмисно недбале прощання гравця — контраст із церемонністю NPC, зберегти зниження"
+
+pitfalls:
+  - "Prevlic → Превлич (реєстр, сербське -ić → -ич); Stavros → Ставрос (реєстр); Faceless → Безликі, Tchort → Тчорт (глосарій)"
+  - "терміни культу — rassophore, Harmost, «Tchort is evolution», «Tchort guide you» — узгодити з tch_curator, tch_theresa, tch_vladan; сан з малої перед іменем"
+  - "«brachial plexus» у q16 — точний анатомічний термін «плечове сплетення», персонаж свідомо вживає медичну лексику"
+  - "у a6 і a11 підказка ::Barter.:: → інфінітив за STYLE §3.5"
+  - "у a18 підказка ::[Persuade]:: → ::[Переконати]:: (глосарій)"
+  - "a7 і a27 — ідентичний рядок «Tchort guide you, brother.»; переклад має збігатися"
+
+examples:
+  - unit: q9
+    rule: "STYLE §2 — гендерне звертання в обох гілках, кличний відмінок"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q13
+    rule: "затинки-заповнювачі відтворюються, а не прибираються (STYLE §9)"
+    uk_fragment: "е-е"
+    status: proposed

@@ -1,0 +1,139 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/forger
+file_id: dialogs\characters\forger.txt
+derived_from: source-only
+units: {total: 1156, npc: 516, player: 640, empty: 39}
+
+speakers:
+  - slug: phreak
+    name: мовця встановлено, канонічного імені ще немає — див. new_names
+    units: default
+    confidence: certain
+    evidence: ["q163", "q127", "q859", "q181"]
+    role: >-
+      Старий хакер-фрікер, що живе у смердючій комірці над допоміжною
+      електромережею Центрального Міста й ламає її заради доступу до чужих систем;
+      наймає гравця за принципом «crunch for a crunch». Уся його мова — суцільний
+      технічно-вуличний жаргон, тому вибір відповідників для кількох ключових слів
+      визначає звучання всього вузла.
+    relationships:
+      - "Acid Hunters — колишні партнери, тепер вигнали його зі схованки в каналізації; їхній ватажок — Cornell → Корнелл (registry)"
+      - "Ironheads → Залізноголові (glossary) — їхні телефони він прослуховував; вважає їх «derailed pieces of muck»"
+      - "Protectorate → Протекторат (glossary) — він зве їх «trash cans»; саме з них почалося його прізвисько (q862)"
+      - "Oligarchs — «fat rats», найвищий рівень ворожості, але без прямого конфлікту"
+      - "гравець — партнер по «крунчу», якого він постійно зве «kid»"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний, зневажливо-панібратський персонаж: зве гравця «kid» (q267, q454,
+        q828, q989), «zoner» (q123, q701), «worm» (q121), гонить «Drop the hell out!»
+        (q291, q444) і вживає гендерне звертання $(#jack/sis) — за STYLE §3.2 це
+        однозначно «ти». Гравець дзеркалить: сам зве його «old man» (a290, a445,
+        a609, a711), тож і його базовий регістр — «ти», навіть у ввічливих гілках.
+      gender_cues: ["$(#jack/sis)", "$(#himself/herself)"]
+    voice:
+      register: >-
+        хрипкий, буркотливий, агресивно-глузливий; старий, що говорить майже
+        винятково метафорами зі світу електрики, залізниці й куховарства
+      idiolect:
+        - "«crunch» — його універсальне слово на позначення роботи, злому, справи й угоди; вжите і як іменник, і як дієслово, і у формулі «a crunch for a crunch» (q490, q643, q812). Потрібен ОДИН український сленгізм, що витримає всі ці ролі; q857 прямо пояснює походження терміна, тож слово має бути мотивованим"
+        - "«gizmo» — так само універсальне слово на позначення речі, пристрою, проблеми і навіть людини (q156 «a bunch of gizmos calling themselves…», q674 «the last *gizmo* you’ll ever see»). Один відповідник на весь вузол, інакше зникне мовний відбиток"
+        - "«buzz» — дзвонити телефоном, гудіти, а також «How does that buzz?» у значенні «як тобі таке» (q361, q380). Бажано зберегти те саме дієслово в обох значеннях"
+        - "«metal eyes» — камери спостереження (q192, q282, q298, q812, q947)"
+        - "«fat rats» — олігархи й міська верхівка (q584, q719, q769, q1006, q1144)"
+        - "«heat» — переслідування, «хвіст» (q12, q207, q275, q395, q981)"
+        - "«derailed» — божевільний; залізнична метафора, суголосна назві світу (q177, q488, q535, q611, q672)"
+        - "«gig» — справа, оборудка; вужче за «crunch», не змішувати їх в одне слово"
+        - "«hardcore» — його вигук схвалення (q154, q681, q811); лишається запозиченням, як і «zoner» → зонер"
+        - "«Twas» замість «It was» (q169, q868, q876) — архаїчне стягнення, маркер віку; варто передати старомовним відтінком"
+        - "«drop off» / «buzz off» / «drop the hell out» — його формули вигнання; мають бути грубими, не пом’якшувати (STYLE §9)"
+
+narration:
+  present: true
+  note: >-
+    Дуже великий обсяг нарації, зокрема повністю нараційні бойові юніти q96–q119,
+    де розповідач звертається до гравця в другій особі. Усюди «ви» без винятків —
+    STYLE §3.1, — навіть у тих юнітах, де сам Phreak поруч каже «ти».
+
+new_names: ["Phreak", "Freak", "Forger", "Terry Baker", "Jon the Beautiful", "Acid Hunters", "Orange Box", "Huxkey", "CACS", "Fort Apogee", "Polemos", "Gauntlet", "Warehouse Block Beta", "Core Chips", "Oligarchy"]
+
+idioms:
+  - unit: q141
+    src: "I'll keep it coin-hundred with you"
+    note: >-
+      Його власна ідіома замість «keep it 100»; варіанти coin-fifty (q335) і
+      coin-twenty (q449) — це ті самі «сто відсотків відвертості» з різним градусом.
+      Не калькувати монетами: q338 і q451 прямо розшифровують її як швидкість на
+      спідометрі («like riding hundred and fifty», «going over hundred and twenty
+      on the turns»), тож український відповідник має тримати саме цей образ швидкості
+      в усіх чотирьох юнітах разом.
+  - unit: q499
+    src: "I'm looking for a hammer. The bigger the head, the better we'll get the nails bashed."
+    note: >-
+      Зав’язка каламбуру: гравець відповідає «I've got a jackhammer» (a503), а той
+      підхоплює «the jack part will» (q504). Гру слів треба перебудувати на
+      українському інструменті, інакше q504 розсиплеться.
+  - unit: q267
+    src: "Can't let a cigarette butt into a gas tank, kid."
+    note: "розмовна засторога, не калькувати дослівно"
+  - unit: q302
+    src: "Can't teach an old dog new tricks"
+    note: >-
+      усталений вислів; повертається в q1047 («An old dog can learn only so many
+      tricks») — обидва юніти мають лишитися впізнаваною парою
+  - unit: q347
+    src: "Have you fallen of a ledge straight into the Drop Zone in your youth?"
+    note: "образа через топонім Drop Zone → Зона Скидання (глосарій); зберегти саме топонім, а не загальне «звалище»"
+  - unit: q719
+    src: "I'd rather become an ancient rat if that means I don't need to kneel down before a *fat* one"
+    note: "протиставлення «старий щур / жирний щур» тримає всю систему його зневаги до олігархів — не згладжувати"
+  - unit: q693
+    src: "A cliff-side rolling boulder gathers momentum along its way"
+    note: "розгорнута притча-відповідь на хвальбу гравця; лишити притчею, не скорочувати"
+  - unit: q939
+    src: "You go: \"*Cac, cac , cac!*\""
+    note: >-
+      звуконаслідування прив’язане до абревіатури CACS, яку він розшифровує в q957
+      (Contact-Activated Capacitative Sheet); звук і абревіатура мають збігтися
+      в українському варіанті
+  - unit: q862
+    src: "some saying that they've had enough of listening to this - Freak"
+    note: >-
+      Походження прізвиська: Freak → Phreak, плюс похідне дієслово «freaking»
+      (q863). Український варіант імені має бути таким, щоб ця історія працювала;
+      доки ім’я не затверджене централізовано — не вигадувати його тут.
+  - unit: q1015
+    src: "Connect the dots, it ain't fusion reaction math."
+    note: "«це тобі не…» — шукати питомий український зворот, а не кальку"
+
+pitfalls:
+  - "q10, q27–q33, q38, q40, q55, q605, q622 — заїкання (W-who's, t-t-train, s-s-scheduled). Відтворювати на українському приголосному, а не переносити латинські літери (STYLE §9)"
+  - "q291 і q745 містять $(#jack/sis) — перекладати ОБИДВІ гілки українськими гендерними звертаннями в регістрі «ти»"
+  - "a680 містить $(#himself/herself) і стосується гравця, а не мовця; українське минуле й прикметники гендеровані, тож у сусідніх репліках гравця може знадобитися ДОДАТИ плейсхолдер, якого в джерелі немає — це правильно (STYLE §2)"
+  - "q1100 каже «100 charons», а a1101 — «::Pay 100 Stygian Coins.::»: глосарій має окремі записи charon → харон і stygian coin → стигійська монета. Не уніфікувати, зберегти обидва"
+  - "У джерелі є друкарські помилки й поламана розмітка: q6 «Igores», q22 «condition3», q35 «continues to doesn't recognize», a443 одинарна двокрапка «:Laugh.::», a484 незакрите «::Attack!», q1091 незакрите «::He ignores you.». Не «виправляти» — tools/check-uk.ps1 звіряє кількість «::» із джерелом"
+  - "q933, q934, q935 ідентичні між собою, як і q1137, q1139; q1138 різниться лише комою. Перекладати однаково, розбіжність джерела в q1138 зберегти"
+  - "Позначки перевірок навичок ::[Persuasion]::, ::[Hacking]::, ::[Doctor]::, ::[Perception]::, ::[Intimidation]::, ::[Psi Empathy]::, ::[Pickpocketing]::, ::[Strength]::, ::[Agility]::, ::[Dexterity]::, ::[Constitution]::, ::[Will]:: — уніфікувати з глосарієм (там є ::[Persuade]:: → ::[Переконати]::), звернути увагу, що в цьому вузлі форма Persuasion, а не Persuade"
+  - "Численні \\n і \\n\\n усередині юнітів (q10, q136, q141, q816, q862) — послідовності лишаються дослівно"
+  - "Назви, що НЕ перекладаються за глосарієм і трапляються тут: Underrail, GMS, Coretech, Praetorian Security. Водночас Ironheads → Залізноголові, Protectorate → Протекторат, Core City → Центральне Місто, Drop Zone → Зона Скидання, Institute of Tchort → Інститут Тчорта, Rail Crossing → Залізничний Переїзд, South Gate Station → Станція Саут-Гейт, Arena → Арена, Invictus → Інвіктус, Faceless → Безликі, pipeworker → труболаз, zoner → зонер"
+  - "«Praetorians» в a744 — саме демонім, а глосарій позначає його як питання, не розв’язане централізовано; не винаходити форму на місці"
+
+examples:
+  - unit: q291
+    rule: "$(#jack/sis) — гендерне звертання в регістрі «ти», STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q10
+    rule: "заїкання відтворюємо на українському приголосному, STYLE §9"
+    uk_fragment: "Х-хто… там?"
+    status: proposed
+  - unit: a1101
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Заплатити…::"
+    status: proposed
+  - unit: q123
+    rule: "внутрішньоігровий сленг лишається запозиченням, глосарій zoner → зонер"
+    uk_fragment: "…зонере!"
+    status: proposed

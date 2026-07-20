@@ -1,0 +1,90 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jackquicksilver1
+file_id: dialogs\characters\jackquicksilver1.txt
+derived_from: source-only
+units: {total: 120, npc: 76, player: 44, empty: 6}
+
+speakers:
+  - slug: jack_quicksilver
+    name: "ім’я потребує централізованого рішення — див. new_names"
+    units: default
+    confidence: certain
+    evidence: [q67, q113, q41]
+    role: >-
+      Куратор гравця від таємної організації — вербує, роздає завдання й платить,
+      тримаючи дистанцію й майже нічого не пояснюючи. Його мова навмисно вирівняна
+      й контрольована: це інструмент влади в розмові, а не характеристика освіти.
+    relationships:
+      - "Абрам — рівня йому людина в тій самій організації; саме він рекомендував гравця (q36, q51, q67)"
+      - "Азіф — той, до кого Джек відправляє гравця далі, не пояснюючи хто це (q15, q18)"
+      - "Еверард, Ленокс Пірс, Огад Ксандер — три контакти трьох завдань (q55, q58, q60)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Синтаксис підкреслено книжний і безособовий: «I've been informed of your
+        refusal» (q1), «Indeed you have, and with optimal results even» (q13),
+        «As I hoped» (q34), «We require maximum discretion» (q54), «Don't answer a
+        question with a question» (q120). Це мова куратора, який утримує відстань, —
+        STYLE §3.2 трактує таких як «ви». Гравець дзеркалить базовий регістр (§3.3),
+        попри панібратське «Catch you later, Jack» в a42 і a109.
+      gender_cues: []
+      switches:
+        - {unit: q12, to: ти, trigger: "розмовний зрив «Sure you do... Ain't it so?» — одинична поблажлива фамільярність, базу не змінює"}
+        - {unit: q111, to: ви, trigger: "перша зустріч у ССГ: коротко й непривітно, але дистанція та сама"}
+    voice:
+      register: рівний, стриманий, іронічно-поблажливий; погрожує не підвищуючи тону
+      idiolect:
+        - "формули підтвердження замість «yes»: «Indeed you have» (q13), «Indeed you are» (q32), «That I did» (q64), «As I hoped» (q34)"
+        - "пасив і безагентність там, де хтось інший сказав би «я дізнався»: «I've been informed» (q1, q29, q51)"
+        - "мова про себе в третій особі: «That's enough of Jack's wisdom for now» (q41)"
+        - "коротка відмова без пояснень як окремий юніт: «No questions.» (q98), «You'll find out.» (q18), «It's a business secret.» (q84)"
+        - "лексика роботодавця, а не приятеля: assignment, cooperation, optimal, satisfactory, discretion — тримати канцелярський шар"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут нарація майже вся мінімальна (::He nods.::, ::He smirks.::)"
+
+new_names: ["Jack Quicksilver", "Hanging Rat"]
+
+idioms:
+  - unit: q64
+    src: "Guilty as charged."
+    note: "юридична формула, вжита жартома; локалізувати як визнання провини з тим самим правничим відтінком, не калькувати"
+  - unit: q40
+    src: "There are always cracks in the walls for you to get through"
+    note: "розгорнута метафора шпарин у стіні; тримати образ через усі три частини речення, не зводити до «завжди є вихід»"
+  - unit: q12
+    src: "Ain't it so?"
+    note: "єдине просторічне «ain't» у вузлі — знижена форма має бути помітною саме тому, що вона одна"
+  - unit: q120
+    src: "Don't answer a question with a question. It's irritating."
+    note: "докір-афоризм; зберегти сухість другого речення, не підсилювати емоцію"
+  - unit: a11
+    src: "I punched through a rock wall with my bare fists"
+    note: "хвастощі гравця; гіпербола має лишитися гіперболою"
+  - unit: q49
+    src: "Well, I've waited, and waited, and waited..."
+    note: "потроєння з наростанням; зберегти саме три повтори й три крапки"
+
+pitfalls:
+  - "$(context.player.Name) у q1, q10, q39, q46, q50, q57, q65, q66, q67, q69, q70, a115 — не відмінювати всередині плейсхолдера"
+  - "q68 «...And here $(#he/she) is» — гілка стосується ГРАВЦЯ у третій особі, не співрозмовника; в українській потрібні узгоджені форми, можливо з додатковим $(#…) на дієслові"
+  - "q55 — пароль і відгук: «Who goes there?» / «The neophyte.» Ці дві формули повторюються в інших вузлах (осередок у Ливарні); переклад мусить збігтися дослівно, інакше квест читається як зламаний"
+  - "q29, q32, q34 «400 stygian coins» — стигійська монета за глосарієм; q49 «charons» — харон; q87, q105 «SGS credits» — ССГ"
+  - "топоніми з глосарія: Foundry → Ливарня (q55), Core City → Центральне Місто (q60, q75), Junkyard → Звалище (q51), Rail Crossing → Залізничний Переїзд (q21), Hathor mine → від Табір Хатор (a11)"
+  - "«Lower Underrail» (q15) — Underrail лишається латиницею й не відмінюється"
+  - "«the \"Hanging Rat\"» (q15) — назва шинку в лапках; у джерелі прямі, в українській — « », STYLE §5"
+  - "джерельні одруки: «wonder aimlessly» замість «wander» (a26) — перекладати за змістом «блукати»; «more important things to do then wonder» — «then» тут замість «than»"
+  - "q114 починається з пробілу, q87 і q105 закінчуються \\n\\n — службові символи не чіпати"
+
+examples:
+  - unit: a73
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q60
+    rule: "наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "Ідіть, не змушуйте людей чекати"
+    status: proposed

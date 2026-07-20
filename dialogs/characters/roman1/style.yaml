@@ -1,0 +1,69 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/roman1
+file_id: dialogs\characters\roman1.txt
+derived_from: source-only
+units: {total: 15, npc: 10, player: 5, empty: 1}
+
+speakers:
+  - slug: roman
+    name: Роман
+    units: default
+    confidence: certain
+    evidence: [q15]
+    role: >-
+      Старший на барикаді, керує розчищенням завалу в тунелі після землетрусу.
+      Зайнятий, відповідає коротко й по суті, але без ворожості.
+    relationships:
+      - "Патрік Пірс — знайомий по бару, нещодавно помер; про його брата говорить зі щирим співчуттям"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Робітничо-польовий регістр, а не статутний: розмовні стягнення
+        («Name's Roman», «what's it gonna do», «hey»), звертання «soldier»
+        тут панібратське, без звання. Це «свій» за STYLE §3.2; гравець
+        дзеркалить (§3.3).
+    voice:
+      register: діловий, уривчастий, під кінець теплішає
+      idiolect:
+        - "розмовні стягнення «gonna», «Name's», вставне «hey» — знижений регістр зберігати"
+        - "пестливе скорочення «Pat» від Patrick — у q13 навмисно, не розгортати в повне ім’я"
+        - "«Poor lad» — співчутливе, не зневажливе"
+
+narration:
+  present: false
+
+new_names: []
+
+idioms:
+  - unit: q1
+    src: "That was one hell of a fight."
+    note: "підсилювальне «оце була бійка»; грубуватість зберегти (STYLE §9)"
+  - unit: q12
+    src: "A miserable sight watching him just sit there, staring into his glass."
+    note: >-
+      «Staring into his glass» — образ запивання горя; не калькувати
+      «дивиться у склянку» буквально, потрібна ідіоматичність.
+  - unit: q13
+    src: "something snapped in his brain"
+    note: "розмовне про раптове божевілля — «у голові щось зрушило», не «клацнуло»"
+  - unit: q10
+    src: "He died in his sleep."
+    note: "усталене «помер уві сні»"
+
+pitfalls:
+  - "Patrick Pierce → Патрік Пірс (глосарій); Roman → Роман (реєстр)"
+  - "q15 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "«brothers death» у q13 — в джерелі бракує апострофа; це помилка джерела, у перекладі просто присвійність"
+  - "«soldier» у q2 — звертання, а не рід занять гравця; з малої"
+
+examples:
+  - unit: q2
+    rule: "STYLE §3.4 — наказовий і звертання успадковують «ти»"
+    uk_fragment: "не час на балачки"
+    status: proposed
+  - unit: q15
+    rule: "STYLE §3.2 — знижений розмовний регістр «свого»"
+    uk_fragment: "Я тут за головного"
+    status: proposed

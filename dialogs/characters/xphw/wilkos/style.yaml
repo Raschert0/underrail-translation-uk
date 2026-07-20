@@ -1,0 +1,96 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/xphw/wilkos
+file_id: dialogs\characters\xphw\wilkos.txt
+derived_from: source-only
+units: {total: 41, npc: 30, player: 11, empty: 4}
+
+speakers:
+  - slug: wilkos
+    name: Вілкос
+    units: default
+    confidence: certain
+    evidence: [q11, q14, q26]
+    role: >-
+      Помічник оператора потяга й водночас «м’язи», коли треба; майже весь вузол варить
+      свій «вічний суп». Голос практичний і господарський — кулінарія витісняє пафос.
+    relationships:
+      - "Містер Німбл — начальник, до якого ставиться з відвертою повагою"
+      - "Торренс — давній напарник; лається на нього, але тримається поруч"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Єдине пряме звертання до гравця — $(#mister/ma'am) (q5), тобто ввічлива форма;
+        решта реплік нейтральні, без панібратства. STYLE §3.2 — службова роль, «ви».
+      gender_cues: ["$(#mister/ma'am)"]
+      switches:
+        - {unit: q22, to: ти, trigger: "коли ображається на кпин із супу і зривається на familiar «you»"}
+    voice:
+      register: рівний, побутовий, з побутовою гордістю кухаря
+      idiolect:
+        - "Fool! як окрик до напарника — його стала реакція"
+        - "whatcha, 'cause, ain't — просторіччя проривається попри ввічливу форму"
+        - "«Mr. Nimble» вимовляє послідовно з титулом — повага передається послідовно"
+
+  - slug: torrence
+    name: Торренс
+    units: [q8, q10, q17, q32]
+    confidence: probable
+    evidence: [q8, q10]
+    role: >-
+      Напарник-кулеметник, який тут лише вставляє репліки в чужу розмову: відповідає
+      про долю Клінкера, хвалиться вогневою міццю і кепкує з нелюбові Вілкоса до човнів.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Ці репліки адресовані Вілкосові, не гравцеві. Базовий регістр Торренса беремо
+        з його власного вузла dialogs/characters/xphw/torrence.
+    voice:
+      register: та сама вулична говірка, що й у власному вузлі
+      idiolect:
+        - "випадання g: durin’ — механічна прикмета, що відрізняє його від Вілкоса"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ::Leave.:: — інфінітив за STYLE §3.5"
+
+new_names: ["Clinker", "Nimble", "Underrail Express"]
+
+idioms:
+  - unit: q8
+    src: "Goner."
+    note: "не «зниклий» — розмовне «йому кінець», однослівний вирок"
+  - unit: q8
+    src: "jet-by"
+    note: "світовий аналог drive-by; локалізувати як обстріл із катера, не калькувати"
+  - unit: q14
+    src: "forever soup"
+    note: "стала назва страви — тримати однаковою в усіх юнітах вузла (q14, q16, q21)"
+  - unit: q21
+    src: "never soup"
+    note: "гра слів проти «forever soup» — зберегти протиставлення тією ж парою слів"
+  - unit: q24
+    src: "drifter cuisine"
+    note: "іронічний ярлик, не кулінарний термін"
+  - unit: q31
+    src: "step on a boat"
+    note: "у нього це вияв максимальної відданості — інтонацію жертви зберегти"
+
+pitfalls:
+  - "q5 містить $(#mister/ma'am) — обидві гілки мають бути ввічливими формами"
+  - "q9, q11, q16, q20, q22, q27, q29, q34 містять \\n\\n — розрив абзацу зберігати"
+  - "Barrel soup у q17 — глосарій дає «Бочковий суп»; hopper у q34 — «стрибун»"
+  - "Underrail Express — Underrail лишається латиницею й не відмінюється"
+  - "q16, q31 містять *виділення зірочками* — зберігати позицію наголосу"
+
+examples:
+  - unit: q5
+    rule: "$(#mister/ma'am) — ввічливе гендерне звертання, STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q36
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Піти.::"
+    status: proposed

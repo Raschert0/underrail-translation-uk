@@ -1,0 +1,106 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_daniel
+file_id: dialogs\characters\cc_daniel.txt
+derived_from: source-only
+units: {total: 61, npc: 36, player: 25, empty: 1}
+
+speakers:
+  - slug: daniel
+    name: Деніел
+    units: default
+    confidence: certain
+    evidence: [q2, q7, q45]
+    role: >-
+      Мандрівний торговець-одноокий, що збуває бойовий препарат Hercules у
+      Хардкор Сіті Барі. Улесливий продавець із заготовленою біографією; щойно
+      покупця запідозрено в перевірці товару — маска злітає.
+    relationships:
+      - "Гаррієтта в барі — до неї підкреслено тепло, «that sweet Harriette»"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Базово — обслуга при незнайомому покупцеві, STYLE §3.2: «ви».
+        Ввічлива дистанція витримана всюди, де він продає («Name’s Daniel Arda,
+        and it’s a pleasure to meet you»); панібратське friend тут — прийом
+        продавця, а не перехід на «ти».
+      switches:
+        - {unit: q45, to: ти, trigger: "коли гравець згадує аналіз препарату — зрив на пряму лайку, «Listen to me, you moron!»"}
+        - {unit: q48, to: ти, trigger: "«Now get lost, punk!» — торг закінчено, ввічливість скинуто"}
+        - {unit: q56, to: ти, trigger: "нарація фіксує гарчання; звертання відкрито вороже"}
+        - {unit: q58, to: ти, trigger: "те саме, повторна відмова говорити"}
+        - {unit: q60, to: ти, trigger: "те саме"}
+    voice:
+      register: улесливо-балакучий комівояжер; після зриву — хрипкий і брутальний
+      idiolect:
+        - "friend / my friend наприкінці чи всередині майже кожної репліки — словесний тик, зберігати як звертання"
+        - "подвоєння для натиску: «Really? Really?», «Excuse me? Excuse me?», «poor, poor family», «Good, good»"
+        - "питальне eh? наприкінці фрази — просити згоди в покупця"
+        - "риторичні ланцюжки запитань у рекламному пасажі q21 — ритм зберегти"
+        - "ремарки ::He laughs.:: після майже кожної теми; сміх — частина торгової подачі"
+        - "після зриву голос описано як raspy, growly — лексика має стати односкладовою й різкою"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Arda", "Hercules", "root soda"]
+
+idioms:
+  - unit: q9
+    src: "you know it makes sense"
+    note: "заяложена формула продавця, не буквальне «ви знаєте, що це має сенс»"
+  - unit: q17
+    src: "tough luck"
+    note: "«не пощастило», «ваша воля» — легке, без співчуття"
+  - unit: q27
+    src: "I’m derailed"
+    note: "залізничний сленг Underrail у значенні «здурів»; зберегти образ зіскоку з рейок, не замінювати нейтральним «божевільний»"
+  - unit: q27
+    src: "in the blink of an eye"
+    note: "усталене «за мить», «умить»"
+  - unit: q28
+    src: "you’re gonna dominate"
+    note: "внутрішньоігровий сленг Центрального Міста; той самий відповідник, що й в інших вузлах"
+  - unit: q30
+    src: "took the rope and ended his life"
+    note: "евфемізм самогубства — лишити евфемізмом, не називати прямо"
+  - unit: q33
+    src: "Bit by bit, coin by coin"
+    note: "ритмічна пара; шукати український повтор, не розписувати прозою"
+  - unit: q37
+    src: "sharp little bugger"
+    note: "фамільярне про камінь; bugger тут не лайка на адресу людини"
+  - unit: q37
+    src: "what do ya know"
+    note: "вставне «і от тобі маєш», не питання"
+  - unit: q55
+    src: "You got me good"
+    note: "«купився», «повівся» — визнання розіграшу"
+
+pitfalls:
+  - "q45 «::He interruption comes with a snarl.::» — граматична помилка оригіналу; перекладати за змістом («Він уриває вас гарчанням»), не відтворювати ламану будову."
+  - "q36 «I remember it like it was a year ago, because it was about a year ago» — навмисний жарт на зруйнованому кліше; зберегти обидві половини, інакше зникне сміх у наступній ремарці."
+  - "Перехід від «ви» до «ти» на q45 — свідомий злам характеру, не згладжувати до рівного регістру в обидва боки."
+  - "charons → «харони» (глосарій, монета) з малої; суми лишати цифрами."
+  - "Hardcore City Bar → «Хардкор Сіті Бар», Junkyard → «Звалище», Foundry → «Ливарня», Arena → «Арена», Core City → «Центральне Місто» — глосарій."
+  - "Гаррієтта (q40) відмінюється: «з Гаррієттою» — реєстр."
+
+examples:
+  - unit: q2
+    rule: "звертання-тик friend при базовому «ви» — STYLE §3.2"
+    uk_fragment: "друже"
+    status: proposed
+  - unit: q45
+    rule: "зрив на «ти» з прямою образою — STYLE §3.2, виняток фіксуємо"
+    uk_fragment: "Слухай сюди, ідіоте"
+    status: proposed
+  - unit: a10
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Дати йому 500 харонів.::"
+    status: proposed
+  - unit: q11
+    rule: "наказовий спосіб успадковує «ви» — STYLE §3.4"
+    uk_fragment: "Просто вколіть"
+    status: proposed

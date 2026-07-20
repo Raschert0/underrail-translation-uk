@@ -1,0 +1,85 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cvw_knuckles
+file_id: dialogs\characters\cvw_knuckles.txt
+derived_from: source-only
+units: {total: 45, npc: 12, player: 33, empty: 2}
+
+speakers:
+  - slug: knuckles
+    name: Knuckles
+    units: default
+    confidence: certain
+    evidence: [q1, q9, q14]
+    role: >-
+      Підпільний торговець, що спілкується через респіратор і впускає лише того, хто
+      знає пароль. Говорить уривками, майже без пояснень; уся розмова — перевірка
+      «свій/чужий», а не торг.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Кримінальний контакт із вулиці, не обслуга: коротка команда «Waste $(#him/her)!»,
+        грубе «What the hell are you on about?» і випроваджування «Leave us» — STYLE §3.2.
+        Гравець дзеркалить, пор. звертання «pal» у a42.
+      gender_cues: ["$(#him/her)"]
+
+narration:
+  present: true
+  note: >-
+    Нарація вбудована в репліки q1, q9, q14, q15 («::He turns to the right…::») —
+    «ви» без винятків, STYLE §3.1, навіть коли сам мовець каже «ти».
+
+new_names: ["Knuckles", "Big Bernie", "Bernie"]
+
+idioms:
+  - unit: a16
+    src: "You betcha."
+    note: "розмовне підтвердження; не калькувати — потрібен український розмовний відповідник"
+  - unit: a21
+    src: "His missus has been giving him a hard time"
+    note: "«missus» — фамільярне про дружину, не нейтральне «дружина»"
+  - unit: a22
+    src: "got wasted so *freakin'* hard"
+    note: >-
+      грубий сленг про пиятику; лишається грубим, STYLE §9. Зірочки навколо
+      *freakin'* — авторський наголос, зберегти розмітку
+  - unit: a36
+    src: "To hell with this."
+    note: "лайливий вигук, не пом’якшувати"
+  - unit: a42
+    src: "You on something, pal?"
+    note: "«on something» — про наркотики, не «на чомусь»"
+
+pitfalls:
+  - >-
+    Пароль побудований на розриві слова: NPC каже «Psi» (q1), і єдина правильна
+    відповідь — «Onic» (a8, a38), бо разом виходить Psionic. Решта варіантів
+    (Empathy, Mentor, Booster, Beetle, Bug, Mind, Feelings, Trance, Destruction) —
+    хибні приманки. Українською склад має так само стикуватися з «Псі-» — рішення
+    приймати для q1/a8/a38 разом, окремо їх перекладати не можна.
+  - >-
+    «Tranquility» (q9) — відгук-підтвердження пароля, а не звичайне слово; має
+    лишатися впізнаваним однослівним відгуком.
+  - >-
+    «Big Bernie» — вигаданий персонаж, якого не існує (q13 «No one.»); гравець
+    може підтримати гру або викрити її (a26). Ім’я має звучати однаково в a20–a26.
+  - >-
+    Praetorian Security (a33) — лишати латиницею, глосарій. В a34 «Underrail
+    Protectorate»: Underrail латиницею й без відмінювання, Protectorate → Протекторат.
+  - >-
+    Термінологія a22 з глосарію: Mushroom Cove → Грибна Бухта, hopper → стрибун,
+    «lake shrooms» — розмовна форма від lake mushroom → озерний гриб.
+  - >-
+    «::[Intelligence]::» у a3, a6–a8, a27–a32 — тег перевірки навички, оформлюється
+    як ::[Переконати]:: у глосарії; квадратні дужки й «::» зберегти.
+
+examples:
+  - unit: a5
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed
+  - unit: q4
+    rule: "$(#him/her) — гендерний плейсхолдер про гравця, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#його/її)"
+    status: proposed

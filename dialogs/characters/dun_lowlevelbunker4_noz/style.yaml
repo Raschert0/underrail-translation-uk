@@ -1,0 +1,84 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/dun_lowlevelbunker4_noz
+file_id: dialogs\characters\dun_lowlevelbunker4_noz.txt
+derived_from: source-only
+units: {total: 50, npc: 21, player: 29, empty: 2}
+
+speakers:
+  - slug: noz
+    name: Noz
+    units: default
+    confidence: certain
+    evidence: [q6, q3]
+    role: >-
+      Знервований пройдисвіт у розбитих окулярах, який намагається чужими руками
+      залізти до складу й прикривається байкою про повзунів. Головне в ньому — акцент,
+      який він підробляє й на якому раз у раз зривається.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличне панібратство з першої репліки: «Come 'ere», «for ya», «aight?» —
+        свій до свого, STYLE §3.2. Гравець дзеркалить.
+    voice:
+      register: вуличний, метушливий, запобігливий; удаваний простацький говір
+      idiolect:
+        - "суцільні заповнювачі uhm / umm / uhh — у майже кожній репліці, це його впізнаваний знак"
+        - "підроблений говір: ya, 'ere, tryna, lil', aight, 'em, they be creepin', ya ain't gettin' away"
+        - "джерело прямо каже, що говір плаває (q27: «his pronunciation shifts back and forth») — непослідовність навмисна"
+        - "тремтіння голосу й тіла винесене в ремарки, а не в лексику"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки описують нервові тики (::His left hand suddenly twitches.::)"
+
+new_names: ["Noz"]
+
+idioms:
+  - unit: q45
+    src: "hold your train up"
+    note: "зіпсована ідіома (змішано hold your horses і hold up) — незграбність оригіналу зберегти, не виправляти на правильну"
+  - unit: q27
+    src: "the fiends of your worst dreams"
+    note: "його книжна пишномовність усередині простацького говору — саме тут він і зривається"
+  - unit: a21
+    src: "The jig is up"
+    note: "«гру розкрито»; не калькувати"
+  - unit: a12
+    src: "I'll hit you up when I'm done"
+    note: "розмовне «озвуся», не про удар"
+  - unit: a22
+    src: "Are you trying to backstab me?"
+    note: "зрадити, а не буквально вдарити в спину"
+  - unit: q10
+    src: "the lil' trouble we've got here"
+    note: "применшення-евфемізм; зменшувальність зберегти"
+
+pitfalls:
+  - "ЦЕНТРАЛЬНА ВИМОГА ВУЗЛА: підроблений говір має бути відтворений так, щоб репліки a29 («Your accent, you seem to be struggling with it») і a31 («You are faking it») лишалися зрозумілими — тобто просторіччя мусить бути помітно непослідовним, а не рівним"
+  - "заїкання відтворюємо на українському приголосному — STYLE §9 (q18 «I-I», q30 «y-ya»)"
+  - "a17, a31 містять ::[Intelligence]::, a22, a29 — ::[Perception]::: назви навичок беруться з knowledge/, не вигадуються"
+  - "crawler → повзун (q8, q27, a23) — глосарій"
+  - "::Fight.::, ::Attack!::, ::Keep listening.::, ::Turn around and leave.:: — підказки дій, інфінітив, STYLE §3.5"
+  - "q3, q34, q45 закінчуються порожнім рядком після ремарки — структуру рядків не згортати"
+  - "у q34 в джерелі описка «forhead» — помилка оригіналу, не сигнал стилю"
+  - "a48 «im listening» — описка оригіналу, українською пишемо нормативно"
+
+examples:
+  - unit: q18
+    rule: "заїкання на українському приголосному — STYLE §9"
+    uk_fragment: "Я-я, е-е…"
+    status: proposed
+  - unit: q6
+    rule: "заповнювач uhm зберігається як окрема вставка"
+    uk_fragment: "я, е-е,"
+    status: proposed
+  - unit: a23
+    rule: "глосарій: crawler → повзун"
+    uk_fragment: "повзунів"
+    status: proposed
+  - unit: a15
+    rule: "підказка дії — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися.::"
+    status: proposed

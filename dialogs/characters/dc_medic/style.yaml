@@ -1,0 +1,76 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/dc_medic
+file_id: dialogs\characters\dc_medic.txt
+derived_from: source-only
+units: {total: 26, npc: 17, player: 9, empty: 1}
+
+speakers:
+  - slug: dc_medic
+    name: лікар Безликих
+    units: default
+    confidence: certain
+    evidence: [q1, q2]
+    role: >-
+      Медик Безликих, що доглядає тяжко поранену жінку й видає гравцеві
+      обумовлені припаси. Говорить крізь синтезатор голосу — рівно, клінічно,
+      без жодної емоції.
+    relationships:
+      - "командир Безликих — той, чий дозвіл гравець наводить у a6"
+      - "«the woman» — пацієнтка, про стан якої йдеться в q12, q13, q15, q18"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні, мова без жодного стягнення, з модальними
+        формулами дозволу («I may not offer», «we may discuss») — STYLE §3.2,
+        формальний мовець. Гравець дзеркалить діловим тоном.
+      gender_cues: []
+    voice:
+      register: клінічний, безсторонній, книжно-медичний
+      idiolect:
+        - "жодних стягнень: послідовно «I am», «she is», «we are»"
+        - "модальне «may» у значенні дозволу, а не можливості — це рамка правил, якою він себе обмежує"
+        - "мова про себе в множині: «We do not do that», «we will release her» — він говорить від імені Безликих"
+        - "анатомічна точність замість співчуття (q12) — жодного оцінного слова"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут q1, q2, q7–q10, q20, q26"
+
+new_names: []
+
+idioms:
+  - unit: q5
+    src: "I may not offer medical assistance to you."
+    note: >-
+      Це відмова за приписом, а не «не можу». Українська має передати саме
+      заборону («мені не дозволено»), інакше зникає рамка правил, у якій він живе.
+  - unit: q13
+    src: "if she were disconnected from her life-support"
+    note: "умовний спосіб у клінічному прогнозі — тримати книжну побудову"
+
+pitfalls:
+  - >-
+    q12 — суцільна медична термінологія (larynx, bronchial tubes, vocal folds,
+    abdominal cavity, spleen). Потрібні точні українські терміни; побутові
+    синоніми зруйнують голос персонажа.
+  - >-
+    «damage» у q12 — за глосарієм «шкода», не «ушкодження» й не «пошкодження».
+  - >-
+    Faceless за глосарієм — «Безликі», у тому числі коли вжито в однині про
+    цього лікаря (q1, q2, q7).
+  - >-
+    q7, q8 і q10 — фрагменти одного речення-переліку, що склеюються в грі.
+    q8 і q10 починаються з коми й малої літери; цю незавершеність зберігати,
+    а порядок слів узгоджувати між усіма трьома юнітами.
+  - >-
+    Назви припасів (super health hypo, antidote, bandage, morphine shot,
+    desaturated psionic inhalant, psi booster) — предмети інвентарю; звіряти з
+    knowledge/, а не вигадувати тут.
+
+examples:
+  - unit: q5
+    rule: "модальне may = дозвіл, не можливість"
+    uk_fragment: "мені не дозволено"
+    status: proposed

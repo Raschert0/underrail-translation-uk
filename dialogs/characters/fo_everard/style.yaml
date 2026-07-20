@@ -1,0 +1,91 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_everard
+file_id: dialogs\characters\fo_everard.txt
+derived_from: source-only
+units: {total: 73, npc: 45, player: 28, empty: 3}
+
+speakers:
+  - slug: everard
+    name: Еверард
+    units: default
+    confidence: certain
+    evidence: [q2, q70]
+    role: >-
+      Керівник законспірованої групи, що діє з даху в Ливарні; дає гравцеві
+      завдання витягти свого агента з в’язниці. Говорить як людина, що звикла
+      віддавати накази й не підвищувати голосу — це визначає добір слів
+      найбільше.
+    relationships:
+      - "Jack — його зверхник або зв’язковий; саме він прислав гравця (a5, q6)"
+      - "Todor — підлеглий-убивця, ув’язнений; Еверард говорить про нього холодно й утилітарно"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Уникає скорочень там, де англійська їх очікує («I am Everard»,
+        «I am joking, of course», «It is a truly problematic place»), будує
+        повні періоди, звертається на ім’я гравця. Це витримана службова
+        дистанція, а не приятельство.
+      gender_cues: ["$(#him/her)", "$(#buddy/missy)"]
+      switches:
+        - {unit: q65, to: ви, trigger: "поблажливе $(#buddy/missy) — зниження тону, але не перехід на «ти»; передавати як зверхню фамільярність у межах «ви»"}
+        - {unit: q68, to: ви, trigger: "жартівливе «Chillin’» — свідома стилістична гра, він одразу її знімає в q69"}
+    voice:
+      register: стриманий, велеречивий, з погрозою під ввічливістю
+      idiolect:
+        - "нав’язливе «Right?» наприкінці реплік (q3, q10, q18, q51, q57, q62, q63, q66, q69) — словесний тик, передавати однаковою короткою формою в усіх юнітах"
+        - "евфемізми замість прямої мови про вбивство: «wish him a happy birthday» (q16), «Todor has been silenced» (a41)"
+        - "курсивні наголоси зірочками (*you*, *very*, *all*) — риторичний натиск, зберігати розмітку"
+        - "разові переходи в сленг задля іронії («Chillin’», q68) на тлі книжного синтаксису"
+
+narration:
+  present: true
+  note: >-
+    Ремарки типу ::He smiles.::, ::He slowly claps.:: — «ви» без винятків,
+    STYLE §3.1; вони тут відіграють роль паузи перед погрозою, не пом’якшувати.
+
+new_names: ["Jack", "Sallywatch", "Bolivar Daud", "Zeta"]
+
+idioms:
+  - unit: q16
+    src: "wish him a happy birthday"
+    note: "евфемізм на позначення вбивства; не калькувати дослівно як побажання"
+  - unit: q54
+    src: "guards armed to the teeth"
+    note: "має український сталий відповідник — не описова конструкція"
+  - unit: q54
+    src: "Mark my words"
+    note: "усталена формула застороги, не буквальне «позначте мої слова»"
+  - unit: q10
+    src: "his exfiltration was less than desirable"
+    note: "навмисний канцелярит спецслужб — зберегти сухість, не робити з нього живої мови"
+  - unit: q68
+    src: "Chillin'"
+    note: "одне сленгове слово-жарт; коротка розмовна форма, не речення"
+  - unit: q66
+    src: "the big heads are nervous"
+    note: "розмовне про начальство; не калькувати «великі голови»"
+
+pitfalls:
+  - "q6, q10, q18, q30, q38, q40 містять $(context.player.Name) — не відмінювати всередині плейсхолдера, будувати фразу так, щоб ім’я стояло в називному"
+  - "Foundry як місто — «Ливарня» (глосарій), але Foundry Guard як назва фракції лишається латиницею (глосарій) — в одному вузлі трапляється і те, і те (q10, q54)"
+  - "South Underrail (q57): Underrail лишається латиницею й не відмінюється — глосарій"
+  - "q63 містить $(#him/her) — гендерна пара, обидві гілки українською"
+  - "q65 містить $(#buddy/missy) — обидві гілки перекладати, зберігаючи поблажливий відтінок"
+  - "«judge», «warden», «prison» (q54, q57, q58) — тримати єдину термінологію в межах вузла"
+  - "\\n\\n у q2, q49, q54, q55, q65, q72 — розділювач абзаців, зберігати як є"
+
+examples:
+  - unit: q3
+    rule: "«Right?» — словесний тик, однакова форма в усіх юнітах (§9)"
+    uk_fragment: "Так?"
+    status: proposed
+  - unit: q63
+    rule: "$(#him/her) — гендерна пара, STYLE §2"
+    uk_fragment: "$(#нього/неї)"
+    status: proposed
+  - unit: q65
+    rule: "$(#buddy/missy) — фамільярне звертання в межах «ви», STYLE §2"
+    uk_fragment: "$(#друже/панночко)"
+    status: proposed

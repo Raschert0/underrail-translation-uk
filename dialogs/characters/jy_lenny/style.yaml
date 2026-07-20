@@ -1,0 +1,42 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_lenny
+file_id: dialogs\characters\jy_lenny.txt
+derived_from: source-only
+units: {total: 5, npc: 5, player: 0, empty: 1}
+
+speakers:
+  - slug: jy_lenny
+    name: Lenny
+    units: default
+    confidence: probable
+    evidence: [q2, q4]
+    role: >-
+      Кухар на Звалищі, який рубає щурів і не хоче, щоб йому заважали.
+      Реплік гравця у вузлі немає взагалі — це самі відмахування,
+      кожне має звучати як окремий грубий обрив розмови.
+    address:
+      npc_to_player: ти
+      basis: >-
+        «Get the hell outta my kitchen!» — грубий, свій, вуличний регістр,
+        STYLE §3.2. Реплік гравця немає, тож дзеркалення не застосовне.
+    voice:
+      register: різкий, роздратований, уривчастий
+      idiolect:
+        - "усі чотири репліки — короткі накази й відсилання, жодного ввічливого звороту"
+
+narration:
+  present: true
+  note: "q3 ::Hums.:: — «ви» без винятків, STYLE §3.1"
+
+new_names: ["Lenny"]
+
+pitfalls:
+  - "q3 «Chopping up rats...» — тут звичайні щури, а не rathound → щурчак; не підміняти глосарійним терміном"
+  - "q4 «Get the hell outta my kitchen!» — грубість не пом’якшувати, STYLE §9"
+
+examples:
+  - unit: q3
+    rule: "нарація ::…:: перекладається прозою, делімітери лишаються, STYLE §3.1"
+    uk_fragment: "::Мугикає.::"
+    status: proposed

@@ -1,0 +1,64 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_doc
+file_id: dialogs\characters\fo_doc.txt
+derived_from: source-only
+units: {total: 28, npc: 17, player: 11, empty: 1}
+
+speakers:
+  - slug: fo_doc
+    name: доктор Стівенсон
+    units: default
+    confidence: certain
+    evidence: [q1, q11, q19]
+    role: >-
+      Єдиний лікар Ливарні, вигорілий і байдужий: говорить монотонно, короткими
+      закритими реченнями, і оживає лише тоді, коли з гіркотою перелічує смерті.
+      Ця монотонність — головне, що має вціліти в перекладі.
+    relationships:
+      - "Естель — дружина, аптекарка Ливарні (див. dialogs/characters/fo_estelle)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні: «Hello, I'm Doctor Stevenson. How may I help you?»,
+        «Next, please.» — STYLE §3.2. Гравець кличе його «Doc», але це фамільярність
+        звертання, а не перехід на «ти».
+    voice:
+      register: рівний, вимучений, майже канцелярський; емоція лише в довгих монологах q11 і q22
+      idiolect:
+        - "односкладні відповіді-відрубування: «Sure», «Yes. Anything else?», «Glad.»"
+        - "чорний гумор через перелік каліцтв — не пом’якшувати (STYLE §9)"
+        - "звертається до гравця «traveler» — дистанція, не приязнь"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Stevenson"]
+
+idioms:
+  - unit: q17
+    src: "the muck machine roars again"
+    note: >-
+      «muck» — наскрізне лайливо-зневажливе слово корпусу (пор. q12 у fo_messer,
+      q18 у fo_estelle); тримати той самий український відповідник у всіх вузлах
+  - unit: a3
+    src: "Doc"
+    note: "звертання до лікаря — за реєстром «док», з малої літери"
+
+pitfalls:
+  - "a4/a5: «ten charons» і «::Pay ten stygian coins.::» — за глосарієм «харон» (монета) і «стигійська монета»; це та сама валюта, названа двома способами — не уніфікувати"
+  - "a5 ::Pay ten stygian coins.:: — підказка дії, інфінітив (STYLE §3.5)"
+  - "«Foundry» (q8, q11, q17) — «Ливарня» за глосарієм"
+  - "q1 — довгий описовий блок нарації перед реплікою, розділений \\n\\n; розрив зберігати"
+
+examples:
+  - unit: q28
+    rule: "службовий регістр «ви», наказовий спосіб успадковує вибір — STYLE §3.4"
+    uk_fragment: "Наступний, будь ласка."
+    status: proposed
+  - unit: a3
+    rule: "Doc → «док» за реєстром, з малої"
+    uk_fragment: "доку"
+    status: proposed

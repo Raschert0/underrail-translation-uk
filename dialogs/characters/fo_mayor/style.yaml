@@ -1,0 +1,110 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_mayor
+file_id: dialogs\characters\fo_mayor.txt
+derived_from: source-only
+units: {total: 147, npc: 92, player: 55, empty: 6}
+
+speakers:
+  - slug: martin_marshall
+    name: Мартін Маршалл
+    units: default
+    confidence: certain
+    evidence: [q30, q143]
+    role: >-
+      Мер Ливарні — марнославний, дратівливий адміністратор, який говорить
+      про місто як про власне досягнення. Публічно виступає високим штилем,
+      наодинці зривається на зверхність і відверту грубість.
+    relationships:
+      - "шеф Баннер — командир Foundry Guard; мер тримається з ним підкреслено ввічливо, називає «sir»"
+      - "Бернард — мер прямо застерігає його не слухати (q45, q67)"
+      - "Сабан Мулов, Маркос Банті — підлеглі, до яких мер відсилає гравця"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Посадовець, який від початку тримає дистанцію й вимагає представитися
+        (q27, q32). Навіть образи в нього канцелярсько-зверхні, а не вуличні,
+        тож роздратування не переводить його на «ти» — STYLE §3.2.
+      gender_cues: ["$(#man/woman)", "$(#he/she)", "$(#man/lady)"]
+      switches:
+        - {unit: q3, to: ви, trigger: "публічна промова до натовпу — урочистий регістр, множина «громадяни Ливарні»"}
+    voice:
+      register: пишномовний на публіці, дратівливо-зверхній наодинці
+      idiolect:
+        - "повторюване «Well and good» (q34, q69, q89) — словесний тик, тримати один український відповідник"
+        - "риторичні триплети в промові: «We couldn’t let… We couldn’t let… We couldn’t let…» (q4)"
+        - "зневажливе «that piece of junk» про піч (q44, q66) — повторюється дослівно"
+        - "емфатичні зірочки *extreme*, *really*, *your* — інтонаційний наголос, не форматування"
+
+  - slug: banner
+    name: шеф Баннер
+    units: [q6, q79, q81, q82, q84]
+    confidence: probable
+    evidence: [q79, q80]
+    role: >-
+      Командир Foundry Guard: стриманий, зібраний, говорить коротко й по суті —
+      пряма протилежність меровому темпераменту (описано в нарації q31).
+    relationships:
+      - "мер Маршалл — начальник за посадою; шеф просить дозволу втрутитися («Mind if I interrupt you for a second, sir?»)"
+      - "Сабан Мулов — єдиний уцілілий з його підрозділу; шеф говорить про нього з повагою"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа, звертається до гравця як «young $(#man/lady)» —
+        поблажливо-старша, але офіційна манера. STYLE §3.2.
+      gender_cues: ["$(#man/lady)"]
+    voice:
+      register: спокійний, військово-діловий, без пишноти
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; довгі описові блоки q27, q31 і вставки ::He laughs.::"
+
+unattributed_units: []
+
+new_names: ["Banner", "Dalton Banner", "Carnifex", "Upper Underrail Institute"]
+
+idioms:
+  - unit: q40
+    src: "I'm all ears"
+    note: "не калькувати «я весь вуха»; розмовне «слухаю уважно»"
+  - unit: q44
+    src: "drawing power like a train-load of coil spiders"
+    note: "внутрішньоігрове порівняння; «coil spider» не має канонічного українського варіанта — узгодити перед перекладом"
+  - unit: q74
+    src: "stopped the Foundry Guard dead in its tracks"
+    note: "локалізувати як «спинив… як укопаних», не дослівно"
+  - unit: q74
+    src: "It's hard rock."
+    note: "буквальна констатація про камінь, а не музичний жанр"
+  - unit: q70
+    src: "the most remote cave known... unknown to humanity"
+    note: "самовиправлення мовця — обірваність зберегти"
+  - unit: q117
+    src: "a Southgater who thinks he's better than everyone"
+    note: "демонім від South Gate Station; канонічної форми немає — див. pitfalls"
+
+pitfalls:
+  - "$(context.player.Name) і $(context.PlayerNameCaps) не відмінювати й не чіпати всередині плейсхолдера; будувати фразу так, щоб ім’я стояло в називному"
+  - "Foundry Guard за глосарієм лишається латиницею, тоді як саме місто Foundry — «Ливарня»; в одному реченні q4 трапляється і те, і те"
+  - "Chief — звання, з малої: «шеф Баннер» (registry, kind: title)"
+  - "q58 «Institute of *Tchort*? You mean just the Institute?» — гра на тому, що мер уникає повної назви; зберегти обидві форми"
+  - "q143 передражнює гравця лапками: «I \"run\" this \"place.\"» — лапки іронічні, передати як « » зі збереженням глузування"
+  - "q114 «invictus» — титул на Арені, глосарій дає «Інвіктус»; у q111 гравець ужив його як самоназву"
+  - "\\n\\n усередині q27, q31, q84, q86 — розрив абзацу, не переносити й не прибирати"
+
+examples:
+  - unit: q81
+    rule: "$(#man/lady) — гендерне звертання, STYLE §2"
+    uk_fragment: "юний $(#пане/панно)"
+    status: proposed
+  - unit: q78
+    rule: "минулий час гравця вимагає плейсхолдера, якого немає в англійському — STYLE §2"
+    uk_fragment: "$(#допоміг/допомогла)"
+    status: proposed
+  - unit: q5
+    rule: "нарація ::…:: — «ви», прості дієслівні форми, STYLE §3.1"
+    uk_fragment: "::Натовп вітає.::"
+    status: proposed

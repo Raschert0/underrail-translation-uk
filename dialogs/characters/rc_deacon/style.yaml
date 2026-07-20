@@ -1,0 +1,66 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/rc_deacon
+file_id: dialogs\characters\rc_deacon.txt
+derived_from: source-only
+units: {total: 13, npc: 7, player: 6, empty: 1}
+
+speakers:
+  - slug: deacon
+    name: "Deacon — канонічної форми ще немає, див. new_names"
+    units: default
+    confidence: probable
+    evidence: [q1, q4]
+    role: >-
+      Крамар у Залізничному Переїзді, що торгує «для проникливих... або
+      втаємничених». Говорить загадками й навмисне не договорює.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Обслуга-крамар вітає незнайомця («Welcome to my little shop») —
+        «ви» за STYLE §3.2. Тон стриманий і трохи зверхній, без вуличної
+        фамільярності, яка виправдала б «ти».
+    voice:
+      register: неквапливий, іронічно-загадковий
+      idiolect:
+        - "пестливе «my little shop» повторюється в q1 і q4 — тримати той самий зворот"
+        - "гранично короткі відрубні відповіді: «No.», «That you did.» — не розгортати в повне речення"
+        - "інверсія «That you did» — навмисна архаїчна побудова, не вирівнювати"
+
+narration:
+  present: false
+
+new_names: ["Deacon", "Terry", "Baker"]
+
+idioms:
+  - unit: q4
+    src: "my little shop of wonders"
+    note: "образ «крамнички чудес»; зберегти зменшувальність, не робити «магазин»"
+  - unit: q8
+    src: "That you did."
+    note: >-
+      Відповідь-луна на «I see» — сухе підтвердження. Головоломка для
+      перекладу: український відповідник має так само повторити слово гравця.
+  - unit: q13
+    src: "Back for some more goodies?"
+    note: "розмовне «за новеньким?»; «goodies» — не «ласощі», а крам"
+  - unit: a12
+    src: "Never mind."
+    note: "«та нічого / забудьте», не «не зважайте на розум»"
+
+pitfalls:
+  - "SGS → ССГ (глосарій), не GMS — той лишається латиницею"
+  - "Lora → Лора (реєстр); Terry і Baker канонічної форми не мають"
+  - "«initiated» у q4 і a5 — «втаємничені»; те саме слово в обох юнітах, гравець цитує NPC"
+  - "у a9 підказка дії ::Barter.:: — інфінітив за STYLE §3.5"
+
+examples:
+  - unit: a9
+    rule: "STYLE §3.5 — підказка дії в ::…:: інфінітивом"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q1
+    rule: "STYLE §3.2 — крамар до незнайомця на «ви»"
+    uk_fragment: "Ласкаво просимо"
+    status: proposed

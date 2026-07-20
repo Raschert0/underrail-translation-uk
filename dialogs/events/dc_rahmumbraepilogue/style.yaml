@@ -1,0 +1,80 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/events/dc_rahmumbraepilogue
+file_id: dialogs\events\dc_rahmumbraepilogue.txt
+derived_from: source-only
+units: {total: 140, npc: 75, player: 65, empty: 8}
+
+speakers:
+  - slug: rahm_umbra
+    name: Рам-Умбра
+    units: default
+    confidence: certain
+    evidence: [q116, q135, q131]
+    role: >-
+      Нелюдська істота, що з’являється після знищення Тчорта й веде гравця до наступної
+      мети — Таннера. Говорить як хтось, для кого людська мова заскладна й неточна:
+      усе абстраговано до «подій» і «учасників».
+    relationships:
+      - "Таннер — ціль полювання; той самий рід, що й мовець, але приховує це"
+      - "Безликі — законні власники Куба, який мовець вимагає повернути"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Жодного скорочення в усьому вузлі: послідовно «Do not», «I do not», «I am»,
+        «It is». Лексика книжна («insolence», «detrimental», «archaic»), фрази
+        побудовані як формули. STYLE §3.2 — формальний мовець, «ви» без винятків.
+        Гравець дзеркалить (§3.3), навіть у зухвалих репліках на кшталт a107.
+      gender_cues: ["$(#men/women)"]
+    voice:
+      register: холодний, безсторонній, книжний; наказовий спосіб без грубості
+      idiolect:
+        - "нав’язливе event / events — тримати одне українське слово в усьому вузлі, це його словесний тик"
+        - "your kin, one of your own kin — дистанціювання від людей; не зводити до «люди»"
+        - "foolish / foolishness — оцінка, а не лайка; повторюваний корінь зберігати"
+        - "уникає скорочень і питальних зворотів; заперечення повне, не стягнене"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Тут нарації особливо багато (q2, q8, q23, q63,
+    q72, q96, q99, q111, q129, q130, q131) — вона описує зовнішність і появу істоти
+    й задає тон усій сцені.
+
+new_names: ["Rahm-Umbra", "Hadrian", "Hexagon", "Six", "Cube", "High One"]
+
+idioms:
+  - unit: q13
+    src: "an actor of similar importance"
+    note: "не «актор» — учасник події; узгодити з наскрізним «event»"
+  - unit: q17
+    src: "placing your petty desires before outcomes more important"
+    note: "риторична формула, повторена дослівно в q77 — переклад має збігатися дослівно"
+  - unit: q51
+    src: "Names hold power."
+    note: "афористичний рядок; коротка карбована побудова важливіша за буквальність"
+  - unit: q58
+    src: "Your language is incomplete."
+    note: "не «неповна мова» як помилка — йдеться про принципову обмеженість людської мови"
+  - unit: q23
+    src: "Consider yourself lucky."
+    note: "локалізувати як сталу формулу, не калькувати"
+
+pitfalls:
+  - "q60 містить $(context.player.Name) — не відмінювати всередині плейсхолдера, речення будувати так, щоб ім’я стояло в називному"
+  - "q23 містить $(#men/women) — обидві гілки українською, узгодити з «Lesser»"
+  - "q17 і q77 — дослівні дублікати; q4 і q95, q116 і q135 — теж. Перекладати однаково"
+  - "Tanner — «Таннер» (реєстр), Faceless — «Безликі», Azif — «Азіф», Oculus — «Окулус», Godmen — «Богмени», Deep Caverns — «Глибокі Печери», South Gate Station — «Станція Саут-Гейт» (глосарій)"
+  - "North Underrail: Underrail лишається латиницею й не відмінюється — «Північна Underrail»"
+  - "q2, q8, q23, q96, q100, q131 містять \\n\\n після нарації — розрив абзацу зберігати"
+
+examples:
+  - unit: q23
+    rule: "$(#men/women) — гендерна гілка, STYLE §2"
+    uk_fragment: "$(#чоловіки/жінки)"
+    status: proposed
+  - unit: q21
+    rule: "формальний наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "Не намагайтеся"
+    status: proposed

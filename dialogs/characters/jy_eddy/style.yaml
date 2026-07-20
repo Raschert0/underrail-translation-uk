@@ -1,0 +1,96 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_eddy
+file_id: dialogs\characters\jy_eddy.txt
+derived_from: source-only
+units: {total: 91, npc: 52, player: 39, empty: 4}
+
+speakers:
+  - slug: eddy
+    name: Едді
+    units: default
+    confidence: certain
+    evidence: [q88, q8, q30]
+    role: >-
+      Ватажок банди Скраппери, що контролює Старе Звалище: наймає гравця на
+      крадіжку й замовне вбивство, платить харонами й відкрито погрожує тим,
+      хто лізе на його територію.
+    relationships:
+      - "Скраппери — його банда: «That’s my gang»"
+      - "Чорні Вугри — вороги, що потай пролізли на Старе Звалище (q15)"
+      - "Елвуд — власник ключ-картки, якого Едді й сам збирався прибрати (q49)"
+      - "Блейн — голова за винагороду, тисяча харонів (q83)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Кримінальний ватажок, що говорить із гравцем як із найманцем: грубі
+        накази, погрози й панібратське $(#jack/sister) — STYLE §3.2 дає «ти»,
+        репліки гравця дзеркалять базу (§3.3).
+      gender_cues: ["$(#jack/sister)"]
+    voice:
+      register: різкий, наказовий, брутально-діловий, без сентиментів
+      idiolect:
+        - "інструкції подає списком коротких наказів: «Go to the slums… Look for a guy named Elwood…»"
+        - "розмовні відмови формулою — «No dice», «Suit yourself», «Too bad»"
+        - "зневажливе звертання замість імені: «genius» (q54)"
+        - "гроші як єдиний аргумент: «Nothing expresses gratitude like money»"
+        - "на відміну від сусіднього вузла jy_colton, g не випадає — Едді говорить грубо, але не по-простацькому; ця різниця має чутися"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; нарації мало, головна — портретна ремарка q8"
+
+new_names: ["Scrappers", "Black Eels", "Depot A"]
+
+idioms:
+  - unit: a48
+    src: "Had to ice him"
+    note: "кримінальний евфемізм убивства; шукати український жаргонний відповідник, не «заморозити»"
+  - unit: q89
+    src: "muscle in on our turf"
+    note: "«лізти на нашу територію» — бандитський регістр, не нейтральний"
+  - unit: q60
+    src: "I knew you could pull it off"
+    note: "не калькувати; «знав, що впораєшся»"
+  - unit: q5
+    src: "That’s the spirit."
+    note: "схвальна формула, коротка; не розгортати в речення"
+  - unit: q22
+    src: "Cheeky bastards!"
+    note: "лайка лишається лайкою — STYLE §9"
+  - unit: q81
+    src: "He was one ugly bugger, wasn’t he?"
+    note: "глум над відрубаною головою; грубість зберігати"
+  - unit: q64
+    src: "Good hunting."
+    note: "напутнє прощання, а не побажання полювання в прямому сенсі"
+  - unit: q27
+    src: "No dice."
+    note: "відмова; жодних кубиків"
+
+pitfalls:
+  - "q27 містить $(#jack/sister) — обидві гілки перекладати українськими звертаннями, латиниці всередині не лишати"
+  - "Old Junkyard у q13, q14, q15, q21, q88 — глосарій: Старе Звалище; Depot A лишається окремою назвою й не зливається з ним"
+  - "«charons» — глосарій: харон; у q16 двісті, у q83 і q85 тисяча — числа не переплутати"
+  - "q65 і q66 різняться лише часом дієслова (used to be / is) — це дві гілки залежно від того, чи живий Елвуд; розрізняти обов’язково"
+  - "Foundry у q88 — глосарій: Ливарня (місто), не фракція Foundry Guard"
+  - "q60 «ol’ Depot A» — просторічне скорочення означення, а не інша назва локації"
+
+examples:
+  - unit: a35
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Піти за ним.::"
+    status: proposed
+  - unit: a46
+    rule: "підказка дії — інфінітив, назва предмета з великої не пишеться"
+    uk_fragment: "::Віддати ключ-картку.::"
+    status: proposed
+  - unit: q27
+    rule: "$(#jack/sister) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q3
+    rule: "наказовий спосіб успадковує «ти», STYLE §3.4"
+    uk_fragment: "зрозумів?"
+    status: proposed

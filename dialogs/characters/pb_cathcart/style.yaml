@@ -1,0 +1,197 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/pb_cathcart
+file_id: dialogs\characters\pb_cathcart.txt
+derived_from: source-only
+units: {total: 299, npc: 186, player: 113, empty: 12}
+
+speakers:
+  - slug: cathcart
+    name: Каткарт
+    units: default
+    confidence: certain
+    evidence: [q254, q245, q15]
+    role: >-
+      Полковник Фредерік Каткарт, комендант Форту Апогей і головнокомандувач
+      операціями Протекторату на Півдні; гравець служить особисто йому.
+      Кадровий військовий, який зневажає дипломатію і говорить наказами.
+    relationships:
+      - "Консул Олівер — цивільний співрозмовник; взаємна повага з постійним тертям через «дипломатичні» методи"
+      - "гравець — його безпосередній підлеглий у званні капрала, звертається виключно «Corporal»"
+      - "штаб-сержант Фрейзер — відповідає за виплати гравцеві"
+      - "міс Трей — секретарка, до неї звертається підкреслено ввічливо"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Статутні стосунки командира й підлеглого: він сам вимагає звертання
+        «sir» і посилання на військовий етикет (q266), гравець відповідає
+        «sir» у переважній більшості a-рядків. STYLE §3.2 — службовий,
+        формальний мовець.
+      gender_cues: ["$(#He'll/She'll)", "$(#He/She)", "$(#his/her)", "$(#Mister/Miss)"]
+      switches:
+        - {unit: q168, to: ви, trigger: "роздратування («Speed it up»); лишається «ви», але наказовий тон різкішає"}
+        - {unit: q170, to: ви, trigger: "«Spill it already» — грубий наказ без зміни регістру"}
+        - {unit: q210, to: ви, trigger: "«My patience is at an end» — межа терпіння"}
+    voice:
+      register: командний, гучний, статутний; довгі періоди без сленгу
+      idiolect:
+        - "«That's what I like to hear» — наскрізний словесний тик (q41, q48, q55, q57, q256, q268, q284); має бути ОДНА стала українська формула в усіх входженнях"
+        - "«Listen up» перед кожним інструктажем (q9, q17, q48, q57, q66, q206, q263) — теж стала формула"
+        - "подвоєння як схвалення: «very good, very good», «yes, yes», «not yet, Corporal, not yet»"
+        - "звертання «Corporal» вставляє в середину й кінець речень майже щоразу — не викидати"
+        - "«Am I clear so far?» як контрольне питання наприкінці інструктажу (q53, q266)"
+
+  - slug: oliver
+    name: Олівер
+    units: [q8, q14, q19]
+    confidence: certain
+    evidence: [q15, q19]
+    role: >-
+      Консул Олівер, цивільний дипломат Протекторату; наполягає, щоб гравцеві
+      розповіли більше, і цим дратує полковника. Говорить м’якше й обережніше,
+      без наказів.
+    relationships:
+      - "Каткарт — формально рівний партнер, фактично суперник у методах"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Дипломат при виконанні обов’язків; про гравця говорить у третій особі
+        («the corporal»), звертається стримано-офіційно. STYLE §3.2.
+      gender_cues: ["$(#He'll/She'll)"]
+    voice:
+      register: стриманий, дипломатичний, з обережними формулами
+      idiolect:
+        - "«Don’t you agree?» — питання-пастка, адресоване полковникові, а не гравцеві"
+        - "«alas», «let’s not forget» — книжніші звороти, ніж у Каткарта"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q17, q18]
+    confidence: unknown
+    reason: >-
+      Свідчення суперечать одне одному. За q17 говорить Каткарт: «listen up» —
+      його стійкий тик, а «Yes…» читається як поступка після власної відмови в
+      q15. Але q18 змістовно тягнеться далі в q19 («would also be a lot easier,
+      let’s not forget»), а q19 закінчується ремаркою «::He turns to Colonel
+      Cathcart.::», тобто Каткартом бути не може. Хто саме веде цей уривок —
+      з тексту не встановлюється.
+    guidance: >-
+      Перекладати нейтрально-офіційним «ви», без гендерованого минулого часу
+      в самоописі мовця й без словесних тиків Каткарта («що я і люблю чути»),
+      щоб атрибуція не закріпилася хибно.
+
+narration:
+  present: true
+  note: >-
+    Багато ремарок ::…:: і підказок дій (::Salute and leave.::, ::Show him the
+    Acorn.::). Нарація — «ви» без винятків (STYLE §3.1); підказки дій усередині
+    ::…:: — інфінітив (STYLE §3.5).
+
+unattributed_units: [q17, q18]
+
+new_names:
+  - Frederick
+  - Mareth
+  - Travis
+  - Cassidy
+  - Korn
+  - Trey
+  - Tim
+  - Red Snake
+  - Hephaestus Research
+  - Fort Apogee
+  - Chemical Assault Unit
+  - ACoNR
+  - Acorn
+  - New Frontier Technology
+  - Security Agency
+  - Central Archive
+  - United Stations
+  - SRO
+  - Dreadnought
+
+idioms:
+  - unit: q2
+    src: "you deserve some R&R"
+    note: "не калькувати абревіатуру; військове «відпочинок і відновлення» або просто «перепочинок»"
+  - unit: q2
+    src: "Good riddance!"
+    note: "зловтішне позбавлення, не нейтральне прощання"
+  - unit: q54
+    src: "Loud and clear, sir."
+    note: "статутна відповідь зв’язку; шукати український військовий відповідник, не дослівне «гучно й ясно»"
+  - unit: q64
+    src: "It all sounded like hogwash to me"
+    note: "розмовне «маячня/бридня»; не «помиї»"
+  - unit: q64
+    src: "a diplomatic pansy"
+    note: "зневажливе до м’якотілості; грубе лишається грубим (STYLE §9)"
+  - unit: q64
+    src: "play nice"
+    note: "іронічні лапки в джерелі зберегти, використати « »"
+  - unit: q70
+    src: "stand toe to toe with the Faceless"
+    note: "«на рівних», не «палець до пальця»"
+  - unit: q122
+    src: "That's enough chit-chat"
+    note: "розмовне «балачки», не «чат»"
+  - unit: q168
+    src: "Speed it up, Corporal."
+    note: "нетерпляче підганяння, не ввічливе прохання"
+  - unit: q170
+    src: "Spill it already"
+    note: "«викладай/кажіть уже», не «розлий»"
+  - unit: q197
+    src: "go out in a blaze of glory"
+    note: "загинути в бою красиво; сталий вислів, не буквальне полум’я"
+  - unit: q234
+    src: "But the knife is dull, Corporal. It is dull."
+    note: "метафора шантажу без наміру вбивати; повтор навмисний — зберегти обидва речення"
+  - unit: q299
+    src: "At ease, Corporal."
+    note: "стройова команда «вільно», а не побажання розслабитися"
+  - unit: a111
+    src: "What the hell. I'll take one, sir."
+    note: "недбала згода; не питання"
+  - unit: a276
+    src: "Hell yeah! It sounds perfect!"
+    note: "єдиний по-справжньому неформальний рядок гравця — і саме на нього полковник реагує доганою в q273/q275"
+
+pitfalls:
+  - "q1, q93, q254, q256, q257, q259, q262, q264, q278 містять $(context.player.Name) — не відмінювати й нічого не дописувати всередині плейсхолдера; будувати фразу так, щоб ім’я лишалося в називному"
+  - "q115 + q116/q124/q125/q126/q127 + q117 — це ОДНЕ речення, розрізане на юніти («Send a sum of » + «thirty-six hundred dollars » + «to my office»). Сума має стати в потрібному відмінку так, щоб склейка лишилася граматичною; кінцеві пробіли зберігати"
+  - "q157 + q158 так само склеюються («In the meantime, » + «I'll wait for…»)"
+  - "q114 і q132 закінчуються порожнім рядком і продовжуються далі — не «дочищати» їх до самостійного речення"
+  - "q266 «You will refer to me as \"sir\"» — сама формула звертання є предметом репліки; переклад «sir» тут має збігатися з тим, як гравець звертається в усіх a-рядках"
+  - "звання (colonel, corporal, captain, staff sergeant, consul, major, general, lieutenant) — з малої, крім початку речення; реєстр §title фіксує цей принцип на прикладі «Chief»"
+  - "«SFC Holloway» (a189, a195) — скорочення звання перед прізвищем; розкривати чи лишати абревіатурою, вирішити один раз на весь вузол"
+  - "GMS (q74) лишається латиницею — на відміну від SGS → ССГ (глосарій)"
+  - "Biocorp (q51, q68, q100, q172) — латиницею, не відмінювати"
+  - "Underrail (q17, q18, q49, q258, q264, q291) — латиницею й без відмінювання навіть у складі фрази «Lower Underrail»"
+  - "«Free Drones» → «Вільні Дрони», «Faceless» → «Безликі», «Protectorate» → «Протекторат», «Core City» → «Центральне Місто», «Epione» → «Епіон», «burrowers» → «копаки», «hopper» → «стрибун» — усе за глосарієм"
+  - "::[Persuade]:: → ::[Переконати]:: за глосарієм; ::[Mercantile]:: у глосарії немає — узгодити з назвою навички в knowledge/, а не вигадувати тут"
+  - "«Dreads» (q85) — розмовне скорочення від Dreadnought; скорочення має впізнаватися як те саме слово, що й повна форма в q71"
+
+examples:
+  - unit: q8
+    rule: "$(#He'll/She'll) — гендерна форма майбутнього часу про гравця, STYLE §2"
+    uk_fragment: "$(#дізнається/дізнається)"
+    status: proposed
+  - unit: q262
+    rule: "$(#Mister/Miss) — гендерне звертання перед іменем, STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q266
+    rule: "$(#his/her) — присвійний займенник, який в українському минулому часі часто вимагає ще одного плейсхолдера поруч"
+    uk_fragment: "$(#свого/свою)"
+    status: proposed
+  - unit: q76
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Віддати честь"
+    status: proposed
+  - unit: q9
+    rule: "нарація — завжди «ви», STYLE §3.1"
+    uk_fragment: "ви не довго чекаєте"
+    status: proposed

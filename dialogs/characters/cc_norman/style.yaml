@@ -1,0 +1,92 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_norman
+file_id: dialogs\characters\cc_norman.txt
+derived_from: source-only
+units: {total: 77, npc: 47, player: 30, empty: 2}
+
+speakers:
+  - slug: norman
+    name: Норман
+    units: default
+    confidence: certain
+    evidence: [q4, q55]
+    role: >-
+      Професор Норман Гак з Університету Діса, винахідник штучної мови Advatongue,
+      яку він вважає вдосконаленою заміною «простої» мови. Уся його лексика —
+      демонстрація вченості й зневаги до «неосвіченого» Центрального Міста.
+    relationships:
+      - "Рік — єдиний його учень; єдиний, хто відгукнувся на оголошення про курс"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Академічний, підкреслено книжний регістр із розгорнутим синтаксисом і
+        латинізованою лексикою («flummox», «ameliorate», «abhorrent», «perfidious»);
+        сам себе титулує «Professor Norman Hack of the University of Dis». Гравець
+        дзеркалить — базово «ви», навіть у грубих варіантах реплік.
+      gender_cues: ["$(#man/woman)"]
+    voice:
+      register: пишномовний, педантичний, поблажливо-зверхній
+      idiolect:
+        - "вигук «Gah» на початку речення — словесний тик, тримати впізнаваним і однаковим"
+        - "«yay» замість «yes», «nay» замість «no» — не звичайні вигуки, а лексика Advatongue"
+        - "повтор «truthis, truthis» — самозадоволене підтакування"
+        - "лайку не вживає взагалі; його обурення виражається лексикою, не грубістю"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки q1, q23, q26, q29, q60, q66"
+
+new_names: ["Hack", "Rick", "Dis", "Advatongue", "Commontongue"]
+
+idioms:
+  - unit: q1
+    src: "Can ho, approacher!"
+    note: >-
+      Вітання штучною мовою, а не фраза-калька. Advatongue-лексику треба вибудувати
+      як послідовну систему один раз і далі тримати незмінною по всьому вузлу.
+  - unit: q4
+    src: "Muchpretty tongue!"
+    note: "словотвір Advatongue за моделлю «much+прикметник»; модель має лишитися впізнаваною"
+  - unit: q9
+    src: "Rick-gentleman"
+    note: >-
+      Advatongue-гоноратив, що додається до імені дефісом; та сама модель у q55
+      «Norman-gentleman». Перекладати як єдину сталу конструкцію, не як «пан Рік».
+  - unit: q10
+    src: "this linguistic cesspit"
+    note: "не калькувати «вигрібна яма»; потрібен український відповідник зневаги до мовного середовища"
+  - unit: q23
+    src: "It will make you feel like a \"peasanut.\""
+    note: "гра слів peasant + peanut — потрібен український каламбур, не переклад значення"
+  - unit: q38
+    src: "So violent, jaazuz!"
+    note: "«jaazuz» — спотворений вигук Advatongue; лишити як вигук, не тлумачити"
+  - unit: q44
+    src: "a muchmindclonking experience"
+    note: "той самий словотвір «much+…», що й у q4 і q62; тримати одну модель"
+
+pitfalls:
+  - >-
+    Головна небезпека вузла: майже половина q-рядків містить слова штучної мови
+    (Can ho, Gone ho, gahgone, observant u soclos, u appar muchpretty au,
+    U unatractiv shlomor, U hothot hrnk, Skwiksamuch, goood workan, Whatan,
+    Bafoonsohard, donotdo, fewthatanrul, meengoood). Це не англійський текст —
+    машинний переклад тут гарантовано хибний, кожне слово потребує свідомого рішення.
+  - "q17 пояснює вимову через латинське написання («A» in «can» — like «a» in «cargo»); якщо слово Advatongue передати кирилицею, пояснення розсиплеться — рішення про графіку приймати одразу для всього вузла"
+  - "q56, q57 — фрази Advatongue у вустах гравця (a56 «Observant u soclos, Norman-gentleman.»); мають дослівно збігатися з тим, що Норман навчив у q55"
+  - "q62, q64 — суцільні репліки Advatongue, не окремі вкраплення"
+  - "q68 містить $(#man/woman) — обидві гілки в українських гендерних формах"
+  - "q3 і q71 — майже дублікати («Hear me...» / «Hear now...»); розбіжність лише у фінальній формулі, решту тримати ідентичною"
+  - "q10 містить Pipeworker (глосарій: труболаз) і q44/q49/q50 — JKK, Coretech, Praetorian Security: лишаються латиницею"
+
+examples:
+  - unit: q9
+    rule: "Advatongue-гоноратив як стала конструкція, не заміна на українське звертання"
+    uk_fragment: "Рік-добродій"
+    status: proposed
+  - unit: q68
+    rule: "$(#man/woman) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#неосвічений/неосвічена)"
+    status: proposed

@@ -1,0 +1,138 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_georgis
+file_id: dialogs\characters\tch_georgis.txt
+derived_from: source-only
+units: {total: 274, npc: 154, player: 120, empty: 5}
+
+speakers:
+  - slug: georgis
+    name: Георгіс
+    units: default
+    confidence: certain
+    evidence: [q267, q83, q159]
+    role: >-
+      Головний дослідник (Principal Investigator) і керівник Відділу хімії в
+      Інституті Тчорта; веде дві побічні лінії — польове випробування кислотного
+      пістолета XAL-001 і пошук даних у Hecate Research Outpost. Хронічно
+      недосипає (позіхає майже в кожній сцені) і потайки жене власний алкоголь.
+    relationships:
+      - "Октавія — його дослідниця, сидить під дверима кабінету; до неї він відсилає гравця по хімікати та по аналіз"
+      - "Ейдейн — предмет побожної шани, його ім’я у формулі вибачення"
+      - "Ріста і Штефф — двоє інших головних дослідників, єдині, кому він довіряє дегустацію"
+      - "Лідія (Episkopos) — вища за рангом; він обіцяє згадати перед нею заслуги гравця"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Учений і керівник відділу, який щойно познайомився з гравцем: розгорнутий
+        книжний синтаксис, майже без скорочень, формульні перепрошення
+        («Pardon me», «Allow me to explain what I meant», «It is... appreciated»).
+        Це випадок STYLE §3.2 «формальні, службові» — «ви». Звертання
+        $(#brother/sister) тут не панібратство, а обрядова формула секти й
+        нормально співіснує з «ви». Репліки гравця дзеркалять базу (STYLE §3.3),
+        включно з підкреслено ввічливим «Pleasure to meet you, Investigator».
+      gender_cues: ["$(#brother/sister)", "$(#Brother/Sister)", "$(#men/women)"]
+      switches:
+        - {unit: q159, to: ти, trigger: "сцена пиятики: від q159 і далі він п’яний, мова розсипається на склади, він освідчується у приязні — тут «ви» звучало б штучно"}
+        - {unit: q208, to: ти, trigger: "початок дегустації за зачиненими дверима — та сама сцена, вхід у неї"}
+    voice:
+      register: книжний, багатослівний, доброзичливо-педантичний; у сцені пиятики — розпливчастий і сентиментальний
+      idiolect:
+        - "«apex» — головний словесний тик, тчортистський сленг у значенні «найвищого ґатунку»; у ~25 репліках. Потрібне ОДНЕ українське слово, повторюване дослівно скрізь, а не синоніми до смаку"
+        - "«Yes, right...» — заповнювач на початку репліки, теж має бути сталою формулою"
+        - "«Magnificent Tchort!» / «By the Tchort» — вигук-божба; «Eidein pardon me» — формула вибачення"
+        - "«Oh, oh, oh» — потрійне вигукування у вітанні та схваленні (q267, q159, q222)"
+        - "::He yawns.:: — наскрізний ремарковий рефрен, тримати однаково в усіх юнітах"
+        - "у сцені сп’яніння слова рвуться дефісом: «Dr-ink», «g-lad», «ba-tch», «pr-incipal», «in-stituti-on»"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Увага: частина q-юнітів — це не мовлення
+    Георгіса, а нарація від другої особи про гравця (q4, q82, q83, q95, q158,
+    q161, q165, q211, q216, q221, q228, q241, q242); мовець там відсутній.
+    Підказки дій у ::…:: усередині a-юнітів — інфінітив (STYLE §3.5):
+    ::Get ready.::, ::Smell the drink.::, ::Take the shot.::
+
+new_names:
+  - "Azarias"
+  - "Bradock"
+  - "Hecate Research Outpost"
+  - "Alcosynth"
+  - "Preservation"
+  - "Lunatics"
+  - "Tchortists"
+  - "XAL-001"
+  - "Experimental Acid Launcher"
+  - "Episkopos"
+  - "Harmost"
+  - "Judicator"
+  - "Monsignor"
+  - "Efreitor"
+  - "Principal Investigator"
+  - "Department of Chemistry"
+  - "Department of Genetics"
+  - "Investigation"
+  - "Reaching Man"
+
+idioms:
+  - unit: a11
+    src: "As apex as siphoner in a pig pen."
+    note: "жартівливе порівняння; «висмоктувач» з глосарія, але саму конструкцію не калькувати дослівно"
+  - unit: q38
+    src: "Tchort's tentacles pull me down and strangle me"
+    note: "внутрішньосвітова божба — зберегти образ щупалець, не заміняти нейтральним вигуком"
+  - unit: q38
+    src: "worse than boiled rathound urine"
+    note: "грубість лишається грубою (STYLE §9); «щурчак» — з глосарія"
+  - unit: q57
+    src: "it is what it is"
+    note: "усталений зворот, повторюється в q70 і q237 — потрібен один сталий український відповідник в усіх трьох"
+  - unit: q106
+    src: "yada, yada, yada"
+    note: "розмовне «і так далі» на розмовному регістрі, не калькувати складами"
+  - unit: q87
+    src: "up to par with the task"
+    note: "«відповідає завданню», не калька про «пар»"
+  - unit: a88
+    src: "I'm off to use this bad boy"
+    note: "розмовне звертання до зброї; локалізувати, не перекладати «поганий хлопчик»"
+  - unit: a189
+    src: "get wasted like a pig"
+    note: "грубе розмовне про сп’яніння — не пом’якшувати"
+  - unit: q228
+    src: "you experienced an olfactory genocide"
+    note: "навмисна гіпербола автора; зберегти різкість образу, не приглушувати"
+  - unit: a143
+    src: "I hope I have your divided attention!"
+    note: "каламбур на мітозі (divided = поділений/розділений); потребує українського каламбуру, а не буквального перекладу — той самий жарт повторюється в a196, обидва мають збігатися дослівно"
+
+pitfalls:
+  - "$(context.player.Name) у 18 юнітах — не відмінювати всередині плейсхолдера й не додавати до нього закінчень"
+  - "q267 і q3 містять сталу формулу «Tchort is evolution» / відповідь a268 «Evolution is Tchort» — це дзеркальна пара, переклад має лишатися оберненим одне до одного"
+  - "q20, q111, q113, q114, q132, q172 містять літеральне \\n\\n — переносити без змін"
+  - "рвана вимова п’яного (q163 «Dr-ink», q167 «g-lad», q168 «ba-tch», q188 «Tch-ort») відтворюється на українському приголосному (STYLE §9), а не переноситься механічно на ту саму позицію"
+  - "q159 «goOoOoOoOod» — розтягнутий голосний, зберегти прийом, а не писати слово нормально"
+  - "q188 «ret-t-t-tarded thoughts» — образливе слово в устах п’яного; не пом’якшувати й не вилучати"
+  - "a244, a254, a255, a256 — самі звуконаслідування; передавати українською фонетикою, не лишати латиницею"
+  - "роки в мовленні написані словами («year ninety-eight», «around eighty-five», «year ninety-two») — зберегти словесну форму"
+  - "«Investigator Octavia», «Principal Investigator Georgis», «Investigator» як звертання — звання з малої (STYLE §6, пор. «шеф Найт»), але сам термін ще не має канонічного відповідника, див. new_names"
+
+examples:
+  - unit: q25
+    rule: "$(#brother/sister) — гендерне звертання, обидві гілки в кличному відмінку, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q13
+    rule: "капіталізація гілки зберігається, коли плейсхолдер відкриває речення"
+    uk_fragment: "$(#Брате/Сестро)"
+    status: proposed
+  - unit: q19
+    rule: "$(#men/women) — узгодження прикметників усередині обох гілок"
+    uk_fragment: "$(#чоловіків/жінок)"
+    status: proposed
+  - unit: a14
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Приготуватися.::"
+    status: proposed

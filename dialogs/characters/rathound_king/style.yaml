@@ -1,0 +1,123 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/rathound_king
+file_id: dialogs\characters\rathound_king.txt
+derived_from: source-only
+units: {total: 140, npc: 84, player: 56, empty: 3}
+
+speakers:
+  - slug: rathound_king
+    name: Король Щурчаків
+    units: default
+    confidence: certain
+    evidence: ["q125", "q58", "q13"]
+    role: >-
+      Самопроголошений володар зграї щурчаків у печерах на південь від Табору Хатор:
+      величезний, жорстокий, зациклений на власній величі й на зневазі до «слабаків».
+      Веде багаторічну ворожнечу з мисливцями Табору Хатор і жадає Сарін собі за королеву.
+    relationships:
+      - "Сарін — бранка, яку він хоче зробити «королевою»; вона відповідає лютою ненавистю"
+      - "Gideon (покійний ватажок Табору Хатор) — заклятий ворог; саме ім’я вимовляється з гарчанням"
+      - "Beck — син Gideon’а, ненависний уже за походженням"
+      - "щурчаки — «мої брати й сестри», зграя, а не звірі"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Мовець грубий, зверхній, звертається до гравця «weakling», «my amusing guest»,
+        погрожує смертю в тій самій репліці — STYLE §3.2 однозначно дає «ти».
+        Репліки гравця дзеркалять базовий регістр співрозмовника (§3.3), тому теж «ти»,
+        навіть у поштивих за змістом рядках.
+      gender_cues: ["$(#he/she)", "$(#man/woman)"]
+      switches:
+        - {unit: a133, to: ти, trigger: "«I bow down to you, Rathound King» — регістр лишається «ти», але лексика піднесена; не переводити на «ви»"}
+    voice:
+      register: гучний, пихатий, погрозливий; лексика проста й архаїчно-пафосна
+      idiolect:
+        - "постійно говорить про себе в третій особі: «the Rathound King», «I am the Rathound King»"
+        - "вигук «HA!» капслоком як розділовий знак — зберігати капслок і окличність"
+        - "«weakling»/«weaklings» — наскрізне лайливе означення ворогів і гравця"
+        - "навмисно неправильна граматика: «I am more strong», «a man who lacks determination is a weaklings»"
+        - "перекручує незнайомі слова: «Metasis? Geneticisist?» (q117) — спотворення відтворити на українських відповідниках"
+        - "звертається до Сарін просто «woman» — знеособлено, зневажливо"
+
+  - slug: sarine
+    name: Сарін
+    units: [q6]
+    confidence: certain
+    evidence: ["q6"]
+    role: >-
+      Викрадена бранка з Табору Хатор, замкнена в клітці; єдина її репліка в цьому вузлі —
+      вибух люті на адресу Короля Щурчаків, а не гравця.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Звертається не до гравця, а до Короля Щурчаків, і то з прямою погрозою
+        («I’ll rip your heart out») — тільки «ти».
+    voice:
+      register: криклива лють, пряма образа без пом’якшення
+      idiolect:
+        - "нанизує лайливі означення в зірочках: *repulsive*, *pathetic* — зірочки зберігати"
+        - "випадання g: «touchin’» — розмовна вимова"
+
+narration:
+  present: true
+  note: >-
+    Великі описові блоки q1, q2, q124, q114 — «ви» без винятків, STYLE §3.1, попри те що
+    сам Король каже «ти». Підказки дій ::Fight!::, ::Nod and leave.::, ::Bow down.::,
+    ::Laugh.:: — інфінітив, STYLE §3.5.
+
+new_names: ["Rathound King", "Gideon", "Sud"]
+
+idioms:
+  - unit: q12
+    src: "dies from sorrow like a spineless worm"
+    note: "не калькувати «безхребетний»; шукати українську лайку зі значенням «мамула, слизняк»"
+  - unit: q15
+    src: "Coal diggers who think they have it all figured out"
+    note: "«have it all figured out» — розмовне «все второпали / усе про життя знають», не буквально"
+  - unit: q38
+    src: "the position of a stunned crawler prey"
+    note: "crawler — глосарний «повзун»; порівняння лишити мисливським, не абстрактним"
+  - unit: q127
+    src: "the bodies of weaklings sate my rathounds’ hunger"
+    note: "високий регістр «sate» — не знижувати до «годують»"
+  - unit: q135
+    src: "you’ve got another think coming"
+    note: "ідіома «сильно помиляєшся»; калька з «думкою» неможлива"
+  - unit: q136
+    src: "no more fierce than a pup squealing for his mommy’s milk"
+    note: "образа через порівняння зі щеням — зберегти зневажливу пестливість «mommy’s»"
+  - unit: q114
+    src: "the joke didn’t land"
+    note: "нарація; «жарт не зайшов», не «не приземлився»"
+
+pitfalls:
+  - "q4, q10, q44, q78, q80, q100, q127, q134, a126, a133, a135, a137 містять $(context.player.Name) — не відмінювати всередині плейсхолдера, будувати фразу так, щоб ім’я стояло в називному"
+  - "q106 має $(#he/she), q134 — $(#man/woman): це згадка про гравця в третій особі, а не звертання; гендерувати треба присудок і означення навколо, не саме звертання"
+  - "Титул «Rathound King» вживається і як ім’я, і як звертання (a26, a64, a79) — форма має бути одна й та сама, кличний відмінок у звертаннях"
+  - "rathound(s) → глосарний «щурчак/щурчаки», hoppers → «стрибуни», crawler → «повзун», Camp Hathor → «Табір Хатор» — не вигадувати нових варіантів"
+  - "q8 «Welcome to the pack!» і q32 «Welcome to the Pack» — регістр літери в джерелі різний; в українському тексті звести до одного варіанта"
+  - "a116 будується на грі слів «divided attention» (клітина ділиться / розділена увага) — потрібен свій український каламбур, калька зруйнує наступну репліку q117"
+  - "q117 «Metasis? Geneticisist?» — навмисне перекручення слів персонажем, а не помилка джерела; перекручення обов’язково відтворити"
+  - "\\n\\n усередині q2, q6, q8, q10, q44, q60, q78, q80, q127, q129, q134, q136 — службовий розрив рядка, зберігати як є"
+  - "слова в зірочках (*repulsive*, *You*, *our*, *them*, *will*) — рушійний наголос, зірочки не прибирати й не переносити на інше слово"
+
+examples:
+  - unit: q62
+    rule: "«ти» від NPC, наказовий спосіб успадковує вибір — STYLE §3.4"
+    uk_fragment: "не гніви мене"
+    status: proposed
+  - unit: q1
+    rule: "нарація ::…:: завжди на «ви» — STYLE §3.1"
+    uk_fragment: "височіє над вами"
+    status: proposed
+  - unit: a3
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed
+  - unit: q106
+    rule: "$(#…) гендерує присудок, а не звертання — STYLE §2"
+    uk_fragment: "$(#каже/каже)"
+    status: proposed

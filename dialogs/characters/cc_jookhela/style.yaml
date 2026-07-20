@@ -1,0 +1,62 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_jookhela
+file_id: dialogs\characters\cc_jookhela.txt
+derived_from: source-only
+units: {total: 15, npc: 12, player: 3, empty: 2}
+
+speakers:
+  - slug: narrator
+    name: нарація
+    units: default
+    confidence: certain
+    evidence: [q1, q7, q12]
+    role: >-
+      Мовця-персонажа у вузлі немає: Джукгела — псіонічно активний
+      сріблястий щурчак, який не говорить. Усі дванадцять q-юнітів — суцільна
+      нарація про його поведінку й про наслідки дій гравця.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Нарація — завжди «ви», без винятків, STYLE §3.1. Репліки гравця тут
+        теж є підказками дій у ::…::, тож окремого розмовного регістру вузол
+        не має.
+    voice:
+      register: описовий, рівний, трохи піднесений у першому рядку
+      idiolect:
+        - "тварина послідовно позначається як «the creature» / «it» — середній рід, не олюднювати"
+        - "розгалуження успіх/невдача дзеркальні (q7 і q9, q12 і q13) — будувати їх паралельно, різниця лише в результаті"
+
+narration:
+  present: true
+  note: >-
+    Увесь вузол — нарація й підказки дій: «::Fight!::» (a10), «::Strut your
+    stuff…::» (a5), «::Try to establish dominance telepathically.::» (a11) —
+    інфінітив, STYLE §3.5
+
+new_names: []
+
+idioms:
+  - unit: a5
+    src: "Strut your stuff in an attempt to establish dominance."
+    note: "«strut your stuff» — випнутися, показати себе; не калькувати як «продемонструвати речі»"
+  - unit: q13
+    src: "it comes up on top"
+    note: "«бере гору», не буквальне «виходить нагору»"
+  - unit: q9
+    src: "Your feeble attempts at looking more menacing than a giant rathound"
+    note: "іронія оповідача над гравцем — глум має читатися, не згладжувати"
+
+pitfalls:
+  - "rathound → щурчак (глосарій)"
+  - "Jookhela → Джукгела (реєстр); у самому тексті ім’я не звучить — воно лише в назві вузла"
+  - "q3 починається з пробілу перед «::» — пробіл зберегти"
+  - "«psionically active» (q3) — псіонічна активність істоти, не «психічна»"
+  - "нарація описує дії гравця у другій особі («You lock into a mental struggle») — це «ви», а не безособова форма"
+
+examples:
+  - unit: a10
+    rule: "підказка дії — інфінітив, STYLE §3.5"
+    uk_fragment: "::Битися!::"
+    status: proposed

@@ -1,0 +1,90 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/dun_lup-a_fred
+file_id: dialogs\characters\dun_lup-a_fred.txt
+derived_from: source-only
+units: {total: 36, npc: 20, player: 16, empty: 3}
+
+speakers:
+  - slug: fred
+    name: Фред
+    units: default
+    confidence: certain
+    evidence: [q22, q17]
+    role: >-
+      Виснажений, заляканий працівник підземних переходів, якому заборонили
+      говорити з чужими. Кожну відповідь дає з переляку й одразу відсилає
+      гравця до когось іншого.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Він боїться й запобігає перед незнайомцем — благальне «P-please»,
+        «Leave me alone, please» (q35), очі в підлогу. Це не панібратство, а
+        дистанція знизу, тож «ви» (STYLE §3.2). Гравець базово дзеркалить;
+        натиск у a16 — емоційний зрив, а не зміна бази (§3.3).
+      gender_cues: []
+    voice:
+      register: тихий, зіщулений, з паузами й перепрошуванням
+      idiolect:
+        - "заїкання на початку слова: P-please, I-I, q-quiet, W-who (q17, q25, q28)"
+        - "заповнювачі вагання: Uhh, Umm, Ahh, Huh"
+        - "не договорює й відсилає далі: «just go talk to someone else» (q17)"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q2, q3, q4, q5, q6, q7, q10, q11, q12]
+    confidence: unknown
+    reason: >-
+      Дев’ять коротких барків — самі емоції (::Drools.::, ::Laughs.::,
+      ::Rattles his teeth.::) і два репліки-роздуми (q10, q11), які ніяк не
+      в’яжуться з переляканим Фредом і не мають жодної позначки мовця. Судячи
+      з опису в q13, довкола є ціла громада таких самих виснажених людей; кому
+      саме належать ці рядки, з файлу не видно.
+    guidance: >-
+      Перекладати як безадресні ремарки й короткі репліки: нарація в ::…:: —
+      «ви» за STYLE §3.1, вимовлені q10 і q11 — нейтральною побудовою без
+      гендерованого минулого часу й без звертань.
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут q13, q15, q17, q25, q30 і підказки дій у a19, a27, a32"
+
+unattributed_units: [q2, q3, q4, q5, q6, q7, q10, q11, q12]
+
+new_names: ["plasma sentry"]
+
+idioms:
+  - unit: q17
+    src: "dont lash out at me"
+    note: "«lash out» — накинутися, не «вдарити батогом»; розмовний рівень зберегти"
+  - unit: a20
+    src: "I'll just mind my own business."
+    note: "стала формула невтручання, локалізувати як формулу"
+  - unit: q30
+    src: "Hoplessness was the only feeling I've had here."
+    note: >-
+      Ключова репліка вузла — єдиний момент, коли Фред говорить прямо.
+      Тримати просту, не літературну побудову.
+
+pitfalls:
+  - >-
+    Заїкання відтворювати на українському приголосному (STYLE §9): дефіс і
+    подвоєний перший звук українського слова, а не механічне копіювання
+    англійських літер.
+  - >-
+    Джерело рясніє помилками автора: «dont» (q17, a24), «finnaly», «Hoplessness»,
+    «.,,» (q30), «occassional». Це недбалість оригіналу, а не мовна риса —
+    українською пишемо нормативно.
+  - >-
+    q22 «You know that, I'm Fred» — саме тут установлюється ім’я мовця;
+    реєстр дає Fred → Фред і застерігає не плутати з Fredd → Фредд.
+  - >-
+    a29 «The plasma sentries are no more» — назва ігрового супротивника,
+    звіряти з knowledge/, а не вигадувати тут.
+
+examples:
+  - unit: q17
+    rule: "заїкання на українському приголосному, STYLE §9"
+    uk_fragment: "б-будь ласка"
+    status: proposed

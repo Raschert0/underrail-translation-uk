@@ -1,0 +1,170 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/rc_dude
+file_id: dialogs\characters\rc_dude.txt
+derived_from: source-only
+units: {total: 1087, npc: 602, player: 485, empty: 30}
+
+speakers:
+  - slug: dude
+    name: Чувак
+    units: default
+    confidence: certain
+    evidence: [q400, q443, q445, q439]
+    role: >-
+      Постійний супутник гравця на всю лінію «мандрівки крізь розломи»: п’яний
+      самозваний провидець, хімік-самоук і винахідник Соку. Говорить безперервно,
+      плутано й самовпевнено — картка потрібна саме тому, що його голос має
+      лишатися однаково розхлябаним на всіх 602 репліках, а не «випрямлятися»
+      в довгих монологах.
+    relationships:
+      - "Гравець — напарник і «той, хто все приносить»; Чувак вважає його рівнею й другом"
+      - "Quinton — постачальник, якого Чувак уперто зве «Quentin» (q111, q113); помилка сюжетна"
+      - "Шинкар Залізничного Переїзду — постійний адресат вигуків «Barkeeper! Another one!» (q533)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Панібратський вуличний голос без жодної службової дистанції: звертання
+        «man» у майже кожній репліці, «Hey, man», «Cheers, man», лайка й
+        грубощі (q217 «you ain't retarded», q609 «shut the hell up»). Гендерні
+        плейсхолдери фамільярні — $(#man/girl), $(#guy/gal) — а не $(#sir/ma'am).
+        За STYLE §3.2 це однозначне «ти»; репліки гравця дзеркалять його (§3.3).
+      gender_cues: ["$(#man/girl)", "$(#guy/gal)", "$(#he/she)"]
+    voice:
+      register: >-
+        п’яний, розслаблений, безкінечно балакучий; тягне довгі псевдонаукові
+        монологи, які самі себе плутають
+      idiolect:
+        - "«man» у кінці або всередині майже кожної фрази — головний словесний тик; це паразит, а не звертання «чоловіче», і перекладати щоразу однаково не можна"
+        - "«like» як вставне слово-паразит («I, like, don't understand», «it's, like, wrong») — потребує українського відповідника-паразита, не пропуску"
+        - "«Cheers!» / «Cheers, man!» — стала кінцівка тиради, майже підпис"
+        - "перериває сам себе трикрапками й перезапускає речення: «I... I don't, like... Wait, wait!» (q51)"
+        - "лічить аргументи хибно: «First… since… Third» (q507) — помилка навмисна"
+        - "у видіннях мова розпадається на уривки з трикрапками (q548, q326)"
+    note: >-
+      У вузлі говорить лише Чувак і нарація. Шинкар, «that man» (q1056, q1068,
+      q1078) і Quinton згадуються та цитуються, але власних q-юнітів не мають.
+
+narration:
+  present: true
+  note: >-
+    Дуже великий пласт: довгі описові вставки від другої особи (q94, q685, q757,
+    q1068, q1084, q1087). «Ви» без винятків — STYLE §3.1 — навіть коли поруч
+    Чувак каже «ти». Підказки дій усередині ::…:: — інфінітив (§3.5).
+
+new_names:
+  - Quentin
+  - Connor
+  - ACoNR
+  - Acorn
+  - John Dyson
+  - Ebeneezer
+  - Rob
+  - Shoe Devourer
+  - The Hanging Rat
+  - Drag 'n' Drop
+  - Dominating Bar
+  - Hexagon
+  - In-between
+  - Juice
+  - Other Space
+  - Acidopper
+  - Pondering Creators
+  - Satrogrom
+
+idioms:
+  - unit: q2
+    src: "I'm just rift-passing through"
+    note: "гра з «just passing through»; каламбур має лишитися каламбуром, не пояснювати"
+  - unit: q5
+    src: "one of those, like, deja whoa moments"
+    note: "перекручене deja vu; спотворення обов’язкове, не виправляти на правильний термін"
+  - unit: q6
+    src: "I need it for a yeast feast"
+    note: "римований жарт про бродіння; шукати українську співзвучність, не кальку"
+  - unit: q163
+    src: "Are you derailed, man!?"
+    note: "внутрішньоігровий сленг «здурів» через залізничну метафору; тримати залізничний образ, він повторюється (a330)"
+  - unit: q382
+    src: "Like a good rug that really, like, ties the room together"
+    note: "цитата з «Великого Лебовскі»; повторюється у q285 — обидва місця мають звучати однаково"
+  - unit: q525
+    src: "that's just, like, your opinion, man"
+    note: "та сама цитата-мем; не згладжувати до нейтрального «це твоя думка»"
+  - unit: q610
+    src: "I used to be an adventurer like you, but then I took a bolt in the knee"
+    note: "мем зі Skyrim, перероблений на арбалетний болт; має впізнаватися"
+  - unit: q66
+    src: "you're busting my chops"
+    note: "розмовне «чіплятися/діставати», не калькувати"
+  - unit: q384
+    src: "Cut me some slack, man"
+    note: "локалізувати як «не чіпляйся», а не дослівно"
+  - unit: q832
+    src: "a dude's got to keep his man-boulders safe"
+    note: "грубий евфемізм; STYLE §9 — грубе лишається грубим, не пом’якшувати"
+  - unit: q217
+    src: "you ain't retarded"
+    note: "образливе за задумом; не санітизувати"
+  - unit: q123
+    src: "It's - *A Connor*!"
+    note: >-
+      наскрізний каламбур ACoNR / Acorn / A Connor / Awesome Computer of Notable
+      Roundness (q123–q176). Три прочитання однієї абревіатури мають зійтися
+      в українському варіанті — вирішувати весь блок разом, а не порядково
+  - unit: q157
+    src: "boxes of notable cubeness... of notable tesseractness"
+    note: "псевдонауковий словотвір за зразком «of notable roundness»; тримати єдину модель"
+  - unit: a894
+    src: "Time to kick ass and chew bubble gum"
+    note: "мем з Duke Nukem; має лишитися впізнаваною цитатою"
+  - unit: q276
+    src: "When you got zilch"
+    note: "просторічне «ні шеляга», не нейтральне «нічого»"
+
+pitfalls:
+  - "a442 містить $(context.player.Name) — не відмінювати всередині плейсхолдера і не переносити його в інший відмінок фрази"
+  - "Ім’я персонажа збігається із загальною назвою: «I'm the Dude» (q400, q439, q587) — Чувак з великої; «a dude's got to live somewhere» (q800), «if a dude ventures» (q594), «being the Dude» (q111) — загальна назва з малої. Розрізняти щоразу"
+  - "Quinton vs Quentin (q111, a112, q113, a114) — Чувак вимовляє ім’я неправильно, гравець його виправляє. Канонічне Quinton → Квінтон (registry); для Quentin потрібна окрема, чутно інша форма, інакше жарт зникає"
+  - >-
+    Багато q-юнітів — обірвані фрагменти одного речення, склеєні в грі з наступним:
+    q165 «And», q172 «Sure, man. But», q241 «Whoever you find, just tell them»,
+    q519 «High pressure...», q559 «NAH! I'll have another one. Bar--», q1039
+    «Therefore,». Не добудовувати їх до повного речення й не ставити крапку
+  - >-
+    Довгий п’яний блок реплік гравця (a815–a1082) навмисно записаний із
+    заїканням: «H-here you go», «C-an you o-open», «ssss-ince», «doo-doo-- I mean
+    - do». За STYLE §9 заїкання відтворюємо на українському приголосному, а не
+    копіюємо англійські літери; a1000 «I'll t-t-t... t-t-t... Damn it! *Try*» —
+    заїкання має зриватися саме на тому слові, яке потім вимовляється чисто
+  - "Терміни з глосарію в тексті: rathound(s), hopper(s), burrower(s), siphoner(s), crawler, psi beetles, mindshroom, Faceless, Free Drones, Protectorate, Deep Caverns, Rail Crossing, South Gate Station, Core City, Junkyard, Foundry, The Rig, Buzzer, Invictus, Hardcore City Bar — брати готові відповідники, не вигадувати"
+  - "Biocorp, Underrail, Underrail Express — латиницею, не відмінювати (глосарій)"
+  - "«the Core» як скорочення від Core City (q630, q913 «rusty bar in the Core») — окреме рішення від Core Ring; узгодити перед перекладом"
+  - "Похідні від crawler: shadow crawlers / death stalkers / black crawlers (q592–q594) — Чувак вибудовує з них градацію темряви; ряд має читатися як ряд"
+  - "«the Juice» — назва препарату, скрізь з великої й однаково; «brew» (mushroom brew) — окремий напій, плутати не можна, вони протиставлені в q346"
+  - "Підказки дій у ::…::: ::Barter.::, ::Nod.::, ::Follow Dude.::, ::Say nothing.::, ::Drink with Dude.::, ::Give him the ingredients.:: — інфінітив, STYLE §3.5"
+  - "Літерали \\n\\n усередині юнітів — розрив абзацу, зберігати як є"
+  - "«Princigator George» / «Invipal» (a1076, a1077) — п’яна каша зі слів, а не власні імена; відтворювати як спотворення, не транслітерувати як ім’я"
+
+examples:
+  - unit: q266
+    rule: "$(#man/girl) — фамільярне гендерне звертання, STYLE §2"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed
+  - unit: q888
+    rule: "$(#guy/gal) у складі присудка — гендеруємо прикметник"
+    uk_fragment: "$(#крутий/крута)"
+    status: proposed
+  - unit: q548
+    rule: "$(#he/she) — займенник у нарації видіння"
+    uk_fragment: "$(#він/вона)"
+    status: proposed
+  - unit: a314
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Кивнути.::"
+    status: proposed
+  - unit: a815
+    rule: "заїкання відтворюємо на українському приголосному, STYLE §9"
+    uk_fragment: "О-ось"
+    status: proposed

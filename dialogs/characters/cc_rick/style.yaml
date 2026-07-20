@@ -1,0 +1,70 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_rick
+file_id: dialogs\characters\cc_rick.txt
+derived_from: source-only
+units: {total: 11, npc: 11, player: 0, empty: 1}
+
+speakers:
+  - slug: rick
+    name: Рік
+    units: default
+    confidence: probable
+    evidence: [q5]
+    role: >-
+      Вуличний дивак із Центрального Міста, який говорить власним ламаним
+      псевдодіалектом і хизується тим, що його «навчили» говорити «культурно».
+      Захоплено переказує бої на Арені.
+    relationships:
+      - "Норман — той, хто нібито навчив його «Advatongue» (q5)"
+    address:
+      npc_to_player: ти
+      basis: >-
+        Панібратський вуличний зачіпало, який одразу лізе з жартами й
+        компліментами незнайомцеві («U appar muchpretty au»); STYLE §3.2 — свій,
+        вуличний, отже «ти».
+      gender_cues: []
+    voice:
+      register: белькітливий, збуджений, вуличний
+      idiolect:
+        - "суцільний вигаданий піджин: зрощені слова (muchpretty, unedicatid, morenot)"
+        - "«recept» замість «чути/бачити»: earrecept, eyerecept — власна словотвірна модель"
+        - "вигуки-затравки: Gah!, Jaazuz!, Yay"
+        - "«Truthis, truthis» — повторюване підтвердження, словесний тик"
+
+narration:
+  present: false
+
+new_names: ["Rick", "Venator", "Cranium Basher", "Advatongue", "Hardokoro"]
+
+idioms:
+  - unit: q3
+    src: "U speakish Advatongue?"
+    note: >-
+      Не перекладати нормативною мовою. Мова персонажа — суцільний зіпсований
+      піджин, і українська версія має бути так само зіпсованою й упізнавано
+      системною: ті самі зрощення й покручені суфікси в усіх десяти рядках.
+  - unit: q7
+    src: "How doo u does?"
+    note: "навмисна граматична помилка джерела — відтворити помилку, а не виправити"
+  - unit: q10
+    src: "mindclonking yoyos"
+    note: "лайка-новотвір; шукати український новотвір, не кальку"
+
+pitfalls:
+  - >-
+    Головна небезпека — «причесати» мову до нормативної. Ламаність тут
+    характеротворча, а не дефект джерела.
+  - >-
+    «Advatongue» і «Hardokoro» — покручені персонажем форми (ймовірно від
+    «advanced tongue» і «Hardcore»), тож вони мають лишитися покрученими й
+    в українській; до new_names внесені саме для централізованого рішення.
+  - >-
+    q4 «Core City dominativ!» містить топонім із глосарія — «Центральне Місто»,
+    але сама фраза лишається покрученою.
+
+examples:
+  - unit: q6
+    rule: "зрощення слів як стала риса ідіолекту, а не одноразовий жарт"
+    uk_fragment: "дужегарний"
+    status: proposed

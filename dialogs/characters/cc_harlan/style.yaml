@@ -1,0 +1,99 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_harlan
+file_id: dialogs\characters\cc_harlan.txt
+derived_from: source-only
+units: {total: 153, npc: 92, player: 61, empty: 3}
+
+speakers:
+  - slug: harlan
+    name: Гарлан
+    units: default
+    confidence: certain
+    evidence: [q10, q54, q61, q66]
+    role: >-
+      Джозеф Гарлан — кадровик і куратор гравця в Coretech: наймає, видає
+      завдання, платить і при цьому весь час оцінює. Мова корпоративно
+      відшліфована, доброзичливість — інструмент, тому будь-яке потепління чи
+      похолодання тону тримається в межах бездоганної ввічливості.
+    relationships:
+      - "Руперт Сіммонс — начальник; Гарлан посилається на нього як на джерело рішень і винагород"
+      - "агентка Гендерсон — колега, гине в q47; його реакція навмисно стримана"
+      - "Любен — підозрюваний працівник, якого Гарлан доручає знайти"
+      - "гравець — підлеглий: спершу «$(#Mister/Miss)», після найму «Agent»"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службові стосунки й підкреслено офіційне звертання: «$(#Mister/Miss)
+        $(context.player.Name)» (q1, q2, q7, q135) і «Agent» (q52, q57, q123,
+        q126). STYLE §3.2 — формальний, службовий мовець. Репліки гравця
+        дзеркалять базовий регістр (§3.3).
+      gender_cues: ["$(#Mister/Miss)", "$(#he/she)"]
+      switches:
+        - {unit: q137, to: ви, trigger: "догана за нахабство — тон холоднішає, регістр лишається «ви»"}
+        - {unit: q141, to: ви, trigger: "виставляє за двері — так само підкреслено ввічливо"}
+    voice:
+      register: корпоративний, гладенький, незмінно усміхнений; загроза завжди в підтексті
+      idiolect:
+        - "«I can say» — словесний тик, близько п’ятнадцяти входжень; потрібен ОДИН український відповідник, ужитий скрізь однаково"
+        - "«::He smiles.::» повторюється як лейтмотив — усміхнена маска, перекладати однаково щоразу"
+        - "канцелярит: «company regulations», «above your pay grade», «utmost priority», «valuable asset»"
+        - "евфемізми замість прямих слів: «neutralize him», «surreptitious threats», «unfortunate outcome»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; «::Barter.::» — інфінітив (§3.5)"
+
+new_names:
+  - "Raul"
+  - "Greenhorn"
+  - "Spectres"
+  - "ICPD"
+  - "Intracranial pressure destabilizer"
+  - "Core City Housing Corporation"
+  - "Gauntlet"
+  - "trims"
+  - "tri-monitors"
+
+idioms:
+  - unit: q12
+    src: "you'd dominate it"
+    note: >-
+      Гарлан цитує сленг Центрального Міста («as the residents would say») —
+      потрібен той самий відповідник, що для «dominating» у cc_guzomir.
+  - unit: a84
+    src: "That mole managed to dig its way out of this one"
+    note: "гра слів: «крот» як шпигун і як землерий — не калькувати, шукати український образ"
+  - unit: q112
+    src: "hides these demented, twisted freaks under the rug"
+    note: "«замітати під килим» — локалізувати, зберігши бридливість"
+  - unit: q17
+    src: "last, but not least"
+    note: "усталений зворот, український відповідник, не дослівно"
+  - unit: q58
+    src: "desperate times call for desperate measures"
+    note: "прислів’я — брати український еквівалент"
+
+pitfalls:
+  - "$(context.player.Name) — не відмінювати й нічого не дописувати всередину плейсхолдера; будувати фразу так, щоб ім’я лишалося в називному (q8, q14, q49, q50, q55, q96, q148, q153 та ін.)"
+  - "q1, q2, q7, q135: $(#Mister/Miss) — обидві гілки з великої, регістр гілки значущий (STYLE §2)"
+  - "q15: $(#he/she) стосується агента-гравця, не третьої особи — переклад має лишитися узгодженим із рештою речення"
+  - "Coretech, Biocorp, JKK, Praetorian Security, Underrail — латиницею, не відмінювати (глосарій)"
+  - "q125: Chief Archibald Knight → «шеф Арчібальд Найт», «шеф» з малої (реєстр)"
+  - "q148: «The Praetorians» як демонім — усталеного варіанта немає, глосарій прямо позначає це як відкрите питання; не вигадувати"
+  - "q121: Gunnar Edstrom → «Гуннар Едстром»; q118 Rupert Simmons → «Руперт Сіммонс»; q34 Samuel Morgan → «Семюел Морган»; q45 Henderson → «Гендерсон»; q57 Luben → «Любен» (реєстр і глосарій)"
+  - "q72: Halidorson → «Халідорсон» (глосарій: Ola Halidorson → Ола Халідорсон)"
+  - "q50, q64, q107: charons → «харони» (глосарій, монета)"
+  - "a140 — емоційний зрив гравця, а не зміна базового регістру: грубість лишається грубою, але «ви» зберігається (STYLE §3.3)"
+  - "ICPD — абревіатура пристрою, розшифрована в q91; український відповідник і абревіатура мають узгоджуватися між собою"
+
+examples:
+  - unit: q1
+    rule: "$(#Mister/Miss) — гендерне звертання на «ви», регістр гілки зберігати, STYLE §2"
+    uk_fragment: "$(#Пане/Пані)"
+    status: proposed
+  - unit: q74
+    rule: "«I can say» — той самий відповідник у всіх входженнях"
+    uk_fragment: "скажу я вам"
+    status: proposed

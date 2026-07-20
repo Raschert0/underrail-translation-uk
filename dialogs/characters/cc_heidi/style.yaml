@@ -1,0 +1,92 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_heidi
+file_id: dialogs\characters\cc_heidi.txt
+derived_from: source-only
+units: {total: 125, npc: 87, player: 38, empty: 3}
+
+speakers:
+  - slug: heidi
+    name: Гайді
+    units: default
+    confidence: certain
+    evidence: [q3, q124]
+    role: >-
+      Лікарка в Центральному Місті, представляється як «Doctor Gratz»; лікує за
+      десять харонів і сама називає процедуру болісною. Ексцентрична до
+      гротеску — це визначає добір слів більше, ніж її фах.
+    relationships:
+      - "чоловік — колишній «enforcer» Praetorian Security, загинув; єдине місце, де вона говорить тихо (q64, q65)"
+      - "Даніел Арда — торговець, пропонував їй Hercules; вона його вигнала (q94, q95)"
+      - "Максим Талоскі — колишній пацієнт, з якого вона глузує (q75, q76)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Медична обслуга при виконанні обов’язків — STYLE §3.2 велить «ви».
+        Вона тримає лікарську рамку навіть у знущальних репліках: «my dear
+        patient» (q124), «allow me to diagnose your illness» (q3). Гравець
+        дзеркалить (§3.3): звертання «doc» (a9) панібратське за тоном, але не
+        скасовує базового «ви».
+      gender_cues: ["$(#boy/girl)"]
+      switches:
+        - {unit: q10, to: ви, trigger: "сюсюкання «a brave little $(#boy/girl)» — не перехід на «ти», а глузлива педіатрична манера; лишати «ви»"}
+    voice:
+      register: >-
+        висока, дзвінка, театральна; лікарський словник упереміш із
+        балаганом
+      idiolect:
+        - "подвоєння кінцевої фрази — головний тик: «Not a charon more! Not a charon more!», «Ask away. Away!», «It is fun!». Відтворювати щоразу, це її впізнаваність"
+        - "ремарка «::She cackles.::» — 20+ разів; однаковий переклад в усіх юнітах"
+        - "заперечення подвійне й уривчасте: «No, I can’t! I can’t!», «Nope. No.»"
+        - "риторичні самозапитання з окличним знаком: «doesn’t it? Does it not!?», «Why not?»"
+        - "сама зізнається, що римує (q53), — рими треба відтворювати, а не переказувати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; стосується q1, q3, q124 та всіх вставок «::She cackles.::»"
+
+new_names: ["Gratz", "Arda", "Terry", "Baker", "Talloski", "Acid Hunters", "Spectres", "Hercules", "Gauntlet", "Oligarchy", "Lunatics"]
+
+idioms:
+  - unit: q95
+    src: "So I showed him the door!"
+    note: "не калькувати «показала двері»; розмовне «випровадила»"
+  - unit: q76
+    src: "thinking with his behind rather than his head"
+    note: "груба фізіологічна шпилька — не пом’якшувати (STYLE §9)"
+  - unit: q48
+    src: "The thirst for blood feeds our economy"
+    note: "«годує», а не «живить» — вона говорить просто"
+  - unit: q58
+    src: "Moretech!"
+    note: "каламбур на Coretech; Coretech лишається латиницею (глосарій), тож жарт треба перебудувати, а не перекласти дослівно"
+  - unit: q119
+    src: "You got zoned out?"
+    note: "гра на «zoner» → «зонер» (глосарій); зберегти зв’язок зі словом"
+  - unit: q114
+    src: "Spontaneous stupidity syndrome?"
+    note: "псевдодіагноз-жарт у ряду справжніх — має звучати як медичний термін"
+
+pitfalls:
+  - "q97–q122 — суцільний список діагнозів; це один комічний потік, перекладати як єдиний реєстр, а не кожен окремо"
+  - "q102 «Pneumonoultramicroscopicsilicovolcanoconiosis» — реальний термін-рекордсмен; жарт саме в довжині, коротшати не можна"
+  - "q56 Coretech, Praetorian Security, JKK — латиниця без відмінювання (глосарій); Arena → Арена"
+  - "q61 «Underrail» лишається латиницею навіть усередині української фрази (глосарій)"
+  - "q45 «zoners» → «зонери»; q99 «rathound» → «щурчак» (глосарій)"
+  - "q9, a9 — «charons» / «stygian coins»: «харони» і «стигійські монети» (глосарій), не плутати"
+  - "q70 «Scientists, not cultists!» — вона підкреслює, що це рима; шукати українську пару, а не буквальність"
+
+examples:
+  - unit: q10
+    rule: "$(#boy/girl) — гендерний плейсхолдер, STYLE §2"
+    uk_fragment: "$(#хлопчик/дівчинка)"
+    status: proposed
+  - unit: q17
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q15
+    rule: "подвоєння як тик — зберігати"
+    uk_fragment: "Ні, не можу! Не можу!"
+    status: proposed

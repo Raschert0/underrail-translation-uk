@@ -1,0 +1,122 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/rc1_barkeeper
+file_id: dialogs\characters\rc1_barkeeper.txt
+derived_from: source-only
+units: {total: 120, npc: 74, player: 46, empty: 7}
+
+speakers:
+  - slug: rc1_barkeeper
+    name: шинкар
+    units: default
+    confidence: certain
+    evidence: [q110, q3, q46, q65]
+    role: >-
+      Господар єдиного бару Залізничного Переїзду, двадцять років за тією самою
+      стійкою. Дві сюжетні лінії вузла — стягнення боргу за пиятику з Чуваком
+      (крик, погрози, миття посуду) і спокійна роль місцевого джерела чуток
+      про Безликих та Дзижчика.
+    relationships:
+      - "Чувак (Dude) — постійний-непостійний відвідувач, співвинуватець боргу; шинкар його зневажає"
+      - "Гравець — боржник, а потім співрозмовник; ставлення хитається від люті до панібратського «friend»"
+      - "Капітан Герве (Captain Herve) — начальник станції, до якого шинкар відсилає гравця"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Грубий вуличний мовець: ain’t, outta, ’cause, gonna, wanna, ya dig,
+        а в сцені боргу — punk, bastards, filthy liar. STYLE §3.2 відносить
+        таких до «ти»; гравець дзеркалить базовий регістр (§3.3). Навіть
+        привітне «friend» тут панібратське, а не ввічливе.
+      gender_cues: []
+      switches:
+        - {unit: q49, to: ти, trigger: "коли гравець тисне статусом громадянина ССГ, шинкар стишується, але на «ви» не переходить — тон холоднішає в межах «ти»"}
+    voice:
+      register: гучний, грубуватий, балакучий; у сцені боргу — відверто агресивний
+      idiolect:
+        - "словесний тик «Dig?» / «you dig?» / «ya dig!» — q4, q69, q78, q87, q92; перекладати ОДНІЄЮ сталою формулою в усіх позиціях"
+        - "звертання-філер «friend» — q10, q16, q25, q26, q28, q33, q35, q120; теж єдина стала форма"
+        - "стягнення: ain’t, outta, gonna, wanna, lotsa, ’cause, betcha"
+        - "самоперебивання й обірвані слова: «If people knew they’d nev-- Um», «the freaking plumbi--», «I’ll return--»"
+
+narration:
+  present: true
+  note: >-
+    Вставки ::…:: — завжди «ви» (STYLE §3.1), зокрема довгі описи q16, q49, q69,
+    q78, q79 та q110. Підказки дій — інфінітив (§3.5): ::Barter.:: канонічно
+    ::Торгувати.:: (глосарій), ::Leave.::, ::Attack!::, ::Start washing the dishes...::
+
+new_names: ["Ginger", "Travis"]
+
+idioms:
+  - unit: q33
+    src: "This whole world has become derailed."
+    note: >-
+      каламбур на rail/Underrail, повторений у q73 «Unless I'm going derailed» як
+      особиста примовка шинкаря. Обидва місця мають звучати однією фігурою —
+      «зійшов з рейок», щоб зв’язок читався
+  - unit: q13
+    src: "since the Faceless showed their... butts"
+    note: "груба заміна очікуваного «показали себе»; жарт зберігати, не пом’якшувати (STYLE §9)"
+  - unit: q14
+    src: "boy did he have trouble keeping his pants on"
+    note: "евфемізм про зради; локалізувати ідіомою, не калькувати «тримати штани»"
+  - unit: q16
+    src: "That's the South for ya, friend."
+    note: "«ось тобі й Південь» — розмовна оцінка регіону, не географічна довідка"
+  - unit: q78
+    src: "Guess I'm gonna have to let you off the hook."
+    note: "«зіскочив з гачка» — відпустити без наслідків; не калькувати"
+  - unit: q80
+    src: "You're starting to get on my nerves, punk"
+    note: "punk — зневажливе звертання, не музичний субкультурний термін"
+  - unit: q89
+    src: "He's a very *infrequent* regular."
+    note: "гра на «regular» — постійний відвідувач і «регулярний»; шукати український оксиморон, зірочки наголосу зберегти"
+  - unit: q91
+    src: "a dumpster-diving drifter"
+    note: "зневажливе про безхатька-шукача; лишити образливим"
+  - unit: q106
+    src: "You betcha it is!"
+    note: "розмовне ствердження — «а то ж!», не «ти закладаєшся»"
+  - unit: a74
+    src: "some retard installed your sink like that"
+    note: "образа в репліці гравця; грубе лишається грубим (STYLE §9)"
+
+pitfalls:
+  - >-
+    КРИТИЧНО: q65, q66, q68, q101, q102, q104, q106, q108 — не самостійні речення,
+    а фрагменти, які рушій склеює в один рядок (q65 «You and Dude had » + q66
+    «twenty bottles… and paid for none of it! » + q68 «That's two hundred sixty
+    charons you owe me. »). Кінцеві пробіли зберігати дослівно, а українську
+    побудову підбирати так, щоб склейка лишалася граматичною — узгодження відмінка
+    між частинами не можна перевіряти по одному юніту окремо
+  - "той самий каркас повторюється для другої суми: q102 «thirteen bottles… four bags» + q101 «one hundred seventy charons» — обидві версії мають бути побудовані однаково"
+  - "числівники в q68, q101 записані словами, а в a40, a43 — цифрами (260, 170). Зберігати спосіб запису кожного юніта, не уніфіковувати"
+  - "«charons» (q67, q68, q101) — канонічно «харон» (глосарій), мала літера; a40, a43 «stygian coins» — «стигійські монети», це та сама валюта під іншою назвою"
+  - "«Dude» (q3, q4, q72, q82, q83, q85, q88, q89, a105) — канонічно «Чувак» (реєстр), це ім’я, з великої"
+  - "«Buzzer» (a15, q16, q17, q32) — «Дзижчик»; «Myles» (q17, q25) — «Майлз»; «Herve» (q26, q50, q51, q91) — «Герве» (реєстр)"
+  - "«SGS» (a48) — «ССГ»; «Foundry» (q20, a23) — «Ливарня»; «Free Drones» (a7, q8) — «Вільні Дрони»; «Protectorate» (q8, q9, q11) — «Протекторат»; «Deep Caverns» (q30) — «Глибокі Печери»; «Faceless» — «Безликі»; «Rail Crossing» — «Залізничний Переїзд» (глосарій)"
+  - "«North Underrail» (q8) — Underrail латиницею й без відмінювання (глосарій)"
+  - "«the Hanging Rat» (q14) — назва закладу-орієнтира, канонічного варіанта немає; узгодити окремо, не вигадувати похапцем"
+  - "«mushroom brew», «hardcore chips», «core chips» (q66, q67, q111, q120) — назви товарів меню; у q67 вони йдуть цінником, переклад має збігатися з назвами в реченнях шинкаря"
+  - "зірочки навколо слів (*you*, *whole*, *Dude*, *infrequent*, *Alright*) — наголос рушія, зберігати"
+  - "q9 і q11 — майже однакові репліки з різними кінцівками; перекладати паралельно"
+
+examples:
+  - unit: q92
+    rule: "словесний тик «Dig?» — одна стала формула в усіх юнітах"
+    uk_fragment: "Ясно?"
+    status: proposed
+  - unit: q25
+    rule: "«friend» — панібратський філер при «ти», а не ввічливе звертання"
+    uk_fragment: "друже"
+    status: proposed
+  - unit: a6
+    rule: "підказка дії — інфінітив, канонічний рядок глосарія"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q60
+    rule: "обірване слово зберігаємо як обрив на українському корені"
+    uk_fragment: "то ніхто б ніко-- Ем"
+    status: proposed

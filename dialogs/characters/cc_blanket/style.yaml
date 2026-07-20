@@ -1,0 +1,53 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_blanket
+file_id: dialogs\characters\cc_blanket.txt
+derived_from: source-only
+units: {total: 14, npc: 14, player: 0, empty: 2}
+
+speakers:
+  - slug: blanket
+    name: Ковдра
+    units: default
+    confidence: certain
+    evidence: [q2, q5, q13]
+    role: >-
+      Затятий уболівальник Арени з важким заїканням: увесь вузол — його
+      вигуки під час бою й роздратовані відмахування від гравця, що
+      заступає огляд.
+    address:
+      npc_to_player: ти
+      player_to_npc: —
+      basis: >-
+        Вулична, груба манера, самі накази без пом’якшення («S-stop bothering
+        me!», «M-m-m-move!») — «ти», STYLE §3.2. Реплік гравця у вузлі немає.
+    voice:
+      register: уривчастий, роздратований, на підвищених тонах
+      idiolect:
+        - "заїкання в кожному рядку — головна прикмета голосу, відтворювати на українському приголосному (STYLE §9), а не переносити англійські літери"
+        - "наростання складності зачіпки: «th-tha-the» (q2), «h-he-ha-heart» (q8) — багатоступеневий зрив, зберігати саме як ступінчастий"
+        - "накази в наказовому способі на «ти», STYLE §3.4"
+
+narration:
+  present: false
+
+new_names: []
+
+idioms:
+  - unit: q4
+    src: "D-d-dominating!"
+    note: "внутрішньоігровий вигук схвалення Центрального Міста — тримати однаковим по корпусу, заїкання накладати зверху"
+  - unit: q8
+    src: "Tear his h-he-ha-heart out!"
+    note: "грубість не пом’якшувати, STYLE §9"
+
+pitfalls:
+  - "заїкання має падати на приголосний українського слова, а не копіювати англійський склад: механічне «Т-т-th» неприпустиме"
+  - "q9 «sledgehammer» — кувалда, зброя сусіднього персонажа (cc_ljubostanka)"
+  - "q10 «Ugh!» — вигук, не слово; не розгортати у фразу"
+
+examples:
+  - unit: q6
+    rule: "заїкання відтворюється на українському приголосному, STYLE §9"
+    uk_fragment: "Ч-чого тобі?"
+    status: proposed

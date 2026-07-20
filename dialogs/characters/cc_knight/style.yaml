@@ -1,0 +1,100 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_knight
+file_id: dialogs\characters\cc_knight.txt
+derived_from: source-only
+units: {total: 172, npc: 105, player: 67, empty: 6}
+
+speakers:
+  - slug: knight
+    name: Найт
+    units: default
+    confidence: certain
+    evidence: [q3, q23, q88]
+    role: >-
+      Арчібальд Найт — очільник Praetorian Security й один з олігархів
+      Центрального Міста; у минулому шеф безпеки Biocorp. Говорить як
+      старший офіцер із підлеглим, і саме цей службовий регістр, а не горе за
+      сином, задає стрій усіх його реплік.
+    relationships:
+      - "Едмунд — убитий син; єдина тема, де командний тон зривається (q31, q88, q144)"
+      - "Руперт Сіммонс — олігарх Coretech, співтоваришу по перевороту, тепер ворог (q129, q135)"
+      - "Гуннар Едстром — третій олігарх, підняв Арену (q130)"
+      - "лейтенант Стратфорд — підлеглий, до якого Найт постійно відсилає гравця (q8, q61, q89)"
+      - "гравець — «Enforcer», підвищений до «Senior Enforcer» (q8, q10)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        STYLE §3.2: формальний, службовий мовець — «ви». Мова статутна й без
+        скорочень: «At ease, Enforcer» (q3), «You are dismissed» (q10),
+        «you are to talk to Lieutenant Stratford» (q8). Гравець дзеркалить
+        (§3.3) і сам звертається «sir» (a4, a95, a161). Наказовий спосіб
+        успадковує «ви» (§3.4): «Speak.» (q120) → «Кажіть.»
+      gender_cues: []
+      switches:
+        - {unit: q74, to: ви, trigger: "«Ar-are you joking?» — лють на Coretech; заїкання і брутальність зростають, але субординація тримає «ви»"}
+        - {unit: q144, to: ви, trigger: "«Get out and do your bloody job! Dismissed!» — зрив на підлеглого; лишається «ви», грубішає лексика, а не регістр"}
+        - {unit: q88, to: ти, trigger: "звертається сам до себе — «Get a hold of yourself, Archie»; самозвертання завжди «ти»"}
+    voice:
+      register: >-
+        стриманий, статутний, повними реченнями; без скорочень і без сленгу
+      idiolect:
+        - "схвалення-формула «Very good.», часто подвоєна (q10, q52, q81) — тримати один сталий відповідник в усіх юнітах"
+        - "«Indeed» як підтвердження на початку репліки (q5, q38, q68, q72, q137)"
+        - "«bloody» як єдина лайка — «bloody hell», «your bloody job», «Bloody Acid Hunters!» (q42, q84, q140, q144); груба, але не обсценна — не пом’якшувати і не посилювати"
+        - "статутні формули «At ease», «Dismissed», «You are dismissed» — переклад має бути однаковий скрізь, це команди, а не фрази"
+        - "коли говорить про сина, речення обриваються трикрапкою (q33, q87, q135)"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1; стосується великих вставок q3, q23, q135
+    і всіх коротких ремарок «::He sighs.::», «::He gives you 600 charons.::»
+
+new_names: ["Edmund", "Miland", "Erika", "Louis Thorne", "Acid Hunters", "Acorn", "ACoNR", "New Frontier Technologies"]
+
+idioms:
+  - unit: q40
+    src: "something doesn't add up"
+    note: "«щось не сходиться» — ідіома, не «не додається»"
+  - unit: q128
+    src: "clinging to the edge of the abyss ... stepped on its fingers"
+    note: "розгорнута метафора з двох частин; друга працює лише разом із першою — перекладати як одну картину"
+  - unit: q88
+    src: "Get a hold of yourself, Archie"
+    note: "самозвертання; «Archie» → Арчі (registry) — коротка форма від Арчібальд, зберегти саме коротку"
+  - unit: q149
+    src: "Straight from the informant's mouth"
+    note: "не калькувати «прямо з вуст»; «з перших вуст»"
+  - unit: q72
+    src: "Simmons thinks he can outsmart us"
+    note: "«перехитрити», не «переграти розумом»"
+  - unit: q86
+    src: "A man thinks he learns a lot with age"
+    note: "узагальнений «a man» — безособове «здається, що з віком», не «чоловік»"
+
+pitfalls:
+  - "q31, q53, q136, q146 містять $(context.player.Name) — не відмінювати всередині плейсхолдера й не додавати до нього закінчень; будувати фразу так, щоб потрібен був називний"
+  - "q43–q45, q46, q66, q108, q116, q149, q150 обриваються на півслові без крапки — це склейка рядків у грі; кінець рядка не «дочиняти» і не додавати розділового знака"
+  - "«Enforcer» / «Senior Enforcer» — військове звання, а не фах; переклад сталий, з великої там, де в джерелі, і у кличному відмінку при звертанні"
+  - "Praetorian Security, Coretech, Biocorp, JKK лишаються латиницею й не відмінюються (глосарій); Protectorate → Протекторат, Faceless → Безликі, Arena → Арена, Drop Zone → Зона Скидання, Underrail → латиницею"
+  - "q53, q136, q141 «600 charons» → «харони» (глосарій), не «монети»"
+  - "q5 «his or her life» — джерело обходить стать гравця описово; в українському минулому часі знадобиться $(#…) або безособова побудова, інакше рядок нав’яже стать"
+  - "q74 «Ar-are you joking?» — заїкання відтворюємо на українському приголосному (STYLE §9)"
+  - "q72, q76, q81, q97, q137 містять *зірочки* як наголос — переносити на слово-відповідник, не на буквальну позицію"
+  - "«R&D deparment» (q111) — у джерелі описка в слові «department»; перекладати як нормальний термін"
+
+examples:
+  - unit: q3
+    rule: "статутна команда, «ви»-імператив — STYLE §3.4"
+    uk_fragment: "Вільно, Виконавцю."
+    status: proposed
+  - unit: q120
+    rule: "наказовий спосіб успадковує «ви» — STYLE §3.4"
+    uk_fragment: "Кажіть."
+    status: proposed
+  - unit: a11
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Віддати честь і вийти.::"
+    status: proposed

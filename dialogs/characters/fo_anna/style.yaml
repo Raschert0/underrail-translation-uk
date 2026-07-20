@@ -1,0 +1,63 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_anna
+file_id: dialogs\characters\fo_anna.txt
+derived_from: source-only
+units: {total: 29, npc: 16, player: 13, empty: 3}
+
+speakers:
+  - slug: anna
+    name: Анна
+    units: default
+    confidence: certain
+    evidence: [q3, q8, q12]
+    role: >-
+      Дружина Г’юго з Ливарні, хвора на легені й перелякана зникненням чоловіка.
+      Її мова весь час рветься кашлем і сльозами — це головне, що визначає добір слів.
+    relationships:
+      - "Г’юго — чоловік; уся розмова тримається на тривозі за нього"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Говорить із незнайомцем підкреслено чемно, майже благально: «Please, if you find
+        him», «Please leave me alone». Гендерних плейсхолдерів у вузлі немає, тож рішення
+        спирається на STYLE §3.2 — обережна, некругла до чужих людина.
+    voice:
+      register: тиха, надламана; ввічлива навіть у розпачі
+      idiolect:
+        - "постійні ремарки ::She coughs.:: — репліки треба рвати на короткі відрізки"
+        - "затинання на імені та на словах: «Hu-Hugo», «h-he’d», «Y-yes?» — відтворювати на українському приголосному (STYLE §9)"
+        - "обриви думки через три крапки: «to relax, to... to...» — зберігати"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Stevenson"]
+
+idioms:
+  - unit: q3
+    src: "a smile that lasts as long as a hopper in burrower nest"
+    note: >-
+      Не калькувати дослівно; це образ миттєвості. «стрибун» і «копака» — з глосарію,
+      підбирати треба українську конструкцію порівняння, а не англійський порядок слів.
+  - unit: q10
+    src: "Like I can just switch it off whenever I wish, like a mine cart or something"
+    note: "гіркий сарказм; передавати як розмовне заперечення, не буквальним «перемкнути»"
+
+pitfalls:
+  - "q1 «Hugo, where are you?» — Г’юго тут АДРЕСАТ, а не мовець; говорить Анна"
+  - "q8, q10 містять минулий час у першій особі про Анну — жіночі форми, гендерний плейсхолдер не потрібен"
+  - "«some people» у лапках (q8, q10) — евфемізм для бандитів; лапки зберігати як « »"
+  - "a18 і a21 починаються з ::[Intimidate]:: / ::[Persuade]:: — це службові теги перевірки навички, форма з глосарію"
+
+examples:
+  - unit: q28
+    rule: "заїкання відтворюємо на українському приголосному — STYLE §9"
+    uk_fragment: "Т-так?"
+    status: proposed
+  - unit: q3
+    rule: "нарація ::…:: — завжди «ви», STYLE §3.1"
+    uk_fragment: "щойно ви заходите"
+    status: proposed

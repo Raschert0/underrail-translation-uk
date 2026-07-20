@@ -1,0 +1,100 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/wa_constantine
+file_id: dialogs\characters\wa_constantine.txt
+derived_from: source-only
+units: {total: 72, npc: 45, player: 27, empty: 1}
+
+speakers:
+  - slug: constantine
+    name: Константин
+    units: default
+    confidence: certain
+    evidence: [q1, q67]
+    role: >-
+      Квартирмейстер Окулуса — торговець спорядженням на нижній платформі.
+      Ключ до голосу: чемний фасад, що раз у раз лускає гучним нападом
+      роздратування, після якого він відкашлюється й вибачається.
+    relationships:
+      - "Азіф — старший, до нього Константин відсилає всі незручні питання"
+      - "Абрам — згадка імені викликає в нього вибух; причина не названа"
+      - "Філліс — на її ім’я реакція така сама, дослівно дзеркальна (q59, q60)"
+      - "Шестипалий кіборг («Six») — клієнт, якого радить не чіпати"
+    address:
+      npc_to_player: змішане
+      player_to_npc: ви
+      basis: >-
+        Базово «ви»: він обслуга при посаді (STYLE §3.2), тримає повні форми
+        («I apologize», «I suggest you do not bother the cyborg») і зустрічає
+        гравця церемонним «Welcome ... I'm Constantine, the Oculus quartermaster».
+        У нападах гніву фасад падає — там доречне «ти». Гравець тримає рівне «ви»
+        весь вузол: його репліки нейтральні навіть у шпильці a20.
+      switches:
+        - {unit: q15, to: ти, trigger: "перший зрив, докір гравцеві просто в обличчя"}
+        - {unit: q42, to: ти, trigger: "«ME to answer your stupid questions!?» — образа адресована гравцеві"}
+        - {unit: q52, to: ти, trigger: "вибух на згадку про Абрама"}
+        - {unit: q59, to: ти, trigger: "той самий вибух на згадку про Філліс — переклад дзеркалить q52"}
+    voice:
+      register: чемно-крамарський, що зривається на крик і повертається назад
+      idiolect:
+        - "«bloody» як наскрізний підсилювач — має звучати однаково брутально в усіх вживаннях"
+        - "«Khm.» / «::Clears throat.::» — ритуал повернення до чемності після зриву"
+        - "«Arrrgh!» з розтягнутим голосним — зберігати довжину"
+        - "«I apologize» дослівно повторюване — це формула, не варіювати синонімами"
+        - "рвані самоперебиви з комами: «this, this orb of annoyance», «all sorts of, of infuriating things»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1, навіть коли сам Константин зривається на «ти»"
+
+new_names: ["Six", "Jack Quicksilver", "Lunatics", "Lurkers", "Whisperers", "Khazum Morakht", "EDS", "Electric Defense System", "oculite", "oculites"]
+
+idioms:
+  - unit: q12
+    src: "any-bloody-else"
+    note: "лайка-інфікс усередині слова; шукати український відповідник із вставленим лайливим елементом, а не розкладати на два слова"
+  - unit: a20
+    src: "lay off the brew"
+    note: "«зав’язувати з бухлом» — розмовне; не «покласти пиво»"
+  - unit: q21
+    src: "you've been exposed to high-frequency radiation that's tearing through your tissue"
+    note: "порівняння з опроміненням — образ технічний, зберегти саме його, не замінювати побутовим"
+  - unit: q30
+    src: "this orb of annoyance that flies around my head"
+    note: "абсурдний образ, вигаданий на ходу; не згладжувати в звичне «мене дістали»"
+  - unit: q35
+    src: "thick-headed cretins"
+    note: "грубе лишається грубим — STYLE §9"
+  - unit: q47
+    src: "I wouldn't put my charons on getting an answer"
+    note: "букмекерська формула «не ставив би»; charon — за глосарієм «харон», монета"
+  - unit: q39
+    src: "they end up as ashes scattered all over the cave floor"
+    note: "він смакує деталь — тримати зловтішний тон, не нейтралізувати"
+  - unit: q31
+    src: "WHAAAAAAAAAAAA!"
+    note: "передражнювання лунатиків; зберегти довжину розтягнутого голосного"
+
+pitfalls:
+  - "q7, q50, q67, q72 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "Twitch у a57 — це ПЕРСОНАЖ, а не препарат: глосарій дає «Сіпавка» саме для препарату й прямо приписує транслітерувати персонажа окремо, тоді як registry.yaml має Twitch → Сіпавка як frozen. Суперечність не розв’язувати на місці — винести на централізоване рішення"
+  - "Oculus — за глосарієм «Окулус»; похідне «oculite» канонічного варіанта не має"
+  - "crawlers (q18, q22, q28) — за глосарієм «повзуни»; Ironheads (q34) — «Залізноголові»"
+  - "q22 майже дослівно повторює q18 — переклад спільної частини має збігатися посимвольно"
+  - "q46 і q48 — той самий абзац про кіборга у двох гілках; тримати ідентичними"
+  - "a3 «::Barter::» без крапки, a8 і a69 «::Barter.::» з крапкою — крапку не додавати й не прибирати, вона частина рядка"
+  - "«bloody» в q12 стоїть двічі поспіль («cramped bloody, freaking bloody») — це навмисна плутанина мовця, не помилка джерела"
+
+examples:
+  - unit: a8
+    rule: "підказка дії всередині ::…:: — інфінітив; STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q54
+    rule: "базове «ви» повертається одразу після зриву; STYLE §3.2"
+    uk_fragment: "перепрошую за це"
+    status: proposed
+  - unit: q52
+    rule: "у нападі гніву регістр падає до «ти» — switches, не згладжувати"
+    uk_fragment: "та що з тобою не так?!"
+    status: proposed

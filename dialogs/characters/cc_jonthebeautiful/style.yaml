@@ -1,0 +1,181 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_jonthebeautiful
+file_id: dialogs\characters\cc_jonthebeautiful.txt
+derived_from: source-only
+units: {total: 378, npc: 218, player: 160, empty: 15}
+
+speakers:
+  - slug: jon_the_beautiful
+    name: Jon the Beautiful
+    name_status: pending
+    name_note: >-
+      Канонічного українського варіанта немає ні в registry.yaml, ні в глосарії.
+      Винесено в new_names; до централізованого рішення транслітерацію не вигадувати.
+    units: default
+    confidence: certain
+    evidence: [q6, q77, q296]
+    role: >-
+      Вуличний інформатор Центрального Міста, що торгує чутками виключно за їжу.
+      Це визначає весь словник: кожна друга репліка повертається до їжі, шлунка
+      й апетиту, і саме там, а не в сюжеті, лежить його голос.
+    relationships:
+      - "Пронира (Sneaky) — колишня; покинула його, він удає, що це його не зачепило (q306, q308, q310)"
+      - "Мо (Moe) — шинкар, у якого замовляють «Jon’s special» (q104)"
+      - "Гравець — постійний клієнт; Джон звертається «pal» практично в кожній репліці"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Панібратський вуличний мовець без жодної дистанції: нав’язливе «pal»,
+        «don’t be silly», «you’re not as dumb as you loo--», тицяння пальцем в
+        обличчя вже в першій репліці. STYLE §3.2 — свої й вуличні на «ти».
+        Гравець дзеркалить (§3.3).
+      gender_cues: ["$(#man/woman)"]
+    voice:
+      register: гучний, безцеремонний, самозакоханий; мова дитинна там, де про їжу
+      idiolect:
+        - "«pal» у кожній другій репліці — вокативний тик, потрібен один стабільний відповідник на весь вузол"
+        - "«That’s what I’m talking about!» — рефрен-візитівка; має бути дослівно однаковим щоразу (q6, q9, q107, q136, q166, q190, q269, q312)"
+        - "«hardcore» як універсальний оцінний прикметник — і похвала, і лайка, і назва бару"
+        - "«dominate / dominating / DomiNation» — той самий корінь у трьох ролях: оцінка, назва бару, назва турніру"
+        - "«tummy» замість «stomach», «Me hungry» — навмисне дитинне мовлення (q52, q54, q239, q274, q291)"
+        - "говорить із набитим ротом: приголосні пливуть (q148, q151, q233, q235, q237, q270, q271, q273)"
+        - "хвалиться в третій особі: «Jon’s your man», «Jon Vision», «I’m Jon the Beautiful»"
+        - "риторичне «Am I not? Eh? *Eh*?» — саморекламний рефрен (q6, q282, q346)"
+        - "«zone out» = вбити; «pipeworker» як лайка, а не професія"
+        - "*зірочками* виділені наголошені слова — це інтонація, зберігати позицію"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, попри те що сам Джон каже «ти».
+    Довга вступна нарація q1 і ремарки ::He pats his belly.:: — той самий регістр.
+
+new_names:
+  - "Jon the Beautiful"
+  - "Aran"
+  - "Joe De Pacino"
+  - "Bogdan"
+  - "Slavomir"
+  - "Bogdan Stravohodnik"
+  - "Daniel Arda"
+  - "Raul"
+  - "Luben Greenhorn"
+  - "Richard Briggs"
+  - "Francis \"Big Frank\" White"
+  - "Mit Draper"
+  - "Phreak"
+  - "Scalp"
+  - "Gridfix"
+  - "Transfix"
+  - "Thallo"
+  - "Talloski"
+  - "Gale"
+  - "Master Exploder"
+  - "Master Laser Blaster"
+  - "Master Brain Buster"
+  - "The Masters"
+  - "DomiNation"
+  - "Kanshou"
+  - "Bakuya"
+  - "Terry Baker"
+  - "Acid Hunters"
+  - "Aegis Incorporated"
+  - "Hexagon"
+  - "Hexagonian"
+  - "Dis"
+  - "Spectres"
+  - "Operation Banishment"
+  - "Hercules"
+  - "Gauntlet"
+  - "Oligarchy"
+  - "Corecitians"
+  - "Underrail Express"
+  - "Dominating bar"
+  - "Jon's special"
+
+idioms:
+  - unit: q6
+    src: "I'm Jon the Beautiful. Am I not? Eh? *Eh*?"
+    note: "самопрезентація з епітетом; епітет — частина імені, а не означення"
+  - unit: q9
+    src: "That's what I'm talking about"
+    note: "не перекладати щоразу по-новому — це впізнаваний рефрен, потрібна одна формула"
+  - unit: q204
+    src: "the zone's zoners often zone other zoners out"
+    note: >-
+      навмисна тавтологія на корені «zone»; глосарій дає «зонер» —
+      каламбур будувати на ньому, а не калькувати англійську фразу
+  - unit: q149
+    src: "his wares ain't much to type home about"
+    note: >-
+      навмисно зіпсована ідіома «write home about» — помилка авторська,
+      відтворити зіпсованістю української ідіоми, не виправляти
+  - unit: q149
+    src: "a real son of a rat"
+    note: "локалізована лайка, не калька; тримати тваринний образ"
+  - unit: q173
+    src: "They did a three-sixty... No, wait - one-eighty degree turn"
+    note: "самовиправлення — обидві цифри лишаються, помилка є частиною жарту"
+  - unit: q335
+    src: "I have a seventh sense... Sixth is the food detector"
+    note: "жарт тримається на лічбі чуттів — зберегти сьоме й шосте"
+  - unit: q138
+    src: "Jon needs some brew, it goes well with mushroom stew! Get it? It rhymes."
+    note: >-
+      римування названо вголос — український відповідник мусить справді
+      римуватися, інакше наступна фраза втрачає сенс
+  - unit: q243
+    src: "The guy's as sly as a... ...very sly guy."
+    note: "порівняння навмисно провалюється — тавтологія обов’язкова"
+  - unit: q213
+    src: "Corecitians - I know it's not a word"
+    note: "оказіоналізм від назви міста; коментар «це не слово» вимагає, щоб слово справді було вигаданим"
+  - unit: q233
+    src: "that'sh sho havdcove"
+    note: >-
+      мова з набитим ротом; спотворювати український приголосний за зразком
+      заїкання (STYLE §9), а не переносити англійські літери
+
+pitfalls:
+  - "q358 містить $(#man/woman) — єдиний гендерний плейсхолдер у вузлі; перекладати обидві гілки"
+  - >-
+    репліки гравця з минулим часом потребують плейсхолдерів, яких в англійському
+    немає: a189 «I killed him in the Arena», a305 «I talked to Sneaky» — додати $(#…)
+  - >-
+    багато юнітів — незакінчені фрагменти речення, що продовжуються в іншому юніті
+    (q9, q33, q34, q57, q58, q60, q61, q167, q234, q235, q264, q265, q296, q297, q322, q362, q363):
+    не дописувати крапку, не переставляти слова так, щоб склейка зламалася
+  - >-
+    q265 і q264 — два різні входи в один перелік псевдонімів; обидва мають
+    граматично стикуватися з q235
+  - "«\\n\\n» усередині юнітів — розрив абзацу, зберігати як є"
+  - "Hardcore City Bar має канонічний варіант у глосарії — «Хардкор Сіті Бар»; назва бару не перекладається за змістом, хоча слово «hardcore» у прозі Джона — перекладається"
+  - "Coretech, Biocorp, JKK, Praetorian Security, Underrail — латиницею, глосарій, read-only"
+  - "Skull Smasher має канонічний варіант «Дробитель Черепів» (глосарій); «Master Skull Smasher» будувати на ньому"
+  - "Drop Zone → «Зона Скидання», Black Sea → «Чорне Море», Rail Crossing → «Залізничний Переїзд», Free Drones → «Вільні Дрони» — глосарій"
+  - "Rag (q149, q151) — глосарій дає «Ганчірка»; у q151 названо справжнє ім’я Gale, воно канонічного варіанта не має"
+  - "Aegis у глосарії — бойовий препарат «Егіда»; тут Aegis Incorporated — інша сутність, рішення потрібне окреме"
+
+examples:
+  - unit: q3
+    rule: "«pal» — стабільний вокатив на весь вузол, STYLE §3.2"
+    uk_fragment: "друже"
+    status: proposed
+  - unit: q358
+    rule: "$(#man/woman) — гендерний плейсхолдер, STYLE §2"
+    uk_fragment: "$(#чоловік/жінка)"
+    status: proposed
+  - unit: a14
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Завершити діалог.::"
+    status: proposed
+  - unit: q52
+    rule: "дитинне аграматичне мовлення про їжу — зберігати зламану граматику"
+    uk_fragment: "Моя голодний."
+    status: proposed
+  - unit: q29
+    rule: "«tummy»/«belly» — побутове, не анатомічне"
+    uk_fragment: "пузо"
+    status: proposed

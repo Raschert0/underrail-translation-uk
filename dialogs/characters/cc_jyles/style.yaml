@@ -1,0 +1,108 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_jyles
+file_id: dialogs\characters\cc_jyles.txt
+derived_from: source-only
+units: {total: 529, npc: 261, player: 268, empty: 44}
+
+speakers:
+  - slug: jyles
+    name: Джайлз
+    units: default
+    confidence: certain
+    evidence: [q1, q453]
+    role: >-
+      Головний менеджер відділу продажу Core City Housing Corporation: продає гравцеві
+      ремонт, меблі й охорону будинку. Увесь вузол — це, по суті, торговий каталог,
+      тому левова частка q-рядків — товарні описи з цінами й рекламними формулюваннями.
+    relationships:
+      - "Гельга — колишня колега, менеджерка з інтер’єру; пішла в декрет (q518)"
+      - "Кетрін Сейвік — власниця компанії, про яку він говорить шанобливо (q501)"
+      - "Генк Ворделл — покійний попередній власник будинку гравця; Джайлз знав його як сусід (q507–q512)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Продавець з обслуги, який тримає ділову ввічливість від першої репліки:
+        «I'm sorry… I'm Jyles Pitt, and… welcome to Core City Housing Corporation
+        sales office», «How may I help you?», «Just a moment, please». За STYLE §3.2
+        службова обслуга — «ви»; репліки гравця дзеркалять базу (§3.3).
+      gender_cues: []
+      switches:
+        - {unit: q516, to: ви, trigger: "розмовне «whatcha gonna do» — зниження стилю, але НЕ перехід на «ти»; регістр лишається «ви»"}
+    voice:
+      register: >-
+        ділова ввічливість продавця з рекламним запалом; вимучена задишка на початку,
+        обірвані самопоправки («um», «ehm», «Khm», «Mmm»)
+      idiolect:
+        - "нав’язливе hardcore — словесний тик, ужитий і як похвала товару, і як оцінка події (q70, q91, q112, q456, q512, q520, q526)"
+        - "друга нав’язлива форма — dominate/dominated/dominating як синонім «чудово / розібратися» (q183, q445, q459, q521)"
+        - "рекламні формули-рефрени: «It'll be waiting for you when you get home», «you know where to find us», «Thank you for purchasing» — тримати їх однаковими в межах файлу"
+        - "цифри в мовленні виписані словами: «five hundred charons», «one thousand two hundred» — це стиль усного продавця"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Нарація тут третьоособова, описує дії Джайлза
+    (::He wipes the sweat off his forehead.::, ::He shrugs.::, ::He laughs.::);
+    підказки дій гравця — інфінітив за §3.5 (::Pay 350 stygian coins.::).
+
+new_names: ["Pitt", "Hank Wardell", "Catherine Saywick", "Reginald Saywick", "Helga", "Travis", "Carnifex", "Core City Housing Corporation", "United Stations", "Oligarchs", "the Beast"]
+
+idioms:
+  - unit: q507
+    src: "not-entirely-on-this-side-of-the-tracks kind of men"
+    note: "не калькувати залізничну метафору; ідея — «не зовсім при своєму», дивакуватий"
+  - unit: q507
+    src: "a bit derailed"
+    note: >-
+      каламбур продовжує попередню метафору («tracks» → «derailed»). Українською
+      шукати власну пару образів, а не дослівне «зійшов з рейок»
+  - unit: q523
+    src: "there's a stalactite hanging over our heads"
+    note: >-
+      підземна переробка «дамоклового меча» — саме сталактит, а не меч: образ
+      прив’язаний до світу гри, зберегти його
+  - unit: q516
+    src: "whatcha gonna do"
+    note: "розмовне змирення («ну а що вдієш»); знижує стиль, але не змінює «ви»"
+  - unit: q245
+    src: "It's practically a steal at that price"
+    note: "торгове кліше «майже задарма», не про крадіжку"
+  - unit: q323
+    src: "you'll enjoy it more than... um. Never mind."
+    note: >-
+      обірваний непристойний натяк про туалет; обрив має лишитися обривом —
+      не доказувати думку за персонажа
+
+pitfalls:
+  - "q1 і q453 називають персонажа Jyles Pitt — ім’я Jyles канонізоване в registry.yaml, прізвище Pitt — ні, воно в new_names"
+  - "«charon» / «stygian coin» — обидва є в глосарії (харон / стигійська монета); джерело вживає їх упереміш навіть у сусідніх юнітах (a52 «Pay 100 charons» vs a54 «Pay 230 charons» проти a65 «Pay 600 stygian coins»). Не уніфікувати самочинно — перекладати те, що стоїть у своєму юніті"
+  - "Назви товарів і моделей — Laisum, Green Galaxy, Prestige, Classic, Black Modern, Tucker, Somnio, Corial, Debonair, Executive L, CoolMaster Medium, RotoFire, Broken Pixel, Vivid P-800, Body Domination Hex, Decimator DM-66, AT-9, HDB-01, HDB-02, CT FL127-4320 — бренд-подібні, лишаються латиницею за STYLE §6"
+  - "Coretech, Biocorp, JKK, Praetorian Security, Underrail — глосарій вимагає латиниці й невідмінюваності"
+  - "q59, q72/q188, q46/q197/q252, q137/q208/q296, q150/q309 — дослівні дублікати описів для різних кімнат. Переклади мають збігатися дослівно між дублікатами"
+  - "Числа-словами не переводити в цифри: «two thousand five hundred charons» → словами; цифрові моделі (AT-9, DM-66) — навпаки, цифрами"
+  - "q501 «Mrs. Catherine Saywick» — звертальний титул перед прізвищем; українською природніше «пані», а не «місіс»"
+  - "q4 «Mister Morgan» — Morgan є в registry.yaml (Морган)"
+
+examples:
+  - unit: q70
+    rule: "hardcore — внутрішньоігровий сленг, лишаємо запозиченням (STYLE §9, глосарій: zoner → зонер)"
+    uk_fragment: "Хардкор."
+    status: proposed
+  - unit: q521
+    rule: "dominate як другий тик персонажа — тримати одне рішення на весь файл"
+    uk_fragment: "Безликих… "
+    status: proposed
+  - unit: a52
+    rule: "підказка дії всередині ::…:: — інфінітив (STYLE §3.5)"
+    uk_fragment: "::Заплатити 100 харонів.::"
+    status: proposed
+  - unit: q11
+    rule: "нарація — «ви» незалежно від регістру мовця (STYLE §3.1)"
+    uk_fragment: "::…каже вам це, прямуючи до комп’ютера.::"
+    status: proposed
+  - unit: q1
+    rule: "задишка передається українськими вигуками, не калькою латиничних «hhhhh»"
+    uk_fragment: "Фух, перепрошую…"
+    status: proposed

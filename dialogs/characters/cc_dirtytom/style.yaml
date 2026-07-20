@@ -1,0 +1,80 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_dirtytom
+file_id: dialogs\characters\cc_dirtytom.txt
+derived_from: source-only
+units: {total: 17, npc: 11, player: 6, empty: 1}
+
+speakers:
+  - slug: dirty_tom
+    name: Брудний Том
+    units: default
+    confidence: certain
+    evidence: [q1, q8, q14]
+    name_note: "англ. Dirty Tom — прізвисько прозоре за значенням, але канонічного варіанта в реєстрі немає, див. new_names"
+    role: >-
+      Старий шукач-мародер, що осів торгувати при Зонних Щурах. Балакучий,
+      сипле байками про своє минуле й теорії про Безликих; кожну історію
+      підводить до пропозиції поторгувати.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Панібратське звертання «youngster» у кожній другій репліці, суцільні
+        випадання g і просторіччя — «ти», STYLE §3.2; репліки гравця
+        дзеркалять цей регістр, §3.3.
+    voice:
+      register: просторічний, довірчий, з нальотом хвальби
+      idiolect:
+        - "звертання «youngster» — словесний тик, тримати одним і тим самим українським словом у всіх репліках"
+        - "випадання g: «fightin'», «lookin'», «tellin'» — знижений регістр, не вирівнювати до літературного"
+        - "«he-he-he», «I'd be damned», «ya», «lotsa», «Them bloody Oligarchs» — просторічна морфологія, зберігати"
+        - "шепіт і нахил уперед у q9 — зміна гучності всередині репліки, ремарку не прибирати"
+
+narration:
+  present: true
+  note: >-
+    q1 (розлогий опис запаху й одягу), вставки «::He leans forward and
+    whispers.::» (q9), «::He grins.::» (q12) — «ви» без винятків, STYLE §3.1.
+    У q1 нарація і пряма мова стоять в одному юніті через \n\n — межа регістру
+    проходить усередині рядка.
+
+new_names: ["Dirty Tom", "Rocker", "Mrs. Dirty", "Zone Rats", "Oligarchs"]
+
+idioms:
+  - unit: q2
+    src: "get down and dirty"
+    note: "гра слів із прізвиськом — «Dirty» в імені й «dirty» тут мусять бути одним коренем, інакше жарт зникає"
+  - unit: q8
+    src: "I'd be damned if I wasn't able to dig out some cool stuff"
+    note: "не калькувати; українське хвальке «та щоб я не викопав…»"
+  - unit: q12
+    src: "I thought we were all goners"
+    note: "розмовне «нам усім кінець», не буквальне «зниклі»"
+  - unit: q12
+    src: "something mighty fancy"
+    note: "просторічне підсилення, не «модне»"
+  - unit: q13
+    src: "the Protectorate noggins at the docks"
+    note: "«noggins» — зневажливо про голови/бовдурів Протекторату; зневага має читатися"
+  - unit: q10
+    src: "don't you judge me!"
+    note: "виправдання, а не заборона — інтонація захисту"
+
+pitfalls:
+  - "a16 містить $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "a6 «::Barter.::» — підказка дії, інфінітив: «::Торгувати.::» (глосарій, STYLE §3.5)"
+  - "Biocorp — латиницею; Underrail — латиницею й не відмінювати; Faceless → Безликі; Drop Zone → Зона Скидання; Free Drones → Вільні Дрони (глосарій)"
+  - "«the Praetorians» (q13) — демонім, а не компанія Praetorian Security; глосарій прямо позначає це як нерозв’язане питання — не вирішувати самотужки"
+  - "«Zone Rats» — реєстр згадує «Зонні Щури» лише в примітці до Sneaky; як самостійний термін не закріплено"
+  - "«dominated» у q8 і q12 — те саме ігрове слівце Центрального Міста, що й вигук «Dominating!»; тримати спільний корінь, не перекладати щоразу по-новому"
+
+examples:
+  - unit: q8
+    rule: "звертання-тик передається сталою формою, STYLE §9"
+    uk_fragment: "Слухай сюди, малий"
+    status: proposed
+  - unit: q1
+    rule: "нарація ::…:: — «ви» незалежно від «ти» в мові персонажа, STYLE §3.1"
+    uk_fragment: "::Від цього чоловіка тхне затхлим…::"
+    status: proposed

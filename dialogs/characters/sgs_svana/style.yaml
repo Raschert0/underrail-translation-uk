@@ -1,0 +1,107 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/sgs_svana
+file_id: dialogs\characters\sgs_svana.txt
+derived_from: source-only
+units: {total: 214, npc: 122, player: 92, empty: 6}
+
+speakers:
+  - slug: svana
+    name: Свана
+    units: default
+    confidence: certain
+    evidence: [q115, q174, q202]
+    role: >-
+      Перевізниця з ССГ, що возить гравця стандартними маршрутами й за великі гроші
+      погоджується на Забутий Острів. Її довга розповідь про Чорне Море — головний
+      масив тексту вузла й водночас сповідь про боягузтво, яке вона досі соромиться.
+    relationships:
+      - "Гравець — постійний клієнт; вона зве його «kid» від першої репліки до останньої"
+      - "Старий у спорядженні спелеолога (Hank) — пасажир, якого вона покинула біля Пащі"
+      - "Інші перевізники — професійна спільнота, на яку вона посилається як на джерело чуток"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Наскрізне фамільярне «kid», суцільні ain’t / ’cause / gonna / whatcha /
+        betcha, пряме «dig that?» — вулична, панібратська мова без жодної службової
+        дистанції (STYLE §3.2). Репліки гравця дзеркалять базовий регістр (§3.3),
+        зокрема й у грубих рядках a173, a194.
+      switches:
+        - {unit: q174, to: ти, trigger: "зрив на образу — «I’m a respected ferrywoman»; лишається «ти», але тон різкіший, не пом’якшувати"}
+    voice:
+      register: >-
+        хрипкувата, розхристана, з чорним гумором; фахова впевненість моряка
+        поруч із відвертим зізнанням у страху
+      idiolect:
+        - "«kid» у майже кожній репліці — вокатив-паразит, українською не однослівний штамп, а живе звертання (мала, малий — вимагає гендерного плейсхолдера)"
+        - "«You betcha» (q104, q135) — та сама формула двічі, тримати однаковою"
+        - "«dig that?» / «Dig?» (q17, q158) — перепит-виклик, не «розумієш?» офіційне"
+        - "«Mm-hmm.» (q66, q100) — байдуже гмикання, не згода"
+        - "нанизування «No. No. Shut up. No.» (q169) і «Do. You. Swear?» (q163) — рубана емфаза, крапки зберігати"
+        - "морська образність у переносному значенні наскрізна: oars, currents, river, throttle"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; підказки дій усередині «::…::» — інфінітив, §3.5"
+
+new_names: ["Hank", "Forsaken Island", "Forsaken Behemoth", "Jaws", "Glowing Canine", "Scrappy Narrow", "Eels", "TTX-100", "iceshroom", "quaker", "slackjaw"]
+
+idioms:
+  - unit: q25
+    src: "You ain’t rowing with both oars"
+    note: "не калькувати «гребти двома веслами»; ідіома «у тебе не всі вдома», але тримати весловий образ, бо він повторюється"
+  - unit: q31
+    src: "derailed as a Lunatic rowing with half an oar"
+    note: "подвійний образ: «derailed» — світобудовний каламбур на рейках Underrail, «half an oar» продовжує q25; шукати український відповідник, що зберігає обидва, і тримати «derailed» однаково в q27 і q31"
+  - unit: q38
+    src: "sent you down the right river"
+    note: "«скерувати на правильний шлях» у річковій метафорі — не калькувати дослівно"
+  - unit: q116
+    src: "as cool as iceshrooms"
+    note: "порівняння з ігровим предметом; зберегти предмет, а не міняти на побутове «холодний як лід»"
+  - unit: q127
+    src: "the most cowardly quaker in the entire Underrail"
+    note: "«quaker» тут — сленгове «боягуз», не релігійна течія; Underrail лишається латиницею й не відмінюється (глосарій)"
+  - unit: q23
+    src: "no one with a brain bigger than slackjaw’s"
+    note: "непрозоре: або прізвисько, або родова назва тупака — не вигадувати транслітерацію, поки не вирішено централізовано"
+  - unit: q174
+    src: "some random schmuck who thinks he’s got it all"
+    note: "грубе лишається грубим (STYLE §9); не пом’якшувати до «людина»"
+  - unit: q200
+    src: "more luck than brains"
+    note: "усталене «більше щастя, ніж розуму» — не дослівна калька"
+
+pitfalls:
+  - "q127 «*corroded* it» — це звичайне дієслово про кислоту, а НЕ ігровий дебаф Corroded → «Корозія» з глосарія"
+  - "q113, q119, q120 «the Jaws» — топонім-арка з поясненою етимологією («it’s got teeth. Hence - Jaws»); переклад мусить тримати зв’язок «зуби → назва», інакше пояснення розсипається"
+  - "q212 «the Eel’s» — апостроф у джерелі помилковий, це множина угруповання, не присвійний відмінок"
+  - "q144 «I ain’t bying it» — друкарська помилка джерела замість «buying»; перекладати за змістом «не куплюся»"
+  - "q80, q76 «fourty» — друкарська помилка замість «forty»; числа: сорок харонів, сорок п’ять кредитів"
+  - "У всьому вузлі немає жодного $(#…): звертання «kid» і гендерне минуле в репліках гравця (a15 «Still angry with me?» → відповіді, a183 «I’ve already been there») потребують ДОДАНИХ плейсхолдерів, бо українська рід показує, а англійська ні (STYLE §2)"
+  - "Топоніми з глосарія беруться готовими: Black Sea, Hell’s Gut, Core City, Junkyard, Camp Hathor, Chancer’s Bay, The Rig, Core Ring, Meatway, SGS, Faceless, Protectorate, Invictus, charon, stygian coin; Biocorp (q119) лишається латиницею"
+  - "q11, q12, q23 «Damn this place» / «damn spooky» / «damn pirates» — лайливий підсилювач у неї частотний і стертий; не підвищувати щоразу до сильної лайки"
+  - "q159 «Anyway, » та q161 «After all that » і q207 «Damn, kid, » — обірвані фрагменти, що склеюються з сусідніми юнітами; кінцевий пробіл і відсутність крапки зберігати"
+
+examples:
+  - unit: q17
+    rule: "«dig that?» — перепит-виклик у вуличному регістрі, STYLE §3.2"
+    uk_fragment: "ясно?"
+    status: proposed
+  - unit: q13
+    rule: "нарація «::…::» — завжди «ви», STYLE §3.1"
+    uk_fragment: "::Її слова віють на вас холодом.::"
+    status: proposed
+  - unit: a7
+    rule: "підказка дії всередині «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Відплисти до ССГ.::"
+    status: proposed
+  - unit: q104
+    rule: "«You betcha» — повторювана формула, тримати однаковою в q104 і q135"
+    uk_fragment: "Ще б пак"
+    status: proposed
+  - unit: q163
+    rule: "рубана емфаза крапками — зберігати пунктуацію джерела"
+    uk_fragment: "Ти. Даєш. Слово?"
+    status: proposed

@@ -1,0 +1,58 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/up_drek
+file_id: dialogs\characters\up_drek.txt
+derived_from: source-only
+units: {total: 7, npc: 7, player: 0, empty: 1}
+
+speakers:
+  - slug: drek
+    name: Дрек
+    units: default
+    confidence: certain
+    evidence: [q3, q4]
+    role: >-
+      Бандит із вуличної зграї Zone Boyz. Говорить майже нерозбірливим
+      здеформованим жаргоном — це його головна риса, а не сюжетна роль.
+    relationships:
+      - "Zone Boyz — його зграя; він говорить від її імені («Zone Boyz ’nate!»)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний бандит без жодного маркера ввічливості; STYLE §3.2 —
+        грубі й вуличні мовці на «ти». Реплік гравця у вузлі немає.
+      gender_cues: []
+    voice:
+      register: вуличний, п’яно-агресивний, майже нерозбірливий
+      idiolect:
+        - "тотальне випадання складів і початкових голосних: «’Opoff», «’Ound», «’T goin’»"
+        - "повторюване «’nate» наприкінці фрази — словесний тик, не англійське слово"
+        - "самоназва «hardcore-core» як означення й підсилювач"
+
+narration:
+  present: true
+  note: "лише вставка ::He yawns.:: у q7 — «ви» без винятків, STYLE §3.1"
+
+new_names: ["Zone Boyz"]
+
+idioms:
+  - unit: q5
+    src: "goin’ summ slazzywa’"
+    note: >-
+      вигадане спотворення, а не ідіома — відтворювати як українське
+      п’яне зжовування слів, не шукати словникового відповідника
+  - unit: q3
+    src: "b’ rollin’ diz biz"
+    note: "розмовне «крутити цю справу»; не калькувати «котити бізнес»"
+
+pitfalls:
+  - "Спокуса «вирівняти» мову до правильної — деформація тут і є характеристикою персонажа; STYLE §9: грубе лишається грубим"
+  - "«Zone Boyz» — назва зграї; вирішується централізовано, поки що не імпровізувати з відмінюванням"
+  - "q7 закінчується трьома крапками — зберігати обірваність"
+
+examples:
+  - unit: q7
+    rule: "нарація ::…:: — окремий шар, STYLE §3.1"
+    uk_fragment: "::Він позіхає.::"
+    status: proposed

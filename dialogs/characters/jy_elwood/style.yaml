@@ -1,0 +1,65 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_elwood
+file_id: dialogs\characters\jy_elwood.txt
+derived_from: source-only
+units: {total: 29, npc: 17, player: 12, empty: 2}
+
+speakers:
+  - slug: elwood
+    name: Елвуд
+    units: default
+    confidence: certain
+    evidence: [q3, q19, q24]
+    role: >-
+      Скраппер зі Звалища, який ріже в кості й не хоче, щоб його чіпали: хамить із
+      порога, а на прохання про ключ-картку відповідає сальним натяком. Груба
+      розв’язність — його єдиний регістр.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        $(#jack/baby) у q24 і «baby» у q19 — панібратсько-сальне звертання (STYLE §3.2).
+        Підтверджують «Mind your own damn business», «Leave me alone, will ya?».
+      gender_cues: ["$(#jack/baby)", "baby", "jack"]
+    voice:
+      register: грубий, розв’язний, із дешевим самозамилуванням
+      idiolect:
+        - "випадання g: talkin', Lyin', comin', messin'"
+        - "'im замість him, Can'tcha замість can't you — стягнення передавати розмовним регістром, не покаліченим правописом"
+        - "виділення зірочками *you*, *She*, *party* — інтонаційний наголос, розмітку зберігати"
+        - "q6 «Mr. Get Lost.» — знущальна відмовка замість імені, має лишитися жартом-відшиванням"
+
+narration:
+  present: true
+  note: "«ви» без винятків, попри «ти» в мові Елвуда — STYLE §3.1"
+
+new_names: ["Scrapper"]
+
+idioms:
+  - unit: q6
+    src: "Mr. Get Lost"
+    note: "не калькувати; потрібна українська конструкція «пан + груба відмовка», що читається як ім’я"
+  - unit: q19
+    src: "we can *party* later"
+    note: "сальний натяк під зірочками; двозначність зберегти, не пом’якшувати (STYLE §9)"
+  - unit: q27
+    src: "I don't swing that way"
+    note: "ідіома про орієнтацію; локалізувати розмовним відповідником, не буквально"
+
+pitfalls:
+  - "a9 і a21 починаються з ::[Persuade]:: / ::[Intimidate]:: — службові теги перевірки навички, форма з глосарію"
+  - "a26 ::Leave.:: — підказка дії, інфінітив (STYLE §3.5)"
+  - "q27 «jack» — тут не плейсхолдер, а звичайне звертання в тексті; перекладати словом, узгодженим із гілкою jack у $(#jack/baby)"
+  - "a13 «does she have a nice round belly» — натяк на вагітність, який Елвуд не зчитує; двозначність має вціліти"
+  - "Scrapper (q24) — назва банди, канонічного варіанта немає"
+
+examples:
+  - unit: q24
+    rule: "$(#jack/baby) — фамільярне гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/крихітко)"
+    status: proposed
+  - unit: q15
+    rule: "«ти» як база, наказовий успадковує вибір — STYLE §3.4"
+    uk_fragment: "Дай мені спокій"
+    status: proposed

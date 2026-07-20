@@ -1,0 +1,137 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_silas
+file_id: dialogs\characters\jy_silas.txt
+derived_from: source-only
+units: {total: 214, npc: 132, player: 82, empty: 8}
+
+speakers:
+  - slug: silas
+    name: Сайлас
+    units: default
+    confidence: certain
+    evidence: [q10, q209, q195, q197]
+    role: >-
+      Ватажок Black Eels, що керує доками Звалища; наймає гравця зірвати
+      Scrappers і продає доступ до «wormhole» за харони або за послуги.
+      Говорить як діловий бандит: коротко, з погрозою під поверхнею, торгується.
+    relationships:
+      - "Колтон — його підлеглий, готує вибухівку (q12, q64)"
+      - "Бродерік — капітан на його службі; про його смерть шкодує як про втрату працівника, не друга (q211)"
+      - "Едді — бос Scrappers, ворог; лише лайливо (q5)"
+      - "Блейн — колишній Scrapper, «old rat», потрібен Сайласу як джерело (q45, q51)"
+      - "Гровер — боржник, якого Сайлас велить витрусити або вбити (q117)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний бос, який звертається до гравця зверхньо-панібратськи: «kid»
+        (q127, q152, q162), «station $(#boy/girl)» (q197), «You look green»
+        (q80). Формальних маркерів немає в жодному юніті; STYLE §3.2 — грубий
+        свій мовець на «ти». Репліки гравця дзеркалять базу (STYLE §3.3),
+        зокрема відверто ворожі a160, a161.
+      gender_cues: ["$(#boy/girl)", "$(#his/her)"]
+    voice:
+      register: >-
+        грубий, уривчастий, командний; вулична говірка ватажка, що звик,
+        що його слухають
+      idiolect:
+        - "систематичне випадання -g: cleanin', startin', scavengin', sailin' — передавати розмовними формами, а не апострофами"
+        - "стале ain't і got замість have (q4, q44, q158) — просторічний шар, не пом’якшувати"
+        - "лайливе bloody як підсилювач (q47, q53, q72, q161) — не буквально, а українським лайливим підсилювачем"
+        - "нав’язливе Excellent на схвалення (q16, q64, q117, q140, q162, q166) — тримати один сталий відповідник у всьому вузлі"
+        - "подвоєння для схвалення: «Very good, very good» (q91, q101)"
+        - "he-he як писаний смішок (q49)"
+        - "зневажливі клички для чужих: muties (q22), sons of rats (q199, q200), fancy pants (q195)"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, попри «ти» самого Сайласа.
+    Нарація про нього ведеться в третій особі (q10, q18, q101, q140, q174),
+    зокрема портретна вставка q209.
+
+new_names:
+  - "Scrappers"
+  - "Black Eels"
+  - "Spectral Grinners"
+  - "Speeders"
+  - "Len"
+  - "Depot A"
+  - "Depot B"
+  - "the Wormhole"
+  - "United Stations"
+  - "Hathorian"
+
+idioms:
+  - unit: q41
+    src: "they get first dibs"
+    note: "не калькувати; «мають перший вибір», «знімають вершки»"
+  - unit: q44
+    src: "get a drop on them"
+    note: "застати зненацька, а не «скинути» чи «крапля»"
+  - unit: q61
+    src: "kicked the bucket"
+    note: "евфемізм смерті з відтінком байдужості; український розмовний еквівалент, не буквально"
+  - unit: q72
+    src: "back to square one"
+    note: "«знову з нуля»; не «квадрат»"
+  - unit: q80
+    src: "You look green"
+    note: "недосвідчений, а не про колір"
+  - unit: q113
+    src: "shake him down"
+    note: "витрусити гроші погрозою; кримінальний жаргон, не «трусити»"
+  - unit: q51
+    src: "ruff him up a bit"
+    note: "навмисне просторічне ruff замість rough — «пом’яти боки»"
+  - unit: q195
+    src: "fancy pants \"civilized\" Northern stations"
+    note: "зневага до чепурних північан; лапки на «civilized» іронічні — зберегти"
+  - unit: q201
+    src: "did they started pickin' on the big fish"
+    note: "«велика риба» — впливові цілі; ідіома локалізується, не калькується"
+  - unit: a97
+    src: "the easiest grand you ever earned"
+    note: "grand = тисяча; тут тисяча харонів, не «величний»"
+  - unit: a17
+    src: "get this show on the road"
+    note: "«починаймо»; без театральних образів"
+  - unit: a126
+    src: "That's derailed."
+    note: "внутрішньоігровий сленг зі світу метросистеми — лишати як образне «зійшло з рейок», не нейтралізувати"
+  - unit: q44
+    src: "do the whatcha-call-it, pincer attack"
+    note: "whatcha-call-it — затинання людини, що добирає слово; відтворити розмовним «як його там», термін «атака в кліщі» лишити точним"
+  - unit: q171
+    src: "The poor sap couldn't pay up."
+    note: "sap — бідолаха-невдаха, зневажливо-співчутливо"
+
+pitfalls:
+  - "q9, q65, q212 містять $(context.player.Name) — не відмінювати й нічого не дописувати всередині плейсхолдера"
+  - "q49, q80, q96, q197 — $(#boy/girl); q110 — $(#his/her): обидві гілки перекладати українськими родовими формами, регістр літер зберігати"
+  - "charon і stygian coin — різні записи глосарія (харон / стигійська монета); у q10, q88, a90, a99, a139 вони стоять поруч, не зливати в один термін"
+  - "числівники в джерелі то словами («one thousand five hundred», «Twelve hundred»), то цифрами (700, 1500, 100) — зберігати форму запису кожного юніта"
+  - "\\n\\n у q48, q61, q67, q91, q186, q189, q209 — літеральні розриви рядка, не чіпати й не переставляти"
+  - "q19, q20, q27, q41, q56, q184, q185, q191 — обірвані фрагменти однієї фрази, склеєні грою; не дописувати кінець і не додавати крапку, зберігати кінцевий пробіл там, де він є"
+  - "Old Junkyard (Старе Звалище) і Junkyard (Звалище) — окремі записи глосарія; q41–q45 вживають обидва в одному контексті"
+  - "JKK, SGS, Protectorate, Free Drones — глосарійні; «those damn Drones» у q210 — це Вільні Дрони"
+  - "a63, a90, a99, a103, a139, a156, a161, a171 — підказки дій у ::…:: інфінітивом (STYLE §3.5), а не наказовим способом"
+
+examples:
+  - unit: q49
+    rule: "$(#boy/girl) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed
+  - unit: q110
+    rule: "$(#his/her) — гендерний присвійний, обидві гілки"
+    uk_fragment: "$(#свої/свої)"
+    status: proposed
+  - unit: a63
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Розповісти йому"
+    status: proposed
+  - unit: q1
+    rule: "випадання -g передається розмовною формою, не апострофом"
+    uk_fragment: "прибрати тут"
+    status: proposed

@@ -1,0 +1,165 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/xpbl/le_tony
+file_id: dialogs\characters\xpbl\le_tony.txt
+derived_from: source-only
+units: {total: 368, npc: 267, player: 101, empty: 15}
+
+speakers:
+  - slug: tony
+    name: Тоні
+    units: default
+    confidence: certain
+    evidence: [q128, q119, q6]
+    role: >-
+      Тоні Ладелман — південець, провідник і механік експедиції, балакун і хвалько
+      з нескінченним запасом побрехеньок про кожне ремесло. Його голос — суцільний
+      вуличний сленг і самореклама, тож майже кожен його рядок вимагає розмовного
+      синтаксису, а не літературного.
+    relationships:
+      - "Маркус — напарник по табору; постійне підкушування в обидва боки, Тоні зве його «Marky»"
+      - "Ліллі — сестра, працює повією в Центральному Місті; він нею пишається й божиться нею"
+      - "Бріггс — начальник охорони; Тоні зве його «Briggsy» і водночас поважає"
+      - "гравець — кумир з Арени, Тоні звертається до нього як фанат до зірки"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Панібратський вуличний мовець: випадання g, «ain’t», «’cause», звертання
+        «my friend», «you hardcore son of a rat», «neighbor». Дистанції не тримає
+        від першого рядка — STYLE §3.2.
+      gender_cues: ["$(#him/her)self", "$(#he/she)", "$(#'im/'er)"]
+    voice:
+      register: гучний, хвалькуватий, вульгарний вуличний південець
+      idiolect:
+        - "«hardcore» — головний словесний тик, і прикметник, і похвала, і лайка; має лишатися ОДНИМ сталим словом у всіх позиціях"
+        - "«dominatin’» / «dominated» — друга опорна оцінка, теж стале слово"
+        - "розтягнуте «Yeeeeeah!» і регіт «bwahahaha!» — зберігати подовження й саме цю форму реготу"
+        - "«pipeworkin’», «pipeworks!» — евфемістична лайка від pipeworker; груба, не пом’якшувати"
+        - "«zone out» = вбити/вирубити, «zoner» = зневажливо про людину, «grindin’» = про секс — усе це сленг, а не буквальні дії"
+        - "постійне випадання g та ковтання h: «’im», «’er», «somethin’» — відтворювати розмовними стягненнями, а не апострофами всередині українських слів"
+        - "звертається до Маркуса «Marky», сам зветься «Tone» — обидві форми мають бути впізнаваними пестливими від канонічних імен"
+
+  - slug: marcus
+    name: Маркус
+    units: [q81, q87, q96, q98, q100, q104, q108, q110, q112, q114, q116, q120,
+            q127, q148, q150, q152, q154, q158, q160, q161, q165, q167, q169,
+            q171, q173, q176, q178, q181, q183, q185, q192, q194, q196, q238]
+    confidence: certain
+    evidence: [q148, q183, q171]
+    role: >-
+      Маркус — сек-інженер Aegis Incorporated, освічений північанин, який у цьому
+      вузлі виступає другим голосом: пояснює гравцеві факти про табір і людей та
+      сухо осаджує Тоні. Його репліки — повні речення без стягнень, тож контраст
+      із сусідніми рядками Тоні має бути чутним одразу.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова, пояснювальна мова без жодного сленгу: «To clarify,
+        $(context.player.Name)», «She assumes roles which require expertise
+        beyond that of the normal sec-troopers». Формальний службовець — STYLE §3.2.
+      switches:
+        - {unit: q171, to: ви, trigger: "зрив на Тоні («Damn it, Tone») — це до Тоні, не до гравця; регістр до гравця не змінюється"}
+    voice:
+      register: стриманий, канцелярно-точний, іронічний без грубості
+      idiolect:
+        - "уникає стягнень і сленгу — там, де Тоні каже «ain’t», Маркус каже повну форму"
+        - "сарказм подає рівним тоном: «Our life stories are exactly the same.» — без окличних знаків"
+        - "зве Тоні «Tone» — коротка форма, не пестлива"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q89, q177]
+    confidence: unknown
+    reason: >-
+      Обидва — не репліки, а граматичні уламки для склеювання («He», «’s»), що
+      стоять на межі між репліками Тоні й Маркуса; за самим текстом власника
+      не визначити.
+    guidance: >-
+      Перекладати як нейтральний уламок без розділових знаків і без великої літери
+      там, де її немає в джерелі; не добудовувати речення й не вводити роду.
+
+narration:
+  present: true
+  note: >-
+    Нарація в «::…::» — завжди «ви», незалежно від того, хто поруч говорить
+    (STYLE §3.1). Тут її багато й вона часто становить цілий юніт: q9, q13, q18,
+    q236, q240, q281, q325. Підказки дій усередині «::…::» — інфінітив (STYLE §3.5).
+
+unattributed_units: [q89, q177]
+
+new_names: ["Ladelman", "Tone", "Marky", "Lilly", "Ginger", "Savage", "Seeger",
+            "Danky Max", "Tim Cobblejock", "Ol' Toby", "Brutal Joe", "Shacky",
+            "Burly", "Slim", "Bonzo", "Zag", "Tookie", "Gleen", "Neena", "Maria",
+            "Joe De Pacino", "Wardell", "Lemurian", "Naga", "Hexagon",
+            "University of Dis", "Black Strait", "Aegis Incorporated",
+            "Patroller", "Metrothunder", "Lad Down Hard", "Bloodgod", "Mower",
+            "Zone-out", "Decapito", "freelooter"]
+
+idioms:
+  - unit: q6
+    src: "if you're hardcore at somethin', you're hardcore at somethin'"
+    note: "навмисна тавтологія-псевдомудрість; зберегти безглуздість, не «виправляти» на осмислене прислів’я"
+  - unit: q184
+    src: "It's a one-trick hopper"
+    note: "переробка «one-trick pony» під ігрову істоту; будувати від глосарного «стрибун», не калькувати «поні»"
+  - unit: q87
+    src: "he's *lardcore*"
+    note: "гра слів hardcore + lard про товстуна; потрібен український відповідник, що псує саме те слово, яким Тоні хвалиться"
+  - unit: q85
+    src: "Todder sounds kinda like toddler"
+    note: "звукова гра з іменем Тодда; жарт тримається на співзвуччі, а не на значенні — переробляти, а не перекладати"
+  - unit: q223
+    src: "You either die a snotty little thief, or you remain unshot long enough to see yourself become a sell-out"
+    note: "пародія на відому сентенцію; лишити формою афоризму"
+  - unit: q243
+    src: "Never get high on your own supply"
+    note: "усталене кримінальне правило; шукати сталий український відповідник, не буквальний переклад"
+  - unit: q253
+    src: "your best Imma-zone-you-out face"
+    note: "складений оказіональний прикметник; будувати такий самий зліплений оказіоналізм"
+  - unit: q170
+    src: "nooky-nooky, rumpy-pumpy"
+    note: "римована евфемістична пара про секс; потрібна римована пара, а не два синоніми"
+  - unit: q77
+    src: "if I had her bosomage"
+    note: "вигаданий іменник на псевдовисокий лад; лишити відчуття вигаданого слова"
+  - unit: q349
+    src: "droppin' faster than a drunk zoner"
+    note: "порівняння на сленгу; «зонер» — глосарне запозичення, зберегти його в порівнянні"
+
+pitfalls:
+  - "$(context.npc_xpbl_ladelman_playerName) — прізвисько гравця вустами Ладелмана; трапляється в понад двадцяти юнітах (q1, q10, q20, q28, q68, q88, q91, q119, q211, q222, q279, q282, q302, q317, q322, q330, q337, q345, q346, q354, q360, q361, q363). Усередині плейсхолдера нічого не відмінювати — фразу будувати так, щоб ім’я стояло в називному або в кличній позиції звертання"
+  - "$(context.player.Name) у q183 і a339, $(context.playerArenaTitle) у a338 — та сама вимога: не відмінювати вміст плейсхолдера"
+  - "$(#him/her)self у q44 розірваний між юнітами q44 і q45 — гендерна форма має лишитися саме в q44, добудовувати її в q45 не можна"
+  - "Багато юнітів — не речення, а уламки, що склеюються в рядок під час гри: q22–q29, q31–q33, q43–q45, q60, q62, q74–q78, q83–q84, q86–q89, q108–q117, q125–q129, q162–q164, q176–q178, q317–q318, q324. Не додавати початкової великої літери й кінцевої крапки там, де їх немає в джерелі"
+  - "Aegis Incorporated (q152, q192) — компанія, а не бойовий препарат «Егіда» з глосарія; потребує окремого рішення, у new_names винесено навмисно"
+  - "«Chief Briggs» — реєстр дає «шеф» з малої та «Бріггс»; у q367 «Briggsy. Uh, Chief. Chief.» самовиправлення з пестливого на офіційне має читатися"
+  - "«sec-chef», «sec-engineer», «sec-trooper», «sec-spec», «sec-specialist» — єдина словотвірна серія табору; тримати один префікс у всіх п’яти, бо q159–q160 будують жарт саме на скороченні"
+  - "«pipeworker» має глосарний відповідник «труболаз», але в цьому вузлі слово працює і як лайка (q31, q182, q195, q299, q307, q351), і як буквальна професія (q79, q84) — жарт q84 тримається на тому, що Тодд почув інше слово"
+  - "«hardcore» і «dominatin’» — не описові прикметники, а особистий бренд Тоні; переклад має бути один і той самий у всіх позиціях, включно з q322 «stay hardcore» і q311 «big-ass dominator statue»"
+  - "Глосарні назви в тексті: Core City, Black Sea, Junkyard, Rail Crossing, Camp Hathor, Foundry, Hell's Gut, Drop Zone, Mushroom Cove, Arena, Invictus, zoner, hopper, psi beetle, rathound, stygian coin, pipeworker, Biocorp, Coretech, JKK — брати готові варіанти"
+  - "«Tony of all trades» / «Tone of all trades» (q119, q202, q207, q208) — каламбур на «jack of all trades» плюс власне ім’я; q207 і q208 різняться ЛИШЕ формою імені, тож переклад мусить зберегти цю пару різною"
+
+examples:
+  - unit: q44
+    rule: "$(#him/her)self — гендер гравця, STYLE §2"
+    uk_fragment: "$(#сам/сама)"
+    status: proposed
+  - unit: a64
+    rule: "підказка дії в «::…::» — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q322
+    rule: "наказовий спосіб успадковує «ти», STYLE §3.4"
+    uk_fragment: "Бувай"
+    status: proposed
+  - unit: q160
+    rule: "мова Маркуса — «ви», повні форми без стягнень, STYLE §3.2"
+    uk_fragment: "Ні, ні —"
+    status: proposed
+  - unit: q9
+    rule: "нарація «::…::» — завжди «ви», STYLE §3.1"
+    uk_fragment: "::На ваш подив"
+    status: proposed

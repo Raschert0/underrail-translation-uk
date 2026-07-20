@@ -1,0 +1,100 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_edstrom
+file_id: dialogs\characters\cc_edstrom.txt
+derived_from: source-only
+units: {total: 140, npc: 86, player: 54, empty: 5}
+
+speakers:
+  - slug: edstrom
+    name: Гуннар Едстром
+    units: default
+    confidence: certain
+    evidence: [q3, q98]
+    role: >-
+      Олігарх, власник JKK і Арени; вербує гравця як особистого оперативника й веде
+      закулісну гру навколо вбивства Едмунда Найта та зниклого пристрою.
+    relationships:
+      - "Арчібальд Найт (Praetorian Security) і Руперт Сіммонс (Coretech) — інші олігархи, суперники-партнери"
+      - "Ола — торговець спорядженням JKK, до якого він відсилає гравця"
+      - "донька — свідок убивства; він відмовляється підпускати до неї гравця (q22)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Керівник, який тримає підкреслену ввічливість: «allow me to congratulate you»,
+        «My doors are always open»; гравець відповідає «sir» (a4, a14). STYLE §3.2 —
+        формальний, службовий, отже «ви» з обох боків.
+      gender_cues: ["$(#man/woman)"]
+      switches:
+        - {unit: q68, to: ви, trigger: "докір «I don’t want you idle» — тон холоднішає, але «ви» зберігається"}
+    voice:
+      register: гладкий корпоративний, доброзичливий фасад із прихованим розрахунком
+      idiolect:
+        - "постійно кличе гравця на ім’я — $(context.player.Name) на початку й у кінці реплік"
+        - "без розмовних скорочень і лайки; довгі складнопідрядні періоди"
+        - "ремарки ::He smiles.:: / ::He chuckles.:: як сталий жест — тримати однаковий переклад"
+        - "евфемізми замість погроз: «some... intervention from time to time», «they’ll overrun us»"
+        - "оцінні вигуки Marvelous / Perfect / Oh? — стримане схвалення, не захват"
+
+narration:
+  present: true
+  note: "«ви» без винятків, STYLE §3.1; тут нарація ще й розірвана на фрагменти (див. pitfalls)"
+
+new_names: ["Edmund", "Miland", "Acid Hunters", "Tchortists", "Acorn", "ACoNR", "Northern King", "Oligarchs"]
+
+idioms:
+  - unit: q9
+    src: "My doors are always open"
+    note: "усталена формула відкритості керівника — локалізувати ідіомою, не описом"
+  - unit: q24
+    src: "Knowledge is power"
+    note: "має усталений український відповідник — не перекладати заново"
+  - unit: q24
+    src: "come up on top"
+    note: "= вийти переможцем; не калькувати «піднятися нагору»"
+  - unit: q53
+    src: "We’ll iron it out in the end"
+    note: "= владнаємо; ідіома, не «розпрасуємо»"
+  - unit: q136
+    src: "internal bleeding as I like to call it"
+    note: >-
+      гра слів на «internal problems»; медичний образ треба зберегти, бо він
+      обіграний у наступному реченні («standing over its grave»)
+  - unit: q137
+    src: "at each other’s throats"
+    note: "= гризлися між собою; локалізувати"
+  - unit: q79
+    src: "these *gentlemen,* and I do mean the Acid Hunters"
+    note: "зірочки — іронічний наголос, зберегти розмітку й сарказм"
+
+pitfalls:
+  - >-
+    q1, q2, q3 і q96 — це ФРАГМЕНТИ одного речення, які гра склеює підряд
+    («…sitting behind the desk and » + «gazing into an azure drink…» + «down before
+    going around the desk…»). Кінцеві пробіли й порядок слів визначають, чи склеїться
+    українська фраза; перекладати як фрагменти, а не як самостійні речення.
+  - >-
+    Так само склеюються q25 + q26/q77 («And to make your job even simpler, » +
+    «we learned where they’re hiding. »), q116 + q120/q121/q122/q123
+    («However: » + «But it’ll have to wait. » + «Finish your tasks - » + «then we
+    will discuss the Acorn.»). Українська синтаксична рамка має витримати обидва варіанти
+    продовження.
+  - "q3, q5, q8, q20, q47, q56, q68, q88, q90, q93, q95, q97, q119 містять $(context.player.Name) — не відмінювати всередині плейсхолдера, будувати фразу так, щоб ім’я стояло в називному"
+  - "q91 містить $(context.playerArenaTitle) — те саме обмеження; титул підставляється в називному"
+  - "JKK, Coretech, Praetorian Security, Biocorp, Underrail — глосарій прямо велить лишати латиницею й не відмінювати"
+  - "Faceless → «Безликі», Protectorate → «Протекторат», Core City → «Центральне Місто», Drop Zone → «Зона Скидання», Invictus → «Інвіктус», charons → «харони» — усе за глосарієм"
+  - "«Underrail Protectorate» (q136) — поєднання латиниці й перекладеного слова; не транслітерувати першу частину"
+  - "q13 «chief of Praetorian Security» — «chief» за реєстром з малої («шеф»), крім початку речення"
+  - "Tchortists — похідне від Tchort (глосарій: «Тчорт»); форма демоніма не канонізована, до new_names"
+  - "«Acorn, a.k.a ACoNR» (a110) — акронім обіграно як слово; рішення потрібне централізоване, поки не вигадувати"
+
+examples:
+  - unit: q27
+    rule: "$(#man/woman) — гендер гравця, STYLE §2; обидві гілки українською"
+    uk_fragment: "$(#чоловік/жінка)"
+    status: proposed
+  - unit: a4
+    rule: "«sir» до формального NPC — ввічлива форма, а не транслітерація, STYLE §3.2"
+    uk_fragment: "пане"
+    status: proposed

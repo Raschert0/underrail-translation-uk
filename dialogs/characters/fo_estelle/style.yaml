@@ -1,0 +1,66 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_estelle
+file_id: dialogs\characters\fo_estelle.txt
+derived_from: source-only
+units: {total: 20, npc: 13, player: 7, empty: 1}
+
+speakers:
+  - slug: estelle
+    name: Естель
+    units: default
+    confidence: certain
+    evidence: [q1, q6, q11]
+    role: >-
+      Єдина аптекарка Ливарні, дружина місцевого лікаря; передчасно постаріла й хвора
+      на легені. Говорить лагідно й розважливо, з професійною звичкою називати страшне
+      спокійно.
+    relationships:
+      - "Габріель — чоловік, лікар Ливарні (той самий доктор Стівенсон із fo_doc); вибачається за його різкість"
+      - "Боббі — крамар Ливарні, джерело чуток, яким вона не вірить (q12)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Медичний фах при виконанні, представляється повним іменем і посадою:
+        «I'm Estelle Stevenson… What can I do for you?» — STYLE §3.2. Тепло в її мові
+        йде від інтонації, а не від панібратства.
+    voice:
+      register: м’який, утомлено-доброзичливий; довгі спокійні періоди
+      idiolect:
+        - "ремарки ::She coughs.:: розсипані по репліках — розрив зберігати на місці"
+        - "пом’якшувальні зачини: «I'm guessing», «I don't buy it», «I'm sure»"
+        - "розмовне стягнення «things'll» — легка невимушеність, не діалект"
+        - "самоперебивання й уточнення: «A bit. All in all…»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1"
+
+new_names: ["Stevenson", "Gabriel"]
+
+idioms:
+  - unit: q5
+    src: "Death is not a stranger to Foundry"
+    note: "усталена персоніфікація; передавати українською ідіомою, не калькою «смерть не чужа»"
+  - unit: q18
+    src: "pardon the expression - muck"
+    note: >-
+      вибачення перед лайкою; «muck» тримати тим самим словом, що й у fo_doc q17
+      і fo_messer q12 — це наскрізне зневажливе слово корпусу
+  - unit: q11
+    src: "having his arm bitten clean off"
+    note: "«clean off» — підсилювач «геть, повністю»; грубу конкретність не пом’якшувати (STYLE §9)"
+
+pitfalls:
+  - "a3 ::Barter.:: — підказка дії, інфінітив (STYLE §3.5)"
+  - "«Foundry Guard» (q12) — за глосарієм не перекладається; місто Foundry — «Ливарня»"
+  - "q17 «some Tchort deity» — за глосарієм «Тчорт»; тут зневажливо-невизначено, регістр зберегти"
+  - "q17 має ::She nods:: без крапки перед закриттям — не «виправляти» пунктуацію оригіналу"
+  - "q1: минулий час і прикметники про саму Естель — жіночі форми, плейсхолдер не потрібен"
+
+examples:
+  - unit: q8
+    rule: "нарація ::…:: перекладається прозою, делімітери лишаються — STYLE §3.1"
+    uk_fragment: "::Вона киває.::"
+    status: proposed

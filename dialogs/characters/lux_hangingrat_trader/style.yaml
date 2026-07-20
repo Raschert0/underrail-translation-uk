@@ -1,0 +1,102 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/lux_hangingrat_trader
+file_id: dialogs\characters\lux_hangingrat_trader.txt
+derived_from: source-only
+units: {total: 64, npc: 37, player: 27, empty: 3}
+
+speakers:
+  - slug: rob
+    name: мовця названо «Rob», канонічної форми ще немає
+    units: default
+    confidence: certain
+    evidence: [q1, q16]
+    role: >-
+      Шинкар «Hangin' Rat», найвіддаленішого бару Південної Underrail: малий,
+      жилавий, у татуюваннях і перснях. Уся його мова — один нескінченний
+      наїзд на зовнішність співрозмовника, поданий як форма гостинності.
+    relationships:
+      - "гравець — новий відвідувач, якому Роб одразу дає прізвисько «$(#Ugly Joe/Ugly Jane)» (q1) і далі кличе тільки так"
+      - "жінка в кутку — відвідувачка, про яку він відмовляється говорити (q52, q54)"
+      - "згадує дружину (q30), Мада Кілліана (q61), Джоела (q48) — епізодично, як матеріал для жарту"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Гранично панібратський вуличний мовець: «Ya must be new around here»,
+        «I ain't seen yer ugly face before» (q1), прізвисько замість імені.
+        STYLE §3.2 — грубий, вуличний — «ти»; §3.3 — гравець дзеркалить
+        (a21, a23, a49 — прямі відповіді в тому ж тоні).
+      gender_cues: ["$(#Ugly Joe/Ugly Jane)", "$(#guy/girl)", "$(#Mister/Miss)"]
+      switches: []
+    voice:
+      register: гучний, нахабно-добродушний, суцільне просторіччя
+      idiolect:
+        - "фонетичне спрощення в кожному рядку: ya, yer, y'all, whaddya, lotsa, 'bout, 'scuse — передавати послідовним українським просторіччям, а не разовими вкрапленнями"
+        - "випадання g: hangin', somethin', nothin', turnin', losin', interestin'ly"
+        - "«Bwahaha!» — фірмовий регіт (q17, q47); писати однаково в усіх юнітах"
+        - "ain't (q1), don't ask me no stupid questions (q55) — подвійне заперечення навмисне, це характеристика мовця"
+        - "нав’язливе ugly — наскрізне слово вузла, має лишатися ОДНИМ і тим самим українським словом скрізь"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1, попри те що сам Роб каже «ти». Нарація тут
+    тільки короткі ремарки в репліках (q1, q8, q47, q52, q57) та підказка дії
+    a37 і a3 — інфінітив, STYLE §3.5.
+
+new_names: ["Rob", "Hanging Rat", "Mad Killian", "Joel", "Ethan Lanford", "Ugly Joe", "Ugly Jane", "Uglington", "Uglo-Sapiens", "South Underrail"]
+
+idioms:
+  - unit: q11
+    src: "for rat's sake"
+    note: >-
+      світова заміна «for God's sake» — лайка-божіння, перероблена на щура.
+      Локалізувати як українську емоційну формулу з тим самим щуром, не калькувати
+  - unit: q1
+    src: "Heya."
+    note: "недбале вітання, не «Привіт»-нейтральне; шукати таке саме розхристане"
+  - unit: q16
+    src: "The Smartass Uglo-Sapiens Bar"
+    note: "вигадана псевдолатина; має лишитися впізнаваним жартом-новотвором, не поясненням"
+  - unit: q28
+    src: "The joke's on ya, I don't even have a mirror."
+    note: "ідіома «сміх обернувся на тебе»; не калькувати «жарт на тобі»"
+  - unit: q45
+    src: "cleaned their face with rusty barbed wire"
+    note: "гіпербола-образа; грубе лишається грубим, STYLE §9"
+  - unit: q60
+    src: "Might rearrange that face of yers into somethin' better-looking."
+    note: "чорний гумор про падіння в шахту; зберегти невимушеність, не пом’якшувати"
+  - unit: q14
+    src: "I suppose, in a way, perhaps, very likely, that ya belon' here."
+    note: "навмисне нагромадження вставних слів як розтягнутий сарказм — зберегти всю низку"
+
+pitfalls:
+  - >-
+    ГОЛОВНЕ: «$(#Ugly Joe/Ugly Jane)» — прізвисько гравця, що повторюється в
+    десяти юнітах (q1, q16, q24, q26, q28, q30, q32, q34, q41, q43, q45, q54, q61).
+    Український варіант обрати ОДИН раз і повторювати дослівно в усіх; обидві
+    гілки плейсхолдера мусять бути українськими, латиниці всередині $(#…) не лишати
+  - "q57 містить $(#Mister/Miss) Wiseass Uglington — і плейсхолдер, і вигадане прізвище; узгодити з обраним варіантом «Ugly Joe/Ugly Jane»"
+  - "q54, q57 містять $(#guy/girl) — окремий плейсхолдер, не плутати з прізвиськом"
+  - "a21–q34 — обмін жартами «You're so ugly, …»; кожна репліка гравця має мати свою відповідь-панчлайн у наступному q, тож жарт треба локалізувати парою, а не порядково"
+  - "«burrower» → «копака», «rathounds» → «щурчаки», «cave hopper» → печерний «стрибун», «Deep Caverns» → «Глибокі Печери» — глосарій; «Underrail» лишається латиницею й не відмінюється (q13, q60)"
+  - "назва бару в тексті пишеться і як «Hangin' Rat» (q11, q19, q20), і як «Hanging Rat» (a18) — це та сама назва; переклад один, апостроф-скорочення відтворювати просторіччям, а не двома різними назвами"
+  - "зірочки (*extreme*, *extremely*, *didn't*) — ігрове виділення; переносити на відповідне українське слово"
+  - "q36 «That's not a ba--» — обрив на півслові; зберегти обрив, не добудовувати"
+  - "a27, q61 закінчуються пробілом чи \\n перед <end> — не чіпати"
+
+examples:
+  - unit: a3
+    rule: "підказка дії — сталий рядок глосарія"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q1
+    rule: "просторічне «ya» → послідовне українське «ти»-просторіччя, STYLE §3.2"
+    uk_fragment: "мусиш бути"
+    status: proposed
+  - unit: q17
+    rule: "фірмовий регіт — однакове написання в усіх юнітах"
+    uk_fragment: "Бвахаха!"
+    status: proposed

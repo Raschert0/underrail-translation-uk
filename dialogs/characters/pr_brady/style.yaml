@@ -1,0 +1,70 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/pr_brady
+file_id: dialogs\characters\pr_brady.txt
+derived_from: source-only
+units: {total: 28, npc: 18, player: 10, empty: 1}
+
+speakers:
+  - slug: brady
+    name: Брейді
+    units: default
+    confidence: certain
+    evidence: [q4]
+    role: >-
+      Рядовий Брейді Гоман — виснажений вцілілий із заблокованого об’єкта,
+      єдиний, хто говорить за цілу групу. Знесилений, вдячний до нестями,
+      мова уривається на півслові.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Рядовий до капрала-рятівника: суцільне $(#sir/ma'am) майже в кожній
+        репліці — найсильніший можливий сигнал на «ви» (STYLE §3.2).
+        Гравець відповідає статутно («Time to go home, soldiers») — дзеркалить §3.3.
+      gender_cues: ["$(#sir/ma'am)", "$(#Sir/Ma'am)", "$(#man/woman)"]
+    voice:
+      register: знесилений, захеканий, надміру шанобливий
+      idiolect:
+        - "повтори від виснаження: «for... for... for a month», «falling... falling rocks»"
+        - "трикрапки в середині речення — брак дихання, а не роздуми; зберігати всі"
+        - "капслок як зрив голосу: «THANK YOU!»"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Довгі описові блоки q1, q8, q26 —
+    зв’язна проза про групу вцілілих.
+
+new_names: ["Homan", "Dreadnought"]
+
+idioms:
+  - unit: q1
+    src: "thin as rails"
+    note: "усталене порівняння на виснаження; не калькувати про рейки"
+  - unit: a3
+    src: "this hell hole"
+    note: "грубувате — не пом’якшувати (STYLE §9)"
+  - unit: a7
+    src: "The coast is clear."
+    note: "ідіома «шлях вільний / чисто», не про узбережжя"
+  - unit: q11
+    src: "I'm afraid so"
+    note: "не про страх — формула співчутливого підтвердження"
+
+pitfalls:
+  - "burrowers → копаки, burrower → копака (глосарій); «those filthy bugs» у q4 — розмовне про них же, окремий регістр"
+  - "a3 і a25 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "$(#sir/ma'am) вимагає українського гендерного звертання в обох гілках; у q24 капіталізація гілок обов’язкова — $(#Sir/Ma'am)"
+  - "q1 містить $(#man/woman) у нарації — узгодити дієприкметники навколо нього"
+  - "звання Private і Corporal з малої: «рядовий Брейді», «капрал»"
+
+examples:
+  - unit: q4
+    rule: "STYLE §2 — гендерне звертання в обох гілках плейсхолдера"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed
+  - unit: q24
+    rule: "STYLE §2 — капіталізація гілки на початку речення зберігається"
+    uk_fragment: "$(#Пане/Пані)"
+    status: proposed

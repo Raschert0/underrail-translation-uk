@@ -1,0 +1,103 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/rc1_doc
+file_id: dialogs\characters\rc1_doc.txt
+derived_from: source-only
+units: {total: 102, npc: 58, player: 44, empty: 2}
+
+speakers:
+  - slug: aliza
+    name: Аліза
+    units: default
+    confidence: certain
+    evidence: [q10, q9, q43]
+    role: >-
+      Єдина лікарка станції Залізничний Переїзд, хронічно перевтомлена; просить
+      звати її просто «док». Веде розслідування крадіжки медикаментів і платить
+      гравцеві безкоштовним лікуванням.
+    relationships:
+      - "Джаред — свій, знайомий роками; вона захищає його навіть після викриття"
+      - "капітан станції — начальство, до якого вона звертається у крайньому разі"
+      - "Дзижчик, Макс — мешканці станції, згадує їх мимохідь"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Медична службовиця, звертається до незнайомця «Hello, traveler», тримає
+        професійну дистанцію навіть у роздратуванні («Please don’t waste my
+        time») — STYLE §3.2 «обслуга, службові → ви». Репліки гравця дзеркалять
+        базовий регістр, STYLE §3.3.
+    voice:
+      register: втомлений, стриманий, професійно ввічливий
+      idiolect:
+        - "«Oh my…», «Oh dear» — постійний зойк-вигук; тримати однаковим у всьому вузлі"
+        - "повтори-подвоєння від виснаження: «yes, yes…», «Don’t know, don’t know», «Great! Great.»"
+        - "розмовне «you betcha» — єдиний зрив у неформальність, не згладжувати"
+
+  - slug: jared
+    name: Джаред
+    units: [q2, q4, q6]
+    confidence: certain
+    evidence: [q1, q2]
+    role: >-
+      Мешканець станції, який крав медикаменти через залежність від знеболювальних
+      після поранення. У цих трьох юнітах він кається перед Алізою, а не перед гравцем.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Ці репліки звернені до Алізи («I have been stealing the supplies from
+        *your* office»), а не до гравця, тож пряме звертання до гравця тут
+        відсутнє; до Алізи він говорить винувато й шанобливо — «ви».
+    voice:
+      register: зламаний, плаксивий, самопринизливий
+      idiolect:
+        - "обірвані самозасудження: «I know, it’s pathetic», «I have been…»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут нарація в третій особі про Алізу («::She sighs.::»), адресат опису — гравець"
+
+new_names: ["Aliza Boudreau", "Max"]
+
+idioms:
+  - unit: q24
+    src: "Overwhelmed - you betcha."
+    note: "не калькувати; розмовне ствердне «ще б пак», «а то ж»"
+  - unit: q43
+    src: "time is not an ally"
+    note: "не буквально «час не союзник»; ідіома про брак часу"
+  - unit: a50
+    src: "I've caught the thief red handed"
+    note: "локалізувати як «на гарячому», не «з червоними руками»"
+  - unit: a74
+    src: "That man'll do anything to save his filthy hide"
+    note: "«hide» — шкура; грубість зберегти, STYLE §9"
+  - unit: a58
+    src: "I shoot first and ask questions later"
+    note: "усталена формула, є питомий відповідник; не дослівний переклад"
+  - unit: q99
+    src: "he's just another poor soul"
+    note: "«бідолаха», не «бідна душа»"
+  - unit: q95
+    src: "he'll claw his way out of it"
+    note: "образ видряпування; передати зусилля, а не буквальні кігті"
+
+pitfalls:
+  - "q7 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я лишалося в називному"
+  - "У всьому вузлі немає жодного $(#…), але українська вимагає їх додати там, де гравець говорить про себе в минулому часі (a33, a50, a54, a64) — додавання плейсхолдера коректне, STYLE §2"
+  - "«Doc» тут — і посада, і форма звертання: за реєстром «док» з малої, крім початку речення (q10, a20)"
+  - "Реєстрові й глосарійні назви: Jared → Джаред, Buzzer → Дзижчик, Rail Crossing → Залізничний Переїзд, Faceless → Безликі, Free Drones → Вільні Дрони, Ironhead → Залізноголові, charons → харони, stygian coins → стигійські монети"
+  - "Друкарські помилки джерела («stich», «anitbiotics», «the eliminate», «I don’t trust him one but» = one bit) — перекладати за змістом, помилку не відтворювати"
+  - "a50 має *friendly* у зірочках — це сарказм-наголос; зірочки зберегти на відповідному українському слові"
+  - "«hypo» (q26) — ігровий ін’єктор, не «гіпотеза» й не «гіпс»"
+
+examples:
+  - unit: a12
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: a50
+    rule: "минулий час гравця потребує гендерного плейсхолдера, STYLE §2"
+    uk_fragment: "$(#спіймав/спіймала)"
+    status: proposed

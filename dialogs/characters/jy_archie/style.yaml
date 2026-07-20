@@ -1,0 +1,70 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_archie
+file_id: dialogs\characters\jy_archie.txt
+derived_from: source-only
+units: {total: 29, npc: 17, player: 12, empty: 1}
+
+speakers:
+  - slug: archie
+    name: Арчі
+    units: default
+    confidence: certain
+    evidence: [q1, q4, q14]
+    role: >-
+      Рибалка на Звалищі, якому бракує двох пальців і терпіння: відповідає на питання
+      неохоче, весь час натякаючи, щоб його лишили ловити рибу. Найгустіший діалект
+      у пакеті — саме він, а не зміст реплік, робить персонажа.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        $(#jack/sister) у q1 і q27 — вуличне панібратське звертання (STYLE §3.2).
+        Підтверджують наказові «tread carefully», «leave me to my fishin'» і суцільне
+        просторіччя.
+      gender_cues: ["$(#jack/sister)"]
+    voice:
+      register: просторічний, буркотливо-байдужий; короткі рублені речення
+      idiolect:
+        - "ya замість you, yerself замість yourself — послідовне просторіччя, передавати українським розмовним регістром, а не спотвореним правописом"
+        - "подвійне заперечення: «We ain't got no laws», «I don't have none» — граматична неправильність навмисна, зберігати"
+        - "випадання g: fishin', Crossin', Scavengin', nothin'"
+        - "нав’язливе «Yup.» окремим реченням — словесний тик, тримати однаковим у q5, q9, q23"
+        - "зачини «Eh...», «Nah.», «Why,»"
+        - "розтягнуте «de-licious» у q11 — інтонаційне підкреслення, зберігати розрив"
+
+narration:
+  present: true
+  note: "«ви» без винятків, попри «ти» в мові самого Арчі — STYLE §3.1"
+
+new_names: ["Black Eels", "Scrappers"]
+
+idioms:
+  - unit: q5
+    src: "try not to step on any toes"
+    note: "ідіому локалізувати — «не наступати на мозолі» українською не читається як застереження"
+  - unit: q5
+    src: "ya end up in one of them scrap compactors"
+    note: "погроза подана буденно; тон не драматизувати"
+  - unit: q14
+    src: "Ran out of fishin' bait."
+    note: >-
+      чорний жарт-відмовка на питання про пальці; жарт має лишитися жартом, наступний
+      юніт q15 його спростовує — зв’язок зберегти
+
+pitfalls:
+  - "«Junkyard» — «Звалище», «South Gate» — Станція Саут-Гейт, «Rail Crossin'» — Залізничний Переїзд, «Biocorp» лишається латиницею, «Core City» — Центральне Місто: усе за глосарієм"
+  - "Kareem є в реєстрі — «Карім»; «Kareem's Bar» будувати як присвійну форму від нього"
+  - "«Johan's scrap pile» (q25) — Йоган за реєстром; вузол читати разом із dialogs/characters/jy_johan"
+  - "Black Eels і Scrappers — назви банд, канонічних варіантів немає; не вигадувати поодинці"
+  - "q1: «Sorry, $(#jack/sister)» — звертання до ГРАВЦЯ, мовець при цьому Арчі"
+
+examples:
+  - unit: q1
+    rule: "$(#jack/sister) — вуличне гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q12
+    rule: "наказовий спосіб успадковує «ти» — STYLE §3.4"
+    uk_fragment: "дай мені порибалити"
+    status: proposed

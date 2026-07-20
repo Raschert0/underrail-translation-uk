@@ -1,0 +1,163 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tanner1
+file_id: dialogs\characters\tanner1.txt
+derived_from: source-only
+units: {total: 306, npc: 176, player: 130, empty: 16}
+
+speakers:
+  - slug: tanner
+    name: Таннер
+    units: default
+    confidence: certain
+    evidence: [q112, q171, q176, q203, q262]
+    role: >-
+      Гадріан Таннер — радник і фактичний голова ССГ, той, хто прийняв гравця до
+      станції; він роздає всі перші завдання й пояснює політику станції. Говорить
+      як керівник, що зважує наслідки: звідси довгі періоди, аналітична лексика
+      й накази у формі прохання.
+    relationships:
+      - "Горський — соратник багатьох років; q173: «we've known each other for many years»"
+      - "Гарольд, Паскуале, Вера, Ессі, Лукас, Брет — підлеглі, до яких він скеровує гравця"
+      - "Роман веде перемовини з Сайласом за його дорученням (q2)"
+      - "Ленокс — прохач, якому станція відмовила; Таннер говорить про нього співчутливо, але твердо (q118-q119)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова, а не приватна розмова: радник станції інструктує новоприбулого
+        громадянина. Нарація прямо називає голос «calm and distant» (q2) і
+        «deep voice feels distant and calming» (q263) — дистанція закладена в
+        характеристику персонажа. Він звертається на повне ім’я через
+        $(context.player.Name), а не пестливо, і жодного разу не вживає
+        панібратських звертань. STYLE §3.2 — формальний, службовий мовець.
+      gender_cues: []
+      switches:
+        - {unit: q21, to: ви, trigger: "офіційне попередження — регістр не змінюється, але тон стає санкційним: «you will find yourself no longer to be a part of this community»"}
+        - {unit: q179, to: ви, trigger: "«His voice deepens slightly and becomes more commanding» — наказовий спосіб на «ви»: «Заходьте», «Вирушайте» (STYLE §3.4)"}
+    voice:
+      register: стриманий, книжний, аналітичний; ані теплого, ані ворожого
+      idiolect:
+        - "довгі складнопідрядні періоди з підрядними мети й наслідку — не дробити на короткі речення"
+        - "латинізована й термінологічна лексика: profligate, de novo, prime directive, monolithic, encroach — українською теж книжний шар"
+        - "пом’якшувальні застереження перед оцінкою: «As far as I am aware», «I’m afraid», «I reckon», «I predict»"
+        - "накази подає як намір мовця: «I want you to retake them», «I want you to bring it to me» — не калькувати «Я хочу, щоб ви…» щоразу"
+        - "ніколи не лається й не вживає сленгу, навіть коли гравець вживає (пор. a268 «Heck yeah!»)"
+
+  - slug: player
+    name: гравець
+    units: []
+    confidence: certain
+    evidence: [a268, a303]
+    role: >-
+      Репліки гравця коливаються від службово-сухих до підліткувато-жартівливих,
+      але базовий регістр дзеркалить Таннера.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        STYLE §3.3: дзеркалимо базовий регістр співрозмовника, а не емоційні
+        зриви. Жартівливі варіанти (a268 «Heck yeah! Do I get to shoot stuff?»,
+        a270 «Right on.», a101 «nothing’s too secret for me») лишаються на «ви» —
+        грайливість передається лексикою, не переходом на «ти».
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Нарації тут багато, і вона двох типів:
+    великі описові блоки від другої особи (q262, q263) і короткі вставки-ремарки
+    всередині реплік (q35, q78, q98, q105, q161, q178). Підказки дій у репліках
+    гравця — інфінітив (STYLE §3.5): «::Follow him.::», «::Give it to him.::»,
+    «::Nod and leave.::».
+
+unattributed_units: []
+
+new_names:
+  - "Hadrian"
+  - "Black Eels"
+  - "Scrappers"
+  - "Acid Hunters"
+  - "Lanford"
+  - "Cornell"
+  - "Melek"
+  - "Omega"
+  - "Acorn"
+  - "ACoNR"
+  - "New Frontier Technologies"
+  - "NFT"
+  - "United Stations"
+  - "Crossroad Caves"
+  - "Gauntlet"
+  - "Armadillo"
+  - "Southgaters"
+  - "Tchortists"
+  - "Cube"
+  - "Oligarchs"
+
+idioms:
+  - unit: q153
+    src: "Our best bet would be Junkyard"
+    note: "не калькувати «наша найкраща ставка»; розмовне «найімовірніше — Звалище»"
+  - unit: q302
+    src: "we need all able hands at the deck"
+    note: "морська ідіома; локалізувати як «потрібні всі, хто здатен працювати», а не «руки на палубі»"
+  - unit: q284
+    src: "He knows that area inside-out"
+    note: "«знає той район як свої п’ять пальців» — питомий відповідник, не калька"
+  - unit: q10
+    src: "We're already stretched thin"
+    note: "«ми й так розпорошені» / «нас і так бракує»; повторюється в q13 — тримати один відповідник"
+  - unit: a122
+    src: "that Armadillo drill whatsitcalled"
+    note: "затичка недбалості гравця; український відповідник на кшталт «та штука», не вигадана калька"
+  - unit: a168
+    src: "About that drill thingamagingy..."
+    note: "те саме розмовне «як його там»; контраст із термінологічною відповіддю Таннера в q169"
+  - unit: q52
+    src: "for it would be profligate"
+    note: "книжне «марнотратно»; знижувати регістр не можна — це маркер мовлення Таннера"
+  - unit: a268
+    src: "Heck yeah! Do I get to shoot stuff?"
+    note: "евфемізм замість лайки; лишається розмовним, але на «ви» — див. speakers[player]"
+
+pitfalls:
+  - "q14, q42, q44, q96, q109, q124, q132, q174, q204, q261, q264 містять $(context.player.Name) — не відмінювати всередині плейсхолдера й не додавати до нього закінчень"
+  - "у файлі немає жодного $(#masc/fem); але український минулий час гендерований, тож там, де Таннер говорить про дії гравця («you acted in self-defense» q20, «you have done well» q174, «you’ve done a great service» q42), плейсхолдер треба ДОДАТИ — це вимога STYLE §2, а не вільність"
+  - "літеральні \\n\\n у q21, q31, q38, q41, q42, q48, q52, q53, q96, q132, q148, q155, q179, q263, q280, q297 — зберігати позицію й кількість"
+  - "::[Intelligence]:: (a50) і ::[Mercantile]:: (a80, a83, a85, a87) — теги перевірок навичок; форма за зразком глосарію ::[Переконати]:: — дієслово в інфінітиві всередині дужок"
+  - "Underrail (q101, q96, q220, q228, q277, q204) лишається латиницею й не відмінюється навіть у складених назвах: «Південна Underrail», «Верхня Underrail» — глосарій, read-only"
+  - "GMS (q144) лишається латиницею, тоді як SGS передається як ССГ — глосарій прямо застерігає від уподібнення"
+  - "Biocorp, Old Biocorp (q206, q233) і Coretech (a202, a205, q206) — латиницею, не відмінювати"
+  - "«Jonas» у q157, q277, q284 — це персонаж, записаний у реєстрі як Old Jonas → Старий Йонас; без означення «Old» — просто Йонас"
+  - "«Bret» у q135, a143 — це Big Bret → Великий Брет із реєстру"
+  - "Ethan (a16) → Ітан за реєстром, не «Етан»"
+  - "Silas (q2) → Сайлас за реєстром (вимова SY-ləs), не «Сілас»"
+  - "Gorsky → Горський, відмінюється як прикметник: «завдання Горського» (a146), «Горський загинув» (a170)"
+  - "числа виписані словами: «two hundred fifty charons» (q158, q166), «Eighteen thousand credits» (a80), «three hundred credits» (q280) — лишати словами, не цифрами"
+  - "«charons» (q158, q166) → «харонів» за глосарієм (монета, з малої); «SGS credits» (q41, q182, q189) → «кредитів ССГ»"
+  - "a247 «DEBUG: Play Faceless Invasion cutscene» — службовий рядок розробників, не ігровий текст"
+  - "q37+q38 і q92 — розірвана надвоє фраза про «quantum near-field lock»; переклад обох частин має стикуватися граматично"
+  - "«blueprint» (q52, q53, q55) → «Креслення» за глосарієм, не «схема»"
+  - "«scavenger» (q262, q277) → «шукач» за глосарієм; тут же «scavenger outfit» — одяг шукача, не «сміттяра»"
+
+examples:
+  - unit: q1
+    rule: "нарація ::…:: — завжди «ви», STYLE §3.1"
+    uk_fragment: "::Обернувшись до вас…::"
+    status: proposed
+  - unit: a114
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Піти за ним.::"
+    status: proposed
+  - unit: q179
+    rule: "наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "Вирушайте до Центрального Міста"
+    status: proposed
+  - unit: q42
+    rule: "гендерний плейсхолдер додаємо там, де його не було в джерелі, STYLE §2"
+    uk_fragment: "ви $(#зробили/зробили)"
+    status: proposed
+  - unit: q158
+    rule: "«charon» → «харон» з малої, глосарій"
+    uk_fragment: "двісті п’ятдесят харонів"
+    status: proposed

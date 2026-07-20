@@ -1,0 +1,80 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_payam
+file_id: dialogs\characters\tch_payam.txt
+derived_from: source-only
+units: {total: 78, npc: 40, player: 38, empty: 2}
+
+speakers:
+  - slug: payam
+    name: Паям
+    units: default
+    confidence: certain
+    evidence: [q7, q53, q73]
+    role: >-
+      Рясофор Паям відповідає за спостереження й охорону головної брами
+      Інституту Тчорта: реєструє всі входи й виходи та випитує причину.
+      Абсолютно процедурна людина без почуття гумору.
+    relationships:
+      - "Гравець — «novitiate», нижчий за саном, тому підлягає допиту (q45)"
+      - "Невіл — рясофор, чиє зникнення Паям коментує (q64, q65)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службовець на посту, який говорить протоколом: «I am simply following
+        the proper procedure» (q41), «Everything you said has been noted» (q30),
+        «Negative» (q64). STYLE §3.2 — формальні й службові беруть «ви».
+        Виправляє гравцеві форму привітання (q6, q76), тобто сам є носієм
+        етикету.
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: повільний, беземоційний, канцелярсько-статутний
+      idiolect:
+        - "нарація двічі підкреслює темп: «slow, unhurried voice» (q5, q73) — фрази довгі, без обривів"
+        - "уникає скорочень і розмовності; «Negative» замість «ні» — армійсько-диспетчерське"
+        - "процедурна лексика: «noted», «egress», «proper procedure», «false statements» — тримати підкреслено офіційний шар"
+        - "нуль реакції на жарт: «statue-like stillness» (q57) — не додавати іронії, якої в тексті немає"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; пор. a72 «::Remain silent.::» — підказка дії, інфінітив (§3.5)"
+
+new_names:
+  - Episkopos
+  - Praepostor
+  - Principal Investigator
+  - Propagation
+  - Original Report
+
+idioms:
+  - unit: a52
+    src: "I hope I have your divided attention!"
+    note: >-
+      каламбур на «cell division» / «divided attention». Калька не працює —
+      потрібен український каламбур навколо поділу клітини, інакше q55–q57
+      (реакція «I know what mitosis is») втрачає сенс
+  - unit: q61
+    src: "inbreds who aren't worthy of our attention"
+    note: "зневажливе позначення чужинців у вустах тчортиста; грубе лишається грубим, STYLE §9"
+  - unit: a47
+    src: "Gotcha."
+    note: "розмовне «зрозумів», не калькувати як «спіймав»"
+
+pitfalls:
+  - "q6 і q76 — це урок етикету: «Tchort is evolution» / «Evolution is Tchort» мають бути дзеркальним переставлянням тих самих слів, інакше правило в тексті стає неочевидним"
+  - "«Tchort guide you» (q10, q20, q30, q67, q69) — стала прощальна формула культу, однакова в усіх юнітах і в сусідніх вузлах"
+  - "q45 містить $(#he/she), що вказує на гравця у ТРЕТІЙ особі — «як $(#йому/їй) заманеться», а не звертання"
+  - "q5 і q73 закінчуються на \\n\\n і продовжуються наступним юнітом; q10, q59 — короткі склейки. Порядок слів має витримати склеювання"
+  - "q45 «question notability» — у джерелі покруч замість «notables» (поважні особи); перекладати за змістом, не за буквою"
+  - "a4, a11, a68, a77 — гравець каже «brother» без плейсхолдера, бо адресат чоловік (Паям); це не гендер гравця"
+
+examples:
+  - unit: q13
+    rule: "$(#brother/sister) — гендерне звертання до гравця, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q45
+    rule: "$(#he/she) — гендер гравця в третій особі, не звертання"
+    uk_fragment: "$(#йому/їй)"
+    status: proposed

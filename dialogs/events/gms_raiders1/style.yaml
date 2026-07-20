@@ -1,0 +1,158 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/events/gms_raiders1
+file_id: dialogs\events\gms_raiders1.txt
+derived_from: source-only
+units: {total: 59, npc: 33, player: 26, empty: 8}
+
+speakers:
+  - slug: gms_raiders
+    name: рейдери на GMS
+    units: default
+    confidence: probable
+    evidence: [q1, q5, q9, q29, q33]
+    role: >-
+      Пара озброєних рейдерів, що захопила комплекс GMS і тримає старого шукача
+      під прицілом; вони перехоплюють гравця, допитують і вирішують, убити його
+      чи відвести до ватажка.
+    relationships:
+      - "двоє між собою — спільники, звертаються одне до одного без імен"
+      - "старий («gramps») — їхній заручник"
+      - "Max — їхній товариш, що лишався нагорі з ключем від люка"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличні бандити з ножем і арбалетом, які погрожують і лаються; STYLE §3.2
+        віддає такому мовцеві «ти». Плейсхолдер $(#jack/sister) у q1, q5, q36 —
+        прямий сигнал на користь «ти».
+      gender_cues: ["$(#jack/sister)", "sister", "sis"]
+    voice:
+      register: грубий, вуличний, погрозливий; коротка різка фраза
+      idiolect:
+        - "стягнені й просторічні форми: ain't, gonna, how'd — передавати розмовною українською, не літературною"
+        - "лайка-звертання bastard, punks — не пом’якшувати (STYLE §9)"
+
+  - slug: gms_raider_crossbow
+    name: рейдерка з арбалетом
+    units: [q3, q8]
+    confidence: certain
+    evidence: [q3, q8]
+    role: >-
+      Жінка з арбалетом, яка веде допит і перша наводить зброю; її репліки
+      потребують жіночих форм минулого часу в українській.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "та сама вулична манера, що й у напарника"
+    voice:
+      register: різкий, командний
+      idiolect:
+        - "звертається до заручника зневажливо gramps"
+
+  - slug: gms_raider_knife
+    name: рейдер з ножем
+    units: [q38]
+    confidence: probable
+    evidence: [q38]
+    role: >-
+      Другий рейдер; у q38 лише німа реакція — він зиркає на напарницю з
+      арбалетом, отже сам він не арбалетник.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: "той самий вуличний регістр пари"
+
+  - slug: gms_hostage_oldman
+    name: старий заручник
+    units: [q4]
+    confidence: certain
+    evidence: [q4]
+    role: >-
+      Літній чоловік, якого рейдери тримають на прицілі; єдина його репліка —
+      перелякане виправдовування, що гравець не з ними.
+    address:
+      npc_to_player: ви
+      player_to_npc: ти
+      basis: >-
+        Говорить не до гравця, а до рейдерів, і то з переляку; звертання до
+        гравця в нього немає, тож «ви» тут — обережний нейтральний вибір, а не
+        висновок із тексту.
+      gender_cues: ["$(#He/She) ain't with us"]
+    voice:
+      register: збуджений, благальний, з повторами
+      idiolect:
+        - "подвоєння як ознака паніки: «You do! You do!»"
+
+  - slug: narration
+    name: нарація
+    units: [q51]
+    confidence: certain
+    evidence: [q51]
+    role: >-
+      Службовий опис реакції обох рейдерів під перевірку навички; не мовлення
+      персонажа.
+    address:
+      npc_to_player: ви
+      basis: "нарація завжди на «ви» — STYLE §3.1"
+
+narration:
+  present: true
+  note: >-
+    ::…:: трапляється і як авторський опис (q3, q8, q38, q51), і як підказка дії
+    гравця (::Attack!::, ::[Persuade]::). Опис — «ви» (STYLE §3.1), підказка дії —
+    інфінітив (STYLE §3.5).
+
+unattributed_units: []
+
+new_names: ["Adahn", "Max"]
+
+idioms:
+  - unit: q1
+    src: "Get about your business"
+    note: "не калькувати; розмовне «йди своєю дорогою», а не «займися своєю справою»"
+  - unit: q5
+    src: "Don't move a muscle"
+    note: "усталене «не рухайся», «навіть не смикнись»; про м’яз не йдеться"
+  - unit: q18
+    src: "I'm gonna rip your guts out"
+    note: "погроза лишається брутальною — не пом’якшувати"
+  - unit: q34
+    src: "take me to your leader"
+    note: "іронічна цитата з фантастики; передавати як штамп, а не буквально"
+  - unit: q36
+    src: "Ain't good enough"
+    note: "просторічна відмова; не «недостатньо добре»"
+  - unit: q47
+    src: "Sorry to be the bearer of bad news"
+    note: "ідіома; локалізувати як «шкода тебе засмучувати», не калькувати «носій поганих новин»"
+  - unit: q52
+    src: "It ain't got nothing you people don't have already"
+    note: "подвійне заперечення — просторіччя, відтворювати розмовністю, а не помилкою"
+  - unit: a58
+    src: "Eat lead, sister!"
+    note: "бойовий штамп; українського відповідника типу «отримуй свинець» шукати, не калькувати"
+
+pitfalls:
+  - "a56, a57 містять $(context.player.Name) — не відмінювати всередині плейсхолдера й не додавати всередину закінчень"
+  - "q1, q5, q36 містять $(#jack/sister) — обидві гілки перекладати українською, латиниця всередині $(#…) неприпустима"
+  - "q4 містить $(#He/She) — це займенник про гравця у третій особі; узгоджений присудок теж може потребувати гендерної гілки"
+  - "q39 містить літеральний \\n — зберегти як є, не перетворювати на реальний перенос"
+  - "q28, q38, q54, q51 закінчуються пробілом перед <end> — не прибирати, це формат рядка"
+  - "SGS у a40, a50, q52 — за глосарієм ССГ; South Gate Station — Станція Саут-Гейт"
+  - "Max — ім’я персонажа, а не англійське прислівник; Adahn — вигаданий псевдонім гравця, обидва подані в new_names"
+  - "a17, a31, a37, a40, a45 починаються з ::[Intimidate]::, ::[Persuade]:: — назви перевірок беруться з глосарію, а не перекладаються наново"
+
+examples:
+  - unit: q1
+    rule: "$(#jack/sister) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q4
+    rule: "$(#He/She) — гендерна гілка про гравця, STYLE §2"
+    uk_fragment: "$(#Він/Вона) не з нами"
+    status: proposed
+  - unit: a35
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Атакувати!::"
+    status: proposed

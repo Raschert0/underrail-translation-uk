@@ -1,0 +1,81 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/dun_lowlevelbunker4_diedrick
+file_id: dialogs\characters\dun_lowlevelbunker4_diedrick.txt
+derived_from: source-only
+units: {total: 46, npc: 23, player: 23, empty: 5}
+
+speakers:
+  - slug: diedrick
+    name: Diedrick
+    units: default
+    confidence: certain
+    evidence: [q1, q35]
+    role: >-
+      Мандрівний торговець-початківець, якого гравець рятує; вдячний, ніяковий,
+      постійно перепрошує й нав’язує винагороду. Говорить за двох — його супутниця
+      Ryl у цьому вузлі не має жодної репліки, лише киває.
+    relationships:
+      - "Ryl — супутниця й напарниця в торгівлі, жінка (q35: «she gives him back a gentle nod»); у гілці q15/q18 вона гине, і тон стає надламаним"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Панібратське звертання «you guys», вигуки «Aww», «Sheesh», «heh heh» і пряме
+        $(#brother/sister) у q43 — свій до свого, STYLE §3.2.
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: теплий, метушливий, вибачливий; вуличний торговець без апломбу
+      idiolect:
+        - "затинання-заповнювачі «umm», «uhm» на початку фрази — знак ніяковості, не викидати"
+        - "постійне «we» замість «I» — говорить від імені пари з Ryl"
+        - "вигуки-реакції: Aww, Woah, Sheesh, Phew, heh heh"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут переважно короткі ремарки про жести (::He wipes the sweat from his forehead.::)"
+
+new_names: ["Diedrick", "Ryl"]
+
+idioms:
+  - unit: q1
+    src: "it's the least we can do"
+    note: "усталена формула вдячності; не калькувати дослівно"
+  - unit: q34
+    src: "my heart skipped a beat"
+    note: "локалізувати як українську ідіому про переляк, не «серце пропустило удар»"
+  - unit: q26
+    src: "just let this one slip for us"
+    note: "прохання пробачити цей раз; не «дати сковзнути»"
+  - unit: q11
+    src: "A selfless hero, aren't you?"
+    note: "лагідне піддражнювання, не пафос"
+  - unit: q24
+    src: "as if it has... perished?"
+    note: "він свідомо добирає надто книжне слово й сам вагається — незграбність зберегти"
+  - unit: a29
+    src: "Fine, I'll meet you there"
+    note: "згода-відмашка гравця, не урочиста обіцянка"
+
+pitfalls:
+  - "q43 містить $(#brother/sister) — обидві гілки в кличному відмінку"
+  - "q34 має *friend* у зірочках — це виділення інтонацією, зірочки зберігати"
+  - "a21, a40 містять ::Barter.:: — підказка дії, інфінітив, глосарій"
+  - "::Nod and leave.::, ::Attack!::, ::Leave.::, ::Take the money and leave.:: — теж підказки дій, інфінітив, STYLE §3.5"
+  - "Junkyard → Звалище (q28, q35) — глосарій"
+  - "у q24 і q34 в джерелі описка «forhead» — це помилка оригіналу, не сигнал стилю"
+  - "q15/q18 — гілка після загибелі Ryl; базовий регістр «ти» лишається, змінюється лише тон"
+
+examples:
+  - unit: q43
+    rule: "$(#brother/sister) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: a21
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q34
+    rule: "зірочки-виділення зберігаються"
+    uk_fragment: "*друже*"
+    status: proposed

@@ -1,0 +1,84 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/xpbl/mu_eustace
+file_id: 'dialogs\characters\xpbl\mu_eustace.txt'
+derived_from: source-only
+units: {total: 178, npc: 119, player: 59, empty: 7}
+
+speakers:
+  - slug: eustace
+    name: Юстас
+    units: default
+    confidence: certain
+    evidence: [q4, q20, q49]
+    role: >-
+      Старий мутант-мисливець і торговець із притулку на острові Чорного Моря:
+      продає мисливське спорядження та шкури й водночас є головним джерелом
+      відомостей про околиці, Перевізника й сусідні фракції.
+    relationships:
+      - 'Перевізник (Ferryman) — єдиний чужак, з ким плем''я торгує; Юстас говорить про нього з обережною пошаною і не любить пліткувати за його спиною'
+      - 'Веслі (Wesley) — інший мешканець притулку, «downstairs» (q9)'
+      - 'Five Fingers і Rags — загиблі побратими-мутанти з історії про стрибунів (q78–q83)'
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Мова проста, неписьменна, без титулів і без $(#sir/ma''am); гравця він
+        одразу міряє поглядом і питає «boy or girl?» — тобто бачить рівню, а не
+        клієнта. За STYLE §3.2 це «ти»; репліки гравця (терсі «Well?», «Spit it out.»)
+        дзеркалять той самий регістр.
+      gender_cues: ["You... ::wheeze:: boy or girl? ::sniff.::"]
+    voice:
+      register: хрипкий, повільний, доброзичливо-насторожений; майже кожне речення розбите фізіологічною ремаркою
+      idiolect:
+        - 'випадання g: huntin’, makin’, explorin’, somethin’ — передавати просторічною українською, не літературним стандартом'
+        - 'ain’t, ’cause, lotsa, getcha, outta, I reckon — стійке просторіччя'
+        - 'говорить про себе в третій особі: «it’s too much for poor Eustace» (q49)'
+        - 'самоназва mutie — внутрішньоігрове слівце, одне рішення на весь вузол'
+        - 'думка часто уривається на «Uh...», «Um...», «Nah.» — паузи-заповнювачі зберігати'
+
+narration:
+  present: true
+  note: '«ви» без винятків — STYLE §3.1; окрема нарація рідка (q10, q44, q108), більшість ремарок вкраплені в його ж мову'
+
+new_names: ["Serpentines", "Jetters", "Five Fingers", "Six Fingers", "Rags", "Red Line", "Fetid Marsh", "The Pirate Bay"]
+
+idioms:
+  - unit: q166
+    src: "Scares the crap outta them"
+    note: 'грубе лишається грубим (STYLE §9), не пом’якшувати до «лякає їх»'
+  - unit: q168
+    src: "They avoid it like leprosy"
+    note: 'локалізувати порівняння, а не калькувати «як проказу»'
+  - unit: q143
+    src: "burst out to getcha"
+    note: 'розмовне стягнення; передавати просторічною формою, не «щоб схопити вас»'
+  - unit: q73
+    src: "Tough critters"
+    note: 'critters — фамільярне «звірюки», не нейтральне «створіння»'
+  - unit: q99
+    src: "It'll get completely submerged soon, I reckon"
+    note: 'I reckon — «як на мене», не «я підраховую»'
+
+pitfalls:
+  - 'q95–q97, q112–q117, q122, q129–q133, q147–q151 — це не самостійні репліки, а вставки, які рушій склеює в одне речення залежно від фракції гравця; вставки «your mates», «the pirates», «the newcomers on jets» мусять стати в такому відмінку, що пасує до всіх речень-господарів («Unlike…», «But they love…»)'
+  - 'жарт q78–q81 і q87 тримається на тому, що прізвисько Five Fingers — це число: транслітерація вб’є жарт, а переклад мусить дозволити перепитування «Five in total.»'
+  - 'creeper тут — гігантський павук (q156); не плутати з crawler, для якого глосарій дає «повзун»'
+  - '$(context.player.Name) у a21 та a23 — усередині плейсхолдера нічого не міняти й не відмінювати'
+  - '::wheeze:: → ::хрип:: за глосарієм; ::sniff::, ::cough::, ::gurgle:: канонічних записів не мають — обрати по одній короткій формі й тримати її незмінно в усіх 119 репліках'
+  - 'глосарій: Black Sea → Чорне Море, siphoner → висмоктувач, hopper → стрибун, ::Barter.:: → ::Торгувати.::; Expedition як назва доповнення не перекладається, але «the expedition» у q110 — звичайна експедиція'
+  - 'q17 «::Wheeze::» і q141 з великої літери — це та сама ремарка на початку рядка; регістр рядка не робить її іншим словом'
+
+examples:
+  - unit: a13
+    rule: 'підказка дії всередині ::…:: — інфінітив, STYLE §3.5'
+    uk_fragment: '::Торгувати.::'
+    status: proposed
+  - unit: q2
+    rule: 'ремарка за глосарієм проєкту'
+    uk_fragment: '::хрип::'
+    status: proposed
+  - unit: q25
+    rule: 'випадання g — просторічна форма, STYLE §9'
+    uk_fragment: 'Полюю.'
+    status: proposed

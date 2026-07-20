@@ -1,0 +1,90 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/wa_phyllis
+file_id: dialogs\characters\wa_phyllis.txt
+derived_from: source-only
+units: {total: 64, npc: 39, player: 25, empty: 1}
+
+speakers:
+  - slug: phyllis
+    name: Філліс
+    units: default
+    confidence: certain
+    evidence: [q1, q31, q33]
+    role: >-
+      Лікарка Окулуса, яка принципово каже про людей «ремонтую», а не «лікую», і
+      має на це розгорнуту матеріалістичну аргументацію. Головна ознака голосу —
+      демонстративна беземоційність, яка один раз навмисно тріскає (q33).
+    relationships:
+      - "Азіф — джерело відомостей про Окулус і про кіборга-клієнта"
+      - "Оculite-и загалом — її пацієнти; лікує безкоштовно"
+      - "Шептуни / Khazum Morakht — сусіди по Окулусу, про яких вона говорить відсторонено"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        STYLE §3.2 — службова особа, до того ж підкреслено формальна: у всьому
+        вузлі жодного скорочення («I am», «do not», «I have not», «it is»), тоді
+        як інші персонажі гри вживають «I'm». Це не ввічливість, а клінічна
+        дистанція, і саме її тримає «ви». Гравець дзеркалить (§3.3); a55
+        «It's a pleasure, Doctor» підтверджує шанобливу рамку.
+    voice:
+      register: клінічно-рівний, книжний, без скорочень і без вигуків
+      idiolect:
+        - "нульові скорочення — жодного «I'm», «don't»; це головний маркер, тримати повні форми послідовно"
+        - "механічна метафора людини: «repair», «damaged», «expired», «fix you up»"
+        - "лекторські зв’язки: «From my perspective», «As far as I am aware», «hence», «in essence»"
+        - "риторичні питання, на які сама ж відповідає: «Frightening, I think it's also obvious why...»"
+        - "оцінка через заперечення: «not a single one of my patients expired», «I do not regret my decision. Not even a bit.»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут нарація описує саме зміну її виразу (q31, q33, q59)"
+
+new_names: ["Whisperers", "Khazum Morakht", "oculite", "oculites"]
+
+idioms:
+  - unit: q3
+    src: "expired"
+    note: "ключове слово вузла: канцелярсько-технічний евфемізм смерті, на якому тримається обмін a4–a6. Український відповідник має бути так само неживим і так само дивним у застосуванні до людини — інакше жарт зникає"
+  - unit: q5
+    src: "One that has ceased to be"
+    note: "навмисно піднесено-книжна перифраза в ряду простих синонімів; зберегти стилістичний стрибок"
+  - unit: q11
+    src: "You are severely damaged"
+    note: "«damaged» про людину — не «поранені», а саме механічний термін; глосарій закріплює damage → шкода"
+  - unit: q20
+    src: "nothing but a complex machinery"
+    note: "теза всієї промови; тримати «машинерія/механізм», не «організм»"
+  - unit: q21
+    src: "why aren't we made from, say, polonium? Or bismuth"
+    note: "іронічний аргумент; назви елементів — сталі терміни, полоній і вісмут"
+  - unit: q28
+    src: "I noticed your stare"
+    note: "коротка шпилька в рівному тоні; не підсилювати емоційно"
+  - unit: q50
+    src: "they have not seen much action"
+    note: "«не мали багато роботи» в бойовому сенсі; не калькувати «не бачили дії»"
+
+pitfalls:
+  - "q1, q11, q24, q38 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "Oculus — за глосарієм «Окулус»; Godmen (q27) — «Богмени»; похідне «oculite» канонічного варіанта не має"
+  - "q44 і q45 — той самий зміст у двох гілках, але різними словами («informed us» / «told us»); НЕ уніфікувати, різниця навмисна"
+  - "q52 і q53 — дві окремі короткі репліки поспіль; не зливати в одну"
+  - "a58 і a60 — обидва «::Remain silent.::», переклад має бути ідентичним"
+  - "у неї немає жодного скорочення — не вставляти розмовних стягнень і часток, це зруйнує головний маркер голосу"
+  - "жіночий рід у минулому часі мовця (q35 «I did not seek», q39 «I was selected») — Філліс жінка, гендерного плейсхолдера тут не потрібно, бо це не гравець"
+
+examples:
+  - unit: a9
+    rule: "підказка дії всередині ::…:: — інфінітив; STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q7
+    rule: "наказовий спосіб успадковує «ви»; STYLE §3.4"
+    uk_fragment: "звертайтеся"
+    status: proposed
+  - unit: q63
+    rule: "повні форми без скорочень — базовий маркер голосу"
+    uk_fragment: "я вас слухаю"
+    status: proposed

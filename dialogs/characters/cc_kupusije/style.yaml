@@ -1,0 +1,75 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_kupusije
+file_id: dialogs\characters\cc_kupusije.txt
+derived_from: source-only
+units: {total: 43, npc: 20, player: 23, empty: 1}
+
+speakers:
+  - slug: kupusije
+    name: лисий чоловік із Зони Скидання
+    units: default
+    confidence: probable
+    evidence: [q1, q6, q18]
+    role: >-
+      Місцевий житель Зони Скидання, сусід Славоміра; єдиний мовець вузла.
+      Спершу відмовляє чужинцеві, але «двоюрідний брат» одразу робить його
+      балакучим — тон різко теплішає з q12.
+    relationships:
+      - "Славомір — сусід, живе в халупі поруч; мовець із нього приязно кепкує"
+      - "Богдан — теж названий, але мовець його майже не бачить: «he never comes here»"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний мешканець нетрів, панібратські звертання й балаканина без
+        дистанції — STYLE §3.2. Після q12 він відкрито приймає гравця за рідню.
+      gender_cues: ["$(#man/sister)"]
+    voice:
+      register: вулично-панібратський, теревенистий, з балканським присмаком
+      idiolect:
+        - "нав’язливе bre — словесний тик, звертання-паразит; тримати як вигук, не перекладати щоразу однаково"
+        - "'nuff said — обрубане підсумкове слівце наприкінці думки"
+        - "totally hardcore — оцінка всього підряд, повторюваний штамп"
+        - "yerself замість yourself — просторічна вимова; передавати розмовною формою, не помилкою"
+        - "'em замість them — постійне ковтання"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут це q1, q18, q20"
+
+new_names: ["Kupusije", "Bogdan", "Slavomir", "Brdomir", "Brzostur", "Vanjisima",
+            "Teglije", "Razumislav", "Borkan", "Dragoljubche", "Jelenarija",
+            "Stanomirka", "Jelisavetana", "Djurdjilijana", "Marijabre"]
+
+idioms:
+  - unit: q6
+    src: "Eh, bre, don't speak about money in Drop Zone unless you want to lose it"
+    note: "розмовна пересторога; не калькувати конструкцію unless — краще «якщо не хочеш їх утратити»"
+  - unit: q20
+    src: "walking the pipes"
+    note: "буквальне ходіння по трубах, не евфемізм — a22 прямо це перевіряє; переклад має лишитися буквальним"
+  - unit: q39
+    src: "you need to surround yerself with the people you can trust"
+    note: "не калькувати «оточувати себе»; природніше «триматися своїх»"
+  - unit: q41
+    src: "get picked apart by pipeworking gangs"
+    note: "pipeworker — глосарний «труболаз»; тут прикметникова форма про банди"
+
+pitfalls:
+  - "q1, q6 містять $(#man/sister) — гендерне звертання, обидві гілки українською, регістр «ти»"
+  - "Faceless (q20, q21) — глосарій: «Безликі», не транслітерувати"
+  - "rathound (q21) — глосарій: «щурчак»"
+  - "Drop Zone (q6, q17, q39) — глосарій: «Зона Скидання», обидва слова з великої"
+  - "a13–a33 — це список слов’янських імен-варіантів вибору гравця; жодного немає в реєстрі, транслітерацію не вигадувати"
+  - "the Great Plague, the Zone riots (q21) — внутрішньоігрові події, узгодити з рештою корпусу, а не перекладати наосліп"
+
+examples:
+  - unit: q1
+    rule: "$(#man/sister) — гендерне звертання в регістрі «ти», STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q21
+    rule: "'nuff said — обрубана розмовна формула, не розгортати в повне речення"
+    uk_fragment: "і все ясно"
+    status: proposed

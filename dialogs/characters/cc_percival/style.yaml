@@ -1,0 +1,123 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_percival
+file_id: dialogs\characters\cc_percival.txt
+derived_from: source-only
+units: {total: 67, npc: 39, player: 28, empty: 1}
+
+speakers:
+  - slug: percival
+    name: Персіваль
+    units: default
+    confidence: certain
+    evidence: [q2, q6, q7]
+    role: >-
+      Міністр Інституту Тчорта, місіонер у Центральному Місті: читає лекції про
+      тчортизм і вербує прихильників. Говорить як освічений проповідник —
+      незворушно ввічливо, з відчутною зверхністю під ввічливістю.
+    relationships:
+      - "Ейдейн — засновник Інституту, згадується з пієтетом; «Eidein pardon me» (q52) — усталений вигук-клятьба"
+      - "Норман Гак — інтелектуальний суперник; єдина тема, де Персіваль дозволяє собі відкриту зневагу"
+      - "Олігархи — покровителі, про яких він свідомо утримується говорити"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Розгорнутий книжний синтаксис, повні форми без жодного скорочення
+        («I am terribly sorry», «Could you please seek me at some other time?»),
+        сталі формули ввічливості. Це формальний мовець за STYLE §3.2.
+        ВАЖЛИВО: $(#brother/sister) тут — РЕЛІГІЙНЕ звертання одновірця, а не
+        панібратство; воно НЕ є підставою для «ти», на відміну від
+        $(#bro/sis) в Оли чи $(#man/sister) в Оскара.
+      gender_cues: ["$(#brother/sister)"]
+    voice:
+      register: формальний, книжний, проповідницький; ввічливість із прихованою зверхністю
+      idiolect:
+        - >-
+          Головна прикмета — «a slight drag at the end of each sentence» (прямо
+          названа в нарації q6/q7): три крапки перед останнім словом фрази
+          («Some other... time.», «we will reveal our new... improved form.»,
+          «a certain form of intervention might be... necessary.»). Це не
+          обірвана думка й не пауза сумніву, а манера тягнути слово. Позицію
+          трьох крапок зберігати, переставляючи її на те слово, що є смисловим
+          завершенням українського речення.
+        - "«Tchort is evolution» (q2, q6, q7, q67) — формула-привітання, має бути дослівно однаковою в усіх чотирьох юнітах"
+        - "«Tchort guide you» (q50, q57 і репліка гравця a4) — формула-прощання, теж дослівно однакова скрізь"
+        - "лапки навколо чужих слів як спосіб дистанціюватися: «neat», «rubbish», «derailed», «freaky», «language» — зберігати лапки"
+        - "«Indeed», «Very well», «I am very pleased to hear that» — маркери книжної ввічливості, не зводити до розмовного «так»"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Нарація q6 і q7 — це майже ідентичний
+    розгорнутий портрет персонажа (відмінність лише у другому абзаці з прямою
+    мовою); перекладати їх узгоджено, розбіжність між ними має бути рівно там,
+    де вона є в джерелі.
+
+new_names:
+  - "Hack"
+  - "Advatongue"
+  - "Minister"
+  - "Oligarchy"
+  - "Upper Underrail"
+
+idioms:
+  - unit: q20
+    src: "or as some of us Tchortists would say - apex"
+    note: >-
+      «apex» — внутрішньогруповий жаргон тчортистів на позначення схвалення,
+      подається саме як екзотизм («як сказали б деякі з нас»). Лишати
+      запозиченням за зразком «zoner» → «зонер» (STYLE §9), не замінювати
+      звичайним «чудово».
+  - unit: q42
+    src: "Well, degenerate, decadent - something that has passed into a worse state."
+    note: >-
+      Тут персонаж САМ визначає термін «devolved» — переклад терміна в q40 і
+      його тлумачення в q42 мусять зчеплюватися, інакше репліка a41 «Devolved?»
+      повисне без опори.
+  - unit: q35
+    src: "a linguistic paradise. Yet, it's a mockery, a devolution."
+    note: "«devolution» — той самий корінь, що й «devolved» у q40/q42; тримати єдине гніздо слів"
+  - unit: q12
+    src: "advancing... *evolving* the human race to new heights... *literally.*"
+    note: >-
+      Каламбур на буквальності: «to new heights» щодо істоти, яка лежить у
+      Глибоких Печерах. Виділення *evolving* і *literally* несуть жарт —
+      не знімати їх і не переставляти.
+  - unit: q15
+    src: "what was previously thought to be \"junk\" DNA"
+    note: "«junk DNA» — усталений науковий термін, має український відповідник; лапки джерела зберігати"
+  - unit: q34
+    src: "that man is a pseudo-intellectual"
+    note: "різкість у книжній оболонці — не пом’якшувати (STYLE §9), але й не опускати до вулиці"
+  - unit: q61
+    src: "is in the eye of the beholder"
+    note: "усталена ідіома — брати український відповідник, не калькувати «в оці спостерігача»"
+  - unit: q47
+    src: "some madman's behavior shouldn't reflect on the doctrine"
+    note: "«reflect on» — «кидати тінь на», а не «відображати»"
+
+pitfalls:
+  - "«Tchort» → «Тчорт», «Institute of Tchort» → «Інститут Тчорта», «Eidein» → «Ейдейн», «Deep Caverns» → «Глибокі Печери», «Core City» → «Центральне Місто», «Foundry» → «Ливарня», «Hardcore City Bar» → «Хардкор Сіті Бар», «Faceless» → «Безликі» — усе з глосарію та реєстру"
+  - "«Underrail» лишається латиницею й не відмінюється; сполука «Upper Underrail» окремого рішення ще не має"
+  - "«Tchortism» і «Tchortists» — похідні від «Тчорт»; узгодити одне словотвірне гніздо на весь вузол"
+  - "q7 «I am Minister Percival» — «Персіваль» за реєстром; сан «Minister» у реєстрі відсутній, за зразком «Curator» → «куратор» такі сани пишуться з малої, але конкретний відповідник треба узгодити"
+  - "a33 «Professor Norman Hack» — «Норман» за реєстром, прізвище рішення не має; «Professor» з малої як сан"
+  - "q6 і q7 — той самий текст нарації з різними закінченнями; не перекладати їх незалежно, розбіжність має бути мінімальною"
+  - "q59, q61, q63 повторюють формулу «usually described as \"disgusting\" or \"creepy\"» — три різні юніти, формулювання має збігатися дослівно"
+  - "q25, q26, q29 — заклик відвідати Інститут; звертання на «ви» в наказовому способі дає «відвідайте», «зважте» (STYLE §3.4)"
+  - "трикрапки в джерелі — авторська манера мовлення, а не пропуск; не замінювати на кому й не прибирати як «зайву пунктуацію»"
+
+examples:
+  - unit: q2
+    rule: "$(#brother/sister) — релігійне звертання, кличний відмінок, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: a21
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Почати лекцію.::"
+    status: proposed
+  - unit: q1
+    rule: "манера тягнути останнє слово — трикрапка перед завершальним словом"
+    uk_fragment: "...коли-небудь."
+    status: proposed

@@ -1,0 +1,74 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_henderson
+file_id: dialogs\characters\cc_henderson.txt
+derived_from: source-only
+units: {total: 28, npc: 17, player: 11, empty: 2}
+
+speakers:
+  - slug: henderson
+    name: Гендерсон
+    units: default
+    confidence: certain
+    evidence: [q15, q17, q20]
+    role: >-
+      Агентка Джулія Гендерсон командує обороною під час нападу: роздає
+      накази власним агентам і приймає гравця як рівного за званням.
+      Говорить стисло, по-службовому, без жодного зайвого слова.
+    relationships:
+      - "Гарлан — той, кому гравець підпорядкований і кому має відзвітувати (q6, q8)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова взаємодія двох агентів, звертання за званням «Agent» у
+        більшості реплік, статутні формули — «ви» в обидва боки,
+        STYLE §3.2, §3.3.
+    voice:
+      register: командний, стриманий, статутний
+      idiolect:
+        - "звертання «Agent» — постійне, і до гравця, і до підлеглих; тримати одним українським відповідником"
+        - "накази підлеглим окремим абзацом після \\n\\n: «Assume your positions, agents!», «Agents, move up to the sandbags!» — зміна адресата всередині юніта"
+        - "коротке схвалення замість похвали: «Agreed.», «Sounds like a plan.»"
+    switches:
+      - {unit: q20, to: ви, trigger: "у другому абзаці звертається вже не до гравця, а до свого загону — множина, наказовий спосіб"}
+      - {unit: q23, to: ви, trigger: "те саме: наказ підлеглим, не репліка гравцеві"}
+      - {unit: q25, to: ви, trigger: "те саме"}
+
+narration:
+  present: true
+  note: "«::She nods.::» (q20), «::Nod.::» (a11, a28), «::Get ready.::» (a21) — «ви», підказки дій в інфінітиві, STYLE §3.1, §3.5"
+
+new_names: ["Julia"]
+
+idioms:
+  - unit: q4
+    src: "Never a dull moment in Core City."
+    note: "стала іронічна формула «тут нудьгувати не доводиться», не калькувати"
+  - unit: q8
+    src: "We pulled through."
+    note: "«витримали / вистояли», не буквальне «протягнули»"
+  - unit: a10
+    src: "kick some more ass"
+    note: "грубувато-бойове; не пом’якшувати до «повоювати», STYLE §9"
+  - unit: a24
+    src: "wasting the bastards as soon as they appear"
+    note: "«waste» тут — «валити/класти», не «марнувати»"
+
+pitfalls:
+  - "q15 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; фразу будувати так, щоб ім’я стояло в називному"
+  - "Harlan → Гарлан (реєстр, глосарій), не плутати з Harland → Гарланд"
+  - "Faceless → Безликі (глосарій)"
+  - "a16 «Pleased to meet you, agent» — «agent» з малої, на відміну від звертання «Agent» у репліках Гендерсон; регістр джерела зберігати, STYLE §4"
+  - "«sandbags» (a22, q23) — мішки з піском як укриття, не «пісочниця»"
+  - "q7 і q18 закінчуються пробілом перед <end> — пробіл зберегти"
+
+examples:
+  - unit: q3
+    rule: "статутне звертання за званням, сталий відповідник"
+    uk_fragment: "Гарна робота, агенте."
+    status: proposed
+  - unit: a21
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Приготуватися.::"
+    status: proposed

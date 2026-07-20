@@ -1,0 +1,151 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_oskar
+file_id: dialogs\characters\cc_oskar.txt
+derived_from: source-only
+units: {total: 95, npc: 62, player: 33, empty: 2}
+
+speakers:
+  - slug: oskar
+    name: Оскар
+    units: default
+    confidence: certain
+    evidence: [q1, q2, q78]
+    role: >-
+      Власник збройової крамниці в Центральному Місті й колишній енфорсер
+      Praetorian Security; торгує зброєю та вибухівкою і за плату показує
+      викрадене досьє на Спектрів. Уся його мова побудована навколо одного
+      слова — комічний персонаж однієї нав’язливої ідеї.
+    relationships:
+      - "Praetorian Security — колишній роботодавець, яким він хизується й у якого вкрав документ"
+      - "Al Fabet — тема, від якої Оскар щоразу ухиляється; єдиний випадок, коли він втрачає браваду"
+      - "Гравець — постійний клієнт, до якого він звертається «gunslinger»"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Звертання $(#man/sister) і прізвисько «gunslinger», суцільний сленг
+        («gonna», «sayin'», «'cause», «freakin'»), відсутність будь-яких
+        формальних маркерів — STYLE §3.2. Крамарський статус тут не робить його
+        обслугою: тон панібратський від першої репліки.
+      gender_cues: ["$(#man/sister)", "$(#Man/Sister)"]
+    voice:
+      register: гучний, бравадний, вуличний; синтаксис короткий і рубаний
+      idiolect:
+        - "«hardcore» — центральний словесний тик, близько тридцяти вживань; потрібен ОДИН український відповідник, що працює і як прикметник, і як вигук, і в складних формах («hardcoreness», «hardcore serious», «a hardcore peek»)"
+        - "«dominate / dominating / domination» — другий наскрізний тик, той самий, що в Оли; тримати спільний відповідник по обох вузлах"
+        - "«The end!» як крапка в кінці тиради (q56, q65) — риторичне закриття теми, не буквальне «кінець»"
+        - "«Yeah.» окремим реченням-підтвердженням власних слів"
+        - "випадання g та стягнення: «sayin'», «'cause», «gonna», «wanna», «every-freaking-where»"
+
+  - slug: spectre_dossier
+    name: текст досьє (не мовець)
+    units: [q26, q27, q28, q31, q32]
+    confidence: certain
+    evidence: [q26, q27]
+    reason: >-
+      Це не репліка Оскара, а документ, який гравець читає з рук: канцелярський
+      реєстр із полями «Full name», «Part of», «Insignia» та списком прізвищ.
+    guidance: >-
+      Перекладати як письмовий документ, а не як мову: «ви» (STYLE §3.1),
+      знеособлені конструкції, нейтральна канцелярська лексика. Жодного
+      «hardcore» тут немає й бути не повинно — стилістичний контраст із рештою
+      вузла навмисний. Імена зі списку членів не транслітерувати самотужки.
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. Іменована нарація (q78 «Oskar's face
+    rearranges itself…») доводить атрибуцію; q1 — розгорнутий вступний опис
+    персонажа, найдовший зв’язний текст у вузлі.
+
+new_names:
+  - "Spectre"
+  - "Spectres"
+  - "Operation Banishment"
+  - "James C. Barlington"
+  - "Rudolph Breinger"
+  - "Timmy Joe Burner"
+  - "Michael Mordington"
+  - "Stephen Luck"
+  - "Harkira Matamo"
+  - "Alyssa Bane"
+  - "Hagenstrom"
+  - "Gunther Gunther"
+  - "Oskar's Armory"
+  - "Gauntlet"
+  - "Oligarchy"
+  - "Fort Apogee"
+  - "Talloski"
+  - "Terry"
+  - "Baker"
+  - "Arda"
+  - "Acid Hunters"
+  - "Hercules"
+  - "Upper Underrail"
+
+idioms:
+  - unit: q46
+    src: "One wrong step and off you go to kiss the ground below"
+    note: "евфемізм смерті від падіння — локалізувати образ, не калькувати «цілувати землю»"
+  - unit: q61
+    src: "which would be retarded, let's face it"
+    note: "грубе лишається грубим — не пом’якшувати (STYLE §9); це характеристика Оскара, а не недогляд"
+  - unit: q64
+    src: "he gathered some bad boys and enforced order"
+    note: "«bad boys» тут схвально — «крутих хлопців», не «поганих»"
+  - unit: q67
+    src: "Some wimpy northerner"
+    note: "зневажливий демонім-ярлик; «northerner» перекладати, зневагу зберігати"
+  - unit: q75
+    src: "was born under a lucky stalactite"
+    note: "переробка ідіоми «born under a lucky star» під підземний світ гри — зберегти саме сталактит, у цьому й жарт"
+  - unit: q76
+    src: "he might as well zone himself out"
+    note: "«zone out» тут — убити; спирається на глосарійне «zoner» → «зонер», тримати спільний корінь"
+  - unit: q81
+    src: "I'm gonna be the one zoning them out"
+    note: "той самий сленг, що й у q76 — відповідник має збігатися"
+  - unit: q82
+    src: "they are gonna get some Oskarnation. Get it? It's Oskar and domination."
+    note: >-
+      Каламбур Oskar + domination, який персонаж тут-таки пояснює й сам псує
+      («that sounds like a nation of Oskars»). Потрібне українське словозлиття
+      з тим самим коренем, що й обраний відповідник «domination», інакше
+      пояснення в наступному реченні втратить сенс. Ключове місце вузла.
+  - unit: q62
+    src: "watch people murder each other's faces off"
+    note: "гіпербола-грубість — зберігати надмір, не згладжувати до «дивитись бої»"
+  - unit: q87
+    src: "respectably hardcore. For a scavenger."
+    note: "«scavenger» — глосарій дає «шукачі»; поблажливе «for a…» зберігати як окреме речення"
+
+pitfalls:
+  - "«Praetorian Security», «Biocorp», «Coretech», «ArenaNow», «JKK», «Underrail» — лишаються латиницею (глосарій, read-only)"
+  - "«Faceless» → «Безликі», «Protectorate» → «Протекторат», «Foundry» → «Ливарня», «Drop Zone» → «Зона Скидання», «Camp Hathor» → «Табір Хатор», «Arena» → «Арена» — беруться з глосарію"
+  - "q64 «Archibald Knight, chief» — за реєстром «шеф Найт» з малої літери; повне ім’я — «Арчібальд Найт» (глосарій)"
+  - "q56 перелічує Knight, Edstrom і Simmons — усі три в реєстрі: Найт, Едстром, Сіммонс"
+  - "q26 і q27 містять літеральні \\n усередині одного юніта — це рядки списку, зберігати кожен розрив"
+  - "q26 обривається на середині списку, а q27 його продовжує: юніти перекладаються як одне ціле, узгодьте оформлення списку між ними"
+  - "q31 і q32 — майже дублікати з однією відмінністю (згадка Мордре / без неї); переклад має відрізнятися рівно на цю згадку"
+  - "a23 «::Give him 100 stygian coins.::» — глосарій дає «стигійська монета»; підказка дії лишається інфінітивом (STYLE §3.5)"
+  - "асиметричні виділення *You*, *have*, *most*, *and* — переносити на слово, що несе наголос в українському реченні"
+  - "«Tchortists» походить від глосарійного «Tchort» → «Тчорт»; тримати той самий корінь"
+
+examples:
+  - unit: q6
+    rule: "$(#man/sister) — гендерне звертання, кличний відмінок, STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed
+  - unit: q12
+    rule: "капіталізація гілки успадковується з джерела — $(#Man/Sister)"
+    uk_fragment: "$(#Друже/Сестро)"
+    status: proposed
+  - unit: a4
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: a33
+    rule: "теґ навички в ::[…]:: — сталий термін із глосарію"
+    uk_fragment: "::[Переконати]::"
+    status: proposed

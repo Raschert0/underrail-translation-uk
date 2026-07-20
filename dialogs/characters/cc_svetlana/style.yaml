@@ -1,0 +1,69 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_svetlana
+file_id: dialogs\characters\cc_svetlana.txt
+derived_from: source-only
+units: {total: 22, npc: 12, player: 10, empty: 2}
+
+speakers:
+  - slug: svetlana
+    name: Світлана
+    units: default
+    confidence: certain
+    evidence: [q5, q11]
+    role: >-
+      Озброєна арбалетом бандитка, яка стереже здобич банди й торгується за
+      вкрадений пристрій. Спершу відганяє, потім швидко перемикається на зиск.
+    relationships:
+      - "Дафф («Duffie») — той, до кого вона веде гравця, коли торг склався (q13)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вулична бандитка без жодної службової дистанції: наказове «Stop staring
+        at me» (q2), «beat it» (q17) і поблажливе «Good $(#boy/girl)!» (q13) —
+        STYLE §3.2. Гравець дзеркалить (§3.3).
+      gender_cues: ["$(#boy/girl)"]
+    voice:
+      register: різкий, вуличний, з швидким переходом від погрози до зиску
+      idiolect:
+        - "звертальна частка «bre» в кінці або середині фрази (q2, q5, q17) — головна прикмета мовлення"
+        - "стягнення «whatcha» (q10)"
+        - "іронічні лапки-евфемізми: *borrowed*, «relieve some poor wimp of his little toy»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; тут q5, q11, a14, a22"
+
+new_names: ["Duffie", "ICPD", "bre"]
+
+idioms:
+  - unit: q17
+    src: "you better turn around and beat it"
+    note: "«beat it» — не калькувати; розмовне «вимітайся»"
+  - unit: q10
+    src: "relieve some poor wimp of his little toy"
+    note: >-
+      Евфемізм для крадіжки з навмисною зневагою до жертви — зберегти обидва
+      шари, не спрощувати до «вкрали».
+  - unit: q11
+    src: "Her greed turns into a smile."
+    note: "образ у нарації — перекладати як прозу, делімітери «::» лишити"
+
+pitfalls:
+  - >-
+    «bre» — балканська звертальна частка, не ім’я і не абревіатура. Вона
+    відрізняє мовлення Світлани від решти; рішення про передачу має бути єдиним
+    у всіх трьох рядках, тому винесене в new_names.
+  - >-
+    q21 містить «IPDC» — це переставлені літери «ICPD» з a20. Розбіжність є в
+    джерелі; не «виправляти» її мовчки.
+  - >-
+    Вузол дублює cc_tina (та сама сцена з німою напарницею) — репліки гравця
+    майже збігаються, тож перекладати їх варто разом і однаково.
+
+examples:
+  - unit: q13
+    rule: "$(#boy/girl) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed

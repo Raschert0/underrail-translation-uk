@@ -1,0 +1,86 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/gorsky_gms
+file_id: dialogs\characters\gorsky_gms.txt
+derived_from: source-only
+units: {total: 83, npc: 44, player: 39, empty: 2}
+
+speakers:
+  - slug: gorsky
+    name: Горський
+    units: default
+    confidence: certain
+    evidence: [q7, q41, q42, q73]
+    role: >-
+      Керівник вилазки ССГ до комплексу GMS: командує загоном, наймає гравця
+      знайти ключ-картку від сховища й платить за роботу. Говорить як старший,
+      що не пояснює наказів двічі й не має часу на сентименти.
+    relationships:
+      - "загін — свої, звертається «boys»; гравець для нього виконавець, не побратим"
+      - "Omega — стара ворожа станція, з якою ССГ воювало за Південну Браму; згадує з презирством"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Різкий, командний, фамільярний: «It's your worthless hide», «you ninny»,
+        «Now get out of here!», «Let's pack it up, boys». За STYLE §3.2 це
+        однозначно «ти». Наказовий спосіб успадковує вибір (§3.4): «Go back out
+        there» → «Вертайся туди», а не «Поверніться». Гравець дзеркалить (§3.3);
+        обурене «You killed half of them?!» — емоційний зрив, не привід міняти регістр.
+      gender_cues: []
+    voice:
+      register: різкий, командний, з чорнуватим прагматизмом
+      idiolect:
+        - "звертання до загону «boys» — рефрен «Let's pack it up, boys» повторюється тричі (q7, q11, q36); тримати одне формулювання"
+        - "британське підсилювальне «bloody» як лайка-затичка: «bloody history», «bloody door»"
+        - "нехитрі афоризми замість пояснень: «Life is tough», «Dying man has no use for gold»"
+        - "зневажливі ярлики для чужих бід: «some random nobodies», «Tough.»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ::Continue::, ::[Persuade]::, ::[Intelligence]:: — теги дій, інфінітив/усталена форма за §3.5"
+
+new_names: ["Omega"]
+
+idioms:
+  - unit: q6
+    src: "It's your worthless hide"
+    note: "«твоя нікчемна шкура»; образ шкури зберігається, це не про життя абстрактно"
+  - unit: q7
+    src: "Let's pack it up, boys."
+    note: "команда згортати роботу — «Згортаємось, хлопці»; не «пакуємо»"
+  - unit: q51
+    src: "bloody history"
+    note: "«bloody» тут — лайка-підсилювач, а не «кривавий»; так само «bloody door» у q73"
+  - unit: q64
+    src: "Dying man has no use for gold, but those who remain do."
+    note: "афоризм; будувати як приказку, а не як переклад речення"
+  - unit: q73
+    src: "you ninny"
+    note: "м'яка зневажлива лайка («телепень», «нюня»); пом'якшувати до нейтрального не можна — STYLE §9"
+  - unit: a5
+    src: "it's a scavenging opportunity"
+    note: "scavengers — шукачі (глосарій); тут іменникова конструкція про поживу серед руїн"
+  - unit: q28
+    src: "risk your neck"
+    note: "«наражати шию» — калька; українська ідіома про ризик життям (a74 містить той самий зворот)"
+
+pitfalls:
+  - "q7 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; фразу «Catch you later, $(context.player.Name).» будувати так, щоб ім'я лишалось у називному"
+  - "q2, q4, q22, q41, q62, q65 містять літеральні \\n або \\n\\n — розриви абзаців зберігати"
+  - "q16 «Let's pack it up, boys.» і q36 «...Let's pack it up, boys.» — той самий рефрен; перекладати ідентично"
+  - "q21 «Yeah?» і q79 «Yeah?» — однакові; тримати однаково"
+  - "«Горський» відмінюється як прикметник: Горського, Горському (registry)"
+  - "GMS лишається латиницею, на відміну від SGS → ССГ (глосарій)"
+  - "«Underrail» у q49 — латиницею, не відмінювати: «решті Underrail» (глосарій)"
+  - "burrowers → копаки, rathounds → щурчаки (глосарій); у q4 і q73 це різні істоти, не уніфікувати"
+
+examples:
+  - unit: q38
+    rule: "наказовий спосіб успадковує «ти», STYLE §3.4"
+    uk_fragment: "не вертайся, поки не знайдеш"
+    status: proposed
+  - unit: a8
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Продовжити::"
+    status: proposed

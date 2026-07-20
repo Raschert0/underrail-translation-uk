@@ -1,0 +1,134 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_ford
+file_id: dialogs\characters\jy_ford.txt
+derived_from: source-only
+units: {total: 170, npc: 82, player: 88, empty: 4}
+
+speakers:
+  - slug: ford
+    name: Форд
+    units: default
+    confidence: certain
+    evidence: [q22, q97, q128]
+    role: >-
+      Старий глухуватий рибалка з кульгавою лівою ногою, який вважає себе найкращим
+      рибалкою Південної Underrail і смертельно ображається на будь-який сумнів у
+      цьому. Уся його мова — це хвастощі, кпини й вимога звати його «містером Фордом».
+    relationships:
+      - "Гоппер Джим — сусід біля намету, суперник; спіймав червоного вугра на п’ятдесят кіло, і Форд цього не пробачив"
+      - "Гравець — «$(#son/woman)» згори вниз; від першої репліки і до кінця тримає позицію старшого"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Грубий вуличний старий, який звертається до гравця як до дитини
+        («$(#son/woman)», «$(#son/daughter)») і лається — STYLE §3.2. Гравець дзеркалить
+        базовий регістр (STYLE §3.3), зокрема й у ввічливих репліках на «Mr. Ford».
+      gender_cues:
+        - "$(#son/woman)"
+        - "$(#son/daughter)"
+        - "$(#you little hopper son of a rail/you brainless baggage)"
+    voice:
+      register: гучний, хвалькуватий, задерикуватий; густе просторіччя старого
+      idiolect:
+        - "my → me: «me ears», «me own», «me wife's grave» — послідовна ознака, не одруківка"
+        - "випадання g наскрізь: fishin', talkin', walkin', havin', bittin', matin'"
+        - "стягнення: betcha, whatcha, Wha'?, 'T's like, 'ere замість here, 'em замість them"
+        - "незмінне be замість is: «it be obvious», «it be hangin'» — навмисна неграмотність, відтворювати просторічною формою"
+        - "рефрен «you dig?» / «ya dig?» (q145, q155, q158) — перекладати ОДНАКОВО в усіх трьох місцях, це словесний тик"
+        - "подвоєння як ознака гніву: «Then do it. Then do it.», «Prove it. Prove it.», «Alright. Alright.» — не скорочувати до одного разу"
+        - "риболовецькі назви як лайка: slackjaw, hopper, phony hopper, yo-yo"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; q5, q6, q7, q102, q117 — великі суцільно наративні блоки"
+
+new_names:
+  - "Geezer Ford"
+  - "Hopper Jim"
+  - "anglerfish"
+  - "black dragon"
+  - "demon squid"
+  - "ghostface"
+  - "minihead"
+  - "pentapus"
+  - "phantom jelly"
+  - "spectre jelly"
+  - "shrimp"
+  - "slackjaw"
+  - "walking fish"
+  - "red eel"
+  - "blue eel"
+  - "pufferfish"
+  - "southern tour"
+  - "United Stations"
+
+idioms:
+  - unit: q73
+    src: "while I blow up harder than two pufferfishes matin'"
+    note: "Груба риболовецька гіпербола; локалізувати образом, а не калькою — STYLE §9."
+  - unit: q81
+    src: "You scared of puttin' your money where your mouth is."
+    note: "Ідіома «відповідати за свої слова»; українського фразеологізму, а не дослівного «класти гроші там, де рот»."
+  - unit: q85
+    src: "Quaker at heart."
+    note: >-
+      Те саме внутрішньоігрове слівце, що й у сусідньому вузлі jy_fixer (q53) —
+      «боягуз», не релігійна назва. Потрібен єдиний варіант на обидва вузли.
+  - unit: q85
+    src: "can he fish like a spawn of siphoner"
+    note: "Похвала через істоту гри; siphoner → висмоктувач (глосарій), образ зберігати."
+  - unit: q56
+    src: "That's a joke. Old but gold."
+    note: "Форд сам пояснює свій жарт — це частина характеру; не викидати пояснення як зайве."
+  - unit: q96
+    src: "\"Pretty sure\" my wrinkly old butt"
+    note: "Грубе заперечення; не пом’якшувати — STYLE §9."
+  - unit: q155
+    src: "go stick your head in a siphoner's rear"
+    note: "Пряма грубість; лишається грубою."
+  - unit: q84
+    src: "what in hell's goddamn railroad are those slackers doin'"
+    note: "Лайка, побудована на залізниці, — світотвірний образ, зберігати, а не заміняти нейтральним «якого біса»."
+
+pitfalls:
+  - >-
+    Глухота Форда — механіка вузла: a154 «I said: Nice catch.» дослівно повторює a164
+    «Nice catch.», a159 повторює a165, a90 повторює a88, a10 повторює a8. Повторювані
+    репліки МУСЯТЬ збігатися слово в слово з першими, інакше жарт розсипається.
+  - "a10 набрано ВЕЛИКИМИ ЛІТЕРАМИ (гравець кричить) — капіталізацію зберігати повністю."
+  - >-
+    q31 і q38 обриваються на $(context.npc_jy_ford_whatHeNeeds) — плейсхолдер дописує
+    речення списком риби. Будувати фразу так, щоб продовження стало на місце; крапки
+    в кінці не додавати, плейсхолдер не відмінювати.
+  - >-
+    q68 закінчується пробілом і переходить у q69 — це одне розірване речення
+    («I told you » + «I betcha couldn't bring me one of each...»). Кінцевий пробіл зберегти.
+  - >-
+    slackjaw працює водночас як назва риби (a53, q54) і як образа (q66, q114, q126).
+    Український варіант має витримати обидві ролі — вибирати назву, придатну для лайки.
+  - >-
+    Ford наполягає на «Mr. Ford» проти прізвиська «Geezer Ford» (q22, q143) — це
+    сюжетний конфлікт вузла. Форма звертання має бути помітно різна: шаноблива й глузлива.
+  - "hopper → стрибун (глосарій) — і в q98/q128/q131 як складник лайки, і в імені Hopper Jim."
+  - "South Underrail → «Південна Underrail» (глосарій: Underrail не перекладати й не відмінювати)."
+  - "$(context.player.Name) в a21 і a140 — не відмінювати всередині плейсхолдера."
+
+examples:
+  - unit: q6
+    rule: "$(#son/woman) — гендерне звертання згори вниз, STYLE §2"
+    uk_fragment: "$(#синку/жінко)"
+    status: proposed
+  - unit: q98
+    rule: "обидві гілки $(#…) мають бути українською лайкою, не калькою"
+    uk_fragment: "$(#стрибунячий сину/безголова торбо)"
+    status: proposed
+  - unit: q145
+    rule: "рефрен you dig? — однаково в усіх появах"
+    uk_fragment: "ясно тобі?"
+    status: proposed
+  - unit: q9
+    rule: "нарація ::…:: — завжди «ви», STYLE §3.1"
+    uk_fragment: "::Він нахиляє до вас ліве вухо…::"
+    status: proposed

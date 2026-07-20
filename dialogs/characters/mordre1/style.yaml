@@ -1,0 +1,104 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/mordre1
+file_id: dialogs\characters\mordre1.txt
+derived_from: source-only
+units: {total: 96, npc: 52, player: 44, empty: 2}
+
+speakers:
+  - slug: mordre
+    name: Мордре
+    units: default
+    confidence: certain
+    evidence: [q62, q31, q92]
+    role: >-
+      Немолодий рибалка біля Грибної Бухти, насправді останній уцілілий боєць
+      «Спектрів», який помстився Патріку Пірсу. Ключ до голосу — контрольована
+      холодність: жодного зайвого слова, жодної емоції, навіть коли зізнається
+      у вбивстві.
+    relationships:
+      - "Патрік Пірс — убитий ним мешканець ССГ; заперечує причетність до q31 (q29, q42, q44)"
+      - "Таннер — зниклий голова ССГ; Мордре натякає на зв’язок його зникнення з Безликими (q5, q89)"
+      - "«Олігархи» Центрального Міста — предмет його зневаги (q69–q76)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Мовлення без сленгу, без редукцій і без панібратських маркерів, із
+        книжними зворотами: «I demand an explanation» (q40), «I *never* take
+        charity. We must trade.» (q26), «You drive a hard bargain» (q19).
+        Гравця називає титулом — «Judge $(context.player.Name)». Різкість тут
+        холодно-дистанційна, а не вулично-своя, тож за STYLE §3.2 це «ви».
+      gender_cues: ["$(#guy/girl)"]
+      switches:
+        - {unit: q2, to: ви, trigger: "«Get lost.», «Outta my way.» (q33), «Stop wasting my time then.» (q24) — грубі накази; за STYLE §3.4 лишаються у «ви»-формі, різкість дає лексика, а не перехід на «ти»"}
+    voice:
+      register: скупий, беземоційний, з холодною погрозою під поверхнею
+      idiolect:
+        - "речення в 2–4 слова там, де стало б і десяти: «Ask.», «Good.», «No.», «Thanks.», «Of course.»"
+        - "«friend» як звертання — іронічно-погрозливе, не дружнє (q37, q40)"
+        - "жодних розмовних скорочень, крім «Outta my way» — єдиний зрив контролю (q33)"
+        - "про Центральне Місто говорить довгими, майже публіцистичними періодами (q74–q76) — контраст із рештою навмисний"
+
+narration:
+  present: true
+  note: >-
+    ::He nods.::, ::He draws another smoke.::, ::Silence. He stands
+    expressionless…:: — «ви» без винятків, STYLE §3.1. Позначки перевірок
+    ::[Persuade]::, ::[Intimidate]::, ::[Mercantile]:: — за глосарієм.
+
+new_names: ["Mordre", "Spectres", "Operation Banishment", "Celeritas", "Pat", "Judge", "deep eel", "blue eel"]
+
+idioms:
+  - unit: q19
+    src: "You drive a hard bargain"
+    note: "торгова формула визнання; український відповідник, не калька «ви ведете тверду угоду»"
+  - unit: q20
+    src: "Take it or leave it."
+    note: "ультиматум одним рухом; коротко"
+  - unit: q62
+    src: "I'd tell you that, but then I'd have to kill you."
+    note: "стала жартівлива формула шпигунського штибу; передати як упізнаваний зворот, зберігши беземоційність"
+  - unit: q75
+    src: "sit their disloyal behinds safely behind the barricades"
+    note: "груба метафора; грубість зберегти, не пом’якшувати до «сиділи осторонь»"
+  - unit: q51
+    src: "use those only if you want to drown them"
+    note: "суха рибальська іронія — сенс у тому, що черв’яки марні"
+  - unit: q31
+    src: "Tell Pat you got his murderer's confession."
+    note: "звертання до мертвого; не перебудовувати на непрямий переказ"
+
+pitfalls:
+  - >-
+    «Мордре» — форма з реєстру (Mordre → Мордре), але сам рядок q62 «Just call
+    me Mordre» подає її як псевдонім, а не справжнє ім’я. Перекладати як ім’я,
+    відмінювати.
+  - "$(context.player.Name) (q1, q5, q37, q93) — не відмінювати; у q1 і q37 стоїть після титулу «Judge», потрібен називний"
+  - "$(#guy/girl) у q93 — гендерна форма опису гравця, узгодити з дієсловом у підрядному"
+  - "*never* (q26), *the* (q74), *Which* немає, *quietly* (q96), *do* (a30 — немає) — зірочки є розміткою наголосу, зберігати там, де вони є: q26, q74, q96, a30/a38 перевіряти окремо"
+  - "\\n\\n у q5, q31, q33, q37, q92, q93 — літеральний розрив рядка, не чіпати"
+  - >-
+    q3, q87, q89 — фрагменти діалогу про зникнення Таннера, які гра склеює з
+    репліками гравця; перекладати як самостійні короткі відповіді, не
+    доповнювати підметом «Таннер», якщо його в джерелі немає.
+  - "«Oligarchs» у лапках (q69, q70, q73) — самопроголошений титул, іронія лапок має лишитися"
+  - >-
+    Терміни за глосарієм: Faceless → Безликі, Deep Caverns → Глибокі Печери,
+    SGS → ССГ, Mushroom Cove → Грибна Бухта, Core City → Центральне Місто,
+    Protectorate → Протекторат, hopper → стрибун, Patrick Pierce → Патрік Пірс,
+    Tanner → Таннер. Biocorp, Praetorian Security, Underrail — латиницею.
+
+examples:
+  - unit: q16
+    rule: "наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "Питайте."
+    status: proposed
+  - unit: q83
+    rule: "нарація ::…:: — «ви», STYLE §3.1"
+    uk_fragment: "::Він знову затягується.::"
+    status: proposed
+  - unit: q37
+    rule: "«friend» — іронічне звертання, не дружнє"
+    uk_fragment: "…, друже."
+    status: proposed

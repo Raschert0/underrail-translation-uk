@@ -1,0 +1,66 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_preacher
+file_id: dialogs\characters\fo_preacher.txt
+derived_from: source-only
+units: {total: 14, npc: 14, player: 0, empty: 1}
+
+speakers:
+  - slug: fo_preacher
+    name: проповідник
+    units: default
+    confidence: certain
+    evidence: [q3, q5, q6]
+    role: >-
+      Вуличний фанатик Церкви Тчорта в Ливарні; решта мешканців вважає його
+      причинним. Усі рядки — окремі викрики до перехожих, розмови немає (жодного
+      a-юніта).
+    address:
+      npc_to_player: ти
+      player_to_npc: —
+      basis: >-
+        $(#son/daughter) у q5 — звертання пастиря до пастви, а воно за традицією
+        українського проповідницького стилю на «ти»: «сину мій — ти грішник».
+        Підтверджує архаїчне «ye be a sinner» і наказові «Repent now», «Listen to me».
+        У q9 і q10 звертається до всіх («Tchort loves you all»), там форма множини.
+      gender_cues: ["$(#son/daughter)"]
+    voice:
+      register: екзальтований, біблійно-архаїчний; майже кожен рядок — оклик
+      idiolect:
+        - "архаїчні форми: «ye be», «shall perish», «Mark my words» — передавати урочистою книжною лексикою, не сучасною"
+        - "конструкції з «shall» у пророцтвах — доконаний майбутній із відтінком присуду"
+        - "q9 і q11 різко ламають пафос («No one likes Bryan», «Bleigh!») — це навмисний комічний зрив, не згладжувати"
+        - "виділення зірочками *will*, *back* — наголос, зберігати розмітку"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; у цьому вузлі нарація лише в q4 (::He points at the ceiling.::)"
+
+new_names: ["Ingram", "Bryan", "Church of Tchort", "plaguebringers"]
+
+idioms:
+  - unit: q10
+    src: "Tchortless and hollow"
+    note: >-
+      авторський неологізм від імені божества; потрібен український відповідник
+      із тим самим коренем «Тчорт», а не описова заміна
+  - unit: q2
+    src: "a wave of mutating death"
+    note: "апокаліптична формула; зберегти пафос, не зводити до побутового «загинуть»"
+
+pitfalls:
+  - "«Tchort» — «Тчорт» за глосарієм; «Institute of Tchort» — «Інститут Тчорта», але тут інша організація: Church of Tchort"
+  - "«Crawlers» (q4) — «повзуни» за глосарієм"
+  - "«the Surface» (q10) — Поверхня як протиставлення підземеллю; велика літера змістовна"
+  - "Evelyn (q7) є в реєстрі — «Евелін»; прізвище Ingram канонічного варіанта не має"
+  - "усі рядки незалежні — не зшивати їх спільним синтаксисом чи наскрізним підметом"
+
+examples:
+  - unit: q5
+    rule: "$(#son/daughter) — звертання пастиря, кличний відмінок, STYLE §2"
+    uk_fragment: "$(#сину/дочко)"
+    status: proposed
+  - unit: q3
+    rule: "наказовий спосіб успадковує «ти» — STYLE §3.4"
+    uk_fragment: "Покайся"
+    status: proposed

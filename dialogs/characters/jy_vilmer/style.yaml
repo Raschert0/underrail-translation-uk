@@ -1,0 +1,44 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_vilmer
+file_id: dialogs\characters\jy_vilmer.txt
+derived_from: source-only
+units: {total: 1, npc: 1, player: 0, empty: 0}
+
+speakers:
+  - slug: jy_vilmer
+    name: Vilmer
+    units: default
+    confidence: probable
+    evidence: [q1]
+    role: >-
+      Мешканець будинку на Звалищі, який застає гравця за вторгненням.
+      Єдина репліка вузла — погроза на порозі, тож вона має читатися
+      як завершена, самодостатня фраза.
+    address:
+      npc_to_player: ти
+      basis: >-
+        $(#jack/sister) — панібратське звертання, плюс агресія: вуличний
+        «ти», STYLE §3.2. Реплік гравця у вузлі немає.
+      gender_cues: ["$(#jack/sister)"]
+    voice:
+      register: погрозливий, короткий
+
+narration:
+  present: false
+
+new_names: ["Vilmer"]
+
+idioms:
+  - unit: q1
+    src: "You chose the wrong house to bust into"
+    note: "«вломитися не в той дім»; зберегти саме конструкцію «не той», на ній тримається погроза"
+
+pitfalls:
+  - "вузол з однієї репліки — контексту для перевірки немає; регістр брати з інших вузлів Звалища"
+
+examples:
+  - unit: q1
+    rule: "$(#jack/sister) — панібратське гендерне звертання, STYLE §2"
+    uk_fragment: "$(#друже/сестро)"
+    status: proposed

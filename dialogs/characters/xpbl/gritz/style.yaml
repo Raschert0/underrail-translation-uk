@@ -1,0 +1,74 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/xpbl/gritz
+file_id: dialogs\characters\xpbl\gritz.txt
+derived_from: source-only
+units: {total: 21, npc: 20, player: 1, empty: 5}
+
+speakers:
+  - slug: gritz
+    name: Грітц
+    units: default
+    confidence: certain
+    evidence: [q2, q7]
+    role: >-
+      Дужий найманець із засідки, який чекає на жертву й тішиться майбутнім
+      убивством. Уся його мова — це передчуття розправи та хизування власною
+      силою.
+    relationships:
+      - "Юрай — той, хто віддав гравцеві наказ; Грітц лише посилається на нього (q3), сам ним НЕ є"
+      - "«старий дурень» із q6, q11, q20, q21 — їхня ціль, третя особа, не співрозмовник"
+      - "спільники на зв’язку, до яких він говорить у вухо (q7)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вуличний найманець: «Shoo...», «Get going.», «This is my corner.» —
+        самі накази без пом’якшень, жодного маркера ввічливості (STYLE §3.2).
+        Єдина репліка гравця — службова ::Leave.::.
+      gender_cues: []
+    voice:
+      register: грубий, самовдоволений, фізіологічний
+      idiolect:
+        - "ремарки тіла замість слів: ::Picks nose.::, ::Grunts.::, ::Flexes his muscles.::"
+        - "хрип ::wheeze:: врізається в мову навіть посеред хвальби"
+        - "жорстока метафорика розправи: «trampled into dust», «dismantling», «bones will shatter»"
+
+narration:
+  present: true
+  note: "«ви» без винятків, навіть коли Грітц тикає — STYLE §3.1"
+
+new_names: []
+
+idioms:
+  - unit: q5
+    src: "His days are numbered."
+    note: "усталене «його дні злічені» — саме сталий вислів, не переказ"
+  - unit: q6
+    src: "Peel your head out, old fool."
+    note: >-
+      знущальне запрошення висунутися з-за укриття; «peel» не калькувати —
+      сенс у тому, щоб ціль підставилася
+  - unit: q21
+    src: "senile walking corpse"
+    note: "груба образа, STYLE §9 — не пом’якшувати до «старого»"
+  - unit: q20
+    src: "Ol’ bones will shatter today."
+    note: "«старі кістки» як метонімія людини; зберегти зневажливу заміну"
+
+pitfalls:
+  - "q3 «Do what Juraj told you to» — Юрай названий як третя особа; мовець НЕ Юрай (реєстр: Juraj → Юрай)"
+  - "::wheeze:: — глосарій: ::хрип::; у q7 трапляється двічі в різних позиціях"
+  - "q7 — один довгий юніт із чергуванням мови й ремарок; межі ::…:: не зсувати"
+  - "«Trampled into dust!» — вигук про вже здійснене, не наказ"
+  - "Стать цілі («old fool») у джерелі чоловіча — his; узгоджувати рід послідовно"
+
+examples:
+  - unit: q14
+    rule: "наказ на «ти» успадковує регістр, STYLE §3.4"
+    uk_fragment: "Забирайся."
+    status: proposed
+  - unit: q13
+    rule: "тілесна ремарка — прозою, делімітери лишаються, STYLE §3.1"
+    uk_fragment: "::Колупається в носі.::"
+    status: proposed

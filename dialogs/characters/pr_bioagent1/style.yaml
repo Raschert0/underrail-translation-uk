@@ -1,0 +1,118 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/pr_bioagent1
+file_id: dialogs\characters\pr_bioagent1.txt
+derived_from: source-only
+units: {total: 112, npc: 68, player: 44, empty: 5}
+
+speakers:
+  - slug: mareth
+    name: null
+    units: default
+    confidence: certain
+    evidence: [q2, q98, q7, q11]
+    role: >-
+      Капітан CAU («хімів») Протекторату, який вербує гравця-капрала для газової атаки
+      мутагеном на лігво Вільних Дронів. Говорить як освічений офіцер, що виправдовує
+      масове вбивство термінологією («ми не вбили жодної людини — тільки собак») —
+      холодна іронія й розпорядчий тон, а не крик.
+    relationships:
+      - "гравець — капрал у його підпорядкуванні, звертання виключно «Corporal»"
+      - "Десс — підлегла, оцінює її прохолодно-професійно (q67, q68, q70)"
+      - "Порожнеча — «my right hand man» (q75), мовчазний виконавець"
+      - "консул Олівер — «our cowardly consul» (q91), зневага"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Мовлення бездоганно літературне, без випадання g і без вуличних стягнень;
+        він старший за званням і тримає дистанцію повним «Corporal» у кожній репліці —
+        службовий, формальний мовець (STYLE §3.2). Гравець відповідає «Yes, sir» (a99)
+        і дзеркалить (§3.3); зухвалі a3, a37, a53 — зрив у межах «ви», не перехід на «ти».
+      switches:
+        - {unit: q38, to: ви, trigger: "різкий наказ «Now go!» — регістр той самий, змінюється лише тон; наказовий спосіб на «ви»: «Ідіть», STYLE §3.4"}
+    voice:
+      register: холодний, іронічний, розпорядчий; жорстокість подана як службова рутина
+      idiolect:
+        - "рефрен «No rest for the wicked» (q11, q15, q19, q47) — сталий переклад в усіх чотирьох входженнях"
+        - "звіряча метафорика про ворогів: dogs, mongrels, mutts, hounds, vermin — тримати як систему, не зводити до одного слова"
+        - "риторичні подвоєння «must I remind you… must I remind you» (q38) — зберігати паралелізм"
+        - "виділення зірочками *I*, *one*, *will* — авторський наголос, зберігати розмітку"
+
+  - slug: dess
+    name: Десс
+    units: [q6, q10]
+    confidence: certain
+    evidence: [q6, q10]
+    role: >-
+      Убивця CAU, у цьому вузлі має лише дві репліки на межі сцени прощання.
+      Її голос — контраст до капітана: хихотіння й вулична говірка.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Обидві її репліки звернені до капітана, а не до гравця (q6 — репліка в розмові,
+        q10 — питання до нього на ім’я), тож прямого доказу тут немає; базовий регістр
+        береться з її основного вузла dialogs/characters/pr_dess, де вона панібратська.
+    voice:
+      register: хихотливо-зневажливий
+      idiolect:
+        - "::She giggles.:: — той самий тик, що й у pr_dess; переклад узгодити між вузлами"
+        - "випадання g: gonna, somethin'"
+        - "«these ratters» (q6) — зневажливе прізвисько місцевих, не плутати з rathound → щурчак"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки ::Captain Mareth seems surprised…::, ::He laughs.::, ::He chuckles.::"
+
+new_names: ["Mareth", "Julius", "Fort Apogee", "Hexagon", "Dis", "CAU", "Chemical Assault Unit", "chems"]
+
+idioms:
+  - unit: q11
+    src: "No rest for the wicked"
+    note: "усталений вислів, не калькувати дослівно; шукати сталий український відповідник і тримати його в усіх 4 входженнях"
+  - unit: q23
+    src: "let them get a taste of their past misbehavior"
+    note: "«скуштувати власного» — локалізувати, не калькувати"
+  - unit: q58
+    src: "show their teeth"
+    note: "«шкірити зуби» — метафора вписана в собачий ряд, зберегти зв’язок із mutts/dogs"
+  - unit: q30
+    src: "One minute should do the trick"
+    note: "розмовне «має спрацювати», не «зробити трюк»"
+  - unit: q44
+    src: "Who knows what gems still remain hidden?"
+    note: "gems переносно — «скарби», «поживне», не «самоцвіти»"
+  - unit: q75
+    src: "my right hand man"
+    note: "«права рука» — усталене; чоловічий рід за персонажем"
+  - unit: q35
+    src: "Get your Southerner legs moving"
+    note: "зневажливий поштовх; локалізувати як цілу фразу, не по словах"
+
+pitfalls:
+  - "q10 «Are we leaving, Julius?» — Julius це АДРЕСАТ (капітан), мовець тут Десс; ім’я не канонізоване, у new_names"
+  - "q5 «Right, Dess?» — теж адресат, мовець капітан"
+  - "q84 називає Will і Todd — Вілл і Тодд (registry); a83 — рядок гравця"
+  - "Void → Порожнеча (registry); q102 «Void, open the gate.» — звертання, отже мовець капітан"
+  - "q4, q15, q89: Free Drones → Вільні Дрони; q58 Protectorate → Протекторат (glossary)"
+  - "q23, q79: Epione → Епіон; q35, q46: Rail Crossing → Залізничний Переїзд; a49: Old Junkyard → Старе Звалище (glossary)"
+  - "q44: Biocorp і Underrail лишаються латиницею й не відмінюються (glossary)"
+  - "a87, q88: Invictus → Інвіктус, Arena → Арена (glossary)"
+  - "a90 містить $(#man/woman) — обидві гілки перекласти українськими родовими формами"
+  - "«D4», «D5» — маркування мутагену, латиницею без змін (q28, q39, q47)"
+  - "«Corporal» — звертання до гравця в кожній репліці капітана; це звання, не ім’я, з малої літери в середині речення"
+
+examples:
+  - unit: a90
+    rule: "$(#man/woman) — гендерна гілка, обидві форми українською, STYLE §2"
+    uk_fragment: "$(#чоловік/жінка)"
+    status: proposed
+  - unit: q38
+    rule: "наказовий спосіб успадковує «ви», STYLE §3.4"
+    uk_fragment: "Ідіть!"
+    status: proposed
+  - unit: a48
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Віддати честь і піти.::"
+    status: proposed

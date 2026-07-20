@@ -1,0 +1,63 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/events/cc_tchortismlecture
+file_id: dialogs\events\cc_tchortismlecture.txt
+derived_from: source-only
+units: {total: 10, npc: 9, player: 1, empty: 0}
+
+speakers:
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: default
+    confidence: unknown
+    reason: >-
+      Вузол лежить у events/, а не в теці персонажа, і в тексті немає ні
+      нарації з іменем, ні звертання до мовця. Відомо лише роль: лектор від
+      Інституту Тчорта, який каже «us Tchortists» і посилається на Ейдейна
+      як на засновника, тобто сам не є ним.
+    guidance: >-
+      Регістр установлено надійно, навіть якщо особа — ні: це публічна
+      лекція до зали, «ви» без винятків («Thank you all», «brothers and
+      sisters»). Стать мовця з джерела не випливає — уникати форм минулого
+      часу й прикметників, що видають рід. Голос: наукоподібний, розмірений,
+      підкреслено не сектантський («we are not a religious cult»).
+
+narration:
+  present: false
+
+unattributed_units: [q1, q2, q3, q4, q5, q6, q7, q8, q9]
+
+new_names: ["Tchortist", "Tchortism"]
+
+idioms:
+  - unit: q1
+    src: "everything they lay their dystrophic eyes on"
+    note: "стала формула «lay eyes on» із вставленим епітетом; локалізувати зворот, епітет зберегти"
+  - unit: q2
+    src: "nothing but absolute, undiluted truth"
+    note: "«undiluted» — риторичне підсилення, не хімічний термін"
+  - unit: q3
+    src: "under the watchful eye of Eidein"
+    note: "стала формула нагляду; не буквалізувати про око"
+  - unit: q9
+    src: "Tchort guide you."
+    note: "ритуальна формула прощання — має звучати як усталене благословення, а не як побажання"
+
+pitfalls:
+  - "Три крапки перед останнім словом абзацу — авторський риторичний прийом мовця, що повторюється в кожній репліці («know that very... well», «offer... to you», «study it», «the Surface»). Це не пропуск і не обрив: пауза має стояти в українському реченні на тому самому логічному місці."
+  - "Термінологія глосарія: Institute of Tchort → «Інститут Тчорта», Tchort → «Тчорт», Deep Caverns → «Глибокі Печери», Faceless → «Безликі», Core City → «Центральне Місто», Underrail → лишати латиницею й не відмінювати."
+  - "Похідні «Tchortism» і «Tchortist» у глосарії відсутні — до централізованого рішення не вигадувати форму; від неї залежить весь вузол."
+  - "q5 — фаховий генетичний уривок: «non-coding DNA», «junk DNA», «coding», «genome», «protein sequences». Терміни біологічні й точні; лапки навколо \"non-coding\" і \"junk\" зберігати."
+  - "«0.5 %» у q5 — пробіл перед знаком відсотка є в оригіналі; типографіку не «виправляти» самочинно."
+  - "\\n\\n у q2, q7, q9 — розрив абзацу, зберігати дослівно."
+  - "Цитата Ейдейна в q9 (\"We can and we must.\") — лапки за STYLE переводяться в « »."
+
+examples:
+  - unit: q10
+    rule: "підказка дії всередині ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Завершити діалог.::"
+    status: proposed
+  - unit: q9
+    rule: "«ви» до зали слухачів, STYLE §3.2"
+    uk_fragment: "брати і сестри"
+    status: proposed

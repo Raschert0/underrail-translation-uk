@@ -1,0 +1,69 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/jy_kimi
+file_id: dialogs\characters\jy_kimi.txt
+derived_from: source-only
+units: {total: 45, npc: 27, player: 18, empty: 1}
+
+speakers:
+  - slug: kimi
+    name: Кімі
+    units: default
+    confidence: certain
+    evidence: [q1, q12, q14]
+    role: >-
+      Молода худа торговка грибами й рослинами на Звалищі; налякана місцевою
+      бандою й категорично уникає будь-яких розмов, крім торгівлі. Страх, а не
+      грубість, керує її різкістю — це має чутися в доборі слів.
+    relationships:
+      - "Колтон на пристані — до нього відсилає по обмін валюти (q6)"
+      - "Йоган біля купи мотлоху — до нього відсилає по деталі (q10)"
+      - "Місцевий бандит, що патрулює поруч — джерело її страху, не називається (q17)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Вулична торговка з різким просторічним мовленням і фамільярним
+        гендерним звертанням; гравець дзеркалить її базовий регістр — STYLE §3.2, §3.3.
+      gender_cues: ["$(#jack/sister)"]
+    voice:
+      register: просторічний, уривчастий, оборонний
+      idiolect:
+        - "систематичне випадання g: talkin', hidin', buyin', pickin' — передавати розмовним усіченням, не суржиком"
+        - "ain't / gots / ya / yer / 'cause / 'cept / o' — стягнена вулична вимова"
+        - "обриви на півслові при переляку: «Wh-- No one--» — тире зберігати"
+        - "рефрен «buy somethin' or get outta here» — вона щоразу зводить розмову до торгівлі"
+
+narration:
+  present: true
+  note: "«ви» без винятків, навіть коли Кімі каже «ти» — STYLE §3.1"
+
+new_names: ["Armadillo"]
+
+idioms:
+  - unit: q11
+    src: "dig?"
+    note: "не «копати»; питальна вставка на кшталт «ясно?», «второпав?»"
+  - unit: q39
+    src: "keep up with yer demands"
+    note: "не калькувати «тримати крок»; ідеться про обсяги постачання"
+  - unit: q33
+    src: "see for yerself"
+    note: "розмовне «глянь сам», не буквальне «побач для себе»"
+
+pitfalls:
+  - "q9, q19, q25, q31, q39 містять $(#jack/sister) — обидві гілки перекладати, регістр літери зберігати (STYLE §2)"
+  - "a4 містить підказку дії ::Barter.:: — інфінітив, канонічно ::Торгувати.:: (глосарій)"
+  - "a15, a20 містять службові теґи ::[Intelligence]::, ::[Persuade]:: — це мітки перевірки навички, не проза; ::[Persuade]:: закріплено глосарієм"
+  - "\\n\\n у q1, q14, q39 — розрив рядка, лишати як є"
+  - "терміни з глосарія: Junkyard → Звалище, mindshrooms → Гриби Розуму, lake shrooms → озерні гриби, psi-beetles → псі-жуки, stygian coins → стигійські монети, South Gate Station → Станція Саут-Гейт, SGS → ССГ"
+
+examples:
+  - unit: q9
+    rule: "$(#jack/sister) — гендерне звертання, обидві гілки, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q14
+    rule: "просторічне ain't + випадання g передається розмовним усіченням, не пом’якшується — STYLE §9"
+    uk_fragment: "не балакаю я"
+    status: proposed

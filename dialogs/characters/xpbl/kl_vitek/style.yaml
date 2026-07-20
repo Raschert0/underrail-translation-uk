@@ -1,0 +1,79 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/xpbl/kl_vitek
+file_id: 'dialogs\characters\xpbl\kl_vitek.txt'
+derived_from: source-only
+units: {total: 133, npc: 86, player: 47, empty: 12}
+
+speakers:
+  - slug: vitek
+    name: 'Vitek — канонічної української форми ще немає, див. new_names'
+    units: default
+    confidence: certain
+    evidence: [q84, q38, q63]
+    role: >-
+      Людина, замкнена в резервуарі-машині життєзабезпечення за склом: розпорядник
+      комплексу, який стежив за гравцем через камери й тепер торгується з ним по
+      той бік скла. Говорить з паузами, бо притомність йому дають хімікати з трубок.
+    relationships:
+      - 'Kirill (Кирило) — той, хто привів гравця сюди; Vitek без нього безсилий: «Without Kirill... it''s no use.»'
+      - 'Anton — згаданий разом із Кирилом як винуватець того, що сталося (q40)'
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Vitek бачить у гравцеві не співрозмовника, а істоту: кличе «mutant»,
+        «creature», «ABOMINATION», наказує («Turn on the generator»), торгується
+        зверхньо. «Ви» тут неможливе в жодній гілці. Гравець майже не має
+        артикульованої мови, тож його «ти» проявляється лише в поодиноких
+        покручених словах — базовий регістр однаково «ти».
+      gender_cues: []
+    voice:
+      register: уривчастий, здавлений; владність упереміш із безпорадністю й благанням
+      idiolect:
+        - 'фізіологічні звуки замість слів: Hnnnnnnn, nnnnn, hhhh — передавати українськими літерами, не лишати латиницею'
+        - 'обриви на півслові через дефіси: «You-- cannnnn''t-- can''t hurt me--» — обриви зберігати на тому самому місці'
+        - 'емфаза зірочками: *this*, *ruined*, *right*; поділ на склади *ge-ne-ra-tor* — відтворювати в українському слові'
+        - 'звертання на «mutant» / «creature» замість імені гравця'
+
+narration:
+  present: true
+  note: '«ви» без винятків — STYLE §3.1; нарації тут більше, ніж мови: майже кожна репліка починається ремаркою про трубки'
+
+new_names: ["Vitek", "Anton"]
+
+idioms:
+  - unit: q41
+    src: "if you still have a shred of humanity in you"
+    note: 'не калькувати «шматок людяності»; розмовне «хоч крихта людського»'
+  - unit: q99
+    src: "braindead reject"
+    note: 'грубе лишається грубим (STYLE §9), але «reject» тут — бракований піддослідний, не «відторгнення»'
+  - unit: q69
+    src: "fix the security glitch they exploited"
+    note: 'glitch — технічний збій, не «глюк»; exploited — «скористалися», не «експлуатували»'
+  - unit: q31
+    src: "After all you've done - *this*!"
+    note: 'докір, а не подяка; інтонацію тримає тире перед *this*'
+
+pitfalls:
+  - 'q131, q132, q133 (//Portrait back, //Portrait middle, //Portrait front) — технічні коментарі рушія, а не текст гри: лишати без перекладу'
+  - 'q52 «::The person inside ::» + q53 і q84 «::Vitek ::» + q85 «::He ::» — обірвані фрагменти одного речення, які рушій склеює; від відмінка й роду в першому фрагменті залежить другий, самостійно дописувати їх не можна'
+  - 'a45, a87, a128 (GRRRRAAAAAARRRRGHHH, RAAAA...) — нечленоподільний рев: лишати звуком, підбираючи українські літери, а не перекладати'
+  - 'a70, a118 (Y-y-yiiiiiiiissss), a109, a82/a123 (V-v-veee-- Viiii--t-t-t-eeee) — заїкання відтворювати на українському приголосному (STYLE §9), довжину голосних зберігати'
+  - 'q36, q60, q130 закінчуються порожнім рядком після ремарки — послідовність \n не чіпати'
+  - 'a28 «Pppppppooookkkkk...» і a113 «GeeeennnnnnnrrrrrRRR...» — спотворені гравцем слова (pocket, generator): українське спотворення має впізнаватися як те саме слово'
+
+examples:
+  - unit: a13
+    rule: 'підказка дії всередині ::…:: — інфінітив, STYLE §3.5'
+    uk_fragment: '::Відкрити кишеню.::'
+    status: proposed
+  - unit: q120
+    rule: 'наказовий спосіб успадковує «ти» — STYLE §3.4'
+    uk_fragment: 'Зосередься'
+    status: proposed
+  - unit: a70
+    rule: 'заїкання на українському приголосному — STYLE §9'
+    uk_fragment: 'Т-т-тааааккк...'
+    status: proposed

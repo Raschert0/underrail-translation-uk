@@ -1,0 +1,71 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_ohad
+file_id: dialogs\characters\cc_ohad.txt
+derived_from: source-only
+units: {total: 42, npc: 26, player: 16, empty: 1}
+
+speakers:
+  - slug: ohad
+    name: Огад
+    units: default
+    confidence: certain
+    evidence: [q6, q9]
+    role: >-
+      Холодний, стриманий замовник, який доручає гравцеві публічно викрити торгівця
+      Деніела Арду. Мотив приховує («It's a personal matter»), тримає дистанцію
+      й розмовляє суто по-діловому.
+    relationships:
+      - "Деніел Арда — мішень доручення; особисті рахунки, які Огад відмовляється пояснювати"
+      - "Джек Квіксілвер — посередник, який надіслав гравця; Огад визнає його як сторону угоди"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Мова без скорочень-просторіч, повні синтаксичні конструкції, службовий тон:
+        «I hope I was clear enough, the rest is up to you», «Time is of the essence».
+        Ремарки двічі підкреслюють холодність — «a stare as warm as a glacier» (q6),
+        «::He answers in a calm manner.::» (q8, q36). Гравець дзеркалить діловий тон.
+    voice:
+      register: холодний, діловий, контрольований; жодного підвищення голосу
+      idiolect:
+        - "анафоричне «I want…» у q12 і q23 — тричі поспіль, ритм наказу зберігати"
+        - "усмішка й смішок подаються лише ремаркою, ніколи вигуком у мовленні"
+        - "уривчасте «Yes, yes...» (q31) — єдиний вияв нетерплячки"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; ремарки q1, q2, q6, q8, q28, q36, q38"
+
+new_names: ["Arda", "Jack Quicksilver", "Hercules"]
+
+idioms:
+  - unit: q9
+    src: "drinking himself into a stupor"
+    note: "не калькувати; розмовне українське «допитися до нестями»"
+  - unit: q12
+    src: "I believe it's all bogus"
+    note: "«bogus» — розмовне «липа/туфта», а не нейтральне «неправдиве»"
+  - unit: q26
+    src: "Time is of the essence."
+    note: "стала ділова формула, не дослівний переклад про «сутність часу»"
+  - unit: q29
+    src: "you just need to deliver the final blow"
+    note: "метафора добивання; українська ідіома, не калька «завдати фінального удару»"
+
+pitfalls:
+  - "q9 і q12 проти q23 — майже дублікати опису доручення; розбіжність лише у вступі («A trader called Daniel Arda» / «Daniel Arda, a traveling merchant»), решту тримати ідентичною, інакше гравець побачить два різні тексти одного завдання"
+  - "a35 — награно-пихата репліка гравця («the Invictus himself», «commoner!») — це стилізація під вихваляння, а не базовий регістр; відповідь q36 суха й на «ви»"
+  - "Invictus — глосарій: Інвіктус; Core City — Центральне Місто; Hardcore City Bar — Хардкор Сіті Бар"
+  - "a34 і a41 — підказки дій усередині ::…:: («::Let him continue.::», «::Leave without saying a word.::») — інфінітив, STYLE §3.5"
+  - "«product» у q12 і q23 узято в лапки в оригіналі — іронія; лапки « » зберегти"
+
+examples:
+  - unit: a34
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Дати йому договорити.::"
+    status: proposed
+  - unit: q31
+    rule: "уривчаста нетерплячка без емоційного підсилення"
+    uk_fragment: "Так, так…"
+    status: proposed

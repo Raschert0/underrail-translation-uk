@@ -1,0 +1,124 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_denzil
+file_id: dialogs\characters\tch_denzil.txt
+derived_from: source-only
+units: {total: 101, npc: 58, player: 43, empty: 3}
+
+speakers:
+  - slug: denzil
+    name: Дензіл
+    units: default
+    confidence: certain
+    evidence: [q32, q8, q22]
+    role: >-
+      Ефрейтор Інституту Тчорта, що стереже вхід і командує рясофорами у дворі.
+      Нервовий, зверхній службовець під тиском: провалене доручення з викраденою
+      фігуркою робить його дратівливим із кожним, хто затримує його час.
+    relationships:
+      - "рясофори у дворі — підлеглі; з ними він на «брате» й уривчастими наказами"
+      - "Eidein — засновник Інституту, згадується з побожністю"
+      - "медіант — вища ланка, до якої Дензіл мусить іти по дозвіл"
+      - "Lunatics — зневажені вороги, постійний об'єкт лайки"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службовець при виконанні, що говорить із невідомим цивільним: канцелярські
+        формули «I am not at liberty to reveal that information to you», «you are
+        standing at the entrance to Institute of Tchort», холодний наказовий
+        «Do not speak to me unless you have the figurine» — STYLE §3.2 дає «ви».
+        Гравець дзеркалить (§3.3). Звертання $(#brother/sister) у q48 — орденська
+        формула ордену, а не панібратство, і базу не змінює.
+      gender_cues: ["$(#brother/sister)"]
+      switches:
+        - {unit: q41, to: ти, trigger: "зрив у відкриту зневагу — «Are your ears vestigial?», «Now buzz off!»"}
+        - {unit: q43, to: ти, trigger: "лайка в обличчя — «some inbred bastard»; повертається до «ви» вже в q45, коли охолоне"}
+    voice:
+      register: напружений службовий; від сухої формальності до вибуху й назад
+      idiolect:
+        - "«Magnificent Tchort!» — божба-вигук, словесний тик (q15, q43, q87); тримати той самий український відповідник усюди"
+        - "cull / culling — його фахове слово про вбивство, не пом'якшувати до нейтрального «знищити»"
+        - "лайка через «devolved», «inbred» — біологічна зневага, ключова для його голосу"
+        - "розділяє слова крапками для натиску: *We. do. not. accept. new. members!*"
+        - "обриви на пів слові, коли себе спиняє: «Yo-- ::He pauses.::», «Tchort gu-- Bah!»"
+
+  - slug: rassophore_guard
+    name: рясофор із варти
+    units: [q21, q23, q26]
+    confidence: certain
+    evidence: [q21, q22]
+    role: >-
+      Середній із трьох вартових, що доповідає Дензілові про безрезультатний
+      пошук. Виструнчений підлеглий: звертається «Efreitor», говорить коротко
+      й винувато.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Говорить не до гравця, а до Дензіла — сцена спостерігається збоку. До
+        командира — підкреслено субординаційне «ви»; ця розмова гравця не
+        стосується, тож регістр звертання до гравця тут не реалізується.
+    voice:
+      register: уставний, стислий, з нотою виправдання
+      idiolect:
+        - "«I'm afraid not, Efreitor» — уставна ввічливість підлеглого"
+
+narration:
+  present: true
+  note: >-
+    Розлогі описові блоки (q8, q18, q29, q45, q55, q61, q92) — «ви» без
+    винятків, STYLE §3.1. Це найдовші юніти файлу і несуть основну характеристику
+    Дензіла; писати літературною прозою, не телеграфно.
+
+new_names:
+  - "Efreitor"
+  - "Mediant"
+  - "Praepostor"
+  - "Lunatics"
+  - "Emporion"
+
+idioms:
+  - unit: q41
+    src: "Are your ears vestigial?"
+    note: >-
+      біологічний жарт (рудиментарний орган), а не «глухий»; зберегти саме
+      псевдонауковий регістр — це його фірмова зневага
+  - unit: q41
+    src: "Now buzz off!"
+    note: >-
+      грубе «згинь»; гравець підхоплює це слово в a42 і a88 — переклад мусить
+      бути той самий у всіх трьох місцях, бо на ньому тримається перепалка
+  - unit: q45
+    src: "turning into a ball of plasma"
+    note: "розгорнута наукова гіпербола нарації, зберігати образ, не згортати в «розлютився»"
+  - unit: q73
+    src: "as mentally derailed as one can be"
+    note: "залізнична метафора («зійшов з рейок») доречна у світі Underrail — не втрачати"
+  - unit: a56
+    src: "the damn figurine"
+    note: "лайка гравця; грубе лишається грубим, STYLE §9"
+
+pitfalls:
+  - "$(context.player.Name) у q2, q19, q63 (тричі в одному юніті), a62 — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім'я стояло в називному"
+  - "q12, q19, q21, q22, q29, q45, q61, q69, q99 містять літеральний \\n\\n — зберігати"
+  - "Institute of Tchort → «Інститут Тчорта», Faceless → «Безликі», Foundry → «Ливарня», scavengers → «шукачі» (глосарій)"
+  - "Underrail у a88 лишається латиницею й не відмінюється (глосарій)"
+  - "«Tchort is evolution» / «Evolution is Tchort» (q21, q22, q36) — обрядова формула-дзеркало; переклад має лишатися оборотним в обидва боки"
+  - "«Tchort guide you» / «Tchort guide me» (q26, q27, q63) — та сама формула у двох особах, узгодити"
+  - "a56 ::[Intelligence]:: — назва здібності в дужках, з глосарію, не перекладати вільно"
+  - "q48 $(#brother/sister) — гендер ГРАВЦЯ, не Дензіла; кличний відмінок в обох гілках"
+
+examples:
+  - unit: q48
+    rule: "$(#brother/sister) — кличний відмінок в обох гілках, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q43
+    rule: "«cull» — фахове слово про вбивство, не пом'якшувати"
+    uk_fragment: "…вибракувати вас…"
+    status: proposed
+  - unit: q23
+    rule: "уставне звертання підлеглого до командира"
+    uk_fragment: "…ефрейторе."
+    status: proposed

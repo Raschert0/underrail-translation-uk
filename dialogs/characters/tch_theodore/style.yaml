@@ -1,0 +1,90 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_theodore
+file_id: 'dialogs\characters\tch_theodore.txt'
+derived_from: source-only
+units: {total: 73, npc: 41, player: 32, empty: 1}
+
+speakers:
+  - slug: theodore
+    name: Теодор
+    units: default
+    confidence: certain
+    evidence: [q3, q12, q42]
+    role: >-
+      Молодий вродливий роздавальник у трапезній Інституту Тчорта, народжений
+      всередині Інституту й ніколи не бачив зовнішнього світу. Обслуга: привітний,
+      але постійно поспішає, бо за ним черга.
+    relationships:
+      - "Гравець — відвідувач черги; окрема флірт-гілка доступна лише персонажці-жінці"
+      - "Праепостор Амелія та Бібліотека Ейдейна — куди він відсилає з питаннями про тчортизм, бо сам не має часу"
+      - "Джерре Франц — медик, до якого він відсилає у жартівливій гілці про губи"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Обслуга за прилавком до відвідувача — STYLE §3.2: «How may I help you?»,
+        «I am sorry but I can't explain it now», «Please, make sure you always say
+        the phrase in its proper form». Ввічливий сервісний тон тримається навіть
+        у флірті й у роздратуванні через Безликих.
+      gender_cues: ["$(#brother/sister)", "sister (без плейсхолдера, у флірт-гілці)"]
+      switches:
+        - {unit: q2, to: ви, trigger: "окрик на порушника («The kitchen is for staff ONLY!») — підвищений тон, але не перехід на «ти»"}
+    voice:
+      register: привітно-сервісний, швидкий, з легким флиртом; уривчастий, коли черга
+      idiolect:
+        - "«What'll it be?» — фірмове питання роздавальника, повторюється (q65, q70, q72); тримати один сталий відповідник"
+        - "«apex» — інститутський сленг схвалення, спільний зі Штеффом; перекладати так само, як у tch_schteff"
+        - "«Magnificent Tchort!» — вигук-божіння, як у решті тчортистів"
+        - "коротке відрубування замість пояснень: «It is dangerous, do not go there.», «Yes, what?»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; є і ремарки-дії NPC (::He laughs.::), і підказки дій гравця (::Barter.::, ::Pout your lips.::) — останні інфінітивом, STYLE §3.5"
+
+new_names: ["Theo", "Praepostor", "Original Report", "Institute-born", "coil spider"]
+
+idioms:
+  - unit: q28
+    src: "Just trust me"
+    note: "розмовна відмова пояснювати, не урочиста присяга"
+  - unit: q45
+    src: "don't worry about it"
+    note: "легке відмахування; не «не хвилюйтеся» в медичному сенсі"
+  - unit: q49
+    src: "we are out of winks"
+    note: "жарт: підморгування «закінчилося», як страва в меню — образ меню треба зберегти, бо на ньому тримається дотеп"
+  - unit: a41
+    src: "I'd like one cute Theo for takeout. Hot if possible."
+    note: "гра на подвійному значенні «hot» (гарячий / привабливий); q43 «Hopper stew is hot too» підхоплює саме це слово — обидва рядки перекладати разом, зберігши спільне слово"
+  - unit: a32
+    src: "a rathound that walks into a bar"
+    note: "класична зачинка англомовного анекдоту; локалізувати як українську формулу анекдоту, не калькувати"
+  - unit: q33
+    src: "'Cause everyone hates rathounds!"
+    note: "усічене 'Cause — розмовність, відтворювати розмовним сполучником, а не книжним «оскільки»"
+
+pitfalls:
+  - "У q43, q46, q52, q54 слово «sister» стоїть без плейсхолдера — це гілка, доступна лише персонажці-жінці, тож потрібна жіноча форма («сестро»), а не $(#…). Не перетворювати на плейсхолдер і не робити нейтральним"
+  - "$(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "a66 «I'm $(#brother/sister) $(context.player.Name)» — плейсхолдер стоїть перед іменем як прикладка; узгодження роду тільки всередині $(#…)"
+  - "«Tchort is evolution» / «Evolution is Tchort» (q3, a4) — дзеркальна пара вітання; переклад має лишатися дзеркальним і збігатися з іншими вузлами Інституту"
+  - "q68 — репліка саме про те, що вітальну формулу спотворили (a67); переклад a67 має бути впізнаваним перекрученням канонічної формули, інакше q68 втрачає сенс"
+  - "«ONLY» капслоком у q2 — авторський наголос, зберігати"
+  - "Faceless → «Безликі», rathound → «щурчак», hopper (у «hopper stew») → «стрибун», Institute of Tchort → «Інститут Тчорта» (глосарій)"
+  - "Jerre-Franz — реєстр закріплює «Джерре Франц»; у джерелі написано через дефіс, у перекладі це особове ім’я"
+  - "Літерал \\n\\n у q3 — розділювач абзаців, зберігати"
+
+examples:
+  - unit: q34
+    rule: "$(#brother/sister) — гендерне конфесійне звертання, кличний відмінок, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: a9
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5 (глосарій: ::Barter.:: → ::Торгувати.::)"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q52
+    rule: "жорстко зафіксоване «sister» у жіночій гілці — жіноча форма без плейсхолдера"
+    uk_fragment: "сестро"
+    status: proposed

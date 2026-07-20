@@ -1,0 +1,86 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/fo_nicolas
+file_id: dialogs\characters\fo_nicolas.txt
+derived_from: source-only
+units: {total: 108, npc: 64, player: 44, empty: 3}
+
+speakers:
+  - slug: nicolas
+    name: Ніколас
+    units: default
+    confidence: certain
+    evidence: [q86, q2]
+    role: >-
+      П’яний робітник Ливарні, який ненавидить власну дружину Олівію й наймає
+      гравця вбити її так, щоб це скидалося на нещасний випадок на виробництві.
+      Мова розсипається від алкоголю: обірвані фрази, самовиправлення, гикавка.
+    relationships:
+      - "Олівія — дружина, двадцять років шлюбу; говорить про неї виключно з ненавистю («that muck-woman», «that witch»)"
+      - "мер — згадує його страхову виплату за смерть на роботі як мотив"
+      - "Мессер — сусід зі свинями; привід для п’яного реготу (q76)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Грубий, панібратський, з місця переходить на образи («idiot», «you
+        dimwit», «Get lost»). Найманця для вбивства він тримає за свого —
+        STYLE §3.2, «свої, вуличні — ти».
+      gender_cues: ["$(#man/woman)", "$(#He/She)"]
+      switches:
+        - {unit: q16, to: ти, trigger: "єдиний момент ділової зібраності — тон твердішає, але регістр не змінюється"}
+    voice:
+      register: п’яний, брутальний, розхристаний
+      idiolect:
+        - "нав’язливе «you» причепкою в кінці звертання: «Nice to meet you, you.», «Bye, you!» — п’яний тик, відтворити українським зайвим «ти» на місці, де воно не потрібне"
+        - "«Golden» як схвалення (q12, q21, q42) — місцевий сленг Ливарні, той самий, що й в Олівії; тримати один відповідник у всьому вузлі"
+        - "«muck», «mucked up», «Muck damn!» — цензурний замінник лайки; має лишатися лайкою, не пом’якшувати (STYLE §9)"
+        - "«pffft», «he-he», «Upffff» — звуконаслідування, передавати українськими"
+        - "самовиправлення й переставляння слів: «I don’t wanna vomit in my die... pffft... die in my vomit.»"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; вставки ::hic.::, ::He points to the door.::, довгий опис q82"
+
+unattributed_units: []
+
+new_names: []
+
+idioms:
+  - unit: q11
+    src: "I'm gonna be in muck up to here"
+    note: "«по вуха в багні» — локалізувати, не калькувати"
+  - unit: q57
+    src: "it's like someone spilled molten metal all over our marriage"
+    note: "образ узятий із ливарного цеху — зберегти саме металургійне порівняння"
+  - unit: q66
+    src: "Are you derailed?"
+    note: "внутрішньоігрова лайка світу Underrail («з рейок зійшов?») — не міняти на загальне «здурів?»; тримати єдину форму з fo_olivia"
+  - unit: q28
+    src: "releive me of this misery"
+    note: "друкарська помилка в джерелі (relieve) — перекладати за змістом, не відтворювати помилку"
+  - unit: q76
+    src: "Messer's got pigs, he-he... Sounds like he's got herpes"
+    note: "п’яна співзвучність pigs/herpes; шукати український суголосний жарт, а не дослівність"
+
+pitfalls:
+  - "$(context.player.Name) у a60 не відмінювати — будувати фразу під називний відмінок"
+  - "«charons» (q13, q15, q28) і «stygian coins» (q24) — за глосарієм «харон» і «стигійська монета»; це дві назви однієї валюти, обидві залишити різними"
+  - "::hic:: і ::hic.:: — стан мовця всередині ::…::, делімітери зберігати; крапка всередині трапляється непослідовно, повторювати як у джерелі"
+  - "a8, a9, a10 — підказки дій усередині ::…::, інфінітив за STYLE §3.5"
+  - "«work-related accident» повторюється як юридична формула (q24, q35, q36) — тримати дослівно однаковою в усіх юнітах, зокрема в емфатичному *Work*-*related* *accident.*"
+  - "q40 «Take it easy, $(#man/woman)» — звертання, а не опис; узгодити з «ти»-регістром"
+
+examples:
+  - unit: q40
+    rule: "$(#man/woman) як звертання, STYLE §2"
+    uk_fragment: "$(#друже/подруго)"
+    status: proposed
+  - unit: q86
+    rule: "$(#He/She) на початку речення — регістр літери в обох гілках, STYLE §2"
+    uk_fragment: "$(#Він/Вона)"
+    status: proposed
+  - unit: q51
+    rule: "нарація/звук усередині ::…:: лишається в делімітерах, STYLE §3.1"
+    uk_fragment: "::гик.::"
+    status: proposed

@@ -1,0 +1,109 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/rc_herve
+file_id: dialogs\characters\rc_herve.txt
+derived_from: source-only
+units: {total: 197, npc: 120, player: 77, empty: 9}
+
+speakers:
+  - slug: herve
+    name: Герве
+    units: default
+    confidence: certain
+    evidence: ["q190", "q193", "q1"]
+    role: >-
+      Капітан ополчення і фактичний мер Залізничного Переїзду: відповідає за станцію,
+      якій бракує людей і зброї, і саме тому пішов на угоду з Протекторатом про поставку.
+      Увічливий службовець під постійним тиском — від його реплік залежить увесь квест про потяг.
+    relationships:
+      - "майор Кліфтон із Південної Залізничної Застави — контакт у Протектораті, від якого залежить поставка"
+      - "Дзижчик — крамар станції, якого захопили Безликі; Герве платить за його порятунок окремо"
+      - "Майлз — його людина, знає, як вивести з ладу плазмових ходунів"
+      - "Таннер і ССГ — сусідня станція, до якої Герве надіслав заклик про допомогу"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Службова особа при виконанні: повні речення без скорочень, «Please», «I would be
+        grateful», «Thank you so much», офіційне «Hello, traveller» і представлення за
+        званням (q190, q194). За STYLE §3.2 формальні й службові мовці — «ви»; репліки
+        гравця дзеркалять базовий регістр (§3.3), тому теж «ви».
+      gender_cues: ["$(#boy/girl)"]
+      switches:
+        - {unit: q141, to: ти, trigger: "обірваний торг — «Forget it, $(#boy/girl)»: єдине панібратське звертання у вузлі, свідомий зрив із службового тону"}
+        - {unit: q38, to: ви, trigger: "зрив після втрати потяга — гнів є, але звертання лишається на «ви»: холодна офіційність тут різкіша за «ти»"}
+    voice:
+      register: стриманий, ввічливо-офіційний; під тиском переходить у коротку різкість, не в лайку
+      idiolect:
+        - "мова управлінця: «reports», «relations», «the core of the issue», «I will not interfere»"
+        - "просить, а не наказує: «Would it be a problem for you to…», «Please, be quick»"
+        - "рідкісні емоційні зриви капслоком: «What? WHAT? Damn it!» (q36) — контраст із базовим тоном, не згладжувати"
+        - "самовиправдання з паузами й трикрапками, коли говорить про угоду з Протекторатом (q69, q48)"
+        - "мовний збій «Even one simple information would suffice» (q54) — незграбність під тиском; в українському тексті може лишитися легка неоковирність"
+
+narration:
+  present: true
+  note: >-
+    ::He shrugs.::, ::He pauses.::, ::He gives you a suspicious look.::, ::He gives you 400
+    charons.:: — «ви» без винятків, STYLE §3.1. Мітки перевірок ::[Lie]::, ::[Intelligence]::,
+    ::[Mercantile]:: — глосарний формат, як ::[Persuade]:: → ::[Переконати]::.
+
+new_names: ["Terry", "Baker", "South Railroad Outpost", "Fort Apogee", "the Union", "plasma walker", "Acid Hunters"]
+
+idioms:
+  - unit: q16
+    src: "They’ve sensed blood in the air and are moving in for the kill"
+    note: "мисливська метафора; «moving in for the kill» — не буквально, а «беруть у кільце / заходять добивати»"
+  - unit: q70
+    src: "Rail Crossing is a small station - easy pickings"
+    note: "«easy pickings» — «легка здобич»; не описова конструкція"
+  - unit: q70
+    src: "those things you can’t go around and pick like, like mushrooms"
+    note: "зумисне незграбне повторення «like, like» — зберегти затинання, це характеристика мовця"
+  - unit: q107
+    src: "Sounds like some jack-in-office of an officer"
+    note: "«jack-in-office» — чванькуватий дрібний чиновник; калька неможлива, потрібен український відповідник із тим самим презирством"
+  - unit: q101
+    src: "get to the bottom of this"
+    note: "«докопатися до суті», не «дістатися дна»"
+  - unit: q46
+    src: "a worm of doubt soon makes it slowly go away"
+    note: "нарація; образ «черв’ячка сумніву» відтворити, не спрощувати до «засумнівався»"
+  - unit: q135
+    src: "I’ll throw in extra one hundred charons"
+    note: "«throw in» — торгова формула «накину / докину зверху»"
+  - unit: a139
+    src: "your homeboy Buzzer"
+    note: "вуличне «твій/ваш кореш»; репліка гравця навмисно збиває регістр — див. pitfalls"
+  - unit: q141
+    src: "Take it or leave it."
+    note: "усталений ультиматум торгу — коротка формула, не пояснювальна фраза"
+
+pitfalls:
+  - "a139 («chief», «homeboy», «risking my neck») — емоційний зрив гравця, а не базовий регістр: за STYLE §3.3 дзеркалиться саме база («ви»), тож зухвалість передається лексикою, а не переходом на «ти»"
+  - "q109 обриває слово посеред: «point us in the right direct... ion» — розрив усередині слова навмисний, відтворити на українському слові, а не переносити трикрапку в кінець"
+  - "q1, q8, q43, q86, q89, q94, q110, q196 містять $(context.player.Name) — не відмінювати всередині плейсхолдера"
+  - "суми то цифрами («400 charons»), то словами («three hundred charons») — у джерелі непослідовно; в українському тексті тримати один спосіб у межах сцени, бо q135/q140/q141/q164/q167/q168/q169 — це один торг"
+  - "charons → «харони» (глосарій, з малої); Rail Crossing → «Залізничний Переїзд»; South Gate Station → «Станція Саут-Гейт»; SGS → «ССГ»; Ironheads → «Залізноголові»; Tunnelers → «Тунельники»; Free Drones → «Вільні Дрони»; Protectorate → «Протекторат»; Core City → «Центральне Місто»"
+  - "«Underrail» у складі «North Underrail», «South Underrail», «Upper Underrail» лишається латиницею й не відмінюється (глосарій)"
+  - "у джерелі є друкарські помилки — «milita» (q193), «reaquire» (a42), подвійна крапка «disappointment..» (q109), відсутня крапка в кінці q31: відтворювати їх не треба"
+  - "q43/q86, q89/q94, q93/q96/q113 — майже дослівні дублікати різних гілок; переклад має бути ідентичним там, де ідентичний оригінал, інакше Weblate розсинхронить пам’ять"
+  - "звання «Captain» і «Major» — з малої, як звання (пор. registry: Chief → «шеф»); «de facto mayor» — «фактичний мер»"
+
+examples:
+  - unit: q75
+    rule: "«ви» від службового NPC; наказовий спосіб успадковує вибір — STYLE §3.4"
+    uk_fragment: "прошу, покваптеся"
+    status: proposed
+  - unit: q141
+    rule: "$(#boy/girl) — гендерне звертання, обидві гілки українською, STYLE §2"
+    uk_fragment: "$(#хлопче/дівчино)"
+    status: proposed
+  - unit: q46
+    rule: "нарація ::…:: на «ви» — STYLE §3.1"
+    uk_fragment: "він вас зупиняє"
+    status: proposed
+  - unit: a108
+    rule: "мітка перевірки в ::[…]:: — за зразком ::[Переконати]:: з глосарія"
+    uk_fragment: "::[Збрехати]::"
+    status: proposed

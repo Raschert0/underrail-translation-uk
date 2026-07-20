@@ -1,0 +1,64 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_ditch
+file_id: dialogs\characters\cc_ditch.txt
+derived_from: source-only
+units: {total: 11, npc: 11, player: 0, empty: 1}
+
+speakers:
+  - slug: ditch
+    name: Дітч
+    units: default
+    confidence: certain
+    evidence: [q2, q4, q9]
+    role: >-
+      Грубий зонер, що живе сам-один зі свинею на ім’я Ойнко і вважає її
+      єдиним другом. Погрожує кожному, хто підходить, але про свиню говорить
+      з несподіваною ніжністю — увесь вузол тримається на цьому контрасті.
+    address:
+      npc_to_player: ти
+      player_to_npc: —
+      basis: >-
+        Прямі погрози, просторіччя й фамільярне звертання $(#fella/doll) —
+        «ти», STYLE §3.2. Реплік гравця у вузлі немає.
+      gender_cues: ["$(#fella/doll)"]
+    voice:
+      register: агресивний, недорікуватий; різко м’якшає, коли мова про свиню
+      idiolect:
+        - "стала заміна my → «mah» у кожній репліці — знижена вимова, передавати просторічною формою, а не апострофом"
+        - "«Doncha», «Whatcha», «ain't», «them stupid zoners» — стягнення й нестандартна граматика, не вирівнювати"
+        - "звертання до свині як до співрозмовника (q5, q9) — тон різко теплішає"
+
+narration:
+  present: true
+  note: >-
+    «::Speaks with a sorrowful, almost crying voice.::» (q4), «::Looks around
+    the room.::» (q5), «::Laughs maniacally.::» (q8), «::Unleashes a monstrous
+    belch.::» (q9) — «ви» без винятків, STYLE §3.1
+
+new_names: []
+
+idioms:
+  - unit: q8
+    src: "I zone those folks out!"
+    note: >-
+      каламбур на «zoner»: водночас «вирубати» і «випхати в Зону». Zoner за
+      глосарієм — «зонер»; жарт варто будувати від цього кореня, а не від
+      англійського «zone out»
+  - unit: q9
+    src: "That was hardcore!"
+    note: "ігрове слівце Центрального Міста, а не оцінка складності — тримати однаковим по корпусу"
+  - unit: q10
+    src: "Mah belly feels funny."
+    note: "не «смішно» — «щось у животі коїться/крутить»"
+
+pitfalls:
+  - "Oinko → Ойнко (реєстр); zoners → зонери (глосарій)"
+  - "q7 «$(#fella/doll)» — гендерне звертання до гравця, обидві гілки мають бути українськими й у кличному відмінку"
+  - "«soup» (q10) — бочковий суп Центрального Міста, за глосарієм «Бочковий суп»; тут ужито просто як «суп»"
+
+examples:
+  - unit: q7
+    rule: "$(#fella/doll) — гендерне звертання, обидві гілки перекладаємо, STYLE §2"
+    uk_fragment: "$(#друже/лялю)"
+    status: proposed

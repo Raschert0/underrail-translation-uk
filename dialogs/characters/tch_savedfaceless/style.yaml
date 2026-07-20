@@ -1,0 +1,70 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/tch_savedfaceless
+file_id: dialogs\characters\tch_savedfaceless.txt
+derived_from: source-only
+units: {total: 15, npc: 8, player: 7, empty: 0}
+
+speakers:
+  - slug: saved_faceless
+    name: "врятований Безликий"
+    units: default
+    confidence: certain
+    evidence: [q2, q3]
+    role: >-
+      Безликий, якого гравець колись урятував у Центральному Місті; приходить
+      попередити про навалу на Інститут. Говорить синтезованим голосом —
+      беземоційно, майже протокольно.
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Мова цілком позбавлена скорочень і розмовності, побудована як
+        офіційне повідомлення («That is my message») — формальний регістр
+        за STYLE §3.2. Синтезований голос виключає фамільярність.
+    voice:
+      register: рівний, беземоційний, ультимативний
+      idiolect:
+        - "жодних скорочень: «This conversation is over», «I still live because of you» — не стягувати"
+        - "крапка з комою всередині репліки — риса цього мовця, зберігати (q6)"
+        - "короткі рубані накази наприкінці реплік: «Now leave.»"
+        - "не ставить запитань узагалі — лише твердження й накази"
+
+narration:
+  present: true
+  note: >-
+    «ви» без винятків — STYLE §3.1. q2 і q3 — довгі описові блоки про
+    впізнавання персонажа; q5 і q9 — короткі ремарки.
+
+new_names: []
+
+idioms:
+  - unit: q2
+    src: "As the puzzle solves itself in your head"
+    note: "образ здогаду, що складається сам; не калькувати «пазл розв’язує себе»"
+  - unit: q3
+    src: "makes a subtle twisting motion"
+    note: "про перемикач під маскою — «ледь помітно повертає», не «викручує»"
+  - unit: q5
+    src: "The pause feels longer than it actually is"
+    note: "усталений зворот про суб’єктивний час"
+  - unit: a13
+    src: "you bastard"
+    note: "лайка гравця — зберегти грубість повністю (STYLE §9)"
+
+pitfalls:
+  - "Faceless → Безликі (глосарій, frozen); в однині потрібна узгоджена форма — тримати єдиною на весь корпус"
+  - "Core City → Центральне Місто, Institute of Tchort → Інститут Тчорта, Tchort → Тчорт (глосарій)"
+  - "«Tchortists» — похідне від Тчорт; узгодити з рештою вузлів tch_*"
+  - "«that bleeding cylinder on his arm» у q2 — деталь спорядження Безликих, не метафора"
+  - "q6 «I still live because of you» — теперішній час навмисний, не «я вижив»"
+
+examples:
+  - unit: q3
+    rule: "STYLE §3.2 — формальний беземоційний регістр, наказ на «ви»"
+    uk_fragment: "негайно покиньте"
+    status: proposed
+  - unit: q11
+    rule: "STYLE §3.2 — рубана протокольна фраза, без пом’якшення"
+    uk_fragment: "Розмову закінчено."
+    status: proposed

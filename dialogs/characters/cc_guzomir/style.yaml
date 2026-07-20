@@ -1,0 +1,76 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/cc_guzomir
+file_id: dialogs\characters\cc_guzomir.txt
+derived_from: source-only
+units: {total: 52, npc: 29, player: 23, empty: 1}
+
+speakers:
+  - slug: guzomir
+    name: Гузомір
+    units: default
+    confidence: certain
+    evidence: [q1, q2, q3, q16]
+    role: >-
+      Чужинець-переселенець у халупі на виступі в Центральному Місті: газова
+      маска, засмальцьований одяг завеликого розміру, здає в оренду бочки для
+      бочкового супу. Говорить приязно й самопринижено, але постійно
+      підкреслює «ми, чужинці» — це громада, що тримається купи.
+    relationships:
+      - "громада «foreigners», про яку він каже «we» — сусіди-переселенці з того ж заходу"
+      - "гравця сприймає як особу при владі (звертається «officer»)"
+    address:
+      npc_to_player: ви
+      basis: >-
+        Звертається «Hello, officer $(#sir/ma’am)» — мешканець нетрів до
+        людини в однострої. Панібратське «bre» і «$(#brother/sister)» — це
+        теплота мовця, а не перехід на «ти»: воно чудово живе всередині «ви».
+      gender_cues: ["$(#sir/ma'am)", "$(#brother/sister)"]
+    player_to_npc: ви
+    voice:
+      register: розмовний, добродушний, трохи запобігливий; мова з виразним чужинським акцентом
+      idiolect:
+        - "«bre» — наскрізне слівце-паразит, у q18 воно ще й тема репліки"
+        - "«you dig» / «Dig, bre?» — перепитування, чи зрозуміли"
+        - "«dominating» / «not dominating» — місцевий сленг Центрального Міста як оцінка"
+        - "розтягнуте «Breeeee!» (q25) — емоційний вигук, а не слово"
+
+narration:
+  present: true
+  note: "«ви» без винятків — STYLE §3.1; підказки дій усередині «::…::» — інфінітив (§3.5)"
+
+new_names: ["Guzomir", "Bogdan", "Slavomir", "bre"]
+
+idioms:
+  - unit: q18
+    src: "It can't be translated"
+    note: >-
+      Уся репліка — пояснення слова «bre». Його не можна перекладати:
+      лишаємо запозиченням «бре» (як «зонер»), інакше репліка втратить сенс.
+  - unit: q9
+    src: "Not dominating - but not too bad"
+    note: "місцевий сленг, не калькувати буквально; той самий відповідник, що в cc_harlan"
+  - unit: q9
+    src: "I'm telling it like it is"
+    note: "ідіома «кажу як є» — локалізувати, не калькувати"
+  - unit: q10
+    src: "punchy sour note"
+    note: "гастрономічна метафора про бочку з-під мастила — жарт має лишитися жартом"
+
+pitfalls:
+  - "q40 + q41 і q47 — обірвані фрагменти нарації, що склеюються в одне речення: не додавати крапку й не починати з великої"
+  - "q10: Biocorp — латиницею, не відмінювати (глосарій)"
+  - "a11: Core City → «Центральне Місто» (глосарій)"
+  - "q10: barrel soup → «бочковий суп» (глосарій)"
+  - "a36 ::[Tailoring]:: — назва навички у службових дужках, брати канонічний варіант, не вигадувати"
+  - "a5: Bogdan і Slavomir — слов’янські імена, форму вирішують централізовано; не транслітерувати навмання"
+
+examples:
+  - unit: q12
+    rule: "$(#brother/sister) — гендерне звертання, STYLE §2"
+    uk_fragment: "$(#брате/сестро)"
+    status: proposed
+  - unit: q2
+    rule: "$(#sir/ma’am) — гендерне звертання на «ви», STYLE §2"
+    uk_fragment: "$(#пане/пані)"
+    status: proposed

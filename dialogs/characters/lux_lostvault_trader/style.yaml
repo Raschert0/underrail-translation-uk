@@ -1,0 +1,92 @@
+schema_version: 1
+registry_version: 1
+node: dialogs/characters/lux_lostvault_trader
+file_id: dialogs\characters\lux_lostvault_trader.txt
+derived_from: source-only
+units: {total: 30, npc: 17, player: 13, empty: 3}
+
+speakers:
+  - slug: lux_lostvault_trader
+    name: торговець біля Сховища
+    units: default
+    confidence: certain
+    evidence: [q2, q7, q15]
+    role: >-
+      Мандрівний торговець, що отаборився під затопленим сховищем і
+      відмовляється пояснювати, чому саме тут. Уся драматургія вузла —
+      як його вдавана привітність тріскає під настирливими питаннями
+      й переходить у пряму погрозу вбити.
+    address:
+      npc_to_player: ти
+      player_to_npc: ти
+      basis: >-
+        Суцільне просторіччя (ya, yer, aintcha) і зрив у лайку
+        «ya jerk» — вуличний свій регістр, STYLE §3.2. Гравець тисне
+        без церемоній, STYLE §3.3.
+      gender_cues: ["$(#jackass/scag)"]
+      switches:
+        - {unit: q15, to: ти, trigger: "той самий «ти», але торговельна привітність зникає — з цього рядка й до q20 голос уже відверто ворожий"}
+    voice:
+      register: удавано-привітний, що зривається в лють
+      idiolect:
+        - "ya / yer / aintcha / doin' / tradin' — суцільні стягнення"
+        - "«he-he» як торговельний смішок у q7"
+        - "розтягнені голосні для вдаваної невимушеності: «Sooo...», «Errrr...» — зберігати кількість літер"
+        - "зірочки наголосу: «really, *really* pissed off», «*if* ya say no» — зберігати розрядку"
+        - "повтор одного слова як зловісна пауза: «Good. \\n\\nGood.» — не зливати в одне"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося
+    units: [q1]
+    confidence: unknown
+    reason: >-
+      «The piiig!» ніяк не в’яжеться ні з торговельною привітністю, ні з
+      лайкою торговця: у решті вузла немає ні свині, ні цього образу.
+      Це може бути вигук іншої істоти або бойовий рядок, помилково
+      зшитий у цей файл. Назва теки тут не є достатнім доказом.
+    guidance: >-
+      Перекладати як окремий ізольований вигук: базовий «ти» вузла не
+      застосовувати, гендерного минулого часу уникати, розтягнену голосну
+      «piiig» відтворити подовженням на українському голосному.
+
+narration:
+  present: true
+  note: "q2, q25 містять ::…:: — «ви» без винятків, STYLE §3.1"
+
+unattributed_units: [q1]
+
+new_names: ["Lost Vault"]
+
+idioms:
+  - unit: q15
+    src: "aintcha one persistent"
+    note: "стягнене «ain't you»; просторічну злиту форму зберігати"
+  - unit: q18
+    src: "I'd be totally derailed now"
+    note: "залізничний каламбур «зійшов би з рейок» — у світі метротунелів образ доречний, зберегти його"
+  - unit: q23
+    src: "no mutagen facility-schmacility"
+    note: "передражнювання повтором зі зміненим початком; відтворити українським передражнюванням, не викидати"
+  - unit: q15
+    src: "yer pissin' me off even further"
+    note: "грубість зберігати, STYLE §9"
+  - unit: q8
+    src: "What're ya buyin?"
+    note: "перегукується з q30 «What're ya sellin'?» — пара реплік для двох боків торгу, тримати симетричними"
+
+pitfalls:
+  - "q15 $(#jackass/scag) — обидві гілки лайливі; жіноча гілка «scag» груба, не пом’якшувати до нейтрального"
+  - "a14 «all the places in Underrail» — Underrail не перекладати й не відмінювати (глосарій)"
+  - "q11 «Sooo... » і q13 — обірвані репліки з пробілом перед <end>; розмітку не чіпати"
+  - "a22 «mutagen» — ігровий термін, узгодити з термінологією предметів, а не перекладати наздогад"
+  - "«Lost Vault» (назва локації в id вузла) канонічного варіанта ще не має"
+
+examples:
+  - unit: a5
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Торгувати.::"
+    status: proposed
+  - unit: q15
+    rule: "$(#jackass/scag) — гендерна пара лайливих звертань, STYLE §2"
+    uk_fragment: "$(#йолопе/дурепо)"
+    status: proposed
