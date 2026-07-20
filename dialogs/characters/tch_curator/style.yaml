@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/tch_curator
 file_id: dialogs\characters\tch_curator.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 38, npc: 25, player: 13, empty: 1}
 
 speakers:
   - slug: nenna
-    name: "куратор Nenna — канонічної форми імені ще немає, див. new_names"
+    name: Ненна
     units: default
     confidence: certain
     evidence: [q2]

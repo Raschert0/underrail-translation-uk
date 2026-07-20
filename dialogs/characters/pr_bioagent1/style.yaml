@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/pr_bioagent1
 file_id: dialogs\characters\pr_bioagent1.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 112, npc: 68, player: 44, empty: 5}
 
 speakers:
   - slug: mareth
-    name: null
+    name: Марет
     units: default
     confidence: certain
     evidence: [q2, q98, q7, q11]

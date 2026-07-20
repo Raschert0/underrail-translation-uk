@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/xpbl/ojyc3_kayakrom
 file_id: dialogs\characters\xpbl\ojyc3_kayakrom.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 234, npc: 118, player: 116, empty: 13}
 
 speakers:
   - slug: kaya
-    name: "Kaya — канонічного українського варіанта немає, див. new_names"
+    name: Кая
     units: default
     confidence: certain
     evidence: [q69, q75, q157, q159]
@@ -39,7 +39,7 @@ speakers:
         - "у сцені вдома тон різко світлішає: короткі радісні речення, вигуки «Aww, come on. Cheer up!»"
 
   - slug: krom
-    name: "Krom / Kromilus — канонічного українського варіанта немає, див. new_names"
+    name: Кром
     units: [q8, q9, q12, q14, q16, q18, q19, q23, q30, q32, q38]
     confidence: certain
     evidence: [q30, q32, q38]

@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/gmshostage1
 file_id: dialogs\characters\gmshostage1.txt
 derived_from: source-only
@@ -60,7 +60,7 @@ pitfalls:
   - "a3 і a38 — дослівно однаковий рядок; перекладати ідентично, інакше Weblate покаже розбіжність"
   - "a7 «::Leave him alone::» і a8 «::Leave him alone.::» різняться лише крапкою — пунктуацію джерела не вирівнювати"
   - "q8 «how do I open them?» про одні двері — неузгодженість джерела; українською однина"
-  - "«Sully» — канонічно Саллі, чоловік, не відмінювати як жіноче ім'я (registry)"
+  - "«Sully» — канонічно Саллі, чоловік, не відмінювати як жіноче ім’я (registry)"
   - "::[Intimidate]:: — тег перевірки навички; форму звіряти з назвами навичок у knowledge/, за зразком ::[Переконати]::"
 
 examples:

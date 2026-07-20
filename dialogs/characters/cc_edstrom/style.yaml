@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/cc_edstrom
 file_id: dialogs\characters\cc_edstrom.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 140, npc: 86, player: 54, empty: 5}
 
 speakers:
   - slug: edstrom
-    name: Гуннар Едстром
+    name: Едстром
     units: default
     confidence: certain
     evidence: [q3, q98]

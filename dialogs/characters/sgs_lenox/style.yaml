@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/sgs_lenox
 file_id: dialogs\characters\sgs_lenox.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 256, npc: 111, player: 145, empty: 11}
 
 speakers:
   - slug: lenox
-    name: Ленокс Пірс
+    name: Ленокс
     units: default
     confidence: certain
     evidence: [q5, q12, q56, q237]

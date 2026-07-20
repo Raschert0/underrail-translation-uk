@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/cc_arenadoc
 file_id: dialogs\characters\cc_arenadoc.txt
 derived_from: source-only
@@ -17,7 +17,7 @@ speakers:
       про розтини, органи й трупи, подане тоном добродушної балачки.
     address:
       npc_to_player: ви
-      player_to_npc: —
+      player_to_npc: н/д
       basis: >-
         Медик при виконанні, звертається до відвідувача як до пацієнта
         («Do you have any spare kidneys», «Watch your step!») — службовий

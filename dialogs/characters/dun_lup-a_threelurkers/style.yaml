@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/dun_lup-a_threelurkers
 file_id: dialogs\characters\dun_lup-a_threelurkers.txt
 derived_from: source-only
@@ -39,7 +39,7 @@ speakers:
         - "уривання на півслові перед зізнанням: «Despite all what they did to me, I...» (q63)"
 
   - slug: greg
-    name: Ґрег — транслітерацію не закріплено
+    name: Грег
     units: [q3]
     confidence: probable
     evidence: [q2, q3]
@@ -58,7 +58,7 @@ speakers:
       register: тупувато-буркітливий, скарги вголос
 
   - slug: guard_orders
-    name: вартовий, що віддає наказ
+    name: вартовий
     units: [q2]
     confidence: probable
     evidence: [q2]

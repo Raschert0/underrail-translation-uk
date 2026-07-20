@@ -126,12 +126,20 @@ def check_card(card: Path, repo: Path, registry: dict[str, str],
         add("unit-count", rel, f"units.total={units.get('total')}, у uk.xml {total}")
 
     speakers = data.get("speakers") or []
-    if not isinstance(speakers, list) or not speakers:
-        add("speakers", rel, "speakers має бути непорожнім списком")
+    narration_present = bool((data.get("narration") or {}).get("present"))
+    if not isinstance(speakers, list):
+        add("speakers", rel, "speakers має бути списком")
+        return
+    if not speakers:
+        # Порожній список законний лише для вузла з самої нарації: там мовця
+        # справді немає, і вигаданий запис був би гіршим за чесну порожнечу.
+        if not narration_present:
+            add("speakers", rel, "speakers порожній, а нарації в картці не заявлено")
         return
 
     claimed: dict[str, str] = {}
     default_slugs, unknown_units = [], set()
+    default_unknown = False
 
     for sp in speakers:
         slug = sp.get("slug", "?")
@@ -169,6 +177,8 @@ def check_card(card: Path, repo: Path, registry: dict[str, str],
         units_field = sp.get("units")
         if units_field == "default":
             default_slugs.append(slug)
+            if conf == "unknown":
+                default_unknown = True
             continue
         if not isinstance(units_field, list):
             add("units-field", where, "units має бути списком або «default»")
@@ -196,6 +206,11 @@ def check_card(card: Path, repo: Path, registry: dict[str, str],
         if uncovered:
             add("units-uncovered", rel,
                 f"{len(uncovered)} q-юнітів не належать жодному мовцю")
+
+    # Мовець із units: default і confidence: unknown покриває весь непокритий
+    # залишок, тож саме він і визначає перелік невстановлених юнітів.
+    if default_unknown:
+        unknown_units |= (q_ids - claimed.keys() - empty_ids)
 
     declared = set(data.get("unattributed_units") or [])
     if declared != unknown_units:

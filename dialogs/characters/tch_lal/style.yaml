@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/tch_lal
 file_id: dialogs\characters\tch_lal.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 63, npc: 34, player: 29, empty: 1}
 
 speakers:
   - slug: lal
-    name: Ледачий Лал
+    name: Лал
     units: default
     confidence: certain
     evidence: [q2, q22, q23]

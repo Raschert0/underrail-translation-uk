@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/fo_preacher
 file_id: dialogs\characters\fo_preacher.txt
 derived_from: source-only
@@ -17,7 +17,7 @@ speakers:
       a-юніта).
     address:
       npc_to_player: ти
-      player_to_npc: —
+      player_to_npc: н/д
       basis: >-
         $(#son/daughter) у q5 — звертання пастиря до пастви, а воно за традицією
         українського проповідницького стилю на «ти»: «сину мій — ти грішник».

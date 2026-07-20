@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/xpbl/kl_vitek
 file_id: 'dialogs\characters\xpbl\kl_vitek.txt'
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 133, npc: 86, player: 47, empty: 12}
 
 speakers:
   - slug: vitek
-    name: 'Vitek — канонічної української форми ще немає, див. new_names'
+    name: Вітек
     units: default
     confidence: certain
     evidence: [q84, q38, q63]

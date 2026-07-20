@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/lux_hangingrat_trader
 file_id: dialogs\characters\lux_hangingrat_trader.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 64, npc: 37, player: 27, empty: 3}
 
 speakers:
   - slug: rob
-    name: мовця названо «Rob», канонічної форми ще немає
+    name: мовця названо «Rob»
     units: default
     confidence: certain
     evidence: [q1, q16]

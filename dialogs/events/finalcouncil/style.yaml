@@ -1,0 +1,179 @@
+schema_version: 1
+registry_version: 2
+node: dialogs/events/finalcouncil
+file_id: dialogs\events\finalcouncil.txt
+derived_from: source-only
+units: {total: 73, npc: 43, player: 30, empty: 1}
+
+speakers:
+  - slug: narrator
+    name: нарація
+    units: [q1, q31]
+    confidence: certain
+    evidence: [q1, q31]
+    role: >-
+      Обрамлення сцени: вводить засідання ради після розповіді гравця про кімнату
+      Таннера і фіксує реакцію присутніх.
+    address:
+      npc_to_player: ви
+      player_to_npc: н/д
+      basis: "нарація завжди на «ви» — STYLE §3.1, без винятків, навіть коли мовці в сцені кажуть «ти»"
+    voice:
+      register: описовий, стриманий, теперішній час
+      idiolect:
+        - "довгі періоди з підрядними: «You finish, and with that the room instantly becomes noiseless»"
+
+  - slug: old_jonas
+    name: Старий Йонас
+    units: [q2, q4, q6, q7, q11, q16, q25, q33, q44, q46, q55, q57]
+    confidence: certain
+    evidence: [q1, q2, q4, q6, q46]
+    role: >-
+      Найстарший член ради ССГ, який першим порушує мовчанку про Таннера і веде
+      розмову зухвалим, майже глузливим тоном. Він єдиний, хто пам’ятає прибуття
+      Таннера на станцію особисто.
+    relationships:
+      - "Віра — молодша колега по раді; він зве її «child» і одергує «Weren’t you listenin’, woman?»"
+      - "гравець — той, кого він відверто хвалить за зухвалість (q33, q57)"
+    address:
+      npc_to_player: ти
+      player_to_npc: ви
+      basis: >-
+        Йонас панібратський і грубуватий, зве гравця «son»/«sweetheart» — це «ти»
+        за STYLE §3.2. Гравець відповідає раді як зібранню старших, тому «ви».
+      gender_cues:
+        - "$(#he/she)"
+        - "$(#him/her)"
+        - "$(#How do you even walk, son?/I mean figuratively, sweetheart.)"
+    voice:
+      register: розмовний, грубуватий, іронічний; самоіронія щодо віку
+      idiolect:
+        - "систематичне випадання g: listenin’, thinkin’, becomin’, hidin’, revealin’, sendin’, talkin’, tryin’, wantin’, somethin’ — передавати розмовною редукцією, а не літературною нормою"
+        - "'cause замість because, ain’t-регістр, what the heck, darn"
+        - "them Faceless замість those — просторічна форма вказівного"
+        - "фігури-перебільшення: «I can bet the five hairs on my head», «boulders between your legs»"
+        - "повтор-приспів «Better and better...» (q25) відлунює «This story gets better and better» (q16) — тримати однакове формулювання"
+
+  - slug: vera
+    name: Віра
+    units: [q3, q5, q15, q21, q26, q29, q64]
+    confidence: probable
+    evidence: [q4, q5, q6, q26]
+    role: >-
+      Членкиня ради, яка визнає, що роками мовчки приймала дивність Таннера.
+      Реагує на відкриття недовірою і паузами, а не риторикою.
+    relationships:
+      - "Старий Йонас — старший колега, який зве її «child» і обриває; вона одергує його «Would you stop it, Jonas?»"
+      - "Лора — та, чию долю вона з’ясовує найпершою (q21, q64)"
+    address:
+      npc_to_player: ви
+      player_to_npc: ви
+      basis: >-
+        Стримана, офіційна в засіданні, без панібратства й без звертань-прізвиськ —
+        «ви» за STYLE §3.2; репліки гравця дзеркалять базовий регістр (§3.3).
+      switches:
+        - {unit: q26, to: ти, trigger: "звертається не до гравця, а до Йонаса — колеги, з якими вона на «ти»"}
+    voice:
+      register: стриманий, вагається, обірвані фрази
+      idiolect:
+        - "зупинки й самоперебиви: «and he was a competent man so I... \\n...accepted things as they were»"
+        - "заїкання-подвоєння на початку: «Are... are you trying to say» — відтворювати на українському приголосному, STYLE §9"
+        - "ремарка ::She pauses.:: усередині репліки — «::» лишити, зміст перекласти прозою"
+
+  - slug: unknown_1
+    name: мовця встановити не вдалося (формальний голос ради)
+    units: [q9, q12, q18, q22, q23, q27, q34, q36, q38, q45, q47, q48, q53, q66, q72]
+    confidence: unknown
+    reason: >-
+      Наскрізний третій голос, який веде засідання: жодних скорочень
+      («I do not disagree with anything said here», «There is, however, the question
+      of how was he able to steal it»), книжна побудова, він підсумовує й відпускає
+      гравця («Thank you for everything... come to my office»). Його не називають
+      на ім’я в жодному рядку, і в нарації немає ремарки з іменем; звертання «Vera»
+      і «Jonas» у сусідніх рядках указують на адресатів, а не на нього.
+    guidance: >-
+      Тримати послідовно високий регістр: повні форми без розмовних стягнень,
+      книжний порядок слів, «ви» до гравця; не давати йому жодного слівця Йонаса.
+      Гендер не встановлено — уникати гендерованого минулого часу від першої особи
+      або ставити $(#…) там, де без нього не обійтися. Імені не вигадувати; якщо
+      персонажа згодом ідентифікують, оновити картку централізовано.
+
+  - slug: unknown_2
+    name: мовця встановити не вдалося (репліки без прикмет)
+    units: [q8, q10, q13, q40, q42, q59]
+    confidence: unknown
+    reason: >-
+      Короткі нейтральні репліки без ідіолектних прикмет і без імені в нарації.
+      q8 має ремарку ::He shrugs.:: — отже, мовець чоловічої статі, але скорочення
+      «I don’t know» відрізняє його від формального голосу, а випадання g відсутнє,
+      тож і Йонасом його вважати немає підстав.
+    guidance: >-
+      Перекладати нейтрально: без розмовної редукції і без підкреслено книжних
+      зворотів. Гендер брати лише там, де його прямо дає нарація (q8 — чоловічий рід).
+
+narration:
+  present: true
+  note: >-
+    Дві окремі нарації (q1, q31) плюс ремарки всередині реплік (::She pauses.::
+    у q5, ::He shrugs.:: у q8). «Ви» без винятків — STYLE §3.1; підказка дії
+    ::Go to your room.:: у a49 — інфінітив за §3.5.
+
+unattributed_units: [q8, q9, q10, q12, q13, q18, q22, q23, q27, q34, q36, q38, q40, q42, q45, q47, q48, q53, q59, q66, q72]
+
+new_names: ["Rahm-Umbra", "Ram-Ember", "Terry", "Baker", "Acid Hunters", "Tchortists"]
+
+idioms:
+  - unit: q33
+    src: "a real pair of mighty boulders between your legs"
+    note: "груба похвала за відвагу; не калькувати «валуни» — потрібен український грубий еквівалент, грубість не пом’якшувати (STYLE §9)"
+  - unit: q44
+    src: "bolted as soon as this... Ram-Ember sniffed him out"
+    note: "Ram-Ember — навмисне перекручення імені Rahm-Umbra; спотворення має лишитися впізнаваним як помилка Йонаса, а не стати другим варіантом імені"
+  - unit: q46
+    src: "I can bet the five hairs on my head"
+    note: "самоіронія щодо лисини; локалізувати як розмовну божбу, не дослівно"
+  - unit: q46
+    src: "get zapped by his fellow kinsman"
+    note: "zapped тут — «прибити», не «ударити струмом»; gizmo в тому ж рядку — розмовне «штукенція», а не «пристрій»"
+  - unit: q16
+    src: "what the heck is this object you’re talkin’ about?"
+    note: "евфемізм замість лайки — зберегти пом’якшений, але розмовний рівень"
+  - unit: q55
+    src: "somethin’ pretty darn good"
+    note: "darn — пом’якшена лайка; не підвищувати до нейтрального «дуже»"
+  - unit: a30
+    src: "One giant, disgusting mutated mass of flesh with slimy tentacles"
+    note: "гидливий опис гравця; лексику лишити відразливою, не «науковою»"
+
+pitfalls:
+  - "q7, q9, q10, q13, q36, q48, q53 містять $(context.player.Name) — плейсхолдер не відмінювати; будувати фразу так, щоб ім’я стояло в називному або у звертанні без зміни форми"
+  - "q11 містить $(#he/she) і $(#him/her) — обидві гілки перекласти українськими родовими формами; у минулому часі поруч може знадобитися додатковий $(#…), якого в джерелі немає (це правильно, а не вільність)"
+  - "q33 і q57 несуть однаковий $(#How do you even walk, son?/I mean figuratively, sweetheart.) — перекласти обидва рядки однаково"
+  - "a24 і a63, a54 і a61, a56 і a62, q18 і q72 — майже дублікати гілок; розбіжність формулювань між ними читатиметься як помилка"
+  - "«the object», «the item», «device», «gizmo» — один і той самий предмет Безликих; тримати одну назву в нейтральних вустах і дозволяти «gizmo» знижуватися лише в Йонаса (q46)"
+  - "q4 і q5 містять \\n\\n і \\n — розрив рядка є частиною тексту, зберігати дослівно"
+  - "«Faceless» → «Безликі», «Tchort» → «Тчорт», «Deep Caverns» → «Глибокі Печери», «Core City» → «Центральне Місто», «South Gate Station» → «Станція Саут-Гейт», «SGS» → «ССГ», «Coretech» латиницею — глосарій"
+  - "«South Underrail» і «North Underrail»: Underrail лишається латиницею й не відмінюється — «Південна Underrail», «Північна Underrail»"
+  - "q47 «Gentlemen...» — збірне звертання до ради, у якій є Віра; не звужувати до «панове» без огляду на склад, доречніше нейтральне звертання до присутніх"
+
+examples:
+  - unit: q11
+    rule: "$(#he/she) — гендерна гілка про гравця, STYLE §2"
+    uk_fragment: "$(#він/вона)"
+    status: proposed
+  - unit: q33
+    rule: "гендерне звертання в обох гілках, STYLE §2"
+    uk_fragment: "$(#сину/люба)"
+    status: proposed
+  - unit: a49
+    rule: "підказка дії в ::…:: — інфінітив, STYLE §3.5"
+    uk_fragment: "::Піти до своєї кімнати.::"
+    status: proposed
+  - unit: q15
+    rule: "заїкання відтворюємо на українському приголосному, STYLE §9"
+    uk_fragment: "В-ви хочете сказати"
+    status: proposed
+  - unit: q4
+    rule: "випадання g у Йонаса — розмовна редукція, не літературна норма"
+    uk_fragment: "ти шо, не слухала"
+    status: proposed

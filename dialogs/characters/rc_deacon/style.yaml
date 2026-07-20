@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/rc_deacon
 file_id: dialogs\characters\rc_deacon.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 13, npc: 7, player: 6, empty: 1}
 
 speakers:
   - slug: deacon
-    name: "Deacon — канонічної форми ще немає, див. new_names"
+    name: Дікон
     units: default
     confidence: probable
     evidence: [q1, q4]

@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/dc_flo_commander
 file_id: dialogs\characters\dc_flo_commander.txt
 derived_from: source-only
@@ -27,7 +27,7 @@ speakers:
         Мовець максимально формальний і дистанційований: майже повна відсутність
         скорочень («We cannot allow that», «You may not receive a further answer»,
         «I am telling you what you need to know»), книжковий синтаксис, звертання
-        на повне ім'я через $(context.player.Name). Це службово-офіційний голос
+        на повне ім’я через $(context.player.Name). Це службово-офіційний голос
         (STYLE §3.2 — формальні на «ви»). Репліки гравця дзеркалять базовий
         регістр — «ви» (STYLE §3.3), навіть у грубих зривах на кшталт q243 і a261:
         це емоція, а не зміна регістру.
@@ -40,7 +40,7 @@ speakers:
         - "стале «ми» замість «я» — Безликі мислять колективно: «We know», «our goals», «we grieve»"
         - "модальне may як дозвіл, а не можливість: «You may ask», «That I may not say», «but further than that I may not go» — це відмірювання дозволеного, і в українському має лишатися дозволом, а не ввічливістю"
         - "категоричне однослівне заперечення на початку репліки: «No.», «Correct.», «Unnecessary.», «Possibly.», «Yes.» — рубані речення не зрощувати з наступним"
-        - "наказовий спосіб без пом'якшення: «Speak.», «Leave.», «Ask.», «Take this.» — одне слово, крапка"
+        - "наказовий спосіб без пом’якшення: «Speak.», «Leave.», «Ask.», «Take this.» — одне слово, крапка"
         - "термінологізована лексика замість побутової: «unit», «data», «neural activity», «assignment» — не заміняти розмовними синонімами"
         - "жодних скорочень у власній мові (cannot, do not, we are not); поодинокі «aren't», «haven't», «I'm afraid» (q157, q166, q220) — свідомі проблиски, не згладжувати в жодний бік"
 
@@ -87,13 +87,13 @@ idioms:
     note: "образ маски навмисний — Безликі й тчортисти обидва закриті; зберегти"
   - unit: q126
     src: "Memories could have been imprinted in your mind"
-    note: "«imprinted» тут технічно — про втручання в пам'ять, не «відбилися»"
+    note: "«imprinted» тут технічно — про втручання в пам’ять, не «відбилися»"
   - unit: a134
     src: "a.k.a ACoNR"
     note: "скорочення «a.k.a» розгортати українською («відомий як»), абревіатуру ACoNR лишати як є"
 
 pitfalls:
-  - "q248 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім'я лишалося в називному"
+  - "q248 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; будувати фразу так, щоб ім’я лишалося в називному"
   - "у джерелі немає жодного $(#…) — але українське минуле й прикметники гендеровані, тож плейсхолдери доведеться ДОДАВАТИ (STYLE §2): q221 «you helped him», q244 «You have fully cooperated», q257 «You have cooperated», a63 «I just defeated», a192 «I have already been»"
   - "«the Cube» у джерелі непослідовне: то з великої (q68, q155), то з малої (q37 «the cube», q186, q188, q211) — в українському тримати один варіант"
   - "Underrail і Biocorp — латиницею, не відмінювати (глосарій); «Lower Underrail» у q243 і «South Underrail» у q114 будувати як «Нижня Underrail», «Південна Underrail»"

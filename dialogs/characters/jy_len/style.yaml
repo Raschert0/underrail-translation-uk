@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/jy_len
 file_id: dialogs\characters\jy_len.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 12, npc: 6, player: 6, empty: 1}
 
 speakers:
   - slug: jy_len
-    name: Len
+    name: Лен
     units: default
     confidence: probable
     evidence: [q1, q9]

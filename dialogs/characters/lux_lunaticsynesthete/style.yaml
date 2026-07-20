@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/lux_lunaticsynesthete
 file_id: dialogs\characters\lux_lunaticsynesthete.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 162, npc: 85, player: 77, empty: 9}
 
 speakers:
   - slug: lunatic_synesthete
-    name: мовця названо лише титулом — див. new_names
+    name: синестет-лунатик
     units: default
     confidence: certain
     evidence: [q2, q131, a83]

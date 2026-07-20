@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/fo_faceless
 file_id: dialogs\characters\fo_faceless.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 67, npc: 29, player: 38, empty: 1}
 
 speakers:
   - slug: faceless
-    name: Безликий
+    name: Безликі
     units: default
     confidence: certain
     evidence: [q1, q4, q56]

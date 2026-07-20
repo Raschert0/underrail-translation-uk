@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/ch_tapio
 file_id: dialogs\characters\ch_tapio.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 88, npc: 43, player: 45, empty: 4}
 
 speakers:
   - slug: tapio
-    name: "ім’я в реєстрі відсутнє — див. new_names"
+    name: Тапіо
     units: default
     confidence: certain
     evidence: [q10, q17, q50]

@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/gmsraiderleader
 file_id: dialogs\characters\gmsraiderleader.txt
 derived_from: source-only
@@ -80,7 +80,7 @@ idioms:
 pitfalls:
   - "q3, q16, q40, q42 містять $(#him/her) / $(#he/she) — це стать ГРАВЦЯ у третій особі: «його/її», «він/вона», а не звертання"
   - "q4, q5, q41 містять $(#His/Her) / $(#He/She) з великої — регістр гілки зберігати"
-  - "q41 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; речення будувати так, щоб ім'я стояло в називному"
+  - "q41 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; речення будувати так, щоб ім’я стояло в називному"
   - "q34 і q37 — дослівно однаковий рядок «I had enough of you. Waste this idiot!»; перекладати ідентично"
   - "q16 містить літеральний \\n\\n перед ::He motions his guards.:: — розрив абзацу зберігати"
   - "«South Gate Station» — Станція Саут-Гейт, «SGS» — ССГ (глосарій)"

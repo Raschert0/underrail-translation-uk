@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/events/jyt_cliffandjenny
 file_id: dialogs\events\jyt_cliffandjenny.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 12, npc: 8, player: 4, empty: 0}
 
 speakers:
   - slug: cliff
-    name: Cliff
+    name: Кліфф
     units: [q1, q2, q4]
     confidence: certain
     evidence: [q2, q5]
@@ -18,7 +18,7 @@ speakers:
     relationships:
       - "Дженні — напарниця; сварка про те, хто винен у вилазці"
     address:
-      npc_to_player: —
+      npc_to_player: н/д
       basis: >-
         До гравця Кліфф не звертається взагалі: сварка йде між напарниками
         на «ти» (свої, вуличні — STYLE §3.2). Гравцеві в цій гілці лишається
@@ -30,7 +30,7 @@ speakers:
         - "самоперебивання «Jenny, ya made it! I--» — обрив зберігати"
 
   - slug: jenny
-    name: Jenny
+    name: Дженні
     units: [q3, q5, q8, q10]
     confidence: certain
     evidence: [q5, q8]

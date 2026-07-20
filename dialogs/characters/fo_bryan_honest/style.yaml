@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/fo_bryan_honest
 file_id: dialogs\characters\fo_bryan_honest.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 48, npc: 23, player: 25, empty: 2}
 
 speakers:
   - slug: bryan_honest
-    name: мовця встановлено, канонічного імені ще немає
+    name: мовця встановлено
     units: default
     confidence: certain
     evidence: [q8, q19]

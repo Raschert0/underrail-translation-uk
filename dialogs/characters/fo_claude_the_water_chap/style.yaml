@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/fo_claude_the_water_chap
 file_id: dialogs\characters\fo_claude_the_water_chap.txt
 derived_from: source-only
@@ -16,7 +16,7 @@ speakers:
       до перехожих плюс одна репліка сам до себе. Розмови як такої немає.
     address:
       npc_to_player: ви
-      player_to_npc: —
+      player_to_npc: н/д
       basis: >-
         Гравець тут не відповідає (жодного a-юніта), тож регістр видно лише з викриків.
         Це обслуга, що зазиває незнайомців на вулиці — STYLE §3.2 дає «ви». Заклики

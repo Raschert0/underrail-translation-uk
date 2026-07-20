@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/xpbl/cc_s1_mutateddog
 file_id: dialogs\characters\xpbl\cc_s1_mutateddog.txt
 derived_from: source-only
@@ -14,14 +14,14 @@ speakers:
     role: >-
       Голодний пес зі зграї, який не говорить узагалі: усі його 26 юнітів — це сама
       нарація в `::…::`, від гавкоту до кивання й хитання головою. Сцена — вгадування
-      того, чого він хоче, доки гравець не пропонує м'ясо.
+      того, чого він хоче, доки гравець не пропонує м’ясо.
     address:
       npc_to_player: ви
-      player_to_npc: —
+      player_to_npc: н/д
       basis: >-
         Мовлення в NPC немає взагалі, тож правило §3.2 не застосовне: увесь бік NPC —
         нарація, а вона завжди «ви» (STYLE §3.1). Гравець теж не звертається до пса
-        зв'язною мовою.
+        зв’язною мовою.
       gender_cues: []
     voice:
       register: тільки нарація — рівна описова теперішність, без емоційних оцінок

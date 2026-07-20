@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/xphw/psicommander
 file_id: 'dialogs\characters\xphw\psicommander.txt'
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 110, npc: 62, player: 48, empty: 8}
 
 speakers:
   - slug: cognator
-    name: —  # канонічного варіанта немає, див. new_names
+    name: Когнатор
     units: default
     confidence: certain
     evidence: [q19, q20]

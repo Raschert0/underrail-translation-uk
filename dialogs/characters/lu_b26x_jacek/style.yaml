@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/lu_b26x_jacek
 file_id: dialogs\characters\lu_b26x_jacek.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 50, npc: 28, player: 22, empty: 3}
 
 speakers:
   - slug: jacek
-    name: "Jacek — канонічної української форми немає, див. new_names"
+    name: Яцек
     units: default
     confidence: certain
     evidence: [q44, q24, q36]

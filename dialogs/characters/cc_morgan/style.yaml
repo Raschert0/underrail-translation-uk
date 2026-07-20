@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/cc_morgan
 file_id: dialogs\characters\cc_morgan.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 63, npc: 38, player: 25, empty: 4}
 
 speakers:
   - slug: morgan
-    name: Семюел Морган
+    name: Морган
     units: default
     confidence: certain
     evidence: [q45]

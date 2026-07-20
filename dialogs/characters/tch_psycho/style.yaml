@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/tch_psycho
 file_id: dialogs\characters\tch_psycho.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 7, npc: 5, player: 2, empty: 1}
 
 speakers:
   - slug: creature
-    name: "істота — реплік не має"
+    name: істота
     units: default
     confidence: certain
     evidence: [q1, q3, q7]

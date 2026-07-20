@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/up_ewald
 file_id: dialogs\characters\up_ewald.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 22, npc: 15, player: 7, empty: 2}
 
 speakers:
   - slug: ewald
-    name: мовець за текою — Ewald
+    name: Евальд
     units: default
     confidence: probable
     evidence: [q5, q9, q12]

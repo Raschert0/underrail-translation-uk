@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/jye_athanas
 file_id: dialogs\characters\jye_athanas.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 79, npc: 53, player: 26, empty: 3}
 
 speakers:
   - slug: athanas
-    name: "посол Athanas — канонічної української форми немає, див. new_names"
+    name: Атанас
     units: default
     confidence: certain
     evidence: [q1, q29, q30]

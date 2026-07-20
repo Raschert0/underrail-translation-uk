@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/xpbl/pir_grim
 file_id: dialogs\characters\xpbl\pir_grim.txt
 derived_from: source-only
@@ -49,7 +49,9 @@ speakers:
 
   - slug: cruzer
     name: Крузер
-    units: [q30, q32, q34, q44, q49, q519, q581, q587, q592, q593, q594, q595,
+    # q519 належить Флінгеру: q518 — «::Furious, he turns to D' Flinger.::
+    # Dispose of the body», тож «Aye, Cap'n.» відповідає саме адресат.
+    units: [q30, q32, q34, q44, q49, q581, q587, q592, q593, q594, q595,
             q608, q616, q622, q646, q647, q698, q700, q706, q712, q716, q718]
     confidence: probable
     evidence: [q30, q608, q646]
@@ -109,8 +111,8 @@ speakers:
       Підручний, якому Грим наказує позбутися тіла. Одна репліка — коротке
       підтвердження наказу.
     address:
-      npc_to_player: —
-      player_to_npc: —
+      npc_to_player: н/д
+      player_to_npc: н/д
       basis: "до гравця не звертається; говорить до капітана"
 
   - slug: unknown_1

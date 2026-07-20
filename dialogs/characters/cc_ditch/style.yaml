@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/cc_ditch
 file_id: dialogs\characters\cc_ditch.txt
 derived_from: source-only
@@ -17,7 +17,7 @@ speakers:
       з несподіваною ніжністю — увесь вузол тримається на цьому контрасті.
     address:
       npc_to_player: ти
-      player_to_npc: —
+      player_to_npc: н/д
       basis: >-
         Прямі погрози, просторіччя й фамільярне звертання $(#fella/doll) —
         «ти», STYLE §3.2. Реплік гравця у вузлі немає.

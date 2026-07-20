@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/fls_ratking
 file_id: 'dialogs\characters\fls_ratking.txt'
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 63, npc: 32, player: 31, empty: 4}
 
 speakers:
   - slug: ratking
-    name: 'старий самітник із печери (прізвисько Rat King — див. new_names)'
+    name: Король Щурів
     units: default
     confidence: certain
     evidence: [q4, q6, q31, q37]

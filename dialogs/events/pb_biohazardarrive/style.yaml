@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/events/pb_biohazardarrive
 file_id: dialogs\events\pb_biohazardarrive.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 29, npc: 23, player: 6, empty: 0}
 
 speakers:
   - slug: mareth
-    name: Mareth
+    name: Марет
     units: default
     confidence: certain
     evidence: [q4, q13]

@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/cvw_knuckles
 file_id: dialogs\characters\cvw_knuckles.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 45, npc: 12, player: 33, empty: 2}
 
 speakers:
   - slug: knuckles
-    name: Knuckles
+    name: Кулак
     units: default
     confidence: certain
     evidence: [q1, q9, q14]

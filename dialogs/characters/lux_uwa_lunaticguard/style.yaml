@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/lux_uwa_lunaticguard
 file_id: dialogs\characters\lux_uwa_lunaticguard.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 66, npc: 45, player: 21, empty: 7}
 
 speakers:
   - slug: lunatic_guard
-    name: мовця названо лише роллю — вартовий культу
+    name: вартовий лунатиків
     units: default
     confidence: certain
     evidence: [q1, q14]

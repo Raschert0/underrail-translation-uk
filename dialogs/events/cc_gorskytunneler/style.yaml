@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/events/cc_gorskytunneler
 file_id: dialogs\events\cc_gorskytunneler.txt
 derived_from: source-only
@@ -17,7 +17,7 @@ speakers:
     relationships:
       - "Ден — старий напарник; обмін образами замість привітання"
     address:
-      npc_to_player: —
+      npc_to_player: н/д
       basis: >-
         Гравець у сцені не бере слова: єдиний a-юніт — ::End Dialog.::.
         Горський і Ден звертаються один до одного на «ти» — свої, грубі,

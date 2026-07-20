@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/fd_mlady
 file_id: 'dialogs\characters\fd_mlady.txt'
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 83, npc: 51, player: 32, empty: 4}
 
 speakers:
   - slug: sarah_allene
-    name: 'вербувальниця Вільних Дронів (ім’я Sarah Allene — див. new_names)'
+    name: Сара Аллен
     units: default
     confidence: certain
     evidence: [q16, q17, q59, q7]

@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/up_johnnyfilth
 file_id: dialogs\characters\up_johnnyfilth.txt
 derived_from: source-only
@@ -39,7 +39,7 @@ speakers:
 
   - slug: drek
     name: Дрек
-    units: [q2, q29, q50, q62, q73]
+    units: [q2, q29, q50, q73]
     confidence: certain
     evidence: [q3, q30]
     role: >-
@@ -53,7 +53,7 @@ speakers:
       register: нерозбірливе бурмотіння
       idiolect:
         - "слова обрізані з обох боків і склеєні, апострофи на місці випалих складів: «'E 'one 't summ slack hardcore-core summ 'ide outta sleepz!»"
-        - "«hardcore-core» — його власне здвоєння банднoго слівця, є в q2, q29, q62, q73"
+        - "«hardcore-core» — його власне здвоєння банднoго слівця, є в q2, q29, q73"
         - "НЕ згладжувати: рядок має лишатися на межі зрозумілості, інакше зникає сам персонаж"
 
   - slug: mullock

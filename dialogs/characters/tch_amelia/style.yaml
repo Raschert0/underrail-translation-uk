@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/tch_amelia
 file_id: dialogs\characters\tch_amelia.txt
 derived_from: source-only
@@ -102,8 +102,8 @@ examples:
     uk_fragment: "$(#брате/сестро)"
     status: proposed
   - unit: q2
-    rule: "$(#himself/herself) — зворотний займенник, обидві гілки українською, STYLE §2"
-    uk_fragment: "$(#himself/herself) → зворотна форма без роду або обидві гілки"
+    rule: "$(#himself/herself) — український зворотний займенник роду не має, STYLE §2"
+    uk_fragment: "себе"
     status: proposed
   - unit: q227
     rule: "$(#man/woman) — іменник на позначення особи, обидві гілки, STYLE §2"

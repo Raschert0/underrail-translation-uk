@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/gorsky_gms
 file_id: dialogs\characters\gorsky_gms.txt
 derived_from: source-only
@@ -57,7 +57,7 @@ idioms:
     note: "афоризм; будувати як приказку, а не як переклад речення"
   - unit: q73
     src: "you ninny"
-    note: "м'яка зневажлива лайка («телепень», «нюня»); пом'якшувати до нейтрального не можна — STYLE §9"
+    note: "м’яка зневажлива лайка («телепень», «нюня»); пом’якшувати до нейтрального не можна — STYLE §9"
   - unit: a5
     src: "it's a scavenging opportunity"
     note: "scavengers — шукачі (глосарій); тут іменникова конструкція про поживу серед руїн"
@@ -66,7 +66,7 @@ idioms:
     note: "«наражати шию» — калька; українська ідіома про ризик життям (a74 містить той самий зворот)"
 
 pitfalls:
-  - "q7 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; фразу «Catch you later, $(context.player.Name).» будувати так, щоб ім'я лишалось у називному"
+  - "q7 містить $(context.player.Name) — не відмінювати всередині плейсхолдера; фразу «Catch you later, $(context.player.Name).» будувати так, щоб ім’я лишалось у називному"
   - "q2, q4, q22, q41, q62, q65 містять літеральні \\n або \\n\\n — розриви абзаців зберігати"
   - "q16 «Let's pack it up, boys.» і q36 «...Let's pack it up, boys.» — той самий рефрен; перекладати ідентично"
   - "q21 «Yeah?» і q79 «Yeah?» — однакові; тримати однаково"

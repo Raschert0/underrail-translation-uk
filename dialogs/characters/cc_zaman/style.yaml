@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/cc_zaman
 file_id: dialogs\characters\cc_zaman.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 41, npc: 23, player: 18, empty: 2}
 
 speakers:
   - slug: zaman
-    name: "Zaman — канонічного українського варіанта немає, див. new_names"
+    name: Заман
     units: default
     confidence: probable
     evidence: [q1, q5, q24]

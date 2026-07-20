@@ -1,5 +1,5 @@
 schema_version: 1
-registry_version: 1
+registry_version: 2
 node: dialogs/characters/ch_hg_threehunters
 file_id: dialogs\characters\ch_hg_threehunters.txt
 derived_from: source-only
@@ -7,7 +7,7 @@ units: {total: 43, npc: 43, player: 0, empty: 3}
 
 speakers:
   - slug: jones
-    name: "ім’я в реєстрі відсутнє — див. new_names"
+    name: Джонс
     units: default
     confidence: certain
     evidence: [q1, q23, q40, q41]
@@ -36,7 +36,7 @@ speakers:
         - "звертається до слухачів «guys» (q23)"
 
   - slug: dick
-    name: "ім’я в реєстрі відсутнє — див. new_names"
+    name: Дік
     units: [q2, q11, q16, q20, q25, q29, q30, q31, q32, q33, q34]
     confidence: certain
     evidence: [q2, q29, q34]
@@ -59,7 +59,7 @@ speakers:
         - "закриває репліку часткою «mhm» (q33)"
 
   - slug: stanley
-    name: "ім’я в реєстрі відсутнє — див. new_names"
+    name: Стенлі
     units: [q3, q12, q17, q21]
     confidence: certain
     evidence: [q3, q12, q21]
