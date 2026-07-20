@@ -280,7 +280,7 @@ Cooldown: {1}.</source>
 Can be mitigated with cold resistance and targets that are immune to chilling and freezing effects are also immune to hypothermia.</source>
         <target state="translated">Ваші псі-здібності на основі холоду також зменшують статуру цілі на {0}. Цей ефект накопичується до {1} разів і триває до {2}.
 
-Може бути пом’якшений холодостійкістю, а цілі, які мають імунітет до охолодження та заморожування, також мають імунітет до переохолодження.</target>
+Може бути пом’якшений холодостійкістю, а цілі, які несприйнятливі до охолодження та заморожування, також несприйнятливі і до переохолодження.</target>
       </segment>
     </unit>
     <unit id="::I" name="::I">
@@ -310,7 +310,7 @@ Can be mitigated with cold resistance and targets that are immune to chilling an
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Increases the base damage of your Neural Overload psi ability by {0}%. Also, whenever it lands it reduces all target's psi point gains by {1}% for {2} turns. This effect stacks {3} times.</source>
-        <target state="translated">Збільшує базову шкоду вашої псі-здібності «Нейронне перевантаження» на {0}%. Її спрацювання також зменшує відновлення псі у цілі на {1}% протягом {2} ходів. Цей ефект накопичується {3} разів.</target>
+        <target state="translated">Збільшує базову шкоду вашої псі-здібності «Нейронне перевантаження» на {0}%. Її спрацювання також зменшує отримання очок псі ціллю на {1}% протягом {2} ходів. Цей ефект накопичується {3} разів.</target>
       </segment>
     </unit>
     <unit id="::CT" name="::CT">
@@ -386,7 +386,7 @@ If unused, the bonus expires after {1}.</source>
         <source>After invoking heat based psi ability you gain thermodynamicity which reduces the action point cost of your next cold based psi ability by {0}% and vice versa.
 
 If unused, the bonus expires after {1}.</source>
-        <target state="translated">Після застосування псі-здібності на основі тепла ви отримуєте термодинамічність, яка зменшує вартість очок дій наступної псі-здібності на основі холоду на {0}%, і навпаки.
+        <target state="translated">Після застосування теплової псі-здібності ви отримуєте термодинамічність, яка зменшує вартість очок дії наступної крижаної псі-здібності на {0}%, і навпаки.
 
 Якщо не використовується, бонус закінчується через {1}.</target>
       </segment>
