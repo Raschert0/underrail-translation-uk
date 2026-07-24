@@ -1886,7 +1886,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Unarmed and weapon damage increased by {0}%.</source>
-        <target state="needs-translation">Шкода від беззбройних атак та зброї збільшена на {0}%.</target>
+        <target state="translated">Шкоду від атак голіруч та зброєю збільшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::TemporalDistorsion" name="::TemporalDistorsion">
@@ -1896,7 +1896,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>When this effect expires, it will deal {0} and {1} damage to the target. This damage ignores shield and {2}% of damage resistance and threshold.</source>
-        <target state="needs-translation">Коли цей ефект закінчиться, він завдасть {0} та {1} шкоди цілі. Ця шкода ігнорує щит та {2}% опору та порогового значення шкоди.</target>
+        <target state="translated">Коли цей ефект закінчиться, він завдасть {0} та {1} шкоди цілі. Ця шкода ігнорує щит та {2}% опору та порогу шкоди.</target>
       </segment>
     </unit>
     <unit id="::EntropicRecurrence" name="::EntropicRecurrence">
@@ -1906,7 +1906,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>The character suffers {0} damage every turn. This damage ignores shields and resistances.</source>
-        <target state="needs-translation">Персонаж отримує {0} шкоди щоразу. Ця шкода ігнорує щити та опір.</target>
+        <target state="translated">Персонаж отримує {0} шкоди щоходу. Ця шкода ігнорує щити та опір.</target>
       </segment>
     </unit>
     <unit id="::PsychotemporalDilation" name="::PsychotemporalDilation">
@@ -1916,7 +1916,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Action points reduced by {0} and movement points reduced by {1}.</source>
-        <target state="needs-translation">Очки дії зменшені на {0} та очки руху зменшені на {1}.</target>
+        <target state="translated">Очки дії зменшено на {0} та очки руху зменшено на {1}.</target>
       </segment>
     </unit>
     <unit id="::PsychotemporalContraction" name="::PsychotemporalContraction">
@@ -1926,7 +1926,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Action points increased by {0} and movement points increased by {1}. After the effect ends, there's a {2}% chance of it reversing into a psychotemporal dilation of varying power.</source>
-        <target state="needs-translation">Очки дії збільшені на {0} та очки руху збільшені на {1}. Після закінчення ефекту є {2}% шанс, що він перетвориться на психохронологічне сповільнення різної сили.</target>
+        <target state="translated">Очки дії збільшено на {0} та очки руху збільшено на {1}. Після закінчення ефекту він може бути замінений, з імовірністю {2}%, на психохронологічне сповільнення змінної сили.</target>
       </segment>
     </unit>
     <unit id="::TemporaryRewind" name="::TemporaryRewind">
@@ -1936,7 +1936,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>After this effect ends, the character will take {0} damage. This damage ignores shields and resistances.</source>
-        <target state="needs-translation">Після закінчення цього ефекту персонаж отримає {0} шкоди. Ця шкода ігнорує щити та опір.</target>
+        <target state="translated">Після закінчення цього ефекту персонаж отримає {0} шкоди. Ця шкода ігнорує щити та опір.</target>
       </segment>
     </unit>
     <unit id="::Precognition" name="::Precognition">
@@ -1946,7 +1946,7 @@ Next thought control psi ability the character invokes will have an area of effe
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Chance to dodge and evade attacks increased by {0}% (additively). Drains {1} psi points every turn.</source>
-        <target state="needs-translation">Збільшено шанс ухилення та уникнення атак на {0}% (адитивно). Витрачає {1} пси-очок кожного ходу.</target>
+        <target state="translated">Збільшено шанс вивертання та ухилення від атак на {0}% (адитивно). Витрачає {1} очок псі щоходу.</target>
       </segment>
     </unit>
     <unit id="::Stasis" name="::Stasis">
@@ -1958,9 +1958,9 @@ Next thought control psi ability the character invokes will have an area of effe
         <source>Immune to all damage and most disabling effects, but cannot act. The character's status effects do not progress, but the cooldowns do.
 
 Stasis will break if it absorbs {0} more damage, otherwise it will expire at the beginning of the last turn of duration instead of at the end.</source>
-        <target state="needs-translation">Несприйнятливий до будь-якої шкоди та більшості знерухомлюючих ефектів, але не може діяти. Статусні ефекти персонажа не прогресують, але час перезарядки – так.
+        <target state="translated">Несприйнятливість до будь-якої шкоди та більшості ефектів, що виводять з ладу, але при цьому нездатність виконувати дії. Накладені на персонажа ефекти не прогресують, але не зупиняє їх відновлення.
 
-Стазис буде знято, якщо він поглине {0} додаткової шкоди, інакше він закінчиться на початку останнього ходу тривалості замість кінця.</target>
+Стазис буде знято, якщо він поглине ще {0} шкоди, інакше він закінчиться на початку останнього ходу зазначеної тривалості дії.</target>
       </segment>
     </unit>
     <unit id="::BlindingPoison" name="::BlindingPoison">
@@ -1970,7 +1970,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This character is afflicted by blinding poison, suffering {0} bio damage every turn. Their perception is also decreased by {1}.</source>
-        <target state="needs-translation">Цей персонаж уражений засліплюючою отрутою, отримуючи {0} біологічної шкоди щоразу. Його увага також зменшена на {1}.</target>
+        <target state="translated">Цього персонажа уражено осліплювальною отрутою, що завдає {0} біологічної шкоди щоходу. Сприйняття також зменшено на {1}.</target>
       </segment>
     </unit>
     <unit id="::PsionicAcceleration" name="::PsionicAcceleration">
@@ -1980,7 +1980,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Psi regeneration increased by {0}%.</source>
-        <target state="needs-translation">Відновлення пси-енергії збільшено на {0}%.</target>
+        <target state="translated">Відновлення псі збільшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::BlackOilSlow" name="::BlackOilSlow">
@@ -1990,7 +1990,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Movement speed reduced by {0}%.</source>
-        <target state="needs-translation">Швидкість руху зменшена на {0}%.</target>
+        <target state="translated">Швидкість руху зменшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::WebSlow" name="::WebSlow">
@@ -2000,7 +2000,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Movement speed reduced by {0}%.</source>
-        <target state="needs-translation">Швидкість руху зменшена на {0}%.</target>
+        <target state="translated">Швидкість руху зменшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::HeavyIntoxication" name="::HeavyIntoxication">
@@ -2010,7 +2010,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This is what happens when you get wasted with Dude. All your base attributes have been reduced by {0}. Cheers!</source>
-        <target state="needs-translation">Це відбувається, коли ви напиваєтесь з Дюдом. Усі ваші базові атрибути зменшені на {0}. За ваше здоров'я!</target>
+        <target state="translated">Ось що трапляється, коли напиваєтесь з Чуваком. Усі ваші базові атрибути зменшено на {0}. За ваше здоров’я!</target>
       </segment>
     </unit>
     <unit id="::SoreHands" name="::SoreHands">
@@ -2020,7 +2020,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Your hands are sore. Your dexterity has been reduced by {0}.</source>
-        <target state="needs-translation">Ваші руки болять. Ваша спритність зменшена на {0}.</target>
+        <target state="translated">Ваші руки болять. Вашу вправність зменшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::IntelligenceBoost" name="::IntelligenceBoost">
@@ -2030,7 +2030,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Intelligence increased by {0}.</source>
-        <target state="needs-translation">Інтелект збільшено на {0}.</target>
+        <target state="translated">Інтелект збільшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::InitiativeBoost" name="::InitiativeBoost">
@@ -2040,7 +2040,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Initiative increased by {0}.</source>
-        <target state="needs-translation">Ініціатива збільшена на {0}.</target>
+        <target state="translated">Ініціативу збільшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::ThirdEye" name="::ThirdEye">
@@ -2050,7 +2050,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Detection increased by {0}%. Perception increased by {1} for the purpose of detecting hidden passages and other secrets.</source>
-        <target state="needs-translation">Виявлення збільшено на {0}%. Увага збільшена на {1} для виявлення прихованих проходів та інших секретів.</target>
+        <target state="translated">Виявлення збільшено на {0}%. Сприйняття збільшено на {1} для виявлення прихованих проходів та інших таємниць.</target>
       </segment>
     </unit>
     <unit id="::SpearGuard" name="::SpearGuard">
@@ -2060,7 +2060,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Has a {0}% chance to block up to {1} mechanical damage when holding a spear.</source>
-        <target state="needs-translation">Має {0}% шанс заблокувати до {1} механічної шкоди, тримаючи спис.</target>
+        <target state="translated">Має {0}% шанс заблокувати до {1} механічної шкоди доки тримає спис.</target>
       </segment>
     </unit>
     <unit id="::ShatteredWill" name="::ShatteredWill">
@@ -2070,7 +2070,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Your drive to continue on is rapidly deteriorating. All base abilities reduced by {0}, all skills reduced by {1}, movement and action points reduced by {2}.</source>
-        <target state="needs-translation">Ваше прагнення продовжувати швидко згасає. Усі базові здібності зменшені на {0}, усі навички зменшені на {1}, очки руху та дії зменшені на {2}.</target>
+        <target state="translated">Ваше прагнення продовжувати свій шлях швидко згасає. Усі базові здібності зменшено на {0}, усі навички зменшено на {1}, очки руху та дії зменшено на {2}.</target>
       </segment>
     </unit>
     <unit id="::CarvedUp" name="::CarvedUp">
@@ -2080,7 +2080,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Action points reduced by {0} and the chance to get critically hit by weapon and unarmed attacks increased by {1}%.</source>
-        <target state="needs-translation">Очки дії зменшені на {0} та збільшено шанс критичного удару від атак зброєю та беззбройних атак на {1}%.</target>
+        <target state="translated">Очки дії зменшено на {0} та збільшено шанс критичного удару від атак зброєю та голіруч на {1}%.</target>
       </segment>
     </unit>
     <unit id="::ChemicalDestabilization" name="::ChemicalDestabilization">
@@ -2090,7 +2090,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>The character takes additional {0}% {1} damage from all sources.</source>
-        <target state="needs-translation">Персонаж отримує додатково {0}% {1} шкоди від усіх джерел.</target>
+        <target state="translated">Персонаж отримує додатково {0}% {1} шкоди від усіх джерел.</target>
       </segment>
     </unit>
     <unit id="::ChemicalDestabilizationProvider" name="::ChemicalDestabilizationProvider">
@@ -2100,7 +2100,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Your successful chemical pistol attacks increase the amount of damage taken from the pistol's damage type by {0}% from all sources for {1}. Stacks {2} times.</source>
-        <target state="needs-translation">Ваші успішні атаки хімічним пістолетом збільшують кількість шкоди, яку ви отримуєте від типу шкоди пістолета, на {0}% від усіх джерел протягом {1}. Накопичується {2} рази.</target>
+        <target state="translated">Ваші успішні атаки хімічним пістолетом збільшують кількість шкоди, яку ви отримуєте від типу шкоди пістолета, на {0}% від усіх джерел протягом {1}. Накопичується {2} рази.</target>
       </segment>
     </unit>
     <unit id="::LeperPoison" name="::LeperPoison">
@@ -2110,7 +2110,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This character is afflicted by leper poison, suffering {0} bio damage every turn and receiving {1}% more mechanical damage from all sources.</source>
-        <target state="needs-translation">Цей персонаж уражений отрутою прокаженого, отримуючи {0} біологічної шкоди щоразу та отримуючи {1}% більше механічної шкоди від усіх джерел.</target>
+        <target state="translated">Цього персонажа уражено отрутою прокаженого, що завдає {0} біологічної шкоди щоходу та збільшує на {1}% механічну шкоду отриману від усіх джерел.</target>
       </segment>
     </unit>
     <unit id="::Submerged" name="::Submerged">
@@ -2120,7 +2120,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This character is submerged in water. Evasion is increased by {0}, dodge increased by {1} and all damage resistances are increased by {2}%.</source>
-        <target state="needs-translation">Цей персонаж занурений у воду. Ухилення збільшено на {0}, уникнення збільшено на {1} та всі показники опору збільшені на {2}%.</target>
+        <target state="translated">Цього персонажа занурено у воду. Ухилення збільшено на {0}, вивертання збільшено на {1} та всі показники опору шкоді збільшено на {2}%.</target>
       </segment>
     </unit>
     <unit id="::HeartbreakPoison" name="::HeartbreakPoison">
@@ -2130,7 +2130,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This character is afflicted by heartbreak poison, suffering {0} bio damage every turn. If the poison is not removed, it will deal additional {1} bio damage on expiration.</source>
-        <target state="needs-translation">Цей персонаж уражений отрутою розбитого серця, отримуючи {0} біологічної шкоди щоразу. Якщо отруту не видалити, вона завдасть додатково {1} біологічної шкоди після закінчення терміну дії.</target>
+        <target state="translated">Цього персонажа уражено отрутою розбитого серця, що завдає {0} біологічної шкоди щоходу. Якщо отруту не видалити, вона завдасть додатково {1} біологічної шкоди після закінчення терміну дії.</target>
       </segment>
     </unit>
     <unit id="::Rusting" name="::Rusting">
@@ -2140,7 +2140,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces durability of all mechanical items in your posession by {0} each turn.</source>
-        <target state="needs-translation">Зменшує довговічність усіх механічних предметів у вашому володінні на {0} щоразу.</target>
+        <target state="translated">Зменшує міцність усіх механічних предметів у вашому володінні на {0} щоходу.</target>
       </segment>
     </unit>
     <unit id="::VehicleTurbo" name="::VehicleTurbo">
@@ -2150,7 +2150,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Vehicle movement speed and movement points increased by {0}%, but energy consumption increased by {1}%. The bonuses only work if vehicle is not overencumbered.</source>
-        <target state="needs-translation">Швидкість руху та очки руху транспортного засобу збільшені на {0}%, але споживання енергії збільшене на {1}%. Бонуси працюють лише в тому випадку, якщо транспортний засіб не перевантажений.</target>
+        <target state="translated">Швидкість руху та очки руху транспортного засобу збільшено на {0}%, але споживання енергії збільшено на {1}%. Бонуси застосовуються лише за умови, що транспортний засіб не перевантажено.</target>
       </segment>
     </unit>
     <unit id="::Flurry" name="::Flurry">
@@ -2160,7 +2160,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces action point cost of Flurry by {0}.</source>
-        <target state="needs-translation">Зменшує вартість в очках дії здібності «Швидкий напад» на {0}.</target>
+        <target state="translated">Зменшує вартість очок дії здібності «Шквал ударів» на {0}.</target>
       </segment>
     </unit>
     <unit id="::Onslaught" name="::Onslaught">
@@ -2170,7 +2170,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Increases damage done by swords by {0}%. Will be removed if an attack misses or does no damage.</source>
-        <target state="needs-translation">Збільшує шкоду від мечів на {0}%. Буде видалено, якщо атака промахнеться або не завдасть шкоди.</target>
+        <target state="translated">Збільшує шкоду мечів на {0}%. Буде видалено, якщо атака промахнеться або не завдасть шкоди.</target>
       </segment>
     </unit>
     <unit id="::Riposte" name="::Riposte">
@@ -2180,7 +2180,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This character can perform a free sword attack.</source>
-        <target state="needs-translation">Цей персонаж може виконати безкоштовну атаку мечем.</target>
+        <target state="translated">Цей персонаж може виконати безкоштовну атаку мечем.</target>
       </segment>
     </unit>
     <unit id="::PositiveVoidAffliction" name="::PositiveVoidAffliction">
@@ -2190,7 +2190,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Positively affected by the outcome of the previous battle. </source>
-        <target state="needs-translation">Позитивно впливає результат попередньої битви.</target>
+        <target state="translated">Під позитивним впливом від результату попередньої битви. </target>
       </segment>
     </unit>
     <unit id="::NegativeVoidAffliction" name="::NegativeVoidAffliction">
@@ -2200,7 +2200,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Negatively affected by the outcome of the previous battle.</source>
-        <target state="needs-translation">Негативно впливає результат попередньої битви.</target>
+        <target state="translated">Під негативним впливом від результату попередньої битви.</target>
       </segment>
     </unit>
     <unit id="::PlayerVoidApparition" name="::PlayerVoidApparition">
@@ -2210,7 +2210,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Your mind is detached from your body, and out here it's also your only tool available.</source>
-        <target state="needs-translation">Ваш розум відірваний від тіла, і тут він також є вашим єдиним інструментом.</target>
+        <target state="translated">Ваш розум відокремлено від тіла, і в цьому місці він також є вашим єдиним інструментом.</target>
       </segment>
     </unit>
     <unit id="::PelletMayhem" name="::PelletMayhem">
@@ -2220,7 +2220,7 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Your next shotgun attack will have the critical hit chance increased by {0}%.</source>
-        <target state="needs-translation">Ваша наступна атака з дробовиком матиме збільшений шанс критичного удару на {0}%.</target>
+        <target state="translated">Для вашої наступної атаки з дробовиком шанс критичного удару збільшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::ElectroshockAura" name="::ElectroshockAura">
@@ -2234,11 +2234,11 @@ Stasis will break if it absorbs {0} more damage, otherwise it will expire at the
 Additionally, whenever this character is attacked by a melee attack, the attacker will be hit by the same electrical damage at the same energy cost.
 
 Whenever this aura deals electrical damage, there's {3}% chance the target will be stunned for {4}.</source>
-        <target state="needs-translation">Витрачає {0} енергії з броні та атакує сусідніх персонажів на {1} шкоди в кінці кожного ходу за рахунок {2} енергії на персонажа.
+        <target state="translated">Використовує {0} енергії з броні для атаки сусідніх персонажів на {1} шкоди в кінці кожного ходу, витрачаючи {2} енергії на кожного персонажа.
 
-Крім того, кожного разу, коли на цього персонажа нападають в ближньому бою, нападник буде вражений тією ж електричною шкодою з тією ж вартістю енергії.
+Крім того, кожного разу, коли на цього персонажа нападають в ближньому бою, нападника буде вражено тією ж електричною шкодою з тією ж вартістю енергії.
 
-Кожного разу, коли ця аура завдає електричної шкоди, є {3}% шанс, що ціль буде приголомшена на {4}.</target>
+Кожного разу, коли ця аура завдає електричної шкоди, є {3}% шанс, що ціль буде приголомшено на {4}.</target>
       </segment>
     </unit>
     <unit id="::MetallineEnergization" name="::MetallineEnergization">
@@ -2248,7 +2248,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Drains {0} energy from the armor, but reduces the character's overall armor penalty by {1}%.</source>
-        <target state="needs-translation">Витрачає {0} енергії з броні, але зменшує загальний штраф броні на {1}%.</target>
+        <target state="translated">Використовує {0} енергії з броні щоб зменшити загальний штраф до броні на {1}%.</target>
       </segment>
     </unit>
     <unit id="::EnergyShieldEmpowerment" name="::EnergyShieldEmpowerment">
@@ -2258,7 +2258,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Draing {0} energy from the armor, but increases all energy shielding values by {1}%.</source>
-        <target state="needs-translation">Витрачає {0} енергії з броні, але збільшує всі значення енергетичного щита на {1}%.</target>
+        <target state="translated">Використовує {0} енергії з броні щоб збільшити всі значення енергетичного щита на {1}%.</target>
       </segment>
     </unit>
     <unit id="::WirelessChargingAura" name="::WirelessChargingAura">
@@ -2268,7 +2268,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Transfers up to {0} energy at {1}% efficiency from the source item to all other equipped items that require recharging, splitting the energy equally among them.</source>
-        <target state="needs-translation">Передає до {0} енергії з {1}% ефективністю з вихідного предмета на всі інші обладнані предмети, які потребують перезарядки, розподіляючи енергію рівномірно між ними.</target>
+        <target state="translated">Передає до {0} енергії з {1}% ефективністю з вихідного предмета усім іншим спорядженим предметам, які потребують перезарядки, розподіляючи енергію рівномірно між ними.</target>
       </segment>
     </unit>
     <unit id="::RestlessSpirits" name="::RestlessSpirits">
@@ -2278,7 +2278,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Dexterity and perception reduced by {0}.</source>
-        <target state="needs-translation">Спритність та увага зменшені на {0}.</target>
+        <target state="translated">Вправність та сприйняття зменшено на {0}.</target>
       </segment>
     </unit>
     <unit id="::DarkPresence" name="::DarkPresence">
@@ -2288,7 +2288,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>There is something unwholesome lingering in the back of your mind. Will reduced by {0} and resolve reduced by {1}%.</source>
-        <target state="needs-translation">У глибині вашого розуму затримується щось нездорове. Воля зменшена на {0} та рішучість зменшена на {1}%.</target>
+        <target state="translated">Щось нездорове засіло у глибинах вашого розуму. Волю зменшено на {0} та рішучість зменшено на {1}%.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Base" name="::StriderParasiticInfestation_Base">
@@ -2298,7 +2298,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This character has been infested!</source>
-        <target state="needs-translation">Цей персонаж заражений!</target>
+        <target state="translated">Цього персонажа заражено!</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase1" name="::StriderParasiticInfestation_Phase1">
@@ -2308,7 +2308,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>They take {4} bio damage per turn.</source>
-        <target state="needs-translation">Вони отримують {4} біологічної шкоди щоразу.</target>
+        <target state="translated">Вони отримують {4} біологічної шкоди щоходу.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase2" name="::StriderParasiticInfestation_Phase2">
@@ -2318,7 +2318,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Healing reduced by {0}%.</source>
-        <target state="needs-translation">Лікування зменшено на {0}%.</target>
+        <target state="translated">Лікування зменшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase3" name="::StriderParasiticInfestation_Phase3">
@@ -2328,7 +2328,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Psi regeneration reduced by {1}.</source>
-        <target state="needs-translation">Відновлення пси-енергії зменшено на {1}.</target>
+        <target state="translated">Відновлення псі зменшено на {1}.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase4" name="::StriderParasiticInfestation_Phase4">
@@ -2338,7 +2338,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Movement points reduced by {2}.</source>
-        <target state="needs-translation">Очки руху зменшені на {2}.</target>
+        <target state="translated">Очки руху зменшено на {2}.</target>
       </segment>
     </unit>
     <unit id="::StriderParasiticInfestation_Phase5" name="::StriderParasiticInfestation_Phase5">
@@ -2348,7 +2348,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Action points reduced by {3}. The infested wound hurts abominably.</source>
-        <target state="needs-translation">Очки дії зменшені на {3}. Заражена рана жахливо болить.</target>
+        <target state="translated">Очки дії зменшено на {3}. Заражена рана жахливо болить.</target>
       </segment>
     </unit>
     <unit id="::SwampTrance" name="::SwampTrance">
@@ -2358,7 +2358,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This character has perception increased by {0} and regenerates {1} health points each turn. Also makes the character glow.</source>
-        <target state="needs-translation">У цього персонажа збільшена увага на {0} та відновлюється {1} очок здоров'я щоразу. Також змушує персонажа світитися.</target>
+        <target state="translated">Сприйняття цього персонажа збільшено на {0} і він відновлює {1} очок здоров’я щоходу. Також змушує персонажа світитися.</target>
       </segment>
     </unit>
     <unit id="::Polarized" name="::Polarized">
@@ -2368,7 +2368,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Energy damage resistance and threshold reduced by {0}% and electrical ones reduced by {1}%. Chance to get critically hit by weapons increased by {2}%.</source>
-        <target state="needs-translation">Опір енергетичній шкоді та порогове значення зменшені на {0}% та електричній – на {1}%. Збільшено шанс критичного удару зброєю на {2}%.</target>
+        <target state="translated">Опір та поріг енергетичної шкоди зменшено на {0}%, а електричної – на {1}%. Збільшено шанс отримати критичний удару зброєю на {2}%.</target>
       </segment>
     </unit>
     <unit id="::Hyperallergenic" name="::Hyperallergenic">
@@ -2378,7 +2378,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Consuming any type of medicine will inflict {0} unavoidable bio damage to this character and daze them for {1}.</source>
-        <target state="needs-translation">Вживання будь-якого типу ліків завдасть {0} неминучої біологічної шкоди цьому персонажу та приголомшить його на {1}.</target>
+        <target state="translated">Вживання ліків будь-якого типу завдасть {0} неминучої біологічної шкоди цьому персонажу та змусить його заціпеніти на {1}.</target>
       </segment>
     </unit>
     <unit id="::HyperallergenicItemEffect_Cap" name="::HyperallergenicItemEffect_Cap">
@@ -2388,7 +2388,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Applies hyperallergenic to a suitable melee weapon that will inflict up to {0} unavoidable bio damage to the victim and daze them for {1} if they consume any type of medicine while under its effect. Lasts {2}.</source>
-        <target state="needs-translation">Наносить гіпералергенну речовину на відповідну зброю ближнього бою, яка завдасть до {0} неминучої біологічної шкоди жертві та приголомшить її на {1}, якщо вона вживатиме будь-який тип ліків під час дії. Триває {2}.</target>
+        <target state="translated">Наносить гіпералергенну речовину на відповідну зброю ближнього бою, яка завдасть до {0} неминучої біологічної шкоди жертві та змусить її заціпеніти на {1}, якщо вона вживатиме ліки будь-якого типу доки ефект діє. Триває {2}.</target>
       </segment>
     </unit>
     <unit id="::HyperallergenicItemEffect_Applied" name="::HyperallergenicItemEffect_Applied">
@@ -2398,7 +2398,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>If the attack penetrates the armor, hyperallergenic is applied and it will inflict up to {0} unavoidable bio damage to the victim and daze them for {1} if they consume any type of medicine while under its effect. Lasts {2}.</source>
-        <target state="needs-translation">Якщо атака проникає через броню, наноситься гіпералергенна речовина, яка завдасть до {0} неминучої біологічної шкоди жертві та приголомшить її на {1}, якщо вона вживатиме будь-який тип ліків під час дії. Триває {2}.</target>
+        <target state="translated">Якщо атака проникає через броню, накладається гіпералергенна речовина, яка завдасть до {0} неминучої біологічної шкоди жертві та змусить її заціпеніти на {1}, якщо вона вживатиме ліки будь-якого типу доки ефект діє. Триває {2}.</target>
       </segment>
     </unit>
     <unit id="::BattleTrance" name="::BattleTrance">
@@ -2408,7 +2408,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>All offensive and psionic skills increased by {0}%.</source>
-        <target state="needs-translation">Усі наступальні та психічні навички збільшені на {0}%.</target>
+        <target state="translated">Усі атакуючі та псіонічні навички збільшено на {0}%.</target>
       </segment>
     </unit>
     <unit id="::Smoking" name="::Smoking">
@@ -2418,7 +2418,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Increases psi regeneration by {0}, but reduces constitution by {1}.</source>
-        <target state="needs-translation">Збільшує відновлення пси-енергії на {0}, але зменшує витривалість на {1}.</target>
+        <target state="translated">Збільшує відновлення псі на {0}, але зменшує статуру на {1}.</target>
       </segment>
     </unit>
     <unit id="::CerebralAcidization" name="::CerebralAcidization">
@@ -2428,7 +2428,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This creature suffers {0} acid damage every turn.</source>
-        <target state="needs-translation">Ця істота отримує {0} кислотної шкоди щоразу.</target>
+        <target state="translated">Ця істота отримує {0} кислотної шкоди щоходу.</target>
       </segment>
     </unit>
     <unit id="::VoidRot" name="::VoidRot">
@@ -2438,7 +2438,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This character suffers {0} energy damage every turn.</source>
-        <target state="needs-translation">Цей персонаж отримує {0} енергетичної шкоди щоразу.</target>
+        <target state="translated">Цей персонаж отримує {0} енергетичної шкоди щоходу.</target>
       </segment>
     </unit>
     <unit id="::ImprovedSprint" name="::ImprovedSprint">
@@ -2448,7 +2448,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Movement points increased by {0} and action points increased by {1} when not in stealth.</source>
-        <target state="needs-translation">Очки руху збільшені на {0} та очки дії збільшені на {1}, коли не в режимі скритності.</target>
+        <target state="translated">Очки руху збільшено на {0} та очки дії збільшено на {1}, коли не скрадається.</target>
       </segment>
     </unit>
     <unit id="::EmpoweredInvocation" name="::EmpoweredInvocation">
@@ -2458,7 +2458,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>{0} skill increased by {1}%. When this effect expires, the character will lose all psi points.</source>
-        <target state="needs-translation">Навичка {0} збільшена на {1}%. Після закінчення ефекту персонаж втратить усі пси-очки.</target>
+        <target state="translated">{0} збільшено на {1}%. Після закінчення ефекту персонаж втратить усі очки псі.</target>
       </segment>
     </unit>
     <unit id="::BoardedUp" name="::BoardedUp">
@@ -2468,7 +2468,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Increases the amount blocked by a riot shield by {0}%.</source>
-        <target state="needs-translation">Збільшує кількість блокування щитом на {0}%.</target>
+        <target state="translated">Збільшує кількість шкоди заблокованої поліцейським щитом на {0}%.</target>
       </segment>
     </unit>
     <unit id="::ShellCount" name="::ShellCount">
@@ -2478,7 +2478,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Next shotgun shot will deal {0}% bonus damage.</source>
-        <target state="needs-translation">Наступний постріл з дробовика завдаватиме {0}% додаткової шкоди.</target>
+        <target state="translated">Наступний постріл з дробовика завдасть {0}% додаткової шкоди.</target>
       </segment>
     </unit>
     <unit id="::ScrambledCortex" name="::ScrambledCortex">
@@ -2488,7 +2488,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>This machine is confused and may attack anyone or retreat at random.</source>
-        <target state="needs-translation">Ця машина збентежена і може атакувати будь-кого або відступити навмання.</target>
+        <target state="translated">Ця машина збентежена і може атакувати будь-кого або відступити в довільному напрямку.</target>
       </segment>
     </unit>
     <unit id="::Chemhaze" name="::Chemhaze">
@@ -2498,7 +2498,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Chance to hit with ranged weapons reduced by {0}% and chance to hit with melee weapons and unarmed attacks reduced by {1}%.</source>
-        <target state="needs-translation">Шанс влучити зброєю дальнього бою зменшено на {0}%, а шанс влучити зброєю ближнього бою та беззбройними атаками зменшено на {1}%.</target>
+        <target state="translated">Шанс влучити зброєю дальнього бою зменшено на {0}%, а шанс влучити зброєю ближнього бою та атаками голіруч зменшено на {1}%.</target>
       </segment>
     </unit>
     <unit id="::HelmetLanternAura" name="::HelmetLanternAura">
@@ -2508,7 +2508,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Drains {0} energy every turn and provides light up to {1} tiles in front of the wearer</source>
-        <target state="needs-translation">Витрачає {0} енергії щоразу та забезпечує освітлення до {1} клітинок попереду того, хто його носить.</target>
+        <target state="translated">Витрачає {0} енергії щоходу та освітлює до {1} клітинок попереду того, хто його носить</target>
       </segment>
     </unit>
     <unit id="::ElectricTorchAura" name="::ElectricTorchAura">
@@ -2518,7 +2518,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Drains {0} energy every turn and provides light in radius of {1}.</source>
-        <target state="needs-translation">Витрачає {0} енергії щоразу та забезпечує освітлення в радіусі {1}.</target>
+        <target state="translated">Витрачає {0} енергії щоходу та освітлює середовище в радіусі {1}.</target>
       </segment>
     </unit>
     <unit id="::IndustrialExoskeletonAura" name="::IndustrialExoskeletonAura">
@@ -2528,7 +2528,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Strength increased by {0} and movement points increased by {1}. Movement speed penalty of the armor negated. Drains {2} energy every turn, as well as additional {3} energy for every tile of movement.</source>
-        <target state="needs-translation">Сила збільшена на {0} та кількість рухових очок збільшена на {1}. Усунено штраф до швидкості руху від броні. Витрачає {2} енергії щоразу, а також додаткові {3} енергії за кожну клітинку руху.</target>
+        <target state="translated">Силу збільшено на {0} та очки руху збільшено на {1}. Усунено штраф до швидкості руху від броні. Витрачає {2} енергії щоходу, а також додатково {3} енергії за кожну клітинку переміщення.</target>
       </segment>
     </unit>
     <unit id="::CombatExoskeletonAura" name="::CombatExoskeletonAura">
@@ -2538,7 +2538,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Strength increased by {0} and movement points increased by {1}. Movement speed penalty of the armor negated. Drains {2} energy every turn, as well as additional {3} energy for every tile of movement.</source>
-        <target state="needs-translation">Сила збільшена на {0} та кількість рухових очок збільшена на {1}. Усунено штраф до швидкості руху від броні. Витрачає {2} енергії щоразу, а також додаткові {3} енергії за кожну клітинку руху.</target>
+        <target state="translated">Силу збільшено на {0} та очки руху збільшено на {1}. Усунено штраф до швидкості руху від броні. Витрачає {2} енергії щоходу, а також додатково {3} енергії за кожну клітинку переміщення.</target>
       </segment>
     </unit>
     <unit id="::ShootingSpree" name="::ShootingSpree">
@@ -2548,7 +2548,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Your next sniper rifle attack will refund 100% of the action point cost if it kills the target.</source>
-        <target state="needs-translation">Ваша наступна атака зі снайперської гвинтівки поверне 100% вартості витрачених рухових очок, якщо вона вб'є ціль.</target>
+        <target state="translated">Вартість очок дії вашої наступної атаки зі снайперської гвинтівки буде повністю відшкодовано, якщо цим ви вб’єте ціль.</target>
       </segment>
     </unit>
     <unit id="::PlayerMutantFireClaw" name="::PlayerMutantFireClaw">
@@ -2558,7 +2558,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Flames engulf your left claw, causing it to deal additional 10-15 heat damage with each melee attack.</source>
-        <target state="needs-translation">Полум'я охоплює вашу ліву кігтю, змушуючи її завдавати додаткову теплову шкоду 10-15 одиниць з кожною атакою ближнього бою.</target>
+        <target state="translated">Полум’я охоплює вашу ліву кігтю, змушуючи її завдавати додатково 10-15 теплової шкоди з кожною атакою ближнього бою.</target>
       </segment>
     </unit>
     <unit id="::PlayerMutantFrostClaw" name="::PlayerMutantFrostClaw">
@@ -2568,7 +2568,7 @@ Whenever this aura deals electrical damage, there's {3}% chance the target will 
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Dipping your right claw into a liquid nitrogen freezer has encased it in solid ice, causing it do deal additional 20-35 cold damage with each melee attack, chilling the target in process.</source>
-        <target state="needs-translation">Занурення вашої правої кігті в морозильну камеру з рідким азотом покрило її твердим льодом, змушуючи її завдавати додаткову холодну шкоду 20-35 одиниць з кожною атакою ближнього бою, одночасно охолоджуючи ціль.</target>
+        <target state="translated">Занурення вашої правої кігті в морозильну камеру з рідким азотом покрило її твердим льодом, змушуючи її завдавати додатково 20-35 крижаної шкоди з кожною атакою ближнього бою, охолоджуючи при цьому ціль.</target>
       </segment>
     </unit>
     <unit id="::PlayerMutantRustingAcidInfusion" name="::PlayerMutantRustingAcidInfusion">
