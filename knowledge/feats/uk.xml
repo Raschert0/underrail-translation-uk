@@ -416,7 +416,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
 Setting living targets on fire will put them in state of extreme panic.</source>
         <target state="translated">Коли ви завдаєте шкоди своїми вогневими псі-здібностями, у вас є шанс підпалити ціль, завдаючи {0}% тієї ж шкоди знову протягом {1} ходів.
 
-Підпалювання живих цілей змусить  їх надзвичайно панікувати.</target>
+Підпалювання живих цілей змусить їх надзвичайно панікувати.</target>
       </segment>
     </unit>
     <unit id="::FullAuto" name="::FullAuto">
@@ -466,7 +466,7 @@ Setting living targets on fire will put them in state of extreme panic.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Further increases number of extra rounds for LMG burst by {0}, and increases the amount of extra rounds you get for each wind up stack when bursting with a minigun by {1}.</source>
-        <target state="translated">Подальше збільшення кількості додаткових куль при стрільбі чергами з легкого кулемета на {0} і збільшення кількості додаткових куль, які ви отримуєте за кожне накопичення накопичення під час стрільби чергами з мінігана на {1}.</target>
+        <target state="translated">Додатково збільшує кількість додаткових куль при стрільбі чергами з ЛК на {0} і збільшує кількість додаткових куль, які ви отримуєте за кожне накопичення під час стрільби чергами з мінігана на {1}.</target>
       </segment>
     </unit>
     <unit id="::Ambush" name="::Ambush">
@@ -522,7 +522,7 @@ Cooldown: {1}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces the psi point cost of all psi abilities by {0}%, but increases the action point cost by the same percentage.</source>
-        <target state="needs-translation">Зменшує вартість психічних точок для всіх психічних здібностей на {0}%, але збільшує вартість очок дії на той самий відсоток.</target>
+        <target state="translated">Зменшує вартість очок псі для всіх псі-здібностей на {0}%, але збільшує вартість очок дії на той самий відсоток.</target>
       </segment>
     </unit>
     <unit id="::Tranquility" name="::Tranquility">
@@ -532,7 +532,7 @@ Cooldown: {1}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces the action point cost of all psi abilities by {0} while at full health.</source>
-        <target state="needs-translation">Зменшує вартість очок дії для всіх психічних здібностей на {0} при повному здоров'ї.</target>
+        <target state="translated">Зменшує вартість очок дії для всіх псі-здібностей на {0} при повному здоров’ї.</target>
       </segment>
     </unit>
     <unit id="::Psychosis" name="::Psychosis">
@@ -542,7 +542,7 @@ Cooldown: {1}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Increases critical chance of all psi abilities by {0}%, but also increases their psi point cost by {1}%.</source>
-        <target state="needs-translation">Збільшує шанс критичного удару для всіх психічних здібностей на {0}%, але також збільшує їхню вартість психічних точок на {1}%.</target>
+        <target state="translated">Збільшує шанс критичного удару для всіх псі-здібностей на {0}%, але також збільшує їхню вартість очок псі на {1}%.</target>
       </segment>
     </unit>
     <unit id="::Premeditation-Old" name="::Premeditation-Old">
@@ -554,9 +554,9 @@ Cooldown: {1}.</source>
         <source>When activated this ability will make your next psi ability cost no psi points and have its range increased by {0}.
 
 Cooldown: {1}.</source>
-        <target state="needs-translation">При активації ця здатність зробить вашу наступну психічну здатність безкоштовною за психічними точками та збільшить її радіус дії на {0}.
+        <target state="translated">При активації ця здібність зробить вашу наступну псі-здібність безкоштовною за очками псі та збільшить її радіус дії на {0}.
 
-Відкат: {1}.</target>
+Відновлення: {1}.</target>
       </segment>
     </unit>
     <unit id="::Premeditation" name="::Premeditation">
@@ -568,9 +568,9 @@ Cooldown: {1}.</source>
         <source>When activated this ability will reduce the psi cost of your next psi ability by {0}%, its action point cost by {1}% and increase its range by {2}. The range is not increased for channeled abilities.
 
 Cooldown: {3}.</source>
-        <target state="needs-translation">При активації ця здатність зменшить вартість психічних точок вашої наступної психічної здібності на {0}%, вартість очок дії на {1}% і збільшить її радіус дії на {2}. Радіус дії не збільшується для каналізованих здібностей.
+        <target state="translated">При активації ця здібність зменшить вартість очок псі вашої наступної псі-здібності на {0}%, вартість очок дії на {1}% і збільшить її радіус дії на {2}. Радіус дії не збільшується для підтримуваних здібностей.
 
-Відкат: {3}.</target>
+Відновлення: {3}.</target>
       </segment>
     </unit>
     <unit id="::Cutthroat" name="::Cutthroat">
@@ -584,11 +584,11 @@ Cooldown: {3}.</source>
 You must either be hidden from your target through stealth or the target needs to be incapacitated. Only works on humanoids.
 
 Action point cost: {2}. Cooldown: {3}.</source>
-        <target state="needs-translation">Ви можете виконати потужну стрімку атаку ножем у спину цілі, яка ігнорує всі види опору та захисту, завдає кровотечу, що наносить додаткові {0}% шкоди протягом {1} та приголомшує ціль на той самий час.
+        <target state="translated">Ви можете виконати потужну стрімку атаку цілі ножем зі спини, яка ігнорує всі види опору та щити, накладає кровотечу, що наносить додатково {0}% шкоди протягом {1} та приголомшує ціль на той же час.
 
-Ви повинні бути непомітними для цілі за допомогою скритності або ціль повинна бути знерухомлена. Працює лише на гуманоїдах.
+Ви повинні бути непомітними для цілі за допомогою скрадання або ж ціль повинна бути знерухомлена. Працює лише на гуманоїдах.
 
-Вартість одиниць дії: {2}. Відновлення: {3}.</target>
+Вартість очок дії: {2}. Відновлення: {3}.</target>
       </segment>
     </unit>
     <unit id="::Sap" name="::Sap">
@@ -602,9 +602,9 @@ Action point cost: {2}. Cooldown: {3}.</source>
 You must either be hidden from your target through stealth or the target needs to be incapacitated. Only works on humanoids.
 
 Cooldown: {1}.</source>
-        <target state="needs-translation">Надає {2}% бонус до шкоди при атаках ломами та дозволяє виконати спеціальну атаку ломом у спину цілі, яка ігнорує всі види опору та захисту та знерухомлює ціль на термін до {0}.
+        <target state="translated">Надає {2}% бонус до шкоди при атаках ломами та дозволяє виконати спеціальну атаку цілі ломом зі спини, яка ігнорує всі види опору та щити та знерухомлює ціль на термін до {0}.
 
-Ви повинні бути непомітними для цілі за допомогою скритності або ціль повинна бути знерухомлена. Працює лише на гуманоїдах.
+Ви повинні бути непомітними для цілі за допомогою скрадання або ціль повинна бути знерухомлена. Працює лише на гуманоїдах.
 
 Відновлення: {1}.</target>
       </segment>
@@ -616,7 +616,7 @@ Cooldown: {1}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>You can heal any wound with bandages. You also gain {0}% more health from health restoring medications.</source>
-        <target state="needs-translation">Ви можете вилікувати будь-яку рану бинтами. Ви також отримуєте {0}% більше здоров'я від ліків, що відновлюють здоров'я.</target>
+        <target state="translated">Ви можете вилікувати будь-яку рану бинтами. Ви також отримуєте на {0}% більше здоров’я від ліків, що відновлюють здоров’я.</target>
       </segment>
     </unit>
     <unit id="::PowerManagement" name="::PowerManagement">
@@ -626,7 +626,7 @@ Cooldown: {1}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Electronic devices you craft have {0}% greater energy capacity.</source>
-        <target state="needs-translation">Електронні пристрої, які ви створюєте, мають на {0}% більшу ємність енергії.</target>
+        <target state="translated">Електронні пристрої, які ви створюєте, мають на {0}% більшу ємність енергії.</target>
       </segment>
     </unit>
     <unit id="::LightningPunches-Old" name="::LightningPunches-Old">
@@ -636,7 +636,7 @@ Cooldown: {1}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces the action point cost of your unarmed attack by {0} while your armor penalty is below {1}%.</source>
-        <target state="needs-translation">Зменшує вартість одиниць дії вашої рукопашної атаки на {0}, поки штраф від вашої броні нижче {1}%.</target>
+        <target state="translated">Зменшує вартість очок дії вашої атаки голіруч на {0}, доки штраф від вашої броні нижче ніж {1}%.</target>
       </segment>
     </unit>
     <unit id="::LightningPunches" name="::LightningPunches">
@@ -646,7 +646,7 @@ Cooldown: {1}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces the action point cost of your unarmed and fist weapon attacks by {0} while your armor penalty is below {1}%.</source>
-        <target state="needs-translation">Зменшує вартість одиниць дії ваших рукопашних та атак кулаками на {0}, поки штраф від вашої броні нижче {1}%.</target>
+        <target state="translated">Зменшує вартість очок дії ваших атак голіруч та кулачною зброєю на {0}, доки штраф від вашої броні нижче ніж {1}%.</target>
       </segment>
     </unit>
     <unit id="::Deflection" name="::Deflection">
@@ -656,7 +656,7 @@ Cooldown: {1}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>While unarmed or wielding fist weapons, your dodge is increased by {0}% of your melee skill.</source>
-        <target state="needs-translation">Поки ви беззбройні або володієте зброєю для рукопашного бою, ваш ухил збільшується на {0}% від вашої навички рукопашного бою.</target>
+        <target state="translated">Доки ви беззбройні або тримаєте в руках зброю для кулачного бою, ваше вивертання збільшується на {0}% від вашої навички ближнього бою.</target>
       </segment>
     </unit>
     <unit id="::--ChuckAttack" name="::--ChuckAttack">
@@ -670,7 +670,7 @@ Cooldown: {1}.</source>
 You also gain a small amount of fame and infamy first time you perform this attack.
 
 Cooldown: {3}.</source>
-        <target state="needs-translation">Ви можете виконати потужний круговий удар ногою, який завдає {0}% шкоди зброєю беззбройного бою та має шанс зламати ребра цілі (лише люди), зменшуючи їхні одиниці дії на {1} протягом {2}.
+        <target state="translated">Ви можете виконати потужний круговий удар ногою, який завдає {0}% шкоди від атаки голіруч та має шанс зламати ребра цілі (лише люди), зменшуючи одиниці дії цілі на {1} протягом {2}.
 
 Ви також отримуєте невелику кількість слави та ганьби, коли вперше виконуєте цю атаку.
 
@@ -684,7 +684,7 @@ Cooldown: {3}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces the time it takes to pick and hack locks by {0}%. Also grants you +{1} bonus to stealth skill when in controlled areas.</source>
-        <target state="needs-translation">Зменшує час, необхідний для відкриття та злому замків на {0}%. Також надає вам +{1} бонус до навички скритності, коли ви перебуваєте в контрольованих зонах.</target>
+        <target state="translated">Зменшує час, необхідний для відкриття та злому замків на {0}%. Також надає вам +{1} бонус до навички непомітності, коли ви перебуваєте в контрольованих зонах.</target>
       </segment>
     </unit>
     <unit id="::NinjaLooter" name="::NinjaLooter">
@@ -694,7 +694,7 @@ Cooldown: {3}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces pickpocketing time by {0}%. Also reduces suspicion raised when pickpocketing by {1}% when hidden from the target.</source>
-        <target state="needs-translation">Зменшує час кишенькових крадіжок на {0}%. Також зменшує підозру, що виникає під час кишенькових крадіжок на {1}%, коли ви приховані від цілі.</target>
+        <target state="translated">Зменшує час кишенькових крадіжок на {0}%. Також зменшує підозру, що виникає під час кишенькових крадіжок на {1}%, коли ви приховані від цілі.</target>
       </segment>
     </unit>
     <unit id="::QuickPockets" name="::QuickPockets">
@@ -704,7 +704,7 @@ Cooldown: {3}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Provides you with an extra utility slot and reduces the action point cost of equipping items during combat by {0}%.</source>
-        <target state="needs-translation">Забезпечує вас додатковим слотом для предметів та зменшує вартість одиниць дії для екіпірування предметів під час бою на {0}%.</target>
+        <target state="translated">Надає вам додаткову комірку для предметів та зменшує вартість очок дії для спорядження предметів під час бою на {0}%.</target>
       </segment>
     </unit>
     <unit id="::Snooping" name="::Snooping">
@@ -714,7 +714,7 @@ Cooldown: {3}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Increases perception by {0} for the purpose of detecting hidden passages and other secrets.</source>
-        <target state="needs-translation">Збільшує сприйняття на {0} для виявлення прихованих проходів та інших секретів.</target>
+        <target state="translated">Збільшує сприйняття на {0} для виявлення прихованих проходів та інших таємниць.</target>
       </segment>
     </unit>
     <unit id="::Recklessness" name="::Recklessness">
@@ -724,7 +724,7 @@ Cooldown: {3}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Increases your chance to critically hit with weapons and unarmed attacks by {0}%, but also increases your chance to get critically hit by weapon and unarmed attacks and psi abilities by {1}%.</source>
-        <target state="needs-translation">Збільшує ваш шанс критичного удару зброєю та беззбройними атаками на {0}%, але також збільшує ваш шанс отримати критичний удар зброєю та беззбройними атаками та пси-здібностями на {1}%.</target>
+        <target state="translated">Збільшує ваш шанс критичного удару зброєю та голіруч на {0}%, але також збільшує ваш шанс отримати критичний удар зброєю, голіруч та псі-здібностями на {1}%.</target>
       </segment>
     </unit>
     <unit id="::Nimble" name="::Nimble">
@@ -734,7 +734,7 @@ Cooldown: {3}.</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Reduces armor penalty by {0}% and grants {1}% bonus to dodge and evasion if your armor penalty is at zero.</source>
-        <target state="needs-translation">Зменшує штраф від броні на {0}% та надає {1}% бонус до ухилення та уникнення, якщо штраф від вашої броні дорівнює нулю.</target>
+        <target state="translated">Зменшує штраф від броні на {0}% та надає {1}% бонус до вивертання та ухилення, якщо штраф від вашої броні дорівнює нулю.</target>
       </segment>
     </unit>
     <unit id="::SpecialTactics" name="::SpecialTactics">
@@ -746,7 +746,7 @@ Cooldown: {3}.</source>
         <source>Grants you an ability that when activated will remove the action point cost of your next special bolt attack. This ability can only be activated while out of combat.
 
 Cooldown: {0} seconds.</source>
-        <target state="needs-translation">Надає вам здатність, яка при активації видалить вартість одиниць дії вашої наступної спеціальної стрільби. Цю здатність можна активувати лише поза боєм.
+        <target state="translated">Надає вам здібність, яка при активації прибере вартість очок дії вашої наступної спеціальної атаки стрілою. Цю здібність можна активувати лише поза боєм.
 
 Відновлення: {0} секунд.</target>
       </segment>
@@ -762,9 +762,9 @@ Cooldown: {0} seconds.</source>
 Off-balanced characters have their dodge and evasion reduced to zero.
 
 Cooldown: {3}</source>
-        <target state="needs-translation">Ви можете виконати спеціальну атаку кувалдою, яка завдає {0}% шкоди зброєю та не ігнорує поріг шкоди, але виводить живих цілей з рівноваги на {1}, якщо вона влучить, і коштує лише {2} одиниці дії.
+        <target state="translated">Ви можете виконати спеціальну атаку кувалдою, яка завдає {0}% шкоди зброї та не ігнорує поріг шкоди, але виводить живих цілей з рівноваги на {1}, якщо вона влучить, і коштує лише {2} очок дії.
 
-Цілі, які втратили рівновагу, мають свій ухил та уникнення, зменшені до нуля.
+Вивертання та ухилення цілей, які втратили рівновагу, зменшуються до нуля.
 
 Відновлення: {3}</target>
       </segment>
@@ -776,7 +776,7 @@ Cooldown: {3}</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>You regenerate psi points in presence of mindshrooms when below {0}% of your psi point capacity.</source>
-        <target state="needs-translation">Ви відновлюєте пси-очки в присутності грибів розуму, коли нижче {0}% вашої психічної ємності.</target>
+        <target state="translated">Ви відновлюєте очки псі в присутності грибів розуму, коли нижче {0}% вашої ємності очок псі.</target>
       </segment>
     </unit>
     <unit id="::Shroomhead" name="::Shroomhead">
@@ -786,7 +786,7 @@ Cooldown: {3}</source>
       </mda:metadata>
       <segment state="translated" xml:space="preserve">
         <source>Your subconscious is tuned into the fungal surroundings so well that you recover {0} psi points when picking up mindshrooms.</source>
-        <target state="needs-translation">Ваша підсвідомість настільки добре налаштована на грибне оточення, що ви відновлюєте {0} пси-очок, коли підбираєте гриби розуму.</target>
+        <target state="translated">Ваша підсвідомість настільки добре налаштована на грибне оточення, що ви відновлюєте {0} очок псі, коли підбираєте гриби розуму.</target>
       </segment>
     </unit>
     <unit id="::Yell" name="::Yell">
@@ -798,7 +798,7 @@ Cooldown: {3}</source>
         <source>You can issue an intimidating shout in an attempt to reduce combat readiness of surrounding enemies and remove them from stealth . All affected enemies will have their offensive skills reduced by an amount equal to {0}% of your intimidation skill for {1}.
 
 Cooldown: {2}.</source>
-        <target state="needs-translation">Ви можете видати загрозливий крик, щоб спробувати зменшити бойову готовність навколишніх ворогів та вивести їх зі скритності. Усі уражені вороги матимуть свої навички нападу зменшені на суму, що дорівнює {0}% вашої навички залякування протягом {1}.
+        <target state="translated">Ви можете видати залякувальний крик, щоб спробувати зменшити бойову готовність ворогів довкола та вивести їх з непомітності. Для усіх уражених ворогів атакуючі навички зменшуються на суму, що дорівнює {0}% вашої навички залякування протягом {1}.
 
 Відновлення: {2}.</target>
       </segment>
